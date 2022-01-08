@@ -6,12 +6,16 @@ import mods.jei.JEI;
 ########################################
 # Items
 ########################################
-# Wooden Gear
-recipes.remove(<enderio:item_material:9>);
-mods.jei.JEI.hide(<enderio:item_material:9>);
-<ore:gearWood>.remove(<enderio:item_material:9>);
 
-# Stone Compound Gear
-recipes.remove(<enderio:item_material:10>);
-mods.jei.JEI.hide(<enderio:item_material:10>);
-<ore:gearStone>.remove(<enderio:item_material:10>);
+
+
+########################################
+# Blocks
+########################################
+# Reinforced Obsidian
+recipes.remove(<enderio:block_reinforced_obsidian>);
+recipes.addShaped(<enderio:block_reinforced_obsidian>, [
+    [<enderio:item_alloy_ingot:6>, <enderio:block_infinity>, <enderio:item_alloy_ingot:6>],
+    [<enderio:block_infinity>, <minecraft:obsidian>, <enderio:block_infinity>],
+    [<enderio:item_alloy_ingot:6>, <enderio:block_infinity>, <enderio:item_alloy_ingot:6>]
+]);
