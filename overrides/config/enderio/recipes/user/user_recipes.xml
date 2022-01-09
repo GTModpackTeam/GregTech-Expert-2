@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+    <recipe name="Tweak: Stick from Wood" required="false" disabled="true">
+    </recipe>
 
+    <recipe name="Tweak: Chest from Wood" required="false" disabled="true">
+    </recipe>
+
+    <recipe name="Tweak: Wood Hopper" required="false" disabled="true">
+    </recipe>
 </enderio:recipes>

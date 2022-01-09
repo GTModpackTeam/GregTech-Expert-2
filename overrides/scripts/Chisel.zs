@@ -25,6 +25,14 @@ recipes.addShaped(<chisel:chisel_hitech>, [
     [<ore:stickStainlessSteel>, null, <ore:craftingToolHardHammer>]
 ]);
 
+# Quartz fix
+var quartz = <ore:quartz>;
+quartz.add(<minecraft:quartz>);
+quartz.add(<appliedenergistics2:material:10>);
+quartz.add(<appliedenergistics2:material:11>);
+quartz.add(<appliedenergistics2:material:12>);
+mods.chisel.Groups.removeGroup("AECertusQuartz");
+mods.chisel.Groups.removeGroup(<ore:quartz>);
 
 
 ########################################
@@ -37,3 +45,6 @@ recipes.addShaped(<chisel:auto_chisel>, [
     [<ore:plateGlass>, <chisel:chisel_hitech>.noReturn(), <ore:plateGlass>],
     [<ore:plateIron>, <extrautils2:compressedcobblestone:1>, <ore:plateIron>]
 ]);
+
+// TODO
+# 鉱石辞書の削除

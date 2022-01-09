@@ -7,58 +7,73 @@ import mods.gregtech.material.MaterialRegistry;
 ########################################
 # Gregtech
 ########################################
-global alloy_smelter        as RecipeMap = RecipeMap.getByName("alloy_smelter");
-global arc_furnace          as RecipeMap = RecipeMap.getByName("arc_furnace");
-global assembler            as RecipeMap = RecipeMap.getByName("assembler");
-global autoclave            as RecipeMap = RecipeMap.getByName("autoclave");
-global blast_furnace        as RecipeMap = RecipeMap.getByName("blast_furnace");
-global cutting_saw          as RecipeMap = RecipeMap.getByName("cutting_saw");
-global brewer               as RecipeMap = RecipeMap.getByName("brewer");
-global canner               as RecipeMap = RecipeMap.getByName("canner");
-global centrifuge           as RecipeMap = RecipeMap.getByName("centrifuge");
-global chemical_bath        as RecipeMap = RecipeMap.getByName("chemical_bath");
-global chemical_reactor     as RecipeMap = RecipeMap.getByName("chemical_reactor");
-global cracker              as RecipeMap = RecipeMap.getByName("cracker");
-global diesel_generator     as RecipeMap = RecipeMap.getByName("diesel_generator");
-global distillation_tower   as RecipeMap = RecipeMap.getByName("distillation_tower");
-global distillery           as RecipeMap = RecipeMap.getByName("distillery");
-global electrolyzer         as RecipeMap = RecipeMap.getByName("electrolyzer");
-global electromagnetic      as RecipeMap = RecipeMap.getByName("electromagnetic_separator");
-global extractor            as RecipeMap = RecipeMap.getByName("extractor");
-global extruder             as RecipeMap = RecipeMap.getByName("extruder");
-global fermenter            as RecipeMap = RecipeMap.getByName("fermenter");
-global fluid_canner         as RecipeMap = RecipeMap.getByName("fluid_canner");
-global fluid_extractor      as RecipeMap = RecipeMap.getByName("fluid_extractor");
-global fluid_heater         as RecipeMap = RecipeMap.getByName("fluid_heater");
-global fluid_solidifier     as RecipeMap = RecipeMap.getByName("fluid_solidifier");
-global forge_hammer         as RecipeMap = RecipeMap.getByName("forge_hammer");
-global forming_press        as RecipeMap = RecipeMap.getByName("forming_press");
-global gas_turbine          as RecipeMap = RecipeMap.getByName("gas_turbine");
-global implosion_compressor as RecipeMap = RecipeMap.getByName("implosion_compressor");
-global lathe                as RecipeMap = RecipeMap.getByName("lathe");
-global macerator            as RecipeMap = RecipeMap.getByName("macerator");
-global metal_bender         as RecipeMap = RecipeMap.getByName("metal_bender");
-global microwave            as RecipeMap = RecipeMap.getByName("microwave");
-global mixer                as RecipeMap = RecipeMap.getByName("mixer");
-global orewasher            as RecipeMap = RecipeMap.getByName("orewasher");
-global packer               as RecipeMap = RecipeMap.getByName("packer");
-global plasma_arc_furnace   as RecipeMap = RecipeMap.getByName("plasma_arc_furnace");
-global plasma_generator     as RecipeMap = RecipeMap.getByName("plasma_generator");
-global polarizer            as RecipeMap = RecipeMap.getByName("polarizer");
-global laser_engraver       as RecipeMap = RecipeMap.getByName("laser_engraver");
-global pyro                 as RecipeMap = RecipeMap.getByName("pyro");
-global sifter               as RecipeMap = RecipeMap.getByName("sifter");
-global steam_turbine        as RecipeMap = RecipeMap.getByName("steam_turbine");
-global thermal_centrifuge   as RecipeMap = RecipeMap.getByName("thermal_centrifuge");
-global unpacker             as RecipeMap = RecipeMap.getByName("unpacker");
-global vacuum_freezer       as RecipeMap = RecipeMap.getByName("vacuum_freezer");
-global wiremill             as RecipeMap = RecipeMap.getByName("wiremill");
+global alloy_smelter             as RecipeMap = RecipeMap.getByName("alloy_smelter");
+global arc_furnace               as RecipeMap = RecipeMap.getByName("arc_furnace");
+global assembler                 as RecipeMap = RecipeMap.getByName("assembler");
+global assembly_line             as RecipeMap = RecipeMap.getByName("assembly_line");
+global autoclave                 as RecipeMap = RecipeMap.getByName("autoclave");
+global bender                    as RecipeMap = RecipeMap.getByName("bender");
+global brewery                   as RecipeMap = RecipeMap.getByName("brewery");
+global canneras                  as RecipeMap = RecipeMap.getByName("canner");
+global centrifuge                as RecipeMap = RecipeMap.getByName("centrifuge");
+global chemical_bath             as RecipeMap = RecipeMap.getByName("chemical_bath");
+global chemical_reactor          as RecipeMap = RecipeMap.getByName("chemical_reactor");
+global circuit_assembler         as RecipeMap = RecipeMap.getByName("circuit_assembler");
+global coke_oven                 as RecipeMap = RecipeMap.getByName("coke_oven");
+global compressor                as RecipeMap = RecipeMap.getByName("compressor");
+global cracker                   as RecipeMap = RecipeMap.getByName("cracker");
+global cutter                    as RecipeMap = RecipeMap.getByName("cutter");
+global distillation_tower        as RecipeMap = RecipeMap.getByName("distillation_tower");
+global distillery                as RecipeMap = RecipeMap.getByName("distillery");
+global electric_blast_furnace    as RecipeMap = RecipeMap.getByName("electric_blast_furnace");
+global electric_furnace          as RecipeMap = RecipeMap.getByName("electric_furnace");
+global electrolyzer              as RecipeMap = RecipeMap.getByName("electrolyzer");
+global electromagnetic_separator as RecipeMap = RecipeMap.getByName("electromagnetic_separator");
+global extractor                 as RecipeMap = RecipeMap.getByName("extractor");
+global extruder                  as RecipeMap = RecipeMap.getByName("extruder");
+global fermenter                 as RecipeMap = RecipeMap.getByName("fermenter");
+global fluid_heater              as RecipeMap = RecipeMap.getByName("fluid_heater");
+global fluid_solidifier          as RecipeMap = RecipeMap.getByName("fluid_solidifier");
+global forge_hammer              as RecipeMap = RecipeMap.getByName("forge_hammer");
+global forming_press             as RecipeMap = RecipeMap.getByName("forming_press");
+global fusion_reactor            as RecipeMap = RecipeMap.getByName("fusion_reactor");
+global gas_collector             as RecipeMap = RecipeMap.getByName("gas_collector");
+global implosion_compressor      as RecipeMap = RecipeMap.getByName("implosion_compressor");
+global large_chemical_reactor    as RecipeMap = RecipeMap.getByName("large_chemical_reactor");
+global laser_engraver            as RecipeMap = RecipeMap.getByName("laser_engraver");
+global lathe                     as RecipeMap = RecipeMap.getByName("lathe");
+global macerator                 as RecipeMap = RecipeMap.getByName("macerator");
+global mass_fabricator           as RecipeMap = RecipeMap.getByName("mass_fabricator");
+global mixer                     as RecipeMap = RecipeMap.getByName("mixer");
+global ore_washer                as RecipeMap = RecipeMap.getByName("ore_washer");
+global packer                    as RecipeMap = RecipeMap.getByName("packer");
+global polarizer                 as RecipeMap = RecipeMap.getByName("polarizer");
+global primitive_blast_furnace   as RecipeMap = RecipeMap.getByName("primitive_blast_furnace");
+global pyrolyse_oven             as RecipeMap = RecipeMap.getByName("pyrolyse_oven");
+global replicator                as RecipeMap = RecipeMap.getByName("replicator");
+global rock_breaker              as RecipeMap = RecipeMap.getByName("rock_breaker");
+global scanner                   as RecipeMap = RecipeMap.getByName("scanner");
+global sifter                    as RecipeMap = RecipeMap.getByName("sifter");
+global thermal_centrifuge        as RecipeMap = RecipeMap.getByName("thermal_centrifuge");
+global unpacker                  as RecipeMap = RecipeMap.getByName("unpacker");
+global vacuum_freezer            as RecipeMap = RecipeMap.getByName("vacuum_freezer");
+global wiremill                  as RecipeMap = RecipeMap.getByName("wiremill");
 
 
 
 ########################################
 # Applied Energistics 2
 ########################################
+# Interface
+var ae_ii = <ore:ae2.interface.item>;
+ae_ii.add(<appliedenergistics2:interface>);
+ae_ii.add(<appliedenergistics2:part:440>);
+
+# Fluid Interface
+var ae_fi = <ore:ae2.interface.fluid>;
+ae_fi.add(<appliedenergistics2:fluid_interface>);
+ae_fi.add(<appliedenergistics2:part:441>);
+
 # Glass Cable
 var ae_gc = <ore:ae2.cable.glass>;
 ae_gc.add(<appliedenergistics2:part>);
@@ -79,26 +94,6 @@ ae_gc.add(<appliedenergistics2:part:14>);
 ae_gc.add(<appliedenergistics2:part:15>);
 ae_gc.add(<appliedenergistics2:part:16>);
 
-# Covered Cable
-var ae_nc = <ore:ae2.cable.normal>;
-ae_nc.add(<appliedenergistics2:part:20>);
-ae_nc.add(<appliedenergistics2:part:21>);
-ae_nc.add(<appliedenergistics2:part:22>);
-ae_nc.add(<appliedenergistics2:part:23>);
-ae_nc.add(<appliedenergistics2:part:24>);
-ae_nc.add(<appliedenergistics2:part:25>);
-ae_nc.add(<appliedenergistics2:part:26>);
-ae_nc.add(<appliedenergistics2:part:27>);
-ae_nc.add(<appliedenergistics2:part:28>);
-ae_nc.add(<appliedenergistics2:part:29>);
-ae_nc.add(<appliedenergistics2:part:30>);
-ae_nc.add(<appliedenergistics2:part:31>);
-ae_nc.add(<appliedenergistics2:part:32>);
-ae_nc.add(<appliedenergistics2:part:33>);
-ae_nc.add(<appliedenergistics2:part:34>);
-ae_nc.add(<appliedenergistics2:part:35>);
-ae_nc.add(<appliedenergistics2:part:36>);
-
 # Smart Cable
 var ae_sc = <ore:ae2.cable.smart>;
 ae_sc.add(<appliedenergistics2:part:40>);
@@ -118,6 +113,26 @@ ae_sc.add(<appliedenergistics2:part:53>);
 ae_sc.add(<appliedenergistics2:part:54>);
 ae_sc.add(<appliedenergistics2:part:55>);
 ae_sc.add(<appliedenergistics2:part:56>);
+
+# Covered Cable
+var ae_nc = <ore:ae2.cable.normal>;
+ae_nc.add(<appliedenergistics2:part:20>);
+ae_nc.add(<appliedenergistics2:part:21>);
+ae_nc.add(<appliedenergistics2:part:22>);
+ae_nc.add(<appliedenergistics2:part:23>);
+ae_nc.add(<appliedenergistics2:part:24>);
+ae_nc.add(<appliedenergistics2:part:25>);
+ae_nc.add(<appliedenergistics2:part:26>);
+ae_nc.add(<appliedenergistics2:part:27>);
+ae_nc.add(<appliedenergistics2:part:28>);
+ae_nc.add(<appliedenergistics2:part:29>);
+ae_nc.add(<appliedenergistics2:part:30>);
+ae_nc.add(<appliedenergistics2:part:31>);
+ae_nc.add(<appliedenergistics2:part:32>);
+ae_nc.add(<appliedenergistics2:part:33>);
+ae_nc.add(<appliedenergistics2:part:34>);
+ae_nc.add(<appliedenergistics2:part:35>);
+ae_nc.add(<appliedenergistics2:part:36>);
 
 # Dense Cable
 var ae_dnc = <ore:ae2.cable.dense.normal>;

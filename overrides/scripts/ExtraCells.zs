@@ -60,20 +60,160 @@ recipes.removeShaped(<extracells:storage.physical>, [
     [<ore:dustFluix>, <extracells:storage.component>, <ore:dustFluix>],
     [<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>]
 ]);
-recipes.addShaped(<extracells:storage.physical>, [
-    [<ore:screwTungstenSteel>, <ore:plateTungstenSteel>, <ore:screwTungstenSteel>],
-    [<ore:plateTungstenSteel>, <extracells:storage.component>, <ore:plateTungstenSteel>],
-    [<ore:screwTungstenSteel>, <ore:plateTungstenSteel>, <ore:screwTungstenSteel>]
+// recipes.addShaped(<extracells:storage.physical>, [
+//     [<ore:screwTungstenSteel>, <ore:plateTungstenSteel>, <ore:screwTungstenSteel>],
+//     [<ore:plateTungstenSteel>, <extracells:storage.component>, <ore:plateTungstenSteel>],
+//     [<ore:screwTungstenSteel>, <ore:plateTungstenSteel>, <ore:screwTungstenSteel>]
+// ]);
+// recipes.addShaped(<extracells:storage.physical>, [
+//     [<ore:craftingToolScrewdriver>, <ore:plateTungstenSteel>, <ore:screwTungstenSteel>],
+//     [<ore:plateTungstenSteel>, <extracells:storage.component>, <ore:plateTungstenSteel>],
+//     [<ore:screwTungstenSteel>, <ore:plateTungstenSteel>, <ore:craftingToolHardHammer>]
+// ]);
+// recipes.addShaped(<extracells:storage.physical>, [
+//     [<ore:craftingToolHardHammer>, <ore:plateTungstenSteel>, <ore:screwTungstenSteel>],
+//     [<ore:plateTungstenSteel>, <extracells:storage.component>, <ore:plateTungstenSteel>],
+//     [<ore:screwTungstenSteel>, <ore:plateTungstenSteel>, <ore:craftingToolScrewdriver>]
+// ]);
+
+# 1024k Storage Cell
+recipes.removeShaped(<extracells:storage.physical:1>, [
+    [<appliedenergistics2:quartz_glass>, <ore:dustFluix>, <appliedenergistics2:quartz_glass>],
+    [<ore:dustFluix>, <extracells:storage.component:1>, <ore:dustFluix>],
+    [<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>]
 ]);
-recipes.addShaped(<extracells:storage.physical>, [
-    [<ore:craftingToolScrewdriver>, <ore:plateTungstenSteel>, <ore:screwTungstenSteel>],
-    [<ore:plateTungstenSteel>, <extracells:storage.component>, <ore:plateTungstenSteel>],
-    [<ore:screwTungstenSteel>, <ore:plateTungstenSteel>, <ore:craftingToolHardHammer>]
+// recipes.addShaped(<extracells:storage.physical:1>, [
+//     [<ore:screwChrome>, <ore:plateChrome>, <ore:screwChrome>],
+//     [<ore:plateChrome>, <extracells:storage.component:1>, <ore:plateChrome>],
+//     [<ore:screwChrome>, <ore:plateChrome>, <ore:screwChrome>]
+// ]);
+// recipes.addShaped(<extracells:storage.physical:1>, [
+//     [<ore:craftingToolScrewdriver>, <ore:plateChrome>, <ore:screwChrome>],
+//     [<ore:plateChrome>, <extracells:storage.component:1>, <ore:plateChrome>],
+//     [<ore:screwChrome>, <ore:plateChrome>, <ore:craftingToolHardHammer>]
+// ]);
+// recipes.addShaped(<extracells:storage.physical:1>, [
+//     [<ore:craftingToolHardHammer>, <ore:plateChrome>, <ore:screwChrome>],
+//     [<ore:plateChrome>, <extracells:storage.component:1>, <ore:plateChrome>],
+//     [<ore:screwChrome>, <ore:plateChrome>, <ore:craftingToolScrewdriver>]
+// ]);
+
+# 4096k Storage Cell
+recipes.removeShaped(<extracells:storage.physical:2>, [
+    [<appliedenergistics2:quartz_glass>, <ore:dustFluix>, <appliedenergistics2:quartz_glass>],
+    [<ore:dustFluix>, <extracells:storage.component:2>, <ore:dustFluix>],
+    [<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>]
 ]);
-recipes.addShaped(<extracells:storage.physical>, [
-    [<ore:craftingToolHardHammer>, <ore:plateTungstenSteel>, <ore:screwTungstenSteel>],
-    [<ore:plateTungstenSteel>, <extracells:storage.component>, <ore:plateTungstenSteel>],
-    [<ore:screwTungstenSteel>, <ore:plateTungstenSteel>, <ore:craftingToolScrewdriver>]
+// recipes.addShaped(<extracells:storage.physical:2>, [
+//     [<ore:screwOsmium>, <ore:plateOsmium>, <ore:screwOsmium>],
+//     [<ore:plateOsmium>, <extracells:storage.component:2>, <ore:plateOsmium>],
+//     [<ore:screwOsmium>, <ore:plateOsmium>, <ore:screwOsmium>]
+// ]);
+// recipes.addShaped(<extracells:storage.physical:2>, [
+//     [<ore:craftingToolScrewdriver>, <ore:plateOsmium>, <ore:screwOsmium>],
+//     [<ore:plateOsmium>, <extracells:storage.component:2>, <ore:plateOsmium>],
+//     [<ore:screwOsmium>, <ore:plateOsmium>, <ore:craftingToolHardHammer>]
+// ]);
+// recipes.addShaped(<extracells:storage.physical:2>, [
+//     [<ore:craftingToolHardHammer>, <ore:plateOsmium>, <ore:screwOsmium>],
+//     [<ore:plateOsmium>, <extracells:storage.component:2>, <ore:plateOsmium>],
+//     [<ore:screwOsmium>, <ore:plateOsmium>, <ore:craftingToolScrewdriver>]
+// ]);
+
+# 16384k Storage Cell
+recipes.removeShaped(<extracells:storage.physical:3>, [
+    [<appliedenergistics2:quartz_glass>, <ore:dustFluix>, <appliedenergistics2:quartz_glass>],
+    [<ore:dustFluix>, <extracells:storage.component:3>, <ore:dustFluix>],
+    [<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>]
+]);
+// recipes.addShaped(<extracells:storage.physical:3>, [
+//     [<ore:screwNeutronium>, <ore:plateNeutronium>, <ore:screwNeutronium>],
+//     [<ore:plateNeutronium>, <extracells:storage.component:3>, <ore:plateNeutronium>],
+//     [<ore:screwNeutronium>, <ore:plateNeutronium>, <ore:screwNeutronium>]
+// ]);
+// recipes.addShaped(<extracells:storage.physical:3>, [
+//     [<ore:craftingToolScrewdriver>, <ore:plateNeutronium>, <ore:screwNeutronium>],
+//     [<ore:plateNeutronium>, <extracells:storage.component:3>, <ore:plateNeutronium>],
+//     [<ore:screwNeutronium>, <ore:plateNeutronium>, <ore:craftingToolHardHammer>]
+// ]);
+// recipes.addShaped(<extracells:storage.physical:3>, [
+//     [<ore:craftingToolHardHammer>, <ore:plateNeutronium>, <ore:screwNeutronium>],
+//     [<ore:plateNeutronium>, <extracells:storage.component:3>, <ore:plateNeutronium>],
+//     [<ore:screwNeutronium>, <ore:plateNeutronium>, <ore:craftingToolScrewdriver>]
+// ]);
+
+# 256k Fluid Cell
+recipes.removeShaped(<extracells:storage.fluid:4>, [
+    [<appliedenergistics2:quartz_glass>, <ore:dustFluix>, <appliedenergistics2:quartz_glass>],
+    [<ore:dustFluix>, <extracells:storage.component:8>, <ore:dustFluix>],
+    [<extracells:certustank>, <extracells:certustank>, <extracells:certustank>]
+]);
+// recipes.addShaped(<extracells:storage.fluid:4>, [
+//     [<ore:screwTungstenSteel>, <ore:plateTungstenSteel>, <ore:screwTungstenSteel>],
+//     [<ore:plateTungstenSteel>, <extracells:storage.component:8>, <ore:plateTungstenSteel>],
+//     [<ore:screwTungstenSteel>, <ore:plateTungstenSteel>, <ore:screwTungstenSteel>]
+// ]);
+// recipes.addShaped(<extracells:storage.fluid:4>, [
+//     [<ore:craftingToolScrewdriver>, <ore:plateTungstenSteel>, <ore:screwTungstenSteel>],
+//     [<ore:plateTungstenSteel>, <extracells:storage.component:8>, <ore:plateTungstenSteel>],
+//     [<ore:screwTungstenSteel>, <ore:plateTungstenSteel>, <ore:craftingToolHardHammer>]
+// ]);
+// recipes.addShaped(<extracells:storage.fluid:4>, [
+//     [<ore:craftingToolHardHammer>, <ore:plateTungstenSteel>, <ore:screwTungstenSteel>],
+//     [<ore:plateTungstenSteel>, <extracells:storage.component:8>, <ore:plateTungstenSteel>],
+//     [<ore:screwTungstenSteel>, <ore:plateTungstenSteel>, <ore:craftingToolScrewdriver>]
+// ]);
+
+# 1024k Fluid Cell
+recipes.removeShaped(<extracells:storage.fluid:5>, [
+    [<appliedenergistics2:quartz_glass>, <ore:dustFluix>, <appliedenergistics2:quartz_glass>],
+    [<ore:dustFluix>, <extracells:storage.component:9>, <ore:dustFluix>],
+    [<extracells:certustank>, <extracells:certustank>, <extracells:certustank>]
+]);
+// recipes.addShaped(<extracells:storage.fluid:5>, [
+//     [<ore:screwChrome>, <ore:plateChrome>, <ore:screwChrome>],
+//     [<ore:plateChrome>, <extracells:storage.component:9>, <ore:plateChrome>],
+//     [<ore:screwChrome>, <ore:plateChrome>, <ore:screwChrome>]
+// ]);
+// recipes.addShaped(<extracells:storage.fluid:5>, [
+//     [<ore:craftingToolScrewdriver>, <ore:plateChrome>, <ore:screwChrome>],
+//     [<ore:plateChrome>, <extracells:storage.component:9>, <ore:plateChrome>],
+//     [<ore:screwChrome>, <ore:plateChrome>, <ore:craftingToolHardHammer>]
+// ]);
+// recipes.addShaped(<extracells:storage.fluid:5>, [
+//     [<ore:craftingToolHardHammer>, <ore:plateChrome>, <ore:screwChrome>],
+//     [<ore:plateChrome>, <extracells:storage.component:9>, <ore:plateChrome>],
+//     [<ore:screwChrome>, <ore:plateChrome>, <ore:craftingToolScrewdriver>]
+// ]);
+
+# 4096k Fluid Cell
+recipes.removeShaped(<extracells:storage.fluid:6>, [
+    [<appliedenergistics2:quartz_glass>, <ore:dustFluix>, <appliedenergistics2:quartz_glass>],
+    [<ore:dustFluix>, <extracells:storage.component:10>, <ore:dustFluix>],
+    [<extracells:certustank>, <extracells:certustank>, <extracells:certustank>]
+]);
+// recipes.addShaped(<extracells:storage.fluid:6>, [
+//     [<ore:screwOsmium>, <ore:plateOsmium>, <ore:screwOsmium>],
+//     [<ore:plateOsmium>, <extracells:storage.component:10>, <ore:plateOsmium>],
+//     [<ore:screwOsmium>, <ore:plateOsmium>, <ore:screwOsmium>]
+// ]);
+// recipes.addShaped(<extracells:storage.fluid:6>, [
+//     [<ore:craftingToolScrewdriver>, <ore:plateOsmium>, <ore:screwOsmium>],
+//     [<ore:plateOsmium>, <extracells:storage.component:10>, <ore:plateOsmium>],
+//     [<ore:screwOsmium>, <ore:plateOsmium>, <ore:craftingToolHardHammer>]
+// ]);
+// recipes.addShaped(<extracells:storage.fluid:6>, [
+//     [<ore:craftingToolHardHammer>, <ore:plateOsmium>, <ore:screwOsmium>],
+//     [<ore:plateOsmium>, <extracells:storage.component:10>, <ore:plateOsmium>],
+//     [<ore:screwOsmium>, <ore:plateOsmium>, <ore:craftingToolScrewdriver>]
+// ]);
+
+# 256k Storage Component
+recipes.remove(<extracells:storage.component>);
+recipes.addShaped(<extracells:storage.component>, [
+    [<ore:circuitExtreme>, <appliedenergistics2:material:38>, <ore:circuitExtreme>],
+    [<appliedenergistics2:material:38>, <appliedenergistics2:material:23>, <appliedenergistics2:material:38>],
+    [<ore:circuitExtreme>, <appliedenergistics2:material:38>, <ore:circuitExtreme>]
 ]);
 assembler.recipeBuilder().
     inputs([
@@ -87,26 +227,12 @@ assembler.recipeBuilder().
     EUt(1920).
     buildAndRegister();
 
-# 1024k Storage Cell
-recipes.removeShaped(<extracells:storage.physical:1>, [
-    [<appliedenergistics2:quartz_glass>, <ore:dustFluix>, <appliedenergistics2:quartz_glass>],
-    [<ore:dustFluix>, <extracells:storage.component:1>, <ore:dustFluix>],
-    [<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>]
-]);
-recipes.addShaped(<extracells:storage.physical:1>, [
-    [<ore:screwChrome>, <ore:plateChrome>, <ore:screwChrome>],
-    [<ore:plateChrome>, <extracells:storage.component:1>, <ore:plateChrome>],
-    [<ore:screwChrome>, <ore:plateChrome>, <ore:screwChrome>]
-]);
-recipes.addShaped(<extracells:storage.physical:1>, [
-    [<ore:craftingToolScrewdriver>, <ore:plateChrome>, <ore:screwChrome>],
-    [<ore:plateChrome>, <extracells:storage.component:1>, <ore:plateChrome>],
-    [<ore:screwChrome>, <ore:plateChrome>, <ore:craftingToolHardHammer>]
-]);
-recipes.addShaped(<extracells:storage.physical:1>, [
-    [<ore:craftingToolHardHammer>, <ore:plateChrome>, <ore:screwChrome>],
-    [<ore:plateChrome>, <extracells:storage.component:1>, <ore:plateChrome>],
-    [<ore:screwChrome>, <ore:plateChrome>, <ore:craftingToolScrewdriver>]
+# 1024k Storage Component
+recipes.remove(<extracells:storage.component:1>);
+recipes.addShaped(<extracells:storage.component:1>, [
+    [<ore:circuitElite>, <extracells:storage.component>, <ore:circuitElite>],
+    [<extracells:storage.component>, <appliedenergistics2:material:23>, <extracells:storage.component>],
+    [<ore:circuitElite>, <extracells:storage.component>, <ore:circuitElite>]
 ]);
 assembler.recipeBuilder().
     inputs([
@@ -120,26 +246,12 @@ assembler.recipeBuilder().
     EUt(7680).
     buildAndRegister();
 
-# 4096k Storage Cell
-recipes.removeShaped(<extracells:storage.physical:2>, [
-    [<appliedenergistics2:quartz_glass>, <ore:dustFluix>, <appliedenergistics2:quartz_glass>],
-    [<ore:dustFluix>, <extracells:storage.component:2>, <ore:dustFluix>],
-    [<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>]
-]);
-recipes.addShaped(<extracells:storage.physical:2>, [
-    [<ore:screwOsmium>, <ore:plateOsmium>, <ore:screwOsmium>],
-    [<ore:plateOsmium>, <extracells:storage.component:2>, <ore:plateOsmium>],
-    [<ore:screwOsmium>, <ore:plateOsmium>, <ore:screwOsmium>]
-]);
-recipes.addShaped(<extracells:storage.physical:2>, [
-    [<ore:craftingToolScrewdriver>, <ore:plateOsmium>, <ore:screwOsmium>],
-    [<ore:plateOsmium>, <extracells:storage.component:2>, <ore:plateOsmium>],
-    [<ore:screwOsmium>, <ore:plateOsmium>, <ore:craftingToolHardHammer>]
-]);
-recipes.addShaped(<extracells:storage.physical:2>, [
-    [<ore:craftingToolHardHammer>, <ore:plateOsmium>, <ore:screwOsmium>],
-    [<ore:plateOsmium>, <extracells:storage.component:2>, <ore:plateOsmium>],
-    [<ore:screwOsmium>, <ore:plateOsmium>, <ore:craftingToolScrewdriver>]
+# 4096k Storage Component
+recipes.remove(<extracells:storage.component:2>);
+recipes.addShaped(<extracells:storage.component:2>, [
+    [<ore:circuitMaster>, <extracells:storage.component:1>, <ore:circuitMaster>],
+    [<extracells:storage.component:1>, <appliedenergistics2:material:24>, <extracells:storage.component:1>],
+    [<ore:circuitMaster>, <extracells:storage.component:1>, <ore:circuitMaster>]
 ]);
 assembler.recipeBuilder().
     inputs([
@@ -153,26 +265,12 @@ assembler.recipeBuilder().
     EUt(30720).
     buildAndRegister();
 
-# 16384k Storage Cell
-recipes.removeShaped(<extracells:storage.physical:3>, [
-    [<appliedenergistics2:quartz_glass>, <ore:dustFluix>, <appliedenergistics2:quartz_glass>],
-    [<ore:dustFluix>, <extracells:storage.component:3>, <ore:dustFluix>],
-    [<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>]
-]);
-recipes.addShaped(<extracells:storage.physical:3>, [
-    [<ore:screwNeutronium>, <ore:plateNeutronium>, <ore:screwNeutronium>],
-    [<ore:plateNeutronium>, <extracells:storage.component:3>, <ore:plateNeutronium>],
-    [<ore:screwNeutronium>, <ore:plateNeutronium>, <ore:screwNeutronium>]
-]);
-recipes.addShaped(<extracells:storage.physical:3>, [
-    [<ore:craftingToolScrewdriver>, <ore:plateNeutronium>, <ore:screwNeutronium>],
-    [<ore:plateNeutronium>, <extracells:storage.component:3>, <ore:plateNeutronium>],
-    [<ore:screwNeutronium>, <ore:plateNeutronium>, <ore:craftingToolHardHammer>]
-]);
-recipes.addShaped(<extracells:storage.physical:3>, [
-    [<ore:craftingToolHardHammer>, <ore:plateNeutronium>, <ore:screwNeutronium>],
-    [<ore:plateNeutronium>, <extracells:storage.component:3>, <ore:plateNeutronium>],
-    [<ore:screwNeutronium>, <ore:plateNeutronium>, <ore:craftingToolScrewdriver>]
+# 16384k Storage Component
+recipes.remove(<extracells:storage.component:3>);
+recipes.addShaped(<extracells:storage.component:3>, [
+    [<ore:circuitUltimate>, <extracells:storage.component:2>, <ore:circuitUltimate>],
+    [<extracells:storage.component:2>, <appliedenergistics2:material:24>, <extracells:storage.component:2>],
+    [<ore:circuitUltimate>, <extracells:storage.component:2>, <ore:circuitUltimate>]
 ]);
 assembler.recipeBuilder().
     inputs([
@@ -186,104 +284,6 @@ assembler.recipeBuilder().
     EUt(122880).
     buildAndRegister();
 
-# 256k Fluid Cell
-recipes.removeShaped(<extracells:storage.fluid:4>, [
-    [<appliedenergistics2:quartz_glass>, <ore:dustFluix>, <appliedenergistics2:quartz_glass>],
-    [<ore:dustFluix>, <extracells:storage.component:8>, <ore:dustFluix>],
-    [<extracells:certustank>, <extracells:certustank>, <extracells:certustank>]
-]);
-recipes.addShaped(<extracells:storage.fluid:4>, [
-    [<ore:screwTungstenSteel>, <ore:plateTungstenSteel>, <ore:screwTungstenSteel>],
-    [<ore:plateTungstenSteel>, <extracells:storage.component:8>, <ore:plateTungstenSteel>],
-    [<ore:screwTungstenSteel>, <ore:plateTungstenSteel>, <ore:screwTungstenSteel>]
-]);
-recipes.addShaped(<extracells:storage.fluid:4>, [
-    [<ore:craftingToolScrewdriver>, <ore:plateTungstenSteel>, <ore:screwTungstenSteel>],
-    [<ore:plateTungstenSteel>, <extracells:storage.component:8>, <ore:plateTungstenSteel>],
-    [<ore:screwTungstenSteel>, <ore:plateTungstenSteel>, <ore:craftingToolHardHammer>]
-]);
-recipes.addShaped(<extracells:storage.fluid:4>, [
-    [<ore:craftingToolHardHammer>, <ore:plateTungstenSteel>, <ore:screwTungstenSteel>],
-    [<ore:plateTungstenSteel>, <extracells:storage.component:8>, <ore:plateTungstenSteel>],
-    [<ore:screwTungstenSteel>, <ore:plateTungstenSteel>, <ore:craftingToolScrewdriver>]
-]);
-
-# 1024k Fluid Cell
-recipes.removeShaped(<extracells:storage.fluid:5>, [
-    [<appliedenergistics2:quartz_glass>, <ore:dustFluix>, <appliedenergistics2:quartz_glass>],
-    [<ore:dustFluix>, <extracells:storage.component:9>, <ore:dustFluix>],
-    [<extracells:certustank>, <extracells:certustank>, <extracells:certustank>]
-]);
-recipes.addShaped(<extracells:storage.fluid:5>, [
-    [<ore:screwChrome>, <ore:plateChrome>, <ore:screwChrome>],
-    [<ore:plateChrome>, <extracells:storage.component:9>, <ore:plateChrome>],
-    [<ore:screwChrome>, <ore:plateChrome>, <ore:screwChrome>]
-]);
-recipes.addShaped(<extracells:storage.fluid:5>, [
-    [<ore:craftingToolScrewdriver>, <ore:plateChrome>, <ore:screwChrome>],
-    [<ore:plateChrome>, <extracells:storage.component:9>, <ore:plateChrome>],
-    [<ore:screwChrome>, <ore:plateChrome>, <ore:craftingToolHardHammer>]
-]);
-recipes.addShaped(<extracells:storage.fluid:5>, [
-    [<ore:craftingToolHardHammer>, <ore:plateChrome>, <ore:screwChrome>],
-    [<ore:plateChrome>, <extracells:storage.component:9>, <ore:plateChrome>],
-    [<ore:screwChrome>, <ore:plateChrome>, <ore:craftingToolScrewdriver>]
-]);
-
-# 4096k Fluid Cell
-recipes.removeShaped(<extracells:storage.fluid:6>, [
-    [<appliedenergistics2:quartz_glass>, <ore:dustFluix>, <appliedenergistics2:quartz_glass>],
-    [<ore:dustFluix>, <extracells:storage.physical:10>, <ore:dustFluix>],
-    [<extracells:certustank>, <extracells:certustank>, <extracells:certustank>]
-]);
-recipes.addShaped(<extracells:storage.fluid:6>, [
-    [<ore:screwOsmium>, <ore:plateOsmium>, <ore:screwOsmium>],
-    [<ore:plateOsmium>, <extracells:storage.physical:10>, <ore:plateOsmium>],
-    [<ore:screwOsmium>, <ore:plateOsmium>, <ore:screwOsmium>]
-]);
-recipes.addShaped(<extracells:storage.fluid:6>, [
-    [<ore:craftingToolScrewdriver>, <ore:plateOsmium>, <ore:screwOsmium>],
-    [<ore:plateOsmium>, <extracells:storage.physical:10>, <ore:plateOsmium>],
-    [<ore:screwOsmium>, <ore:plateOsmium>, <ore:craftingToolHardHammer>]
-]);
-recipes.addShaped(<extracells:storage.fluid:6>, [
-    [<ore:craftingToolHardHammer>, <ore:plateOsmium>, <ore:screwOsmium>],
-    [<ore:plateOsmium>, <extracells:storage.physical:10>, <ore:plateOsmium>],
-    [<ore:screwOsmium>, <ore:plateOsmium>, <ore:craftingToolScrewdriver>]
-]);
-
-# 256k Storage Component
-recipes.remove(<extracells:storage.component>);
-recipes.addShaped(<extracells:storage.component>, [
-    [<ore:circuitExtreme>, <appliedenergistics2:material:38>, <ore:circuitExtreme>],
-    [<appliedenergistics2:material:38>, <appliedenergistics2:material:23>, <appliedenergistics2:material:38>],
-    [<ore:circuitExtreme>, <appliedenergistics2:material:38>, <ore:circuitExtreme>]
-]);
-
-# 1024k Storage Component
-recipes.remove(<extracells:storage.component:1>);
-recipes.addShaped(<extracells:storage.component:1>, [
-    [<ore:circuitElite>, <extracells:storage.component>, <ore:circuitElite>],
-    [<extracells:storage.component>, <appliedenergistics2:material:23>, <extracells:storage.component>],
-    [<ore:circuitElite>, <extracells:storage.component>, <ore:circuitElite>]
-]);
-
-# 4096k Storage Component
-recipes.remove(<extracells:storage.component:2>);
-recipes.addShaped(<extracells:storage.component:2>, [
-    [<ore:circuitMaster>, <extracells:storage.component:1>, <ore:circuitMaster>],
-    [<extracells:storage.component:1>, <appliedenergistics2:material:24>, <extracells:storage.component:1>],
-    [<ore:circuitMaster>, <extracells:storage.component:1>, <ore:circuitMaster>]
-]);
-
-# 16384k Storage Component
-recipes.remove(<extracells:storage.component:3>);
-recipes.addShaped(<extracells:storage.component:3>, [
-    [<ore:circuitUltimate>, <extracells:storage.component:2>, <ore:circuitUltimate>],
-    [<extracells:storage.component:2>, <appliedenergistics2:material:24>, <extracells:storage.component:2>],
-    [<ore:circuitUltimate>, <extracells:storage.component:2>, <ore:circuitUltimate>]
-]);
-
 # 256k Fluid Component
 recipes.remove(<extracells:storage.component:8>);
 recipes.addShaped(<extracells:storage.component:8>, [
@@ -291,6 +291,17 @@ recipes.addShaped(<extracells:storage.component:8>, [
     [<appliedenergistics2:material:57>, <appliedenergistics2:material:23>, <appliedenergistics2:material:57>],
     [<ore:circuitExtreme>, <appliedenergistics2:material:57>, <ore:circuitExtreme>]
 ]);
+assembler.recipeBuilder().
+    inputs([
+        <ore:circuitExtreme> * 4,
+        <ore:plateTitanium> * 4,
+        <ore:dustNetherQuartz> * 16,
+        <appliedenergistics2:material:24>
+    ]).
+    outputs([<extracells:storage.component:8>]).
+    duration(200).
+    EUt(1920).
+    buildAndRegister();
 
 # 1024k Fluid Component
 recipes.remove(<extracells:storage.component:9>);
@@ -299,6 +310,17 @@ recipes.addShaped(<extracells:storage.component:9>, [
     [<extracells:storage.component:8>, <appliedenergistics2:material:23>, <extracells:storage.component:8>],
     [<ore:circuitElite>, <extracells:storage.component:8>, <ore:circuitElite>]
 ]);
+assembler.recipeBuilder().
+    inputs([
+        <ore:circuitElite> * 4,
+        <ore:plateTungstenSteel> * 4,
+        <ore:dustNetherQuartz> * 16,
+        <appliedenergistics2:material:24>
+    ]).
+    outputs([<extracells:storage.component:9>]).
+    duration(200).
+    EUt(7680).
+    buildAndRegister();
 
 # 4096k Fluid Component
 recipes.remove(<extracells:storage.component:10>);
@@ -307,6 +329,33 @@ recipes.addShaped(<extracells:storage.component:10>, [
     [<extracells:storage.component:9>, <appliedenergistics2:material:24>, <extracells:storage.component:9>],
     [<ore:circuitMaster>, <extracells:storage.component:9>, <ore:circuitMaster>]
 ]);
+assembler.recipeBuilder().
+    inputs([
+        <ore:circuitUltimate> * 4,
+        <ore:plateNeutronium> * 4,
+        <ore:dustNetherQuartz> * 32,
+        <appliedenergistics2:material:23>
+    ]).
+    outputs([<extracells:storage.component:10>]).
+    duration(200).
+    EUt(122880).
+    buildAndRegister();
+
+# Recycle - Advanced Storage Housing
+polarizer.recipeBuilder().
+    inputs([<extracells:storage.casing>]).
+    outputs([<ore:dustTungstenSteel>]).
+    duration(100).
+    EUt(16).
+    buildAndRegister();
+
+# Recycle - Fluid Housing
+polarizer.recipeBuilder().
+    inputs([<extracells:storage.casing:1>]).
+    outputs([<ore:dustStainlessSteel>]).
+    duration(100).
+    EUt(16).
+    buildAndRegister();
 
 
 
