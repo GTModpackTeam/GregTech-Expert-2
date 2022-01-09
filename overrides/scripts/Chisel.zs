@@ -25,14 +25,6 @@ recipes.addShaped(<chisel:chisel_hitech>, [
     [<ore:stickStainlessSteel>, null, <ore:craftingToolHardHammer>]
 ]);
 
-# Quartz fix
-var quartz = <ore:quartz>;
-quartz.add(<minecraft:quartz>);
-quartz.add(<appliedenergistics2:material:10>);
-quartz.add(<appliedenergistics2:material:11>);
-quartz.add(<appliedenergistics2:material:12>);
-mods.chisel.Groups.removeGroup("AECertusQuartz");
-mods.chisel.Groups.removeGroup(<ore:quartz>);
 
 
 ########################################

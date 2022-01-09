@@ -12,6 +12,19 @@ recipes.remove(<appliedenergistics2:material:40>);
 mods.jei.JEI.hide(<appliedenergistics2:material:40>);
 <ore:gearWood>.remove(<appliedenergistics2:material:40>);
 
+# Net Visualizer
+recipes.remove(<aenetvistool:net_visualizer>);
+recipes.addShaped(<aenetvistool:net_visualizer>, [
+    [<ore:plateAluminium>, <appliedenergistics2:material:43>, <ore:plateAluminium>],
+    [<appliedenergistics2:network_tool>, <appliedenergistics2:material:41>, <appliedenergistics2:entropy_manipulator>],
+    [<ore:plateAluminium>, <appliedenergistics2:material:44>, <ore:plateAluminium>]
+]);
+recipes.addShaped(<aenetvistool:net_visualizer>, [
+    [<ore:plateAluminium>, <appliedenergistics2:material:44>, <ore:plateAluminium>],
+    [<appliedenergistics2:network_tool>, <appliedenergistics2:material:41>, <appliedenergistics2:entropy_manipulator>],
+    [<ore:plateAluminium>, <appliedenergistics2:material:43>, <ore:plateAluminium>]
+]);
+
 # Inscriber Calulation Press
 Inscriber.removeRecipe(<appliedenergistics2:material:13>);
 laser_engraver.recipeBuilder().
@@ -925,7 +938,7 @@ autoclave.recipeBuilder().
 # Recycle - Storage Housing
 polarizer.recipeBuilder().
     inputs([<appliedenergistics2:material:39>]).
-    outputs([<ore:dustSteel>]).
+    outputs([<gregtech:meta_dust:324>]).
     duration(100).
     EUt(16).
     buildAndRegister();

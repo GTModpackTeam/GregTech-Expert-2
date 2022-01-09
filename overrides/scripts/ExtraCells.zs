@@ -344,7 +344,7 @@ assembler.recipeBuilder().
 # Recycle - Advanced Storage Housing
 polarizer.recipeBuilder().
     inputs([<extracells:storage.casing>]).
-    outputs([<ore:dustTungstenSteel>]).
+    outputs([<gregtech:meta_dust:2013>]).
     duration(100).
     EUt(16).
     buildAndRegister();
@@ -352,7 +352,7 @@ polarizer.recipeBuilder().
 # Recycle - Fluid Housing
 polarizer.recipeBuilder().
     inputs([<extracells:storage.casing:1>]).
-    outputs([<ore:dustStainlessSteel>]).
+    outputs([<gregtech:meta_dust:323>]).
     duration(100).
     EUt(16).
     buildAndRegister();
