@@ -7,16 +7,16 @@ import mods.jei.JEI;
 # Items
 ########################################
 # Fluid Storage Cells(deprecated)
-mods.jei.JEI.hide(<extracells:storage.fluid>);
-mods.jei.JEI.hide(<extracells:storage.fluid:1>);
-mods.jei.JEI.hide(<extracells:storage.fluid:2>);
-mods.jei.JEI.hide(<extracells:storage.fluid:3>);
+JEI.hide(<extracells:storage.fluid>);
+JEI.hide(<extracells:storage.fluid:1>);
+JEI.hide(<extracells:storage.fluid:2>);
+JEI.hide(<extracells:storage.fluid:3>);
 
 # Fluid Storage Component(deprecated)
-mods.jei.JEI.hide(<extracells:storage.component:4>);
-mods.jei.JEI.hide(<extracells:storage.component:5>);
-mods.jei.JEI.hide(<extracells:storage.component:6>);
-mods.jei.JEI.hide(<extracells:storage.component:7>);
+JEI.hide(<extracells:storage.component:4>);
+JEI.hide(<extracells:storage.component:5>);
+JEI.hide(<extracells:storage.component:6>);
+JEI.hide(<extracells:storage.component:7>);
 
 # Advanced Storage Housing
 recipes.remove(<extracells:storage.casing>);
@@ -331,14 +331,14 @@ recipes.addShaped(<extracells:storage.component:10>, [
 ]);
 assembler.recipeBuilder().
     inputs([
-        <ore:circuitUltimate> * 4,
+        <ore:circuitElite> * 4,
         <ore:plateNeutronium> * 4,
         <ore:dustNetherQuartz> * 32,
         <appliedenergistics2:material:23>
     ]).
     outputs([<extracells:storage.component:10>]).
     duration(200).
-    EUt(122880).
+    EUt(30720).
     buildAndRegister();
 
 # Recycle - Advanced Storage Housing
@@ -363,17 +363,17 @@ polarizer.recipeBuilder().
 # Blocks
 ########################################
 # Fluid Interface
-mods.jei.JEI.hide(<extracells:ecbaseblock>);
+JEI.hide(<extracells:ecbaseblock>);
 
 # Deprecated panels
-mods.jei.JEI.hide(<extracells:part.base>);
-mods.jei.JEI.hide(<extracells:part.base:1>);
-mods.jei.JEI.hide(<extracells:part.base:2>);
-mods.jei.JEI.hide(<extracells:part.base:3>);
-mods.jei.JEI.hide(<extracells:part.base:4>);
-mods.jei.JEI.hide(<extracells:part.base:5>);
-mods.jei.JEI.hide(<extracells:part.base:6>);
-mods.jei.JEI.hide(<extracells:part.base:9>);
+JEI.hide(<extracells:part.base>);
+JEI.hide(<extracells:part.base:1>);
+JEI.hide(<extracells:part.base:2>);
+JEI.hide(<extracells:part.base:3>);
+JEI.hide(<extracells:part.base:4>);
+JEI.hide(<extracells:part.base:5>);
+JEI.hide(<extracells:part.base:6>);
+JEI.hide(<extracells:part.base:9>);
 
 # ME Drive Fixture
 recipes.remove(<extracells:part.base:7>);

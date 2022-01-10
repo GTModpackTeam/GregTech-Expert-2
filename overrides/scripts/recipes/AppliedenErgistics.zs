@@ -2,14 +2,16 @@
 import mods.jei.JEI;
 import mods.appliedenergistics2.Inscriber;
 
+JEI.hideCategory("appliedenergistics2.grinder");
+JEI.hideCategory("appliedenergistics2.inscriber");
+
 
 
 ########################################
 # Items
 ########################################
 # Wooden Gear
-recipes.remove(<appliedenergistics2:material:40>);
-mods.jei.JEI.hide(<appliedenergistics2:material:40>);
+JEI.removeAndHide(<appliedenergistics2:material:40>);
 <ore:gearWood>.remove(<appliedenergistics2:material:40>);
 
 # Net Visualizer
@@ -131,7 +133,7 @@ assembler.recipeBuilder().
     fluidInputs([<liquid:redstone> * 144]).
     outputs([<appliedenergistics2:material:23>]).
     duration(50).
-    EUt(32).
+    EUt(30).
     buildAndRegister();
 
 # Engineering Processor
@@ -144,7 +146,7 @@ assembler.recipeBuilder().
     fluidInputs([<liquid:redstone> * 144]).
     outputs([<appliedenergistics2:material:24>]).
     duration(50).
-    EUt(32).
+    EUt(30).
     buildAndRegister();
 
 # Logic Processor
@@ -157,7 +159,7 @@ assembler.recipeBuilder().
     fluidInputs([<liquid:redstone> * 144]).
     outputs([<appliedenergistics2:material:22>]).
     duration(50).
-    EUt(32).
+    EUt(30).
     buildAndRegister();
 
 # Formation Core
@@ -1009,7 +1011,7 @@ alloy_smelter.recipeBuilder().
         <ore:dustCertusQuartz>
     ]).
     outputs([<appliedenergistics2:quartz_glass>]).
-    duration(50).
+    duration(100).
     EUt(16).
     buildAndRegister();
 

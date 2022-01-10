@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "GregTech Expert 2",
-  "version": "v0.2.1",
+  "version": "v0.4.0",
   "author": "",
   "files": [
     {
@@ -67,6 +67,11 @@
     {
       "projectID": 250702,
       "fileID": 3299405,
+      "required": true
+    },
+    {
+      "projectID": 564858,
+      "fileID": 3600068,
       "required": true
     },
     {
@@ -145,8 +150,8 @@
       "required": true
     },
     {
-      "projectID": 224641,
-      "fileID": 2861573,
+      "projectID": 253043,
+      "fileID": 3597087,
       "required": true
     },
     {
@@ -280,11 +285,6 @@
       "required": true
     },
     {
-      "projectID": 410257,
-      "fileID": 3074910,
-      "required": true
-    },
-    {
       "projectID": 297193,
       "fileID": 3328798,
       "required": true
@@ -350,13 +350,18 @@
       "required": true
     },
     {
-      "projectID": 238747,
-      "fileID": 2739582,
+      "projectID": 308380,
+      "fileID": 3418955,
       "required": true
     },
     {
       "projectID": 288885,
       "fileID": 2838777,
+      "required": true
+    },
+    {
+      "projectID": 308383,
+      "fileID": 3214384,
       "required": true
     },
     {
@@ -395,18 +400,13 @@
       "required": true
     },
     {
-      "projectID": 383630,
-      "fileID": 3418574,
+      "projectID": 237701,
+      "fileID": 2560638,
       "required": true
     },
     {
       "projectID": 232131,
       "fileID": 2624732,
-      "required": true
-    },
-    {
-      "projectID": 237701,
-      "fileID": 2560638,
       "required": true
     },
     {
@@ -427,6 +427,11 @@
     {
       "projectID": 354143,
       "fileID": 3511568,
+      "required": true
+    },
+    {
+      "projectID": 248873,
+      "fileID": 3597090,
       "required": true
     },
     {
@@ -457,11 +462,6 @@
     {
       "projectID": 242223,
       "fileID": 3524685,
-      "required": true
-    },
-    {
-      "projectID": 304053,
-      "fileID": 2660634,
       "required": true
     },
     {

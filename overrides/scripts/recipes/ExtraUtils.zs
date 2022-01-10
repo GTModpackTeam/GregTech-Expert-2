@@ -1,3 +1,9 @@
+# Imoprts
+import mods.jei.JEI;
+import mods.extrautils2.Resonator;
+
+
+
 ########################################
 # Items
 ########################################
@@ -9,12 +15,56 @@ recipes.addShaped(<extrautils2:wateringcan>, [
     [null, <ore:plateDoubleSteel>, null]
 ]);
 
-# Filter
-recipes.remove(<extrautils2:filter>);
-recipes.addShaped(<extrautils2:filter>, [
-    [<ore:plankWood>, <ore:plateGlass>, <ore:plankWood>],
-    [<ore:plateGlass>, <gregtech:meta_item_1:291>, <ore:plateGlass>],
-    [<ore:plankWood>, <ore:plateGlass>, <ore:plankWood>]
+# Upgrade Base
+Resonator.remove(<extrautils2:ingredients:9>);
+
+# Upgrade Mining
+JEI.removeAndHide(<extrautils2:ingredients:8>);
+
+# Upgrade Stack
+JEI.removeAndHide(<extrautils2:ingredients:7>);
+
+# Upgrade Speed
+JEI.removeAndHide(<extrautils2:ingredients:6>);
+
+# Upgrade Speed(Magical)
+JEI.removeAndHide(<extrautils2:ingredients:15>);
+
+# Upgrade Speed(Ultimate)
+JEI.removeAndHide(<extrautils2:ingredients:15>);
+JEI.removeAndHide(<extrautils2:ingredients:16>);
+
+# Wood Sickle
+<extrautils2:sickle_wood>.maxDamage = 12;
+
+# Stone Sickle
+<extrautils2:sickle_stone>.maxDamage = 48;
+
+# Iron Sickle
+<extrautils2:sickle_iron>.maxDamage = 256;
+recipes.remove(<extrautils2:sickle_iron>);
+recipes.addShaped(<extrautils2:sickle_iron>, [
+    [null, <ore:plateIron>, <ore:plateIron>],
+    [null, null, <ore:plateIron>],
+    [<minecraft:stick>, <ore:plateIron>, <ore:plateIron>]
+]);
+
+# Gold Sickle
+<extrautils2:sickle_gold>.maxDamage = 24;
+recipes.remove(<extrautils2:sickle_gold>);
+recipes.addShaped(<extrautils2:sickle_gold>, [
+    [null, <ore:plateGold>, <ore:plateGold>],
+    [null, null, <ore:plateGold>],
+    [<minecraft:stick>, <ore:plateGold>, <ore:plateGold>]
+]);
+
+# Diamond Sickle
+<extrautils2:sickle_diamond>.maxDamage = 768;
+recipes.remove(<extrautils2:sickle_diamond>);
+recipes.addShaped(<extrautils2:sickle_gold>, [
+    [null, <ore:plateDiamond>, <ore:plateDiamond>],
+    [null, null, <ore:plateDiamond>],
+    [<minecraft:stick>, <ore:plateDiamond>, <ore:plateDiamond>]
 ]);
 
 
@@ -67,12 +117,4 @@ recipes.addShaped(<extrautils2:angelblock>, [
     [<minecraft:feather>, null, <minecraft:feather>],
     [null, <enderio:block_reinforced_obsidian>, null],
     [<minecraft:feather>, null, <minecraft:feather>]
-]);
-
-# Transfer Pipe
-recipes.remove(<extrautils2:pipe>);
-recipes.addShaped(<extrautils2:pipe> * 8, [
-    [<extrautils2:decorativesolid:3>, <ore:pipeNormalFluidPlastic>, <extrautils2:decorativesolid:3>],
-    [<ore:pipeNormalItemElectrum>, <ore:pipeNormalItemElectrum>, <ore:pipeNormalItemElectrum>],
-    [<extrautils2:decorativesolid:3>, <ore:pipeNormalFluidPlastic>, <extrautils2:decorativesolid:3>]
 ]);
