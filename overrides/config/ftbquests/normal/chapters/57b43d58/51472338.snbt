@@ -1,0 +1,43 @@
+{
+	x: -2.5d,
+	y: -2.0d,
+	dependencies: [
+		"7c0bcaab",
+		"76b62977"
+	],
+	tasks: [{
+		uid: "24534714",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 621"
+		}]
+	},
+	{
+		uid: "fc3fc966",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 519"
+		}]
+	},
+	{
+		uid: "8794b808",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 516"
+		}]
+	},
+	{
+		uid: "667d9e53",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 401"
+		}]
+	},
+	{
+		uid: "d74bf541",
+		type: "item",
+		items: [{
+			item: "gregtech:cable_single 1 2517"
+		}]
+	}]
+}

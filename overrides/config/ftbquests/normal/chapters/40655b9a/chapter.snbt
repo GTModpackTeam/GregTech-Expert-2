@@ -1,0 +1,7 @@
+{
+	title: "Tier 4 -HV",
+	icon: "gregtech:machine 1 1005",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,23 @@
+{
+	x: -2.5d,
+	y: 0.0d,
+	dependencies: [
+		"7c0bcaab",
+		"76b62977"
+	],
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "f92e7507",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 986"
+		}]
+	},
+	{
+		uid: "7c0c5c74",
+		type: "item",
+		items: [{
+			item: "gregtech:cable_single 1 112"
+		}]
+	}]
+}

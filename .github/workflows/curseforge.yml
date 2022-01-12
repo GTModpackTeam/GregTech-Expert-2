@@ -1,0 +1,32 @@
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate token
+        id: generate_token
+        uses: tibdex/github-app-token@v1
+        with:
+          app_id: ${{ secrets.GH_APP_ID }}
+          private_key: ${{ secrets.GH_APP_PEM }}
+
+      - uses: actions/checkout@v1
+      - name: Run test action
+        id: test_action
+        uses: itsmeow/curseforge-upload@master
+        env:
+          TOKEN: ${{ steps.generate_token.outputs.token }}
+        with:
+          token: ${{ secrets.CF_API_TOKEN }}
+          project_id: 262222
+          game_endpoint: minecraft
+          file_path: test_jar.jar
+          changelog: Test changelog message!
+          display_name: Test Jar
+          game_versions: minecraft-1-12:1.12.2,4458,2:Java 7,Minecraft 1.12:1-12,1.12.1,Forge
+          release_type: alpha
+          relations: betteranimalsplus:incompatible,claimit:optionalDependency
