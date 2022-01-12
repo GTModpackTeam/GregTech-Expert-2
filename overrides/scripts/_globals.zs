@@ -61,6 +61,7 @@ global wiremill                  as RecipeMap = RecipeMap.getByName("wiremill");
 
 
 
+
 ########################################
 # Applied Energistics 2
 ########################################
@@ -173,3 +174,14 @@ ae_dsc.add(<appliedenergistics2:part:73>);
 ae_dsc.add(<appliedenergistics2:part:74>);
 ae_dsc.add(<appliedenergistics2:part:75>);
 ae_dsc.add(<appliedenergistics2:part:76>);
+
+
+
+########################################
+# Minecraft
+########################################
+# Grass
+var grass = <ore:grass>;
+grass.add(<minecraft:double_plant:2>);
+grass.add(<minecraft:double_plant:3>);
+grass.add(<minecraft:tallgrass:*>);

@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "5d0f2d09",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			tag: {
+				Charge: 1600000L,
+				GT.ToolStats: {
+					Material: "neutronium"
+				}
+			},
+			Damage: 30s
+		}],
+		ignore_nbt: 1b
+	}]
+}

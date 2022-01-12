@@ -1,2 +1,5 @@
+overrides/config/AppliedEnergistics2/CustomRecipes.cfg
+overrides/config/AppliedEnergistics2/VersionChecker.cfg
 overrides/config/InvTweaks/InvTweaks.cfg
 overrides/config/jei/*
+overrides/config/splash.properties

@@ -53,7 +53,7 @@ assembler.recipeBuilder().
         <minecraft:diamond> * 5,
         <gregtech:meta_item_1:206>
     ]).
-    fluidInputs([<liquid:distilled_water> * 200]).
+    fluidInputs([<liquid:distilled_water> * 144]).
     outputs([<avaritia:resource>]).
     duration(100).
     EUt(7680).

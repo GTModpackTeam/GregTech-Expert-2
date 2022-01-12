@@ -60,8 +60,7 @@ assembler.recipeBuilder().
     inputs([
         <ore:circuitElite> * 4,
         <ore:plateGlass> * 4,
-        <gregtech:machine:1340>,
-        <enderio:block_cap_bank:3>
+        <enderio:block_infinity:2>
     ]).
     outputs([<fluxnetworks:fluxcontroller>]).
     duration(2000).

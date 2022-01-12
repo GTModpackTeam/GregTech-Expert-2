@@ -874,7 +874,7 @@ mixer.recipeBuilder().
         <ore:dustRedstone>,
         <ore:gemNetherQuartz>
     ]).
-    fluidInputs([<liquid:distilled_water> * 500]).
+    fluidInputs([<liquid:distilled_water> * 144]).
     outputs([<appliedenergistics2:material:7> * 2]).
     duration(1000).
     EUt(30).
@@ -883,7 +883,7 @@ mixer.recipeBuilder().
 # Charged Certus Quartz Crystal
 electrolyzer.recipeBuilder().
     inputs([<ore:crystalCertusQuartz>]).
-    fluidInputs([<liquid:distilled_water> * 200]).
+    fluidInputs([<liquid:distilled_water> * 144]).
     outputs([<appliedenergistics2:material:1>]).
     duration(1000).
     EUt(30).
@@ -899,7 +899,7 @@ assembler.recipeBuilder().
     buildAndRegister();
 autoclave.recipeBuilder().
     inputs([<appliedenergistics2:crystal_seed>]).
-    fluidInputs([<liquid:distilled_water> * 200]).
+    fluidInputs([<liquid:distilled_water> * 144]).
     outputs([<appliedenergistics2:material:10>]).
     duration(1000).
     EUt(30).
@@ -915,7 +915,7 @@ assembler.recipeBuilder().
     buildAndRegister();
 autoclave.recipeBuilder().
     inputs([<appliedenergistics2:crystal_seed:600>]).
-    fluidInputs([<liquid:distilled_water> * 200]).
+    fluidInputs([<liquid:distilled_water> * 144]).
     outputs([<appliedenergistics2:material:11>]).
     duration(1000).
     EUt(30).
@@ -931,7 +931,7 @@ assembler.recipeBuilder().
     buildAndRegister();
 autoclave.recipeBuilder().
     inputs([<appliedenergistics2:crystal_seed:1200>]).
-    fluidInputs([<liquid:distilled_water> * 200]).
+    fluidInputs([<liquid:distilled_water> * 144]).
     outputs([<appliedenergistics2:material:12>]).
     duration(1000).
     EUt(30).

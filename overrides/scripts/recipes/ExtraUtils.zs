@@ -7,6 +7,12 @@ import mods.extrautils2.Resonator;
 ########################################
 # Items
 ########################################
+# Filter
+JEI.removeAndHide(<extrautils2:filter>);
+
+# Filter Fluids
+JEI.removeAndHide(<extrautils2:filterfluids>);
+
 # Watering Can
 recipes.remove(<extrautils2:wateringcan>);
 recipes.addShaped(<extrautils2:wateringcan>, [
@@ -114,7 +120,7 @@ recipes.addShaped(<extrautils2:spike_diamond> * 4, [
 # Angel Block
 recipes.remove(<extrautils2:angelblock>);
 recipes.addShaped(<extrautils2:angelblock>, [
-    [<minecraft:feather>, null, <minecraft:feather>],
-    [null, <enderio:block_reinforced_obsidian>, null],
-    [<minecraft:feather>, null, <minecraft:feather>]
+    [<minecraft:feather>, <enderio:block_reinforced_obsidian>, <minecraft:feather>],
+    [<enderio:block_reinforced_obsidian>, <extrautils2:angelring>, <enderio:block_reinforced_obsidian>],
+    [<minecraft:feather>, <enderio:block_reinforced_obsidian>, <minecraft:feather>]
 ]);

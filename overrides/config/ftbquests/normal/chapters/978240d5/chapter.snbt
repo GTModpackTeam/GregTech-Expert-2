@@ -1,0 +1,7 @@
+{
+	title: "Tier 8 -ZPMV",
+	icon: "gregtech:meta_item_1 1 752",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}
