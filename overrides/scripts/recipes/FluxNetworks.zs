@@ -34,8 +34,8 @@ assembler.recipeBuilder().
     inputs([
         <enderio:block_infinity:2>,
         <ore:circuitElite> * 4,
-        <gregtech:meta_item_1:461>.withTag({Configuration: 4})
     ]).
+    circuit(4).
     outputs([<fluxnetworks:fluxplug>]).
     duration(2000).
     EUt(7680).
@@ -47,8 +47,8 @@ assembler.recipeBuilder().
     inputs([
         <enderio:block_infinity:2>,
         <ore:circuitElite> * 4,
-        <gregtech:meta_item_1:461>.withTag({Configuration: 6})
     ]).
+    circuit(6).
     outputs([<fluxnetworks:fluxpoint>]).
     duration(2000).
     EUt(7680).
@@ -68,41 +68,44 @@ assembler.recipeBuilder().
     buildAndRegister();
 
 # Flux Storage
-recipes.remove(<fluxnetworks:fluxstorage>);
-assembler.recipeBuilder().
-    inputs([
-        <ore:circuitElite> * 4,
-        <ore:plateGlass> * 4,
-        <gregtech:machine:1340>,
-        <enderio:block_cap_bank:3>
-    ]).
-    outputs([<fluxnetworks:fluxstorage>]).
-    duration(2000).
-    EUt(7680).
-    buildAndRegister();
+JEI.removeAndHide(<fluxnetworks:fluxstorage>);
+// recipes.remove(<fluxnetworks:fluxstorage>);
+// assembler.recipeBuilder().
+//     inputs([
+//         <ore:circuitElite> * 4,
+//         <ore:plateGlass> * 4,
+//         <gregtech:machine:1340>,
+//         <enderio:block_cap_bank:3>
+//     ]).
+//     outputs([<fluxnetworks:fluxstorage>]).
+//     duration(2000).
+//     EUt(7680).
+//     buildAndRegister();
 
 # Herculean Flux Storage
-recipes.remove(<fluxnetworks:herculeanfluxstorage>);
-assembler.recipeBuilder().
-    inputs([
-        <ore:circuitMaster> * 4,
-        <ore:plateGlass> * 4,
-        <fluxnetworks:fluxstorage> * 6
-    ]).
-    outputs([<fluxnetworks:herculeanfluxstorage>]).
-    duration(2000).
-    EUt(30720).
-    buildAndRegister();
+JEI.removeAndHide(<fluxnetworks:herculeanfluxstorage>);
+// recipes.remove(<fluxnetworks:herculeanfluxstorage>);
+// assembler.recipeBuilder().
+//     inputs([
+//         <ore:circuitMaster> * 4,
+//         <ore:plateGlass> * 4,
+//         <fluxnetworks:fluxstorage> * 6
+//     ]).
+//     outputs([<fluxnetworks:herculeanfluxstorage>]).
+//     duration(2000).
+//     EUt(30720).
+//     buildAndRegister();
 
 # Gargantuan Flux Storage
-recipes.remove(<fluxnetworks:gargantuanfluxstorage>);
-assembler.recipeBuilder().
-    inputs([
-        <ore:circuitUltimate> * 4,
-        <ore:plateGlass> * 4,
-        <fluxnetworks:gargantuanfluxstorage> * 6
-    ]).
-    outputs([<fluxnetworks:gargantuanfluxstorage>]).
-    duration(2000).
-    EUt(122880).
-    buildAndRegister();
+JEI.removeAndHide(<fluxnetworks:gargantuanfluxstorage>);
+// recipes.remove(<fluxnetworks:gargantuanfluxstorage>);
+// assembler.recipeBuilder().
+//     inputs([
+//         <ore:circuitUltimate> * 4,
+//         <ore:plateGlass> * 4,
+//         <fluxnetworks:gargantuanfluxstorage> * 6
+//     ]).
+//     outputs([<fluxnetworks:gargantuanfluxstorage>]).
+//     duration(2000).
+//     EUt(122880).
+//     buildAndRegister();

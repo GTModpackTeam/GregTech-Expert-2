@@ -84,7 +84,7 @@ forming_press.recipeBuilder().
     ]).
     outputs([<appliedenergistics2:material:16>]).
     duration(100).
-    EUt(30).
+    EUt(480).
     buildAndRegister();
 
 # Printed Engineering Circuit
@@ -96,7 +96,7 @@ forming_press.recipeBuilder().
     ]).
     outputs([<appliedenergistics2:material:17>]).
     duration(100).
-    EUt(30).
+    EUt(480).
     buildAndRegister();
 
 # Printed Logic Circuit
@@ -108,7 +108,7 @@ forming_press.recipeBuilder().
     ]).
     outputs([<appliedenergistics2:material:18>]).
     duration(100).
-    EUt(30).
+    EUt(480).
     buildAndRegister();
 
 # Printed Silicon
@@ -120,7 +120,7 @@ forming_press.recipeBuilder().
     ]).
     outputs([<appliedenergistics2:material:20>]).
     duration(100).
-    EUt(30).
+    EUt(480).
     buildAndRegister();
 
 # Calulation Processor
@@ -133,7 +133,7 @@ assembler.recipeBuilder().
     fluidInputs([<liquid:redstone> * 144]).
     outputs([<appliedenergistics2:material:23>]).
     duration(50).
-    EUt(30).
+    EUt(480).
     buildAndRegister();
 
 # Engineering Processor
@@ -146,7 +146,7 @@ assembler.recipeBuilder().
     fluidInputs([<liquid:redstone> * 144]).
     outputs([<appliedenergistics2:material:24>]).
     duration(50).
-    EUt(30).
+    EUt(480).
     buildAndRegister();
 
 # Logic Processor
@@ -159,7 +159,7 @@ assembler.recipeBuilder().
     fluidInputs([<liquid:redstone> * 144]).
     outputs([<appliedenergistics2:material:22>]).
     duration(50).
-    EUt(30).
+    EUt(480).
     buildAndRegister();
 
 # Formation Core
@@ -950,11 +950,14 @@ polarizer.recipeBuilder().
 ########################################
 # Blocks
 ########################################
+# Cobblestone 5x
+var cobblestone_5x = <notenoughcompression:compresseditem_base_itemblock>.withTag({notenoughcompression_itemstack: {id: "minecraft:cobblestone", Count: 1 as byte, Damage: 0 as short}, notenoughcompression_time: 5});
+
 # Sky Srone
 recipes.addShaped(<appliedenergistics2:sky_stone_block>, [
-    [<extrautils2:compressedcobblestone:2>, <extrautils2:compressedcobblestone:2>, <extrautils2:compressedcobblestone:2>],
-    [<extrautils2:compressedcobblestone:2>, <enderio:item_material:20>, <extrautils2:compressedcobblestone:2>],
-    [<extrautils2:compressedcobblestone:2>, <extrautils2:compressedcobblestone:2>, <extrautils2:compressedcobblestone:2>]
+    [cobblestone_5x, cobblestone_5x, cobblestone_5x],
+    [cobblestone_5x, <enderio:item_material:20>, cobblestone_5x],
+    [cobblestone_5x, cobblestone_5x, cobblestone_5x]
 ]);
 
 # Quartz Fiber

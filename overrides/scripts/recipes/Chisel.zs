@@ -30,12 +30,15 @@ recipes.addShaped(<chisel:chisel_hitech>, [
 ########################################
 # Blocks
 ########################################
+# Cobblestone 1x
+var cobblestone_1x = <notenoughcompression:compresseditem_base_itemblock>.withTag({notenoughcompression_itemstack: {id: "minecraft:cobblestone", Count: 1 as byte, Damage: 0 as short}, notenoughcompression_time: 1});
+
 # Auto Chisel
 recipes.remove(<chisel:auto_chisel>);
 recipes.addShaped(<chisel:auto_chisel>, [
     [<ore:plateGlass>, <ore:plateGlass>, <ore:plateGlass>],
     [<ore:plateGlass>, <chisel:chisel_hitech>.noReturn(), <ore:plateGlass>],
-    [<ore:plateIron>, <extrautils2:compressedcobblestone:1>, <ore:plateIron>]
+    [<ore:plateIron>, cobblestone_1x, <ore:plateIron>]
 ]);
 
 // TODO

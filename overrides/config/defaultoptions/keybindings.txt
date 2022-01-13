@@ -44,8 +44,6 @@ key_key.moreoverlays.chunkbounds.desc:67:NONE
 key_keys.servertabinfo.show:29:NONE
 key_keys.servertabinfo.show2:157:NONE
 key_key.toastcontrol.clear:36:NONE
-key_key.dismount:42:NONE
-key_key.narrator:48:CONTROL
 key_key.toggle_focus.desc:15:NONE
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
@@ -58,27 +56,14 @@ key_key.jei.previousPage:201:NONE
 key_key.jei.nextPage:209:NONE
 key_key.jei.bookmark:30:NONE
 key_key.jei.toggleBookmarkOverlay:0:NONE
-key_key.draconicevolution.placeItem:25:NONE
-key_key.draconicevolution.toolConfig:46:NONE
-key_key.draconicevolution.toolProfileChange:43:NONE
-key_key.draconicevolution.armorProfileChange:43:ALT
-key_key.draconicevolution.toggleFlight:0:NONE
-key_key.draconicevolution.toggleDislocator:0:NONE
-key_key.draconicevolution.cycleDigAOE:0:NONE
-key_key.draconicevolution.cycleAttackAOE:0:NONE
-key_key.draconicevolution.toggleShields:0:NONE
 key_key.clipboardPaste:210:NONE
 key_ALT Menu:56:NONE
 key_Mode Switch:50:NONE
 key_Jetpack Hover:35:NONE
 key_Armor Charging:49:NONE
-key_invtweaks.key.sort:19:NONE
+key_invtweaks.key.sort:0:NONE
 key_jecalculation.key.gui_craft:0:NONE
 key_jecalculation.key.gui_math:0:NONE
-key_key.porterNextDestination:27:NONE
-key_key.porterPrevDestination:26:NONE
-key_key.debugDumpNBTItem:0:NONE
-key_key.debugDumpNBTBlock:0:NONE
 key_key.toggleLiquids:38:NONE
 key_key.toggleVisible:0:NONE
 key_key.journeymap.zoom_in:13:NONE
@@ -97,6 +82,7 @@ key_key.journeymap.fullscreen.north:200:NONE
 key_key.journeymap.fullscreen.south:208:NONE
 key_key.journeymap.fullscreen.east:205:NONE
 key_key.journeymap.fullscreen.west:203:NONE
+key_key.control:29:NONE
 key_enderio.keybind.inventory:23:NONE
 key_enderio.keybind.dsu:0:NONE
 key_enderio.keybind.glidertoggle:34:NONE
