@@ -1,0 +1,16 @@
+{
+	title: "Ore Generation",
+	x: 4.0d,
+	y: -2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"37835f75"
+	],
+	tasks: [{
+		uid: "2503b9f8",
+		type: "checkmark",
+		title: "読んだら押しましょう"
+	}]
+}

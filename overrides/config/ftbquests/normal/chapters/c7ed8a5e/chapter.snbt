@@ -1,0 +1,7 @@
+{
+	title: "Tier 99 -Gregicality",
+	icon: "gregtech:meta_item_1 1 1000",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

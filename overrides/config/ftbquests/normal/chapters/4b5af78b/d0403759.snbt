@@ -1,0 +1,39 @@
+{
+	x: 10.0d,
+	y: -2.0d,
+	dependencies: [
+		"41a73fe4"
+	],
+	tasks: [{
+		uid: "2028a064",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					Material: "iron"
+				}
+			},
+			Damage: 19s
+		},
+		{
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					Material: "bronze"
+				}
+			},
+			Damage: 19s
+		},
+		{
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					Material: "wrought_iron"
+				}
+			},
+			Damage: 19s
+		}],
+		ignore_nbt: 1b
+	}]
+}

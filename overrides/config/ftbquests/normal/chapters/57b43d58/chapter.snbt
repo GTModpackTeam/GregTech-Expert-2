@@ -1,0 +1,7 @@
+{
+	title: "Tier 2 -LV",
+	icon: "gregtech:machine 1 620",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

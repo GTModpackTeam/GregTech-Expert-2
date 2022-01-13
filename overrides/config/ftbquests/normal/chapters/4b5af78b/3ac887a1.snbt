@@ -1,0 +1,89 @@
+{
+	title: "Important tools",
+	x: 12.0d,
+	y: 0.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"41a73fe4"
+	],
+	tasks: [{
+		uid: "958f71fc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolFile",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolFile"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3e4530f3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolSaw",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolSaw"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e6021e6e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolWrench",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolWrench"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1cc1ff59",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolScrewdriver",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolScrewdriver"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

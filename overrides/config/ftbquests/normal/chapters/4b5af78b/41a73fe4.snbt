@@ -1,0 +1,28 @@
+{
+	x: 10.0d,
+	y: 0.0d,
+	dependencies: [
+		"7f73baf6",
+		"a887d7d6"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "e2e492e5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "craftingToolHardHammer",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolHardHammer"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

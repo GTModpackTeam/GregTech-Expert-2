@@ -1,0 +1,18 @@
+{
+	x: 6.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "a5fc1798",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_pyrolusite_0 1 1"
+		}]
+	},
+	{
+		uid: "db336475",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 61"
+		}]
+	}]
+}

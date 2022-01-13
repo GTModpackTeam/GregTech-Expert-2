@@ -1,0 +1,7 @@
+{
+	title: "Tier 3 -MV",
+	icon: "gregtech:machine 1 561",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}
