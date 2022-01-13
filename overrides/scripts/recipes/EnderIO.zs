@@ -9,6 +9,14 @@ import mods.enderio.SliceNSplice;
 ########################################
 # Items
 ########################################
+# Wooden Gear
+JEI.removeAndHide(<enderio:item_material:9>);
+<ore:gearWood>.remove(<enderio:item_material:9>);
+
+# Stone Gear
+JEI.removeAndHide(<enderio:item_material:10>);
+<ore:gearStone>.remove(<enderio:item_material:10>);
+
 # Ender Dust
 JEI.removeAndHide(<enderio:item_material:28>);
 JEI.removeAndHide(<appliedenergistics2:material:46>);
