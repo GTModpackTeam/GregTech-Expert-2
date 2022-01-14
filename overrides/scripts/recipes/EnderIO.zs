@@ -9,6 +9,14 @@ import mods.enderio.SliceNSplice;
 ########################################
 # Items
 ########################################
+# Electromagnet
+recipes.remove(<enderio:item_magnet>);
+recipes.addShaped(<enderio:item_magnet>, [
+    [<ore:ingotRedAlloy>, <ore:gemEmerald>, <ore:ingotRedAlloy>],
+    [<ore:ingotRedAlloy>, null, <ore:ingotRedAlloy>],
+    [<ore:ingotSteel>, null, <ore:ingotSteel>]
+]);
+
 # Wooden Gear
 JEI.removeAndHide(<enderio:item_material:9>);
 <ore:gearWood>.remove(<enderio:item_material:9>);
@@ -271,6 +279,116 @@ alloy_smelter.recipeBuilder().
     EUt(480).
     buildAndRegister();
 
+# Nethercotta
+alloy_smelter.recipeBuilder().
+    inputs([
+        <ore:cropNetherWart>,
+        <ore:ingotBrickNether> * 9
+    ]).
+    outputs([<enderio:item_material:72>]).
+    duration(50).
+    EUt(480).
+    buildAndRegister();
+
+# Crude Steel Ingot
+alloy_smelter.recipeBuilder().
+    inputs([
+        <minecraft:gravel>,
+        <minecraft:clay_ball> * 9
+    ]).
+    outputs([<enderio:item_alloy_endergy_ingot>]).
+    duration(50).
+    EUt(480).
+    buildAndRegister();
+
+# Crystalling Alloy Ingot
+alloy_smelter.recipeBuilder().
+    inputs([
+        <ore:ingotGold>,
+        <ore:itemPrecientPowder>
+    ]).
+    outputs([<enderio:item_alloy_endergy_ingot:1>]).
+    duration(50).
+    EUt(480).
+    buildAndRegister();
+
+# Melodic Alloy Ingot
+alloy_smelter.recipeBuilder().
+    inputs([
+        <ore:ingotEndSteel>,
+        <minecraft:chorus_fruit_popped>
+    ]).
+    outputs([<enderio:item_alloy_endergy_ingot:2>]).
+    duration(50).
+    EUt(480).
+    buildAndRegister();
+
+# Stellar Alloy Ingot
+alloy_smelter.recipeBuilder().
+    inputs([
+        <ore:ingotMelodicAlloy>,
+        <minecraft:nether_star> * 2
+    ]).
+    outputs([<enderio:item_alloy_endergy_ingot:3>]).
+    duration(50).
+    EUt(480).
+    buildAndRegister();
+
+# Crystalling Pink Slime Ingot
+alloy_smelter.recipeBuilder().
+    inputs([
+        <ore:ingotMelodicAlloy>,
+        <minecraft:slime_ball> * 8
+    ]).
+    outputs([<enderio:item_alloy_endergy_ingot:4>]).
+    duration(50).
+    EUt(480).
+    buildAndRegister();
+
+# Energetic Silver Ingot
+alloy_smelter.recipeBuilder().
+    inputs([
+        <enderio:item_alloy_ingot:1>,
+        <ore:ingotSilver>
+    ]).
+    outputs([<enderio:item_alloy_endergy_ingot:5>]).
+    duration(50).
+    EUt(480).
+    buildAndRegister();
+
+# Vivid Alloy Ingote
+alloy_smelter.recipeBuilder().
+    inputs([
+        <ore:ingotEnergeticSilver>,
+        <ore:dustEnderPearl>
+    ]).
+    outputs([<enderio:item_alloy_endergy_ingot:6>]).
+    duration(50).
+    EUt(480).
+    buildAndRegister();
+
+# Death Urn
+alloy_smelter.recipeBuilder().
+    inputs([
+        <minecraft:dye:15> * 7,
+        <enderio:item_material:81>
+    ]).
+    outputs([<enderio:block_death_pouch>]).
+    duration(50).
+    EUt(480).
+    buildAndRegister();
+
+# Death Urn
+alloy_smelter.recipeBuilder().
+    inputs([
+        <minecraft:glowstone_dust>,
+        <minecraft:clay_ball>
+    ]).
+    outputs([<enderio:item_material:76>]).
+    duration(50).
+    EUt(480).
+    buildAndRegister();
+
 # Grinding Balls
 JEI.removeAndHide(<enderio:item_alloy_ball:*>);
 JEI.hideCategory("GrindingBall");
@@ -324,6 +442,66 @@ macerator.recipeBuilder().
 ########################################
 # Blocks
 ########################################
+# Fused Quartz
+alloy_smelter.recipeBuilder().
+    inputs([<ore:blockQuartz>]).
+    outputs([<enderio:block_fused_quartz>]).
+    duration(50).
+    EUt(480).
+    buildAndRegister();
+
+# Quite Clear Glass
+alloy_smelter.recipeBuilder().
+    inputs([<ore:blockGlass>]).
+    outputs([<enderio:block_fused_glass>]).
+    duration(50).
+    EUt(480).
+    buildAndRegister();
+
+# Enlightened Fused Quartz
+alloy_smelter.recipeBuilder().
+    inputs([
+        <ore:blockQuartz>,
+        <ore:dustGlowstone> * 4
+    ]).
+    outputs([<enderio:block_enlightened_fused_quartz>]).
+    duration(50).
+    EUt(480).
+    buildAndRegister();
+
+# Enlightened Clear Glass
+alloy_smelter.recipeBuilder().
+    inputs([
+        <ore:blockGlass>,
+        <ore:dustGlowstone> * 4
+    ]).
+    outputs([<enderio:block_enlightened_fused_glass>]).
+    duration(50).
+    EUt(480).
+    buildAndRegister();
+
+# Dark Fused Quartz
+alloy_smelter.recipeBuilder().
+    inputs([
+        <ore:dyeBlack>,
+        <ore:gemNetherQuartz> * 4
+    ]).
+    outputs([<enderio:block_dark_fused_quartz>]).
+    duration(50).
+    EUt(480).
+    buildAndRegister();
+
+# Dark Clear Glass
+alloy_smelter.recipeBuilder().
+    inputs([
+        <ore:blockGlass>,
+        <ore:dyeBlack> * 2
+    ]).
+    outputs([<enderio:block_dark_fused_glass>]).
+    duration(50).
+    EUt(480).
+    buildAndRegister();
+
 # Industrial Machine Chassis
 alloy_smelter.recipeBuilder().
     inputs([
@@ -366,11 +544,8 @@ recipes.addShaped(<enderio:block_stirling_generator>, [
     [<enderio:item_material:73>, <minecraft:piston>, <enderio:item_material:73>]
 ]);
 
-# Buffer
-JEI.removeAndHide(<enderio:block_buffer>);
-
-# Stirling Generator
-JEI.removeAndHide(<enderio:block_simple_furnace>);
+# The Niard
+JEI.removeAndHide(<enderio:block_niard>);
 
 # Alloy Smelter
 // JEI.hideCategory("AlloySmelter");
@@ -397,8 +572,23 @@ recipes.addShaped(<enderio:block_crafter>, [
     [<ore:gearIronInfinity>, <ore:workbench>, <ore:gearIronInfinity>]
 ]);
 
+# Buffer
+JEI.removeAndHide(<enderio:block_buffer>);
+JEI.removeAndHide(<enderio:block_buffer:1>);
+JEI.removeAndHide(<enderio:block_buffer:2>);
+
+# Tank
+JEI.hideCategory("EIOTank");
+JEI.removeAndHide(<enderio:block_tank>);
+JEI.removeAndHide(<enderio:block_tank:1>);
+
+# Omnivoir
+JEI.removeAndHide(<enderio:block_omni_reservoir>);
+
+# Vacuum Chest
+JEI.removeAndHide(<enderio:block_vacuum_chest>);
+
 # Wired Charger
-JEI.removeAndHide(<enderio:block_simple_wired_charger>);
 recipes.remove(<enderio:block_wired_charger>);
 recipes.addShaped(<enderio:block_wired_charger>, [
     [<ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>],
@@ -413,3 +603,7 @@ recipes.addShaped(<enderio:block_reinforced_obsidian>, [
     [<enderio:block_infinity>, <minecraft:obsidian>, <enderio:block_infinity>],
     [<enderio:item_alloy_ingot:6>, <enderio:block_infinity>, <enderio:item_alloy_ingot:6>]
 ]);
+
+# Energy Conduit
+JEI.removeAndHide(<enderio:item_power_conduit:*>);
+JEI.removeAndHide(<enderio:item_endergy_conduit:*>);

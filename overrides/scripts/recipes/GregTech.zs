@@ -6,6 +6,13 @@ import mods.jei.JEI;
 ########################################
 # Items
 ########################################
+# Wrought Iron Ingot
+recipes.addShaped(<gregtech:meta_ingot:335>, [
+    [<gregtech:meta_nugget:335>, <gregtech:meta_nugget:335>, <gregtech:meta_nugget:335>],
+    [<gregtech:meta_nugget:335>, <gregtech:meta_nugget:335>, <gregtech:meta_nugget:335>],
+    [<gregtech:meta_nugget:335>, <gregtech:meta_nugget:335>, <gregtech:meta_nugget:335>]
+]);
+
 # Solar Panel (MV)
 recipes.addShaped(<gregtech:meta_item_1:334>, [
     [null, <gregtech:meta_item_1:333>, null],
