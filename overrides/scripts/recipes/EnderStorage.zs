@@ -26,6 +26,6 @@ recipes.addShaped(<enderstorage:ender_storage>, [
 recipes.remove(<enderstorage:ender_storage:1>);
 recipes.addShaped(<enderstorage:ender_storage:1>, [
     [<ore:plateBronze>, <ore:blockWool>, <ore:plateBronze>],
-    [<enderio:block_reinforced_obsidian>, <extracells:certustank>, <enderio:block_reinforced_obsidian>],
+    [<enderio:block_reinforced_obsidian>, <gregtech:machine:1575>, <enderio:block_reinforced_obsidian>],
     [<ore:plateBronze>, <ore:itemEnderCrystal>, <ore:plateBronze>]
 ]);

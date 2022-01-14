@@ -362,6 +362,9 @@ polarizer.recipeBuilder().
 ########################################
 # Blocks
 ########################################
+# Certus Quartz Tank
+JEI.removeAndHide(<extracells:certustank>);
+
 # Fluid Interface
 JEI.hide(<extracells:ecbaseblock>);
 
@@ -395,7 +398,7 @@ recipes.addShaped(<extracells:part.base:8>, [
 recipes.remove(<extracells:vibrantchamberfluid>);
 recipes.addShaped(<extracells:vibrantchamberfluid>, [
     [<ore:plateStainlessSteel>, <gregtech:meta_item_1:144>, <ore:plateStainlessSteel>],
-    [<ore:plateStainlessSteel>, <extracells:certustank>, <ore:plateStainlessSteel>],
+    [<ore:plateStainlessSteel>, <gregtech:machine:1575>, <ore:plateStainlessSteel>],
     [<ore:plateStainlessSteel>, <appliedenergistics2:vibration_chamber>, <ore:plateStainlessSteel>]
 ]);
 

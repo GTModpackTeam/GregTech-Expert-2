@@ -5,7 +5,7 @@ fov:0.0
 gamma:1.0
 saturation:0.0
 renderDistance:8
-guiScale:2
+guiScale:0
 particles:0
 bobView:true
 anaglyph3d:false
@@ -52,8 +52,8 @@ enableWeakAttacks:false
 autoJump:false
 narrator:0
 tutorialStep:none
-soundCategory_master:0.25827813
-soundCategory_music:0.0
+soundCategory_master:0.5
+soundCategory_music:0.15492958
 soundCategory_record:0.2535211
 soundCategory_weather:0.5
 soundCategory_block:0.5070422

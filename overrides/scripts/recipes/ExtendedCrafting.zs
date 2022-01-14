@@ -7,6 +7,9 @@ import mods.extendedcrafting.TableCrafting;
 ########################################
 # Items
 ########################################
+# Crafting Table
+JEI.removeAndHide(<extendedcrafting:crafting_table>);
+
 # Guide Book
 recipes.remove(<extendedcrafting:guide>);
 TableCrafting.addShapeless(0, <extendedcrafting:guide>, [<extendedcrafting:guide>, <ore:ingotUraniumRhodiumDinaquadide>]);

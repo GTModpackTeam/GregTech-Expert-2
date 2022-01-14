@@ -950,14 +950,18 @@ polarizer.recipeBuilder().
 ########################################
 # Blocks
 ########################################
-# Cobblestone 5x
-var cobblestone_5x = <notenoughcompression:compresseditem_base_itemblock>.withTag({notenoughcompression_itemstack: {id: "minecraft:cobblestone", Count: 1 as byte, Damage: 0 as short}, notenoughcompression_time: 5});
+# Quartz Block
+recipes.removeShaped(<minecraft:quartz_block>, [
+    [<appliedenergistics2:material:11>, <appliedenergistics2:material:11>, <appliedenergistics2:material:11>],
+    [<appliedenergistics2:material:11>, null, <appliedenergistics2:material:11>],
+    [<appliedenergistics2:material:11>, <appliedenergistics2:material:11>, <appliedenergistics2:material:11>]
+]);
 
 # Sky Srone
 recipes.addShaped(<appliedenergistics2:sky_stone_block>, [
-    [cobblestone_5x, cobblestone_5x, cobblestone_5x],
-    [cobblestone_5x, <enderio:item_material:20>, cobblestone_5x],
-    [cobblestone_5x, cobblestone_5x, cobblestone_5x]
+    [<ore:compressed3xDustBedrock>, <ore:compressed3xDustBedrock>, <ore:compressed3xDustBedrock>],
+    [<ore:compressed3xDustBedrock>, <enderio:item_material:20>, <ore:compressed3xDustBedrock>],
+    [<ore:compressed3xDustBedrock>, <ore:compressed3xDustBedrock>, <ore:compressed3xDustBedrock>]
 ]);
 
 # Quartz Fiber
