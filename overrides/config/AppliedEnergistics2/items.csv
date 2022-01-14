@@ -1263,6 +1263,9 @@ microblockcbe:saw_stone, Stone Saw
 microblockcbe:saw_iron, Iron Saw
 microblockcbe:saw_diamond, Diamond Saw
 microblockcbe:stone_rod, Stone Rod
+notenoughcompression:compresseditem_base:0, CompressedItem
+notenoughcompression:compresseditem_base_itemblock:0, CompressedItem
+notenoughcompression:compresseditem_base_itemplantable:0, CompressedItem
 packagedauto:packager, Packager
 packagedauto:encoder, Package Recipe Encoder
 packagedauto:unpackager, Unpackager

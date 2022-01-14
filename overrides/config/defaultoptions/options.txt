@@ -52,8 +52,8 @@ enableWeakAttacks:false
 autoJump:false
 narrator:0
 tutorialStep:none
-soundCategory_master:0.5
-soundCategory_music:0.15492958
+soundCategory_master:0.25827813
+soundCategory_music:0.0
 soundCategory_record:0.2535211
 soundCategory_weather:0.5
 soundCategory_block:0.5070422
