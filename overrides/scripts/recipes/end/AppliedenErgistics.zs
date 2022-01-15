@@ -8,15 +8,15 @@ import mods.extendedcrafting.TableCrafting;
 ########################################
 # Creative Energy Cell
 TableCrafting.addShaped(0, <appliedenergistics2:creative_energy_cell>, [
-    [<ore:batteryElite>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <ore:batteryElite>], 
-    [<gregtech:fusion_casing:4>, <gregtech:machine:993>, <ore:circuitMaster>, <ore:circuitMaster>, <ore:circuitMaster>, <ore:circuitMaster>, <ore:circuitMaster>, <gregtech:machine:993>, <gregtech:fusion_casing:4>], 
-    [<gregtech:fusion_casing:4>, <ore:circuitMaster>, <appliedenergistics2:dense_energy_cell>, <appliedenergistics2:dense_energy_cell>, <appliedenergistics2:dense_energy_cell>, <appliedenergistics2:dense_energy_cell>, <appliedenergistics2:dense_energy_cell>, <ore:circuitMaster>, <gregtech:fusion_casing:4>], 
-    [<gregtech:fusion_casing:4>, <ore:circuitMaster>, <appliedenergistics2:dense_energy_cell>, <ore:plateOsmiridium>, <ore:plateOsmiridium>, <ore:plateOsmiridium>, <appliedenergistics2:dense_energy_cell>, <ore:circuitMaster>, <gregtech:fusion_casing:4>], 
-    [<gregtech:fusion_casing:4>, <ore:circuitMaster>, <appliedenergistics2:dense_energy_cell>, <ore:plateOsmiridium>, <gregtech:meta_item_1:340>, <ore:plateOsmiridium>, <appliedenergistics2:dense_energy_cell>, <ore:circuitMaster>, <gregtech:fusion_casing:4>], 
-    [<gregtech:fusion_casing:4>, <ore:circuitMaster>, <appliedenergistics2:dense_energy_cell>, <ore:plateOsmiridium>, <ore:plateOsmiridium>, <ore:plateOsmiridium>, <appliedenergistics2:dense_energy_cell>, <ore:circuitMaster>, <gregtech:fusion_casing:4>], 
-    [<gregtech:fusion_casing:4>, <ore:circuitMaster>, <appliedenergistics2:dense_energy_cell>, <appliedenergistics2:dense_energy_cell>, <appliedenergistics2:dense_energy_cell>, <appliedenergistics2:dense_energy_cell>, <appliedenergistics2:dense_energy_cell>, <ore:circuitMaster>, <gregtech:fusion_casing:4>], 
-    [<gregtech:fusion_casing:4>, <gregtech:machine:993>, <ore:circuitMaster>, <ore:circuitMaster>, <ore:circuitMaster>, <ore:circuitMaster>, <ore:circuitMaster>, <gregtech:machine:993>, <gregtech:fusion_casing:4>], 
-    [<ore:batteryElite>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <ore:batteryElite>]
+    [<ore:batterySuper>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <ore:batterySuper>], 
+    [<gregtech:fusion_casing:4>, <gregtech:machine:993>, <ore:circuitInfinite>, <ore:circuitInfinite>, <ore:circuitInfinite>, <ore:circuitInfinite>, <ore:circuitInfinite>, <gregtech:machine:993>, <gregtech:fusion_casing:4>], 
+    [<gregtech:fusion_casing:4>, <ore:circuitInfinite>, <appliedenergistics2:dense_energy_cell>, <appliedenergistics2:dense_energy_cell>, <appliedenergistics2:dense_energy_cell>, <appliedenergistics2:dense_energy_cell>, <appliedenergistics2:dense_energy_cell>, <ore:circuitInfinite>, <gregtech:fusion_casing:4>], 
+    [<gregtech:fusion_casing:4>, <ore:circuitInfinite>, <appliedenergistics2:dense_energy_cell>, <ore:plateOsmiridium>, <ore:plateOsmiridium>, <ore:plateOsmiridium>, <appliedenergistics2:dense_energy_cell>, <ore:circuitInfinite>, <gregtech:fusion_casing:4>], 
+    [<gregtech:fusion_casing:4>, <ore:circuitInfinite>, <appliedenergistics2:dense_energy_cell>, <ore:plateOsmiridium>, <gregtech:meta_item_1:340>, <ore:plateOsmiridium>, <appliedenergistics2:dense_energy_cell>, <ore:circuitInfinite>, <gregtech:fusion_casing:4>], 
+    [<gregtech:fusion_casing:4>, <ore:circuitInfinite>, <appliedenergistics2:dense_energy_cell>, <ore:plateOsmiridium>, <ore:plateOsmiridium>, <ore:plateOsmiridium>, <appliedenergistics2:dense_energy_cell>, <ore:circuitInfinite>, <gregtech:fusion_casing:4>], 
+    [<gregtech:fusion_casing:4>, <ore:circuitInfinite>, <appliedenergistics2:dense_energy_cell>, <appliedenergistics2:dense_energy_cell>, <appliedenergistics2:dense_energy_cell>, <appliedenergistics2:dense_energy_cell>, <appliedenergistics2:dense_energy_cell>, <ore:circuitInfinite>, <gregtech:fusion_casing:4>], 
+    [<gregtech:fusion_casing:4>, <gregtech:machine:993>, <ore:circuitInfinite>, <ore:circuitInfinite>, <ore:circuitInfinite>, <ore:circuitInfinite>, <ore:circuitInfinite>, <gregtech:machine:993>, <gregtech:fusion_casing:4>], 
+    [<ore:batterySuper>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <ore:batterySuper>]
 ]);
 
 # Creative Storage Cell

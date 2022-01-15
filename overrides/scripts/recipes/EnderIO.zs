@@ -535,32 +535,33 @@ alloy_smelter.recipeBuilder().
     EUt(480).
     buildAndRegister();
 
+# Stirling Furnace
+JEI.removeAndHide(<enderio:block_simple_furnace>);
+
 # Stirling Generator
-JEI.removeAndHide(<enderio:block_simple_stirling_generator>);
-recipes.remove(<enderio:block_stirling_generator>);
-recipes.addShaped(<enderio:block_stirling_generator>, [
-    [<ore:stoneBricks>, <minecraft:furnace>, <ore:stoneBricks>],
-    [<ore:ingotDarkSteel>, <enderio:item_material:1>, <ore:ingotDarkSteel>],
-    [<enderio:item_material:73>, <minecraft:piston>, <enderio:item_material:73>]
-]);
+// recipes.remove(<enderio:block_stirling_generator>);
+// recipes.addShaped(<enderio:block_stirling_generator>, [
+//     [<ore:stoneBricks>, <minecraft:furnace>, <ore:stoneBricks>],
+//     [<ore:ingotDarkSteel>, <enderio:item_material:1>, <ore:ingotDarkSteel>],
+//     [<enderio:item_material:73>, <minecraft:piston>, <enderio:item_material:73>]
+// ]);
 
 # The Niard
 JEI.removeAndHide(<enderio:block_niard>);
 
 # Alloy Smelter
-// JEI.hideCategory("AlloySmelter");
+JEI.hideCategory("AlloySmelter");
 JEI.removeAndHide(<enderio:block_simple_alloy_smelter>);
 JEI.removeAndHide(<enderio:block_alloy_smelter>);
 JEI.removeAndHide(<enderio:block_enhanced_alloy_smelter>);
 
 # SAG Mill
-// JEI.hideCategory("SagMill");
 JEI.removeAndHide(<enderio:block_simple_sag_mill>);
 recipes.remove(<enderio:block_sag_mill>);
 recipes.addShaped(<enderio:block_sag_mill>, [
     [<ore:ingotElectricalSteel>, <gregtech:meta_item_1:266>, <ore:ingotElectricalSteel>],
     [<minecraft:flint>, <enderio:item_material:1>, <minecraft:flint>],
-    [<gregtech:meta_item_1:173>, <enderio:item_basic_capacitor:1>, <gregtech:meta_item_1:128>]
+    [<gregtech:meta_item_1:129>, <enderio:item_basic_capacitor:2>, <gregtech:meta_item_1:129>]
 ]);
 
 # Crafter
@@ -582,6 +583,9 @@ JEI.hideCategory("EIOTank");
 JEI.removeAndHide(<enderio:block_tank>);
 JEI.removeAndHide(<enderio:block_tank:1>);
 
+# Endervoir
+JEI.removeAndHide(<enderio:block_reservoir>);
+
 # Omnivoir
 JEI.removeAndHide(<enderio:block_omni_reservoir>);
 
@@ -589,11 +593,11 @@ JEI.removeAndHide(<enderio:block_omni_reservoir>);
 JEI.removeAndHide(<enderio:block_vacuum_chest>);
 
 # Wired Charger
-recipes.remove(<enderio:block_wired_charger>);
-recipes.addShaped(<enderio:block_wired_charger>, [
-    [<ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>],
-    [<ore:ingotElectricalSteel>, <enderio:item_material:1>, <ore:ingotElectricalSteel>],
-    [<ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>]
+recipes.remove(<enderio:block_simple_wired_charger>);
+recipes.addShaped(<enderio:block_simple_wired_charger>, [
+    [<ore:cobblestone>, <ore:ingotIron>, <ore:cobblestone>],
+    [<ore:ingotIron>, <enderio:item_material>, <ore:ingotIron>],
+    [<ore:cobblestone>, <ore:ingotIron>, <ore:cobblestone>]
 ]);
 
 # Reinforced Obsidian
