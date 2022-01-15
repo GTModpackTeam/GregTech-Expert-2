@@ -58,21 +58,3 @@ var ae2 as IItemStack[] = [
 for tool in ae2 {
     JEI.removeAndHide(tool);
 }
-
-
-
-########################################
-# EnderIO
-########################################
-var enderio as IItemStack[] = [
-    <enderio:item_dark_steel_sword>,
-    <enderio:item_dark_steel_pickaxe>,
-    <enderio:item_dark_steel_axe>,
-    <enderio:item_dark_steel_crook>,
-    <enderio:item_end_steel_sword>,
-    <enderio:item_end_steel_pickaxe>,
-    <enderio:item_end_steel_axe>
-];
-for tool in enderio {
-    JEI.removeAndHide(tool);
-}

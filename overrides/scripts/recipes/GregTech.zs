@@ -6,6 +6,21 @@ import mods.jei.JEI;
 ########################################
 # Items
 ########################################
+# Clay Dust
+electrolyzer.findRecipe(60, [<gregtech:meta_dust:2063> * 13], [null]).remove();
+electrolyzer.recipeBuilder().
+    inputs([<ore:dustClay> * 13]).
+    fluidInputs([<liquid:water> * 6000]).
+    outputs([
+        <gregtech:meta_dust:101> * 2,
+        <gregtech:meta_dust:56>,
+        // <gregtech:meta_dust:2> * 2,
+        <gregtech:meta_dust:99> * 2
+    ]).
+    duration(100).
+    EUt(60).
+    buildAndRegister();
+
 # Wrought Iron Ingot
 recipes.addShaped(<gregtech:meta_ingot:335>, [
     [<gregtech:meta_nugget:335>, <gregtech:meta_nugget:335>, <gregtech:meta_nugget:335>],

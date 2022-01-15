@@ -1,6 +1,9 @@
 ########################################
 # Items
 ########################################
+# Charcoal
+furnace.remove(<minecraft:coal:1>);
+
 # Stick
 recipes.remove(<minecraft:stick> * 16);
 
@@ -22,8 +25,17 @@ recipes.removeShaped(<minecraft:comparator>, [
 ########################################
 # Blocks
 ########################################
-# Charcoal
-furnace.remove(<minecraft:coal:1>);
+# Sand
+mixer.recipeBuilder().
+    inputs([<ore:sand>]).
+    fluidInputs([<liquid:water> * 1000]).
+    outputs([<minecraft:clay>]).
+    duration(1000).
+    EUt(30).
+    buildAndRegister();
+
+# Ender Chest
+recipes.remove(<minecraft:ender_chest>);
 
 # Chest
 recipes.remove(<minecraft:chest> * 4);

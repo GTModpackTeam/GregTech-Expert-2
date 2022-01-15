@@ -212,14 +212,14 @@ recipes.addShaped(<appliedenergistics2:material:39>, [
     [<ore:screwSteel>, <ore:plateSteel>, <ore:screwSteel>]
 ]);
 recipes.addShaped(<appliedenergistics2:material:39>, [
-    [<ore:craftingToolScrewdriver>, <ore:plateSteel>, <ore:screwSteel>],
+    [<ore:gtceScrewdrivers>, <ore:plateSteel>, <ore:screwSteel>],
     [<ore:plateSteel>, null, <ore:plateSteel>],
-    [<ore:screwSteel>, <ore:plateSteel>, <ore:craftingToolHardHammer>]
+    [<ore:screwSteel>, <ore:plateSteel>, <ore:gtceHardHammers>]
 ]);
 recipes.addShaped(<appliedenergistics2:material:39>, [
-    [<ore:craftingToolHardHammer>, <ore:plateSteel>, <ore:screwSteel>],
+    [<ore:gtceHardHammers>, <ore:plateSteel>, <ore:screwSteel>],
     [<ore:plateSteel>, null, <ore:plateSteel>],
-    [<ore:screwSteel>, <ore:plateSteel>, <ore:craftingToolScrewdriver>]
+    [<ore:screwSteel>, <ore:plateSteel>, <ore:gtceScrewdrivers>]
 ]);
 
 # 1k Storage Cell
@@ -234,14 +234,14 @@ recipes.removeShaped(<appliedenergistics2:storage_cell_1k>, [
 //     [<ore:screwSteel>, <ore:plateSteel>, <ore:screwSteel>]
 // ]);
 // recipes.addShaped(<appliedenergistics2:storage_cell_1k>, [
-//     [<ore:craftingToolScrewdriver>, <ore:plateSteel>, <ore:screwSteel>],
+//     [<ore:gtceScrewdrivers>, <ore:plateSteel>, <ore:screwSteel>],
 //     [<ore:plateSteel>, <appliedenergistics2:material:35>, <ore:plateSteel>],
-//     [<ore:screwSteel>, <ore:plateSteel>, <ore:craftingToolHardHammer>]
+//     [<ore:screwSteel>, <ore:plateSteel>, <ore:gtceHardHammers>]
 // ]);
 // recipes.addShaped(<appliedenergistics2:storage_cell_1k>, [
-//     [<ore:craftingToolHardHammer>, <ore:plateSteel>, <ore:screwSteel>],
+//     [<ore:gtceHardHammers>, <ore:plateSteel>, <ore:screwSteel>],
 //     [<ore:plateSteel>, <appliedenergistics2:material:35>, <ore:plateSteel>],
-//     [<ore:screwSteel>, <ore:plateSteel>, <ore:craftingToolScrewdriver>]
+//     [<ore:screwSteel>, <ore:plateSteel>, <ore:gtceScrewdrivers>]
 // ]);
 
 # 4k Storage Cell
@@ -256,14 +256,14 @@ recipes.removeShaped(<appliedenergistics2:storage_cell_4k>, [
 //     [<ore:screwSteel>, <ore:plateSteel>, <ore:screwSteel>]
 // ]);
 // recipes.addShaped(<appliedenergistics2:storage_cell_4k>, [
-//     [<ore:craftingToolScrewdriver>, <ore:plateSteel>, <ore:screwSteel>],
+//     [<ore:gtceScrewdrivers>, <ore:plateSteel>, <ore:screwSteel>],
 //     [<ore:plateSteel>, <appliedenergistics2:material:36>, <ore:plateSteel>],
-//     [<ore:screwSteel>, <ore:plateSteel>, <ore:craftingToolHardHammer>]
+//     [<ore:screwSteel>, <ore:plateSteel>, <ore:gtceHardHammers>]
 // ]);
 // recipes.addShaped(<appliedenergistics2:storage_cell_4k>, [
-//     [<ore:craftingToolHardHammer>, <ore:plateSteel>, <ore:screwSteel>],
+//     [<ore:gtceHardHammers>, <ore:plateSteel>, <ore:screwSteel>],
 //     [<ore:plateSteel>, <appliedenergistics2:material:36>, <ore:plateSteel>],
-//     [<ore:screwSteel>, <ore:plateSteel>, <ore:craftingToolScrewdriver>]
+//     [<ore:screwSteel>, <ore:plateSteel>, <ore:gtceScrewdrivers>]
 // ]);
 
 # 16k Storage Cell
@@ -278,14 +278,14 @@ recipes.removeShaped(<appliedenergistics2:storage_cell_16k>, [
 //     [<ore:screwSteel>, <ore:plateSteel>, <ore:screwSteel>]
 // ]);
 // recipes.addShaped(<appliedenergistics2:storage_cell_16k>, [
-//     [<ore:craftingToolScrewdriver>, <ore:plateSteel>, <ore:screwSteel>],
+//     [<ore:gtceScrewdrivers>, <ore:plateSteel>, <ore:screwSteel>],
 //     [<ore:plateSteel>, <appliedenergistics2:material:37>, <ore:plateSteel>],
-//     [<ore:screwSteel>, <ore:plateSteel>, <ore:craftingToolHardHammer>]
+//     [<ore:screwSteel>, <ore:plateSteel>, <ore:gtceHardHammers>]
 // ]);
 // recipes.addShaped(<appliedenergistics2:storage_cell_16k>, [
-//     [<ore:craftingToolHardHammer>, <ore:plateSteel>, <ore:screwSteel>],
+//     [<ore:gtceHardHammers>, <ore:plateSteel>, <ore:screwSteel>],
 //     [<ore:plateSteel>, <appliedenergistics2:material:37>, <ore:plateSteel>],
-//     [<ore:screwSteel>, <ore:plateSteel>, <ore:craftingToolScrewdriver>]
+//     [<ore:screwSteel>, <ore:plateSteel>, <ore:gtceScrewdrivers>]
 // ]);
 
 # 64k Storage Cell
@@ -300,14 +300,14 @@ recipes.removeShaped(<appliedenergistics2:storage_cell_64k>, [
 //     [<ore:screwSteel>, <ore:plateSteel>, <ore:screwSteel>]
 // ]);
 // recipes.addShaped(<appliedenergistics2:storage_cell_64k>, [
-//     [<ore:craftingToolScrewdriver>, <ore:plateSteel>, <ore:screwSteel>],
+//     [<ore:gtceScrewdrivers>, <ore:plateSteel>, <ore:screwSteel>],
 //     [<ore:plateSteel>, <appliedenergistics2:material:38>, <ore:plateSteel>],
-//     [<ore:screwSteel>, <ore:plateSteel>, <ore:craftingToolHardHammer>]
+//     [<ore:screwSteel>, <ore:plateSteel>, <ore:gtceHardHammers>]
 // ]);
 // recipes.addShaped(<appliedenergistics2:storage_cell_64k>, [
-//     [<ore:craftingToolHardHammer>, <ore:plateSteel>, <ore:screwSteel>],
+//     [<ore:gtceHardHammers>, <ore:plateSteel>, <ore:screwSteel>],
 //     [<ore:plateSteel>, <appliedenergistics2:material:38>, <ore:plateSteel>],
-//     [<ore:screwSteel>, <ore:plateSteel>, <ore:craftingToolScrewdriver>]
+//     [<ore:screwSteel>, <ore:plateSteel>, <ore:gtceScrewdrivers>]
 // ]);
 
 # 1k Fluid Cell
@@ -322,14 +322,14 @@ recipes.removeShaped(<appliedenergistics2:fluid_storage_cell_1k>, [
 //     [<ore:screwStainlessSteel>, <ore:plateStainlessSteel>, <ore:screwStainlessSteel>]
 // ]);
 // recipes.addShaped(<appliedenergistics2:fluid_storage_cell_1k>, [
-//     [<ore:craftingToolScrewdriver>, <ore:plateStainlessSteel>, <ore:screwStainlessSteel>],
+//     [<ore:gtceScrewdrivers>, <ore:plateStainlessSteel>, <ore:screwStainlessSteel>],
 //     [<ore:plateStainlessSteel>, <appliedenergistics2:material:54>, <ore:plateStainlessSteel>],
-//     [<ore:screwStainlessSteel>, <ore:plateStainlessSteel>, <ore:craftingToolHardHammer>]
+//     [<ore:screwStainlessSteel>, <ore:plateStainlessSteel>, <ore:gtceHardHammers>]
 // ]);
 // recipes.addShaped(<appliedenergistics2:fluid_storage_cell_1k>, [
-//     [<ore:craftingToolHardHammer>, <ore:plateStainlessSteel>, <ore:screwStainlessSteel>],
+//     [<ore:gtceHardHammers>, <ore:plateStainlessSteel>, <ore:screwStainlessSteel>],
 //     [<ore:plateStainlessSteel>, <appliedenergistics2:material:54>, <ore:plateStainlessSteel>],
-//     [<ore:screwStainlessSteel>, <ore:plateStainlessSteel>, <ore:craftingToolScrewdriver>]
+//     [<ore:screwStainlessSteel>, <ore:plateStainlessSteel>, <ore:gtceScrewdrivers>]
 // ]);
 
 # 4k Fluid Cell
@@ -344,14 +344,14 @@ recipes.removeShaped(<appliedenergistics2:fluid_storage_cell_4k>, [
 //     [<ore:screwStainlessSteel>, <ore:plateStainlessSteel>, <ore:screwStainlessSteel>]
 // ]);
 // recipes.addShaped(<appliedenergistics2:fluid_storage_cell_4k>, [
-//     [<ore:craftingToolScrewdriver>, <ore:plateStainlessSteel>, <ore:screwStainlessSteel>],
+//     [<ore:gtceScrewdrivers>, <ore:plateStainlessSteel>, <ore:screwStainlessSteel>],
 //     [<ore:plateStainlessSteel>, <appliedenergistics2:material:55>, <ore:plateStainlessSteel>],
-//     [<ore:screwStainlessSteel>, <ore:plateStainlessSteel>, <ore:craftingToolHardHammer>]
+//     [<ore:screwStainlessSteel>, <ore:plateStainlessSteel>, <ore:gtceHardHammers>]
 // ]);
 // recipes.addShaped(<appliedenergistics2:fluid_storage_cell_4k>, [
-//     [<ore:craftingToolHardHammer>, <ore:plateStainlessSteel>, <ore:screwStainlessSteel>],
+//     [<ore:gtceHardHammers>, <ore:plateStainlessSteel>, <ore:screwStainlessSteel>],
 //     [<ore:plateStainlessSteel>, <appliedenergistics2:material:55>, <ore:plateStainlessSteel>],
-//     [<ore:screwStainlessSteel>, <ore:plateStainlessSteel>, <ore:craftingToolScrewdriver>]
+//     [<ore:screwStainlessSteel>, <ore:plateStainlessSteel>, <ore:gtceScrewdrivers>]
 // ]);
 
 # 16k Fluid Cell
@@ -366,14 +366,14 @@ recipes.removeShaped(<appliedenergistics2:fluid_storage_cell_16k>, [
 //     [<ore:screwStainlessSteel>, <ore:plateStainlessSteel>, <ore:screwStainlessSteel>]
 // ]);
 // recipes.addShaped(<appliedenergistics2:fluid_storage_cell_16k>, [
-//     [<ore:craftingToolScrewdriver>, <ore:plateStainlessSteel>, <ore:screwStainlessSteel>],
+//     [<ore:gtceScrewdrivers>, <ore:plateStainlessSteel>, <ore:screwStainlessSteel>],
 //     [<ore:plateStainlessSteel>, <appliedenergistics2:material:56>, <ore:plateStainlessSteel>],
-//     [<ore:screwStainlessSteel>, <ore:plateStainlessSteel>, <ore:craftingToolHardHammer>]
+//     [<ore:screwStainlessSteel>, <ore:plateStainlessSteel>, <ore:gtceHardHammers>]
 // ]);
 // recipes.addShaped(<appliedenergistics2:fluid_storage_cell_16k>, [
-//     [<ore:craftingToolHardHammer>, <ore:plateStainlessSteel>, <ore:screwStainlessSteel>],
+//     [<ore:gtceHardHammers>, <ore:plateStainlessSteel>, <ore:screwStainlessSteel>],
 //     [<ore:plateStainlessSteel>, <appliedenergistics2:material:56>, <ore:plateStainlessSteel>],
-//     [<ore:screwStainlessSteel>, <ore:plateStainlessSteel>, <ore:craftingToolScrewdriver>]
+//     [<ore:screwStainlessSteel>, <ore:plateStainlessSteel>, <ore:gtceScrewdrivers>]
 // ]);
 
 # 64k Fluid Cell
@@ -388,14 +388,14 @@ recipes.removeShaped(<appliedenergistics2:fluid_storage_cell_64k>, [
 //     [<ore:screwStainlessSteel>, <ore:plateStainlessSteel>, <ore:screwStainlessSteel>]
 // ]);
 // recipes.addShaped(<appliedenergistics2:fluid_storage_cell_64k>, [
-//     [<ore:craftingToolScrewdriver>, <ore:plateStainlessSteel>, <ore:screwStainlessSteel>],
+//     [<ore:gtceScrewdrivers>, <ore:plateStainlessSteel>, <ore:screwStainlessSteel>],
 //     [<ore:plateStainlessSteel>, <appliedenergistics2:material:57>, <ore:plateStainlessSteel>],
-//     [<ore:screwStainlessSteel>, <ore:plateStainlessSteel>, <ore:craftingToolHardHammer>]
+//     [<ore:screwStainlessSteel>, <ore:plateStainlessSteel>, <ore:gtceHardHammers>]
 // ]);
 // recipes.addShaped(<appliedenergistics2:fluid_storage_cell_64k>, [
-//     [<ore:craftingToolHardHammer>, <ore:plateStainlessSteel>, <ore:screwStainlessSteel>],
+//     [<ore:gtceHardHammers>, <ore:plateStainlessSteel>, <ore:screwStainlessSteel>],
 //     [<ore:plateStainlessSteel>, <appliedenergistics2:material:57>, <ore:plateStainlessSteel>],
-//     [<ore:screwStainlessSteel>, <ore:plateStainlessSteel>, <ore:craftingToolScrewdriver>]
+//     [<ore:screwStainlessSteel>, <ore:plateStainlessSteel>, <ore:gtceScrewdrivers>]
 // ]);
 
 # 2k Spatial Cell
@@ -410,14 +410,14 @@ recipes.removeShaped(<appliedenergistics2:spatial_storage_cell_2_cubed>, [
 //     [<ore:screwStainlessSteel>, <ore:plateAluminium>, <ore:screwStainlessSteel>]
 // ]);
 // recipes.addShaped(<appliedenergistics2:spatial_storage_cell_2_cubed>, [
-//     [<ore:craftingToolScrewdriver>, <ore:plateAluminium>, <ore:screwStainlessSteel>],
+//     [<ore:gtceScrewdrivers>, <ore:plateAluminium>, <ore:screwStainlessSteel>],
 //     [<ore:plateAluminium>, <appliedenergistics2:material:32>, <ore:plateAluminium>],
-//     [<ore:screwStainlessSteel>, <ore:plateAluminium>, <ore:craftingToolHardHammer>]
+//     [<ore:screwStainlessSteel>, <ore:plateAluminium>, <ore:gtceHardHammers>]
 // ]);
 // recipes.addShaped(<appliedenergistics2:spatial_storage_cell_2_cubed>, [
-//     [<ore:craftingToolHardHammer>, <ore:plateAluminium>, <ore:screwStainlessSteel>],
+//     [<ore:gtceHardHammers>, <ore:plateAluminium>, <ore:screwStainlessSteel>],
 //     [<ore:plateAluminium>, <appliedenergistics2:material:32>, <ore:plateAluminium>],
-//     [<ore:screwStainlessSteel>, <ore:plateAluminium>, <ore:craftingToolScrewdriver>]
+//     [<ore:screwStainlessSteel>, <ore:plateAluminium>, <ore:gtceScrewdrivers>]
 // ]);
 
 # 16k Spatial Cell
@@ -432,14 +432,14 @@ recipes.removeShaped(<appliedenergistics2:spatial_storage_cell_16_cubed>, [
 //     [<ore:screwAluminium>, <ore:plateAluminium>, <ore:screwAluminium>]
 // ]);
 // recipes.addShaped(<appliedenergistics2:spatial_storage_cell_16_cubed>, [
-//     [<ore:craftingToolScrewdriver>, <ore:plateAluminium>, <ore:screwAluminium>],
+//     [<ore:gtceScrewdrivers>, <ore:plateAluminium>, <ore:screwAluminium>],
 //     [<ore:plateAluminium>, <appliedenergistics2:material:33>, <ore:plateAluminium>],
-//     [<ore:screwAluminium>, <ore:plateAluminium>, <ore:craftingToolHardHammer>]
+//     [<ore:screwAluminium>, <ore:plateAluminium>, <ore:gtceHardHammers>]
 // ]);
 // recipes.addShaped(<appliedenergistics2:spatial_storage_cell_16_cubed>, [
-//     [<ore:craftingToolHardHammer>, <ore:plateAluminium>, <ore:screwAluminium>],
+//     [<ore:gtceHardHammers>, <ore:plateAluminium>, <ore:screwAluminium>],
 //     [<ore:plateAluminium>, <appliedenergistics2:material:33>, <ore:plateAluminium>],
-//     [<ore:screwAluminium>, <ore:plateAluminium>, <ore:craftingToolScrewdriver>]
+//     [<ore:screwAluminium>, <ore:plateAluminium>, <ore:gtceScrewdrivers>]
 // ]);
 
 # 128k Spatial Cell
@@ -454,14 +454,14 @@ recipes.removeShaped(<appliedenergistics2:spatial_storage_cell_128_cubed>, [
 //     [<ore:screwAluminium>, <ore:plateAluminium>, <ore:screwAluminium>]
 // ]);
 // recipes.addShaped(<appliedenergistics2:spatial_storage_cell_128_cubed>, [
-//     [<ore:craftingToolScrewdriver>, <ore:plateAluminium>, <ore:screwAluminium>],
+//     [<ore:gtceScrewdrivers>, <ore:plateAluminium>, <ore:screwAluminium>],
 //     [<ore:plateAluminium>, <appliedenergistics2:material:34>, <ore:plateAluminium>],
-//     [<ore:screwAluminium>, <ore:plateAluminium>, <ore:craftingToolHardHammer>]
+//     [<ore:screwAluminium>, <ore:plateAluminium>, <ore:gtceHardHammers>]
 // ]);
 // recipes.addShaped(<appliedenergistics2:spatial_storage_cell_128_cubed>, [
-//     [<ore:craftingToolHardHammer>, <ore:plateAluminium>, <ore:screwAluminium>],
+//     [<ore:gtceHardHammers>, <ore:plateAluminium>, <ore:screwAluminium>],
 //     [<ore:plateAluminium>, <appliedenergistics2:material:34>, <ore:plateAluminium>],
-//     [<ore:screwAluminium>, <ore:plateAluminium>, <ore:craftingToolScrewdriver>]
+//     [<ore:screwAluminium>, <ore:plateAluminium>, <ore:gtceScrewdrivers>]
 // ]);
 
 # 1k Storage Component
@@ -992,14 +992,14 @@ recipes.removeShapeless(<appliedenergistics2:part:36>, [
     <ore:blockWool>, <appliedenergistics2:part:16>
 ]);
 recipes.addShaped(<appliedenergistics2:part:36>, [
-    [<ore:plateRubber>, <ore:craftingToolSaw>, <ore:plateRubber>],
+    [<ore:plateRubber>, <ore:gtceSaws>, <ore:plateRubber>],
     [<appliedenergistics2:part:140>, <appliedenergistics2:part:140>, <appliedenergistics2:part:140>],
     [<ore:plateRubber>, null, <ore:plateRubber>]
 ]);
 recipes.addShaped(<appliedenergistics2:part:36>, [
     [<ore:plateRubber>, null, <ore:plateRubber>],
     [<appliedenergistics2:part:140>, <appliedenergistics2:part:140>, <appliedenergistics2:part:140>],
-    [<ore:plateRubber>, <ore:craftingToolSaw>, <ore:plateRubber>]
+    [<ore:plateRubber>, <ore:gtceSaws>, <ore:plateRubber>]
 ]);
 
 # ME Controller
@@ -1226,10 +1226,10 @@ recipes.remove(<appliedenergistics2:part:380>);
 recipes.addShaped(<appliedenergistics2:part:380>, [
     [<ore:stickAluminium>, <ore:screwAluminium>, <ore:stickAluminium>],
     [<appliedenergistics2:part:180>, <ore:circuitBasic>, <ore:plateAluminium>],
-    [<ore:stickAluminium>, <ore:craftingToolScrewdriver>, <ore:stickAluminium>]
+    [<ore:stickAluminium>, <ore:gtceScrewdrivers>, <ore:stickAluminium>]
 ]);
 recipes.addShaped(<appliedenergistics2:part:380>, [
-    [<ore:stickAluminium>, <ore:craftingToolScrewdriver>, <ore:stickAluminium>],
+    [<ore:stickAluminium>, <ore:gtceScrewdrivers>, <ore:stickAluminium>],
     [<appliedenergistics2:part:180>, <ore:circuitBasic>, <ore:plateAluminium>],
     [<ore:stickAluminium>, <ore:screwAluminium>, <ore:stickAluminium>]
 ]);
@@ -1237,12 +1237,12 @@ recipes.addShaped(<appliedenergistics2:part:380>, [
 # Crafting Terminal
 recipes.remove(<appliedenergistics2:part:360>);
 recipes.addShaped(<appliedenergistics2:part:360>, [
-    [<ore:craftingToolScrewdriver>, <appliedenergistics2:part:380>, <ore:craftingToolSoftHammer>],
+    [<ore:gtceScrewdrivers>, <appliedenergistics2:part:380>, <ore:gtceSoftHammers>],
     [<ore:screwAluminium>, <minecraft:crafting_table>, <ore:screwAluminium>],
     [<ore:plateAluminium>, <appliedenergistics2:material:24>, <ore:plateAluminium>]
 ]);
 recipes.addShaped(<appliedenergistics2:part:360>, [
-    [<ore:craftingToolSoftHammer>, <appliedenergistics2:part:380>, <ore:craftingToolScrewdriver>],
+    [<ore:gtceSoftHammers>, <appliedenergistics2:part:380>, <ore:gtceScrewdrivers>],
     [<ore:screwAluminium>, <minecraft:crafting_table>, <ore:screwAluminium>],
     [<ore:plateAluminium>, <appliedenergistics2:material:24>, <ore:plateAluminium>]
 ]);
@@ -1250,12 +1250,12 @@ recipes.addShaped(<appliedenergistics2:part:360>, [
 # Interface Terminal
 recipes.remove(<appliedenergistics2:part:480>);
 recipes.addShaped(<appliedenergistics2:part:480>, [
-    [<ore:craftingToolScrewdriver>, <appliedenergistics2:part:380>, <ore:craftingToolSoftHammer>],
+    [<ore:gtceScrewdrivers>, <appliedenergistics2:part:380>, <ore:gtceSoftHammers>],
     [<ore:screwAluminium>, <appliedenergistics2:part:440>, <ore:screwAluminium>],
     [<ore:plateAluminium>, <appliedenergistics2:material:24>, <ore:plateAluminium>]
 ]);
 recipes.addShaped(<appliedenergistics2:part:480>, [
-    [<ore:craftingToolSoftHammer>, <appliedenergistics2:part:380>, <ore:craftingToolScrewdriver>],
+    [<ore:gtceSoftHammers>, <appliedenergistics2:part:380>, <ore:gtceScrewdrivers>],
     [<ore:screwAluminium>, <appliedenergistics2:part:440>, <ore:screwAluminium>],
     [<ore:plateAluminium>, <appliedenergistics2:material:24>, <ore:plateAluminium>]
 ]);
@@ -1271,7 +1271,7 @@ recipes.addShaped(<appliedenergistics2:part:460>, [
 # Pattrern Terminal
 recipes.remove(<appliedenergistics2:part:340>);
 recipes.addShaped(<appliedenergistics2:part:340>, [
-    [<ore:craftingToolScrewdriver>, <appliedenergistics2:part:380>, <ore:craftingToolSoftHammer>],
+    [<ore:gtceScrewdrivers>, <appliedenergistics2:part:380>, <ore:gtceSoftHammers>],
     [<ore:screwAluminium>, <appliedenergistics2:material:52>, <ore:screwAluminium>],
     [<ore:plateAluminium>, <appliedenergistics2:material:24>, <ore:plateAluminium>]
 ]);
@@ -1279,14 +1279,14 @@ recipes.addShaped(<appliedenergistics2:part:340>, [
 # Storage Bus
 recipes.remove(<appliedenergistics2:part:220>);
 recipes.addShaped(<appliedenergistics2:part:220>, [
-    [<ore:plateAluminium>, <ore:craftingToolSoftHammer>, <ore:plateAluminium>],
+    [<ore:plateAluminium>, <ore:gtceSoftHammers>, <ore:plateAluminium>],
     [<gregtech:meta_item_1:158>, <ore:ae2.interface.item>, <gregtech:meta_item_1:158>],
     [<ore:plateAluminium>, <minecraft:chest>, <ore:plateAluminium>]
 ]);
 recipes.addShaped(<appliedenergistics2:part:220>, [
     [<ore:plateAluminium>, <minecraft:chest>, <ore:plateAluminium>],
     [<gregtech:meta_item_1:158>, <ore:ae2.interface.item>, <gregtech:meta_item_1:158>],
-    [<ore:plateAluminium>, <ore:craftingToolSoftHammer>, <ore:plateAluminium>]
+    [<ore:plateAluminium>, <ore:gtceSoftHammers>, <ore:plateAluminium>]
 ]);
 
 # Import Bus

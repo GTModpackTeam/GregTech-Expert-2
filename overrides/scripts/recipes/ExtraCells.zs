@@ -26,14 +26,14 @@ recipes.addShaped(<extracells:storage.casing>, [
     [<ore:screwTungstenSteel>, <ore:plateTungstenSteel>, <ore:screwTungstenSteel>]
 ]);
 recipes.addShaped(<extracells:storage.casing>, [
-    [<ore:craftingToolScrewdriver>, <ore:plateTungstenSteel>, <ore:screwTungstenSteel>],
+    [<ore:gtceScrewdrivers>, <ore:plateTungstenSteel>, <ore:screwTungstenSteel>],
     [<ore:plateTungstenSteel>, null, <ore:plateTungstenSteel>],
-    [<ore:screwTungstenSteel>, <ore:plateTungstenSteel>, <ore:craftingToolHardHammer>]
+    [<ore:screwTungstenSteel>, <ore:plateTungstenSteel>, <ore:gtceHardHammers>]
 ]);
 recipes.addShaped(<extracells:storage.casing>, [
-    [<ore:craftingToolHardHammer>, <ore:plateTungstenSteel>, <ore:screwTungstenSteel>],
+    [<ore:gtceHardHammers>, <ore:plateTungstenSteel>, <ore:screwTungstenSteel>],
     [<ore:plateTungstenSteel>, null, <ore:plateTungstenSteel>],
-    [<ore:screwTungstenSteel>, <ore:plateTungstenSteel>, <ore:craftingToolScrewdriver>]
+    [<ore:screwTungstenSteel>, <ore:plateTungstenSteel>, <ore:gtceScrewdrivers>]
 ]);
 
 # Fluid Housing
@@ -44,14 +44,14 @@ recipes.addShaped(<extracells:storage.casing:1>, [
     [<ore:screwStainlessSteel>, <ore:plateStainlessSteel>, <ore:screwStainlessSteel>]
 ]);
 recipes.addShaped(<extracells:storage.casing:1>, [
-    [<ore:craftingToolScrewdriver>, <ore:plateStainlessSteel>, <ore:screwStainlessSteel>],
+    [<ore:gtceScrewdrivers>, <ore:plateStainlessSteel>, <ore:screwStainlessSteel>],
     [<ore:plateStainlessSteel>, null, <ore:plateStainlessSteel>],
-    [<ore:screwStainlessSteel>, <ore:plateStainlessSteel>, <ore:craftingToolHardHammer>]
+    [<ore:screwStainlessSteel>, <ore:plateStainlessSteel>, <ore:gtceHardHammers>]
 ]);
 recipes.addShaped(<extracells:storage.casing:1>, [
-    [<ore:craftingToolHardHammer>, <ore:plateStainlessSteel>, <ore:screwStainlessSteel>],
+    [<ore:gtceHardHammers>, <ore:plateStainlessSteel>, <ore:screwStainlessSteel>],
     [<ore:plateStainlessSteel>, null, <ore:plateStainlessSteel>],
-    [<ore:screwStainlessSteel>, <ore:plateStainlessSteel>, <ore:craftingToolScrewdriver>]
+    [<ore:screwStainlessSteel>, <ore:plateStainlessSteel>, <ore:gtceScrewdrivers>]
 ]);
 
 # 256k Storage Cell
@@ -66,14 +66,14 @@ recipes.removeShaped(<extracells:storage.physical>, [
 //     [<ore:screwTungstenSteel>, <ore:plateTungstenSteel>, <ore:screwTungstenSteel>]
 // ]);
 // recipes.addShaped(<extracells:storage.physical>, [
-//     [<ore:craftingToolScrewdriver>, <ore:plateTungstenSteel>, <ore:screwTungstenSteel>],
+//     [<ore:gtceScrewdrivers>, <ore:plateTungstenSteel>, <ore:screwTungstenSteel>],
 //     [<ore:plateTungstenSteel>, <extracells:storage.component>, <ore:plateTungstenSteel>],
-//     [<ore:screwTungstenSteel>, <ore:plateTungstenSteel>, <ore:craftingToolHardHammer>]
+//     [<ore:screwTungstenSteel>, <ore:plateTungstenSteel>, <ore:gtceHardHammers>]
 // ]);
 // recipes.addShaped(<extracells:storage.physical>, [
-//     [<ore:craftingToolHardHammer>, <ore:plateTungstenSteel>, <ore:screwTungstenSteel>],
+//     [<ore:gtceHardHammers>, <ore:plateTungstenSteel>, <ore:screwTungstenSteel>],
 //     [<ore:plateTungstenSteel>, <extracells:storage.component>, <ore:plateTungstenSteel>],
-//     [<ore:screwTungstenSteel>, <ore:plateTungstenSteel>, <ore:craftingToolScrewdriver>]
+//     [<ore:screwTungstenSteel>, <ore:plateTungstenSteel>, <ore:gtceScrewdrivers>]
 // ]);
 
 # 1024k Storage Cell
@@ -88,14 +88,14 @@ recipes.removeShaped(<extracells:storage.physical:1>, [
 //     [<ore:screwChrome>, <ore:plateChrome>, <ore:screwChrome>]
 // ]);
 // recipes.addShaped(<extracells:storage.physical:1>, [
-//     [<ore:craftingToolScrewdriver>, <ore:plateChrome>, <ore:screwChrome>],
+//     [<ore:gtceScrewdrivers>, <ore:plateChrome>, <ore:screwChrome>],
 //     [<ore:plateChrome>, <extracells:storage.component:1>, <ore:plateChrome>],
-//     [<ore:screwChrome>, <ore:plateChrome>, <ore:craftingToolHardHammer>]
+//     [<ore:screwChrome>, <ore:plateChrome>, <ore:gtceHardHammers>]
 // ]);
 // recipes.addShaped(<extracells:storage.physical:1>, [
-//     [<ore:craftingToolHardHammer>, <ore:plateChrome>, <ore:screwChrome>],
+//     [<ore:gtceHardHammers>, <ore:plateChrome>, <ore:screwChrome>],
 //     [<ore:plateChrome>, <extracells:storage.component:1>, <ore:plateChrome>],
-//     [<ore:screwChrome>, <ore:plateChrome>, <ore:craftingToolScrewdriver>]
+//     [<ore:screwChrome>, <ore:plateChrome>, <ore:gtceScrewdrivers>]
 // ]);
 
 # 4096k Storage Cell
@@ -110,14 +110,14 @@ recipes.removeShaped(<extracells:storage.physical:2>, [
 //     [<ore:screwOsmium>, <ore:plateOsmium>, <ore:screwOsmium>]
 // ]);
 // recipes.addShaped(<extracells:storage.physical:2>, [
-//     [<ore:craftingToolScrewdriver>, <ore:plateOsmium>, <ore:screwOsmium>],
+//     [<ore:gtceScrewdrivers>, <ore:plateOsmium>, <ore:screwOsmium>],
 //     [<ore:plateOsmium>, <extracells:storage.component:2>, <ore:plateOsmium>],
-//     [<ore:screwOsmium>, <ore:plateOsmium>, <ore:craftingToolHardHammer>]
+//     [<ore:screwOsmium>, <ore:plateOsmium>, <ore:gtceHardHammers>]
 // ]);
 // recipes.addShaped(<extracells:storage.physical:2>, [
-//     [<ore:craftingToolHardHammer>, <ore:plateOsmium>, <ore:screwOsmium>],
+//     [<ore:gtceHardHammers>, <ore:plateOsmium>, <ore:screwOsmium>],
 //     [<ore:plateOsmium>, <extracells:storage.component:2>, <ore:plateOsmium>],
-//     [<ore:screwOsmium>, <ore:plateOsmium>, <ore:craftingToolScrewdriver>]
+//     [<ore:screwOsmium>, <ore:plateOsmium>, <ore:gtceScrewdrivers>]
 // ]);
 
 # 16384k Storage Cell
@@ -132,14 +132,14 @@ recipes.removeShaped(<extracells:storage.physical:3>, [
 //     [<ore:screwNeutronium>, <ore:plateNeutronium>, <ore:screwNeutronium>]
 // ]);
 // recipes.addShaped(<extracells:storage.physical:3>, [
-//     [<ore:craftingToolScrewdriver>, <ore:plateNeutronium>, <ore:screwNeutronium>],
+//     [<ore:gtceScrewdrivers>, <ore:plateNeutronium>, <ore:screwNeutronium>],
 //     [<ore:plateNeutronium>, <extracells:storage.component:3>, <ore:plateNeutronium>],
-//     [<ore:screwNeutronium>, <ore:plateNeutronium>, <ore:craftingToolHardHammer>]
+//     [<ore:screwNeutronium>, <ore:plateNeutronium>, <ore:gtceHardHammers>]
 // ]);
 // recipes.addShaped(<extracells:storage.physical:3>, [
-//     [<ore:craftingToolHardHammer>, <ore:plateNeutronium>, <ore:screwNeutronium>],
+//     [<ore:gtceHardHammers>, <ore:plateNeutronium>, <ore:screwNeutronium>],
 //     [<ore:plateNeutronium>, <extracells:storage.component:3>, <ore:plateNeutronium>],
-//     [<ore:screwNeutronium>, <ore:plateNeutronium>, <ore:craftingToolScrewdriver>]
+//     [<ore:screwNeutronium>, <ore:plateNeutronium>, <ore:gtceScrewdrivers>]
 // ]);
 
 # 256k Fluid Cell
@@ -154,14 +154,14 @@ recipes.removeShaped(<extracells:storage.fluid:4>, [
 //     [<ore:screwTungstenSteel>, <ore:plateTungstenSteel>, <ore:screwTungstenSteel>]
 // ]);
 // recipes.addShaped(<extracells:storage.fluid:4>, [
-//     [<ore:craftingToolScrewdriver>, <ore:plateTungstenSteel>, <ore:screwTungstenSteel>],
+//     [<ore:gtceScrewdrivers>, <ore:plateTungstenSteel>, <ore:screwTungstenSteel>],
 //     [<ore:plateTungstenSteel>, <extracells:storage.component:8>, <ore:plateTungstenSteel>],
-//     [<ore:screwTungstenSteel>, <ore:plateTungstenSteel>, <ore:craftingToolHardHammer>]
+//     [<ore:screwTungstenSteel>, <ore:plateTungstenSteel>, <ore:gtceHardHammers>]
 // ]);
 // recipes.addShaped(<extracells:storage.fluid:4>, [
-//     [<ore:craftingToolHardHammer>, <ore:plateTungstenSteel>, <ore:screwTungstenSteel>],
+//     [<ore:gtceHardHammers>, <ore:plateTungstenSteel>, <ore:screwTungstenSteel>],
 //     [<ore:plateTungstenSteel>, <extracells:storage.component:8>, <ore:plateTungstenSteel>],
-//     [<ore:screwTungstenSteel>, <ore:plateTungstenSteel>, <ore:craftingToolScrewdriver>]
+//     [<ore:screwTungstenSteel>, <ore:plateTungstenSteel>, <ore:gtceScrewdrivers>]
 // ]);
 
 # 1024k Fluid Cell
@@ -176,14 +176,14 @@ recipes.removeShaped(<extracells:storage.fluid:5>, [
 //     [<ore:screwChrome>, <ore:plateChrome>, <ore:screwChrome>]
 // ]);
 // recipes.addShaped(<extracells:storage.fluid:5>, [
-//     [<ore:craftingToolScrewdriver>, <ore:plateChrome>, <ore:screwChrome>],
+//     [<ore:gtceScrewdrivers>, <ore:plateChrome>, <ore:screwChrome>],
 //     [<ore:plateChrome>, <extracells:storage.component:9>, <ore:plateChrome>],
-//     [<ore:screwChrome>, <ore:plateChrome>, <ore:craftingToolHardHammer>]
+//     [<ore:screwChrome>, <ore:plateChrome>, <ore:gtceHardHammers>]
 // ]);
 // recipes.addShaped(<extracells:storage.fluid:5>, [
-//     [<ore:craftingToolHardHammer>, <ore:plateChrome>, <ore:screwChrome>],
+//     [<ore:gtceHardHammers>, <ore:plateChrome>, <ore:screwChrome>],
 //     [<ore:plateChrome>, <extracells:storage.component:9>, <ore:plateChrome>],
-//     [<ore:screwChrome>, <ore:plateChrome>, <ore:craftingToolScrewdriver>]
+//     [<ore:screwChrome>, <ore:plateChrome>, <ore:gtceScrewdrivers>]
 // ]);
 
 # 4096k Fluid Cell
@@ -198,14 +198,14 @@ recipes.removeShaped(<extracells:storage.fluid:6>, [
 //     [<ore:screwOsmium>, <ore:plateOsmium>, <ore:screwOsmium>]
 // ]);
 // recipes.addShaped(<extracells:storage.fluid:6>, [
-//     [<ore:craftingToolScrewdriver>, <ore:plateOsmium>, <ore:screwOsmium>],
+//     [<ore:gtceScrewdrivers>, <ore:plateOsmium>, <ore:screwOsmium>],
 //     [<ore:plateOsmium>, <extracells:storage.component:10>, <ore:plateOsmium>],
-//     [<ore:screwOsmium>, <ore:plateOsmium>, <ore:craftingToolHardHammer>]
+//     [<ore:screwOsmium>, <ore:plateOsmium>, <ore:gtceHardHammers>]
 // ]);
 // recipes.addShaped(<extracells:storage.fluid:6>, [
-//     [<ore:craftingToolHardHammer>, <ore:plateOsmium>, <ore:screwOsmium>],
+//     [<ore:gtceHardHammers>, <ore:plateOsmium>, <ore:screwOsmium>],
 //     [<ore:plateOsmium>, <extracells:storage.component:10>, <ore:plateOsmium>],
-//     [<ore:screwOsmium>, <ore:plateOsmium>, <ore:craftingToolScrewdriver>]
+//     [<ore:screwOsmium>, <ore:plateOsmium>, <ore:gtceScrewdrivers>]
 // ]);
 
 # 256k Storage Component
