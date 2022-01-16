@@ -23,7 +23,3 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/')
         with:
           token: ${{ steps.generate_token.outputs.token }}
-          files: |
-            - ./overrides
-            - ./manifest.json
-            - ./modlist.html
