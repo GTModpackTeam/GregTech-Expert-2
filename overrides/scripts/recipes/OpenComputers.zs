@@ -1,13 +1,16 @@
-# Imoprts
-import mods.jei.JEI;
-
-
-
 ########################################
 # Items
 ########################################
+# Wrench
+recipes.remove(<opencomputers:wrench>);
+recipes.addShaped(<opencomputers:wrench>, [
+    [<ore:ingotIron>, null, <ore:ingotIron>],
+    [null, <ore:oc:circuitChip2>, null],
+    [null, <ore:ingotIron>, null]
+]);
+
 # Memory Tier1
-recipes.remove(<ore:oc:ram1>);
+recipes.remove(<opencomputers:component:6>);
 assembler.recipeBuilder().
     inputs([
         <ore:oc:circuitChip1> * 3,
@@ -19,7 +22,7 @@ assembler.recipeBuilder().
     buildAndRegister();
 
 # Transistor
-recipes.remove(<ore:oc:materialTransistor>);
+recipes.remove(<opencomputers:material:6>);
 assembler.recipeBuilder().
     inputs([
         <ore:stickIron> * 3,
@@ -31,10 +34,10 @@ assembler.recipeBuilder().
     buildAndRegister();
 
 # Microchip Tier1
-recipes.remove(<ore:oc:circuitChip1>);
+recipes.remove(<opencomputers:material:7>);
 assembler.recipeBuilder().
     inputs([
-        <ore:oc:materialTransistor> * 4,
+        <opencomputers:material:6> * 4,
         <ore:circuitBasic>
     ]).
     outputs([<opencomputers:material:7>]).
@@ -43,10 +46,10 @@ assembler.recipeBuilder().
     buildAndRegister();
 
 # Microchip Tier2
-recipes.remove(<ore:oc:circuitChip2>);
+recipes.remove(<opencomputers:material:8>);
 assembler.recipeBuilder().
     inputs([
-        <ore:oc:materialTransistor> * 8,
+        <opencomputers:material:6> * 8,
         <ore:circuitGood>
     ]).
     outputs([<opencomputers:material:8>]).
@@ -55,10 +58,10 @@ assembler.recipeBuilder().
     buildAndRegister();
 
 # Microchip Tier3
-recipes.remove(<ore:oc:circuitChip3>);
+recipes.remove(<opencomputers:material:9>);
 assembler.recipeBuilder().
     inputs([
-        <ore:oc:materialTransistor> * 16,
+        <opencomputers:material:6> * 16,
         <ore:circuitAdvanced>
     ]).
     outputs([<opencomputers:material:9>]).
@@ -67,7 +70,7 @@ assembler.recipeBuilder().
     buildAndRegister();
 
 # ALU
-recipes.remove(<ore:oc:materialALU>);
+recipes.remove(<opencomputers:material:10>);
 assembler.recipeBuilder().
     inputs([
         <projectred-integration:gate:26> * 3,
@@ -79,10 +82,10 @@ assembler.recipeBuilder().
     buildAndRegister();
 
 # CU
-recipes.remove(<ore:oc:materialCU>);
+recipes.remove(<opencomputers:material:11>);
 assembler.recipeBuilder().
     inputs([
-        <ore:oc:materialTransistor> * 6,
+        <opencomputers:material:6> * 6,
         <ore:circuitElite>
     ]).
     outputs([<opencomputers:material:11>]).
@@ -96,7 +99,7 @@ assembler.recipeBuilder().
 # Blocks
 ########################################
 # Cable
-recipes.remove(<ore:oc:cable>);
+recipes.remove(<opencomputers:cable>);
 assembler.recipeBuilder().
     inputs([
         <ore:wireGtSingleCopper> * 8,

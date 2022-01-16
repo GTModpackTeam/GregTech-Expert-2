@@ -37,6 +37,9 @@ key_key.ftbutilities.nbt:49:ALT
 key_key.ftbutilities.trash:211:NONE
 key_key.ftbquests.quests:0:NONE
 key_ingameinfoxml.key.toggle:0:NONE
+key_key.inventorysorter.itemout:-201:NONE
+key_key.inventorysorter.sort:-98:NONE
+key_key.inventorysorter.itemin:-200:NONE
 key_key.moreoverlays.lightoverlay.desc:65:NONE
 key_key.moreoverlays.chunkbounds.desc:67:NONE
 key_keys.servertabinfo.show:29:NONE

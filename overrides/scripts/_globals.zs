@@ -105,114 +105,121 @@ global wiremill                  as RecipeMap = RecipeMap.getByName("wiremill");
 # Applied Energistics 2
 ########################################
 # Interface
-var ae_ii = <ore:ae2.interface.item>;
-ae_ii.add(<appliedenergistics2:interface>);
-ae_ii.add(<appliedenergistics2:part:440>);
+<ore:ae2.interface.item>.addItems([
+    <appliedenergistics2:interface>,
+    <appliedenergistics2:part:440>
+]);
 
 # Fluid Interface
-var ae_fi = <ore:ae2.interface.fluid>;
-ae_fi.add(<appliedenergistics2:fluid_interface>);
-ae_fi.add(<appliedenergistics2:part:441>);
+<ore:ae2.interface.fluid>.addItems([
+    <appliedenergistics2:fluid_interface>,
+    <appliedenergistics2:part:441>
+]);
 
 # Glass Cable
-var ae_gc = <ore:ae2.cable.glass>;
-ae_gc.add(<appliedenergistics2:part>);
-ae_gc.add(<appliedenergistics2:part:1>);
-ae_gc.add(<appliedenergistics2:part:2>);
-ae_gc.add(<appliedenergistics2:part:3>);
-ae_gc.add(<appliedenergistics2:part:4>);
-ae_gc.add(<appliedenergistics2:part:5>);
-ae_gc.add(<appliedenergistics2:part:6>);
-ae_gc.add(<appliedenergistics2:part:7>);
-ae_gc.add(<appliedenergistics2:part:8>);
-ae_gc.add(<appliedenergistics2:part:9>);
-ae_gc.add(<appliedenergistics2:part:10>);
-ae_gc.add(<appliedenergistics2:part:11>);
-ae_gc.add(<appliedenergistics2:part:12>);
-ae_gc.add(<appliedenergistics2:part:13>);
-ae_gc.add(<appliedenergistics2:part:14>);
-ae_gc.add(<appliedenergistics2:part:15>);
-ae_gc.add(<appliedenergistics2:part:16>);
+<ore:ae2.cable.glass>.addItems([
+    <appliedenergistics2:part>,
+    <appliedenergistics2:part:1>,
+    <appliedenergistics2:part:2>,
+    <appliedenergistics2:part:3>,
+    <appliedenergistics2:part:4>,
+    <appliedenergistics2:part:5>,
+    <appliedenergistics2:part:6>,
+    <appliedenergistics2:part:7>,
+    <appliedenergistics2:part:8>,
+    <appliedenergistics2:part:9>,
+    <appliedenergistics2:part:10>,
+    <appliedenergistics2:part:11>,
+    <appliedenergistics2:part:12>,
+    <appliedenergistics2:part:13>,
+    <appliedenergistics2:part:14>,
+    <appliedenergistics2:part:15>,
+    <appliedenergistics2:part:16>
+]);
 
 # Smart Cable
-var ae_sc = <ore:ae2.cable.smart>;
-ae_sc.add(<appliedenergistics2:part:40>);
-ae_sc.add(<appliedenergistics2:part:41>);
-ae_sc.add(<appliedenergistics2:part:42>);
-ae_sc.add(<appliedenergistics2:part:43>);
-ae_sc.add(<appliedenergistics2:part:44>);
-ae_sc.add(<appliedenergistics2:part:45>);
-ae_sc.add(<appliedenergistics2:part:46>);
-ae_sc.add(<appliedenergistics2:part:47>);
-ae_sc.add(<appliedenergistics2:part:48>);
-ae_sc.add(<appliedenergistics2:part:49>);
-ae_sc.add(<appliedenergistics2:part:50>);
-ae_sc.add(<appliedenergistics2:part:51>);
-ae_sc.add(<appliedenergistics2:part:52>);
-ae_sc.add(<appliedenergistics2:part:53>);
-ae_sc.add(<appliedenergistics2:part:54>);
-ae_sc.add(<appliedenergistics2:part:55>);
-ae_sc.add(<appliedenergistics2:part:56>);
+<ore:ae2.cable.smart>.addItems([
+    <appliedenergistics2:part:40>,
+    <appliedenergistics2:part:41>,
+    <appliedenergistics2:part:42>,
+    <appliedenergistics2:part:43>,
+    <appliedenergistics2:part:44>,
+    <appliedenergistics2:part:45>,
+    <appliedenergistics2:part:46>,
+    <appliedenergistics2:part:47>,
+    <appliedenergistics2:part:48>,
+    <appliedenergistics2:part:49>,
+    <appliedenergistics2:part:50>,
+    <appliedenergistics2:part:51>,
+    <appliedenergistics2:part:52>,
+    <appliedenergistics2:part:53>,
+    <appliedenergistics2:part:54>,
+    <appliedenergistics2:part:55>,
+    <appliedenergistics2:part:56>
+]);
 
 # Covered Cable
-var ae_nc = <ore:ae2.cable.normal>;
-ae_nc.add(<appliedenergistics2:part:20>);
-ae_nc.add(<appliedenergistics2:part:21>);
-ae_nc.add(<appliedenergistics2:part:22>);
-ae_nc.add(<appliedenergistics2:part:23>);
-ae_nc.add(<appliedenergistics2:part:24>);
-ae_nc.add(<appliedenergistics2:part:25>);
-ae_nc.add(<appliedenergistics2:part:26>);
-ae_nc.add(<appliedenergistics2:part:27>);
-ae_nc.add(<appliedenergistics2:part:28>);
-ae_nc.add(<appliedenergistics2:part:29>);
-ae_nc.add(<appliedenergistics2:part:30>);
-ae_nc.add(<appliedenergistics2:part:31>);
-ae_nc.add(<appliedenergistics2:part:32>);
-ae_nc.add(<appliedenergistics2:part:33>);
-ae_nc.add(<appliedenergistics2:part:34>);
-ae_nc.add(<appliedenergistics2:part:35>);
-ae_nc.add(<appliedenergistics2:part:36>);
+<ore:ae2.cable.normal>.addItems([
+    <appliedenergistics2:part:20>,
+    <appliedenergistics2:part:21>,
+    <appliedenergistics2:part:22>,
+    <appliedenergistics2:part:23>,
+    <appliedenergistics2:part:24>,
+    <appliedenergistics2:part:25>,
+    <appliedenergistics2:part:26>,
+    <appliedenergistics2:part:27>,
+    <appliedenergistics2:part:28>,
+    <appliedenergistics2:part:29>,
+    <appliedenergistics2:part:30>,
+    <appliedenergistics2:part:31>,
+    <appliedenergistics2:part:32>,
+    <appliedenergistics2:part:33>,
+    <appliedenergistics2:part:34>,
+    <appliedenergistics2:part:35>,
+    <appliedenergistics2:part:36>
+]);
 
 # Dense Cable
-var ae_dnc = <ore:ae2.cable.dense.normal>;
-ae_dnc.add(<appliedenergistics2:part:500>);
-ae_dnc.add(<appliedenergistics2:part:501>);
-ae_dnc.add(<appliedenergistics2:part:502>);
-ae_dnc.add(<appliedenergistics2:part:503>);
-ae_dnc.add(<appliedenergistics2:part:504>);
-ae_dnc.add(<appliedenergistics2:part:505>);
-ae_dnc.add(<appliedenergistics2:part:506>);
-ae_dnc.add(<appliedenergistics2:part:507>);
-ae_dnc.add(<appliedenergistics2:part:508>);
-ae_dnc.add(<appliedenergistics2:part:509>);
-ae_dnc.add(<appliedenergistics2:part:510>);
-ae_dnc.add(<appliedenergistics2:part:511>);
-ae_dnc.add(<appliedenergistics2:part:512>);
-ae_dnc.add(<appliedenergistics2:part:513>);
-ae_dnc.add(<appliedenergistics2:part:514>);
-ae_dnc.add(<appliedenergistics2:part:515>);
-ae_dnc.add(<appliedenergistics2:part:516>);
+<ore:ae2.cable.dense.normal>.addItems([
+    <appliedenergistics2:part:500>,
+    <appliedenergistics2:part:501>,
+    <appliedenergistics2:part:502>,
+    <appliedenergistics2:part:503>,
+    <appliedenergistics2:part:504>,
+    <appliedenergistics2:part:505>,
+    <appliedenergistics2:part:506>,
+    <appliedenergistics2:part:507>,
+    <appliedenergistics2:part:508>,
+    <appliedenergistics2:part:509>,
+    <appliedenergistics2:part:510>,
+    <appliedenergistics2:part:511>,
+    <appliedenergistics2:part:512>,
+    <appliedenergistics2:part:513>,
+    <appliedenergistics2:part:514>,
+    <appliedenergistics2:part:515>,
+    <appliedenergistics2:part:516>
+]);
 
 # Dense Smart Cable
-var ae_dsc = <ore:ae2.cable.dense.smart>;
-ae_dsc.add(<appliedenergistics2:part:60>);
-ae_dsc.add(<appliedenergistics2:part:61>);
-ae_dsc.add(<appliedenergistics2:part:62>);
-ae_dsc.add(<appliedenergistics2:part:63>);
-ae_dsc.add(<appliedenergistics2:part:64>);
-ae_dsc.add(<appliedenergistics2:part:65>);
-ae_dsc.add(<appliedenergistics2:part:66>);
-ae_dsc.add(<appliedenergistics2:part:67>);
-ae_dsc.add(<appliedenergistics2:part:68>);
-ae_dsc.add(<appliedenergistics2:part:69>);
-ae_dsc.add(<appliedenergistics2:part:70>);
-ae_dsc.add(<appliedenergistics2:part:71>);
-ae_dsc.add(<appliedenergistics2:part:72>);
-ae_dsc.add(<appliedenergistics2:part:73>);
-ae_dsc.add(<appliedenergistics2:part:74>);
-ae_dsc.add(<appliedenergistics2:part:75>);
-ae_dsc.add(<appliedenergistics2:part:76>);
+<ore:ae2.cable.dense.smart>.addItems([
+    <appliedenergistics2:part:60>,
+    <appliedenergistics2:part:61>,
+    <appliedenergistics2:part:62>,
+    <appliedenergistics2:part:63>,
+    <appliedenergistics2:part:64>,
+    <appliedenergistics2:part:65>,
+    <appliedenergistics2:part:66>,
+    <appliedenergistics2:part:67>,
+    <appliedenergistics2:part:68>,
+    <appliedenergistics2:part:69>,
+    <appliedenergistics2:part:70>,
+    <appliedenergistics2:part:71>,
+    <appliedenergistics2:part:72>,
+    <appliedenergistics2:part:73>,
+    <appliedenergistics2:part:74>,
+    <appliedenergistics2:part:75>,
+    <appliedenergistics2:part:76>
+]);
 
 
 
@@ -220,7 +227,8 @@ ae_dsc.add(<appliedenergistics2:part:76>);
 # Minecraft
 ########################################
 # Grass
-var grass = <ore:grass>;
-grass.add(<minecraft:double_plant:2>);
-grass.add(<minecraft:double_plant:3>);
-grass.add(<minecraft:tallgrass:*>);
+<ore:grass>.addItems([
+    <minecraft:double_plant:2>,
+    <minecraft:double_plant:3>,
+    <minecraft:tallgrass:*>
+]);

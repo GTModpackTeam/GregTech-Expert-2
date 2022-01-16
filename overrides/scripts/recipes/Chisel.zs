@@ -34,9 +34,6 @@ recipes.addShaped(<chisel:chisel_hitech>, [
 recipes.remove(<chisel:auto_chisel>);
 recipes.addShaped(<chisel:auto_chisel>, [
     [<ore:plateGlass>, <ore:plateGlass>, <ore:plateGlass>],
-    [<ore:plateGlass>, <chisel:chisel_hitech>.noReturn(), <ore:plateGlass>],
+    [<ore:plateGlass>, <chisel:chisel_hitech>, <ore:plateGlass>],
     [<ore:plateIron>, <ore:compressed1xDustBedrock>, <ore:plateIron>]
 ]);
-
-// TODO
-# 鉱石辞書の削除
