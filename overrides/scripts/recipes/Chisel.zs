@@ -4,25 +4,25 @@
 # Iron Chisel
 recipes.remove(<chisel:chisel_iron>);
 recipes.addShaped(<chisel:chisel_iron>, [
-    [<ore:gtceFiles>, <ore:plateIron>, <ore:plateIron>],
+    [<ore:gtce.tool.files>, <ore:plateIron>, <ore:plateIron>],
     [null, <ore:screwSteel>, <ore:plateIron>],
-    [<ore:stickBronze>, null, <ore:gtceHardHammers>]
+    [<ore:stickBronze>, null, <ore:gtce.tool.hard.hammers>]
 ]);
 
 # Diamond Chisel
 recipes.remove(<chisel:chisel_diamond>);
 recipes.addShaped(<chisel:chisel_diamond>, [
-    [<ore:gtceFiles>, <ore:plateDiamond>, <ore:plateDiamond>],
+    [<ore:gtce.tool.files>, <ore:plateDiamond>, <ore:plateDiamond>],
     [null, <chisel:chisel_iron>, <ore:plateDiamond>],
-    [<ore:stickRoseGold>, null, <ore:gtceHardHammers>]
+    [<ore:stickRoseGold>, null, <ore:gtce.tool.hard.hammers>]
 ]);
 
 # iChisel
 recipes.remove(<chisel:chisel_hitech>);
 recipes.addShaped(<chisel:chisel_hitech>, [
-    [<ore:gtceFiles>, <ore:plateDiamond>, <ore:plateDiamond>],
+    [<ore:gtce.tool.files>, <ore:plateDiamond>, <ore:plateDiamond>],
     [null, <chisel:chisel_diamond>, <ore:plateDiamond>],
-    [<ore:stickStainlessSteel>, null, <ore:gtceHardHammers>]
+    [<ore:stickStainlessSteel>, null, <ore:gtce.tool.hard.hammers>]
 ]);
 
 

@@ -119,3 +119,79 @@ for i, block in enderio_block {
         EUt(2).
         buildAndRegister();
 }
+
+
+
+########################################
+# ExtendedCrafting
+########################################
+# Nugget
+var erafting_nugget as IItemStack[] = [
+    <extendedcrafting:material:140>,
+    <extendedcrafting:material:25>,
+    <extendedcrafting:material:33>
+];
+for nugget in erafting_nugget {
+    JEI.removeAndHide(nugget);
+}
+
+# Ingot
+var erafting_ingot as IItemStack[] = [
+    <minecraft:nether_star>,
+    <extendedcrafting:material:24>,
+    <extendedcrafting:material:32>
+];
+for ingot in erafting_ingot {
+    JEI.removeAndHide(ingot);
+}
+
+# Block
+var erafting_block as IItemStack[] = [
+    <extendedcrafting:storage:2>,
+    <extendedcrafting:storage:3>,
+    <extendedcrafting:storage:4>
+];
+for block in enderio_block {
+    JEI.removeAndHide(block);
+}
+
+
+# Set Recipe
+## Nugget
+for i, nugget in erafting_nugget {
+    alloy_smelter.recipeBuilder().
+        inputs([erafting_ingot[i]]).
+        notConsumable([<gregtech:meta_item_1:19>]).
+        outputs([nugget * 9]).
+        duration(56).
+        EUt(7).
+        buildAndRegister();
+}
+
+## Ingot
+for i, ingot in erafting_ingot {
+    alloy_smelter.recipeBuilder().
+        inputs([erafting_nugget[i] * 9]).
+        notConsumable([<gregtech:meta_item_1:16>]).
+        outputs([ingot]).
+        duration(56).
+        EUt(7).
+        buildAndRegister();
+}
+
+## Block
+for i, block in erafting_block {
+    alloy_smelter.recipeBuilder().
+        inputs([erafting_ingot[i] * 9]).
+        notConsumable([<gregtech:meta_item_1:18>]).
+        outputs([block]).
+        duration(5).
+        EUt(2).
+        buildAndRegister();
+    compressor.recipeBuilder().
+        inputs([erafting_ingot[i] * 9]).
+        outputs([block]).
+        duration(300).
+        EUt(2).
+        buildAndRegister();
+}

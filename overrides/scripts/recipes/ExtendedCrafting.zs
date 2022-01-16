@@ -22,20 +22,20 @@ JEI.removeAndHide(<extendedcrafting:material:48>);
 JEI.removeAndHide(<extendedcrafting:material:41>);
 JEI.removeAndHide(<extendedcrafting:material:40>);
 
-# Black Nugget
-JEI.removeAndHide(<extendedcrafting:material:1>);
+# Handheld Crafting Table
+JEI.removeAndHide(<extendedcrafting:handheld_table>);
 
 # Black Ingot
 JEI.removeAndHide(<extendedcrafting:material>);
+
+# Black Nugget
+JEI.removeAndHide(<extendedcrafting:material:1>);
 
 # Black Plate
 JEI.removeAndHide(<extendedcrafting:material:2>);
 
 # Black Rod
 JEI.removeAndHide(<extendedcrafting:material:3>);
-
-# Handheld Crafting Table
-JEI.removeAndHide(<extendedcrafting:handheld_table>);
 
 # Basic Component
 recipes.remove(<extendedcrafting:material:14>);
@@ -140,6 +140,22 @@ TableCrafting.addShaped(0, <extendedcrafting:material:13>, [
 ########################################
 # Black Block
 JEI.removeAndHide(<extendedcrafting:storage>);
+
+# Luminessence Block
+JEI.removeAndHide(<extendedcrafting:storage:1>);
+alloy_smelter.recipeBuilder().
+    inputs([<extendedcrafting:material:7> * 9]).
+    notConsumable([<gregtech:meta_item_1:18>]).
+    outputs([<extendedcrafting:storage:1>]).
+    duration(5).
+    EUt(2).
+    buildAndRegister();
+compressor.recipeBuilder().
+    inputs([<extendedcrafting:material:7> * 9]).
+    outputs([<extendedcrafting:storage:1>]).
+    duration(300).
+    EUt(2).
+    buildAndRegister();
 
 # Ender Block
 JEI.removeAndHide(<extendedcrafting:storage:5>);
