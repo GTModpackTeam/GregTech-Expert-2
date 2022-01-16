@@ -1,0 +1,29 @@
+name: Package Modpack
+on: [pull_request, push]
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Generate token
+        id: generate_token
+        uses: tibdex/github-app-token@v1
+        with:
+          app_id: ${{ secrets.GH_APP_ID }}
+          private_key: ${{ secrets.GH_APP_PEM }}
+    
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          token: ${{ steps.generate_token.outputs.token }}
+          files: |
+            ./overrides
+            manifest.json
+            modlist.html
