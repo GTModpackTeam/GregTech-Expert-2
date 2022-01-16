@@ -1,4 +1,4 @@
-name: 'Request new report'
+name: 'Report Bug'
 title: "[Bug]"
 description: "Report a bug that does not abruptly end a game session or prevent the start of the game."
 labels:
