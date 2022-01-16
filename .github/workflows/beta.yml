@@ -24,6 +24,6 @@ jobs:
         with:
           token: ${{ steps.generate_token.outputs.token }}
           files: |
-            ./overrides
+            overrides
             manifest.json
             modlist.html
