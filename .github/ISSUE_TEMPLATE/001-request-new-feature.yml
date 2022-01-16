@@ -1,0 +1,39 @@
+
+name: 'Request New Feature'
+title: "[Request]"
+description: Request a new feature.
+labels: 
+  - "request"
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Pack Version
+      description: Have you checked that the version you are playing is up-to-date before reporting? Maybe what I'm about to suggest has already been addressed.
+      placeholder: "v1.0.0"
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Your Proposal
+      description: What do you propose? Please describe it briefly in one or two sentence.
+      placeholder: "Example: Add a mega PA."
+    validations:
+      required: true
+  - type: textarea
+    id: goal
+    attributes:
+      label: Your Goal
+      description: Why is this feature needed?
+      placeholder: "Example: PAs are too small for my tastes."
+    validations:
+      required: true
+  - type: textarea
+    id: vision
+    attributes:
+      label: Your Vision
+      description: How do you think your vision would improve the pack?
+      placeholder: "Example: A mega PA would make everyone's base a nicer place and improve the overall quality of game experience."
+    validations:
+      required: true
