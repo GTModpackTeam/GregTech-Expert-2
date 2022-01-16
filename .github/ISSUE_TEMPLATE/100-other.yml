@@ -1,4 +1,5 @@
-name: Report
+
+name: 'Report'
 title: "[Other]"
 description: "What else do you have? What do you want me to say?"
 labels:
@@ -9,6 +10,5 @@ body:
     attributes:
       label: Say
       description: Is this a bug or a suggestion about Modpack? Then what were you thinking when you posted this?
-      placeholder: ""
     validations:
       required: true
