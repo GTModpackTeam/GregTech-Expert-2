@@ -389,10 +389,6 @@ alloy_smelter.recipeBuilder().
     EUt(480).
     buildAndRegister();
 
-# Grinding Balls
-JEI.removeAndHide(<enderio:item_alloy_ball:*>);
-JEI.hideCategory("GrindingBall");
-
 # Remote Awareness Upgrade
 recipes.remove(<enderio:item_material:64>);
 recipes.addShaped(<enderio:item_material:64>, [
@@ -436,6 +432,45 @@ macerator.recipeBuilder().
     duration(50).
     EUt(480).
     buildAndRegister();
+
+# Coal Dust
+SagMill.removeRecipe(<minecraft:flower_pot>);
+<ore:dustCoal>.remove(<enderio:item_material:23>);
+
+# Iron Dust
+<ore:dustIron>.remove(<enderio:item_material:24>);
+furnace.remove(<minecraft:iron_ingot>, <enderio:item_material:24>);
+
+# Gold Dust
+<ore:dustGold>.remove(<enderio:item_material:25>);
+furnace.remove(<minecraft:gold_ingot>, <enderio:item_material:25>);
+
+# Copper Dust
+<ore:dustCopper>.remove(<enderio:item_material:26>);
+
+# Tin Dust
+<ore:dustTin>.remove(<enderio:item_material:27>);
+
+# Enderpearl Dust
+SagMill.removeRecipe(<minecraft:ender_pearl>);
+SagMill.removeRecipe(<gregtech:meta_dust:416>);
+JEI.removeAndHide(<enderio:item_material:28>);
+// <ore:nuggetEnderpearl>.remove(<enderio:item_material:28>);
+
+# Obsidian Dust
+SagMill.removeRecipe(<minecraft:obsidian>);
+<ore:dustObsidian>.remove(<enderio:item_material:29>);
+
+# Cobalt Dust
+<ore:dustCobalt>.remove(<enderio:item_material:31>);
+
+# Lapis Dust
+SagMill.removeRecipe(<minecraft:dye:4>);
+SagMill.removeRecipe(<minecraft:lapis_block>);
+<ore:dustLapis>.remove(<enderio:item_material:32>);
+
+# NetherQuartz Dust
+<ore:dustNetherQuartz>.remove(<enderio:item_material:33>);
 
 
 
