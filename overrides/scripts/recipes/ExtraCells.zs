@@ -56,8 +56,8 @@ recipes.addShaped(<extracells:storage.casing:1>, [
 
 # 256k Storage Cell
 recipes.removeShaped(<extracells:storage.physical>, [
-    [<appliedenergistics2:quartz_glass>, <ore:dustFluix>, <appliedenergistics2:quartz_glass>],
-    [<ore:dustFluix>, <extracells:storage.component>, <ore:dustFluix>],
+    [<appliedenergistics2:quartz_glass>, <contenttweaker:dustfluix>, <appliedenergistics2:quartz_glass>],
+    [<contenttweaker:dustfluix>, <extracells:storage.component>, <contenttweaker:dustfluix>],
     [<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>]
 ]);
 // recipes.addShaped(<extracells:storage.physical>, [
@@ -78,8 +78,8 @@ recipes.removeShaped(<extracells:storage.physical>, [
 
 # 1024k Storage Cell
 recipes.removeShaped(<extracells:storage.physical:1>, [
-    [<appliedenergistics2:quartz_glass>, <ore:dustFluix>, <appliedenergistics2:quartz_glass>],
-    [<ore:dustFluix>, <extracells:storage.component:1>, <ore:dustFluix>],
+    [<appliedenergistics2:quartz_glass>, <contenttweaker:dustfluix>, <appliedenergistics2:quartz_glass>],
+    [<contenttweaker:dustfluix>, <extracells:storage.component:1>, <contenttweaker:dustfluix>],
     [<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>]
 ]);
 // recipes.addShaped(<extracells:storage.physical:1>, [
@@ -100,8 +100,8 @@ recipes.removeShaped(<extracells:storage.physical:1>, [
 
 # 4096k Storage Cell
 recipes.removeShaped(<extracells:storage.physical:2>, [
-    [<appliedenergistics2:quartz_glass>, <ore:dustFluix>, <appliedenergistics2:quartz_glass>],
-    [<ore:dustFluix>, <extracells:storage.component:2>, <ore:dustFluix>],
+    [<appliedenergistics2:quartz_glass>, <contenttweaker:dustfluix>, <appliedenergistics2:quartz_glass>],
+    [<contenttweaker:dustfluix>, <extracells:storage.component:2>, <contenttweaker:dustfluix>],
     [<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>]
 ]);
 // recipes.addShaped(<extracells:storage.physical:2>, [
@@ -122,8 +122,8 @@ recipes.removeShaped(<extracells:storage.physical:2>, [
 
 # 16384k Storage Cell
 recipes.removeShaped(<extracells:storage.physical:3>, [
-    [<appliedenergistics2:quartz_glass>, <ore:dustFluix>, <appliedenergistics2:quartz_glass>],
-    [<ore:dustFluix>, <extracells:storage.component:3>, <ore:dustFluix>],
+    [<appliedenergistics2:quartz_glass>, <contenttweaker:dustfluix>, <appliedenergistics2:quartz_glass>],
+    [<contenttweaker:dustfluix>, <extracells:storage.component:3>, <contenttweaker:dustfluix>],
     [<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>]
 ]);
 // recipes.addShaped(<extracells:storage.physical:3>, [
@@ -144,8 +144,8 @@ recipes.removeShaped(<extracells:storage.physical:3>, [
 
 # 256k Fluid Cell
 recipes.removeShaped(<extracells:storage.fluid:4>, [
-    [<appliedenergistics2:quartz_glass>, <ore:dustFluix>, <appliedenergistics2:quartz_glass>],
-    [<ore:dustFluix>, <extracells:storage.component:8>, <ore:dustFluix>],
+    [<appliedenergistics2:quartz_glass>, <contenttweaker:dustfluix>, <appliedenergistics2:quartz_glass>],
+    [<contenttweaker:dustfluix>, <extracells:storage.component:8>, <contenttweaker:dustfluix>],
     [<extracells:certustank>, <extracells:certustank>, <extracells:certustank>]
 ]);
 // recipes.addShaped(<extracells:storage.fluid:4>, [
@@ -166,8 +166,8 @@ recipes.removeShaped(<extracells:storage.fluid:4>, [
 
 # 1024k Fluid Cell
 recipes.removeShaped(<extracells:storage.fluid:5>, [
-    [<appliedenergistics2:quartz_glass>, <ore:dustFluix>, <appliedenergistics2:quartz_glass>],
-    [<ore:dustFluix>, <extracells:storage.component:9>, <ore:dustFluix>],
+    [<appliedenergistics2:quartz_glass>, <contenttweaker:dustfluix>, <appliedenergistics2:quartz_glass>],
+    [<contenttweaker:dustfluix>, <extracells:storage.component:9>, <contenttweaker:dustfluix>],
     [<extracells:certustank>, <extracells:certustank>, <extracells:certustank>]
 ]);
 // recipes.addShaped(<extracells:storage.fluid:5>, [
@@ -188,8 +188,8 @@ recipes.removeShaped(<extracells:storage.fluid:5>, [
 
 # 4096k Fluid Cell
 recipes.removeShaped(<extracells:storage.fluid:6>, [
-    [<appliedenergistics2:quartz_glass>, <ore:dustFluix>, <appliedenergistics2:quartz_glass>],
-    [<ore:dustFluix>, <extracells:storage.component:10>, <ore:dustFluix>],
+    [<appliedenergistics2:quartz_glass>, <contenttweaker:dustfluix>, <appliedenergistics2:quartz_glass>],
+    [<contenttweaker:dustfluix>, <extracells:storage.component:10>, <contenttweaker:dustfluix>],
     [<extracells:certustank>, <extracells:certustank>, <extracells:certustank>]
 ]);
 // recipes.addShaped(<extracells:storage.fluid:6>, [
@@ -342,7 +342,7 @@ assembler.recipeBuilder().
     buildAndRegister();
 
 # Recycle - Advanced Storage Housing
-polarizer.recipeBuilder().
+macerator.recipeBuilder().
     inputs([<extracells:storage.casing>]).
     outputs([<gregtech:meta_dust:2013>]).
     duration(100).
@@ -350,7 +350,7 @@ polarizer.recipeBuilder().
     buildAndRegister();
 
 # Recycle - Fluid Housing
-polarizer.recipeBuilder().
+macerator.recipeBuilder().
     inputs([<extracells:storage.casing:1>]).
     outputs([<gregtech:meta_dust:323>]).
     duration(100).

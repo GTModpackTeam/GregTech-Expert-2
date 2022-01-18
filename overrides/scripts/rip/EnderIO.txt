@@ -60,7 +60,7 @@ alloy_smelter.recipeBuilder().
         <minecraft:egg>
     ]).
     outputs([<enderio:item_material:48>]).
-    duration(50).
+    duration(56).
     EUt(480).
     buildAndRegister();
 
@@ -71,7 +71,7 @@ alloy_smelter.recipeBuilder().
         <minecraft:egg>
     ]).
     outputs([<enderio:item_material:49>]).
-    duration(50).
+    duration(56).
     EUt(480).
     buildAndRegister();
 
@@ -82,7 +82,7 @@ alloy_smelter.recipeBuilder().
         <minecraft:egg>
     ]).
     outputs([<enderio:item_material:50>]).
-    duration(50).
+    duration(56).
     EUt(480).
     buildAndRegister();
 
@@ -101,7 +101,7 @@ assembler.recipeBuilder().
     ]).
     fluidInputs([<liquid:redstone> * 144]).
     outputs([<enderio:item_basic_capacitor>]).
-    duration(50).
+    duration(56).
     EUt(480).
     buildAndRegister();
 
@@ -114,7 +114,7 @@ assembler.recipeBuilder().
     ]).
     fluidInputs([<liquid:redstone> * 144]).
     outputs([<enderio:item_basic_capacitor:1>]).
-    duration(50).
+    duration(56).
     EUt(480).
     buildAndRegister();
 
@@ -127,7 +127,7 @@ assembler.recipeBuilder().
     ]).
     fluidInputs([<liquid:redstone> * 144]).
     outputs([<enderio:item_basic_capacitor:1>]).
-    duration(50).
+    duration(56).
     EUt(480).
     buildAndRegister();
 
@@ -165,7 +165,7 @@ assembler.recipeBuilder().
     ]).
     fluidInputs([<liquid:redstone> * 144]).
     outputs([<enderio:item_basic_capacitor:2>]).
-    duration(50).
+    duration(56).
     EUt(480).
     buildAndRegister();
 
@@ -176,7 +176,7 @@ alloy_smelter.recipeBuilder().
         <ore:dustSilicon>
     ]).
     outputs([<enderio:item_alloy_ingot>]).
-    duration(50).
+    duration(56).
     EUt(480).
     buildAndRegister();
 
@@ -187,7 +187,7 @@ alloy_smelter.recipeBuilder().
         <ore:dustGlowstone>
     ]).
     outputs([<enderio:item_alloy_ingot:1>]).
-    duration(50).
+    duration(56).
     EUt(480).
     buildAndRegister();
 
@@ -198,7 +198,7 @@ alloy_smelter.recipeBuilder().
         <ore:dustEnderPearl>
     ]).
     outputs([<enderio:item_alloy_ingot:2>]).
-    duration(50).
+    duration(56).
     EUt(480).
     buildAndRegister();
 
@@ -209,7 +209,7 @@ alloy_smelter.recipeBuilder().
         <ore:dustSilicon>
     ]).
     outputs([<enderio:item_alloy_ingot:3>]).
-    duration(50).
+    duration(56).
     EUt(480).
     buildAndRegister();
 
@@ -220,7 +220,7 @@ alloy_smelter.recipeBuilder().
         <ore:dustRedstone>
     ]).
     outputs([<enderio:item_alloy_ingot:4>]).
-    duration(50).
+    duration(56).
     EUt(480).
     buildAndRegister();
 
@@ -231,7 +231,7 @@ alloy_smelter.recipeBuilder().
         <ore:dustEnderPearl>
     ]).
     outputs([<enderio:item_alloy_ingot:5>]).
-    duration(50).
+    duration(56).
     EUt(480).
     buildAndRegister();
 
@@ -242,7 +242,7 @@ alloy_smelter.recipeBuilder().
         <ore:dustObsidian>
     ]).
     outputs([<enderio:item_alloy_ingot:6>]).
-    duration(50).
+    duration(56).
     EUt(480).
     buildAndRegister();
 
@@ -253,7 +253,7 @@ alloy_smelter.recipeBuilder().
         <minecraft:soul_sand>
     ]).
     outputs([<enderio:item_alloy_ingot:7>]).
-    duration(50).
+    duration(56).
     EUt(480).
     buildAndRegister();
 
@@ -264,7 +264,7 @@ alloy_smelter.recipeBuilder().
         <minecraft:end_stone>
     ]).
     outputs([<enderio:item_alloy_ingot:8>]).
-    duration(50).
+    duration(56).
     EUt(480).
     buildAndRegister();
 
@@ -275,7 +275,7 @@ alloy_smelter.recipeBuilder().
         <ore:dustCobalt>
     ]).
     outputs([<enderio:item_alloy_ingot:9>]).
-    duration(50).
+    duration(56).
     EUt(480).
     buildAndRegister();
 
@@ -286,7 +286,7 @@ alloy_smelter.recipeBuilder().
         <ore:ingotBrickNether> * 9
     ]).
     outputs([<enderio:item_material:72>]).
-    duration(50).
+    duration(56).
     EUt(480).
     buildAndRegister();
 
@@ -297,7 +297,7 @@ alloy_smelter.recipeBuilder().
         <minecraft:clay_ball> * 9
     ]).
     outputs([<enderio:item_alloy_endergy_ingot>]).
-    duration(50).
+    duration(56).
     EUt(480).
     buildAndRegister();
 
@@ -308,7 +308,7 @@ alloy_smelter.recipeBuilder().
         <ore:itemPrecientPowder>
     ]).
     outputs([<enderio:item_alloy_endergy_ingot:1>]).
-    duration(50).
+    duration(56).
     EUt(480).
     buildAndRegister();
 
@@ -319,7 +319,7 @@ alloy_smelter.recipeBuilder().
         <minecraft:chorus_fruit_popped>
     ]).
     outputs([<enderio:item_alloy_endergy_ingot:2>]).
-    duration(50).
+    duration(56).
     EUt(480).
     buildAndRegister();
 
@@ -330,7 +330,7 @@ alloy_smelter.recipeBuilder().
         <minecraft:nether_star> * 2
     ]).
     outputs([<enderio:item_alloy_endergy_ingot:3>]).
-    duration(50).
+    duration(56).
     EUt(480).
     buildAndRegister();
 
@@ -341,7 +341,7 @@ alloy_smelter.recipeBuilder().
         <minecraft:slime_ball> * 8
     ]).
     outputs([<enderio:item_alloy_endergy_ingot:4>]).
-    duration(50).
+    duration(56).
     EUt(480).
     buildAndRegister();
 
@@ -352,7 +352,7 @@ alloy_smelter.recipeBuilder().
         <ore:ingotSilver>
     ]).
     outputs([<enderio:item_alloy_endergy_ingot:5>]).
-    duration(50).
+    duration(56).
     EUt(480).
     buildAndRegister();
 
@@ -363,7 +363,7 @@ alloy_smelter.recipeBuilder().
         <ore:dustEnderPearl>
     ]).
     outputs([<enderio:item_alloy_endergy_ingot:6>]).
-    duration(50).
+    duration(56).
     EUt(480).
     buildAndRegister();
 
@@ -374,7 +374,7 @@ alloy_smelter.recipeBuilder().
         <enderio:item_material:81>
     ]).
     outputs([<enderio:block_death_pouch>]).
-    duration(50).
+    duration(56).
     EUt(480).
     buildAndRegister();
 
@@ -385,7 +385,7 @@ alloy_smelter.recipeBuilder().
         <minecraft:clay_ball>
     ]).
     outputs([<enderio:item_material:76>]).
-    duration(50).
+    duration(56).
     EUt(480).
     buildAndRegister();
 
@@ -421,7 +421,7 @@ alloy_smelter.recipeBuilder().
         <ore:dustSilicon>
     ]).
     outputs([<enderio:item_material:3>]).
-    duration(50).
+    duration(56).
     EUt(480).
     buildAndRegister();
 
@@ -429,7 +429,7 @@ alloy_smelter.recipeBuilder().
 macerator.recipeBuilder().
     inputs([<ore:compressed6xCobblestone>]).
     outputs([<enderio:item_material:20>]).
-    duration(50).
+    duration(56).
     EUt(480).
     buildAndRegister();
 
@@ -481,7 +481,7 @@ SagMill.removeRecipe(<minecraft:lapis_block>);
 alloy_smelter.recipeBuilder().
     inputs([<ore:blockQuartz>]).
     outputs([<enderio:block_fused_quartz>]).
-    duration(50).
+    duration(56).
     EUt(480).
     buildAndRegister();
 
@@ -489,7 +489,7 @@ alloy_smelter.recipeBuilder().
 alloy_smelter.recipeBuilder().
     inputs([<ore:blockGlass>]).
     outputs([<enderio:block_fused_glass>]).
-    duration(50).
+    duration(56).
     EUt(480).
     buildAndRegister();
 
@@ -500,7 +500,7 @@ alloy_smelter.recipeBuilder().
         <ore:dustGlowstone> * 4
     ]).
     outputs([<enderio:block_enlightened_fused_quartz>]).
-    duration(50).
+    duration(56).
     EUt(480).
     buildAndRegister();
 
@@ -511,7 +511,7 @@ alloy_smelter.recipeBuilder().
         <ore:dustGlowstone> * 4
     ]).
     outputs([<enderio:block_enlightened_fused_glass>]).
-    duration(50).
+    duration(56).
     EUt(480).
     buildAndRegister();
 
@@ -522,7 +522,7 @@ alloy_smelter.recipeBuilder().
         <ore:gemNetherQuartz> * 4
     ]).
     outputs([<enderio:block_dark_fused_quartz>]).
-    duration(50).
+    duration(56).
     EUt(480).
     buildAndRegister();
 
@@ -533,7 +533,7 @@ alloy_smelter.recipeBuilder().
         <ore:dyeBlack> * 2
     ]).
     outputs([<enderio:block_dark_fused_glass>]).
-    duration(50).
+    duration(56).
     EUt(480).
     buildAndRegister();
 
@@ -544,7 +544,7 @@ alloy_smelter.recipeBuilder().
         <ore:dyeMachine>
     ]).
     outputs([<enderio:item_material:1>]).
-    duration(50).
+    duration(56).
     EUt(480).
     buildAndRegister();
 
@@ -555,7 +555,7 @@ alloy_smelter.recipeBuilder().
         <ore:dyeSoulMachine>
     ]).
     outputs([<enderio:item_material:53>]).
-    duration(50).
+    duration(56).
     EUt(480).
     buildAndRegister();
 
@@ -566,7 +566,7 @@ alloy_smelter.recipeBuilder().
         <ore:dyeEnhancedMachine>
     ]).
     outputs([<enderio:item_material:54>]).
-    duration(50).
+    duration(56).
     EUt(480).
     buildAndRegister();
 
