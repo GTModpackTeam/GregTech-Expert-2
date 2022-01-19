@@ -181,22 +181,22 @@ recipes.addShaped(<enderio:block_weather_obelisk>, [
 # Simple SAG Mill
 
 # SAG Mill
-recipes.addShaped(<enderio:block_sag_mill>, [
-    [<ore:ingotElectricalSteel>, <gregtech:meta_item_1:266>, <ore:ingotElectricalSteel>],
-    [<minecraft:flint>, <enderio:item_material:1>, <minecraft:flint>],
-    [<gregtech:meta_item_1:129>, <enderio:item_basic_capacitor:2>, <gregtech:meta_item_1:129>]
-]);
+// recipes.addShaped(<enderio:block_sag_mill>, [
+//     [<ore:ingotElectricalSteel>, <gregtech:meta_item_1:266>, <ore:ingotElectricalSteel>],
+//     [<minecraft:flint>, <enderio:item_material:1>, <minecraft:flint>],
+//     [<gregtech:meta_item_1:129>, <enderio:item_basic_capacitor:2>, <gregtech:meta_item_1:129>]
+// ]);
 
 # Enhaned SAG Mill
-recipes.addShaped(<enderio:block_enhanced_sag_mill>, [
-    [<ore:gemFlint>, <ore:gemFlint>, <ore:gemFlint>],
-    [<ore:ingotEndSteel>, <ore:itemMachineChassi>, <ore:ingotEndSteel>],
-    [<ore:gearVibrant>, <ore:craftingPiston>, <ore:gearVibrant>]
-]);
-recipes.addShaped(<enderio:block_enhanced_sag_mill>, [
-    [null, null, null],
-    [<ore:ingotEndSteel>, <enderio:block_sag_mill>, <ore:ingotEndSteel>], [<ore:gearVibrant>, <ore:itemMachineChassi>, <ore:gearVibrant>]
-]);
+// recipes.addShaped(<enderio:block_enhanced_sag_mill>, [
+//     [<ore:gemFlint>, <ore:gemFlint>, <ore:gemFlint>],
+//     [<ore:ingotEndSteel>, <ore:itemMachineChassi>, <ore:ingotEndSteel>],
+//     [<ore:gearVibrant>, <ore:craftingPiston>, <ore:gearVibrant>]
+// ]);
+// recipes.addShaped(<enderio:block_enhanced_sag_mill>, [
+//     [null, null, null],
+//     [<ore:ingotEndSteel>, <enderio:block_sag_mill>, <ore:ingotEndSteel>], [<ore:gearVibrant>, <ore:itemMachineChassi>, <ore:gearVibrant>]
+// ]);
 
 # Slice'N'Splice
 recipes.addShaped(<enderio:block_slice_and_splice>, [
@@ -225,35 +225,35 @@ recipes.addShaped(<enderio:block_powered_spawner>, [
 # The Enhanced Vat
 
 # Simple Wired Charger
-recipes.addShaped(<enderio:block_simple_wired_charger>, [
-    [<ore:cobblestone>, <ore:ingotIron>, <ore:cobblestone>],
-    [<ore:ingotIron>, <enderio:item_material>, <ore:ingotIron>],
-    [<ore:cobblestone>, <ore:ingotIron>, <ore:cobblestone>]
-]);
+// recipes.addShaped(<enderio:block_simple_wired_charger>, [
+//     [<ore:cobblestone>, <ore:ingotIron>, <ore:cobblestone>],
+//     [<ore:ingotIron>, <enderio:item_material>, <ore:ingotIron>],
+//     [<ore:cobblestone>, <ore:ingotIron>, <ore:cobblestone>]
+// ]);
 
 # Wired Charger
-recipes.addShaped(<enderio:block_wired_charger>, [
-    [<ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>],
-    [<ore:ingotElectricalSteel>, <ore:itemMachineChassi>, <ore:ingotElectricalSteel>],
-    [<ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>]
-]);
-recipes.addShaped(<enderio:block_wired_charger>, [
-    [<ore:ingotElectricalSteel>, null, <ore:ingotElectricalSteel>],
-    [null, <ore:itemMachineChassi>, null],
-    [<ore:ingotElectricalSteel>, <enderio:block_simple_wired_charger>, <ore:ingotElectricalSteel>]
-]);
+// recipes.addShaped(<enderio:block_wired_charger>, [
+//     [<ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>],
+//     [<ore:ingotElectricalSteel>, <ore:itemMachineChassi>, <ore:ingotElectricalSteel>],
+//     [<ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>]
+// ]);
+// recipes.addShaped(<enderio:block_wired_charger>, [
+//     [<ore:ingotElectricalSteel>, null, <ore:ingotElectricalSteel>],
+//     [null, <ore:itemMachineChassi>, null],
+//     [<ore:ingotElectricalSteel>, <enderio:block_simple_wired_charger>, <ore:ingotElectricalSteel>]
+// ]);
 
 # Enhanced Wired Charger
-recipes.addShaped(<enderio:block_enhanced_wired_charger>, [
-    [<ore:ingotElectricalSteel>, <ore:ingotEndSteel>, <ore:ingotElectricalSteel>],
-    [<ore:ingotElectricalSteel>, <ore:itemMachineChassi>, <ore:ingotElectricalSteel>],
-    [<ore:gearVibrant>, <ore:ingotElectricalSteel>, <ore:gearVibrant>]
-]);
-recipes.addShaped(<enderio:block_enhanced_wired_charger>, [
-    [null, <ore:ingotEndSteel>, null],
-    [null, <ore:itemMachineChassi>, null],
-    [<ore:gearVibrant>, <enderio:block_wired_charger>, <ore:gearVibrant>]
-]);
+// recipes.addShaped(<enderio:block_enhanced_wired_charger>, [
+//     [<ore:ingotElectricalSteel>, <ore:ingotEndSteel>, <ore:ingotElectricalSteel>],
+//     [<ore:ingotElectricalSteel>, <ore:itemMachineChassi>, <ore:ingotElectricalSteel>],
+//     [<ore:gearVibrant>, <ore:ingotElectricalSteel>, <ore:gearVibrant>]
+// ]);
+// recipes.addShaped(<enderio:block_enhanced_wired_charger>, [
+//     [null, <ore:ingotEndSteel>, null],
+//     [null, <ore:itemMachineChassi>, null],
+//     [<ore:gearVibrant>, <enderio:block_wired_charger>, <ore:gearVibrant>]
+// ]);
 
 # Wireless Charger
 recipes.addShaped(<enderio:block_wireless_charger>, [

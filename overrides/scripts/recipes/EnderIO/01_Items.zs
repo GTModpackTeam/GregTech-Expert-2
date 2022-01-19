@@ -89,11 +89,11 @@ recipes.addShaped(<enderio:item_rod_of_return>, [
 ]);
 
 # Electromagnet
-recipes.addShaped(<enderio:item_magnet>, [
-    [<ore:ingotRedAlloy>, <ore:gemEmerald>, <ore:ingotRedAlloy>],
-    [<ore:ingotRedAlloy>, null, <ore:ingotRedAlloy>],
-    [<ore:ingotSteel>, null, <ore:ingotSteel>]
-]);
+// recipes.addShaped(<enderio:item_magnet>, [
+//     [<ore:ingotRedAlloy>, <ore:gemEmerald>, <ore:ingotRedAlloy>],
+//     [<ore:ingotRedAlloy>, null, <ore:ingotRedAlloy>],
+//     [<ore:ingotSteel>, null, <ore:ingotSteel>]
+// ]);
 
 # Enderios
 recipes.addShaped(<enderio:item_ender_food>, [
