@@ -22,6 +22,13 @@ recipes.addShaped(<minecraft:ender_pearl>, [
 ########################################
 # Blocks
 ########################################
+# Quartz Block
+recipes.removeShaped(<minecraft:quartz_block>, [
+    [<appliedenergistics2:material:11>, <appliedenergistics2:material:11>, <appliedenergistics2:material:11>],
+    [<appliedenergistics2:material:11>, null, <appliedenergistics2:material:11>],
+    [<appliedenergistics2:material:11>, <appliedenergistics2:material:11>, <appliedenergistics2:material:11>]
+]);
+
 # Cake
 recipes.remove(<minecraft:cake>);
 mixer.recipeBuilder().

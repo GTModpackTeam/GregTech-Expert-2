@@ -10,15 +10,30 @@ JEI.hideCategory("appliedenergistics2.inscriber");
 ########################################
 # Items
 ########################################
-# Ender Dust
-<ore:dustEnder>.remove(<appliedenergistics2:material:46>);
-<ore:dustEnderPearl>.remove(<appliedenergistics2:material:46>);
-JEI.hide(<appliedenergistics2:material:46>);
+# Certus Quartz Dust
+macerator.recipeBuilder().
+    inputs([<appliedenergistics2:material>]).
+    outputs([<gregtech:meta_dust:214>]).
+    duration(56).
+    EUt(480).
+    buildAndRegister();
+macerator.recipeBuilder().
+    inputs([<appliedenergistics2:quartz_block> | <appliedenergistics2:quartz_pillar> | <appliedenergistics2:chiseled_quartz_block>]).
+    outputs([<gregtech:meta_dust:214> * 4]).
+    duration(56).
+    EUt(480).
+    buildAndRegister();
 
 # Fluix Dust
 macerator.recipeBuilder().
     inputs([<ore:crystalPureFluix> | <ore:crystalFluix>]).
     outputs([<contenttweaker:dustfluix>]).
+    duration(56).
+    EUt(480).
+    buildAndRegister();
+macerator.recipeBuilder().
+    inputs([<appliedenergistics2:fluix_block>]).
+    outputs([<contenttweaker:dustfluix> * 4]).
     duration(56).
     EUt(480).
     buildAndRegister();
@@ -956,11 +971,34 @@ macerator.recipeBuilder().
 # Blocks
 ########################################
 # Quartz Block
-recipes.removeShaped(<minecraft:quartz_block>, [
-    [<appliedenergistics2:material:11>, <appliedenergistics2:material:11>, <appliedenergistics2:material:11>],
-    [<appliedenergistics2:material:11>, null, <appliedenergistics2:material:11>],
-    [<appliedenergistics2:material:11>, <appliedenergistics2:material:11>, <appliedenergistics2:material:11>]
-]);
+recipes.remove(<appliedenergistics2:quartz_block>);
+compressor.recipeBuilder().
+    inputs([<ore:crystalCertusQuartz> * 4]).
+    outputs([<appliedenergistics2:quartz_block>]).
+    duration(56).
+    EUt(480).
+    buildAndRegister();
+compressor.recipeBuilder().
+    inputs([<ore:crystalPureCertusQuartz> * 8]).
+    outputs([<appliedenergistics2:quartz_block>]).
+    duration(56).
+    EUt(480).
+    buildAndRegister();
+
+# Fluix Block
+recipes.remove(<appliedenergistics2:fluix_block>);
+compressor.recipeBuilder().
+    inputs([<ore:crystalFluix> * 4]).
+    outputs([<appliedenergistics2:fluix_block>]).
+    duration(56).
+    EUt(480).
+    buildAndRegister();
+compressor.recipeBuilder().
+    inputs([<ore:crystalPureFluix> * 8]).
+    outputs([<appliedenergistics2:fluix_block>]).
+    duration(56).
+    EUt(480).
+    buildAndRegister();
 
 # Sky Srone
 recipes.addShaped(<appliedenergistics2:sky_stone_block>, [

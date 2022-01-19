@@ -32,26 +32,26 @@ JEI.removeAndHide(<fluxnetworks:fluxblock>);
 recipes.remove(<fluxnetworks:fluxplug>);
 assembler.recipeBuilder().
     inputs([
-        <enderio:block_infinity:2>,
+        <appliedenergistics2:sky_stone_block>,
         <ore:circuitElite> * 4,
     ]).
     circuit(4).
     outputs([<fluxnetworks:fluxplug>]).
     duration(2000).
-    EUt(7680).
+    EUt(30720).
     buildAndRegister();
 
 # Flux Point
 recipes.remove(<fluxnetworks:fluxpoint>);
 assembler.recipeBuilder().
     inputs([
-        <enderio:block_infinity:2>,
+        <appliedenergistics2:sky_stone_block>,
         <ore:circuitElite> * 4,
     ]).
     circuit(6).
     outputs([<fluxnetworks:fluxpoint>]).
     duration(2000).
-    EUt(7680).
+    EUt(30720).
     buildAndRegister();
 
 # Flux Controller
@@ -60,11 +60,11 @@ assembler.recipeBuilder().
     inputs([
         <ore:circuitElite> * 4,
         <ore:plateGlass> * 4,
-        <enderio:block_infinity:2>
+        <appliedenergistics2:sky_stone_block>
     ]).
     outputs([<fluxnetworks:fluxcontroller>]).
     duration(2000).
-    EUt(7680).
+    EUt(30720).
     buildAndRegister();
 
 # Flux Storage
@@ -79,7 +79,7 @@ JEI.removeAndHide(<fluxnetworks:fluxstorage>);
 //     ]).
 //     outputs([<fluxnetworks:fluxstorage>]).
 //     duration(2000).
-//     EUt(7680).
+//     EUt(30720).
 //     buildAndRegister();
 
 # Herculean Flux Storage
