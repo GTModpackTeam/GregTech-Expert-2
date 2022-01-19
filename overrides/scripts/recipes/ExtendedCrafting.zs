@@ -1,6 +1,88 @@
 # Imoprts
 import mods.jei.JEI;
 import mods.extendedcrafting.TableCrafting;
+import crafttweaker.item.IItemStack;
+
+
+# Nugget
+var nuggets as IItemStack[] = [
+    <extendedcrafting:material:140>,
+    <extendedcrafting:material:25>,
+    <extendedcrafting:material:33>
+];
+for nugget in nuggets {
+    recipes.remove(nugget);
+}
+
+# Ingot
+var ingots as IItemStack[] = [
+    <minecraft:nether_star>,
+    <extendedcrafting:material:24>,
+    <extendedcrafting:material:32>
+];
+for ingot in ingots {
+    recipes.remove(ingot);
+}
+
+# Block
+var blocks as IItemStack[] = [
+    <extendedcrafting:storage:2>,
+    <extendedcrafting:storage:3>,
+    <extendedcrafting:storage:4>
+];
+for block in blocks {
+    recipes.remove(block);
+}
+
+
+# Set Recipe
+## Nugget
+for i, nugget in nuggets {
+    alloy_smelter.recipeBuilder().
+        inputs([ingots[i]]).
+        notConsumable([<gregtech:meta_item_1:19>]).
+        outputs([nugget * 9]).
+        duration(56).
+        EUt(7).
+        buildAndRegister();
+}
+
+## Ingot
+for i, ingot in ingots {
+    alloy_smelter.recipeBuilder().
+        inputs([nuggets[i] * 9]).
+        notConsumable([<gregtech:meta_item_1:16>]).
+        outputs([ingot]).
+        duration(56).
+        EUt(7).
+        buildAndRegister();
+}
+for i, block in blocks {
+    alloy_smelter.recipeBuilder().
+        inputs([block]).
+        notConsumable([<gregtech:meta_item_1:16>]).
+        outputs([ingots[i] * 9]).
+        duration(56).
+        EUt(7).
+        buildAndRegister();
+}
+
+## Block
+for i, block in blocks {
+    alloy_smelter.recipeBuilder().
+        inputs([ingots[i] * 9]).
+        notConsumable([<gregtech:meta_item_1:18>]).
+        outputs([block]).
+        duration(5).
+        EUt(7).
+        buildAndRegister();
+    compressor.recipeBuilder().
+        inputs([ingots[i] * 9]).
+        outputs([block]).
+        duration(300).
+        EUt(7).
+        buildAndRegister();
+}
 
 
 
@@ -148,13 +230,13 @@ alloy_smelter.recipeBuilder().
     notConsumable([<gregtech:meta_item_1:18>]).
     outputs([<extendedcrafting:storage:1>]).
     duration(5).
-    EUt(2).
+    EUt(7).
     buildAndRegister();
 compressor.recipeBuilder().
     inputs([<extendedcrafting:material:7> * 9]).
     outputs([<extendedcrafting:storage:1>]).
     duration(300).
-    EUt(2).
+    EUt(7).
     buildAndRegister();
 
 # Ender Block
