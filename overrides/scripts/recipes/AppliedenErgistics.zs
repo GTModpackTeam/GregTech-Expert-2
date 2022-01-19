@@ -10,6 +10,11 @@ JEI.hideCategory("appliedenergistics2.inscriber");
 ########################################
 # Items
 ########################################
+# Ender Dust
+<ore:dustEnder>.remove(<appliedenergistics2:material:46>);
+<ore:dustEnderPearl>.remove(<appliedenergistics2:material:46>);
+JEI.hide(<appliedenergistics2:material:46>);
+
 # Certus Quartz Dust
 macerator.recipeBuilder().
     inputs([<appliedenergistics2:material>]).
