@@ -43,7 +43,7 @@ mixer.recipeBuilder().
     EUt(480).
     buildAndRegister();
 
-# Dew of Void
+# Vapor of levity
 mixer.recipeBuilder().
     inputs([
         <ore:itemPulsatingPowder> * 2,
