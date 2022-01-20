@@ -46,11 +46,11 @@ recipes.addShaped(<enderio:block_simple_furnace>, [
 
 
 # Enchanter
-recipes.addShaped(<enderio:block_enchanter>, [
-    [<ore:gemDiamond>, <minecraft:book>, <ore:gemDiamond>],
-    [<ore:ingotDarkSteel>, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>],
-    [null, <ore:ingotDarkSteel>, null]
-]);
+// recipes.addShaped(<enderio:block_enchanter>, [
+//     [<ore:gemDiamond>, <minecraft:book>, <ore:gemDiamond>],
+//     [<ore:ingotDarkSteel>, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>],
+//     [null, <ore:ingotDarkSteel>, null]
+// ]);
 
 # Farming Station
 recipes.addShaped(<enderio:block_farm_station>, [
@@ -83,14 +83,34 @@ recipes.addShaped(<enderio:block_stirling_generator>, [
 ]);
 
 # Zombie Generator
+recipes.addShaped(<enderio:block_zombie_generator>, [
+    [<ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>],
+    [<enderio:block_fused_quartz:*>, <ore:skullZombieElectrode>, <enderio:block_fused_quartz:*>],
+    [<enderio:block_fused_quartz:*>, <enderio:block_fused_quartz:*>, <enderio:block_fused_quartz:*>]
+]);
 
 # Frank'n'Zombie Generator
+recipes.addShaped(<enderio:block_franken_zombie_generator>, [
+    [<ore:ingotSoularium>, <ore:ingotSoularium>, <ore:ingotSoularium>],
+    [<enderio:block_fused_quartz:*>, <ore:skullZombieFrankenstein>, <enderio:block_fused_quartz:*>],
+    [<enderio:block_fused_quartz:*>, <enderio:block_fused_quartz:*>, <enderio:block_fused_quartz:*>]
+]);
 
 # Ender Generator
-
-# Lava Heat Exchanger
+recipes.addShaped(<enderio:block_ender_generator>, [
+    [<ore:ingotEndSteel>, <ore:ingotEndSteel>, <ore:ingotEndSteel>],
+    [<enderio:block_fused_quartz:*>, <ore:skullEnderResonator>, <enderio:block_fused_quartz:*>],
+    [<enderio:block_fused_quartz:*>, <enderio:block_fused_quartz:*>, <enderio:block_fused_quartz:*>]
+]);
 
 # Killer Joe
+recipes.addShaped(<enderio:block_killer_joe>, [
+    [<ore:ingotDarkSteel>, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>],
+    [<enderio:block_fused_quartz:*>, <ore:skullZombieFrankenstein>, <enderio:block_fused_quartz:*>],
+    [<enderio:block_fused_quartz:*>, <enderio:block_fused_quartz:*>, <enderio:block_fused_quartz:*>]
+]);
+
+# Lava Heat Exchanger
 
 # Electric Light
 recipes.addShaped(<enderio:block_electric_light>, [
@@ -171,6 +191,11 @@ recipes.addShaped(<enderio:block_weather_obelisk>, [
 ]);
 
 # Experienec Obelisk
+recipes.addShaped(<enderio:block_experience_obelisk>, [
+    [null, <enderio:item_xp_transfer>, null],
+    [<ore:ingotEnergeticAlloy>, <gregtech:machine:1575>, <ore:ingotEnergeticAlloy>],
+    [<ore:ingotSoularium>, <ore:itemSoulMachineChassi>, <ore:ingotSoularium>]
+]);
 
 # Painting Machine
 

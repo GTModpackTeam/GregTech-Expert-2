@@ -284,6 +284,5 @@ global entitieMobs as string[] = [
     "minecraft:polar_bear",
     "minecraft:llama",
     "minecraft:parrot",
-    "minecraft:villager",
-    "gravestone:player_ghost"
+    "minecraft:villager"
 ];
