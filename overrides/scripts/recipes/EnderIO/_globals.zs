@@ -3,11 +3,18 @@ import mods.jei.JEI;
 import crafttweaker.item.IItemStack;
 
 JEI.hideCategory("AlloySmelter");
-JEI.hideCategory("SolarPanel");
 JEI.hideCategory("EIOTank");
-JEI.hideCategory("ZombieGenerator");
+JEI.hideCategory("Enchanter");
 JEI.hideCategory("EnderGenerator");
 JEI.hideCategory("LavaGenerator");
+JEI.hideCategory("Painter");
+JEI.hideCategory("SolarPanel");
+JEI.hideCategory("EIOWC");
+JEI.hideCategory("ZombieGenerator");
+
+# 
+JEI.removeAndHide(<enderio:item_power_conduit:*>);
+JEI.removeAndHide(<enderio:item_endergy_conduit:*>);
 
 
 
