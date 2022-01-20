@@ -491,11 +491,11 @@ recipes.removeShaped(<appliedenergistics2:spatial_storage_cell_128_cubed>, [
 
 # 1k Storage Component
 recipes.remove(<appliedenergistics2:material:35>);
-// recipes.addShaped(<appliedenergistics2:material:35>, [
-//     [<gregtech:meta_item_1:516>, <ore:dustCertusQuartz>, <gregtech:meta_item_1:516>],
-//     [<ore:dustCertusQuartz>, <appliedenergistics2:material:22>, <ore:dustCertusQuartz>],
-//     [<gregtech:meta_item_1:516>, <ore:dustCertusQuartz>, <gregtech:meta_item_1:516>]
-// ]);
+recipes.addShaped(<appliedenergistics2:material:35>, [
+    [<gregtech:meta_item_1:516>, <ore:dustCertusQuartz>, <gregtech:meta_item_1:516>],
+    [<ore:dustCertusQuartz>, <appliedenergistics2:material:22>, <ore:dustCertusQuartz>],
+    [<gregtech:meta_item_1:516>, <ore:dustCertusQuartz>, <gregtech:meta_item_1:516>]
+]);
 assembler.recipeBuilder().
     inputs([
         <ore:circuitPrimitive> * 4,
@@ -567,11 +567,11 @@ assembler.recipeBuilder().
 
 # 1k Fluid Component
 recipes.remove(<appliedenergistics2:material:54>);
-// recipes.addShaped(<appliedenergistics2:material:54>, [
-//     [<gregtech:meta_item_1:516>, <ore:dustNetherQuartz>, <gregtech:meta_item_1:516>],
-//     [<ore:dustNetherQuartz>, <appliedenergistics2:material:22>, <ore:dustNetherQuartz>],
-//     [<gregtech:meta_item_1:516>, <ore:dustNetherQuartz>, <gregtech:meta_item_1:516>]
-// ]);
+recipes.addShaped(<appliedenergistics2:material:54>, [
+    [<gregtech:meta_item_1:516>, <ore:dustNetherQuartz>, <gregtech:meta_item_1:516>],
+    [<ore:dustNetherQuartz>, <appliedenergistics2:material:22>, <ore:dustNetherQuartz>],
+    [<gregtech:meta_item_1:516>, <ore:dustNetherQuartz>, <gregtech:meta_item_1:516>]
+]);
 assembler.recipeBuilder().
     inputs([
         <ore:circuitPrimitive> * 4,
@@ -643,14 +643,14 @@ assembler.recipeBuilder().
 
 # 2k Spatial Component
 recipes.remove(<appliedenergistics2:material:32>);
-// recipes.addShaped(<appliedenergistics2:material:32>, [
-//     [<ore:plateGlowstone>, <ore:pearlFluix>, <ore:plateGlowstone>],
-//     [<ore:pearlFluix>, <appliedenergistics2:material:22>, <ore:pearlFluix>],
-//     [<ore:plateGlowstone>, <ore:pearlFluix>, <ore:plateGlowstone>]
-// ]);
+recipes.addShaped(<appliedenergistics2:material:32>, [
+    [<ore:plateGlowstone>, <ore:pearlFluix>, <ore:plateGlowstone>],
+    [<ore:pearlFluix>, <appliedenergistics2:material:22>, <ore:pearlFluix>],
+    [<ore:plateGlowstone>, <ore:pearlFluix>, <ore:plateGlowstone>]
+]);
 assembler.recipeBuilder().
     inputs([
-        <ore:circuitElite> * 4,
+        <ore:circuitMaster> * 4,
         <ore:plateTungstenSteel> * 4,
         <ore:dustCertusQuartz> * 32,
         <appliedenergistics2:material:23>

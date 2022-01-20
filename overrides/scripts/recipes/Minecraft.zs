@@ -17,29 +17,17 @@ recipes.addShaped(<minecraft:ender_pearl>, [
     [null, <enderio:item_material:62>, null]
 ]);
 
-# Fermented Spider Eye
-recipes.removeShapeless(<minecraft:fermented_spider_eye>, [
-    <minecraft:spider_eye>, <minecraft:brown_mushroom>, <minecraft:sugar>
-]);
-
 
 
 ########################################
 # Blocks
 ########################################
 # Quartz Block
-compressor.findRecipe(2, [<minecraft:quartz> * 9], [null]).remove();
 recipes.removeShaped(<minecraft:quartz_block>, [
     [<appliedenergistics2:material:11>, <appliedenergistics2:material:11>, <appliedenergistics2:material:11>],
     [<appliedenergistics2:material:11>, null, <appliedenergistics2:material:11>],
     [<appliedenergistics2:material:11>, <appliedenergistics2:material:11>, <appliedenergistics2:material:11>]
 ]);
-compressor.recipeBuilder().
-    inputs([<minecraft:quartz> * 4]).
-    outputs([<minecraft:quartz_block>]).
-    duration(300).
-    EUt(2).
-    buildAndRegister();
 
 # Cake
 recipes.remove(<minecraft:cake>);

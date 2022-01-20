@@ -365,7 +365,7 @@ recipes.addShaped(<enderio:item_material:22> * 4, [
 
 # Soul Powder
 macerator.recipeBuilder().
-    inputs([<ore:ingotSoularium>]).
+    inputs([<extracells:storage.casing:1>]).
     outputs([<enderio:item_material:74>]).
     duration(56).
     EUt(480).
@@ -536,9 +536,13 @@ mixer.recipeBuilder().
     buildAndRegister();
 
 # Guardian Diode
-SliceNSplice.addRecipe(<enderio:item_material:56>, [
+SliceNSplice.addRecipe(<enderio:item_material:45>, [
     <ore:ingotEnergeticAlloy>, <ore:gemPrismarine>, <ore:ingotEnergeticAlloy>,
-    <ore:dustPrismarine>, <enderio:item_basic_capacitor> | <enderio:item_capacitor_silver>, <ore:dustPrismarine>
+    <ore:dustPrismarine>, <enderio:item_basic_capacitor>, <ore:dustPrismarine>
+]);
+SliceNSplice.addRecipe(<enderio:item_material:45>, [
+    <ore:ingotEnergeticAlloy>, <ore:gemPrismarine>, <ore:ingotEnergeticAlloy>,
+    <ore:dustPrismarine>, <enderio:item_capacitor_silver>, <ore:dustPrismarine>
 ]);
 
 # Wireless Energy Transmitter
@@ -639,7 +643,11 @@ macerator.recipeBuilder().
 # Tormented Enderman Head
 SliceNSplice.addRecipe(<enderio:block_enderman_skull:2>, [
     <ore:ingotSoularium>, <enderio:block_enderman_skull>, <ore:ingotSoularium>,
-    <minecraft:potion>.withTag({Potion: "minecraft:water"}), <enderio:item_basic_capacitor> | <enderio:item_capacitor_silver>, <minecraft:potion>.withTag({Potion: "minecraft:water"})
+    <minecraft:potion>.withTag({Potion: "minecraft:water"}), <enderio:item_basic_capacitor>, <minecraft:potion>.withTag({Potion: "minecraft:water"})
+]);
+SliceNSplice.addRecipe(<enderio:block_enderman_skull:2>, [
+    <ore:ingotSoularium>, <enderio:block_enderman_skull>, <ore:ingotSoularium>,
+    <minecraft:potion>.withTag({Potion: "minecraft:water"}), <enderio:item_capacitor_silver>, <minecraft:potion>.withTag({Potion: "minecraft:water"})
 ]);
 
 # Crude Steel Ingot
