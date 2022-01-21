@@ -28,5 +28,5 @@ jobs:
           file_path: "GregTech Expert 2-${GITHUB_REF##*/}.zip"
           changelog: $(cat CHANGELOG.md)
           display_name: "GregTech Expert 2-${GITHUB_REF##*/}"
-          game_versions: minecraft-1-12-2
+          game_versions: "1.12.2"
           release_type: beta
