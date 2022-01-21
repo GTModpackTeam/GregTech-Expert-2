@@ -79,7 +79,7 @@ assembler.recipeBuilder().
 recipes.remove(<chisel:bookshelf_acacia>);
 assembler.recipeBuilder().
     inputs([
-        <minecraft:planks:2> * 6,
+        <minecraft:planks:4> * 6,
         <minecraft:book> * 3
     ]).
     outputs([<chisel:bookshelf_acacia>]).
@@ -91,7 +91,7 @@ assembler.recipeBuilder().
 recipes.remove(<chisel:bookshelf_darkoak>);
 assembler.recipeBuilder().
     inputs([
-        <minecraft:planks:2> * 6,
+        <minecraft:planks:5> * 6,
         <minecraft:book> * 3
     ]).
     outputs([<chisel:bookshelf_darkoak>]).
