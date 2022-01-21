@@ -6,6 +6,44 @@ import mods.jei.JEI;
 ########################################
 # Items
 ########################################
+# Electrotine
+JEI.hide(<projectred-core:resource_item:105>);
+<ore:dustElectrotine>.remove(<projectred-core:resource_item:105>);
+
+# Sandy Compound
+JEI.removeAndHide(<projectred-core:resource_item:250>);
+
+# Silicon Boule
+furnace.remove(<projectred-core:resource_item:300>);
+JEI.hide(<projectred-core:resource_item:300>);
+
+# Silicon
+JEI.removeAndHide(<projectred-core:resource_item:301>);
+
+# Red Silicon Compound
+recipes.remove(<projectred-core:resource_item:310>);
+recipes.addShaped(<projectred-core:resource_item:310>, [
+    [<ore:dustRedstone>, <ore:dustRedstone>, <ore:dustRedstone>],
+    [<ore:dustRedstone>, <gregtech:meta_item_1:371>, <ore:dustRedstone>],
+    [<ore:dustRedstone>, <ore:dustRedstone>, <ore:dustRedstone>]
+]);
+
+# Glowing Silicon Compound
+recipes.remove(<projectred-core:resource_item:311>);
+recipes.addShaped(<projectred-core:resource_item:311>, [
+    [<ore:dustGlowstone>, <ore:dustGlowstone>, <ore:dustGlowstone>],
+    [<ore:dustGlowstone>, <gregtech:meta_item_1:371>, <ore:dustGlowstone>],
+    [<ore:dustGlowstone>, <ore:dustGlowstone>, <ore:dustGlowstone>]
+]);
+
+# Electrotine Silicon Compound
+recipes.remove(<projectred-core:resource_item:312>);
+recipes.addShaped(<projectred-core:resource_item:312>, [
+    [<ore:dustRegularElectrotine>, <ore:dustRegularElectrotine>, <ore:dustRegularElectrotine>],
+    [<ore:dustRegularElectrotine>, <gregtech:meta_item_1:371>, <ore:dustRegularElectrotine>],
+    [<ore:dustRegularElectrotine>, <ore:dustRegularElectrotine>, <ore:dustRegularElectrotine>]
+]);
+
 # Copper Ingot
 JEI.hide(<projectred-core:resource_item:100>);
 <ore:ingotCopper>.remove(<projectred-core:resource_item:100>);

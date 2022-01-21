@@ -41,3 +41,16 @@ for i, flask in flasks {
         EUt(480).
         buildAndRegister();
 }
+
+
+
+########################################
+# Blocks
+########################################
+# Buffer
+recipes.remove(<volumetricflask:buffer>);
+recipes.addShaped(<volumetricflask:buffer>, [
+    [flasks[0], flasks[0], flasks[0]],
+    [flasks[0], <gregtech:machine:1512>, flasks[0]],
+    [flasks[0], flasks[0], flasks[0]]
+]);

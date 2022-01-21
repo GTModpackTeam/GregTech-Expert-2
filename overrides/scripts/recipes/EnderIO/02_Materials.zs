@@ -424,11 +424,7 @@ recipes.addShaped(<enderio:item_material:38>, [
 # Zombie Eletrode
 SliceNSplice.addRecipe(<enderio:item_material:40>, [
     <ore:ingotEnergeticAlloy>, <minecraft:skull:2>, <ore:ingotEnergeticAlloy>,
-    <ore:dustSilicon>, <enderio:item_basic_capacitor>, <ore:dustSilicon>
-]);
-SliceNSplice.addRecipe(<enderio:item_material:40>, [
-    <ore:ingotEnergeticAlloy>, <minecraft:skull:2>, <ore:ingotEnergeticAlloy>,
-    <ore:dustSilicon>, <enderio:item_capacitor_silver>, <ore:dustSilicon>
+    <ore:dustSilicon>, <enderio:item_basic_capacitor> | <enderio:item_capacitor_silver>, <ore:dustSilicon>
 ]);
 
 # Z-Logic Controller
@@ -452,11 +448,7 @@ SoulBinder.addRecipe(<enderio:item_material:44>, <enderio:item_material:43>, ["m
 # Skeletal Contractor
 SliceNSplice.addRecipe(<enderio:item_material:45>, [
     <ore:ingotSoularium>, <minecraft:skull>, <ore:ingotSoularium>,
-    <minecraft:rotten_flesh>, <enderio:item_basic_capacitor>, <minecraft:rotten_flesh>
-]);
-SliceNSplice.addRecipe(<enderio:item_material:45>, [
-    <ore:ingotSoularium>, <minecraft:skull>, <ore:ingotSoularium>,
-    <minecraft:rotten_flesh>, <enderio:item_capacitor_silver>, <minecraft:rotten_flesh>
+    <minecraft:rotten_flesh>, <enderio:item_basic_capacitor> | <enderio:item_capacitor_silver>, <minecraft:rotten_flesh>
 ]);
 
 # Clippings and Trimmings
@@ -474,7 +466,6 @@ macerator.recipeBuilder().
     duration(100).
     EUt(480).
     buildAndRegister();
-
 
 # Organic Green Dye
 alloy_smelter.recipeBuilder().
@@ -801,7 +792,7 @@ assembler.recipeBuilder().
 # Stellar Capacitor
 
 # Totemic Capacitor
-SliceNSplice.addRecipe(<enderio:block_enderman_skull:2>, [
+SliceNSplice.addRecipe(<enderio:item_capacitor_totemic>, [
     <ore:ingotSoularium>, <minecraft:totem_of_undying>, <ore:ingotSoularium>,
     <enderio:item_material:35>, <enderio:item_capacitor_crystalline>, <enderio:item_material:35>
 ]);
