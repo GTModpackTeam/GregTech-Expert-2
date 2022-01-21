@@ -1,8 +1,8 @@
 {
   "weight": 20,
   "density": 0.25,
-  "max_height": 40,
-  "min_height": 10,
+  "max_height": 80,
+  "min_height": 5,
   "vein_populator": {
     "type": "surface_rock",
     "material": "olivine"

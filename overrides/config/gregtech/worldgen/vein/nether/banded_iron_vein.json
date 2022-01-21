@@ -1,8 +1,8 @@
 {
   "weight": 30,
-  "density": 0.2,
-  "min_height": 20,
-  "max_height": 40,
+  "density": 0.25,
+  "min_height": 5,
+  "max_height": 120,
   "vein_populator": {
     "type": "surface_rock",
     "material": "banded_iron"
