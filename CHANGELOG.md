@@ -1,3 +1,13 @@
+# v0.8.0
+## Fix 
+* Adjusting ore generation( #22 )
+
+## Add mods
+* /dank/null
+* FTB Backup
+
+* * *
+
 # v0.7.2
 ## Chisel fix
 * Del - Charcoal
