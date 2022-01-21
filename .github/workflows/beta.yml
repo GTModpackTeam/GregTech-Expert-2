@@ -1,12 +1,14 @@
 name: Package Modpack
 on: 
-  push:
+  pull_request:
     branches:
       - main
+    types: [closed]
 
 jobs:
   package:
     runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == true
 
     steps:
       - name: Checkout
@@ -16,7 +18,7 @@ jobs:
         uses: thedoctor0/zip-release@master
         with:
           filename: 'package.zip'
-          exclusions: '*.git* .editorconfig *.md */.github/*'
+          exclusions: '*.git* .editorconfig LICENSE *.md */./mods/* */.github/*'
 
       - name: Create release
         id: create_release
@@ -24,10 +26,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: beta-${{ github.run_id }}
-          release_name: beta-${{ github.run_id }}
+          tag_name: beta-$(TZ=UTC-9 date '+%Y%m%d%H%M%S')
+          release_name: beta-$(TZ=UTC-9 date '+%Y%m%d%H%M%S')
           draft: false
-          prerelease: false
+          prerelease: true
           
       - name: Upload Release Asset
         id: upload-release-asset
@@ -37,5 +39,5 @@ jobs:
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./package.zip
-          asset_name: gte-beta-${{ github.run_id }}.zip
+          asset_name: "GregTechExpert2-beta-$(TZ=UTC-9 date '+%Y%m%d%H%M%S').zip"
           asset_content_type: application/zip
