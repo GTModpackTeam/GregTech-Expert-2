@@ -53,110 +53,120 @@ assembler.recipeBuilder().
     buildAndRegister();
 
 # Electrical Steel Ingot
-alloy_smelter.recipeBuilder().
+electric_blast_furnace.recipeBuilder().
     inputs([
         <ore:ingotSteel>,
         <ore:dustSilicon>
     ]).
+    property("temperature", 1500).
     outputs([<enderio:item_alloy_ingot>]).
     duration(56).
     EUt(480).
     buildAndRegister();
 
 # Energetic Alloy Ingot
-alloy_smelter.recipeBuilder().
+electric_blast_furnace.recipeBuilder().
     inputs([
         <ore:ingotRedAlloy>,
         <ore:dustGlowstone>
     ]).
+    property("temperature", 1500).
     outputs([<enderio:item_alloy_ingot:1>]).
     duration(56).
     EUt(480).
     buildAndRegister();
 
 # Vibrant Alloy Ingot
-alloy_smelter.recipeBuilder().
+electric_blast_furnace.recipeBuilder().
     inputs([
         <enderio:item_alloy_ingot:1>,
         <ore:dustEnderPearl>
     ]).
+    property("temperature", 1500).
     outputs([<enderio:item_alloy_ingot:2>]).
     duration(56).
     EUt(480).
     buildAndRegister();
 
 # Redstone Alloy Ingot
-alloy_smelter.recipeBuilder().
+electric_blast_furnace.recipeBuilder().
     inputs([
         <ore:ingotRedAlloy>,
         <ore:dustSilicon>
     ]).
+    property("temperature", 1500).
     outputs([<enderio:item_alloy_ingot:3>]).
     duration(56).
     EUt(480).
     buildAndRegister();
 
 # Conductive Iron Ingot
-alloy_smelter.recipeBuilder().
+electric_blast_furnace.recipeBuilder().
     inputs([
         <ore:ingotIron>,
         <ore:dustRedstone>
     ]).
+    property("temperature", 1500).
     outputs([<enderio:item_alloy_ingot:4>]).
     duration(56).
     EUt(480).
     buildAndRegister();
 
 # Plusating Iron Ingot
-alloy_smelter.recipeBuilder().
+electric_blast_furnace.recipeBuilder().
     inputs([
         <ore:ingotIron>,
         <ore:dustEnderPearl>
     ]).
+    property("temperature", 1500).
     outputs([<enderio:item_alloy_ingot:5>]).
     duration(56).
     EUt(480).
     buildAndRegister();
 
 # Dark Steel Ingot
-alloy_smelter.recipeBuilder().
+electric_blast_furnace.recipeBuilder().
     inputs([
         <ore:ingotSteel>,
         <ore:dustObsidian>
     ]).
+    property("temperature", 1500).
     outputs([<enderio:item_alloy_ingot:6>]).
     duration(56).
     EUt(480).
     buildAndRegister();
 
 # Soularium Ingot
-alloy_smelter.recipeBuilder().
+electric_blast_furnace.recipeBuilder().
     inputs([
         <ore:ingotGold>,
         <minecraft:soul_sand>
     ]).
+    property("temperature", 1500).
     outputs([<enderio:item_alloy_ingot:7>]).
     duration(56).
     EUt(480).
     buildAndRegister();
 
 # End Steel Ingot
-alloy_smelter.recipeBuilder().
+electric_blast_furnace.recipeBuilder().
     inputs([
         <enderio:item_alloy_ingot:6>,
         <minecraft:end_stone>
     ]).
+    property("temperature", 1500).
     outputs([<enderio:item_alloy_ingot:8>]).
     duration(56).
     EUt(480).
     buildAndRegister();
 
 # Iron Alloy Ingot
-alloy_smelter.recipeBuilder().
+electric_blast_furnace.recipeBuilder().
     inputs([
         <enderio:item_alloy_ingot:6>,
         <ore:dustCobalt>
     ]).
+    property("temperature", 1500).
     outputs([<enderio:item_alloy_ingot:9>]).
     duration(56).
     EUt(480).
@@ -235,9 +245,10 @@ assembler.recipeBuilder().
 # Photovoltaic Plate
 
 # Conduit Binder
-assembler.recipeBuilder().
+electric_blast_furnace.recipeBuilder().
     inputs([<ore:itemBinderComposite>]).
     outputs([<enderio:item_material:4>]).
+    property("temperature", 1500).
     duration(56).
     EUt(480).
     buildAndRegister();

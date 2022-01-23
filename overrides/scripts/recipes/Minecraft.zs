@@ -27,6 +27,13 @@ recipes.removeShapeless(<minecraft:fermented_spider_eye>, [
 ########################################
 # Blocks
 ########################################
+# Comparator
+recipes.removeShaped(<minecraft:comparator>, [
+    [null, <minecraft:redstone_torch>, null],
+    [<minecraft:redstone_torch>, <ore:gemNetherQuartz>, <minecraft:redstone_torch>],
+    [<ore:stoneSmooth>, <ore:stoneSmooth>, <ore:stoneSmooth>]
+]);
+
 # Quartz Block
 compressor.findRecipe(2, [<minecraft:quartz> * 9], [null]).remove();
 recipes.removeShaped(<minecraft:quartz_block>, [
