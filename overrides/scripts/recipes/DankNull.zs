@@ -22,9 +22,9 @@ JEI.removeAndHide(<danknull:dank_null_panel_5>);
 # null Mk1
 recipes.remove(<danknull:dank_null_0>);
 recipes.addShaped(<danknull:dank_null_0>, [
-    [<minecraft:dye:1>, <ore:blockCoal>, <minecraft:dye:1>],
-    [<ore:blockCoal>, null, <ore:blockCoal>],
-    [<minecraft:dye:1>, <ore:blockCoal>, <minecraft:dye:1>]
+    [<minecraft:dye:1>, <ore:blockObsidian>, <minecraft:dye:1>],
+    [<ore:blockObsidian>, null, <ore:blockObsidian>],
+    [<minecraft:dye:1>, <ore:blockObsidian>, <minecraft:dye:1>]
 ]);
 
 # null mk2
