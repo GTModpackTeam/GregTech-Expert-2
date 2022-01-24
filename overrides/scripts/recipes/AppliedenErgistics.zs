@@ -917,7 +917,7 @@ electrolyzer.recipeBuilder().
 # Pure Certus Quartz Crystal
 recipes.remove(<appliedenergistics2:crystal_seed>);
 assembler.recipeBuilder().
-    inputs([<ore:dustCertusQuartz>, <minecraft:sand>]).
+    inputs([<ore:dustCertusQuartz>, <ore:sand>]).
     outputs([<appliedenergistics2:crystal_seed> * 2]).
     duration(100).
     EUt(480).
@@ -933,7 +933,7 @@ autoclave.recipeBuilder().
 # Pure Nether Quartz Crystal
 recipes.remove(<appliedenergistics2:crystal_seed:600>);
 assembler.recipeBuilder().
-    inputs([<ore:dustNetherQuartz>, <minecraft:sand>]).
+    inputs([<ore:dustNetherQuartz>, <ore:sand>]).
     outputs([<appliedenergistics2:crystal_seed:600> * 2]).
     duration(200).
     EUt(480).
@@ -949,7 +949,7 @@ autoclave.recipeBuilder().
 # Pure Fluix Crystal
 recipes.remove(<appliedenergistics2:crystal_seed:1200>);
 assembler.recipeBuilder().
-    inputs([<contenttweaker:dustfluix>, <minecraft:sand>]).
+    inputs([<contenttweaker:dustfluix>, <ore:sand>]).
     outputs([<appliedenergistics2:crystal_seed:1200> * 2]).
     duration(200).
     EUt(480).
