@@ -196,10 +196,13 @@ alloy_smelter.recipeBuilder().
     buildAndRegister();
 
 # Simple Machine Parts
+JEI.removeAndHide(<enderio:item_material:69>);
 
 # Machine Parts
+JEI.removeAndHide(<enderio:item_material:2>);
 
 # Enhanced Machine Parts
+JEI.removeAndHide(<enderio:item_material:68>);
 
 # Soul Machine Chassis
 alloy_smelter.recipeBuilder().
@@ -248,6 +251,7 @@ assembler.recipeBuilder().
     buildAndRegister();
 
 # Photovoltaic Plate
+JEI.removeAndHide(<enderio:item_material:3>);
 
 # Conduit Binder
 electric_blast_furnace.recipeBuilder().
@@ -261,6 +265,10 @@ electric_blast_furnace.recipeBuilder().
     duration(56).
     EUt(480).
     buildAndRegister();
+
+# Silicon
+JEI.removeAndHide(<enderio:item_material:5>);
+// <ore:itemSilicon>.remove(<enderio:item_material:5>);
 
 # Glider Wing
 recipes.addShaped(<enderio:item_material:6>, [
@@ -277,9 +285,11 @@ recipes.addShaped(<enderio:item_material:7>, [
 ]);
 
 # Wooden Gear
+JEI.removeAndHide(<enderio:item_material:9>);
 <ore:gearWood>.remove(<enderio:item_material:9>);
 
 # Stone Gear
+JEI.removeAndHide(<enderio:item_material:10>);
 <ore:gearStone>.remove(<enderio:item_material:10>);
 
 # Infity Bimetal Gear
@@ -341,42 +351,57 @@ recipes.addShaped(<enderio:item_material:18>, [
 SoulBinder.addRecipe(<enderio:item_material:19>, <enderio:item_material:15>, ["minecraft:shulker"], 200000, 8);
 
 # Flour
+JEI.removeAndHide(<enderio:item_material:21>);
+<ore:dustWheat>.remove(<enderio:item_material:21>);
 
 # Conduit Binder Composite
+JEI.removeAndHide(<enderio:item_material:22>);
 
 # Coal Powder
+JEI.removeAndHide(<enderio:item_material:23>);
 <ore:dustCoal>.remove(<enderio:item_material:23>);
 
 # Iron Powder
+JEI.removeAndHide(<enderio:item_material:24>);
 <ore:dustIron>.remove(<enderio:item_material:24>);
 
 # Gold Powder
+JEI.removeAndHide(<enderio:item_material:25>);
 <ore:dustGold>.remove(<enderio:item_material:25>);
 
 # Copper Powder
+JEI.removeAndHide(<enderio:item_material:26>);
 <ore:dustCopper>.remove(<enderio:item_material:26>);
 
 # Tin Powder
+JEI.removeAndHide(<enderio:item_material:27>);
 <ore:dustTin>.remove(<enderio:item_material:27>);
 
 # Ender Pearl Powder
+JEI.removeAndHide(<enderio:item_material:22>);
 // <ore:nuggetEnderpearl>.remove(<enderio:item_material:28>);
 
 # Obsidian Powder
+JEI.removeAndHide(<enderio:item_material:29>);
 <ore:dustObsidian>.remove(<enderio:item_material:29>);
 
 # Cobalt Powder
+JEI.removeAndHide(<enderio:item_material:31>);
 <ore:dustCobalt>.remove(<enderio:item_material:31>);
 
 # Lapis Powder
+JEI.removeAndHide(<enderio:item_material:32>);
 <ore:dustLapis>.remove(<enderio:item_material:32>);
 
 # Quartz Powder
+JEI.removeAndHide(<enderio:item_material:33>);
 <ore:dustNetherQuartz>.remove(<enderio:item_material:33>);
 
-# Confusing Powder
-
 # Withering Dust
+JEI.removeAndHide(<enderio:item_material:63>);
+
+# Confusing Powder
+JEI.removeAndHide(<enderio:item_material:61>);
 
 # Soul Powder
 macerator.recipeBuilder().
@@ -555,12 +580,16 @@ recipes.addShaped(<enderio:item_material:65>, [
 ]);
 
 # Cake Base
+JEI.removeAndHide(<enderio:item_material:70>);
 
 # Netherotta
+JEI.removeAndHide(<enderio:item_material:72>);
 
 # Infinity Rod
+JEI.removeAndHide(<enderio:item_material:71>);
 
 # Infinity Reagent
+JEI.removeAndHide(<enderio:item_material:75>);
 
 # Black Paper
 recipes.addShapeless(<enderio:item_material:77>, [
@@ -568,10 +597,13 @@ recipes.addShapeless(<enderio:item_material:77>, [
 ]);
 
 # Animal Token
+JEI.removeAndHide(<enderio:item_material:78>);
 
 # Monster Token
+JEI.removeAndHide(<enderio:item_material:79>);
 
 # Player Token
+JEI.removeAndHide(<enderio:item_material:80>);
 
 # Unfired Death Urn
 recipes.addShaped(<enderio:item_material:81>, [
@@ -725,6 +757,7 @@ electric_blast_furnace.recipeBuilder().
     buildAndRegister();
 
 # Grainy Capacior
+JEI.removeAndHide(<enderio:item_capacitor_grainy>);
 
 # Silver Capacitor
 assembler.recipeBuilder().
@@ -804,6 +837,7 @@ assembler.recipeBuilder().
     buildAndRegister();
 
 # Stellar Capacitor
+JEI.removeAndHide(<enderio:item_capacitor_stellar>);
 
 # Totemic Capacitor
 SliceNSplice.addRecipe(<enderio:item_capacitor_totemic>, [

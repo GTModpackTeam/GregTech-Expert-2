@@ -66,6 +66,7 @@ recipes.addShaped(<enderio:item_xp_transfer>, [
 ]);
 
 # Cold Fire Igniter
+JEI.removeAndHide(<enderio:item_cold_fire_igniter>);
 
 # Coordinate Selctor
 recipes.addShaped(<enderio:item_coord_selector>, [
@@ -89,6 +90,7 @@ recipes.addShaped(<enderio:item_rod_of_return>, [
 ]);
 
 # Electromagnet
+JEI.removeAndHide(<enderio:item_magnet>);
 // recipes.addShaped(<enderio:item_magnet>, [
 //     [<ore:ingotRedAlloy>, <ore:gemEmerald>, <ore:ingotRedAlloy>],
 //     [<ore:ingotRedAlloy>, null, <ore:ingotRedAlloy>],
@@ -138,9 +140,9 @@ recipes.addShaped(<enderio:item_big_advanced_item_filter>, [
 ]);
 
 # Big Soul Item Filter
-// for mob in entitieMobs {
-//     SoulBinder.addRecipe(<enderio:item_soul_filter_big>, <enderio:item_big_item_filter>, [mob], 5000000, 12);
-// }
+for mob in entitieMobs {
+  SoulBinder.addRecipe(<enderio:item_soul_filter_big>, <enderio:item_big_item_filter>, [mob], 5000000, 12);
+}
 
 # Big Enchantment Item Filter
 recipes.addShapeless(<enderio:item_enchantment_filter_big>, [
@@ -169,9 +171,9 @@ recipes.addShaped(<enderio:item_power_item_filter>, [
 ]);
 
 # Soul Item Filter
-// for mob in entitieMobs {
-//     SoulBinder.addRecipe(<enderio:item_soul_filter_normal>, <enderio:item_basic_item_filter>, [mob], 5000000, 12);
-// }
+for mob in entitieMobs {
+    SoulBinder.addRecipe(<enderio:item_soul_filter_normal>, <enderio:item_basic_item_filter>, [mob], 5000000, 12);
+}
 
 # Enchantment Item Filter
 recipes.addShapeless(<enderio:item_enchantment_filter_normal>, [
