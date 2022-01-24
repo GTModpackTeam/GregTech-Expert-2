@@ -37,14 +37,13 @@ key_key.next_item.desc:0:NONE
 key_key.previous_item.desc:0:NONE
 key_key.open_danknull.desc:0:NONE
 key_key.togglehud.desc:0:NONE
-key_key.ftbultimine:19:NONE
+key_key.ftbultimine:41:NONE
 key_key.ftbutilities.nbt:49:ALT
 key_key.ftbutilities.trash:211:NONE
 key_key.ftbquests.quests:0:NONE
-key_ingameinfoxml.key.toggle:0:NONE
-key_key.inventorysorter.sort:-98:NONE
-key_key.inventorysorter.itemin:-200:NONE
 key_key.inventorysorter.itemout:-201:NONE
+key_key.inventorysorter.itemin:-200:NONE
+key_key.inventorysorter.sort:-98:NONE
 key_key.moreoverlays.lightoverlay.desc:65:NONE
 key_key.moreoverlays.chunkbounds.desc:67:NONE
 key_keys.servertabinfo.show:29:NONE
@@ -73,6 +72,8 @@ key_key.material_list:50:NONE
 key_key.toggleLiquids:38:NONE
 key_key.toggleVisible:0:NONE
 key_key.clipboardPaste:210:NONE
+key_FpsReducer.key.guiOpen:207:NONE
+key_FpsReducer.key.forceIdle:197:NONE
 key_ALT Menu:56:NONE
 key_Mode Switch:50:NONE
 key_Jetpack Hover:35:NONE

@@ -7,9 +7,6 @@ recipes.addShapeless(<minecraft:iron_nugget> * 9, [<minecraft:iron_ingot>]);
 # Gold Nugget
 recipes.addShapeless(<minecraft:gold_nugget> * 9, [<minecraft:gold_ingot>]);
 
-# Bread
-furnace.addRecipe(<minecraft:bread>, <gregtech:meta_dust:1615>, 0);
-
 # Ender Pearl
 recipes.addShaped(<minecraft:ender_pearl>, [
     [null, <enderio:item_material:62>, null],
@@ -46,19 +43,6 @@ compressor.recipeBuilder().
     outputs([<minecraft:quartz_block>]).
     duration(300).
     EUt(2).
-    buildAndRegister();
-
-# Cake
-recipes.remove(<minecraft:cake>);
-mixer.recipeBuilder().
-    inputs([
-        <minecraft:sugar> * 2,
-        <enderio:item_material:70>
-    ]).
-    fluidInputs([<liquid:milk> * 144]).
-    outputs([<minecraft:cake>]).
-    duration(56).
-    EUt(30).
     buildAndRegister();
 
 # Sand
