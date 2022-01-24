@@ -1324,16 +1324,37 @@ recipes.addShaped(<appliedenergistics2:part:340>, [
     [<ore:plateAluminium>, <appliedenergistics2:material:24>, <ore:plateAluminium>]
 ]);
 
+# Extended Processing Pattrern Terminal
+recipes.remove(<appliedenergistics2:part:341>);
+recipes.addShaped(<appliedenergistics2:part:341>, [
+    [<ore:gtce.tool.screwdrivers>, <appliedenergistics2:part:340>, <ore:gtce.tool.soft.hammers>],
+    [<ore:screwAluminium>, <appliedenergistics2:material:52>, <ore:screwAluminium>],
+    [<ore:plateAluminium>, <appliedenergistics2:material:24>, <ore:plateAluminium>]
+]);
+
 # Storage Bus
 recipes.remove(<appliedenergistics2:part:220>);
 recipes.addShaped(<appliedenergistics2:part:220>, [
     [<ore:plateAluminium>, <ore:gtce.tool.soft.hammers>, <ore:plateAluminium>],
-    [<gregtech:meta_item_1:158>, <ore:ae2.interface.item>, <gregtech:meta_item_1:158>],
+    [<gregtech:meta_item_1:159>, <ore:ae2.interface.item>, <gregtech:meta_item_1:159>],
     [<ore:plateAluminium>, <minecraft:chest>, <ore:plateAluminium>]
 ]);
 recipes.addShaped(<appliedenergistics2:part:220>, [
     [<ore:plateAluminium>, <minecraft:chest>, <ore:plateAluminium>],
-    [<gregtech:meta_item_1:158>, <ore:ae2.interface.item>, <gregtech:meta_item_1:158>],
+    [<gregtech:meta_item_1:159>, <ore:ae2.interface.item>, <gregtech:meta_item_1:159>],
+    [<ore:plateAluminium>, <ore:gtce.tool.soft.hammers>, <ore:plateAluminium>]
+]);
+
+# OreDict Storage Bus
+recipes.removeShapeless(<appliedenergistics2:part:222>);
+recipes.addShaped(<appliedenergistics2:part:222>, [
+    [<ore:plateAluminium>, <ore:gtce.tool.soft.hammers>, <ore:plateAluminium>],
+    [<gregtech:meta_item_1:160>, <appliedenergistics2:part:220>, <gregtech:meta_item_1:160>],
+    [<ore:plateAluminium>, <gregtech:meta_item_1:292>, <ore:plateAluminium>]
+]);
+recipes.addShaped(<appliedenergistics2:part:222>, [
+    [<ore:plateAluminium>, <gregtech:meta_item_1:292>, <ore:plateAluminium>],
+    [<gregtech:meta_item_1:160>, <appliedenergistics2:part:220>, <gregtech:meta_item_1:160>],
     [<ore:plateAluminium>, <ore:gtce.tool.soft.hammers>, <ore:plateAluminium>]
 ]);
 

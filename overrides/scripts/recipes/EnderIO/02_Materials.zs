@@ -56,6 +56,7 @@ assembler.recipeBuilder().
 electric_blast_furnace.recipeBuilder().
     inputs([
         <ore:ingotSteel>,
+        <ore:dustCoal>,
         <ore:dustSilicon>
     ]).
     property("temperature", 1500).
@@ -67,7 +68,8 @@ electric_blast_furnace.recipeBuilder().
 # Energetic Alloy Ingot
 electric_blast_furnace.recipeBuilder().
     inputs([
-        <ore:ingotRedAlloy>,
+        <ore:dustRedstone>,
+        <ore:ingotGold>,
         <ore:dustGlowstone>
     ]).
     property("temperature", 1500).
@@ -127,7 +129,8 @@ electric_blast_furnace.recipeBuilder().
 # Dark Steel Ingot
 electric_blast_furnace.recipeBuilder().
     inputs([
-        <ore:ingotSteel>,
+        <ore:ingotIron>,
+        <ore:dustCoal>,
         <ore:dustObsidian>
     ]).
     property("temperature", 1500).
@@ -142,7 +145,7 @@ electric_blast_furnace.recipeBuilder().
         <ore:ingotGold>,
         <minecraft:soul_sand>
     ]).
-    property("temperature", 1500).
+    property("temperature", 2000).
     outputs([<enderio:item_alloy_ingot:7>]).
     duration(56).
     EUt(480).
@@ -151,10 +154,11 @@ electric_blast_furnace.recipeBuilder().
 # End Steel Ingot
 electric_blast_furnace.recipeBuilder().
     inputs([
-        <enderio:item_alloy_ingot:6>,
-        <minecraft:end_stone>
+        <minecraft:end_stone>,
+        <ore:ingotDarkSteel>,
+        <minecraft:obsidian>
     ]).
-    property("temperature", 1500).
+    property("temperature", 2500).
     outputs([<enderio:item_alloy_ingot:8>]).
     duration(56).
     EUt(480).
@@ -163,10 +167,11 @@ electric_blast_furnace.recipeBuilder().
 # Iron Alloy Ingot
 electric_blast_furnace.recipeBuilder().
     inputs([
-        <enderio:item_alloy_ingot:6>,
-        <ore:dustCobalt>
+        <ore:ingotPlatinum>,
+        <ore:ingotIron>,
+        <ore:ingotAluminium>
     ]).
-    property("temperature", 1500).
+    property("temperature", 3000).
     outputs([<enderio:item_alloy_ingot:9>]).
     duration(56).
     EUt(480).
@@ -275,9 +280,9 @@ recipes.addShaped(<enderio:item_material:7>, [
 
 # Infity Bimetal Gear
 recipes.addShaped(<enderio:item_material:11>, [
-    [<ore:nuggetIron>, <ore:ingotConstructionAlloy>, <ore:nuggetIron>],
-    [<ore:ingotConstructionAlloy>, <ore:dustBedrock>, <ore:ingotConstructionAlloy>],
-    [<ore:nuggetIron>, <ore:ingotConstructionAlloy>, <minecraft:iron_nugget>]
+    [<ore:nuggetIron>, <minecraft:iron_ingot>, <ore:nuggetIron>],
+    [<ore:ingotIron>, <ore:dustBedrock>, <ore:ingotIron>],
+    [<ore:nuggetIron>, <ore:ingotIron>, <minecraft:iron_nugget>]
 ]);
 
 # Energized Bimetal Gear

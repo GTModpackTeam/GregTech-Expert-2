@@ -8,11 +8,6 @@ recipes.addShaped(<enderio:block_cap_bank:1>, [
     [<enderio:item_basic_capacitor>, <ore:blockRedstone>, <enderio:item_basic_capacitor>],
     [<ore:ingotIron>, <enderio:item_basic_capacitor>, <ore:ingotIron>]
 ]);
-recipes.addShaped(<enderio:block_cap_bank:1>, [
-    [<ore:ingotConstructionAlloy>, <enderio:item_capacitor_silver>, <ore:ingotConstructionAlloy>],
-    [<enderio:item_capacitor_silver>, <ore:blockRedstone>, <enderio:item_capacitor_silver>],
-    [<ore:ingotConstructionAlloy>, <enderio:item_capacitor_silver>, <ore:ingotConstructionAlloy>]
-]);
 
 # Energy Gauge
 recipes.addShaped(<enderio:block_gauge>, [
@@ -20,20 +15,10 @@ recipes.addShaped(<enderio:block_gauge>, [
     [<ore:ingotElectricalSteel>, <enderio:item_conduit_probe>, <ore:ingotElectricalSteel>],
     [<ore:ingotIron>, null, <ore:ingotIron>]
 ]);
-recipes.addShaped(<enderio:block_gauge>, [
-    [<ore:ingotConstructionAlloy>, null, <ore:ingotConstructionAlloy>],
-    [<ore:ingotElectricalSteel>, <enderio:item_conduit_probe>, <ore:ingotElectricalSteel>],
-    [<ore:ingotConstructionAlloy>, null, <ore:ingotConstructionAlloy>]
-]);
 
 # Simple Powered Furnace
 recipes.addShaped(<enderio:block_simple_furnace>, [
     [<ore:ingotIron>, <minecraft:furnace>, <ore:ingotIron>],
-    [<ore:stoneBricks>, <ore:itemSimpleMachineChassi>, <ore:stoneBricks>],
-    [<ore:gearWood>, <minecraft:bucket>, <ore:gearWood>]
-]);
-recipes.addShaped(<enderio:block_simple_furnace>, [
-    [<ore:ingotConstructionAlloy>, <minecraft:furnace>, <ore:ingotConstructionAlloy>],
     [<ore:stoneBricks>, <ore:itemSimpleMachineChassi>, <ore:stoneBricks>],
     [<ore:gearWood>, <minecraft:bucket>, <ore:gearWood>]
 ]);
