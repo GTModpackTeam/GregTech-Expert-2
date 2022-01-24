@@ -67,6 +67,6 @@ recipes.addShaped(<enderio:item_me_conduit:1>, [
 # OC Conduit
 recipes.addShaped(<enderio:item_opencomputers_conduit>, [
     [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>],
-    [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
+    [<opencomputers:material:28>, <opencomputers:material:28>, <opencomputers:material:28>],
     [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]
 ]);

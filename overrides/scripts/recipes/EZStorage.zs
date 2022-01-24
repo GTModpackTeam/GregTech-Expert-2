@@ -44,17 +44,17 @@ recipes.addShaped(<ezstorage:super_storage_box>, [
 # Ultra Storage Box
 recipes.remove(<ezstorage:ultra_storage_box>);
 recipes.addShaped(<ezstorage:ultra_storage_box>, [
-    [<ore:plateDiamond>, <ore:gtce.tool.hard.hammers>, <ore:plateDiamond>],
-    [<ore:plateDiamond>, <gregtech:machine:1628>, <ore:plateDiamond>],
-    [<ore:plateDiamond>, <ezstorage:super_storage_box>, <ore:plateDiamond>]
+    [<ore:plateAluminium>, <ore:gtce.tool.hard.hammers>, <ore:plateAluminium>],
+    [<ore:plateAluminium>, <gregtech:machine:1628>, <ore:plateAluminium>],
+    [<ore:plateAluminium>, <ezstorage:super_storage_box>, <ore:plateAluminium>]
 ]);
 
 # Hyper Storage Box
 recipes.remove(<ezstorage:hyper_storage_box>);
 recipes.addShaped(<ezstorage:hyper_storage_box>, [
-    [<ore:plateObsidian>, <ore:gtce.tool.hard.hammers>, <ore:plateObsidian>],
-    [<ore:plateObsidian>, <gregtech:machine:1629>, <ore:plateObsidian>],
-    [<ore:plateObsidian>, <ezstorage:ultra_storage_box>, <ore:plateObsidian>]
+    [<ore:plateStainlessSteel>, <ore:gtce.tool.hard.hammers>, <ore:plateStainlessSteel>],
+    [<ore:plateStainlessSteel>, <gregtech:machine:1629>, <ore:plateStainlessSteel>],
+    [<ore:plateStainlessSteel>, <ezstorage:ultra_storage_box>, <ore:plateStainlessSteel>]
 ]);
 
 # Input Port

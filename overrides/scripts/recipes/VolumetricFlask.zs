@@ -32,6 +32,7 @@ for flask in flasks {
     recipes.remove(flask);
 }
 for i, flask in flasks {
+    <ore:flask>.addItems([flasks[i]]);
     assembler.recipeBuilder().
         notConsumable([<gregtech:meta_item_1:15>]).
         fluidInputs([<liquid:glass> * 144]).
@@ -50,7 +51,11 @@ for i, flask in flasks {
 # Buffer
 recipes.remove(<volumetricflask:buffer>);
 recipes.addShaped(<volumetricflask:buffer>, [
-    [flasks[0], flasks[0], flasks[0]],
-    [flasks[0], <gregtech:machine:1512>, flasks[0]],
-    [flasks[0], flasks[0], flasks[0]]
+    [<ore:flask>, <ore:flask>, <ore:flask>],
+    [<ore:flask>, <gregtech:machine:1512>, <ore:flask>],
+    [<ore:flask>, <ore:flask>, <ore:flask>]
 ]);
+
+# Filler
+recipes.remove(<volumetricflask:filler>);
+recipes.addShapeless(<volumetricflask:filler>, [<appliedenergistics2:interface>,<ore:flask>]);

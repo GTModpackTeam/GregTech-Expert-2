@@ -188,7 +188,7 @@ recipes.addShaped(<enderio:item_fluid_filter>, [
 # Redstone Filter Base
 recipes.addShaped(<enderio:item_material:60>, [
     [<ore:ingotRedstoneAlloy>, <ore:paperBlack>, <ore:ingotRedstoneAlloy>],
-    [<ore:paperBlack>, <ore:ingotConstructionAlloy>, <ore:paperBlack>],
+    [<ore:paperBlack>, <ore:ingotIron>, <ore:paperBlack>],
     [<ore:ingotRedstoneAlloy>, <ore:paperBlack>, <ore:ingotRedstoneAlloy>]
 ]);
 
@@ -303,7 +303,7 @@ recipes.addShaped(<enderio:item_dark_steel_boots>, [
 
 # Dark Shield
 recipes.addShaped(<enderio:item_dark_steel_shield>, [
-    [<ore:ingotDarkSteel>, <ore:ingotConstructionAlloy>, <ore:ingotDarkSteel>],
+    [<ore:ingotDarkSteel>, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>],
     [<ore:ingotDarkSteel>, null, <ore:ingotDarkSteel>],
     [null, <ore:ingotDarkSteel>, null]
 ]);
