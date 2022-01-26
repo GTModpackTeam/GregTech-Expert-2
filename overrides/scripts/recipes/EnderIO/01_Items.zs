@@ -994,6 +994,20 @@ assembler.recipeBuilder().
     EUt(480).
     buildAndRegister();
 
+# Dark Steel Upgrade "The One Probe"
+recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:top"}), [
+    <enderio:item_dark_steel_upgrade>,<theoneprobe:probe>
+]);
+
+# Dark Steel Upgrade(XP) "The One Probe"
+assembler.recipeBuilder().
+    inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:top"})]).
+    fluidInputs([<liquid:xpjuice> * 800]).
+    outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:top", "enderio:enabled": 1 as byte})]).
+    duration(100).
+    EUt(480).
+    buildAndRegister();
+
 # Dark Steel Upgrade "Travel"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:travel"}), [
     <enderio:item_dark_steel_upgrade>,<ore:itemEnderCrystal>

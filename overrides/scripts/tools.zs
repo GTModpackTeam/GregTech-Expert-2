@@ -56,5 +56,5 @@ var ae2 as IItemStack[] = [
     <appliedenergistics2:nether_quartz_hoe>,
 ];
 for tool in ae2 {
-    tool.maxDamage = 1;
+    JEI.removeAndHide(tool);
 }
