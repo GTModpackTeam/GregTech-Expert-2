@@ -2,7 +2,7 @@
 import mods.jei.JEI;
 import mods.extendedcrafting.TableCrafting;
 /* 
-  TODO
+    TODO
     # Infinite GT Energy Unit Emitter
     <gregtech:machine:1650>
 
@@ -18,9 +18,16 @@ import mods.extendedcrafting.TableCrafting;
 ########################################
 # Blocks
 ########################################
-JEI.addDescription(<gregtech:machine:1650>,"Waiting for Gregicality to be supported by GTCEu!!");
-JEI.addDescription(<gregtech:machine:1668>,"Waiting for Gregicality to be supported by GTCEu!!");
-JEI.addDescription(<gregtech:machine:1669>,"Waiting for Gregicality to be supported by GTCEu!!");
+<gregtech:machine:1650>.addTooltip(
+    format.red("Waiting for Gregicality to be supported by GTCEu!!")
+);
+<gregtech:machine:1668>.addTooltip(
+    format.red("Waiting for Gregicality to be supported by GTCEu!!")
+);
+<gregtech:machine:1669>.addTooltip(
+    format.red("Waiting for Gregicality to be supported by GTCEu!!")
+);
+
 
 # Infinite GT Energy Unit Emitter
 // TableCrafting.addShaped(0, <gregtech:machine:1650>, [

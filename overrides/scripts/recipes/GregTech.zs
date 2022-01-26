@@ -8,7 +8,7 @@ import mods.jei.JEI;
 ########################################
 # Stone Rod
 lathe.recipeBuilder().
-    inputs([<ore:stoneSmooth>]).
+    inputs([<minecraft:stone>]).
     outputs([
         <gregtech:meta_stick:1599>,
         <gregtech:meta_dust_small:1599>

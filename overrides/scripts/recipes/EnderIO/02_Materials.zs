@@ -424,7 +424,7 @@ alloy_smelter.recipeBuilder().
 
 # Grains of Prescience
 macerator.recipeBuilder().
-    inputs([<ore:ingotSoularium>]).
+    inputs([<ore:itemPrecientCrystal>]).
     outputs([<enderio:item_material:34>]).
     duration(100).
     EUt(480).
