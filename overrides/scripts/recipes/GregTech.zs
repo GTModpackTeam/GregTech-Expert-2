@@ -6,6 +6,17 @@ import mods.jei.JEI;
 ########################################
 # Items
 ########################################
+# Stone Rod
+lathe.recipeBuilder().
+    inputs([<minecraft:stone>]).
+    outputs([
+        <gregtech:meta_stick:1599>,
+        <gregtech:meta_dust_small:1599>
+    ]).
+    duration(10).
+    EUt(7).
+    buildAndRegister();
+
 # Clay Dust
 electrolyzer.findRecipe(60, [<gregtech:meta_dust:2063> * 13], [null]).remove();
 electrolyzer.recipeBuilder().

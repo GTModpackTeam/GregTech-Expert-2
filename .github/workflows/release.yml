@@ -14,8 +14,8 @@ jobs:
       - name: Archive Release
         uses: thedoctor0/zip-release@master
         with:
-          filename: "GregTech Expert 2-${GITHUB_REF##*/}.zip"
-          exclusions: '*.git* .editorconfig LICENSE *.md */./mods/* */.github/*'
+          filename: "GregTech Expert 2-$(git describe --tags --abbrev=0).zip"
+          exclusions: '*.git* .editorconfig LICENSE *.md */./overrides/mods/* */.github/* */serverfiles/*'
 
       - name: Run test action
         uses: itsmeow/curseforge-upload@master
@@ -25,8 +25,8 @@ jobs:
           token: ${{ secrets.CF_API_TOKEN }}
           project_id: 262222
           game_endpoint: minecraft
-          file_path: "GregTech Expert 2-${GITHUB_REF##*/}.zip"
-          changelog: $(cat CHANGELOG.md)
-          display_name: "GregTech Expert 2-${GITHUB_REF##*/}"
+          file_path: "GregTech Expert 2-$(git describe --tags --abbrev=0).zip"
+          changelog: 'Check the changes here. [Github - CHANGELOG.md](https://github.com/GTModpackTeam/gregtech-expert-2/blob/main/CHANGELOG.md "")'
+          display_name: "GregTech Expert 2-$(git describe --tags --abbrev=0)"
           game_versions: "1.12.2"
           release_type: beta

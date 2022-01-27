@@ -1,19 +1,62 @@
+# v0.9.0
+## Add or del mods
+* DEL - **Gregification(Manually delete it from the mods)**
+* DEL - InGame Info XML
+* DEL - Enchantment Descriptions
+* DEL - MixinBooter
+* ADD - FPS Reducer
+* ADD - GregTech Food Option
+* ADD - MultiblockTweaker(_Additional devices are not supported_)
+
+## Add recipes
+### EnderIO
+* Broken Spawners
+* Soul Item Filter
+* Big Soul Item Filter
+* Dark Steel Upgrade(Liquid XP Recipe)
+
+### GregTech
+* Stone Rod
+
+## Del recipes
+### EnderIO
+* Cake Base(Change to GregTech Food Option recipes)
+
+### Minecraft
+* Bread(Change to GregTech Food Option recipes)
+* Cake(Change to GregTech Food Option recipes)
+
+## Change recipes
+### AE2
+* Certus Quartz Cutting Knife
+* Nether Quartz Cutting Knife
+
+### EnderIO
+* Powered Spawner
+* Grains of Prescience
+
+## Cleaning the items displayed in the JEI
+### AE2
+* Facades
+
+### Extra Cells
+* Pattern
+
+### EnderIO
+* Most of the items and blocks and devices that cannot be created.
+
+* * *
+
 # v0.8.1
-
 ## Fix Recipe
-
 ### AE
-
 * Storage Bus
 * Creative Energy Cell
 * Creative Storage Cell
 
 ### /dank/null
-
 * Mk1 null
-
 ### EIO
-
 * Creative Capacitor Bank
 * Redstone Filter Base
 * Dark Shield
@@ -22,69 +65,52 @@
 * All Ingot Recipe ( #36 )
 
 ### ExtendedCrafting
-
 * Fixed a bug that prevented me from starting.
 
 ### EZStorage
-
 * Ultra Storage Box
 * Hyper Storage Box
 
 ### Minecraft
-
 * Comparator
 
 ### VolumetricFlask
-
 * Buffer
 * Filler
 
 ## Add Recipe
-
 ### AE
-
 * Extended Processing Pattrern Terminal
 * OreDict Storage Bus
 
 ## Del Recipe
-
 ### EIO
-
 * Conduit Binder Composite
 
 ## Mod Change
-
 * Changed the AE ([PrototypeTrousers fork](https://github.com/PrototypeTrousers/Applied-Energistics-2)) that I am installing because it was uploaded to [Curseforge](https://www.curseforge.com/minecraft/mc-mods/ae2-extended-life).
 
 ## Fix Config
-
 ### AE
-
 * Changed the default to accept GTCEu energy in the latest version.
 
 ### ExtendedCrafting
-
 * Hyper Storage Capacity 400000 -> 32000
 
 * * *
 
 # v0.8.0
-
 ## Fix
-
 * Adjusting ore generation( #22 )
 
 ## Add mods
-
 * /dank/null
 * FTB Backup
 
 * * *
 
 # v0.7.2
-
 ## Chisel fix
-
 * Del - Charcoal
 * Del - Coal
 * Del - Coal Coke
@@ -92,7 +118,6 @@
 * Fix - Glass Pane
 
 ## Fix Other
-
 * OpenComputer - startup error.
 * EIO - Head drop.
 * EIO - Totemic Capacitor
@@ -103,23 +128,18 @@
 * * *
 
 # v0.7.1
-
 ## New Mod
-
 * dynamistics
 
 ## Update
-
 * GTCEu - 2.0.5 -> 2.0.6
 * just-enough-energistics-jee -> not-enough-energistics
 
 ## Fix Recipe
-
 * AE - 2k Spatial Component
 * EIO - Soul Powder
 
 ## Add Recipe
-
 * EIO
   * Nutrient Distillation
   * Dew of Void
@@ -137,7 +157,6 @@
   * Experienec Obelisk
 
 ## Del Recipe
-
 * EIO - Enchanter
 * AE - Delete manual creation.
   * 1k Storage Component
@@ -147,19 +166,15 @@
 * * *
 
 # v0.7.0
-
 ## Fix
-
 * EIO - Recipe re-creation. ( #25 )
 * AE - Readjust power requirements and remove unnecessary powders.
 
 ## Add
-
 * Mod Name Tooltip
 * TOP Addons
 
 ## Update
-
 * GTCEu v2.0.5-beta
   * Magnets made by GT were added in this update, so EIO magnets were removed.
   * The EIO charger has also been removed since it can now be replaced by GT.

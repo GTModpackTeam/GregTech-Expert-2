@@ -699,6 +699,22 @@ assembler.recipeBuilder().
     EUt(122880).
     buildAndRegister();
 
+# Certus Quartz Cutting Knife
+recipes.remove(<appliedenergistics2:certus_quartz_cutting_knife>);
+recipes.addShaped(<appliedenergistics2:certus_quartz_cutting_knife>, [
+    [<ore:gtce.tool.files>, <ore:plateCertusQuartz>, <ore:gtce.tool.hard.hammers>],
+    [<ore:crystalCertusQuartz>, <ore:stickWood>, <ore:crystalCertusQuartz>],
+    [null, <ore:stickWood>, null]
+]);
+
+# Nether Quartz Cutting Knife
+recipes.remove(<appliedenergistics2:nether_quartz_cutting_knife>);
+recipes.addShaped(<appliedenergistics2:nether_quartz_cutting_knife>, [
+    [<ore:gtce.tool.files>, <ore:plateNetherQuartz>, <ore:gtce.tool.hard.hammers>],
+    [<ore:gemNetherQuartz>, <ore:stickWood>, <ore:gemNetherQuartz>],
+    [null, <ore:stickWood>, null]
+]);
+
 # Entropy Manipulator
 recipes.remove(<appliedenergistics2:entropy_manipulator>);
 recipes.addShaped(<appliedenergistics2:entropy_manipulator>, [

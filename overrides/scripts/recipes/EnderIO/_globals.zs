@@ -10,10 +10,6 @@ JEI.hideCategory("Painter");
 JEI.hideCategory("SolarPanel");
 JEI.hideCategory("EIOWC");
 
-# JEI Hide
-JEI.removeAndHide(<enderio:item_power_conduit:*>);
-JEI.removeAndHide(<enderio:item_endergy_conduit:*>);
-
 
 
 ########################################
@@ -137,14 +133,15 @@ for i, block in blocks {
         buildAndRegister();
 }
 
-// ## Ball
-// for i, ingot in ingots {
-//     recipes.addShaped(balls[i] * 8, [
-//         [null, ingot, null],
-//         [ingot, ingot, ingot],
-//         [null, ingot, null]
-//     ]);
-// }
+## Ball
+for i, ingot in ingots {
+    JEI.removeAndHide(balls[i]);
+    // recipes.addShaped(balls[i] * 8, [
+    //     [null, ingot, null],
+    //     [ingot, ingot, ingot],
+    //     [null, ingot, null]
+    // ]);
+}
 
 
 ## Block

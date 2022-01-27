@@ -60,6 +60,21 @@ recipes.addShaped(<enderio:block_dark_steel_door>, [
 ]);
 
 # Self-resetting Levers
+JEI.removeAndHide(<enderio:block_self_resetting_lever5>);
+JEI.removeAndHide(<enderio:block_self_resetting_lever10>);
+JEI.removeAndHide(<enderio:block_self_resetting_lever30>);
+JEI.removeAndHide(<enderio:block_self_resetting_lever60>);
+JEI.removeAndHide(<enderio:block_self_resetting_lever300>);
+JEI.removeAndHide(<enderio:block_self_resetting_lever5i>);
+JEI.removeAndHide(<enderio:block_self_resetting_lever10i>);
+JEI.removeAndHide(<enderio:block_self_resetting_lever30i>);
+JEI.removeAndHide(<enderio:block_self_resetting_lever60i>);
+JEI.removeAndHide(<enderio:block_self_resetting_lever300i>);
+
+# Decoration Blocks
+JEI.removeAndHide(<enderio:block_decoration1:*>);
+JEI.removeAndHide(<enderio:block_decoration2:*>);
+JEI.removeAndHide(<enderio:block_decoration3:*>);
 
 # Reinforced Obsidian
 recipes.addShaped(<enderio:block_reinforced_obsidian>, [
@@ -87,6 +102,7 @@ recipes.addShaped(<enderio:block_end_iron_bars>, [
 ]);
 
 # Pressure Plates
+JEI.removeAndHide(<enderio:block_painted_pressure_plate:*>);
 
 # Fused Quartz
 alloy_smelter.recipeBuilder().
@@ -147,11 +163,3 @@ alloy_smelter.recipeBuilder().
     duration(56).
     EUt(480).
     buildAndRegister();
-
-
-
-
-
-
-
-

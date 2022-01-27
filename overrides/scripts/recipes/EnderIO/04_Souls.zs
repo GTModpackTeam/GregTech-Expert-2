@@ -11,6 +11,7 @@ import mods.enderio.Tank; // no
 
 
 
-// for mob in entitieMobs {
-//     SoulBinder.addRecipe(<enderio:item_broken_spawner>.withTag({entityId: mob}), <enderio:item_broken_spawner>, [mob], 2500000, 8);
-// }
+# Broken Spawners
+for i, entitieMob in entitieMobs {
+    SoulBinder.addRecipe(brokenSpawners[i], <ore:brokenSpawners>, [entitieMob], 2500000, 8);
+}

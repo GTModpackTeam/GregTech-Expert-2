@@ -1,4 +1,5 @@
 # Imoprts
+import crafttweaker.item.IItemStack;
 import mods.gregtech.recipe.RecipeMap;
 import mods.gregtech.material.MaterialRegistry;
 
@@ -232,6 +233,68 @@ global wiremill                  as RecipeMap = RecipeMap.getByName("wiremill");
     <minecraft:double_plant:3>,
     <minecraft:tallgrass:*>
 ]);
+
+
+
+########################################
+# EnderIO
+########################################
+# Broken Spawners
+global brokenSpawners as IItemStack[] = [
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:chicken"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:elder_guardian"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:wither_skeleton"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:stray"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:husk"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:zombie_villager"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:skeleton_horse"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:zombie_horse"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:donkey"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:mule"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:evocation_illager"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:vex"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:vindication_illager"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:illusion_illager"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:creeper"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:skeleton"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:spider"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:giant"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:zombie"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:slime"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:ghast"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:zombie_pigman"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:enderman"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:cave_spider"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:silverfish"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:blaze"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:magma_cube"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:wither"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:polar_bear"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:wither"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:bat"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:witch"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:endermite"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:guardian"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:shulker"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:pig"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:sheep"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:cow"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:squid"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:wolf"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:mooshroom"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:snowman"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:ocelot"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:villager_golem"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:horse"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:rabbit"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:polar_bear"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:llama"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:parrot"}),
+    <enderio:item_broken_spawner>.withTag({entityId: "minecraft:villager"})
+];
+for i, mob in brokenSpawners {
+    <ore:brokenSpawners>.addItems([brokenSpawners[i]]);
+}
 
 # Entitie Mobs
 global entitieMobs as string[] = [

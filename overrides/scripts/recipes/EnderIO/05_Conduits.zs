@@ -10,6 +10,7 @@ import mods.enderio.Vat; // 5
 import mods.enderio.Tank; // no
 
 
+
 # Item Conduit
 recipes.addShaped(<enderio:item_item_conduit> * 4, [
     [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>],
@@ -37,6 +38,9 @@ recipes.addShaped(<enderio:item_liquid_conduit:2>, [
     [<ore:ingotVibrantAlloy>, <enderio:item_liquid_conduit:1>, <ore:ingotVibrantAlloy>],
     [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]
 ]);
+
+# Power Conduit
+JEI.removeAndHide(<enderio:item_power_conduit:*>);
 
 # Redstone Conduit
 recipes.addShaped(<enderio:item_redstone_conduit>, [
@@ -70,3 +74,6 @@ recipes.addShaped(<enderio:item_opencomputers_conduit>, [
     [<opencomputers:material:28>, <opencomputers:material:28>, <opencomputers:material:28>],
     [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]
 ]);
+
+# Endergy Conduit
+JEI.removeAndHide(<enderio:item_endergy_conduit:*>);
