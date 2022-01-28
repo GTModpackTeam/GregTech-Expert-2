@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "GregTech Expert 2",
-  "version": "v0.9.0",
+  "version": "v0.9.1",
   "author": "tier940",
   "files": [
     {
@@ -20,8 +20,18 @@
       "required": true
     },
     {
+      "projectID": 282963,
+      "fileID": 2532663,
+      "required": true
+    },
+    {
       "projectID": 240633,
       "fileID": 2546769,
+      "required": true
+    },
+    {
+      "projectID": 398267,
+      "fileID": 3613140,
       "required": true
     },
     {
@@ -50,11 +60,6 @@
       "required": true
     },
     {
-      "projectID": 367103,
-      "fileID": 3517526,
-      "required": true
-    },
-    {
       "projectID": 69118,
       "fileID": 2664449,
       "required": true
@@ -66,7 +71,7 @@
     },
     {
       "projectID": 564858,
-      "fileID": 3612876,
+      "fileID": 3626513,
       "required": true
     },
     {
@@ -235,6 +240,11 @@
       "required": true
     },
     {
+      "projectID": 235279,
+      "fileID": 2915375,
+      "required": true
+    },
+    {
       "projectID": 231382,
       "fileID": 3408276,
       "required": true
@@ -246,17 +256,17 @@
     },
     {
       "projectID": 477021,
-      "fileID": 3612860,
+      "fileID": 3626775,
+      "required": true
+    },
+    {
+      "projectID": 557242,
+      "fileID": 3626500,
       "required": true
     },
     {
       "projectID": 267602,
       "fileID": 2915363,
-      "required": true
-    },
-    {
-      "projectID": 557242,
-      "fileID": 3614219,
       "required": true
     },
     {
@@ -470,6 +480,11 @@
       "required": true
     },
     {
+      "projectID": 434344,
+      "fileID": 3626352,
+      "required": true
+    },
+    {
       "projectID": 237167,
       "fileID": 2985811,
       "required": true
@@ -482,11 +497,6 @@
     {
       "projectID": 230497,
       "fileID": 2450900,
-      "required": true
-    },
-    {
-      "projectID": 268387,
-      "fileID": 2777071,
       "required": true
     },
     {

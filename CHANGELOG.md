@@ -1,3 +1,19 @@
+# v0.9.1
+## Update mods
+* Extended Crafting -> Extended Crafting(Nomifactory Edition)
+* GregtechCEu
+* Gregicality Multiblocks
+* GregTech Food Option
+
+## New mods
+* Bed Patch
+* Bansōkō [絆創膏]
+
+## Del mod
+* ModDirector
+
+* * *
+
 # v0.9.0
 ## Add or del mods
 * DEL - **Gregification(Manually delete it from the mods)**
