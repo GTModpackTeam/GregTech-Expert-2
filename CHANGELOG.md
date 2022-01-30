@@ -1,3 +1,28 @@
+# v0.9.2
+## New mods
+* Better P2P
+* PackMode
+
+## Fix recipe
+### EIO
+* Stellar Alloy Boots
+
+### AE2
+* Storage Housing
+* Charged Certus Quartz Crystal
+* Certus Quartz Wrench
+* Nether Quartz Wrench
+* ME Chest
+* ME Drive
+* All Components.
+
+### ExtraCells.zs
+* Advanced Storage Housing
+* Fluid Housing
+* All Components.
+
+* * *
+
 # v0.9.1
 ## Update mods
 * Extended Crafting -> Extended Crafting(Nomifactory Edition)
