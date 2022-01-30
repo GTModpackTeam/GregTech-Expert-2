@@ -1,3 +1,18 @@
+# v0.9.3
+
+## Add mods
+* MixinBooter
+* CensoredASM
+
+## Fix recipe
+### AE2
+* Printed Calulation Circuit
+* Printed Engineering Circuit
+* Printed Logic Circuit
+* Printed Silicon
+
+* * *
+
 # v0.9.2
 ## New mods
 * Better P2P
