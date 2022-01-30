@@ -1,3 +1,4 @@
+#packmode normal
 # Imoprts
 import mods.jei.JEI;
 import mods.enderio.AlloySmelter; // 1
@@ -460,7 +461,7 @@ recipes.addShaped(<enderio:item_stellar_alloy_leggings>, [
     [<ore:ingotStellarAlloy>, <ore:skullSentientEnder>, <ore:ingotStellarAlloy>],
     [<ore:ingotStellarAlloy>, null, <ore:ingotStellarAlloy>]
 ]);
-recipes.addShaped(<enderio:item_stellar_alloy_leggings>, [
+recipes.addShaped(<enderio:item_stellar_alloy_boots>, [
     [null, null, null],
     [<ore:ingotStellarAlloy>, <ore:skullSentientEnder>, <ore:ingotStellarAlloy>],
     [<ore:ingotStellarAlloy>, null, <ore:ingotStellarAlloy>]

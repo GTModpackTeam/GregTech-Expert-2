@@ -1,3 +1,4 @@
+#packmode normal
 #loader contenttweaker
 # Imoprts
 import mods.jei.JEI;

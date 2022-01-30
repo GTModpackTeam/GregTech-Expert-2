@@ -1,3 +1,4 @@
+#packmode normal
 # Imoprts
 import mods.jei.JEI;
 import mods.enderio.AlloySmelter; // 1
