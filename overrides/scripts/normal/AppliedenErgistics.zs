@@ -72,7 +72,7 @@ laser_engraver.recipeBuilder().
     buildAndRegister();
 
 # Inscriber Engineering Press
-Inscriber.removeRecipe(<appliedenergistics2:material:14>); 
+Inscriber.removeRecipe(<appliedenergistics2:material:14>);
 laser_engraver.recipeBuilder().
     inputs([<ore:blockIron>]).
     notConsumable([<gregtech:meta_item_1:824>]).
@@ -82,7 +82,7 @@ laser_engraver.recipeBuilder().
     buildAndRegister();
 
 # Inscriber Logic Press
-Inscriber.removeRecipe(<appliedenergistics2:material:15>); 
+Inscriber.removeRecipe(<appliedenergistics2:material:15>);
 laser_engraver.recipeBuilder().
     inputs([<ore:blockWroughtIron>]).
     notConsumable([<gregtech:meta_item_1:825>]).
@@ -92,7 +92,7 @@ laser_engraver.recipeBuilder().
     buildAndRegister();
 
 # Inscriber Silicon Press
-Inscriber.removeRecipe(<appliedenergistics2:material:19>); 
+Inscriber.removeRecipe(<appliedenergistics2:material:19>);
 laser_engraver.recipeBuilder().
     inputs([<ore:blockIron>]).
     notConsumable([<gregtech:meta_item_1:828>]).
@@ -104,10 +104,8 @@ laser_engraver.recipeBuilder().
 # Printed Calulation Circuit
 Inscriber.removeRecipe(<appliedenergistics2:material:16>);
 forming_press.recipeBuilder().
-    inputs([
-        <ore:plateCertusQuartz>,
-        <appliedenergistics2:material:13>
-    ]).
+    inputs([<ore:plateCertusQuartz>]).
+    notConsumable(<appliedenergistics2:material:13>).
     outputs([<appliedenergistics2:material:16>]).
     duration(100).
     EUt(480).
@@ -116,10 +114,8 @@ forming_press.recipeBuilder().
 # Printed Engineering Circuit
 Inscriber.removeRecipe(<appliedenergistics2:material:17>);
 forming_press.recipeBuilder().
-    inputs([
-        <ore:plateDiamond>,
-        <appliedenergistics2:material:14>
-    ]).
+    inputs([<ore:plateDiamond>]).
+    notConsumable(<appliedenergistics2:material:14>).
     outputs([<appliedenergistics2:material:17>]).
     duration(100).
     EUt(480).
@@ -128,10 +124,8 @@ forming_press.recipeBuilder().
 # Printed Logic Circuit
 Inscriber.removeRecipe(<appliedenergistics2:material:18>);
 forming_press.recipeBuilder().
-    inputs([
-        <ore:plateGold>,
-        <appliedenergistics2:material:15>
-    ]).
+    inputs([<ore:plateGold>]).
+    notConsumable(<appliedenergistics2:material:15>).
     outputs([<appliedenergistics2:material:18>]).
     duration(100).
     EUt(480).
@@ -140,10 +134,8 @@ forming_press.recipeBuilder().
 # Printed Silicon
 Inscriber.removeRecipe(<appliedenergistics2:material:20>);
 forming_press.recipeBuilder().
-    inputs([
-        <ore:plateSilicon>,
-        <appliedenergistics2:material:19>
-    ]).
+    inputs([<ore:plateSilicon>]).
+    notConsumable(<appliedenergistics2:material:19>).
     outputs([<appliedenergistics2:material:20>]).
     duration(100).
     EUt(480).
