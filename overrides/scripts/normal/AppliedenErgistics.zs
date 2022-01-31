@@ -725,7 +725,7 @@ assembler.recipeBuilder().
     fluidInputs(<liquid:tungsten_steel> * 144).
     outputs([<appliedenergistics2:material:32>]).
     duration(200).
-    EUt(30720).
+    EUt(7680).
     buildAndRegister();
 
 # 16k Spatial Component

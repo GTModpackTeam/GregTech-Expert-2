@@ -81,7 +81,7 @@ assembler.recipeBuilder().
     circuit(0).
     outputs([<danknull:dank_null_4>]).
     duration(200).
-    EUt(1024).
+    EUt(1920).
     buildAndRegister();
 
 # null mk6

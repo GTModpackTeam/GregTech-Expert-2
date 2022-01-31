@@ -1,3 +1,10 @@
+# v0.9.4
+## Update mod
+* AE2
+* Gregtech
+
+* * *
+
 # v0.9.3
 
 ## Add mods
