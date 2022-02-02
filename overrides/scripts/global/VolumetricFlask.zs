@@ -58,4 +58,6 @@ recipes.addShaped(<volumetricflask:buffer>, [
 
 # Filler
 recipes.remove(<volumetricflask:filler>);
-recipes.addShapeless(<volumetricflask:filler>, [<appliedenergistics2:interface>,<ore:flask>]);
+recipes.addShapeless(<volumetricflask:filler>, [
+    <appliedenergistics2:interface>, <ore:flask>
+]);

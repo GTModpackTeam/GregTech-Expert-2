@@ -1,4 +1,7 @@
 #packmode normal
+
+
+
 ########################################
 # Items
 ########################################
@@ -25,26 +28,17 @@ recipes.removeShapeless(<minecraft:fermented_spider_eye>, [
 ########################################
 # Blocks
 ########################################
+# Path
+recipes.addShapeless(<minecraft:grass_path>, [
+    <minecraft:dirt>, <ore:gtce.tool.shovels>
+]);
+
 # Comparator
 recipes.removeShaped(<minecraft:comparator>, [
     [null, <minecraft:redstone_torch>, null],
     [<minecraft:redstone_torch>, <ore:gemNetherQuartz>, <minecraft:redstone_torch>],
     [<ore:stoneSmooth>, <ore:stoneSmooth>, <ore:stoneSmooth>]
 ]);
-
-# Quartz Block
-compressor.findRecipe(2, [<minecraft:quartz> * 9], [null]).remove();
-recipes.removeShaped(<minecraft:quartz_block>, [
-    [<appliedenergistics2:material:11>, <appliedenergistics2:material:11>, <appliedenergistics2:material:11>],
-    [<appliedenergistics2:material:11>, null, <appliedenergistics2:material:11>],
-    [<appliedenergistics2:material:11>, <appliedenergistics2:material:11>, <appliedenergistics2:material:11>]
-]);
-compressor.recipeBuilder().
-    inputs([<minecraft:quartz> * 4]).
-    outputs([<minecraft:quartz_block>]).
-    duration(300).
-    EUt(2).
-    buildAndRegister();
 
 # Sand
 mixer.recipeBuilder().
@@ -66,7 +60,7 @@ recipes.addShaped(<minecraft:chest> * 2, [
     [<ore:logWood>, <ore:logWood>, <ore:logWood>]
 ]);
 
-# End rod
+# End Rod
 recipes.remove(<minecraft:end_rod>);
 
 # Daylight Detector

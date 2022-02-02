@@ -509,11 +509,12 @@ for i in 1 to 1 {
         buildAndRegister();
 }
 
-## Luck of Sea Lv1 <---> Lv3
+## Luck of The Sea Lv1 <---> Lv3
 for i in 1 to 4 {
     assembler.recipeBuilder().
         inputs([
             <minecraft:writable_book>,
+            <ore:nuggetGold> * (i * 2),
             <ore:gemLapis> * (i * 4)
         ]).
         fluidInputs([<liquid:xpjuice> * (i * (baseXP * 13))]).

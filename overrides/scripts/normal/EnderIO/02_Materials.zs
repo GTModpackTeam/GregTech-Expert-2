@@ -594,7 +594,7 @@ JEI.removeAndHide(<enderio:item_material:75>);
 
 # Black Paper
 recipes.addShapeless(<enderio:item_material:77>, [
-    <ore:paper>,<ore:dyeBlack>
+    <ore:paper>, <ore:dyeBlack>
 ]);
 
 # Animal Token
