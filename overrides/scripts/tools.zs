@@ -36,6 +36,7 @@ var minecraft as IItemStack[] = [
 ];
 for tool in minecraft {
     tool.maxDamage = 1;
+    format.green("It can only be used for crafting materials.");
 }
 
 

@@ -32,7 +32,7 @@ recipes.addShaped(<enderio:item_conduit_facade:2>, [
     [<ore:itemConduitBinder>, <enderio:block_fused_glass:*>, <ore:itemConduitBinder>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]
 ]);
 recipes.addShapeless(<enderio:item_conduit_facade:2>, [
-    <enderio:item_conduit_facade>,<enderio:block_fused_glass:*>
+    <enderio:item_conduit_facade>, <enderio:block_fused_glass:*>
 ]);
 
 # Transparent Hardened Conduit
@@ -42,7 +42,7 @@ recipes.addShaped(<enderio:item_conduit_facade:3>, [
     [null, <ore:dustObsidian>, null]
 ]);
 recipes.addShapeless(<enderio:item_conduit_facade:3>, [
-    <enderio:item_conduit_facade:1>,<enderio:block_fused_glass:*>
+    <enderio:item_conduit_facade:1>, <enderio:block_fused_glass:*>
 ]);
 
 # Conduit Probe
@@ -229,7 +229,7 @@ recipes.addShapeless(<enderio:item_redstone_nor_filter>, [
 
 # Redstone NAND Filter
 recipes.addShapeless(<enderio:item_redstone_nand_filter>, [
-    <ore:craftingRedstoneTorch>,<enderio:item_redstone_and_filter>
+    <ore:craftingRedstoneTorch>, <enderio:item_redstone_and_filter>
 ]);
 
 # Redstone NOR Filter
@@ -239,12 +239,12 @@ recipes.addShaped(<enderio:item_redstone_xor_filter>, [
     [null, <ore:craftingRedstoneTorch>, null]
 ]);
 recipes.addShapeless(<enderio:item_redstone_xor_filter>, [
-    <ore:craftingRedstoneTorch>,<enderio:item_redstone_xnor_filter>
+    <ore:craftingRedstoneTorch>, <enderio:item_redstone_xnor_filter>
 ]);
 
 # Redstone XNOR Filter
 recipes.addShapeless(<enderio:item_redstone_xnor_filter>, [
-    <ore:craftingRedstoneTorch>,<enderio:item_redstone_xor_filter>
+    <ore:craftingRedstoneTorch>, <enderio:item_redstone_xor_filter>
 ]);
 
 # Redstone Toggle Latch Filter
@@ -549,7 +549,7 @@ assembler.recipeBuilder().
 
 # Dark Steel Upgrade "Carpeting"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:carpet"}), [
-    <enderio:item_dark_steel_upgrade>,<minecraft:carpet:*>
+    <enderio:item_dark_steel_upgrade>, <minecraft:carpet:*>
 ]);
 
 # Dark Steel Upgrade(XP) "Carpeting"
@@ -563,7 +563,7 @@ assembler.recipeBuilder().
 
 # Dark Steel Upgrade "Depth"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:depth"}), [
-    <enderio:item_dark_steel_upgrade>,<minecraft:skull:4>
+    <enderio:item_dark_steel_upgrade>, <minecraft:skull:4>
 ]);
 
 # Dark Steel Upgrade(XP) "Depth"
@@ -593,7 +593,7 @@ assembler.recipeBuilder().
 
 # Dark Steel Upgrade "Elytra"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:elytra"}), [
-    <enderio:item_dark_steel_upgrade>,<minecraft:elytra>
+    <enderio:item_dark_steel_upgrade>, <minecraft:elytra>
 ]);
 
 # Dark Steel Upgrade(XP) "Elytra"
@@ -607,7 +607,7 @@ assembler.recipeBuilder().
 
 # Dark Steel Upgrade "Empowered lv1"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:energyupgrade"}), [
-    <enderio:item_dark_steel_upgrade>,<ore:itemVibrantCrystal>
+    <enderio:item_dark_steel_upgrade>, <ore:itemVibrantCrystal>
 ]);
 
 # Dark Steel Upgrade(XP) "Empowered lv1"
@@ -621,7 +621,7 @@ assembler.recipeBuilder().
 
 # Dark Steel Upgrade "Empowered lv2"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:energyupgrade1"}), [
-    <enderio:item_dark_steel_upgrade>,<enderio:item_basic_capacitor>
+    <enderio:item_dark_steel_upgrade>, <enderio:item_basic_capacitor>
 ]);
 
 # Dark Steel Upgrade(XP) "Empowered lv2"
@@ -635,7 +635,7 @@ assembler.recipeBuilder().
 
 # Dark Steel Upgrade "Empowered lv3"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:energyupgrade2"}), [
-    <enderio:item_dark_steel_upgrade>,<enderio:item_basic_capacitor:1>
+    <enderio:item_dark_steel_upgrade>, <enderio:item_basic_capacitor:1>
 ]);
 
 # Dark Steel Upgrade(XP) "Empowered lv3"
@@ -649,7 +649,7 @@ assembler.recipeBuilder().
 
 # Dark Steel Upgrade "Empowered lv4"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:energyupgrade3"}), [
-    <enderio:item_dark_steel_upgrade>,<enderio:item_basic_capacitor:2>
+    <enderio:item_dark_steel_upgrade>, <enderio:item_basic_capacitor:2>
 ]);
 
 # Dark Steel Upgrade(XP) "Empowered lv4"
@@ -663,7 +663,7 @@ assembler.recipeBuilder().
 
 # Dark Steel Upgrade "Empowered lv5"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:energyupgrade4"}), [
-    <enderio:item_dark_steel_upgrade>,<ore:skullEnderResonator>
+    <enderio:item_dark_steel_upgrade>, <ore:skullEnderResonator>
 ]);
 
 # Dark Steel Upgrade(XP) "Empowered lv5"
@@ -677,7 +677,7 @@ assembler.recipeBuilder().
 
 # Dark Steel Upgrade "Glider"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:glide"}), [
-    <enderio:item_dark_steel_upgrade>,<enderio:item_material:7>
+    <enderio:item_dark_steel_upgrade>, <enderio:item_material:7>
 ]);
 
 # Dark Steel Upgrade(XP) "Glider"
@@ -691,7 +691,7 @@ assembler.recipeBuilder().
 
 # Dark Steel Upgrade "Fork"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:hoe"}), [
-    <enderio:item_dark_steel_upgrade>,<minecraft:golden_hoe>
+    <enderio:item_dark_steel_upgrade>, <minecraft:golden_hoe>
 ]);
 
 # Dark Steel Upgrade(XP) "Fork"
@@ -705,7 +705,7 @@ assembler.recipeBuilder().
 
 # Dark Steel Upgrade "Inventory lv1"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:inv"}), [
-    <enderio:item_dark_steel_upgrade>,<ore:chest>,<ore:gearWood>
+    <enderio:item_dark_steel_upgrade>, <ore:chest>, <ore:gearWood>
 ]);
 
 # Dark Steel Upgrade(XP) "Inventory lv1"
@@ -719,7 +719,7 @@ assembler.recipeBuilder().
 
 # Dark Steel Upgrade "Inventory lv2"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:inv1"}), [
-    <enderio:item_dark_steel_upgrade>,<ore:chest>,<ore:gearEnergized>
+    <enderio:item_dark_steel_upgrade>, <ore:chest>, <ore:gearEnergized>
 ]);
 
 # Dark Steel Upgrade(XP) "Inventory lv2"
@@ -733,7 +733,7 @@ assembler.recipeBuilder().
 
 # Dark Steel Upgrade "Inventory lv3"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:inv2"}), [
-    <enderio:item_dark_steel_upgrade>,<ore:chest>,<ore:gearVibrant>
+    <enderio:item_dark_steel_upgrade>, <ore:chest>, <ore:gearVibrant>
 ]);
 
 # Dark Steel Upgrade(XP) "Inventory lv3"
@@ -747,7 +747,7 @@ assembler.recipeBuilder().
 
 # Dark Steel Upgrade "Jump lv1"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:jumpboost1"}), [
-    <enderio:item_dark_steel_upgrade>,<ore:craftingPiston>,<ore:gearWood>
+    <enderio:item_dark_steel_upgrade>, <ore:craftingPiston>, <ore:gearWood>
 ]);
 
 # Dark Steel Upgrade(XP) "Jump lv1"
@@ -761,7 +761,7 @@ assembler.recipeBuilder().
 
 # Dark Steel Upgrade "Jump lv2"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:jumpboost2"}), [
-    <enderio:item_dark_steel_upgrade>,<ore:craftingPiston>,<ore:gearEnergized>
+    <enderio:item_dark_steel_upgrade>, <ore:craftingPiston>, <ore:gearEnergized>
 ]);
 
 # Dark Steel Upgrade(XP) "Jump lv2"
@@ -775,7 +775,7 @@ assembler.recipeBuilder().
 
 # Dark Steel Upgrade "Jump lv3"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:jumpboost3"}), [
-    <enderio:item_dark_steel_upgrade>,<ore:craftingPiston>,<ore:gearVibrant>
+    <enderio:item_dark_steel_upgrade>, <ore:craftingPiston>, <ore:gearVibrant>
 ]);
 
 # Dark Steel Upgrade(XP) "Jump lv3"
@@ -789,7 +789,7 @@ assembler.recipeBuilder().
 
 # Dark Steel Upgrade "Night Vision"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:nightvision"}), [
-    <enderio:item_dark_steel_upgrade>,<minecraft:potion>.withTag({Potion: "minecraft:night_vision"})
+    <enderio:item_dark_steel_upgrade>, <minecraft:potion>.withTag({Potion: "minecraft:night_vision"})
 ]);
 
 # Dark Steel Upgrade(XP) "Night Vision"
@@ -803,7 +803,7 @@ assembler.recipeBuilder().
 
 # Dark Steel Upgrade "Padding"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:padding"}), [
-    <enderio:item_dark_steel_upgrade>,<minecraft:wool:*>
+    <enderio:item_dark_steel_upgrade>, <minecraft:wool:*>
 ]);
 
 # Dark Steel Upgrade(XP) "Padding"
@@ -827,7 +827,7 @@ JEI.removeAndHide(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "e
 
 # Dark Steel Upgrade "Sound Locator"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:sounddetector"}), [
-    <enderio:item_dark_steel_upgrade>,<minecraft:noteblock>
+    <enderio:item_dark_steel_upgrade>, <minecraft:noteblock>
 ]);
 
 # Dark Steel Upgrade(XP) "Sound Locator"
@@ -841,7 +841,7 @@ assembler.recipeBuilder().
 
 # Dark Steel Upgrade "Speed lv1"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:speedboost1"}), [
-    <enderio:item_dark_steel_upgrade>,<minecraft:potion>.withTag({Potion: "minecraft:long_swiftness"}),<ore:gearWood>
+    <enderio:item_dark_steel_upgrade>, <minecraft:potion>.withTag({Potion: "minecraft:long_swiftness"}),<ore:gearWood>
 ]);
 
 # Dark Steel Upgrade(XP) "Speed lv1"
@@ -855,7 +855,7 @@ assembler.recipeBuilder().
 
 # Dark Steel Upgrade "Speed lv2"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:speedboost2"}), [
-    <enderio:item_dark_steel_upgrade>,<minecraft:potion>.withTag({Potion: "minecraft:long_swiftness"}),<ore:gearEnergized>
+    <enderio:item_dark_steel_upgrade>, <minecraft:potion>.withTag({Potion: "minecraft:long_swiftness"}),<ore:gearEnergized>
 ]);
 
 # Dark Steel Upgrade(XP) "Speed lv2"
@@ -869,7 +869,7 @@ assembler.recipeBuilder().
 
 # Dark Steel Upgrade "Speed lv3"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:speedboost3"}), [
-    <enderio:item_dark_steel_upgrade>,<minecraft:potion>.withTag({Potion: "minecraft:long_swiftness"}),<ore:gearVibrant>
+    <enderio:item_dark_steel_upgrade>, <minecraft:potion>.withTag({Potion: "minecraft:long_swiftness"}),<ore:gearVibrant>
 ]);
 
 # Dark Steel Upgrade(XP) "Speed lv3"
@@ -883,7 +883,7 @@ assembler.recipeBuilder().
 
 # Dark Steel Upgrade "Spoon"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:spoon"}), [
-    <enderio:item_dark_steel_upgrade>,<minecraft:golden_shovel>
+    <enderio:item_dark_steel_upgrade>, <minecraft:golden_shovel>
 ]);
 
 # Dark Steel Upgrade(XP) "Spoon"
@@ -913,7 +913,7 @@ assembler.recipeBuilder().
 
 # Dark Steel Upgrade "Flippers"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:swim"}), [
-    <enderio:item_dark_steel_upgrade>,<minecraft:waterlily>
+    <enderio:item_dark_steel_upgrade>, <minecraft:waterlily>
 ]);
 
 # Dark Steel Upgrade(XP) "Flippers"
@@ -927,7 +927,7 @@ assembler.recipeBuilder().
 
 # Dark Steel Upgrade "Explosive lv1"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:tnt"}), [
-    <enderio:item_dark_steel_upgrade>,<minecraft:tnt>,<ore:gearWood>
+    <enderio:item_dark_steel_upgrade>, <minecraft:tnt>, <ore:gearWood>
 ]);
 
 # Dark Steel Upgrade(XP) "Explosive lv1"
@@ -941,7 +941,7 @@ assembler.recipeBuilder().
 
 # Dark Steel Upgrade "Explosive lv2"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:tnt1"}), [
-    <enderio:item_dark_steel_upgrade>,<minecraft:tnt>,<ore:gearStone>
+    <enderio:item_dark_steel_upgrade>, <minecraft:tnt>, <ore:gearStone>
 ]);
 
 # Dark Steel Upgrade(XP) "Explosive lv2"
@@ -955,7 +955,7 @@ assembler.recipeBuilder().
 
 # Dark Steel Upgrade "Explosive lv3"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:tnt2"}), [
-    <enderio:item_dark_steel_upgrade>,<minecraft:tnt>,<ore:gearIronInfinity>
+    <enderio:item_dark_steel_upgrade>, <minecraft:tnt>, <ore:gearIronInfinity>
 ]);
 
 # Dark Steel Upgrade(XP) "Explosive lv3"
@@ -969,7 +969,7 @@ assembler.recipeBuilder().
 
 # Dark Steel Upgrade "Explosive lv4"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:tnt3"}), [
-    <enderio:item_dark_steel_upgrade>,<minecraft:tnt>,<ore:gearEnergized>
+    <enderio:item_dark_steel_upgrade>, <minecraft:tnt>, <ore:gearEnergized>
 ]);
 
 # Dark Steel Upgrade(XP) "Explosive lv4"
@@ -983,7 +983,7 @@ assembler.recipeBuilder().
 
 # Dark Steel Upgrade "Explosive lv5"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:tnt4"}), [
-    <enderio:item_dark_steel_upgrade>,<minecraft:tnt>,<ore:gearVibrant>
+    <enderio:item_dark_steel_upgrade>, <minecraft:tnt>, <ore:gearVibrant>
 ]);
 
 # Dark Steel Upgrade(XP) "Explosive lv5"
@@ -997,7 +997,7 @@ assembler.recipeBuilder().
 
 # Dark Steel Upgrade "The One Probe"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:top"}), [
-    <enderio:item_dark_steel_upgrade>,<theoneprobe:probe>
+    <enderio:item_dark_steel_upgrade>, <theoneprobe:probe>
 ]);
 
 # Dark Steel Upgrade(XP) "The One Probe"
@@ -1011,7 +1011,7 @@ assembler.recipeBuilder().
 
 # Dark Steel Upgrade "Travel"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:travel"}), [
-    <enderio:item_dark_steel_upgrade>,<ore:itemEnderCrystal>
+    <enderio:item_dark_steel_upgrade>, <ore:itemEnderCrystal>
 ]);
 
 # Dark Steel Upgrade(XP) "Travel"

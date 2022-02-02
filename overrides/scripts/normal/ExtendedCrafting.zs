@@ -95,7 +95,9 @@ JEI.removeAndHide(<extendedcrafting:crafting_table>);
 
 # Guide Book
 recipes.remove(<extendedcrafting:guide>);
-TableCrafting.addShapeless(0, <extendedcrafting:guide>, [<extendedcrafting:guide>, <ore:ingotUraniumRhodiumDinaquadide>]);
+TableCrafting.addShapeless(0, <extendedcrafting:guide>, [
+    <extendedcrafting:guide>, <ore:ingotUraniumRhodiumDinaquadide>
+]);
 
 # Ender Material
 JEI.removeAndHide(<extendedcrafting:material:37>);

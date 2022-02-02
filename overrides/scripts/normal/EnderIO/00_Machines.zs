@@ -31,11 +31,7 @@ JEI.removeAndHide(<enderio:block_power_monitor>);
 JEI.removeAndHide(<enderio:block_advanced_power_monitor>);
 
 # Simple Powered Furnace
-recipes.addShaped(<enderio:block_simple_furnace>, [
-    [<ore:ingotIron>, <minecraft:furnace>, <ore:ingotIron>],
-    [<ore:stoneBricks>, <ore:itemSimpleMachineChassi>, <ore:stoneBricks>],
-    [<ore:gearWood>, <minecraft:bucket>, <ore:gearWood>]
-]);
+JEI.removeAndHide(<enderio:block_simple_furnace>);
 
 # Simple Alloy Smelter
 JEI.removeAndHide(<enderio:block_simple_alloy_smelter>);
@@ -46,13 +42,11 @@ JEI.removeAndHide(<enderio:block_alloy_smelter>);
 # Enhaned Alloy Smelter
 JEI.removeAndHide(<enderio:block_enhanced_alloy_smelter>);
 
+# Buffers
+JEI.removeAndHide(<enderio:block_buffer:*>);
+
 # Enchanter
 JEI.removeAndHide(<enderio:block_enchanter>);
-// recipes.addShaped(<enderio:block_enchanter>, [
-//     [<ore:gemDiamond>, <minecraft:book>, <ore:gemDiamond>],
-//     [<ore:ingotDarkSteel>, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>],
-//     [null, <ore:ingotDarkSteel>, null]
-// ]);
 
 # Farming Station
 recipes.addShaped(<enderio:block_farm_station>, [
@@ -68,23 +62,10 @@ JEI.removeAndHide(<enderio:block_combustion_generator>);
 JEI.removeAndHide(<enderio:block_enhanced_combustion_generator>);
 
 # Simple Stirling Generator
-recipes.addShaped(<enderio:block_simple_stirling_generator>, [
-    [<ore:stoneBricks>, <ore:craftingFurnace>, <ore:stoneBricks>],
-    [<ore:stoneBricks>, <ore:itemSimpleMachineChassi>, <ore:stoneBricks>],
-    [<ore:gearStone>, <ore:craftingPiston>, <ore:gearStone>]
-]);
+JEI.removeAndHide(<enderio:block_simple_stirling_generator>);
 
 # Stirling Generator
-recipes.addShaped(<enderio:block_stirling_generator>, [
-    [<ore:stoneBricks>, <minecraft:furnace>, <ore:stoneBricks>],
-    [<ore:ingotDarkSteel>, <enderio:item_material:1>, <ore:ingotDarkSteel>],
-    [<enderio:item_material:73>, <minecraft:piston>, <enderio:item_material:73>]
-]);
-recipes.addShaped(<enderio:block_stirling_generator>, [
-    [null, null, null],
-    [<ore:ingotDarkSteel>, <enderio:block_simple_stirling_generator>, <ore:ingotDarkSteel>],
-    [<enderio:item_material:73>, <ore:itemMachineChassi>, <enderio:item_material:73>]
-]);
+JEI.removeAndHide(<enderio:block_stirling_generator>);
 
 # Zombie Generator
 recipes.addShaped(<enderio:block_zombie_generator>, [
@@ -124,12 +105,12 @@ recipes.addShaped(<enderio:block_electric_light>, [
     [<ore:plateSilicon>, <enderio:item_basic_capacitor>, <ore:plateSilicon>]
 ]);
 recipes.addShapeless(<enderio:block_electric_light>, [
-    <enderio:block_electric_light:1>,<ore:craftingRedstoneTorch>
+    <enderio:block_electric_light:1>, <ore:craftingRedstoneTorch>
 ]);
 
 # Electric Light (Inverted)
 recipes.addShapeless(<enderio:block_electric_light:1>, [
-    <enderio:block_electric_light>,<ore:craftingRedstoneTorch>
+    <enderio:block_electric_light>, <ore:craftingRedstoneTorch>
 ]);
 
 # Light
@@ -144,20 +125,20 @@ recipes.addShapeless(<enderio:block_electric_light:2>, [
 
 # Light (Inverted)
 recipes.addShapeless(<enderio:block_electric_light:3>, [
-    <enderio:block_electric_light:2>,<ore:craftingRedstoneTorch>
+    <enderio:block_electric_light:2>, <ore:craftingRedstoneTorch>
 ]);
 
 # Wireless Light
 recipes.addShapeless(<enderio:block_electric_light:4>, [
-    <enderio:block_electric_light>,<enderio:item_material:43>
+    <enderio:block_electric_light>, <enderio:item_material:43>
 ]);
 recipes.addShapeless(<enderio:block_electric_light:4>, [
-    <enderio:block_electric_light:5>,<ore:craftingRedstoneTorch>
+    <enderio:block_electric_light:5>, <ore:craftingRedstoneTorch>
 ]);
 
 # Wireless Light (Inverted)
 recipes.addShapeless(<enderio:block_electric_light:5>, [
-    <enderio:block_electric_light:4>,<ore:craftingRedstoneTorch>
+    <enderio:block_electric_light:4>, <ore:craftingRedstoneTorch>
 ]);
 
 # Attractor Obelisk
@@ -216,23 +197,9 @@ JEI.removeAndHide(<enderio:block_simple_sag_mill>);
 
 # SAG Mill
 JEI.removeAndHide(<enderio:block_sag_mill>);
-// recipes.addShaped(<enderio:block_sag_mill>, [
-//     [<ore:ingotElectricalSteel>, <gregtech:meta_item_1:266>, <ore:ingotElectricalSteel>],
-//     [<minecraft:flint>, <enderio:item_material:1>, <minecraft:flint>],
-//     [<gregtech:meta_item_1:129>, <enderio:item_basic_capacitor:2>, <gregtech:meta_item_1:129>]
-// ]);
 
 # Enhaned SAG Mill
 JEI.removeAndHide(<enderio:block_enhanced_sag_mill>);
-// recipes.addShaped(<enderio:block_enhanced_sag_mill>, [
-//     [<ore:gemFlint>, <ore:gemFlint>, <ore:gemFlint>],
-//     [<ore:ingotEndSteel>, <ore:itemMachineChassi>, <ore:ingotEndSteel>],
-//     [<ore:gearVibrant>, <ore:craftingPiston>, <ore:gearVibrant>]
-// ]);
-// recipes.addShaped(<enderio:block_enhanced_sag_mill>, [
-//     [null, null, null],
-//     [<ore:ingotEndSteel>, <enderio:block_sag_mill>, <ore:ingotEndSteel>], [<ore:gearVibrant>, <ore:itemMachineChassi>, <ore:gearVibrant>]
-// ]);
 
 # Slice'N'Splice
 recipes.addShaped(<enderio:block_slice_and_splice>, [
@@ -265,37 +232,12 @@ JEI.removeAndHide(<enderio:block_enhanced_vat>);
 
 # Simple Wired Charger
 JEI.removeAndHide(<enderio:block_simple_wired_charger>);
-// recipes.addShaped(<enderio:block_simple_wired_charger>, [
-//     [<ore:cobblestone>, <ore:ingotIron>, <ore:cobblestone>],
-//     [<ore:ingotIron>, <enderio:item_material>, <ore:ingotIron>],
-//     [<ore:cobblestone>, <ore:ingotIron>, <ore:cobblestone>]
-// ]);
 
 # Wired Charger
 JEI.removeAndHide(<enderio:block_wired_charger>);
-// recipes.addShaped(<enderio:block_wired_charger>, [
-//     [<ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>],
-//     [<ore:ingotElectricalSteel>, <ore:itemMachineChassi>, <ore:ingotElectricalSteel>],
-//     [<ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>]
-// ]);
-// recipes.addShaped(<enderio:block_wired_charger>, [
-//     [<ore:ingotElectricalSteel>, null, <ore:ingotElectricalSteel>],
-//     [null, <ore:itemMachineChassi>, null],
-//     [<ore:ingotElectricalSteel>, <enderio:block_simple_wired_charger>, <ore:ingotElectricalSteel>]
-// ]);
 
 # Enhanced Wired Charger
 JEI.removeAndHide(<enderio:block_enhanced_wired_charger>);
-// recipes.addShaped(<enderio:block_enhanced_wired_charger>, [
-//     [<ore:ingotElectricalSteel>, <ore:ingotEndSteel>, <ore:ingotElectricalSteel>],
-//     [<ore:ingotElectricalSteel>, <ore:itemMachineChassi>, <ore:ingotElectricalSteel>],
-//     [<ore:gearVibrant>, <ore:ingotElectricalSteel>, <ore:gearVibrant>]
-// ]);
-// recipes.addShaped(<enderio:block_enhanced_wired_charger>, [
-//     [null, <ore:ingotEndSteel>, null],
-//     [null, <ore:itemMachineChassi>, null],
-//     [<ore:gearVibrant>, <enderio:block_wired_charger>, <ore:gearVibrant>]
-// ]);
 
 # Wireless Charger
 recipes.addShaped(<enderio:block_wireless_charger>, [

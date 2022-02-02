@@ -192,6 +192,17 @@ recipes.addShaped(<appliedenergistics2:material:43> * 2, [
     [<appliedenergistics2:material:24>, <ore:crystalPureNetherQuartz>, <appliedenergistics2:material:24>],
     [<ore:stickAluminium>, <appliedenergistics2:material:24>, <ore:stickAluminium>]
 ]);
+assembler.recipeBuilder().
+    inputs([
+        <ore:stickAluminium> * 2,
+        <appliedenergistics2:material:24> * 2,
+        <ore:gemNetherQuartz> | <ore:crystalPureNetherQuartz>
+    ]).
+    fluidInputs([<liquid:plastic> * 144]).
+    outputs([<appliedenergistics2:material:43>]).
+    duration(56).
+    EUt(7680).
+    buildAndRegister();
 
 # Annihilation Core
 recipes.remove(<appliedenergistics2:material:44>);
@@ -205,6 +216,17 @@ recipes.addShaped(<appliedenergistics2:material:44> * 2, [
     [<appliedenergistics2:material:24>, <ore:crystalPureCertusQuartz>, <appliedenergistics2:material:24>],
     [<ore:stickAluminium>, <appliedenergistics2:material:24>, <ore:stickAluminium>]
 ]);
+assembler.recipeBuilder().
+    inputs([
+        <ore:stickAluminium> * 2,
+        <appliedenergistics2:material:24> * 2,
+        <ore:gemCertusQuartz> | <ore:crystalPureCertusQuartz>
+    ]).
+    fluidInputs([<liquid:plastic> * 144]).
+    outputs([<appliedenergistics2:material:44>]).
+    duration(56).
+    EUt(7680).
+    buildAndRegister();
 
 # View Cell
 recipes.remove(<appliedenergistics2:view_cell>);
@@ -950,7 +972,7 @@ recipes.addShaped(<appliedenergistics2:material:58>, [
 recipes.remove(<appliedenergistics2:material:30>);
 recipes.addShaped(<appliedenergistics2:material:30>, [
     [<appliedenergistics2:material:28>, <appliedenergistics2:material:24>, null],
-    [<appliedenergistics2:material:22>, <ore:crystalFluix>, null],
+    [<appliedenergistics2:material:22>, <ore:crystalFluix> | <ore:crystalPureFluix>, null],
     [null, null, null]
 ]);
 
@@ -1057,14 +1079,14 @@ recipes.remove(<appliedenergistics2:crystal_seed:600>);
 assembler.recipeBuilder().
     inputs([<ore:dustNetherQuartz>, <ore:sand>]).
     outputs([<appliedenergistics2:crystal_seed:600> * 2]).
-    duration(200).
+    duration(100).
     EUt(480).
     buildAndRegister();
 autoclave.recipeBuilder().
     inputs([<appliedenergistics2:crystal_seed:600>]).
     fluidInputs([<liquid:distilled_water> * 144]).
     outputs([<appliedenergistics2:material:11>]).
-    duration(200).
+    duration(100).
     EUt(480).
     buildAndRegister();
 
@@ -1073,14 +1095,14 @@ recipes.remove(<appliedenergistics2:crystal_seed:1200>);
 assembler.recipeBuilder().
     inputs([<contenttweaker:dustfluix>, <ore:sand>]).
     outputs([<appliedenergistics2:crystal_seed:1200> * 2]).
-    duration(200).
+    duration(100).
     EUt(480).
     buildAndRegister();
 autoclave.recipeBuilder().
     inputs([<appliedenergistics2:crystal_seed:1200>]).
     fluidInputs([<liquid:distilled_water> * 144]).
     outputs([<appliedenergistics2:material:12>]).
-    duration(200).
+    duration(100).
     EUt(480).
     buildAndRegister();
 
@@ -1208,7 +1230,7 @@ recipes.addShaped(<appliedenergistics2:quartz_vibrant_glass>, [
 # Quartz Fixture
 recipes.remove(<appliedenergistics2:quartz_fixture>);
 recipes.addShapeless(<appliedenergistics2:quartz_fixture>, [
-    <ore:gemCertusQuartz>,<ore:stickAluminium>
+    <ore:gemCertusQuartz>, <ore:stickAluminium>
 ]);
 
 # Charger
@@ -1291,7 +1313,7 @@ recipes.removeShaped(<appliedenergistics2:interface>, [
 ]);
 recipes.addShaped(<appliedenergistics2:interface>, [
     [<ore:plateAluminium>, <ore:plateGlass>, <ore:plateAluminium>],
-    [<appliedenergistics2:material:44>, <gregtech:machine_casing:2>, <appliedenergistics2:material:43>],
+    [<appliedenergistics2:material:44>, <gregtech:machine_casing:3>, <appliedenergistics2:material:43>],
     [<ore:plateAluminium>, <ore:plateGlass>, <ore:plateAluminium>]
 ]);
 
@@ -1335,7 +1357,7 @@ recipes.addShaped(<appliedenergistics2:energy_acceptor>, [
 recipes.remove(<appliedenergistics2:vibration_chamber>);
 recipes.addShaped(<appliedenergistics2:vibration_chamber>, [
     [<ore:plateAluminium>, <ore:plateAluminium>, <ore:plateAluminium>],
-    [<ore:plateAluminium>, <gregtech:machine:51>, <ore:plateAluminium>],
+    [<ore:plateAluminium>, <gregtech:machine:52>, <ore:plateAluminium>],
     [<ore:plateAluminium>, <appliedenergistics2:energy_acceptor>, <ore:plateAluminium>]
 ]);
 
@@ -1366,7 +1388,10 @@ recipes.addShaped(<appliedenergistics2:crafting_unit>, [
 # Crafting Co-Processing Unit
 recipes.remove(<appliedenergistics2:crafting_accelerator>);
 recipes.addShapeless(<appliedenergistics2:crafting_accelerator>, [
-    <appliedenergistics2:crafting_unit>,<appliedenergistics2:material:23>,<appliedenergistics2:material:22>,<appliedenergistics2:material:24>
+    <appliedenergistics2:crafting_unit>,
+    <appliedenergistics2:material:23>,
+    <appliedenergistics2:material:22>,
+    <appliedenergistics2:material:24>
 ]);
 
 # Molecular Assembler
@@ -1380,7 +1405,7 @@ recipes.addShaped(<appliedenergistics2:molecular_assembler>, [
 # Light Detecting Fixture
 recipes.remove(<appliedenergistics2:light_detector>);
 recipes.addShapeless(<appliedenergistics2:light_detector>, [
-    <appliedenergistics2:material:1>,<gregtech:meta_stick:51>
+    <appliedenergistics2:material:1>, <gregtech:meta_stick:51>
 ]);
 
 # Illuminated Panel

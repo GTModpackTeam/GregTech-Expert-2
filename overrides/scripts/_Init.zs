@@ -100,6 +100,10 @@ global wiremill                  as RecipeMap = RecipeMap.getByName("wiremill");
     <gregtech:meta_tool:12>.withEmptyTag()
 ]);
 
+<ore:gtce.tool.shovels>.addItems([
+    <gregtech:meta_tool:2>.withEmptyTag()
+]);
+
 
 
 ########################################

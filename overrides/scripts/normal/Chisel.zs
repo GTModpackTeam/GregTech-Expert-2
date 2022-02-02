@@ -1,4 +1,9 @@
 #packmode normal
+# Imoprts
+import crafttweaker.item.IItemStack;
+
+
+
 ########################################
 # Items
 ########################################
@@ -101,7 +106,26 @@ assembler.recipeBuilder().
     buildAndRegister();
 
 # Glass Pane
-<ore:paneGlass>.remove(<chisel:glasspane:*>);
-<ore:paneGlassColorless>.remove(<chisel:glasspane:*>);
-<ore:paneGlass>.remove(<chisel:glasspane1:*>);
-<ore:paneGlassColorless>.remove(<chisel:glasspane1:*>);
+var glassPanes as IItemStack[] = [
+    <chisel:glasspane>,
+    <chisel:glasspane:1>,
+    <chisel:glasspane:2>,
+    <chisel:glasspane:3>,
+    <chisel:glasspane:4>,
+    <chisel:glasspane:5>,
+    <chisel:glasspane:6>,
+    <chisel:glasspane:7>,
+    <chisel:glasspane:8>,
+    <chisel:glasspane:9>,
+    <chisel:glasspane:10>,
+    <chisel:glasspane:11>,
+    <chisel:glasspane:12>,
+    <chisel:glasspane:13>,
+    <chisel:glasspane:14>,
+    <chisel:glasspane:15>,
+    <chisel:glasspane1>,
+    <chisel:glasspane1:1>
+];
+for pane in glassPanes {
+    recipes.remove(pane);
+}
