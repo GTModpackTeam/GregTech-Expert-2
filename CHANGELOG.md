@@ -1,3 +1,51 @@
+## v0.9.5
+## Update mods
+* AE2 Unofficial Extended Life
+* Gregicality Multiblocks
+
+## Add mod
+* DevTech
+
+## Add recipes
+### AE2
+* Added Assembler recipes for Formation Core and Annihilation Core.
+
+### /dank/null
+* mk6 can now be created!
+
+## Fix recipes
+### AE2
+* View Cell
+* Pure Crystal(Unification of crystallization time).
+* Change the part that was MV to HV.
+
+### Chise
+* Glass Pane Simplified Recipe.
+
+### /dank/null
+* Can be initialized with a single craft.
+
+### EIO
+* Luck of The Sea book
+
+### EnderStorage
+* It's not just chise wool anymore!
+
+### Gregtech
+* Solar panels cannot be used, and this is noted in the Tooltip.
+* We started to start the creative process. I've added infinite energy, but I'm still figuring out the rest. If you have any ideas, I may adopt them?
+
+### Vanilla
+* Tooltip states that the tool is dedicated to crafting.
+
+## Del recipes
+### EIO
+* Simple Powered Furnace
+* Simple Stirling Generator
+* Stirling Generator
+
+* * *
+
 # v0.9.4
 ## Update mod
 * AE2
