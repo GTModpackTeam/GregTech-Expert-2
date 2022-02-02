@@ -2,6 +2,7 @@
 ## Update mods
 * AE2 Unofficial Extended Life
 * Gregicality Multiblocks
+* GregTech Food Option
 
 ## Add mod
 * DevTech
