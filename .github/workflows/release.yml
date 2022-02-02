@@ -18,7 +18,7 @@ jobs:
       - name: Archive Release
         uses: thedoctor0/zip-release@master
         with:
-          filename: "GregTech Expert 2-${{ steps.get_version.outputs.VERSION }}.zip"
+          filename: "./GregTech Expert 2-${{ steps.get_version.outputs.VERSION }}.zip"
           exclusions: '*.git* .editorconfig LICENSE *.md */.github/* */serverfiles/*'
 
       - name: Run test action
@@ -29,7 +29,7 @@ jobs:
           token: ${{ secrets.CF_API_TOKEN }}
           project_id: 262222
           game_endpoint: minecraft
-          file_path: "GregTech Expert 2-${{ steps.get_version.outputs.VERSION }}.zip"
+          file_path: "./GregTech Expert 2-${{ steps.get_version.outputs.VERSION }}.zip"
           changelog: 'Check the changes here. [Github - CHANGELOG.md](https://github.com/GTModpackTeam/gregtech-expert-2/blob/main/CHANGELOG.md "")'
           display_name: "GregTech Expert 2-${{ steps.get_version.outputs.VERSION }}"
           game_versions: "1.12.2"
