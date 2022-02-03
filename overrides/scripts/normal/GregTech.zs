@@ -19,6 +19,9 @@ lathe.recipeBuilder().
     EUt(7).
     buildAndRegister();
 
+# Wrought Iron Nugget
+recipes.addShapeless(<gregtech:meta_nugget:335> * 9, [<gregtech:meta_ingot:335>]);
+
 # Wrought Iron Ingot
 recipes.addShaped(<gregtech:meta_ingot:335>, [
     [<gregtech:meta_nugget:335>, <gregtech:meta_nugget:335>, <gregtech:meta_nugget:335>],
@@ -26,39 +29,11 @@ recipes.addShaped(<gregtech:meta_ingot:335>, [
     [<gregtech:meta_nugget:335>, <gregtech:meta_nugget:335>, <gregtech:meta_nugget:335>]
 ]);
 
-# Solar Panels
-var solarPanels as IItemStack[] = [
-    <gregtech:meta_item_1:331>,
-    <gregtech:meta_item_1:332>,
-    <gregtech:meta_item_1:333>,
-    <gregtech:meta_item_1:334>,
-    <gregtech:meta_item_1:335>,
-    <gregtech:meta_item_1:336>,
-    <gregtech:meta_item_1:337>,
-    <gregtech:meta_item_1:338>,
-    <gregtech:meta_item_1:339>,
-    <gregtech:meta_item_1:340>
-];
-for solarPanel in solarPanels {
-    solarPanel.addTooltip(format.red(
-        format.italic("You can't make electricity by creating it XD")
-    ));
-}
+# Tiny Charcoal Dust
+furnace.setFuel(<gregtech:meta_dust_tiny:266>, 200);
 
-# Solar Panel (8V)
-recipes.addShaped(<gregtech:meta_item_1:332>, [
-    [<gregtech:meta_item_1:331>, <gregtech:meta_item_1:331>, <gregtech:meta_item_1:331>],
-    [<gregtech:meta_item_1:331>, <ore:circuitAdvanced>, <gregtech:meta_item_1:331>],
-    [<gregtech:meta_item_1:331>, <gregtech:meta_item_1:331>, <gregtech:meta_item_1:331>]
-]);
-
-# Solar Panel (LV)
-recipes.addShaped(<gregtech:meta_item_1:333>, [
-    [null, <gregtech:meta_item_1:332>, null],
-    [<gregtech:meta_item_1:332>, <gregtech:machine:1270>, <gregtech:meta_item_1:332>],
-    [null, <gregtech:meta_item_1:332>, null]
-]);
-
+# Tiny Coal Dust
+furnace.setFuel(<gregtech:meta_dust_tiny:271>, 200);
 
 # Solar Panel (MV)
 recipes.addShaped(<gregtech:meta_item_1:334>, [

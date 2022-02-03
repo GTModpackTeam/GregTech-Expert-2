@@ -127,6 +127,7 @@ for i in 1 to 5 {
             <ore:ingotDarkSteel> * (i * 16),
             <ore:gemLapis> * (i * 3)
         ]).
+        circuit(i).
         fluidInputs([<liquid:xpjuice> * (i * (baseXP * 5))]).
         outputs([<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: i as short, id: 0}]})]).
         duration(200).
@@ -142,6 +143,7 @@ for i in 1 to 5 {
             <ore:dustBlaze> * (i * 16),
             <ore:gemLapis> * (i * 3)
         ]).
+        circuit(i).
         fluidInputs([<liquid:xpjuice> * (i * (baseXP * 10))]).
         outputs([<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: i as short, id: 1}]})]).
         duration(200).
@@ -157,6 +159,7 @@ for i in 1 to 5 {
             <minecraft:feather> * (i * 1),
             <ore:gemLapis> * (i * 3)
         ]).
+        circuit(i).
         fluidInputs([<liquid:xpjuice> * (i * (baseXP * 6))]).
         outputs([<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: i as short, id: 2}]})]).
         duration(200).
@@ -172,6 +175,7 @@ for i in 1 to 5 {
             <ore:dustGunpowder> * (i * 16),
             <ore:gemLapis> * (i * 3)
         ]).
+        circuit(i).
         fluidInputs([<liquid:xpjuice> * (i * (baseXP * 6))]).
         outputs([<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: i as short, id: 3}]})]).
         duration(200).
@@ -187,6 +191,7 @@ for i in 1 to 5 {
             <minecraft:arrow> * (i * 16),
             <ore:gemLapis> * (i * 3)
         ]).
+        circuit(i).
         fluidInputs([<liquid:xpjuice> * (i * (baseXP * 4))]).
         outputs([<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: i as short, id: 4}]})]).
         duration(200).
@@ -202,6 +207,7 @@ for i in 1 to 4 {
             <minecraft:glass_bottle> * (i * 16),
             <ore:gemLapis> * (i * 3)
         ]).
+        circuit(i).
         fluidInputs([<liquid:xpjuice> * (i * (baseXP * 10))]).
         outputs([<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: i as short, id: 5}]})]).
         duration(200).
@@ -217,6 +223,7 @@ for i in 1 to 1 {
             <minecraft:waterlily> * (i * 1),
             <ore:gemLapis> * (i * 15)
         ]).
+        circuit(i).
         fluidInputs([<liquid:xpjuice> * (i * (baseXP * 3))]).
         outputs([<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: i as short, id: 6}]})]).
         duration(200).
@@ -232,6 +239,7 @@ for i in 1 to 4 {
             <minecraft:double_plant:4> * (i * 1),
             <ore:gemLapis> * (i * 3)
         ]).
+        circuit(i).
         fluidInputs([<liquid:xpjuice> * (i * (baseXP * 12))]).
         outputs([<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: i as short, id: 7}]})]).
         duration(200).
@@ -247,6 +255,7 @@ for i in 1 to 4 {
             <minecraft:prismarine> * (i * 1),
             <ore:gemLapis> * (i * 3)
         ]).
+        circuit(i).
         fluidInputs([<liquid:xpjuice> * (i * (baseXP * 10))]).
         outputs([<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: i as short, id: 8}]})]).
         duration(200).
@@ -262,6 +271,7 @@ for i in 1 to 3 {
             <minecraft:ice> * (i * 16),
             <ore:gemLapis> * (i * 3)
         ]).
+        circuit(i).
         fluidInputs([<liquid:xpjuice> * (i * (baseXP * 10))]).
         outputs([<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: i as short, id: 9}]})]).
         duration(200).
@@ -277,6 +287,7 @@ for i in 1 to 6 {
             <minecraft:quartz> * (i * 12),
             <ore:gemLapis> * (i * 3)
         ]).
+        circuit(i).
         fluidInputs([<liquid:xpjuice> * (i * (baseXP * 5))]).
         outputs([<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: i as short, id: 16}]})]).
         duration(200).
@@ -292,6 +303,7 @@ for i in 1 to 6 {
             <minecraft:rotten_flesh> * (i * 12),
             <ore:gemLapis> * (i * 3)
         ]).
+        circuit(i).
         fluidInputs([<liquid:xpjuice> * (i * (baseXP * 6))]).
         outputs([<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: i as short, id: 17}]})]).
         duration(200).
@@ -307,6 +319,7 @@ for i in 1 to 6 {
             <minecraft:spider_eye> * (i * 12),
             <ore:gemLapis> * (i * 3)
         ]).
+        circuit(i).
         fluidInputs([<liquid:xpjuice> * (i * (baseXP * 6))]).
         outputs([<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: i as short, id: 18}]})]).
         duration(200).
@@ -322,6 +335,7 @@ for i in 1 to 3 {
             <ore:craftingPiston> * (i * 1),
             <ore:gemLapis> * (i * 3)
         ]).
+        circuit(i).
         fluidInputs([<liquid:xpjuice> * (i * (baseXP * 10))]).
         outputs([<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: i as short, id: 19}]})]).
         duration(200).
@@ -337,6 +351,7 @@ for i in 1 to 3 {
             <ore:stickBlaze> * (i * 8),
             <ore:gemLapis> * (i * 3)
         ]).
+        circuit(i).
         fluidInputs([<liquid:xpjuice> * (i * (baseXP * 12))]).
         outputs([<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: i as short, id: 20}]})]).
         duration(200).
@@ -352,6 +367,7 @@ for i in 1 to 4 {
             <ore:itemSkull> * (i * 1),
             <ore:gemLapis> * (i * 3)
         ]).
+        circuit(i).
         fluidInputs([<liquid:xpjuice> * (i * (baseXP * 13))]).
         outputs([<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: i as short, id: 21}]})]).
         duration(200).
@@ -367,6 +383,7 @@ for i in 1 to 4 {
             <ore:ingotIron> * (i * 8),
             <ore:gemLapis> * (i * 3)
         ]).
+        circuit(i).
         fluidInputs([<liquid:xpjuice> * (i * (baseXP * 6))]).
         outputs([<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: i as short, id: 22}]})]).
         duration(200).
@@ -382,6 +399,7 @@ for i in 1 to 6 {
             <ore:dustRedstone> * (i * 12),
             <ore:gemLapis> * (i * 3)
         ]).
+        circuit(i).
         fluidInputs([<liquid:xpjuice> * (i * (baseXP * 5))]).
         outputs([<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: i as short, id: 32}]})]).
         duration(200).
@@ -397,6 +415,7 @@ for i in 1 to 1 {
             <minecraft:slime_ball> * (i * 1),
             <ore:gemLapis> * (i * 15)
         ]).
+        circuit(i).
         fluidInputs([<liquid:xpjuice> * (i * (baseXP * 13))]).
         outputs([<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: i as short, id: 33}]})]).
         duration(200).
@@ -412,6 +431,7 @@ for i in 1 to 4 {
             <minecraft:obsidian> * (i * 1),
             <ore:gemLapis> * (i * 3)
         ]).
+        circuit(i).
         fluidInputs([<liquid:xpjuice> * (i * (baseXP * 6))]).
         outputs([<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: i as short, id: 34}]})]).
         duration(200).
@@ -427,6 +447,7 @@ for i in 1 to 4 {
             <ore:gemEmerald> * (i * 1),
             <ore:gemLapis> * (i * 3)
         ]).
+        circuit(i).
         fluidInputs([<liquid:xpjuice> * (i * (baseXP * 13))]).
         outputs([<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: i as short, id: 35}]})]).
         duration(200).
@@ -442,6 +463,7 @@ for i in 1 to 6 {
             <ore:gemFlint> * (i * 12),
             <ore:gemLapis> * (i * 3)
         ]).
+        circuit(i).
         fluidInputs([<liquid:xpjuice> * (i * (baseXP * 5))]).
         outputs([<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: i as short, id: 48}]})]).
         duration(200).
@@ -457,6 +479,7 @@ for i in 1 to 3 {
             <minecraft:string> * (i * 1),
             <ore:gemLapis> * (i * 3)
         ]).
+        circuit(i).
         fluidInputs([<liquid:xpjuice> * (i * (baseXP * 13))]).
         outputs([<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: i as short, id: 49}]})]).
         duration(200).
@@ -472,6 +495,7 @@ for i in 1 to 1 {
             <minecraft:netherrack> * (i * 1),
             <ore:gemLapis> * (i * 15)
         ]).
+        circuit(i).
         fluidInputs([<liquid:xpjuice> * (i * (baseXP * 17))]).
         outputs([<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: i as short, id: 50}]})]).
         duration(200).
@@ -487,6 +511,7 @@ for i in 1 to 1 {
             <minecraft:netherrack> * (i * 1),
             <ore:gemLapis> * (i * 15)
         ]).
+        circuit(i).
         fluidInputs([<liquid:xpjuice> * (i * (baseXP * 17))]).
         outputs([<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: i as short, id: 50}]})]).
         duration(200).
@@ -502,6 +527,7 @@ for i in 1 to 1 {
             <ore:dustBedrock> * (i * 4),
             <ore:gemLapis> * (i * 15)
         ]).
+        circuit(i).
         fluidInputs([<liquid:xpjuice> * (i * (baseXP * 17))]).
         outputs([<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: i as short, id: 51}]})]).
         duration(200).
@@ -517,6 +543,7 @@ for i in 1 to 4 {
             <ore:nuggetGold> * (i * 2),
             <ore:gemLapis> * (i * 4)
         ]).
+        circuit(i).
         fluidInputs([<liquid:xpjuice> * (i * (baseXP * 13))]).
         outputs([<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: i as short, id: 61}]})]).
         duration(200).
@@ -532,6 +559,7 @@ for i in 1 to 4 {
             <minecraft:fish> * (i * 1),
             <ore:gemLapis> * (i * 3)
         ]).
+        circuit(i).
         fluidInputs([<liquid:xpjuice> * (i * (baseXP * 13))]).
         outputs([<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: i as short, id: 62}]})]).
         duration(200).
@@ -547,6 +575,7 @@ for i in 1 to 1 {
             <enderio:item_xp_transfer> * (i * 1),
             <ore:gemLapis> * (i * 15)
         ]).
+        circuit(i).
         fluidInputs([<liquid:xpjuice> * (i * (baseXP * 21))]).
         outputs([<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: i as short, id: 70}]})]).
         duration(200).

@@ -1,5 +1,6 @@
 # Imoprts
 import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
 import mods.gregtech.recipe.RecipeMap;
 import mods.gregtech.material.MaterialRegistry;
 
@@ -119,6 +120,12 @@ global wiremill                  as RecipeMap = RecipeMap.getByName("wiremill");
 <ore:ae2.interface.fluid>.addItems([
     <appliedenergistics2:fluid_interface>,
     <appliedenergistics2:part:441>
+]);
+
+# Flask Interface
+<ore:ae2.interface.flask>.addItems([
+    <volumetricflask:o_interface>,
+    <volumetricflask:part_o_interface>
 ]);
 
 # Glass Cable

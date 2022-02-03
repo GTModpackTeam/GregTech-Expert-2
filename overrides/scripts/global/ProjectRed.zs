@@ -37,12 +37,11 @@ recipes.addShaped(<projectred-core:resource_item:311>, [
 ]);
 
 # Electrotine Silicon Compound
-recipes.remove(<projectred-core:resource_item:312>);
-recipes.addShaped(<projectred-core:resource_item:312>, [
-    [<ore:dustRegularElectrotine>, <ore:dustRegularElectrotine>, <ore:dustRegularElectrotine>],
-    [<ore:dustRegularElectrotine>, <gregtech:meta_item_1:371>, <ore:dustRegularElectrotine>],
-    [<ore:dustRegularElectrotine>, <ore:dustRegularElectrotine>, <ore:dustRegularElectrotine>]
-]);
+JEI.removeAndHide(<projectred-core:resource_item:312>);
+
+# Electro Silicon
+furnace.remove(<projectred-core:resource_item:342>);
+JEI.hide(<projectred-core:resource_item:342>);
 
 # Copper Ingot
 JEI.hide(<projectred-core:resource_item:100>);
