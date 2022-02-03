@@ -150,7 +150,7 @@ assembler.recipeBuilder().
     ]).
     fluidInputs([<liquid:redstone> * 144]).
     outputs([<appliedenergistics2:material:23>]).
-    duration(56).
+    duration(20).
     EUt(480).
     buildAndRegister();
 
@@ -163,7 +163,7 @@ assembler.recipeBuilder().
     ]).
     fluidInputs([<liquid:redstone> * 144]).
     outputs([<appliedenergistics2:material:24>]).
-    duration(56).
+    duration(20).
     EUt(480).
     buildAndRegister();
 
