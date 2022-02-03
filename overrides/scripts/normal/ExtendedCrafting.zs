@@ -290,14 +290,6 @@ TableCrafting.addShaped(0, <extendedcrafting:crafting_core>, [
     [<ore:ingotUraniumRhodiumDinaquadide>, <ore:plateUraniumRhodiumDinaquadide>, <ore:ingotUraniumRhodiumDinaquadide>]
 ]);
 
-# Quantum Compressor
-recipes.remove(<extendedcrafting:compressor>);
-TableCrafting.addShaped(0, <extendedcrafting:compressor>, [
-    [<ore:ingotUraniumRhodiumDinaquadide>, <extendedcrafting:material:16>, <ore:ingotUraniumRhodiumDinaquadide>], 
-    [<extendedcrafting:material:10>, <extendedcrafting:frame>, <extendedcrafting:material:10>], 
-    [<ore:ingotUraniumRhodiumDinaquadide>, <ore:plateUraniumRhodiumDinaquadide>, <ore:ingotUraniumRhodiumDinaquadide>]
-]);
-
 # Basic Crafting Table
 recipes.remove(<extendedcrafting:table_basic>);
 recipes.addShaped(<extendedcrafting:table_basic>, [

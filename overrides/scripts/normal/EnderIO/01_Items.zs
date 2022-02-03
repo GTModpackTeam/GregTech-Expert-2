@@ -803,7 +803,7 @@ assembler.recipeBuilder().
 
 # Dark Steel Upgrade "Padding"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:padding"}), [
-    <enderio:item_dark_steel_upgrade>, <minecraft:wool:*>
+    <enderio:item_dark_steel_upgrade>, <ore:wool>
 ]);
 
 # Dark Steel Upgrade(XP) "Padding"

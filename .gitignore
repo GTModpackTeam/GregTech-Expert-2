@@ -1,9 +1,7 @@
-/overrides/config/AppliedEnergistics2/CustomRecipes.cfg
-/overrides/config/AppliedEnergistics2/items.csv
-/overrides/config/AppliedEnergistics2/VersionChecker.cfg
 /overrides/config/JustEnoughCalculation/*
-/overrides/config/jei/*
 /overrides/config/fpsreducer/*
+/overrides/config/jei/*
+/overrides/config/jeresources/*
 /overrides/config/ftbbackups.cfg
 /overrides/config/splash.properties
 /overrides/mods/memory_repo

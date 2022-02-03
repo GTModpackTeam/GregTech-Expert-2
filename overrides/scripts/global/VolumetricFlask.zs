@@ -48,6 +48,15 @@ for i, flask in flasks {
 ########################################
 # Blocks
 ########################################
+# Interface
+recipes.remove(<volumetricflask:o_interface>);
+recipes.addShapeless(<volumetricflask:o_interface>, [<volumetricflask:part_o_interface>]);
+recipes.addShaped(<volumetricflask:o_interface>, [
+    [<ore:plateDoubleStainlessSteel>, <ore:plateGlass>, <ore:plateDoubleStainlessSteel>],
+    [<appliedenergistics2:material:44>, <gregtech:machine_casing:3>, <appliedenergistics2:material:43>],
+    [<ore:plateDoubleStainlessSteel>, <ore:plateGlass>, <ore:plateDoubleStainlessSteel>]
+]);
+
 # Buffer
 recipes.remove(<volumetricflask:buffer>);
 recipes.addShaped(<volumetricflask:buffer>, [
@@ -59,5 +68,5 @@ recipes.addShaped(<volumetricflask:buffer>, [
 # Filler
 recipes.remove(<volumetricflask:filler>);
 recipes.addShapeless(<volumetricflask:filler>, [
-    <appliedenergistics2:interface>, <ore:flask>
+    <ore:ae2.interface.fluid>, <ore:flask>
 ]);

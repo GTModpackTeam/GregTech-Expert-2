@@ -1,4 +1,91 @@
-## v0.9.5
+# v0.10.0
+## Update mod
+* Gregicality Multiblocks
+
+## Change config
+### Extended Crafting
+* Quantum Compression del
+* Singularities del
+
+## Add recipes
+### AppliedenErgistics
+* Quartz Fiber
+
+### GregTech
+* Wrought Iron Nugget
+
+### Storage Drawers
+* Storage Upgrade MK2
+* Storage Upgrade MK3
+* Storage Upgrade MK4
+* Storage Upgrade MK5
+
+## Change recipes
+### AppliedenErgistics
+* Covered Cable
+* Quantum Ring
+* Quantum Link
+* Spatial IO Port
+* ME Interfere
+* Vibration Chamber
+* Storage Bus
+* Fluid Bus
+
+### Volumetric Flask
+* Interface
+
+## Fix recipes
+### AppliedenErgistics
+* Calulation Processor
+* Engineering Processor
+* Logic Processor
+* Formation Core
+* Annihilation Core
+* Pattern Expansion Card
+* Wireless Receiver
+* Quartz Fiber
+* Glass Cable
+* Cell Workbench
+* Toggle Bus
+
+### EnderIO
+* Dark Steel Upgrade "Padding"
+* Enchanted recipe.
+
+### Ender Storage
+* Pouch
+* Chest
+* Tank
+
+### GregTech
+* Tiny Charcoal Dust
+* Tiny Coal Dust
+    * Adjusting the burning time.
+
+### Volumetric Flask
+* Filler
+
+## Del recipes
+### ProjectRed
+* Electrotine Silicon Compound
+* Electro Silicon
+
+## EndContents
+### AE2
+* Creative Energy Cell
+
+### ContentTweaker
+* Creative Storage Cell -> GTE ME Storage Fake Component
+
+### EIO
+* Creative Capacitor Bank
+
+### GregTech
+* Infinite GT Energy Unit Emitter
+
+* * *
+
+# v0.9.5
 ## Update mods
 * AE2 Unofficial Extended Life
 * Gregicality Multiblocks
