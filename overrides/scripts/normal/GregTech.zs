@@ -8,9 +8,6 @@ import crafttweaker.item.IItemStack;
 ########################################
 # Items
 ########################################
-# Certus Quartz
-recipes.addShapeless(<gregtech:meta_gem:214>, [<appliedenergistics2:material>]);
-
 # Stone Rod
 lathe.recipeBuilder().
     inputs([<minecraft:stone>]).
@@ -86,14 +83,3 @@ recipes.addShaped(<gregtech:meta_item_1:340>, [
     [<gregtech:meta_item_1:339>, <gregtech:machine:1277>, <gregtech:meta_item_1:339>],
     [null, <gregtech:meta_item_1:339>, null]
 ]);
-
-
-
-########################################
-# Liquids
-########################################
-# 
-
-
-
-

@@ -16,6 +16,34 @@ JEI.hideCategory("appliedenergistics2.inscriber");
 <ore:dustEnderPearl>.remove(<appliedenergistics2:material:46>);
 JEI.hide(<appliedenergistics2:material:46>);
 
+# Certus Quartz Dust
+macerator.recipeBuilder().
+    inputs([<appliedenergistics2:material>]).
+    outputs([<gregtech:meta_dust:214>]).
+    duration(56).
+    EUt(480).
+    buildAndRegister();
+macerator.recipeBuilder().
+    inputs([<appliedenergistics2:quartz_block> | <appliedenergistics2:quartz_pillar> | <appliedenergistics2:chiseled_quartz_block>]).
+    outputs([<gregtech:meta_dust:214> * 4]).
+    duration(56).
+    EUt(480).
+    buildAndRegister();
+
+# Fluix Dust
+macerator.recipeBuilder().
+    inputs([<ore:crystalPureFluix> | <ore:crystalFluix>]).
+    outputs([<contenttweaker:dustfluix>]).
+    duration(56).
+    EUt(480).
+    buildAndRegister();
+macerator.recipeBuilder().
+    inputs([<appliedenergistics2:fluix_block>]).
+    outputs([<contenttweaker:dustfluix> * 4]).
+    duration(56).
+    EUt(480).
+    buildAndRegister();
+
 # Wooden Gear
 JEI.removeAndHide(<appliedenergistics2:material:40>);
 <ore:gearWood>.remove(<appliedenergistics2:material:40>);
@@ -1010,52 +1038,7 @@ recipes.addShaped(<appliedenergistics2:part:321>, [
     [<ore:plateAluminium>, <appliedenergistics2:material:43>, <ore:plateAluminium>]
 ]);
 
-# Certus Quartz Dust
-macerator.recipeBuilder().
-    inputs([<appliedenergistics2:material>]).
-    outputs([<gregtech:meta_dust:214>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
-macerator.recipeBuilder().
-    inputs([<appliedenergistics2:quartz_block>]).
-    outputs([<gregtech:meta_dust:214> * 4]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
-
-# Fluix Dust
-mixer.recipeBuilder().
-    inputs([
-        <ore:dustCertusQuartz> | <ore:dustQuartzite>,
-        <ore:dustRedstone>,
-        <ore:dustNetherQuartz>
-    ]).
-    outputs([<contenttweaker:dustfluix>]).
-    duration(20).
-    EUt(480).
-    buildAndRegister();
-macerator.recipeBuilder().
-    inputs([<appliedenergistics2:fluix_block>]).
-    outputs([<contenttweaker:dustfluix> * 4]).
-    duration(20).
-    EUt(16).
-    buildAndRegister();
-
-# Certus Quartz Crystal
-JEI.removeAndHide(<appliedenergistics2:material> * 4);
-<appliedenergistics2:material>.addTooltip(format.red("Convert it to Greg Certus Quartz."));
-
-# Charged Certus Quartz Crystal
-electrolyzer.recipeBuilder().
-    inputs([<ore:crystalCertusQuartz>]).
-    outputs([<appliedenergistics2:material:1>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
-
 # Fluix Crystal
-recipes.removeShapeless(<appliedenergistics2:material:7> * 4, [<appliedenergistics2:fluix_block>]);
 mixer.recipeBuilder().
     inputs([
         <appliedenergistics2:material:1>,
@@ -1063,17 +1046,25 @@ mixer.recipeBuilder().
         <ore:gemNetherQuartz>
     ]).
     fluidInputs([<liquid:distilled_water> * 144]).
-    outputs([<appliedenergistics2:material:7>]).
-    duration(56).
+    outputs([<appliedenergistics2:material:7> * 2]).
+    duration(100).
+    EUt(480).
+    buildAndRegister();
+
+# Charged Certus Quartz Crystal
+electrolyzer.recipeBuilder().
+    inputs([<ore:crystalCertusQuartz>]).
+    outputs([<appliedenergistics2:material:1>]).
+    duration(100).
     EUt(480).
     buildAndRegister();
 
 # Pure Certus Quartz Crystal
 recipes.remove(<appliedenergistics2:crystal_seed>);
-mixer.recipeBuilder().
+assembler.recipeBuilder().
     inputs([<ore:dustCertusQuartz>, <ore:sand>]).
     outputs([<appliedenergistics2:crystal_seed> * 2]).
-    duration(20).
+    duration(100).
     EUt(480).
     buildAndRegister();
 autoclave.recipeBuilder().
@@ -1086,10 +1077,10 @@ autoclave.recipeBuilder().
 
 # Pure Nether Quartz Crystal
 recipes.remove(<appliedenergistics2:crystal_seed:600>);
-mixer.recipeBuilder().
+assembler.recipeBuilder().
     inputs([<ore:dustNetherQuartz>, <ore:sand>]).
     outputs([<appliedenergistics2:crystal_seed:600> * 2]).
-    duration(20).
+    duration(100).
     EUt(480).
     buildAndRegister();
 autoclave.recipeBuilder().
@@ -1102,10 +1093,10 @@ autoclave.recipeBuilder().
 
 # Pure Fluix Crystal
 recipes.remove(<appliedenergistics2:crystal_seed:1200>);
-mixer.recipeBuilder().
+assembler.recipeBuilder().
     inputs([<contenttweaker:dustfluix>, <ore:sand>]).
     outputs([<appliedenergistics2:crystal_seed:1200> * 2]).
-    duration(20).
+    duration(100).
     EUt(480).
     buildAndRegister();
 autoclave.recipeBuilder().
@@ -1131,10 +1122,14 @@ macerator.recipeBuilder().
 ########################################
 # Quartz Block
 recipes.remove(<appliedenergistics2:quartz_block>);
-recipes.remove(<appliedenergistics2:quartz_pillar>);
-recipes.remove(<appliedenergistics2:chiseled_quartz_block>);
 compressor.recipeBuilder().
     inputs([<ore:crystalCertusQuartz> * 4]).
+    outputs([<appliedenergistics2:quartz_block>]).
+    duration(56).
+    EUt(480).
+    buildAndRegister();
+compressor.recipeBuilder().
+    inputs([<ore:crystalPureCertusQuartz> * 8]).
     outputs([<appliedenergistics2:quartz_block>]).
     duration(56).
     EUt(480).
@@ -1144,6 +1139,12 @@ compressor.recipeBuilder().
 recipes.remove(<appliedenergistics2:fluix_block>);
 compressor.recipeBuilder().
     inputs([<ore:crystalFluix> * 4]).
+    outputs([<appliedenergistics2:fluix_block>]).
+    duration(56).
+    EUt(480).
+    buildAndRegister();
+compressor.recipeBuilder().
+    inputs([<ore:crystalPureFluix> * 8]).
     outputs([<appliedenergistics2:fluix_block>]).
     duration(56).
     EUt(480).
@@ -1161,19 +1162,19 @@ recipes.remove(<appliedenergistics2:part:140>);
 wiremill.recipeBuilder().
     inputs([<ore:gemNetherQuartz>]).
     outputs([<appliedenergistics2:part:140>]).
-    duration(20).
+    duration(100).
     EUt(480).
     buildAndRegister();
 wiremill.recipeBuilder().
     inputs([<ore:crystalPureCertusQuartz> | <ore:crystalPureNetherQuartz>]).
     outputs([<appliedenergistics2:part:140>]).
-    duration(20).
+    duration(100).
     EUt(480).
     buildAndRegister();
 wiremill.recipeBuilder().
     inputs([<ore:crystalCertusQuartz> | <ore:gemQuartzite>]).
     outputs([<appliedenergistics2:part:140> * 2]).
-    duration(20).
+    duration(100).
     EUt(480).
     buildAndRegister();
 
@@ -1184,17 +1185,6 @@ recipes.addShaped(<appliedenergistics2:part:16> * 6, [
     [<appliedenergistics2:part:140>, <appliedenergistics2:part:140>, <appliedenergistics2:part:140>],
     [<ore:stickAluminium>, <contenttweaker:dustfluix>, <ore:stickAluminium>]
 ]);
-assembler.recipeBuilder().
-    inputs([
-        <ore:stickAluminium> * 2,
-        <appliedenergistics2:part:140> * 3,
-        <contenttweaker:dustfluix>,
-    ]).
-    circuit(0).
-    outputs([<appliedenergistics2:part:16> * 6]).
-    duration(20).
-    EUt(480).
-    buildAndRegister();
 
 # Covered Cable
 recipes.removeShapeless(<appliedenergistics2:part:36>, [
@@ -1215,284 +1205,24 @@ recipes.addShaped(<appliedenergistics2:part:36>, [
     [<ore:ae2.cable.glass>, <ore:ae2.cable.glass>, <ore:ae2.cable.glass>],
     [<ore:plateStyreneButadieneRubber>, <ore:plateStyreneButadieneRubber>, <ore:plateStyreneButadieneRubber>]
 ]);
-assembler.recipeBuilder().
-    inputs([<appliedenergistics2:part:16> * 3]).
-    fluidInputs([<liquid:styrene_butadiene_rubber> * 108]).
-    circuit(0).
-    outputs([<appliedenergistics2:part:36>]).
-    duration(20).
-    EUt(480).
-    buildAndRegister();
-assembler.recipeBuilder().
-    inputs([<appliedenergistics2:part:16> * 3]).
-    fluidInputs([<liquid:silicone_rubber> * 216]).
-    circuit(0).
-    outputs([<appliedenergistics2:part:36>]).
-    duration(20).
-    EUt(480).
-    buildAndRegister();
-assembler.recipeBuilder().
-    inputs([<appliedenergistics2:part:16> * 3]).
-    fluidInputs([<liquid:rubber> * 432]).
-    circuit(0).
-    outputs([<appliedenergistics2:part:36>]).
-    duration(20).
-    EUt(480).
-    buildAndRegister();
-
-# Smart Cable
-recipes.removeShapeless(<appliedenergistics2:part:56>, [
-    <appliedenergistics2:part:36>, <ore:dustRedstone>, <ore:dustGlowstone>
-]);
-recipes.addShaped(<appliedenergistics2:part:56>, [
-    [null, <ore:dustGlowstone> | <ore:dustRedstone>, null],
-    [<ore:dustRedstone> | <ore:dustGlowstone>, <appliedenergistics2:part:36>, <ore:dustRedstone> | <ore:dustGlowstone>],
-    [null, <ore:dustGlowstone> | <ore:dustRedstone>, null]
-]);
-assembler.recipeBuilder().
-    inputs([
-        <ore:dustRedstone>,
-        <ore:dustGlowstone>,
-        <appliedenergistics2:part:16> * 3
-    ]).
-    fluidInputs([<liquid:styrene_butadiene_rubber> * 108]).
-    circuit(1).
-    outputs([<appliedenergistics2:part:56>]).
-    duration(20).
-    EUt(480).
-    buildAndRegister();
-assembler.recipeBuilder().
-    inputs([
-        <ore:dustRedstone>,
-        <ore:dustGlowstone>,
-        <appliedenergistics2:part:16> * 3
-    ]).
-    fluidInputs([<liquid:silicone_rubber> * 216]).
-    circuit(1).
-    outputs([<appliedenergistics2:part:56>]).
-    duration(20).
-    EUt(480).
-    buildAndRegister();
-assembler.recipeBuilder().
-    inputs([
-        <ore:dustRedstone>,
-        <ore:dustGlowstone>,
-        <appliedenergistics2:part:16> * 3
-    ]).
-    fluidInputs([<liquid:rubber> * 432]).
-    circuit(1).
-    outputs([<appliedenergistics2:part:56>]).
-    duration(20).
-    EUt(480).
-    buildAndRegister();
-assembler.recipeBuilder().
-    inputs([
-        <ore:dustRedstone>,
-        <ore:dustGlowstone>,
-        <appliedenergistics2:part:36>
-    ]).
-    fluidInputs([<liquid:styrene_butadiene_rubber> * 108]).
-    circuit(1).
-    outputs([<appliedenergistics2:part:56>]).
-    duration(20).
-    EUt(480).
-    buildAndRegister();
-assembler.recipeBuilder().
-    inputs([
-        <ore:dustRedstone>,
-        <ore:dustGlowstone>,
-        <appliedenergistics2:part:36>
-    ]).
-    fluidInputs([<liquid:silicone_rubber> * 216]).
-    circuit(1).
-    outputs([<appliedenergistics2:part:56>]).
-    duration(20).
-    EUt(480).
-    buildAndRegister();
-assembler.recipeBuilder().
-    inputs([
-        <ore:dustRedstone>,
-        <ore:dustGlowstone>,
-        <appliedenergistics2:part:36>
-    ]).
-    fluidInputs([<liquid:rubber> * 432]).
-    circuit(1).
-    outputs([<appliedenergistics2:part:56>]).
-    duration(20).
-    EUt(480).
-    buildAndRegister();
-
-# Dense Covered Cable
-recipes.removeShapeless(<appliedenergistics2:part:516>, [
-    <appliedenergistics2:part:36>, <appliedenergistics2:part:36>,
-    <appliedenergistics2:part:36>, <appliedenergistics2:part:36>
-]);
-assembler.recipeBuilder().
-    inputs([<appliedenergistics2:part:36> * 4]).
-    fluidInputs([<liquid:styrene_butadiene_rubber> * 144]).
-    circuit(2).
-    outputs([<appliedenergistics2:part:516>]).
-    duration(20).
-    EUt(480).
-    buildAndRegister();
-assembler.recipeBuilder().
-    inputs([<appliedenergistics2:part:36> * 4]).
-    fluidInputs([<liquid:silicone_rubber> * 216]).
-    circuit(2).
-    outputs([<appliedenergistics2:part:516>]).
-    duration(20).
-    EUt(480).
-    buildAndRegister();
-assembler.recipeBuilder().
-    inputs([<appliedenergistics2:part:36> * 4]).
-    fluidInputs([<liquid:rubber> * 432]).
-    circuit(2).
-    outputs([<appliedenergistics2:part:516>]).
-    duration(20).
-    EUt(480).
-    buildAndRegister();
-assembler.recipeBuilder().
-    inputs([<appliedenergistics2:part:16> * 12]).
-    fluidInputs([<liquid:styrene_butadiene_rubber> * 432]).
-    circuit(2).
-    outputs([<appliedenergistics2:part:516>]).
-    duration(20).
-    EUt(480).
-    buildAndRegister();
-assembler.recipeBuilder().
-    inputs([<appliedenergistics2:part:16> * 12]).
-    fluidInputs([<liquid:silicone_rubber> * 864]).
-    circuit(2).
-    outputs([<appliedenergistics2:part:516>]).
-    duration(20).
-    EUt(480).
-    buildAndRegister();
-assembler.recipeBuilder().
-    inputs([<appliedenergistics2:part:16> * 12]).
-    fluidInputs([<liquid:rubber> * 1728]).
-    circuit(2).
-    outputs([<appliedenergistics2:part:516>]).
-    duration(20).
-    EUt(480).
-    buildAndRegister();
-
-# Dense Smart Cable
-recipes.removeShapeless(<appliedenergistics2:part:76>, [
-    <appliedenergistics2:part:516>, <ore:dustRedstone>, <ore:dustGlowstone>
-]);
-recipes.addShaped(<appliedenergistics2:part:76>, [
-    [null, <ore:dustGlowstone> | <ore:dustRedstone>, null],
-    [<ore:dustRedstone> | <ore:dustGlowstone>, <appliedenergistics2:part:516>, <ore:dustRedstone> | <ore:dustGlowstone>],
-    [null, <ore:dustGlowstone> | <ore:dustRedstone>, null]
-]);
-assembler.recipeBuilder().
-    inputs([
-        <ore:dustRedstone>,
-        <ore:dustGlowstone>,
-        <appliedenergistics2:part:516>
-    ]).
-    circuit(3).
-    outputs([<appliedenergistics2:part:76>]).
-    duration(20).
-    EUt(480).
-    buildAndRegister();
-assembler.recipeBuilder().
-    inputs([
-        <ore:dustRedstone>,
-        <ore:dustGlowstone>,
-        <appliedenergistics2:part:16> * 12
-    ]).
-    fluidInputs([<liquid:styrene_butadiene_rubber> * 432]).
-    circuit(3).
-    outputs([<appliedenergistics2:part:76>]).
-    duration(20).
-    EUt(480).
-    buildAndRegister();
-assembler.recipeBuilder().
-    inputs([
-        <ore:dustRedstone>,
-        <ore:dustGlowstone>,
-        <appliedenergistics2:part:16> * 12
-    ]).
-    fluidInputs([<liquid:silicone_rubber> * 864]).
-    circuit(3).
-    outputs([<appliedenergistics2:part:76>]).
-    duration(20).
-    EUt(480).
-    buildAndRegister();
-assembler.recipeBuilder().
-    inputs([
-        <ore:dustRedstone>,
-        <ore:dustGlowstone>,
-        <appliedenergistics2:part:16> * 12
-    ]).
-    fluidInputs([<liquid:rubber> * 1728]).
-    circuit(3).
-    outputs([<appliedenergistics2:part:76>]).
-    duration(20).
-    EUt(480).
-    buildAndRegister();
-assembler.recipeBuilder().
-    inputs([
-        <ore:dustRedstone>,
-        <ore:dustGlowstone>,
-        <appliedenergistics2:part:36> * 4
-    ]).
-    fluidInputs([<liquid:styrene_butadiene_rubber> * 144]).
-    circuit(3).
-    outputs([<appliedenergistics2:part:76>]).
-    duration(20).
-    EUt(480).
-    buildAndRegister();
-assembler.recipeBuilder().
-    inputs([
-        <ore:dustRedstone>,
-        <ore:dustGlowstone>,
-        <appliedenergistics2:part:36> * 4
-    ]).
-    fluidInputs([<liquid:silicone_rubber> * 216]).
-    circuit(3).
-    outputs([<appliedenergistics2:part:76>]).
-    duration(20).
-    EUt(480).
-    buildAndRegister();
-assembler.recipeBuilder().
-    inputs([
-        <ore:dustRedstone>,
-        <ore:dustGlowstone>,
-        <appliedenergistics2:part:36> * 4
-    ]).
-    fluidInputs([<liquid:rubber> * 432]).
-    circuit(3).
-    outputs([<appliedenergistics2:part:76>]).
-    duration(20).
-    EUt(480).
-    buildAndRegister();
 
 # ME Controller
 recipes.remove(<appliedenergistics2:controller>);
-assembler.recipeBuilder().
-    inputs([
-        <appliedenergistics2:material:24> * 2,
-        <ore:circuitAdvanced> * 2,
-        <ore:plateTitanium> * 4,
-        <appliedenergistics2:fluix_block>
-    ]).
-    fluidInputs([<liquid:plastic> * 144]).
-    outputs([<appliedenergistics2:controller>]).
-    duration(200).
-    EUt(480).
-    buildAndRegister();
+recipes.addShaped(<appliedenergistics2:controller>, [
+    [<ore:plateTitanium>, <ore:circuitAdvanced>, <ore:plateTitanium>],
+    [<appliedenergistics2:material:24>, <appliedenergistics2:fluix_block>, <appliedenergistics2:material:24>],
+    [<ore:plateTitanium>, <ore:circuitAdvanced>, <ore:plateTitanium>]
+]);
 
 # Quartz Glass
 recipes.remove(<appliedenergistics2:quartz_glass>);
 alloy_smelter.recipeBuilder().
     inputs([
         <ore:blockGlass>,
-        <ore:dustCertusQuartz> | <ore:dustQuartzite>
+        <ore:dustCertusQuartz>
     ]).
     outputs([<appliedenergistics2:quartz_glass>]).
-    duration(20).
+    duration(100).
     EUt(480).
     buildAndRegister();
 

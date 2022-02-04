@@ -40,9 +40,6 @@ recipes.removeShaped(<minecraft:comparator>, [
     [<ore:stoneSmooth>, <ore:stoneSmooth>, <ore:stoneSmooth>]
 ]);
 
-# Nether Quartz Block
-recipes.remove(<minecraft:quartz_block>);
-
 # Sand
 mixer.recipeBuilder().
     inputs([<ore:sand>]).
