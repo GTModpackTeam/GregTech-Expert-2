@@ -2,7 +2,6 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 import mods.gregtech.recipe.RecipeMap;
-import mods.gregtech.recipe.FactoryRecipeMap;
 import mods.gregtech.material.MaterialRegistry;
 
 
@@ -61,15 +60,6 @@ global thermal_centrifuge        as RecipeMap = RecipeMap.getByName("thermal_cen
 global unpacker                  as RecipeMap = RecipeMap.getByName("unpacker");
 global vacuum_freezer            as RecipeMap = RecipeMap.getByName("vacuum_freezer");
 global wiremill                  as RecipeMap = RecipeMap.getByName("wiremill");
-
-global greenhouse as RecipeMap = FactoryRecipeMap.start("greenhouse")
-    .minInputs(2)
-    .maxInputs(3)
-    .minOutputs(1)
-    .maxOutputs(4)
-    .maxFluidInputs(1)
-    .maxFluidOutputs(0)
-    .build();
 
 <ore:gtce.tool.wrenches>.addItems([
     <gregtech:meta_tool:8>.withEmptyTag(), 

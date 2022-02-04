@@ -38,7 +38,7 @@ for i, flask in flasks {
         fluidInputs([<liquid:glass> * 144]).
         circuit(i).
         outputs([flask]).
-        duration(20).
+        duration(100).
         EUt(480).
         buildAndRegister();
 }
@@ -67,15 +67,6 @@ recipes.addShaped(<volumetricflask:buffer>, [
 
 # Filler
 recipes.remove(<volumetricflask:filler>);
-assembler.recipeBuilder().
-    inputs([
-        <ore:flask> * 2,
-        <ore:circuitAdvanced> * 2,
-        <ore:plateTitanium> * 4,
-        <extracells:fluidcrafter>
-    ]).
-    fluidInputs([<liquid:plastic> * 144]).
-    outputs([<volumetricflask:filler>]).
-    duration(200).
-    EUt(480).
-    buildAndRegister();
+recipes.addShapeless(<volumetricflask:filler>, [
+    <ore:ae2.interface.fluid>, <ore:flask>
+]);
