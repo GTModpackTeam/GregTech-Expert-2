@@ -490,7 +490,7 @@ recipes.addShaped(<extracells:vibrantchamberfluid>, [
 # Obsidian ME Drive
 recipes.remove(<extracells:hardmedrive>);
 recipes.addShaped(<extracells:hardmedrive>, [
-    [<enderio:block_reinforced_obsidian>, <ore:ae2.cable.dense.normal>, <enderio:block_reinforced_obsidian>],
+    [<enderio:block_reinforced_obsidian>, <ore:ae2.cable.dense.covered>, <enderio:block_reinforced_obsidian>],
     [<enderio:block_reinforced_obsidian>, <appliedenergistics2:drive>, <enderio:block_reinforced_obsidian>],
     [<enderio:block_reinforced_obsidian>, <minecraft:obsidian>, <enderio:block_reinforced_obsidian>]
 ]);

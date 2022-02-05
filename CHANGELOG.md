@@ -1,3 +1,64 @@
+# v0.11.1
+## Fix item texture
+* Fixed dustFluix being shifted 1px up.
+
+## Fix config
+### AE2
+* FluixCrystal drop recipe removed.
+
+### Torch Master
+* Mega Torch range 64 -> 128
+* Feral Flare radius 32 -> 64
+
+## Change recipe
+### AE2
+* Fluix Crystal
+* Fluix Dust
+* Charged Certus Quartz Crystal
+* Pure Certus Quartz Crystal
+* Pure Nether Quartz Crystal
+* Pure Fluix Crystal
+* Quartz Fiber
+* Glass Cables
+* Glass Cable - Fluix
+* Covered Cables
+* Covered Cable - Fluix
+* Smart Cables
+* Smart Cable - Fluix
+* Dense Covered Cables
+* Dense Covered Cable - Fluix
+* Dense Smart Cables
+* Dense Smart Cable - Fluix
+* ME Controller
+
+### Volumetric Flask
+* Filler
+* Flask
+
+### TorchMaster
+* Mega Torch
+* Unlit Mega Torch
+
+## Fix recipe
+### AE2
+* Certus Quartz Crystal
+* Quartz Block
+* Fluix Block
+* Quartz Glass
+
+## ModPack(fix)
+* Infinite GT Energy Unit Emitter
+
+## Greenhouse(multiblock)
+* This came from the [GTCEu Community Pack](https://github.com/GregTechCEu/GregTech-Community-Pack).
+
+* * *
+
+# v0.11.0(broken)
+* I had made a big mistake and dumped this version to /dev/null
+
+* * *
+
 # v0.10.0
 ## Update mod
 * Gregicality Multiblocks
