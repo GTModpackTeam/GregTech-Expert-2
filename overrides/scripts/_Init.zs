@@ -2,6 +2,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 import mods.gregtech.recipe.RecipeMap;
+import mods.gregtech.recipe.FactoryRecipeMap;
 import mods.gregtech.material.MaterialRegistry;
 
 
@@ -60,6 +61,15 @@ global thermal_centrifuge        as RecipeMap = RecipeMap.getByName("thermal_cen
 global unpacker                  as RecipeMap = RecipeMap.getByName("unpacker");
 global vacuum_freezer            as RecipeMap = RecipeMap.getByName("vacuum_freezer");
 global wiremill                  as RecipeMap = RecipeMap.getByName("wiremill");
+
+global greenhouse as RecipeMap = FactoryRecipeMap.start("greenhouse")
+    .minInputs(2)
+    .maxInputs(3)
+    .minOutputs(1)
+    .maxOutputs(4)
+    .maxFluidInputs(1)
+    .maxFluidOutputs(0)
+    .build();
 
 <ore:gtce.tool.wrenches>.addItems([
     <gregtech:meta_tool:8>.withEmptyTag(), 
@@ -129,7 +139,7 @@ global wiremill                  as RecipeMap = RecipeMap.getByName("wiremill");
 ]);
 
 # Glass Cable
-<ore:ae2.cable.glass>.addItems([
+var glassCables as IItemStack[] = [
     <appliedenergistics2:part>,
     <appliedenergistics2:part:1>,
     <appliedenergistics2:part:2>,
@@ -147,31 +157,17 @@ global wiremill                  as RecipeMap = RecipeMap.getByName("wiremill");
     <appliedenergistics2:part:14>,
     <appliedenergistics2:part:15>,
     <appliedenergistics2:part:16>
-]);
-
-# Smart Cable
-<ore:ae2.cable.smart>.addItems([
-    <appliedenergistics2:part:40>,
-    <appliedenergistics2:part:41>,
-    <appliedenergistics2:part:42>,
-    <appliedenergistics2:part:43>,
-    <appliedenergistics2:part:44>,
-    <appliedenergistics2:part:45>,
-    <appliedenergistics2:part:46>,
-    <appliedenergistics2:part:47>,
-    <appliedenergistics2:part:48>,
-    <appliedenergistics2:part:49>,
-    <appliedenergistics2:part:50>,
-    <appliedenergistics2:part:51>,
-    <appliedenergistics2:part:52>,
-    <appliedenergistics2:part:53>,
-    <appliedenergistics2:part:54>,
-    <appliedenergistics2:part:55>,
-    <appliedenergistics2:part:56>
-]);
+];
+for glassCable in glassCables {
+    <ore:ae2.cable.glass>.add(glassCable);
+    if (glassCable.displayName has "Fluix") {}
+    else {
+        <ore:ae2.cable.glass.colors>.add(glassCable);
+    }
+}
 
 # Covered Cable
-<ore:ae2.cable.normal>.addItems([
+var coveredCables as IItemStack[] = [
     <appliedenergistics2:part:20>,
     <appliedenergistics2:part:21>,
     <appliedenergistics2:part:22>,
@@ -189,10 +185,45 @@ global wiremill                  as RecipeMap = RecipeMap.getByName("wiremill");
     <appliedenergistics2:part:34>,
     <appliedenergistics2:part:35>,
     <appliedenergistics2:part:36>
-]);
+];
+for coveredCable in coveredCables {
+    <ore:ae2.cable.covered>.add(coveredCable);
+    if (coveredCable.displayName has "Fluix") {}
+    else {
+        <ore:ae2.cable.covered.colors>.add(coveredCable);
+    }
+}
 
-# Dense Cable
-<ore:ae2.cable.dense.normal>.addItems([
+# Smart Cable
+var smartCables as IItemStack[] = [
+    <appliedenergistics2:part:40>,
+    <appliedenergistics2:part:41>,
+    <appliedenergistics2:part:42>,
+    <appliedenergistics2:part:43>,
+    <appliedenergistics2:part:44>,
+    <appliedenergistics2:part:45>,
+    <appliedenergistics2:part:46>,
+    <appliedenergistics2:part:47>,
+    <appliedenergistics2:part:48>,
+    <appliedenergistics2:part:49>,
+    <appliedenergistics2:part:50>,
+    <appliedenergistics2:part:51>,
+    <appliedenergistics2:part:52>,
+    <appliedenergistics2:part:53>,
+    <appliedenergistics2:part:54>,
+    <appliedenergistics2:part:55>,
+    <appliedenergistics2:part:56>
+];
+for smartCable in smartCables {
+    <ore:ae2.cable.smart>.add(smartCable);
+    if (smartCable.displayName has "Fluix") {}
+    else {
+        <ore:ae2.cable.smart.colors>.add(smartCable);
+    }
+}
+
+# Dense Covered Cable
+var denseCoveredCables as IItemStack[] = [
     <appliedenergistics2:part:500>,
     <appliedenergistics2:part:501>,
     <appliedenergistics2:part:502>,
@@ -210,10 +241,17 @@ global wiremill                  as RecipeMap = RecipeMap.getByName("wiremill");
     <appliedenergistics2:part:514>,
     <appliedenergistics2:part:515>,
     <appliedenergistics2:part:516>
-]);
+];
+for denseCoveredCable in denseCoveredCables {
+    <ore:ae2.cable.dense.covered>.add(denseCoveredCable);
+    if (denseCoveredCable.displayName has "Fluix") {}
+    else {
+        <ore:ae2.cable.dense.covered.colors>.add(denseCoveredCable);
+    }
+}
 
 # Dense Smart Cable
-<ore:ae2.cable.dense.smart>.addItems([
+var denseSmartCables as IItemStack[] = [
     <appliedenergistics2:part:60>,
     <appliedenergistics2:part:61>,
     <appliedenergistics2:part:62>,
@@ -231,7 +269,14 @@ global wiremill                  as RecipeMap = RecipeMap.getByName("wiremill");
     <appliedenergistics2:part:74>,
     <appliedenergistics2:part:75>,
     <appliedenergistics2:part:76>
-]);
+];
+for denseSmartCable in denseSmartCables {
+    <ore:ae2.cable.dense.smart>.add(denseSmartCable);
+    if (denseSmartCable.displayName has "Fluix") {}
+    else {
+        <ore:ae2.cable.dense.smart.colors>.add(denseSmartCable);
+    }
+}
 
 
 
@@ -303,8 +348,8 @@ global brokenSpawners as IItemStack[] = [
     <enderio:item_broken_spawner>.withTag({entityId: "minecraft:parrot"}),
     <enderio:item_broken_spawner>.withTag({entityId: "minecraft:villager"})
 ];
-for i, mob in brokenSpawners {
-    <ore:brokenSpawners>.addItems([brokenSpawners[i]]);
+for brokenSpawner in brokenSpawners {
+    <ore:brokenSpawners>.add(brokenSpawner);
 }
 
 # Entitie Mobs
