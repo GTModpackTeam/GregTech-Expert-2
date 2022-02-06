@@ -1,4 +1,4 @@
-# Imoprts
+# Imports
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 import mods.gregtech.recipe.RecipeMap;
@@ -67,7 +67,31 @@ global greenhouse as RecipeMap = FactoryRecipeMap.start("greenhouse")
     .maxInputs(3)
     .minOutputs(1)
     .maxOutputs(4)
+    .minFluidInputs(0)
     .maxFluidInputs(1)
+    .minFluidOutputs(0)
+    .maxFluidOutputs(0)
+    .build();
+
+global large_crafttable as RecipeMap = FactoryRecipeMap.start("large_crafttable")
+    .minInputs(1)
+    .maxInputs(32)
+    .minOutputs(1)
+    .maxOutputs(1)
+    .minFluidInputs(0)
+    .maxFluidInputs(3)
+    .minFluidOutputs(0)
+    .maxFluidOutputs(0)
+    .build();
+
+global voidoreminer as RecipeMap = FactoryRecipeMap.start("voidoreminer")
+    .minInputs(0)
+    .maxInputs(0)
+    .minOutputs(1)
+    .maxOutputs(9)
+    .minFluidInputs(0)
+    .maxFluidInputs(1)
+    .minFluidOutputs(0)
     .maxFluidOutputs(0)
     .build();
 
@@ -289,6 +313,44 @@ for denseSmartCable in denseSmartCables {
     <minecraft:double_plant:3>,
     <minecraft:tallgrass:*>
 ]);
+
+# Colors
+global colors as string[] = [
+    "white",
+    "orange",
+    "magenta",
+    "light_blue",
+    "yellow",
+    "lime",
+    "pink",
+    "gray",
+    "silver",
+    "cyan",
+    "purple",
+    "blue",
+    "brown",
+    "green",
+    "red",
+    "black"
+];
+global colorLiquid as ILiquidStack[] = [
+    <liquid:dye_white>,
+    <liquid:dye_orange>,
+    <liquid:dye_magenta>,
+    <liquid:dye_light_blue>,
+    <liquid:dye_yellow>,
+    <liquid:dye_lime>,
+    <liquid:dye_pink>,
+    <liquid:dye_gray>,
+    <liquid:dye_light_gray>,
+    <liquid:dye_cyan>,
+    <liquid:dye_purple>,
+    <liquid:dye_blue>,
+    <liquid:dye_brown>,
+    <liquid:dye_green>,
+    <liquid:dye_red>,
+    <liquid:dye_black>
+];
 
 
 

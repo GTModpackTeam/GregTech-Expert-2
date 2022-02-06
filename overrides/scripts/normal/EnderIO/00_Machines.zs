@@ -1,5 +1,5 @@
 #packmode normal
-# Imoprts
+# Imports
 import mods.jei.JEI;
 
 
@@ -54,6 +54,7 @@ recipes.addShaped(<enderio:block_farm_station>, [
     [<ore:ingotSoularium>, <ore:itemSoulMachineChassi>, <ore:ingotSoularium>],
     [<ore:gearEnergized>, <ore:itemPulsatingCrystal>, <ore:gearEnergized>]
 ]);
+<enderio:block_farm_station>.addTooltip(format.red("We have Greenhouse, so that's better."));
 
 # Combustion Generator
 JEI.removeAndHide(<enderio:block_combustion_generator>);

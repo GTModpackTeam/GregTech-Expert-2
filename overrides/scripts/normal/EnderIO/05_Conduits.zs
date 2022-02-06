@@ -1,5 +1,5 @@
 #packmode normal
-# Imoprts
+# Imports
 import mods.jei.JEI;
 import mods.enderio.AlloySmelter; // 1
 import mods.enderio.CombustionGen; // no

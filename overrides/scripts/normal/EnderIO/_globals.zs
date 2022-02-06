@@ -1,5 +1,5 @@
 #packmode normal
-# Imoprts
+# Imports
 import mods.jei.JEI;
 import crafttweaker.item.IItemStack;
 
@@ -104,34 +104,34 @@ var blocks as IItemStack[] = [
 # Set Recipe
 ## Nugget
 for i, nugget in nuggets {
-    alloy_smelter.recipeBuilder().
-        inputs([ingots[i]]).
-        notConsumable([<gregtech:meta_item_1:19>]).
-        outputs([nugget * 9]).
-        duration(56).
-        EUt(7).
-        buildAndRegister();
+    alloy_smelter.recipeBuilder()
+        .inputs([ingots[i]])
+        .notConsumable([<gregtech:meta_item_1:19>])
+        .outputs([nugget * 9])
+        .duration(56)
+        .EUt(7)
+        .buildAndRegister();
 }
 
 
 ## Ingot
 for i, ingot in ingots {
-    alloy_smelter.recipeBuilder().
-        inputs([nuggets[i] * 9]).
-        notConsumable([<gregtech:meta_item_1:16>]).
-        outputs([ingot]).
-        duration(56).
-        EUt(7).
-        buildAndRegister();
+    alloy_smelter.recipeBuilder()
+        .inputs([nuggets[i] * 9])
+        .notConsumable([<gregtech:meta_item_1:16>])
+        .outputs([ingot])
+        .duration(56)
+        .EUt(7)
+        .buildAndRegister();
 }
 for i, block in blocks {
-    alloy_smelter.recipeBuilder().
-        inputs([block]).
-        notConsumable([<gregtech:meta_item_1:16>]).
-        outputs([ingots[i] * 9]).
-        duration(56).
-        EUt(7).
-        buildAndRegister();
+    alloy_smelter.recipeBuilder()
+        .inputs([block])
+        .notConsumable([<gregtech:meta_item_1:16>])
+        .outputs([ingots[i] * 9])
+        .duration(56)
+        .EUt(7)
+        .buildAndRegister();
 }
 
 ## Ball
@@ -147,17 +147,17 @@ for i, ingot in ingots {
 
 ## Block
 for i, block in blocks {
-    alloy_smelter.recipeBuilder().
-        inputs([ingots[i] * 9]).
-        notConsumable([<gregtech:meta_item_1:18>]).
-        outputs([block]).
-        duration(5).
-        EUt(7).
-        buildAndRegister();
-    compressor.recipeBuilder().
-        inputs([ingots[i] * 9]).
-        outputs([block]).
-        duration(300).
-        EUt(7).
-        buildAndRegister();
+    alloy_smelter.recipeBuilder()
+        .inputs([ingots[i] * 9])
+        .notConsumable([<gregtech:meta_item_1:18>])
+        .outputs([block])
+        .duration(5)
+        .EUt(7)
+        .buildAndRegister();
+    compressor.recipeBuilder()
+        .inputs([ingots[i] * 9])
+        .outputs([block])
+        .duration(300)
+        .EUt(7)
+        .buildAndRegister();
 }

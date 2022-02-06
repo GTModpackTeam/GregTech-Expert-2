@@ -1,7 +1,6 @@
 #packmode normal
-# Imoprts
+# Imports
 import mods.jei.JEI;
-import mods.extendedcrafting.TableCrafting;
 /* 
     TODO
     # Infinite GT Energy Unit Emitter
@@ -41,21 +40,21 @@ import mods.extendedcrafting.TableCrafting;
 
 assembly_line.recipeBuilder()
     .inputs([<enderio:block_cap_bank>.withTag({"enderio:energy": 50000000})])
-    .inputs([<gregtech:meta_item_1:753> * 4])
+    .inputs([<gregtech:meta_item_1:753> * 2])
     .inputs([<contenttweaker:creativecomponent> * 2])
-    .inputs([<appliedenergistics2:creative_energy_cell> * 8])
+    .inputs([<appliedenergistics2:creative_energy_cell>])
     .inputs([<enderio:block_cap_bank>.withTag({"enderio:energy": 50000000})])
-    .inputs([<gregtech:meta_item_1:753> * 4])
+    .inputs([<gregtech:meta_item_1:753> * 2])
     .inputs([<contenttweaker:creativecomponent> * 2])
-    .inputs([<appliedenergistics2:creative_energy_cell> * 8])
+    .inputs([<appliedenergistics2:creative_energy_cell>])
     .inputs([<enderio:block_cap_bank>.withTag({"enderio:energy": 50000000})])
-    .inputs([<gregtech:meta_item_1:753> * 4])
+    .inputs([<gregtech:meta_item_1:753> * 2])
     .inputs([<contenttweaker:creativecomponent> * 2])
-    .inputs([<appliedenergistics2:creative_energy_cell> * 8])
+    .inputs([<appliedenergistics2:creative_energy_cell>])
     .inputs([<enderio:block_cap_bank>.withTag({"enderio:energy": 50000000})])
-    .inputs([<gregtech:meta_item_1:753> * 4])
+    .inputs([<gregtech:meta_item_1:753> * 2])
     .inputs([<contenttweaker:creativecomponent> * 2])
-    .inputs([<appliedenergistics2:creative_energy_cell> * 8])
+    .inputs([<appliedenergistics2:creative_energy_cell>])
     //.inputs([<gregtech:meta_item_1:1000>])
     .fluidInputs(<liquid:soldering_alloy> * 16000)
     .fluidInputs(<liquid:uranium_rhodium_dinaquadide> * 15552)

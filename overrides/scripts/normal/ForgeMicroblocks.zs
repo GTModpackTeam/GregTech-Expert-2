@@ -1,5 +1,5 @@
 #packmode normal
-# Imoprts
+# Imports
 import mods.jei.JEI;
 
 

@@ -1,3 +1,54 @@
+# v0.12.0
+## Del mods
+* Extended Crafting
+* PackagedExCrafting
+* Devtech
+
+## Add mod
+* CraftTweaker Utils
+
+## Fix recipes
+### OpenComputers
+* Fixed a bug that required items that did not exist and could not be created.
+* Other items that could not be created were also corrected, and the required circuit for CU was greatly eased from Elite to Basic.
+
+## Add recipes
+### ModPack
+* Removed Extended Crafting and switched to 3D Builder, a multi-block enclosure, instead. The recipe for the enclosure itself is currently being worked out.
+
+### AE2
+* Charged Certus Quartz Dust
+
+### EIO
+* XP Boost
+
+### GregTech
+* Nether Star Dust
+
+### Minecraft
+* Nether Quartz Block
+
+## Change recipe
+### AE2
+* Certus Quartz Dust
+* Fluix Dust
+* Charged Certus Quartz Crystal
+
+### Elevator
+* All
+
+## Fix recipe
+### AE2
+* Quartz Block
+* Fluix Block
+* Quartz Fiber
+* Dense Smart Cable
+* Vibrant Quartz Glass
+* Storage Bus
+* Fluid Bus
+
+* * *
+
 # v0.11.1
 ## Fix item texture
 * Fixed dustFluix being shifted 1px up.

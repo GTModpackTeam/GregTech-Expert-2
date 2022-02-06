@@ -1,4 +1,4 @@
-# Imoprts
+# Imports
 import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
 

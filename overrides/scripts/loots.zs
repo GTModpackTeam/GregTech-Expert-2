@@ -1,4 +1,4 @@
-# Imoprts
+# Imports
 import loottweaker.LootContext;
 import loottweaker.LootTweaker;
 import loottweaker.vanilla.loot.LootPool;

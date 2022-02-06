@@ -1,5 +1,5 @@
 #packmode normal
-# Imoprts
+# Imports
 import mods.jei.JEI;
 
 
@@ -32,74 +32,74 @@ recipes.addShaped(<danknull:dank_null_0>, [
 # null mk2
 recipes.remove(<danknull:dank_null_1>);
 recipes.addShapeless(<danknull:dank_null_1>, [<danknull:dank_null_1>.withEmptyTag()]);
-assembler.recipeBuilder().
-    inputs([
+assembler.recipeBuilder()
+    .circuit(0)
+    .inputs([
         <ore:plateLapis> * 4,
         <danknull:dank_null_0>
-    ]).
-    fluidInputs([<liquid:glass> * 144]).
-    circuit(0).
-    outputs([<danknull:dank_null_1>]).
-    duration(200).
-    EUt(16).
-    buildAndRegister();
+    ])
+    .fluidInputs([<liquid:glass> * 144])
+    .outputs([<danknull:dank_null_1>])
+    .duration(200)
+    .EUt(16)
+    .buildAndRegister();
 
 # null mk3
 recipes.remove(<danknull:dank_null_2>);
 recipes.addShapeless(<danknull:dank_null_2>, [<danknull:dank_null_2>.withEmptyTag()]);
-assembler.recipeBuilder().
-    inputs([
+assembler.recipeBuilder()
+    .circuit(0)
+    .inputs([
         <ore:plateTinAlloy> * 4,
         <danknull:dank_null_1>
-    ]).
-    fluidInputs([<liquid:glass> * 144]).
-    circuit(0).
-    outputs([<danknull:dank_null_2>]).
-    duration(200).
-    EUt(64).
-    buildAndRegister();
+    ])
+    .fluidInputs([<liquid:glass> * 144])
+    .outputs([<danknull:dank_null_2>])
+    .duration(200)
+    .EUt(64)
+    .buildAndRegister();
 
 # null mk4
 recipes.remove(<danknull:dank_null_3>);
 recipes.addShapeless(<danknull:dank_null_3>, [<danknull:dank_null_3>.withEmptyTag()]);
-assembler.recipeBuilder().
-    inputs([
+assembler.recipeBuilder()
+    .circuit(0)
+    .inputs([
         <ore:plateRoseGold> * 4,
         <danknull:dank_null_2>
-    ]).
-    fluidInputs([<liquid:glass> * 144]).
-    circuit(0).
-    outputs([<danknull:dank_null_3>]).
-    duration(200).
-    EUt(256).
-    buildAndRegister();
+    ])
+    .fluidInputs([<liquid:glass> * 144])
+    .outputs([<danknull:dank_null_3>])
+    .duration(200)
+    .EUt(256)
+    .buildAndRegister();
 
 # null mk5
 recipes.remove(<danknull:dank_null_4>);
 recipes.addShapeless(<danknull:dank_null_4>, [<danknull:dank_null_4>.withEmptyTag()]);
-assembler.recipeBuilder().
-    inputs([
+assembler.recipeBuilder()
+    .circuit(0)
+    .inputs([
         <ore:plateDiamond> * 4,
         <danknull:dank_null_3>
-    ]).
-    fluidInputs([<liquid:glass> * 144]).
-    circuit(0).
-    outputs([<danknull:dank_null_4>]).
-    duration(200).
-    EUt(1920).
-    buildAndRegister();
+    ])
+    .fluidInputs([<liquid:glass> * 144])
+    .outputs([<danknull:dank_null_4>])
+    .duration(200)
+    .EUt(1920)
+    .buildAndRegister();
 
 # null mk6
 JEI.removeAndHide(<danknull:dank_null_5>);
 recipes.addShapeless(<danknull:dank_null_5>, [<danknull:dank_null_5>.withEmptyTag()]);
-assembler.recipeBuilder().
-    inputs([
+assembler.recipeBuilder()
+    .circuit(0)
+    .inputs([
         <ore:plateEmerald> * 4,
         <danknull:dank_null_4>
-    ]).
-    fluidInputs([<liquid:glass> * 144]).
-    circuit(0).
-    outputs([<danknull:dank_null_5>]).
-    duration(200).
-    EUt(7680).
-    buildAndRegister();
+    ])
+    .fluidInputs([<liquid:glass> * 144])
+    .outputs([<danknull:dank_null_5>])
+    .duration(200)
+    .EUt(7680)
+    .buildAndRegister();

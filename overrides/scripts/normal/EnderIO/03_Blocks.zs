@@ -1,5 +1,5 @@
 #packmode normal
-# Imoprts
+# Imports
 import mods.jei.JEI;
 import mods.enderio.AlloySmelter; // 1
 import mods.enderio.CombustionGen; // no
@@ -13,24 +13,24 @@ import mods.enderio.Tank; // no
 
 
 # Dark Steel Anvil
-assembler.recipeBuilder().
-    inputs([<ore:ingotDarkSteel> * 31]).
-    notConsumable([<gregtech:meta_item_1:21>]).
-    outputs([<enderio:block_dark_steel_anvil>]).
-    duration(512).
-    EUt(480).
-    buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([<ore:ingotDarkSteel> * 31])
+    .notConsumable([<gregtech:meta_item_1:21>])
+    .outputs([<enderio:block_dark_steel_anvil>])
+    .duration(512)
+    .EUt(480)
+    .buildAndRegister();
 
 # Dark Paper Anvil
-assembler.recipeBuilder().
-    inputs([
+assembler.recipeBuilder()
+    .inputs([
         <enderio:block_dark_steel_anvil>,
         <ore:paperBlack>
-    ]).
-    outputs([<enderio:block_dark_paper_anvil>]).
-    duration(200).
-    EUt(480).
-    buildAndRegister();
+    ])
+    .outputs([<enderio:block_dark_paper_anvil>])
+    .duration(200)
+    .EUt(480)
+    .buildAndRegister();
 
 # Dark Steel Ladder
 recipes.addShaped(<enderio:block_dark_steel_ladder> * 6, [
@@ -85,15 +85,15 @@ recipes.addShaped(<enderio:block_reinforced_obsidian>, [
 ]);
 
 # Industrial Insulation
-alloy_smelter.recipeBuilder().
-    inputs([
+alloy_smelter.recipeBuilder()
+    .inputs([
         <enderio:item_material:51> * 3,
         <minecraft:wool>
-    ]).
-    outputs([<enderio:block_industrial_insulation>]).
-    duration(100).
-    EUt(480).
-    buildAndRegister();
+    ])
+    .outputs([<enderio:block_industrial_insulation>])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # End Steel Bars
 recipes.addShaped(<enderio:block_end_iron_bars>, [
@@ -106,12 +106,12 @@ recipes.addShaped(<enderio:block_end_iron_bars>, [
 JEI.removeAndHide(<enderio:block_painted_pressure_plate:*>);
 
 # Fused Quartz
-alloy_smelter.recipeBuilder().
-    inputs([<ore:blockQuartz>]).
-    outputs([<enderio:block_fused_quartz>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
+alloy_smelter.recipeBuilder()
+    .inputs([<ore:blockQuartz>])
+    .outputs([<enderio:block_fused_quartz>])
+    .duration(56)
+    .EUt(480)
+    .buildAndRegister();
 JEI.hide(<enderio:block_fused_quartz:1>);
 JEI.hide(<enderio:block_fused_quartz:2>);
 JEI.hide(<enderio:block_fused_quartz:3>);
