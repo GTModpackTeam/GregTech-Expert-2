@@ -1,5 +1,5 @@
 #packmode normal
-# Imoprts
+# Imports
 import mods.jei.JEI;
 import crafttweaker.item.IItemStack;
 
@@ -12,15 +12,15 @@ import crafttweaker.item.IItemStack;
 recipes.addShapeless(<gregtech:meta_gem:214>, [<appliedenergistics2:material>]);
 
 # Stone Rod
-lathe.recipeBuilder().
-    inputs([<minecraft:stone>]).
-    outputs([
+lathe.recipeBuilder()
+    .inputs([<minecraft:stone>])
+    .outputs([
         <gregtech:meta_stick:1599>,
         <gregtech:meta_dust_small:1599>
-    ]).
-    duration(10).
-    EUt(7).
-    buildAndRegister();
+    ])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
 
 # Wrought Iron Nugget
 recipes.addShapeless(<gregtech:meta_nugget:335> * 9, [<gregtech:meta_ingot:335>]);
@@ -87,13 +87,17 @@ recipes.addShaped(<gregtech:meta_item_1:340>, [
     [null, <gregtech:meta_item_1:339>, null]
 ]);
 
-
-
-########################################
-# Liquids
-########################################
-# 
-
-
-
-
+# Nether Star Dust
+chemical_reactor.recipeBuilder()
+    .inputs([
+        <ore:dustDiamond>,
+        <ore:dustIridium>
+    ])
+    .fluidInputs([
+        <liquid:nether_air> * 8000,
+        <liquid:rocket_fuel> * 1000
+    ])
+    .outputs([<gregtech:meta_dust:1602> * 2])
+    .duration(200)
+    .EUt(7680)
+    .buildAndRegister();

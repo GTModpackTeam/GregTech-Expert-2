@@ -1,4 +1,4 @@
-# Imoprts
+# Imports
 import crafttweaker.item.IItemStack;
 
 
@@ -33,14 +33,14 @@ for flask in flasks {
 }
 for i, flask in flasks {
     <ore:flask>.addItems([flasks[i]]);
-    assembler.recipeBuilder().
-        notConsumable([<gregtech:meta_item_1:15>]).
-        fluidInputs([<liquid:glass> * 144]).
-        circuit(i).
-        outputs([flask]).
-        duration(20).
-        EUt(480).
-        buildAndRegister();
+    assembler.recipeBuilder()
+        .circuit(i)
+        .notConsumable([<gregtech:meta_item_1:15>])
+        .fluidInputs([<liquid:glass> * 144])
+        .outputs([flask])
+        .duration(20)
+        .EUt(480)
+        .buildAndRegister();
 }
 
 
@@ -67,15 +67,15 @@ recipes.addShaped(<volumetricflask:buffer>, [
 
 # Filler
 recipes.remove(<volumetricflask:filler>);
-assembler.recipeBuilder().
-    inputs([
+assembler.recipeBuilder()
+    .inputs([
         <ore:flask> * 2,
         <ore:circuitAdvanced> * 2,
         <ore:plateTitanium> * 4,
         <extracells:fluidcrafter>
-    ]).
-    fluidInputs([<liquid:plastic> * 144]).
-    outputs([<volumetricflask:filler>]).
-    duration(200).
-    EUt(480).
-    buildAndRegister();
+    ])
+    .fluidInputs([<liquid:plastic> * 144])
+    .outputs([<volumetricflask:filler>])
+    .duration(200)
+    .EUt(480)
+    .buildAndRegister();

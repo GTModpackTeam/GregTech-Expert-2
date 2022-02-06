@@ -1,6 +1,5 @@
 #packmode normal
-# Imoprts
-import mods.extendedcrafting.TableCrafting;
+# Imports
 
 
 
@@ -8,14 +7,19 @@ import mods.extendedcrafting.TableCrafting;
 # Blocks
 ########################################
 # Creative Capacitor Bank
-TableCrafting.addShaped(0, <enderio:block_cap_bank>.withTag({"enderio:energy": 50000000}), [
-    [<gregtech:meta_item_1:751>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:meta_item_1:751>], 
-    [<gregtech:fusion_casing:4>, <appliedenergistics2:creative_energy_cell>, <appliedenergistics2:creative_energy_cell>, <appliedenergistics2:creative_energy_cell>, <appliedenergistics2:creative_energy_cell>, <appliedenergistics2:creative_energy_cell>, <appliedenergistics2:creative_energy_cell>, <appliedenergistics2:creative_energy_cell>, <gregtech:fusion_casing:4>], 
-    [<gregtech:fusion_casing:4>, <appliedenergistics2:creative_energy_cell>, <gregtech:meta_item_1:283>, <gregtech:meta_item_1:283>, <gregtech:meta_item_1:283>, <gregtech:meta_item_1:283>, <gregtech:meta_item_1:283>, <appliedenergistics2:creative_energy_cell>, <gregtech:fusion_casing:4>], 
-    [<gregtech:fusion_casing:4>, <appliedenergistics2:creative_energy_cell>, <gregtech:meta_item_1:283>, <gregtech:machine:1022>, <gregtech:machine:1344>, <gregtech:machine:1022>, <gregtech:meta_item_1:283>, <appliedenergistics2:creative_energy_cell>, <gregtech:fusion_casing:4>], 
-    [<gregtech:fusion_casing:4>, <appliedenergistics2:creative_energy_cell>, <gregtech:meta_item_1:283>, <gregtech:machine:1344>, <gregtech:meta_item_1:753>, <gregtech:machine:1344>, <gregtech:meta_item_1:283>, <appliedenergistics2:creative_energy_cell>, <gregtech:fusion_casing:4>], 
-    [<gregtech:fusion_casing:4>, <appliedenergistics2:creative_energy_cell>, <gregtech:meta_item_1:283>, <gregtech:machine:1022>, <gregtech:machine:1344>, <gregtech:machine:1022>, <gregtech:meta_item_1:283>, <appliedenergistics2:creative_energy_cell>, <gregtech:fusion_casing:4>], 
-    [<gregtech:fusion_casing:4>, <appliedenergistics2:creative_energy_cell>, <gregtech:meta_item_1:283>, <gregtech:meta_item_1:283>, <gregtech:meta_item_1:283>, <gregtech:meta_item_1:283>, <gregtech:meta_item_1:283>, <appliedenergistics2:creative_energy_cell>, <gregtech:fusion_casing:4>], 
-    [<gregtech:fusion_casing:4>, <appliedenergistics2:creative_energy_cell>, <appliedenergistics2:creative_energy_cell>, <appliedenergistics2:creative_energy_cell>, <appliedenergistics2:creative_energy_cell>, <appliedenergistics2:creative_energy_cell>, <appliedenergistics2:creative_energy_cell>, <appliedenergistics2:creative_energy_cell>, <gregtech:fusion_casing:4>], 
-    [<gregtech:meta_item_1:751>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:meta_item_1:751>]
-]);
+large_crafttable.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <gregtech:meta_item_1:751> * 4,
+        <gregtech:fusion_casing:4> * 28,
+        <gregtech:machine:994> * 5,
+        <ore:circuitInfinite> * 20,
+        <enderio:block_cap_bank:3> * 16,
+        <ore:plateDenseNeutronium> * 8,
+        <gregtech:meta_item_1:340>
+    ])
+    .fluidInputs(<liquid:soldering_alloy> * 16000)
+    .outputs([<enderio:block_cap_bank>.withTag({"enderio:energy": 50000000})])
+    .duration(1200)
+    .EUt(122880)
+    .buildAndRegister();

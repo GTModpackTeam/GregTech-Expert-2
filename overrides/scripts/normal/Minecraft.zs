@@ -42,15 +42,21 @@ recipes.removeShaped(<minecraft:comparator>, [
 
 # Nether Quartz Block
 recipes.remove(<minecraft:quartz_block>);
+compressor.recipeBuilder()
+    .inputs([<ore:crystalPureNetherQuartz> * 8])
+    .outputs([<minecraft:quartz_block>])
+    .duration(300)
+    .EUt(2)
+    .buildAndRegister();
 
 # Sand
-mixer.recipeBuilder().
-    inputs([<ore:sand>]).
-    fluidInputs([<liquid:water> * 1000]).
-    outputs([<minecraft:clay>]).
-    duration(1000).
-    EUt(30).
-    buildAndRegister();
+mixer.recipeBuilder()
+    .inputs([<ore:sand>])
+    .fluidInputs([<liquid:water> * 1000])
+    .outputs([<minecraft:clay>])
+    .duration(1000)
+    .EUt(30)
+    .buildAndRegister();
 
 # Ender Chest
 recipes.remove(<minecraft:ender_chest>);
@@ -74,13 +80,13 @@ recipes.removeShaped(<minecraft:daylight_detector>, [
 ]);
 
 # Beacon
-assembler.recipeBuilder().
-    inputs([
+assembler.recipeBuilder()
+    .inputs([
         <minecraft:obsidian> * 3,
         <minecraft:nether_star>
-    ]).
-    fluidInputs([<liquid:glass> * 720]).
-    outputs([<minecraft:beacon>]).
-    duration(100).
-    EUt(16).
-    buildAndRegister();
+    ])
+    .fluidInputs([<liquid:glass> * 720])
+    .outputs([<minecraft:beacon>])
+    .duration(100)
+    .EUt(16)
+    .buildAndRegister();

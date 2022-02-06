@@ -1,5 +1,5 @@
 #packmode normal
-# Imoprts
+# Imports
 import mods.jei.JEI;
 
 
@@ -31,82 +31,82 @@ JEI.removeAndHide(<fluxnetworks:fluxblock>);
 
 # Flux Plug
 recipes.remove(<fluxnetworks:fluxplug>);
-assembler.recipeBuilder().
-    inputs([
+assembler.recipeBuilder()
+    .circuit(4)
+    .inputs([
         <appliedenergistics2:sky_stone_block>,
         <ore:circuitElite> * 4,
-    ]).
-    circuit(4).
-    outputs([<fluxnetworks:fluxplug>]).
-    duration(2000).
-    EUt(30720).
-    buildAndRegister();
+    ])
+    .outputs([<fluxnetworks:fluxplug>])
+    .duration(2000)
+    .EUt(30720)
+    .buildAndRegister();
 
 # Flux Point
 recipes.remove(<fluxnetworks:fluxpoint>);
-assembler.recipeBuilder().
-    inputs([
+assembler.recipeBuilder()
+    .circuit(6)
+    .inputs([
         <appliedenergistics2:sky_stone_block>,
         <ore:circuitElite> * 4,
-    ]).
-    circuit(6).
-    outputs([<fluxnetworks:fluxpoint>]).
-    duration(2000).
-    EUt(30720).
-    buildAndRegister();
+    ])
+    .outputs([<fluxnetworks:fluxpoint>])
+    .duration(2000)
+    .EUt(30720)
+    .buildAndRegister();
 
 # Flux Controller
 recipes.remove(<fluxnetworks:fluxcontroller>);
-assembler.recipeBuilder().
-    inputs([
+assembler.recipeBuilder()
+    .inputs([
         <ore:circuitElite> * 4,
         <ore:plateGlass> * 4,
         <appliedenergistics2:sky_stone_block>
-    ]).
-    outputs([<fluxnetworks:fluxcontroller>]).
-    duration(2000).
-    EUt(30720).
-    buildAndRegister();
+    ])
+    .outputs([<fluxnetworks:fluxcontroller>])
+    .duration(2000)
+    .EUt(30720)
+    .buildAndRegister();
 
 # Flux Storage
 JEI.removeAndHide(<fluxnetworks:fluxstorage>);
 // recipes.remove(<fluxnetworks:fluxstorage>);
-// assembler.recipeBuilder().
-//     inputs([
+// assembler.recipeBuilder()
+//     .inputs([
 //         <ore:circuitElite> * 4,
 //         <ore:plateGlass> * 4,
 //         <gregtech:machine:1340>,
 //         <enderio:block_cap_bank:3>
-//     ]).
-//     outputs([<fluxnetworks:fluxstorage>]).
-//     duration(2000).
-//     EUt(30720).
-//     buildAndRegister();
+//     ])
+//     .outputs([<fluxnetworks:fluxstorage>])
+//     .duration(2000)
+//     .EUt(30720)
+//     .buildAndRegister();
 
 # Herculean Flux Storage
 JEI.removeAndHide(<fluxnetworks:herculeanfluxstorage>);
 // recipes.remove(<fluxnetworks:herculeanfluxstorage>);
-// assembler.recipeBuilder().
-//     inputs([
+// assembler.recipeBuilder()
+//     .inputs([
 //         <ore:circuitMaster> * 4,
 //         <ore:plateGlass> * 4,
 //         <fluxnetworks:fluxstorage> * 6
-//     ]).
-//     outputs([<fluxnetworks:herculeanfluxstorage>]).
-//     duration(2000).
-//     EUt(30720).
-//     buildAndRegister();
+//     ])
+//     .outputs([<fluxnetworks:herculeanfluxstorage>])
+//     .duration(2000)
+//     .EUt(30720)
+//     .buildAndRegister();
 
 # Gargantuan Flux Storage
 JEI.removeAndHide(<fluxnetworks:gargantuanfluxstorage>);
 // recipes.remove(<fluxnetworks:gargantuanfluxstorage>);
-// assembler.recipeBuilder().
+// assembler.recipeBuilder()
 //     inputs([
 //         <ore:circuitUltimate> * 4,
 //         <ore:plateGlass> * 4,
 //         <fluxnetworks:gargantuanfluxstorage> * 6
-//     ]).
-//     outputs([<fluxnetworks:gargantuanfluxstorage>]).
-//     duration(2000).
-//     EUt(122880).
-//     buildAndRegister();
+//     ])
+//     .outputs([<fluxnetworks:gargantuanfluxstorage>])
+//     .duration(2000)
+//     .EUt(122880)
+//     .buildAndRegister();
