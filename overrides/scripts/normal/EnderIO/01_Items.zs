@@ -36,11 +36,6 @@ recipes.addShapeless(<enderio:item_conduit_facade:2>, [
 ]);
 
 # Transparent Hardened Conduit
-recipes.addShaped(<enderio:item_conduit_facade:3>, [
-    [null, <ore:dustObsidian>, null],
-    [<ore:dustObsidian>, <enderio:item_conduit_facade:*>, <ore:dustObsidian>],
-    [null, <ore:dustObsidian>, null]
-]);
 recipes.addShapeless(<enderio:item_conduit_facade:3>, [
     <enderio:item_conduit_facade:1>, <enderio:block_fused_glass:*>
 ]);
