@@ -89,6 +89,19 @@ recipes.addShaped(<gregtech:meta_item_1:340>, [
     [null, <gregtech:meta_item_1:339>, null]
 ]);
 
+# Netherrack Dust
+centrifuge.findRecipe(20, [<metaitem:dustNetherrack>], null).remove();
+centrifuge.recipeBuilder()
+    .inputs([<metaitem:dustNetherrack>])
+    .chancedOutput(<gregtech:meta_dust_tiny:41>, 620, 120)
+    .chancedOutput(<gregtech:meta_dust_tiny:2064>, 5600, 850)
+    .chancedOutput(<gregtech:meta_dust_tiny:271>, 5600, 850)
+    .chancedOutput(<gregtech:meta_dust_tiny:1601>, 5600, 850)
+    .chancedOutput(<gregtech:meta_dust_small:103>, 9900, 100)
+    .duration(160)
+    .EUt(20)
+    .buildAndRegister();
+
 # Nether Star Dust
 chemical_reactor.recipeBuilder()
     .inputs([
