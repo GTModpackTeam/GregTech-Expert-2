@@ -54,9 +54,9 @@ recipes.addShaped(<enderio:item_conduit_probe>, [
 
 # Yeta Wrench
 recipes.addShaped(<enderio:item_yeta_wrench>, [
-    [<ore:ingotElectricalSteel>, null, <ore:ingotElectricalSteel>],
-    [null, <ore:gearStone>, null],
-    [null, <ore:ingotElectricalSteel>, null]
+    [<ore:plateElectricalSteel>, <ore:gtce.tool.hard.hammers>, <ore:plateElectricalSteel>],
+    [<ore:plateElectricalSteel>, <ore:plateElectricalSteel>, <ore:plateElectricalSteel>],
+    [null, <ore:plateElectricalSteel>, null]
 ]);
 
 # Experience Rod

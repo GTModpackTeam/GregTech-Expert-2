@@ -7,6 +7,23 @@ import mods.gregtech.material.MaterialRegistry;
 
 
 ########################################
+# Items
+########################################
+#
+// MaterialBuilder(32117, "")
+//     .dust()
+//     .color(0x942323)
+//     .build();
+
+#
+// MaterialBuilder(32118, "")
+//     .dust()
+//     .color(0x942323)
+//     .build();
+
+
+
+########################################
 # Fluid
 ########################################
 # Naquadah Rocket Fuel

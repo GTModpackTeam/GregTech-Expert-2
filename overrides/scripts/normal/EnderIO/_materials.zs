@@ -1,9 +1,9 @@
 #packmode normal
 #loader gregtech
 #priority 10000
+import crafttweaker.oredict.IOreDictEntry;
 import mods.gregtech.material.Material;
 import mods.gregtech.material.MaterialBuilder;
-import mods.gregtech.material.MaterialRegistry;
 
 
 
@@ -11,8 +11,8 @@ import mods.gregtech.material.MaterialRegistry;
 MaterialBuilder(32100, "electrical_steel")
     .ingot().fluid()
     .color(0x949494)
+    .blastTemp(1750, "LOW", 480, 120)
     .flags([
-        "no_smelting",
         "generate_plate",
         "generate_rod",
         "generate_gear",
@@ -24,14 +24,15 @@ MaterialBuilder(32100, "electrical_steel")
         <material:coal> * 1,
         <material:silicon> * 1
     ])
+    .cableProperties(128, 2, 0, false)
     .build();
 
 # Energetic Alloy
 MaterialBuilder(32101, "energetic_alloy")
     .ingot().fluid()
     .color(0xED8009)
+    .blastTemp(1750, "LOW", 480, 120)
     .flags([
-        "no_smelting",
         "generate_plate",
         "generate_rod",
         "generate_gear",
@@ -43,14 +44,15 @@ MaterialBuilder(32101, "energetic_alloy")
         <material:gold> * 1,
         <material:glowstone> * 1
     ])
+    .cableProperties(128, 2, 0, false)
     .build();
 
 # Vibrant Alloy
 MaterialBuilder(32102, "vibrant_alloy")
     .ingot().fluid()
     .color(0xBAC63F)
+    .blastTemp(1750, "LOW", 480, 120)
     .flags([
-        "no_smelting",
         "generate_plate",
         "generate_rod",
         "generate_gear",
@@ -61,14 +63,15 @@ MaterialBuilder(32102, "vibrant_alloy")
         <material:energetic_alloy> * 1,
         <material:ender_pearl> * 1
     ])
+    .cableProperties(512, 2, 0, false)
     .build();
 
 # Redstone Alloy
 MaterialBuilder(32103, "redstone_alloy")
     .ingot()
     .color(0x942323)
+    .blastTemp(1750, "LOW", 480, 120)
     .flags([
-        "no_smelting",
         "generate_plate",
         "generate_rod",
         "generate_gear",
@@ -86,8 +89,8 @@ MaterialBuilder(32103, "redstone_alloy")
 MaterialBuilder(32104, "conductive_iron")
     .ingot()
     .color(0xD1A79B)
+    .blastTemp(1750, "LOW", 480, 120)
     .flags([
-        "no_smelting",
         "generate_plate",
         "generate_rod",
         "generate_gear",
@@ -98,14 +101,15 @@ MaterialBuilder(32104, "conductive_iron")
         <material:iron> * 1,
         <material:redstone> * 1
     ])
+    .cableProperties(512, 2, 0, false)
     .build();
 
 # Pulsating Iron
 MaterialBuilder(32105, "pulsating_iron")
     .ingot().fluid()
     .color(0x6EAC7D)
+    .blastTemp(1750, "LOW", 480, 120)
     .flags([
-        "no_smelting",
         "generate_plate",
         "generate_rod",
         "generate_gear",
@@ -116,14 +120,15 @@ MaterialBuilder(32105, "pulsating_iron")
         <material:iron> * 1,
         <material:ender_pearl> * 1
     ])
+    .cableProperties(512, 3, 0, false)
     .build();
 
 # Dark Steel
 MaterialBuilder(32106, "dark_steel")
     .ingot().fluid()
     .color(0x5F5F5F)
+    .blastTemp(1750, "LOW", 480, 120)
     .flags([
-        "no_smelting",
         "generate_plate",
         "generate_rod",
         "generate_long_rod",
@@ -142,26 +147,22 @@ MaterialBuilder(32106, "dark_steel")
 MaterialBuilder(32107, "soularium")
     .ingot()
     .color(0x5A4226)
+    .blastTemp(2700, "LOW", 480, 600)
     .flags([
-        "no_smelting",
         "generate_plate",
         "generate_rod",
         "generate_gear",
         "generate_ring",
         "generate_bolt_screw"
     ])
-    // .components([
-    //     <material:gold> * 1,
-    //     <material:soulsand> * 1
-    // ])
     .build();
 
 # End Steel
 MaterialBuilder(32108, "end_steel")
     .ingot()
     .color(0xBCB682)
+    .blastTemp(3600, "LOW", 1920, 1072)
     .flags([
-        "no_smelting",
         "generate_plate",
         "generate_rod",
         "generate_long_rod",
@@ -180,8 +181,8 @@ MaterialBuilder(32108, "end_steel")
 MaterialBuilder(32109, "construction_alloy")
     .ingot()
     .color(0x524C53)
+    .blastTemp(4500, "LOW", 1920, 1072)
     .flags([
-        "no_smelting",
         "generate_plate",
         "generate_rod",
         "generate_gear",
@@ -199,8 +200,8 @@ MaterialBuilder(32109, "construction_alloy")
 MaterialBuilder(32110, "crude_steel")
     .ingot()
     .color(0x8C8682)
+    .blastTemp(2700, "LOW", 480, 600)
     .flags([
-        "no_smelting",
         "generate_plate",
         "generate_rod",
         "generate_gear",
@@ -213,8 +214,8 @@ MaterialBuilder(32110, "crude_steel")
 MaterialBuilder(32111, "crystalline_alloy")
     .ingot()
     .color(0x9FE4E4)
+    .blastTemp(2700, "LOW", 480, 600)
     .flags([
-        "no_smelting",
         "generate_plate",
         "generate_rod",
         "generate_gear",
@@ -227,8 +228,8 @@ MaterialBuilder(32111, "crystalline_alloy")
 MaterialBuilder(32112, "melodic_alloy")
     .ingot()
     .color(0xA877A8)
+    .blastTemp(2700, "LOW", 480, 600)
     .flags([
-        "no_smelting",
         "generate_plate",
         "generate_rod",
         "generate_gear",
@@ -241,8 +242,8 @@ MaterialBuilder(32112, "melodic_alloy")
 MaterialBuilder(32113, "stellar_alloy")
     .ingot()
     .color(0xDBDECC)
+    .blastTemp(2700, "LOW", 480, 600)
     .flags([
-        "no_smelting",
         "generate_plate",
         "generate_rod",
         "generate_gear",
@@ -255,8 +256,8 @@ MaterialBuilder(32113, "stellar_alloy")
 MaterialBuilder(32114, "crystalline_pink_slime")
     .ingot()
     .color(0xE79EDB)
+    .blastTemp(2700, "LOW", 480, 600)
     .flags([
-        "no_smelting",
         "generate_plate",
         "generate_rod",
         "generate_gear",
@@ -269,8 +270,8 @@ MaterialBuilder(32114, "crystalline_pink_slime")
 MaterialBuilder(32115, "energetic_silver")
     .ingot()
     .color(0x598DB3)
+    .blastTemp(3600, "LOW", 1920, 1072)
     .flags([
-        "no_smelting",
         "generate_plate",
         "generate_rod",
         "generate_gear",
@@ -283,8 +284,8 @@ MaterialBuilder(32115, "energetic_silver")
 MaterialBuilder(32116, "vivid_alloy")
     .ingot()
     .color(0x469BB1)
+    .blastTemp(4500, "LOW", 1920, 1072)
     .flags([
-        "no_smelting",
         "generate_plate",
         "generate_rod",
         "generate_gear",
