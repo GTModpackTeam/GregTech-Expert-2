@@ -1,7 +1,11 @@
 # Imports
-import mods.ctutils.utils.Math;
 import crafttweaker.item.IItemStack;
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
+import mods.jei.JEI;
 import mods.gregtech.recipe.RecipeMap;
 import mods.gregtech.recipe.RecipeMaps;
 import mods.gregtech.recipe.FactoryRecipeMap;
@@ -42,75 +46,48 @@ recipes.addShaped(<metaitem:multiblocktweaker:greenhouse>, [
     [<ore:circuitGood>, <metaitem:hull.mv>, <ore:circuitGood>],
     [<metaitem:electric.piston.mv>, <metaitem:electric.pump.mv>, <metaitem:electric.piston.mv>]
 ]);
-<metaitem:multiblocktweaker:greenhouse>.addTooltip(
-    format.green("This came from the GTCEu Community Pack.")
-);
+JEI.addDescription(<metaitem:multiblocktweaker:greenhouse>, "This came from the GTCEu Community Pack.");
 
 
 
 ########################################
-# 3D Builder
+# Void Ore Drilling Plant
 ########################################
-Builder.start("large_crafttable", 32100)
+Builder.start("voidoreminer", 32001)
     .withPattern(function(controller as IControllerTile) as IBlockPattern {
         return FactoryBlockPattern.start()
-            .aisle("CCCCC", "CCCCC", "CCCCC", "CCCCC", "CCCCC")
-            .aisle("CCCCC", "CMMMC", "CMMMC", "CMMMC", "CCCCC")
-            .aisle("CCCCC", "CMMMC", "CMMMC", "CMMMC", "CCCCC")
-            .aisle("CCCCC", "CMMMC", "CMMMC", "CMMMC", "CCCCC")
-            .aisle("CCCCC", "CCSCC", "CCCCC", "CCCCC", "CCCCC")
+            .aisle("CCCCC", "#FFF#", "#FFF#", "#FFF#", "#####", "#####", "#####", "#####", "#####", "#####")
+            .aisle("CCCCC", "FCCCF", "FCCCF", "FCCCF", "#FFF#", "##F##", "##F##", "#####", "#####", "#####")
+            .aisle("CCCCC", "FCCCF", "FCCCF", "FCCCF", "#FCF#", "#FCF#", "#FCF#", "##F##", "##F##", "##F##")
+            .aisle("CCCCC", "FCCCF", "FCCCF", "FCCCF", "#FFF#", "##F##", "##F##", "#####", "#####", "#####")
+            .aisle("CCSCC", "#FFF#", "#FFF#", "#FFF#", "#####", "#####", "#####", "#####", "#####", "#####")
             .where("S", controller.self())
-            .where("C", CTPredicate.states(<metastate:gcym:large_multiblock_casing:11>).setMinGlobalLimited(93) | controller.autoAbilities())
-            .where("M", CTPredicate.states(<metastate:appliedenergistics2:molecular_assembler>))
+            .where("C", CTPredicate.states(<metastate:gregtech:metal_casing:9>).setMinGlobalLimited(49) | controller.autoAbilities())
+            .where("F", CTPredicate.states(<metastate:gregtech:meta_block_frame_63:8>))
             .where("#", CTPredicate.getAir())
             .build();
     } as IPatternBuilderFunction)
-    .withRecipeMap(<recipemap:large_crafttable>)
-    .withBaseTexture(<metastate:gcym:large_multiblock_casing:11>)
+    .withRecipeMap(<recipemap:voidoreminer>)
+    .withBaseTexture(<metastate:gregtech:metal_casing:9>)
     .buildAndRegister();
-<metaitem:multiblocktweaker:large_crafttable>.addTooltip(
-    format.red("Currently under adjustment.")
-);
-
-// recipes.addShaped(<metaitem:multiblocktweaker:large_crafttable>, [
-//     [<gregtech:transparent_casing>, <gregtech:transparent_casing>, <gregtech:transparent_casing>],
-//     [<ore:circuitSuper>, <metaitem:hull.uv>, <ore:circuitSuper>],
-//     [<metaitem:electric.piston.uv>, <metaitem:electric.pump.uv>, <metaitem:electric.piston.uv>]
-// ]);
-
-
-
-########################################
-# Void Ore Miner
-########################################
-// Builder.start("voidoreminer", 33000)
-//     .withPattern(function(controller as IControllerTile) as IBlockPattern {
-//         return FactoryBlockPattern.start()
-//             .aisle("CCCCCCCCC", "CCCCCCCCC", "C#######C", "C#######C", "C#######C", "CCCCCCCCC", "CFFFFFFFC", "CFFFFFFFC", "C#######C", "C#######C")
-//             .aisle("C#######C", "C#######C", "#########", "#########", "#########", "C###D###C", "F##DDD##F", "F##DDD##F", "###DDD###", "#########")
-//             .aisle("C#######C", "C#######C", "#########", "####D####", "###DDD###", "C##DDD##C", "F#DD#DD#F", "F#D###D#F", "##D###D##", "#########")
-//             .aisle("C###D###C", "C###D###C", "###DDD###", "###D#D###", "##DD#DD##", "C#D###D#C", "FDD###DDF", "FD#####DF", "#D#####D#", "#########")
-//             .aisle("C##D#D##C", "C##D#D##C", "###D#D###", "##D###D##", "##D###D##", "CDD###DDC", "FD#####DF", "FD#####DF", "#D#####D#", "#########")
-//             .aisle("C###D###C", "C###D###C", "###DDD###", "###D#D###", "##DD#DD##", "C#D###D#C", "FDD###DDF", "FD#####DF", "#D#####D#", "#########")
-//             .aisle("C#######C", "C#######C", "#########", "####D####", "###DDD###", "C##DDD##C", "F#DD#DD#F", "F#D###D#F", "##D###D##", "#########")
-//             .aisle("C#######C", "C#######C", "#########", "#########", "#########", "C###D###C", "F##DDD##F", "F##DDD##F", "###DDD###", "#########")
-//             .aisle("CCCCCCCCC", "CCCCSCCCC", "C#######C", "C#######C", "C#######C", "CCCCCCCCC", "CFFFFFFFC", "CFFFFFFFC", "C#######C", "C#######C")
-//             .where("S", controller.self())
-//             .where("C", CTPredicate.states(<metastate:gregtech:metal_casing:10>).setMinGlobalLimited(42) | controller.autoAbilities())
-//             .where("D", CTPredicate.states(<metastate:gcym:large_multiblock_casing:11>))
-//             .where("F", CTPredicate.states(<metastate:gregtech:meta_block_frame_127:10>))
-//             .where("#", CTPredicate.getAir())
-//             .build();
-//     } as IPatternBuilderFunction)
-//     .withRecipeMap(<recipemap:voidoreminer>)
-//     .withBaseTexture(<metastate:gregtech:metal_casing:10>)
-//     .buildAndRegister();
-
-// recipes.addShaped(<metaitem:multiblocktweaker:voidoreminer>, [
-//     [<gregtech:transparent_casing>, <gregtech:transparent_casing>, <gregtech:transparent_casing>],
-//     [<ore:circuitUltimate>, <metaitem:hull.zpm>, <ore:circuitUltimate>],
-//     [<metaitem:electric.piston.zpm>, <metaitem:electric.pump.zpm>, <metaitem:electric.piston.zpm>]
-// ]);
+assembly_line.recipeBuilder()
+    .inputs([<metaitem:hull.zpm>])
+    .inputs([<metaitem:frameNaquadahAlloy> * 4])
+    .inputs([<metaitem:circuit.wetware_assembly> * 4])
+    .inputs([<metaitem:electric.motor.zpm> * 4])
+    .inputs([<metaitem:electric.pump.zpm> * 4])
+    .inputs([<metaitem:conveyor.module.zpm> * 4])
+    .inputs([<metaitem:robot.arm.zpm> * 4])
+    .inputs([<metaitem:emitter.zpm> * 4])
+    .inputs([<metaitem:sensor.zpm> * 4])
+    .inputs([<metaitem:fluid.regulator.zpm> * 4])
+    .inputs([<metaitem:gearNaquadahAlloy>])
+    .fluidInputs(<liquid:soldering_alloy> * 8000)
+    .outputs([<metaitem:multiblocktweaker:voidoreminer>])
+    .duration(600)
+    .EUt(122880)
+    .buildAndRegister();
+JEI.addDescription(<metaitem:multiblocktweaker:voidoreminer>, "When you put the ore you want to mine into the Input Bus, the same ore will be mined at ZPM, consuming 10s and 19200L of Drilling Fluid.");
 
 
 
@@ -228,30 +205,184 @@ for i, seed in seeds {
         .buildAndRegister();
 }
 
-# Void Ore Miner
-## Ores
-// var OresCount = Math.min(1, 5);
-// var Ores as IItemStack[] = [
-//     <gregtech:ore_aluminium_0>,
-//     <gregtech:ore_aluminium_0>,
-//     <gregtech:ore_beryllium_0>,
-//     <gregtech:ore_cobalt_0>,
-//     <gregtech:ore_copper_0>
-// ];
-
-##
-// voidoreminer.recipeBuilder()
-//     .fluidInputs([<liquid:drilling_fluid> * 1000])
-//     .outputs()
-//     .outputs()
-//     .outputs()
-//     .outputs()
-//     .outputs()
-//     .outputs()
-//     .outputs()
-//     .outputs()
-//     .outputs()
-//     .duration(1200)
-//     .EUt(122880)
-//     .hidden()
-//     .buildAndRegister();
+# Void Ore Drilling Plant
+## Mining
+var oresAny as IItemStack[] = [
+    <gregtech:ore_copper_0:*>,
+    <gregtech:ore_topaz_0:*>,
+    <gregtech:ore_wulfenite_0:*>,
+    <gregtech:ore_bastnasite_0:*>,
+    <gregtech:ore_garnet_sand_0:*>,
+    <gregtech:ore_lepidolite_0:*>,
+    <gregtech:ore_amethyst_0:*>,
+    <gregtech:ore_pyrope_0:*>,
+    <gregtech:ore_aluminium_0:*>,
+    <gregtech:ore_blue_topaz_0:*>,
+    <gregtech:ore_lazurite_0:*>,
+    <gregtech:ore_kyanite_0:*>,
+    <gregtech:ore_lapis_0:*>,
+    <gregtech:ore_electrotine_0:*>,
+    <gregtech:ore_gold_0:*>,
+    <gregtech:ore_sulfur_0:*>,
+    <gregtech:ore_powellite_0:*>,
+    <gregtech:ore_tricalcium_phosphate_0:*>,
+    <gregtech:ore_iron_0:*>,
+    <gregtech:ore_lithium_0:*>,
+    <gregtech:ore_nickel_0:*>,
+    <gregtech:ore_tin_0:*>,
+    <gregtech:ore_asbestos_0:*>,
+    <gregtech:ore_calcite_0:*>,
+    <gregtech:ore_cassiterite_0:*>,
+    <gregtech:ore_pyrolusite_0:*>,
+    <gregtech:ore_sphalerite_0:*>,
+    <gregtech:ore_barite_0:*>,
+    <gregtech:ore_pollucite_0:*>,
+    <gregtech:ore_bentonite_0:*>,
+    <gregtech:ore_gypsum_0:*>,
+    <gregtech:ore_zeolite_0:*>,
+    <gregtech:ore_diatomite_0:*>,
+    <gregtech:ore_molybdenum_0:*>,
+    <gregtech:ore_platinum_0:*>,
+    <gregtech:ore_silver_0:*>,
+    <gregtech:ore_certus_quartz_0:*>,
+    <gregtech:ore_cassiterite_sand_0:*>,
+    <gregtech:ore_rock_salt_0:*>,
+    <gregtech:ore_salt_0:*>,
+    <gregtech:ore_saltpeter_0:*>,
+    <gregtech:ore_nether_quartz_0:*>,
+    <gregtech:ore_quartzite_0:*>,
+    <gregtech:ore_mica_0:*>,
+    <gregtech:ore_cobalt_0:*>,
+    <gregtech:ore_cobaltite_0:*>,
+    <gregtech:ore_sodalite_0:*>,
+    <gregtech:ore_opal_0:*>,
+    <gregtech:ore_brown_limonite_0:*>,
+    <gregtech:ore_grossular_0:*>,
+    <gregtech:ore_bauxite_0:*>,
+    <gregtech:ore_tantalite_0:*>,
+    <gregtech:ore_chalcopyrite_0:*>,
+    <gregtech:ore_scheelite_0:*>,
+    <gregtech:ore_emerald_0:*>,
+    <gregtech:ore_garnierite_0:*>,
+    <gregtech:ore_green_sapphire_0:*>,
+    <gregtech:ore_glauconite_sand_0:*>,
+    <gregtech:ore_malachite_0:*>,
+    <gregtech:ore_talc_0:*>,
+    <gregtech:ore_granitic_mineral_sand_0:*>,
+    <gregtech:ore_basaltic_mineral_sand_0:*>,
+    <gregtech:ore_almandine_0:*>,
+    <gregtech:ore_ruby_0:*>,
+    <gregtech:ore_cinnabar_0:*>,
+    <gregtech:ore_spessartine_0:*>,
+    <gregtech:ore_tetrahedrite_0:*>,
+    <gregtech:ore_realgar_0:*>,
+    <gregtech:ore_garnet_red_0:*>,
+    <gregtech:ore_redstone_0:*>,
+    <gregtech:ore_neodymium_0:*>,
+    <gregtech:ore_thorium_0:*>,
+    <gregtech:ore_naquadah_0:*>,
+    <gregtech:ore_chromite_0:*>,
+    <gregtech:ore_coal_0:*>,
+    <gregtech:ore_ilmenite_0:*>,
+    <gregtech:ore_magnetite_0:*>,
+    <gregtech:ore_molybdenite_0:*>,
+    <gregtech:ore_stibnite_0:*>,
+    <gregtech:ore_tungstate_0:*>,
+    <gregtech:ore_uraninite_0:*>,
+    <gregtech:ore_pyrochlore_0:*>,
+    <gregtech:ore_oilsands_0:*>
+];
+var ores as IItemStack[] = [
+    <gregtech:ore_copper_0>,
+    <gregtech:ore_topaz_0>,
+    <gregtech:ore_wulfenite_0>,
+    <gregtech:ore_bastnasite_0>,
+    <gregtech:ore_garnet_sand_0>,
+    <gregtech:ore_lepidolite_0>,
+    <gregtech:ore_amethyst_0>,
+    <gregtech:ore_pyrope_0>,
+    <gregtech:ore_aluminium_0>,
+    <gregtech:ore_blue_topaz_0>,
+    <gregtech:ore_lazurite_0>,
+    <gregtech:ore_kyanite_0>,
+    <gregtech:ore_lapis_0>,
+    <gregtech:ore_electrotine_0>,
+    <gregtech:ore_gold_0>,
+    <gregtech:ore_sulfur_0>,
+    <gregtech:ore_powellite_0>,
+    <gregtech:ore_tricalcium_phosphate_0>,
+    <gregtech:ore_iron_0>,
+    <gregtech:ore_lithium_0>,
+    <gregtech:ore_nickel_0>,
+    <gregtech:ore_tin_0>,
+    <gregtech:ore_asbestos_0>,
+    <gregtech:ore_calcite_0>,
+    <gregtech:ore_cassiterite_0>,
+    <gregtech:ore_pyrolusite_0>,
+    <gregtech:ore_sphalerite_0>,
+    <gregtech:ore_barite_0>,
+    <gregtech:ore_pollucite_0>,
+    <gregtech:ore_bentonite_0>,
+    <gregtech:ore_gypsum_0>,
+    <gregtech:ore_zeolite_0>,
+    <gregtech:ore_diatomite_0>,
+    <gregtech:ore_molybdenum_0>,
+    <gregtech:ore_platinum_0>,
+    <gregtech:ore_silver_0>,
+    <gregtech:ore_certus_quartz_0>,
+    <gregtech:ore_cassiterite_sand_0>,
+    <gregtech:ore_rock_salt_0>,
+    <gregtech:ore_salt_0>,
+    <gregtech:ore_saltpeter_0>,
+    <gregtech:ore_nether_quartz_0>,
+    <gregtech:ore_quartzite_0>,
+    <gregtech:ore_mica_0>,
+    <gregtech:ore_cobalt_0>,
+    <gregtech:ore_cobaltite_0>,
+    <gregtech:ore_sodalite_0>,
+    <gregtech:ore_opal_0>,
+    <gregtech:ore_brown_limonite_0>,
+    <gregtech:ore_grossular_0>,
+    <gregtech:ore_bauxite_0>,
+    <gregtech:ore_tantalite_0>,
+    <gregtech:ore_chalcopyrite_0>,
+    <gregtech:ore_scheelite_0>,
+    <gregtech:ore_emerald_0>,
+    <gregtech:ore_garnierite_0>,
+    <gregtech:ore_green_sapphire_0>,
+    <gregtech:ore_glauconite_sand_0>,
+    <gregtech:ore_malachite_0>,
+    <gregtech:ore_talc_0>,
+    <gregtech:ore_granitic_mineral_sand_0>,
+    <gregtech:ore_basaltic_mineral_sand_0>,
+    <gregtech:ore_almandine_0>,
+    <gregtech:ore_ruby_0>,
+    <gregtech:ore_cinnabar_0>,
+    <gregtech:ore_spessartine_0>,
+    <gregtech:ore_tetrahedrite_0>,
+    <gregtech:ore_realgar_0>,
+    <gregtech:ore_garnet_red_0>,
+    <gregtech:ore_redstone_0>,
+    <gregtech:ore_neodymium_0>,
+    <gregtech:ore_thorium_0>,
+    <gregtech:ore_naquadah_0>,
+    <gregtech:ore_chromite_0>,
+    <gregtech:ore_coal_0>,
+    <gregtech:ore_ilmenite_0>,
+    <gregtech:ore_magnetite_0>,
+    <gregtech:ore_molybdenite_0>,
+    <gregtech:ore_stibnite_0>,
+    <gregtech:ore_tungstate_0>,
+    <gregtech:ore_uraninite_0>,
+    <gregtech:ore_pyrochlore_0>,
+    <gregtech:ore_oilsands_0>
+];
+for i, ore in ores {
+    voidoreminer.recipeBuilder()
+        .inputs([oresAny[i]])
+        .fluidInputs([<liquid:drilling_fluid> * 19200])
+        .outputs([ore * 64])
+        .duration(200)
+        .EUt(122880)
+        .buildAndRegister();
+}

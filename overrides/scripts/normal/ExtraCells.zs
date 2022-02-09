@@ -482,8 +482,8 @@ recipes.addShaped(<extracells:part.base:8>, [
 # Fluid Vibration Chamber
 recipes.remove(<extracells:vibrantchamberfluid>);
 recipes.addShaped(<extracells:vibrantchamberfluid>, [
-    [<ore:plateStainlessSteel>, <gregtech:meta_item_1:144>, <ore:plateStainlessSteel>],
-    [<ore:plateStainlessSteel>, <gregtech:machine:1575>, <ore:plateStainlessSteel>],
+    [<ore:plateStainlessSteel>, <metaitem:electric.pump.hv>, <ore:plateStainlessSteel>],
+    [<ore:plateStainlessSteel>, <metaitem:super_tank.hv>, <ore:plateStainlessSteel>],
     [<ore:plateStainlessSteel>, <appliedenergistics2:vibration_chamber>, <ore:plateStainlessSteel>]
 ]);
 

@@ -61,7 +61,7 @@ electric_blast_furnace.recipeBuilder()
         <ore:dustSilicon>
     ])
     .property("temperature", 1500)
-    .outputs([<enderio:item_alloy_ingot>])
+    .outputs([<gregtech:meta_ingot:32100>])
     .duration(56)
     .EUt(480)
     .buildAndRegister();
@@ -74,7 +74,7 @@ electric_blast_furnace.recipeBuilder()
         <ore:dustGlowstone>
     ])
     .property("temperature", 1500)
-    .outputs([<enderio:item_alloy_ingot:1>])
+    .outputs([<gregtech:meta_ingot:32101>])
     .duration(56)
     .EUt(480)
     .buildAndRegister();
@@ -82,11 +82,11 @@ electric_blast_furnace.recipeBuilder()
 # Vibrant Alloy Ingot
 electric_blast_furnace.recipeBuilder()
     .inputs([
-        <enderio:item_alloy_ingot:1>,
+        <ore:ingotEnergeticAlloySteel>,
         <ore:dustEnderPearl>
     ])
     .property("temperature", 1500)
-    .outputs([<enderio:item_alloy_ingot:2>])
+    .outputs([<gregtech:meta_ingot:32102>])
     .duration(56)
     .EUt(480)
     .buildAndRegister();
@@ -98,7 +98,7 @@ electric_blast_furnace.recipeBuilder()
         <ore:dustSilicon>
     ])
     .property("temperature", 1500)
-    .outputs([<enderio:item_alloy_ingot:3>])
+    .outputs([<gregtech:meta_ingot:32103>])
     .duration(56)
     .EUt(480)
     .buildAndRegister();
@@ -110,7 +110,7 @@ electric_blast_furnace.recipeBuilder()
         <ore:dustRedstone>
     ])
     .property("temperature", 1500)
-    .outputs([<enderio:item_alloy_ingot:4>])
+    .outputs([<gregtech:meta_ingot:32104>])
     .duration(56)
     .EUt(480)
     .buildAndRegister();
@@ -122,7 +122,7 @@ electric_blast_furnace.recipeBuilder()
         <ore:dustEnderPearl>
     ])
     .property("temperature", 1500)
-    .outputs([<enderio:item_alloy_ingot:5>])
+    .outputs([<gregtech:meta_ingot:32105>])
     .duration(56)
     .EUt(480)
     .buildAndRegister();
@@ -135,7 +135,7 @@ electric_blast_furnace.recipeBuilder()
         <ore:dustObsidian>
     ])
     .property("temperature", 1500)
-    .outputs([<enderio:item_alloy_ingot:6>])
+    .outputs([<gregtech:meta_ingot:32106>])
     .duration(56)
     .EUt(480)
     .buildAndRegister();
@@ -147,7 +147,7 @@ electric_blast_furnace.recipeBuilder()
         <minecraft:soul_sand>
     ])
     .property("temperature", 2000)
-    .outputs([<enderio:item_alloy_ingot:7>])
+    .outputs([<gregtech:meta_ingot:32107>])
     .duration(56)
     .EUt(480)
     .buildAndRegister();
@@ -160,7 +160,7 @@ electric_blast_furnace.recipeBuilder()
         <minecraft:obsidian>
     ])
     .property("temperature", 2500)
-    .outputs([<enderio:item_alloy_ingot:8>])
+    .outputs([<gregtech:meta_ingot:32108>])
     .duration(56)
     .EUt(480)
     .buildAndRegister();
@@ -173,7 +173,7 @@ electric_blast_furnace.recipeBuilder()
         <ore:ingotAluminium>
     ])
     .property("temperature", 3000)
-    .outputs([<enderio:item_alloy_ingot:9>])
+    .outputs([<gregtech:meta_ingot:32109>])
     .duration(56)
     .EUt(480)
     .buildAndRegister();
@@ -294,32 +294,16 @@ JEI.removeAndHide(<enderio:item_material:10>);
 <ore:gearStone>.remove(<enderio:item_material:10>);
 
 # Infity Bimetal Gear
-recipes.addShaped(<enderio:item_material:11>, [
-    [<ore:nuggetIron>, <minecraft:iron_ingot>, <ore:nuggetIron>],
-    [<ore:ingotIron>, <ore:dustBedrock>, <ore:ingotIron>],
-    [<ore:nuggetIron>, <ore:ingotIron>, <minecraft:iron_nugget>]
-]);
+JEI.removeAndHide(<enderio:item_material:11>);
 
 # Energized Bimetal Gear
-recipes.addShaped(<enderio:item_material:12>, [
-    [<ore:nuggetEnergeticAlloy>, <ore:nuggetEnergeticAlloy>, <ore:nuggetEnergeticAlloy>],
-    [<ore:nuggetEnergeticAlloy>, <ore:gearIronInfinity>, <ore:nuggetEnergeticAlloy>],
-    [<ore:nuggetEnergeticAlloy>, <ore:nuggetEnergeticAlloy>, <enderio:item_alloy_nugget:1>]
-]);
+JEI.removeAndHide(<enderio:item_material:12>);
 
 # Vibrant Bimetal Gear
-recipes.addShaped(<enderio:item_material:13>, [
-    [<ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>],
-    [<ore:nuggetVibrantAlloy>, <ore:gearEnergized>, <ore:nuggetVibrantAlloy>],
-    [<ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>, <enderio:item_alloy_nugget:2>]
-]);
+JEI.removeAndHide(<enderio:item_material:13>);
 
 # Dark Bimetal Gear
-recipes.addShaped(<enderio:item_material:73>, [
-    [<ore:nuggetDarkSteel>, <ore:nuggetDarkSteel>, <ore:nuggetDarkSteel>],
-    [<ore:nuggetDarkSteel>, <ore:gearIronInfinity>, <ore:nuggetDarkSteel>],
-    [<ore:nuggetDarkSteel>, <ore:nuggetDarkSteel>, <enderio:item_alloy_nugget:6>]
-]);
+JEI.removeAndHide(<enderio:item_material:73>);
 
 # Pulsating Crystal
 recipes.addShaped(<enderio:item_material:14>, [
@@ -678,7 +662,7 @@ alloy_smelter.recipeBuilder()
         <minecraft:gravel>,
         <minecraft:clay_ball> * 9
     ])
-    .outputs([<enderio:item_alloy_endergy_ingot>])
+    .outputs([<gregtech:meta_ingot:32110>])
     .duration(56)
     .EUt(480)
     .buildAndRegister();
@@ -690,7 +674,7 @@ electric_blast_furnace.recipeBuilder()
         <ore:itemPrecientPowder>
     ])
     .property("temperature", 3000)
-    .outputs([<enderio:item_alloy_endergy_ingot:1>])
+    .outputs([<gregtech:meta_ingot:32111>])
     .duration(56)
     .EUt(480)
     .buildAndRegister();
@@ -702,7 +686,7 @@ electric_blast_furnace.recipeBuilder()
         <minecraft:chorus_fruit_popped>
     ])
     .property("temperature", 3000)
-    .outputs([<enderio:item_alloy_endergy_ingot:2>])
+    .outputs([<gregtech:meta_ingot:32112>])
     .duration(56)
     .EUt(480)
     .buildAndRegister();
@@ -715,7 +699,7 @@ electric_blast_furnace.recipeBuilder()
         <ore:dustClay> * 4
     ])
     .property("temperature", 3500)
-    .outputs([<enderio:item_alloy_endergy_ingot:3>])
+    .outputs([<gregtech:meta_ingot:32113>])
     .duration(56)
     .EUt(480)
     .buildAndRegister();
@@ -727,7 +711,7 @@ electric_blast_furnace.recipeBuilder()
         <minecraft:slime_ball> * 8
     ])
     .property("temperature", 3500)
-    .outputs([<enderio:item_alloy_endergy_ingot:4>])
+    .outputs([<gregtech:meta_ingot:32114>])
     .duration(56)
     .EUt(480)
     .buildAndRegister();
@@ -740,7 +724,7 @@ electric_blast_furnace.recipeBuilder()
         <ore:dustGlowstone>,
     ])
     .property("temperature", 3500)
-    .outputs([<enderio:item_alloy_endergy_ingot:5>])
+    .outputs([<gregtech:meta_ingot:32115>])
     .duration(56)
     .EUt(480)
     .buildAndRegister();
@@ -752,7 +736,7 @@ electric_blast_furnace.recipeBuilder()
         <ore:dustEnderPearl>
     ])
     .property("temperature", 3500)
-    .outputs([<enderio:item_alloy_endergy_ingot:6>])
+    .outputs([<gregtech:meta_ingot:32116>])
     .duration(56)
     .EUt(480)
     .buildAndRegister();
@@ -828,8 +812,8 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs([
         <enderio:item_capacitor_crystalline> * 2,
-        <enderio:item_alloy_endergy_ingot:2> * 2,
-        <enderio:item_alloy_ingot:8>
+        <ore:ingotEndSteel> * 2,
+        <ore:nuggetEndSteel>
     ])
     .fluidInputs([<liquid:redstone> * 144])
     .outputs([<enderio:item_capacitor_melodic>])

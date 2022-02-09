@@ -1,0 +1,21 @@
+# Ender IO - Override
+material.electrical_steel=Electrical Steel
+material.energetic_alloy=Energetic Alloy
+material.vibrant_alloy=Vibrant Alloy
+material.redstone_alloy=Redstone Alloy
+material.conductive_iron=Conductive Iron
+material.pulsating_iron=Pulsating Iron
+material.dark_steel=Dark Steel
+material.soularium=Soularium
+material.end_steel=End Steel
+material.construction_alloy=Construction Alloy
+material.crude_steel=Crude Steel
+material.crystalline_alloy=Crystalline Alloy
+material.melodic_alloy=Melodic Alloy
+material.stellar_alloy=Stellar Alloy
+material.crystalline_pink_slime=Crystalline Pink Slime
+material.energetic_silver=Energetic Silver
+material.vivid_alloy=Vivid Alloy
+
+# GregTech
+material.naquadah_rocket_fuel=Naquadah Rocket Fuel
