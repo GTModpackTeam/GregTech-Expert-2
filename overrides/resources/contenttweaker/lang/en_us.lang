@@ -3,10 +3,6 @@ item.contenttweaker.dustChargedCertusQuartz.name=Charged Certus Quartz Dust
 item.contenttweaker.creativeComponent.name=GTE ME Storage Fake Component
 
 multiblocktweaker.machine.greenhouse.name=Greenhouse
-recipemap.greenhouse.name=Greenhous
-multiblocktweaker.machine.large_crafttable.name=3D Builder
-recipemap.large_crafttable.name=3D Builder
-multiblocktweaker.machine.microwave_multiblock.name=Microwave
-recipemap.microwave_multiblock.name=Microwave
-multiblocktweaker.machine.voidoreminer.name=Void Ore Miner
-recipemap.voidoreminer.name=Void Ore Miner
+recipemap.greenhouse.name=Greenhouse
+multiblocktweaker.machine.voidoreminer.name=Void Ore Drilling Plant
+recipemap.voidoreminer.name=Void Ore Drilling Plant

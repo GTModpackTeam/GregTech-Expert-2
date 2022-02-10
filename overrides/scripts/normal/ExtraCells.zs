@@ -481,11 +481,18 @@ recipes.addShaped(<extracells:part.base:8>, [
 
 # Fluid Vibration Chamber
 recipes.remove(<extracells:vibrantchamberfluid>);
-recipes.addShaped(<extracells:vibrantchamberfluid>, [
-    [<ore:plateStainlessSteel>, <gregtech:meta_item_1:144>, <ore:plateStainlessSteel>],
-    [<ore:plateStainlessSteel>, <gregtech:machine:1575>, <ore:plateStainlessSteel>],
-    [<ore:plateStainlessSteel>, <appliedenergistics2:vibration_chamber>, <ore:plateStainlessSteel>]
-]);
+assembler.recipeBuilder()
+    .inputs([
+        <ore:circuitAdvanced> * 2,
+        <ore:cableGtSingleGold> * 2,
+        <metaitem:electric.pump.hv> * 2,
+        <ore:wireGtDoubleKanthal> * 4,
+        <ore:plateStainlessSteel> * 7
+    ])
+    .outputs([<extracells:vibrantchamberfluid>])
+    .duration(200)
+    .EUt(480)
+    .buildAndRegister();
 
 # Obsidian ME Drive
 recipes.remove(<extracells:hardmedrive>);

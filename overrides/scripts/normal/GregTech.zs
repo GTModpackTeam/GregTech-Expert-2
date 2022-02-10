@@ -2,6 +2,8 @@
 # Imports
 import mods.jei.JEI;
 import crafttweaker.item.IItemStack;
+import mods.gregtech.recipe.RecipeMap;
+import mods.gregtech.recipe.RecipeMaps;
 
 
 
@@ -12,11 +14,16 @@ import crafttweaker.item.IItemStack;
 recipes.addShapeless(<gregtech:meta_gem:214>, [<appliedenergistics2:material>]);
 
 # Stone Rod
+recipes.addShaped(<gregtech:meta_stick:1599>, [
+    [<ore:gtce.tool.files>, null, null],
+    [null, <minecraft:stone>, null],
+    [null, null, null]
+]);
 lathe.recipeBuilder()
     .inputs([<minecraft:stone>])
     .outputs([
         <gregtech:meta_stick:1599>,
-        <gregtech:meta_dust_small:1599>
+        <gregtech:meta_dust_small:1599> * 2
     ])
     .duration(10)
     .EUt(7)
@@ -87,6 +94,19 @@ recipes.addShaped(<gregtech:meta_item_1:340>, [
     [null, <gregtech:meta_item_1:339>, null]
 ]);
 
+# Netherrack Dust
+centrifuge.findRecipe(20, [<metaitem:dustNetherrack>], null).remove();
+centrifuge.recipeBuilder()
+    .inputs([<metaitem:dustNetherrack>])
+    .chancedOutput(<gregtech:meta_dust_tiny:41>, 620, 120)
+    .chancedOutput(<gregtech:meta_dust_tiny:2064>, 5600, 850)
+    .chancedOutput(<gregtech:meta_dust_tiny:271>, 5600, 850)
+    .chancedOutput(<gregtech:meta_dust_tiny:1601>, 5600, 850)
+    .chancedOutput(<gregtech:meta_dust_small:103>, 9900, 100)
+    .duration(160)
+    .EUt(20)
+    .buildAndRegister();
+
 # Nether Star Dust
 chemical_reactor.recipeBuilder()
     .inputs([
@@ -101,3 +121,57 @@ chemical_reactor.recipeBuilder()
     .duration(200)
     .EUt(7680)
     .buildAndRegister();
+
+
+
+########################################
+# Liquids
+########################################
+# Naquadah Rocket Fuel
+mixer.recipeBuilder()
+    .fluidInputs([
+        <liquid:naquadah> * 1000,
+        <liquid:rocket_fuel> * 1000
+    ])
+    .fluidOutputs([<liquid:naquadah_rocket_fuel> * 6000])
+    .duration(60)
+    .EUt(16)
+    .buildAndRegister();
+RecipeMaps.COMBUSTION_GENERATOR_FUELS.recipeBuilder()
+    .fluidInputs([<liquid:naquadah_rocket_fuel>])
+    .duration(500)
+    .EUt(32)
+    .buildAndRegister();
+
+
+
+########################################
+# Blocks
+########################################
+# UHV Voltage 4x Battery Buffer
+recipes.addShaped(<gregtech:machine:1324>, [
+    [null, null, null],
+    [<ore:wireGtQuadrupleEuropium>, <minecraft:chest>, <ore:wireGtQuadrupleEuropium>],
+    [<ore:wireGtQuadrupleEuropium>, <gregtech:machine:994>, <ore:wireGtQuadrupleEuropium>]
+]);
+
+# UHV Voltage 8x Battery Buffer
+recipes.addShaped(<gregtech:machine:1334>, [
+    [null, null, null],
+    [<ore:wireGtOctalEuropium>, <minecraft:chest>, <ore:wireGtOctalEuropium>],
+    [<ore:wireGtOctalEuropium>, <gregtech:machine:994>, <ore:wireGtOctalEuropium>]
+]);
+
+# UHV Voltage 16x Battery Buffer
+recipes.addShaped(<gregtech:machine:1344>, [
+    [null, null, null],
+    [<ore:wireGtHexEuropium>, <minecraft:chest>, <ore:wireGtHexEuropium>],
+    [<ore:wireGtHexEuropium>, <gregtech:machine:994>, <ore:wireGtHexEuropium>]
+]);
+
+# UHV Voltage Turbo Charger
+recipes.addShaped(<gregtech:machine:1384>, [
+    [<ore:wireGtQuadrupleEuropium>, <minecraft:chest>, <ore:wireGtQuadrupleEuropium>],
+    [<ore:wireGtQuadrupleEuropium>, <gregtech:machine:994>, <ore:wireGtQuadrupleEuropium>],
+    [<ore:wireGtSingleEuropium>, <ore:circuitInfinite>, <ore:wireGtSingleEuropium>]
+]);

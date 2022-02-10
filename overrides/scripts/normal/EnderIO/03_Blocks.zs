@@ -13,16 +13,23 @@ import mods.enderio.Tank; // no
 
 
 # Dark Steel Anvil
-assembler.recipeBuilder()
+alloy_smelter.recipeBuilder()
     .inputs([<ore:ingotDarkSteel> * 31])
     .notConsumable([<gregtech:meta_item_1:21>])
     .outputs([<enderio:block_dark_steel_anvil>])
     .duration(512)
     .EUt(480)
     .buildAndRegister();
+fluid_solidifier.recipeBuilder()
+    .notConsumable([<gregtech:meta_item_1:21>])
+    .fluidInputs([<liquid:dark_steel> * 4467])
+    .outputs([<enderio:block_dark_steel_anvil>])
+    .duration(128)
+    .EUt(16)
+    .buildAndRegister();
 
 # Dark Paper Anvil
-assembler.recipeBuilder()
+alloy_smelter.recipeBuilder()
     .inputs([
         <enderio:block_dark_steel_anvil>,
         <ore:paperBlack>
@@ -33,32 +40,65 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 # Dark Steel Ladder
-recipes.addShaped(<enderio:block_dark_steel_ladder> * 6, [
-    [null, <enderio:block_dark_iron_bars>, null],
-    [null, <enderio:block_dark_iron_bars>, null],
-    [null, <enderio:block_dark_iron_bars>, null]
+recipes.addShaped(<enderio:block_dark_steel_ladder> * 3, [
+    [<ore:stickDarkSteel>, null, <ore:stickDarkSteel>],
+    [<ore:stickDarkSteel>, <ore:stickDarkSteel>, <ore:stickDarkSteel>],
+    [<ore:stickDarkSteel>, null, <ore:stickDarkSteel>]
 ]);
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([<ore:stickDarkSteel> * 7])
+    .outputs([<enderio:block_dark_steel_ladder> * 2])
+    .duration(40)
+    .EUt(1)
+    .buildAndRegister();
 
 # Dark Iron Bars
 recipes.addShaped(<enderio:block_dark_iron_bars> * 8, [
-    [null, null, null],
-    [<ore:ingotDarkSteel>, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>],
-    [<ore:ingotDarkSteel>, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>]
+    [null, <ore:gtce.tool.hard.hammers>, null],
+    [<ore:stickDarkSteel>, <ore:stickDarkSteel>, <ore:stickDarkSteel>],
+    [<ore:stickDarkSteel>, <ore:stickDarkSteel>, <ore:stickDarkSteel>]
 ]);
+assembler.recipeBuilder()
+    .circuit(3)
+    .inputs([<ore:stickDarkSteel> * 3])
+    .outputs([<enderio:block_dark_iron_bars> * 4])
+    .duration(300)
+    .EUt(4)
+    .buildAndRegister();
 
 # Dark Steel Trapdoor
 recipes.addShaped(<enderio:block_dark_steel_trapdoor>, [
-    [<ore:ingotDarkSteel>, <ore:ingotDarkSteel>, null],
-    [<ore:ingotDarkSteel>, <ore:ingotDarkSteel>, null],
-    [null, null, null]
+    [<ore:screwDarkSteel>, <ore:plateDarkSteel>, <ore:screwDarkSteel>],
+    [<ore:plateDarkSteel>, <minecraft:trapdoor>, <ore:plateDarkSteel>],
+    [<ore:gtce.tool.saws>, <ore:plateDarkSteel>, <ore:gtce.tool.screwdrivers>]
 ]);
+assembler.recipeBuilder()
+    .inputs([
+        <ore:plateDarkSteel> * 4,
+        <minecraft:trapdoor>
+    ])
+    .fluidInputs([<liquid:steel> * 16])
+    .outputs([<enderio:block_dark_steel_trapdoor>])
+    .duration(100)
+    .EUt(16)
+    .buildAndRegister();
 
 # Dark Steel Door
 recipes.addShaped(<enderio:block_dark_steel_door>, [
-    [<ore:ingotDarkSteel>, <ore:ingotDarkSteel>, null],
-    [<ore:ingotDarkSteel>, <ore:ingotDarkSteel>, null],
-    [<ore:ingotDarkSteel>, <ore:ingotDarkSteel>, null]
+    [<ore:plateDarkSteel>, <enderio:block_dark_iron_bars>, <ore:gtce.tool.hard.hammers>],
+    [<ore:plateDarkSteel>, <ore:ringDarkSteel>, <ore:screwDarkSteel>],
+    [<ore:plateDarkSteel>, <ore:plateDarkSteel>, <ore:gtce.tool.screwdrivers>]
 ]);
+assembler.recipeBuilder()
+    .inputs([
+        <enderio:block_dark_iron_bars>,
+        <ore:plateDarkSteel> * 4
+    ])
+    .outputs([<enderio:block_dark_steel_door>])
+    .duration(400)
+    .EUt(7)
+    .buildAndRegister();
 
 # Self-resetting Levers
 JEI.removeAndHide(<enderio:block_self_resetting_lever5>);
@@ -96,11 +136,18 @@ alloy_smelter.recipeBuilder()
     .buildAndRegister();
 
 # End Steel Bars
-recipes.addShaped(<enderio:block_end_iron_bars>, [
-    [null, null, null],
-    [<ore:ingotEndSteel>, <ore:ingotEndSteel>, <ore:ingotEndSteel>],
-    [<ore:ingotEndSteel>, <ore:ingotEndSteel>, <ore:ingotEndSteel>]
+recipes.addShaped(<enderio:block_end_iron_bars> * 8, [
+    [null, <ore:gtce.tool.hard.hammers>, null],
+    [<ore:stickEndSteel>, <ore:stickEndSteel>, <ore:stickEndSteel>],
+    [<ore:stickEndSteel>, <ore:stickEndSteel>, <ore:stickEndSteel>]
 ]);
+assembler.recipeBuilder()
+    .circuit(3)
+    .inputs([<ore:stickEndSteel> * 3])
+    .outputs([<enderio:block_end_iron_bars> * 4])
+    .duration(300)
+    .EUt(4)
+    .buildAndRegister();
 
 # Pressure Plates
 JEI.removeAndHide(<enderio:block_painted_pressure_plate:*>);

@@ -37,7 +37,7 @@ recipes.addShaped(<elevatorid:elevator_black>, [
     [<ore:gearSmallSteel>, <ore:frameGtSteel>, <ore:gearSmallSteel>],
     [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]
 ]);
-ore_washer.recipeBuilder()
+chemical_bath.recipeBuilder()
     .inputs([<ore:blockElevator>])
     .fluidInputs([<liquid:chlorine> * 144])
     .outputs([<elevatorid:elevator_black>])

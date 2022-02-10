@@ -73,37 +73,37 @@ global greenhouse as RecipeMap = FactoryRecipeMap.start("greenhouse")
     .maxFluidOutputs(0)
     .build();
 
-global large_crafttable as RecipeMap = FactoryRecipeMap.start("large_crafttable")
-    .minInputs(1)
-    .maxInputs(32)
-    .minOutputs(1)
-    .maxOutputs(1)
-    .minFluidInputs(0)
-    .maxFluidInputs(3)
-    .minFluidOutputs(0)
-    .maxFluidOutputs(0)
-    .build();
-
 global voidoreminer as RecipeMap = FactoryRecipeMap.start("voidoreminer")
     .minInputs(0)
-    .maxInputs(0)
+    .maxInputs(1)
     .minOutputs(1)
-    .maxOutputs(9)
+    .maxOutputs(1)
     .minFluidInputs(0)
     .maxFluidInputs(1)
     .minFluidOutputs(0)
     .maxFluidOutputs(0)
     .build();
 
+global disassembler as RecipeMap = FactoryRecipeMap.start("disassembler")
+    .minInputs(1)
+    .maxInputs(1)
+    .minOutputs(1)
+    .maxOutputs(9)
+    .minFluidInputs(0)
+    .maxFluidInputs(0)
+    .minFluidOutputs(0)
+    .maxFluidOutputs(0)
+    .build();
+
 <ore:gtce.tool.wrenches>.addItems([
-    <gregtech:meta_tool:8>.withEmptyTag(), 
-    <gregtech:meta_tool:28>.withEmptyTag(), 
-    <gregtech:meta_tool:29>.withEmptyTag(), 
+    <gregtech:meta_tool:8>.withEmptyTag(),
+    <gregtech:meta_tool:28>.withEmptyTag(),
+    <gregtech:meta_tool:29>.withEmptyTag(),
     <gregtech:meta_tool:30>.withEmptyTag()
 ]);
 
 <ore:gtce.tool.screwdrivers>.addItems([
-    <gregtech:meta_tool:11>.withEmptyTag(), 
+    <gregtech:meta_tool:11>.withEmptyTag(),
     <gregtech:meta_tool:31>.withEmptyTag()
 ]);
 
@@ -113,8 +113,8 @@ global voidoreminer as RecipeMap = FactoryRecipeMap.start("voidoreminer")
 
 <ore:gtce.tool.saws>.addItems([
     <gregtech:meta_tool:5>.withEmptyTag(),
-    <gregtech:meta_tool:25>.withEmptyTag(), 
-    <gregtech:meta_tool:26>.withEmptyTag(), 
+    <gregtech:meta_tool:25>.withEmptyTag(),
+    <gregtech:meta_tool:26>.withEmptyTag(),
     <gregtech:meta_tool:27>.withEmptyTag(),
     <gregtech:meta_tool:32>.withEmptyTag()
 ]);
