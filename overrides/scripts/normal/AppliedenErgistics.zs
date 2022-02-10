@@ -1278,9 +1278,9 @@ assembler.recipeBuilder()
     .duration(20)
     .EUt(480)
     .buildAndRegister();
-ore_washer.recipeBuilder()
+chemical_bath.recipeBuilder()
     .inputs([<ore:ae2.cable.glass.colors>])
-    .fluidInputs([<liquid:water> * 100])
+    .fluidInputs([<liquid:chlorine> * 144])
     .outputs([<appliedenergistics2:part:16>])
     .duration(8)
     .EUt(480)
@@ -1319,9 +1319,9 @@ assembler.recipeBuilder()
     .duration(20)
     .EUt(480)
     .buildAndRegister();
-ore_washer.recipeBuilder()
+chemical_bath.recipeBuilder()
     .inputs([<ore:ae2.cable.covered.colors>])
-    .fluidInputs([<liquid:water> * 100])
+    .fluidInputs([<liquid:chlorine> * 144])
     .outputs([<appliedenergistics2:part:36>])
     .duration(8)
     .EUt(480)
@@ -1383,9 +1383,9 @@ assembler.recipeBuilder()
     .duration(20)
     .EUt(480)
     .buildAndRegister();
-ore_washer.recipeBuilder()
+chemical_bath.recipeBuilder()
     .inputs([<ore:ae2.cable.smart.colors>])
-    .fluidInputs([<liquid:water> * 100])
+    .fluidInputs([<liquid:chlorine> * 144])
     .outputs([<appliedenergistics2:part:56>])
     .duration(8)
     .EUt(480)
@@ -1427,9 +1427,9 @@ assembler.recipeBuilder()
     .duration(20)
     .EUt(480)
     .buildAndRegister();
-ore_washer.recipeBuilder()
+chemical_bath.recipeBuilder()
     .inputs([<ore:ae2.cable.dense.covered.colors>])
-    .fluidInputs([<liquid:water> * 100])
+    .fluidInputs([<liquid:chlorine> * 144])
     .outputs([<appliedenergistics2:part:516>])
     .duration(8)
     .EUt(480)
@@ -1509,9 +1509,9 @@ assembler.recipeBuilder()
     .duration(20)
     .EUt(480)
     .buildAndRegister();
-ore_washer.recipeBuilder()
+chemical_bath.recipeBuilder()
     .inputs([<ore:ae2.cable.dense.smart.colors>])
-    .fluidInputs([<liquid:water> * 100])
+    .fluidInputs([<liquid:chlorine> * 144])
     .outputs([<appliedenergistics2:part:76>])
     .duration(8)
     .EUt(480)
@@ -1565,11 +1565,19 @@ recipes.addShapeless(<appliedenergistics2:quartz_fixture>, [
 
 # Charger
 recipes.remove(<appliedenergistics2:charger>);
-recipes.addShaped(<appliedenergistics2:charger>, [
-    [<ore:plateSteel>, <ore:crystalFluix>, <ore:plateSteel>],
-    [<ore:ae2.cable.glass>, <metaitem:electrolyzer.hv>, <ore:ae2.cable.glass>],
-    [<ore:plateSteel>, <ore:crystalFluix>, <ore:plateSteel>]
-]);
+assembler.recipeBuilder()
+    .inputs([
+        <contenttweaker:dustfluix> * 2,
+        <ore:ae2.cable.glass> * 2,
+        <ore:circuitAdvanced> * 2,
+        <ore:cableGtSingleGold> * 1,
+        <ore:wireGtSingleElectrum> * 4,
+        <ore:plateSteel> * 4
+    ])
+    .outputs([<appliedenergistics2:charger>])
+    .duration(200)
+    .EUt(480)
+    .buildAndRegister();
 
 # Security Terminal
 recipes.remove(<appliedenergistics2:security_station>);
@@ -1685,11 +1693,17 @@ recipes.addShaped(<appliedenergistics2:energy_acceptor>, [
 
 # Vibration Chamber
 recipes.remove(<appliedenergistics2:vibration_chamber>);
-recipes.addShaped(<appliedenergistics2:vibration_chamber>, [
-    [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
-    [<ore:plateSteel>, <metaitem:electric_furnace.hv>, <ore:plateSteel>],
-    [<ore:plateSteel>, <appliedenergistics2:energy_acceptor>, <ore:plateSteel>]
-]);
+assembler.recipeBuilder()
+    .inputs([
+        <ore:circuitAdvanced> * 2,
+        <ore:cableGtSingleGold> * 2,
+        <ore:wireGtDoubleKanthal> * 4,
+        <ore:plateSteel> * 7
+    ])
+    .outputs([<appliedenergistics2:vibration_chamber>])
+    .duration(200)
+    .EUt(480)
+    .buildAndRegister();
 
 # Energy Cell
 recipes.remove(<appliedenergistics2:energy_cell>);
@@ -1726,11 +1740,19 @@ recipes.addShapeless(<appliedenergistics2:crafting_accelerator>, [
 
 # Molecular Assembler
 recipes.remove(<appliedenergistics2:molecular_assembler>);
-recipes.addShaped(<appliedenergistics2:molecular_assembler>, [
-    [<ore:plateSteel>, <ore:paneGlassColorless>, <ore:plateSteel>],
-    [<appliedenergistics2:material:44>, <gregtech:machine:112>, <appliedenergistics2:material:43>],
-    [<ore:plateSteel>, <ore:paneGlassColorless>, <ore:plateSteel>]
-]);
+assembler.recipeBuilder()
+    .inputs([
+        <ore:paneGlassColorless> * 2,
+        <ore:circuitAdvanced> * 2,
+        <metaitem:conveyor.module.hv> * 2,
+        <metaitem:robot.arm.hv> * 2,
+        <ore:plateSteel> * 4
+    ])
+    .fluidInputs([<liquid:plastic> * 144])
+    .outputs([<appliedenergistics2:molecular_assembler>])
+    .duration(200)
+    .EUt(480)
+    .buildAndRegister();
 
 # Light Detecting Fixture
 recipes.remove(<appliedenergistics2:light_detector>);

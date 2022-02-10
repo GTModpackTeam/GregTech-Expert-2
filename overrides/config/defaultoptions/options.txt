@@ -27,7 +27,7 @@ chatOpacity:1.0
 snooperEnabled:false
 fullscreen:false
 enableVsync:false
-useVbo:true
+useVbo:false
 hideServerAddress:false
 advancedItemTooltips:true
 pauseOnLostFocus:true
@@ -52,7 +52,7 @@ enableWeakAttacks:false
 autoJump:false
 narrator:0
 tutorialStep:none
-soundCategory_master:0.5
+soundCategory_master:0.5066225
 soundCategory_music:0.15492958
 soundCategory_record:0.2535211
 soundCategory_weather:0.5

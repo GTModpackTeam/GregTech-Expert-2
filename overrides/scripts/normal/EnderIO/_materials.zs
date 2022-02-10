@@ -15,9 +15,7 @@ MaterialBuilder(32100, "electrical_steel")
     .flags([
         "generate_plate",
         "generate_rod",
-        "generate_gear",
-        "generate_ring",
-        "generate_bolt_screw"
+        "generate_gear"
     ])
     .components([
         <material:steel> * 1,
@@ -33,11 +31,7 @@ MaterialBuilder(32101, "energetic_alloy")
     .color(0xED8009)
     .blastTemp(1750, "LOW", 480, 120)
     .flags([
-        "generate_plate",
-        "generate_rod",
-        "generate_gear",
-        "generate_ring",
-        "generate_bolt_screw"
+        "generate_plate"
     ])
     .components([
         <material:redstone> * 1,
@@ -55,9 +49,7 @@ MaterialBuilder(32102, "vibrant_alloy")
     .flags([
         "generate_plate",
         "generate_rod",
-        "generate_gear",
-        "generate_ring",
-        "generate_bolt_screw"
+        "generate_gear"
     ])
     .components([
         <material:energetic_alloy> * 1,
@@ -71,13 +63,6 @@ MaterialBuilder(32103, "redstone_alloy")
     .ingot()
     .color(0x942323)
     .blastTemp(1750, "LOW", 480, 120)
-    .flags([
-        "generate_plate",
-        "generate_rod",
-        "generate_gear",
-        "generate_ring",
-        "generate_bolt_screw"
-    ])
     .components([
         <material:copper> * 1,
         <material:redstone> * 4,
@@ -91,11 +76,7 @@ MaterialBuilder(32104, "conductive_iron")
     .color(0xD1A79B)
     .blastTemp(1750, "LOW", 480, 120)
     .flags([
-        "generate_plate",
-        "generate_rod",
-        "generate_gear",
-        "generate_ring",
-        "generate_bolt_screw"
+        "generate_plate"
     ])
     .components([
         <material:iron> * 1,
@@ -110,11 +91,7 @@ MaterialBuilder(32105, "pulsating_iron")
     .color(0x6EAC7D)
     .blastTemp(1750, "LOW", 480, 120)
     .flags([
-        "generate_plate",
-        "generate_rod",
-        "generate_gear",
-        "generate_ring",
-        "generate_bolt_screw"
+        "generate_plate"
     ])
     .components([
         <material:iron> * 1,
@@ -148,13 +125,6 @@ MaterialBuilder(32107, "soularium")
     .ingot()
     .color(0x5A4226)
     .blastTemp(2700, "LOW", 480, 600)
-    .flags([
-        "generate_plate",
-        "generate_rod",
-        "generate_gear",
-        "generate_ring",
-        "generate_bolt_screw"
-    ])
     .build();
 
 # End Steel
@@ -166,7 +136,6 @@ MaterialBuilder(32108, "end_steel")
         "generate_plate",
         "generate_rod",
         "generate_long_rod",
-        "generate_gear",
         "generate_ring",
         "generate_bolt_screw"
     ])
@@ -177,18 +146,11 @@ MaterialBuilder(32108, "end_steel")
     ])
     .build();
 
-# Construction Alloy
+# Construction Alloy(Iron Alloy)
 MaterialBuilder(32109, "construction_alloy")
     .ingot()
     .color(0x524C53)
     .blastTemp(4500, "LOW", 1920, 1072)
-    .flags([
-        "generate_plate",
-        "generate_rod",
-        "generate_gear",
-        "generate_ring",
-        "generate_bolt_screw"
-    ])
     .components([
         <material:platinum> * 1,
         <material:iron> * 1,
@@ -201,13 +163,6 @@ MaterialBuilder(32110, "crude_steel")
     .ingot()
     .color(0x8C8682)
     .blastTemp(2700, "LOW", 480, 600)
-    .flags([
-        "generate_plate",
-        "generate_rod",
-        "generate_gear",
-        "generate_ring",
-        "generate_bolt_screw"
-    ])
     .build();
 
 # Crystalline Alloy
@@ -215,13 +170,6 @@ MaterialBuilder(32111, "crystalline_alloy")
     .ingot()
     .color(0x9FE4E4)
     .blastTemp(2700, "LOW", 480, 600)
-    .flags([
-        "generate_plate",
-        "generate_rod",
-        "generate_gear",
-        "generate_ring",
-        "generate_bolt_screw"
-    ])
     .build();
 
 # Melodic Alloy
@@ -229,13 +177,6 @@ MaterialBuilder(32112, "melodic_alloy")
     .ingot()
     .color(0xA877A8)
     .blastTemp(2700, "LOW", 480, 600)
-    .flags([
-        "generate_plate",
-        "generate_rod",
-        "generate_gear",
-        "generate_ring",
-        "generate_bolt_screw"
-    ])
     .build();
 
 # Stellar Alloy
@@ -243,27 +184,13 @@ MaterialBuilder(32113, "stellar_alloy")
     .ingot()
     .color(0xDBDECC)
     .blastTemp(2700, "LOW", 480, 600)
-    .flags([
-        "generate_plate",
-        "generate_rod",
-        "generate_gear",
-        "generate_ring",
-        "generate_bolt_screw"
-    ])
     .build();
 
-# Crystallineline Pink Slime
+# Crystalline Pink Slime
 MaterialBuilder(32114, "crystalline_pink_slime")
     .ingot()
     .color(0xE79EDB)
     .blastTemp(2700, "LOW", 480, 600)
-    .flags([
-        "generate_plate",
-        "generate_rod",
-        "generate_gear",
-        "generate_ring",
-        "generate_bolt_screw"
-    ])
     .build();
 
 # Energetic Silver
@@ -271,13 +198,6 @@ MaterialBuilder(32115, "energetic_silver")
     .ingot()
     .color(0x598DB3)
     .blastTemp(3600, "LOW", 1920, 1072)
-    .flags([
-        "generate_plate",
-        "generate_rod",
-        "generate_gear",
-        "generate_ring",
-        "generate_bolt_screw"
-    ])
     .build();
 
 # Vivid Alloy
@@ -285,11 +205,4 @@ MaterialBuilder(32116, "vivid_alloy")
     .ingot()
     .color(0x469BB1)
     .blastTemp(4500, "LOW", 1920, 1072)
-    .flags([
-        "generate_plate",
-        "generate_rod",
-        "generate_gear",
-        "generate_ring",
-        "generate_bolt_screw"
-    ])
     .build();

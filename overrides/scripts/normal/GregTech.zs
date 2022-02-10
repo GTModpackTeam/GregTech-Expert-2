@@ -14,11 +14,16 @@ import mods.gregtech.recipe.RecipeMaps;
 recipes.addShapeless(<gregtech:meta_gem:214>, [<appliedenergistics2:material>]);
 
 # Stone Rod
+recipes.addShaped(<gregtech:meta_stick:1599>, [
+    [<ore:gtce.tool.files>, null, null],
+    [null, <minecraft:stone>, null],
+    [null, null, null]
+]);
 lathe.recipeBuilder()
     .inputs([<minecraft:stone>])
     .outputs([
         <gregtech:meta_stick:1599>,
-        <gregtech:meta_dust_small:1599>
+        <gregtech:meta_dust_small:1599> * 2
     ])
     .duration(10)
     .EUt(7)

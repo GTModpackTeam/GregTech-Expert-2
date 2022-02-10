@@ -792,8 +792,8 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs([
         <enderio:item_capacitor_crystalline> * 2,
-        <ore:ingotEndSteel> * 2,
-        <ore:nuggetEndSteel>
+        <ore:ingotMelodicAlloy> * 2,
+        <ore:ingotEndSteel>
     ])
     .fluidInputs([<liquid:redstone> * 144])
     .outputs([<enderio:item_capacitor_melodic>])
