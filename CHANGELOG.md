@@ -1,4 +1,82 @@
 # v0.12.0
+## New mods
+* AppleCore
+* Custom Main Menu
+* Extra CPUs
+* Wireless Crafting Terminal
+* AE2 Wireless Terminal Library
+
+## Update mods
+* CraftTweaker
+* NotEnoughEnergistics
+
+## ModPack update
+* Start preparing the Custom Main Menu.
+* In the last version, I created a 3D Builder for creative item creation, but I changed it to an assembly line.
+* The Void Ore Drilling Plant was added as an infinite mining machine. This is a large piece of equipment that will come in handy at the end of the game.
+* Added AE2's P2P usage to the JEI side.
+* Cable Facade and Fluid Pattern are also supported for the same reason as above.
+* Significant changes were made to ingot creation to align EIO with GT. Of course, you can still use your existing ingots.
+
+## Add recipe
+### AE2
+* Charged Certus Quartz Crystal
+* Fluix Crystal
+
+### GregTech
+* Stone Rod
+* Naquadah Rocket Fuel
+* UHV Voltage 4x Battery Buffer
+* UHV Voltage 8x Battery Buffer
+* UHV Voltage 16x Battery Buffer
+* UHV Voltage Turbo Charger
+
+## Fix recipe
+### AE2
+* Changed the color removal recipe from Ore Washer to Chemical Bath.
+* Matter Cannon
+* Wireless Terminal
+* Wireless Receiver
+* Wireless Boosting
+* Charged Certus Quartz Dust
+* Fluix Dust
+* Quartz Block
+* Fluix Block
+* Charger
+* Security Terminal
+* Spatial IO Port
+* Matter Condenser
+* Energy Acceptor
+* Energy Acceptor
+* Crafting Unit
+* Molecular Assembler
+
+### Elevator
+* Changed the color removal recipe from Ore Washer to Chemical Bath.
+
+### EnderIO
+* Changed to GT ingots and changed the recipe for tools and armor.
+* Changed ingot creation recipe to GT standard.
+* More MV and HV cables to use EIO ingots.
+
+## Change recipe
+### GregTech
+* There is now a chance of getting Tiny Glowstone Dust from Netherrack Dust.
+
+### Extra Cells
+* Fluid Vibration Chamber
+
+### OpenComputers
+* Fixes items that could not be created.
+
+### StorageDrawers
+* Storage Upgrade
+
+### Other
+* AppleCore ( #51 )
+
+* * *
+# v0.12.0
 ## Del mods
 * Extended Crafting
 * PackagedExCrafting
