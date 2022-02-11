@@ -74,12 +74,12 @@ global greenhouse as RecipeMap = FactoryRecipeMap.start("greenhouse")
     .build();
 
 global voidoreminer as RecipeMap = FactoryRecipeMap.start("voidoreminer")
-    .minInputs(0)
+    .minInputs(1)
     .maxInputs(1)
     .minOutputs(1)
     .maxOutputs(1)
-    .minFluidInputs(0)
-    .maxFluidInputs(1)
+    .minFluidInputs(2)
+    .maxFluidInputs(2)
     .minFluidOutputs(0)
     .maxFluidOutputs(0)
     .build();

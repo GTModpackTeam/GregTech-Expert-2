@@ -33,7 +33,7 @@ recipes.remove(<opencomputers:material:6>);
 assembler.recipeBuilder()
     .circuit(0)
     .inputs([
-        <ore:stickIron> * 3,
+        <ore:boltIron> * 3,
         <ore:dustRedstone>
     ])
     .outputs([<opencomputers:material:6>])

@@ -62,32 +62,31 @@ Builder.start("voidoreminer", 32001)
             .aisle("CCCCC", "FCCCF", "FCCCF", "FCCCF", "#FFF#", "##F##", "##F##", "#####", "#####", "#####")
             .aisle("CCSCC", "#FFF#", "#FFF#", "#FFF#", "#####", "#####", "#####", "#####", "#####", "#####")
             .where("S", controller.self())
-            .where("C", CTPredicate.states(<metastate:gregtech:metal_casing:9>).setMinGlobalLimited(49) | controller.autoAbilities())
-            .where("F", CTPredicate.states(<metastate:gregtech:meta_block_frame_63:8>))
+            .where("C", CTPredicate.states(<metastate:gregtech:metal_casing:10>).setMinGlobalLimited(48) | controller.autoAbilities())
+            .where("F", CTPredicate.states(<metastate:gregtech:meta_block_frame_157:7>))
             .where("#", CTPredicate.getAir())
             .build();
     } as IPatternBuilderFunction)
     .withRecipeMap(<recipemap:voidoreminer>)
-    .withBaseTexture(<metastate:gregtech:metal_casing:9>)
+    .withBaseTexture(<metastate:gregtech:metal_casing:10>)
     .buildAndRegister();
 assembly_line.recipeBuilder()
     .inputs([<metaitem:hull.zpm>])
     .inputs([<metaitem:frameNaquadahAlloy> * 4])
-    .inputs([<metaitem:circuit.wetware_assembly> * 4])
+    .inputs([<ore:circuitUltimate> * 4])
     .inputs([<metaitem:electric.motor.zpm> * 4])
     .inputs([<metaitem:electric.pump.zpm> * 4])
     .inputs([<metaitem:conveyor.module.zpm> * 4])
     .inputs([<metaitem:robot.arm.zpm> * 4])
     .inputs([<metaitem:emitter.zpm> * 4])
     .inputs([<metaitem:sensor.zpm> * 4])
-    .inputs([<metaitem:fluid.regulator.zpm> * 4])
     .inputs([<metaitem:gearNaquadahAlloy>])
     .fluidInputs(<liquid:soldering_alloy> * 8000)
     .outputs([<metaitem:multiblocktweaker:voidoreminer>])
     .duration(600)
     .EUt(122880)
     .buildAndRegister();
-JEI.addDescription(<metaitem:multiblocktweaker:voidoreminer>, "When you put the ore you want to mine into the Input Bus, the same ore will be mined at ZPM, consuming 10s and 19200L of Drilling Fluid.");
+JEI.addDescription(<metaitem:multiblocktweaker:voidoreminer>, "When you put the ore you want to mine into the Input Bus, it will mine the same ore you put in. The mining time is 1 second, and it costs 19200L of Drilling Fluid and 50L of Dew of the Void.");
 
 
 
@@ -252,7 +251,6 @@ var oresAny as IItemStack[] = [
     <gregtech:ore_nether_quartz_0:*>,
     <gregtech:ore_quartzite_0:*>,
     <gregtech:ore_mica_0:*>,
-    <gregtech:ore_cobalt_0:*>,
     <gregtech:ore_cobaltite_0:*>,
     <gregtech:ore_sodalite_0:*>,
     <gregtech:ore_opal_0:*>,
@@ -290,7 +288,31 @@ var oresAny as IItemStack[] = [
     <gregtech:ore_tungstate_0:*>,
     <gregtech:ore_uraninite_0:*>,
     <gregtech:ore_pyrochlore_0:*>,
-    <gregtech:ore_oilsands_0:*>
+    <gregtech:ore_oilsands_0:*>,
+    <gregtech:ore_monazite_0:*>,
+    <gregtech:ore_pitchblende_0:*>,
+    <gregtech:ore_fullers_earth_0:*>,
+    <gregtech:ore_vanadium_magnetite_0:*>,
+    <gregtech:ore_garnet_yellow_0:*>,
+    <gregtech:ore_apatite_0:*>,
+    <gregtech:ore_olivine_0:*>,
+    <gregtech:ore_soapstone_0:*>,
+    <gregtech:ore_alunite_0:*>,
+    <gregtech:ore_spodumene_0:*>,
+    <gregtech:ore_pentlandite_0:*>,
+    <gregtech:ore_chalcocite_0:*>,
+    <gregtech:ore_bornite_0:*>,
+    <gregtech:ore_graphite_0:*>,
+    <gregtech:ore_yellow_limonite_0:*>,
+    <gregtech:ore_sapphire_0:*>,
+    <gregtech:ore_pyrite_0:*>,
+    <gregtech:ore_magnesite_0:*>,
+    <gregtech:ore_galena_0:*>,
+    <gregtech:ore_diamond_0:*>,
+    <gregtech:ore_cooperite_0:*>,
+    <gregtech:ore_banded_iron_0:*>,
+    <gregtech:ore_palladium_0:*>,
+    <gregtech:ore_beryllium_0:*>
 ];
 var ores as IItemStack[] = [
     <gregtech:ore_copper_0>,
@@ -337,7 +359,6 @@ var ores as IItemStack[] = [
     <gregtech:ore_nether_quartz_0>,
     <gregtech:ore_quartzite_0>,
     <gregtech:ore_mica_0>,
-    <gregtech:ore_cobalt_0>,
     <gregtech:ore_cobaltite_0>,
     <gregtech:ore_sodalite_0>,
     <gregtech:ore_opal_0>,
@@ -375,14 +396,39 @@ var ores as IItemStack[] = [
     <gregtech:ore_tungstate_0>,
     <gregtech:ore_uraninite_0>,
     <gregtech:ore_pyrochlore_0>,
-    <gregtech:ore_oilsands_0>
+    <gregtech:ore_oilsands_0>,
+    <gregtech:ore_monazite_0>,
+    <gregtech:ore_pitchblende_0>,
+    <gregtech:ore_fullers_earth_0>,
+    <gregtech:ore_vanadium_magnetite_0>,
+    <gregtech:ore_garnet_yellow_0>,
+    <gregtech:ore_apatite_0>,
+    <gregtech:ore_olivine_0>,
+    <gregtech:ore_soapstone_0>,
+    <gregtech:ore_alunite_0>,
+    <gregtech:ore_spodumene_0>,
+    <gregtech:ore_pentlandite_0>,
+    <gregtech:ore_chalcocite_0>,
+    <gregtech:ore_bornite_0>,
+    <gregtech:ore_graphite_0>,
+    <gregtech:ore_yellow_limonite_0>,
+    <gregtech:ore_sapphire_0>,
+    <gregtech:ore_pyrite_0>,
+    <gregtech:ore_magnesite_0>,
+    <gregtech:ore_galena_0>,
+    <gregtech:ore_diamond_0>,
+    <gregtech:ore_cooperite_0>,
+    <gregtech:ore_banded_iron_0>,
+    <gregtech:ore_palladium_0>,
+    <gregtech:ore_beryllium_0>
 ];
 for i, ore in ores {
     voidoreminer.recipeBuilder()
         .inputs([oresAny[i]])
         .fluidInputs([<liquid:drilling_fluid> * 19200])
+        .fluidInputs([<liquid:ender_distillation> * 10])
         .outputs([ore * 64])
-        .duration(200)
+        .duration(20)
         .EUt(122880)
         .buildAndRegister();
 }
