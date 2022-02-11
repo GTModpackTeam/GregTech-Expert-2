@@ -15,7 +15,7 @@ JEI.addDescription(<appliedenergistics2:part:469>, "Made by right-clicking ME P2
 JEI.addDescription(<appliedenergistics2:part:463>, "Made by right-clicking ME P2P Tunnel with a bucket.");
 
 <appliedenergistics2:part:470>.addTooltip(format.green("Made by right-clicking ME P2P Tunnel with a GTCEu energy cable."));
-JEI.addDescription(<appliedenergistics2:part:462>, "Made by right-clicking ME P2P Tunnel with a GTCEu energy cable.");
+JEI.addDescription(<appliedenergistics2:part:470>, "Made by right-clicking ME P2P Tunnel with a GTCEu energy cable.");
 
 <appliedenergistics2:part:462>.addTooltip(format.green("Made by right-clicking ME P2P Tunnel with a chest."));
 JEI.addDescription(<appliedenergistics2:part:462>, "Made by right-clicking ME P2P Tunnel with a chest.");

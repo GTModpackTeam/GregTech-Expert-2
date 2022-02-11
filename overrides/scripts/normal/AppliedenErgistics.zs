@@ -1223,7 +1223,13 @@ recipes.remove(<appliedenergistics2:quartz_block>);
 recipes.remove(<appliedenergistics2:quartz_pillar>);
 recipes.remove(<appliedenergistics2:chiseled_quartz_block>);
 compressor.recipeBuilder()
-    .inputs([<ore:crystalCertusQuartz> * 4 | <ore:crystalPureCertusQuartz> * 8])
+    .inputs([<ore:crystalCertusQuartz> * 4])
+    .outputs([<appliedenergistics2:quartz_block>])
+    .duration(300)
+    .EUt(2)
+    .buildAndRegister();
+compressor.recipeBuilder()
+    .inputs([<ore:crystalPureCertusQuartz> * 8])
     .outputs([<appliedenergistics2:quartz_block>])
     .duration(300)
     .EUt(2)
@@ -1232,7 +1238,13 @@ compressor.recipeBuilder()
 # Fluix Block
 recipes.remove(<appliedenergistics2:fluix_block>);
 compressor.recipeBuilder()
-    .inputs([<ore:crystalFluix> * 4 | <ore:crystalPureFluix> * 8])
+    .inputs([<ore:crystalFluix> * 4])
+    .outputs([<appliedenergistics2:fluix_block>])
+    .duration(300)
+    .EUt(2)
+    .buildAndRegister();
+compressor.recipeBuilder()
+    .inputs([<ore:crystalPureFluix> * 8])
     .outputs([<appliedenergistics2:fluix_block>])
     .duration(300)
     .EUt(2)

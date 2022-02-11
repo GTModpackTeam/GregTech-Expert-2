@@ -131,11 +131,11 @@ chemical_reactor.recipeBuilder()
 mixer.recipeBuilder()
     .fluidInputs([
         <liquid:naquadah> * 1000,
-        <liquid:rocket_fuel> * 1000
+        <liquid:rocket_fuel> * 5000
     ])
     .fluidOutputs([<liquid:naquadah_rocket_fuel> * 6000])
-    .duration(60)
-    .EUt(16)
+    .duration(20)
+    .EUt(1920)
     .buildAndRegister();
 RecipeMaps.COMBUSTION_GENERATOR_FUELS.recipeBuilder()
     .fluidInputs([<liquid:naquadah_rocket_fuel>])
