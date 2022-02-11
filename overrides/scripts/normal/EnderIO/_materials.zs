@@ -129,7 +129,7 @@ MaterialBuilder(32107, "soularium")
 
 # End Steel
 MaterialBuilder(32108, "end_steel")
-    .ingot()
+    .ingot().fluid()
     .color(0xBCB682)
     .blastTemp(3600, "LOW", 1920, 1072)
     .flags([
