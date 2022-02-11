@@ -10,6 +10,11 @@ import mods.gregtech.recipe.RecipeMaps;
 ########################################
 # Items
 ########################################
+# Red Alloy Dust
+recipes.addShapeless(<gregtech:meta_dust:2517>, [
+    <ore:gtce.tool.mortars>,<gregtech:meta_ingot:2517>
+]);
+
 # Certus Quartz
 recipes.addShapeless(<gregtech:meta_gem:214>, [<appliedenergistics2:material>]);
 
@@ -130,7 +135,7 @@ chemical_reactor.recipeBuilder()
 # Naquadah Rocket Fuel
 mixer.recipeBuilder()
     .fluidInputs([
-        <liquid:naquadah> * 1000,
+        <liquid:naquadah> * 1296,
         <liquid:rocket_fuel> * 5000
     ])
     .fluidOutputs([<liquid:naquadah_rocket_fuel> * 6000])

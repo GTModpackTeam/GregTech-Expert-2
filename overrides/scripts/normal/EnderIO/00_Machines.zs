@@ -46,7 +46,11 @@ JEI.removeAndHide(<enderio:block_enhanced_alloy_smelter>);
 JEI.removeAndHide(<enderio:block_buffer:*>);
 
 # Enchanter
-JEI.removeAndHide(<enderio:block_enchanter>);
+recipes.addShaped(<enderio:block_enchanter>, [
+    [<ore:gemDiamond>, <minecraft:book>, <ore:gemDiamond>],
+    [<ore:plateDarkSteel>, <ore:plateDarkSteel>, <ore:plateDarkSteel>],
+    [null, <ore:plateDarkSteel>, null]
+]);
 
 # Farming Station
 recipes.addShaped(<enderio:block_farm_station>, [
