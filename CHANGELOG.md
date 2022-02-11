@@ -1,3 +1,34 @@
+# v0.13.2
+## Issue resolution
+* [Bug] red alloy dust [(#55)](https://github.com/GTModpackTeam/gregtech-expert-2/issues/55)
+* [Request] The liquid recipe is a little delicate. [(#56)](https://github.com/GTModpackTeam/gregtech-expert-2/issues/56)
+* [Bug] The Enchanted Book recipe is not what it is supposed to be. [(#58)](https://github.com/GTModpackTeam/gregtech-expert-2/issues/58)
+
+## Fix config
+### GregTech
+* I put it back because it was too bright.
+
+## Add recipe
+### GregTech
+* Red Alloy Dust
+
+### EnderIO
+* Enchanter
+* End Steel Fluid
+
+## Fix recipe
+### GregTech
+* Naquadah Rocket Fuel
+
+### EnderIO
+* Dew of Void
+* End Steel
+
+### DankNull
+* mk6 not showing from JEI.
+
+* * *
+
 # v0.13.1
 ## Update mods
 * AE2 Unofficial Extended Life
