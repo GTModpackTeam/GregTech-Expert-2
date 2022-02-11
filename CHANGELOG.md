@@ -1,3 +1,30 @@
+# v0.13.1
+## Update mods
+* AE2 Unofficial Extended Life
+* GregTech Food Option
+
+## Change config
+### AE2WirelessTerminals
+* DropsBooster -> all off
+* UseOldInfinityMechanic -> true
+
+## GregTech
+* casingsActiveEmissiveTextures -> false
+
+## Modpack fix
+* GTCEu P2P description is in the other section.
+* Adjusted the way Naquadah Rocket Fuel is created.
+* Some ore could not be mined at the Void Ore Drilling Plant.
+* Changed the way the Void Ore Drilling Plant is assembled and the recipe on the assembly line.
+* Adjusted the mining time of the Void Ore Drilling Plant.
+* The Void Ore Drilling Plant now requires 10L of Dew of the Void to operate.
+
+## Fix recipes
+### Open Computers
+* Transistor
+
+* * *
+
 # v0.13.0
 ## New mods
 * AppleCore
