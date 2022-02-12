@@ -1,7 +1,7 @@
 # v0.13.3
 ## Change config
 ### GregTech
-* Disable the glowing setting to reduce TPS to a very low level.
+* Disable the setting to glow, as it causes TPS degradation.
 
 ## Fix recipe
 ### AppliedenErgistics
