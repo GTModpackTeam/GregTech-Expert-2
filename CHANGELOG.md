@@ -21,13 +21,6 @@
 * null mk6
     * I shifted the Circuit numbers one by one.
 
-### VolumetricFlask
-* I shifted the Circuit numbers one by one.
-
-## Add recipe
-### BuildingGadgets
-* Change all recipes.
-
 ### EIO
 * Vibrant Alloy
 
@@ -42,6 +35,13 @@
 * ALU
 * CU
     * I shifted the Circuit numbers one by one.
+
+### VolumetricFlask
+* I shifted the Circuit numbers one by one.
+
+## Add recipe
+### BuildingGadgets
+* Change all recipes.
 
 ## Bug patch
 ### GregTech
