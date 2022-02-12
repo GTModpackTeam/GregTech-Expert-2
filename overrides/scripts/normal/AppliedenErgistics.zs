@@ -1280,7 +1280,7 @@ recipes.addShaped(<appliedenergistics2:part:16> * 6, [
     [<ore:stickAluminium>, <contenttweaker:dustfluix>, <ore:stickAluminium>]
 ]);
 assembler.recipeBuilder()
-    .circuit(0)
+    .circuit(1)
     .inputs([
         <ore:stickAluminium> * 2,
         <appliedenergistics2:part:140> * 3,
@@ -1308,7 +1308,7 @@ recipes.addShaped(<appliedenergistics2:part:36>, [
     [<ore:plateStyreneButadieneRubber> | <ore:plateSiliconeRubber> | <ore:plateRubber>, <ore:plateStyreneButadieneRubber> | <ore:plateSiliconeRubber> | <ore:plateRubber>, <ore:plateStyreneButadieneRubber> | <ore:plateSiliconeRubber> | <ore:plateRubber>]
 ]);
 assembler.recipeBuilder()
-    .circuit(0)
+    .circuit(1)
     .inputs([<appliedenergistics2:part:16> * 3])
     .fluidInputs([<liquid:styrene_butadiene_rubber> * 108])
     .outputs([<appliedenergistics2:part:36>])
@@ -1316,7 +1316,7 @@ assembler.recipeBuilder()
     .EUt(480)
     .buildAndRegister();
 assembler.recipeBuilder()
-    .circuit(0)
+    .circuit(1)
     .inputs([<appliedenergistics2:part:16> * 3])
     .fluidInputs([<liquid:silicone_rubber> * 216])
     .outputs([<appliedenergistics2:part:36>])
@@ -1324,7 +1324,7 @@ assembler.recipeBuilder()
     .EUt(480)
     .buildAndRegister();
 assembler.recipeBuilder()
-    .circuit(0)
+    .circuit(1)
     .inputs([<appliedenergistics2:part:16> * 3])
     .fluidInputs([<liquid:rubber> * 432])
     .outputs([<appliedenergistics2:part:36>])
@@ -1349,7 +1349,7 @@ recipes.addShaped(<appliedenergistics2:part:56>, [
     [null, <ore:dustGlowstone> | <ore:dustRedstone>, null]
 ]);
 assembler.recipeBuilder()
-    .circuit(1)
+    .circuit(2)
     .inputs([
         <ore:dustRedstone>,
         <ore:dustGlowstone>,
@@ -1360,7 +1360,7 @@ assembler.recipeBuilder()
     .EUt(480)
     .buildAndRegister();
 assembler.recipeBuilder()
-    .circuit(1)
+    .circuit(2)
     .inputs([
         <ore:dustRedstone>,
         <ore:dustGlowstone>,
@@ -1372,7 +1372,7 @@ assembler.recipeBuilder()
     .EUt(480)
     .buildAndRegister();
 assembler.recipeBuilder()
-    .circuit(1)
+    .circuit(2)
     .inputs([
         <ore:dustRedstone>,
         <ore:dustGlowstone>,
@@ -1384,7 +1384,7 @@ assembler.recipeBuilder()
     .EUt(480)
     .buildAndRegister();
 assembler.recipeBuilder()
-    .circuit(1)
+    .circuit(2)
     .inputs([
         <ore:dustRedstone>,
         <ore:dustGlowstone>,
@@ -1409,14 +1409,14 @@ recipes.removeShapeless(<appliedenergistics2:part:516>, [
     <appliedenergistics2:part:36>, <appliedenergistics2:part:36>
 ]);
 assembler.recipeBuilder()
-    .circuit(2)
+    .circuit(3)
     .inputs([<appliedenergistics2:part:36> * 4])
     .outputs([<appliedenergistics2:part:516>])
     .duration(20)
     .EUt(480)
     .buildAndRegister();
 assembler.recipeBuilder()
-    .circuit(2)
+    .circuit(3)
     .inputs([<appliedenergistics2:part:16> * 12])
     .fluidInputs([<liquid:styrene_butadiene_rubber> * 432])
     .outputs([<appliedenergistics2:part:516>])
@@ -1424,7 +1424,7 @@ assembler.recipeBuilder()
     .EUt(480)
     .buildAndRegister();
 assembler.recipeBuilder()
-    .circuit(2)
+    .circuit(3)
     .inputs([<appliedenergistics2:part:16> * 12])
     .fluidInputs([<liquid:silicone_rubber> * 864])
     .outputs([<appliedenergistics2:part:516>])
@@ -1432,7 +1432,7 @@ assembler.recipeBuilder()
     .EUt(480)
     .buildAndRegister();
 assembler.recipeBuilder()
-    .circuit(2)
+    .circuit(3)
     .inputs([<appliedenergistics2:part:16> * 12])
     .fluidInputs([<liquid:rubber> * 1728])
     .outputs([<appliedenergistics2:part:516>])
@@ -1457,14 +1457,14 @@ recipes.addShaped(<appliedenergistics2:part:76>, [
     [null, <ore:dustGlowstone> | <ore:dustRedstone>, null]
 ]);
 assembler.recipeBuilder()
-    .circuit(3)
+    .circuit(4)
     .inputs([<appliedenergistics2:part:56> * 4])
     .outputs([<appliedenergistics2:part:76>])
     .duration(20)
     .EUt(480)
     .buildAndRegister();
 assembler.recipeBuilder()
-    .circuit(3)
+    .circuit(4)
     .inputs([
         <ore:dustRedstone>,
         <ore:dustGlowstone>,
@@ -1475,7 +1475,7 @@ assembler.recipeBuilder()
     .EUt(480)
     .buildAndRegister();
 assembler.recipeBuilder()
-    .circuit(3)
+    .circuit(4)
     .inputs([
         <ore:dustRedstone>,
         <ore:dustGlowstone>,
@@ -1486,7 +1486,7 @@ assembler.recipeBuilder()
     .EUt(480)
     .buildAndRegister();
 assembler.recipeBuilder()
-    .circuit(3)
+    .circuit(4)
     .inputs([
         <ore:dustRedstone>,
         <ore:dustGlowstone>,
@@ -1498,7 +1498,7 @@ assembler.recipeBuilder()
     .EUt(480)
     .buildAndRegister();
 assembler.recipeBuilder()
-    .circuit(3)
+    .circuit(4)
     .inputs([
         <ore:dustRedstone>,
         <ore:dustGlowstone>,
@@ -1510,7 +1510,7 @@ assembler.recipeBuilder()
     .EUt(480)
     .buildAndRegister();
 assembler.recipeBuilder()
-    .circuit(3)
+    .circuit(4)
     .inputs([
         <ore:dustRedstone>,
         <ore:dustGlowstone>,

@@ -18,7 +18,7 @@ recipes.addShaped(<opencomputers:wrench>, [
 # Memory Tier1
 recipes.remove(<opencomputers:component:6>);
 assembler.recipeBuilder()
-    .circuit(0)
+    .circuit(1)
     .inputs([
         <opencomputers:material:7> * 3,
         <gregtech:meta_item_1:401> * 3
@@ -31,7 +31,7 @@ assembler.recipeBuilder()
 # Transistor
 recipes.remove(<opencomputers:material:6>);
 assembler.recipeBuilder()
-    .circuit(0)
+    .circuit(1)
     .inputs([
         <ore:boltIron> * 3,
         <ore:dustRedstone>
@@ -83,7 +83,7 @@ assembler.recipeBuilder()
 # ALU
 recipes.remove(<opencomputers:material:10>);
 assembler.recipeBuilder()
-    .circuit(0)
+    .circuit(1)
     .inputs([
         <projectred-integration:gate:26> * 3,
         <ore:circuitBasic>
@@ -96,7 +96,7 @@ assembler.recipeBuilder()
 # CU
 recipes.remove(<opencomputers:material:11>);
 assembler.recipeBuilder()
-    .circuit(0)
+    .circuit(1)
     .inputs([
         <opencomputers:material:6> * 6,
         <ore:circuitBasic>

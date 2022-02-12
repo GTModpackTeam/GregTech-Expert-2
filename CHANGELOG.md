@@ -1,3 +1,57 @@
+# v0.13.3
+## Change config
+### GregTech
+* Disable the glowing setting to reduce TPS to a very low level.
+
+## Fix recipe
+### AppliedenErgistics
+* Creative Energy Cell
+* Glass Cable
+* Covered Cable
+* Smart Cable
+* Dense Covered Cable
+* Dense Smart Cable
+    * I shifted the Circuit numbers one by one.
+
+### DankNull
+* null mk2
+* null mk3
+* null mk4
+* null mk5
+* null mk6
+    * I shifted the Circuit numbers one by one.
+
+### VolumetricFlask
+* I shifted the Circuit numbers one by one.
+
+## Add recipe
+### BuildingGadgets
+* Change all recipes.
+
+### EIO
+* Vibrant Alloy
+
+### FluxNetworks
+* Flux Plug
+* Flux Point
+* Flux Controller
+
+### OpenComputers
+* Memory Tier1
+* Transistor
+* ALU
+* CU
+    * I shifted the Circuit numbers one by one.
+
+## Bug patch
+### GregTech
+* Bisphenol A & Diluted Hydrochloric Acid
+* Cumene
+* Water & Dimethylamine
+* 1,1-Dimethylhydrazine & Diluted Hydrochloric Acid
+
+* * *
+
 # v0.13.2
 ## Issue resolution
 * [Bug] red alloy dust [(#55)](https://github.com/GTModpackTeam/gregtech-expert-2/issues/55)
