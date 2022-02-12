@@ -33,7 +33,7 @@ recipes.addShaped(<danknull:dank_null_0>, [
 recipes.remove(<danknull:dank_null_1>);
 recipes.addShapeless(<danknull:dank_null_1>, [<danknull:dank_null_1>.withEmptyTag()]);
 assembler.recipeBuilder()
-    .circuit(0)
+    .circuit(1)
     .inputs([
         <ore:plateLapis> * 4,
         <danknull:dank_null_0>
@@ -48,7 +48,7 @@ assembler.recipeBuilder()
 recipes.remove(<danknull:dank_null_2>);
 recipes.addShapeless(<danknull:dank_null_2>, [<danknull:dank_null_2>.withEmptyTag()]);
 assembler.recipeBuilder()
-    .circuit(0)
+    .circuit(1)
     .inputs([
         <ore:plateTinAlloy> * 4,
         <danknull:dank_null_1>
@@ -63,7 +63,7 @@ assembler.recipeBuilder()
 recipes.remove(<danknull:dank_null_3>);
 recipes.addShapeless(<danknull:dank_null_3>, [<danknull:dank_null_3>.withEmptyTag()]);
 assembler.recipeBuilder()
-    .circuit(0)
+    .circuit(1)
     .inputs([
         <ore:plateRoseGold> * 4,
         <danknull:dank_null_2>
@@ -78,7 +78,7 @@ assembler.recipeBuilder()
 recipes.remove(<danknull:dank_null_4>);
 recipes.addShapeless(<danknull:dank_null_4>, [<danknull:dank_null_4>.withEmptyTag()]);
 assembler.recipeBuilder()
-    .circuit(0)
+    .circuit(1)
     .inputs([
         <ore:plateDiamond> * 4,
         <danknull:dank_null_3>
@@ -92,7 +92,7 @@ assembler.recipeBuilder()
 # null mk6
 recipes.addShapeless(<danknull:dank_null_5>, [<danknull:dank_null_5>.withEmptyTag()]);
 assembler.recipeBuilder()
-    .circuit(0)
+    .circuit(1)
     .inputs([
         <ore:plateEmerald> * 4,
         <danknull:dank_null_4>

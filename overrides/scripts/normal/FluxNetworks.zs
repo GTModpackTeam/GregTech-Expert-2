@@ -35,7 +35,7 @@ assembler.recipeBuilder()
     .circuit(4)
     .inputs([
         <appliedenergistics2:sky_stone_block>,
-        <ore:circuitElite> * 4,
+        <ore:circuitMaster> * 4,
     ])
     .outputs([<fluxnetworks:fluxplug>])
     .duration(2000)
@@ -48,7 +48,7 @@ assembler.recipeBuilder()
     .circuit(6)
     .inputs([
         <appliedenergistics2:sky_stone_block>,
-        <ore:circuitElite> * 4,
+        <ore:circuitMaster> * 4,
     ])
     .outputs([<fluxnetworks:fluxpoint>])
     .duration(2000)
@@ -59,7 +59,7 @@ assembler.recipeBuilder()
 recipes.remove(<fluxnetworks:fluxcontroller>);
 assembler.recipeBuilder()
     .inputs([
-        <ore:circuitElite> * 4,
+        <ore:circuitMaster> * 4,
         <ore:plateGlass> * 4,
         <appliedenergistics2:sky_stone_block>
     ])
@@ -70,43 +70,9 @@ assembler.recipeBuilder()
 
 # Flux Storage
 JEI.removeAndHide(<fluxnetworks:fluxstorage>);
-// recipes.remove(<fluxnetworks:fluxstorage>);
-// assembler.recipeBuilder()
-//     .inputs([
-//         <ore:circuitElite> * 4,
-//         <ore:plateGlass> * 4,
-//         <gregtech:machine:1340>,
-//         <enderio:block_cap_bank:3>
-//     ])
-//     .outputs([<fluxnetworks:fluxstorage>])
-//     .duration(2000)
-//     .EUt(30720)
-//     .buildAndRegister();
 
 # Herculean Flux Storage
 JEI.removeAndHide(<fluxnetworks:herculeanfluxstorage>);
-// recipes.remove(<fluxnetworks:herculeanfluxstorage>);
-// assembler.recipeBuilder()
-//     .inputs([
-//         <ore:circuitMaster> * 4,
-//         <ore:plateGlass> * 4,
-//         <fluxnetworks:fluxstorage> * 6
-//     ])
-//     .outputs([<fluxnetworks:herculeanfluxstorage>])
-//     .duration(2000)
-//     .EUt(30720)
-//     .buildAndRegister();
 
 # Gargantuan Flux Storage
 JEI.removeAndHide(<fluxnetworks:gargantuanfluxstorage>);
-// recipes.remove(<fluxnetworks:gargantuanfluxstorage>);
-// assembler.recipeBuilder()
-//     inputs([
-//         <ore:circuitUltimate> * 4,
-//         <ore:plateGlass> * 4,
-//         <fluxnetworks:gargantuanfluxstorage> * 6
-//     ])
-//     .outputs([<fluxnetworks:gargantuanfluxstorage>])
-//     .duration(2000)
-//     .EUt(122880)
-//     .buildAndRegister();

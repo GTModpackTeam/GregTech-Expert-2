@@ -87,6 +87,27 @@ mixer.recipeBuilder()
     .duration(40)
     .EUt(480)
     .buildAndRegister();
+alloy_blast_smelter.recipeBuilder()
+    .circuit(13)
+    .inputs([<ore:dustEnderPearl>])
+    .fluidInputs([
+        <liquid:nitrogen> * 1000,
+        <liquid:energetic_alloy> * 144
+    ])
+    .property("temperature", 1750)
+    .fluidOutputs([<liquid:vibrant_alloy> * 144])
+    .duration(120)
+    .EUt(480)
+    .buildAndRegister();
+alloy_blast_smelter.recipeBuilder()
+    .circuit(3)
+    .inputs([<ore:dustEnderPearl>])
+    .fluidInputs([<liquid:energetic_alloy> * 144])
+    .property("temperature", 1750)
+    .fluidOutputs([<liquid:vibrant_alloy> * 144])
+    .duration(180)
+    .EUt(480)
+    .buildAndRegister();
 
 # Redstone Alloy
 mixer.recipeBuilder()

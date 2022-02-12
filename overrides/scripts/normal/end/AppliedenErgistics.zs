@@ -8,7 +8,7 @@
 ########################################
 # Creative Energy Cell
 assembly_line.recipeBuilder()
-    .circuit(0)
+    .circuit(1)
     .inputs([<gregtech:meta_item_1:751> * 4])
     .inputs([<gregtech:fusion_casing:4> * 28])
     .inputs([<gregtech:machine:994> * 5])

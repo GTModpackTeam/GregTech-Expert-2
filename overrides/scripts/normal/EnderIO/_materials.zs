@@ -31,7 +31,9 @@ MaterialBuilder(32101, "energetic_alloy")
     .color(0xED8009)
     .blastTemp(1750, "LOW", 480, 120)
     .flags([
-        "generate_plate"
+        "generate_plate",
+        "generate_rod",
+        "generate_gear"
     ])
     .components([
         <material:redstone> * 1,
