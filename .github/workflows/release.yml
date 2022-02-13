@@ -19,7 +19,7 @@ jobs:
         uses: thedoctor0/zip-release@master
         with:
           filename: "./GTExpert2-${{ steps.get_version.outputs.VERSION }}.zip"
-          exclusions: '*.git* .editorconfig LICENSE *.md */.github/* */serverfiles/*'
+          exclusions: '*.git* .editorconfig LICENSE *.md */.github/* ./serverfiles/'
 
       - name: Run test action
         uses: itsmeow/curseforge-upload@master
