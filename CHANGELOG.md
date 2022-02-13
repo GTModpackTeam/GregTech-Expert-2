@@ -1,3 +1,22 @@
+# v0.13.4
+## Issues include
+* [Request] Creative items ( [#21](https://github.com/GTModpackTeam/gregtech-expert-2/issues/21) )
+* [Request] Make GTCEu solar panels to be made on an assembly machine instead of the same as GT5u. ( [#27](https://github.com/GTModpackTeam/gregtech-expert-2/issues/27) )
+* [Bug] GT doesn't support Chise. ( [#61](https://github.com/GTModpackTeam/gregtech-expert-2/issues/61) )
+
+## Update mods
+* GregTech Food Option
+* Just Enough Items
+
+## Modpack Update
+* GT Creative's recipe is now complete.
+
+## Update recipes
+### GregTech
+* Solar Panels
+
+* * *
+
 # v0.13.3
 ## Change config
 ### GregTech
