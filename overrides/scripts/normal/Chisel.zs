@@ -1,6 +1,10 @@
 #packmode normal
 # Imports
 import crafttweaker.item.IItemStack;
+import mods.chisel.Carving;
+
+Carving.addVariation("marble", <gregtech:stone_smooth:2>);
+Carving.addVariation("basalt", <gregtech:stone_smooth:3>);
 
 
 
@@ -40,7 +44,7 @@ recipes.addShaped(<chisel:chisel_hitech>, [
 recipes.remove(<chisel:auto_chisel>);
 recipes.addShaped(<chisel:auto_chisel>, [
     [<ore:plateGlass>, <ore:plateGlass>, <ore:plateGlass>],
-    [<ore:plateGlass>, <chisel:chisel_hitech>, <ore:plateGlass>],
+    [<ore:plateGlass>, <chisel:chisel_iron> | <chisel:chisel_diamond> | <chisel:chisel_hitech>, <ore:plateGlass>],
     [<ore:plateIron>, <ore:compressed1xDustBedrock>, <ore:plateIron>]
 ]);
 
