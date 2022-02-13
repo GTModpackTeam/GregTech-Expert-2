@@ -210,7 +210,7 @@ centrifuge.recipeBuilder()
     .chancedOutput(<gregtech:meta_dust_tiny:271>, 5600, 850)
     .chancedOutput(<gregtech:meta_dust_tiny:1601>, 5600, 850)
     .chancedOutput(<gregtech:meta_dust_small:103>, 9900, 100)
-    .duration(10240)
+    .duration(160)
     .EUt(20)
     .buildAndRegister();
 
