@@ -1,0 +1,3 @@
+[submodule "overrides/config/ftbquests"]
+	path = overrides/config/ftbquests
+	url = git@github.com:GTModpackTeam/gregtech-expert-2-questbook.git
