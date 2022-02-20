@@ -33,4 +33,4 @@ jobs:
           changelog: 'Check the changes here. [Github - CHANGELOG.md](https://github.com/GTModpackTeam/gregtech-expert-2/blob/main/CHANGELOG.md "")'
           display_name: "GTExpert2-${{ steps.get_version.outputs.VERSION }}"
           game_versions: "1.12.2"
-          release_type: beta
+          release_type: latest
