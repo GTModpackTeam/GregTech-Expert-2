@@ -1,7 +1,5 @@
 # Content Tweaker
-item.contenttweaker.dustFluix.name=フルーシュの粉
-item.contenttweaker.dustChargedCertusQuartz.name=チャージケルタスクオーツの粉
-item.contenttweaker.creativeComponent.name=GTExpert MEストレージセル素材(偽物)
+item.contenttweaker.creativeComponent.name=GTExpert ME素材(偽物)
 
 # Multiblock Tweaker
 multiblocktweaker.machine.greenhouse.name=温室
@@ -32,5 +30,5 @@ material.vivid_alloy=ビビッド合金
 material.naquadah_rocket_fuel=ナクアダロケット燃料
 
 # AE2
-material.dust_fluix=フルーシュ
-material.dust_charged_certus_quartz=チャージケルタスクオーツ
+material.fluix=フルーシュ
+material.charged_certus_quartz=チャージケルタスクオーツ
