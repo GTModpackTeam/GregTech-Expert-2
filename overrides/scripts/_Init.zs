@@ -86,17 +86,6 @@ global voidoreminer as RecipeMap = FactoryRecipeMap.start("voidoreminer")
     .maxFluidOutputs(0)
     .build();
 
-global disassembler as RecipeMap = FactoryRecipeMap.start("disassembler")
-    .minInputs(1)
-    .maxInputs(1)
-    .minOutputs(1)
-    .maxOutputs(9)
-    .minFluidInputs(0)
-    .maxFluidInputs(0)
-    .minFluidOutputs(0)
-    .maxFluidOutputs(0)
-    .build();
-
 <ore:gtce.tool.wrenches>.addItems([
     <gregtech:meta_tool:8>.withEmptyTag(),
     <gregtech:meta_tool:28>.withEmptyTag(),

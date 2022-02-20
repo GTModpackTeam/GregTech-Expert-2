@@ -28,6 +28,15 @@ recipes.removeShapeless(<minecraft:fermented_spider_eye>, [
 ########################################
 # Blocks
 ########################################
+# Granite
+recipes.removeShapeless(<minecraft:stone:1>);
+
+# Diorite
+recipes.remove(<minecraft:stone:3>);
+
+# Andesite
+recipes.removeShapeless(<minecraft:stone:5>);
+
 # Path
 recipes.addShapeless(<minecraft:grass_path>, [
     <minecraft:dirt>, <ore:gtce.tool.shovels>
@@ -49,25 +58,8 @@ compressor.recipeBuilder()
     .EUt(2)
     .buildAndRegister();
 
-# Sand
-mixer.recipeBuilder()
-    .inputs([<ore:sand>])
-    .fluidInputs([<liquid:water> * 1000])
-    .outputs([<minecraft:clay>])
-    .duration(1000)
-    .EUt(30)
-    .buildAndRegister();
-
 # Ender Chest
 recipes.remove(<minecraft:ender_chest>);
-
-# Chest
-recipes.remove(<minecraft:chest> * 4);
-recipes.addShaped(<minecraft:chest> * 2, [
-    [<ore:logWood>, <ore:logWood>, <ore:logWood>],
-    [<ore:logWood>, null, <ore:logWood>],
-    [<ore:logWood>, <ore:logWood>, <ore:logWood>]
-]);
 
 # End Rod
 recipes.remove(<minecraft:end_rod>);

@@ -1,8 +1,9 @@
-#packmode normal
 #loader contenttweaker
 # Imports
-import mods.jei.JEI;
 import mods.contenttweaker.Item;
+import mods.contenttweaker.Block;
+import mods.contenttweaker.Color;
+import mods.contenttweaker.Fluid;
 import mods.contenttweaker.VanillaFactory;
 
 

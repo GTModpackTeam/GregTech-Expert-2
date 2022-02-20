@@ -24,7 +24,7 @@ JEI.removeAndHide(<projectred-core:resource_item:301>);
 recipes.remove(<projectred-core:resource_item:310>);
 recipes.addShaped(<projectred-core:resource_item:310>, [
     [<ore:dustRedstone>, <ore:dustRedstone>, <ore:dustRedstone>],
-    [<ore:dustRedstone>, <gregtech:meta_item_1:371>, <ore:dustRedstone>],
+    [<ore:dustRedstone>, <metaitem:wafer.silicon>, <ore:dustRedstone>],
     [<ore:dustRedstone>, <ore:dustRedstone>, <ore:dustRedstone>]
 ]);
 
@@ -32,7 +32,7 @@ recipes.addShaped(<projectred-core:resource_item:310>, [
 recipes.remove(<projectred-core:resource_item:311>);
 recipes.addShaped(<projectred-core:resource_item:311>, [
     [<ore:dustGlowstone>, <ore:dustGlowstone>, <ore:dustGlowstone>],
-    [<ore:dustGlowstone>, <gregtech:meta_item_1:371>, <ore:dustGlowstone>],
+    [<ore:dustGlowstone>, <metaitem:wafer.silicon>, <ore:dustGlowstone>],
     [<ore:dustGlowstone>, <ore:dustGlowstone>, <ore:dustGlowstone>]
 ]);
 

@@ -100,15 +100,3 @@ zombie.addItemEntry(<minecraft:skull:2>, 1, 0, [
         "condition": "minecraft:random_chance"
     }
 ]);
-
-
-
-########################################
-# EnderIO
-########################################
-# Gears
-// LootTable.removeGlobalItem(<enderio:item_material:9>);
-// LootTable.removeGlobalItem(<enderio:item_material:10>);
-// LootTable.removeGlobalItem(<enderio:item_material:11>);
-// LootTable.removeGlobalItem(<enderio:item_material:12>);
-// LootTable.removeGlobalItem(<enderio:item_material:13>);

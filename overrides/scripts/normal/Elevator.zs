@@ -29,7 +29,7 @@ for elevator in elevators {
     recipes.remove(elevator);
     if (elevator.displayName has "Black") {}
     else {
-        elevator.addTooltip(format.red("The black one is the first elevator."));
+        elevator.addTooltip(format.green("The black one is the first elevator."));
     }
 }
 recipes.addShaped(<elevatorid:elevator_black>, [

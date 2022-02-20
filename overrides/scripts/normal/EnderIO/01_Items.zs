@@ -355,13 +355,6 @@ recipes.addShaped(<enderio:item_dark_steel_hand>, [
     [<ore:gtce.tool.screwdrivers>, <ore:gtce.tool.hard.hammers>, <ore:gtce.tool.files>]
 ]);
 
-# Vibrant Inventory Charger
-recipes.addShaped(<enderio:item_inventory_charger_vibrant>, [
-    [<ore:ingotDarkSteel>, <ore:ingotElectricalSteel>, <ore:ingotDarkSteel>],
-    [<ore:itemWirelessDish>, <ore:skullEnderResonator>, <ore:itemWirelessDish>],
-    [<ore:ingotDarkSteel>, <enderio:block_cap_bank:3>, <ore:ingotDarkSteel>]
-]);
-
 # The Ender Mk2
 recipes.addShaped(<enderio:item_end_steel_sword>, [
     [null, <ore:plateEndSteel>, null],
@@ -471,23 +464,30 @@ recipes.addShaped(<enderio:item_stellar_alloy_boots>, [
 
 # Simple Inventory Charger
 recipes.addShaped(<enderio:item_inventory_charger_simple>, [
-    [<ore:nuggetDarkSteel>, <ore:ingotConductiveIron>, <ore:nuggetDarkSteel>],
-    [<ore:ingotConductiveIron>, <enderio:item_capacitor_silver>, <ore:ingotConductiveIron>],
-    [<ore:nuggetDarkSteel>, <ore:ingotConductiveIron>, <ore:nuggetDarkSteel>]
+    [<ore:nuggetDarkSteel>, <ore:plateConductiveIron>, <ore:nuggetDarkSteel>],
+    [<ore:plateConductiveIron>, <enderio:item_capacitor_silver>, <ore:plateConductiveIron>],
+    [<ore:nuggetDarkSteel>, <ore:plateConductiveIron>, <ore:nuggetDarkSteel>]
 ]);
 
 # Basic Inventory Charger
 recipes.addShaped(<enderio:item_inventory_charger_basic>, [
-    [<ore:ingotDarkSteel>, <ore:ingotElectricalSteel>, <ore:ingotDarkSteel>],
-    [<ore:itemWirelessDish>, <ore:skullEnderResonator>, <ore:itemWirelessDish>],
-    [<ore:ingotDarkSteel>, <enderio:block_cap_bank:1>, <ore:ingotDarkSteel>]
+    [<ore:plateDarkSteel>, <ore:plateElectricalSteel>, <ore:plateDarkSteel>],
+    [<ore:itemWirelessDish>, <ore:skullZombieElectrode>, <ore:itemWirelessDish>],
+    [<ore:plateDarkSteel>, <enderio:block_cap_bank:1>, <ore:plateDarkSteel>]
 ]);
 
 # Inventory Charger
 recipes.addShaped(<enderio:item_inventory_charger>, [
-    [<ore:ingotDarkSteel>, <ore:ingotElectricalSteel>, <ore:ingotDarkSteel>],
+    [<ore:plateDarkSteel>, <ore:plateEnergeticAlloy>, <ore:plateDarkSteel>],
     [<ore:itemWirelessDish>, <ore:skullEnderResonator>, <ore:itemWirelessDish>],
-    [<ore:ingotDarkSteel>, <enderio:block_cap_bank:2>, <ore:ingotDarkSteel>]
+    [<ore:plateDarkSteel>, <enderio:block_cap_bank:2>, <ore:plateDarkSteel>]
+]);
+
+# Vibrant Inventory Charger
+recipes.addShaped(<enderio:item_inventory_charger_vibrant>, [
+    [<ore:plateDarkSteel>, <ore:plateVibrantAlloy>, <ore:plateDarkSteel>],
+    [<ore:itemWirelessDish>, <ore:skullSentientEnder>, <ore:itemWirelessDish>],
+    [<ore:plateDarkSteel>, <enderio:block_cap_bank:3>, <ore:plateDarkSteel>]
 ]);
 
 # Blank Dark Steel Upgrade

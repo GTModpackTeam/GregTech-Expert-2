@@ -15,8 +15,9 @@ assembler.recipeBuilder()
         <ore:stickRedAlloy> * 2,
         <ore:screwRedAlloy> * 2,
         <ore:dustIron>,
-        <gregtech:meta_item_1:381>,
-        <ore:circuitPrimitive>
+        <metaitem:board.coated>,
+        <ore:circuitPrimitive>,
+        <metaitem:battery.re.lv.sodium>
     ])
     .outputs([<buildinggadgets:buildingtool>])
     .duration(100)
@@ -31,8 +32,9 @@ assembler.recipeBuilder()
         <ore:stickRedAlloy> * 2,
         <ore:screwRedAlloy> * 2,
         <ore:dustGold>,
-        <gregtech:meta_item_1:381>,
-        <ore:circuitPrimitive>
+        <metaitem:board.coated>,
+        <ore:circuitPrimitive>,
+        <metaitem:battery.re.lv.sodium>
     ])
     .outputs([<buildinggadgets:copypastetool>])
     .duration(100)
@@ -47,8 +49,9 @@ assembler.recipeBuilder()
         <ore:stickRedAlloy> * 3,
         <ore:screwRedAlloy> * 3,
         <ore:dustObsidian>,
-        <gregtech:meta_item_1:381> * 2,
-        <ore:circuitPrimitive>
+        <metaitem:board.coated> * 2,
+        <ore:circuitPrimitive>,
+        <metaitem:battery.re.lv.sodium>
     ])
     .outputs([<buildinggadgets:exchangertool>])
     .duration(100)
@@ -63,7 +66,7 @@ assembler.recipeBuilder()
         <ore:stickRedAlloy> * 2,
         <ore:screwRedAlloy> * 2,
         <ore:dustBedrock>,
-        <gregtech:meta_item_1:381>,
+        <metaitem:board.coated>,
         <ore:circuitPrimitive>
     ])
     .outputs([<buildinggadgets:destructiontool>])

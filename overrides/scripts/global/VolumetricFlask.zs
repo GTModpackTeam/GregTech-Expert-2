@@ -35,7 +35,7 @@ for i, flask in flasks {
     <ore:flask>.addItems([flasks[i]]);
     assembler.recipeBuilder()
         .circuit(i + 1)
-        .notConsumable([<gregtech:meta_item_1:15>])
+        .notConsumable([<metaitem:shape.mold.bottle>])
         .fluidInputs([<liquid:glass> * 144])
         .outputs([flask])
         .duration(20)

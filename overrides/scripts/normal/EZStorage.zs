@@ -89,12 +89,12 @@ recipes.addShaped(<ezstorage:extract_port>, [
 recipes.remove(<ezstorage:crafting_box>);
 recipes.addShaped(<ezstorage:crafting_box>, [
     [<ore:plateSteel>, <ore:gtce.tool.hard.hammers>, <ore:plateSteel>],
-    [<gregtech:meta_item_1:308>, <ezstorage:blank_box>, <gregtech:meta_item_1:308>],
+    [<metaitem:cover.crafting>, <ezstorage:blank_box>, <metaitem:cover.crafting>],
     [<ore:plateSteel>, <ore:gtce.tool.wrenches>, <ore:plateSteel>]
 ]);
 recipes.addShaped(<ezstorage:crafting_box>, [
     [<ore:plateSteel>, <ore:gtce.tool.wrenches>, <ore:plateSteel>],
-    [<gregtech:meta_item_1:308>, <ezstorage:blank_box>, <gregtech:meta_item_1:308>],
+    [<metaitem:cover.crafting>, <ezstorage:blank_box>, <metaitem:cover.crafting>],
     [<ore:plateSteel>, <ore:gtce.tool.hard.hammers>, <ore:plateSteel>]
 ]);
 
