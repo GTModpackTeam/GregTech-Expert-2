@@ -1,5 +1,5 @@
 # v1.0.0
-## LETEST UPDATE
+## LATEST UPDATE
 ### 💣 Update Warning 💣
 * Make a backup of your world before updating.
 * Fluix Dust and Charged Certus Quartz Dust are now made by GT and should be used up before the update. 
@@ -17,7 +17,7 @@
 
 ### New mods
 * Ding
-* AE2 Wireless Interface Terminal
+* AE2 Wireless Fluid Terminal
 * AE2 Wireless Interface Terminal
 * Wireless Pattern Terminal
 
