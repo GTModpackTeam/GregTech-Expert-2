@@ -323,7 +323,7 @@ JEI.hide(<extracells:part.base:5>);
 JEI.hide(<extracells:part.base:6>);
 JEI.hide(<extracells:part.base:9>);
 
-# ME Drive Fixture
+# ME Ore Dictionary Export Bus
 JEI.removeAndHide(<extracells:part.base:12>);
 JEI.addDescription(<extracells:part.base:12>, "Lag device. Use OreDict Storage bus.");
 <extracells:part.base:12>.addTooltip(format.green("Lag device. Use OreDict Storage bus."));

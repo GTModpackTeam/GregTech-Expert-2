@@ -790,7 +790,6 @@ macerator.recipeBuilder()
     .buildAndRegister();
 
 # Charged Certus Quartz Dust
-JEI.hide(<contenttweaker:dustchargedcertusquartz>);
 electrolyzer.recipeBuilder()
     .inputs([<ore:dustCertusQuartz>])
     .outputs([<metaitem:dustChargedCertusQuartz>])
@@ -805,7 +804,6 @@ macerator.recipeBuilder()
     .buildAndRegister();
 
 # Fluix Dust
-JEI.hide(<contenttweaker:dustfluix>);
 mixer.recipeBuilder()
     .inputs([
         <ore:dustChargedCertusQuartz>,
@@ -1604,18 +1602,14 @@ recipes.addShaped(<appliedenergistics2:part:222>, [
 ]);
 
 # Import Bus
-recipes.remove(<appliedenergistics2:part:240>);
-recipes.addShaped(<appliedenergistics2:part:240>, [
-    [null, <appliedenergistics2:material:44>, null],
-    [<ore:plateAluminium>, <minecraft:sticky_piston>, <ore:plateAluminium>],
-    [null, null, null]
-]);
+JEI.removeAndHide(<appliedenergistics2:part:240>);
+JEI.addDescription(<appliedenergistics2:part:240>, "Lag device. Use interface.");
+<appliedenergistics2:part:240>.addTooltip(format.green("Lag device. Use interface."));
 
 # Fluid Import Bus
-recipes.remove(<appliedenergistics2:part:241>);
-recipes.addShapeless(<appliedenergistics2:part:241>, [
-    <appliedenergistics2:part:240>, <metaitem:electric.pump.hv>
-]);
+JEI.removeAndHide(<appliedenergistics2:part:241>);
+JEI.addDescription(<appliedenergistics2:part:241>, "Lag device. Use Fluid interface.");
+<appliedenergistics2:part:241>.addTooltip(format.green("Lag device. Use Fluid interface."));
 
 # Export Bus
 JEI.removeAndHide(<appliedenergistics2:part:260>);

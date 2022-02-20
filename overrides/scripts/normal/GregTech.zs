@@ -54,17 +54,161 @@ combustion_generator.recipeBuilder()
     .EUt(32)
     .buildAndRegister();
 
+# Bisphenol A & Diluted Hydrochloric Acid (Override)
+chemical_reactor.findRecipe(30, null, [
+    <liquid:hydrochloric_acid> * 1000,
+    <liquid:acetone> * 1000,
+    <liquid:phenol> * 2000
+]).remove();
+chemical_reactor.recipeBuilder()
+    .circuit(22)
+    .fluidInputs([
+        <liquid:phenol> * 2000,
+        <liquid:acetone> * 1000,
+        <liquid:hydrochloric_acid> * 1000
+    ])
+    .fluidOutputs([
+        <liquid:bisphenol_a> * 1000,
+        <liquid:diluted_hydrochloric_acid> * 1000
+    ])
+    .duration(160)
+    .EUt(30)
+    .buildAndRegister();
+large_chemical_reactor.findRecipe(30, null, [
+    <liquid:hydrochloric_acid> * 1000,
+    <liquid:acetone> * 1000,
+    <liquid:phenol> * 2000
+]).remove();
+large_chemical_reactor.recipeBuilder()
+    .circuit(22)
+    .fluidInputs([
+        <liquid:phenol> * 2000,
+        <liquid:acetone> * 1000,
+        <liquid:hydrochloric_acid> * 1000
+    ])
+    .fluidOutputs([
+        <liquid:bisphenol_a> * 1000,
+        <liquid:diluted_hydrochloric_acid> * 1000
+    ])
+    .duration(160)
+    .EUt(30)
+    .buildAndRegister();
+
+# Cumene (Override)
+chemical_reactor.findRecipe(30, null, [
+    <liquid:phosphoric_acid> * 1000,
+    <liquid:benzene> * 8000,
+    <liquid:propene> * 8000
+]).remove();
+chemical_reactor.recipeBuilder()
+    .circuit(22)
+    .fluidInputs([
+        <liquid:propene> * 8000,
+        <liquid:benzene> * 8000,
+        <liquid:phosphoric_acid> * 1000
+    ])
+    .fluidOutputs([<liquid:cumene> * 8000])
+    .duration(1920)
+    .EUt(30)
+    .buildAndRegister();
+large_chemical_reactor.findRecipe(30, null, [
+    <liquid:phosphoric_acid> * 1000,
+    <liquid:benzene> * 8000,
+    <liquid:propene> * 8000
+]).remove();
+large_chemical_reactor.recipeBuilder()
+    .circuit(22)
+    .fluidInputs([
+        <liquid:propene> * 8000,
+        <liquid:benzene> * 8000,
+        <liquid:phosphoric_acid> * 1000
+    ])
+    .fluidOutputs([<liquid:cumene> * 8000])
+    .duration(1920)
+    .EUt(30)
+    .buildAndRegister();
+
+# Water & Dimethylamine (Override)
+chemical_reactor.findRecipe(120, null, [
+    <liquid:ammonia> * 1000,
+    <liquid:methanol> * 2000
+]).remove();
+chemical_reactor.recipeBuilder()
+    .circuit(2)
+    .fluidInputs([
+        <liquid:methanol> * 2000,
+        <liquid:ammonia> * 1000
+    ])
+    .fluidOutputs([
+        <liquid:water> * 2000,
+        <liquid:dimethylamine> * 1000
+    ])
+    .duration(240)
+    .EUt(120)
+    .buildAndRegister();
+large_chemical_reactor.findRecipe(120, null, [
+    <liquid:ammonia> * 1000,
+    <liquid:methanol> * 2000
+]).remove();
+large_chemical_reactor.recipeBuilder()
+    .circuit(2)
+    .fluidInputs([
+        <liquid:methanol> * 2000,
+        <liquid:ammonia> * 1000
+    ])
+    .fluidOutputs([
+        <liquid:water> * 2000,
+        <liquid:dimethylamine> * 1000
+    ])
+    .duration(240)
+    .EUt(120)
+    .buildAndRegister();
+
+# 1,1-Dimethylhydrazine & Diluted Hydrochloric Acid (Override)
+chemical_reactor.findRecipe(480, null, [
+    <liquid:methanol> * 2000,
+    <liquid:ammonia> * 2000,
+    <liquid:hypochlorous_acid> * 1000
+]).remove();
+chemical_reactor.recipeBuilder()
+    .circuit(1)
+    .fluidInputs([
+        <liquid:hypochlorous_acid> * 1000,
+        <liquid:ammonia> * 2000,
+        <liquid:methanol> * 2000
+    ])
+    .fluidOutputs([
+        <liquid:dimethylhydrazine> * 1000,
+        <liquid:diluted_hydrochloric_acid> * 2000
+    ])
+    .duration(240)
+    .EUt(120)
+    .buildAndRegister();
+large_chemical_reactor.findRecipe(480, null, [
+    <liquid:methanol> * 2000,
+    <liquid:ammonia> * 2000,
+    <liquid:hypochlorous_acid> * 1000
+]).remove();
+large_chemical_reactor.recipeBuilder()
+    .circuit(1)
+    .fluidInputs([
+        <liquid:hypochlorous_acid> * 1000,
+        <liquid:ammonia> * 2000,
+        <liquid:methanol> * 2000
+    ])
+    .fluidOutputs([
+        <liquid:dimethylhydrazine> * 1000,
+        <liquid:diluted_hydrochloric_acid> * 2000
+    ])
+    .duration(1040)
+    .EUt(480)
+    .buildAndRegister();
+
 
 
 ########################################
 # Items
 ########################################
-# Fluix Dust (Override)
-<ore:dustFluix>.add(<contenttweaker:dustfluix>);
-
-# Charged Certus Quartz Dust
-<ore:dustChargedCertusQuartz>.add(<contenttweaker:dustchargedcertusquartz>);
-
 # Red Alloy Dust
 recipes.addShapeless(<metaitem:dustRedAlloy>, [
     <ore:gtce.tool.mortars>, <ore:ingotRedAlloy>
