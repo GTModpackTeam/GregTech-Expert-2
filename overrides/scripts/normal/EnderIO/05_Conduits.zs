@@ -102,7 +102,7 @@ assembler.recipeBuilder()
 # OC Conduit
 assembler.recipeBuilder()
     .inputs([
-        <ore:ae2.cable.glass>,
+        <opencomputers:cable>,
         <ore:plateRedstoneAlloy>
     ])
     .fluidInputs([<liquid:plastic> * 144])

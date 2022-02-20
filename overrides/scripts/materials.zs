@@ -182,6 +182,9 @@ MaterialBuilder(32109, "construction_alloy")
     .ingot()
     .color(0x524C53)
     .blastTemp(5400, "LOW", 1920, 1072)
+    .flags([
+        "generate_plate",
+    ])
     .components([
         <material:platinum> * 1,
         <material:iron> * 1,

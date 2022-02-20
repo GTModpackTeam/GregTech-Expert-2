@@ -166,6 +166,15 @@ mixer.recipeBuilder()
     .EUt(480)
     .buildAndRegister();
 
+# Simple Machine Parts
+JEI.removeAndHide(<enderio:item_material:69>);
+
+# Machine Parts
+JEI.removeAndHide(<enderio:item_material:2>);
+
+# Enhanced Machine Parts
+JEI.removeAndHide(<enderio:item_material:68>);
+
 # Simple Machine Chassis
 recipes.addShaped(<enderio:item_material>, [
     [<ore:barsIron>, <ore:plateIron>, <ore:barsIron>],
@@ -180,18 +189,9 @@ alloy_smelter.recipeBuilder()
         <ore:dyeMachine>
     ])
     .outputs([<enderio:item_material:1>])
-    .duration(56)
+    .duration(100)
     .EUt(480)
     .buildAndRegister();
-
-# Simple Machine Parts
-JEI.removeAndHide(<enderio:item_material:69>);
-
-# Machine Parts
-JEI.removeAndHide(<enderio:item_material:2>);
-
-# Enhanced Machine Parts
-JEI.removeAndHide(<enderio:item_material:68>);
 
 # Soul Machine Chassis
 alloy_smelter.recipeBuilder()
@@ -200,7 +200,7 @@ alloy_smelter.recipeBuilder()
         <ore:dyeSoulMachine>
     ])
     .outputs([<enderio:item_material:53>])
-    .duration(56)
+    .duration(100)
     .EUt(480)
     .buildAndRegister();
 
@@ -211,7 +211,7 @@ alloy_smelter.recipeBuilder()
         <ore:dyeEnhancedMachine>
     ])
     .outputs([<enderio:item_material:54>])
-    .duration(56)
+    .duration(100)
     .EUt(480)
     .buildAndRegister();
 
@@ -223,7 +223,7 @@ assembler.recipeBuilder()
         <ore:itemSoulMachineChassi>
     ])
     .outputs([<enderio:item_material:55>])
-    .duration(56)
+    .duration(50)
     .EUt(480)
     .buildAndRegister();
 
@@ -231,11 +231,11 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs([
         <enderio:block_end_iron_bars> * 4,
-        <ore:ingotEndSteel> * 4,
-        <ore:dustBedrock>
+        <ore:plateEndSteel> * 4,
+        <ore:skullEnderResonator>,
     ])
     .outputs([<enderio:item_material:66>])
-    .duration(56)
+    .duration(50)
     .EUt(480)
     .buildAndRegister();
 
@@ -261,16 +261,16 @@ JEI.removeAndHide(<enderio:item_material:5>);
 
 # Glider Wing
 recipes.addShaped(<enderio:item_material:6>, [
-    [null, null, <ore:nuggetDarkSteel>],
-    [null, <ore:nuggetDarkSteel>, <minecraft:leather>],
-    [<ore:nuggetDarkSteel>, <minecraft:leather>, <minecraft:leather>]
+    [null, null, <ore:stickDarkSteel>],
+    [null, <ore:stickDarkSteel>, <minecraft:leather>],
+    [<ore:stickDarkSteel>, <minecraft:leather>, <minecraft:leather>]
 ]);
 
 # Glider Wings
 recipes.addShaped(<enderio:item_material:7>, [
-    [null, null, null],
-    [null, <ore:ingotDarkSteel>, null],
-    [<enderio:item_material:6>, <ore:ingotDarkSteel>, <enderio:item_material:6>]
+    [<ore:screwDarkSteel>, <ore:stickDarkSteel>, <ore:screwDarkSteel>],
+    [<ore:ringDarkSteel>, <ore:stickLongDarkSteel>, <ore:ringDarkSteel>],
+    [<enderio:item_material:6>, <ore:stickLongDarkSteel>, <enderio:item_material:6>]
 ]);
 
 # Wooden Gear
@@ -517,7 +517,7 @@ mixer.recipeBuilder()
         <ore:dyeBlack>
     ])
     .outputs([<enderio:item_material:51>])
-    .duration(56)
+    .duration(40)
     .EUt(480)
     .buildAndRegister();
 
@@ -530,7 +530,19 @@ mixer.recipeBuilder()
         <ore:dyeBlack>
     ])
     .outputs([<enderio:item_material:52>])
-    .duration(56)
+    .duration(40)
+    .EUt(480)
+    .buildAndRegister();
+
+# Enhanced Dye Blend
+mixer.recipeBuilder()
+    .inputs([
+        <ore:itemPulsatingPowder> * 4,
+        <ore:dustNetherQuartz> * 4,
+        <ore:dyeBlack>
+    ])
+    .outputs([<enderio:item_material:67>])
+    .duration(40)
     .EUt(480)
     .buildAndRegister();
 
@@ -542,9 +554,9 @@ SliceNSplice.addRecipe(<enderio:item_material:56>, [
 
 # Wireless Energy Transmitter
 recipes.addShaped(<enderio:item_material:65>, [
-    [<minecraft:dye:15>, <ore:ingotElectricalSteel>, null],
-    [null, <minecraft:dye:15>, <ore:ingotElectricalSteel>],
-    [<minecraft:dye:15>, <ore:ingotElectricalSteel>, null]
+    [<minecraft:dye:15>, <ore:plateElectricalSteel>, null],
+    [null, <minecraft:dye:15>, <ore:plateElectricalSteel>],
+    [<minecraft:dye:15>, <ore:plateElectricalSteel>, null]
 ]);
 
 # Cake Base
@@ -635,7 +647,7 @@ macerator.recipeBuilder()
 
 # Tormented Enderman Head
 SliceNSplice.addRecipe(<enderio:block_enderman_skull:2>, [
-    <ore:ingotSoularium>, <enderio:block_enderman_skull>, <ore:ingotSoularium>,
+    <ore:plateSoularium>, <enderio:block_enderman_skull>, <ore:plateSoularium>,
     <minecraft:potion>.withTag({Potion: "minecraft:water"}), <enderio:item_basic_capacitor> | <enderio:item_capacitor_silver>, <minecraft:potion>.withTag({Potion: "minecraft:water"})
 ]);
 
@@ -787,6 +799,6 @@ JEI.removeAndHide(<enderio:item_capacitor_stellar>);
 
 # Totemic Capacitor
 SliceNSplice.addRecipe(<enderio:item_capacitor_totemic>, [
-    <ore:ingotSoularium>, <minecraft:totem_of_undying>, <ore:ingotSoularium>,
+    <ore:plateSoularium>, <minecraft:totem_of_undying>, <ore:plateSoularium>,
     <enderio:item_material:35>, <enderio:item_capacitor_crystalline>, <enderio:item_material:35>
 ]);

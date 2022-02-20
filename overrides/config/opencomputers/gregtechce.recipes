@@ -51,7 +51,6 @@ include file("default.recipes")
 rawcircuitboard = false
 circuitboard = false
 printedcircuitboard = false
-cable = false
 powerdistributor = false
 wrench = false
 ingotiron = false
