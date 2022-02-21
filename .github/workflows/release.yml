@@ -21,16 +21,14 @@ jobs:
           filename: "./GTExpert2-${{ steps.get_version.outputs.VERSION }}.zip"
           exclusions: '*.git* .editorconfig LICENSE *.md */.github/* */serverfiles/*'
 
-      - name: Run test action
-        uses: itsmeow/curseforge-upload@master
-        env:
-          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: upload Curseforge
+        uses: henkelmax/upload-curseforge-modpack-action@v1.0.0
         with:
-          token: ${{ secrets.CF_API_TOKEN }}
-          project_id: 262222
-          game_endpoint: minecraft
-          file_path: "./GTExpert2-${{ steps.get_version.outputs.VERSION }}.zip"
+          api-token: ${{ secrets.CF_API_TOKEN }}
+          project-id: "262222"
+          modpack-path: "./GTExpert2-${{ steps.get_version.outputs.VERSION }}.zip"
           changelog: 'Check the changes here. [Github - CHANGELOG.md](https://github.com/GTModpackTeam/gregtech-expert-2/blob/main/CHANGELOG.md "")'
-          display_name: "GTExpert2-${{ steps.get_version.outputs.VERSION }}"
-          game_versions: "1.12.2"
-          release_type: beta
+          changelog-format: "markdown"
+          game-version: "1.12.2"
+          display-name: "GTExpert2-${{ steps.get_version.outputs.VERSION }}"
+          release-type: "beta"
