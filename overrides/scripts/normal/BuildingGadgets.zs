@@ -67,7 +67,8 @@ assembler.recipeBuilder()
         <ore:screwRedAlloy> * 2,
         <ore:dustBedrock>,
         <metaitem:board.coated>,
-        <ore:circuitPrimitive>
+        <ore:circuitPrimitive>,
+        <metaitem:battery.re.lv.sodium>
     ])
     .outputs([<buildinggadgets:destructiontool>])
     .duration(100)
