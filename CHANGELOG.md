@@ -44,6 +44,11 @@
     * Wood-related crafts are becoming more difficult.
 
 ## Update recipe
+### Ender Storage
+* Pouch
+* Chest
+* Tank
+
 ### Exchanging Gadget
 * Building Gadget
 * Copy-Paste Gadget

@@ -58,6 +58,18 @@ compressor.recipeBuilder()
     .EUt(2)
     .buildAndRegister();
 
+# Chest
+assembler.findRecipe(4, [
+    <metaitem:plateWood> * 8, <metaitem:circuit.integrated>.withTag({Configuration: 8})
+], null).remove();
+assembler.recipeBuilder()
+    .circuit(8)
+    .inputs([<ore:plankWood> * 8])
+    .outputs([<minecraft:chest>])
+    .duration(200)
+    .EUt(4)
+    .buildAndRegister();
+
 # Ender Chest
 recipes.remove(<minecraft:ender_chest>);
 

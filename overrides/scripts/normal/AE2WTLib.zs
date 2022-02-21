@@ -54,7 +54,7 @@ recipes.addShaped(<ae2wtlib:infinity_booster_card>, [
 # Magnet Card
 recipes.remove(<wct:magnet_card>);
 recipes.addShaped(<wct:magnet_card>, [
-    [<ore:plateRedstone> | <ore:plateLapis>, <appliedenergistics2:part:300>, <ore:plateLapis> | <ore:plateRedstone>],
+    [<ore:plateRedstone>, <appliedenergistics2:part:300>, <ore:plateLapis>],
     [<ore:stickNeodymiumMagnetic>, <appliedenergistics2:material:28>, <ore:stickNeodymiumMagnetic>],
     [<ore:stickNeodymiumMagnetic>, <ore:ingotNeodymiumMagnetic>, <ore:stickNeodymiumMagnetic>]
 ]);

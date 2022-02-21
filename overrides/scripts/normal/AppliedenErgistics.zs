@@ -1335,8 +1335,8 @@ recipes.addShapeless(<appliedenergistics2:quartz_fixture>, [
 
 # Charger
 JEI.removeAndHide(<appliedenergistics2:charger>);
-JEI.addDescription(<appliedenergistics2:charger>, "Use of GT TurboCharger.");
-<appliedenergistics2:charger>.addTooltip(format.green("Use of GT TurboCharger."));
+JEI.addDescription(<appliedenergistics2:charger>, "Use GT TurboCharger.");
+<appliedenergistics2:charger>.addTooltip(format.green("Use GT TurboCharger."));
 
 # Security Terminal
 recipes.remove(<appliedenergistics2:security_station>);

@@ -36,7 +36,7 @@ assembler.recipeBuilder()
     .fluidInputs([<liquid:energetic_alloy> * 1152])
     .outputs([<enderio:item_basic_capacitor:1>])
     .duration(56)
-    .EUt(480)
+    .EUt(1920)
     .buildAndRegister();
 
 # Octadic Capacitor
@@ -48,7 +48,7 @@ assembler.recipeBuilder()
     .fluidInputs([<liquid:vibrant_alloy> * 1152])
     .outputs([<enderio:item_basic_capacitor:2>])
     .duration(56)
-    .EUt(480)
+    .EUt(7680)
     .buildAndRegister();
 
 # Electrical Steel
@@ -742,7 +742,7 @@ assembler.recipeBuilder()
     ])
     .fluidInputs([<liquid:silver> * 1152])
     .outputs([<enderio:item_capacitor_silver>])
-    .duration(56)
+    .duration(40)
     .EUt(480)
     .buildAndRegister();
 
@@ -754,8 +754,8 @@ assembler.recipeBuilder()
     ])
     .fluidInputs([<liquid:energetic_silver> * 1152])
     .outputs([<enderio:item_capacitor_energetic_silver>])
-    .duration(56)
-    .EUt(480)
+    .duration(40)
+    .EUt(1920)
     .buildAndRegister();
 
 # Endergised Capacitor
@@ -766,8 +766,8 @@ assembler.recipeBuilder()
     ])
     .fluidInputs([<liquid:vivid_alloy> * 1152])
     .outputs([<enderio:item_capacitor_vivid>])
-    .duration(56)
-    .EUt(480)
+    .duration(40)
+    .EUt(7680)
     .buildAndRegister();
 
 # Crystalline Capacitor
@@ -778,8 +778,8 @@ assembler.recipeBuilder()
     ])
     .fluidInputs([<liquid:crystalline_alloy> * 1152])
     .outputs([<enderio:item_capacitor_crystalline>])
-    .duration(56)
-    .EUt(480)
+    .duration(40)
+    .EUt(1920)
     .buildAndRegister();
 
 # Melodic Capacitor
@@ -790,8 +790,8 @@ assembler.recipeBuilder()
     ])
     .fluidInputs([<liquid:melodic_alloy> * 1152])
     .outputs([<enderio:item_capacitor_melodic>])
-    .duration(56)
-    .EUt(480)
+    .duration(40)
+    .EUt(7680)
     .buildAndRegister();
 
 # Stellar Capacitor

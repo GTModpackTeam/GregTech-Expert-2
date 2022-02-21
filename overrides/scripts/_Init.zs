@@ -130,6 +130,11 @@ global voidoreminer as RecipeMap = FactoryRecipeMap.start("voidoreminer")
     <gregtech:meta_tool:2>.withEmptyTag()
 ]);
 
+<ore:gtce.tool.knife>.addItems([
+    <gregtech:meta_tool:15>.withEmptyTag(),
+    <gregtechfoodoption:gtfo_meta_tool:1>.withEmptyTag()
+]);
+
 
 
 ########################################

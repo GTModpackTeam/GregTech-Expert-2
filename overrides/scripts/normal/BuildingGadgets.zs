@@ -17,7 +17,7 @@ assembler.recipeBuilder()
         <ore:dustIron>,
         <metaitem:board.coated>,
         <ore:circuitPrimitive>,
-        <metaitem:battery.re.lv.sodium>
+        <ore:batteryBasic>
     ])
     .outputs([<buildinggadgets:buildingtool>])
     .duration(100)
@@ -34,7 +34,7 @@ assembler.recipeBuilder()
         <ore:dustGold>,
         <metaitem:board.coated>,
         <ore:circuitPrimitive>,
-        <metaitem:battery.re.lv.sodium>
+        <ore:batteryBasic>
     ])
     .outputs([<buildinggadgets:copypastetool>])
     .duration(100)
@@ -51,7 +51,7 @@ assembler.recipeBuilder()
         <ore:dustObsidian>,
         <metaitem:board.coated> * 2,
         <ore:circuitPrimitive>,
-        <metaitem:battery.re.lv.sodium>
+        <ore:batteryBasic>
     ])
     .outputs([<buildinggadgets:exchangertool>])
     .duration(100)
@@ -68,7 +68,7 @@ assembler.recipeBuilder()
         <ore:dustBedrock>,
         <metaitem:board.coated>,
         <ore:circuitPrimitive>,
-        <metaitem:battery.re.lv.sodium>
+        <ore:batteryBasic>
     ])
     .outputs([<buildinggadgets:destructiontool>])
     .duration(100)

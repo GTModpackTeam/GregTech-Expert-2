@@ -33,7 +33,7 @@ assembler.recipeBuilder()
     .fluidInputs([<liquid:plastic> * 144])
     .outputs([<enderio:item_liquid_conduit>])
     .duration(100)
-    .EUt(480)
+    .EUt(120)
     .buildAndRegister();
 
 # Pressurized Fluid Conduit
@@ -57,7 +57,7 @@ assembler.recipeBuilder()
     .fluidInputs([<liquid:plastic> * 144])
     .outputs([<enderio:item_liquid_conduit:2>])
     .duration(100)
-    .EUt(480)
+    .EUt(1920)
     .buildAndRegister();
 
 # Power Conduit
@@ -91,12 +91,12 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs([
         <enderio:item_me_conduit> * 4,
-        <ore:plateNiobiumTitanium>
+        <ore:plateTitanium>
     ])
     .fluidInputs([<liquid:plastic> * 144])
     .outputs([<enderio:item_me_conduit:1>])
     .duration(100)
-    .EUt(480)
+    .EUt(1920)
     .buildAndRegister();
 
 # OC Conduit

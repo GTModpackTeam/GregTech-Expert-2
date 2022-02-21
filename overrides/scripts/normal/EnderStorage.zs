@@ -7,11 +7,18 @@
 ########################################
 # Pouch
 recipes.remove(<enderstorage:ender_pouch>);
-recipes.addShaped(<enderstorage:ender_pouch>, [
-    [<ore:foilBronze>, <minecraft:leather>, <ore:foilBronze>],
-    [<minecraft:leather>, <metaitem:cover.ender_fluid_link>, <minecraft:leather>],
-    [<ore:foilBronze>, <ore:wool> | <ore:blockWool>, <ore:foilBronze>]
-]);
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <ore:foilBronze> * 4,
+         <minecraft:leather> * 3,
+        <ore:wool> | <ore:blockWool>,
+        <metaitem:cover.ender_fluid_link>
+    ])
+    .outputs([<enderstorage:ender_pouch>])
+    .duration(400)
+    .EUt(480)
+    .buildAndRegister();
 
 
 
@@ -20,16 +27,32 @@ recipes.addShaped(<enderstorage:ender_pouch>, [
 ########################################
 # Chest
 recipes.remove(<enderstorage:ender_storage>);
-recipes.addShaped(<enderstorage:ender_storage>, [
-    [<ore:plateBronze>, <ore:wool> | <ore:blockWool>, <ore:plateBronze>],
-    [<enderio:block_reinforced_obsidian>, <minecraft:ender_chest>, <enderio:block_reinforced_obsidian>],
-    [<ore:plateBronze>, <metaitem:cover.ender_fluid_link>, <ore:plateBronze>]
-]);
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <ore:plateBronze> * 4,
+        <enderio:block_reinforced_obsidian> * 2,
+        <ore:wool> | <ore:blockWool>,
+        <metaitem:cover.ender_fluid_link>,
+        <metaitem:super_chest.hv>
+    ])
+    .outputs([<enderstorage:ender_storage>])
+    .duration(400)
+    .EUt(480)
+    .buildAndRegister();
 
 # Tank
 recipes.remove(<enderstorage:ender_storage:1>);
-recipes.addShaped(<enderstorage:ender_storage:1>, [
-    [<ore:plateBronze>, <ore:wool> | <ore:blockWool>, <ore:plateBronze>],
-    [<enderio:block_reinforced_obsidian>, <gregtech:machine:1575>, <enderio:block_reinforced_obsidian>],
-    [<ore:plateBronze>, <metaitem:cover.ender_fluid_link>, <ore:plateBronze>]
-]);
+assembler.recipeBuilder()
+    .circuit(2)
+    .inputs([
+        <ore:plateBronze> * 4,
+        <enderio:block_reinforced_obsidian> * 2,
+        <ore:wool> | <ore:blockWool>,
+        <metaitem:cover.ender_fluid_link>,
+        <metaitem:super_tank.hv>
+    ])
+    .outputs([<enderstorage:ender_storage:1>])
+    .duration(400)
+    .EUt(480)
+    .buildAndRegister();

@@ -111,8 +111,8 @@ recipes.addShaped(<enderio:item_advanced_item_filter>, [
 
 # Limited Item Filter
 recipes.addShaped(<enderio:item_limited_item_filter>, [
-    [null, null, null],
-    [<minecraft:comparator>, <ore:skullZombieController>, <minecraft:comparator>],
+    [null, <ore:skullZombieController>, null],
+    [<minecraft:comparator>, <enderio:item_advanced_item_filter>, <minecraft:comparator>],
     [null, null, null]
 ]);
 
@@ -173,9 +173,9 @@ recipes.addShapeless(<enderio:item_enchantment_filter_normal>, [
 
 # Basic Fluid Filter
 recipes.addShaped(<enderio:item_fluid_filter>, [
-    [null, <ore:paperBlack>, null],
-    [<ore:paperBlack>, <minecraft:bucket>, <ore:paperBlack>],
-    [null, <ore:paperBlack>, null]
+    [<ore:dustRedstoneAlloy>, <ore:paperBlack>, <ore:dustRedstoneAlloy>],
+    [<ore:paperBlack>, <metaitem:fluid_filter>, <ore:paperBlack>],
+    [<ore:dustRedstoneAlloy>, <ore:paperBlack>, <ore:dustRedstoneAlloy>]
 ]);
 
 # Redstone Filter Base
