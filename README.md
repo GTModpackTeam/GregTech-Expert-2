@@ -12,8 +12,12 @@ Then, useful machines that are added by other mods will be made available for cr
 
 ## Unofficial build mods
 
+* [GregTechCE Unofficial](https://github.com/GTModpackTeam/GregTech)
+* [GregTechFoodOption](https://github.com/GTModpackTeam/GregTechFoodOption)
 * [Chisel-MC1.12.2-GT](https://github.com/GTModpackTeam/Chisel)
 
 ## Credits
 
+* Forked from [GregTechCEu/GregTech](https://github.com/GregTechCEu/GregTech)
+* Forked from [bruberu/GregTechFoodOption](https://github.com/bruberu/GregTechFoodOption)
 * all [contributors](https://github.com/GTModpackTeam/gregtech-expert-2/graphs/contributors)
