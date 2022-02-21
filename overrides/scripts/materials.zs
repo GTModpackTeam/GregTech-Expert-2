@@ -43,7 +43,6 @@ MaterialBuilder(32100, "electrical_steel")
         <material:coal> * 1,
         <material:silicon> * 1
     ])
-    .cableProperties(128, 2, 0, false)
     .build();
 
 # EIO - Energetic Alloy
@@ -61,7 +60,6 @@ MaterialBuilder(32101, "energetic_alloy")
         <material:gold> * 1,
         <material:glowstone> * 1
     ])
-    .cableProperties(128, 2, 0, false)
     .build();
 
 # EIO - Vibrant Alloy
@@ -78,7 +76,6 @@ MaterialBuilder(32102, "vibrant_alloy")
         <material:energetic_alloy> * 1,
         <material:ender_pearl> * 1
     ])
-    .cableProperties(512, 2, 0, false)
     .build();
 
 # EIO - Redstone Alloy
@@ -108,7 +105,6 @@ MaterialBuilder(32104, "conductive_iron")
         <material:iron> * 1,
         <material:redstone> * 1
     ])
-    .cableProperties(512, 2, 0, false)
     .build();
 
 # EIO - Pulsating Iron
@@ -125,7 +121,6 @@ MaterialBuilder(32105, "pulsating_iron")
         <material:iron> * 1,
         <material:ender_pearl> * 1
     ])
-    .cableProperties(512, 3, 0, false)
     .build();
 
 # EIO - Dark Steel
