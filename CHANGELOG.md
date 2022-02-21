@@ -1,7 +1,8 @@
 # v1.0.0
 ## 💣 Update Warning 💣
 * Make a backup of your world before updating.
-* Fluix Dust and Charged Certus Quartz Dust are now made by GT and should be used up before the update. 
+    * Fluix Dust and Charged Certus Quartz Dust are now made by GT and should be used up before the update. 
+    * Removed the EIO cables as there are already various GT cables.
 
 ## EnderIO rework
 * EnderIO has been acquired by GT...?
