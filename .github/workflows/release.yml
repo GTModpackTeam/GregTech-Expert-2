@@ -15,20 +15,34 @@ jobs:
         id: get_version
         run: echo ::set-output name=VERSION::${GITHUB_REF/refs\/tags\//}
 
-      - name: Archive Release
+      - name: Archive Release Client
         uses: thedoctor0/zip-release@master
         with:
           filename: "./GTExpert2-${{ steps.get_version.outputs.VERSION }}.zip"
           exclusions: '*.git* .editorconfig LICENSE *.md */.github/* ./serverfiles/'
 
-      - name: upload Curseforge
+      - name: Archive Release Server
+        uses: thedoctor0/zip-release@master
+        with:
+          filename: "./GTExpert2-${{ steps.get_version.outputs.VERSION }}-tmp-server.zip"
+          exclusions: '*.git* .editorconfig LICENSE *.md */.github/*'
+
+      - name: Build Server
+        uses: henkelmax/build-modpack-server-action@v1.0.0
+        with:
+          modpack-path: "./GTExpert2-${{ steps.get_version.outputs.VERSION }}-tmp-server.zip"
+          output-path: "./GTExpert2-${{ steps.get_version.outputs.VERSION }}-server.zip"
+
+      - name: Upload Curseforge
         uses: henkelmax/upload-curseforge-modpack-action@v1.0.0
         with: 
           api-token: ${{ secrets.CF_API_TOKEN }}
           project-id: "565238"
           modpack-path: "./GTExpert2-${{ steps.get_version.outputs.VERSION }}.zip"
+          modpack-server-path: "./GTExpert2-${{ steps.get_version.outputs.VERSION }}-server.zip"
           changelog: 'Check the changes here. [Github - CHANGELOG.md](https://github.com/GTModpackTeam/gregtech-expert-2/blob/main/CHANGELOG.md "")' 
           changelog-format: "markdown"
           game-version: "1.12.2"
           display-name: "GTExpert2-${{ steps.get_version.outputs.VERSION }}"
-          release-type: "beta"
+          server-display-name: "GTExpert2-${{ steps.get_version.outputs.VERSION }}-server"
+          release-type: "release"
