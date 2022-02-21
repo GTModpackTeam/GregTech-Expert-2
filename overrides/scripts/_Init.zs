@@ -1,4 +1,4 @@
-# Imoprts
+# Imports
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 import mods.gregtech.recipe.RecipeMap;
@@ -11,6 +11,7 @@ import mods.gregtech.material.MaterialRegistry;
 # Gregtech
 ########################################
 global alloy_smelter             as RecipeMap = RecipeMap.getByName("alloy_smelter");
+global alloy_blast_smelter       as RecipeMap = RecipeMap.getByName("alloy_blast_smelter");
 global arc_furnace               as RecipeMap = RecipeMap.getByName("arc_furnace");
 global assembler                 as RecipeMap = RecipeMap.getByName("assembler");
 global assembly_line             as RecipeMap = RecipeMap.getByName("assembly_line");
@@ -24,6 +25,7 @@ global chemical_reactor          as RecipeMap = RecipeMap.getByName("chemical_re
 global circuit_assembler         as RecipeMap = RecipeMap.getByName("circuit_assembler");
 global coke_oven                 as RecipeMap = RecipeMap.getByName("coke_oven");
 global compressor                as RecipeMap = RecipeMap.getByName("compressor");
+global combustion_generator      as RecipeMap = RecipeMap.getByName("combustion_generator");
 global cracker                   as RecipeMap = RecipeMap.getByName("cracker");
 global cutter                    as RecipeMap = RecipeMap.getByName("cutter");
 global distillation_tower        as RecipeMap = RecipeMap.getByName("distillation_tower");
@@ -67,19 +69,43 @@ global greenhouse as RecipeMap = FactoryRecipeMap.start("greenhouse")
     .maxInputs(3)
     .minOutputs(1)
     .maxOutputs(4)
+    .minFluidInputs(0)
     .maxFluidInputs(1)
+    .minFluidOutputs(0)
+    .maxFluidOutputs(0)
+    .build();
+
+global voidoreminer as RecipeMap = FactoryRecipeMap.start("voidoreminer")
+    .minInputs(1)
+    .maxInputs(1)
+    .minOutputs(1)
+    .maxOutputs(1)
+    .minFluidInputs(2)
+    .maxFluidInputs(2)
+    .minFluidOutputs(0)
+    .maxFluidOutputs(0)
+    .build();
+
+global disassembler as RecipeMap = FactoryRecipeMap.start("disassembler")
+    .minInputs(1)
+    .maxInputs(1)
+    .minOutputs(1)
+    .maxOutputs(9)
+    .minFluidInputs(0)
+    .maxFluidInputs(0)
+    .minFluidOutputs(0)
     .maxFluidOutputs(0)
     .build();
 
 <ore:gtce.tool.wrenches>.addItems([
-    <gregtech:meta_tool:8>.withEmptyTag(), 
-    <gregtech:meta_tool:28>.withEmptyTag(), 
-    <gregtech:meta_tool:29>.withEmptyTag(), 
+    <gregtech:meta_tool:8>.withEmptyTag(),
+    <gregtech:meta_tool:28>.withEmptyTag(),
+    <gregtech:meta_tool:29>.withEmptyTag(),
     <gregtech:meta_tool:30>.withEmptyTag()
 ]);
 
 <ore:gtce.tool.screwdrivers>.addItems([
-    <gregtech:meta_tool:11>.withEmptyTag(), 
+    <gregtech:meta_tool:11>.withEmptyTag(),
     <gregtech:meta_tool:31>.withEmptyTag()
 ]);
 
@@ -89,8 +115,8 @@ global greenhouse as RecipeMap = FactoryRecipeMap.start("greenhouse")
 
 <ore:gtce.tool.saws>.addItems([
     <gregtech:meta_tool:5>.withEmptyTag(),
-    <gregtech:meta_tool:25>.withEmptyTag(), 
-    <gregtech:meta_tool:26>.withEmptyTag(), 
+    <gregtech:meta_tool:25>.withEmptyTag(),
+    <gregtech:meta_tool:26>.withEmptyTag(),
     <gregtech:meta_tool:27>.withEmptyTag(),
     <gregtech:meta_tool:32>.withEmptyTag()
 ]);
@@ -289,6 +315,44 @@ for denseSmartCable in denseSmartCables {
     <minecraft:double_plant:3>,
     <minecraft:tallgrass:*>
 ]);
+
+# Colors
+global colors as string[] = [
+    "white",
+    "orange",
+    "magenta",
+    "light_blue",
+    "yellow",
+    "lime",
+    "pink",
+    "gray",
+    "silver",
+    "cyan",
+    "purple",
+    "blue",
+    "brown",
+    "green",
+    "red",
+    "black"
+];
+global colorLiquid as ILiquidStack[] = [
+    <liquid:dye_white>,
+    <liquid:dye_orange>,
+    <liquid:dye_magenta>,
+    <liquid:dye_light_blue>,
+    <liquid:dye_yellow>,
+    <liquid:dye_lime>,
+    <liquid:dye_pink>,
+    <liquid:dye_gray>,
+    <liquid:dye_light_gray>,
+    <liquid:dye_cyan>,
+    <liquid:dye_purple>,
+    <liquid:dye_blue>,
+    <liquid:dye_brown>,
+    <liquid:dye_green>,
+    <liquid:dye_red>,
+    <liquid:dye_black>
+];
 
 
 

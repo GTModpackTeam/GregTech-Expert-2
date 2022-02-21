@@ -1,5 +1,5 @@
 #packmode normal
-# Imoprts
+# Imports
 import mods.jei.JEI;
 import mods.enderio.AlloySmelter; // 1
 import mods.enderio.CombustionGen; // no
@@ -36,11 +36,6 @@ recipes.addShapeless(<enderio:item_conduit_facade:2>, [
 ]);
 
 # Transparent Hardened Conduit
-recipes.addShaped(<enderio:item_conduit_facade:3>, [
-    [null, <ore:dustObsidian>, null],
-    [<ore:dustObsidian>, <enderio:item_conduit_facade:*>, <ore:dustObsidian>],
-    [null, <ore:dustObsidian>, null]
-]);
 recipes.addShapeless(<enderio:item_conduit_facade:3>, [
     <enderio:item_conduit_facade:1>, <enderio:block_fused_glass:*>
 ]);
@@ -54,9 +49,9 @@ recipes.addShaped(<enderio:item_conduit_probe>, [
 
 # Yeta Wrench
 recipes.addShaped(<enderio:item_yeta_wrench>, [
-    [<ore:ingotElectricalSteel>, null, <ore:ingotElectricalSteel>],
-    [null, <ore:gearStone>, null],
-    [null, <ore:ingotElectricalSteel>, null]
+    [<ore:plateElectricalSteel>, <ore:gtce.tool.hard.hammers>, <ore:plateElectricalSteel>],
+    [<ore:plateElectricalSteel>, <ore:plateElectricalSteel>, <ore:plateElectricalSteel>],
+    [null, <ore:plateElectricalSteel>, null]
 ]);
 
 # Experience Rod
@@ -79,15 +74,15 @@ recipes.addShaped(<enderio:item_coord_selector>, [
 # Staff of Traveling
 recipes.addShaped(<enderio:item_travel_staff>, [
     [null, null, <ore:itemEnderCrystal>],
-    [null, <ore:stickSteel>, null],
-    [<ore:stickSteel>, null, null]
+    [null, <ore:stickDarkSteel>, null],
+    [<ore:stickDarkSteel>, null, null]
 ]);
 
 # Rod of Return
 recipes.addShaped(<enderio:item_rod_of_return>, [
     [null, <ore:itemPulsatingCrystal>, <ore:itemEnderCrystal>],
-    [null, <ore:stickSteel>, <ore:itemPulsatingCrystal>],
-    [<ore:stickSteel>, null, null]
+    [null, <ore:stickDarkSteel>, <ore:itemPulsatingCrystal>],
+    [<ore:stickDarkSteel>, null, null]
 ]);
 
 # Electromagnet
@@ -285,72 +280,79 @@ recipes.addShaped(<enderio:item_soul_vial>, [
 # Dark Armors
 recipes.addShaped(<enderio:item_dark_steel_helmet>, [
     [null, null, null],
-    [<ore:ingotDarkSteel>, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>],
-    [<ore:ingotDarkSteel>, null, <ore:ingotDarkSteel>]
+    [<ore:plateDarkSteel>, <ore:plateDarkSteel>, <ore:plateDarkSteel>],
+    [<ore:plateDarkSteel>, <ore:gtce.tool.hard.hammers>, <ore:plateDarkSteel>]
 ]);
 recipes.addShaped(<enderio:item_dark_steel_chestplate>, [
-    [<ore:ingotDarkSteel>, null, <ore:ingotDarkSteel>],
-    [<ore:ingotDarkSteel>, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>],
-    [<ore:ingotDarkSteel>, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>]
+    [<ore:plateDarkSteel>, <ore:gtce.tool.hard.hammers>, <ore:plateDarkSteel>],
+    [<ore:plateDarkSteel>, <ore:plateDarkSteel>, <ore:plateDarkSteel>],
+    [<ore:plateDarkSteel>, <ore:plateDarkSteel>, <ore:plateDarkSteel>]
 ]);
 recipes.addShaped(<enderio:item_dark_steel_leggings>, [
-    [<ore:ingotDarkSteel>, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>],
-    [<ore:ingotDarkSteel>, null, <ore:ingotDarkSteel>],
-    [<ore:ingotDarkSteel>, null, <ore:ingotDarkSteel>]
+    [<ore:plateDarkSteel>, <ore:plateDarkSteel>, <ore:plateDarkSteel>],
+    [<ore:plateDarkSteel>, <ore:gtce.tool.hard.hammers>, <ore:plateDarkSteel>],
+    [<ore:plateDarkSteel>, null, <ore:plateDarkSteel>]
 ]);
 recipes.addShaped(<enderio:item_dark_steel_boots>, [
     [null, null, null],
-    [<ore:ingotDarkSteel>, null, <ore:ingotDarkSteel>],
-    [<ore:ingotDarkSteel>, null, <ore:ingotDarkSteel>]
+    [<ore:plateDarkSteel>, null, <ore:plateDarkSteel>],
+    [<ore:plateDarkSteel>, <ore:gtce.tool.hard.hammers>, <ore:plateDarkSteel>]
 ]);
 
 # Dark Shield
 recipes.addShaped(<enderio:item_dark_steel_shield>, [
-    [<ore:ingotDarkSteel>, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>],
-    [<ore:ingotDarkSteel>, null, <ore:ingotDarkSteel>],
-    [null, <ore:ingotDarkSteel>, null]
+    [<ore:boltDarkSteel>, <ore:stickDarkSteel>, <ore:boltDarkSteel>],
+    [<ore:stickLongDarkSteel>, <ore:plateDarkSteel>, <ore:stickLongDarkSteel>],
+    [<ore:boltDarkSteel>, <ore:stickDarkSteel>, <ore:boltDarkSteel>]
 ]);
 
 # The Ender
 recipes.addShaped(<enderio:item_dark_steel_sword>, [
-    [null, <ore:ingotDarkSteel>, null],
-    [null, <ore:ingotDarkSteel>, null],
-    [null, <ore:stickSteel>, null]
+    [null, <ore:plateDarkSteel>, null],
+    [<ore:gtce.tool.files>, <ore:plateDarkSteel>, <ore:gtce.tool.hard.hammers>],
+    [null, <ore:stickDarkSteel>, null]
 ]);
 
 # Dark Pick
 recipes.addShaped(<enderio:item_dark_steel_pickaxe>, [
-    [<ore:ingotDarkSteel>, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>],
-    [null, <ore:stickSteel>, null],
-    [null, <ore:stickSteel>, null]
+    [<ore:plateDarkSteel>, <ore:ingotDarkSteel>, <ore:gtce.tool.hard.hammers>],
+    [<ore:gtce.tool.files>, <ore:stickDarkSteel>, null],
+    [null, <ore:stickDarkSteel>, null]
 ]);
 
 # Dark Axe
 recipes.addShaped(<enderio:item_dark_steel_axe>, [
-    [<ore:ingotDarkSteel>, <ore:ingotDarkSteel>, null],
-    [<ore:ingotDarkSteel>, <ore:stickSteel>, null],
-    [null, <ore:stickSteel>, null]
+    [<ore:plateDarkSteel>, <ore:ingotDarkSteel>, <ore:gtce.tool.hard.hammers>],
+    [<ore:plateDarkSteel>, <ore:stickDarkSteel>, null],
+    [<ore:gtce.tool.files>, <ore:stickDarkSteel>, null]
 ]);
 
 # Dark Bow
+recipes.addShaped(<enderio:item_dark_steel_bow>, [
+    [<ore:gtce.tool.hard.hammers>, <ore:stickLongDarkSteel>, <ore:string>],
+    [<ore:stickLongDarkSteel>, <ore:ringDarkSteel>, <ore:string>],
+    [<ore:gtce.tool.files>, <ore:stickLongDarkSteel>, <ore:string>]
+]);
+
+# Dark Shears
 recipes.addShaped(<enderio:item_dark_steel_shears>, [
-    [null, <ore:ingotDarkSteel>, null],
-    [<ore:ingotDarkSteel>, null, null],
-    [null, null, null]
+    [<ore:plateDarkSteel>, <ore:screwDarkSteel>, <ore:plateDarkSteel>],
+    [<ore:gtce.tool.hard.hammers>, <ore:ringDarkSteel>, <ore:gtce.tool.files>],
+    [<ore:stickDarkSteel>, <ore:gtce.tool.screwdrivers>, <ore:stickDarkSteel>]
 ]);
 
 # Dark Crook
 recipes.addShaped(<enderio:item_dark_steel_crook>, [
-    [<ore:ingotDarkSteel>, <ore:ingotDarkSteel>, <ore:stickSteel>],
-    [null, null, <ore:stickSteel>],
-    [null, null, <ore:stickSteel>]
+    [<ore:plateDarkSteel>, <ore:plateDarkSteel>, <ore:stickLongDarkSteel>],
+    [<ore:gtce.tool.screwdrivers>, <ore:gtce.tool.hard.hammers>, <ore:stickLongDarkSteel>],
+    [null, <ore:gtce.tool.files>, <ore:stickLongDarkSteel>]
 ]);
 
 # Dark Backhoe
 recipes.addShaped(<enderio:item_dark_steel_hand>, [
-    [<ore:ingotDarkSteel>, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>],
-    [<ore:ingotDarkSteel>, <minecraft:diamond_hoe>, <ore:ingotDarkSteel>],
-    [<ore:nuggetDarkSteel>, <ore:nuggetDarkSteel>, <ore:nuggetDarkSteel>]
+    [<ore:plateDarkSteel>, <ore:plateDarkSteel>, <ore:plateDarkSteel>],
+    [<ore:plateDarkSteel>, <minecraft:diamond_hoe>, <ore:plateDarkSteel>],
+    [<ore:gtce.tool.screwdrivers>, <ore:gtce.tool.hard.hammers>, <ore:gtce.tool.files>]
 ]);
 
 # Vibrant Inventory Charger
@@ -362,30 +364,30 @@ recipes.addShaped(<enderio:item_inventory_charger_vibrant>, [
 
 # The Ender Mk2
 recipes.addShaped(<enderio:item_end_steel_sword>, [
-    [null, <ore:ingotEndSteel>, null],
-    [null, <ore:ingotEndSteel>, null],
-    [null, <ore:stickSteel>, null]
+    [null, <ore:plateEndSteel>, null],
+    [<ore:gtce.tool.files>, <ore:plateEndSteel>, <ore:gtce.tool.hard.hammers>],
+    [null, <ore:stickEndSteel>, null]
 ]);
 
 # Ender Pickaxe
 recipes.addShaped(<enderio:item_end_steel_pickaxe>, [
-    [<ore:ingotEndSteel>, <ore:ingotEndSteel>, <ore:ingotEndSteel>],
-    [null, <ore:stickSteel>, null],
-    [null, <ore:stickSteel>, null]
+    [<ore:plateEndSteel>, <ore:ingotEndSteel>, <ore:ingotEndSteel>],
+    [<ore:gtce.tool.files>, <ore:stickEndSteel>, <ore:gtce.tool.hard.hammers>],
+    [null, <ore:stickEndSteel>, null]
 ]);
 
 # Ender Axe
 recipes.addShaped(<enderio:item_end_steel_axe>, [
-    [<ore:ingotEndSteel>, <ore:ingotEndSteel>, null],
-    [<ore:ingotEndSteel>, <ore:stickSteel>, null],
-    [null, <ore:stickSteel>, null]
+    [<ore:plateEndSteel>, <ore:ingotEndSteel>, <ore:gtce.tool.hard.hammers>],
+    [<ore:plateEndSteel>, <ore:stickEndSteel>, null],
+    [<ore:gtce.tool.files>, <ore:stickEndSteel>, null]
 ]);
 
 # Ender Bow
 recipes.addShaped(<enderio:item_end_steel_bow>, [
-    [null, <ore:stickSteel>, <ore:string>],
-    [<ore:skullSkeletalContractor>, null, <ore:string>],
-    [null, <ore:stickSteel>, <ore:string>]
+    [<ore:gtce.tool.hard.hammers>, <ore:stickLongEndSteel>, <ore:string>],
+    [<ore:stickLongEndSteel>, <ore:ringEndSteel>, <ore:string>],
+    [<ore:gtce.tool.files>, <ore:stickLongEndSteel>, <ore:string>]
 ]);
 
 # Ender Armors
@@ -412,16 +414,16 @@ recipes.addShaped(<enderio:item_end_steel_boots>, [
 
 # Ender Shield
 recipes.addShaped(<enderio:item_end_steel_shield>, [
-    [<ore:ingotEndSteel>, <ore:skullGuardianDiode>, <ore:ingotEndSteel>],
-    [<ore:ingotEndSteel>, null, <ore:ingotEndSteel>],
-    [null, <ore:ingotEndSteel>, null]
+    [<ore:plateEndSteel>, <ore:screwEndSteel>, <ore:plateEndSteel>],
+    [<ore:gtce.tool.hard.hammers>, <ore:ringEndSteel>, <ore:gtce.tool.files>],
+    [<ore:stickEndSteel>, <ore:gtce.tool.screwdrivers>, <ore:stickEndSteel>]
 ]);
 
 # Staff of Levity
 recipes.addShaped(<enderio:item_staff_of_levity>, [
     [null, null, <ore:itemPrecientCrystal>],
-    [null, <ore:stickSteel>, null],
-    [<ore:stickSteel>, null, null]
+    [null, <ore:stickEndSteel>, null],
+    [<ore:stickEndSteel>, null, null]
 ]);
 
 # The Ender Mark IV
@@ -489,31 +491,31 @@ recipes.addShaped(<enderio:item_inventory_charger>, [
 ]);
 
 # Blank Dark Steel Upgrade
-alloy_smelter.recipeBuilder().
-    inputs([
+alloy_smelter.recipeBuilder()
+    .inputs([
         <enderio:item_basic_item_filter>,
         <enderio:block_dark_iron_bars>
-    ]).
-    outputs([<enderio:item_dark_steel_upgrade>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
+    ])
+    .outputs([<enderio:item_dark_steel_upgrade>])
+    .duration(56)
+    .EUt(480)
+    .buildAndRegister();
 
 # Dark Steel Upgrade "Micro Anvil"
 recipes.addShaped(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:anvil"}), [
-    [null, <enderio:item_alloy_nugget:6>, <ore:nuggetDarkSteel>],
+    [null, <ore:nuggetDarkSteel>, <ore:nuggetDarkSteel>],
     [null, null, <ore:stickWood>],
     [<enderio:item_dark_steel_upgrade>, null, <ore:stickWood>]
 ]);
 
 # Dark Steel Upgrade(XP) "Micro Anvil"
-assembler.recipeBuilder().
-    inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:anvil"})]).
-    fluidInputs([<liquid:xpjuice> * 144]).
-    outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:anvil", "enderio:enabled": 1 as byte})]).
-    duration(100).
-    EUt(480).
-    buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:anvil"})])
+    .fluidInputs([<liquid:xpjuice> * 144])
+    .outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:anvil", "enderio:enabled": 1 as byte})])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Dark Steel Upgrade "Mini Anvil"
 recipes.addShaped(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:anvil1"}), [
@@ -523,13 +525,13 @@ recipes.addShaped(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "e
 ]);
 
 # Dark Steel Upgrade(XP) "Mini Anvil"
-assembler.recipeBuilder().
-    inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:anvil1"})]).
-    fluidInputs([<liquid:xpjuice> * 144]).
-    outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:anvil1", "enderio:enabled": 1 as byte})]).
-    duration(100).
-    EUt(480).
-    buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:anvil1"})])
+    .fluidInputs([<liquid:xpjuice> * 144])
+    .outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:anvil1", "enderio:enabled": 1 as byte})])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Dark Steel Upgrade "Pocket Anvil"
 recipes.addShaped(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:anvil2"}), [
@@ -539,13 +541,13 @@ recipes.addShaped(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "e
 ]);
 
 # Dark Steel Upgrade(XP) "Pocket Anvil"
-assembler.recipeBuilder().
-    inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:anvil2"})]).
-    fluidInputs([<liquid:xpjuice> * 144]).
-    outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:anvil2", "enderio:enabled": 1 as byte})]).
-    duration(100).
-    EUt(480).
-    buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:anvil2"})])
+    .fluidInputs([<liquid:xpjuice> * 144])
+    .outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:anvil2", "enderio:enabled": 1 as byte})])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Dark Steel Upgrade "Carpeting"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:carpet"}), [
@@ -553,13 +555,13 @@ recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu":
 ]);
 
 # Dark Steel Upgrade(XP) "Carpeting"
-assembler.recipeBuilder().
-    inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:carpet"})]).
-    fluidInputs([<liquid:xpjuice> * 2240]).
-    outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:carpet", "enderio:enabled": 1 as byte})]).
-    duration(100).
-    EUt(480).
-    buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:carpet"})])
+    .fluidInputs([<liquid:xpjuice> * 2240])
+    .outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:carpet", "enderio:enabled": 1 as byte})])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Dark Steel Upgrade "Depth"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:depth"}), [
@@ -567,13 +569,13 @@ recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu":
 ]);
 
 # Dark Steel Upgrade(XP) "Depth"
-assembler.recipeBuilder().
-    inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:depth"})]).
-    fluidInputs([<liquid:xpjuice> * 2240]).
-    outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:depth", "enderio:enabled": 1 as byte})]).
-    duration(100).
-    EUt(480).
-    buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:depth"})])
+    .fluidInputs([<liquid:xpjuice> * 2240])
+    .outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:depth", "enderio:enabled": 1 as byte})])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Dark Steel Upgrade "Direct"
 recipes.addShaped(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:direct"}), [
@@ -583,13 +585,13 @@ recipes.addShaped(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "e
 ]);
 
 # Dark Steel Upgrade(XP) "Direct"
-assembler.recipeBuilder().
-    inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:direct"})]).
-    fluidInputs([<liquid:xpjuice> * 2240]).
-    outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:direct", "enderio:enabled": 1 as byte})]).
-    duration(100).
-    EUt(480).
-    buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:direct"})])
+    .fluidInputs([<liquid:xpjuice> * 2240])
+    .outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:direct", "enderio:enabled": 1 as byte})])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Dark Steel Upgrade "Elytra"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:elytra"}), [
@@ -597,13 +599,13 @@ recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu":
 ]);
 
 # Dark Steel Upgrade(XP) "Elytra"
-assembler.recipeBuilder().
-    inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:elytra"})]).
-    fluidInputs([<liquid:xpjuice> * 3200]).
-    outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:elytra", "enderio:enabled": 1 as byte})]).
-    duration(100).
-    EUt(480).
-    buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:elytra"})])
+    .fluidInputs([<liquid:xpjuice> * 3200])
+    .outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:elytra", "enderio:enabled": 1 as byte})])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Dark Steel Upgrade "Empowered lv1"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:energyupgrade"}), [
@@ -611,13 +613,13 @@ recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu":
 ]);
 
 # Dark Steel Upgrade(XP) "Empowered lv1"
-assembler.recipeBuilder().
-    inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:energyupgrade"})]).
-    fluidInputs([<liquid:xpjuice> * 800]).
-    outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:energyupgrade", "enderio:enabled": 1 as byte})]).
-    duration(100).
-    EUt(480).
-    buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:energyupgrade"})])
+    .fluidInputs([<liquid:xpjuice> * 800])
+    .outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:energyupgrade", "enderio:enabled": 1 as byte})])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Dark Steel Upgrade "Empowered lv2"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:energyupgrade1"}), [
@@ -625,13 +627,13 @@ recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu":
 ]);
 
 # Dark Steel Upgrade(XP) "Empowered lv2"
-assembler.recipeBuilder().
-    inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:energyupgrade1"})]).
-    fluidInputs([<liquid:xpjuice> * 2240]).
-    outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:energyupgrade1", "enderio:enabled": 1 as byte})]).
-    duration(100).
-    EUt(480).
-    buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:energyupgrade1"})])
+    .fluidInputs([<liquid:xpjuice> * 2240])
+    .outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:energyupgrade1", "enderio:enabled": 1 as byte})])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Dark Steel Upgrade "Empowered lv3"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:energyupgrade2"}), [
@@ -639,13 +641,13 @@ recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu":
 ]);
 
 # Dark Steel Upgrade(XP) "Empowered lv3"
-assembler.recipeBuilder().
-    inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:energyupgrade2"})]).
-    fluidInputs([<liquid:xpjuice> * 4320]).
-    outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:energyupgrade2", "enderio:enabled": 1 as byte})]).
-    duration(100).
-    EUt(480).
-    buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:energyupgrade2"})])
+    .fluidInputs([<liquid:xpjuice> * 4320])
+    .outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:energyupgrade2", "enderio:enabled": 1 as byte})])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Dark Steel Upgrade "Empowered lv4"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:energyupgrade3"}), [
@@ -653,13 +655,13 @@ recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu":
 ]);
 
 # Dark Steel Upgrade(XP) "Empowered lv4"
-assembler.recipeBuilder().
-    inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:energyupgrade3"})]).
-    fluidInputs([<liquid:xpjuice> * 7040]).
-    outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:energyupgrade3", "enderio:enabled": 1 as byte})]).
-    duration(100).
-    EUt(480).
-    buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:energyupgrade3"})])
+    .fluidInputs([<liquid:xpjuice> * 7040])
+    .outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:energyupgrade3", "enderio:enabled": 1 as byte})])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Dark Steel Upgrade "Empowered lv5"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:energyupgrade4"}), [
@@ -667,13 +669,13 @@ recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu":
 ]);
 
 # Dark Steel Upgrade(XP) "Empowered lv5"
-assembler.recipeBuilder().
-    inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:energyupgrade4"})]).
-    fluidInputs([<liquid:xpjuice> * 11000]).
-    outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:energyupgrade4", "enderio:enabled": 1 as byte})]).
-    duration(100).
-    EUt(480).
-    buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:energyupgrade4"})])
+    .fluidInputs([<liquid:xpjuice> * 11000])
+    .outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:energyupgrade4", "enderio:enabled": 1 as byte})])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Dark Steel Upgrade "Glider"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:glide"}), [
@@ -681,13 +683,13 @@ recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu":
 ]);
 
 # Dark Steel Upgrade(XP) "Glider"
-assembler.recipeBuilder().
-    inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:glide"})]).
-    fluidInputs([<liquid:xpjuice> * 800]).
-    outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:glide", "enderio:enabled": 1 as byte})]).
-    duration(100).
-    EUt(480).
-    buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:glide"})])
+    .fluidInputs([<liquid:xpjuice> * 800])
+    .outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:glide", "enderio:enabled": 1 as byte})])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Dark Steel Upgrade "Fork"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:hoe"}), [
@@ -695,13 +697,13 @@ recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu":
 ]);
 
 # Dark Steel Upgrade(XP) "Fork"
-assembler.recipeBuilder().
-    inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:hoe"})]).
-    fluidInputs([<liquid:xpjuice> * 800]).
-    outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:hoe", "enderio:enabled": 1 as byte})]).
-    duration(100).
-    EUt(480).
-    buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:hoe"})])
+    .fluidInputs([<liquid:xpjuice> * 800])
+    .outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:hoe", "enderio:enabled": 1 as byte})])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Dark Steel Upgrade "Inventory lv1"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:inv"}), [
@@ -709,41 +711,41 @@ recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu":
 ]);
 
 # Dark Steel Upgrade(XP) "Inventory lv1"
-assembler.recipeBuilder().
-    inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:inv"})]).
-    fluidInputs([<liquid:xpjuice> * 4320]).
-    outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:inv", "enderio:enabled": 1 as byte})]).
-    duration(100).
-    EUt(480).
-    buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:inv"})])
+    .fluidInputs([<liquid:xpjuice> * 4320])
+    .outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:inv", "enderio:enabled": 1 as byte})])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Dark Steel Upgrade "Inventory lv2"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:inv1"}), [
-    <enderio:item_dark_steel_upgrade>, <ore:chest>, <ore:gearEnergized>
+    <enderio:item_dark_steel_upgrade>, <ore:chest>, <ore:gearEnergeticAlloySteel>
 ]);
 
 # Dark Steel Upgrade(XP) "Inventory lv2"
-assembler.recipeBuilder().
-    inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:inv1"})]).
-    fluidInputs([<liquid:xpjuice> * 11000]).
-    outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:inv1", "enderio:enabled": 1 as byte})]).
-    duration(100).
-    EUt(480).
-    buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:inv1"})])
+    .fluidInputs([<liquid:xpjuice> * 11000])
+    .outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:inv1", "enderio:enabled": 1 as byte})])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Dark Steel Upgrade "Inventory lv3"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:inv2"}), [
-    <enderio:item_dark_steel_upgrade>, <ore:chest>, <ore:gearVibrant>
+    <enderio:item_dark_steel_upgrade>, <ore:chest>, <ore:gearVibrantAlloy>
 ]);
 
 # Dark Steel Upgrade(XP) "Inventory lv3"
-assembler.recipeBuilder().
-    inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:inv2"})]).
-    fluidInputs([<liquid:xpjuice> * 32560]).
-    outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:inv2", "enderio:enabled": 1 as byte})]).
-    duration(100).
-    EUt(480).
-    buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:inv2"})])
+    .fluidInputs([<liquid:xpjuice> * 32560])
+    .outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:inv2", "enderio:enabled": 1 as byte})])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Dark Steel Upgrade "Jump lv1"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:jumpboost1"}), [
@@ -751,41 +753,41 @@ recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu":
 ]);
 
 # Dark Steel Upgrade(XP) "Jump lv1"
-assembler.recipeBuilder().
-    inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:jumpboost1"})]).
-    fluidInputs([<liquid:xpjuice> * 800]).
-    outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:jumpboost1", "enderio:enabled": 1 as byte})]).
-    duration(100).
-    EUt(480).
-    buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:jumpboost1"})])
+    .fluidInputs([<liquid:xpjuice> * 800])
+    .outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:jumpboost1", "enderio:enabled": 1 as byte})])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Dark Steel Upgrade "Jump lv2"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:jumpboost2"}), [
-    <enderio:item_dark_steel_upgrade>, <ore:craftingPiston>, <ore:gearEnergized>
+    <enderio:item_dark_steel_upgrade>, <ore:craftingPiston>, <ore:gearEnergeticAlloySteel>
 ]);
 
 # Dark Steel Upgrade(XP) "Jump lv2"
-assembler.recipeBuilder().
-    inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:jumpboost2"})]).
-    fluidInputs([<liquid:xpjuice> * 1440]).
-    outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:jumpboost2", "enderio:enabled": 1 as byte})]).
-    duration(100).
-    EUt(480).
-    buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:jumpboost2"})])
+    .fluidInputs([<liquid:xpjuice> * 1440])
+    .outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:jumpboost2", "enderio:enabled": 1 as byte})])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Dark Steel Upgrade "Jump lv3"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:jumpboost3"}), [
-    <enderio:item_dark_steel_upgrade>, <ore:craftingPiston>, <ore:gearVibrant>
+    <enderio:item_dark_steel_upgrade>, <ore:craftingPiston>, <ore:gearVibrantAlloy>
 ]);
 
 # Dark Steel Upgrade(XP) "Jump lv3"
-assembler.recipeBuilder().
-    inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:jumpboost3"})]).
-    fluidInputs([<liquid:xpjuice> * 2240]).
-    outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:jumpboost3", "enderio:enabled": 1 as byte})]).
-    duration(100).
-    EUt(480).
-    buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:jumpboost3"})])
+    .fluidInputs([<liquid:xpjuice> * 2240])
+    .outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:jumpboost3", "enderio:enabled": 1 as byte})])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Dark Steel Upgrade "Night Vision"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:nightvision"}), [
@@ -793,13 +795,13 @@ recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu":
 ]);
 
 # Dark Steel Upgrade(XP) "Night Vision"
-assembler.recipeBuilder().
-    inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:nightvision"})]).
-    fluidInputs([<liquid:xpjuice> * 800]).
-    outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:nightvision", "enderio:enabled": 1 as byte})]).
-    duration(100).
-    EUt(480).
-    buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:nightvision"})])
+    .fluidInputs([<liquid:xpjuice> * 800])
+    .outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:nightvision", "enderio:enabled": 1 as byte})])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Dark Steel Upgrade "Padding"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:padding"}), [
@@ -807,13 +809,13 @@ recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu":
 ]);
 
 # Dark Steel Upgrade(XP) "Padding"
-assembler.recipeBuilder().
-    inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:padding"})]).
-    fluidInputs([<liquid:xpjuice> * 800]).
-    outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:padding", "enderio:enabled": 1 as byte})]).
-    duration(100).
-    EUt(480).
-    buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:padding"})])
+    .fluidInputs([<liquid:xpjuice> * 800])
+    .outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:padding", "enderio:enabled": 1 as byte})])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Dark Steel Upgrade(XP) "Solars"
 JEI.removeAndHide(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderiomachines:solar"}));
@@ -831,13 +833,13 @@ recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu":
 ]);
 
 # Dark Steel Upgrade(XP) "Sound Locator"
-assembler.recipeBuilder().
-    inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:sounddetector"})]).
-    fluidInputs([<liquid:xpjuice> * 800]).
-    outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:sounddetector", "enderio:enabled": 1 as byte})]).
-    duration(100).
-    EUt(480).
-    buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:sounddetector"})])
+    .fluidInputs([<liquid:xpjuice> * 800])
+    .outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:sounddetector", "enderio:enabled": 1 as byte})])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Dark Steel Upgrade "Speed lv1"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:speedboost1"}), [
@@ -845,41 +847,41 @@ recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu":
 ]);
 
 # Dark Steel Upgrade(XP) "Speed lv1"
-assembler.recipeBuilder().
-    inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:speedboost1"})]).
-    fluidInputs([<liquid:xpjuice> * 800]).
-    outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:speedboost1", "enderio:enabled": 1 as byte})]).
-    duration(100).
-    EUt(480).
-    buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:speedboost1"})])
+    .fluidInputs([<liquid:xpjuice> * 800])
+    .outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:speedboost1", "enderio:enabled": 1 as byte})])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Dark Steel Upgrade "Speed lv2"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:speedboost2"}), [
-    <enderio:item_dark_steel_upgrade>, <minecraft:potion>.withTag({Potion: "minecraft:long_swiftness"}),<ore:gearEnergized>
+    <enderio:item_dark_steel_upgrade>, <minecraft:potion>.withTag({Potion: "minecraft:long_swiftness"}),<ore:gearEnergeticAlloySteel>
 ]);
 
 # Dark Steel Upgrade(XP) "Speed lv2"
-assembler.recipeBuilder().
-    inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:speedboost2"})]).
-    fluidInputs([<liquid:xpjuice> * 1440]).
-    outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:speedboost2", "enderio:enabled": 1 as byte})]).
-    duration(100).
-    EUt(480).
-    buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:speedboost2"})])
+    .fluidInputs([<liquid:xpjuice> * 1440])
+    .outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:speedboost2", "enderio:enabled": 1 as byte})])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Dark Steel Upgrade "Speed lv3"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:speedboost3"}), [
-    <enderio:item_dark_steel_upgrade>, <minecraft:potion>.withTag({Potion: "minecraft:long_swiftness"}),<ore:gearVibrant>
+    <enderio:item_dark_steel_upgrade>, <minecraft:potion>.withTag({Potion: "minecraft:long_swiftness"}),<ore:gearVibrantAlloy>
 ]);
 
 # Dark Steel Upgrade(XP) "Speed lv3"
-assembler.recipeBuilder().
-    inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:speedboost3"})]).
-    fluidInputs([<liquid:xpjuice> * 2240]).
-    outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:speedboost3", "enderio:enabled": 1 as byte})]).
-    duration(100).
-    EUt(480).
-    buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:speedboost3"})])
+    .fluidInputs([<liquid:xpjuice> * 2240])
+    .outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:speedboost3", "enderio:enabled": 1 as byte})])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Dark Steel Upgrade "Spoon"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:spoon"}), [
@@ -887,13 +889,13 @@ recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu":
 ]);
 
 # Dark Steel Upgrade(XP) "Spoon"
-assembler.recipeBuilder().
-    inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:spoon"})]).
-    fluidInputs([<liquid:xpjuice> * 800]).
-    outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:spoon", "enderio:enabled": 1 as byte})]).
-    duration(100).
-    EUt(480).
-    buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:spoon"})])
+    .fluidInputs([<liquid:xpjuice> * 800])
+    .outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:spoon", "enderio:enabled": 1 as byte})])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Dark Steel Upgrade "Step Assist"
 recipes.addShaped(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:step_assist"}), [
@@ -903,13 +905,13 @@ recipes.addShaped(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "e
 ]);
 
 # Dark Steel Upgrade(XP) "Step Assist"
-assembler.recipeBuilder().
-    inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:step_assist"})]).
-    fluidInputs([<liquid:xpjuice> * 320]).
-    outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:step_assist", "enderio:enabled": 1 as byte})]).
-    duration(100).
-    EUt(480).
-    buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:step_assist"})])
+    .fluidInputs([<liquid:xpjuice> * 320])
+    .outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:step_assist", "enderio:enabled": 1 as byte})])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Dark Steel Upgrade "Flippers"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:swim"}), [
@@ -917,13 +919,13 @@ recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu":
 ]);
 
 # Dark Steel Upgrade(XP) "Flippers"
-assembler.recipeBuilder().
-    inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:swim"})]).
-    fluidInputs([<liquid:xpjuice> * 800]).
-    outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:swim", "enderio:enabled": 1 as byte})]).
-    duration(100).
-    EUt(480).
-    buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:swim"})])
+    .fluidInputs([<liquid:xpjuice> * 800])
+    .outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:swim", "enderio:enabled": 1 as byte})])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Dark Steel Upgrade "Explosive lv1"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:tnt"}), [
@@ -931,13 +933,13 @@ recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu":
 ]);
 
 # Dark Steel Upgrade(XP) "Explosive lv1"
-assembler.recipeBuilder().
-    inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:tnt"})]).
-    fluidInputs([<liquid:xpjuice> * 2240]).
-    outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:tnt", "enderio:enabled": 1 as byte})]).
-    duration(100).
-    EUt(480).
-    buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:tnt"})])
+    .fluidInputs([<liquid:xpjuice> * 2240])
+    .outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:tnt", "enderio:enabled": 1 as byte})])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Dark Steel Upgrade "Explosive lv2"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:tnt1"}), [
@@ -945,55 +947,55 @@ recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu":
 ]);
 
 # Dark Steel Upgrade(XP) "Explosive lv2"
-assembler.recipeBuilder().
-    inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:tnt1"})]).
-    fluidInputs([<liquid:xpjuice> * 4340]).
-    outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:tnt1", "enderio:enabled": 1 as byte})]).
-    duration(100).
-    EUt(480).
-    buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:tnt1"})])
+    .fluidInputs([<liquid:xpjuice> * 4340])
+    .outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:tnt1", "enderio:enabled": 1 as byte})])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Dark Steel Upgrade "Explosive lv3"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:tnt2"}), [
-    <enderio:item_dark_steel_upgrade>, <minecraft:tnt>, <ore:gearIronInfinity>
+    <enderio:item_dark_steel_upgrade>, <minecraft:tnt>, <ore:gearElectricalSteel>
 ]);
 
 # Dark Steel Upgrade(XP) "Explosive lv3"
-assembler.recipeBuilder().
-    inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:tnt2"})]).
-    fluidInputs([<liquid:xpjuice> * 8820]).
-    outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:tnt2", "enderio:enabled": 1 as byte})]).
-    duration(100).
-    EUt(480).
-    buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:tnt2"})])
+    .fluidInputs([<liquid:xpjuice> * 8820])
+    .outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:tnt2", "enderio:enabled": 1 as byte})])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Dark Steel Upgrade "Explosive lv4"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:tnt3"}), [
-    <enderio:item_dark_steel_upgrade>, <minecraft:tnt>, <ore:gearEnergized>
+    <enderio:item_dark_steel_upgrade>, <minecraft:tnt>, <ore:gearEnergeticAlloySteel>
 ]);
 
 # Dark Steel Upgrade(XP) "Explosive lv4"
-assembler.recipeBuilder().
-    inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:tnt3"})]).
-    fluidInputs([<liquid:xpjuice> * 19940]).
-    outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:tnt3", "enderio:enabled": 1 as byte})]).
-    duration(100).
-    EUt(480).
-    buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:tnt3"})])
+    .fluidInputs([<liquid:xpjuice> * 19940])
+    .outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:tnt3", "enderio:enabled": 1 as byte})])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Dark Steel Upgrade "Explosive lv5"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:tnt4"}), [
-    <enderio:item_dark_steel_upgrade>, <minecraft:tnt>, <ore:gearVibrant>
+    <enderio:item_dark_steel_upgrade>, <minecraft:tnt>, <ore:gearVibrantAlloy>
 ]);
 
 # Dark Steel Upgrade(XP) "Explosive lv5"
-assembler.recipeBuilder().
-    inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:tnt4"})]).
-    fluidInputs([<liquid:xpjuice> * 44040]).
-    outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:tnt4", "enderio:enabled": 1 as byte})]).
-    duration(100).
-    EUt(480).
-    buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:tnt4"})])
+    .fluidInputs([<liquid:xpjuice> * 44040])
+    .outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:tnt4", "enderio:enabled": 1 as byte})])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Dark Steel Upgrade "The One Probe"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:top"}), [
@@ -1001,13 +1003,13 @@ recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu":
 ]);
 
 # Dark Steel Upgrade(XP) "The One Probe"
-assembler.recipeBuilder().
-    inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:top"})]).
-    fluidInputs([<liquid:xpjuice> * 800]).
-    outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:top", "enderio:enabled": 1 as byte})]).
-    duration(100).
-    EUt(480).
-    buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:top"})])
+    .fluidInputs([<liquid:xpjuice> * 800])
+    .outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:top", "enderio:enabled": 1 as byte})])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Dark Steel Upgrade "Travel"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:travel"}), [
@@ -1015,13 +1017,13 @@ recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu":
 ]);
 
 # Dark Steel Upgrade(XP) "Travel"
-assembler.recipeBuilder().
-    inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:travel"})]).
-    fluidInputs([<liquid:xpjuice> * 7040]).
-    outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:travel", "enderio:enabled": 1 as byte})]).
-    duration(100).
-    EUt(480).
-    buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:travel"})])
+    .fluidInputs([<liquid:xpjuice> * 7040])
+    .outputs([<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:travel", "enderio:enabled": 1 as byte})])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Extract Speed Upgrade
 recipes.addShaped(<enderio:item_extract_speed_upgrade>, [

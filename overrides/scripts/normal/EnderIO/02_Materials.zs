@@ -1,5 +1,5 @@
 #packmode normal
-# Imoprts
+# Imports
 import mods.jei.JEI;
 import mods.enderio.AlloySmelter; // 1
 import mods.enderio.CombustionGen; // no
@@ -16,167 +16,178 @@ import mods.enderio.Tank; // no
 # Items
 ########################################
 # Basic Capacitor
-assembler.recipeBuilder().
-    inputs([
+assembler.recipeBuilder()
+    .inputs([
         <ore:ingotRoseGold> * 4,
         <gregtech:meta_item_1:717>
-    ]).
-    fluidInputs([<liquid:redstone> * 144]).
-    outputs([<enderio:item_basic_capacitor>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
+    ])
+    .fluidInputs([<liquid:redstone> * 144])
+    .outputs([<enderio:item_basic_capacitor>])
+    .duration(56)
+    .EUt(480)
+    .buildAndRegister();
 
 # Double-layer Capacitor
-assembler.recipeBuilder().
-    inputs([
+assembler.recipeBuilder()
+    .inputs([
         <enderio:item_basic_capacitor> * 2,
         <ore:ingotEnergeticAlloy> * 2,
         <ore:dustCoal>
-    ]).
-    fluidInputs([<liquid:redstone> * 144]).
-    outputs([<enderio:item_basic_capacitor:1>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
+    ])
+    .fluidInputs([<liquid:redstone> * 144])
+    .outputs([<enderio:item_basic_capacitor:1>])
+    .duration(56)
+    .EUt(480)
+    .buildAndRegister();
 
 # Octadic Capacitor
-assembler.recipeBuilder().
-    inputs([
+assembler.recipeBuilder()
+    .inputs([
         <enderio:item_basic_capacitor:1> * 2,
         <ore:ingotVibrantAlloy> * 2,
         <ore:dustCoal>
-    ]).
-    fluidInputs([<liquid:redstone> * 144]).
-    outputs([<enderio:item_basic_capacitor:2>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
+    ])
+    .fluidInputs([<liquid:redstone> * 144])
+    .outputs([<enderio:item_basic_capacitor:2>])
+    .duration(56)
+    .EUt(480)
+    .buildAndRegister();
 
-# Electrical Steel Ingot
-electric_blast_furnace.recipeBuilder().
-    inputs([
-        <ore:ingotSteel>,
+# Electrical Steel
+mixer.recipeBuilder()
+    .inputs([
+        <ore:dustSteel>,
         <ore:dustCoal>,
         <ore:dustSilicon>
-    ]).
-    property("temperature", 1500).
-    outputs([<enderio:item_alloy_ingot>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
+    ])
+    .outputs([<gregtech:meta_dust:32100>])
+    .duration(40)
+    .EUt(480)
+    .buildAndRegister();
 
-# Energetic Alloy Ingot
-electric_blast_furnace.recipeBuilder().
-    inputs([
+# Energetic Alloy
+mixer.recipeBuilder()
+    .inputs([
         <ore:dustRedstone>,
-        <ore:ingotGold>,
+        <ore:dustGold>,
         <ore:dustGlowstone>
-    ]).
-    property("temperature", 1500).
-    outputs([<enderio:item_alloy_ingot:1>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
+    ])
+    .outputs([<gregtech:meta_dust:32101>])
+    .duration(40)
+    .EUt(480)
+    .buildAndRegister();
 
-# Vibrant Alloy Ingot
-electric_blast_furnace.recipeBuilder().
-    inputs([
-        <enderio:item_alloy_ingot:1>,
+# Vibrant Alloy
+mixer.recipeBuilder()
+    .inputs([
+        <ore:dustEnergeticAlloy>,
         <ore:dustEnderPearl>
-    ]).
-    property("temperature", 1500).
-    outputs([<enderio:item_alloy_ingot:2>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
+    ])
+    .outputs([<gregtech:meta_dust:32102>])
+    .duration(40)
+    .EUt(480)
+    .buildAndRegister();
+alloy_blast_smelter.recipeBuilder()
+    .circuit(13)
+    .inputs([<ore:dustEnderPearl>])
+    .fluidInputs([
+        <liquid:nitrogen> * 1000,
+        <liquid:energetic_alloy> * 144
+    ])
+    .property("temperature", 1750)
+    .fluidOutputs([<liquid:vibrant_alloy> * 144])
+    .duration(120)
+    .EUt(480)
+    .buildAndRegister();
+alloy_blast_smelter.recipeBuilder()
+    .circuit(3)
+    .inputs([<ore:dustEnderPearl>])
+    .fluidInputs([<liquid:energetic_alloy> * 144])
+    .property("temperature", 1750)
+    .fluidOutputs([<liquid:vibrant_alloy> * 144])
+    .duration(180)
+    .EUt(480)
+    .buildAndRegister();
 
-# Redstone Alloy Ingot
-electric_blast_furnace.recipeBuilder().
-    inputs([
-        <ore:ingotRedAlloy>,
+# Redstone Alloy
+mixer.recipeBuilder()
+    .inputs([
+        <ore:dustRedAlloy>,
         <ore:dustSilicon>
-    ]).
-    property("temperature", 1500).
-    outputs([<enderio:item_alloy_ingot:3>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
+    ])
+    .outputs([<gregtech:meta_dust:32103>])
+    .duration(40)
+    .EUt(480)
+    .buildAndRegister();
 
-# Conductive Iron Ingot
-electric_blast_furnace.recipeBuilder().
-    inputs([
-        <ore:ingotIron>,
-        <ore:dustRedstone>
-    ]).
-    property("temperature", 1500).
-    outputs([<enderio:item_alloy_ingot:4>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
+# Conductive Iron
+mixer.recipeBuilder()
+    .inputs([
+        <ore:dustRedstoneAlloy>,
+        <ore:dustIron>
+    ])
+    .outputs([<gregtech:meta_dust:32104>])
+    .duration(40)
+    .EUt(480)
+    .buildAndRegister();
 
-# Plusating Iron Ingot
-electric_blast_furnace.recipeBuilder().
-    inputs([
-        <ore:ingotIron>,
-        <ore:dustEnderPearl>
-    ]).
-    property("temperature", 1500).
-    outputs([<enderio:item_alloy_ingot:5>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
+# Plusating Iron
+mixer.recipeBuilder()
+    .inputs([
+        <ore:dustEnderPearl>,
+        <ore:dustIron>
+    ])
+    .outputs([<gregtech:meta_dust:32105>])
+    .duration(40)
+    .EUt(480)
+    .buildAndRegister();
 
-# Dark Steel Ingot
-electric_blast_furnace.recipeBuilder().
-    inputs([
-        <ore:ingotIron>,
-        <ore:dustCoal>,
-        <ore:dustObsidian>
-    ]).
-    property("temperature", 1500).
-    outputs([<enderio:item_alloy_ingot:6>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
+# Dark Steel
+mixer.recipeBuilder()
+    .inputs([
+        <ore:dustObsidian>,
+        <ore:dustIron>,
+        <ore:dustCoal>
+    ])
+    .outputs([<gregtech:meta_dust:32106>])
+    .duration(40)
+    .EUt(480)
+    .buildAndRegister();
 
-# Soularium Ingot
-electric_blast_furnace.recipeBuilder().
-    inputs([
-        <ore:ingotGold>,
+# Soularium
+mixer.recipeBuilder()
+    .inputs([
+        <ore:dustGold>,
         <minecraft:soul_sand>
-    ]).
-    property("temperature", 2000).
-    outputs([<enderio:item_alloy_ingot:7>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
+    ])
+    .outputs([<gregtech:meta_dust:32107>])
+    .duration(40)
+    .EUt(480)
+    .buildAndRegister();
 
-# End Steel Ingot
-electric_blast_furnace.recipeBuilder().
-    inputs([
-        <minecraft:end_stone>,
-        <ore:ingotDarkSteel>,
-        <minecraft:obsidian>
-    ]).
-    property("temperature", 2500).
-    outputs([<enderio:item_alloy_ingot:8>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
+# End Steel
+mixer.recipeBuilder()
+    .inputs([
+        <ore:dustEndstone>,
+        <ore:dustDarkSteel>,
+        <ore:dustObsidian>
+    ])
+    .outputs([<gregtech:meta_dust:32108>])
+    .duration(40)
+    .EUt(480)
+    .buildAndRegister();
 
-# Iron Alloy Ingot
-electric_blast_furnace.recipeBuilder().
-    inputs([
-        <ore:ingotPlatinum>,
-        <ore:ingotIron>,
-        <ore:ingotAluminium>
-    ]).
-    property("temperature", 3000).
-    outputs([<enderio:item_alloy_ingot:9>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
+# Construction Alloy(Iron Alloy)
+mixer.recipeBuilder()
+    .inputs([
+        <ore:dustPlatinum>,
+        <ore:dustIron>,
+        <ore:dustAluminium>
+    ])
+    .outputs([<gregtech:meta_dust:32109>])
+    .duration(40)
+    .EUt(480)
+    .buildAndRegister();
 
 # Simple Machine Chassis
 recipes.addShaped(<enderio:item_material>, [
@@ -186,15 +197,15 @@ recipes.addShaped(<enderio:item_material>, [
 ]);
 
 # Industrial Machine Chassis
-alloy_smelter.recipeBuilder().
-    inputs([
+alloy_smelter.recipeBuilder()
+    .inputs([
         <ore:itemSimpleMachineChassi>,
         <ore:dyeMachine>
-    ]).
-    outputs([<enderio:item_material:1>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
+    ])
+    .outputs([<enderio:item_material:1>])
+    .duration(56)
+    .EUt(480)
+    .buildAndRegister();
 
 # Simple Machine Parts
 JEI.removeAndHide(<enderio:item_material:69>);
@@ -206,66 +217,66 @@ JEI.removeAndHide(<enderio:item_material:2>);
 JEI.removeAndHide(<enderio:item_material:68>);
 
 # Soul Machine Chassis
-alloy_smelter.recipeBuilder().
-    inputs([
+alloy_smelter.recipeBuilder()
+    .inputs([
         <ore:itemSimpleMachineChassi>,
         <ore:dyeSoulMachine>
-    ]).
-    outputs([<enderio:item_material:53>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
+    ])
+    .outputs([<enderio:item_material:53>])
+    .duration(56)
+    .EUt(480)
+    .buildAndRegister();
 
 # Enhanced Machine Chassis
-alloy_smelter.recipeBuilder().
-    inputs([
+alloy_smelter.recipeBuilder()
+    .inputs([
         <ore:itemEndSteelMachineChassi>,
         <ore:dyeEnhancedMachine>
-    ]).
-    outputs([<enderio:item_material:55>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
+    ])
+    .outputs([<enderio:item_material:55>])
+    .duration(56)
+    .EUt(480)
+    .buildAndRegister();
 
 # Soulleses Machine Chassis
-assembler.recipeBuilder().
-    inputs([
+assembler.recipeBuilder()
+    .inputs([
         <enderio:block_industrial_insulation> * 6,
         <ore:skullGuardianDiode> * 2,
         <ore:itemSoulMachineChassi>
-    ]).
-    outputs([<enderio:item_material:55>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
+    ])
+    .outputs([<enderio:item_material:55>])
+    .duration(56)
+    .EUt(480)
+    .buildAndRegister();
 
 # End Steel Chassis
-assembler.recipeBuilder().
-    inputs([
+assembler.recipeBuilder()
+    .inputs([
         <enderio:block_end_iron_bars> * 4,
         <ore:ingotEndSteel> * 4,
         <ore:dustBedrock>
-    ]).
-    outputs([<enderio:item_material:66>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
+    ])
+    .outputs([<enderio:item_material:66>])
+    .duration(56)
+    .EUt(480)
+    .buildAndRegister();
 
 # Photovoltaic Plate
 JEI.removeAndHide(<enderio:item_material:3>);
 
 # Conduit Binder
-electric_blast_furnace.recipeBuilder().
-    inputs([
+electric_blast_furnace.recipeBuilder()
+    .inputs([
         <ore:gravel> * 5,
         <ore:sand> * 2,
         <ore:dustClay> * 2
-    ]).
-    property("temperature", 1500).
-    outputs([<enderio:item_material:4>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
+    ])
+    .property("temperature", 1800)
+    .outputs([<enderio:item_material:4>])
+    .duration(20)
+    .EUt(480)
+    .buildAndRegister();
 
 # Silicon
 JEI.removeAndHide(<enderio:item_material:5>);
@@ -294,32 +305,16 @@ JEI.removeAndHide(<enderio:item_material:10>);
 <ore:gearStone>.remove(<enderio:item_material:10>);
 
 # Infity Bimetal Gear
-recipes.addShaped(<enderio:item_material:11>, [
-    [<ore:nuggetIron>, <minecraft:iron_ingot>, <ore:nuggetIron>],
-    [<ore:ingotIron>, <ore:dustBedrock>, <ore:ingotIron>],
-    [<ore:nuggetIron>, <ore:ingotIron>, <minecraft:iron_nugget>]
-]);
+JEI.removeAndHide(<enderio:item_material:11>);
 
 # Energized Bimetal Gear
-recipes.addShaped(<enderio:item_material:12>, [
-    [<ore:nuggetEnergeticAlloy>, <ore:nuggetEnergeticAlloy>, <ore:nuggetEnergeticAlloy>],
-    [<ore:nuggetEnergeticAlloy>, <ore:gearIronInfinity>, <ore:nuggetEnergeticAlloy>],
-    [<ore:nuggetEnergeticAlloy>, <ore:nuggetEnergeticAlloy>, <enderio:item_alloy_nugget:1>]
-]);
+JEI.removeAndHide(<enderio:item_material:12>);
 
 # Vibrant Bimetal Gear
-recipes.addShaped(<enderio:item_material:13>, [
-    [<ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>],
-    [<ore:nuggetVibrantAlloy>, <ore:gearEnergized>, <ore:nuggetVibrantAlloy>],
-    [<ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>, <enderio:item_alloy_nugget:2>]
-]);
+JEI.removeAndHide(<enderio:item_material:13>);
 
 # Dark Bimetal Gear
-recipes.addShaped(<enderio:item_material:73>, [
-    [<ore:nuggetDarkSteel>, <ore:nuggetDarkSteel>, <ore:nuggetDarkSteel>],
-    [<ore:nuggetDarkSteel>, <ore:gearIronInfinity>, <ore:nuggetDarkSteel>],
-    [<ore:nuggetDarkSteel>, <ore:nuggetDarkSteel>, <enderio:item_alloy_nugget:6>]
-]);
+JEI.removeAndHide(<enderio:item_material:73>);
 
 # Pulsating Crystal
 recipes.addShaped(<enderio:item_material:14>, [
@@ -405,55 +400,50 @@ JEI.removeAndHide(<enderio:item_material:63>);
 JEI.removeAndHide(<enderio:item_material:61>);
 
 # Soul Powder
-macerator.recipeBuilder().
-    inputs([<ore:ingotSoularium>]).
-    outputs([<enderio:item_material:74>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
+JEI.removeAndHide(<enderio:item_material:74>);
 
 # Glowstone Dust
-alloy_smelter.recipeBuilder().
-    inputs([
+alloy_smelter.recipeBuilder()
+    .inputs([
         <ore:dustGlowstone>,
         <minecraft:clay_ball>
-    ]).
-    outputs([<enderio:item_material:76>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
+    ])
+    .outputs([<enderio:item_material:76>])
+    .duration(56)
+    .EUt(480)
+    .buildAndRegister();
 
 # Grains of Prescience
-macerator.recipeBuilder().
-    inputs([<ore:itemPrecientCrystal>]).
-    outputs([<enderio:item_material:34>]).
-    duration(100).
-    EUt(480).
-    buildAndRegister();
+macerator.recipeBuilder()
+    .inputs([<ore:itemPrecientCrystal>])
+    .outputs([<enderio:item_material:34>])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Grains of Vibranct
-macerator.recipeBuilder().
-    inputs([<ore:itemVibrantCrystal>]).
-    outputs([<enderio:item_material:35>]).
-    duration(100).
-    EUt(480).
-    buildAndRegister();
+macerator.recipeBuilder()
+    .inputs([<ore:itemVibrantCrystal>])
+    .outputs([<enderio:item_material:35>])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Grains of Piezallity
-macerator.recipeBuilder().
-    inputs([<ore:itemPulsatingCrystal>]).
-    outputs([<enderio:item_material:36>]).
-    duration(100).
-    EUt(480).
-    buildAndRegister();
+macerator.recipeBuilder()
+    .inputs([<ore:itemPulsatingCrystal>])
+    .outputs([<enderio:item_material:36>])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Grains of the End
-macerator.recipeBuilder().
-    inputs([<ore:itemEnderCrystal>]).
-    outputs([<enderio:item_material:37>]).
-    duration(100).
-    EUt(480).
-    buildAndRegister();
+macerator.recipeBuilder()
+    .inputs([<ore:itemEnderCrystal>])
+    .outputs([<enderio:item_material:37>])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Photovoltaic Composite
 recipes.addShaped(<enderio:item_material:38>, [
@@ -493,79 +483,79 @@ SliceNSplice.addRecipe(<enderio:item_material:45>, [
 ]);
 
 # Clippings and Trimmings
-macerator.recipeBuilder().
-    inputs([<ore:grass>]).
-    outputs([<enderio:item_material:46>]).
-    duration(100).
-    EUt(480).
-    buildAndRegister();
+macerator.recipeBuilder()
+    .inputs([<ore:grass>])
+    .outputs([<enderio:item_material:46>])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Twings and Prunings
-macerator.recipeBuilder().
-    inputs([<minecraft:deadbush>]).
-    outputs([<enderio:item_material:47>]).
-    duration(100).
-    EUt(480).
-    buildAndRegister();
+macerator.recipeBuilder()
+    .inputs([<minecraft:deadbush>])
+    .outputs([<enderio:item_material:47>])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Organic Green Dye
-alloy_smelter.recipeBuilder().
-    inputs([
+alloy_smelter.recipeBuilder()
+    .inputs([
         <enderio:item_material:46> * 6,
         <minecraft:egg>
-    ]).
-    outputs([<enderio:item_material:48>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
+    ])
+    .outputs([<enderio:item_material:48>])
+    .duration(56)
+    .EUt(480)
+    .buildAndRegister();
 
 # Organic Brown Dye
-alloy_smelter.recipeBuilder().
-    inputs([
+alloy_smelter.recipeBuilder()
+    .inputs([
         <enderio:item_material:47> * 6,
         <minecraft:egg>
-    ]).
-    outputs([<enderio:item_material:49>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
+    ])
+    .outputs([<enderio:item_material:49>])
+    .duration(56)
+    .EUt(480)
+    .buildAndRegister();
 
 # Organic Black Dye
-alloy_smelter.recipeBuilder().
-    inputs([
+alloy_smelter.recipeBuilder()
+    .inputs([
         <ore:dustCoal> * 3,
         <minecraft:egg>
-    ]).
-    outputs([<enderio:item_material:50>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
+    ])
+    .outputs([<enderio:item_material:50>])
+    .duration(56)
+    .EUt(480)
+    .buildAndRegister();
 
 # Induatrial Dye Blend
-mixer.recipeBuilder().
-    inputs([
+mixer.recipeBuilder()
+    .inputs([
         <ore:dustNetherQuartz> * 4,
         <ore:dustLapis> * 2,
         <ore:dyeGreen> * 2,
         <ore:dyeBlack>
-    ]).
-    outputs([<enderio:item_material:51>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
+    ])
+    .outputs([<enderio:item_material:51>])
+    .duration(56)
+    .EUt(480)
+    .buildAndRegister();
 
 # Soul Attuned Dye Blend
-mixer.recipeBuilder().
-    inputs([
+mixer.recipeBuilder()
+    .inputs([
         <ore:dustNetherQuartz> * 4,
         <ore:dustSoularium> * 2,
         <ore:dyeBrown> * 2,
         <ore:dyeBlack>
-    ]).
-    outputs([<enderio:item_material:52>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
+    ])
+    .outputs([<enderio:item_material:52>])
+    .duration(56)
+    .EUt(480)
+    .buildAndRegister();
 
 # Guardian Diode
 SliceNSplice.addRecipe(<enderio:item_material:56>, [
@@ -614,55 +604,55 @@ recipes.addShaped(<enderio:item_material:81>, [
 ]);
 
 # Death Urn
-alloy_smelter.recipeBuilder().
-    inputs([
+alloy_smelter.recipeBuilder()
+    .inputs([
         <minecraft:dye:15> * 7,
         <enderio:item_material:81>
-    ]).
-    outputs([<enderio:block_death_pouch>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
+    ])
+    .outputs([<enderio:block_death_pouch>])
+    .duration(56)
+    .EUt(480)
+    .buildAndRegister();
 
 # Infinity Dust
-macerator.recipeBuilder().
-    inputs([<ore:dustBedrock>]).
-    outputs([<enderio:block_infinity_fog>]).
-    duration(500).
-    EUt(480).
-    buildAndRegister();
+macerator.recipeBuilder()
+    .inputs([<ore:dustBedrock>])
+    .outputs([<enderio:block_infinity_fog>])
+    .duration(500)
+    .EUt(480)
+    .buildAndRegister();
 
 # Infinity Dust Block
-compressor.recipeBuilder().
-    inputs([<ore:dustBedrock> * 9]).
-    outputs([<enderio:block_infinity>]).
-    duration(500).
-    EUt(480).
-    buildAndRegister();
+compressor.recipeBuilder()
+    .inputs([<ore:dustBedrock> * 9])
+    .outputs([<enderio:block_infinity>])
+    .duration(500)
+    .EUt(480)
+    .buildAndRegister();
 
 # Compressed Infinity Dust Block
-compressor.recipeBuilder().
-    inputs([<enderio:block_infinity> * 9]).
-    outputs([<enderio:block_infinity:1>]).
-    duration(500).
-    EUt(480).
-    buildAndRegister();
+compressor.recipeBuilder()
+    .inputs([<enderio:block_infinity> * 9])
+    .outputs([<enderio:block_infinity:1>])
+    .duration(500)
+    .EUt(480)
+    .buildAndRegister();
 
 # Double Compressed Infinity Dust Block
-compressor.recipeBuilder().
-    inputs([<enderio:block_infinity:1> * 9]).
-    outputs([<enderio:block_infinity:2>]).
-    duration(500).
-    EUt(480).
-    buildAndRegister();
+compressor.recipeBuilder()
+    .inputs([<enderio:block_infinity:1> * 9])
+    .outputs([<enderio:block_infinity:2>])
+    .duration(500)
+    .EUt(480)
+    .buildAndRegister();
 
 # Glowstone Nano-Particles
-macerator.recipeBuilder().
-    inputs([<ore:itemClayedGlowstone>]).
-    outputs([<enderio:block_holier_fog>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
+macerator.recipeBuilder()
+    .inputs([<ore:itemClayedGlowstone>])
+    .outputs([<enderio:block_holier_fog>])
+    .duration(56)
+    .EUt(480)
+    .buildAndRegister();
 
 # Enderman Head
 
@@ -672,170 +662,165 @@ SliceNSplice.addRecipe(<enderio:block_enderman_skull:2>, [
     <minecraft:potion>.withTag({Potion: "minecraft:water"}), <enderio:item_basic_capacitor> | <enderio:item_capacitor_silver>, <minecraft:potion>.withTag({Potion: "minecraft:water"})
 ]);
 
-# Crude Steel Ingot
-alloy_smelter.recipeBuilder().
-    inputs([
+# Crude Steel
+mixer.recipeBuilder()
+    .inputs([
+        <ore:dustSteel>,
         <minecraft:gravel>,
-        <minecraft:clay_ball> * 9
-    ]).
-    outputs([<enderio:item_alloy_endergy_ingot>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
+        <ore:dustClay>
+    ])
+    .outputs([<gregtech:meta_dust:32110>])
+    .duration(40)
+    .EUt(480)
+    .buildAndRegister();
 
-# Crystalling Alloy Ingot
-electric_blast_furnace.recipeBuilder().
-    inputs([
-        <ore:ingotGold>,
+# Crystalline Alloy
+mixer.recipeBuilder()
+    .inputs([
+        <ore:dustGold>,
         <ore:itemPrecientPowder>
-    ]).
-    property("temperature", 3000).
-    outputs([<enderio:item_alloy_endergy_ingot:1>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
+    ])
+    .outputs([<gregtech:meta_dust:32111>])
+    .duration(40)
+    .EUt(480)
+    .buildAndRegister();
 
-# Melodic Alloy Ingot
-electric_blast_furnace.recipeBuilder().
-    inputs([
-        <ore:ingotEndSteel>,
+# Melodic Alloy
+mixer.recipeBuilder()
+    .inputs([
+        <ore:dustEndSteel>,
         <minecraft:chorus_fruit_popped>
-    ]).
-    property("temperature", 3000).
-    outputs([<enderio:item_alloy_endergy_ingot:2>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
+    ])
+    .outputs([<gregtech:meta_dust:32112>])
+    .duration(40)
+    .EUt(480)
+    .buildAndRegister();
 
-# Stellar Alloy Ingot
-electric_blast_furnace.recipeBuilder().
-    inputs([
-        <minecraft:nether_star>,
-        <ore:ingotMelodicAlloy>,
-        <ore:dustClay> * 4
-    ]).
-    property("temperature", 3500).
-    outputs([<enderio:item_alloy_endergy_ingot:3>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
+# Stellar Alloy
+mixer.recipeBuilder()
+    .inputs([
+        <ore:dustNetherStar>,
+        <ore:dustMelodicAlloy>,
+        <ore:dustClay>
+    ])
+    .outputs([<gregtech:meta_dust:32113>])
+    .duration(40)
+    .EUt(480)
+    .buildAndRegister();
 
-# Crystalling Pink Slime Ingot
-electric_blast_furnace.recipeBuilder().
-    inputs([
-        <ore:ingotMelodicAlloy>,
-        <minecraft:slime_ball> * 8
-    ]).
-    property("temperature", 3500).
-    outputs([<enderio:item_alloy_endergy_ingot:4>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
+# Crystalline Pink Slime
+mixer.recipeBuilder()
+    .inputs([
+        <ore:dustMelodicAlloy>,
+        <minecraft:slime_ball>
+    ])
+    .outputs([<gregtech:meta_dust:32114>])
+    .duration(40)
+    .EUt(480)
+    .buildAndRegister();
 
-# Energetic Silver Ingot
-electric_blast_furnace.recipeBuilder().
-    inputs([
+# Energetic Silver
+mixer.recipeBuilder()
+    .inputs([
         <ore:dustRedstone>,
-        <ore:ingotSilver>,
+        <ore:dustSilver>,
         <ore:dustGlowstone>,
-    ]).
-    property("temperature", 3500).
-    outputs([<enderio:item_alloy_endergy_ingot:5>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
+    ])
+    .outputs([<gregtech:meta_dust:32115>])
+    .duration(40)
+    .EUt(480)
+    .buildAndRegister();
 
-# Vivid Alloy Ingote
-electric_blast_furnace.recipeBuilder().
-    inputs([
-        <ore:ingotEnergeticSilver>,
-        <ore:dustEnderPearl>
-    ]).
-    property("temperature", 3500).
-    outputs([<enderio:item_alloy_endergy_ingot:6>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
+# Vivid Alloy
+mixer.recipeBuilder()
+    .inputs([
+        <ore:dustEnergeticSilver>,
+        <ore:dustEnderPearl>,
+    ])
+    .outputs([<gregtech:meta_dust:32116>])
+    .duration(40)
+    .EUt(480)
+    .buildAndRegister();
 
 # Grainy Capacior
 JEI.removeAndHide(<enderio:item_capacitor_grainy>);
 
 # Silver Capacitor
-assembler.recipeBuilder().
-    inputs([
+assembler.recipeBuilder()
+    .inputs([
         <ore:ingotSilver> * 4,
         <gregtech:meta_item_1:717>
-    ]).
-    fluidInputs([<liquid:redstone> * 144]).
-    outputs([<enderio:item_capacitor_silver>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
+    ])
+    .fluidInputs([<liquid:redstone> * 144])
+    .outputs([<enderio:item_capacitor_silver>])
+    .duration(56)
+    .EUt(480)
+    .buildAndRegister();
 
 # Endergetic Silver Capacitor
-assembler.recipeBuilder().
-    inputs([
+assembler.recipeBuilder()
+    .inputs([
         <enderio:item_capacitor_silver> * 2,
         <ore:ingotEnergeticSilver> * 2,
         <ore:dustCoal>
-    ]).
-    fluidInputs([<liquid:redstone> * 144]).
-    outputs([<enderio:item_capacitor_energetic_silver>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
+    ])
+    .fluidInputs([<liquid:redstone> * 144])
+    .outputs([<enderio:item_capacitor_energetic_silver>])
+    .duration(56)
+    .EUt(480)
+    .buildAndRegister();
 
 # Endergised Capacitor
-assembler.recipeBuilder().
-    inputs([
+assembler.recipeBuilder()
+    .inputs([
         <enderio:item_capacitor_energetic_silver> * 2,
         <ore:ingotVividAlloy> * 2,
         <ore:dustCoal>
-    ]).
-    fluidInputs([<liquid:redstone> * 144]).
-    outputs([<enderio:item_capacitor_vivid>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
+    ])
+    .fluidInputs([<liquid:redstone> * 144])
+    .outputs([<enderio:item_capacitor_vivid>])
+    .duration(56)
+    .EUt(480)
+    .buildAndRegister();
 
 # Endergised Capacitor
-assembler.recipeBuilder().
-    inputs([
+assembler.recipeBuilder()
+    .inputs([
         <enderio:item_capacitor_energetic_silver> * 2,
         <ore:ingotVividAlloy> * 2,
         <ore:dustCoal>
-    ]).
-    fluidInputs([<liquid:redstone> * 144]).
-    outputs([<enderio:item_capacitor_vivid>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
+    ])
+    .fluidInputs([<liquid:redstone> * 144])
+    .outputs([<enderio:item_capacitor_vivid>])
+    .duration(56)
+    .EUt(480)
+    .buildAndRegister();
 
 # Crystalline Capacitor
-assembler.recipeBuilder().
-    inputs([
+assembler.recipeBuilder()
+    .inputs([
         <enderio:item_basic_capacitor:2> * 2,
         <ore:ingotCrystallineAlloy> * 2,
         <ore:dustPrismarine>
-    ]).
-    fluidInputs([<liquid:redstone> * 144]).
-    outputs([<enderio:item_capacitor_crystalline>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
+    ])
+    .fluidInputs([<liquid:redstone> * 144])
+    .outputs([<enderio:item_capacitor_crystalline>])
+    .duration(56)
+    .EUt(480)
+    .buildAndRegister();
 
 # Melodic Capacitor
-assembler.recipeBuilder().
-    inputs([
+assembler.recipeBuilder()
+    .inputs([
         <enderio:item_capacitor_crystalline> * 2,
-        <enderio:item_alloy_endergy_ingot:2> * 2,
-        <enderio:item_alloy_ingot:8>
-    ]).
-    fluidInputs([<liquid:redstone> * 144]).
-    outputs([<enderio:item_capacitor_melodic>]).
-    duration(56).
-    EUt(480).
-    buildAndRegister();
+        <ore:ingotMelodicAlloy> * 2,
+        <ore:ingotEndSteel>
+    ])
+    .fluidInputs([<liquid:redstone> * 144])
+    .outputs([<enderio:item_capacitor_melodic>])
+    .duration(56)
+    .EUt(480)
+    .buildAndRegister();
 
 # Stellar Capacitor
 JEI.removeAndHide(<enderio:item_capacitor_stellar>);

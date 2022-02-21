@@ -1,13 +1,14 @@
 #packmode normal
-# Imoprts
+# Imports
 import mods.jei.JEI;
 import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDictEntry;
 
 JEI.hideCategory("AlloySmelter");
 JEI.hideCategory("EIOTank");
-JEI.hideCategory("Enchanter");
 JEI.hideCategory("LavaGenerator");
 JEI.hideCategory("Painter");
+JEI.hideCategory("StirlingGenerator");
 JEI.hideCategory("SolarPanel");
 JEI.hideCategory("EIOWC");
 
@@ -102,62 +103,28 @@ var blocks as IItemStack[] = [
 
 
 # Set Recipe
-## Nugget
-for i, nugget in nuggets {
-    alloy_smelter.recipeBuilder().
-        inputs([ingots[i]]).
-        notConsumable([<gregtech:meta_item_1:19>]).
-        outputs([nugget * 9]).
-        duration(56).
-        EUt(7).
-        buildAndRegister();
-}
-
-
-## Ingot
-for i, ingot in ingots {
-    alloy_smelter.recipeBuilder().
-        inputs([nuggets[i] * 9]).
-        notConsumable([<gregtech:meta_item_1:16>]).
-        outputs([ingot]).
-        duration(56).
-        EUt(7).
-        buildAndRegister();
-}
-for i, block in blocks {
-    alloy_smelter.recipeBuilder().
-        inputs([block]).
-        notConsumable([<gregtech:meta_item_1:16>]).
-        outputs([ingots[i] * 9]).
-        duration(56).
-        EUt(7).
-        buildAndRegister();
-}
-
 ## Ball
 for i, ingot in ingots {
     JEI.removeAndHide(balls[i]);
-    // recipes.addShaped(balls[i] * 8, [
-    //     [null, ingot, null],
-    //     [ingot, ingot, ingot],
-    //     [null, ingot, null]
-    // ]);
 }
 
+## Nugget
+for i, nugget in nuggets {
+    JEI.removeAndHide(nuggets[i]);
+}
+
+## Ingot
+for i, ingot in ingots {
+    JEI.removeAndHide(ingots[i]);
+    furnace.remove(ingots[i]);
+}
 
 ## Block
 for i, block in blocks {
-    alloy_smelter.recipeBuilder().
-        inputs([ingots[i] * 9]).
-        notConsumable([<gregtech:meta_item_1:18>]).
-        outputs([block]).
-        duration(5).
-        EUt(7).
-        buildAndRegister();
-    compressor.recipeBuilder().
-        inputs([ingots[i] * 9]).
-        outputs([block]).
-        duration(300).
-        EUt(7).
-        buildAndRegister();
+    JEI.removeAndHide(blocks[i]);
 }
+
+## Gear
+<ore:gearElectricalSteel>.add(<enderio:item_material:11>);
+<ore:gearEnergeticAlloy>.add(<enderio:item_material:12>);
+<ore:gearVibrantAlloy>.add(<enderio:item_material:13>);

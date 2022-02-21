@@ -1,5 +1,5 @@
 #packmode normal
-# Imoprts
+# Imports
 import mods.jei.JEI;
 
 
@@ -46,14 +46,19 @@ JEI.removeAndHide(<enderio:block_enhanced_alloy_smelter>);
 JEI.removeAndHide(<enderio:block_buffer:*>);
 
 # Enchanter
-JEI.removeAndHide(<enderio:block_enchanter>);
+recipes.addShaped(<enderio:block_enchanter>, [
+    [<ore:gemDiamond>, <minecraft:book>, <ore:gemDiamond>],
+    [<ore:plateDarkSteel>, <ore:plateDarkSteel>, <ore:plateDarkSteel>],
+    [null, <ore:plateDarkSteel>, null]
+]);
 
 # Farming Station
 recipes.addShaped(<enderio:block_farm_station>, [
     [<ore:itemVibrantCrystal>, <ore:skullZombieController>, <ore:itemVibrantCrystal>],
     [<ore:ingotSoularium>, <ore:itemSoulMachineChassi>, <ore:ingotSoularium>],
-    [<ore:gearEnergized>, <ore:itemPulsatingCrystal>, <ore:gearEnergized>]
+    [<ore:gearEnergeticAlloySteel>, <ore:itemPulsatingCrystal>, <ore:gearEnergeticAlloySteel>]
 ]);
+<enderio:block_farm_station>.addTooltip(format.red("We have Greenhouse, so that's better."));
 
 # Combustion Generator
 JEI.removeAndHide(<enderio:block_combustion_generator>);
@@ -151,14 +156,14 @@ recipes.addShaped(<enderio:block_attractor_obelisk>, [
 # Aversion Obelisk
 recipes.addShaped(<enderio:block_aversion_obelisk>, [
     [null, <enderio:block_enderman_skull:2>, null],
-    [<ore:ingotEnergeticAlloy>, <ore:gearEnergized>, <ore:ingotEnergeticAlloy>],
+    [<ore:ingotEnergeticAlloy>, <ore:gearEnergeticAlloySteel>, <ore:ingotEnergeticAlloy>],
     [<ore:ingotSoularium>, <ore:itemSoulMachineChassi>, <ore:ingotSoularium>]
 ]);
 
 # Inhibitor Obelisk
 recipes.addShaped(<enderio:block_inhibitor_obelisk>, [
     [null, <ore:itemEnderCrystal>, null],
-    [<ore:ingotEnergeticAlloy>, <ore:gearIronInfinity>, <ore:ingotEnergeticAlloy>],
+    [<ore:ingotEnergeticAlloy>, <ore:gearElectricalSteel>, <ore:ingotEnergeticAlloy>],
     [<ore:ingotSoularium>, <ore:itemSoulMachineChassi>, <ore:ingotSoularium>]
 ]);
 
@@ -166,7 +171,7 @@ recipes.addShaped(<enderio:block_inhibitor_obelisk>, [
 recipes.addShaped(<enderio:block_relocator_obelisk>, [
     [null, <ore:blockPrismarine>, null],
     [<ore:blockPrismarine>, <enderio:block_aversion_obelisk>, <ore:blockPrismarine>],
-    [null, <ore:gearVibrant>, null]
+    [null, <ore:gearVibrantAlloy>, null]
 ]);
 
 # Weather Obelisk
@@ -204,7 +209,8 @@ JEI.removeAndHide(<enderio:block_enhanced_sag_mill>);
 # Slice'N'Splice
 recipes.addShaped(<enderio:block_slice_and_splice>, [
     [<ore:ingotSoularium>, <ore:itemSkull>, <ore:ingotSoularium>],
-    [<ore:ingotSoularium>, <ore:itemSoulMachineChassi>, <ore:ingotSoularium>], [<ore:gearEnergized>, <enderio:block_dark_iron_bars>, <ore:gearEnergized>]
+    [<ore:ingotSoularium>, <ore:itemSoulMachineChassi>, <ore:ingotSoularium>],
+    [<ore:gearEnergeticAlloySteel>, <enderio:block_dark_iron_bars>, <ore:gearEnergeticAlloySteel>]
 ]);
 
 # Photovoltaic Cells
@@ -314,7 +320,7 @@ recipes.addShaped(<enderio:block_dialing_device>, [
 # Impulse Hopper
 recipes.addShaped(<enderio:block_impulse_hopper>, [
     [<ore:ingotElectricalSteel>, <ore:blockHopper>, <ore:ingotElectricalSteel>],
-    [<ore:gearEnergized>, <ore:itemMachineChassi>, <ore:gearEnergized>],
+    [<ore:gearEnergeticAlloySteel>, <ore:itemMachineChassi>, <ore:gearEnergeticAlloySteel>],
     [<ore:ingotElectricalSteel>, <ore:ingotRedstoneAlloy>, <ore:ingotElectricalSteel>]
 ]);
 
@@ -324,6 +330,6 @@ JEI.removeAndHide(<enderio:block_simple_crafter>);
 # Crafter
 recipes.addShaped(<enderio:block_crafter>, [
     [<ore:dustSilicon>, <ore:dustSilicon>, <ore:dustSilicon>], 
-    [<enderio:item_alloy_ingot:9>, <ore:itemMachineChassi>, <enderio:item_alloy_ingot:9>], 
-    [<ore:gearIronInfinity>, <ore:workbench>, <ore:gearIronInfinity>]
+    [<ore:ingotConstructionAlloy>, <ore:itemMachineChassi>, <ore:ingotConstructionAlloy>], 
+    [<ore:gearElectricalSteel>, <ore:workbench>, <ore:gearElectricalSteel>]
 ]);

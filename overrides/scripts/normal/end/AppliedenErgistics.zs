@@ -1,6 +1,5 @@
 #packmode normal
-# Imoprts
-import mods.extendedcrafting.TableCrafting;
+# Imports
 
 
 
@@ -8,14 +7,17 @@ import mods.extendedcrafting.TableCrafting;
 # Blocks
 ########################################
 # Creative Energy Cell
-TableCrafting.addShaped(0, <appliedenergistics2:creative_energy_cell>, [
-    [<gregtech:meta_item_1:751>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:meta_item_1:751>], 
-    [<gregtech:fusion_casing:4>, <gregtech:machine:994>, <ore:circuitInfinite>, <ore:circuitInfinite>, <ore:circuitInfinite>, <ore:circuitInfinite>, <ore:circuitInfinite>, <gregtech:machine:994>, <gregtech:fusion_casing:4>], 
-    [<gregtech:fusion_casing:4>, <ore:circuitInfinite>, <appliedenergistics2:dense_energy_cell>, <appliedenergistics2:dense_energy_cell>, <appliedenergistics2:dense_energy_cell>, <appliedenergistics2:dense_energy_cell>, <appliedenergistics2:dense_energy_cell>, <ore:circuitInfinite>, <gregtech:fusion_casing:4>], 
-    [<gregtech:fusion_casing:4>, <ore:circuitInfinite>, <appliedenergistics2:dense_energy_cell>, <ore:plateDenseNeutronium>, <ore:plateDenseNeutronium>, <ore:plateDenseNeutronium>, <appliedenergistics2:dense_energy_cell>, <ore:circuitInfinite>, <gregtech:fusion_casing:4>], 
-    [<gregtech:fusion_casing:4>, <ore:circuitInfinite>, <appliedenergistics2:dense_energy_cell>, <ore:plateDenseNeutronium>, <gregtech:meta_item_1:340>, <ore:plateDenseNeutronium>, <appliedenergistics2:dense_energy_cell>, <ore:circuitInfinite>, <gregtech:fusion_casing:4>], 
-    [<gregtech:fusion_casing:4>, <ore:circuitInfinite>, <appliedenergistics2:dense_energy_cell>, <ore:plateDenseNeutronium>, <ore:plateDenseNeutronium>, <ore:plateDenseNeutronium>, <appliedenergistics2:dense_energy_cell>, <ore:circuitInfinite>, <gregtech:fusion_casing:4>], 
-    [<gregtech:fusion_casing:4>, <ore:circuitInfinite>, <appliedenergistics2:dense_energy_cell>, <appliedenergistics2:dense_energy_cell>, <appliedenergistics2:dense_energy_cell>, <appliedenergistics2:dense_energy_cell>, <appliedenergistics2:dense_energy_cell>, <ore:circuitInfinite>, <gregtech:fusion_casing:4>], 
-    [<gregtech:fusion_casing:4>, <gregtech:machine:994>, <ore:circuitInfinite>, <ore:circuitInfinite>, <ore:circuitInfinite>, <ore:circuitInfinite>, <ore:circuitInfinite>, <gregtech:machine:994>, <gregtech:fusion_casing:4>], 
-    [<gregtech:meta_item_1:751>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:fusion_casing:4>, <gregtech:meta_item_1:751>]
-]);
+assembly_line.recipeBuilder()
+    .circuit(1)
+    .inputs([<gregtech:meta_item_1:751> * 4])
+    .inputs([<gregtech:fusion_casing:4> * 28])
+    .inputs([<gregtech:machine:994> * 5])
+    .inputs([<ore:circuitInfinite> * 20])
+    .inputs([<appliedenergistics2:dense_energy_cell> * 16])
+    .inputs([<ore:plateDenseNeutronium> * 8])
+    .inputs([<gregtech:meta_item_1:340>])
+    .fluidInputs(<liquid:soldering_alloy> * 18432)
+    .outputs([<appliedenergistics2:creative_energy_cell>])
+    .duration(1200)
+    .EUt(122880)
+    .buildAndRegister();

@@ -31,8 +31,8 @@ key_key.hotbar.6:7:NONE
 key_key.hotbar.7:8:NONE
 key_key.hotbar.8:9:NONE
 key_key.hotbar.9:10:NONE
-key_cos.key.opencosarmorinventory:0:NONE
 key_key.toggle_shaders:0:NONE
+key_cos.key.opencosarmorinventory:0:NONE
 key_key.next_item.desc:0:NONE
 key_key.previous_item.desc:0:NONE
 key_key.open_danknull.desc:0:NONE
@@ -41,14 +41,16 @@ key_key.ftbultimine:41:NONE
 key_key.ftbutilities.nbt:49:ALT
 key_key.ftbutilities.trash:211:NONE
 key_key.ftbquests.quests:0:NONE
-key_key.inventorysorter.itemout:-201:NONE
 key_key.inventorysorter.itemin:-200:NONE
+key_key.inventorysorter.itemout:-201:NONE
 key_key.inventorysorter.sort:-98:NONE
 key_key.moreoverlays.lightoverlay.desc:65:NONE
 key_key.moreoverlays.chunkbounds.desc:67:NONE
 key_keys.servertabinfo.show:29:NONE
 key_keys.servertabinfo.show2:157:NONE
 key_key.toastcontrol.clear:36:NONE
+key_key.open_wct.desc:0:NONE
+key_key.cycle_magnet_mode.desc:0:NONE
 key_key.toggle_focus.desc:15:NONE
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL

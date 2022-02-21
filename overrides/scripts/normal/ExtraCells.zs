@@ -1,5 +1,5 @@
 #packmode normal
-# Imoprts
+# Imports
 import mods.jei.JEI;
 
 
@@ -216,29 +216,29 @@ recipes.remove(<extracells:storage.component>);
 //     [<appliedenergistics2:material:38>, <appliedenergistics2:material:23>, <appliedenergistics2:material:38>],
 //     [<ore:circuitExtreme>, <appliedenergistics2:material:38>, <ore:circuitExtreme>]
 // ]);
-assembler.recipeBuilder().
-    inputs([
+assembler.recipeBuilder()
+    .inputs([
         <ore:circuitExtreme> * 4,
         <ore:plateTitanium> * 4,
         <ore:dustCertusQuartz> * 16,
         <appliedenergistics2:material:24>
-    ]).
-    fluidInputs(<liquid:steel> * 144).
-    outputs([<extracells:storage.component>]).
-    duration(200).
-    EUt(1920).
-    buildAndRegister();
-assembler.recipeBuilder().
-    inputs([
+    ])
+    .fluidInputs(<liquid:steel> * 144)
+    .outputs([<extracells:storage.component>])
+    .duration(200)
+    .EUt(1920)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([
         <appliedenergistics2:material:24>,
         <ore:circuitExtreme> * 4,
         <appliedenergistics2:material:38> * 4
-    ]).
-    fluidInputs(<liquid:steel> * 144).
-    outputs([<extracells:storage.component>]).
-    duration(400).
-    EUt(7680).
-    buildAndRegister();
+    ])
+    .fluidInputs(<liquid:steel> * 144)
+    .outputs([<extracells:storage.component>])
+    .duration(400)
+    .EUt(7680)
+    .buildAndRegister();
 
 # 1024k Storage Component
 recipes.remove(<extracells:storage.component:1>);
@@ -247,29 +247,29 @@ recipes.remove(<extracells:storage.component:1>);
 //     [<extracells:storage.component>, <appliedenergistics2:material:23>, <extracells:storage.component>],
 //     [<ore:circuitElite>, <extracells:storage.component>, <ore:circuitElite>]
 // ]);
-assembler.recipeBuilder().
-    inputs([
+assembler.recipeBuilder()
+    .inputs([
         <ore:circuitElite> * 4,
         <ore:plateTungstenSteel> * 4,
         <ore:dustCertusQuartz> * 16,
         <appliedenergistics2:material:24>
-    ]).
-    fluidInputs(<liquid:steel> * 144).
-    outputs([<extracells:storage.component:1>]).
-    duration(200).
-    EUt(7680).
-    buildAndRegister();
-assembler.recipeBuilder().
-    inputs([
+    ])
+    .fluidInputs(<liquid:steel> * 144)
+    .outputs([<extracells:storage.component:1>])
+    .duration(200)
+    .EUt(7680)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([
         <appliedenergistics2:material:24>,
         <ore:circuitElite> * 4,
         <extracells:storage.component> * 4
-    ]).
-    fluidInputs(<liquid:steel> * 144).
-    outputs([<extracells:storage.component:1>]).
-    duration(400).
-    EUt(7680).
-    buildAndRegister();
+    ])
+    .fluidInputs(<liquid:steel> * 144)
+    .outputs([<extracells:storage.component:1>])
+    .duration(400)
+    .EUt(7680)
+    .buildAndRegister();
 
 # 4096k Storage Component
 recipes.remove(<extracells:storage.component:2>);
@@ -278,29 +278,29 @@ recipes.remove(<extracells:storage.component:2>);
 //     [<extracells:storage.component:1>, <appliedenergistics2:material:24>, <extracells:storage.component:1>],
 //     [<ore:circuitMaster>, <extracells:storage.component:1>, <ore:circuitMaster>]
 // ]);
-assembler.recipeBuilder().
-    inputs([
+assembler.recipeBuilder()
+    .inputs([
         <ore:circuitMaster> * 4,
         <ore:plateTungstenSteel> * 4,
         <ore:dustCertusQuartz> * 32,
         <appliedenergistics2:material:23>
-    ]).
-    fluidInputs(<liquid:steel> * 144).
-    outputs([<extracells:storage.component:2>]).
-    duration(200).
-    EUt(30720).
-    buildAndRegister();
-assembler.recipeBuilder().
-    inputs([
+    ])
+    .fluidInputs(<liquid:steel> * 144)
+    .outputs([<extracells:storage.component:2>])
+    .duration(200)
+    .EUt(30720)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([
         <appliedenergistics2:material:23>,
         <ore:circuitMaster> * 4,
         <extracells:storage.component:1> * 4
-    ]).
-    fluidInputs(<liquid:steel> * 144).
-    outputs([<extracells:storage.component:2>]).
-    duration(400).
-    EUt(30720).
-    buildAndRegister();
+    ])
+    .fluidInputs(<liquid:steel> * 144)
+    .outputs([<extracells:storage.component:2>])
+    .duration(400)
+    .EUt(30720)
+    .buildAndRegister();
 
 # 16384k Storage Component
 recipes.remove(<extracells:storage.component:3>);
@@ -309,29 +309,29 @@ recipes.remove(<extracells:storage.component:3>);
 //     [<extracells:storage.component:2>, <appliedenergistics2:material:24>, <extracells:storage.component:2>],
 //     [<ore:circuitUltimate>, <extracells:storage.component:2>, <ore:circuitUltimate>]
 // ]);
-assembler.recipeBuilder().
-    inputs([
+assembler.recipeBuilder()
+    .inputs([
         <ore:circuitUltimate> * 4,
         <ore:plateNeutronium> * 4,
         <ore:dustCertusQuartz> * 32,
         <appliedenergistics2:material:23>
-    ]).
-    fluidInputs(<liquid:steel> * 144).
-    outputs([<extracells:storage.component:3>]).
-    duration(200).
-    EUt(122880).
-    buildAndRegister();
-assembler.recipeBuilder().
-    inputs([
+    ])
+    .fluidInputs(<liquid:steel> * 144)
+    .outputs([<extracells:storage.component:3>])
+    .duration(200)
+    .EUt(122880)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([
         <appliedenergistics2:material:23>,
         <ore:circuitUltimate> * 4,
         <extracells:storage.component:2> * 4
-    ]).
-    fluidInputs(<liquid:steel> * 144).
-    outputs([<extracells:storage.component:3>]).
-    duration(400).
-    EUt(122880).
-    buildAndRegister();
+    ])
+    .fluidInputs(<liquid:steel> * 144)
+    .outputs([<extracells:storage.component:3>])
+    .duration(400)
+    .EUt(122880)
+    .buildAndRegister();
 
 # 256k Fluid Component
 recipes.remove(<extracells:storage.component:8>);
@@ -340,29 +340,29 @@ recipes.remove(<extracells:storage.component:8>);
 //     [<appliedenergistics2:material:57>, <appliedenergistics2:material:23>, <appliedenergistics2:material:57>],
 //     [<ore:circuitExtreme>, <appliedenergistics2:material:57>, <ore:circuitExtreme>]
 // ]);
-assembler.recipeBuilder().
-    inputs([
+assembler.recipeBuilder()
+    .inputs([
         <ore:circuitExtreme> * 4,
         <ore:plateTitanium> * 4,
         <ore:dustNetherQuartz> * 16,
         <appliedenergistics2:material:24>
-    ]).
-    fluidInputs(<liquid:stainless_steel> * 144).
-    outputs([<extracells:storage.component:8>]).
-    duration(200).
-    EUt(1920).
-    buildAndRegister();
-assembler.recipeBuilder().
-    inputs([
+    ])
+    .fluidInputs(<liquid:stainless_steel> * 144)
+    .outputs([<extracells:storage.component:8>])
+    .duration(200)
+    .EUt(1920)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([
         <appliedenergistics2:material:24>,
         <ore:circuitExtreme> * 4,
         <appliedenergistics2:material:57> * 4
-    ]).
-    fluidInputs(<liquid:stainless_steel> * 144).
-    outputs([<extracells:storage.component:8>]).
-    duration(400).
-    EUt(7680).
-    buildAndRegister();
+    ])
+    .fluidInputs(<liquid:stainless_steel> * 144)
+    .outputs([<extracells:storage.component:8>])
+    .duration(400)
+    .EUt(7680)
+    .buildAndRegister();
 
 # 1024k Fluid Component
 recipes.remove(<extracells:storage.component:9>);
@@ -371,29 +371,29 @@ recipes.remove(<extracells:storage.component:9>);
 //     [<extracells:storage.component:8>, <appliedenergistics2:material:23>, <extracells:storage.component:8>],
 //     [<ore:circuitElite>, <extracells:storage.component:8>, <ore:circuitElite>]
 // ]);
-assembler.recipeBuilder().
-    inputs([
+assembler.recipeBuilder()
+    .inputs([
         <ore:circuitElite> * 4,
         <ore:plateTungstenSteel> * 4,
         <ore:dustNetherQuartz> * 16,
         <appliedenergistics2:material:24>
-    ]).
-    fluidInputs(<liquid:stainless_steel> * 144).
-    outputs([<extracells:storage.component:9>]).
-    duration(200).
-    EUt(7680).
-    buildAndRegister();
-assembler.recipeBuilder().
-    inputs([
+    ])
+    .fluidInputs(<liquid:stainless_steel> * 144)
+    .outputs([<extracells:storage.component:9>])
+    .duration(200)
+    .EUt(7680)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([
         <appliedenergistics2:material:24>,
         <ore:circuitElite> * 4,
         <extracells:storage.component:8> * 4
-    ]).
-    fluidInputs(<liquid:stainless_steel> * 144).
-    outputs([<extracells:storage.component:9>]).
-    duration(400).
-    EUt(7680).
-    buildAndRegister();
+    ])
+    .fluidInputs(<liquid:stainless_steel> * 144)
+    .outputs([<extracells:storage.component:9>])
+    .duration(400)
+    .EUt(7680)
+    .buildAndRegister();
 
 # 4096k Fluid Component
 recipes.remove(<extracells:storage.component:10>);
@@ -402,45 +402,45 @@ recipes.remove(<extracells:storage.component:10>);
 //     [<extracells:storage.component:9>, <appliedenergistics2:material:24>, <extracells:storage.component:9>],
 //     [<ore:circuitMaster>, <extracells:storage.component:9>, <ore:circuitMaster>]
 // ]);
-assembler.recipeBuilder().
-    inputs([
+assembler.recipeBuilder()
+    .inputs([
         <ore:circuitMaster> * 4,
         <ore:plateNeutronium> * 4,
         <ore:dustNetherQuartz> * 32,
         <appliedenergistics2:material:23>
-    ]).
-    fluidInputs(<liquid:stainless_steel> * 144).
-    outputs([<extracells:storage.component:10>]).
-    duration(200).
-    EUt(30720).
-    buildAndRegister();
-assembler.recipeBuilder().
-    inputs([
+    ])
+    .fluidInputs(<liquid:stainless_steel> * 144)
+    .outputs([<extracells:storage.component:10>])
+    .duration(200)
+    .EUt(30720)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([
         <appliedenergistics2:material:23>,
         <ore:circuitMaster> * 4,
         <extracells:storage.component:9> * 4
-    ]).
-    fluidInputs(<liquid:stainless_steel> * 144).
-    outputs([<extracells:storage.component:10>]).
-    duration(400).
-    EUt(30720).
-    buildAndRegister();
+    ])
+    .fluidInputs(<liquid:stainless_steel> * 144)
+    .outputs([<extracells:storage.component:10>])
+    .duration(400)
+    .EUt(30720)
+    .buildAndRegister();
 
 # Recycle - Advanced Storage Housing
-macerator.recipeBuilder().
-    inputs([<extracells:storage.casing>]).
-    outputs([<gregtech:meta_dust:2013>]).
-    duration(100).
-    EUt(16).
-    buildAndRegister();
+macerator.recipeBuilder()
+    .inputs([<extracells:storage.casing>])
+    .outputs([<gregtech:meta_dust:2013>])
+    .duration(100)
+    .EUt(16)
+    .buildAndRegister();
 
 # Recycle - Fluid Housing
-macerator.recipeBuilder().
-    inputs([<extracells:storage.casing:1>]).
-    outputs([<gregtech:meta_dust:323>]).
-    duration(100).
-    EUt(16).
-    buildAndRegister();
+macerator.recipeBuilder()
+    .inputs([<extracells:storage.casing:1>])
+    .outputs([<gregtech:meta_dust:323>])
+    .duration(100)
+    .EUt(16)
+    .buildAndRegister();
 
 
 
@@ -481,11 +481,18 @@ recipes.addShaped(<extracells:part.base:8>, [
 
 # Fluid Vibration Chamber
 recipes.remove(<extracells:vibrantchamberfluid>);
-recipes.addShaped(<extracells:vibrantchamberfluid>, [
-    [<ore:plateStainlessSteel>, <gregtech:meta_item_1:144>, <ore:plateStainlessSteel>],
-    [<ore:plateStainlessSteel>, <gregtech:machine:1575>, <ore:plateStainlessSteel>],
-    [<ore:plateStainlessSteel>, <appliedenergistics2:vibration_chamber>, <ore:plateStainlessSteel>]
-]);
+assembler.recipeBuilder()
+    .inputs([
+        <ore:circuitAdvanced> * 2,
+        <ore:cableGtSingleGold> * 2,
+        <metaitem:electric.pump.hv> * 2,
+        <ore:wireGtDoubleKanthal> * 4,
+        <ore:plateStainlessSteel> * 7
+    ])
+    .outputs([<extracells:vibrantchamberfluid>])
+    .duration(200)
+    .EUt(480)
+    .buildAndRegister();
 
 # Obsidian ME Drive
 recipes.remove(<extracells:hardmedrive>);

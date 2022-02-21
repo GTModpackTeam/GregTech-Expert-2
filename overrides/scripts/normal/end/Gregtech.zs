@@ -1,7 +1,6 @@
 #packmode normal
-# Imoprts
+# Imports
 import mods.jei.JEI;
-import mods.extendedcrafting.TableCrafting;
 /* 
     TODO
     # Infinite GT Energy Unit Emitter
@@ -27,39 +26,59 @@ import mods.extendedcrafting.TableCrafting;
 );
 
 # Infinite GT Energy Unit Emitter
-// TableCrafting.addShaped(0, <gregtech:machine:1650>, [
-//     [<enderio:block_cap_bank>.withTag({"enderio:energy": 50000000}), <ore:blockUraniumRhodiumDinaquadide>, <ore:blockUraniumRhodiumDinaquadide>, <ore:blockUraniumRhodiumDinaquadide>, <contenttweaker:creativecomponent>, <ore:blockUraniumRhodiumDinaquadide>, <ore:blockUraniumRhodiumDinaquadide>, <ore:blockUraniumRhodiumDinaquadide>, <enderio:block_cap_bank>.withTag({"enderio:energy": 50000000})], 
-//     [<ore:blockUraniumRhodiumDinaquadide>, <appliedenergistics2:creative_energy_cell>, <appliedenergistics2:creative_energy_cell>, <appliedenergistics2:creative_energy_cell>, <gregtech:meta_item_1:753>, <appliedenergistics2:creative_energy_cell>, <appliedenergistics2:creative_energy_cell>, <appliedenergistics2:creative_energy_cell>, <ore:blockUraniumRhodiumDinaquadide>], 
-//     [<ore:blockUraniumRhodiumDinaquadide>, <appliedenergistics2:creative_energy_cell>, <contenttweaker:creativecomponent>, <appliedenergistics2:creative_energy_cell>, <gregtech:meta_item_1:753>, <appliedenergistics2:creative_energy_cell>, <contenttweaker:creativecomponent>, <appliedenergistics2:creative_energy_cell>, <ore:blockUraniumRhodiumDinaquadide>], 
-//     [<ore:blockUraniumRhodiumDinaquadide>, <appliedenergistics2:creative_energy_cell>, <appliedenergistics2:creative_energy_cell>, <appliedenergistics2:creative_energy_cell>, <gregtech:meta_item_1:753>, <appliedenergistics2:creative_energy_cell>, <appliedenergistics2:creative_energy_cell>, <appliedenergistics2:creative_energy_cell>, <ore:blockUraniumRhodiumDinaquadide>], 
-//     [<contenttweaker:creativecomponent>, <gregtech:meta_item_1:753>, <gregtech:meta_item_1:753>, <gregtech:meta_item_1:753>, <gregtech:meta_item_1:1000>, <gregtech:meta_item_1:753>, <gregtech:meta_item_1:753>, <gregtech:meta_item_1:753>, <contenttweaker:creativecomponent>], 
-//     [<ore:blockUraniumRhodiumDinaquadide>, <appliedenergistics2:creative_energy_cell>, <appliedenergistics2:creative_energy_cell>, <appliedenergistics2:creative_energy_cell>, <gregtech:meta_item_1:753>, <appliedenergistics2:creative_energy_cell>, <appliedenergistics2:creative_energy_cell>, <appliedenergistics2:creative_energy_cell>, <ore:blockUraniumRhodiumDinaquadide>], 
-//     [<ore:blockUraniumRhodiumDinaquadide>, <appliedenergistics2:creative_energy_cell>, <contenttweaker:creativecomponent>, <appliedenergistics2:creative_energy_cell>, <gregtech:meta_item_1:753>, <appliedenergistics2:creative_energy_cell>, <contenttweaker:creativecomponent>, <appliedenergistics2:creative_energy_cell>, <ore:blockUraniumRhodiumDinaquadide>], 
-//     [<ore:blockUraniumRhodiumDinaquadide>, <appliedenergistics2:creative_energy_cell>, <appliedenergistics2:creative_energy_cell>, <appliedenergistics2:creative_energy_cell>, <gregtech:meta_item_1:753>, <appliedenergistics2:creative_energy_cell>, <appliedenergistics2:creative_energy_cell>, <appliedenergistics2:creative_energy_cell>, <ore:blockUraniumRhodiumDinaquadide>], 
-//     [<enderio:block_cap_bank>.withTag({"enderio:energy": 50000000}), <ore:blockUraniumRhodiumDinaquadide>, <ore:blockUraniumRhodiumDinaquadide>, <ore:blockUraniumRhodiumDinaquadide>, <contenttweaker:creativecomponent>, <ore:blockUraniumRhodiumDinaquadide>, <ore:blockUraniumRhodiumDinaquadide>, <ore:blockUraniumRhodiumDinaquadide>, <enderio:block_cap_bank>.withTag({"enderio:energy": 50000000})]
-// ]);
-
 assembly_line.recipeBuilder()
-    .inputs([<enderio:block_cap_bank>.withTag({"enderio:energy": 50000000})])
-    .inputs([<gregtech:meta_item_1:753> * 4])
-    .inputs([<contenttweaker:creativecomponent> * 2])
-    .inputs([<appliedenergistics2:creative_energy_cell> * 8])
-    .inputs([<enderio:block_cap_bank>.withTag({"enderio:energy": 50000000})])
-    .inputs([<gregtech:meta_item_1:753> * 4])
-    .inputs([<contenttweaker:creativecomponent> * 2])
-    .inputs([<appliedenergistics2:creative_energy_cell> * 8])
-    .inputs([<enderio:block_cap_bank>.withTag({"enderio:energy": 50000000})])
-    .inputs([<gregtech:meta_item_1:753> * 4])
-    .inputs([<contenttweaker:creativecomponent> * 2])
-    .inputs([<appliedenergistics2:creative_energy_cell> * 8])
-    .inputs([<enderio:block_cap_bank>.withTag({"enderio:energy": 50000000})])
-    .inputs([<gregtech:meta_item_1:753> * 4])
-    .inputs([<contenttweaker:creativecomponent> * 2])
-    .inputs([<appliedenergistics2:creative_energy_cell> * 8])
-    //.inputs([<gregtech:meta_item_1:1000>])
-    .fluidInputs(<liquid:soldering_alloy> * 16000)
+    .circuit(1)
+    .inputs([<enderio:block_cap_bank>.withTag({"enderio:energy": 50000000}) * 4])
+    .inputs([<gregtech:meta_item_1:753> * 8])
+    .inputs([<contenttweaker:creativecomponent> * 8])
+    .inputs([<appliedenergistics2:creative_energy_cell> * 4])
+    .fluidInputs(<liquid:soldering_alloy> * 18432)
     .fluidInputs(<liquid:uranium_rhodium_dinaquadide> * 15552)
     .outputs(<gregtech:machine:1650>)
-    .duration(72000)
-    .EUt(122880)
+    .duration(6000)
+    .EUt(491520)
+    .buildAndRegister();
+
+# Creative Cuantum Tank
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:machine:1650> * 2])
+    .inputs([<gregtech:machine:1589> * 64])
+    .inputs([<metaitem:quantumstar> * 64])
+    .inputs([<metaitem:quantumstar> * 64])
+    .inputs([<metaitem:electric.pump.uv> * 64])
+    .inputs([<metaitem:electric.pump.uv> * 64])
+    .inputs([<metaitem:fluid.regulator.uv> * 64])
+    .inputs([<metaitem:fluid.regulator.uv> * 64])
+    .inputs([<metaitem:emitter.uv> * 64])
+    .inputs([<metaitem:emitter.uv> * 64])
+    .inputs([<metaitem:circuit.wetware_mainframe> * 64])
+    .inputs([<metaitem:nan.certificate>])
+    .fluidInputs(<liquid:soldering_alloy> * 147456)
+    .fluidInputs(<liquid:ruthenium_trinium_americium_neutronate> * 165888)
+    .outputs([<gregtech:machine:1669>])
+    .duration(6000)
+    .EUt(491520)
+    .buildAndRegister();
+
+# Creative Cuantum Chest
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:machine:1650> * 8])
+    .inputs([<gregtech:machine:1669> * 4])
+    .inputs([<gregtech:machine:1574> * 64])
+    .inputs([<metaitem:gravistar> * 64])
+    .inputs([<metaitem:gravistar> * 64])
+    .inputs([<metaitem:conveyor.module.uv> * 64])
+    .inputs([<metaitem:conveyor.module.uv> * 64])
+    .inputs([<metaitem:robot.arm.uv> * 64])
+    .inputs([<metaitem:robot.arm.uv> * 64])
+    .inputs([<metaitem:emitter.uv> * 64])
+    .inputs([<metaitem:emitter.uv> * 64])
+    .inputs([<metaitem:circuit.wetware_mainframe> * 64])
+    .inputs([<metaitem:circuit.wetware_mainframe> * 64])
+    .inputs([<metaitem:nan.certificate> * 4])
+    .fluidInputs(<liquid:soldering_alloy> * 147456)
+    .fluidInputs(<liquid:ruthenium_trinium_americium_neutronate> * 663552)
+    .outputs([<gregtech:machine:1668>])
+    .duration(6000)
+    .EUt(491520)
     .buildAndRegister();

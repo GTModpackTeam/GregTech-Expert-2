@@ -946,7 +946,7 @@ keyboard {
 powerconverter {
   input: [
     ["", "oc:circuitChip2", ""]
-    ["plateSteel", {block="gregtech:machine", subID=601}, "plateSteel"]
+    ["plateSteel", {block="gregtech:machine", subID=986}, "plateSteel"]
     [{oreDict: "circuitBasic", gtid: "circuit.basic"}, "gtce.tool.wrenches", {oreDict: "circuitBasic", gtid: "circuit.basic"}]
   ]
 }
@@ -958,7 +958,7 @@ carpetedcapacitor {
 
 capacitor {
   input: [
-    ["", {block="gregtech:machine", subID=618}, ""]
+    ["", {block="gregtech:machine", subID=1316}, ""]
     [{block="gregtech:machine_casing", subID=1}, "oc:materialTransistor", {block="gregtech:machine_casing", subID=1}]
     [{oreDict: "circuitBasic", gtid: "circuit.basic"}, "gtce.tool.wrenches", {oreDict: "circuitBasic", gtid: "circuit.basic"}]
   ]
@@ -967,7 +967,7 @@ capacitor {
 charger {
   input: [
     ["", "plateStainlessSteel", ""]
-    [{block="gregtech:machine", subID=681}, {block="gregtech:machine_casing", subID=2}, {block="gregtech:machine", subID=681}]
+    [{block="gregtech:machine", subID=986}, {block="gregtech:machine_casing", subID=2}, {block="gregtech:machine", subID=986}]
     ["oc:circuitChip3", "gtce.tool.wrenches", {oreDict: "circuitBasic", gtid: "circuit.basic"}]
   ]
 }
