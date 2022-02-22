@@ -1,0 +1,27 @@
+{
+	icon: "gregtech:wire_coil",
+	x: 11.5d,
+	y: -4.0d,
+	dependencies: [
+		"ef2976c5",
+		"2fedffc8",
+		"b75f94e8"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "09d44c33",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 328"
+		}],
+		count: 16L
+	},
+	{
+		uid: "8a0fc542",
+		type: "item",
+		items: [{
+			item: "gregtech:wire_coil"
+		}],
+		count: 16L
+	}]
+}

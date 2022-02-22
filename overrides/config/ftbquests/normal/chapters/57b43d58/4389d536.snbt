@@ -1,0 +1,29 @@
+{
+	icon: "gregtech:machine 1 986",
+	x: -2.5d,
+	y: -2.0d,
+	dependencies: [
+		"76b62977"
+	],
+	tasks: [{
+		uid: "f92e7507",
+		type: "item",
+		items: [{
+			item: "gregtech:machine_casing 1 1"
+		}]
+	},
+	{
+		uid: "7c0c5c74",
+		type: "item",
+		items: [{
+			item: "gregtech:cable_single 1 112"
+		}]
+	},
+	{
+		uid: "3b346e89",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 986"
+		}]
+	}]
+}

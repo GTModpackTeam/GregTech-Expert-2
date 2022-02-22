@@ -1,0 +1,18 @@
+{
+	title: "OilSands Vein",
+	x: 2.0d,
+	y: 12.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"2b9a2b25"
+	],
+	tasks: [{
+		uid: "e555ebb1",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_oilsands_0"
+		}]
+	}]
+}

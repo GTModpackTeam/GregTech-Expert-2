@@ -1,0 +1,44 @@
+{
+	title: "焼き立てのパン",
+	icon: "minecraft:bread",
+	x: 14.0d,
+	y: -4.0d,
+	description: "bread",
+	text: [
+		"小麦を砕いて塩をまぶしてパン生地にし、整形して焼き上げればようやくパンができます。",
+		"primitive_baking_ovenにはこれ以外にも沢山のレシピがあるので是非試してみて下さい。"
+	],
+	dependencies: [
+		"38fde206"
+	],
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "02512f2d",
+		type: "item",
+		items: [{
+			item: "gregtechfoodoption:gtfo_meta_item 1 50"
+		}]
+	},
+	{
+		uid: "291c9e9d",
+		type: "item",
+		items: [{
+			item: "gregtechfoodoption:gtfo_meta_item 1 45"
+		}]
+	},
+	{
+		uid: "86417096",
+		type: "item",
+		items: [{
+			item: "gregtechfoodoption:gtfo_meta_item 1 47"
+		}]
+	},
+	{
+		uid: "50185ffc",
+		type: "item",
+		items: [{
+			item: "minecraft:bread"
+		}]
+	}]
+}

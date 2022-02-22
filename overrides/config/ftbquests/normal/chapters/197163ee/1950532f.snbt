@@ -1,0 +1,40 @@
+{
+	title: "ブロンズ鉱脈",
+	x: 10.0d,
+	y: 0.0d,
+	description: "Copper Tin Vein",
+	text: [
+		""
+	],
+	dependencies: [
+		"2b9a2b25"
+	],
+	tasks: [{
+		uid: "670638ea",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_chalcopyrite_0"
+		}]
+	},
+	{
+		uid: "6f1f6de1",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_zeolite_0"
+		}]
+	},
+	{
+		uid: "f50d7ffe",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_cassiterite_0"
+		}]
+	},
+	{
+		uid: "cfee5f26",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_realgar_0"
+		}]
+	}]
+}

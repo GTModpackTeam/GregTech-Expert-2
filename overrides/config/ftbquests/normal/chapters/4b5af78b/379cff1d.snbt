@@ -1,0 +1,28 @@
+{
+	title: "スターゲートもどき",
+	icon: "enderio:block_tele_pad",
+	x: 4.0d,
+	y: -4.0d,
+	shape: "square",
+	description: "FTB Utilities",
+	text: [
+		"FTB_Utilitiesを使うとディメンションを超えて鉱脈と拠点の間をテレポートすることができます",
+		"",
+		"\"/sethome <任意の文字列>\" とチャット欄に打つことで自分が今立っている地点をシステムに登録することができ、",
+		"\"/home <任意の文字列>\" でその地点にテレポートすることができます。",
+		"\"/home list\" で登録した地点の一覧を見ることができ、",
+		"\"/delhome <任意の文字列>\" で地点を削除することができます",
+		"",
+		"FTB_Utilitiesにはチャンク保護機能も付属していますが、§cチャンクロード機能はコンフィグで無効化されています。§r",
+		"チャンク選択画面からチャンクロードを指示できてしまいますが、これはFTB_Utilities側のバグです。",
+		"代わりにChickenChunksを使いましょう"
+	],
+	dependencies: [
+		"2b9a2b25"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "138ac988",
+		type: "checkmark"
+	}]
+}

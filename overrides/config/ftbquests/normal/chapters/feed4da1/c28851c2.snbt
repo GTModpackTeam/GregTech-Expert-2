@@ -1,0 +1,33 @@
+{
+	icon: "gregtech:machine 1 1599",
+	x: -3.0d,
+	y: -2.0d,
+	dependencies: [
+		"76b62977"
+	],
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "5b63fcd9",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 4"
+		}],
+		count: 26L
+	},
+	{
+		uid: "8e69db03",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1599"
+		}]
+	},
+	{
+		uid: "597ad341",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1598"
+		}],
+		count: 2L
+	}]
+}

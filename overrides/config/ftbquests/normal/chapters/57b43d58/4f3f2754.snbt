@@ -1,0 +1,12 @@
+{
+	x: 9.5d,
+	y: 2.0d,
+	dependencies: [
+		"faf1c500"
+	],
+	tasks: [{
+		uid: "fff6b2ab",
+		type: "fluid",
+		fluid: "glue"
+	}]
+}

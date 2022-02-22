@@ -1,0 +1,22 @@
+{
+	icon: "gregtech:machine 1 321",
+	x: 2.0d,
+	y: 2.0d,
+	dependencies: [
+		"4ca7718b"
+	],
+	tasks: [{
+		uid: "63135a12",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 321"
+		}]
+	},
+	{
+		uid: "cbdab34d",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32"
+		}]
+	}]
+}

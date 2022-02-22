@@ -1,0 +1,32 @@
+{
+	x: 18.0d,
+	y: 4.0d,
+	dependencies: [
+		"379106f4"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "9d6e4c9a",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_unit"
+		}]
+	},
+	{
+		uid: "b00c4f05",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_storage_1k"
+		},
+		{
+			item: "appliedenergistics2:crafting_storage_64k"
+		}]
+	},
+	{
+		uid: "9284306b",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_accelerator"
+		}]
+	}]
+}

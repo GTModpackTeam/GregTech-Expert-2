@@ -1,0 +1,28 @@
+{
+	title: "手作りの箱",
+	x: -13.0d,
+	y: 6.0d,
+	description: "Crafting Box",
+	text: [
+		"Crafting_BoxをStorage_CoreもしくはStorage_Boxに繋ぐことで",
+		"Storage_CoreのUIにクラフティンググリッドが追加されます。",
+		"",
+		"しかし、このグリッドにJEIで検索したレシピを展開した時",
+		"Gregtechのツールが展開されません。",
+		"更にバグでシフトクリックでまとめてクラフトすることができません。",
+		"Crafting_StationならGregtechのツールが展開されたりまとめてクラフトができたりしますが、",
+		"StationはStorage_Coreをインベントリとして認識しません。",
+		"どちらの作業台をメインで使うかはプレイヤーの好みに委ねられます。"
+	],
+	dependencies: [
+		"b4a568df"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "8958d5e5",
+		type: "item",
+		items: [{
+			item: "ezstorage:crafting_box"
+		}]
+	}]
+}

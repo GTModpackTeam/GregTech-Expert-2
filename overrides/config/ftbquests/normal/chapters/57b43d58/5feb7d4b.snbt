@@ -1,0 +1,21 @@
+{
+	icon: "gregtech:machine 1 155",
+	x: 7.5d,
+	y: -10.0d,
+	dependencies: [
+		"b3971188"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "345ca0b6",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 155"
+		}]
+	},
+	{
+		uid: "1b894dd2",
+		type: "fluid",
+		fluid: "lubricant"
+	}]
+}

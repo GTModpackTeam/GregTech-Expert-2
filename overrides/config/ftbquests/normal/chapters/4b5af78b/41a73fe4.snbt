@@ -1,0 +1,48 @@
+{
+	title: "100万t",
+	x: 10.0d,
+	y: 0.0d,
+	shape: "diamond",
+	description: "Hammer",
+	text: [
+		"Gregtechの始まりのツールであるハンマーを作りましょう。",
+		"",
+		"ハンマーを使うことで金属を板状に加工することができます。",
+		"金属板を用いてGregtechのいくつかのオリジナルアイテムや、",
+		"他のツールを作っていきましょう。",
+		"",
+		"ハンマーで機械を叩くと機械の稼働音の有無を切り替えることができます。",
+		"狭い拠点で自動化を行う際に特に有効でしょう。",
+		"",
+		"ハンマーで石や鉱石を壊すとそれらが一段階粉砕された状態でドロップします。",
+		"現状特に需要はないかもしれません。",
+		"",
+		"余談：gregtech5uではレッドストーン鉱石が直接精錬できなかったので",
+		"ハンマーで鉱石を砕いて粉にする必要があった"
+	],
+	dependencies: [
+		"a887d7d6",
+		"58ddd38f"
+	],
+	dependency_requirement: "one_completed",
+	min_width: 300,
+	tasks: [{
+		uid: "e2e492e5",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolHardHammer"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolHardHammer"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

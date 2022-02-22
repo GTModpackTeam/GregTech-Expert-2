@@ -1,0 +1,39 @@
+{
+	title: "Mineral Sand Vein",
+	x: 10.0d,
+	y: 4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"2b9a2b25"
+	],
+	tasks: [{
+		uid: "1c798e6e",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_basaltic_mineral_sand_0"
+		}]
+	},
+	{
+		uid: "24740f1c",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_granitic_mineral_sand_0"
+		}]
+	},
+	{
+		uid: "0ed02e9d",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_fullers_earth_0"
+		}]
+	},
+	{
+		uid: "0c330fae",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_gypsum_0"
+		}]
+	}]
+}

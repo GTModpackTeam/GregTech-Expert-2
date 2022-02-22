@@ -1,0 +1,22 @@
+{
+	icon: "gregtech:machine 1 95",
+	x: 5.5d,
+	y: -6.0d,
+	dependencies: [
+		"58037203"
+	],
+	dependency_requirement: "all_started",
+	or_tasks: true,
+	tasks: [{
+		uid: "ebb08e6d",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 95"
+		}]
+	},
+	{
+		uid: "9be795b8",
+		type: "fluid",
+		fluid: "oxygen"
+	}]
+}

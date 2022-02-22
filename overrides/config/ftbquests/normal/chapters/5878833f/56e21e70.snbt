@@ -1,0 +1,13 @@
+{
+	x: 0.0d,
+	y: 6.0d,
+	dependencies: [
+		"8a5963d9",
+		"50f93cb7"
+	],
+	tasks: [{
+		uid: "958ff2ea",
+		type: "fluid",
+		fluid: "benzene"
+	}]
+}

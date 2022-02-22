@@ -1,0 +1,36 @@
+{
+	title: "Nickel Vein",
+	x: 2.0d,
+	y: 8.0d,
+	dependencies: [
+		"2b9a2b25"
+	],
+	tasks: [{
+		uid: "f3bc90e4",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_garnierite_0"
+		}]
+	},
+	{
+		uid: "46eca029",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_nickel_0"
+		}]
+	},
+	{
+		uid: "a9726ecc",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_cobaltite_0"
+		}]
+	},
+	{
+		uid: "0414b80b",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_pentlandite_0"
+		}]
+	}]
+}

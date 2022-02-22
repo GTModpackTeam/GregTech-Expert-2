@@ -1,0 +1,36 @@
+{
+	title: "バイブレーション機能付きツルハシ",
+	icon: {
+		id: "minecraft:enchanted_book",
+		tag: {
+			StoredEnchantments: [{
+				lvl: 1s,
+				id: 30
+			}]
+		}
+	},
+	x: 10.0d,
+	y: -4.0d,
+	shape: "square",
+	description: "GTCEu Enchant",
+	text: [
+		"HammeringとDisjunctionはGTCEuで新たに追加されたエンチャントです。",
+		"",
+		"Hammeringエンチャントを採掘ハンマー含めた任意のツールに取り付けると、",
+		"そのツールでブロックを壊したとき(ツールの)ハンマーでブロックを壊したときと同じ挙動を示すようになります。",
+		"",
+		"Disjunctionエンチャントを任意のツールに取り付けると、",
+		"そのツールがエンダーマンやエンダードラゴンに特攻を持つようになります。",
+		"EnderIOのジ・エンダーにつけてあげると強いでしょう",
+		"",
+		"余談：Disjunctionエンチャントの元ネタはThaumcraftの同名エンチャントと思われる"
+	],
+	dependencies: [
+		"d0403759"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "42c535e7",
+		type: "checkmark"
+	}]
+}

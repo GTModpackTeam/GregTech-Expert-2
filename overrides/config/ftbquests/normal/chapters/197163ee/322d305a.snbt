@@ -1,0 +1,40 @@
+{
+	title: "りもナイト",
+	x: 6.0d,
+	y: 0.0d,
+	description: "Banded Iron Vein",
+	text: [
+		""
+	],
+	dependencies: [
+		"2b9a2b25"
+	],
+	tasks: [{
+		uid: "1062fb03",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_brown_limonite_0"
+		}]
+	},
+	{
+		uid: "e627e4f1",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_yellow_limonite_0"
+		}]
+	},
+	{
+		uid: "0c549510",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_banded_iron_0"
+		}]
+	},
+	{
+		uid: "f7558762",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_malachite_0"
+		}]
+	}]
+}

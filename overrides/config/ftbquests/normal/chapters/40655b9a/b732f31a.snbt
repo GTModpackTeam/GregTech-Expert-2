@@ -1,0 +1,22 @@
+{
+	x: 4.0d,
+	y: -6.0d,
+	dependencies: [
+		"798d57e7"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "be53e480",
+		type: "item",
+		items: [{
+			item: "minecraft:tnt"
+		}]
+	},
+	{
+		uid: "bf4ec6ed",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 460"
+		}]
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "More Extruder Shapes",
+	x: 2.0d,
+	y: 4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"be6da410"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "499dc177",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 55"
+		}]
+	},
+	{
+		uid: "b6e4d695",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 33"
+		}]
+	},
+	{
+		uid: "b2b8a757",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 57"
+		}]
+	}]
+}

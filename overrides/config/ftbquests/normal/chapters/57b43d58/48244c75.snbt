@@ -1,0 +1,69 @@
+{
+	icon: "gregtech:machine 1 2027",
+	x: 3.5d,
+	y: -6.0d,
+	dependencies: [
+		"34d03450",
+		"141783ef"
+	],
+	dependency_requirement: "all_started",
+	or_tasks: true,
+	tasks: [{
+		uid: "83aca107",
+		type: "item",
+		items: [{
+			item: "gcym:large_multiblock_casing 1 12"
+		}],
+		count: 21L
+	},
+	{
+		uid: "aa99701b",
+		type: "item",
+		items: [{
+			item: "gregtech:turbine_casing"
+		}],
+		count: 2L
+	},
+	{
+		uid: "284e9453",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2027"
+		}]
+	},
+	{
+		uid: "e5fa99d2",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1180"
+		}]
+	},
+	{
+		uid: "6b668305",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1195"
+		}]
+	},
+	{
+		uid: "8bb8fd94",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1225"
+		}]
+	},
+	{
+		uid: "0f8bd1db",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1654"
+		}]
+	},
+	{
+		uid: "108561b6",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1657"
+		}]
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "自動装填機構T1",
+	x: 18.0d,
+	y: 0.0d,
+	text: [
+		"コークス炉ハッチはコークス炉にとりつけられる専用の液体ハッチです。",
+		"クレオソートを貯めすぎるとコークス炉が動かなくなるので、これを用いて自動搬出を行うことが推奨されます。"
+	],
+	dependencies: [
+		"586e87b4"
+	],
+	dependency_requirement: "all_started",
+	min_width: 300,
+	tasks: [{
+		uid: "809627e4",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1018"
+		}]
+	}]
+}

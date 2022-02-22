@@ -1,0 +1,28 @@
+{
+	x: -2.0d,
+	y: 8.0d,
+	dependencies: [
+		"fc5ba32b"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "03a0b27f",
+		type: "fluid",
+		fluid: "oil"
+	},
+	{
+		uid: "08c8db79",
+		type: "fluid",
+		fluid: "oil_heavy"
+	},
+	{
+		uid: "8713da67",
+		type: "fluid",
+		fluid: "oil_medium"
+	},
+	{
+		uid: "bf9122b6",
+		type: "fluid",
+		fluid: "oil_light"
+	}]
+}

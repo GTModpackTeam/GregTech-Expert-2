@@ -1,0 +1,7 @@
+{
+	title: "Ore Veins",
+	icon: "gregtech:ore_vanadium_magnetite_0",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

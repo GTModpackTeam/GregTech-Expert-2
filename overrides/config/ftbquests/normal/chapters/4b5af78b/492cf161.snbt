@@ -1,0 +1,240 @@
+{
+	title: "お母さんが使ってそうな道具ベスト8",
+	x: 16.0d,
+	y: 0.0d,
+	description: "NotSoImportantTools",
+	text: [
+		"タスクに要求されているツールは原始時代や蒸気時代にはあまり使用しないか、",
+		"modpack全体を通じて需要の小さいツールです。",
+		"必要な時に必要なものを作るといいでしょう。",
+		"",
+		"・バール",
+		"バールは機械に取り付けたカバーを機械を壊すことなく撤去できるツールです。",
+		"カバーに対して右クリックするだけで使用できます。",
+		"",
+		"・ワイヤーカッター",
+		"ワイヤーカッターはワイヤーをクラフトしたり撤去したり接続したりするツールです。",
+		"GTCEuの仕様でワイヤーとケーブルはレンチでも撤去できてしまうのでその面であまり価値はありませんが、",
+		"ワイヤーとケーブルはデフォルトで他のワイヤーとケーブルや機械に繋がらないという仕様が追加されているので、",
+		"手動で接続できるワイヤーカッターは電気時代に入った後は必要不可欠なツールです。",
+		"",
+		"・センス",
+		"鎌のような見た目のセンスは左クリックで広範囲の作物やサトウキビを一括伐採することができます。",
+		"",
+		"・肉切り包丁",
+		"肉切り包丁で敵を倒すとより多くのアイテムがドロップします。",
+		"革を集める時に最も活躍します。",
+		"",
+		"・ナイフ",
+		"ナイフはゴムをリングにしたりなどいくつかのレシピで要求されます。",
+		"主に電気時代以降に出番があります。",
+		"",
+		"・枝切りばさみ",
+		"ブランチカッターは葉ブロックを高速で破壊することができます。",
+		"",
+		"・ラバーカップ",
+		"ラバーカップは機械に右クリックすることで使用でき、",
+		"機械の入力スロットに入っている液体を廃棄することができます。",
+		"",
+		"・ハサミ",
+		"ハサミです。"
+	],
+	dependencies: [
+		"3ac887a1"
+	],
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "175fc78a",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolCrowbar"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolCrowbar"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3bf8d83b",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolWireCutter"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolWireCutter"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f2876961",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			Damage: 17s,
+			tag: {
+				GT.ToolStats: {
+					Material: "iron"
+				}
+			}
+		},
+		{
+			id: "gregtech:meta_tool",
+			Damage: 17s,
+			tag: {
+				GT.ToolStats: {
+					Material: "bronze"
+				}
+			}
+		},
+		{
+			id: "gregtech:meta_tool",
+			Damage: 17s,
+			tag: {
+				GT.ToolStats: {
+					Material: "wrought_iron"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "946ce753",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			Damage: 16s,
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 21
+				}],
+				GT.ToolStats: {
+					Material: "iron"
+				}
+			}
+		},
+		{
+			id: "gregtech:meta_tool",
+			Damage: 16s,
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 21
+				}],
+				GT.ToolStats: {
+					Material: "bronze"
+				}
+			}
+		},
+		{
+			id: "gregtech:meta_tool",
+			Damage: 16s,
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 21
+				}],
+				GT.ToolStats: {
+					Material: "wrought_iron"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2004f2ca",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			Damage: 15s,
+			tag: {
+				GT.ToolStats: {
+					Material: "iron"
+				}
+			}
+		},
+		{
+			id: "gregtech:meta_tool",
+			Damage: 15s,
+			tag: {
+				GT.ToolStats: {
+					Material: "bronze"
+				}
+			}
+		},
+		{
+			id: "gregtech:meta_tool",
+			Damage: 15s,
+			tag: {
+				GT.ToolStats: {
+					Material: "wrought_iron"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "74318471",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolBranchCutter"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolBranchCutter"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2b4b0ba7",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolPlunger"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolPlunger"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "67a1e0f8",
+		type: "item",
+		items: [{
+			item: "minecraft:shears"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

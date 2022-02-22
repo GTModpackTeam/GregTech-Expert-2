@@ -1,0 +1,48 @@
+{
+	title: "ヴァー",
+	icon: {
+		id: "gregtech:meta_tool",
+		Damage: 19s,
+		tag: {
+			GT.ToolStats: {
+				Material: "invar"
+			}
+		}
+	},
+	x: -13.0d,
+	y: 0.0d,
+	description: "Invar",
+	text: [
+		"インバーは鉄とニッケルから精錬できる合金です",
+		"この合金をツールの材料にした時スチールと同等の性能を発揮するので、",
+		"スチールがまだ入手できない時の代用品として使うことができます。"
+	],
+	dependencies: [
+		"c23bf222",
+		"4da6c35f"
+	],
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "e57e7eb6",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 287"
+		}],
+		count: 12L
+	},
+	{
+		uid: "9688854c",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			Damage: 19s,
+			tag: {
+				GT.ToolStats: {
+					Material: "invar"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

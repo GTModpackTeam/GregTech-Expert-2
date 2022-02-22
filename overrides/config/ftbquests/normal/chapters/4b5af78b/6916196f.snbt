@@ -1,0 +1,27 @@
+{
+	title: "Greg社標準端末",
+	icon: {
+		id: "gregtech:meta_item_1",
+		Damage: 465s,
+		tag: {
+			terminal: {
+				_hw: {}
+			}
+		}
+	},
+	x: 0.0d,
+	y: -2.0d,
+	shape: "square",
+	description: "Terminal",
+	text: [
+		"このアイテムについてはGTCEu側が調整中なので後々要加筆"
+	],
+	dependencies: [
+		"d55d8909"
+	],
+	tasks: [{
+		uid: "5b63183a",
+		type: "checkmark",
+		title: "読んだら押してください"
+	}]
+}

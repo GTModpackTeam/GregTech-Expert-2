@@ -1,0 +1,32 @@
+{
+	title: "Beryllium Vein",
+	x: 8.0d,
+	y: 12.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"2b9a2b25"
+	],
+	tasks: [{
+		uid: "41c970b4",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_beryllium_0 1 1"
+		}]
+	},
+	{
+		uid: "b325f915",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_emerald_0 1 1"
+		}]
+	},
+	{
+		uid: "078f2278",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_thorium_0 1 1"
+		}]
+	}]
+}

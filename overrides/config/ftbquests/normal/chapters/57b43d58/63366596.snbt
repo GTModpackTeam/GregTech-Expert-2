@@ -1,0 +1,13 @@
+{
+	title: "Auto Output behavior",
+	x: 3.5d,
+	y: -4.0d,
+	dependencies: [
+		"34d03450"
+	],
+	tasks: [{
+		uid: "e1692272",
+		type: "checkmark",
+		title: "読んだら押しましょう"
+	}]
+}

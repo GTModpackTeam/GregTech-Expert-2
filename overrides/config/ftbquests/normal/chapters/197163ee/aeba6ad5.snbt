@@ -1,0 +1,22 @@
+{
+	title: "融点なら誰にも勝てない",
+	x: 12.0d,
+	y: 2.0d,
+	description: "Tin Ingot",
+	text: [
+		"水銀には勝てる"
+	],
+	dependencies: [
+		"05dce41d",
+		"ac4d6903",
+		"1950532f"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "cb0feb31",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 112"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: -6.0d,
+	y: -2.0d,
+	text: [
+		"TODO:ウラン処理のクエスト"
+	],
+	dependencies: [
+		"798d57e7"
+	],
+	tasks: [{
+		uid: "274fc8da",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1392"
+		}]
+	}]
+}

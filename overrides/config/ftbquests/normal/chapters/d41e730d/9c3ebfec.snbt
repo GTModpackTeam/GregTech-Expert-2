@@ -1,0 +1,24 @@
+{
+	x: 14.0d,
+	y: 2.0d,
+	dependencies: [
+		"b8ee5f2f"
+	],
+	tasks: [{
+		uid: "a8e0e9c9",
+		type: "item",
+		items: [{
+			id: "wct:magnet_card",
+			tag: {
+				MagnetMode: 0
+			}
+		}]
+	},
+	{
+		uid: "4a098e88",
+		type: "item",
+		items: [{
+			item: "ae2wtlib:infinity_booster_card"
+		}]
+	}]
+}

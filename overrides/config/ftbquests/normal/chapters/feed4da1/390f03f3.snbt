@@ -1,0 +1,20 @@
+{
+	title: "16k ME Storage Cell未満",
+	x: -11.0d,
+	y: 8.0d,
+	description: "Ultra Storage Box",
+	text: [
+		"Ultra_Storage_BoxはStorage_Coreの容量を80,000増加させます。"
+	],
+	dependencies: [
+		"718274c4"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "7d69399b",
+		type: "item",
+		items: [{
+			item: "ezstorage:ultra_storage_box"
+		}]
+	}]
+}

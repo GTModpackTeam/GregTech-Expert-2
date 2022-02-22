@@ -1,0 +1,20 @@
+{
+	title: "マルチページチェスト未満",
+	x: -13.0d,
+	y: 8.0d,
+	description: "Super Storage Box",
+	text: [
+		"Super_Storage_BoxはStorage_Coreの容量を20,000増加させます。"
+	],
+	dependencies: [
+		"53d86de2"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "27148364",
+		type: "item",
+		items: [{
+			item: "ezstorage:super_storage_box"
+		}]
+	}]
+}

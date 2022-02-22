@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: 8.0d,
+	dependencies: [
+		"fc4d847f",
+		"a911cdee"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "94455654",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 260"
+		},
+		{
+			item: "gregtech:machine 1 261"
+		}]
+	}]
+}

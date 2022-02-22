@@ -1,0 +1,40 @@
+{
+	title: "最近バニラで実装されたやつ",
+	x: 4.0d,
+	y: 0.0d,
+	description: "Copper Vein",
+	text: [
+		""
+	],
+	dependencies: [
+		"2b9a2b25"
+	],
+	tasks: [{
+		uid: "c65b38dc",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_chalcopyrite_0"
+		}]
+	},
+	{
+		uid: "e95f972a",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_iron_0"
+		}]
+	},
+	{
+		uid: "d3cc805e",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_pyrite_0"
+		}]
+	},
+	{
+		uid: "a77bdb20",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_copper_0"
+		}]
+	}]
+}

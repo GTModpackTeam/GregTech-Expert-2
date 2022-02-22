@@ -1,0 +1,33 @@
+{
+	title: "T1 Machines Upgrade",
+	x: 3.5d,
+	y: 4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"34d03450"
+	],
+	tasks: [{
+		uid: "a2ce4873",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 80"
+		},
+		{
+			item: "gregtech:machine 1 410"
+		},
+		{
+			item: "gregtech:machine 1 230"
+		},
+		{
+			item: "gregtech:machine 1 65"
+		},
+		{
+			item: "gregtech:machine 1 50"
+		},
+		{
+			item: "gregtech:machine 1 665"
+		}]
+	}]
+}

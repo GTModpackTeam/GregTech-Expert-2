@@ -1,0 +1,31 @@
+{
+	title: "ワイン専用",
+	x: 12.0d,
+	y: 4.0d,
+	description: "Wooden Barrel",
+	text: [
+		"樽は温度の低い液体を貯蔵できます。",
+		"壊しても中身が保持されるので持ち運ぶことができます。",
+		"",
+		"ドラムは任意の液体を貯蔵できます。",
+		"金属によって貯蔵量が異なりますが、",
+		"どの金属のドラムを壊しても中身は保持されます。",
+		"",
+		"樽やドラムをスクリュードライバーで右クリックすると、垂直方向に繋がったタンクに自動搬出するモードがオンになります"
+	],
+	dependencies: [
+		"606d8b7a"
+	],
+	dependency_requirement: "all_started",
+	min_width: 300,
+	tasks: [{
+		uid: "821bf335",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1610"
+		},
+		{
+			item: "gregtech:machine 1 1611"
+		}]
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	x: 16.0d,
+	y: -2.0d,
+	dependencies: [
+		"81a3529a"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "3ac7e846",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 280"
+		}]
+	},
+	{
+		uid: "7e61709d",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 281"
+		}]
+	},
+	{
+		uid: "cf68e492",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 301"
+		}]
+	}]
+}

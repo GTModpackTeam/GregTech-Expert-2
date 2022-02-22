@@ -1,0 +1,12 @@
+{
+	x: 12.0d,
+	y: -8.0d,
+	dependencies: [
+		"ac4f28c9"
+	],
+	tasks: [{
+		uid: "d66b3a26",
+		type: "fluid",
+		fluid: "nitrobenzene"
+	}]
+}

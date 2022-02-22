@@ -1,0 +1,14 @@
+{
+	x: 18.0d,
+	y: 6.0d,
+	dependencies: [
+		"e7bd7fe1"
+	],
+	tasks: [{
+		uid: "8a914041",
+		type: "item",
+		items: [{
+			item: "extracpus:crafting_storage_16384k"
+		}]
+	}]
+}

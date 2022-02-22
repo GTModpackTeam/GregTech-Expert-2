@@ -1,0 +1,50 @@
+{
+	icon: {
+		id: "buildinggadgets:buildingtool",
+		tag: {
+			blockstate: {
+				Name: "minecraft:air"
+			}
+		}
+	},
+	x: 9.5d,
+	y: 6.0d,
+	dependencies: [
+		"b75f94e8"
+	],
+	tasks: [{
+		uid: "e7b203e2",
+		type: "item",
+		items: [{
+			id: "buildinggadgets:buildingtool",
+			tag: {
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		},
+		{
+			id: "buildinggadgets:exchangertool",
+			tag: {
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		},
+		{
+			id: "buildinggadgets:copypastetool",
+			tag: {
+				mode: "Copy"
+			}
+		},
+		{
+			id: "buildinggadgets:destructiontool",
+			tag: {
+				overlay: 1b,
+				fuzzy: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

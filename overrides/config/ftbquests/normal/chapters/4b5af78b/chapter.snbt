@@ -1,0 +1,7 @@
+{
+	title: "Tier 0",
+	icon: "gregtech:machine 1 1648",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

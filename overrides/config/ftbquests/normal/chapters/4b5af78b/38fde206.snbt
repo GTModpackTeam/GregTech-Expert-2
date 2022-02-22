@@ -1,0 +1,41 @@
+{
+	title: "脱リンゴ食",
+	icon: "gregtech:machine 1 8516",
+	x: 14.0d,
+	y: -2.0d,
+	description: "primitive baking oven",
+	text: [
+		"primitive_baking_ovenを建てると小麦からパンが焼けるようになります。",
+		"マルチブロックの組み立て方はコークス炉のクエストを参照してください。",
+		"",
+		"余談：オーブンのUIに\"要メンテナンス\"が表示される不具合があったが修正された"
+	],
+	dependencies: [
+		"3ac887a1"
+	],
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "08115737",
+		type: "item",
+		items: [{
+			item: "gregtechfoodoption:gtfo_casing"
+		}],
+		count: 34L
+	},
+	{
+		uid: "ec19a9d5",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_block_frame_3 1 3"
+		}],
+		count: 4L
+	},
+	{
+		uid: "473190cd",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 8516"
+		}]
+	}]
+}
