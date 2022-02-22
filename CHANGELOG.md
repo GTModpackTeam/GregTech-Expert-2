@@ -14,6 +14,7 @@
 
 ## Del mods
 * Compact Drawers
+* JustEnoughItems -> Had Enough Items
 
 ## New mods
 * Ding
