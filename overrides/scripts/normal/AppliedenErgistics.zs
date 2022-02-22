@@ -816,6 +816,12 @@ mixer.recipeBuilder()
     .EUt(480)
     .buildAndRegister();
 macerator.recipeBuilder()
+    .inputs([<appliedenergistics2:material:7>])
+    .outputs([<metaitem:dustFluix>])
+    .duration(20)
+    .EUt(480)
+    .buildAndRegister();
+macerator.recipeBuilder()
     .inputs([<appliedenergistics2:fluix_block>])
     .outputs([<metaitem:dustFluix> * 4])
     .duration(20)

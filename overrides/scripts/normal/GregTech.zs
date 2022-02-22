@@ -326,6 +326,7 @@ var mbt_greenhouse = Builder.start("greenhouse")
                 | CTPredicate.abilities(<mte_ability:IMPORT_ITEMS>).setMinGlobalLimited(1).setMaxGlobalLimited(1).setPreviewCount(1)
                 | CTPredicate.abilities(<mte_ability:IMPORT_FLUIDS>).setMinGlobalLimited(1).setMaxGlobalLimited(1).setPreviewCount(1)
                 | CTPredicate.abilities(<mte_ability:INPUT_ENERGY>).setMinGlobalLimited(1).setMaxGlobalLimited(3).setPreviewCount(1)
+                | CTPredicate.abilities(<mte_ability:EXPORT_ITEMS>).setMinGlobalLimited(1).setMaxGlobalLimited(1).setPreviewCount(1)
                 | CTPredicate.abilities(<mte_ability:MAINTENANCE_HATCH>).setMinGlobalLimited(1).setMaxGlobalLimited(1).setPreviewCount(1)
             )
             .where("G", CTPredicate.states(<metastate:gregtech:transparent_casing>))
@@ -363,6 +364,7 @@ var mbt_voidoreminer = Builder.start("voidoreminer")
             .where("C", CTPredicate.states(<metastate:gregtech:metal_casing:10>)
                 | CTPredicate.abilities(<mte_ability:IMPORT_FLUIDS>).setMinGlobalLimited(1).setMaxGlobalLimited(3).setPreviewCount(1)
                 | CTPredicate.abilities(<mte_ability:INPUT_ENERGY>).setMinGlobalLimited(1).setMaxGlobalLimited(3).setPreviewCount(1)
+                | CTPredicate.abilities(<mte_ability:EXPORT_ITEMS>).setMinGlobalLimited(1).setMaxGlobalLimited(1).setPreviewCount(1)
                 | CTPredicate.abilities(<mte_ability:MAINTENANCE_HATCH>).setMinGlobalLimited(1).setMaxGlobalLimited(1).setPreviewCount(1)
             )
             .where("F", CTPredicate.states(<metastate:gregtech:meta_block_frame_157:7>))
@@ -394,6 +396,44 @@ assembly_line.recipeBuilder()
     .EUt(122880)
     .buildAndRegister();
 JEI.addDescription(<metaitem:multiblocktweaker:voidoreminer>, "When you put the ore you want to mine into the Input Bus, it will mine the same ore you put in. The mining time is 1 second, and it costs 19200L of Drilling Fluid and 10L of Dew of the Void.");
+
+
+
+########################################
+# Saw Mill
+########################################
+var mbt_saw_mill = Builder.start("saw_mill")
+    .withPattern(function(controller as IControllerTile) as IBlockPattern {
+        return FactoryBlockPattern.start()
+            .aisle("CFC", "C C", "C C")
+            .aisle("CFC", "G G", "CCC")
+            .aisle("CFC", "G G", "C C")
+            .aisle("CFC", "G G", "CCC")
+            .aisle("CFC", "S C", "C C")
+            .where("S", controller.self())
+            .where("C", CTPredicate.states(<metastate:gregtech:metal_casing:4>)
+                | CTPredicate.abilities(<mte_ability:IMPORT_ITEMS>).setMinGlobalLimited(1).setMaxGlobalLimited(1).setPreviewCount(1)
+                | CTPredicate.abilities(<mte_ability:IMPORT_FLUIDS>).setMinGlobalLimited(1).setMaxGlobalLimited(1).setPreviewCount(1)
+                | CTPredicate.abilities(<mte_ability:INPUT_ENERGY>).setMinGlobalLimited(1).setMaxGlobalLimited(3).setPreviewCount(1)
+                | CTPredicate.abilities(<mte_ability:EXPORT_ITEMS>).setMinGlobalLimited(1).setMaxGlobalLimited(1).setPreviewCount(1)
+            )
+            .where("G", CTPredicate.states(<metastate:gregtech:transparent_casing>))
+            .where("F", CTPredicate.states(<metastate:gregtech:meta_block_frame_20:4>))
+            .where(" ", CTPredicate.getAir())
+            .build();
+    } as IPatternBuilderFunction)
+    .withRecipeMap(<recipemap:saw_mill>)
+    .withBaseTexture(<metastate:gregtech:metal_casing:4>)
+    .buildAndRegister();
+mbt_saw_mill.hasMaintenanceMechanics = false;
+mbt_saw_mill.hasMufflerMechanics = false;
+
+// recipes.addShaped(<metaitem:multiblocktweaker:mbt_saw_mill>, [
+//     [<gregtech:transparent_casing>, <gregtech:transparent_casing>, <gregtech:transparent_casing>],
+//     [<ore:circuitGood>, <metaitem:hull.mv>, <ore:circuitGood>],
+//     [<metaitem:electric.piston.mv>, <metaitem:electric.pump.mv>, <metaitem:electric.piston.mv>]
+// ]);
+JEI.addDescription(<gregtech:machine:32002>, "Coming soon");
 
 
 

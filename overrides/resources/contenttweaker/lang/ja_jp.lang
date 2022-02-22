@@ -1,11 +1,13 @@
 # Content Tweaker
-item.contenttweaker.creativeComponent.name=GTExpert ME素材(偽物)
+item.contenttweaker.creativeComponent.name=GTExpert MEストレージセル素材(偽物)
 
 # Multiblock Tweaker
 multiblocktweaker.machine.greenhouse.name=温室
 multiblocktweaker.machine.voidoreminer.name=亜空間型鉱石採掘機
+multiblocktweaker.machine.saw_mill.name=製材機
 recipemap.greenhouse.name=温室
 recipemap.voidoreminer.name=亜空間型鉱石採掘機
+recipemap.saw_mill.name=製材機
 
 # Ender IO - Override
 material.electrical_steel=電炉鋼

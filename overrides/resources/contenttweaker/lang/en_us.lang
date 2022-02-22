@@ -4,8 +4,11 @@ item.contenttweaker.creativeComponent.name=GTExpert ME Fake Component
 # Multiblock Tweaker
 multiblocktweaker.machine.greenhouse.name=Greenhouse
 multiblocktweaker.machine.voidoreminer.name=Void Ore Drilling Plant
+multiblocktweaker.machine.saw_mill.name=Saw Mill
 recipemap.greenhouse.name=Greenhouse
 recipemap.voidoreminer.name=Void Ore Drilling Plant
+recipemap.saw_mill.name=Saw Mill
+
 
 # Ender IO - Override
 material.electrical_steel=Electrical Steel
