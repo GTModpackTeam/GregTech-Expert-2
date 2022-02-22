@@ -1,0 +1,22 @@
+{
+	title: "鉄板(を作れる)アイテム",
+	x: 2.0d,
+	y: 2.0d,
+	description: "Iron Ingot",
+	text: [
+		""
+	],
+	dependencies: [
+		"996de704",
+		"59e79100",
+		"322d305a"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "588fc275",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}]
+	}]
+}

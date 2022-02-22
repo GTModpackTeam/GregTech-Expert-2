@@ -1,0 +1,32 @@
+{
+	title: "Galena Vein",
+	x: 6.0d,
+	y: 4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"2b9a2b25"
+	],
+	tasks: [{
+		uid: "a3eea440",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_galena_0"
+		}]
+	},
+	{
+		uid: "be834d25",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_silver_0"
+		}]
+	},
+	{
+		uid: "815ea0d4",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_lead_0"
+		}]
+	}]
+}

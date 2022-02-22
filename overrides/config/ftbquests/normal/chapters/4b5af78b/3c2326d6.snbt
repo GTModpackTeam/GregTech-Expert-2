@@ -1,0 +1,24 @@
+{
+	title: "どうだ明るくなっただろう",
+	x: 8.0d,
+	y: 4.0d,
+	description: "Feral Flare Lantern",
+	text: [
+		"Feral_Flare_Lanternを置くと周囲32マスの明るさ10以下のブロックに見えない光源が設置され明るくなります。",
+		"松明はパーティクルなどで工業拠点に負荷を与え続ける存在なので、",
+		"グロウストーンが手に入ったら早めにこちらへ乗り換えましょう。",
+		"",
+		"余談：Feral_Flare_Lanternのデフォルトの湧きつぶし範囲は16ブロックだがコンフィグで調整できる"
+	],
+	dependencies: [
+		"e5b5946b"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "00224026",
+		type: "item",
+		items: [{
+			item: "torchmaster:feral_flare_lantern"
+		}]
+	}]
+}

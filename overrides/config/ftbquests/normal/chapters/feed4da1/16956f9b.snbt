@@ -1,0 +1,29 @@
+{
+	title: "ポケットを叩くとビスケットが粉々",
+	icon: "gregtech:machine 1 13",
+	x: -7.0d,
+	y: 4.0d,
+	description: "Steam Forge Hammer",
+	text: [
+		"鉄ブロックを圧縮して金床を作ることで解禁される蒸気式鍛造機はアイテムに自動でハンマー処理を施してくれる機械です。",
+		"金属インゴット3個からプレートを2枚作成する機能や、砕いた鉱石を汚れた鉱石にして粉砕機の負担を減らす機能など用途は多岐に渡ります。",
+		"丸石を砕いて砂利や砂にすることもできます。",
+		"",
+		"余談：動作速度が速くあまり価値がないと判断されたのか、",
+		"Gregicality-Legacyではこの機械のマルチブロック版をHVで作ることができた。"
+	],
+	dependencies: [
+		"bdd3b785"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "e968a89d",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 13"
+		},
+		{
+			item: "gregtech:machine 1 14"
+		}]
+	}]
+}

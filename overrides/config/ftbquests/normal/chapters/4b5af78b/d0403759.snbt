@@ -1,0 +1,60 @@
+{
+	title: "HammerXもどき",
+	icon: {
+		id: "gregtech:meta_tool",
+		Damage: 19s,
+		tag: {
+			GT.ToolStats: {
+				Material: "neutronium"
+			}
+		}
+	},
+	x: 10.0d,
+	y: -2.0d,
+	description: "Mining Hammer",
+	text: [
+		"初期配布アイテムに含まれていた採掘用ハンマーは自前で作ることができます。",
+		"このハンマーは一度に3x3の範囲を採掘することができますが、",
+		"スニーキングしながら使用することで1ブロックのみ採掘することもできます。",
+		"しかし、プレートを効率よく作成できる前は一金属インゴットあたりの採掘効率がツルハシに劣るという欠点も抱えています。",
+		"",
+		"余談：GTE1では採掘ツールが不足していたためHammerXというmodが導入されていたが、",
+		"当アイテムが実装されたためGTE2では廃止された。"
+	],
+	dependencies: [
+		"41a73fe4"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "2028a064",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			Damage: 19s,
+			tag: {
+				GT.ToolStats: {
+					Material: "iron"
+				}
+			}
+		},
+		{
+			id: "gregtech:meta_tool",
+			Damage: 19s,
+			tag: {
+				GT.ToolStats: {
+					Material: "bronze"
+				}
+			}
+		},
+		{
+			id: "gregtech:meta_tool",
+			Damage: 19s,
+			tag: {
+				GT.ToolStats: {
+					Material: "wrought_iron"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

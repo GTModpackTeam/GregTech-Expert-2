@@ -1,0 +1,50 @@
+{
+	x: 12.0d,
+	y: 0.0d,
+	dependencies: [
+		"23562ea6"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "8ec703a5",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 140"
+		}]
+	},
+	{
+		uid: "16166ade",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 16"
+		}]
+	},
+	{
+		uid: "74fab047",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 36"
+		}]
+	},
+	{
+		uid: "51f8c62a",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 56"
+		}]
+	},
+	{
+		uid: "309d5c89",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 516"
+		}]
+	},
+	{
+		uid: "ff5b8046",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 76"
+		}]
+	}]
+}

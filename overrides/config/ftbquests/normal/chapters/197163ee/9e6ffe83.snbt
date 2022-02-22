@@ -1,0 +1,12 @@
+{
+	title: "Tier 1",
+	x: 0.0d,
+	y: 4.0d,
+	dependencies: [
+		"2b9a2b25"
+	],
+	tasks: [{
+		uid: "457484bf",
+		type: "checkmark"
+	}]
+}

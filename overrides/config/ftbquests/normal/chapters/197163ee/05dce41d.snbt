@@ -1,0 +1,40 @@
+{
+	title: "いらないかも...",
+	x: 14.0d,
+	y: 0.0d,
+	description: "Garnet Tin Vein",
+	text: [
+		""
+	],
+	dependencies: [
+		"2b9a2b25"
+	],
+	tasks: [{
+		uid: "92293fa5",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_cassiterite_sand_0"
+		}]
+	},
+	{
+		uid: "cc802b06",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_garnet_sand_0"
+		}]
+	},
+	{
+		uid: "ba5b13da",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_asbestos_0"
+		}]
+	},
+	{
+		uid: "2288619d",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_diatomite_0"
+		}]
+	}]
+}

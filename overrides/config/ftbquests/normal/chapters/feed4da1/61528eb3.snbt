@@ -1,0 +1,28 @@
+{
+	title: "おもそう",
+	x: -5.0d,
+	y: 2.0d,
+	description: "Steel Mining Hammer",
+	text: [
+		"鋼鉄製の採掘ハンマーはコストパフォーマンスに優れるハンマーです。",
+		"他の採掘modを導入していなければMVまで使い続けることになるので沢山生産しておくといいでしょう。"
+	],
+	dependencies: [
+		"76b62977"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "35175d55",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			Damage: 19s,
+			tag: {
+				GT.ToolStats: {
+					Material: "steel"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 4.0d,
+	y: 2.0d,
+	dependencies: [
+		"ac8a1743"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "dc654e1e",
+		type: "fluid",
+		fluid: "polyvinyl_chloride"
+	},
+	{
+		uid: "38243460",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_plate 1 1007"
+		}]
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "四面銅でしょう",
+	x: 8.0d,
+	y: 0.0d,
+	description: "Tetrahedrite Vein",
+	text: [
+		""
+	],
+	dependencies: [
+		"2b9a2b25"
+	],
+	tasks: [{
+		uid: "1ba4471e",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_tetrahedrite_0 1 1"
+		}]
+	},
+	{
+		uid: "951b9e5e",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_copper_0 1 1"
+		}]
+	},
+	{
+		uid: "32c3d045",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_stibnite_0 1 1"
+		}]
+	}]
+}

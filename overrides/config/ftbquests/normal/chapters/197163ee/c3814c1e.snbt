@@ -1,0 +1,35 @@
+{
+	x: 6.0d,
+	y: 16.0d,
+	dependencies: [
+		"2b9a2b25"
+	],
+	tasks: [{
+		uid: "ce0a8a86",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_bornite_0 1 2"
+		}]
+	},
+	{
+		uid: "a44bf536",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_cooperite_0 1 2"
+		}]
+	},
+	{
+		uid: "606c9770",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_platinum_0 1 2"
+		}]
+	},
+	{
+		uid: "ac19fe18",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_palladium_0 1 2"
+		}]
+	}]
+}

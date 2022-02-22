@@ -1,0 +1,7 @@
+{
+	title: "Tier 940 -Endgame",
+	icon: "chisel:futura 1 3",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

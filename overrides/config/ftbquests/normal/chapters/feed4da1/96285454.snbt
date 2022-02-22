@@ -1,0 +1,51 @@
+{
+	title: "死体の処理に最適(やっていい)",
+	icon: "gregtech:machine 1 1000",
+	x: -7.0d,
+	y: 0.0d,
+	shape: "diamond",
+	description: "primitive blast furnace",
+	text: [
+		"初歩的な高炉は電気時代に到達するために必須のマルチブロックです。",
+		"鉄と木炭または石炭を投入することで鋼鉄を焼き上げてくれます。",
+		"また、錬鉄を投入することで鋼鉄を焼き上げる速度が早くなります。",
+		"",
+		"初歩的な高炉を自動化することはできません。",
+		"鋼鉄が大量に欲しい場合は筐体共有で数を増やして対処しましょう。",
+		"",
+		"余談：Gregtech5ではブロンズ製だった",
+		"",
+		"余談：本来初歩的な高炉のレシピはもう少し初歩的であるが、",
+		"このmodpackでは意図的に難しいレシピになるコンフィグを起動している"
+	],
+	dependencies: [
+		"afa140d7",
+		"bdd3b785",
+		"1817159c"
+	],
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "ec41d1a0",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 2525"
+		}],
+		count: 198L
+	},
+	{
+		uid: "bf4bf52f",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 1"
+		}],
+		count: 33L
+	},
+	{
+		uid: "ccadfdce",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1000"
+		}]
+	}]
+}

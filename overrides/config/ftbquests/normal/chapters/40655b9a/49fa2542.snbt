@@ -1,0 +1,12 @@
+{
+	x: 10.0d,
+	y: -4.0d,
+	dependencies: [
+		"2589efac"
+	],
+	tasks: [{
+		uid: "c6552fe6",
+		type: "fluid",
+		fluid: "ammonia"
+	}]
+}

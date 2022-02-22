@@ -1,0 +1,32 @@
+{
+	title: "Bauxite Vein",
+	x: 2.0d,
+	y: 16.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"2b9a2b25"
+	],
+	tasks: [{
+		uid: "dcdbf6e1",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_bauxite_0 1 2"
+		}]
+	},
+	{
+		uid: "6dc376eb",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_ilmenite_0 1 2"
+		}]
+	},
+	{
+		uid: "b3bbf140",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_aluminium_0 1 2"
+		}]
+	}]
+}

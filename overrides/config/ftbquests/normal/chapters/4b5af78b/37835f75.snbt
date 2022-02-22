@@ -1,0 +1,79 @@
+{
+	title: "森羅万象かちかち山",
+	x: 4.0d,
+	y: 0.0d,
+	shape: "diamond",
+	description: "Flint",
+	text: [
+		"再序盤の要である火打石を集めましょう。",
+		"",
+		"火打石は砂利を一括破壊することで高速に集められます。",
+		"火打石で作業台やかまどをクラフトすれば暮らしも快適になります。",
+		"最初の燃料は木材（あれば石炭）がおすすめです。",
+		"",
+		"火打石をより多く手に入れたい時はすり鉢を作りましょう。",
+		"砂利をすりつぶすことにより直接火打石を得られるようになります。",
+		"",
+		"火打石を素材にminecraft定番のツールを作ることができます。",
+		"バニラで存在したツールは全て耐久値が1にされているので、序盤はこれを使うしかありません。",
+		"しかし一括破壊があるので斧とシャベルは作らなくてもいいかもしれません。",
+		"",
+		"余談：本来のGTCEuでは作業台などはバニラと同じレシピで作れるが、",
+		"このmodpackはGT:NHと同じレシピになるコンフィグを起動している"
+	],
+	dependencies: [
+		"b6814711"
+	],
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "e0ea1d8e",
+		type: "item",
+		items: [{
+			item: "minecraft:flint"
+		}],
+		count: 16L
+	},
+	{
+		uid: "822d1dff",
+		type: "item",
+		items: [{
+			item: "minecraft:crafting_table"
+		}]
+	},
+	{
+		uid: "5594eaff",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	},
+	{
+		uid: "9cbc5272",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			Damage: 12s,
+			tag: {
+				GT.ToolStats: {
+					Material: "flint"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1f0805f9",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			Damage: 1s,
+			tag: {
+				GT.ToolStats: {
+					Material: "flint"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,13 @@
+{
+	title: "執筆中",
+	x: -3.0d,
+	y: -4.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "073f537e",
+		type: "checkmark",
+		title: "はい"
+	}]
+}

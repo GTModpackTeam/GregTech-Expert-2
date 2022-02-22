@@ -1,0 +1,23 @@
+{
+	icon: "gregtech:machine 1 561",
+	x: 2.0d,
+	y: 0.0d,
+	dependencies: [
+		"4ca7718b",
+		"31f3da01"
+	],
+	tasks: [{
+		uid: "da5a2d37",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_gem_flawless 1 278"
+		}]
+	},
+	{
+		uid: "3821048a",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 561"
+		}]
+	}]
+}

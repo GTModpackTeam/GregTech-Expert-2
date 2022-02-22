@@ -1,0 +1,12 @@
+{
+	x: 2.0d,
+	y: 10.0d,
+	dependencies: [
+		"48efd238"
+	],
+	tasks: [{
+		uid: "ea7dddc7",
+		type: "fluid",
+		fluid: "severely_steamcracked_light_fuel"
+	}]
+}

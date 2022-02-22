@@ -1,0 +1,46 @@
+{
+	icon: "gregtech:meta_item_1 1 18",
+	x: -1.0d,
+	y: 0.0d,
+	shape: "diamond",
+	dependencies: [
+		"76b62977"
+	],
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "a03dcd1f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 11"
+		}]
+	},
+	{
+		uid: "7771e2c4",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 18"
+		}]
+	},
+	{
+		uid: "6d30bc26",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 15"
+		}]
+	},
+	{
+		uid: "03f4fbf2",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 12"
+		}]
+	},
+	{
+		uid: "54a4308a",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 17"
+		}]
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "序盤：おまけで金が採れる鉄鉱脈 中盤：おまけで鉄が採れる金鉱脈 終盤：バナジウム鉱脈",
+	x: 2.0d,
+	y: 0.0d,
+	description: "Magnetite Vein",
+	text: [
+		""
+	],
+	dependencies: [
+		"2b9a2b25"
+	],
+	tasks: [{
+		uid: "58579794",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_magnetite_0"
+		}]
+	},
+	{
+		uid: "c00f643c",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_vanadium_magnetite_0"
+		}]
+	},
+	{
+		uid: "85b2e2f5",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_gold_0"
+		}]
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: 12.0d,
+	y: 0.0d,
+	dependencies: [
+		"f0f42220"
+	],
+	tasks: [{
+		uid: "205dcb76",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:wireless_access_point"
+		}]
+	},
+	{
+		uid: "70ed1f22",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 42"
+		}]
+	},
+	{
+		uid: "d8025fa7",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:wireless_terminal",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

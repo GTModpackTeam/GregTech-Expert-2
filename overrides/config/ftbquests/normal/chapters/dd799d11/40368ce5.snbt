@@ -1,0 +1,23 @@
+{
+	x: 16.0d,
+	y: 6.0d,
+	dependencies: [
+		"e7bd7fe1"
+	],
+	tasks: [{
+		uid: "86d016d6",
+		type: "item",
+		items: [{
+			id: "volumetricflask:volumetric_flask_144",
+			tag: {}
+		}]
+	},
+	{
+		uid: "4b7deb12",
+		type: "item",
+		items: [{
+			id: "volumetricflask:volumetric_flask_250",
+			tag: {}
+		}]
+	}]
+}

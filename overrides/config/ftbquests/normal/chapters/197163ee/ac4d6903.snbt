@@ -1,0 +1,26 @@
+{
+	title: "TinとTinと二倍TinとTin",
+	x: 12.0d,
+	y: 0.0d,
+	description: "Cassiterite Vein",
+	text: [
+		""
+	],
+	dependencies: [
+		"2b9a2b25"
+	],
+	tasks: [{
+		uid: "447e6cb9",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_tin_0"
+		}]
+	},
+	{
+		uid: "09cc561c",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_cassiterite_0"
+		}]
+	}]
+}

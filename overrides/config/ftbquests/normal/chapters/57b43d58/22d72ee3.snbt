@@ -1,0 +1,77 @@
+{
+	icon: "gregtech:machine 1 1013",
+	x: -4.5d,
+	y: -2.0d,
+	dependencies: [
+		"51472338"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "1db5c826",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing"
+		}],
+		count: 20L
+	},
+	{
+		uid: "97e85b75",
+		type: "item",
+		items: [{
+			item: "gregtech:boiler_firebox_casing"
+		}],
+		count: 5L
+	},
+	{
+		uid: "3dc7c483",
+		type: "item",
+		items: [{
+			item: "gregtech:boiler_casing"
+		}],
+		count: 2L
+	},
+	{
+		uid: "ffaa44fe",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1013"
+		}]
+	},
+	{
+		uid: "db37a5ee",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1180"
+		}],
+		count: 2L
+	},
+	{
+		uid: "cdee4b79",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1195"
+		}],
+		count: 4L
+	},
+	{
+		uid: "418134bc",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1150"
+		}]
+	},
+	{
+		uid: "1aad3721",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1654"
+		}]
+	},
+	{
+		uid: "debb9917",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1657"
+		}]
+	}]
+}

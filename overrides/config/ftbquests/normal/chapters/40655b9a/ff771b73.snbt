@@ -1,0 +1,18 @@
+{
+	title: "Cleanroomのクエスト予定地",
+	x: 2.0d,
+	y: 6.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"ac9b7b50"
+	],
+	tasks: [{
+		uid: "71c3aca4",
+		type: "item",
+		items: [{
+			item: "minecraft:snow"
+		}]
+	}]
+}

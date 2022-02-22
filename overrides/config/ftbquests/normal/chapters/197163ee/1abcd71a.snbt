@@ -1,0 +1,32 @@
+{
+	title: "Sulfur Vein",
+	x: 8.0d,
+	y: 4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"2b9a2b25"
+	],
+	tasks: [{
+		uid: "d8696bf9",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_sulfur_0 1 1"
+		}]
+	},
+	{
+		uid: "39af4e15",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_pyrite_0 1 1"
+		}]
+	},
+	{
+		uid: "28d105cd",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_sphalerite_0 1 1"
+		}]
+	}]
+}

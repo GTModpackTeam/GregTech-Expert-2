@@ -1,0 +1,20 @@
+{
+	title: "MineAllSMPもどき",
+	x: 2.0d,
+	y: -2.0d,
+	shape: "square",
+	description: "Change Veinmining Mode",
+	text: [
+		"Shiftキーと一括破壊キーを押しながらスクロールすることでFTB Ultimineの採掘モードを変えることができます。",
+		"3*3を破壊するモードや直線を掘りぬくモードなど色々あるので使いこなせると便利です"
+	],
+	dependencies: [
+		"b6814711"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "76877e39",
+		type: "checkmark",
+		title: "読んだら押してください"
+	}]
+}

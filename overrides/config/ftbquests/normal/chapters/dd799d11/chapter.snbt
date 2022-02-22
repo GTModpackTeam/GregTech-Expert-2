@@ -1,0 +1,7 @@
+{
+	title: "AE2",
+	icon: "appliedenergistics2:part 1 341",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

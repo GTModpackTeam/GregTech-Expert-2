@@ -1,0 +1,40 @@
+{
+	title: "本好き",
+	icon: "minecraft:paper",
+	x: 6.0d,
+	y: 0.0d,
+	shape: "diamond",
+	description: "Paper",
+	text: [
+		"序盤で大量に使用することになる紙を集めましょう。",
+		"紙は本を分解するまたはサトウキビをすりつぶすことで製作することができます。",
+		"近場に村がなければサトウキビ畑を広げていきましょう。",
+		"",
+		"余談：GTCEuの原型となったGregicalityでは紙に水バケツを用いて製作するレシピがあったが、",
+		"手間が非常にかかるのが不評だったのか現在ではなくなっている。"
+	],
+	dependencies: [
+		"37835f75"
+	],
+	dependency_requirement: "all_started",
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "197e82e7",
+		type: "item",
+		items: [{
+			item: "minecraft:reeds"
+		},
+		{
+			item: "minecraft:book"
+		}]
+	},
+	{
+		uid: "6bb79414",
+		type: "item",
+		items: [{
+			item: "minecraft:paper"
+		}],
+		count: 2L
+	}]
+}

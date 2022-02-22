@@ -1,0 +1,32 @@
+{
+	title: "Magnetite Vein",
+	x: 4.0d,
+	y: 16.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"2b9a2b25"
+	],
+	tasks: [{
+		uid: "f3a8b009",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_magnetite_0 1 2"
+		}]
+	},
+	{
+		uid: "121d1992",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_chromite_0 1 2"
+		}]
+	},
+	{
+		uid: "e2b8a99b",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_gold_0 1 2"
+		}]
+	}]
+}

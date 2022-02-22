@@ -1,0 +1,16 @@
+{
+	x: 9.5d,
+	y: 10.0d,
+	dependencies: [
+		"e0fdf259"
+	],
+	tasks: [{
+		uid: "5596cc90",
+		type: "item",
+		items: [{
+			item: "danknull:dank_null_4"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

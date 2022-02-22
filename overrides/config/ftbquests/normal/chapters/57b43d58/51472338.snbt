@@ -1,0 +1,25 @@
+{
+	icon: "gregtech:meta_item_1 1 621",
+	x: -6.5d,
+	y: 0.0d,
+	dependencies: [
+		"7c0bcaab",
+		"70801051",
+		"88bd8c3c",
+		"8b873330"
+	],
+	tasks: [{
+		uid: "d74bf541",
+		type: "item",
+		items: [{
+			item: "gregtech:cable_single 1 2517"
+		}]
+	},
+	{
+		uid: "1374f311",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 621"
+		}]
+	}]
+}

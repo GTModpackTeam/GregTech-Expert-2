@@ -1,0 +1,28 @@
+{
+	title: "Welcome (For English Speakers)",
+	x: -2.0d,
+	y: 0.0d,
+	shape: "diamond",
+	text: [
+		"Welcome to Gregtech Expert 2!",
+		"If you cannot understand Japanese, There are four options you can do",
+		"",
+		"1.I set every quest an English subtitle so you can play with it although you cannot read any description",
+		"",
+		"2.Port Quests from the Gregtech Community Pack",
+		"That modpack is basically a showcase of GTCEu and I have ported many quests from it since it has LGPL v3.0 License",
+		"(Hey Syrcan thank you very much for your amazing quests)",
+		"it shouldn't have much difference with the current questline",
+		"https://github.com/GregTechCEu/GregTech-Community-Pack",
+		"",
+		"3.Don't use the quest system and do your own",
+		"",
+		"4.Learn Japanese and go ahead :trollface:"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "04740278",
+		type: "checkmark",
+		title: "bruh"
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 4.0d,
+	y: 12.0d,
+	dependencies: [
+		"2b9a2b25"
+	],
+	tasks: [{
+		uid: "a5fc1798",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_pyrolusite_0 1 1"
+		}]
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "念力で文字を浮かび上がらせられる人向け",
+	icon: "gregtech:meta_item_1 1 464",
+	x: -5.0d,
+	y: 4.0d,
+	description: "Clipboard",
+	text: [
+		"クリップボードを設置することで、好みのチェックリストを作成することができます。",
+		"クリップボードに書きこむ際ペンは不要です。",
+		"",
+		"余談：初期のクリップボードは描画が最適化されておらず、設置されるだけでPCに大きな負荷をかけていた。"
+	],
+	dependencies: [
+		"bdd3b785"
+	],
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "2b1d7b6e",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_plate 1 1617"
+		}]
+	},
+	{
+		uid: "25f509a9",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 464"
+		}],
+		ignore_nbt: 1b
+	}]
+}

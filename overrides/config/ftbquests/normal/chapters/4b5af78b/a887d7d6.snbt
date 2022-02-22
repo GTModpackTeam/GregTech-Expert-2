@@ -1,0 +1,57 @@
+{
+	title: "GregもApexもブロンズから始まる",
+	icon: "gregtech:meta_ingot 1 260",
+	x: 8.0d,
+	y: 0.0d,
+	shape: "diamond",
+	description: "Bronze",
+	text: [
+		"※注意：このクエストはOre VeinsタブにあるCopper_Ingot及びTin_Ingotのクエスト達成後に解放されます。",
+		"クエストを解放するための前提条件はクエスト画面左上の三角形を押すことでいつでも確認できます。",
+		"",
+		"初めての合金である青銅を作りましょう。",
+		"青銅はすり鉢で銅3個と錫１個をすりつぶし、クラフトして焼くことで作成できます。",
+		"",
+		"余談：青銅はこのmodpackでこそあまり要求されないが、",
+		"難化されていない素のGTCEuをプレイすると蒸気オーブンや蒸気グラインダーの素材としてそれなりに要求される。",
+		"",
+		"余談：青銅はGTCEuでこそそれなりにしか要求されないが、",
+		"昔のGregtechでは鋼鉄を焼く為の高炉を作るために大量に必要だった。"
+	],
+	dependencies: [
+		"04d3ff01",
+		"aeba6ad5"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "0d915c49",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 25"
+		}],
+		count: 3L
+	},
+	{
+		uid: "6c33b390",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 112"
+		}]
+	},
+	{
+		uid: "5727d612",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 260"
+		}],
+		count: 3L
+	},
+	{
+		uid: "d01a5726",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 260"
+		}],
+		count: 3L
+	}]
+}

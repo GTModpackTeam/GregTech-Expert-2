@@ -1,0 +1,19 @@
+{
+	title: "Pyanodon modで最初に掘る鉱石といえば？",
+	x: 16.0d,
+	y: 0.0d,
+	description: "Coal Vein",
+	text: [
+		""
+	],
+	dependencies: [
+		"2b9a2b25"
+	],
+	tasks: [{
+		uid: "d7c47be0",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_coal_0"
+		}]
+	}]
+}

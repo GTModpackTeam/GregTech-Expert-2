@@ -1,0 +1,32 @@
+{
+	title: "Diamond Vein",
+	x: 12.0d,
+	y: 4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"2b9a2b25"
+	],
+	tasks: [{
+		uid: "71193171",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_graphite_0"
+		}]
+	},
+	{
+		uid: "24f40e0f",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_diamond_0"
+		}]
+	},
+	{
+		uid: "92177348",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_coal_0"
+		}]
+	}]
+}

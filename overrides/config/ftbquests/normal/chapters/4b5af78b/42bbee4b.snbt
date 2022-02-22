@@ -1,0 +1,25 @@
+{
+	title: "指定有益鉱山",
+	icon: "minecraft:map",
+	x: 6.0d,
+	y: -2.0d,
+	shape: "square",
+	description: "Journeymap",
+	text: [
+		"デフォルトでBキーを押すことで鉱脈のある場所をwaypoint（地図上のピン）として登録することができます。",
+		"非常に便利なので是非使ってみましょう。",
+		"",
+		"デフォルトでJキーを押すことでJourneymap（地図）を開くことができます。",
+		"色々なメニューがありますが、一番重要なのは左下のwaypoints...という項目です。",
+		"この画面では先ほど登録したwaypointの管理ができます。",
+		"また、死んだときに出るビーコンもここで削除できます。"
+	],
+	dependencies: [
+		"2b9a2b25"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "42a7d063",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	icon: "gregtech:meta_item_1 1 371",
+	x: 11.5d,
+	y: 0.0d,
+	dependencies: [
+		"6ac44b0e",
+		"79d5f843"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "a9c214d5",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 99"
+		}],
+		count: 32L
+	},
+	{
+		uid: "9097f29f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 361"
+		}]
+	},
+	{
+		uid: "4e4d4b42",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 371"
+		}],
+		count: 16L
+	}]
+}

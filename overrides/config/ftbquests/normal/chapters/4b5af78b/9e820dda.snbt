@@ -1,0 +1,24 @@
+{
+	title: "TerraFirmaCraftのラスボス",
+	x: 10.0d,
+	y: 2.0d,
+	shape: "diamond",
+	description: "Bucket",
+	text: [
+		"鉄プレート三枚を組み合わせることでバケツを作ることができます。",
+		"バニラで使われているバケツと概ねの機能は同じです。",
+		"",
+		"余談：昔のGregtechでは溶岩を入れたバケツを持つと火傷していた"
+	],
+	dependencies: [
+		"41a73fe4"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "90da6100",
+		type: "item",
+		items: [{
+			item: "minecraft:bucket"
+		}]
+	}]
+}

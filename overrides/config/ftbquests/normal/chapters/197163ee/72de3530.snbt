@@ -1,0 +1,39 @@
+{
+	title: "Lapis Vein",
+	x: 4.0d,
+	y: 4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"2b9a2b25"
+	],
+	tasks: [{
+		uid: "d2e7b5d7",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_lazurite_0"
+		}]
+	},
+	{
+		uid: "7c4955a2",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_sodalite_0"
+		}]
+	},
+	{
+		uid: "a0333ba5",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_lapis_0"
+		}]
+	},
+	{
+		uid: "209592be",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_calcite_0"
+		}]
+	}]
+}

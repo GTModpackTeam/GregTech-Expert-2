@@ -1,0 +1,13 @@
+{
+	title: "Ore Processing 2",
+	x: -2.5d,
+	y: 2.0d,
+	dependencies: [
+		"34d03450"
+	],
+	tasks: [{
+		uid: "079703d4",
+		type: "checkmark",
+		title: "読んだら押しましょう"
+	}]
+}

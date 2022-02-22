@@ -1,0 +1,45 @@
+{
+	title: "五十年もののワイン専用",
+	x: 16.0d,
+	y: 4.0d,
+	description: "Wooden Multiblock Tank",
+	text: [
+		"木製マルチブロックタンクには一度に沢山のクレオソートを貯めておくことができます。",
+		"組み立て方やGUIはCoke Ovenのクエストを参照してください。",
+		"",
+		"木製タンクバルブはタンクの任意の場所に取り付けられますが、",
+		"下向きで設置するとタンク内の液体を自動搬出するという特性を持つようになるので",
+		"よく考えて設置するといいでしょう。",
+		"",
+		"余談：このマルチブロックはあまりにも使い道が少ないので",
+		"ガスを貯蔵できるようにしようという意見も出ている"
+	],
+	dependencies: [
+		"606d8b7a"
+	],
+	dependency_requirement: "all_started",
+	min_width: 300,
+	tasks: [{
+		uid: "96d3c921",
+		type: "item",
+		items: [{
+			item: "gregtech:steam_casing 1 5"
+		}],
+		count: 26L
+	},
+	{
+		uid: "4b58fdf4",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1597"
+		}]
+	},
+	{
+		uid: "d890701e",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1596"
+		}],
+		count: 2L
+	}]
+}

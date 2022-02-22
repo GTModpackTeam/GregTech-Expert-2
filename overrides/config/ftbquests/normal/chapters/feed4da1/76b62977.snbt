@@ -1,0 +1,21 @@
+{
+	title: "Refined Iron Ingot",
+	x: -3.0d,
+	y: 0.0d,
+	shape: "diamond",
+	description: "Steel Ingot",
+	text: [
+		"鋼鉄は高圧蒸気時代と電気時代に入るためのキーアイテムです。"
+	],
+	dependencies: [
+		"96285454"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "0b0f9d74",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 324"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 1.0d,
+	y: 2.0d,
+	dependencies: [
+		"76b62977"
+	],
+	tasks: [{
+		uid: "7b72acd3",
+		type: "item",
+		items: [{
+			item: "elevatorid:elevator_black"
+		}]
+	}]
+}

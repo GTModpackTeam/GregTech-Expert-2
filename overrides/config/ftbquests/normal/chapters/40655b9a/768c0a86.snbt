@@ -1,0 +1,16 @@
+{
+	x: -2.0d,
+	y: 8.0d,
+	dependencies: [
+		"7ce942c9"
+	],
+	tasks: [{
+		uid: "92d68622",
+		type: "item",
+		items: [{
+			item: "gregtech:gt_armor 1 30"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

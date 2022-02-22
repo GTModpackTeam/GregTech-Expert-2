@@ -1,0 +1,30 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	dependencies: [
+		"24f45198",
+		"26766057",
+		"05b78152"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "497591d9",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 1"
+		},
+		{
+			item: "gregtech:meta_dust 1 32118"
+		}]
+	},
+	{
+		uid: "693a4a28",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 7"
+		},
+		{
+			item: "gregtech:meta_dust 1 32117"
+		}]
+	}]
+}

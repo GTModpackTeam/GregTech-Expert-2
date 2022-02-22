@@ -1,0 +1,21 @@
+{
+	title: "null",
+	x: 6.0d,
+	y: -4.0d,
+	description: "/dank/null",
+	text: [
+		"執筆中"
+	],
+	dependencies: [
+		"2b9a2b25"
+	],
+	tasks: [{
+		uid: "04730e9e",
+		type: "item",
+		items: [{
+			item: "danknull:dank_null_0"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

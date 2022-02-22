@@ -1,0 +1,14 @@
+{
+	x: 8.0d,
+	y: -2.0d,
+	dependencies: [
+		"f5179e31"
+	],
+	tasks: [{
+		uid: "13d30a94",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:security_station"
+		}]
+	}]
+}

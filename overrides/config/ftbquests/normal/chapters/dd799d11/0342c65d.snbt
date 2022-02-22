@@ -1,0 +1,25 @@
+{
+	title: "ME Export Bus, ME Import Busを使わないで",
+	x: 18.0d,
+	y: -2.0d,
+	text: [
+		"ME_Export_BusとME_Import_Busは使用するとワールドに莫大な負荷がかかります。",
+		"使わないようにしましょう。",
+		"",
+		"ME_InterfaceにはUI上段でアイテムを指定すると下段にMEネットワークのアイテムが搬入される仕様があります。",
+		"ここからコンベアーモジュールなどでアイテムを搬出することでME_Export_Busを代用できます。",
+		"液体についても同様です。",
+		"",
+		"ME_Interfaceにアイテムを搬入するとMEネットワークにアイテムが輸送されます。",
+		"これでME_Import_Busも代用可能です。",
+		"液体についても同様です。"
+	],
+	dependencies: [
+		"7443243a"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "70d01558",
+		type: "checkmark"
+	}]
+}

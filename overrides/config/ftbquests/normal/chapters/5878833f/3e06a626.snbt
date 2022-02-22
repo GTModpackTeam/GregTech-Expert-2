@@ -1,0 +1,13 @@
+{
+	x: 4.0d,
+	y: 10.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"4ca7718b"
+	],
+	tasks: [{
+		uid: "51bb3bd0",
+		type: "fluid",
+		fluid: "sulfuric_acid"
+	}]
+}

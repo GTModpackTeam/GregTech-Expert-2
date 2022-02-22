@@ -1,0 +1,32 @@
+{
+	title: "Redstone Vein",
+	x: 2.0d,
+	y: 4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"2b9a2b25"
+	],
+	tasks: [{
+		uid: "8121babb",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_redstone_0"
+		}]
+	},
+	{
+		uid: "71954595",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_ruby_0"
+		}]
+	},
+	{
+		uid: "f19973f5",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_cinnabar_0"
+		}]
+	}]
+}

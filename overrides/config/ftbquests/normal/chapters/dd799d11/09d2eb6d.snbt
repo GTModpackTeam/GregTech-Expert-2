@@ -1,0 +1,27 @@
+{
+	x: 6.0d,
+	y: 0.0d,
+	text: [
+		"Energy_CellをMEネットワークに組み込まないとネットワークが極めて不安定になる不具合が確認されています。",
+		"数個作ってこのあと作るME Controller付近に置きましょう。"
+	],
+	dependencies: [
+		"1f4f999e"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "21f918d7",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:energy_acceptor"
+		}]
+	},
+	{
+		uid: "c1765ed9",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:energy_cell",
+			tag: {}
+		}]
+	}]
+}

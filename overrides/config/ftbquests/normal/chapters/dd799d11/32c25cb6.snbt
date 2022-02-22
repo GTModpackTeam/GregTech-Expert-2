@@ -1,0 +1,35 @@
+{
+	x: 14.0d,
+	y: 2.0d,
+	dependencies: [
+		"7443243a"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "082eb39a",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:certus_quartz_wrench"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "575e0615",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:network_tool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "aab0a438",
+		type: "item",
+		items: [{
+			item: "aenetvistool:net_visualizer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

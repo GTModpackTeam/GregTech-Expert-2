@@ -1,0 +1,38 @@
+{
+	title: "RarelyUseinLVMachines",
+	x: 1.5d,
+	y: 4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"34d03450"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "66862b73",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 125"
+		},
+		{
+			item: "gregtech:machine 1 560"
+		},
+		{
+			item: "gregtech:machine 1 980"
+		},
+		{
+			item: "gregtech:machine 1 1515"
+		},
+		{
+			item: "gregtech:machine 1 1530"
+		},
+		{
+			item: "gregtech:machine 1 260"
+		}]
+	},
+	{
+		uid: "00d9211f",
+		type: "checkmark"
+	}]
+}

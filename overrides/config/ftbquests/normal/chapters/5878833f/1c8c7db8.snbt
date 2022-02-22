@@ -1,0 +1,25 @@
+{
+	x: 6.0d,
+	y: -4.0d,
+	dependencies: [
+		"dc6100c2",
+		"14b3e498",
+		"d5c11215",
+		"579e8f8b"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "db5d20a8",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 323"
+		}]
+	},
+	{
+		uid: "6c14c4bc",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 323"
+		}]
+	}]
+}

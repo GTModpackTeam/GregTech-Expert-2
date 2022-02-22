@@ -1,0 +1,14 @@
+{
+	x: 8.0d,
+	y: 0.0d,
+	dependencies: [
+		"24f45198"
+	],
+	tasks: [{
+		uid: "8283049c",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 331"
+		}]
+	}]
+}

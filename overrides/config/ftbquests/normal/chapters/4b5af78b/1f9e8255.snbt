@@ -1,0 +1,27 @@
+{
+	title: "粗青銅パイプ",
+	x: 14.0d,
+	y: 6.0d,
+	description: "Potin Fluid Pipe",
+	text: [
+		"ポティン液体パイプは入手可能時期に対して非常に性能の良いパイプで、",
+		"比較的高温の流体を大量に輸送することが可能です。",
+		"この段階で青銅製のパイプも作れますが、特にこだわりがなければこちらを使いましょう。",
+		"",
+		"余談：ポティンはGT++という1.7.10のアドオンmodで初めて追加された。"
+	],
+	dependencies: [
+		"cf2213f6",
+		"39f52b04"
+	],
+	dependency_requirement: "all_started",
+	min_width: 300,
+	tasks: [{
+		uid: "36c8869b",
+		type: "item",
+		items: [{
+			item: "gregtech:fluid_pipe_normal 1 2037"
+		}],
+		count: 2L
+	}]
+}

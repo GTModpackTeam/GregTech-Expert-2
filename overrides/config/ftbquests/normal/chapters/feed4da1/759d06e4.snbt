@@ -1,0 +1,20 @@
+{
+	title: "Super Chest I未満",
+	x: -9.0d,
+	y: 8.0d,
+	description: "Hyper Storage Box",
+	text: [
+		"Hyper_Storage_BoxはStorage_Coreの容量を320,000増加させます。"
+	],
+	dependencies: [
+		"390f03f3"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "61cbe960",
+		type: "item",
+		items: [{
+			item: "ezstorage:hyper_storage_box"
+		}]
+	}]
+}
