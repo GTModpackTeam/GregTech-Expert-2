@@ -1,3 +1,8 @@
+# v1.0.1
+Respond to the fact that GTFO is not included and that quests are not included.
+
+* * *
+
 # v1.0.0
 ## 💣 Update Warning 💣
 * Make a backup of your world before updating.
