@@ -4,6 +4,7 @@ contact_links:
     url: https://twitter.com/tier940
     about: >-
       You can send me a message or use the #GTExpert hashtag.
-  # - name: Discord
-  #   about: >-
-  #     I haven't thought about it yet, but if it's going to be a smooth process or something, I might make it.
+  - name: Discord
+    url: https://discord.gg/wyub7zez
+    about: >-
+      Please ask questions in the #bugs-because-i-m-a-dummy channel of this discord server.
