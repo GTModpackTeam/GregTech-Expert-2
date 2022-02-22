@@ -21,7 +21,7 @@ assembler.recipeBuilder()
     .circuit(1)
     .inputs([
         <opencomputers:material:7> * 3,
-        <gregtech:meta_item_1:401> * 3
+        <metaitem:circuit_board.good> * 3
     ])
     .outputs([<opencomputers:component:6>])
     .duration(200)

@@ -1,8 +1,9 @@
 {
   "inventory": {
-    "0:0": "gregtech:meta_item_1,1,465,{terminal:{_hw:{}}}",
-    "0:2": "gregtech:meta_tool,1,19,{GT.ToolStats:{Material:\"diamond\"}}",
-    "0:3": "theoneprobe:probenote",
-    "0:1": "gregtech:meta_item_1,1,466,{Charge:100000L}"
+    "0:0": "ftbquests:book",
+    "0:1": "gregtech:meta_item_1,1,465,{terminal:{_hw:{}}}",
+    "0:2": "gregtech:meta_item_1,1,466,{Charge:100000L}",
+    "0:3": "gregtech:meta_tool,1,19,{GT.ToolStats:{Material:\"diamond\"}}",
+    "0:4": "theoneprobe:probenote"
   }
 }

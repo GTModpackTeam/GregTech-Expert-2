@@ -1,0 +1,36 @@
+# Content Tweaker
+item.contenttweaker.creativeComponent.name=GTExpert MEストレージセル素材(偽物)
+
+# Multiblock Tweaker
+multiblocktweaker.machine.greenhouse.name=温室
+multiblocktweaker.machine.voidoreminer.name=亜空間型鉱石採掘機
+multiblocktweaker.machine.saw_mill.name=製材機
+recipemap.greenhouse.name=温室
+recipemap.voidoreminer.name=亜空間型鉱石採掘機
+recipemap.saw_mill.name=製材機
+
+# Ender IO - Override
+material.electrical_steel=電炉鋼
+material.energetic_alloy=エナジェティック合金
+material.vibrant_alloy=ヴァイブラント合金
+material.redstone_alloy=レッドストーン合金
+material.conductive_iron=電導鉄
+material.pulsating_iron=脈動鉄
+material.dark_steel=ダークスチール
+material.soularium=ソウラリウム
+material.end_steel=エンドスチール
+material.construction_alloy=鉄合金
+material.crude_steel=粗鋼
+material.crystalline_alloy=結晶性合金
+material.melodic_alloy=メロディック合金
+material.stellar_alloy=ステラ合金
+material.crystalline_pink_slime=結晶性ピンクスライム
+material.energetic_silver=エナジェティックシルバー
+material.vivid_alloy=ビビッド合金
+
+# GregTech
+material.naquadah_rocket_fuel=ナクアダロケット燃料
+
+# AE2
+material.dust_fluix=フルーシュ
+material.dust_charged_certus_quartz=チャージケルタスクオーツ

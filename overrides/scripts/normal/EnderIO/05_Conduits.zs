@@ -13,68 +13,103 @@ import mods.enderio.Tank; // no
 
 
 # Item Conduit
-recipes.addShaped(<enderio:item_item_conduit> * 4, [
-    [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>],
-    [<ore:nuggetPulsatingIron>, <ore:nuggetPulsatingIron>, <ore:nuggetPulsatingIron>],
-    [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]
-]);
+assembler.recipeBuilder()
+    .inputs([
+        <ore:pipeSmallItemElectrum>,
+        <ore:platePulsatingIron>
+    ])
+    .fluidInputs([<liquid:plastic> * 144])
+    .outputs([<enderio:item_item_conduit>])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Fluid Conduit
-recipes.addShaped(<enderio:item_liquid_conduit> * 4, [
-    [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>],
-    [<ore:blockGlassColorless>, <ore:blockGlassColorless>, <ore:blockGlassColorless>],
-    [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]
-]);
+assembler.recipeBuilder()
+    .inputs([
+        <ore:pipeNormalFluidCopper>,
+        <ore:plateElectricalSteel>
+    ])
+    .fluidInputs([<liquid:plastic> * 144])
+    .outputs([<enderio:item_liquid_conduit>])
+    .duration(100)
+    .EUt(120)
+    .buildAndRegister();
 
 # Pressurized Fluid Conduit
-recipes.addShaped(<enderio:item_liquid_conduit:1> * 2, [
-    [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>],
-    [<ore:blockGlassHardened>, <enderio:item_liquid_conduit>, <ore:blockGlassHardened>],
-    [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]
-]);
+assembler.recipeBuilder()
+    .inputs([
+        <ore:pipeNormalFluidSteel>,
+        <ore:plateDarkSteel>
+    ])
+    .fluidInputs([<liquid:plastic> * 144])
+    .outputs([<enderio:item_liquid_conduit:1>])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Ender Fluid Conduit
-recipes.addShaped(<enderio:item_liquid_conduit:2>, [
-    [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>],
-    [<ore:ingotVibrantAlloy>, <enderio:item_liquid_conduit:1>, <ore:ingotVibrantAlloy>],
-    [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]
-]);
+assembler.recipeBuilder()
+    .inputs([
+        <ore:pipeTinyFluidPolytetrafluoroethylene>,
+        <ore:plateVibrantAlloy>
+    ])
+    .fluidInputs([<liquid:plastic> * 144])
+    .outputs([<enderio:item_liquid_conduit:2>])
+    .duration(100)
+    .EUt(1920)
+    .buildAndRegister();
 
 # Power Conduit
 JEI.removeAndHide(<enderio:item_power_conduit:*>);
 
 # Redstone Conduit
-recipes.addShaped(<enderio:item_redstone_conduit>, [
-    [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>],
-    [<ore:ingotRedstoneAlloy>, <ore:ingotRedstoneAlloy>, <ore:ingotRedstoneAlloy>],
-    [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]
-]);
+assembler.recipeBuilder()
+    .inputs([
+        <ore:wireGtSingleRedAlloy>,
+        <ore:plateRedstoneAlloy>
+    ])
+    .fluidInputs([<liquid:plastic> * 144])
+    .outputs([<enderio:item_redstone_conduit>])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # ME Conduit
-recipes.addShaped(<enderio:item_me_conduit> * 4, [
-    [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>],
-    [<ore:crystalFluix>, <ore:ae2.cable.glass>, <ore:crystalFluix>],
-    [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]
-]);
-recipes.addShaped(<enderio:item_me_conduit> * 4, [
-    [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>],
-    [<ore:crystalPureFluix>, <ore:ae2.cable.glass>, <ore:crystalPureFluix>],
-    [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]
-]);
+assembler.recipeBuilder()
+    .inputs([
+        <ore:ae2.cable.glass>,
+        <ore:plateTitanium>
+    ])
+    .fluidInputs([<liquid:plastic> * 144])
+    .outputs([<enderio:item_me_conduit>])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Dense ME Conduit
-recipes.addShaped(<enderio:item_me_conduit:1>, [
-    [<ore:itemConduitBinder>, <enderio:item_me_conduit>, <ore:itemConduitBinder>],
-    [<enderio:item_me_conduit>, <ore:itemConduitBinder>, <enderio:item_me_conduit>],
-    [<ore:itemConduitBinder>, <enderio:item_me_conduit>, <ore:itemConduitBinder>]
-]);
+assembler.recipeBuilder()
+    .inputs([
+        <enderio:item_me_conduit> * 4,
+        <ore:plateTitanium>
+    ])
+    .fluidInputs([<liquid:plastic> * 144])
+    .outputs([<enderio:item_me_conduit:1>])
+    .duration(100)
+    .EUt(1920)
+    .buildAndRegister();
 
 # OC Conduit
-recipes.addShaped(<enderio:item_opencomputers_conduit>, [
-    [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>],
-    [<opencomputers:material:28>, <opencomputers:material:28>, <opencomputers:material:28>],
-    [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]
-]);
+assembler.recipeBuilder()
+    .inputs([
+        <opencomputers:cable>,
+        <ore:plateRedstoneAlloy>
+    ])
+    .fluidInputs([<liquid:plastic> * 144])
+    .outputs([<enderio:item_opencomputers_conduit>])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Endergy Conduit
 JEI.removeAndHide(<enderio:item_endergy_conduit:*>);

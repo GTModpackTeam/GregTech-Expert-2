@@ -69,7 +69,7 @@ global greenhouse as RecipeMap = FactoryRecipeMap.start("greenhouse")
     .maxInputs(3)
     .minOutputs(1)
     .maxOutputs(4)
-    .minFluidInputs(0)
+    .minFluidInputs(1)
     .maxFluidInputs(1)
     .minFluidOutputs(0)
     .maxFluidOutputs(0)
@@ -86,13 +86,13 @@ global voidoreminer as RecipeMap = FactoryRecipeMap.start("voidoreminer")
     .maxFluidOutputs(0)
     .build();
 
-global disassembler as RecipeMap = FactoryRecipeMap.start("disassembler")
+global saw_mill as RecipeMap = FactoryRecipeMap.start("saw_mill")
     .minInputs(1)
     .maxInputs(1)
     .minOutputs(1)
-    .maxOutputs(9)
+    .maxOutputs(2)
     .minFluidInputs(0)
-    .maxFluidInputs(0)
+    .maxFluidInputs(1)
     .minFluidOutputs(0)
     .maxFluidOutputs(0)
     .build();
@@ -139,6 +139,11 @@ global disassembler as RecipeMap = FactoryRecipeMap.start("disassembler")
 
 <ore:gtce.tool.shovels>.addItems([
     <gregtech:meta_tool:2>.withEmptyTag()
+]);
+
+<ore:gtce.tool.knife>.addItems([
+    <gregtech:meta_tool:15>.withEmptyTag(),
+    <gregtechfoodoption:gtfo_meta_tool:1>.withEmptyTag()
 ]);
 
 

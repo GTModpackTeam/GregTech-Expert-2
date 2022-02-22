@@ -102,3 +102,6 @@ assembler.recipeBuilder()
     .duration(200)
     .EUt(7680)
     .buildAndRegister();
+
+# Creative
+JEI.removeAndHide(<danknull:dank_null_6>);

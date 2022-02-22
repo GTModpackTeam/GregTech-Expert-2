@@ -1,8 +1,37 @@
-item.contenttweaker.dustFluix.name=Fluix Dust
-item.contenttweaker.dustChargedCertusQuartz.name=Charged Certus Quartz Dust
-item.contenttweaker.creativeComponent.name=GTE ME Storage Fake Component
+# Content Tweaker
+item.contenttweaker.creativeComponent.name=GTExpert ME Fake Component
 
+# Multiblock Tweaker
 multiblocktweaker.machine.greenhouse.name=Greenhouse
-recipemap.greenhouse.name=Greenhouse
 multiblocktweaker.machine.voidoreminer.name=Void Ore Drilling Plant
+multiblocktweaker.machine.saw_mill.name=Saw Mill
+recipemap.greenhouse.name=Greenhouse
 recipemap.voidoreminer.name=Void Ore Drilling Plant
+recipemap.saw_mill.name=Saw Mill
+
+
+# Ender IO - Override
+material.electrical_steel=Electrical Steel
+material.energetic_alloy=Energetic Alloy
+material.vibrant_alloy=Vibrant Alloy
+material.redstone_alloy=Redstone Alloy
+material.conductive_iron=Conductive Iron
+material.pulsating_iron=Pulsating Iron
+material.dark_steel=Dark Steel
+material.soularium=Soularium
+material.end_steel=End Steel
+material.construction_alloy=Iron Alloy
+material.crude_steel=Crude Steel
+material.crystalline_alloy=Crystalline Alloy
+material.melodic_alloy=Melodic Alloy
+material.stellar_alloy=Stellar Alloy
+material.crystalline_pink_slime=Crystalline Pink Slime
+material.energetic_silver=Energetic Silver
+material.vivid_alloy=Vivid Alloy
+
+# GregTech
+material.naquadah_rocket_fuel=Naquadah Rocket Fuel
+
+# AE2
+material.fluix=Fluix
+material.charged_certus_quartz=Charged Certus Quartz

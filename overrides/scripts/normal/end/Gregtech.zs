@@ -27,11 +27,10 @@ import mods.jei.JEI;
 
 # Infinite GT Energy Unit Emitter
 assembly_line.recipeBuilder()
-    .circuit(1)
     .inputs([<enderio:block_cap_bank>.withTag({"enderio:energy": 50000000}) * 4])
-    .inputs([<gregtech:meta_item_1:753> * 8])
-    .inputs([<contenttweaker:creativecomponent> * 8])
     .inputs([<appliedenergistics2:creative_energy_cell> * 4])
+    .inputs([<metaitem:max.battery> * 8])
+    .inputs([<contenttweaker:creativecomponent> * 8])
     .fluidInputs(<liquid:soldering_alloy> * 18432)
     .fluidInputs(<liquid:uranium_rhodium_dinaquadide> * 15552)
     .outputs(<gregtech:machine:1650>)

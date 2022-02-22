@@ -43,8 +43,8 @@ recipes.addShapeless(<enderio:item_conduit_facade:3>, [
 # Conduit Probe
 recipes.addShaped(<enderio:item_conduit_probe>, [
     [<ore:nuggetElectricalSteel>, null, <ore:nuggetElectricalSteel>],
-    [<ore:ingotConstructionAlloy>, <enderio:item_yeta_wrench>, <ore:ingotConstructionAlloy>],
-    [<ore:ingotConstructionAlloy>, <ore:dustBedrock>, <ore:ingotConstructionAlloy>]
+    [<ore:plateConstructionAlloy>, <enderio:item_yeta_wrench>, <ore:plateConstructionAlloy>],
+    [<ore:plateConstructionAlloy>, <ore:dustBedrock>, <ore:plateConstructionAlloy>]
 ]);
 
 # Yeta Wrench
@@ -64,11 +64,11 @@ recipes.addShaped(<enderio:item_xp_transfer>, [
 # Cold Fire Igniter
 JEI.removeAndHide(<enderio:item_cold_fire_igniter>);
 
-# Coordinate Selctor
+# Coordinate Selector
 recipes.addShaped(<enderio:item_coord_selector>, [
-    [<ore:ingotElectricalSteel>, <ore:enderpearl>, <ore:ingotElectricalSteel>],
-    [null, <minecraft:compass>, <ore:ingotElectricalSteel>],
-    [null, null, <ore:ingotElectricalSteel>]
+    [<ore:plateElectricalSteel>, <ore:enderpearl>, <ore:plateElectricalSteel>],
+    [null, <minecraft:compass>, <ore:plateElectricalSteel>],
+    [null, null, <ore:plateElectricalSteel>]
 ]);
 
 # Staff of Traveling
@@ -87,11 +87,6 @@ recipes.addShaped(<enderio:item_rod_of_return>, [
 
 # Electromagnet
 JEI.removeAndHide(<enderio:item_magnet>);
-// recipes.addShaped(<enderio:item_magnet>, [
-//     [<ore:ingotRedAlloy>, <ore:gemEmerald>, <ore:ingotRedAlloy>],
-//     [<ore:ingotRedAlloy>, null, <ore:ingotRedAlloy>],
-//     [<ore:ingotSteel>, null, <ore:ingotSteel>]
-// ]);
 
 # Enderios
 recipes.addShaped(<enderio:item_ender_food>, [
@@ -102,22 +97,22 @@ recipes.addShaped(<enderio:item_ender_food>, [
 
 # Basic Item Filter
 recipes.addShaped(<enderio:item_basic_item_filter>, [
-    [null, <ore:paperBlack>, null],
-    [<ore:paperBlack>, <ore:blockHopper>, <ore:paperBlack>],
-    [null, <ore:paperBlack>, null]
+    [<ore:dustElectricalSteel>, <ore:paperBlack>, <ore:dustElectricalSteel>],
+    [<ore:paperBlack>, <metaitem:item_filter>, <ore:paperBlack>],
+    [<ore:dustElectricalSteel>, <ore:paperBlack>, <ore:dustElectricalSteel>]
 ]);
 
 # Advanced Item Filter
 recipes.addShaped(<enderio:item_advanced_item_filter>, [
-    [<ore:dustRegularRedstone>, <ore:paperBlack>, <ore:dustRegularRedstone>],
-    [<ore:paperBlack>, <ore:skullZombieController>, <ore:paperBlack>],
-    [<ore:dustRegularRedstone>, <ore:paperBlack>, <ore:dustRegularRedstone>]
+    [<ore:dustRedstoneAlloy>, <ore:paperBlack>, <ore:dustRedstoneAlloy>],
+    [<ore:paperBlack>, <metaitem:item_filter>, <ore:paperBlack>],
+    [<ore:dustRedstoneAlloy>, <ore:paperBlack>, <ore:dustRedstoneAlloy>]
 ]);
 
 # Limited Item Filter
 recipes.addShaped(<enderio:item_limited_item_filter>, [
-    [null, null, null],
-    [<minecraft:comparator>, <ore:skullZombieController>, <minecraft:comparator>],
+    [null, <ore:skullZombieController>, null],
+    [<minecraft:comparator>, <enderio:item_advanced_item_filter>, <minecraft:comparator>],
     [null, null, null]
 ]);
 
@@ -147,8 +142,8 @@ recipes.addShapeless(<enderio:item_enchantment_filter_big>, [
 
 # Existing Item Filter
 recipes.addShaped(<enderio:item_existing_item_filter>, [
-    [null, <ore:dustRegularRedstone>, null],
-    [<ore:dustRegularRedstone>, <enderio:item_advanced_item_filter>, <ore:dustRegularRedstone>],
+    [null, <ore:dustRedstoneAlloy>, null],
+    [<ore:dustRedstoneAlloy>, <enderio:item_advanced_item_filter>, <ore:dustRedstoneAlloy>],
     [null, <minecraft:comparator>, null]
 ]);
 
@@ -178,30 +173,30 @@ recipes.addShapeless(<enderio:item_enchantment_filter_normal>, [
 
 # Basic Fluid Filter
 recipes.addShaped(<enderio:item_fluid_filter>, [
-    [null, <ore:paperBlack>, null],
-    [<ore:paperBlack>, <minecraft:bucket>, <ore:paperBlack>],
-    [null, <ore:paperBlack>, null]
+    [<ore:dustRedstoneAlloy>, <ore:paperBlack>, <ore:dustRedstoneAlloy>],
+    [<ore:paperBlack>, <metaitem:fluid_filter>, <ore:paperBlack>],
+    [<ore:dustRedstoneAlloy>, <ore:paperBlack>, <ore:dustRedstoneAlloy>]
 ]);
 
 # Redstone Filter Base
 recipes.addShaped(<enderio:item_material:60>, [
-    [<ore:ingotRedstoneAlloy>, <ore:paperBlack>, <ore:ingotRedstoneAlloy>],
-    [<ore:paperBlack>, <ore:ingotIron>, <ore:paperBlack>],
-    [<ore:ingotRedstoneAlloy>, <ore:paperBlack>, <ore:ingotRedstoneAlloy>]
+    [<ore:plateRedstoneAlloy>, <ore:paperBlack>, <ore:plateRedstoneAlloy>],
+    [<ore:paperBlack>, <ore:plateIron>, <ore:paperBlack>],
+    [<ore:plateRedstoneAlloy>, <ore:paperBlack>, <ore:plateRedstoneAlloy>]
 ]);
 
 # Redstone NOT Filter
 recipes.addShaped(<enderio:item_redstone_not_filter>, [
     [null, null, null],
-    [<ore:craftingRedstoneTorch>, <ore:itemRedstoneFilterBase>, <ore:ingotRedstoneAlloy>],
+    [<ore:craftingRedstoneTorch>, <ore:itemRedstoneFilterBase>, <ore:plateRedstoneAlloy>],
     [null, null, null]
 ]);
 
 # Redstone OR Filter
 recipes.addShaped(<enderio:item_redstone_or_filter>, [
-    [null, <ore:ingotRedstoneAlloy>, null],
+    [null, <ore:plateRedstoneAlloy>, null],
     [null, <ore:itemRedstoneFilterBase>, null],
-    [null, <ore:ingotRedstoneAlloy>, null]
+    [null, <ore:plateRedstoneAlloy>, null]
 ]);
 recipes.addShapeless(<enderio:item_redstone_or_filter>, [
     <ore:craftingRedstoneTorch>, <enderio:item_redstone_nor_filter>
@@ -230,7 +225,7 @@ recipes.addShapeless(<enderio:item_redstone_nand_filter>, [
 # Redstone NOR Filter
 recipes.addShaped(<enderio:item_redstone_xor_filter>, [
     [null, <ore:craftingRedstoneTorch>, null],
-    [<ore:ingotRedstoneAlloy>, <ore:itemRedstoneFilterBase>, <ore:ingotRedstoneAlloy>],
+    [<ore:plateRedstoneAlloy>, <ore:itemRedstoneFilterBase>, <ore:plateRedstoneAlloy>],
     [null, <ore:craftingRedstoneTorch>, null]
 ]);
 recipes.addShapeless(<enderio:item_redstone_xor_filter>, [
@@ -245,34 +240,34 @@ recipes.addShapeless(<enderio:item_redstone_xnor_filter>, [
 # Redstone Toggle Latch Filter
 recipes.addShaped(<enderio:item_redstone_toggle_filter>, [
     [null, null, null],
-    [<minecraft:lever>, <ore:itemRedstoneFilterBase>, <ore:ingotRedstoneAlloy>],
+    [<minecraft:lever>, <ore:itemRedstoneFilterBase>, <ore:plateRedstoneAlloy>],
     [null, null, null]
 ]);
 
 # Redstone Counting Filter
 recipes.addShaped(<enderio:item_redstone_counting_filter>, [
-    [<ore:ingotRedstoneAlloy>, null, null],
-    [<ore:ingotRedstoneAlloy>, <ore:itemRedstoneFilterBase>, <ore:ingotRedstoneAlloy>],
-    [<ore:ingotRedstoneAlloy>, null, null]
+    [<ore:plateRedstoneAlloy>, null, null],
+    [<ore:plateRedstoneAlloy>, <ore:itemRedstoneFilterBase>, <ore:plateRedstoneAlloy>],
+    [<ore:plateRedstoneAlloy>, null, null]
 ]);
 
 # Redstone Senor Filter
 recipes.addShaped(<enderio:item_redstone_sensor_filter>, [
     [null, null, null],
-    [<minecraft:comparator>, <ore:itemRedstoneFilterBase>, <ore:ingotRedstoneAlloy>],
+    [<minecraft:comparator>, <ore:itemRedstoneFilterBase>, <ore:plateRedstoneAlloy>],
     [null, null, null]
 ]);
 
 # Redstone Timer Filter
 recipes.addShaped(<enderio:item_redstone_timer_filter>, [
     [null, null, null],
-    [<ore:ingotRedstoneAlloy>, <ore:itemRedstoneFilterBase>, <minecraft:clock>],
+    [<ore:plateRedstoneAlloy>, <ore:itemRedstoneFilterBase>, <minecraft:clock>],
     [null, null, null]
 ]);
 
 # Soul Vial
 recipes.addShaped(<enderio:item_soul_vial>, [
-    [null, <ore:ingotSoularium>, null],
+    [null, <ore:plateSoularium>, null],
     [<ore:blockGlassHardened>, null, <ore:blockGlassHardened>],
     [null, <enderio:block_fused_quartz:*>, null]
 ]);
@@ -353,13 +348,6 @@ recipes.addShaped(<enderio:item_dark_steel_hand>, [
     [<ore:plateDarkSteel>, <ore:plateDarkSteel>, <ore:plateDarkSteel>],
     [<ore:plateDarkSteel>, <minecraft:diamond_hoe>, <ore:plateDarkSteel>],
     [<ore:gtce.tool.screwdrivers>, <ore:gtce.tool.hard.hammers>, <ore:gtce.tool.files>]
-]);
-
-# Vibrant Inventory Charger
-recipes.addShaped(<enderio:item_inventory_charger_vibrant>, [
-    [<ore:ingotDarkSteel>, <ore:ingotElectricalSteel>, <ore:ingotDarkSteel>],
-    [<ore:itemWirelessDish>, <ore:skullEnderResonator>, <ore:itemWirelessDish>],
-    [<ore:ingotDarkSteel>, <enderio:block_cap_bank:3>, <ore:ingotDarkSteel>]
 ]);
 
 # The Ender Mk2
@@ -471,23 +459,30 @@ recipes.addShaped(<enderio:item_stellar_alloy_boots>, [
 
 # Simple Inventory Charger
 recipes.addShaped(<enderio:item_inventory_charger_simple>, [
-    [<ore:nuggetDarkSteel>, <ore:ingotConductiveIron>, <ore:nuggetDarkSteel>],
-    [<ore:ingotConductiveIron>, <enderio:item_capacitor_silver>, <ore:ingotConductiveIron>],
-    [<ore:nuggetDarkSteel>, <ore:ingotConductiveIron>, <ore:nuggetDarkSteel>]
+    [<ore:nuggetDarkSteel>, <ore:plateConductiveIron>, <ore:nuggetDarkSteel>],
+    [<ore:plateConductiveIron>, <enderio:item_capacitor_silver>, <ore:plateConductiveIron>],
+    [<ore:nuggetDarkSteel>, <ore:plateConductiveIron>, <ore:nuggetDarkSteel>]
 ]);
 
 # Basic Inventory Charger
 recipes.addShaped(<enderio:item_inventory_charger_basic>, [
-    [<ore:ingotDarkSteel>, <ore:ingotElectricalSteel>, <ore:ingotDarkSteel>],
-    [<ore:itemWirelessDish>, <ore:skullEnderResonator>, <ore:itemWirelessDish>],
-    [<ore:ingotDarkSteel>, <enderio:block_cap_bank:1>, <ore:ingotDarkSteel>]
+    [<ore:plateDarkSteel>, <ore:plateElectricalSteel>, <ore:plateDarkSteel>],
+    [<ore:itemWirelessDish>, <ore:skullZombieElectrode>, <ore:itemWirelessDish>],
+    [<ore:plateDarkSteel>, <enderio:block_cap_bank:1>, <ore:plateDarkSteel>]
 ]);
 
 # Inventory Charger
 recipes.addShaped(<enderio:item_inventory_charger>, [
-    [<ore:ingotDarkSteel>, <ore:ingotElectricalSteel>, <ore:ingotDarkSteel>],
+    [<ore:plateDarkSteel>, <ore:plateEnergeticAlloy>, <ore:plateDarkSteel>],
     [<ore:itemWirelessDish>, <ore:skullEnderResonator>, <ore:itemWirelessDish>],
-    [<ore:ingotDarkSteel>, <enderio:block_cap_bank:2>, <ore:ingotDarkSteel>]
+    [<ore:plateDarkSteel>, <enderio:block_cap_bank:2>, <ore:plateDarkSteel>]
+]);
+
+# Vibrant Inventory Charger
+recipes.addShaped(<enderio:item_inventory_charger_vibrant>, [
+    [<ore:plateDarkSteel>, <ore:plateVibrantAlloy>, <ore:plateDarkSteel>],
+    [<ore:itemWirelessDish>, <ore:skullSentientEnder>, <ore:itemWirelessDish>],
+    [<ore:plateDarkSteel>, <enderio:block_cap_bank:3>, <ore:plateDarkSteel>]
 ]);
 
 # Blank Dark Steel Upgrade
@@ -519,7 +514,7 @@ assembler.recipeBuilder()
 
 # Dark Steel Upgrade "Mini Anvil"
 recipes.addShaped(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:anvil1"}), [
-    [null, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>],
+    [null, <ore:plateDarkSteel>, <ore:plateDarkSteel>],
     [null, null, <ore:stickWood>],
     [<enderio:item_dark_steel_upgrade>, null, <ore:stickWood>]
 ]);
@@ -579,8 +574,8 @@ assembler.recipeBuilder()
 
 # Dark Steel Upgrade "Direct"
 recipes.addShaped(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:direct"}), [
-    [<ore:nuggetVibrantAlloy>, <ore:ingotVibrantAlloy>, <ore:nuggetVibrantAlloy>],
-    [<ore:ingotVibrantAlloy>, <ore:enderpearl>, <ore:ingotVibrantAlloy>],
+    [<ore:nuggetVibrantAlloy>, <ore:plateVibrantAlloy>, <ore:nuggetVibrantAlloy>],
+    [<ore:plateVibrantAlloy>, <ore:enderpearl>, <ore:plateVibrantAlloy>],
     [<ore:nuggetVibrantAlloy>, <enderio:item_dark_steel_upgrade>, <ore:nuggetVibrantAlloy>]
 ]);
 
@@ -721,7 +716,7 @@ assembler.recipeBuilder()
 
 # Dark Steel Upgrade "Inventory lv2"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:inv1"}), [
-    <enderio:item_dark_steel_upgrade>, <ore:chest>, <ore:gearEnergeticAlloySteel>
+    <enderio:item_dark_steel_upgrade>, <ore:chest>, <ore:gearEnergeticAlloy>
 ]);
 
 # Dark Steel Upgrade(XP) "Inventory lv2"
@@ -763,7 +758,7 @@ assembler.recipeBuilder()
 
 # Dark Steel Upgrade "Jump lv2"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:jumpboost2"}), [
-    <enderio:item_dark_steel_upgrade>, <ore:craftingPiston>, <ore:gearEnergeticAlloySteel>
+    <enderio:item_dark_steel_upgrade>, <ore:craftingPiston>, <ore:gearEnergeticAlloy>
 ]);
 
 # Dark Steel Upgrade(XP) "Jump lv2"
@@ -857,7 +852,7 @@ assembler.recipeBuilder()
 
 # Dark Steel Upgrade "Speed lv2"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:speedboost2"}), [
-    <enderio:item_dark_steel_upgrade>, <minecraft:potion>.withTag({Potion: "minecraft:long_swiftness"}),<ore:gearEnergeticAlloySteel>
+    <enderio:item_dark_steel_upgrade>, <minecraft:potion>.withTag({Potion: "minecraft:long_swiftness"}),<ore:gearEnergeticAlloy>
 ]);
 
 # Dark Steel Upgrade(XP) "Speed lv2"
@@ -971,7 +966,7 @@ assembler.recipeBuilder()
 
 # Dark Steel Upgrade "Explosive lv4"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:tnt3"}), [
-    <enderio:item_dark_steel_upgrade>, <minecraft:tnt>, <ore:gearEnergeticAlloySteel>
+    <enderio:item_dark_steel_upgrade>, <minecraft:tnt>, <ore:gearEnergeticAlloy>
 ]);
 
 # Dark Steel Upgrade(XP) "Explosive lv4"
@@ -1027,14 +1022,14 @@ assembler.recipeBuilder()
 
 # Extract Speed Upgrade
 recipes.addShaped(<enderio:item_extract_speed_upgrade>, [
-    [<ore:ingotConstructionAlloy>, <ore:ingotConstructionAlloy>, <ore:ingotConstructionAlloy>],
-    [<ore:ingotElectricalSteel>, <minecraft:piston>, <ore:ingotElectricalSteel>],
-    [<ore:ingotElectricalSteel>, <enderio:item_dark_steel_upgrade>, <ore:ingotElectricalSteel>]
+    [<ore:plateConstructionAlloy>, <ore:plateConstructionAlloy>, <ore:plateConstructionAlloy>],
+    [<ore:plateElectricalSteel>, <minecraft:piston>, <ore:plateElectricalSteel>],
+    [<ore:plateElectricalSteel>, <enderio:item_dark_steel_upgrade>, <ore:plateElectricalSteel>]
 ]);
 
 # Extract Speed Downgrade
 recipes.addShaped(<enderio:item_extract_speed_downgrade>, [
-    [<ore:ingotConstructionAlloy>, <ore:ingotConstructionAlloy>, <ore:ingotConstructionAlloy>],
-    [<ore:ingotElectricalSteel>, <minecraft:sticky_piston>, <ore:ingotElectricalSteel>],
-    [<ore:ingotElectricalSteel>, <enderio:item_dark_steel_upgrade>, <ore:ingotElectricalSteel>]
+    [<ore:plateConstructionAlloy>, <ore:plateConstructionAlloy>, <ore:plateConstructionAlloy>],
+    [<ore:plateElectricalSteel>, <minecraft:sticky_piston>, <ore:plateElectricalSteel>],
+    [<ore:plateElectricalSteel>, <enderio:item_dark_steel_upgrade>, <ore:plateElectricalSteel>]
 ]);

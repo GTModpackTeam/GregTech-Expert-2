@@ -4,24 +4,41 @@ import mods.jei.JEI;
 
 
 
+# Basic Capacitor Bank
+recipes.remove(<enderio:block_cap_bank:1>);
+recipes.addShaped(<enderio:block_cap_bank:1>, [
+    [<enderio:item_basic_capacitor>, <ore:circuitAdvanced>, <enderio:item_basic_capacitor>],
+    [<ore:plateElectricalSteel>, <ore:itemSimpleMachineChassi>, <ore:plateElectricalSteel>],
+    [<enderio:item_basic_capacitor>, <ore:batteryAdvanced>, <enderio:item_basic_capacitor>]
+]);
+
+# Capacitor Bank
+recipes.remove(<enderio:block_cap_bank:2>);
+recipes.addShaped(<enderio:block_cap_bank:2>, [
+    [<enderio:item_basic_capacitor:1>, <ore:circuitExtreme>, <enderio:item_basic_capacitor:1>],
+    [<ore:plateEnergeticAlloy>, <ore:itemMachineChassi>, <ore:plateEnergeticAlloy>],
+    [<enderio:block_cap_bank:1>, <ore:batteryExtreme>, <enderio:block_cap_bank:1>]
+]);
+
+# Vibrant Capacitor Bank
+recipes.remove(<enderio:block_cap_bank:3>);
+recipes.addShaped(<enderio:block_cap_bank:3>, [
+    [<enderio:item_basic_capacitor:2>, <ore:circuitElite>, <enderio:item_basic_capacitor:2>],
+    [<ore:itemVibrantCrystal>, <ore:itemEnhancedMachineChassi>, <ore:itemVibrantCrystal>],
+    [<enderio:block_cap_bank:2>, <ore:batteryElite>, <enderio:block_cap_bank:2>]
+]);
+
 # Block Detector
 JEI.removeAndHide(<enderio:block_detector_block>);
 
 # Block Detector (Silent)
 JEI.removeAndHide(<enderio:block_detector_block_silent>);
 
-# Basic Capacitor Bank
-recipes.addShaped(<enderio:block_cap_bank:1>, [
-    [<ore:ingotIron>, <enderio:item_basic_capacitor>, <ore:ingotIron>],
-    [<enderio:item_basic_capacitor>, <ore:blockRedstone>, <enderio:item_basic_capacitor>],
-    [<ore:ingotIron>, <enderio:item_basic_capacitor>, <ore:ingotIron>]
-]);
-
 # Energy Gauge
 recipes.addShaped(<enderio:block_gauge>, [
-    [<ore:ingotIron>, null, <ore:ingotIron>],
-    [<ore:ingotElectricalSteel>, <enderio:item_conduit_probe>, <ore:ingotElectricalSteel>],
-    [<ore:ingotIron>, null, <ore:ingotIron>]
+    [<ore:plateIron>, null, <ore:plateIron>],
+    [<ore:plateElectricalSteel>, <enderio:item_conduit_probe>, <ore:plateElectricalSteel>],
+    [<ore:plateIron>, null, <ore:plateIron>]
 ]);
 
 # Power Monitor
@@ -55,8 +72,8 @@ recipes.addShaped(<enderio:block_enchanter>, [
 # Farming Station
 recipes.addShaped(<enderio:block_farm_station>, [
     [<ore:itemVibrantCrystal>, <ore:skullZombieController>, <ore:itemVibrantCrystal>],
-    [<ore:ingotSoularium>, <ore:itemSoulMachineChassi>, <ore:ingotSoularium>],
-    [<ore:gearEnergeticAlloySteel>, <ore:itemPulsatingCrystal>, <ore:gearEnergeticAlloySteel>]
+    [<ore:plateSoularium>, <ore:itemSoulMachineChassi>, <ore:plateSoularium>],
+    [<ore:gearEnergeticAlloy>, <ore:itemPulsatingCrystal>, <ore:gearEnergeticAlloy>]
 ]);
 <enderio:block_farm_station>.addTooltip(format.red("We have Greenhouse, so that's better."));
 
@@ -74,30 +91,30 @@ JEI.removeAndHide(<enderio:block_stirling_generator>);
 
 # Zombie Generator
 recipes.addShaped(<enderio:block_zombie_generator>, [
-    [<ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>],
-    [<enderio:block_fused_quartz:*>, <ore:skullZombieElectrode>, <enderio:block_fused_quartz:*>],
-    [<enderio:block_fused_quartz:*>, <enderio:block_fused_quartz:*>, <enderio:block_fused_quartz:*>]
+    [<ore:plateDarkSteel>, <ore:circuitAdvanced>, <ore:plateDarkSteel>],
+    [<ore:fusedQuartz>, <ore:itemMachineChassi>, <ore:fusedQuartz>],
+    [<metaitem:electric.motor.hv>, <ore:skullZombieElectrode>, <metaitem:electric.motor.hv>]
 ]);
 
 # Frank'n'Zombie Generator
 recipes.addShaped(<enderio:block_franken_zombie_generator>, [
-    [<ore:ingotSoularium>, <ore:ingotSoularium>, <ore:ingotSoularium>],
-    [<enderio:block_fused_quartz:*>, <ore:skullZombieFrankenstein>, <enderio:block_fused_quartz:*>],
-    [<enderio:block_fused_quartz:*>, <enderio:block_fused_quartz:*>, <enderio:block_fused_quartz:*>]
+    [<ore:plateSoularium>, <ore:circuitExtreme>, <ore:plateSoularium>],
+    [<ore:fusedQuartz>, <ore:itemEnhancedMachineChassi>, <ore:fusedQuartz>],
+    [<metaitem:electric.motor.ev>, <ore:skullZombieFrankenstein>, <metaitem:electric.motor.ev>]
 ]);
 
 # Ender Generator
 recipes.addShaped(<enderio:block_ender_generator>, [
-    [<ore:ingotEndSteel>, <ore:ingotEndSteel>, <ore:ingotEndSteel>],
-    [<enderio:block_fused_quartz:*>, <ore:skullEnderResonator>, <enderio:block_fused_quartz:*>],
-    [<enderio:block_fused_quartz:*>, <enderio:block_fused_quartz:*>, <enderio:block_fused_quartz:*>]
+    [<ore:plateEndSteel>, <ore:circuitElite>, <ore:plateEndSteel>],
+    [<ore:fusedQuartz>, <ore:itemEndSteelMachineChassi>, <ore:fusedQuartz>],
+    [<metaitem:electric.motor.iv>, <ore:skullSentientEnder>, <metaitem:electric.motor.iv>]
 ]);
 
 # Killer Joe
 recipes.addShaped(<enderio:block_killer_joe>, [
-    [<ore:ingotDarkSteel>, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>],
-    [<enderio:block_fused_quartz:*>, <ore:skullZombieFrankenstein>, <enderio:block_fused_quartz:*>],
-    [<enderio:block_fused_quartz:*>, <enderio:block_fused_quartz:*>, <enderio:block_fused_quartz:*>]
+    [<ore:plateSoularium>, <ore:circuitExtreme>, <ore:plateSoularium>],
+    [<ore:fusedQuartz>, <ore:itemEnhancedMachineChassi>, <ore:fusedQuartz>],
+    [<metaitem:electric.motor.ev>, <ore:skullZombieController>, <metaitem:electric.motor.ev>]
 ]);
 
 # Lava Heat Exchanger
@@ -149,22 +166,22 @@ recipes.addShapeless(<enderio:block_electric_light:5>, [
 # Attractor Obelisk
 recipes.addShaped(<enderio:block_attractor_obelisk>, [
     [null, <ore:itemAttractorCrystal>, null],
-    [<ore:ingotEnergeticAlloy>, <ore:gearWood>, <ore:ingotEnergeticAlloy>],
-    [<ore:ingotSoularium>, <ore:itemSoulMachineChassi>, <ore:ingotSoularium>]
+    [<ore:plateEnergeticAlloy>, <ore:gearWood>, <ore:plateEnergeticAlloy>],
+    [<ore:plateSoularium>, <ore:itemSoulMachineChassi>, <ore:plateSoularium>]
 ]);
 
 # Aversion Obelisk
 recipes.addShaped(<enderio:block_aversion_obelisk>, [
     [null, <enderio:block_enderman_skull:2>, null],
-    [<ore:ingotEnergeticAlloy>, <ore:gearEnergeticAlloySteel>, <ore:ingotEnergeticAlloy>],
-    [<ore:ingotSoularium>, <ore:itemSoulMachineChassi>, <ore:ingotSoularium>]
+    [<ore:plateEnergeticAlloy>, <ore:gearEnergeticAlloy>, <ore:plateEnergeticAlloy>],
+    [<ore:plateSoularium>, <ore:itemSoulMachineChassi>, <ore:plateSoularium>]
 ]);
 
 # Inhibitor Obelisk
 recipes.addShaped(<enderio:block_inhibitor_obelisk>, [
     [null, <ore:itemEnderCrystal>, null],
-    [<ore:ingotEnergeticAlloy>, <ore:gearElectricalSteel>, <ore:ingotEnergeticAlloy>],
-    [<ore:ingotSoularium>, <ore:itemSoulMachineChassi>, <ore:ingotSoularium>]
+    [<ore:plateEnergeticAlloy>, <ore:gearElectricalSteel>, <ore:plateEnergeticAlloy>],
+    [<ore:plateSoularium>, <ore:itemSoulMachineChassi>, <ore:plateSoularium>]
 ]);
 
 # Relocator Obelisk
@@ -177,15 +194,15 @@ recipes.addShaped(<enderio:block_relocator_obelisk>, [
 # Weather Obelisk
 recipes.addShaped(<enderio:block_weather_obelisk>, [
     [null, <ore:itemWeatherCrystal>, null],
-    [<ore:ingotEnergeticAlloy>, <enderio:item_basic_capacitor:2>, <ore:ingotEnergeticAlloy>],
-    [<ore:ingotSoularium>, <ore:itemSoulMachineChassi>, <ore:ingotSoularium>]
+    [<ore:plateEnergeticAlloy>, <enderio:item_basic_capacitor:2>, <ore:plateEnergeticAlloy>],
+    [<ore:plateSoularium>, <ore:itemSoulMachineChassi>, <ore:plateSoularium>]
 ]);
 
 # Experienec Obelisk
 recipes.addShaped(<enderio:block_experience_obelisk>, [
     [null, <enderio:item_xp_transfer>, null],
-    [<ore:ingotEnergeticAlloy>, <gregtech:machine:1575>, <ore:ingotEnergeticAlloy>],
-    [<ore:ingotSoularium>, <ore:itemSoulMachineChassi>, <ore:ingotSoularium>]
+    [<ore:plateEnergeticAlloy>, <gregtech:machine:1575>, <ore:plateEnergeticAlloy>],
+    [<ore:plateSoularium>, <ore:itemSoulMachineChassi>, <ore:plateSoularium>]
 ]);
 
 # Painting Machine
@@ -208,9 +225,9 @@ JEI.removeAndHide(<enderio:block_enhanced_sag_mill>);
 
 # Slice'N'Splice
 recipes.addShaped(<enderio:block_slice_and_splice>, [
-    [<ore:ingotSoularium>, <ore:itemSkull>, <ore:ingotSoularium>],
-    [<ore:ingotSoularium>, <ore:itemSoulMachineChassi>, <ore:ingotSoularium>],
-    [<ore:gearEnergeticAlloySteel>, <enderio:block_dark_iron_bars>, <ore:gearEnergeticAlloySteel>]
+    [<ore:plateSoularium>, <ore:itemSkull>, <ore:plateSoularium>],
+    [<ore:plateSoularium>, <ore:itemSoulMachineChassi>, <ore:plateSoularium>],
+    [<ore:gearEnergeticAlloy>, <enderio:block_dark_iron_bars>, <ore:gearEnergeticAlloy>]
 ]);
 
 # Photovoltaic Cells
@@ -218,15 +235,15 @@ JEI.removeAndHide(<enderio:block_solar_panel:*>);
 
 # Soul Binder
 recipes.addShaped(<enderio:block_soul_binder>, [
-    [<ore:ingotSoularium>, <enderio:block_enderman_skull>, <ore:ingotSoularium>],
+    [<ore:plateSoularium>, <enderio:block_enderman_skull>, <ore:plateSoularium>],
     [<minecraft:skull:4>, <ore:itemSoulMachineChassi>, <minecraft:skull:2>],
-    [<ore:ingotSoularium>, <minecraft:skull>, <ore:ingotSoularium>]
+    [<ore:plateSoularium>, <minecraft:skull>, <ore:plateSoularium>]
 ]);
 
 # Powered Spawner
 recipes.addShaped(<enderio:block_powered_spawner>.withEmptyTag(), [
-    [<ore:ingotElectricalSteel>, <ore:itemSkull>, <ore:ingotElectricalSteel>],
-    [<ore:ingotElectricalSteel>, <ore:itemSoulMachineChassi>, <ore:ingotElectricalSteel>],
+    [<ore:plateElectricalSteel>, <ore:itemSkull>, <ore:plateElectricalSteel>],
+    [<ore:plateElectricalSteel>, <ore:itemSoulMachineChassi>, <ore:plateElectricalSteel>],
     [<ore:itemVibrantCrystal>, <enderio:item_material:41>, <ore:itemVibrantCrystal>]
 ]);
 
@@ -247,9 +264,9 @@ JEI.removeAndHide(<enderio:block_enhanced_wired_charger>);
 
 # Wireless Charger
 recipes.addShaped(<enderio:block_wireless_charger>, [
-    [<ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>],
-    [<ore:ingotElectricalSteel>, <ore:skullEnderResonator>, <ore:ingotElectricalSteel>],
-    [<ore:ingotElectricalSteel>, <enderio:item_capacitor_silver>, <ore:ingotElectricalSteel>]
+    [<ore:plateElectricalSteel>, <ore:plateElectricalSteel>, <ore:plateElectricalSteel>],
+    [<ore:plateElectricalSteel>, <ore:skullEnderResonator>, <ore:plateElectricalSteel>],
+    [<ore:plateElectricalSteel>, <enderio:item_capacitor_silver>, <ore:plateElectricalSteel>]
 ]);
 
 # Wireless Charging Antenna
@@ -269,7 +286,7 @@ recipes.addShaped(<enderio:block_enhanced_wireless_charger>, [
 # Wireless Charging Antenna Extension
 recipes.addShaped(<enderio:block_wireless_charger_extension>, [
     [null, <ore:itemWirelessDish>, null],
-    [<ore:itemWirelessDish>, <ore:ingotEndSteel>, <ore:itemWirelessDish>],
+    [<ore:itemWirelessDish>, <ore:plateEndSteel>, <ore:itemWirelessDish>],
     [null, <ore:itemWirelessDish>, null]
 ]);
 
@@ -278,9 +295,9 @@ JEI.removeAndHide(<enderio:block_tank:*>);
 
 # Dimensional Transceiver
 recipes.addShaped(<enderio:block_transceiver>, [
-    [<ore:ingotElectricalSteel>, <ore:skullEnderResonator>, <ore:ingotElectricalSteel>],
+    [<ore:plateElectricalSteel>, <ore:skullEnderResonator>, <ore:plateElectricalSteel>],
     [<enderio:block_fused_quartz:*>, <ore:itemEnderCrystal>, <enderio:block_fused_quartz:*>],
-    [<ore:ingotElectricalSteel>, <enderio:item_capacitor_vivid>, <ore:ingotElectricalSteel>]
+    [<ore:plateElectricalSteel>, <enderio:item_capacitor_vivid>, <ore:plateElectricalSteel>]
 ]);
 
 # Vacuum Chest
@@ -288,9 +305,9 @@ JEI.removeAndHide(<enderio:block_vacuum_chest>);
 
 # XP Vacuum
 recipes.addShaped(<enderio:block_xp_vacuum>, [
-    [<ore:ingotConstructionAlloy>, <ore:ingotConstructionAlloy>, <ore:ingotConstructionAlloy>],
-    [<ore:ingotConstructionAlloy>, <enderio:item_xp_transfer>, <ore:ingotConstructionAlloy>],
-    [<ore:ingotConstructionAlloy>, <ore:itemPulsatingCrystal>, <ore:ingotConstructionAlloy>]
+    [<ore:plateConstructionAlloy>, <ore:plateConstructionAlloy>, <ore:plateConstructionAlloy>],
+    [<ore:plateConstructionAlloy>, <enderio:item_xp_transfer>, <ore:plateConstructionAlloy>],
+    [<ore:plateConstructionAlloy>, <ore:itemPulsatingCrystal>, <ore:plateConstructionAlloy>]
 ]);
 
 # The Niard
@@ -298,30 +315,30 @@ JEI.removeAndHide(<enderio:block_niard>);
 
 # Travel Anchor
 recipes.addShaped(<enderio:block_travel_anchor>, [
-    [<ore:ingotConstructionAlloy>, <ore:itemConduitBinder>, <ore:ingotConstructionAlloy>],
-    [<ore:itemConduitBinder>, <ore:itemPulsatingCrystal>, <ore:itemConduitBinder>],
-    [<ore:ingotConstructionAlloy>, <ore:itemConduitBinder>, <ore:ingotConstructionAlloy>]
+    [<ore:plateElectricalSteel>, <ore:blockElevator>, <ore:plateElectricalSteel>],
+    [<ore:itemPulsatingCrystal>, <ore:itemEnhancedMachineChassi>, <ore:itemPulsatingCrystal>],
+    [<ore:plateElectricalSteel>, <metaitem:field.generator.hv>, <ore:plateElectricalSteel>]
 ]);
 
 # Telepad Block
 recipes.addShaped(<enderio:block_tele_pad>, [
-    [<enderio:block_fused_quartz:*>, <ore:ingotVibrantAlloy>, <enderio:block_fused_quartz:*>],
-    [<ore:ingotDarkSteel>, <enderio:block_travel_anchor>, <ore:ingotDarkSteel>],
-    [<ore:ingotDarkSteel>, <enderio:item_capacitor_silver>, <ore:ingotDarkSteel>]
+    [<enderio:block_fused_quartz:*>, <ore:plateVibrantAlloy>, <enderio:block_fused_quartz:*>],
+    [<ore:plateDarkSteel>, <enderio:block_travel_anchor>, <ore:plateDarkSteel>],
+    [<ore:plateDarkSteel>, <enderio:item_capacitor_silver>, <ore:plateDarkSteel>]
 ]);
 
 # Dialing Device
 recipes.addShaped(<enderio:block_dialing_device>, [
-    [null, <ore:ingotElectricalSteel>, null],
+    [null, <ore:plateElectricalSteel>, null],
     [null, <ore:skullEnderResonator>, null],
-    [<ore:ingotDarkSteel>, <enderio:item_capacitor_vivid>, <ore:ingotDarkSteel>]
+    [<ore:plateDarkSteel>, <enderio:item_capacitor_vivid>, <ore:plateDarkSteel>]
 ]);
 
 # Impulse Hopper
 recipes.addShaped(<enderio:block_impulse_hopper>, [
-    [<ore:ingotElectricalSteel>, <ore:blockHopper>, <ore:ingotElectricalSteel>],
-    [<ore:gearEnergeticAlloySteel>, <ore:itemMachineChassi>, <ore:gearEnergeticAlloySteel>],
-    [<ore:ingotElectricalSteel>, <ore:ingotRedstoneAlloy>, <ore:ingotElectricalSteel>]
+    [<ore:plateElectricalSteel>, <ore:blockHopper>, <ore:plateElectricalSteel>],
+    [<ore:gearEnergeticAlloy>, <ore:itemMachineChassi>, <ore:gearEnergeticAlloy>],
+    [<ore:plateElectricalSteel>, <ore:plateRedstoneAlloy>, <ore:plateElectricalSteel>]
 ]);
 
 # Simple Crafter
@@ -330,6 +347,6 @@ JEI.removeAndHide(<enderio:block_simple_crafter>);
 # Crafter
 recipes.addShaped(<enderio:block_crafter>, [
     [<ore:dustSilicon>, <ore:dustSilicon>, <ore:dustSilicon>], 
-    [<ore:ingotConstructionAlloy>, <ore:itemMachineChassi>, <ore:ingotConstructionAlloy>], 
+    [<ore:plateConstructionAlloy>, <ore:itemMachineChassi>, <ore:plateConstructionAlloy>], 
     [<ore:gearElectricalSteel>, <ore:workbench>, <ore:gearElectricalSteel>]
 ]);

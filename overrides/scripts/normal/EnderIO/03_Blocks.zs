@@ -15,13 +15,13 @@ import mods.enderio.Tank; // no
 # Dark Steel Anvil
 alloy_smelter.recipeBuilder()
     .inputs([<ore:ingotDarkSteel> * 31])
-    .notConsumable([<gregtech:meta_item_1:21>])
+    .notConsumable([<metaitem:shape.mold.anvil>])
     .outputs([<enderio:block_dark_steel_anvil>])
     .duration(512)
     .EUt(480)
     .buildAndRegister();
 fluid_solidifier.recipeBuilder()
-    .notConsumable([<gregtech:meta_item_1:21>])
+    .notConsumable([<metaitem:shape.mold.anvil>])
     .fluidInputs([<liquid:dark_steel> * 4467])
     .outputs([<enderio:block_dark_steel_anvil>])
     .duration(128)
