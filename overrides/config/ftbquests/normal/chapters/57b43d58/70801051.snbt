@@ -1,11 +1,19 @@
 {
+	title: "The R in The LCR",
 	x: -8.5d,
 	y: 2.0d,
+	description: "Resistor",
+	text: [
+		"レジスタは電子回路を作るために必要な比較的楽に作れる素材です。",
+		"2つレシピが表示されていますが極細のワイヤーを使って作った方が効率的です。",
+		"LVに進めば更に効率的になります。"
+	],
 	dependencies: [
 		"d5b3f792",
 		"76b62977",
 		"94d3ca3d"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "ac5ee216",
 		type: "item",

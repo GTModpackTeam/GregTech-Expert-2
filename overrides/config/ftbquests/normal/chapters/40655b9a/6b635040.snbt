@@ -8,7 +8,8 @@
 	tasks: [{
 		uid: "b49a9913",
 		type: "fluid",
-		fluid: "silicone_rubber"
+		fluid: "silicone_rubber",
+		amount: 1
 	},
 	{
 		uid: "d47f22f6",

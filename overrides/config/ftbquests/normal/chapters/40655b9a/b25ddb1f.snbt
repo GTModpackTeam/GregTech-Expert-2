@@ -1,0 +1,13 @@
+{
+	title: "TODO",
+	x: -6.0d,
+	y: 0.0d,
+	text: [
+		"TODO:ウラン処理",
+		"TODO:Central Monitor"
+	],
+	tasks: [{
+		uid: "e6c7c2ba",
+		type: "checkmark"
+	}]
+}

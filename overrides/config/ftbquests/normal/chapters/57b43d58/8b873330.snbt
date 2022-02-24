@@ -1,10 +1,20 @@
 {
+	title: "真空はGregicality-Scienceで実装予定",
 	icon: "gregtech:meta_item_1 1 516",
 	x: -8.5d,
 	y: 0.0d,
-	dependencies: [
-		"76b62977"
+	description: "Vacuum Tube",
+	text: [
+		"真空管は作るのが大変な素材です。",
+		"現状ワイヤーと金属棒はとても高価ですが、LV時代に入ると値崩れするので辛抱しましょう。",
+		"",
+		"真空管は厳密にはプレイヤーが作ることになる最初の回路です。",
+		"使い道はあまりありませんが...。"
 	],
+	dependencies: [
+		"8783b021"
+	],
+	min_width: 300,
 	or_tasks: true,
 	tasks: [{
 		uid: "3e50dafd",

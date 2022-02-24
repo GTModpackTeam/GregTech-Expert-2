@@ -8,8 +8,8 @@
 		"容量が小さめの木製クレートも上部にブロックがあっても開けられるチェストとして機能します。",
 		"簡単な機械のバッファーとして使ってもいいでしょう。",
 		"",
-		"余談：クレートはShadows of GregというGregtechのアドオンに既に存在していたが、",
-		"Shadows of Gregを採用した最も有名なmodpackであるOmnifactoryで削除されていたためか知名度が低い"
+		"余談：クレートはShadows_of_GregというGregtechのアドオンに既に存在していたが、",
+		"Shadows _of_Gregを採用した最も有名なmodpackであるOmnifactoryで削除されていたためか知名度が低い"
 	],
 	dependencies: [
 		"3ac887a1"

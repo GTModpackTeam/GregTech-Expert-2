@@ -1,8 +1,8 @@
 {
 	title: "本嫌い",
-	icon: "ftbquests:book",
+	icon: "ftbquests:barrier",
 	x: 0.0d,
-	y: 2.0d,
+	y: 4.0d,
 	shape: "square",
 	description: "クエストショートカット",
 	text: [
@@ -14,7 +14,7 @@
 		"そうすることで、そのキーを押すことでいつでもクエスト画面を開くことができます。"
 	],
 	dependencies: [
-		"d55d8909"
+		"9ac73ca6"
 	],
 	min_width: 300,
 	tasks: [{

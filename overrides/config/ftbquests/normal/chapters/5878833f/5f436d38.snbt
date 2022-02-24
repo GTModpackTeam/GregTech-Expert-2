@@ -8,16 +8,19 @@
 	tasks: [{
 		uid: "87d3f912",
 		type: "fluid",
-		fluid: "refinery_gas"
+		fluid: "refinery_gas",
+		amount: 1
 	},
 	{
 		uid: "872f6abe",
 		type: "fluid",
-		fluid: "methane"
+		fluid: "methane",
+		amount: 1
 	},
 	{
 		uid: "3c53abdb",
 		type: "fluid",
-		fluid: "lpg"
+		fluid: "lpg",
+		amount: 1
 	}]
 }

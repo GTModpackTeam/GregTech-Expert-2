@@ -1,10 +1,15 @@
 {
 	title: "まだ錆ない",
-	x: 6.0d,
+	x: 8.0d,
 	y: 2.0d,
 	description: "Copper Ingot",
 	text: [
-		""
+		"銅インゴットを入手しましょう。",
+		"",
+		"JEIのツールチップに鉱石の化学式が書かれていますが、",
+		"それを見ればどの鉱石からどの金属が入手できるか分かります。",
+		"銅はCu、錫はSn、鉄はFeで表されています。",
+		"他の元素が知りたい場合は周期表と相談しましょう。"
 	],
 	dependencies: [
 		"996de704",
@@ -13,6 +18,7 @@
 		"322d305a"
 	],
 	dependency_requirement: "one_completed",
+	min_width: 300,
 	tasks: [{
 		uid: "8ce184fc",
 		type: "item",

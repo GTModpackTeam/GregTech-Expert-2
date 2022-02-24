@@ -1,6 +1,6 @@
 {
 	title: "ピストン内蔵型圧縮機",
-	x: -7.0d,
+	x: -9.0d,
 	y: 2.0d,
 	shape: "diamond",
 	description: "Steam Compressor",

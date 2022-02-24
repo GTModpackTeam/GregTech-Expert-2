@@ -1,0 +1,20 @@
+{
+	x: 24.0d,
+	y: 0.0d,
+	dependencies: [
+		"f7850c87"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "ec379448",
+		type: "item",
+		items: [{
+			id: "wct:wct",
+			tag: {
+				InfinityEnergy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

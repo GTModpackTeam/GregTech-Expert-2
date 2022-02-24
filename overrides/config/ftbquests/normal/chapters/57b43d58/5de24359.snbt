@@ -6,6 +6,7 @@
 		"21fe0159"
 	],
 	dependency_requirement: "one_completed",
+	min_width: 300,
 	tasks: [{
 		uid: "69275a14",
 		type: "item",

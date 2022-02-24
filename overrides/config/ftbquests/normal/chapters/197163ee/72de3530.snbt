@@ -1,7 +1,8 @@
 {
-	title: "Lapis Vein",
+	title: "とりあえず青い鉱石まとめてみました",
 	x: 4.0d,
 	y: 4.0d,
+	description: "Lapis Vein",
 	text: [
 		""
 	],

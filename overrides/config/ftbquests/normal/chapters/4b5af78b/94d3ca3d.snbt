@@ -1,20 +1,22 @@
 {
 	title: "本好き",
 	icon: "minecraft:paper",
-	x: 6.0d,
-	y: 0.0d,
+	x: 14.0d,
+	y: 2.0d,
 	shape: "diamond",
 	description: "Paper",
 	text: [
-		"序盤で大量に使用することになる紙を集めましょう。",
-		"紙は本を分解するまたはサトウキビをすりつぶすことで製作することができます。",
+		"レジスタで大量に使用することになる紙を集めましょう。",
+		"紙は本を分解するまたはサトウキビをすりつぶして麺棒で伸ばすことで製作することができます。",
 		"近場に村がなければサトウキビ畑を広げていきましょう。",
 		"",
 		"余談：GTCEuの原型となったGregicalityでは紙に水バケツを用いて製作するレシピがあったが、",
-		"手間が非常にかかるのが不評だったのか現在ではなくなっている。"
+		"手間が非常にかかるのが不評だったのか現在ではなくなっている。",
+		"",
+		"余談：このmodpackにはかつて本から直接紙を作るレシピがあったがいつのまにか削除された"
 	],
 	dependencies: [
-		"37835f75"
+		"3ac887a1"
 	],
 	dependency_requirement: "all_started",
 	min_width: 300,
@@ -30,7 +32,26 @@
 		}]
 	},
 	{
-		uid: "6bb79414",
+		uid: "5cff6fcc",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolRollingPin"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolRollingPin"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "16650013",
 		type: "item",
 		items: [{
 			item: "minecraft:paper"

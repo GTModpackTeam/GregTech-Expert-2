@@ -1,7 +1,7 @@
 {
 	title: "露天風呂のお湯が出てくるところについてるやつ",
-	x: 14.0d,
-	y: 4.0d,
+	x: 18.0d,
+	y: 0.0d,
 	description: "Small Wood Fluid Pipe",
 	text: [
 		"木製液体パイプは低温の流体を流すことのできるパイプです。",

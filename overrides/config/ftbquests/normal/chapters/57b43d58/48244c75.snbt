@@ -7,6 +7,7 @@
 		"141783ef"
 	],
 	dependency_requirement: "all_started",
+	min_width: 300,
 	or_tasks: true,
 	tasks: [{
 		uid: "83aca107",

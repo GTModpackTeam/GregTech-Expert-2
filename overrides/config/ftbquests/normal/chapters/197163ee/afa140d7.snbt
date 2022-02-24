@@ -1,6 +1,11 @@
 {
-	x: 10.0d,
+	title: "ほぼ高炉専用",
+	x: 8.0d,
 	y: 6.0d,
+	description: "Gypsum Dust",
+	text: [
+		""
+	],
 	dependencies: [
 		"f707923d"
 	],

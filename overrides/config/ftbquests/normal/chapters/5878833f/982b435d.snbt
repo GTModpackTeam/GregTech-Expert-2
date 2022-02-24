@@ -8,7 +8,8 @@
 	tasks: [{
 		uid: "dc654e1e",
 		type: "fluid",
-		fluid: "polyvinyl_chloride"
+		fluid: "polyvinyl_chloride",
+		amount: 1
 	},
 	{
 		uid: "38243460",

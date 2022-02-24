@@ -1,7 +1,7 @@
 {
 	title: "流体力学",
-	x: 14.0d,
-	y: 2.0d,
+	x: 16.0d,
+	y: 0.0d,
 	shape: "diamond",
 	description: "Fluid Handling",
 	text: [

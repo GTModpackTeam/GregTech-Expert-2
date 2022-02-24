@@ -5,6 +5,7 @@
 		"6d4ba79f"
 	],
 	dependency_requirement: "all_started",
+	min_width: 300,
 	tasks: [{
 		uid: "f69a90b1",
 		type: "item",

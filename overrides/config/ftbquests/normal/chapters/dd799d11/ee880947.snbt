@@ -1,0 +1,45 @@
+{
+	x: 20.0d,
+	y: -2.0d,
+	dependencies: [
+		"811a1952",
+		"f7850c87",
+		"f57c8629",
+		"f49e45c9"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "bb026057",
+		type: "item",
+		items: [{
+			id: "ae2wtlib:wut",
+			tag: {
+				InfinityEnergy: 0,
+				StoredTerminals: [{
+					id: "wit:wit",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					id: "wft:wft",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					id: "wpt:wpt",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					id: "wct:wct",
+					Count: 1b,
+					Damage: 0s
+				}],
+				SelectedTerminal: 0,
+				internalCurrentPower: 0.0d
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -5,6 +5,7 @@
 		"2bef72fb",
 		"51472338"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "5745f97c",
 		type: "item",

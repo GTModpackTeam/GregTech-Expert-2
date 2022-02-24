@@ -1,0 +1,19 @@
+{
+	title: "未実装",
+	icon: "gregtech:machine 1 19",
+	x: 8.0d,
+	y: 2.0d,
+	description: "Charcoal Pit Igniter",
+	text: [
+		"Charcoal Pit Igniterが実装されたら加筆します。"
+	],
+	dependencies: [
+		"a887d7d6"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "426dd6dc",
+		type: "checkmark",
+		title: "はい"
+	}]
+}

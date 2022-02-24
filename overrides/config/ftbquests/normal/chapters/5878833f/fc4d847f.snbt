@@ -8,21 +8,25 @@
 	tasks: [{
 		uid: "03a0b27f",
 		type: "fluid",
-		fluid: "oil"
+		fluid: "oil",
+		amount: 1
 	},
 	{
 		uid: "08c8db79",
 		type: "fluid",
-		fluid: "oil_heavy"
+		fluid: "oil_heavy",
+		amount: 1
 	},
 	{
 		uid: "8713da67",
 		type: "fluid",
-		fluid: "oil_medium"
+		fluid: "oil_medium",
+		amount: 1
 	},
 	{
 		uid: "bf9122b6",
 		type: "fluid",
-		fluid: "oil_light"
+		fluid: "oil_light",
+		amount: 1
 	}]
 }

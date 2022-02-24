@@ -1,23 +1,38 @@
 {
+	title: "EUをKUに変えます",
 	icon: "gregtech:meta_item_1 1 127",
 	x: -0.5d,
 	y: -2.0d,
+	description: "LV Electric motor",
+	text: [
+		"LV電動モーターはLV時代に進むための最後の関門です。",
+		"これを6個作らないと蒸気タービンとワイヤー作製機が作れず何もできません。",
+		"",
+		"クエストでは中間素材をタスクとしてあまり要求しない傾向がありますが、",
+		"これはクエストを何度も参照する負担を減らすためです。",
+		"JEIを参照すればいつでも調べることができます。",
+		"",
+		"これと電子回路を作ればLV時代に入ることができます。"
+	],
 	dependencies: [
 		"4389d536"
 	],
+	min_width: 300,
 	or_tasks: true,
 	tasks: [{
 		uid: "b4d4644e",
 		type: "item",
 		items: [{
 			item: "gregtech:meta_stick 1 395"
-		}]
+		}],
+		count: 6L
 	},
 	{
 		uid: "5ace26c0",
 		type: "item",
 		items: [{
 			item: "gregtech:meta_item_1 1 127"
-		}]
+		}],
+		count: 6L
 	}]
 }

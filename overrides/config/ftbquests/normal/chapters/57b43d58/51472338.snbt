@@ -1,25 +1,45 @@
 {
+	title: "LCRのうちRしかない回路",
 	icon: "gregtech:meta_item_1 1 621",
 	x: -6.5d,
 	y: 0.0d,
+	description: "Electronic Circuit",
+	text: [
+		"最初の電子回路を3つ作りましょう。",
+		"(3つ作らないと最初の機械を動かすことができません。)",
+		"",
+		"このクエストとLVモーターのクエストを終わらせることでLV時代が始まります。",
+		"",
+		"余談：Community_Packでは3つ目の回路がクエスト報酬として支給される",
+		"羨ましい",
+		"",
+		"余談：Modern_Industrialization_modでも同じ名前の回路がLV機械の素材として要求されるが、",
+		"こちらはインダクタ、キャパシタ、レジスタを全て使ったLCR回路である",
+		"",
+		"余談：Gregicality-Legacyではsupracausal_Circuit(超因果回路)という名前の回路があったので、",
+		"Community_Packでは昔この回路はsupracasual_Circuit(超カジュアル回路)とネタにされていた"
+	],
 	dependencies: [
 		"7c0bcaab",
 		"70801051",
 		"88bd8c3c",
 		"8b873330"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "d74bf541",
 		type: "item",
 		items: [{
 			item: "gregtech:cable_single 1 2517"
-		}]
+		}],
+		count: 9L
 	},
 	{
 		uid: "1374f311",
 		type: "item",
 		items: [{
 			item: "gregtech:meta_item_1 1 621"
-		}]
+		}],
+		count: 3L
 	}]
 }

@@ -1,7 +1,8 @@
 {
-	title: "Redstone Vein",
+	title: "とりあえず赤い鉱石まとめてみました",
 	x: 2.0d,
 	y: 4.0d,
+	description: "Redstone Vein",
 	text: [
 		""
 	],

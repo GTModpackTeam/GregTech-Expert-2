@@ -7,6 +7,7 @@
 	tasks: [{
 		uid: "c6552fe6",
 		type: "fluid",
-		fluid: "ammonia"
+		fluid: "ammonia",
+		amount: 1
 	}]
 }
