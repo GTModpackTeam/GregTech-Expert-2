@@ -238,12 +238,12 @@ MaterialBuilder(32116, "vivid_alloy")
 
 # AE2 - Fluix Dust (Override)
 MaterialBuilder(32117, "fluix")
-    .dust()
+    .dust().fluid()
     .color(0x846994)
     .build();
 
 # AE2 - Charged Certus Quartz Dust
 MaterialBuilder(32118, "charged_certus_quartz")
-    .dust()
-    .color(0xC9DAFF)
+    .dust().fluid()
+    .color(0xCFDAFF)
     .build();

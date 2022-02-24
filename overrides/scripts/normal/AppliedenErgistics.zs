@@ -775,151 +775,8 @@ recipes.addShaped(<appliedenergistics2:part:321>, [
     [<ore:plateAluminium>, <appliedenergistics2:material:43>, <ore:plateAluminium>]
 ]);
 
-# Certus Quartz Dust
-macerator.recipeBuilder()
-    .inputs([<appliedenergistics2:material>])
-    .outputs([<metaitem:dustCertusQuartz>])
-    .duration(20)
-    .EUt(480)
-    .buildAndRegister();
-macerator.recipeBuilder()
-    .inputs([<appliedenergistics2:quartz_block>])
-    .outputs([<metaitem:dustCertusQuartz> * 4])
-    .duration(20)
-    .EUt(480)
-    .buildAndRegister();
-
-# Charged Certus Quartz Dust
-electrolyzer.recipeBuilder()
-    .inputs([<ore:dustCertusQuartz>])
-    .outputs([<metaitem:dustChargedCertusQuartz>])
-    .duration(20)
-    .EUt(480)
-    .buildAndRegister();
-macerator.recipeBuilder()
-    .inputs([<appliedenergistics2:material:1>])
-    .outputs([<metaitem:dustChargedCertusQuartz>])
-    .duration(20)
-    .EUt(480)
-    .buildAndRegister();
-
-# Fluix Dust
-mixer.recipeBuilder()
-    .inputs([
-        <ore:dustChargedCertusQuartz>,
-        <ore:dustRedstone>,
-        <ore:dustNetherQuartz>
-    ])
-    .fluidInputs([<liquid:distilled_water> * 50])
-    .outputs([<metaitem:dustFluix>])
-    .duration(20)
-    .EUt(480)
-    .buildAndRegister();
-macerator.recipeBuilder()
-    .inputs([<appliedenergistics2:material:7>])
-    .outputs([<metaitem:dustFluix>])
-    .duration(20)
-    .EUt(480)
-    .buildAndRegister();
-macerator.recipeBuilder()
-    .inputs([<appliedenergistics2:fluix_block>])
-    .outputs([<metaitem:dustFluix> * 4])
-    .duration(20)
-    .EUt(480)
-    .buildAndRegister();
-
 # Certus Quartz Crystal
-JEI.removeAndHide(<appliedenergistics2:material> * 4);
-
-# Charged Certus Quartz Crystal
-electrolyzer.recipeBuilder()
-    .inputs([<ore:crystalCertusQuartz>])
-    .outputs([<appliedenergistics2:material:1>])
-    .duration(56)
-    .EUt(480)
-    .buildAndRegister();
-autoclave.recipeBuilder()
-    .inputs([<ore:dustChargedCertusQuartz>])
-    .fluidInputs([<liquid:distilled_water> * 50])
-    .outputs([<appliedenergistics2:material:1>])
-    .duration(600)
-    .EUt(24)
-    .buildAndRegister();
-autoclave.recipeBuilder()
-    .inputs([<ore:dustChargedCertusQuartz>])
-    .fluidInputs([<liquid:water> * 250])
-    .chancedOutput(<appliedenergistics2:material:1>, 7000, 1000)
-    .duration(1200)
-    .EUt(24)
-    .buildAndRegister();
-implosion_compressor.recipeBuilder()
-    .inputs([<ore:dustChargedCertusQuartz> * 4])
-    .property("explosives", <minecraft:tnt> * 2)
-    .outputs([
-        <appliedenergistics2:material:1> * 3,
-        <metaitem:dustTinyDarkAsh>
-    ])
-    .duration(20)
-    .EUt(30)
-    .buildAndRegister();
-implosion_compressor.recipeBuilder()
-    .inputs([<ore:dustChargedCertusQuartz> * 4])
-    .property("explosives", <metaitem:dynamite>)
-    .outputs([
-        <appliedenergistics2:material:1> * 3,
-        <metaitem:dustTinyDarkAsh>
-    ])
-    .duration(20)
-    .EUt(30)
-    .buildAndRegister();
-
-# Fluix Crystal
-recipes.removeShapeless(<appliedenergistics2:material:7> * 4, [<appliedenergistics2:fluix_block>]);
-mixer.recipeBuilder()
-    .inputs([
-        <appliedenergistics2:material:1>,
-        <ore:dustRedstone>,
-        <ore:gemNetherQuartz>
-    ])
-    .fluidInputs([<liquid:distilled_water> * 144])
-    .outputs([<appliedenergistics2:material:7>])
-    .duration(56)
-    .EUt(480)
-    .buildAndRegister();
-autoclave.recipeBuilder()
-    .inputs([<ore:dustFluix>])
-    .fluidInputs([<liquid:distilled_water> * 50])
-    .outputs([<appliedenergistics2:material:7>])
-    .duration(600)
-    .EUt(24)
-    .buildAndRegister();
-autoclave.recipeBuilder()
-    .inputs([<ore:dustFluix>])
-    .fluidInputs([<liquid:water> * 250])
-    .chancedOutput(<appliedenergistics2:material:7>, 7000, 1000)
-    .duration(1200)
-    .EUt(24)
-    .buildAndRegister();
-implosion_compressor.recipeBuilder()
-    .inputs([<ore:dustFluix> * 4])
-    .property("explosives", <minecraft:tnt> * 2)
-    .outputs([
-        <appliedenergistics2:material:7> * 3,
-        <metaitem:dustTinyDarkAsh>
-    ])
-    .duration(20)
-    .EUt(30)
-    .buildAndRegister();
-implosion_compressor.recipeBuilder()
-    .inputs([<ore:dustFluix> * 4])
-    .property("explosives", <metaitem:dynamite>)
-    .outputs([
-        <appliedenergistics2:material:7> * 3,
-        <metaitem:dustTinyDarkAsh>
-    ])
-    .duration(20)
-    .EUt(30)
-    .buildAndRegister();
+JEI.removeAndHide(<appliedenergistics2:material>);
 
 # Pure Certus Quartz Crystal
 recipes.remove(<appliedenergistics2:crystal_seed>);
@@ -982,22 +839,16 @@ macerator.recipeBuilder()
 ########################################
 # Blocks
 ########################################
-# Quartz Block
-recipes.remove(<appliedenergistics2:quartz_block>);
-recipes.remove(<appliedenergistics2:quartz_pillar>);
-recipes.remove(<appliedenergistics2:chiseled_quartz_block>);
-compressor.recipeBuilder()
-    .inputs([<ore:crystalCertusQuartz> * 4])
-    .outputs([<appliedenergistics2:quartz_block>])
-    .duration(300)
-    .EUt(2)
-    .buildAndRegister();
-compressor.recipeBuilder()
-    .inputs([<ore:crystalPureCertusQuartz> * 8])
-    .outputs([<appliedenergistics2:quartz_block>])
-    .duration(300)
-    .EUt(2)
-    .buildAndRegister();
+# Quartz Blocks
+JEI.removeAndHide(<appliedenergistics2:quartz_block>);
+JEI.removeAndHide(<appliedenergistics2:quartz_slab>);
+JEI.removeAndHide(<appliedenergistics2:quartz_stairs>);
+JEI.removeAndHide(<appliedenergistics2:quartz_pillar>);
+JEI.removeAndHide(<appliedenergistics2:quartz_pillar_slab>);
+JEI.removeAndHide(<appliedenergistics2:quartz_pillar_stairs>);
+JEI.removeAndHide(<appliedenergistics2:chiseled_quartz_block>);
+JEI.removeAndHide(<appliedenergistics2:chiseled_quartz_slab>);
+JEI.removeAndHide(<appliedenergistics2:chiseled_quartz_stairs>);
 
 # Fluix Block
 recipes.remove(<appliedenergistics2:fluix_block>);

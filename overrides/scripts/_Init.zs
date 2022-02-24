@@ -87,15 +87,26 @@ global voidoreminer as RecipeMap = FactoryRecipeMap.start("voidoreminer")
     .build();
 
 global saw_mill as RecipeMap = FactoryRecipeMap.start("saw_mill")
-    .minInputs(1)
-    .maxInputs(1)
+    .minInputs(2)
+    .maxInputs(2)
     .minOutputs(1)
-    .maxOutputs(2)
-    .minFluidInputs(0)
+    .maxOutputs(4)
+    .minFluidInputs(1)
     .maxFluidInputs(1)
     .minFluidOutputs(0)
     .maxFluidOutputs(0)
     .build();
+
+// global slice_n_splice as RecipeMap = FactoryRecipeMap.start("slice_n_splice")
+//     .minInputs(8)
+//     .maxInputs(8)
+//     .minOutputs(1)
+//     .maxOutputs(1)
+//     .minFluidInputs(0)
+//     .maxFluidInputs(0)
+//     .minFluidOutputs(0)
+//     .maxFluidOutputs(0)
+//     .build();
 
 <ore:gtce.tool.wrenches>.addItems([
     <gregtech:meta_tool:8>.withEmptyTag(),
