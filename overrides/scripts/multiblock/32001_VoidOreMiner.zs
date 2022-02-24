@@ -1,10 +1,6 @@
 # Imports
-import mods.jei.JEI;
 import crafttweaker.item.IItemStack;
-import crafttweaker.item.IItemDefinition;
-import crafttweaker.item.IIngredient;
-import crafttweaker.liquid.ILiquidStack;
-import crafttweaker.oredict.IOreDict;
+import mods.jei.JEI;
 import mods.gregtech.IControllerTile;
 import mods.gregtech.recipe.RecipeMap;
 import mods.gregtech.recipe.RecipeMaps;

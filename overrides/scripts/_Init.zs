@@ -97,17 +97,6 @@ global saw_mill as RecipeMap = FactoryRecipeMap.start("saw_mill")
     .maxFluidOutputs(0)
     .build();
 
-// global slice_n_splice as RecipeMap = FactoryRecipeMap.start("slice_n_splice")
-//     .minInputs(8)
-//     .maxInputs(8)
-//     .minOutputs(1)
-//     .maxOutputs(1)
-//     .minFluidInputs(0)
-//     .maxFluidInputs(0)
-//     .minFluidOutputs(0)
-//     .maxFluidOutputs(0)
-//     .build();
-
 <ore:gtce.tool.wrenches>.addItems([
     <gregtech:meta_tool:8>.withEmptyTag(),
     <gregtech:meta_tool:28>.withEmptyTag(),
