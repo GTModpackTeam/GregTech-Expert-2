@@ -1,3 +1,56 @@
+# v1.0.2
+## Upgrade mod
+* ReAuth -> OAuth
+* GTCEu(fork) v2.2.0-gte -> GTCEu(fork) v2.2.2-gte
+
+## Downgrade mod
+* AE2 Unofficial Extended Life v50c -> v50b
+* Does not work if there is a Programmed Circuit in the Input Bus of the Processing Array. [PrototypeTrousers/Applied-Energistics-2#85](https://github.com/PrototypeTrousers/Applied-Energistics-2/issues/85)
+
+## Del mods
+* Extra CPUs(Support had been terminated)
+
+## Add mods
+* Born in a Barn
+* Devtech
+* RandomPatches
+
+## Modpack update
+* I put a Discord link on the CMM 😎
+* Quest updated to v0.6.1. 
+* Fixed a bug that prevented the multiblock machine from completing assembly.
+* Added SawMill as a new multiblock machine.
+* Creative Energy Cell liquid requirements have changed.
+* Changed all recipes for Certus Quartz and Quartzite to the same number of creations as Nether Quartz.
+
+## Update recipes
+### AE2
+* Quartz Block -> GT Quartz Block
+
+## Fix recipes
+### AE2
+* Certus Quartz
+* Charged Certus Quartz Crystal
+* Fluix
+* Certus Quartz Dust
+* Quartzite Dust
+* Charged Certus Quartz Dust
+* Fluix Dust
+* Certus Quartz
+* Charged Certus Quartz Crystal
+* Fluix Crystal
+
+### GregTech
+* Quartzite
+* Certus Quartz Plate
+* Quartzite Plate
+* Quartzite Block
+
+#### Internal stuff not relevant to the crafter
+* Individualized ZenScript for Multiblock from GregTech.zs. It's hard to check when there are too many.
+
+* * *
+
 # v1.0.1
 Respond to the fact that GTFO is not included and that quests are not included.
 
