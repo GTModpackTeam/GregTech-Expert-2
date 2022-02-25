@@ -8,6 +8,7 @@
 	tasks: [{
 		uid: "958ff2ea",
 		type: "fluid",
-		fluid: "benzene"
+		fluid: "benzene",
+		amount: 1
 	}]
 }

@@ -38,7 +38,7 @@ assembly_line.recipeBuilder()
     .EUt(491520)
     .buildAndRegister();
 
-# Creative Cuantum Tank
+# Creative Quantum Tank
 assembly_line.recipeBuilder()
     .inputs([<gregtech:machine:1650> * 2])
     .inputs([<gregtech:machine:1589> * 64])
@@ -59,7 +59,7 @@ assembly_line.recipeBuilder()
     .EUt(491520)
     .buildAndRegister();
 
-# Creative Cuantum Chest
+# Creative Quantum Chest
 assembly_line.recipeBuilder()
     .inputs([<gregtech:machine:1650> * 8])
     .inputs([<gregtech:machine:1669> * 4])

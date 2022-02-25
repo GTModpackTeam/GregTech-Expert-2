@@ -1,5 +1,5 @@
 {
-	x: 14.0d,
+	x: 18.0d,
 	y: 0.0d,
 	dependencies: [
 		"eb1959d9"
@@ -8,8 +8,10 @@
 		uid: "b462d57b",
 		type: "item",
 		items: [{
-			id: "extracells:terminal.fluid.wireless",
-			tag: {}
+			id: "wft:wft",
+			tag: {
+				InfinityEnergy: 0
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

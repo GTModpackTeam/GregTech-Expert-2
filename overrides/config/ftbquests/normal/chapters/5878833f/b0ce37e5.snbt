@@ -7,6 +7,7 @@
 	tasks: [{
 		uid: "ea7dddc7",
 		type: "fluid",
-		fluid: "severely_steamcracked_light_fuel"
+		fluid: "severely_steamcracked_light_fuel",
+		amount: 1
 	}]
 }

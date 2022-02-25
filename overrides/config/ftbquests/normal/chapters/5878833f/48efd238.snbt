@@ -7,11 +7,13 @@
 	tasks: [{
 		uid: "3dd908c3",
 		type: "fluid",
-		fluid: "sulfuric_light_fuel"
+		fluid: "sulfuric_light_fuel",
+		amount: 1
 	},
 	{
 		uid: "31778a57",
 		type: "fluid",
-		fluid: "light_fuel"
+		fluid: "light_fuel",
+		amount: 1
 	}]
 }

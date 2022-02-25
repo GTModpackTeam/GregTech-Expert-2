@@ -8,6 +8,7 @@
 		"34d03450"
 	],
 	hide: true,
+	min_width: 300,
 	tasks: [{
 		uid: "a6ab2a3b",
 		type: "item",

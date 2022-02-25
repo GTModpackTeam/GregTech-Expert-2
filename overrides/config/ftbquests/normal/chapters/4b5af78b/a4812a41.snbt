@@ -1,7 +1,7 @@
 {
 	title: "筐体共有",
 	x: 20.0d,
-	y: 2.0d,
+	y: 4.0d,
 	description: "Multiblock Sharing",
 	text: [
 		"コークス炉をはじめとした多くのマルチブロックは隣のマルチブロックと構成部品を共有することができます。",

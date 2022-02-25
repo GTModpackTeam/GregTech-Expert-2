@@ -1,6 +1,11 @@
 {
+	title: "ULVのメイン素材",
 	x: 6.0d,
 	y: 6.0d,
+	description: "Lead Ingot",
+	text: [
+		""
+	],
 	dependencies: [
 		"1a646786"
 	],

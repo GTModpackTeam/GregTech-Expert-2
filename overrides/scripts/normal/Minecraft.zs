@@ -28,23 +28,6 @@ recipes.removeShapeless(<minecraft:fermented_spider_eye>, [
 ########################################
 # Blocks
 ########################################
-# Woods
-// recipes.remove(<minecraft:planks:*>);
-// recipes.remove(<gregtech:planks>);
-// recipes.addShapeless(<minecraft:planks:5> * 2, [<ore:gtce.tool.saws>, <minecraft:log2:1>]);
-// recipes.addShapeless(<minecraft:planks:4> * 2, [<ore:gtce.tool.saws>, <minecraft:log2>]);
-// recipes.addShapeless(<minecraft:planks:3> * 2, [<ore:gtce.tool.saws>, <minecraft:log:3>]);
-// recipes.addShapeless(<minecraft:planks:2> * 2, [<ore:gtce.tool.saws>, <minecraft:log:2>]);
-// recipes.addShapeless(<minecraft:planks:1> * 2, [<ore:gtce.tool.saws>, <minecraft:log:1>]);
-// recipes.addShapeless(<minecraft:planks> * 2, [<ore:gtce.tool.saws>, <minecraft:log>]);
-// recipes.addShapeless(<minecraft:planks:5>, [<minecraft:log2:1>]);
-// recipes.addShapeless(<minecraft:planks:4>, [<minecraft:log2>]);
-// recipes.addShapeless(<minecraft:planks:3>, [<minecraft:log:3>]);
-// recipes.addShapeless(<minecraft:planks:2>, [<minecraft:log:2>]);
-// recipes.addShapeless(<minecraft:planks:1>, [<minecraft:log:1>]);
-// recipes.addShapeless(<minecraft:planks>, [<minecraft:log>]);
-// recipes.addShapeless(<gregtech:planks>, [<gregtech:rubber_log>]);
-
 # Granite
 recipes.removeShapeless(<minecraft:stone:1>);
 
@@ -53,11 +36,6 @@ recipes.remove(<minecraft:stone:3>);
 
 # Andesite
 recipes.removeShapeless(<minecraft:stone:5>);
-
-# Path
-recipes.addShapeless(<minecraft:grass_path>, [
-    <minecraft:dirt>, <ore:gtce.tool.shovels>
-]);
 
 # Comparator
 recipes.removeShaped(<minecraft:comparator>, [

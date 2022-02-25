@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "GregTech Expert 2",
-  "version": "v1.0.1",
+  "version": "v1.0.2",
   "author": "tier940",
   "files": [
     {
@@ -75,6 +75,11 @@
       "required": true
     },
     {
+      "projectID": 285789,
+      "fileID": 2641661,
+      "required": true
+    },
+    {
       "projectID": 69118,
       "fileID": 2664449,
       "required": true
@@ -86,7 +91,7 @@
     },
     {
       "projectID": 564858,
-      "fileID": 3633718,
+      "fileID": 3661669,
       "required": true
     },
     {
@@ -111,7 +116,7 @@
     },
     {
       "projectID": 570458,
-      "fileID": 3649419,
+      "fileID": 3661725,
       "required": true
     },
     {
@@ -276,7 +281,12 @@
     },
     {
       "projectID": 477021,
-      "fileID": 3656194,
+      "fileID": 3661666,
+      "required": true
+    },
+    {
+      "projectID": 557242,
+      "fileID": 3661612,
       "required": true
     },
     {
@@ -327,6 +337,11 @@
     {
       "projectID": 253735,
       "fileID": 2514705,
+      "required": true
+    },
+    {
+      "projectID": 513857,
+      "fileID": 3539591,
       "required": true
     },
     {
@@ -445,11 +460,6 @@
       "required": true
     },
     {
-      "projectID": 408089,
-      "fileID": 3479639,
-      "required": true
-    },
-    {
       "projectID": 248787,
       "fileID": 2987247,
       "required": true
@@ -475,6 +485,11 @@
       "required": true
     },
     {
+      "projectID": 412037,
+      "fileID": 3661080,
+      "required": true
+    },
+    {
       "projectID": 383632,
       "fileID": 3056455,
       "required": true
@@ -485,11 +500,6 @@
       "required": true
     },
     {
-      "projectID": 237701,
-      "fileID": 2560638,
-      "required": true
-    },
-    {
       "projectID": 232131,
       "fileID": 2624732,
       "required": true
@@ -497,6 +507,11 @@
     {
       "projectID": 419286,
       "fileID": 3642000,
+      "required": true
+    },
+    {
+      "projectID": 285612,
+      "fileID": 3133651,
       "required": true
     },
     {

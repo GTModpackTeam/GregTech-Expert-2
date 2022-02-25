@@ -1,6 +1,12 @@
 {
+	title: "かまど 第三版",
 	x: -1.0d,
-	y: 2.0d,
+	y: 4.0d,
+	description: "High Pressure Steam Furnace",
+	text: [
+		"高圧蒸気式かまどを作ると燃料を節約できます。",
+		"更なる精錬が必要なら次のクエストのマルチブロックを作るといいでしょう。"
+	],
 	dependencies: [
 		"76b62977"
 	],

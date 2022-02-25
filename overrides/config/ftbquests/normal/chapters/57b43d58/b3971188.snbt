@@ -5,6 +5,7 @@
 	dependencies: [
 		"cd5ac370"
 	],
+	min_width: 300,
 	or_tasks: true,
 	tasks: [{
 		uid: "fb60f88e",

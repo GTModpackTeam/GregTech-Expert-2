@@ -1,7 +1,7 @@
 {
 	title: "ME Export Bus, ME Import Busを使わないで",
-	x: 18.0d,
-	y: -2.0d,
+	x: 10.0d,
+	y: -6.0d,
 	text: [
 		"ME_Export_BusとME_Import_Busは使用するとワールドに莫大な負荷がかかります。",
 		"使わないようにしましょう。",
@@ -14,8 +14,9 @@
 		"これでME_Import_Busも代用可能です。",
 		"液体についても同様です。"
 	],
+	hide_dependency_lines: true,
 	dependencies: [
-		"7443243a"
+		"81a3529a"
 	],
 	min_width: 300,
 	tasks: [{

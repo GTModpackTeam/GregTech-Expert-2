@@ -2,7 +2,7 @@
 	x: -6.0d,
 	y: -2.0d,
 	text: [
-		"TODO:ウラン処理のクエスト"
+		""
 	],
 	dependencies: [
 		"798d57e7"

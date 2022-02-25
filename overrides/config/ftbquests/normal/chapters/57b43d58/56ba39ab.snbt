@@ -4,11 +4,14 @@
 	dependencies: [
 		"51472338"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "deedfb8b",
 		type: "item",
 		items: [{
 			item: "gregtech:meta_item_1 1 461"
-		}]
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}]
 }

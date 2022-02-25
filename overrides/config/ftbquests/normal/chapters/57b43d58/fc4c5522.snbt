@@ -7,6 +7,7 @@
 		"b75f94e8",
 		"4f3f2754"
 	],
+	min_width: 300,
 	or_tasks: true,
 	tasks: [{
 		uid: "3e7b8b19",

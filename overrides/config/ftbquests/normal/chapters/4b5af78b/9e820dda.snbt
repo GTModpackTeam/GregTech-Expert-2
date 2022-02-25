@@ -5,6 +5,9 @@
 	shape: "diamond",
 	description: "Bucket",
 	text: [
+		"プレートはGregTechの随所で使われる材料で、二つのインゴットとハンマーをクラフトすることで作成できます。",
+		"蒸気時代に入るとより良いレシピが解禁されます。",
+		"",
 		"鉄プレート三枚を組み合わせることでバケツを作ることができます。",
 		"バニラで使われているバケツと概ねの機能は同じです。",
 		"",
@@ -15,7 +18,15 @@
 	],
 	min_width: 300,
 	tasks: [{
-		uid: "90da6100",
+		uid: "fcb83b1c",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_plate 1 51"
+		}],
+		count: 3L
+	},
+	{
+		uid: "3c0bf4e6",
 		type: "item",
 		items: [{
 			item: "minecraft:bucket"

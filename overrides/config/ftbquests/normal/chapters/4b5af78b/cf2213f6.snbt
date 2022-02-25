@@ -1,8 +1,8 @@
 {
 	title: "ポチん",
 	icon: "gregtech:meta_ingot 1 2037",
-	x: 12.0d,
-	y: 6.0d,
+	x: 20.0d,
+	y: -2.0d,
 	description: "Potin Ingot",
 	text: [
 		"ポティンは銅と錫と鉛で作ることのできる合金です。",

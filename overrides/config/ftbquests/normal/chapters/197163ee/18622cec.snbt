@@ -1,7 +1,8 @@
 {
-	title: "Diamond Vein",
-	x: 12.0d,
+	title: "ME Interfaceのレシピのせいで大量に掘り抜かれる存在",
+	x: 14.0d,
 	y: 4.0d,
+	description: "Diamond Vein",
 	text: [
 		""
 	],

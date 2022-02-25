@@ -4,9 +4,11 @@
 	dependencies: [
 		"d5cb9b5e"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "0c824f7c",
 		type: "fluid",
-		fluid: "nitrogen"
+		fluid: "nitrogen",
+		amount: 1
 	}]
 }

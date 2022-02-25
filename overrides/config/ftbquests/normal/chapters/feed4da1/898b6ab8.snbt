@@ -1,7 +1,7 @@
 {
 	title: "バニラの松明がどのようにして点火されているかは謎である",
-	x: -7.0d,
-	y: -2.0d,
+	x: -5.0d,
+	y: 0.0d,
 	description: "Unlit Mega Torch",
 	text: [
 		"Unlit_Mega_Torchを火打石と打ち金やライターで点火すると、",

@@ -1,7 +1,7 @@
 {
 	title: "念力で文字を浮かび上がらせられる人向け",
 	icon: "gregtech:meta_item_1 1 464",
-	x: -5.0d,
+	x: -7.0d,
 	y: 4.0d,
 	description: "Clipboard",
 	text: [

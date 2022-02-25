@@ -1,4 +1,3 @@
-#packmode normal
 #loader contenttweaker
 # Imports
 import mods.contenttweaker.Item;

@@ -63,14 +63,14 @@
       }
     },
     "discord": {
-      "text": "Coming Soon?",
+      "text": "Join Us On Discord!",
       "posX": -120,
       "posY": 88,
       "width": 120,
       "height": 20,
       "action": {
         "type": "openLink",
-        "link": "https://discord.com/"
+        "link": "https://discord.gg/wyub7zez"
       }
     },
     "update": {

@@ -1,7 +1,7 @@
 {
 	title: "墓石用チェスト",
 	x: 6.0d,
-	y: 2.0d,
+	y: 0.0d,
 	description: "Trash can",
 	text: [
 		"焼石があればゴミ箱が作れるようになります。",

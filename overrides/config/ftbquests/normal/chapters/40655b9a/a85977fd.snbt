@@ -7,6 +7,7 @@
 	tasks: [{
 		uid: "1d670b93",
 		type: "fluid",
-		fluid: "nitro_fuel"
+		fluid: "nitro_fuel",
+		amount: 1
 	}]
 }

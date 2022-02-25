@@ -8,6 +8,7 @@
 	tasks: [{
 		uid: "51bb3bd0",
 		type: "fluid",
-		fluid: "sulfuric_acid"
+		fluid: "sulfuric_acid",
+		amount: 1
 	}]
 }

@@ -7,6 +7,7 @@
 		"2fedffc8",
 		"b75f94e8"
 	],
+	min_width: 300,
 	or_tasks: true,
 	tasks: [{
 		uid: "09d44c33",

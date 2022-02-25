@@ -1,7 +1,8 @@
 {
-	title: "Upgrade Steam",
+	title: "今更だけど蒸気の搬出口に立つと死ぬ",
 	x: -5.0d,
 	y: -2.0d,
+	description: "Upgrade Steam Machines",
 	text: [
 		"既存の蒸気機械を鋼鉄製のものにアップグレードしましょう。",
 		"アップグレードすると機械の蒸気の消費速度が倍になり、加工速度も倍になります。",

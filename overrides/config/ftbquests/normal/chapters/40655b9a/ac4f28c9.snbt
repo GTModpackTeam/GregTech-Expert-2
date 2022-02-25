@@ -8,6 +8,7 @@
 	tasks: [{
 		uid: "b5db1387",
 		type: "fluid",
-		fluid: "nitric_acid"
+		fluid: "nitric_acid",
+		amount: 1
 	}]
 }

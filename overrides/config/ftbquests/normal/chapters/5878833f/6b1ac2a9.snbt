@@ -8,11 +8,13 @@
 	tasks: [{
 		uid: "230867b2",
 		type: "fluid",
-		fluid: "sodium_persulfate"
+		fluid: "sodium_persulfate",
+		amount: 1
 	},
 	{
 		uid: "aeb5553a",
 		type: "fluid",
-		fluid: "iron_iii_chloride"
+		fluid: "iron_iii_chloride",
+		amount: 1
 	}]
 }
