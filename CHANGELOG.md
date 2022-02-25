@@ -1,7 +1,9 @@
 # v1.0.2
 ## Upgrade mod
 * ReAuth -> OAuth
-* GTCEu(fork) v2.2.0-gte -> GTCEu(fork) v2.2.2-gte
+* GTCEu(fork) v2.2.0-gte -> GTCEu(fork) v2.2.2-gt
+* Gregicality Multiblocks
+* GregTech Food Option
 
 ## Downgrade mod
 * AE2 Unofficial Extended Life v50c -> v50b
@@ -22,6 +24,10 @@
 * Added SawMill as a new multiblock machine.
 * Creative Energy Cell liquid requirements have changed.
 * Changed all recipes for Certus Quartz and Quartzite to the same number of creations as Nether Quartz.
+
+# Del recipes
+## Minecraft
+* Path(Because changes were made to allow for recovery).
 
 ## Update recipes
 ### AE2

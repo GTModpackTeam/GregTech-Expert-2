@@ -1,5 +1,6 @@
 #loader gregtech
 # Imports
+import mods.gregtech.material.FluidTypes;
 import mods.gregtech.material.Material;
 import mods.gregtech.material.MaterialBuilder;
 import mods.gregtech.material.MaterialRegistry;
@@ -11,14 +12,14 @@ import mods.gregtech.material.MaterialRegistry;
 ########################################
 # Naquadah Rocket Fuel
 MaterialBuilder(32200, "naquadah_rocket_fuel")
-    .fluid("fluid", false)
+    .fluid(FluidTypes.LIQUID, false)
     .color(0x2E4C00)
     .fluidTemp(1200)
     .build();
 
 // # Certus Quartz - bansoukou
 // MaterialBuilder(32201, "certus_quartz")
-//     .fluid("fluid", false)
+//     .fluid(FluidTypes.LIQUID, false)
 //     .color(0x9F9FAE)
 //     .fluidTemp(1200)
 //     .build();
@@ -30,7 +31,8 @@ MaterialBuilder(32200, "naquadah_rocket_fuel")
 ########################################
 # EIO - Electrical Steel
 MaterialBuilder(32100, "electrical_steel")
-    .ingot().fluid()
+    .ingot()
+    .fluid(FluidTypes.LIQUID, false)
     .color(0x949494)
     .blastTemp(2700, "LOW", 480, 120)
     .flags([
@@ -47,7 +49,8 @@ MaterialBuilder(32100, "electrical_steel")
 
 # EIO - Energetic Alloy
 MaterialBuilder(32101, "energetic_alloy")
-    .ingot().fluid()
+    .ingot()
+    .fluid(FluidTypes.LIQUID, false)
     .color(0xED8009)
     .blastTemp(2700, "LOW", 480, 120)
     .flags([
@@ -64,7 +67,8 @@ MaterialBuilder(32101, "energetic_alloy")
 
 # EIO - Vibrant Alloy
 MaterialBuilder(32102, "vibrant_alloy")
-    .ingot().fluid()
+    .ingot()
+    .fluid(FluidTypes.LIQUID, false)
     .color(0xBAC63F)
     .blastTemp(2700, "LOW", 480, 120)
     .flags([
@@ -109,7 +113,8 @@ MaterialBuilder(32104, "conductive_iron")
 
 # EIO - Pulsating Iron
 MaterialBuilder(32105, "pulsating_iron")
-    .ingot().fluid()
+    .ingot()
+    .fluid(FluidTypes.LIQUID, false)
     .color(0x6EAC7D)
     .blastTemp(2700, "LOW", 480, 120)
     .flags([
@@ -125,7 +130,8 @@ MaterialBuilder(32105, "pulsating_iron")
 
 # EIO - Dark Steel
 MaterialBuilder(32106, "dark_steel")
-    .ingot().fluid()
+    .ingot()
+    .fluid(FluidTypes.LIQUID, false)
     .color(0x5F5F5F)
     .blastTemp(2700, "LOW", 480, 120)
     .flags([
@@ -155,7 +161,8 @@ MaterialBuilder(32107, "soularium")
 
 # EIO - End Steel
 MaterialBuilder(32108, "end_steel")
-    .ingot().fluid()
+    .ingot()
+    .fluid(FluidTypes.LIQUID, false)
     .color(0xBCB682)
     .blastTemp(4500, "LOW", 1920, 1072)
     .flags([
@@ -196,14 +203,16 @@ MaterialBuilder(32110, "crude_steel")
 
 # EIO - Crystalline Alloy
 MaterialBuilder(32111, "crystalline_alloy")
-    .ingot().fluid()
+    .ingot()
+    .fluid(FluidTypes.LIQUID, false)
     .color(0x9FE4E4)
     .blastTemp(3600, "LOW", 480, 600)
     .build();
 
 # EIO - Melodic Alloy
 MaterialBuilder(32112, "melodic_alloy")
-    .ingot().fluid()
+    .ingot()
+    .fluid(FluidTypes.LIQUID, false)
     .color(0xA877A8)
     .blastTemp(3600, "LOW", 480, 600)
     .build();
@@ -224,26 +233,30 @@ MaterialBuilder(32114, "crystalline_pink_slime")
 
 # EIO - Energetic Silver
 MaterialBuilder(32115, "energetic_silver")
-    .ingot().fluid()
+    .ingot()
+    .fluid(FluidTypes.LIQUID, false)
     .color(0x598DB3)
     .blastTemp(4500, "LOW", 1920, 1072)
     .build();
 
 # EIO - Vivid Alloy
 MaterialBuilder(32116, "vivid_alloy")
-    .ingot().fluid()
+    .ingot()
+    .fluid(FluidTypes.LIQUID, false)
     .color(0x469BB1)
     .blastTemp(5400, "LOW", 1920, 1072)
     .build();
 
 # AE2 - Fluix Dust (Override)
 MaterialBuilder(32117, "fluix")
-    .dust().fluid()
+    .dust()
+    .fluid(FluidTypes.LIQUID, false)
     .color(0x846994)
     .build();
 
 # AE2 - Charged Certus Quartz Dust
 MaterialBuilder(32118, "charged_certus_quartz")
-    .dust().fluid()
+    .dust()
+    .fluid(FluidTypes.LIQUID, false)
     .color(0xCFDAFF)
     .build();

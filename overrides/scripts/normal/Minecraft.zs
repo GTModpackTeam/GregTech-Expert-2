@@ -54,11 +54,6 @@ recipes.remove(<minecraft:stone:3>);
 # Andesite
 recipes.removeShapeless(<minecraft:stone:5>);
 
-# Path
-recipes.addShapeless(<minecraft:grass_path>, [
-    <minecraft:dirt>, <ore:gtce.tool.shovels>
-]);
-
 # Comparator
 recipes.removeShaped(<minecraft:comparator>, [
     [null, <minecraft:redstone_torch>, null],
