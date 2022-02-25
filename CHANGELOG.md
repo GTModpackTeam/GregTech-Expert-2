@@ -17,7 +17,7 @@
 
 ## Modpack update
 * I put a Discord link on the CMM 😎
-* Quest updated to v0.6.1. 
+* Quest updated to v0.6.2.
 * Fixed a bug that prevented the multiblock machine from completing assembly.
 * Added SawMill as a new multiblock machine.
 * Creative Energy Cell liquid requirements have changed.
