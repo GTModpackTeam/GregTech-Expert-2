@@ -85,6 +85,11 @@ JEI.removeAndHide(<enderio:block_enhanced_combustion_generator>);
 
 # Simple Stirling Generator
 JEI.removeAndHide(<enderio:block_simple_stirling_generator>);
+// recipes.addShaped(<enderio:block_simple_stirling_generator>, [
+//     [<ore:plateStone>, <ore:craftingFurnace>, <ore:plateStone>],
+//     [<ore:plateStone>, <ore:itemSimpleMachineChassi>, <ore:plateStone>],
+//     [<ore:gearStone>, <ore:craftingPiston>, <ore:gearStone>]
+// ]);
 
 # Stirling Generator
 JEI.removeAndHide(<enderio:block_stirling_generator>);
@@ -255,12 +260,37 @@ JEI.removeAndHide(<enderio:block_enhanced_vat>);
 
 # Simple Wired Charger
 JEI.removeAndHide(<enderio:block_simple_wired_charger>);
+// recipes.addShaped(<enderio:block_simple_wired_charger>, [
+//     [<ore:plateStone>, <ore:plateSteel>, <ore:plateStone>],
+//     [<ore:plateStone>, <enderio:item_material>, <ore:plateStone>],
+//     [<ore:gearStone>, <ore:plateSteel>, <ore:gearStone>]
+// ]);
 
 # Wired Charger
 JEI.removeAndHide(<enderio:block_wired_charger>);
+// recipes.addShaped(<enderio:block_wired_charger>, [
+//     [<ore:plateEnergeticAlloy>, <ore:plateDarkSteel>, <ore:plateEnergeticAlloy>],
+//     [<ore:plateEnergeticAlloy>, <ore:itemMachineChassi>, <ore:plateEnergeticAlloy>],
+//     [<ore:gearEnergeticAlloy>, <ore:plateDarkSteel>, <ore:gearEnergeticAlloy>]
+// ]);
+// recipes.addShaped(<enderio:block_wired_charger>, [
+//     [null, <ore:plateDarkSteel>, null],
+//     [null, <ore:itemMachineChassi>, null],
+//     [<ore:gearEnergeticAlloy>, <enderio:block_simple_wired_charger>, <ore:gearEnergeticAlloy>]
+// ]);
 
 # Enhanced Wired Charger
 JEI.removeAndHide(<enderio:block_enhanced_wired_charger>);
+// recipes.addShaped(<enderio:block_enhanced_wired_charger>, [
+//     [<ore:plateEnergeticAlloy>, <ore:plateEndSteel>, <ore:plateEnergeticAlloy>],
+//     [<ore:plateEnergeticAlloy>, <ore:itemEnhancedMachineChassi>, <ore:plateEnergeticAlloy>],
+//     [<ore:gearVibrantAlloy>, <ore:plateEndSteel>, <ore:gearVibrantAlloy>]
+// ]);
+// recipes.addShaped(<enderio:block_enhanced_wired_charger>, [
+//     [null, <ore:plateEndSteel>, null],
+//     [null, <ore:itemEnhancedMachineChassi>, null],
+//     [<ore:gearVibrantAlloy>, <enderio:block_wired_charger>, <ore:gearVibrantAlloy>]
+// ]);
 
 # Wireless Charger
 recipes.addShaped(<enderio:block_wireless_charger>, [
@@ -346,7 +376,7 @@ JEI.removeAndHide(<enderio:block_simple_crafter>);
 
 # Crafter
 recipes.addShaped(<enderio:block_crafter>, [
-    [<ore:dustSilicon>, <ore:dustSilicon>, <ore:dustSilicon>], 
-    [<ore:plateConstructionAlloy>, <ore:itemMachineChassi>, <ore:plateConstructionAlloy>], 
-    [<ore:gearElectricalSteel>, <ore:workbench>, <ore:gearElectricalSteel>]
+    [<ore:plateSilicon>, <ore:plateSilicon>, <ore:plateSilicon>], 
+    [<ore:plateConstructionAlloy>, <ore:itemEnhancedMachineChassi>, <ore:plateConstructionAlloy>], 
+    [<ore:gearVibrantAlloy>, <metaitem:workbench>, <ore:gearVibrantAlloy>]
 ]);

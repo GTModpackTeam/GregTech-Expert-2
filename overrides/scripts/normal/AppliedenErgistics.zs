@@ -1396,7 +1396,7 @@ recipes.addShaped(<appliedenergistics2:part:380>, [
 recipes.remove(<appliedenergistics2:part:360>);
 recipes.addShaped(<appliedenergistics2:part:360>, [
     [<ore:gtce.tool.screwdrivers> | <ore:gtce.tool.soft.hammers>, <appliedenergistics2:part:380>, <ore:gtce.tool.soft.hammers> | <ore:gtce.tool.screwdrivers>],
-    [<ore:screwAluminium>, <minecraft:crafting_table>, <ore:screwAluminium>],
+    [<ore:screwAluminium>, <metaitem:workbench>, <ore:screwAluminium>],
     [<ore:plateAluminium>, <appliedenergistics2:material:24>, <ore:plateAluminium>]
 ]);
 
