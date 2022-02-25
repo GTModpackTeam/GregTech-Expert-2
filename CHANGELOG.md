@@ -1,3 +1,12 @@
+# v1.0.3
+## Downgrade mods
+* AE2 Unofficial Extended Life v50f -> v50b(The error has not been fixed)
+
+## Server start error
+* We found that the server did not start, so we distributed a patch here.
+
+* * *
+
 # v1.0.2
 ## Upgrade mod
 * ReAuth -> OAuth
