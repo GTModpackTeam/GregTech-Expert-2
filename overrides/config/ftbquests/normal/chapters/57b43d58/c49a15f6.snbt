@@ -1,36 +1,21 @@
 {
-	x: 1.5d,
-	y: -4.0d,
-	dependencies: [
-		"2bef72fb"
+	title: "その他大勢",
+	x: -0.5d,
+	y: -12.0d,
+	description: "LV Components",
+	text: [
+		"ピストン、エミッター、センサーはどれもLV機械を作るために必要な中間素材です。"
 	],
+	dependencies: [
+		"1365476f"
+	],
+	dependency_requirement: "one_started",
 	min_width: 300,
 	tasks: [{
-		uid: "2f57f745",
-		type: "item",
-		items: [{
-			item: "gregtech:meta_item_1 1 142"
-		}]
-	},
-	{
-		uid: "8b0a6439",
-		type: "item",
-		items: [{
-			item: "gregtech:meta_item_1 1 157"
-		}]
-	},
-	{
 		uid: "289f2e9b",
 		type: "item",
 		items: [{
 			item: "gregtech:meta_item_1 1 172"
-		}]
-	},
-	{
-		uid: "ca9c44b9",
-		type: "item",
-		items: [{
-			item: "gregtech:meta_item_1 1 187"
 		}]
 	},
 	{

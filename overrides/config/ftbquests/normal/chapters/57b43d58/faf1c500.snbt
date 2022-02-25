@@ -2,8 +2,9 @@
 	x: 7.5d,
 	y: 0.0d,
 	dependencies: [
-		"34d03450"
+		"680580a0"
 	],
+	dependency_requirement: "one_started",
 	min_width: 300,
 	tasks: [{
 		uid: "ad5aa283",

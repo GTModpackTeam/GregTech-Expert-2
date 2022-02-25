@@ -1,0 +1,20 @@
+{
+	title: "何からするべきか迷った人へ",
+	icon: "opencomputers:waypoint",
+	x: 3.5d,
+	y: 0.0d,
+	shape: "square",
+	description: "LV Age Progression",
+	text: [
+		"#ダイヤ型になっているクエストを一直線に目指しましょう"
+	],
+	dependencies: [
+		"34d03450"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "079d5395",
+		type: "checkmark",
+		title: "読んだら押しましょう"
+	}]
+}

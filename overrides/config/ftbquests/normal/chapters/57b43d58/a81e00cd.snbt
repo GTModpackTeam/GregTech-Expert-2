@@ -1,9 +1,20 @@
 {
-	x: 11.5d,
-	y: 6.0d,
-	dependencies: [
-		"b75f94e8"
+	title: "これがなかった時代はCircuit AssemblerにSoldering Alloyが64バケツ詰まっていた",
+	x: -0.5d,
+	y: -6.0d,
+	description: "LV Fluid Regulator",
+	text: [
+		"流量制御器はロボットアームの液体版です。",
+		"ポンプとして液体を搬送できる上に二つの便利なモードを搭載しています：",
+		"・Supply_Exactでは特定の量の液体をまとめて過不足なく毎tick転送します。",
+		"・Keep  Exactでは隣の機械に特定の量の液体がキープされるように液体を転送し続けます。",
+		"",
+		"余談：GregTech 5 時代と同じく流量制御器のテクスチャはポンプを左右反転にしたものである。"
 	],
+	dependencies: [
+		"0feead66"
+	],
+	dependency_requirement: "one_started",
 	min_width: 300,
 	tasks: [{
 		uid: "52d62462",

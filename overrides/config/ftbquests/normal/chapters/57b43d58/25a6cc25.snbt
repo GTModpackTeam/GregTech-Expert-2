@@ -2,6 +2,10 @@
 	icon: "gregtech:machine 1 1560",
 	x: -6.5d,
 	y: -2.0d,
+	description: "Super Chest",
+	text: [
+		""
+	],
 	dependencies: [
 		"51472338"
 	],
