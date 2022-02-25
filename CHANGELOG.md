@@ -1,16 +1,14 @@
 # v1.0.2
 ## Upgrade mod
 * ReAuth -> OAuth
-* GTCEu(fork) v2.2.0-gte -> GTCEu(fork) v2.2.2-gt
+* AE2 Unofficial Extended Life
+* GregTech CE: Unofficial
 * Gregicality Multiblocks
 * GregTech Food Option
 
-## Downgrade mod
-* AE2 Unofficial Extended Life v50c -> v50b
-* Does not work if there is a Programmed Circuit in the Input Bus of the Processing Array. [PrototypeTrousers/Applied-Energistics-2#85](https://github.com/PrototypeTrousers/Applied-Energistics-2/issues/85)
-
 ## Del mods
 * Extra CPUs(Support had been terminated)
+* Manually delete the gregtech-1.12.2-2.2.0-beta-gte.jar in mods.
 
 ## Add mods
 * Born in a Barn

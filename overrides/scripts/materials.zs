@@ -17,12 +17,8 @@ MaterialBuilder(32200, "naquadah_rocket_fuel")
     .fluidTemp(1200)
     .build();
 
-// # Certus Quartz - bansoukou
-// MaterialBuilder(32201, "certus_quartz")
-//     .fluid(FluidTypes.LIQUID, false)
-//     .color(0x9F9FAE)
-//     .fluidTemp(1200)
-//     .build();
+# Certus Quartz
+<material:certus_quartz>.addFluid(FluidTypes.LIQUID, false);
 
 
 
