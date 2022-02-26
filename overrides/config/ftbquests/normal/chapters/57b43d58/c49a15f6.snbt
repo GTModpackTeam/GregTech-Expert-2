@@ -2,6 +2,7 @@
 	title: "その他大勢",
 	x: -0.5d,
 	y: -12.0d,
+	shape: "diamond",
 	description: "LV Components",
 	text: [
 		"ピストン、エミッター、センサーはどれもLV機械を作るために必要な中間素材です。"

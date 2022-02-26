@@ -1,6 +1,7 @@
 {
 	x: 9.5d,
 	y: 2.0d,
+	shape: "diamond",
 	dependencies: [
 		"faf1c500"
 	],

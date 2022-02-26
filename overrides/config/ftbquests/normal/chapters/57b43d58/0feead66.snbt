@@ -2,6 +2,7 @@
 	title: "(ケーブルが繋がっているように見えるけど)電気がなくても動く",
 	x: -0.5d,
 	y: -4.0d,
+	shape: "diamond",
 	description: "Electric Pump",
 	text: [
 		"電動ポンプは中間素材でありカバーでもあります。",

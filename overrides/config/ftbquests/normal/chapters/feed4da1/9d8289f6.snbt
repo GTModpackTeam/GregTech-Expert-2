@@ -2,7 +2,7 @@
 	title: "鉱石処理うんぬん",
 	icon: "gregtech:meta_crushed 1 2064",
 	x: 1.0d,
-	y: 2.0d,
+	y: 0.0d,
 	description: "Ore Processing 1",
 	text: [
 		"Gregtechの鉱石処理というのは一番簡単にいうと",

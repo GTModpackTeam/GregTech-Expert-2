@@ -1,7 +1,7 @@
 {
 	title: "惑星ソラリス",
 	x: 3.0d,
-	y: 0.0d,
+	y: 2.0d,
 	description: "High Pressure Boilers",
 	text: [
 		"高圧ソーラーボイラーは日光で蒸気を生産します。",

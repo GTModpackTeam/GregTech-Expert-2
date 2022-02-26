@@ -3,6 +3,7 @@
 	icon: "gregtech:meta_item_1 1 127",
 	x: -0.5d,
 	y: -2.0d,
+	shape: "diamond",
 	description: "LV Electric motor",
 	text: [
 		"LV電動モーターはLV時代に進むための最後の関門です。",

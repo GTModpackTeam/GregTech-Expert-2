@@ -3,6 +3,7 @@
 	icon: "gregtech:meta_item_1 1 516",
 	x: -8.5d,
 	y: 0.0d,
+	shape: "diamond",
 	description: "Vacuum Tube",
 	text: [
 		"真空管は作るのが大変な素材です。",
