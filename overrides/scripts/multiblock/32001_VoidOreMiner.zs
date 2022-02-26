@@ -1,6 +1,7 @@
 # Imports
 import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
+import mods.zenutils.I18n;
 import mods.gregtech.IControllerTile;
 import mods.gregtech.recipe.RecipeMap;
 import mods.gregtech.recipe.RecipeMaps;
@@ -76,7 +77,7 @@ assembly_line.recipeBuilder()
     .duration(600)
     .EUt(122880)
     .buildAndRegister();
-JEI.addDescription(<metaitem:multiblocktweaker:voidoreminer>, "When you put the ore you want to mine into the Input Bus, it will mine the same ore you put in. The mining time is 1 second, and it costs 19200L of Drilling Fluid and 10L of Dew of the Void.");
+JEI.addDescription(<metaitem:multiblocktweaker:voidoreminer>, I18n.format("modpack.tooltip.voidoreminer"));
 
 
 

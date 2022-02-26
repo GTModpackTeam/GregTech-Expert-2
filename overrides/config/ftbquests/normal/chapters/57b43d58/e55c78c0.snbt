@@ -2,6 +2,7 @@
 	title: "ベルトであるとは一言も書かれていない",
 	x: -0.5d,
 	y: -8.0d,
+	shape: "diamond",
 	description: "Conveyor Module",
 	text: [
 		"コンベヤーモジュールは中間素材でありカバーでもあります。",

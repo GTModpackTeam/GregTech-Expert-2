@@ -2,6 +2,7 @@
 	title: "インサータ？",
 	x: -0.5d,
 	y: -10.0d,
+	shape: "diamond",
 	description: "Robot Arm",
 	text: [
 		"LVロボットアームはコンベヤーモジュールの上位互換のカバーです。",

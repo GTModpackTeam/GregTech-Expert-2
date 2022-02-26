@@ -2,6 +2,7 @@
 	icon: "gregtech:meta_item_1 1 371",
 	x: 11.5d,
 	y: 0.0d,
+	shape: "diamond",
 	dependencies: [
 		"6ac44b0e",
 		"79d5f843"

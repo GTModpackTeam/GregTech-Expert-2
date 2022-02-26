@@ -1,6 +1,7 @@
 #packmode normal
 # Imports
 import crafttweaker.item.IItemStack;
+import mods.zenutils.I18n;
 
 
 
@@ -29,7 +30,7 @@ for elevator in elevators {
     recipes.remove(elevator);
     if (elevator.displayName has "Black") {}
     else {
-        elevator.addTooltip(format.green("The black one is the first elevator."));
+        elevator.addTooltip(format.green(I18n.format("modpack.tooltip.elevator")));
     }
 }
 recipes.addShaped(<elevatorid:elevator_black>, [

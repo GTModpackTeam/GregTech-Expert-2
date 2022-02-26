@@ -1,7 +1,9 @@
 {
 	title: "カバー講座",
+	icon: "gregtech:meta_item_1 1 308",
 	x: 1.5d,
 	y: -6.0d,
+	shape: "square",
 	description: "Covers Behavior",
 	text: [
 		"カバーは新たなブロックを占有せずにブロックに新しい機能を付け足します。",
@@ -34,10 +36,8 @@
 	dependency_requirement: "one_completed",
 	min_width: 300,
 	tasks: [{
-		uid: "dc160a8c",
-		type: "item",
-		items: [{
-			item: "gregtech:meta_item_1 1 308"
-		}]
+		uid: "aeb722e9",
+		type: "checkmark",
+		title: "読んだら押しましょう"
 	}]
 }

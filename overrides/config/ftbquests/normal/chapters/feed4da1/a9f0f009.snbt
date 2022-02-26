@@ -2,7 +2,7 @@
 	title: "真っ黒なキャンバスにハンマーで色を塗ろう",
 	icon: "gregtech:meta_item_1 1 18",
 	x: -1.0d,
-	y: 0.0d,
+	y: 2.0d,
 	shape: "diamond",
 	description: "Empty Shape Plate",
 	text: [

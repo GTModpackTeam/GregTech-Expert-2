@@ -1,6 +1,7 @@
 #packmode normal
 # Imports
 import mods.jei.JEI;
+import mods.zenutils.I18n;
 
 
 
@@ -16,5 +17,5 @@ recipes.addShaped(<torchmaster:mega_torch:1>, [
     [<ore:foilGold>, <gregtech:planks:1>, <ore:foilGold>],
     [<ore:foilGold>, <gregtech:planks:1>, <ore:foilGold>]
 ]);
-<torchmaster:mega_torch:1>.addTooltip(format.green("Mega Torch range is 128 blocks."));
-<torchmaster:mega_torch:1>.addTooltip(format.red("Available when ignited with flint."));
+<torchmaster:mega_torch:1>.addTooltip(format.green(I18n.format("modpack.tooltip.megaTorch.line1")));
+<torchmaster:mega_torch:1>.addTooltip(format.red(I18n.format("modpack.tooltip.megaTorch.line2")));

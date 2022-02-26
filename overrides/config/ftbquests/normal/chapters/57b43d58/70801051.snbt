@@ -2,6 +2,7 @@
 	title: "The R in The LCR",
 	x: -8.5d,
 	y: 2.0d,
+	shape: "diamond",
 	description: "Resistor",
 	text: [
 		"レジスタは電子回路を作るために必要な比較的楽に作れる素材です。",
@@ -10,7 +11,6 @@
 	],
 	dependencies: [
 		"d5b3f792",
-		"76b62977",
 		"94d3ca3d"
 	],
 	min_width: 300,

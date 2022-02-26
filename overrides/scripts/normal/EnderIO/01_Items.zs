@@ -62,7 +62,7 @@ recipes.addShaped(<enderio:item_xp_transfer>, [
 ]);
 
 # Cold Fire Igniter
-JEI.removeAndHide(<enderio:item_cold_fire_igniter>);
+JEI.hide(<enderio:item_cold_fire_igniter>);
 
 # Coordinate Selector
 recipes.addShaped(<enderio:item_coord_selector>, [
@@ -86,7 +86,7 @@ recipes.addShaped(<enderio:item_rod_of_return>, [
 ]);
 
 # Electromagnet
-JEI.removeAndHide(<enderio:item_magnet>);
+JEI.hide(<enderio:item_magnet>);
 
 # Enderios
 recipes.addShaped(<enderio:item_ender_food>, [
@@ -380,24 +380,24 @@ recipes.addShaped(<enderio:item_end_steel_bow>, [
 
 # Ender Armors
 recipes.addShaped(<enderio:item_end_steel_helmet>, [
-    [null, null, null],
-    [<ore:ingotEndSteel>, <ore:ingotEndSteel>, <ore:ingotEndSteel>],
-    [<ore:ingotEndSteel>, <ore:skullGuardianDiode>, <ore:ingotEndSteel>]
+    [<ore:plateEndSteel>, <ore:plateEndSteel>, <ore:plateEndSteel>],
+    [<ore:plateEndSteel>, <ore:gtce.tool.hard.hammers>, <ore:plateEndSteel>],
+    [null, <ore:skullGuardianDiode>, null],
 ]);
 recipes.addShaped(<enderio:item_end_steel_chestplate>, [
-    [<ore:ingotEndSteel>, <ore:skullGuardianDiode>, <ore:ingotEndSteel>],
-    [<ore:ingotEndSteel>, <ore:ingotEndSteel>, <ore:ingotEndSteel>],
-    [<ore:ingotEndSteel>, <ore:ingotEndSteel>, <ore:ingotEndSteel>]
+    [<ore:plateEndSteel>, <ore:gtce.tool.hard.hammers>, <ore:plateEndSteel>],
+    [<ore:plateEndSteel>, <ore:skullGuardianDiode>, <ore:plateEndSteel>],
+    [<ore:plateEndSteel>, <ore:plateEndSteel>, <ore:plateEndSteel>]
 ]);
 recipes.addShaped(<enderio:item_end_steel_leggings>, [
-    [<ore:ingotEndSteel>, <ore:ingotEndSteel>, <ore:ingotEndSteel>],
-    [<ore:ingotEndSteel>, <ore:skullGuardianDiode>, <ore:ingotEndSteel>],
-    [<ore:ingotEndSteel>, null, <ore:ingotEndSteel>]
+    [<ore:plateEndSteel>, <ore:plateEndSteel>, <ore:plateEndSteel>],
+    [<ore:plateEndSteel>, <ore:gtce.tool.hard.hammers>, <ore:plateEndSteel>],
+    [<ore:plateEndSteel>, <ore:skullGuardianDiode>, <ore:plateEndSteel>]
 ]);
 recipes.addShaped(<enderio:item_end_steel_boots>, [
+    [<ore:plateEndSteel>, <ore:skullGuardianDiode>, <ore:plateEndSteel>],
+    [<ore:plateEndSteel>, <ore:gtce.tool.hard.hammers>, <ore:plateEndSteel>],
     [null, null, null],
-    [<ore:ingotEndSteel>, <ore:skullGuardianDiode>, <ore:ingotEndSteel>],
-    [<ore:ingotEndSteel>, null, <ore:ingotEndSteel>]
 ]);
 
 # Ender Shield
@@ -416,45 +416,45 @@ recipes.addShaped(<enderio:item_staff_of_levity>, [
 
 # The Ender Mark IV
 recipes.addShaped(<enderio:item_stellar_alloy_sword>, [
-    [null, <ore:ingotStellarAlloy>, null],
-    [null, <ore:ingotStellarAlloy>, null],
-    [null, <ore:skullSentientEnder>, null]
+    [null, <ore:skullSentientEnder>, null],
+    [<ore:gtce.tool.files>, <ore:plateStellarAlloy>, <ore:gtce.tool.hard.hammers>],
+    [null, <ore:stickStellarAlloy>, null]
 ]);
 
 # Stellar Pickaxe
 recipes.addShaped(<enderio:item_stellar_alloy_pickaxe>, [
-    [<ore:ingotStellarAlloy>, <ore:ingotStellarAlloy>, <ore:ingotStellarAlloy>],
-    [null, <ore:skullSentientEnder>, null],
-    [null, <ore:stickSteel>, null]
+    [<ore:plateStellarAlloy>, <ore:ingotStellarAlloy>, <ore:ingotStellarAlloy>],
+    [<ore:gtce.tool.files>, <ore:skullSentientEnder>, <ore:gtce.tool.hard.hammers>],
+    [null, <ore:stickStellarAlloy>, null]
 ]);
 
 # Stellar Axe
 recipes.addShaped(<enderio:item_stellar_alloy_axe>, [
-    [<ore:ingotStellarAlloy>, <ore:ingotStellarAlloy>, null],
-    [<ore:ingotStellarAlloy>, <ore:skullSentientEnder>, null],
-    [null, <ore:stickSteel>, null]
+    [<ore:plateStellarAlloy>, <ore:ingotStellarAlloy>, <ore:gtce.tool.hard.hammers>],
+    [<ore:plateStellarAlloy>, <ore:skullSentientEnder>, null],
+    [<ore:gtce.tool.files>, <ore:stickStellarAlloy>, null]
 ]);
 
 # Stellar Armors
 recipes.addShaped(<enderio:item_stellar_alloy_helmet>, [
-    [null, null, null],
-    [<ore:ingotStellarAlloy>, <ore:ingotStellarAlloy>, <ore:ingotStellarAlloy>],
-    [<ore:ingotStellarAlloy>, <ore:skullSentientEnder>, <ore:ingotStellarAlloy>]
+    [<ore:plateStellarAlloy>, <ore:plateStellarAlloy>, <ore:plateStellarAlloy>],
+    [<ore:plateStellarAlloy>, <ore:gtce.tool.hard.hammers>, <ore:plateStellarAlloy>],
+    [null, <ore:skullSentientEnder>, null]
 ]);
 recipes.addShaped(<enderio:item_stellar_alloy_chestplate>, [
-    [<ore:ingotStellarAlloy>, <ore:skullSentientEnder>, <ore:ingotStellarAlloy>],
-    [<ore:ingotStellarAlloy>, <ore:ingotStellarAlloy>, <ore:ingotStellarAlloy>],
-    [<ore:ingotStellarAlloy>, <ore:ingotStellarAlloy>, <ore:ingotStellarAlloy>]
+    [<ore:plateStellarAlloy>, <ore:gtce.tool.hard.hammers>, <ore:plateStellarAlloy>],
+    [<ore:plateStellarAlloy>, <ore:skullSentientEnder>, <ore:plateStellarAlloy>],
+    [<ore:plateStellarAlloy>, <ore:plateStellarAlloy>, <ore:plateStellarAlloy>]
 ]);
 recipes.addShaped(<enderio:item_stellar_alloy_leggings>, [
-    [<ore:ingotStellarAlloy>, <ore:ingotStellarAlloy>, <ore:ingotStellarAlloy>],
-    [<ore:ingotStellarAlloy>, <ore:skullSentientEnder>, <ore:ingotStellarAlloy>],
-    [<ore:ingotStellarAlloy>, null, <ore:ingotStellarAlloy>]
+    [<ore:plateStellarAlloy>, <ore:plateStellarAlloy>, <ore:plateStellarAlloy>],
+    [<ore:plateStellarAlloy>, <ore:gtce.tool.hard.hammers>, <ore:plateStellarAlloy>],
+    [<ore:plateStellarAlloy>, <ore:skullSentientEnder>, <ore:plateStellarAlloy>]
 ]);
 recipes.addShaped(<enderio:item_stellar_alloy_boots>, [
-    [null, null, null],
-    [<ore:ingotStellarAlloy>, <ore:skullSentientEnder>, <ore:ingotStellarAlloy>],
-    [<ore:ingotStellarAlloy>, null, <ore:ingotStellarAlloy>]
+    [<ore:plateStellarAlloy>, <ore:skullSentientEnder>, <ore:plateStellarAlloy>],
+    [<ore:plateStellarAlloy>, <ore:gtce.tool.hard.hammers>, <ore:plateStellarAlloy>],
+    [null, null, null]
 ]);
 
 # Simple Inventory Charger
@@ -813,14 +813,14 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 # Dark Steel Upgrade(XP) "Solars"
-JEI.removeAndHide(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderiomachines:solar"}));
-JEI.removeAndHide(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderiomachines:solar", "enderio:enabled": 1 as byte}));
-JEI.removeAndHide(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderiomachines:solar1"}));
-JEI.removeAndHide(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderiomachines:solar1", "enderio:enabled": 1 as byte}));
-JEI.removeAndHide(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderiomachines:solar2"}));
-JEI.removeAndHide(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderiomachines:solar2", "enderio:enabled": 1 as byte}));
-JEI.removeAndHide(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderiomachines:solar3"}));
-JEI.removeAndHide(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderiomachines:solar3", "enderio:enabled": 1 as byte}));
+JEI.hide(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderiomachines:solar"}));
+JEI.hide(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderiomachines:solar", "enderio:enabled": 1 as byte}));
+JEI.hide(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderiomachines:solar1"}));
+JEI.hide(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderiomachines:solar1", "enderio:enabled": 1 as byte}));
+JEI.hide(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderiomachines:solar2"}));
+JEI.hide(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderiomachines:solar2", "enderio:enabled": 1 as byte}));
+JEI.hide(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderiomachines:solar3"}));
+JEI.hide(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderiomachines:solar3", "enderio:enabled": 1 as byte}));
 
 # Dark Steel Upgrade "Sound Locator"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:sounddetector"}), [

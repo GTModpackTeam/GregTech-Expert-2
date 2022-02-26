@@ -8,9 +8,7 @@ JEI.hideCategory("AlloySmelter");
 JEI.hideCategory("EIOTank");
 JEI.hideCategory("LavaGenerator");
 JEI.hideCategory("Painter");
-JEI.hideCategory("StirlingGenerator");
 JEI.hideCategory("SolarPanel");
-JEI.hideCategory("EIOWC");
 
 
 

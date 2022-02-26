@@ -3,6 +3,7 @@
 	icon: "gregtech:meta_item_1 1 621",
 	x: -6.5d,
 	y: 0.0d,
+	shape: "diamond",
 	description: "Electronic Circuit",
 	text: [
 		"最初の電子回路を3つ作りましょう。",

@@ -1,7 +1,7 @@
 {
 	title: "あなたの理想、なんでも砕きます。",
 	x: -1.0d,
-	y: 2.0d,
+	y: 0.0d,
 	description: "High Pressure Steam Macerator",
 	text: [
 		"高圧蒸気式粉砕機は二倍の速度で動く蒸気式粉砕機です。",
