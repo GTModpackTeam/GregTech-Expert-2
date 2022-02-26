@@ -1,6 +1,7 @@
 #packmode normal
 # Imports
 import mods.jei.JEI;
+import mods.zenutils.I18n;
 import mods.appliedenergistics2.Inscriber;
 
 JEI.hideCategory("appliedenergistics2.grinder");
@@ -161,14 +162,14 @@ recipes.addShaped(<appliedenergistics2:material:43> * 2, [
 ]);
 assembler.recipeBuilder()
     .inputs([
-        <ore:stickAluminium> * 4,
-        <appliedenergistics2:material:24> * 4,
+        <ore:stickAluminium> * 2,
+        <appliedenergistics2:material:24> * 2,
         <ore:gemNetherQuartz> | <ore:crystalPureNetherQuartz>
     ])
     .fluidInputs([<liquid:plastic> * 144])
     .outputs([<appliedenergistics2:material:43> * 4])
     .duration(20)
-    .EUt(7680)
+    .EUt(1920)
     .buildAndRegister();
 
 # Annihilation Core
@@ -185,14 +186,51 @@ recipes.addShaped(<appliedenergistics2:material:44> * 2, [
 ]);
 assembler.recipeBuilder()
     .inputs([
-        <ore:stickAluminium> * 4,
-        <appliedenergistics2:material:24> * 4,
+        <ore:stickAluminium> * 2,
+        <appliedenergistics2:material:24> * 2,
         <ore:gemCertusQuartz> | <ore:crystalPureCertusQuartz>
     ])
     .fluidInputs([<liquid:plastic> * 144])
     .outputs([<appliedenergistics2:material:44> * 4])
-    .duration(56)
-    .EUt(7680)
+    .duration(20)
+    .EUt(1920)
+    .buildAndRegister();
+
+# Matrix Core
+recipes.addShaped(<contenttweaker:matrixcore>, [
+    [<appliedenergistics2:material:24>, <appliedenergistics2:material:44>, <appliedenergistics2:material:24>],
+    [<appliedenergistics2:material:43>, <ore:crystalFluix>, <appliedenergistics2:material:43>],
+    [<appliedenergistics2:material:24>, <appliedenergistics2:material:44>, <appliedenergistics2:material:24>]
+]);
+recipes.addShaped(<contenttweaker:matrixcore> * 2, [
+    [<appliedenergistics2:material:24>, <appliedenergistics2:material:44>, <appliedenergistics2:material:24>],
+    [<appliedenergistics2:material:43>, <ore:crystalPureFluix>, <appliedenergistics2:material:43>],
+    [<appliedenergistics2:material:24>, <appliedenergistics2:material:44>, <appliedenergistics2:material:24>]
+]);
+assembler.recipeBuilder()
+    .inputs([
+        <ore:stickAluminium> * 4,
+        <appliedenergistics2:material:24> * 6,
+        <ore:gemNetherQuartz> | <ore:crystalPureNetherQuartz>,
+        <ore:gemCertusQuartz> | <ore:crystalPureCertusQuartz>,
+        <ore:crystalFluix> | <ore:crystalPureFluix>
+    ])
+    .fluidInputs([<liquid:plastic> * 144])
+    .outputs([<contenttweaker:matrixcore> * 4])
+    .duration(100)
+    .EUt(1920)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([
+        <appliedenergistics2:material:24> * 2,
+        <appliedenergistics2:material:43>,
+        <appliedenergistics2:material:44>,
+        <ore:crystalFluix> | <ore:crystalPureFluix>
+    ])
+    .fluidInputs([<liquid:plastic> * 144])
+    .outputs([<contenttweaker:matrixcore> * 4])
+    .duration(20)
+    .EUt(1920)
     .buildAndRegister();
 
 # View Cell
@@ -620,7 +658,7 @@ recipes.addShaped(<appliedenergistics2:color_applicator>, [
 recipes.remove(<appliedenergistics2:wireless_terminal>);
 recipes.addShaped(<appliedenergistics2:wireless_terminal>, [
     [<appliedenergistics2:material:41>, <appliedenergistics2:part:380>, <appliedenergistics2:material:41>],
-    [<ore:plateNetherQuartz>, <appliedenergistics2:material:24>, <ore:plateNetherQuartz>],
+    [<appliedenergistics2:material:24>, <contenttweaker:matrixcore>, <appliedenergistics2:material:24>],
     [<ore:plateNetherQuartz>, <appliedenergistics2:dense_energy_cell>, <ore:plateNetherQuartz>]
 ]);
 
@@ -1192,8 +1230,8 @@ recipes.addShapeless(<appliedenergistics2:quartz_fixture>, [
 
 # Charger
 JEI.removeAndHide(<appliedenergistics2:charger>);
-JEI.addDescription(<appliedenergistics2:charger>, "Use GT TurboCharger.");
-<appliedenergistics2:charger>.addTooltip(format.green("Use GT TurboCharger."));
+JEI.addDescription(<appliedenergistics2:charger>, I18n.format("modpack.tooltip.ae2.charger"));
+<appliedenergistics2:charger>.addTooltip(format.green(I18n.format("modpack.tooltip.ae2.charger")));
 
 # Security Terminal
 recipes.remove(<appliedenergistics2:security_station>);
@@ -1207,7 +1245,7 @@ recipes.addShaped(<appliedenergistics2:security_station>, [
 recipes.remove(<appliedenergistics2:quantum_ring>);
 recipes.addShaped(<appliedenergistics2:quantum_ring>, [
     [<ore:plateTitanium>, <appliedenergistics2:material:22>, <ore:plateTitanium>],
-    [<appliedenergistics2:material:24>, <appliedenergistics2:dense_energy_cell>, <ore:ae2.cable.glass>],
+    [<contenttweaker:matrixcore>, <appliedenergistics2:dense_energy_cell>, <ore:ae2.cable.glass>],
     [<ore:plateTitanium>, <appliedenergistics2:material:22>, <ore:plateTitanium>]
 ]);
 
@@ -1240,7 +1278,7 @@ recipes.remove(<appliedenergistics2:spatial_io_port>);
 recipes.addShaped(<appliedenergistics2:io_port>, [
     [<ore:plateGlass>, <ore:plateGlass>, <ore:plateGlass>],
     [<ore:ae2.cable.glass>, <appliedenergistics2:drive>, <ore:ae2.cable.glass>],
-    [<ore:plateSteel>, <appliedenergistics2:material:22>, <ore:plateSteel>]
+    [<ore:plateSteel>, <contenttweaker:matrixcore>, <ore:plateSteel>]
 ]);
 
 # ME Chest
@@ -1254,7 +1292,7 @@ recipes.addShaped(<appliedenergistics2:chest>, [
 # ME Drive
 recipes.remove(<appliedenergistics2:drive>);
 recipes.addShaped(<appliedenergistics2:drive>, [
-    [<ore:plateTitanium>, <appliedenergistics2:material:24>, <ore:plateTitanium>],
+    [<ore:plateTitanium>, <contenttweaker:matrixcore>, <ore:plateTitanium>],
     [<ore:ae2.cable.glass>, <appliedenergistics2:chest>, <ore:ae2.cable.glass>],
     [<ore:plateTitanium>, <ore:circuitAdvanced>, <ore:plateTitanium>]
 ]);
@@ -1267,7 +1305,7 @@ recipes.removeShaped(<appliedenergistics2:interface>, [
 ]);
 recipes.addShaped(<appliedenergistics2:interface>, [
     [<ore:plateSteel>, <ore:plateGlass>, <ore:plateSteel>],
-    [<appliedenergistics2:material:44>, <gregtech:machine_casing:3>, <appliedenergistics2:material:43>],
+    [<contenttweaker:matrixcore>, <gregtech:machine_casing:3>, <contenttweaker:matrixcore>],
     [<ore:plateSteel>, <ore:plateGlass>, <ore:plateSteel>]
 ]);
 
@@ -1279,7 +1317,7 @@ recipes.removeShaped(<appliedenergistics2:fluid_interface>, [
 ]);
 recipes.addShaped(<appliedenergistics2:fluid_interface>, [
     [<ore:plateStainlessSteel>, <ore:plateGlass>, <ore:plateStainlessSteel>],
-    [<appliedenergistics2:material:44>, <gregtech:machine_casing:3>, <appliedenergistics2:material:43>],
+    [<contenttweaker:matrixcore>, <gregtech:machine_casing:3>, <contenttweaker:matrixcore>],
     [<ore:plateStainlessSteel>, <ore:plateGlass>, <ore:plateStainlessSteel>]
 ]);
 
@@ -1333,7 +1371,7 @@ recipes.addShaped(<appliedenergistics2:energy_cell>, [
 recipes.remove(<appliedenergistics2:dense_energy_cell>);
 recipes.addShaped(<appliedenergistics2:dense_energy_cell>, [
     [<appliedenergistics2:energy_cell>, <appliedenergistics2:energy_cell>, <appliedenergistics2:energy_cell>],
-    [<ore:circuitMaster>, <appliedenergistics2:material:24>, <ore:circuitMaster>],
+    [<ore:circuitMaster>, <contenttweaker:matrixcore>, <ore:circuitMaster>],
     [<appliedenergistics2:energy_cell>, <gregtech:machine:1339>, <appliedenergistics2:energy_cell>]
 ]);
 
@@ -1460,23 +1498,23 @@ recipes.addShaped(<appliedenergistics2:part:222>, [
 
 # Import Bus
 JEI.removeAndHide(<appliedenergistics2:part:240>);
-JEI.addDescription(<appliedenergistics2:part:240>, "Lag device. Use interface.");
-<appliedenergistics2:part:240>.addTooltip(format.green("Lag device. Use interface."));
+JEI.addDescription(<appliedenergistics2:part:240>, I18n.format("modpack.tooltip.ae2.bus.item"));
+<appliedenergistics2:part:240>.addTooltip(format.green(I18n.format("modpack.tooltip.ae2.bus.item")));
 
 # Fluid Import Bus
 JEI.removeAndHide(<appliedenergistics2:part:241>);
-JEI.addDescription(<appliedenergistics2:part:241>, "Lag device. Use Fluid interface.");
-<appliedenergistics2:part:241>.addTooltip(format.green("Lag device. Use Fluid interface."));
+JEI.addDescription(<appliedenergistics2:part:241>, I18n.format("modpack.tooltip.ae2.bus.fluid"));
+<appliedenergistics2:part:241>.addTooltip(format.green(I18n.format("modpack.tooltip.ae2.bus.fluid")));
 
 # Export Bus
 JEI.removeAndHide(<appliedenergistics2:part:260>);
-JEI.addDescription(<appliedenergistics2:part:260>, "Lag device. Use interface.");
-<appliedenergistics2:part:260>.addTooltip(format.green("Lag device. Use interface."));
+JEI.addDescription(<appliedenergistics2:part:260>, I18n.format("modpack.tooltip.ae2.bus.item"));
+<appliedenergistics2:part:260>.addTooltip(format.green(I18n.format("modpack.tooltip.ae2.bus.item")));
 
 # Fluid Export Bus
 JEI.removeAndHide(<appliedenergistics2:part:261>);
-JEI.addDescription(<appliedenergistics2:part:261>, "Lag device. Use Fluid interface.");
-<appliedenergistics2:part:261>.addTooltip(format.green("Lag device. Use Fluid interface."));
+JEI.addDescription(<appliedenergistics2:part:261>, I18n.format("modpack.tooltip.ae2.bus.fluid"));
+<appliedenergistics2:part:261>.addTooltip(format.green(I18n.format("modpack.tooltip.ae2.bus.fluid")));
 
 # Toggle Bus
 recipes.remove(<appliedenergistics2:part:80>);

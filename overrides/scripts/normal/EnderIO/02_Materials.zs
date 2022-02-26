@@ -135,6 +135,7 @@ mixer.recipeBuilder()
 mixer.recipeBuilder()
     .inputs([
         <ore:dustGold>,
+        <ore:dustAsh>,
         <minecraft:soul_sand>
     ])
     .outputs([<metaitem:dustSoularium>])
@@ -151,7 +152,7 @@ mixer.recipeBuilder()
     ])
     .outputs([<metaitem:dustEndSteel>])
     .duration(40)
-    .EUt(480)
+    .EUt(1920)
     .buildAndRegister();
 
 # Construction Alloy(Iron Alloy)
@@ -163,17 +164,17 @@ mixer.recipeBuilder()
     ])
     .outputs([<metaitem:dustConstructionAlloy>])
     .duration(40)
-    .EUt(480)
+    .EUt(1920)
     .buildAndRegister();
 
 # Simple Machine Parts
-JEI.removeAndHide(<enderio:item_material:69>);
+JEI.hide(<enderio:item_material:69>);
 
 # Machine Parts
-JEI.removeAndHide(<enderio:item_material:2>);
+JEI.hide(<enderio:item_material:2>);
 
 # Enhanced Machine Parts
-JEI.removeAndHide(<enderio:item_material:68>);
+JEI.hide(<enderio:item_material:68>);
 
 # Simple Machine Chassis
 recipes.addShaped(<enderio:item_material>, [
@@ -240,7 +241,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 # Photovoltaic Plate
-JEI.removeAndHide(<enderio:item_material:3>);
+JEI.hide(<enderio:item_material:3>);
 
 # Conduit Binder
 electric_blast_furnace.recipeBuilder()
@@ -256,7 +257,7 @@ electric_blast_furnace.recipeBuilder()
     .buildAndRegister();
 
 # Silicon
-JEI.removeAndHide(<enderio:item_material:5>);
+JEI.hide(<enderio:item_material:5>);
 // <ore:itemSilicon>.remove(<enderio:item_material:5>);
 
 # Glider Wing
@@ -274,24 +275,24 @@ recipes.addShaped(<enderio:item_material:7>, [
 ]);
 
 # Wooden Gear
-JEI.removeAndHide(<enderio:item_material:9>);
+JEI.hide(<enderio:item_material:9>);
 <ore:gearWood>.remove(<enderio:item_material:9>);
 
 # Stone Gear
-JEI.removeAndHide(<enderio:item_material:10>);
+JEI.hide(<enderio:item_material:10>);
 <ore:gearStone>.remove(<enderio:item_material:10>);
 
 # Infity Bimetal Gear
-JEI.removeAndHide(<enderio:item_material:11>);
+JEI.hide(<enderio:item_material:11>);
 
 # Energized Bimetal Gear
-JEI.removeAndHide(<enderio:item_material:12>);
+JEI.hide(<enderio:item_material:12>);
 
 # Vibrant Bimetal Gear
-JEI.removeAndHide(<enderio:item_material:13>);
+JEI.hide(<enderio:item_material:13>);
 
 # Dark Bimetal Gear
-JEI.removeAndHide(<enderio:item_material:73>);
+JEI.hide(<enderio:item_material:73>);
 
 # Pulsating Crystal
 recipes.addShaped(<enderio:item_material:14>, [
@@ -324,60 +325,60 @@ recipes.addShaped(<enderio:item_material:18>, [
 SoulBinder.addRecipe(<enderio:item_material:19>, <enderio:item_material:15>, ["minecraft:shulker"], 200000, 8);
 
 # Flour
-JEI.removeAndHide(<enderio:item_material:21>);
+JEI.hide(<enderio:item_material:21>);
 <ore:dustWheat>.remove(<enderio:item_material:21>);
 
 # Conduit Binder Composite
-JEI.removeAndHide(<enderio:item_material:22>);
+JEI.hide(<enderio:item_material:22>);
 
 # Coal Powder
-JEI.removeAndHide(<enderio:item_material:23>);
+JEI.hide(<enderio:item_material:23>);
 <ore:dustCoal>.remove(<enderio:item_material:23>);
 
 # Iron Powder
-JEI.removeAndHide(<enderio:item_material:24>);
+JEI.hide(<enderio:item_material:24>);
 <ore:dustIron>.remove(<enderio:item_material:24>);
 
 # Gold Powder
-JEI.removeAndHide(<enderio:item_material:25>);
+JEI.hide(<enderio:item_material:25>);
 <ore:dustGold>.remove(<enderio:item_material:25>);
 
 # Copper Powder
-JEI.removeAndHide(<enderio:item_material:26>);
+JEI.hide(<enderio:item_material:26>);
 <ore:dustCopper>.remove(<enderio:item_material:26>);
 
 # Tin Powder
-JEI.removeAndHide(<enderio:item_material:27>);
+JEI.hide(<enderio:item_material:27>);
 <ore:dustTin>.remove(<enderio:item_material:27>);
 
 # Ender Pearl Powder
-JEI.removeAndHide(<enderio:item_material:22>);
+JEI.hide(<enderio:item_material:22>);
 // <ore:nuggetEnderpearl>.remove(<enderio:item_material:28>);
 
 # Obsidian Powder
-JEI.removeAndHide(<enderio:item_material:29>);
+JEI.hide(<enderio:item_material:29>);
 <ore:dustObsidian>.remove(<enderio:item_material:29>);
 
 # Cobalt Powder
-JEI.removeAndHide(<enderio:item_material:31>);
+JEI.hide(<enderio:item_material:31>);
 <ore:dustCobalt>.remove(<enderio:item_material:31>);
 
 # Lapis Powder
-JEI.removeAndHide(<enderio:item_material:32>);
+JEI.hide(<enderio:item_material:32>);
 <ore:dustLapis>.remove(<enderio:item_material:32>);
 
 # Quartz Powder
-JEI.removeAndHide(<enderio:item_material:33>);
+JEI.hide(<enderio:item_material:33>);
 <ore:dustNetherQuartz>.remove(<enderio:item_material:33>);
 
 # Withering Dust
-JEI.removeAndHide(<enderio:item_material:63>);
+JEI.hide(<enderio:item_material:63>);
 
 # Confusing Powder
-JEI.removeAndHide(<enderio:item_material:61>);
+JEI.hide(<enderio:item_material:61>);
 
 # Soul Powder
-JEI.removeAndHide(<enderio:item_material:74>);
+JEI.hide(<enderio:item_material:74>);
 
 # Glowstone Dust
 alloy_smelter.recipeBuilder()
@@ -560,16 +561,16 @@ recipes.addShaped(<enderio:item_material:65>, [
 ]);
 
 # Cake Base
-JEI.removeAndHide(<enderio:item_material:70>);
+JEI.hide(<enderio:item_material:70>);
 
 # Netherotta
-JEI.removeAndHide(<enderio:item_material:72>);
+JEI.hide(<enderio:item_material:72>);
 
 # Infinity Rod
-JEI.removeAndHide(<enderio:item_material:71>);
+JEI.hide(<enderio:item_material:71>);
 
 # Infinity Reagent
-JEI.removeAndHide(<enderio:item_material:75>);
+JEI.hide(<enderio:item_material:75>);
 
 # Black Paper
 recipes.addShapeless(<enderio:item_material:77>, [
@@ -577,13 +578,13 @@ recipes.addShapeless(<enderio:item_material:77>, [
 ]);
 
 # Animal Token
-JEI.removeAndHide(<enderio:item_material:78>);
+JEI.hide(<enderio:item_material:78>);
 
 # Monster Token
-JEI.removeAndHide(<enderio:item_material:79>);
+JEI.hide(<enderio:item_material:79>);
 
 # Player Token
-JEI.removeAndHide(<enderio:item_material:80>);
+JEI.hide(<enderio:item_material:80>);
 
 # Unfired Death Urn
 recipes.addShaped(<enderio:item_material:81>, [
@@ -660,7 +661,7 @@ mixer.recipeBuilder()
     ])
     .outputs([<metaitem:dustCrudeSteel>])
     .duration(40)
-    .EUt(480)
+    .EUt(1920)
     .buildAndRegister();
 
 # Crystalline Alloy
@@ -671,7 +672,7 @@ mixer.recipeBuilder()
     ])
     .outputs([<metaitem:dustCrystallineAlloy>])
     .duration(40)
-    .EUt(480)
+    .EUt(1920)
     .buildAndRegister();
 
 # Melodic Alloy
@@ -682,7 +683,7 @@ mixer.recipeBuilder()
     ])
     .outputs([<metaitem:dustMelodicAlloy>])
     .duration(40)
-    .EUt(480)
+    .EUt(1920)
     .buildAndRegister();
 
 # Stellar Alloy
@@ -694,7 +695,7 @@ mixer.recipeBuilder()
     ])
     .outputs([<metaitem:dustStellarAlloy>])
     .duration(40)
-    .EUt(480)
+    .EUt(30720)
     .buildAndRegister();
 
 # Crystalline Pink Slime
@@ -705,7 +706,7 @@ mixer.recipeBuilder()
     ])
     .outputs([<metaitem:dustCrystallinePinkSlime>])
     .duration(40)
-    .EUt(480)
+    .EUt(1920)
     .buildAndRegister();
 
 # Energetic Silver
@@ -717,7 +718,7 @@ mixer.recipeBuilder()
     ])
     .outputs([<metaitem:dustEnergeticSilver>])
     .duration(40)
-    .EUt(480)
+    .EUt(1920)
     .buildAndRegister();
 
 # Vivid Alloy
@@ -728,11 +729,11 @@ mixer.recipeBuilder()
     ])
     .outputs([<metaitem:dustVividAlloy>])
     .duration(40)
-    .EUt(480)
+    .EUt(1920)
     .buildAndRegister();
 
 # Grainy Capacior
-JEI.removeAndHide(<enderio:item_capacitor_grainy>);
+JEI.hide(<enderio:item_capacitor_grainy>);
 
 # Silver Capacitor
 assembler.recipeBuilder()
@@ -795,7 +796,17 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 # Stellar Capacitor
-JEI.removeAndHide(<enderio:item_capacitor_stellar>);
+assembler.recipeBuilder()
+    .inputs([
+        <ore:circuitMaster>,
+        <minecraft:shulker_shell>,
+        <enderio:item_capacitor_melodic> * 2
+    ])
+    .fluidInputs([<liquid:stellar_alloy> * 1152])
+    .outputs([<enderio:item_capacitor_stellar>])
+    .duration(40)
+    .EUt(30720)
+    .buildAndRegister();
 
 # Totemic Capacitor
 SliceNSplice.addRecipe(<enderio:item_capacitor_totemic>, [

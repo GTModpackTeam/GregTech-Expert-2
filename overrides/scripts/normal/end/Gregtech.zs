@@ -18,13 +18,6 @@ import mods.jei.JEI;
 ########################################
 # Blocks
 ########################################
-<gregtech:machine:1668>.addTooltip(
-    format.red("in progress")
-);
-<gregtech:machine:1669>.addTooltip(
-    format.red("in progress")
-);
-
 # Infinite GT Energy Unit Emitter
 assembly_line.recipeBuilder()
     .inputs([<enderio:block_cap_bank>.withTag({"enderio:energy": 50000000}) * 4])

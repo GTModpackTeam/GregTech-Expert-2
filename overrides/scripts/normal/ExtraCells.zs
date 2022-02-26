@@ -1,6 +1,7 @@
 #packmode normal
 # Imports
 import mods.jei.JEI;
+import mods.zenutils.I18n;
 
 
 
@@ -21,13 +22,13 @@ JEI.hide(<extracells:storage.component:7>);
 
 # Wireless Fluid Terminal
 JEI.removeAndHide(<extracells:terminal.fluid.wireless>);
-JEI.addDescription(<extracells:terminal.fluid.wireless>, "To change in a single craft.");
-<extracells:terminal.fluid.wireless>.addTooltip(format.green("To change in a single craft."));
+JEI.addDescription(<extracells:terminal.fluid.wireless>, I18n.format("modpack.tooltip.ec2.terminal.wireless"));
+<extracells:terminal.fluid.wireless>.addTooltip(format.green(I18n.format("modpack.tooltip.ec2.terminal.wireless")));
 
 # Wireless Universal Terminal
 JEI.removeAndHide(<extracells:terminal.universal.wireless>);
-JEI.addDescription(<extracells:terminal.universal.wireless>, "To change in a single craft.");
-<extracells:terminal.universal.wireless>.addTooltip(format.green("To change in a single craft."));
+JEI.addDescription(<extracells:terminal.universal.wireless>, I18n.format("modpack.tooltip.ec2.terminal.wireless"));
+<extracells:terminal.universal.wireless>.addTooltip(format.green(I18n.format("modpack.tooltip.ec2.terminal.wireless")));
 
 # Advanced Storage Housing
 recipes.remove(<extracells:storage.casing>);
@@ -327,6 +328,22 @@ JEI.hide(<extracells:part.base:9>);
 JEI.removeAndHide(<extracells:part.base:12>);
 JEI.addDescription(<extracells:part.base:12>, "Lag device. Use OreDict Storage bus.");
 <extracells:part.base:12>.addTooltip(format.green("Lag device. Use OreDict Storage bus."));
+
+# ME Fluid Assembler
+recipes.remove(<extracells:fluidcrafter>);
+assembler.recipeBuilder()
+    .inputs([
+        <ore:paneGlassColorless> * 2,
+        <ore:circuitAdvanced> * 2,
+        <metaitem:conveyor.module.hv> * 2,
+        <metaitem:fluid.regulator.hv> * 2,
+        <ore:plateSteel> * 4
+    ])
+    .fluidInputs([<liquid:plastic> * 144])
+    .outputs([<extracells:fluidcrafter>])
+    .duration(200)
+    .EUt(480)
+    .buildAndRegister();
 
 # ME Drive Fixture
 recipes.remove(<extracells:part.base:7>);

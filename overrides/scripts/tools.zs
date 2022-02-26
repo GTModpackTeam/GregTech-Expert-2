@@ -1,6 +1,7 @@
 # Imports
 import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
+import mods.zenutils.I18n;
 
 
 
@@ -36,8 +37,8 @@ var minecraft as IItemStack[] = [
 ];
 for tool in minecraft {
     tool.maxDamage = 1;
-    tool.addTooltip(format.green("It can only be used for crafting materials."));
-    JEI.addDescription(tool, "It can only be used for crafting materials.");
+    tool.addTooltip(format.green(I18n.format("modpack.tooltip.minecraft.tools")));
+    JEI.addDescription(tool, I18n.format("modpack.tooltip.minecraft.tools"));
 }
 
 
