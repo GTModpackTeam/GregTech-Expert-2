@@ -1,4 +1,9 @@
 # v1.1.1(hotfix)
+
+## Add recipes
+### AE2
+* Fluix Block
+
 ## Fix recipes
 ### AE2
 * 2k Spatial Component

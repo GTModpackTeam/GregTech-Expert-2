@@ -604,6 +604,15 @@ fluid_solidifier.recipeBuilder()
     .EUt(7)
     .buildAndRegister();
 
+## Fluix Block
+fluid_solidifier.recipeBuilder()
+    .notConsumable([<metaitem:shape.mold.block>])
+    .fluidInputs([<liquid:fluix> * 576])
+    .outputs([<appliedenergistics2:fluix_block>])
+    .duration(20)
+    .EUt(7)
+    .buildAndRegister();
+
 # Quartzite Block
 compressor.findRecipe(2, [<metaitem:gemQuartzite> * 9], null).remove();
 compressor.recipeBuilder()

@@ -18,7 +18,7 @@ MaterialBuilder(32200, "naquadah_rocket_fuel")
     .build();
 
 # Certus Quartz
-<material:certus_quartz>.addFluid(FluidTypes.LIQUID, false);
+MaterialRegistry.get("certus_quartz").addFluid(FluidTypes.LIQUID, false);
 
 
 
