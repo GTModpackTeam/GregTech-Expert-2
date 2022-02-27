@@ -44,7 +44,6 @@ minecraft.tools.tooltip.1=クラフト材料にのみ使用できます。
 
 # Mega Torch
 torchmaster.mega_torch.tooltip.1=このModpackでは128ブロックの範囲がある。
-torchmaster.mega_torch.tooltip.2=使用するには火打石と打ち金で火を付けること。
 torchmaster.lantern.tooltip.1=このModpackでは64ブロックの範囲がある。
 
 # Elevator

@@ -46,7 +46,6 @@ minecraft.tools.tooltip.1=It can only be used for crafting materials.
 
 # Mega Torch
 torchmaster.mega_torch.tooltip.1=Mega Torch range is 128 blocks.
-torchmaster.mega_torch.tooltip.2=Available when ignited with flint.
 torchmaster.lantern.tooltip.1=Mega Torch range is 64 blocks.
 
 # Elevator

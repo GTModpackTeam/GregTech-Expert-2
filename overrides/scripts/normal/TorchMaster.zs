@@ -10,15 +10,12 @@ import mods.zenutils.I18n;
 ########################################
 # Mega Torch
 JEI.removeAndHide(<torchmaster:mega_torch>);
-
-# Unlit Mega Torch
-recipes.addShaped(<torchmaster:mega_torch:1>, [
+recipes.addShaped(<torchmaster:mega_torch>, [
     [<ore:dustCoal> | <ore:dustCharcoal>, <ore:dustCoal> | <ore:dustCharcoal>, <ore:dustCoal> | <ore:dustCharcoal>],
     [<ore:foilGold>, <gregtech:planks:1>, <ore:foilGold>],
     [<ore:foilGold>, <gregtech:planks:1>, <ore:foilGold>]
 ]);
-<torchmaster:mega_torch:1>.addTooltip(format.green(I18n.format("torchmaster.mega_torch.tooltip.1")));
-<torchmaster:mega_torch:1>.addTooltip(format.red(I18n.format("torchmaster.mega_torch.tooltip.2")));
+<torchmaster:mega_torch>.addTooltip(format.green(I18n.format("torchmaster.mega_torch.tooltip.1")));
 
 # Feral Flare Lantern
 <torchmaster:feral_flare_lantern>.addTooltip(format.green(I18n.format("torchmaster.lantern.tooltip.1.line1")));
