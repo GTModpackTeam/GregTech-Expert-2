@@ -44,8 +44,7 @@ extractor.recipeBuilder()
     .buildAndRegister();
 
 # Charged Certus Quartz Crystal
-chemical_reactor.recipeBuilder()
-    .inputs([<ore:dustSodium>])
+electrolyzer.recipeBuilder()
     .fluidInputs([<liquid:certus_quartz> * 144])
     .fluidOutputs([<liquid:charged_certus_quartz> * 144])
     .duration(100)
@@ -312,10 +311,19 @@ chemical_reactor.recipeBuilder()
 # Nether Quartz Rod
 lathe.findRecipe(16, [<minecraft:quartz:0>], null).remove();
 lathe.recipeBuilder()
-    .inputs([<minecraft:quartz> | <ore:crystalPureNetherQuartz>])
+    .inputs([<minecraft:quartz>])
     .outputs([
         <metaitem:stickNetherQuartz>,
         <metaitem:dustSmallNetherQuartz> * 2
+    ])
+    .duration(40)
+    .EUt(16)
+    .buildAndRegister();
+lathe.recipeBuilder()
+    .inputs([<ore:crystalPureNetherQuartz>])
+    .outputs([
+        <metaitem:stickNetherQuartz>,
+        <metaitem:dustTinyNetherQuartz>
     ])
     .duration(40)
     .EUt(16)
@@ -324,10 +332,19 @@ lathe.recipeBuilder()
 # Certus Quartz Rod
 lathe.findRecipe(16, [<metaitem:gemCertusQuartz>], null).remove();
 lathe.recipeBuilder()
-    .inputs([<ore:gemCertusQuartz> | <ore:crystalPureCertusQuartz>])
+    .inputs([<ore:gemCertusQuartz>])
     .outputs([
         <metaitem:stickCertusQuartz>,
         <metaitem:dustSmallCertusQuartz> * 2
+    ])
+    .duration(40)
+    .EUt(16)
+    .buildAndRegister();
+lathe.recipeBuilder()
+    .inputs([<ore:crystalPureCertusQuartz>])
+    .outputs([
+        <metaitem:stickCertusQuartz>,
+        <metaitem:dustTinyCertusQuartz> * 2
     ])
     .duration(40)
     .EUt(16)
@@ -358,11 +375,8 @@ macerator.recipeBuilder()
     .buildAndRegister();
 
 # Charged Certus Quartz Dust
-chemical_reactor.recipeBuilder()
-    .inputs([
-        <ore:dustCertusQuartz>,
-        <ore:dustSodium>
-    ])
+electrolyzer.recipeBuilder()
+    .inputs([<ore:dustCertusQuartz>])
     .outputs([<metaitem:dustChargedCertusQuartz>])
     .duration(20)
     .EUt(2)
@@ -470,11 +484,8 @@ cutter.recipeBuilder()
     .buildAndRegister();
 
 # Charged Certus Quartz Crystal
-chemical_reactor.recipeBuilder()
-    .inputs([
-        <ore:dustChargedCertusQuartz>,
-        <ore:dustSodium>
-    ])
+electrolyzer.recipeBuilder()
+    .inputs([<ore:crystalCertusQuartz>])
     .fluidInputs([<liquid:distilled_water> * 50])
     .outputs([<appliedenergistics2:material:1>])
     .duration(20)
@@ -517,12 +528,13 @@ implosion_compressor.recipeBuilder()
 
 # Fluix Crystal (Override)
 recipes.removeShapeless(<appliedenergistics2:material:7> * 4, [<appliedenergistics2:fluix_block>]);
-chemical_reactor.recipeBuilder()
+mixer.recipeBuilder()
     .inputs([
-        <ore:dustFluix>,
-        <ore:dustSodium>
+        <appliedenergistics2:material:1>,
+        <ore:dustRedstone>,
+        <ore:gemNetherQuartz>
     ])
-    .fluidInputs([<liquid:distilled_water> * 50])
+    .fluidInputs([<liquid:distilled_water> * 144])
     .outputs([<appliedenergistics2:material:7>])
     .duration(20)
     .EUt(30)

@@ -12,6 +12,7 @@
 * Mega Torch
 
 * * *
+
 # v1.1.0
 ## Information
 * This version doesn't do it yet, but we will disable EU->RF conversion for GT cables in the next update. 
