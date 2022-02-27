@@ -1,6 +1,13 @@
 {
+	title: "ガス収集機",
 	x: 9.5d,
 	y: -10.0d,
+	description: "Gas Collector",
+	text: [
+		"ガス収集機は酸素と窒素に遠心分離するための空気を集めます。",
+		"",
+		"余談：GregTech5ではIC2の空のセルを圧縮機にかけて圧縮空気を獲得していた"
+	],
 	dependencies: [
 		"d1522493"
 	],

@@ -5,6 +5,24 @@
 ########################################
 # Items
 ########################################
+# Lead
+recipes.remove(<minecraft:lead>);
+recipes.addShaped(<minecraft:lead>, [
+    [<minecraft:string>, <minecraft:string>, <minecraft:string>],
+    [<minecraft:string>, <minecraft:slime_ball> | <metaitem:rubber_drop>, <minecraft:string>],
+    [<minecraft:string>, <minecraft:string>, <minecraft:string>]
+]);
+assembler.findRecipe(2, [<minecraft:string:0> * 4, <minecraft:slime_ball>], null).remove();
+assembler.recipeBuilder()
+    .inputs([
+        <minecraft:string> * 4,
+        <minecraft:slime_ball> | <metaitem:rubber_drop>
+    ])
+    .outputs([<minecraft:lead> * 2])
+    .duration(200)
+    .EUt(2)
+    .buildAndRegister();
+
 # Iron Nugget
 recipes.addShapeless(<minecraft:iron_nugget> * 9, [<minecraft:iron_ingot>]);
 
@@ -42,6 +60,14 @@ recipes.removeShaped(<minecraft:comparator>, [
     [null, <minecraft:redstone_torch>, null],
     [<minecraft:redstone_torch>, <ore:gemNetherQuartz>, <minecraft:redstone_torch>],
     [<ore:stoneSmooth>, <ore:stoneSmooth>, <ore:stoneSmooth>]
+]);
+
+# Brewing Stand
+recipes.remove(<minecraft:brewing_stand>);
+recipes.addShaped(<minecraft:brewing_stand>, [
+    [<ore:ringSteel>, <ore:stickBlaze>, <ore:ringSteel>],
+    [<ore:stickSteel>, <ore:stickBlaze>, <ore:stickSteel>],
+    [<ore:screwSteel>, <minecraft:cauldron>, <ore:screwSteel>]
 ]);
 
 # Nether Quartz Block

@@ -3,6 +3,7 @@
 	icon: "gregtech:meta_item_1 1 401",
 	x: -8.5d,
 	y: -2.0d,
+	shape: "diamond",
 	description: "Coated Circuit Board",
 	text: [
 		"コーティング回路基板は回路基盤の基盤です。",
@@ -10,7 +11,7 @@
 		"これに今は高価な銅のワイヤーをふんだんに用いることでようやく回路基板ができます。"
 	],
 	dependencies: [
-		"76b62977"
+		"bdd3b785"
 	],
 	min_width: 300,
 	or_tasks: true,

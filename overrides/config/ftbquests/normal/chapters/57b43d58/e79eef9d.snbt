@@ -1,6 +1,11 @@
 {
 	x: 3.5d,
 	y: 6.0d,
+	description: "Low Voltage Item Magnet",
+	text: [
+		"※このクエストはバグを回避するために該当アイテムをクラフトした時のみ達成できるようにしています。",
+		"もし達成できなかったらFTBQuestの編集モードで即時完了してください"
+	],
 	dependencies: [
 		"e8c91a59"
 	],
@@ -12,6 +17,7 @@
 			item: "gregtech:meta_item_1 1 471"
 		}],
 		ignore_damage: true,
-		ignore_nbt: 1b
+		ignore_nbt: 1b,
+		only_from_crafting: true
 	}]
 }

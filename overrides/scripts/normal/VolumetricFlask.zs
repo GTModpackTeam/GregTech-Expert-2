@@ -53,7 +53,7 @@ recipes.remove(<volumetricflask:o_interface>);
 recipes.addShapeless(<volumetricflask:o_interface>, [<volumetricflask:part_o_interface>]);
 recipes.addShaped(<volumetricflask:o_interface>, [
     [<ore:plateDoubleStainlessSteel>, <ore:plateGlass>, <ore:plateDoubleStainlessSteel>],
-    [<appliedenergistics2:material:44>, <gregtech:machine_casing:3>, <appliedenergistics2:material:43>],
+    [<contenttweaker:matrixcore>, <gregtech:machine_casing:3>, <contenttweaker:matrixcore>],
     [<ore:plateDoubleStainlessSteel>, <ore:plateGlass>, <ore:plateDoubleStainlessSteel>]
 ]);
 

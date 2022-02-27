@@ -2,6 +2,7 @@
 	icon: "gregtech:wire_coil",
 	x: 11.5d,
 	y: -4.0d,
+	shape: "diamond",
 	dependencies: [
 		"ef2976c5",
 		"2fedffc8",

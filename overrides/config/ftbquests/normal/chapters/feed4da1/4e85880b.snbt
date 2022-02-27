@@ -2,7 +2,7 @@
 	title: "Rock Crusher",
 	icon: "gregtech:machine 1 1025",
 	x: 3.0d,
-	y: 2.0d,
+	y: 0.0d,
 	description: "Steam Grinder",
 	text: [
 		"蒸気式破砕機は鉱石などを高速で大量に粉砕することができる、蒸気式オーブンの親戚です。",

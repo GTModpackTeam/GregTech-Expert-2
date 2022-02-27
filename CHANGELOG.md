@@ -1,3 +1,93 @@
+# v1.1.0
+## Information
+* This version doesn't do it yet, but we will disable EU->RF conversion for GT cables in the next update. 
+* Also, this version will be a grace period for the complete migration to the Converter, which has been added to GT.
+
+## Modpack update
+* Quest include v0.6.4.
+* More languages are now supported by modpack. However, quests are not supported.
+* Also, I haven't completed the support for all but en_us and ja_jp, but I will do my best to update them.
+    * ja_JP
+    * en_US
+    * ru_RU
+    * zh_cn
+
+## Upgrade mods
+* GregTech CE: Unofficial
+* Not Enough Energistics
+
+## Add mod
+* Zen Utils
+    * Introduced to support multiple languages.
+
+## New items
+### AE2
+* Matrix Core
+
+### EnderIO
+* Stellar Capacitor
+
+### GregTech
+* Nether Quartz Rod
+* Certus Quartz Rod
+* Quartzite Quartz Rod
+
+## Fix recipes
+### AE2
+* Formation Core
+* Annihilation Core
+
+### EnderIO
+* Reviewed EBF processing temperature and voltage set for all ingots.
+
+## Update recipes
+### AE2
+* Reviewed circuit and voltage settings for all Components.
+* Wireless Terminal
+* Fluix Block
+* Quartz Fiber
+* Quantum Ring
+* Spatial IO Port
+* ME Drive
+* ME Interface
+* ME Fluid Interface
+* Dense Energy Cell
+* Liquid Charged Certus Quartz Crystal
+* Charged Certus Quartz Dust
+* Charged Certus Quartz Crystal
+* Fluix Crystal
+
+### Extra Cells
+* Reviewed circuit and voltage settings for all Components.
+* ME Fluid Assembler
+
+### EnderIO
+* Farming Station
+* Slice'N'Splice
+* Soul Binder
+* Powered Spawner
+* Dimensional Transceiver
+* Ender Armors
+* The Ender Mark IV
+* Stellar Tools
+* Stellar Armors
+
+### Minecraft
+* Lead
+* Brewing Stand
+
+### Torchmaster
+* Mega Torch
+
+### Volumetric Flask
+* Interface
+
+### Modpack
+* Creative Energy Cell
+* Creative Capacitor Bank
+
+* * *
+
 # v1.0.3
 ## Downgrade mods
 * AE2 Unofficial Extended Life v50f -> v50b(The error has not been fixed)

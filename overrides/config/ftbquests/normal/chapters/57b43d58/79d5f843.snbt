@@ -2,6 +2,7 @@
 	icon: "gregtech:machine 1 1001",
 	x: 11.5d,
 	y: -2.0d,
+	shape: "diamond",
 	dependencies: [
 		"57bf39df"
 	],

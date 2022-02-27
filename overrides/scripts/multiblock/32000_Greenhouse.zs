@@ -1,6 +1,7 @@
 # Imports
 import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
+import mods.zenutils.I18n;
 import mods.gregtech.IControllerTile;
 import mods.gregtech.recipe.RecipeMap;
 import mods.gregtech.recipe.RecipeMaps;
@@ -65,7 +66,7 @@ recipes.addShaped(<metaitem:multiblocktweaker:greenhouse>, [
     [<ore:circuitGood>, <metaitem:hull.mv>, <ore:circuitGood>],
     [<metaitem:electric.piston.mv>, <metaitem:electric.pump.mv>, <metaitem:electric.piston.mv>]
 ]);
-JEI.addDescription(<metaitem:multiblocktweaker:greenhouse>, "This came from the GTCEu Community Pack.");
+JEI.addDescription(<metaitem:multiblocktweaker:greenhouse>, I18n.format("modpack.multiblocktweaker.greenhouse.tooltip.1"));
 
 
 

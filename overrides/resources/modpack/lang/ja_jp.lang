@@ -1,0 +1,50 @@
+# Ender IO
+material.electrical_steel=ケイ素鋼
+material.energetic_alloy=エナジェティック合金
+material.vibrant_alloy=ヴァイブラント合金
+material.redstone_alloy=レッドストーン合金
+material.conductive_iron=伝導鉄
+material.pulsating_iron=脈動鉄
+material.dark_steel=ダークスチール
+material.soularium=ソウラリウム
+material.end_steel=エンドスチール
+material.construction_alloy=鉄合金
+material.crude_steel=粗鋼
+material.crystalline_alloy=結晶性合金
+material.melodic_alloy=メロディック合金
+material.stellar_alloy=ステラ合金
+material.crystalline_pink_slime=結晶性ピンクスライム
+material.energetic_silver=エナジェティックシルバー
+material.vivid_alloy=ビビッド合金
+
+# GregTech
+material.naquadah_rocket_fuel=ナクアダロケット燃料
+
+# AE2
+material.dust_fluix=フルーシュ
+material.dust_charged_certus_quartz=チャージドケルタスクオーツ
+modpack.ae2.charger.tooltip.1=GTのターボチャージャーを使用すること。
+modpack.ae2.p2p_conduit.tooltip.1=エネルギー導管を持ってME P2P Tunnelを右クリックすることで変化します。
+modpack.ae2.p2p_bucket.tooltip.1=バケツを持ってME P2P Tunnelを右クリックすることで変化します。
+modpack.ae2.p2p_gtceu.tooltip.1=GTCEuのケーブルを持ってME P2P Tunnelを右クリックすることで変化します。
+modpack.ae2.p2p_chest.tooltip.1=チェストを持ってME P2P Tunnelを右クリックすることで変化します。
+modpack.ae2.p2p_torch.tooltip.1=松明を持ってME P2P Tunnelを右クリックすることで変化します。
+modpack.ae2.p2p_redstone.tooltip.1=レッドストーンを持ってME P2P Tunnelを右クリックすることで変化します。
+modpack.ae2.facade.tooltip.1=ケーブル被覆材は殆どのブロックから作成可能ですが、多すぎるためJEIでは一つしか表示しません。
+
+# Extra Cells
+modpack.ec2.wireless_terminal.tooltip.1=単体クラフトで変換すること。
+modpack.ec2.pattern.tooltip.1=パターンは殆どのブロックから作成可能ですが、多すぎるためJEIでは一つしか表示しません。
+
+# EnderIO
+modpack.enderio.capacitor_bank.tooltip.1=ブロック情報が変わるので、クラフトで使用する場合は設置しないこと！
+
+# Minecraft
+modpack.minecraft.tools.tooltip.1=クラフト材料にのみ使用できます。
+
+# Mega Torch
+modpack.torchmaster.mega_torch.tooltip.1=このModpackでは128ブロックの範囲がある。
+modpack.torchmaster.lantern.tooltip.1=このModpackでは64ブロックの範囲がある。
+
+# Elevator
+modpack.elevator.tooltip.1=最初に黒色のエレベーターを作成すること。

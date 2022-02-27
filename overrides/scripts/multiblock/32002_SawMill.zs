@@ -1,6 +1,7 @@
 # Imports
 import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
+import mods.zenutils.I18n;
 import mods.gregtech.IControllerTile;
 import mods.gregtech.recipe.RecipeMap;
 import mods.gregtech.recipe.RecipeMaps;
@@ -64,7 +65,7 @@ recipes.addShaped(<metaitem:multiblocktweaker:saw_mill>, [
     [<metaitem:electric.motor.mv>, <gregtech:metal_casing:4>, <metaitem:electric.motor.mv>],
     [<ore:circuitGood>, <metaitem:conveyor.module.mv>, <ore:circuitGood>]
 ]);
-JEI.addDescription(<metaitem:multiblocktweaker:saw_mill>, "A machine that efficiently processes raw wood into lumber.");
+JEI.addDescription(<metaitem:multiblocktweaker:saw_mill>, I18n.format("modpack.multiblocktweaker.saw_mill.tooltip.1"));
 
 
 

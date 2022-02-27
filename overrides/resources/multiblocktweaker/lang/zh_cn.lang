@@ -1,0 +1,11 @@
+multiblocktweaker.machine.greenhouse.name=Greenhouse
+recipemap.greenhouse.name=Greenhouse
+modpack.multiblocktweaker.greenhouse.tooltip.1=This came from the GTCEu Community Pack.
+
+multiblocktweaker.machine.voidoreminer.name=Void Ore Drilling Plant
+recipemap.voidoreminer.name=Void Ore Drilling Plant
+modpack.multiblocktweaker.voidoreminer.tooltip.1=When you put the ore you want to mine into the Input Bus, it will mine the same ore you put in.
+
+multiblocktweaker.machine.saw_mill.name=Saw Mill
+recipemap.saw_mill.name=Saw Mill
+modpack.multiblocktweaker.saw_mill.tooltip.1=A machine that efficiently processes raw wood into lumber.

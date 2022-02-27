@@ -3,6 +3,7 @@
 	icon: "gregtech:machine 1 7",
 	x: -11.0d,
 	y: 4.0d,
+	shape: "diamond",
 	description: "Steam Extractor",
 	text: [
 		"蒸気式抽出機を使うと粘性樹脂やゴムの原木から未加工ゴムのパルプを抽出することができます。",

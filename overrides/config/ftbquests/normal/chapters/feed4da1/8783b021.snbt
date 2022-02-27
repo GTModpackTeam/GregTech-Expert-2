@@ -2,7 +2,7 @@
 	title: "砂上の鋼鉄",
 	icon: "minecraft:glass",
 	x: 1.0d,
-	y: 0.0d,
+	y: 2.0d,
 	shape: "diamond",
 	description: "Glass",
 	text: [

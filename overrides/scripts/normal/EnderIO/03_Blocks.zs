@@ -101,21 +101,21 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 # Self-resetting Levers
-JEI.removeAndHide(<enderio:block_self_resetting_lever5>);
-JEI.removeAndHide(<enderio:block_self_resetting_lever10>);
-JEI.removeAndHide(<enderio:block_self_resetting_lever30>);
-JEI.removeAndHide(<enderio:block_self_resetting_lever60>);
-JEI.removeAndHide(<enderio:block_self_resetting_lever300>);
-JEI.removeAndHide(<enderio:block_self_resetting_lever5i>);
-JEI.removeAndHide(<enderio:block_self_resetting_lever10i>);
-JEI.removeAndHide(<enderio:block_self_resetting_lever30i>);
-JEI.removeAndHide(<enderio:block_self_resetting_lever60i>);
-JEI.removeAndHide(<enderio:block_self_resetting_lever300i>);
+JEI.hide(<enderio:block_self_resetting_lever5>);
+JEI.hide(<enderio:block_self_resetting_lever10>);
+JEI.hide(<enderio:block_self_resetting_lever30>);
+JEI.hide(<enderio:block_self_resetting_lever60>);
+JEI.hide(<enderio:block_self_resetting_lever300>);
+JEI.hide(<enderio:block_self_resetting_lever5i>);
+JEI.hide(<enderio:block_self_resetting_lever10i>);
+JEI.hide(<enderio:block_self_resetting_lever30i>);
+JEI.hide(<enderio:block_self_resetting_lever60i>);
+JEI.hide(<enderio:block_self_resetting_lever300i>);
 
 # Decoration Blocks
-JEI.removeAndHide(<enderio:block_decoration1:*>);
-JEI.removeAndHide(<enderio:block_decoration2:*>);
-JEI.removeAndHide(<enderio:block_decoration3:*>);
+JEI.hide(<enderio:block_decoration1:*>);
+JEI.hide(<enderio:block_decoration2:*>);
+JEI.hide(<enderio:block_decoration3:*>);
 
 # Reinforced Obsidian
 recipes.addShaped(<enderio:block_reinforced_obsidian>, [
@@ -150,7 +150,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 # Pressure Plates
-JEI.removeAndHide(<enderio:block_painted_pressure_plate:*>);
+JEI.hide(<enderio:block_painted_pressure_plate:*>);
 
 # Fused Quartz
 alloy_smelter.recipeBuilder()
