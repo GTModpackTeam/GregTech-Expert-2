@@ -312,16 +312,7 @@ chemical_reactor.recipeBuilder()
 # Nether Quartz Rod
 lathe.findRecipe(16, [<minecraft:quartz:0>], null).remove();
 lathe.recipeBuilder()
-    .inputs([<minecraft:quartz>])
-    .outputs([
-        <metaitem:stickNetherQuartz> * 2,
-        <metaitem:dustSmallNetherQuartz> * 4
-    ])
-    .duration(40)
-    .EUt(16)
-    .buildAndRegister();
-lathe.recipeBuilder()
-    .inputs([<ore:crystalPureNetherQuartz>])
+    .inputs([<minecraft:quartz> | <ore:crystalPureNetherQuartz>])
     .outputs([
         <metaitem:stickNetherQuartz>,
         <metaitem:dustSmallNetherQuartz> * 2
@@ -333,16 +324,7 @@ lathe.recipeBuilder()
 # Certus Quartz Rod
 lathe.findRecipe(16, [<metaitem:gemCertusQuartz>], null).remove();
 lathe.recipeBuilder()
-    .inputs([<ore:gemCertusQuartz>])
-    .outputs([
-        <metaitem:stickCertusQuartz> * 2,
-        <metaitem:dustSmallCertusQuartz> * 4
-    ])
-    .duration(40)
-    .EUt(16)
-    .buildAndRegister();
-lathe.recipeBuilder()
-    .inputs([<ore:crystalPureCertusQuartz>])
+    .inputs([<ore:gemCertusQuartz> | <ore:crystalPureCertusQuartz>])
     .outputs([
         <metaitem:stickCertusQuartz>,
         <metaitem:dustSmallCertusQuartz> * 2
@@ -537,7 +519,7 @@ implosion_compressor.recipeBuilder()
 recipes.removeShapeless(<appliedenergistics2:material:7> * 4, [<appliedenergistics2:fluix_block>]);
 chemical_reactor.recipeBuilder()
     .inputs([
-        <ore:dustChargedCertusQuartz>,
+        <ore:dustFluix>,
         <ore:dustSodium>
     ])
     .fluidInputs([<liquid:distilled_water> * 50])
