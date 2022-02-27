@@ -8,6 +8,13 @@
 * Certus Quartz Rod
 * Fluix Crystal
 
+## Revert recipes
+### AE2
+* Fluid Charged Certus Quartz Crystal
+* Charged Certus Quartz Dust
+* Charged Certus Quartz Crystal
+* Fluix Crystal
+
 ### Torch Master
 * Mega Torch
 
