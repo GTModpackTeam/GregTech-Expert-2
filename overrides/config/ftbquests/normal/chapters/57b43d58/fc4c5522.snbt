@@ -1,8 +1,13 @@
 {
+	title: "フェのりック",
 	icon: "gregtech:meta_item_1 1 402",
 	x: 9.5d,
 	y: 4.0d,
 	shape: "diamond",
+	description: "Phenolic Circuit Board",
+	text: [
+		"フェノール樹脂基板はMV基板の材料です。"
+	],
 	dependencies: [
 		"2ead6bb9",
 		"b75f94e8",

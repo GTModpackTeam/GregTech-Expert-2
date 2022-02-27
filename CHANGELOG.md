@@ -4,6 +4,7 @@
 * Also, this version will be a grace period for the complete migration to the Converter, which has been added to GT.
 
 ## Modpack update
+* Quest include v0.6.4.
 * More languages are now supported by modpack. However, quests are not supported.
 * Also, I haven't completed the support for all but en_us and ja_jp, but I will do my best to update them.
     * ja_JP

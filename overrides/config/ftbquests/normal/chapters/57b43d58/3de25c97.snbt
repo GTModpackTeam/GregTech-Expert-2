@@ -1,6 +1,12 @@
 {
+	title: "使ったことない...",
 	x: -3.0d,
 	y: 3.5d,
+	description: "Electromagnetic Separator",
+	text: [
+		"電磁分離機はめったに使われない機械で、",
+		"磁場を発生させて磁化した鉱石を分離させて追加の副産物を抽出します。"
+	],
 	dependencies: [
 		"ce0bf8e6"
 	],
