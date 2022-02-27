@@ -323,7 +323,7 @@ lathe.recipeBuilder()
     .inputs([<ore:crystalPureNetherQuartz>])
     .outputs([
         <metaitem:stickNetherQuartz>,
-        <metaitem:dustTinyNetherQuartz>
+        <metaitem:dustTinyNetherQuartz> * 2
     ])
     .duration(40)
     .EUt(16)
