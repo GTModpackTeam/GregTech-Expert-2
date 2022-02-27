@@ -347,7 +347,7 @@ lathe.findRecipe(16, [<metaitem:gemQuartzite>], null).remove();
 extruder.recipeBuilder()
     .notConsumable(<metaitem:shape.extruder.rod>)
     .inputs([<ore:gemQuartzite>])
-    .outputs([<metaitem:stickCertusQuartz> * 2])
+    .outputs([<metaitem:stickQuartzite> * 2])
     .duration(40)
     .EUt(42)
     .buildAndRegister();
