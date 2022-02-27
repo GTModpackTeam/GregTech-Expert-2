@@ -310,44 +310,46 @@ chemical_reactor.recipeBuilder()
 
 # Nether Quartz Rod
 lathe.findRecipe(16, [<minecraft:quartz:0>], null).remove();
-lathe.recipeBuilder()
+extruder.recipeBuilder()
+    .notConsumable(<metaitem:shape.extruder.rod>)
     .inputs([<minecraft:quartz>])
-    .outputs([
-        <metaitem:stickNetherQuartz>,
-        <metaitem:dustSmallNetherQuartz> * 2
-    ])
+    .outputs([<metaitem:stickNetherQuartz> * 2])
     .duration(40)
-    .EUt(16)
+    .EUt(42)
     .buildAndRegister();
-lathe.recipeBuilder()
+extruder.recipeBuilder()
+    .notConsumable(<metaitem:shape.extruder.rod>)
     .inputs([<ore:crystalPureNetherQuartz>])
-    .outputs([
-        <metaitem:stickNetherQuartz>,
-        <metaitem:dustTinyNetherQuartz> * 2
-    ])
+    .outputs([<metaitem:stickNetherQuartz>])
     .duration(40)
-    .EUt(16)
+    .EUt(42)
     .buildAndRegister();
 
 # Certus Quartz Rod
 lathe.findRecipe(16, [<metaitem:gemCertusQuartz>], null).remove();
-lathe.recipeBuilder()
+extruder.recipeBuilder()
+    .notConsumable(<metaitem:shape.extruder.rod>)
     .inputs([<ore:gemCertusQuartz>])
-    .outputs([
-        <metaitem:stickCertusQuartz>,
-        <metaitem:dustSmallCertusQuartz> * 2
-    ])
+    .outputs([<metaitem:stickCertusQuartz> * 2])
     .duration(40)
-    .EUt(16)
+    .EUt(42)
     .buildAndRegister();
-lathe.recipeBuilder()
+extruder.recipeBuilder()
+    .notConsumable(<metaitem:shape.extruder.rod>)
     .inputs([<ore:crystalPureCertusQuartz>])
-    .outputs([
-        <metaitem:stickCertusQuartz>,
-        <metaitem:dustTinyCertusQuartz> * 2
-    ])
+    .outputs([<metaitem:stickCertusQuartz>])
     .duration(40)
-    .EUt(16)
+    .EUt(42)
+    .buildAndRegister();
+
+# Quartzite Rod
+lathe.findRecipe(16, [<metaitem:gemQuartzite>], null).remove();
+extruder.recipeBuilder()
+    .notConsumable(<metaitem:shape.extruder.rod>)
+    .inputs([<ore:gemQuartzite>])
+    .outputs([<metaitem:stickCertusQuartz> * 2])
+    .duration(40)
+    .EUt(42)
     .buildAndRegister();
 
 # Certus Quartz Dust (Override)
@@ -379,7 +381,7 @@ electrolyzer.recipeBuilder()
     .inputs([<ore:dustCertusQuartz>])
     .outputs([<metaitem:dustChargedCertusQuartz>])
     .duration(20)
-    .EUt(2)
+    .EUt(30)
     .buildAndRegister();
 macerator.recipeBuilder()
     .inputs([<appliedenergistics2:material:1>])
@@ -398,7 +400,7 @@ mixer.recipeBuilder()
     .fluidInputs([<liquid:distilled_water> * 50])
     .outputs([<metaitem:dustFluix>])
     .duration(20)
-    .EUt(480)
+    .EUt(30)
     .buildAndRegister();
 macerator.recipeBuilder()
     .inputs([<appliedenergistics2:material:7>])
@@ -534,7 +536,7 @@ mixer.recipeBuilder()
         <ore:dustRedstone>,
         <ore:gemNetherQuartz>
     ])
-    .fluidInputs([<liquid:distilled_water> * 144])
+    .fluidInputs([<liquid:distilled_water> * 50])
     .outputs([<appliedenergistics2:material:7>])
     .duration(20)
     .EUt(30)

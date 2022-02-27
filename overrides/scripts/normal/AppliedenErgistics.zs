@@ -529,11 +529,11 @@ recipes.remove(<appliedenergistics2:material:32>);
 assembler.recipeBuilder()
     .inputs([
         <ore:circuitExtreme> * 4,
-        <ore:plateTungstenSteel> * 4,
+        <ore:plateTitanium> * 4,
         <ore:dustCertusQuartz> * 32,
         <appliedenergistics2:material:23>
     ])
-    .fluidInputs(<liquid:tungsten_steel> * 144)
+    .fluidInputs(<liquid:hsla_steel> * 144)
     .outputs([<appliedenergistics2:material:32>])
     .duration(200)
     .EUt(1920)
