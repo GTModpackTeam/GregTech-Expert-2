@@ -25,6 +25,15 @@ MaterialBuilder(32200, "naquadah_rocket_fuel")
 ########################################
 # Items
 ########################################
+# Nether Quartz Rod
+MaterialRegistry.get("nether_quartz").addFlags("generate_rod");
+
+# Certus Quartz Rod
+MaterialRegistry.get("certus_quartz").addFlags("generate_rod");
+
+# Quartzite Quartz Rod
+MaterialRegistry.get("quartzite").addFlags("generate_rod");
+
 # EIO - Electrical Steel
 MaterialBuilder(32100, "electrical_steel")
     .ingot()
@@ -157,6 +166,10 @@ MaterialBuilder(32107, "soularium")
         "generate_plate"
     ])
     .blastTemp(3600, "HIGH", 480, 600)
+    .components([
+        <material:gold> * 1,
+        <material:ash> * 1
+    ])
     .build();
 MaterialRegistry.get("soularium").setFormula("?AuC", true);
 

@@ -357,7 +357,7 @@ assembler.recipeBuilder()
 recipes.remove(<appliedenergistics2:material:36>);
 assembler.recipeBuilder()
     .inputs([
-        <ore:circuitAdvanced> * 4,
+        <ore:circuitExtreme> * 4,
         <ore:plateIron> * 4,
         <ore:dustCertusQuartz> * 4,
         <appliedenergistics2:material:22>
@@ -365,25 +365,25 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:steel> * 144)
     .outputs([<appliedenergistics2:material:36>])
     .duration(200)
-    .EUt(480)
+    .EUt(1920)
     .buildAndRegister();
 assembler.recipeBuilder()
     .inputs([
         <appliedenergistics2:material:22>,
-        <ore:circuitAdvanced> * 4,
+        <ore:circuitExtreme> * 4,
         <appliedenergistics2:material:35> * 4
     ])
     .fluidInputs(<liquid:steel> * 144)
     .outputs([<appliedenergistics2:material:36>])
     .duration(400)
-    .EUt(480)
+    .EUt(1920)
     .buildAndRegister();
 
 # 16k Storage Component
 recipes.remove(<appliedenergistics2:material:37>);
 assembler.recipeBuilder()
     .inputs([
-        <ore:circuitAdvanced> * 4,
+        <ore:circuitElite> * 4,
         <ore:plateAluminium> * 4,
         <ore:dustCertusQuartz> * 8,
         <appliedenergistics2:material:24>
@@ -391,25 +391,25 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:steel> * 144)
     .outputs([<appliedenergistics2:material:37>])
     .duration(200)
-    .EUt(480)
+    .EUt(7680)
     .buildAndRegister();
 assembler.recipeBuilder()
     .inputs([
         <appliedenergistics2:material:24>,
-        <ore:circuitAdvanced> * 4,
+        <ore:circuitElite> * 4,
         <appliedenergistics2:material:36> * 4
     ])
     .fluidInputs(<liquid:steel> * 144)
     .outputs([<appliedenergistics2:material:37>])
     .duration(400)
-    .EUt(480)
+    .EUt(7680)
     .buildAndRegister();
 
 # 64k Storage Component
 recipes.remove(<appliedenergistics2:material:38>);
 assembler.recipeBuilder()
     .inputs([
-        <ore:circuitAdvanced> * 4,
+        <ore:circuitMaster> * 4,
         <ore:plateStainlessSteel> * 4,
         <ore:dustCertusQuartz> * 8,
         <appliedenergistics2:material:24>
@@ -417,18 +417,18 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:steel> * 144)
     .outputs([<appliedenergistics2:material:38>])
     .duration(200)
-    .EUt(480)
+    .EUt(30720)
     .buildAndRegister();
 assembler.recipeBuilder()
     .inputs([
         <appliedenergistics2:material:24>,
-        <ore:circuitAdvanced> * 4,
+        <ore:circuitMaster> * 4,
         <appliedenergistics2:material:37> * 4
     ])
     .fluidInputs(<liquid:steel> * 144)
     .outputs([<appliedenergistics2:material:38>])
     .duration(400)
-    .EUt(480)
+    .EUt(30720)
     .buildAndRegister();
 
 # 1k Fluid Component
@@ -450,7 +450,7 @@ assembler.recipeBuilder()
 recipes.remove(<appliedenergistics2:material:55>);
 assembler.recipeBuilder()
     .inputs([
-        <ore:circuitAdvanced> * 4,
+        <ore:circuitExtreme> * 4,
         <ore:plateIron> * 4,
         <ore:dustNetherQuartz> * 4,
         <appliedenergistics2:material:22>
@@ -458,25 +458,25 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:stainless_steel> * 144)
     .outputs([<appliedenergistics2:material:55>])
     .duration(200)
-    .EUt(480)
+    .EUt(1920)
     .buildAndRegister();
 assembler.recipeBuilder()
     .inputs([
         <appliedenergistics2:material:22>,
-        <ore:circuitAdvanced> * 4,
+        <ore:circuitExtreme> * 4,
         <appliedenergistics2:material:54> * 4
     ])
     .fluidInputs(<liquid:stainless_steel> * 144)
     .outputs([<appliedenergistics2:material:55>])
     .duration(400)
-    .EUt(480)
+    .EUt(1920)
     .buildAndRegister();
 
 # 16k Fluid Component
 recipes.remove(<appliedenergistics2:material:56>);
 assembler.recipeBuilder()
     .inputs([
-        <ore:circuitAdvanced> * 4,
+        <ore:circuitElite> * 4,
         <ore:plateAluminium> * 4,
         <ore:dustNetherQuartz> * 8,
         <appliedenergistics2:material:24>
@@ -489,20 +489,20 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs([
         <appliedenergistics2:material:24>,
-        <ore:circuitAdvanced> * 4,
+        <ore:circuitElite> * 4,
         <appliedenergistics2:material:55> * 4
     ])
     .fluidInputs(<liquid:stainless_steel> * 144)
     .outputs([<appliedenergistics2:material:56>])
     .duration(400)
-    .EUt(480)
+    .EUt(7680)
     .buildAndRegister();
 
 # 64k Fluid Component
 recipes.remove(<appliedenergistics2:material:57>);
 assembler.recipeBuilder()
     .inputs([
-        <ore:circuitAdvanced> * 4,
+        <ore:circuitMaster> * 4,
         <ore:plateStainlessSteel> * 4,
         <ore:dustNetherQuartz> * 8,
         <appliedenergistics2:material:24>
@@ -510,37 +510,22 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:stainless_steel> * 144)
     .outputs([<appliedenergistics2:material:57>])
     .duration(200)
-    .EUt(480)
+    .EUt(30720)
     .buildAndRegister();
 assembler.recipeBuilder()
     .inputs([
         <appliedenergistics2:material:24>,
-        <ore:circuitAdvanced> * 4,
+        <ore:circuitMaster> * 4,
         <appliedenergistics2:material:56> * 4
     ])
     .fluidInputs(<liquid:stainless_steel> * 144)
     .outputs([<appliedenergistics2:material:57>])
     .duration(400)
-    .EUt(480)
+    .EUt(30720)
     .buildAndRegister();
 
 # 2k Spatial Component
 recipes.remove(<appliedenergistics2:material:32>);
-assembler.recipeBuilder()
-    .inputs([
-        <ore:circuitElite> * 4,
-        <ore:plateTungstenSteel> * 4,
-        <ore:dustCertusQuartz> * 32,
-        <appliedenergistics2:material:23>
-    ])
-    .fluidInputs(<liquid:tungsten_steel> * 144)
-    .outputs([<appliedenergistics2:material:32>])
-    .duration(200)
-    .EUt(7680)
-    .buildAndRegister();
-
-# 16k Spatial Component
-recipes.remove(<appliedenergistics2:material:33>);
 assembler.recipeBuilder()
     .inputs([
         <ore:circuitMaster> * 4,
@@ -549,9 +534,24 @@ assembler.recipeBuilder()
         <appliedenergistics2:material:23>
     ])
     .fluidInputs(<liquid:tungsten_steel> * 144)
-    .outputs([<appliedenergistics2:material:33>])
+    .outputs([<appliedenergistics2:material:32>])
     .duration(200)
     .EUt(30720)
+    .buildAndRegister();
+
+# 16k Spatial Component
+recipes.remove(<appliedenergistics2:material:33>);
+assembler.recipeBuilder()
+    .inputs([
+        <ore:circuitUltimate> * 4,
+        <ore:plateTungstenSteel> * 4,
+        <ore:dustCertusQuartz> * 32,
+        <appliedenergistics2:material:23>
+    ])
+    .fluidInputs(<liquid:tungsten_steel> * 144)
+    .outputs([<appliedenergistics2:material:33>])
+    .duration(200)
+    .EUt(122880)
     .buildAndRegister();
 assembler.recipeBuilder()
     .inputs([
@@ -562,14 +562,14 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:tungsten_steel> * 144)
     .outputs([<appliedenergistics2:material:33>])
     .duration(400)
-    .EUt(30720)
+    .EUt(122880)
     .buildAndRegister();
 
 # 128k Spatial Component
 recipes.remove(<appliedenergistics2:material:34>);
 assembler.recipeBuilder()
     .inputs([
-        <ore:circuitUltimate> * 4,
+        <ore:circuitSuper> * 4,
         <ore:plateNeutronium> * 4,
         <ore:dustCertusQuartz> * 32,
         <appliedenergistics2:material:23>
@@ -577,18 +577,18 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:tungsten_steel> * 144)
     .outputs([<appliedenergistics2:material:34>])
     .duration(200)
-    .EUt(122880)
+    .EUt(491520)
     .buildAndRegister();
 assembler.recipeBuilder()
     .inputs([
         <appliedenergistics2:material:23>,
-        <ore:circuitUltimate> * 4,
+        <ore:circuitSuper> * 4,
         <appliedenergistics2:material:33> * 4
     ])
     .fluidInputs(<liquid:tungsten_steel> * 144)
     .outputs([<appliedenergistics2:material:34>])
     .duration(400)
-    .EUt(122880)
+    .EUt(491520)
     .buildAndRegister();
 
 # Certus Quartz Cutting Knife
@@ -895,13 +895,13 @@ compressor.recipeBuilder()
     .inputs([<ore:crystalFluix> * 4])
     .outputs([<appliedenergistics2:fluix_block>])
     .duration(300)
-    .EUt(2)
+    .EUt(480)
     .buildAndRegister();
 compressor.recipeBuilder()
     .inputs([<ore:crystalPureFluix> * 8])
     .outputs([<appliedenergistics2:fluix_block>])
     .duration(300)
-    .EUt(2)
+    .EUt(480)
     .buildAndRegister();
 
 # Sky Srone
@@ -914,14 +914,8 @@ recipes.addShaped(<appliedenergistics2:sky_stone_block>, [
 # Quartz Fiber
 recipes.remove(<appliedenergistics2:part:140>);
 wiremill.recipeBuilder()
-    .inputs([<ore:gemNetherQuartz> | <ore:crystalPureNetherQuartz>])
+    .inputs([<ore:stickNetherQuartz> | <ore:stickCertusQuartz> | <ore:stickQuartzite>])
     .outputs([<appliedenergistics2:part:140>])
-    .duration(20)
-    .EUt(480)
-    .buildAndRegister();
-wiremill.recipeBuilder()
-    .inputs([<ore:crystalPureCertusQuartz> | <ore:crystalCertusQuartz> | <ore:gemQuartzite>])
-    .outputs([<appliedenergistics2:part:140> * 2])
     .duration(20)
     .EUt(480)
     .buildAndRegister();
