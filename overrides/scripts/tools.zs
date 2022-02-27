@@ -37,8 +37,8 @@ var minecraft as IItemStack[] = [
 ];
 for tool in minecraft {
     tool.maxDamage = 1;
-    tool.addTooltip(format.green(I18n.format("minecraft.tools.tooltip.1")));
-    JEI.addDescription(tool, I18n.format("minecraft.tools.tooltip.1"));
+    tool.addTooltip(format.green(I18n.format("modpack.minecraft.tools.tooltip.1")));
+    JEI.addDescription(tool, I18n.format("modpack.minecraft.tools.tooltip.1"));
 }
 
 

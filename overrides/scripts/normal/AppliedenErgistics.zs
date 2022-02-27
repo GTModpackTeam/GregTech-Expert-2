@@ -210,8 +210,8 @@ recipes.addShaped(<contenttweaker:matrixcore> * 2, [
 assembler.recipeBuilder()
     .circuit(1)
     .inputs([
-        <ore:stickAluminium> * 4,
-        <appliedenergistics2:material:24> * 8,
+        <ore:stickAluminium> * 6,
+        <appliedenergistics2:material:24> * 4,
         <ore:gemNetherQuartz> | <ore:crystalPureNetherQuartz>,
         <ore:gemCertusQuartz> | <ore:crystalPureCertusQuartz>,
         <ore:crystalFluix> | <ore:crystalPureFluix>
@@ -223,7 +223,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 assembler.recipeBuilder()
     .inputs([
-        <appliedenergistics2:material:24> * 2,
+        <ore:stickAluminium> * 2,
         <appliedenergistics2:material:43>,
         <appliedenergistics2:material:44>,
         <ore:crystalFluix> | <ore:crystalPureFluix>

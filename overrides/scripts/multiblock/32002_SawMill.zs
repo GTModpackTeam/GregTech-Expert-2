@@ -65,7 +65,7 @@ recipes.addShaped(<metaitem:multiblocktweaker:saw_mill>, [
     [<metaitem:electric.motor.mv>, <gregtech:metal_casing:4>, <metaitem:electric.motor.mv>],
     [<ore:circuitGood>, <metaitem:conveyor.module.mv>, <ore:circuitGood>]
 ]);
-JEI.addDescription(<metaitem:multiblocktweaker:saw_mill>, I18n.format("modpack.tooltip.saw_mill"));
+JEI.addDescription(<metaitem:multiblocktweaker:saw_mill>, I18n.format("modpack.multiblocktweaker.saw_mill.tooltip.1"));
 
 
 

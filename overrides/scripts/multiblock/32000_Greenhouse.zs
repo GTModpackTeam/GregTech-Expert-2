@@ -66,7 +66,7 @@ recipes.addShaped(<metaitem:multiblocktweaker:greenhouse>, [
     [<ore:circuitGood>, <metaitem:hull.mv>, <ore:circuitGood>],
     [<metaitem:electric.piston.mv>, <metaitem:electric.pump.mv>, <metaitem:electric.piston.mv>]
 ]);
-JEI.addDescription(<metaitem:multiblocktweaker:greenhouse>, I18n.format("modpack.tooltip.greenhouse"));
+JEI.addDescription(<metaitem:multiblocktweaker:greenhouse>, I18n.format("modpack.multiblocktweaker.greenhouse.tooltip.1"));
 
 
 

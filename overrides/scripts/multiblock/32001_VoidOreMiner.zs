@@ -77,7 +77,7 @@ assembly_line.recipeBuilder()
     .duration(600)
     .EUt(122880)
     .buildAndRegister();
-JEI.addDescription(<metaitem:multiblocktweaker:voidoreminer>, I18n.format("modpack.tooltip.voidoreminer"));
+JEI.addDescription(<metaitem:multiblocktweaker:voidoreminer>, I18n.format("modpack.multiblocktweaker.voidoreminer.tooltip.1"));
 
 
 
