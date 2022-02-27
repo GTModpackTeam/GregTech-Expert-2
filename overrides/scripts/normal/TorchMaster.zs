@@ -17,5 +17,9 @@ recipes.addShaped(<torchmaster:mega_torch:1>, [
     [<ore:foilGold>, <gregtech:planks:1>, <ore:foilGold>],
     [<ore:foilGold>, <gregtech:planks:1>, <ore:foilGold>]
 ]);
-<torchmaster:mega_torch:1>.addTooltip(format.green(I18n.format("modpack.tooltip.megaTorch.line1")));
-<torchmaster:mega_torch:1>.addTooltip(format.red(I18n.format("modpack.tooltip.megaTorch.line2")));
+<torchmaster:mega_torch:1>.addTooltip(format.green(I18n.format("torchmaster.mega_torch.tooltip.1")));
+<torchmaster:mega_torch:1>.addTooltip(format.red(I18n.format("torchmaster.mega_torch.tooltip.2")));
+
+# Feral Flare Lantern
+<torchmaster:feral_flare_lantern>.addTooltip(format.green(I18n.format("torchmaster.lantern.tooltip.1.line1")));
+<torchmaster:feral_flare_lantern>.addTooltip(format.green(I18n.format("torchmaster.lantern.tooltip.1.line2")));

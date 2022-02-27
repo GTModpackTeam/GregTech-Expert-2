@@ -6,8 +6,8 @@ import mods.zenutils.I18n;
 
 
 # Capacitor Banks
-<enderio:block_cap_bank:*>.addTooltip(format.red(I18n.format("modpack.tooltip.eio.capacitor.bank")));
-JEI.addDescription(<enderio:block_cap_bank:*>, I18n.format("modpack.tooltip.eio.capacitor.bank"));
+<enderio:block_cap_bank:*>.addTooltip(format.red(I18n.format("enderio.capacitor_bank.tooltip.1")));
+JEI.addDescription(<enderio:block_cap_bank:*>, I18n.format("enderio.capacitor_bank.tooltip.1"));
 
 # Basic Capacitor Bank
 recipes.remove(<enderio:block_cap_bank:1>);

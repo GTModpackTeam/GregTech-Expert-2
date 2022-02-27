@@ -30,7 +30,7 @@ for elevator in elevators {
     recipes.remove(elevator);
     if (elevator.displayName has "Black") {}
     else {
-        elevator.addTooltip(format.green(I18n.format("modpack.tooltip.elevator")));
+        elevator.addTooltip(format.green(I18n.format("elevator.tooltip.1")));
     }
 }
 recipes.addShaped(<elevatorid:elevator_black>, [

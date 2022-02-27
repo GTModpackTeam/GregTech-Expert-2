@@ -198,19 +198,20 @@ assembler.recipeBuilder()
 
 # Matrix Core
 recipes.addShaped(<contenttweaker:matrixcore>, [
-    [<appliedenergistics2:material:24>, <appliedenergistics2:material:44>, <appliedenergistics2:material:24>],
+    [<ore:stickAluminium>, <appliedenergistics2:material:44>, <ore:stickAluminium>],
     [<appliedenergistics2:material:43>, <ore:crystalFluix>, <appliedenergistics2:material:43>],
-    [<appliedenergistics2:material:24>, <appliedenergistics2:material:44>, <appliedenergistics2:material:24>]
+    [<ore:stickAluminium>, <appliedenergistics2:material:44>, <ore:stickAluminium>]
 ]);
 recipes.addShaped(<contenttweaker:matrixcore> * 2, [
-    [<appliedenergistics2:material:24>, <appliedenergistics2:material:44>, <appliedenergistics2:material:24>],
+    [<ore:stickAluminium>, <appliedenergistics2:material:44>, <ore:stickAluminium>],
     [<appliedenergistics2:material:43>, <ore:crystalPureFluix>, <appliedenergistics2:material:43>],
-    [<appliedenergistics2:material:24>, <appliedenergistics2:material:44>, <appliedenergistics2:material:24>]
+    [<ore:stickAluminium>, <appliedenergistics2:material:44>, <ore:stickAluminium>]
 ]);
 assembler.recipeBuilder()
+    .circuit(1)
     .inputs([
         <ore:stickAluminium> * 4,
-        <appliedenergistics2:material:24> * 6,
+        <appliedenergistics2:material:24> * 8,
         <ore:gemNetherQuartz> | <ore:crystalPureNetherQuartz>,
         <ore:gemCertusQuartz> | <ore:crystalPureCertusQuartz>,
         <ore:crystalFluix> | <ore:crystalPureFluix>
@@ -1230,8 +1231,8 @@ recipes.addShapeless(<appliedenergistics2:quartz_fixture>, [
 
 # Charger
 JEI.removeAndHide(<appliedenergistics2:charger>);
-JEI.addDescription(<appliedenergistics2:charger>, I18n.format("modpack.tooltip.ae2.charger"));
-<appliedenergistics2:charger>.addTooltip(format.green(I18n.format("modpack.tooltip.ae2.charger")));
+JEI.addDescription(<appliedenergistics2:charger>, I18n.format("ae2.tooltip.charger"));
+<appliedenergistics2:charger>.addTooltip(format.green(I18n.format("ae2.tooltip.charger")));
 
 # Security Terminal
 recipes.remove(<appliedenergistics2:security_station>);
@@ -1498,23 +1499,23 @@ recipes.addShaped(<appliedenergistics2:part:222>, [
 
 # Import Bus
 JEI.removeAndHide(<appliedenergistics2:part:240>);
-JEI.addDescription(<appliedenergistics2:part:240>, I18n.format("modpack.tooltip.ae2.bus.item"));
-<appliedenergistics2:part:240>.addTooltip(format.green(I18n.format("modpack.tooltip.ae2.bus.item")));
+JEI.addDescription(<appliedenergistics2:part:240>, I18n.format("ae2.tooltip.bus.item"));
+<appliedenergistics2:part:240>.addTooltip(format.green(I18n.format("ae2.tooltip.bus.item")));
 
 # Fluid Import Bus
 JEI.removeAndHide(<appliedenergistics2:part:241>);
-JEI.addDescription(<appliedenergistics2:part:241>, I18n.format("modpack.tooltip.ae2.bus.fluid"));
-<appliedenergistics2:part:241>.addTooltip(format.green(I18n.format("modpack.tooltip.ae2.bus.fluid")));
+JEI.addDescription(<appliedenergistics2:part:241>, I18n.format("ae2.tooltip.bus.fluid"));
+<appliedenergistics2:part:241>.addTooltip(format.green(I18n.format("ae2.tooltip.bus.fluid")));
 
 # Export Bus
 JEI.removeAndHide(<appliedenergistics2:part:260>);
-JEI.addDescription(<appliedenergistics2:part:260>, I18n.format("modpack.tooltip.ae2.bus.item"));
-<appliedenergistics2:part:260>.addTooltip(format.green(I18n.format("modpack.tooltip.ae2.bus.item")));
+JEI.addDescription(<appliedenergistics2:part:260>, I18n.format("ae2.tooltip.bus.item"));
+<appliedenergistics2:part:260>.addTooltip(format.green(I18n.format("ae2.tooltip.bus.item")));
 
 # Fluid Export Bus
 JEI.removeAndHide(<appliedenergistics2:part:261>);
-JEI.addDescription(<appliedenergistics2:part:261>, I18n.format("modpack.tooltip.ae2.bus.fluid"));
-<appliedenergistics2:part:261>.addTooltip(format.green(I18n.format("modpack.tooltip.ae2.bus.fluid")));
+JEI.addDescription(<appliedenergistics2:part:261>, I18n.format("ae2.tooltip.bus.fluid"));
+<appliedenergistics2:part:261>.addTooltip(format.green(I18n.format("ae2.tooltip.bus.fluid")));
 
 # Toggle Bus
 recipes.remove(<appliedenergistics2:part:80>);

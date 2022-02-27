@@ -23,30 +23,31 @@ material.naquadah_rocket_fuel=Naquadah Rocket Fuel
 # AE2
 material.fluix=Fluix
 material.charged_certus_quartz=Charged Certus Quartz
-modpack.tooltip.ae2.charger=Use GT TurboCharger.
-modpack.tooltip.ae2.bus.item=Lag device. Use interface.
-modpack.tooltip.ae2.bus.fluid=Lag device. Use Fluid interface.
-modpack.tooltip.ae2.p2p.conduit=Made by right-clicking ME P2P Tunnel with an energy conduit.
-modpack.tooltip.ae2.p2p.bucket=Made by right-clicking ME P2P Tunnel with a bucket.
-modpack.tooltip.ae2.p2p.gtceu=Made by right-clicking ME P2P Tunnel with a GTCEu energy cable.
-modpack.tooltip.ae2.p2p.chest=Made by right-clicking ME P2P Tunnel with a chest.
-modpack.tooltip.ae2.p2p.torch=Made by right-clicking ME P2P Tunnel with a torch.
-modpack.tooltip.ae2.p2p.redstone=Made by right-clicking ME P2P Tunnel with redstone dust.
-modpack.tooltip.ae2.facade=Facades can be crafted from most blocks, but are hidden from JEI to reduce clutter
-modpack.tooltip.ec2.pattern=Pattern can be crafted from most blocks, but are hidden from JEI to reduce clutter
+ae2.charger.tooltip.1=Use GT TurboCharger.
+ae2.bus_item.tooltip.1=Lag device. Use interface.
+ae2.bus_fluid.tooltip.1=Lag device. Use Fluid interface.
+ae2.p2p_conduit.tooltip.1=Made by right-clicking ME P2P Tunnel with an energy conduit.
+ae2.p2p_bucket.tooltip.1=Made by right-clicking ME P2P Tunnel with a bucket.
+ae2.p2p_gtceu.tooltip.1=Made by right-clicking ME P2P Tunnel with a GTCEu energy cable.
+ae2.p2p_chest.tooltip.1=Made by right-clicking ME P2P Tunnel with a chest.
+ae2.p2p_torch.tooltip.1=Made by right-clicking ME P2P Tunnel with a torch.
+ae2.p2p_redstone.tooltip.1=Made by right-clicking ME P2P Tunnel with redstone dust.
+ae2.facade.tooltip.1=Facades can be crafted from most blocks, but are hidden from JEI to reduce clutter.
 
 # Extra Cells
-modpack.tooltip.ec2.terminal.wireless=To change in a single craft.
+ec2.wireless_terminal.tooltip.1=To change in a single craft.
+ec2.pattern.tooltip.1=Pattern can be crafted from most blocks, but are hidden from JEI to reduce clutter.
 
 # EnderIO
-modpack.tooltip.eio.capacitor.bank=Information changes as it is placed!! If you use it for crafting, do not place it!!!!
+enderio.capacitor_bank.tooltip.1=Information changes as it is placed!! If you use it for crafting, do not place it!!!!
 
 # Minecraft
-modpack.tooltip.minecraft.tools=It can only be used for crafting materials.
+minecraft.tools.tooltip.1=It can only be used for crafting materials.
 
 # Mega Torch
-modpack.tooltip.megaTorch.line1=Mega Torch range is 128 blocks.
-modpack.tooltip.megaTorch.line2=Available when ignited with flint.
+torchmaster.mega_torch.tooltip.1=Mega Torch range is 128 blocks.
+torchmaster.mega_torch.tooltip.2=Available when ignited with flint.
+torchmaster.lantern.tooltip.1=Mega Torch range is 64 blocks.
 
 # Elevator
-modpack.tooltip.elevator=The black one is the first elevator.
+elevator.tooltip.1=The black one is the first elevator.
