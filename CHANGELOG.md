@@ -1,3 +1,17 @@
+# v1.1.1(hotfix)
+## Fix recipes
+### AE2
+* 2k Spatial Component
+* 16k Spatial Component
+* 128k Spatial Component
+* Nether Quartz Rod
+* Certus Quartz Rod
+* Fluix Crystal
+
+### Torch Master
+* Mega Torch
+
+* * *
 # v1.1.0
 ## Information
 * This version doesn't do it yet, but we will disable EU->RF conversion for GT cables in the next update. 

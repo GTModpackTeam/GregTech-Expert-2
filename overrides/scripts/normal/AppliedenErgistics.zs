@@ -562,7 +562,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:tungsten_steel> * 144)
     .outputs([<appliedenergistics2:material:33>])
     .duration(400)
-    .EUt(122880)
+    .EUt(7680)
     .buildAndRegister();
 
 # 128k Spatial Component
@@ -577,7 +577,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:tungsten_steel> * 144)
     .outputs([<appliedenergistics2:material:34>])
     .duration(200)
-    .EUt(491520)
+    .EUt(30720)
     .buildAndRegister();
 assembler.recipeBuilder()
     .inputs([
@@ -588,7 +588,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:tungsten_steel> * 144)
     .outputs([<appliedenergistics2:material:34>])
     .duration(400)
-    .EUt(491520)
+    .EUt(30720)
     .buildAndRegister();
 
 # Certus Quartz Cutting Knife
