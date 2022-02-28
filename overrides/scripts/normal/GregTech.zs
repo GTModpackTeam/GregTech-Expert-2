@@ -1,6 +1,7 @@
 #packmode normal
 # Imports
 import mods.jei.JEI;
+import mods.zenutils.I18n;
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
@@ -44,8 +45,7 @@ extractor.recipeBuilder()
     .buildAndRegister();
 
 # Charged Certus Quartz Crystal
-chemical_reactor.recipeBuilder()
-    .inputs([<ore:dustSodium>])
+electrolyzer.recipeBuilder()
     .fluidInputs([<liquid:certus_quartz> * 144])
     .fluidOutputs([<liquid:charged_certus_quartz> * 144])
     .duration(100)
@@ -310,43 +310,17 @@ chemical_reactor.recipeBuilder()
     .buildAndRegister();
 
 # Nether Quartz Rod
-lathe.findRecipe(16, [<minecraft:quartz:0>], null).remove();
-lathe.recipeBuilder()
-    .inputs([<minecraft:quartz>])
-    .outputs([
-        <metaitem:stickNetherQuartz> * 2,
-        <metaitem:dustSmallNetherQuartz> * 4
-    ])
-    .duration(40)
-    .EUt(16)
-    .buildAndRegister();
 lathe.recipeBuilder()
     .inputs([<ore:crystalPureNetherQuartz>])
-    .outputs([
-        <metaitem:stickNetherQuartz>,
-        <metaitem:dustSmallNetherQuartz> * 2
-    ])
+    .outputs([<metaitem:stickNetherQuartz>])
     .duration(40)
     .EUt(16)
     .buildAndRegister();
 
 # Certus Quartz Rod
-lathe.findRecipe(16, [<metaitem:gemCertusQuartz>], null).remove();
-lathe.recipeBuilder()
-    .inputs([<ore:gemCertusQuartz>])
-    .outputs([
-        <metaitem:stickCertusQuartz> * 2,
-        <metaitem:dustSmallCertusQuartz> * 4
-    ])
-    .duration(40)
-    .EUt(16)
-    .buildAndRegister();
 lathe.recipeBuilder()
     .inputs([<ore:crystalPureCertusQuartz>])
-    .outputs([
-        <metaitem:stickCertusQuartz>,
-        <metaitem:dustSmallCertusQuartz> * 2
-    ])
+    .outputs([<metaitem:stickCertusQuartz>])
     .duration(40)
     .EUt(16)
     .buildAndRegister();
@@ -376,14 +350,11 @@ macerator.recipeBuilder()
     .buildAndRegister();
 
 # Charged Certus Quartz Dust
-chemical_reactor.recipeBuilder()
-    .inputs([
-        <ore:dustCertusQuartz>,
-        <ore:dustSodium>
-    ])
+electrolyzer.recipeBuilder()
+    .inputs([<ore:dustCertusQuartz>])
     .outputs([<metaitem:dustChargedCertusQuartz>])
     .duration(20)
-    .EUt(2)
+    .EUt(30)
     .buildAndRegister();
 macerator.recipeBuilder()
     .inputs([<appliedenergistics2:material:1>])
@@ -402,7 +373,7 @@ mixer.recipeBuilder()
     .fluidInputs([<liquid:distilled_water> * 50])
     .outputs([<metaitem:dustFluix>])
     .duration(20)
-    .EUt(480)
+    .EUt(30)
     .buildAndRegister();
 macerator.recipeBuilder()
     .inputs([<appliedenergistics2:material:7>])
@@ -443,22 +414,22 @@ cutter.recipeBuilder()
     .inputs([<metaitem:blockCertusQuartz>])
     .fluidInputs([<liquid:water> * 15])
     .outputs([<metaitem:plateCertusQuartz> * 4])
-    .duration(100)
-    .EUt(24)
+    .duration(320)
+    .EUt(30)
     .buildAndRegister();
 cutter.recipeBuilder()
     .inputs([<metaitem:blockCertusQuartz>])
     .fluidInputs([<liquid:distilled_water> * 11])
     .outputs([<metaitem:plateCertusQuartz> * 4])
-    .duration(100)
-    .EUt(24)
+    .duration(240)
+    .EUt(30)
     .buildAndRegister();
 cutter.recipeBuilder()
     .inputs([<metaitem:blockCertusQuartz>])
     .fluidInputs([<liquid:lubricant> * 3])
     .outputs([<metaitem:plateCertusQuartz> * 4])
-    .duration(100)
-    .EUt(24)
+    .duration(160)
+    .EUt(30)
     .buildAndRegister();
 
 # Quartzite Plate (Override)
@@ -469,30 +440,27 @@ cutter.recipeBuilder()
     .inputs([<metaitem:blockQuartzite>])
     .fluidInputs([<liquid:water> * 15])
     .outputs([<metaitem:plateQuartzite> * 4])
-    .duration(100)
-    .EUt(24)
+    .duration(320)
+    .EUt(30)
     .buildAndRegister();
 cutter.recipeBuilder()
     .inputs([<metaitem:blockQuartzite>])
     .fluidInputs([<liquid:distilled_water> * 11])
     .outputs([<metaitem:plateQuartzite> * 4])
-    .duration(100)
-    .EUt(24)
+    .duration(240)
+    .EUt(30)
     .buildAndRegister();
 cutter.recipeBuilder()
     .inputs([<metaitem:blockQuartzite>])
     .fluidInputs([<liquid:lubricant> * 3])
     .outputs([<metaitem:plateQuartzite> * 4])
-    .duration(100)
-    .EUt(24)
+    .duration(160)
+    .EUt(30)
     .buildAndRegister();
 
 # Charged Certus Quartz Crystal
-chemical_reactor.recipeBuilder()
-    .inputs([
-        <ore:dustChargedCertusQuartz>,
-        <ore:dustSodium>
-    ])
+electrolyzer.recipeBuilder()
+    .inputs([<ore:crystalCertusQuartz>])
     .fluidInputs([<liquid:distilled_water> * 50])
     .outputs([<appliedenergistics2:material:1>])
     .duration(20)
@@ -535,10 +503,11 @@ implosion_compressor.recipeBuilder()
 
 # Fluix Crystal (Override)
 recipes.removeShapeless(<appliedenergistics2:material:7> * 4, [<appliedenergistics2:fluix_block>]);
-chemical_reactor.recipeBuilder()
+mixer.recipeBuilder()
     .inputs([
-        <ore:dustChargedCertusQuartz>,
-        <ore:dustSodium>
+        <appliedenergistics2:material:1>,
+        <ore:dustRedstone>,
+        <ore:gemNetherQuartz>
     ])
     .fluidInputs([<liquid:distilled_water> * 50])
     .outputs([<appliedenergistics2:material:7>])
@@ -610,6 +579,15 @@ fluid_solidifier.recipeBuilder()
     .EUt(7)
     .buildAndRegister();
 
+## Fluix Block
+fluid_solidifier.recipeBuilder()
+    .notConsumable([<metaitem:shape.mold.block>])
+    .fluidInputs([<liquid:fluix> * 576])
+    .outputs([<appliedenergistics2:fluix_block>])
+    .duration(20)
+    .EUt(7)
+    .buildAndRegister();
+
 # Quartzite Block
 compressor.findRecipe(2, [<metaitem:gemQuartzite> * 9], null).remove();
 compressor.recipeBuilder()
@@ -623,26 +601,46 @@ compressor.recipeBuilder()
 recipes.addShaped(<gregtech:machine:1324>, [
     [null, null, null],
     [<ore:wireGtQuadrupleEuropium>, <minecraft:chest>, <ore:wireGtQuadrupleEuropium>],
-    [<ore:wireGtQuadrupleEuropium>, <gregtech:machine:994>, <ore:wireGtQuadrupleEuropium>]
+    [<ore:wireGtQuadrupleEuropium>, <metaitem:hull.uhv>, <ore:wireGtQuadrupleEuropium>]
 ]);
 
 # UHV Voltage 8x Battery Buffer
 recipes.addShaped(<gregtech:machine:1334>, [
     [null, null, null],
     [<ore:wireGtOctalEuropium>, <minecraft:chest>, <ore:wireGtOctalEuropium>],
-    [<ore:wireGtOctalEuropium>, <gregtech:machine:994>, <ore:wireGtOctalEuropium>]
+    [<ore:wireGtOctalEuropium>, <metaitem:hull.uhv>, <ore:wireGtOctalEuropium>]
 ]);
 
 # UHV Voltage 16x Battery Buffer
 recipes.addShaped(<gregtech:machine:1344>, [
     [null, null, null],
     [<ore:wireGtHexEuropium>, <minecraft:chest>, <ore:wireGtHexEuropium>],
-    [<ore:wireGtHexEuropium>, <gregtech:machine:994>, <ore:wireGtHexEuropium>]
+    [<ore:wireGtHexEuropium>, <metaitem:hull.uhv>, <ore:wireGtHexEuropium>]
 ]);
 
 # UHV Voltage Turbo Charger
 recipes.addShaped(<gregtech:machine:1384>, [
     [<ore:wireGtQuadrupleEuropium>, <minecraft:chest>, <ore:wireGtQuadrupleEuropium>],
-    [<ore:wireGtQuadrupleEuropium>, <gregtech:machine:994>, <ore:wireGtQuadrupleEuropium>],
+    [<ore:wireGtQuadrupleEuropium>, <metaitem:hull.uhv>, <ore:wireGtQuadrupleEuropium>],
     [<ore:wireGtSingleEuropium>, <ore:circuitInfinite>, <ore:wireGtSingleEuropium>]
 ]);
+
+# UHV 16A Energy Hatch
+assembler.findRecipe(491520, [
+    <metaitem:energy_hatch.input_16a.uhv> * 2,
+    <metaitem:plate.ultra_high_power_integrated_circuit> * 2,
+    <metaitem:wireGtOctalEuropium> * 2,
+    <metaitem:plateNeutronium> * 4
+], null).remove();
+<metaitem:energy_hatch.input_16a.uhv>.addTooltip(format.green(I18n.format("modpack.gregtech.energy_hatch_input_16a_uhv.tooltip.1")));
+JEI.addDescription(<metaitem:energy_hatch.input_16a.uhv>, I18n.format("modpack.gregtech.energy_hatch_input_16a_uhv.tooltip.1"));
+
+# UHV 16A Dynamo Hatch
+assembler.findRecipe(491520, [
+    <metaitem:energy_hatch.output_16a.uhv> * 2,
+    <metaitem:plate.ultra_high_power_integrated_circuit> * 2,
+    <metaitem:wireGtOctalEuropium> * 2,
+    <metaitem:plateNeutronium> * 4
+], null).remove();
+<metaitem:energy_hatch.output_16a.uhv>.addTooltip(format.green(I18n.format("modpack.gregtech.energy_hatch_output_16a_uhv.tooltip.1")));
+JEI.addDescription(<metaitem:energy_hatch.output_16a.uhv>, I18n.format("modpack.gregtech.energy_hatch_output_16a_uhv.tooltip.1"));

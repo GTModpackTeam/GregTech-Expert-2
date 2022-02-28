@@ -34,8 +34,8 @@ if (!isNull(ae2)) {
     for item in ae2Items {
         if(item.displayName has "Cable Facade") {
             if(item.displayName has "TNT") {
-                item.addTooltip(format.darkAqua(I18n.format("ec2.tooltip..facade")));
-                JEI.addDescription(item, I18n.format("ec2.tooltip..facade"));
+                item.addTooltip(format.darkAqua(I18n.format("modpack.ae2.facade.tooltip.1")));
+                JEI.addDescription(item, I18n.format("modpack.ae2.facade.tooltip.1"));
             }
             else {
                 JEI.hide(item); 

@@ -1,0 +1,16 @@
+{
+	title: "アンペア講座",
+	x: 13.5d,
+	y: -6.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"cf42eb97"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "246720b4",
+		type: "checkmark"
+	}]
+}

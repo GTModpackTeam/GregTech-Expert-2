@@ -1,3 +1,39 @@
+# v1.1.1(hotfix)
+## Modpack update
+* Quest include v0.6.5.
+
+## Fix recipes
+### AE2
+* All Components
+* Nether Quartz Rod
+* Certus Quartz Rod
+* Certus Quartz Plate
+* Quartzite Plate
+
+## Extra Cells
+* All Components
+
+### GregTech
+* UHV 16A Energy Hatch
+* UHV 16A Dynamo Hatch
+    * It works, but there is no material to create it, so I deleted it.
+
+## Add recipes
+### AE2
+* Fluix Block
+
+## Revert recipes
+### AE2
+* Fluid Charged Certus Quartz Crystal
+* Charged Certus Quartz Dust
+* Charged Certus Quartz Crystal
+* Fluix Crystal
+
+### Torch Master
+* Mega Torch
+
+* * *
+
 # v1.1.0
 ## Information
 * This version doesn't do it yet, but we will disable EU->RF conversion for GT cables in the next update. 
