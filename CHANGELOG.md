@@ -10,6 +10,9 @@
 * Certus Quartz Plate
 * Quartzite Plate
 
+## Extra Cells
+* All Components
+
 ### GregTech
 * UHV 16A Energy Hatch
 * UHV 16A Dynamo Hatch
