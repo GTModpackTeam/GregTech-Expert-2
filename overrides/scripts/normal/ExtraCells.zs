@@ -110,7 +110,7 @@ recipes.remove(<extracells:storage.component>);
 assembler.recipeBuilder()
     .inputs([
         <ore:circuitUltimate> * 4,
-        <ore:plateTitanium> * 4,
+        <ore:plateNaquadahAlloy> * 4,
         <ore:dustCertusQuartz> * 16,
         <appliedenergistics2:material:24>
     ])
@@ -136,7 +136,7 @@ recipes.remove(<extracells:storage.component:1>);
 assembler.recipeBuilder()
     .inputs([
         <ore:circuitUltimate> * 4,
-        <ore:plateTungstenSteel> * 4,
+        <ore:plateNaquadahAlloy> * 4,
         <ore:dustCertusQuartz> * 16,
         <appliedenergistics2:material:24>
     ])
@@ -162,7 +162,7 @@ recipes.remove(<extracells:storage.component:2>);
 assembler.recipeBuilder()
     .inputs([
         <ore:circuitSuper> * 4,
-        <ore:plateTungstenSteel> * 4,
+        <ore:plateDarmstadtium> * 4,
         <ore:dustCertusQuartz> * 32,
         <appliedenergistics2:material:23>
     ])
@@ -214,7 +214,7 @@ recipes.remove(<extracells:storage.component:8>);
 assembler.recipeBuilder()
     .inputs([
         <ore:circuitUltimate> * 4,
-        <ore:plateTitanium> * 4,
+        <ore:plateNaquadahAlloy> * 4,
         <ore:dustNetherQuartz> * 16,
         <appliedenergistics2:material:24>
     ])
@@ -240,7 +240,7 @@ recipes.remove(<extracells:storage.component:9>);
 assembler.recipeBuilder()
     .inputs([
         <ore:circuitUltimate> * 4,
-        <ore:plateTungstenSteel> * 4,
+        <ore:plateNaquadahAlloy> * 4,
         <ore:dustNetherQuartz> * 16,
         <appliedenergistics2:material:24>
     ])
@@ -266,7 +266,7 @@ recipes.remove(<extracells:storage.component:10>);
 assembler.recipeBuilder()
     .inputs([
         <ore:circuitSuper> * 4,
-        <ore:plateNeutronium> * 4,
+        <ore:plateDarmstadtium> * 4,
         <ore:dustNetherQuartz> * 32,
         <appliedenergistics2:material:23>
     ])

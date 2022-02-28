@@ -1,6 +1,7 @@
 #packmode normal
 # Imports
 import mods.jei.JEI;
+import mods.zenutils.I18n;
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IItemDefinition;
 import crafttweaker.item.IIngredient;
@@ -600,26 +601,46 @@ compressor.recipeBuilder()
 recipes.addShaped(<gregtech:machine:1324>, [
     [null, null, null],
     [<ore:wireGtQuadrupleEuropium>, <minecraft:chest>, <ore:wireGtQuadrupleEuropium>],
-    [<ore:wireGtQuadrupleEuropium>, <gregtech:machine:994>, <ore:wireGtQuadrupleEuropium>]
+    [<ore:wireGtQuadrupleEuropium>, <metaitem:hull.uhv>, <ore:wireGtQuadrupleEuropium>]
 ]);
 
 # UHV Voltage 8x Battery Buffer
 recipes.addShaped(<gregtech:machine:1334>, [
     [null, null, null],
     [<ore:wireGtOctalEuropium>, <minecraft:chest>, <ore:wireGtOctalEuropium>],
-    [<ore:wireGtOctalEuropium>, <gregtech:machine:994>, <ore:wireGtOctalEuropium>]
+    [<ore:wireGtOctalEuropium>, <metaitem:hull.uhv>, <ore:wireGtOctalEuropium>]
 ]);
 
 # UHV Voltage 16x Battery Buffer
 recipes.addShaped(<gregtech:machine:1344>, [
     [null, null, null],
     [<ore:wireGtHexEuropium>, <minecraft:chest>, <ore:wireGtHexEuropium>],
-    [<ore:wireGtHexEuropium>, <gregtech:machine:994>, <ore:wireGtHexEuropium>]
+    [<ore:wireGtHexEuropium>, <metaitem:hull.uhv>, <ore:wireGtHexEuropium>]
 ]);
 
 # UHV Voltage Turbo Charger
 recipes.addShaped(<gregtech:machine:1384>, [
     [<ore:wireGtQuadrupleEuropium>, <minecraft:chest>, <ore:wireGtQuadrupleEuropium>],
-    [<ore:wireGtQuadrupleEuropium>, <gregtech:machine:994>, <ore:wireGtQuadrupleEuropium>],
+    [<ore:wireGtQuadrupleEuropium>, <metaitem:hull.uhv>, <ore:wireGtQuadrupleEuropium>],
     [<ore:wireGtSingleEuropium>, <ore:circuitInfinite>, <ore:wireGtSingleEuropium>]
 ]);
+
+# UHV 16A Energy Hatch
+assembler.findRecipe(491520, [
+    <metaitem:energy_hatch.input_16a.uhv> * 2,
+    <metaitem:plate.ultra_high_power_integrated_circuit> * 2,
+    <metaitem:wireGtOctalEuropium> * 2,
+    <metaitem:plateNeutronium> * 4
+], null).remove();
+<metaitem:energy_hatch.input_16a.uhv>.addTooltip(format.green(I18n.format("modpack.gregtech.energy_hatch_input_16a_uhv.tooltip.1")));
+JEI.addDescription(<metaitem:energy_hatch.input_16a.uhv>, I18n.format("modpack.gregtech.energy_hatch_input_16a_uhv.tooltip.1"));
+
+# UHV 16A Dynamo Hatch
+assembler.findRecipe(491520, [
+    <metaitem:energy_hatch.output_16a.uhv> * 2,
+    <metaitem:plate.ultra_high_power_integrated_circuit> * 2,
+    <metaitem:wireGtOctalEuropium> * 2,
+    <metaitem:plateNeutronium> * 4
+], null).remove();
+<metaitem:energy_hatch.output_16a.uhv>.addTooltip(format.green(I18n.format("modpack.gregtech.energy_hatch_output_16a_uhv.tooltip.1")));
+JEI.addDescription(<metaitem:energy_hatch.output_16a.uhv>, I18n.format("modpack.gregtech.energy_hatch_output_16a_uhv.tooltip.1"));
