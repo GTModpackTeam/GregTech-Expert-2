@@ -196,6 +196,7 @@ for glassCable in glassCables {
         <ore:ae2.cable.glass.colors>.add(glassCable);
     }
 }
+recipes.removeShapeless(<appliedenergistics2:part:16>, [<ore:ae2.cable.glass.colors>, <minecraft:water_bucket>]);
 
 # Covered Cable
 var coveredCables as IItemStack[] = [
@@ -224,6 +225,7 @@ for coveredCable in coveredCables {
         <ore:ae2.cable.covered.colors>.add(coveredCable);
     }
 }
+recipes.removeShapeless(<appliedenergistics2:part:36>, [<ore:ae2.cable.covered.colors>, <minecraft:water_bucket>]);
 
 # Smart Cable
 var smartCables as IItemStack[] = [
@@ -252,6 +254,7 @@ for smartCable in smartCables {
         <ore:ae2.cable.smart.colors>.add(smartCable);
     }
 }
+recipes.removeShapeless(<appliedenergistics2:part:56>, [<ore:ae2.cable.smart.colors>, <minecraft:water_bucket>]);
 
 # Dense Covered Cable
 var denseCoveredCables as IItemStack[] = [
@@ -280,6 +283,7 @@ for denseCoveredCable in denseCoveredCables {
         <ore:ae2.cable.dense.covered.colors>.add(denseCoveredCable);
     }
 }
+recipes.removeShapeless(<appliedenergistics2:part:516>, [<ore:ae2.cable.dense.covered.colors>, <minecraft:water_bucket>]);
 
 # Dense Smart Cable
 var denseSmartCables as IItemStack[] = [
@@ -308,6 +312,7 @@ for denseSmartCable in denseSmartCables {
         <ore:ae2.cable.dense.smart.colors>.add(denseSmartCable);
     }
 }
+recipes.removeShapeless(<appliedenergistics2:part:76>, [<ore:ae2.cable.dense.smart.colors>, <minecraft:water_bucket>]);
 
 
 

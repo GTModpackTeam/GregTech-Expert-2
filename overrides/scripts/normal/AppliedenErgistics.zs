@@ -344,7 +344,6 @@ recipes.removeShaped(<appliedenergistics2:spatial_storage_cell_128_cubed>, [
 # 1k Storage Component
 recipes.remove(<appliedenergistics2:material:35>);
 assembler.recipeBuilder()
-    .circuit(1)
     .inputs([
         <ore:circuitPrimitive> * 4,
         <ore:plateWroughtIron> * 4,
@@ -360,7 +359,6 @@ assembler.recipeBuilder()
 # 4k Storage Component
 recipes.remove(<appliedenergistics2:material:36>);
 assembler.recipeBuilder()
-    .circuit(1)
     .inputs([
         <ore:circuitExtreme> * 4,
         <ore:plateTitanium> * 4,
@@ -373,7 +371,6 @@ assembler.recipeBuilder()
     .EUt(1920)
     .buildAndRegister();
 assembler.recipeBuilder()
-    .circuit(1)
     .inputs([
         <appliedenergistics2:material:22>,
         <ore:circuitExtreme> * 4,
@@ -388,7 +385,6 @@ assembler.recipeBuilder()
 # 16k Storage Component
 recipes.remove(<appliedenergistics2:material:37>);
 assembler.recipeBuilder()
-    .circuit(1)
     .inputs([
         <ore:circuitElite> * 4,
         <ore:plateTungstenSteel> * 4,
@@ -401,7 +397,6 @@ assembler.recipeBuilder()
     .EUt(7680)
     .buildAndRegister();
 assembler.recipeBuilder()
-    .circuit(1)
     .inputs([
         <appliedenergistics2:material:24>,
         <ore:circuitElite> * 4,
@@ -416,7 +411,6 @@ assembler.recipeBuilder()
 # 64k Storage Component
 recipes.remove(<appliedenergistics2:material:38>);
 assembler.recipeBuilder()
-    .circuit(1)
     .inputs([
         <ore:circuitMaster> * 4,
         <ore:plateRhodiumPlatedPalladium> * 4,
@@ -444,7 +438,6 @@ assembler.recipeBuilder()
 # 1k Fluid Component
 recipes.remove(<appliedenergistics2:material:54>);
 assembler.recipeBuilder()
-    .circuit(2)
     .inputs([
         <ore:circuitPrimitive> * 4,
         <ore:plateWroughtIron> * 4,
@@ -460,7 +453,6 @@ assembler.recipeBuilder()
 # 4k Fluid Component
 recipes.remove(<appliedenergistics2:material:55>);
 assembler.recipeBuilder()
-    .circuit(2)
     .inputs([
         <ore:circuitExtreme> * 4,
         <ore:plateTitanium> * 4,
@@ -473,7 +465,6 @@ assembler.recipeBuilder()
     .EUt(1920)
     .buildAndRegister();
 assembler.recipeBuilder()
-    .circuit(2)
     .inputs([
         <appliedenergistics2:material:22>,
         <ore:circuitExtreme> * 4,
@@ -488,7 +479,6 @@ assembler.recipeBuilder()
 # 16k Fluid Component
 recipes.remove(<appliedenergistics2:material:56>);
 assembler.recipeBuilder()
-    .circuit(2)
     .inputs([
         <ore:circuitElite> * 4,
         <ore:plateTungstenSteel> * 4,
@@ -501,7 +491,6 @@ assembler.recipeBuilder()
     .EUt(480)
     .buildAndRegister();
 assembler.recipeBuilder()
-    .circuit(2)
     .inputs([
         <appliedenergistics2:material:24>,
         <ore:circuitElite> * 4,
@@ -516,7 +505,6 @@ assembler.recipeBuilder()
 # 64k Fluid Component
 recipes.remove(<appliedenergistics2:material:57>);
 assembler.recipeBuilder()
-    .circuit(2)
     .inputs([
         <ore:circuitMaster> * 4,
         <ore:plateRhodiumPlatedPalladium> * 4,
@@ -529,7 +517,6 @@ assembler.recipeBuilder()
     .EUt(30720)
     .buildAndRegister();
 assembler.recipeBuilder()
-    .circuit(2)
     .inputs([
         <appliedenergistics2:material:24>,
         <ore:circuitMaster> * 4,
@@ -544,7 +531,6 @@ assembler.recipeBuilder()
 # 2k Spatial Component
 recipes.remove(<appliedenergistics2:material:32>);
 assembler.recipeBuilder()
-    .circuit(3)
     .inputs([
         <ore:circuitExtreme> * 4,
         <ore:plateTitanium> * 4,
@@ -560,7 +546,6 @@ assembler.recipeBuilder()
 # 16k Spatial Component
 recipes.remove(<appliedenergistics2:material:33>);
 assembler.recipeBuilder()
-    .circuit(3)
     .inputs([
         <ore:circuitElite> * 4,
         <ore:plateTungstenSteel> * 4,
@@ -573,7 +558,6 @@ assembler.recipeBuilder()
     .EUt(7680)
     .buildAndRegister();
 assembler.recipeBuilder()
-    .circuit(3)
     .inputs([
         <appliedenergistics2:material:23>,
         <ore:circuitMaster> * 4,
@@ -588,7 +572,6 @@ assembler.recipeBuilder()
 # 128k Spatial Component
 recipes.remove(<appliedenergistics2:material:34>);
 assembler.recipeBuilder()
-    .circuit(3)
     .inputs([
         <ore:circuitMaster> * 4,
         <ore:plateRhodiumPlatedPalladium> * 4,
@@ -601,7 +584,6 @@ assembler.recipeBuilder()
     .EUt(30720)
     .buildAndRegister();
 assembler.recipeBuilder()
-    .circuit(3)
     .inputs([
         <appliedenergistics2:material:23>,
         <ore:circuitMaster> * 4,
