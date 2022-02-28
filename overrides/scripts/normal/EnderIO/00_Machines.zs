@@ -83,42 +83,42 @@ recipes.addShaped(<enderio:block_farm_station>, [
 <enderio:block_farm_station>.addTooltip(format.red("We have Greenhouse, so that's better."));
 
 # Combustion Generator
-// recipes.addShaped(<enderio:block_combustion_generator>, [
-//     [<ore:plateEnergeticAlloy>, <ore:plateDarkSteel>, <ore:plateEnergeticAlloy>],
-//     [<metaitem:electric.pump.ev>, <ore:itemMachineChassi>, <metaitem:fluid.regulator.ev>],
-//     [<ore:gearEnergeticAlloy>, <metaitem:super_tank.ev>, <ore:gearEnergeticAlloy>]
-// ]);
+recipes.addShaped(<enderio:block_combustion_generator>, [
+    [<ore:plateEnergeticAlloy>, <ore:plateDarkSteel>, <ore:plateEnergeticAlloy>],
+    [<metaitem:electric.pump.ev>, <ore:itemMachineChassi>, <metaitem:fluid.regulator.ev>],
+    [<ore:gearEnergeticAlloy>, <metaitem:super_tank.ev>, <ore:gearEnergeticAlloy>]
+]);
 
 # Enhaned Combustion Generator
-// recipes.addShaped(<enderio:block_enhanced_combustion_generator>, [
-//     [<ore:plateVibrantAlloy>, <ore:plateEndSteel>, <ore:plateVibrantAlloy>],
-//     [<metaitem:electric.pump.iv>, <ore:itemEnhancedMachineChassi>, <metaitem:fluid.regulator.iv>],
-//     [<ore:gearVibrantAlloy>, <metaitem:super_tank.iv>, <ore:gearVibrantAlloy>]
-// ]);
-// recipes.addShaped(<enderio:block_enhanced_combustion_generator>, [
-//     [<ore:plateDoubleVibrantAlloy>, <ore:plateEndSteel>, <ore:plateDoubleVibrantAlloy>],
-//     [<metaitem:electric.pump.iv>, <ore:itemEnhancedMachineChassi>, <metaitem:fluid.regulator.iv>],
-//     [<ore:gearVibrantAlloy>, <enderio:block_combustion_generator>, <ore:gearVibrantAlloy>]
-// ]);
+recipes.addShaped(<enderio:block_enhanced_combustion_generator>, [
+    [<ore:plateVibrantAlloy>, <ore:plateEndSteel>, <ore:plateVibrantAlloy>],
+    [<metaitem:electric.pump.iv>, <ore:itemEnhancedMachineChassi>, <metaitem:fluid.regulator.iv>],
+    [<ore:gearVibrantAlloy>, <metaitem:super_tank.iv>, <ore:gearVibrantAlloy>]
+]);
+recipes.addShaped(<enderio:block_enhanced_combustion_generator>, [
+    [<ore:plateDoubleVibrantAlloy>, <ore:plateEndSteel>, <ore:plateDoubleVibrantAlloy>],
+    [<metaitem:electric.pump.iv>, <ore:itemEnhancedMachineChassi>, <metaitem:fluid.regulator.iv>],
+    [<ore:gearVibrantAlloy>, <enderio:block_combustion_generator>, <ore:gearVibrantAlloy>]
+]);
 
 # Simple Stirling Generator
-// recipes.addShaped(<enderio:block_simple_stirling_generator>, [
-//     [<ore:plateStone>, <ore:craftingFurnace>, <ore:plateStone>],
-//     [<ore:plateStone>, <ore:itemSimpleMachineChassi>, <ore:plateStone>],
-//     [<ore:gearStone>, <ore:craftingPiston>, <ore:gearStone>]
-// ]);
+recipes.addShaped(<enderio:block_simple_stirling_generator>, [
+    [<ore:plateStone>, <ore:craftingFurnace>, <ore:plateStone>],
+    [<ore:plateStone>, <ore:itemSimpleMachineChassi>, <ore:plateStone>],
+    [<ore:gearStone>, <ore:craftingPiston>, <ore:gearStone>]
+]);
 
 # Stirling Generator
-// recipes.addShaped(<enderio:block_stirling_generator>, [
-//     [<ore:plateEnergeticAlloy>, <ore:circuitAdvanced>, <ore:plateEnergeticAlloy>],
-//     [<metaitem:electric.motor.hv>, <ore:itemMachineChassi>, <metaitem:electric.motor.hv>],
-//     [<ore:gearEnergeticAlloy>, <ore:plateDarkSteel>, <ore:gearEnergeticAlloy>]
-// ]);
-// recipes.addShaped(<enderio:block_stirling_generator>, [
-//     [<ore:plateDoubleEnergeticAlloy>, <ore:circuitAdvanced>, <ore:plateDoubleEnergeticAlloy>],
-//     [<metaitem:electric.motor.hv>, <ore:itemMachineChassi>, <metaitem:electric.motor.hv>],
-//     [<ore:gearEnergeticAlloy>, <enderio:block_simple_stirling_generator>, <ore:gearEnergeticAlloy>]
-// ]);
+recipes.addShaped(<enderio:block_stirling_generator>, [
+    [<ore:plateEnergeticAlloy>, <ore:circuitAdvanced>, <ore:plateEnergeticAlloy>],
+    [<metaitem:electric.motor.hv>, <ore:itemMachineChassi>, <metaitem:electric.motor.hv>],
+    [<ore:gearEnergeticAlloy>, <ore:plateDarkSteel>, <ore:gearEnergeticAlloy>]
+]);
+recipes.addShaped(<enderio:block_stirling_generator>, [
+    [<ore:plateDoubleEnergeticAlloy>, <ore:circuitAdvanced>, <ore:plateDoubleEnergeticAlloy>],
+    [<metaitem:electric.motor.hv>, <ore:itemMachineChassi>, <metaitem:electric.motor.hv>],
+    [<ore:gearEnergeticAlloy>, <enderio:block_simple_stirling_generator>, <ore:gearEnergeticAlloy>]
+]);
 
 # Zombie Generator
 recipes.addShaped(<enderio:block_zombie_generator>, [
@@ -285,35 +285,35 @@ JEI.hide(<enderio:block_vat>);
 JEI.hide(<enderio:block_enhanced_vat>);
 
 # Simple Wired Charger
-// recipes.addShaped(<enderio:block_simple_wired_charger>, [
-//     [<ore:plateStone>, <ore:plateSteel>, <ore:plateStone>],
-//     [<ore:plateStone>, <enderio:item_material>, <ore:plateStone>],
-//     [<ore:gearStone>, <ore:plateSteel>, <ore:gearStone>]
-// ]);
+recipes.addShaped(<enderio:block_simple_wired_charger>, [
+    [<ore:plateStone>, <ore:plateSteel>, <ore:plateStone>],
+    [<ore:plateStone>, <enderio:item_material>, <ore:plateStone>],
+    [<ore:gearStone>, <ore:plateSteel>, <ore:gearStone>]
+]);
 
 # Wired Charger
-// recipes.addShaped(<enderio:block_wired_charger>, [
-//     [<ore:plateEnergeticAlloy>, <ore:plateDarkSteel>, <ore:plateEnergeticAlloy>],
-//     [<metaitem:emitter.hv>, <ore:itemMachineChassi>, <metaitem:sensor.hv>],
-//     [<ore:gearEnergeticAlloy>, <ore:plateDarkSteel>, <ore:gearEnergeticAlloy>]
-// ]);
-// recipes.addShaped(<enderio:block_wired_charger>, [
-//     [<ore:plateDoubleEnergeticAlloy>, <ore:plateDarkSteel>, <ore:plateDoubleEnergeticAlloy>],
-//     [<metaitem:emitter.hv>, <ore:itemMachineChassi>, <metaitem:sensor.hv>],
-//     [<ore:gearEnergeticAlloy>, <enderio:block_simple_wired_charger>, <ore:gearEnergeticAlloy>]
-// ]);
+recipes.addShaped(<enderio:block_wired_charger>, [
+    [<ore:plateEnergeticAlloy>, <ore:plateDarkSteel>, <ore:plateEnergeticAlloy>],
+    [<metaitem:emitter.hv>, <ore:itemMachineChassi>, <metaitem:sensor.hv>],
+    [<ore:gearEnergeticAlloy>, <ore:plateDarkSteel>, <ore:gearEnergeticAlloy>]
+]);
+recipes.addShaped(<enderio:block_wired_charger>, [
+    [<ore:plateDoubleEnergeticAlloy>, <ore:plateDarkSteel>, <ore:plateDoubleEnergeticAlloy>],
+    [<metaitem:emitter.hv>, <ore:itemMachineChassi>, <metaitem:sensor.hv>],
+    [<ore:gearEnergeticAlloy>, <enderio:block_simple_wired_charger>, <ore:gearEnergeticAlloy>]
+]);
 
 # Enhanced Wired Charger
-// recipes.addShaped(<enderio:block_enhanced_wired_charger>, [
-//     [<ore:plateVibrantAlloy>, <ore:plateEndSteel>, <ore:plateVibrantAlloy>],
-//     [<metaitem:emitter.ev>, <ore:itemEnhancedMachineChassi>, <metaitem:sensor.ev>],
-//     [<ore:gearVibrantAlloy>, <ore:plateEndSteel>, <ore:gearVibrantAlloy>]
-// ]);
-// recipes.addShaped(<enderio:block_enhanced_wired_charger>, [
-//     [<ore:plateDoubleVibrantAlloy>, <ore:plateEndSteel>, <ore:plateDoubleVibrantAlloy>],
-//     [<metaitem:emitter.ev>, <ore:itemEnhancedMachineChassi>, <metaitem:sensor.ev>],
-//     [<ore:gearVibrantAlloy>, <enderio:block_wired_charger>, <ore:gearVibrantAlloy>]
-// ]);
+recipes.addShaped(<enderio:block_enhanced_wired_charger>, [
+    [<ore:plateVibrantAlloy>, <ore:plateEndSteel>, <ore:plateVibrantAlloy>],
+    [<metaitem:emitter.ev>, <ore:itemEnhancedMachineChassi>, <metaitem:sensor.ev>],
+    [<ore:gearVibrantAlloy>, <ore:plateEndSteel>, <ore:gearVibrantAlloy>]
+]);
+recipes.addShaped(<enderio:block_enhanced_wired_charger>, [
+    [<ore:plateDoubleVibrantAlloy>, <ore:plateEndSteel>, <ore:plateDoubleVibrantAlloy>],
+    [<metaitem:emitter.ev>, <ore:itemEnhancedMachineChassi>, <metaitem:sensor.ev>],
+    [<ore:gearVibrantAlloy>, <enderio:block_wired_charger>, <ore:gearVibrantAlloy>]
+]);
 
 # Wireless Charger
 recipes.addShaped(<enderio:block_wireless_charger>, [
