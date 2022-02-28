@@ -108,6 +108,7 @@ recipes.removeShaped(<extracells:storage.fluid:6>, [
 # 256k Storage Component
 recipes.remove(<extracells:storage.component>);
 assembler.recipeBuilder()
+    .circuit(1)
     .inputs([
         <ore:circuitUltimate> * 4,
         <ore:plateNaquadahAlloy> * 4,
@@ -120,6 +121,7 @@ assembler.recipeBuilder()
     .EUt(122880)
     .buildAndRegister();
 assembler.recipeBuilder()
+    .circuit(1)
     .inputs([
         <appliedenergistics2:material:24>,
         <ore:circuitUltimate> * 4,
@@ -134,6 +136,7 @@ assembler.recipeBuilder()
 # 1024k Storage Component
 recipes.remove(<extracells:storage.component:1>);
 assembler.recipeBuilder()
+    .circuit(1)
     .inputs([
         <ore:circuitUltimate> * 4,
         <ore:plateNaquadahAlloy> * 4,
@@ -146,6 +149,7 @@ assembler.recipeBuilder()
     .EUt(122880)
     .buildAndRegister();
 assembler.recipeBuilder()
+    .circuit(1)
     .inputs([
         <appliedenergistics2:material:24>,
         <ore:circuitUltimate> * 4,
@@ -160,6 +164,7 @@ assembler.recipeBuilder()
 # 4096k Storage Component
 recipes.remove(<extracells:storage.component:2>);
 assembler.recipeBuilder()
+    .circuit(1)
     .inputs([
         <ore:circuitSuper> * 4,
         <ore:plateDarmstadtium> * 4,
@@ -172,6 +177,7 @@ assembler.recipeBuilder()
     .EUt(491520)
     .buildAndRegister();
 assembler.recipeBuilder()
+    .circuit(1)
     .inputs([
         <appliedenergistics2:material:23>,
         <ore:circuitSuper> * 4,
@@ -186,6 +192,7 @@ assembler.recipeBuilder()
 # 16384k Storage Component
 recipes.remove(<extracells:storage.component:3>);
 assembler.recipeBuilder()
+    .circuit(1)
     .inputs([
         <ore:circuitSuper> * 4,
         <ore:plateNeutronium> * 4,
@@ -198,6 +205,7 @@ assembler.recipeBuilder()
     .EUt(491520)
     .buildAndRegister();
 assembler.recipeBuilder()
+    .circuit(1)
     .inputs([
         <appliedenergistics2:material:23>,
         <ore:circuitSuper> * 4,
@@ -212,6 +220,7 @@ assembler.recipeBuilder()
 # 256k Fluid Component
 recipes.remove(<extracells:storage.component:8>);
 assembler.recipeBuilder()
+    .circuit(2)
     .inputs([
         <ore:circuitUltimate> * 4,
         <ore:plateNaquadahAlloy> * 4,
@@ -224,6 +233,7 @@ assembler.recipeBuilder()
     .EUt(122880)
     .buildAndRegister();
 assembler.recipeBuilder()
+    .circuit(2)
     .inputs([
         <appliedenergistics2:material:24>,
         <ore:circuitUltimate> * 4,
@@ -238,6 +248,7 @@ assembler.recipeBuilder()
 # 1024k Fluid Component
 recipes.remove(<extracells:storage.component:9>);
 assembler.recipeBuilder()
+    .circuit(2)
     .inputs([
         <ore:circuitUltimate> * 4,
         <ore:plateNaquadahAlloy> * 4,
@@ -250,6 +261,7 @@ assembler.recipeBuilder()
     .EUt(122880)
     .buildAndRegister();
 assembler.recipeBuilder()
+    .circuit(2)
     .inputs([
         <appliedenergistics2:material:24>,
         <ore:circuitUltimate> * 4,
@@ -264,6 +276,7 @@ assembler.recipeBuilder()
 # 4096k Fluid Component
 recipes.remove(<extracells:storage.component:10>);
 assembler.recipeBuilder()
+    .circuit(2)
     .inputs([
         <ore:circuitSuper> * 4,
         <ore:plateDarmstadtium> * 4,
@@ -276,6 +289,7 @@ assembler.recipeBuilder()
     .EUt(491520)
     .buildAndRegister();
 assembler.recipeBuilder()
+    .circuit(2)
     .inputs([
         <appliedenergistics2:material:23>,
         <ore:circuitSuper> * 4,
