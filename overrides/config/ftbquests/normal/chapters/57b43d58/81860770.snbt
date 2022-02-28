@@ -1,0 +1,33 @@
+{
+	title: "Extruderを作るまでの辛抱",
+	x: 3.5d,
+	y: 6.0d,
+	description: "Mold(Rotor)",
+	text: [
+		"手作りでローターを作るのはもう終わりにしましょう。",
+		"",
+		"抽出器と成型機を用いれば素材を液体にし、固体のローターに固め直すことができます。",
+		"この方法でインゴット4つからローターを作ることができるようになります。",
+		"歯車と小さな歯車も同じ要領で作ることができます。",
+		"",
+		"LVより大きな電圧でないと液体にできない金属もあり、これらを加工することはまだできません。"
+	],
+	dependencies: [
+		"a7f762e1"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "1c0fb446",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 24"
+		}]
+	},
+	{
+		uid: "6d40eda9",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_rotor 1 112"
+		}]
+	}]
+}

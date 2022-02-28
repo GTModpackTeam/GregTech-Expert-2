@@ -1,17 +1,23 @@
 # v1.1.1(hotfix)
+## Modpack update
+* Quest include v0.6.5.
+
+## Fix recipes
+### AE2
+* All Components
+* Nether Quartz Rod
+* Certus Quartz Rod
+* Certus Quartz Plate
+* Quartzite Plate
+
+### GregTech
+* UHV 16A Energy Hatch
+* UHV 16A Dynamo Hatch
+    * It works, but there is no material to create it, so I deleted it.
 
 ## Add recipes
 ### AE2
 * Fluix Block
-
-## Fix recipes
-### AE2
-* 2k Spatial Component
-* 16k Spatial Component
-* 128k Spatial Component
-* Nether Quartz Rod
-* Certus Quartz Rod
-* Fluix Crystal
 
 ## Revert recipes
 ### AE2
