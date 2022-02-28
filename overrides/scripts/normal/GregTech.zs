@@ -309,47 +309,19 @@ chemical_reactor.recipeBuilder()
     .buildAndRegister();
 
 # Nether Quartz Rod
-lathe.findRecipe(16, [<minecraft:quartz:0>], null).remove();
-extruder.recipeBuilder()
-    .notConsumable(<metaitem:shape.extruder.rod>)
-    .inputs([<minecraft:quartz>])
-    .outputs([<metaitem:stickNetherQuartz> * 2])
-    .duration(40)
-    .EUt(42)
-    .buildAndRegister();
-extruder.recipeBuilder()
-    .notConsumable(<metaitem:shape.extruder.rod>)
+lathe.recipeBuilder()
     .inputs([<ore:crystalPureNetherQuartz>])
     .outputs([<metaitem:stickNetherQuartz>])
     .duration(40)
-    .EUt(42)
+    .EUt(16)
     .buildAndRegister();
 
 # Certus Quartz Rod
-lathe.findRecipe(16, [<metaitem:gemCertusQuartz>], null).remove();
-extruder.recipeBuilder()
-    .notConsumable(<metaitem:shape.extruder.rod>)
-    .inputs([<ore:gemCertusQuartz>])
-    .outputs([<metaitem:stickCertusQuartz> * 2])
-    .duration(40)
-    .EUt(42)
-    .buildAndRegister();
-extruder.recipeBuilder()
-    .notConsumable(<metaitem:shape.extruder.rod>)
+lathe.recipeBuilder()
     .inputs([<ore:crystalPureCertusQuartz>])
     .outputs([<metaitem:stickCertusQuartz>])
     .duration(40)
-    .EUt(42)
-    .buildAndRegister();
-
-# Quartzite Rod
-lathe.findRecipe(16, [<metaitem:gemQuartzite>], null).remove();
-extruder.recipeBuilder()
-    .notConsumable(<metaitem:shape.extruder.rod>)
-    .inputs([<ore:gemQuartzite>])
-    .outputs([<metaitem:stickQuartzite> * 2])
-    .duration(40)
-    .EUt(42)
+    .EUt(16)
     .buildAndRegister();
 
 # Certus Quartz Dust (Override)
@@ -441,22 +413,22 @@ cutter.recipeBuilder()
     .inputs([<metaitem:blockCertusQuartz>])
     .fluidInputs([<liquid:water> * 15])
     .outputs([<metaitem:plateCertusQuartz> * 4])
-    .duration(100)
-    .EUt(24)
+    .duration(320)
+    .EUt(30)
     .buildAndRegister();
 cutter.recipeBuilder()
     .inputs([<metaitem:blockCertusQuartz>])
     .fluidInputs([<liquid:distilled_water> * 11])
     .outputs([<metaitem:plateCertusQuartz> * 4])
-    .duration(100)
-    .EUt(24)
+    .duration(240)
+    .EUt(30)
     .buildAndRegister();
 cutter.recipeBuilder()
     .inputs([<metaitem:blockCertusQuartz>])
     .fluidInputs([<liquid:lubricant> * 3])
     .outputs([<metaitem:plateCertusQuartz> * 4])
-    .duration(100)
-    .EUt(24)
+    .duration(160)
+    .EUt(30)
     .buildAndRegister();
 
 # Quartzite Plate (Override)
@@ -467,22 +439,22 @@ cutter.recipeBuilder()
     .inputs([<metaitem:blockQuartzite>])
     .fluidInputs([<liquid:water> * 15])
     .outputs([<metaitem:plateQuartzite> * 4])
-    .duration(100)
-    .EUt(24)
+    .duration(320)
+    .EUt(30)
     .buildAndRegister();
 cutter.recipeBuilder()
     .inputs([<metaitem:blockQuartzite>])
     .fluidInputs([<liquid:distilled_water> * 11])
     .outputs([<metaitem:plateQuartzite> * 4])
-    .duration(100)
-    .EUt(24)
+    .duration(240)
+    .EUt(30)
     .buildAndRegister();
 cutter.recipeBuilder()
     .inputs([<metaitem:blockQuartzite>])
     .fluidInputs([<liquid:lubricant> * 3])
     .outputs([<metaitem:plateQuartzite> * 4])
-    .duration(100)
-    .EUt(24)
+    .duration(160)
+    .EUt(30)
     .buildAndRegister();
 
 # Charged Certus Quartz Crystal
