@@ -117,7 +117,7 @@ gui.appliedenergistics2.security.security.name=セキュリティ
 gui.appliedenergistics2.security.extract.tip=ユーザーはストレージからアイテムを引き出すことができます
 gui.appliedenergistics2.security.inject.tip=ユーザーはストレージに新しいアイテムを入れることができます
 gui.appliedenergistics2.security.craft.tip=ユーザーは新しいクラフトを開始することができます
-gui.appliedenergistics2.security.build.tip=ユーザはネットワークの破壊や設置などの設定変更を行うことができます
+gui.appliedenergistics2.security.build.tip=ユーザはネットワークの変更や設置などの変更を行うことができます
 gui.appliedenergistics2.security.security.tip=ユーザーはセキュリティターミナルにて設定変更を行うことができます
 
 gui.appliedenergistics2.Efficiency=効率
