@@ -459,6 +459,7 @@ cutter.recipeBuilder()
     .buildAndRegister();
 
 # Charged Certus Quartz Crystal
+electrolyzer.findRecipe(30, [<metaitem:dustChargedCertusQuartz> * 3], null).remove();
 electrolyzer.recipeBuilder()
     .inputs([<ore:crystalCertusQuartz>])
     .fluidInputs([<liquid:distilled_water> * 50])
@@ -502,6 +503,7 @@ implosion_compressor.recipeBuilder()
     .buildAndRegister();
 
 # Fluix Crystal (Override)
+electrolyzer.findRecipe(60, [<metaitem:dustFluix> * 7], null).remove();
 recipes.removeShapeless(<appliedenergistics2:material:7> * 4, [<appliedenergistics2:fluix_block>]);
 mixer.recipeBuilder()
     .inputs([

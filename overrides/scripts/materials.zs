@@ -284,15 +284,28 @@ MaterialBuilder(32116, "vivid_alloy")
 # AE2 - Fluix Dust (Override)
 MaterialBuilder(32117, "fluix")
     .dust()
+    // .gem().iconSet("QUARTZ")
     .fluid(FluidTypes.LIQUID, false)
     .fluidTemp(1200)
     .color(0x846994)
+    // .flags(["crystallizable"])
+    .components([
+        <material:silicon> * 2,
+        <material:oxygen> * 4,
+        <material:redstone> * 1
+    ])
     .build();
 
 # AE2 - Charged Certus Quartz Dust
 MaterialBuilder(32118, "charged_certus_quartz")
     .dust()
+    // .gem().iconSet("QUARTZ")
     .fluid(FluidTypes.LIQUID, false)
     .fluidTemp(1200)
     .color(0xCFDAFF)
+    // .flags(["crystallizable"])
+    .components([
+        <material:silicon> * 1,
+        <material:oxygen> * 2
+    ])
     .build();
