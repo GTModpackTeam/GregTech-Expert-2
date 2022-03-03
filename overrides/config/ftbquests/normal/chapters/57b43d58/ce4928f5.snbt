@@ -1,6 +1,12 @@
 {
-	x: 15.5d,
+	title: "窒素がこんな色だったら私達は世界が全く見えないだろう",
+	x: 19.5d,
 	y: -4.0d,
+	description: "Nitrogen",
+	text: [
+		"アルミニウムの精錬は、",
+		"ガス収集機で収集した空気を遠心分離することで得られる窒素で加速することができます。"
+	],
 	dependencies: [
 		"d5cb9b5e"
 	],
@@ -9,6 +15,6 @@
 		uid: "0c824f7c",
 		type: "fluid",
 		fluid: "nitrogen",
-		amount: 1
+		amount: 3900
 	}]
 }

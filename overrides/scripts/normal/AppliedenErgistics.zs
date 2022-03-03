@@ -210,6 +210,19 @@ recipes.addShaped(<contenttweaker:matrixcore> * 2, [
     [<ore:stickAluminium>, <appliedenergistics2:material:44>, <ore:stickAluminium>]
 ]);
 assembler.recipeBuilder()
+    .circuit(3)
+    .inputs([
+        <ore:stickAluminium> * 2,
+        <appliedenergistics2:material:43>,
+        <appliedenergistics2:material:44>,
+        <ore:crystalFluix> | <ore:crystalPureFluix>
+    ])
+    .fluidInputs([<liquid:plastic> * 144])
+    .outputs([<contenttweaker:matrixcore> * 4])
+    .duration(20)
+    .EUt(7680)
+    .buildAndRegister();
+assembler.recipeBuilder()
     .circuit(2)
     .inputs([
         <ore:stickAluminium> * 6,
@@ -221,19 +234,6 @@ assembler.recipeBuilder()
     .fluidInputs([<liquid:plastic> * 144])
     .outputs([<contenttweaker:matrixcore> * 4])
     .duration(100)
-    .EUt(7680)
-    .buildAndRegister();
-assembler.recipeBuilder()
-    .circuit(3)
-    .inputs([
-        <ore:stickAluminium> * 2,
-        <appliedenergistics2:material:43>,
-        <appliedenergistics2:material:44>,
-        <ore:crystalFluix> | <ore:crystalPureFluix>
-    ])
-    .fluidInputs([<liquid:plastic> * 144])
-    .outputs([<contenttweaker:matrixcore> * 4])
-    .duration(20)
     .EUt(7680)
     .buildAndRegister();
 
@@ -630,7 +630,7 @@ recipes.addShaped(<appliedenergistics2:nether_quartz_wrench>, [
 # Entropy Manipulator
 recipes.remove(<appliedenergistics2:entropy_manipulator>);
 recipes.addShaped(<appliedenergistics2:entropy_manipulator>, [
-    [null, <appliedenergistics2:material:22>, <appliedenergistics2:material:7>],
+    [null, <appliedenergistics2:material:22>, <ore:crystalFluix>],
     [null, <appliedenergistics2:energy_cell>, <appliedenergistics2:material:24>],
     [<metaitem:stickSteel>, null, null]
 ]);
@@ -1430,7 +1430,7 @@ assembler.recipeBuilder()
 # Light Detecting Fixture
 recipes.remove(<appliedenergistics2:light_detector>);
 recipes.addShapeless(<appliedenergistics2:light_detector>, [
-    <appliedenergistics2:material:1>, <ore:stickIron>
+    <ore:gemChargedCertusQuartz>, <ore:stickIron>
 ]);
 
 # Illuminated Panel

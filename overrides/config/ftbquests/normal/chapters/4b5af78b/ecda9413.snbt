@@ -1,7 +1,7 @@
 {
 	title: "未実装",
 	icon: "gregtech:machine 1 19",
-	x: 8.0d,
+	x: 6.0d,
 	y: 2.0d,
 	description: "Charcoal Pit Igniter",
 	text: [
