@@ -1,6 +1,13 @@
 {
+	title: "ポータブルThe_Last_Millenium",
 	x: 11.5d,
 	y: 10.0d,
+	description: "/dank/null MK VI",
+	text: [
+		"/dank/nullMK_VIはMK_Vより増えた収容量とスロット数で採掘をより楽にしてくれます。",
+		"",
+		"クリエイティブの/dank/null/は削除されているのでこれが実質最後の/dank/nullです"
+	],
 	dependencies: [
 		"43234cf8"
 	],

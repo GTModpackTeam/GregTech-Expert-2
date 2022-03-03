@@ -1,7 +1,7 @@
 {
 	title: "磁性に満ち溢れている",
-	x: 1.5d,
-	y: 6.0d,
+	x: -0.5d,
+	y: 8.0d,
 	description: "Polarizer",
 	text: [
 		"磁化装置は金属を磁化します。",

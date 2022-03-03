@@ -1,16 +1,22 @@
 {
+	title: "bruh",
 	x: 3.5d,
 	y: -6.0d,
+	description: "brass dust",
+	text: [
+		"真鍮の粉はクラフト素材です。",
+		"影が薄いですが色んな合金のレシピに用いられます。"
+	],
 	dependencies: [
 		"dec90b31",
 		"04d3ff01"
 	],
 	min_width: 300,
 	tasks: [{
-		uid: "982ffc61",
+		uid: "85a2195a",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_ingot 1 259"
+			item: "gregtech:meta_dust 1 259"
 		}],
 		count: 4L
 	}]

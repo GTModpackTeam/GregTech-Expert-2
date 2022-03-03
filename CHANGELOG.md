@@ -1,3 +1,27 @@
+# v1.1.2
+## Update mods
+* Had Enough Items
+* Zen Utils
+
+## Modpack update
+* Quest include v0.7.0
+
+## Fix config
+### AE2
+* GTCEu power ratios revert.
+
+## New items
+### GregTech
+* Nether Quartz Fluid
+
+## Fix recipe
+### GregTech
+* Certus Quartz Fluid
+* Fluix Fluid
+* Modify Formula of EIO.
+
+* * *
+
 # v1.1.1(hotfix)
 ## Modpack update
 * Quest include v0.6.5.

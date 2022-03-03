@@ -1,6 +1,14 @@
 {
+	title: "ポータブルゴミ箱",
 	x: 7.5d,
 	y: 8.0d,
+	description: "/dank/nullMK III",
+	text: [
+		"これ以降の/dank/null/は残念ながらLVでは作れませんが、",
+		"全て一箇所にまとめておいた方が可視性がいいので意図的に繋げてあります。",
+		"",
+		"/dank/nullMK_IIIはMK_IIより増えた収容量とスロット数で採掘をより楽にしてくれます。"
+	],
 	dependencies: [
 		"128c2480"
 	],

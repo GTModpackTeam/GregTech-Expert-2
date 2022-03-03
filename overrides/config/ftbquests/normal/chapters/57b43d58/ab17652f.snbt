@@ -1,7 +1,17 @@
 {
+	title: "AI無限増殖の第一歩",
 	x: 13.5d,
 	y: 4.0d,
 	shape: "diamond",
+	description: "Basic Circuit Assembler",
+	text: [
+		"最初のMV回路を回路作製機に投資することで、LVとMVの回路を安く作れるようになります。",
+		"",
+		"今後は全ての回路を回路作製機で作りましょう。",
+		"",
+		"余談：回路組立機はGregTech5には存在せず、GregTech5uで追加された。",
+		"GTCEにはまた移植されず、GTCEuで復活した。"
+	],
 	dependencies: [
 		"e72ae98e"
 	],
