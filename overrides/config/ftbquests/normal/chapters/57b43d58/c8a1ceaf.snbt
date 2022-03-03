@@ -1,9 +1,19 @@
 {
-	title: "RarelyUseinLVMachines",
+	title: "孤児院",
+	icon: "gregtech:machine 1 1515",
 	x: 1.5d,
 	y: 4.0d,
+	description: "RarelyUseMachines",
 	text: [
-		""
+		"このクエストにある機械はどの電圧時代でも目だった出番がありません。",
+		"永遠に使うことはないかもしれませんが機能だけは知っておくことは悪くないかもしれません。",
+		"",
+		"Fisherを使うと色々なものを釣ることができます。",
+		"稼働には水槽が必要なのと糸を消費するので、羊牧場かポリカプロラクタムを入手する必要があります。",
+		"",
+		"Pumpを使うと液体を組み上げることができます。",
+		"しかしMVで解禁される液体採掘プラントが水、塩水、溶岩、原油を無限に採掘することができるので、",
+		"他のmodと併用しないと需要があまりありません。"
 	],
 	dependencies: [
 		"34d03450"
@@ -14,26 +24,15 @@
 		uid: "66862b73",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 125"
-		},
-		{
-			item: "gregtech:machine 1 560"
-		},
-		{
-			item: "gregtech:machine 1 980"
-		},
-		{
 			item: "gregtech:machine 1 1515"
 		},
 		{
 			item: "gregtech:machine 1 1530"
-		},
-		{
-			item: "gregtech:machine 1 260"
 		}]
 	},
 	{
 		uid: "00d9211f",
-		type: "checkmark"
+		type: "checkmark",
+		title: "スキップしたい方はこちら"
 	}]
 }

@@ -5,7 +5,7 @@
 	shape: "diamond",
 	dependencies: [
 		"6ac44b0e",
-		"79d5f843"
+		"3d238ac5"
 	],
 	min_width: 300,
 	or_tasks: true,
