@@ -17,6 +17,9 @@ MaterialBuilder(32200, "naquadah_rocket_fuel")
     .color(0x2E4C00)
     .build();
 
+# Nether Quartz
+MaterialRegistry.get("nether_quartz").addFluid(FluidTypes.LIQUID, false);
+
 # Certus Quartz
 MaterialRegistry.get("certus_quartz").addFluid(FluidTypes.LIQUID, false);
 
@@ -166,12 +169,8 @@ MaterialBuilder(32107, "soularium")
         "generate_plate"
     ])
     .blastTemp(3600, "HIGH", 480, 600)
-    .components([
-        <material:gold> * 1,
-        <material:ash> * 1
-    ])
     .build();
-MaterialRegistry.get("soularium").setFormula("?AuC", true);
+MaterialRegistry.get("soularium").setFormula("?", true);
 
 # EIO - End Steel
 MaterialBuilder(32108, "end_steel")
@@ -215,6 +214,7 @@ MaterialBuilder(32110, "crude_steel")
     .color(0x8C8682)
     .blastTemp(3600, "HIGH", 1920, 600)
     .build();
+MaterialRegistry.get("crude_steel").setFormula("?", true);
 
 # EIO - Crystalline Alloy
 MaterialBuilder(32111, "crystalline_alloy")
@@ -227,6 +227,7 @@ MaterialBuilder(32111, "crystalline_alloy")
         "generate_plate"
     ])
     .build();
+MaterialRegistry.get("crystalline_alloy").setFormula("?", true);
 
 # EIO - Melodic Alloy
 MaterialBuilder(32112, "melodic_alloy")
@@ -239,6 +240,7 @@ MaterialBuilder(32112, "melodic_alloy")
         "generate_plate"
     ])
     .build();
+MaterialRegistry.get("melodic_alloy").setFormula("?", true);
 
 # EIO - Stellar Alloy
 MaterialBuilder(32113, "stellar_alloy")
@@ -252,6 +254,7 @@ MaterialBuilder(32113, "stellar_alloy")
         "generate_rod"
     ])
     .build();
+MaterialRegistry.get("stellar_alloy").setFormula("?", true);
 
 # EIO - Crystalline Pink Slime
 MaterialBuilder(32114, "crystalline_pink_slime")
@@ -262,6 +265,7 @@ MaterialBuilder(32114, "crystalline_pink_slime")
         "generate_plate"
     ])
     .build();
+MaterialRegistry.get("crystalline_pink_slime").setFormula("?", true);
 
 # EIO - Energetic Silver
 MaterialBuilder(32115, "energetic_silver")
@@ -271,6 +275,7 @@ MaterialBuilder(32115, "energetic_silver")
     .color(0x598DB3)
     .blastTemp(5400, "HIGHER", 1920, 1072)
     .build();
+MaterialRegistry.get("energetic_silver").setFormula("?", true);
 
 # EIO - Vivid Alloy
 MaterialBuilder(32116, "vivid_alloy")
@@ -280,6 +285,7 @@ MaterialBuilder(32116, "vivid_alloy")
     .color(0x469BB1)
     .blastTemp(5400, "HIGHEST", 1920, 1072)
     .build();
+MaterialRegistry.get("vivid_alloy").setFormula("?", true);
 
 # AE2 - Fluix Dust (Override)
 MaterialBuilder(32117, "fluix")
