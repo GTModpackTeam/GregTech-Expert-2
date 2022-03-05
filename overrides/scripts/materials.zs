@@ -151,7 +151,8 @@ MaterialBuilder(32106, "dark_steel")
         "generate_rod",
         "generate_long_rod",
         "generate_ring",
-        "generate_bolt_screw"
+        "generate_bolt_screw",
+        "generate_frame"
     ])
     .components([
         <material:iron> * 1,
