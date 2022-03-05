@@ -1,12 +1,24 @@
 {
+	title: "昔は鉛で回路を作れたけど...",
 	icon: "gregtech:meta_ingot 1 320",
 	x: 15.5d,
 	y: 4.0d,
+	description: "Soldering Alloy",
+	text: [
+		"はんだ合金は液体の形でしか使用せず、錫を使う回路のレシピと互換性があります。",
+		"",
+		"材料を節約するためにはんだ合金をつかうか、",
+		"加工の手間を減らすために錫を使うか、",
+		"二つの選択肢が用意されています。",
+		"",
+		"余談：GregTech5にはメンテナンスハッチで使うツールとしてはんだごてが存在したが、GTCEで削除された"
+	],
 	dependencies: [
 		"ab17652f",
 		"1589e239",
 		"92ae2406"
 	],
+	min_width: 300,
 	or_tasks: true,
 	tasks: [{
 		uid: "476e1d16",
@@ -17,11 +29,9 @@
 		count: 10L
 	},
 	{
-		uid: "70b8cdcf",
-		type: "item",
-		items: [{
-			item: "gregtech:meta_ingot 1 320"
-		}],
-		count: 10L
+		uid: "1b76236a",
+		type: "fluid",
+		fluid: "soldering_alloy",
+		amount: 144
 	}]
 }

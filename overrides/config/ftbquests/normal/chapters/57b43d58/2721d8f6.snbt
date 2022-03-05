@@ -1,0 +1,43 @@
+{
+	title: "stdio.h",
+	x: 15.5d,
+	y: -4.0d,
+	description: "Multiblock Buses",
+	text: [
+		"蒸気マルチブロックと同じく、電気マルチブロックも材料の搬入出をバスを通じて行わなければいけません。",
+		"液体の場合はハッチが必要です。"
+	],
+	dependencies: [
+		"8f097e59"
+	],
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "d833dbc1",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1151"
+		}]
+	},
+	{
+		uid: "e3fd3e0a",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1166"
+		}]
+	},
+	{
+		uid: "9219e7ac",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1181"
+		}]
+	},
+	{
+		uid: "9e76f531",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1196"
+		}]
+	}]
+}

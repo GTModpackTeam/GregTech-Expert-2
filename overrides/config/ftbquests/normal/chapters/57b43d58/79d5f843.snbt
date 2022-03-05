@@ -1,8 +1,28 @@
 {
+	title: "EBF",
 	icon: "gregtech:machine 1 1001",
 	x: 11.5d,
 	y: -2.0d,
 	shape: "diamond",
+	description: "Electric Blast Furnace",
+	text: [
+		"このクエストでは電気高炉の核となる部分の説明をします、",
+		"他のクエストではそれぞれのパーツについての説明をします。",
+		"",
+		"電気高炉は最初の電気で動くマルチブロックです。",
+		"高温で材料を処理するときに使います。",
+		"",
+		"電気高炉を使ってアルミニウムを焼けばMV時代に進むことができます。",
+		"また、鋼鉄を初歩的な高炉よりも安く焼くことができます。",
+		"",
+		"電気高炉は最低120EU/tの電圧が供給されていないと動きません。",
+		"これはLV発電機4台が出せる電圧よりも僅かに少ない量ですが、",
+		"バッテリーバッファーのクエストにある通り発電機を4台用意しなくても動かすことができます。",
+		"電気高炉を動かす発電機は他の発電機とは分離して専用のバッテリーバッファーに繋いだ方がいいでしょう。",
+		"",
+		"余談：casingsActiveEmissiveTexturesを有効化するとゲームを再起動することなく電気高炉を光らせることができるが、",
+		"ラグが発生するのでこのmodpackではオフにしている"
+	],
 	dependencies: [
 		"57bf39df"
 	],
@@ -21,64 +41,6 @@
 		type: "item",
 		items: [{
 			item: "gregtech:machine 1 1001"
-		}]
-	},
-	{
-		uid: "98a43865",
-		type: "item",
-		items: [{
-			item: "gregtech:wire_coil"
-		}],
-		count: 16L
-	},
-	{
-		uid: "6a14b045",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 1657"
-		}]
-	},
-	{
-		uid: "388aa1b1",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 1211"
-		}],
-		count: 2L
-	},
-	{
-		uid: "b6a6129c",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 1196"
-		}]
-	},
-	{
-		uid: "846a0b91",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 1166"
-		}]
-	},
-	{
-		uid: "70609e51",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 1181"
-		}]
-	},
-	{
-		uid: "d25b0db0",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 1151"
-		}]
-	},
-	{
-		uid: "e040a7da",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 1654"
 		}]
 	}]
 }

@@ -1,14 +1,21 @@
 {
-	title: "T1 Machines Upgrade",
+	title: "蒸気機関車の電化は大変な維持電力がかかるらしく地方を中心にディーゼル式に戻っている",
+	icon: "gregtech:machine 1 80",
 	x: 3.5d,
 	y: 4.0d,
+	description: "T1 Machines Upgrade",
 	text: [
-		""
+		"蒸気時代に作った機械は電気機械にアップグレードすることができます。",
+		"",
+		"今すぐ必要でなければこのクエストはスキップしてもかまいませんが、",
+		"どこかの電圧でアップグレードするまで拠点に蒸気施設が残り続けてしまうことになります。",
+		"早めに電化しましょう。"
 	],
 	dependencies: [
 		"34d03450"
 	],
 	min_width: 300,
+	or_tasks: true,
 	tasks: [{
 		uid: "a2ce4873",
 		type: "item",
@@ -22,13 +29,18 @@
 			item: "gregtech:machine 1 230"
 		},
 		{
-			item: "gregtech:machine 1 65"
-		},
-		{
 			item: "gregtech:machine 1 50"
 		},
 		{
 			item: "gregtech:machine 1 665"
+		},
+		{
+			item: "gregtech:machine 1 65"
 		}]
+	},
+	{
+		uid: "79742915",
+		type: "checkmark",
+		title: "スキップしたい方はこちら"
 	}]
 }

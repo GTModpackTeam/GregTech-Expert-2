@@ -1,6 +1,13 @@
 {
+	title: "ポータブル溶岩",
 	x: 7.5d,
 	y: 6.0d,
+	description: "/dank/null/MK II",
+	text: [
+		"/dank/null/MK_IIはLVの組立機で作ることのできるほぼ最初の実用的な新アイテムです。",
+		"",
+		"MK_Iより増えた収容量とスロット数で採掘をより楽にしてくれます。"
+	],
 	dependencies: [
 		"b75f94e8"
 	],

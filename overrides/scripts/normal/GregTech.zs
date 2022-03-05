@@ -34,7 +34,7 @@ extractor.findRecipe(30, [<metaitem:blockCertusQuartz>], null).remove();
 extractor.recipeBuilder()
     .inputs([<metaitem:blockCertusQuartz>])
     .fluidOutputs([<liquid:certus_quartz> * 576])
-    .duration(504)
+    .duration(80)
     .EUt(30)
     .buildAndRegister();
 extractor.recipeBuilder()
@@ -76,7 +76,7 @@ extractor.recipeBuilder()
     .EUt(30)
     .buildAndRegister();
 extractor.recipeBuilder()
-    .inputs([<appliedenergistics2:material:7>])
+    .inputs([<ore:crystalFluix>])
     .fluidOutputs([<liquid:fluix> * 144])
     .duration(20)
     .EUt(7)
@@ -84,8 +84,8 @@ extractor.recipeBuilder()
 extractor.recipeBuilder()
     .inputs([<appliedenergistics2:fluix_block>])
     .fluidOutputs([<liquid:fluix> * 576])
-    .duration(20)
-    .EUt(7)
+    .duration(80)
+    .EUt(30)
     .buildAndRegister();
 
 
@@ -376,7 +376,7 @@ mixer.recipeBuilder()
     .EUt(30)
     .buildAndRegister();
 macerator.recipeBuilder()
-    .inputs([<appliedenergistics2:material:7>])
+    .inputs([<ore:crystalFluix>])
     .outputs([<metaitem:dustFluix>])
     .duration(20)
     .EUt(2)
@@ -459,6 +459,8 @@ cutter.recipeBuilder()
     .buildAndRegister();
 
 # Charged Certus Quartz Crystal
+electrolyzer.findRecipe(30, [<metaitem:dustChargedCertusQuartz> * 3], null).remove();
+<ore:gemChargedCertusQuartz>.addItems([<appliedenergistics2:material:1>]);
 electrolyzer.recipeBuilder()
     .inputs([<ore:crystalCertusQuartz>])
     .fluidInputs([<liquid:distilled_water> * 50])
@@ -502,10 +504,12 @@ implosion_compressor.recipeBuilder()
     .buildAndRegister();
 
 # Fluix Crystal (Override)
+electrolyzer.findRecipe(60, [<metaitem:dustFluix> * 7], null).remove();
 recipes.removeShapeless(<appliedenergistics2:material:7> * 4, [<appliedenergistics2:fluix_block>]);
+<ore:gemFluix>.addItems([<appliedenergistics2:material:7>]);
 mixer.recipeBuilder()
     .inputs([
-        <appliedenergistics2:material:1>,
+        <ore:gemChargedCertusQuartz>,
         <ore:dustRedstone>,
         <ore:gemNetherQuartz>
     ])
@@ -556,9 +560,7 @@ implosion_compressor.recipeBuilder()
 ########################################
 # Quartz Block
 compressor.findRecipe(2, [<metaitem:gemCertusQuartz> * 9], null).remove();
-fluid_solidifier.findRecipe(7, [
-    <metaitem:shape.mold.block>], [<liquid:certus_quartz> * 1296
-]).remove();
+fluid_solidifier.findRecipe(7, [<metaitem:shape.mold.block>], [<liquid:certus_quartz> * 1296]).remove();
 compressor.recipeBuilder()
     .inputs([<metaitem:gemCertusQuartz> * 4])
     .outputs([<metaitem:blockCertusQuartz>])
@@ -579,7 +581,8 @@ fluid_solidifier.recipeBuilder()
     .EUt(7)
     .buildAndRegister();
 
-## Fluix Block
+# Fluix Block
+<ore:blockFluix>.addItems([<appliedenergistics2:fluix_block>]);
 fluid_solidifier.recipeBuilder()
     .notConsumable([<metaitem:shape.mold.block>])
     .fluidInputs([<liquid:fluix> * 576])
@@ -598,28 +601,28 @@ compressor.recipeBuilder()
     .buildAndRegister();
 
 # UHV Voltage 4x Battery Buffer
-recipes.addShaped(<gregtech:machine:1324>, [
+recipes.addShaped(<metaitem:battery_buffer.uhv.4>, [
     [null, null, null],
     [<ore:wireGtQuadrupleEuropium>, <minecraft:chest>, <ore:wireGtQuadrupleEuropium>],
     [<ore:wireGtQuadrupleEuropium>, <metaitem:hull.uhv>, <ore:wireGtQuadrupleEuropium>]
 ]);
 
 # UHV Voltage 8x Battery Buffer
-recipes.addShaped(<gregtech:machine:1334>, [
+recipes.addShaped(<metaitem:battery_buffer.uhv.8>, [
     [null, null, null],
     [<ore:wireGtOctalEuropium>, <minecraft:chest>, <ore:wireGtOctalEuropium>],
     [<ore:wireGtOctalEuropium>, <metaitem:hull.uhv>, <ore:wireGtOctalEuropium>]
 ]);
 
 # UHV Voltage 16x Battery Buffer
-recipes.addShaped(<gregtech:machine:1344>, [
+recipes.addShaped(<metaitem:battery_buffer.uhv.16>, [
     [null, null, null],
     [<ore:wireGtHexEuropium>, <minecraft:chest>, <ore:wireGtHexEuropium>],
     [<ore:wireGtHexEuropium>, <metaitem:hull.uhv>, <ore:wireGtHexEuropium>]
 ]);
 
 # UHV Voltage Turbo Charger
-recipes.addShaped(<gregtech:machine:1384>, [
+recipes.addShaped(<metaitem:charger.uhv>, [
     [<ore:wireGtQuadrupleEuropium>, <minecraft:chest>, <ore:wireGtQuadrupleEuropium>],
     [<ore:wireGtQuadrupleEuropium>, <metaitem:hull.uhv>, <ore:wireGtQuadrupleEuropium>],
     [<ore:wireGtSingleEuropium>, <ore:circuitInfinite>, <ore:wireGtSingleEuropium>]

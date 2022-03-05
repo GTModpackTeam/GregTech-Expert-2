@@ -1,0 +1,26 @@
+{
+	title: "バニラの松明がどのようにして点火されているかは謎である",
+	x: 8.0d,
+	y: 2.0d,
+	description: "Unlit Mega Torch",
+	text: [
+		"§mUnlit_Mega_Torchを火打石と打ち金やライターで点火すると、",
+		"128ブロックの範囲を湧きつぶししてくれるMega Torchに変化します。",
+		"一度着火すれば消えることはありません。§r",
+		"",
+		"Mega Torchは128ブロックの範囲を湧きつぶししてくれます。",
+		"",
+		"余談：Mega_Tochのデフォルトの湧きつぶし範囲は64ブロックだがコンフィグで調整された"
+	],
+	dependencies: [
+		"41a73fe4"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "b30aa9ed",
+		type: "item",
+		items: [{
+			item: "torchmaster:mega_torch"
+		}]
+	}]
+}
