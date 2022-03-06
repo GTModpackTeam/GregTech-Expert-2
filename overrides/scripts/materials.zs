@@ -18,10 +18,14 @@ MaterialBuilder(32200, "naquadah_rocket_fuel")
     .build();
 
 # Nether Quartz
-MaterialRegistry.get("nether_quartz").addFluid(FluidTypes.LIQUID, false);
+var nether_quartz = MaterialRegistry.get("nether_quartz");
+nether_quartz.addFluid(FluidTypes.LIQUID, false);
+nether_quartz.addFlags(["generate_lens"]);
 
 # Certus Quartz
-MaterialRegistry.get("certus_quartz").addFluid(FluidTypes.LIQUID, false);
+var certus_quartz = MaterialRegistry.get("certus_quartz");
+certus_quartz.addFluid(FluidTypes.LIQUID, false);
+certus_quartz.addFlags(["generate_lens"]);
 
 
 
@@ -291,11 +295,15 @@ MaterialRegistry.get("vivid_alloy").setFormula("?", true);
 # AE2 - Fluix Dust (Override)
 MaterialBuilder(32117, "fluix")
     .dust()
-    // .gem().iconSet("QUARTZ")
+    // .gem()
     .fluid(FluidTypes.LIQUID, false)
     .fluidTemp(1200)
-    .color(0x846994)
-    // .flags(["crystallizable"])
+    .color(0x846994).iconSet("QUARTZ")
+    .flags([
+        // "crystallizable"
+        "generate_plate",
+        "generate_lens"
+    ])
     .components([
         <material:silicon> * 2,
         <material:oxygen> * 4,
@@ -306,11 +314,15 @@ MaterialBuilder(32117, "fluix")
 # AE2 - Charged Certus Quartz Dust
 MaterialBuilder(32118, "charged_certus_quartz")
     .dust()
-    // .gem().iconSet("QUARTZ")
+    // .gem()
     .fluid(FluidTypes.LIQUID, false)
     .fluidTemp(1200)
-    .color(0xCFDAFF)
-    // .flags(["crystallizable"])
+    .color(0xCFDAFF).iconSet("QUARTZ")
+    .flags([
+        // "crystallizable"
+        "generate_plate",
+        "generate_lens"
+    ])
     .components([
         <material:silicon> * 1,
         <material:oxygen> * 2

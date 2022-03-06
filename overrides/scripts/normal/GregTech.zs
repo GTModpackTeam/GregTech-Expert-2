@@ -573,6 +573,30 @@ implosion_compressor.recipeBuilder()
     .EUt(30)
     .buildAndRegister();
 
+# Charged Certus Quartz Lens
+<ore:craftingLensLightBlue>.addItems([<metaitem:lensChargedCertusQuartz>]);
+lathe.recipeBuilder()
+    .inputs([<metaitem:plateChargedCertusQuartz>])
+    .outputs([
+        <metaitem:lensChargedCertusQuartz>,
+        <metaitem:dustSmallChargedCertusQuartz>
+    ])
+    .duration(1200)
+    .EUt(120)
+    .buildAndRegister();
+
+# Fluix Lens
+<ore:craftingLensPurple>.addItems([<metaitem:lensFluix>]);
+lathe.recipeBuilder()
+    .inputs([<metaitem:plateFluix>])
+    .outputs([
+        <metaitem:lensFluix>,
+        <metaitem:dustSmallFluix>
+    ])
+    .duration(1200)
+    .EUt(120)
+    .buildAndRegister();
+
 
 
 ########################################
