@@ -103,7 +103,6 @@ gui.appliedenergistics2.RedstoneTunnel=レッドストーン
 gui.appliedenergistics2.EUTunnel=EU
 gui.appliedenergistics2.FETunnel=FE
 gui.appliedenergistics2.GTEUTunnel=GTEU
-gui.appliedenergistics2.GTCEUTunnel=GTCEU
 gui.appliedenergistics2.LightTunnel=光源
 gui.appliedenergistics2.OCTunnel=OC
 gui.appliedenergistics2.PressureTunnel=Pressure
@@ -378,7 +377,6 @@ gui.appliedenergistics2.units.appliedenergstics=AE
 gui.appliedenergistics2.units.ic2=EU
 gui.appliedenergistics2.units.rf=RF
 gui.appliedenergistics2.units.gteu=GTEU
-gui.appliedenergistics2.units.gtceu=GTCEU
 
 // Colors
 gui.appliedenergistics2.White=白色
