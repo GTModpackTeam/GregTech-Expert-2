@@ -1,3 +1,71 @@
+# v1.1.3
+## Update mods
+* AE2 Unofficial Extended Life
+* Devtech
+* GregTech Food Option
+* Had Enough Items
+* MixinBooter
+
+## New mods
+* ArchitectureCraft
+* Catwalks 4
+    * Joined as a GT company :troll:
+
+## Modpack update
+* Quest include v0.7.1
+* Wood craft returned to the original GTExpert.
+* Discord invite link expired...
+* Does not work if there is a Programmed Circuit in the Input Bus of the Processing Array. ( [PrototypeTrousers/Applied-Energistics-2#85](https://github.com/PrototypeTrousers/Applied-Energistics-2/issues/85) )
+* /say Japanese Crafter - AE2 Unofficial Extended Lifeの日本語翻訳を仮追加しました。ちなみに1.7.10時代のAEを翻訳したのはtier...私なんです。
+
+## Add items
+### GregTech
+* Certus Quartz Lens
+* Nether Quartz Lens
+* Charged Certus Quartz Lens
+* Fluix Lens
+
+## Update recipes
+### AE2
+* Inscriber Calulation Press
+* Inscriber Engineering Press
+* Inscriber Logic Press
+* Inscriber Silicon Press
+
+## New recipes
+### AE2
+* 1k Storage Cell
+* 4k Storage Cell
+* 16k Storage Cell
+* 64k Storage Cell
+* 1k Fluid Cell
+* 4k Fluid Cell
+* 16k Fluid Cell
+* 64k Fluid Cell
+* 2³ Spatial Cell
+* 16³ Spatial Cell
+* 128³ Spatial Cell
+* Glass Cable
+* Crafting Monitor
+* Crafting Storage 1k
+* Crafting Storage 4k
+* Crafting Storage 16k
+* Crafting Storage 64k
+
+### Extra Cells
+* 256k Storage Cell
+* 1024k Storage Cell
+* 4096k Storage Cell
+* 16384k Storage Cell
+* 256k Fluid Cell
+* 1024k Fluid Cell
+* 4096k Fluid Cell
+
+### GregTech
+* Fluix liquid
+
+* * *
+
 # v1.1.2
 ## Update mods
 * Had Enough Items
