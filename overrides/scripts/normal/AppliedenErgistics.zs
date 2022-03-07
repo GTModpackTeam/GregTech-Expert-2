@@ -265,81 +265,246 @@ recipes.addShaped(<appliedenergistics2:material:39>, [
 JEI.hide(<appliedenergistics2:creative_storage_cell>);
 
 # 1k Storage Cell
-recipes.removeShaped(<appliedenergistics2:storage_cell_1k>, [
-    [<appliedenergistics2:quartz_glass>, <minecraft:redstone>, <appliedenergistics2:quartz_glass>],
-    [<minecraft:redstone>, <appliedenergistics2:material:35>, <minecraft:redstone>],
-    [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]
-]);
+recipes.removeByRecipeName("appliedenergistics2:network/cells/storage_cell_1k");
+recipes.removeByRecipeName("appliedenergistics2:network/cells/storage_cell_1k_storage");
+packer.recipeBuilder()
+    .inputs([
+        <appliedenergistics2:material:39>,
+        <appliedenergistics2:material:35>
+    ])
+    .outputs([<appliedenergistics2:storage_cell_1k>])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
+packer.recipeBuilder()
+    .inputs([<appliedenergistics2:storage_cell_1k>])
+    .outputs([
+        <appliedenergistics2:material:39>,
+        <appliedenergistics2:material:35>
+    ])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
 
 # 4k Storage Cell
-recipes.removeShaped(<appliedenergistics2:storage_cell_4k>, [
-    [<appliedenergistics2:quartz_glass>, <minecraft:redstone>, <appliedenergistics2:quartz_glass>],
-    [<minecraft:redstone>, <appliedenergistics2:material:36>, <minecraft:redstone>],
-    [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]
-]);
+recipes.removeByRecipeName("appliedenergistics2:network/cells/storage_cell_4k");
+recipes.removeByRecipeName("appliedenergistics2:network/cells/storage_cell_4k_storage");
+packer.recipeBuilder()
+    .inputs([
+        <appliedenergistics2:material:39>,
+        <appliedenergistics2:material:36>
+    ])
+    .outputs([<appliedenergistics2:storage_cell_4k>])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
+packer.recipeBuilder()
+    .inputs([<appliedenergistics2:storage_cell_4k>])
+    .outputs([
+        <appliedenergistics2:material:39>,
+        <appliedenergistics2:material:36>
+    ])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
 
 # 16k Storage Cell
-recipes.removeShaped(<appliedenergistics2:storage_cell_16k>, [
-    [<appliedenergistics2:quartz_glass>, <minecraft:redstone>, <appliedenergistics2:quartz_glass>],
-    [<minecraft:redstone>, <appliedenergistics2:material:37>, <minecraft:redstone>],
-    [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]
-]);
+recipes.removeByRecipeName("appliedenergistics2:network/cells/storage_cell_16k");
+recipes.removeByRecipeName("appliedenergistics2:network/cells/storage_cell_16k_storage");
+packer.recipeBuilder()
+    .inputs([
+        <appliedenergistics2:material:39>,
+        <appliedenergistics2:material:37>
+    ])
+    .outputs([<appliedenergistics2:storage_cell_16k>])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
+packer.recipeBuilder()
+    .inputs([<appliedenergistics2:storage_cell_16k>])
+    .outputs([
+        <appliedenergistics2:material:39>,
+        <appliedenergistics2:material:37>
+    ])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
 
 # 64k Storage Cell
-recipes.removeShaped(<appliedenergistics2:storage_cell_64k>, [
-    [<appliedenergistics2:quartz_glass>, <minecraft:redstone>, <appliedenergistics2:quartz_glass>],
-    [<minecraft:redstone>, <appliedenergistics2:material:38>, <minecraft:redstone>],
-    [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]
-]);
+recipes.removeByRecipeName("appliedenergistics2:network/cells/storage_cell_64k");
+recipes.removeByRecipeName("appliedenergistics2:network/cells/storage_cell_64k_storage");
+packer.recipeBuilder()
+    .inputs([
+        <appliedenergistics2:material:39>,
+        <appliedenergistics2:material:38>
+    ])
+    .outputs([<appliedenergistics2:storage_cell_64k>])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
+packer.recipeBuilder()
+    .inputs([<appliedenergistics2:storage_cell_64k>])
+    .outputs([
+        <appliedenergistics2:material:39>,
+        <appliedenergistics2:material:38>
+    ])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
 
 # 1k Fluid Cell
-recipes.removeShaped(<appliedenergistics2:fluid_storage_cell_1k>, [
-    [<appliedenergistics2:quartz_glass>, <minecraft:redstone>, <appliedenergistics2:quartz_glass>],
-    [<minecraft:redstone>, <appliedenergistics2:material:54>, <minecraft:redstone>],
-    [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]
-]);
+recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_cell_1k");
+recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_cell_1k_storage");
+packer.recipeBuilder()
+    .inputs([
+        <extracells:storage.casing:1>,
+        <appliedenergistics2:material:54>
+    ])
+    .outputs([<appliedenergistics2:fluid_storage_cell_1k>])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
+packer.recipeBuilder()
+    .inputs([<appliedenergistics2:fluid_storage_cell_1k>])
+    .outputs([
+        <extracells:storage.casing:1>,
+        <appliedenergistics2:material:54>
+    ])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
 
 # 4k Fluid Cell
-recipes.removeShaped(<appliedenergistics2:fluid_storage_cell_4k>, [
-    [<appliedenergistics2:quartz_glass>, <minecraft:redstone>, <appliedenergistics2:quartz_glass>],
-    [<minecraft:redstone>, <appliedenergistics2:material:55>, <minecraft:redstone>],
-    [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]
-]);
+recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_cell_4k");
+recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_cell_4k_storage");
+packer.recipeBuilder()
+    .inputs([
+        <extracells:storage.casing:1>,
+        <appliedenergistics2:material:55>
+    ])
+    .outputs([<appliedenergistics2:fluid_storage_cell_4k>])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
+packer.recipeBuilder()
+    .inputs([<appliedenergistics2:fluid_storage_cell_4k>])
+    .outputs([
+        <extracells:storage.casing:1>,
+        <appliedenergistics2:material:55>
+    ])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
 
 # 16k Fluid Cell
-recipes.removeShaped(<appliedenergistics2:fluid_storage_cell_16k>, [
-    [<appliedenergistics2:quartz_glass>, <minecraft:redstone>, <appliedenergistics2:quartz_glass>],
-    [<minecraft:redstone>, <appliedenergistics2:material:56>, <minecraft:redstone>],
-    [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]
-]);
+recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_cell_16k");
+recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_cell_16k_storage");
+packer.recipeBuilder()
+    .inputs([
+        <extracells:storage.casing:1>,
+        <appliedenergistics2:material:56>
+    ])
+    .outputs([<appliedenergistics2:fluid_storage_cell_16k>])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
+packer.recipeBuilder()
+    .inputs([<appliedenergistics2:fluid_storage_cell_16k>])
+    .outputs([
+        <extracells:storage.casing:1>,
+        <appliedenergistics2:material:56>
+    ])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
 
 # 64k Fluid Cell
-recipes.removeShaped(<appliedenergistics2:fluid_storage_cell_64k>, [
-    [<appliedenergistics2:quartz_glass>, <minecraft:redstone>, <appliedenergistics2:quartz_glass>],
-    [<minecraft:redstone>, <appliedenergistics2:material:57>, <minecraft:redstone>],
-    [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]
-]);
+recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_cell_64k");
+recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_cell_64k_storage");
+packer.recipeBuilder()
+    .inputs([
+        <extracells:storage.casing:1>,
+        <appliedenergistics2:material:57>
+    ])
+    .outputs([<appliedenergistics2:fluid_storage_cell_64k>])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
+packer.recipeBuilder()
+    .inputs([<appliedenergistics2:fluid_storage_cell_64k>])
+    .outputs([
+        <extracells:storage.casing:1>,
+        <appliedenergistics2:material:57>
+    ])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
 
-# 2k Spatial Cell
-recipes.removeShaped(<appliedenergistics2:spatial_storage_cell_2_cubed>, [
-    [<appliedenergistics2:quartz_glass>, <minecraft:redstone>, <appliedenergistics2:quartz_glass>],
-    [<minecraft:redstone>, <appliedenergistics2:material:32>, <minecraft:redstone>],
-    [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]
-]);
+# 2³ Spatial Cell
+recipes.removeByRecipeName("appliedenergistics2:network/cells/spatial_storage_cell_2_cubed");
+recipes.removeByRecipeName("appliedenergistics2:network/cells/spatial_storage_cell_2_cubed_storage");
+packer.recipeBuilder()
+    .inputs([
+        <extracells:storage.casing:0>,
+        <appliedenergistics2:material:32>
+    ])
+    .outputs([<appliedenergistics2:spatial_storage_cell_2_cubed>])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
+packer.recipeBuilder()
+    .inputs([<appliedenergistics2:spatial_storage_cell_2_cubed>])
+    .outputs([
+        <extracells:storage.casing:0>,
+        <appliedenergistics2:material:32>
+    ])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
 
-# 16k Spatial Cell
-recipes.removeShaped(<appliedenergistics2:spatial_storage_cell_16_cubed>, [
-    [<appliedenergistics2:quartz_glass>, <minecraft:redstone>, <appliedenergistics2:quartz_glass>],
-    [<minecraft:redstone>, <appliedenergistics2:material:33>, <minecraft:redstone>],
-    [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]
-]);
+# 16³ Spatial Cell
+recipes.removeByRecipeName("appliedenergistics2:network/cells/spatial_storage_cell_16_cubed");
+recipes.removeByRecipeName("appliedenergistics2:network/cells/spatial_storage_cell_16_cubed_storage");
+packer.recipeBuilder()
+    .inputs([
+        <extracells:storage.casing:0>,
+        <appliedenergistics2:material:33>
+    ])
+    .outputs([<appliedenergistics2:spatial_storage_cell_16_cubed>])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
+packer.recipeBuilder()
+    .inputs([<appliedenergistics2:spatial_storage_cell_16_cubed>])
+    .outputs([
+        <extracells:storage.casing:0>,
+        <appliedenergistics2:material:33>
+    ])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
 
-# 128k Spatial Cell
-recipes.removeShaped(<appliedenergistics2:spatial_storage_cell_128_cubed>, [
-    [<appliedenergistics2:quartz_glass>, <minecraft:redstone>, <appliedenergistics2:quartz_glass>],
-    [<minecraft:redstone>, <appliedenergistics2:material:34>, <minecraft:redstone>],
-    [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]
-]);
+# 128³ Spatial Cell
+recipes.removeByRecipeName("appliedenergistics2:network/cells/spatial_storage_cell_128_cubed");
+recipes.removeByRecipeName("appliedenergistics2:network/cells/spatial_storage_cell_128_cubed_storage");
+packer.recipeBuilder()
+    .inputs([
+        <extracells:storage.casing:0>,
+        <appliedenergistics2:material:34>
+    ])
+    .outputs([<appliedenergistics2:spatial_storage_cell_128_cubed>])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
+packer.recipeBuilder()
+    .inputs([<appliedenergistics2:spatial_storage_cell_128_cubed>])
+    .outputs([
+        <extracells:storage.casing:0>,
+        <appliedenergistics2:material:34>
+    ])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
 
 # 1k Storage Component
 recipes.remove(<appliedenergistics2:material:35>);
@@ -528,7 +693,7 @@ assembler.recipeBuilder()
     .EUt(30720)
     .buildAndRegister();
 
-# 2k Spatial Component
+# 2³ Spatial Component
 recipes.remove(<appliedenergistics2:material:32>);
 assembler.recipeBuilder()
     .inputs([
@@ -543,7 +708,7 @@ assembler.recipeBuilder()
     .EUt(1920)
     .buildAndRegister();
 
-# 16k Spatial Component
+# 16³ Spatial Component
 recipes.remove(<appliedenergistics2:material:33>);
 assembler.recipeBuilder()
     .inputs([
@@ -569,7 +734,7 @@ assembler.recipeBuilder()
     .EUt(7680)
     .buildAndRegister();
 
-# 128k Spatial Component
+# 128³ Spatial Component
 recipes.remove(<appliedenergistics2:material:34>);
 assembler.recipeBuilder()
     .inputs([
@@ -1421,6 +1586,111 @@ recipes.addShapeless(<appliedenergistics2:crafting_accelerator>, [
     <appliedenergistics2:material:22>,
     <appliedenergistics2:material:24>
 ]);
+
+# Crafting Monitor
+recipes.remove(<appliedenergistics2:crafting_monitor>);
+packer.recipeBuilder()
+    .inputs([
+        <appliedenergistics2:crafting_unit>,
+        <appliedenergistics2:part:400>
+    ])
+    .outputs([<appliedenergistics2:crafting_monitor>])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
+packer.recipeBuilder()
+    .inputs([<appliedenergistics2:crafting_monitor>])
+    .outputs([
+        <appliedenergistics2:crafting_unit>,
+        <appliedenergistics2:part:400>
+    ])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
+
+# Crafting Storage 1k
+recipes.remove(<appliedenergistics2:crafting_storage_1k>);
+packer.recipeBuilder()
+    .inputs([
+        <appliedenergistics2:crafting_unit>,
+        <appliedenergistics2:material:35>
+    ])
+    .outputs([<appliedenergistics2:crafting_storage_1k>])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
+packer.recipeBuilder()
+    .inputs([<appliedenergistics2:crafting_storage_1k>])
+    .outputs([
+        <appliedenergistics2:crafting_unit>,
+        <appliedenergistics2:material:35>
+    ])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
+
+# Crafting Storage 4k
+recipes.remove(<appliedenergistics2:crafting_storage_4k>);
+packer.recipeBuilder()
+    .inputs([
+        <appliedenergistics2:crafting_unit>,
+        <appliedenergistics2:material:36>
+    ])
+    .outputs([<appliedenergistics2:crafting_storage_4k>])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
+packer.recipeBuilder()
+    .inputs([<appliedenergistics2:crafting_storage_4k>])
+    .outputs([
+        <appliedenergistics2:crafting_unit>,
+        <appliedenergistics2:material:36>
+    ])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
+
+# Crafting Storage 16k
+recipes.remove(<appliedenergistics2:crafting_storage_16k>);
+packer.recipeBuilder()
+    .inputs([
+        <appliedenergistics2:crafting_unit>,
+        <appliedenergistics2:material:37>
+    ])
+    .outputs([<appliedenergistics2:crafting_storage_16k>])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
+packer.recipeBuilder()
+    .inputs([<appliedenergistics2:crafting_storage_16k>])
+    .outputs([
+        <appliedenergistics2:crafting_unit>,
+        <appliedenergistics2:material:37>
+    ])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
+
+# Crafting Storage 64k
+recipes.remove(<appliedenergistics2:crafting_storage_64k>);
+packer.recipeBuilder()
+    .inputs([
+        <appliedenergistics2:crafting_unit>,
+        <appliedenergistics2:material:38>
+    ])
+    .outputs([<appliedenergistics2:crafting_storage_64k>])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
+packer.recipeBuilder()
+    .inputs([<appliedenergistics2:crafting_storage_64k>])
+    .outputs([
+        <appliedenergistics2:crafting_unit>,
+        <appliedenergistics2:material:38>
+    ])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
 
 # Molecular Assembler
 recipes.remove(<appliedenergistics2:molecular_assembler>);
