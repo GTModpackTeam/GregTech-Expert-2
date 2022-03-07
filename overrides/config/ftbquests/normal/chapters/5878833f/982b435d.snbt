@@ -1,9 +1,10 @@
 {
-	x: 4.0d,
+	x: 6.0d,
 	y: 2.0d,
 	dependencies: [
 		"ac8a1743"
 	],
+	min_width: 300,
 	or_tasks: true,
 	tasks: [{
 		uid: "dc654e1e",

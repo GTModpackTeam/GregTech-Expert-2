@@ -6,6 +6,7 @@
 		"a911cdee"
 	],
 	dependency_requirement: "one_completed",
+	min_width: 300,
 	tasks: [{
 		uid: "94455654",
 		type: "item",

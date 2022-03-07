@@ -5,6 +5,7 @@
 		"5f90c358",
 		"6a1d85db"
 	],
+	min_width: 300,
 	or_tasks: true,
 	tasks: [{
 		uid: "d59b2496",

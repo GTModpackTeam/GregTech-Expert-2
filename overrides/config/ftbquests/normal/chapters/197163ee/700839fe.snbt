@@ -1,0 +1,39 @@
+{
+	title: "Saltpeter Vein",
+	x: 8.0d,
+	y: 16.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"2b9a2b25"
+	],
+	tasks: [{
+		uid: "c39c95b1",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_saltpeter_0 1 1"
+		}]
+	},
+	{
+		uid: "5bb5e766",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_diatomite_0 1 1"
+		}]
+	},
+	{
+		uid: "697e9437",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_electrotine_0 1 1"
+		}]
+	},
+	{
+		uid: "039b2d44",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_alunite_0 1 1"
+		}]
+	}]
+}
