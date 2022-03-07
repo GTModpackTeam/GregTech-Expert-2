@@ -1,9 +1,18 @@
 {
+	title: "Molecular Disassembler",
 	x: 2.0d,
 	y: -4.0d,
+	description: "Advanced Electrolyzer",
+	text: [
+		"LVのクエストで電解槽を作った時から示唆されていたMVの電解槽が今解禁されます。",
+		"",
+		"発展型電解槽は全ての種類の粉を原子レベルの粉に分解できます。",
+		"これでアルミニウムをより楽に獲得することができます。"
+	],
 	dependencies: [
 		"4ca7718b"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "2a4f26ea",
 		type: "item",

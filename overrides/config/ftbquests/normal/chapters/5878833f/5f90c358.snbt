@@ -5,6 +5,7 @@
 		"a3a7970d",
 		"b0ce37e5"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "4099103c",
 		type: "fluid",

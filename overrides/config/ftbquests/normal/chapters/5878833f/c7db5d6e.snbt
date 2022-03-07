@@ -1,19 +1,23 @@
 {
+	title: "現実でもゲームでも精巧",
 	icon: "gregtech:machine 1 561",
 	x: 2.0d,
 	y: 0.0d,
-	dependencies: [
-		"4ca7718b",
-		"31f3da01"
+	description: "Advanced Precision Laser Engraver",
+	text: [
+		"レーザー彫刻機は与えられたレンズの種類に応じてシリコンウェハーに模様を掘り込みます。",
+		"彫刻されたウェハーはもう一度裁断機を通ることで回路に組み込める形の素材になります。",
+		"",
+		"高い電圧の彫刻機は更に効率のよい回路製造のために更に複雑なウェハーを接合することができます。",
+		"",
+		"今は統合論理回路ウェハーを作るためにこの機械を使うかもしれませんが、",
+		"より高いレベルの回路を作るために他のウェハーも作ることになるでしょう。"
 	],
+	dependencies: [
+		"4ca7718b"
+	],
+	min_width: 300,
 	tasks: [{
-		uid: "da5a2d37",
-		type: "item",
-		items: [{
-			item: "gregtech:meta_gem_flawless 1 278"
-		}]
-	},
-	{
 		uid: "3821048a",
 		type: "item",
 		items: [{

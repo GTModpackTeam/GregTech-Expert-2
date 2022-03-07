@@ -1,0 +1,62 @@
+{
+	title: "MV作り置きの会",
+	x: -4.0d,
+	y: 0.0d,
+	description: "MV Components",
+	text: [
+		"このリストにはMV時代に必要な中間素材が一覧で表示されています。",
+		"延々と中間素材を作り続ける苦痛を和らげるためには自動クラフトもしくは一括クラフトをしましょう。",
+		"特にモーターはアルミの供給ができるようになったらすぐ64個作るといいでしょう。",
+		"",
+		"MVではエミッターが要求されるようになりました。",
+		"素材である傷のないエメラルドは現状では選別機でしか獲得することができません。",
+		"",
+		"コンベヤー、ポンプとロボットアームはカバーとして使った時LVのものの上位互換として機能します。"
+	],
+	dependencies: [
+		"4ca7718b"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "f0cc0ef0",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 128"
+		}]
+	},
+	{
+		uid: "81ba23a9",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 173"
+		}]
+	},
+	{
+		uid: "64b3274a",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 143"
+		}]
+	},
+	{
+		uid: "c14d9d57",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 158"
+		}]
+	},
+	{
+		uid: "5266b9d5",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 188"
+		}]
+	},
+	{
+		uid: "9cf793fc",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 218"
+		}]
+	}]
+}

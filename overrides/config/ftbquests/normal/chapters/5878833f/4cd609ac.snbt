@@ -1,13 +1,17 @@
 {
-	title: "More Extruder Shapes",
+	title: "工業といったらこれ",
 	x: 2.0d,
 	y: 4.0d,
+	description: "More Extruder Shapes",
 	text: [
-		""
+		"押出機はボルト、小さな歯車、歯車、リングを一回の加工で最高効率で作ることができます。",
+		"また効率だけで見れば手動クラフトと変わりませんが、",
+		"押出機をパイプや長い棒、ローターの作製にも使った方がクラフト回数が減って楽になります。"
 	],
 	dependencies: [
 		"be6da410"
 	],
+	min_width: 300,
 	or_tasks: true,
 	tasks: [{
 		uid: "499dc177",

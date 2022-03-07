@@ -1,0 +1,17 @@
+{
+	x: 22.0d,
+	y: 0.0d,
+	dependencies: [
+		"1f9e8255"
+	],
+	tasks: [{
+		uid: "faf1bf82",
+		type: "item",
+		items: [{
+			item: "gregtech:fluid_pipe_quadruple 1 2037"
+		},
+		{
+			item: "gregtech:fluid_pipe_nonuple 1 2037"
+		}]
+	}]
+}
