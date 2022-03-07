@@ -32,7 +32,7 @@ recipes.addShaped(<aenetvistool:net_visualizer>, [
 # Inscriber Calulation Press
 Inscriber.removeRecipe(<appliedenergistics2:material:13>);
 laser_engraver.recipeBuilder()
-    .inputs([<ore:blockWroughtIron>])
+    .inputs([<ore:blockIron>])
     .notConsumable([<metaitem:lensCertusQuartz>])
     .outputs([<appliedenergistics2:material:13>])
     .duration(2000)
@@ -43,7 +43,7 @@ laser_engraver.recipeBuilder()
 Inscriber.removeRecipe(<appliedenergistics2:material:14>);
 laser_engraver.recipeBuilder()
     .inputs([<ore:blockIron>])
-    .notConsumable([<metaitem:lensNetherQuartz>])
+    .notConsumable([<metaitem:lensFluix>])
     .outputs([<appliedenergistics2:material:14>])
     .duration(2000)
     .EUt(480)
@@ -52,7 +52,7 @@ laser_engraver.recipeBuilder()
 # Inscriber Logic Press
 Inscriber.removeRecipe(<appliedenergistics2:material:15>);
 laser_engraver.recipeBuilder()
-    .inputs([<ore:blockWroughtIron>])
+    .inputs([<ore:blockIron>])
     .notConsumable([<metaitem:lensChargedCertusQuartz>])
     .outputs([<appliedenergistics2:material:15>])
     .duration(2000)
@@ -63,7 +63,7 @@ laser_engraver.recipeBuilder()
 Inscriber.removeRecipe(<appliedenergistics2:material:19>);
 laser_engraver.recipeBuilder()
     .inputs([<ore:blockIron>])
-    .notConsumable([<metaitem:lensFluix>])
+    .notConsumable([<metaitem:lensNetherQuartz>])
     .outputs([<appliedenergistics2:material:19>])
     .duration(2000)
     .EUt(480)
