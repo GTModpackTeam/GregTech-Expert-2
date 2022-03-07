@@ -1,9 +1,17 @@
 {
+	title: "Minerと一字違い",
 	x: 4.0d,
 	y: -4.0d,
+	description: "Advanced Mixer",
+	text: [
+		"複雑な合金を作るためにはより高い電圧の機械で材料の粉を混ぜ合わせる必要があります。",
+		"",
+		"MVミキサーを作ることでMV時代へ深入りするための最初の一歩を踏み出しましょう。"
+	],
 	dependencies: [
 		"4ca7718b"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "b56b1b29",
 		type: "item",

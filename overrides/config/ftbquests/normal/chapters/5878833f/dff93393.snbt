@@ -2,8 +2,10 @@
 	x: 10.0d,
 	y: 12.0d,
 	dependencies: [
+		"9066a29a",
 		"2d65a034"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "548e6a58",
 		type: "item",
