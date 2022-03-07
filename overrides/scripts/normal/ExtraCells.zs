@@ -281,7 +281,7 @@ packer.recipeBuilder()
     .EUt(7)
     .buildAndRegister();
 
-# 1024k Fluid Component
+# 1024k Fluid Cell
 recipes.removeByRecipeName("extracells:storagecells/fluid/owncasing/1024k");
 recipes.removeByRecipeName("extracells:storagecells/fluid/extracasing/1024k");
 assembler.recipeBuilder()
@@ -326,7 +326,7 @@ packer.recipeBuilder()
     .EUt(7)
     .buildAndRegister();
 
-# 4096k Fluid Component
+# 4096k Fluid Cell
 recipes.removeByRecipeName("extracells:storagecells/fluid/owncasing/4096k");
 recipes.removeByRecipeName("extracells:storagecells/fluid/extracasing/4096k");
 assembler.recipeBuilder()
