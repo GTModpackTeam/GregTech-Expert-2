@@ -57,53 +57,159 @@ recipes.addShaped(<extracells:storage.casing:1>, [
 ]);
 
 # 256k Storage Cell
-recipes.removeShaped(<extracells:storage.physical>, [
-    [<appliedenergistics2:quartz_glass>, <ore:dustFluix>, <appliedenergistics2:quartz_glass>],
-    [<ore:dustFluix>, <extracells:storage.component>, <ore:dustFluix>],
-    [<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>]
-]);
+recipes.removeByRecipeName("extracells:storagecells/item/owncasing/256k");
+recipes.removeByRecipeName("extracells:storagecells/item/extracasing/256k");
+packer.recipeBuilder()
+    .inputs([
+        <extracells:storage.casing:0>,
+        <extracells:storage.component:0>
+    ])
+    .outputs([<extracells:storage.physical:0>])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
+// packer.recipeBuilder()
+//     .inputs([<extracells:storage.physical:0>])
+//     .outputs([
+//         <extracells:storage.casing:0>,
+//         <extracells:storage.component:0>
+//     ])
+//     .duration(10)
+//     .EUt(7)
+//     .buildAndRegister();
 
 # 1024k Storage Cell
-recipes.removeShaped(<extracells:storage.physical:1>, [
-    [<appliedenergistics2:quartz_glass>, <ore:dustFluix>, <appliedenergistics2:quartz_glass>],
-    [<ore:dustFluix>, <extracells:storage.component:1>, <ore:dustFluix>],
-    [<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>]
-]);
+recipes.removeByRecipeName("extracells:storagecells/item/owncasing/1024k");
+recipes.removeByRecipeName("extracells:storagecells/item/extracasing/1024k");
+packer.recipeBuilder()
+    .inputs([
+        <extracells:storage.casing:0>,
+        <extracells:storage.component:1>
+    ])
+    .outputs([<extracells:storage.physical:1>])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
+// packer.recipeBuilder()
+//     .inputs([<extracells:storage.physical:1>])
+//     .outputs([
+//         <extracells:storage.casing:0>,
+//         <extracells:storage.component:1>
+//     ])
+//     .duration(10)
+//     .EUt(7)
+//     .buildAndRegister();
 
 # 4096k Storage Cell
-recipes.removeShaped(<extracells:storage.physical:2>, [
-    [<appliedenergistics2:quartz_glass>, <ore:dustFluix>, <appliedenergistics2:quartz_glass>],
-    [<ore:dustFluix>, <extracells:storage.component:2>, <ore:dustFluix>],
-    [<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>]
-]);
+recipes.removeByRecipeName("extracells:storagecells/item/owncasing/4096k");
+recipes.removeByRecipeName("extracells:storagecells/item/extracasing/4096k");
+packer.recipeBuilder()
+    .inputs([
+        <extracells:storage.casing:0>,
+        <extracells:storage.component:2>
+    ])
+    .outputs([<extracells:storage.physical:2>])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
+// packer.recipeBuilder()
+//     .inputs([<extracells:storage.physical:2>])
+//     .outputs([
+//         <extracells:storage.casing:0>,
+//         <extracells:storage.component:2>
+//     ])
+//     .duration(10)
+//     .EUt(7)
+//     .buildAndRegister();
 
 # 16384k Storage Cell
-recipes.removeShaped(<extracells:storage.physical:3>, [
-    [<appliedenergistics2:quartz_glass>, <ore:dustFluix>, <appliedenergistics2:quartz_glass>],
-    [<ore:dustFluix>, <extracells:storage.component:3>, <ore:dustFluix>],
-    [<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>]
-]);
+recipes.removeByRecipeName("extracells:storagecells/item/owncasing/16384k");
+recipes.removeByRecipeName("extracells:storagecells/item/extracasing/16384k");
+packer.recipeBuilder()
+    .inputs([
+        <extracells:storage.casing:0>,
+        <extracells:storage.component:3>
+    ])
+    .outputs([<extracells:storage.physical:3>])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
+// packer.recipeBuilder()
+//     .inputs([<extracells:storage.physical:3>])
+//     .outputs([
+//         <extracells:storage.casing:0>,
+//         <extracells:storage.component:3>
+//     ])
+//     .duration(10)
+//     .EUt(7)
+//     .buildAndRegister();
 
 # 256k Fluid Cell
-recipes.removeShaped(<extracells:storage.fluid:4>, [
-    [<appliedenergistics2:quartz_glass>, <ore:dustFluix>, <appliedenergistics2:quartz_glass>],
-    [<ore:dustFluix>, <extracells:storage.component:8>, <ore:dustFluix>],
-    [<extracells:certustank>, <extracells:certustank>, <extracells:certustank>]
-]);
+recipes.removeByRecipeName("extracells:storagecells/fluid/owncasing/256k");
+recipes.removeByRecipeName("extracells:storagecells/fluid/extracasing/256k");
+packer.recipeBuilder()
+    .inputs([
+        <extracells:storage.casing:1>,
+        <extracells:storage.component:8>
+    ])
+    .outputs([<extracells:storage.fluid:4>])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
+// packer.recipeBuilder()
+//     .inputs([<extracells:storage.fluid:4>])
+//     .outputs([
+//         <extracells:storage.casing:1>,
+//         <extracells:storage.component:8>
+//     ])
+//     .duration(10)
+//     .EUt(7)
+//     .buildAndRegister();
 
 # 1024k Fluid Cell
-recipes.removeShaped(<extracells:storage.fluid:5>, [
-    [<appliedenergistics2:quartz_glass>, <ore:dustFluix>, <appliedenergistics2:quartz_glass>],
-    [<ore:dustFluix>, <extracells:storage.component:9>, <ore:dustFluix>],
-    [<extracells:certustank>, <extracells:certustank>, <extracells:certustank>]
-]);
+recipes.removeByRecipeName("extracells:storagecells/fluid/owncasing/1024k");
+recipes.removeByRecipeName("extracells:storagecells/fluid/extracasing/1024k");
+packer.recipeBuilder()
+    .inputs([
+        <extracells:storage.casing:1>,
+        <extracells:storage.component:9>
+    ])
+    .outputs([<extracells:storage.fluid:5>])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
+// packer.recipeBuilder()
+//     .inputs([<extracells:storage.fluid:5>])
+//     .outputs([
+//         <extracells:storage.casing:1>,
+//         <extracells:storage.component:9>
+//     ])
+//     .duration(10)
+//     .EUt(7)
+//     .buildAndRegister();
 
 # 4096k Fluid Cell
-recipes.removeShaped(<extracells:storage.fluid:6>, [
-    [<appliedenergistics2:quartz_glass>, <ore:dustFluix>, <appliedenergistics2:quartz_glass>],
-    [<ore:dustFluix>, <extracells:storage.component:10>, <ore:dustFluix>],
-    [<extracells:certustank>, <extracells:certustank>, <extracells:certustank>]
-]);
+recipes.removeByRecipeName("extracells:storagecells/fluid/owncasing/4096k");
+recipes.removeByRecipeName("extracells:storagecells/fluid/extracasing/4096k");
+packer.recipeBuilder()
+    .inputs([
+        <extracells:storage.casing:1>,
+        <extracells:storage.component:10>
+    ])
+    .outputs([<extracells:storage.fluid:6>])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
+// packer.recipeBuilder()
+//     .inputs([<extracells:storage.fluid:6>])
+//     .outputs([
+//         <extracells:storage.casing:1>,
+//         <extracells:storage.component:10>
+//     ])
+//     .duration(10)
+//     .EUt(7)
+//     .buildAndRegister();
+
 
 # 256k Storage Component
 recipes.remove(<extracells:storage.component>);
@@ -290,7 +396,7 @@ assembler.recipeBuilder()
 # Recycle - Advanced Storage Housing
 macerator.recipeBuilder()
     .inputs([<extracells:storage.casing>])
-    .outputs([<metaitem:dustTungstenCarbide>])
+    .outputs([<metaitem:dustTungstenSteel>])
     .duration(100)
     .EUt(16)
     .buildAndRegister();

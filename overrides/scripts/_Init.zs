@@ -60,7 +60,6 @@ global rock_breaker              as RecipeMap = RecipeMap.getByName("rock_breake
 global scanner                   as RecipeMap = RecipeMap.getByName("scanner");
 global sifter                    as RecipeMap = RecipeMap.getByName("sifter");
 global thermal_centrifuge        as RecipeMap = RecipeMap.getByName("thermal_centrifuge");
-global unpacker                  as RecipeMap = RecipeMap.getByName("unpacker");
 global vacuum_freezer            as RecipeMap = RecipeMap.getByName("vacuum_freezer");
 global wiremill                  as RecipeMap = RecipeMap.getByName("wiremill");
 

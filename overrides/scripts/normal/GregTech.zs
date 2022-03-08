@@ -69,6 +69,26 @@ mixer.recipeBuilder()
     .duration(20)
     .EUt(480)
     .buildAndRegister();
+mixer.recipeBuilder()
+    .inputs([
+        <ore:dustRedstone>,
+        <ore:dustChargedCertusQuartz>
+    ])
+    .fluidInputs([<liquid:nether_quartz> * 144])
+    .fluidOutputs([<liquid:fluix> * 144])
+    .duration(20)
+    .EUt(480)
+    .buildAndRegister();
+mixer.recipeBuilder()
+    .inputs([
+        <ore:dustNetherQuartz>,
+        <ore:dustChargedCertusQuartz>
+    ])
+    .fluidInputs([<liquid:redstone> * 144])
+    .fluidOutputs([<liquid:fluix> * 144])
+    .duration(20)
+    .EUt(480)
+    .buildAndRegister();
 extractor.recipeBuilder()
     .inputs([<ore:crystalPureFluix>])
     .fluidOutputs([<liquid:fluix> * 72])
@@ -553,11 +573,51 @@ implosion_compressor.recipeBuilder()
     .EUt(30)
     .buildAndRegister();
 
+# Charged Certus Quartz Lens
+<ore:craftingLensLightBlue>.addItems([<metaitem:lensChargedCertusQuartz>]);
+lathe.recipeBuilder()
+    .inputs([<metaitem:plateChargedCertusQuartz>])
+    .outputs([
+        <metaitem:lensChargedCertusQuartz>,
+        <metaitem:dustSmallChargedCertusQuartz>
+    ])
+    .duration(1200)
+    .EUt(120)
+    .buildAndRegister();
+
+# Fluix Lens
+<ore:craftingLensPurple>.addItems([<metaitem:lensFluix>]);
+lathe.recipeBuilder()
+    .inputs([<metaitem:plateFluix>])
+    .outputs([
+        <metaitem:lensFluix>,
+        <metaitem:dustSmallFluix>
+    ])
+    .duration(1200)
+    .EUt(120)
+    .buildAndRegister();
+
 
 
 ########################################
 # Blocks
 ########################################
+# Wood Pulp (Override)
+macerator.recipeBuilder()
+    .inputs([<ore:plankWood>])
+    .outputs([<metaitem:dustWood>])
+    .duration(98)
+    .EUt(2)
+    .buildAndRegister();
+
+# Treated Wood Pulp (Override)
+macerator.recipeBuilder()
+    .inputs([<ore:plankTreatedWood>])
+    .outputs([<metaitem:dustTreatedWood>])
+    .duration(98)
+    .EUt(2)
+    .buildAndRegister();
+
 # Quartz Block
 compressor.findRecipe(2, [<metaitem:gemCertusQuartz> * 9], null).remove();
 fluid_solidifier.findRecipe(7, [<metaitem:shape.mold.block>], [<liquid:certus_quartz> * 1296]).remove();
