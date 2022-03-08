@@ -1047,9 +1047,6 @@ macerator.recipeBuilder()
 ########################################
 # Blocks
 ########################################
-# Pattern Interface
-JEI.removeAndHide(<neenergistics:pattern_interface>);
-
 # Quartz Blocks
 JEI.removeAndHide(<appliedenergistics2:quartz_block>);
 JEI.removeAndHide(<appliedenergistics2:quartz_slab>);
