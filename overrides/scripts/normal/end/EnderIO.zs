@@ -19,5 +19,5 @@ assembly_line.recipeBuilder()
     .fluidInputs(<liquid:vibrant_alloy> * 4608)
     .outputs([<enderio:block_cap_bank>.withTag({"enderio:energy": 50000000})])
     .duration(1200)
-    .EUt(122880)
+    .EUt(491520)
     .buildAndRegister();

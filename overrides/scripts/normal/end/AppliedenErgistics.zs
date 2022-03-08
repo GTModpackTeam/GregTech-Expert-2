@@ -19,5 +19,5 @@ assembly_line.recipeBuilder()
     .fluidInputs(<liquid:fluix> * 4608)
     .outputs([<appliedenergistics2:creative_energy_cell>])
     .duration(1200)
-    .EUt(122880)
+    .EUt(491520)
     .buildAndRegister();

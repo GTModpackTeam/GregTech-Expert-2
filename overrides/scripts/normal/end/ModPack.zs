@@ -18,5 +18,5 @@ assembly_line.recipeBuilder()
     .fluidInputs(<liquid:neutronium> * 51840)
     .outputs([<contenttweaker:creativecomponent>])
     .duration(1200)
-    .EUt(122880)
+    .EUt(491520)
     .buildAndRegister();
