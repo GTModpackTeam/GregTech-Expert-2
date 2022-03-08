@@ -25,6 +25,14 @@
 * Charged Certus Quartz Lens
 * Fluix Lens
 
+## Fix recipes
+### GregTech
+* Wood Pulp
+* Treated Wood Pulp
+
+### Ender IO
+* Dark Steel Ladder
+
 ## Update recipes
 ### AE2
 * Inscriber Calulation Press
