@@ -276,15 +276,15 @@ packer.recipeBuilder()
     .duration(10)
     .EUt(7)
     .buildAndRegister();
-packer.recipeBuilder()
-    .inputs([<appliedenergistics2:storage_cell_1k>])
-    .outputs([
-        <appliedenergistics2:material:39>,
-        <appliedenergistics2:material:35>
-    ])
-    .duration(10)
-    .EUt(7)
-    .buildAndRegister();
+// packer.recipeBuilder()
+//     .inputs([<appliedenergistics2:storage_cell_1k>])
+//     .outputs([
+//         <appliedenergistics2:material:39>,
+//         <appliedenergistics2:material:35>
+//     ])
+//     .duration(10)
+//     .EUt(7)
+//     .buildAndRegister();
 
 # 4k Storage Cell
 recipes.removeByRecipeName("appliedenergistics2:network/cells/storage_cell_4k");
@@ -298,15 +298,15 @@ packer.recipeBuilder()
     .duration(10)
     .EUt(7)
     .buildAndRegister();
-packer.recipeBuilder()
-    .inputs([<appliedenergistics2:storage_cell_4k>])
-    .outputs([
-        <appliedenergistics2:material:39>,
-        <appliedenergistics2:material:36>
-    ])
-    .duration(10)
-    .EUt(7)
-    .buildAndRegister();
+// packer.recipeBuilder()
+//     .inputs([<appliedenergistics2:storage_cell_4k>])
+//     .outputs([
+//         <appliedenergistics2:material:39>,
+//         <appliedenergistics2:material:36>
+//     ])
+//     .duration(10)
+//     .EUt(7)
+//     .buildAndRegister();
 
 # 16k Storage Cell
 recipes.removeByRecipeName("appliedenergistics2:network/cells/storage_cell_16k");
@@ -320,15 +320,15 @@ packer.recipeBuilder()
     .duration(10)
     .EUt(7)
     .buildAndRegister();
-packer.recipeBuilder()
-    .inputs([<appliedenergistics2:storage_cell_16k>])
-    .outputs([
-        <appliedenergistics2:material:39>,
-        <appliedenergistics2:material:37>
-    ])
-    .duration(10)
-    .EUt(7)
-    .buildAndRegister();
+// packer.recipeBuilder()
+//     .inputs([<appliedenergistics2:storage_cell_16k>])
+//     .outputs([
+//         <appliedenergistics2:material:39>,
+//         <appliedenergistics2:material:37>
+//     ])
+//     .duration(10)
+//     .EUt(7)
+//     .buildAndRegister();
 
 # 64k Storage Cell
 recipes.removeByRecipeName("appliedenergistics2:network/cells/storage_cell_64k");
@@ -342,15 +342,15 @@ packer.recipeBuilder()
     .duration(10)
     .EUt(7)
     .buildAndRegister();
-packer.recipeBuilder()
-    .inputs([<appliedenergistics2:storage_cell_64k>])
-    .outputs([
-        <appliedenergistics2:material:39>,
-        <appliedenergistics2:material:38>
-    ])
-    .duration(10)
-    .EUt(7)
-    .buildAndRegister();
+// packer.recipeBuilder()
+//     .inputs([<appliedenergistics2:storage_cell_64k>])
+//     .outputs([
+//         <appliedenergistics2:material:39>,
+//         <appliedenergistics2:material:38>
+//     ])
+//     .duration(10)
+//     .EUt(7)
+//     .buildAndRegister();
 
 # 1k Fluid Cell
 recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_cell_1k");
@@ -364,15 +364,15 @@ packer.recipeBuilder()
     .duration(10)
     .EUt(7)
     .buildAndRegister();
-packer.recipeBuilder()
-    .inputs([<appliedenergistics2:fluid_storage_cell_1k>])
-    .outputs([
-        <extracells:storage.casing:1>,
-        <appliedenergistics2:material:54>
-    ])
-    .duration(10)
-    .EUt(7)
-    .buildAndRegister();
+// packer.recipeBuilder()
+//     .inputs([<appliedenergistics2:fluid_storage_cell_1k>])
+//     .outputs([
+//         <extracells:storage.casing:1>,
+//         <appliedenergistics2:material:54>
+//     ])
+//     .duration(10)
+//     .EUt(7)
+//     .buildAndRegister();
 
 # 4k Fluid Cell
 recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_cell_4k");
@@ -386,15 +386,15 @@ packer.recipeBuilder()
     .duration(10)
     .EUt(7)
     .buildAndRegister();
-packer.recipeBuilder()
-    .inputs([<appliedenergistics2:fluid_storage_cell_4k>])
-    .outputs([
-        <extracells:storage.casing:1>,
-        <appliedenergistics2:material:55>
-    ])
-    .duration(10)
-    .EUt(7)
-    .buildAndRegister();
+// packer.recipeBuilder()
+//     .inputs([<appliedenergistics2:fluid_storage_cell_4k>])
+//     .outputs([
+//         <extracells:storage.casing:1>,
+//         <appliedenergistics2:material:55>
+//     ])
+//     .duration(10)
+//     .EUt(7)
+//     .buildAndRegister();
 
 # 16k Fluid Cell
 recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_cell_16k");
@@ -408,15 +408,15 @@ packer.recipeBuilder()
     .duration(10)
     .EUt(7)
     .buildAndRegister();
-packer.recipeBuilder()
-    .inputs([<appliedenergistics2:fluid_storage_cell_16k>])
-    .outputs([
-        <extracells:storage.casing:1>,
-        <appliedenergistics2:material:56>
-    ])
-    .duration(10)
-    .EUt(7)
-    .buildAndRegister();
+// packer.recipeBuilder()
+//     .inputs([<appliedenergistics2:fluid_storage_cell_16k>])
+//     .outputs([
+//         <extracells:storage.casing:1>,
+//         <appliedenergistics2:material:56>
+//     ])
+//     .duration(10)
+//     .EUt(7)
+//     .buildAndRegister();
 
 # 64k Fluid Cell
 recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_cell_64k");
@@ -430,15 +430,15 @@ packer.recipeBuilder()
     .duration(10)
     .EUt(7)
     .buildAndRegister();
-packer.recipeBuilder()
-    .inputs([<appliedenergistics2:fluid_storage_cell_64k>])
-    .outputs([
-        <extracells:storage.casing:1>,
-        <appliedenergistics2:material:57>
-    ])
-    .duration(10)
-    .EUt(7)
-    .buildAndRegister();
+// packer.recipeBuilder()
+//     .inputs([<appliedenergistics2:fluid_storage_cell_64k>])
+//     .outputs([
+//         <extracells:storage.casing:1>,
+//         <appliedenergistics2:material:57>
+//     ])
+//     .duration(10)
+//     .EUt(7)
+//     .buildAndRegister();
 
 # 2³ Spatial Cell
 recipes.removeByRecipeName("appliedenergistics2:network/cells/spatial_storage_cell_2_cubed");
@@ -452,15 +452,15 @@ packer.recipeBuilder()
     .duration(10)
     .EUt(7)
     .buildAndRegister();
-packer.recipeBuilder()
-    .inputs([<appliedenergistics2:spatial_storage_cell_2_cubed>])
-    .outputs([
-        <extracells:storage.casing:0>,
-        <appliedenergistics2:material:32>
-    ])
-    .duration(10)
-    .EUt(7)
-    .buildAndRegister();
+// packer.recipeBuilder()
+//     .inputs([<appliedenergistics2:spatial_storage_cell_2_cubed>])
+//     .outputs([
+//         <extracells:storage.casing:0>,
+//         <appliedenergistics2:material:32>
+//     ])
+//     .duration(10)
+//     .EUt(7)
+//     .buildAndRegister();
 
 # 16³ Spatial Cell
 recipes.removeByRecipeName("appliedenergistics2:network/cells/spatial_storage_cell_16_cubed");
@@ -474,15 +474,15 @@ packer.recipeBuilder()
     .duration(10)
     .EUt(7)
     .buildAndRegister();
-packer.recipeBuilder()
-    .inputs([<appliedenergistics2:spatial_storage_cell_16_cubed>])
-    .outputs([
-        <extracells:storage.casing:0>,
-        <appliedenergistics2:material:33>
-    ])
-    .duration(10)
-    .EUt(7)
-    .buildAndRegister();
+// packer.recipeBuilder()
+//     .inputs([<appliedenergistics2:spatial_storage_cell_16_cubed>])
+//     .outputs([
+//         <extracells:storage.casing:0>,
+//         <appliedenergistics2:material:33>
+//     ])
+//     .duration(10)
+//     .EUt(7)
+//     .buildAndRegister();
 
 # 128³ Spatial Cell
 recipes.removeByRecipeName("appliedenergistics2:network/cells/spatial_storage_cell_128_cubed");
@@ -496,15 +496,15 @@ packer.recipeBuilder()
     .duration(10)
     .EUt(7)
     .buildAndRegister();
-packer.recipeBuilder()
-    .inputs([<appliedenergistics2:spatial_storage_cell_128_cubed>])
-    .outputs([
-        <extracells:storage.casing:0>,
-        <appliedenergistics2:material:34>
-    ])
-    .duration(10)
-    .EUt(7)
-    .buildAndRegister();
+// packer.recipeBuilder()
+//     .inputs([<appliedenergistics2:spatial_storage_cell_128_cubed>])
+//     .outputs([
+//         <extracells:storage.casing:0>,
+//         <appliedenergistics2:material:34>
+//     ])
+//     .duration(10)
+//     .EUt(7)
+//     .buildAndRegister();
 
 # 1k Storage Component
 recipes.remove(<appliedenergistics2:material:35>);

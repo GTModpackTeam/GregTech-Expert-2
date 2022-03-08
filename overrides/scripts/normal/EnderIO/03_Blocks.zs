@@ -40,10 +40,10 @@ alloy_smelter.recipeBuilder()
     .buildAndRegister();
 
 # Dark Steel Ladder
-recipes.addShaped(<enderio:block_dark_steel_ladder> * 3, [
-    [<ore:stickDarkSteel>, null, <ore:stickDarkSteel>],
+recipes.addShaped(<enderio:block_dark_steel_ladder> * 2, [
+    [<ore:stickDarkSteel>, <ore:gtce.tool.soft.hammers>, <ore:stickDarkSteel>],
     [<ore:stickDarkSteel>, <ore:stickDarkSteel>, <ore:stickDarkSteel>],
-    [<ore:stickDarkSteel>, null, <ore:stickDarkSteel>]
+    [<ore:stickDarkSteel>, <ore:gtce.tool.hard.hammers>, <ore:stickDarkSteel>]
 ]);
 assembler.recipeBuilder()
     .circuit(1)
