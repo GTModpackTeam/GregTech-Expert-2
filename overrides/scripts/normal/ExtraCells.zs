@@ -396,7 +396,7 @@ assembler.recipeBuilder()
 # Recycle - Advanced Storage Housing
 macerator.recipeBuilder()
     .inputs([<extracells:storage.casing>])
-    .outputs([<metaitem:dustTungstenCarbide>])
+    .outputs([<metaitem:dustTungstenSteel>])
     .duration(100)
     .EUt(16)
     .buildAndRegister();
