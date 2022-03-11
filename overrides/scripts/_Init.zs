@@ -10,6 +10,7 @@ import mods.gregtech.material.MaterialRegistry;
 ########################################
 # Gregtech
 ########################################
+# RecipeMaps
 global alloy_smelter             as RecipeMap = RecipeMap.getByName("alloy_smelter");
 global alloy_blast_smelter       as RecipeMap = RecipeMap.getByName("alloy_blast_smelter");
 global arc_furnace               as RecipeMap = RecipeMap.getByName("arc_furnace");
@@ -96,6 +97,8 @@ global saw_mill as RecipeMap = FactoryRecipeMap.start("saw_mill")
     .maxFluidOutputs(0)
     .build();
 
+
+# Tools
 <ore:gtce.tool.wrenches>.addItems([
     <gregtech:meta_tool:8>.withEmptyTag(),
     <gregtech:meta_tool:28>.withEmptyTag(),
@@ -192,6 +195,7 @@ for glassCable in glassCables {
     <ore:ae2.cable.glass>.add(glassCable);
     if (glassCable.displayName has "Fluix") {}
     else {
+        recipes.remove(glassCable);
         <ore:ae2.cable.glass.colors>.add(glassCable);
     }
 }
@@ -221,6 +225,7 @@ for coveredCable in coveredCables {
     <ore:ae2.cable.covered>.add(coveredCable);
     if (coveredCable.displayName has "Fluix") {}
     else {
+        recipes.remove(coveredCable);
         <ore:ae2.cable.covered.colors>.add(coveredCable);
     }
 }
@@ -250,6 +255,7 @@ for smartCable in smartCables {
     <ore:ae2.cable.smart>.add(smartCable);
     if (smartCable.displayName has "Fluix") {}
     else {
+        recipes.remove(smartCable);
         <ore:ae2.cable.smart.colors>.add(smartCable);
     }
 }
@@ -279,6 +285,7 @@ for denseCoveredCable in denseCoveredCables {
     <ore:ae2.cable.dense.covered>.add(denseCoveredCable);
     if (denseCoveredCable.displayName has "Fluix") {}
     else {
+        recipes.remove(denseCoveredCable);
         <ore:ae2.cable.dense.covered.colors>.add(denseCoveredCable);
     }
 }
@@ -308,6 +315,7 @@ for denseSmartCable in denseSmartCables {
     <ore:ae2.cable.dense.smart>.add(denseSmartCable);
     if (denseSmartCable.displayName has "Fluix") {}
     else {
+        recipes.remove(denseSmartCable);
         <ore:ae2.cable.dense.smart.colors>.add(denseSmartCable);
     }
 }

@@ -32,11 +32,9 @@ modpack.ae2.p2p_gtceu.tooltip.1=GregTechのケーブルを持ってME P2P Tunnel
 modpack.ae2.p2p_chest.tooltip.1=チェストを持ってME P2P Tunnelを右クリックすることで変化します。
 modpack.ae2.p2p_torch.tooltip.1=松明を持ってME P2P Tunnelを右クリックすることで変化します。
 modpack.ae2.p2p_redstone.tooltip.1=レッドストーンを持ってME P2P Tunnelを右クリックすることで変化します。
-modpack.ae2.facade.tooltip.1=ケーブル被覆材は殆どのブロックから作成可能ですが、多すぎるためJEIでは一つしか表示しません。
 
 # Extra Cells
 modpack.ec2.wireless_terminal.tooltip.1=単体クラフトで変換すること。
-modpack.ec2.pattern.tooltip.1=パターンは殆どのブロックから作成可能ですが、多すぎるためJEIでは一つしか表示しません。
 
 # EnderIO
 modpack.enderio.capacitor_bank.tooltip.1=ブロック情報が変わるので、クラフトで使用する場合は設置しないこと！

@@ -1,11 +1,30 @@
 #packmode normal
 # Imports
+import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
 import mods.zenutils.I18n;
 import mods.appliedenergistics2.Inscriber;
 
 JEI.hideCategory("appliedenergistics2.grinder");
 JEI.hideCategory("appliedenergistics2.inscriber");
+
+<appliedenergistics2:part:469>.addTooltip(format.green(I18n.format("modpack.ae2.p2p_conduit.tooltip.1")));
+JEI.addDescription(<appliedenergistics2:part:469>, I18n.format("modpack.ae2.p2p_conduit.tooltip.1"));
+
+<appliedenergistics2:part:463>.addTooltip(format.green(I18n.format("modpack.ae2.p2p_bucket.tooltip.1")));
+JEI.addDescription(<appliedenergistics2:part:463>, I18n.format("modpack.ae2.p2p_bucket.tooltip.1"));
+
+<appliedenergistics2:part:470>.addTooltip(format.green(I18n.format("modpack.ae2.p2p_gtceu.tooltip.1")));
+JEI.addDescription(<appliedenergistics2:part:470>, I18n.format("modpack.ae2.p2p_gtceu.tooltip.1"));
+
+<appliedenergistics2:part:462>.addTooltip(format.green(I18n.format("modpack.ae2.p2p_chest.tooltip.1")));
+JEI.addDescription(<appliedenergistics2:part:462>, I18n.format("modpack.ae2.p2p_chest.tooltip.1"));
+
+<appliedenergistics2:part:467>.addTooltip(format.green(I18n.format("modpack.ae2.p2p_torch.tooltip.1")));
+JEI.addDescription(<appliedenergistics2:part:467>, I18n.format("modpack.ae2.p2p_torch.tooltip.1"));
+
+<appliedenergistics2:part:461>.addTooltip(format.green(I18n.format("modpack.ae2.p2p_redstone.tooltip.1")));
+JEI.addDescription(<appliedenergistics2:part:461>, I18n.format("modpack.ae2.p2p_redstone.tooltip.1"));
 
 
 
@@ -1090,6 +1109,24 @@ wiremill.recipeBuilder()
     .buildAndRegister();
 
 # Glass Cable
+val glassCables as IItemStack[] = [
+    <appliedenergistics2:part:0>,
+    <appliedenergistics2:part:1>,
+    <appliedenergistics2:part:2>,
+    <appliedenergistics2:part:3>,
+    <appliedenergistics2:part:4>,
+    <appliedenergistics2:part:5>,
+    <appliedenergistics2:part:6>,
+    <appliedenergistics2:part:7>,
+    <appliedenergistics2:part:8>,
+    <appliedenergistics2:part:9>,
+    <appliedenergistics2:part:10>,
+    <appliedenergistics2:part:11>,
+    <appliedenergistics2:part:12>,
+    <appliedenergistics2:part:13>,
+    <appliedenergistics2:part:14>,
+    <appliedenergistics2:part:15>
+];
 recipes.remove(<appliedenergistics2:part:16> * 4);
 recipes.addShaped(<appliedenergistics2:part:16> * 6, [
     [<ore:stickAluminium>, <ore:dustFluix>, <ore:stickAluminium>],
@@ -1125,8 +1162,35 @@ chemical_bath.recipeBuilder()
     .duration(8)
     .EUt(480)
     .buildAndRegister();
+for i, glassCable in glassCables {
+    chemical_bath.recipeBuilder()
+        .inputs([<ore:ae2.cable.glass>])
+        .fluidInputs([colorLiquid[i] * 18])
+        .outputs([glassCable])
+        .duration(20)
+        .EUt(7)
+        .buildAndRegister();
+}
 
 # Covered Cable
+val coveredCables as IItemStack[] = [
+    <appliedenergistics2:part:20>,
+    <appliedenergistics2:part:21>,
+    <appliedenergistics2:part:22>,
+    <appliedenergistics2:part:23>,
+    <appliedenergistics2:part:24>,
+    <appliedenergistics2:part:25>,
+    <appliedenergistics2:part:26>,
+    <appliedenergistics2:part:27>,
+    <appliedenergistics2:part:28>,
+    <appliedenergistics2:part:29>,
+    <appliedenergistics2:part:30>,
+    <appliedenergistics2:part:31>,
+    <appliedenergistics2:part:32>,
+    <appliedenergistics2:part:33>,
+    <appliedenergistics2:part:34>,
+    <appliedenergistics2:part:35>
+];
 recipes.removeShapeless(<appliedenergistics2:part:36>, [
     <ore:wool>, <ore:ae2.cable.glass>
 ]);
@@ -1176,8 +1240,35 @@ chemical_bath.recipeBuilder()
     .duration(8)
     .EUt(480)
     .buildAndRegister();
+for i, coveredCable in coveredCables {
+    chemical_bath.recipeBuilder()
+        .inputs([<ore:ae2.cable.covered>])
+        .fluidInputs([colorLiquid[i] * 18])
+        .outputs([coveredCable])
+        .duration(20)
+        .EUt(7)
+        .buildAndRegister();
+}
 
 # Smart Cable
+val smartCables as IItemStack[] = [
+    <appliedenergistics2:part:40>,
+    <appliedenergistics2:part:41>,
+    <appliedenergistics2:part:42>,
+    <appliedenergistics2:part:43>,
+    <appliedenergistics2:part:44>,
+    <appliedenergistics2:part:45>,
+    <appliedenergistics2:part:46>,
+    <appliedenergistics2:part:47>,
+    <appliedenergistics2:part:48>,
+    <appliedenergistics2:part:49>,
+    <appliedenergistics2:part:50>,
+    <appliedenergistics2:part:51>,
+    <appliedenergistics2:part:52>,
+    <appliedenergistics2:part:53>,
+    <appliedenergistics2:part:54>,
+    <appliedenergistics2:part:55>
+];
 recipes.removeShapeless(<appliedenergistics2:part:56>, [
     <appliedenergistics2:part:36>, <ore:dustRedstone>, <ore:dustGlowstone>
 ]);
@@ -1245,8 +1336,35 @@ chemical_bath.recipeBuilder()
     .duration(8)
     .EUt(480)
     .buildAndRegister();
+for i, smartCable in smartCables {
+    chemical_bath.recipeBuilder()
+        .inputs([<ore:ae2.cable.smart>])
+        .fluidInputs([colorLiquid[i] * 18])
+        .outputs([smartCable])
+        .duration(20)
+        .EUt(7)
+        .buildAndRegister();
+}
 
 # Dense Covered Cable
+val denseCoveredCables as IItemStack[] = [
+    <appliedenergistics2:part:500>,
+    <appliedenergistics2:part:501>,
+    <appliedenergistics2:part:502>,
+    <appliedenergistics2:part:503>,
+    <appliedenergistics2:part:504>,
+    <appliedenergistics2:part:505>,
+    <appliedenergistics2:part:506>,
+    <appliedenergistics2:part:507>,
+    <appliedenergistics2:part:508>,
+    <appliedenergistics2:part:509>,
+    <appliedenergistics2:part:510>,
+    <appliedenergistics2:part:511>,
+    <appliedenergistics2:part:512>,
+    <appliedenergistics2:part:513>,
+    <appliedenergistics2:part:514>,
+    <appliedenergistics2:part:515>
+];
 recipes.removeShapeless(<appliedenergistics2:part:516>, [
     <appliedenergistics2:part:36>, <appliedenergistics2:part:36>,
     <appliedenergistics2:part:36>, <appliedenergistics2:part:36>
@@ -1289,8 +1407,35 @@ chemical_bath.recipeBuilder()
     .duration(8)
     .EUt(480)
     .buildAndRegister();
+for i, denseCoveredCable in denseCoveredCables {
+    chemical_bath.recipeBuilder()
+        .inputs([<ore:ae2.cable.dense.covered>])
+        .fluidInputs([colorLiquid[i] * 18])
+        .outputs([denseCoveredCable])
+        .duration(20)
+        .EUt(7)
+        .buildAndRegister();
+}
 
 # Dense Smart Cable
+var denseSmartCables as IItemStack[] = [
+    <appliedenergistics2:part:60>,
+    <appliedenergistics2:part:61>,
+    <appliedenergistics2:part:62>,
+    <appliedenergistics2:part:63>,
+    <appliedenergistics2:part:64>,
+    <appliedenergistics2:part:65>,
+    <appliedenergistics2:part:66>,
+    <appliedenergistics2:part:67>,
+    <appliedenergistics2:part:68>,
+    <appliedenergistics2:part:69>,
+    <appliedenergistics2:part:70>,
+    <appliedenergistics2:part:71>,
+    <appliedenergistics2:part:72>,
+    <appliedenergistics2:part:73>,
+    <appliedenergistics2:part:74>,
+    <appliedenergistics2:part:75>
+];
 recipes.removeShapeless(<appliedenergistics2:part:76>, [
     <appliedenergistics2:part:516>, <ore:dustRedstone>, <ore:dustGlowstone>
 ]);
@@ -1376,6 +1521,15 @@ chemical_bath.recipeBuilder()
     .duration(8)
     .EUt(480)
     .buildAndRegister();
+for i, denseSmartCable in denseSmartCables {
+    chemical_bath.recipeBuilder()
+        .inputs([<ore:ae2.cable.dense.smart>])
+        .fluidInputs([colorLiquid[i] * 18])
+        .outputs([denseSmartCable])
+        .duration(20)
+        .EUt(7)
+        .buildAndRegister();
+}
 
 # ME Controller
 recipes.remove(<appliedenergistics2:controller>);
