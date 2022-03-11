@@ -5,7 +5,7 @@ import mods.zenutils.I18n;
 import mods.gregtech.IControllerTile;
 import mods.gregtech.recipe.RecipeMap;
 import mods.gregtech.recipe.RecipeMaps;
-import mods.gregtech.recipe.FactoryRecipeMap;
+import mods.gregtech.recipe.RecipeMapBuilder;
 import mods.gregtech.recipe.functions.IRunOverclockingLogicFunction;
 import mods.gregtech.recipe.IRecipe;
 import mods.gregtech.recipe.IRecipeLogic;
@@ -34,7 +34,7 @@ import mods.gregtech.render.MoveType;
 ########################################
 # Multiblock Builder
 ########################################
-var mbt_greenhouse = Builder.start("greenhouse", 32000)
+var greenhouse = Builder.start("greenhouse", 32000)
     .withPattern(function(controller as IControllerTile) as IBlockPattern {
         return FactoryBlockPattern.start()
             .aisle(" CCC ", " CCC ", " CCC ", " CCC ")
@@ -55,18 +55,25 @@ var mbt_greenhouse = Builder.start("greenhouse", 32000)
             .where('#', CTPredicate.getAir())
             .build();
     } as IPatternBuilderFunction)
-    .withRecipeMap(<recipemap:greenhouse>)
+    .withRecipeMap(
+        RecipeMapBuilder.create("greenhouse")
+            .setInputs(3, 2)
+            .setOutputs(4, 1)
+            .setFluidInputs(1, 1)
+            .setFluidOutputs(0, 0)
+            .build()
+    )
     .withBaseTexture(<metastate:gregtech:machine_casing>)
     .buildAndRegister();
-mbt_greenhouse.hasMaintenanceMechanics = true;
-mbt_greenhouse.hasMufflerMechanics = false;
+greenhouse.hasMaintenanceMechanics = true;
+greenhouse.hasMufflerMechanics = false;
 
 recipes.addShaped(<metaitem:multiblocktweaker:greenhouse>, [
     [<gregtech:transparent_casing>, <gregtech:transparent_casing>, <gregtech:transparent_casing>],
     [<ore:circuitGood>, <metaitem:hull.mv>, <ore:circuitGood>],
     [<metaitem:electric.piston.mv>, <metaitem:electric.pump.mv>, <metaitem:electric.piston.mv>]
 ]);
-JEI.addDescription(<metaitem:multiblocktweaker:greenhouse>, I18n.format("modpack.multiblocktweaker.greenhouse.tooltip.1"));
+JEI.addDescription(<metaitem:multiblocktweaker:greenhouse>, I18n.format("multiblocktweaker.greenhouse.tooltip.1"));
 
 
 
@@ -91,7 +98,7 @@ var logs as IItemStack[] = [
     <minecraft:log2:1>
 ];
 for i, sapling in saplings {
-    greenhouse.recipeBuilder()
+    greenhouse.recipeMap.recipeBuilder()
         .circuit(1)
         .notConsumable([sapling])
         .fluidInputs([<liquid:water> * 1000])
@@ -100,7 +107,7 @@ for i, sapling in saplings {
         .duration(1200)
         .EUt(40)
         .buildAndRegister();
-    greenhouse.recipeBuilder()
+    greenhouse.recipeMap.recipeBuilder()
         .circuit(2)
         .notConsumable([sapling])
         .inputs([<metaitem:fertilizer> * 4])
@@ -114,7 +121,7 @@ for i, sapling in saplings {
 }
 
 # Rubber
-greenhouse.recipeBuilder()
+greenhouse.recipeMap.recipeBuilder()
     .circuit(1)
     .notConsumable(<gregtech:rubber_sapling>)
     .fluidInputs([<liquid:water> * 1000])
@@ -124,7 +131,7 @@ greenhouse.recipeBuilder()
     .duration(1200)
     .EUt(40)
     .buildAndRegister();
-greenhouse.recipeBuilder()
+greenhouse.recipeMap.recipeBuilder()
     .circuit(2)
     .notConsumable(<gregtech:rubber_sapling>)
     .inputs(<metaitem:fertilizer> * 4)
@@ -164,7 +171,7 @@ var plants as IItemStack[] = [
     <minecraft:nether_wart> * 12
 ];
 for i, seed in seeds {
-    greenhouse.recipeBuilder()
+    greenhouse.recipeMap.recipeBuilder()
         .circuit(1)
         .notConsumable([seed])
         .fluidInputs([<liquid:water> * 1000])
@@ -172,7 +179,7 @@ for i, seed in seeds {
         .duration(1200)
         .EUt(40)
         .buildAndRegister();
-    greenhouse.recipeBuilder()
+    greenhouse.recipeMap.recipeBuilder()
         .circuit(2)
         .notConsumable([seed])
         .inputs([<metaitem:fertilizer> * 4])

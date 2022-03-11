@@ -2,8 +2,6 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 import mods.gregtech.recipe.RecipeMap;
-import mods.gregtech.recipe.FactoryRecipeMap;
-import mods.gregtech.material.MaterialRegistry;
 
 
 
@@ -63,39 +61,6 @@ global sifter                    as RecipeMap = RecipeMap.getByName("sifter");
 global thermal_centrifuge        as RecipeMap = RecipeMap.getByName("thermal_centrifuge");
 global vacuum_freezer            as RecipeMap = RecipeMap.getByName("vacuum_freezer");
 global wiremill                  as RecipeMap = RecipeMap.getByName("wiremill");
-
-global greenhouse as RecipeMap = FactoryRecipeMap.start("greenhouse")
-    .minInputs(2)
-    .maxInputs(3)
-    .minOutputs(1)
-    .maxOutputs(4)
-    .minFluidInputs(1)
-    .maxFluidInputs(1)
-    .minFluidOutputs(0)
-    .maxFluidOutputs(0)
-    .build();
-
-global voidoreminer as RecipeMap = FactoryRecipeMap.start("voidoreminer")
-    .minInputs(1)
-    .maxInputs(1)
-    .minOutputs(1)
-    .maxOutputs(1)
-    .minFluidInputs(2)
-    .maxFluidInputs(2)
-    .minFluidOutputs(0)
-    .maxFluidOutputs(0)
-    .build();
-
-global saw_mill as RecipeMap = FactoryRecipeMap.start("saw_mill")
-    .minInputs(2)
-    .maxInputs(2)
-    .minOutputs(1)
-    .maxOutputs(4)
-    .minFluidInputs(1)
-    .maxFluidInputs(1)
-    .minFluidOutputs(0)
-    .maxFluidOutputs(0)
-    .build();
 
 
 # Tools
