@@ -5,7 +5,7 @@ import mods.zenutils.I18n;
 import mods.gregtech.IControllerTile;
 import mods.gregtech.recipe.RecipeMap;
 import mods.gregtech.recipe.RecipeMaps;
-import mods.gregtech.recipe.FactoryRecipeMap;
+import mods.gregtech.recipe.RecipeMapBuilder;
 import mods.gregtech.recipe.functions.IRunOverclockingLogicFunction;
 import mods.gregtech.recipe.IRecipe;
 import mods.gregtech.recipe.IRecipeLogic;
@@ -34,7 +34,7 @@ import mods.gregtech.render.MoveType;
 ########################################
 # Multiblock Builder
 ########################################
-var mbt_voidoreminer = Builder.start("voidoreminer", 32001)
+var voidoreminer = Builder.start("voidoreminer", 32001)
     .withPattern(function(controller as IControllerTile) as IBlockPattern {
         return FactoryBlockPattern.start()
             .aisle("CCCCC", " FFF ", " FFF ", " FFF ", "     ", "     ", "     ", "     ", "     ", "     ")
@@ -53,11 +53,18 @@ var mbt_voidoreminer = Builder.start("voidoreminer", 32001)
             .where('#', CTPredicate.getAir())
             .build();
     } as IPatternBuilderFunction)
-    .withRecipeMap(<recipemap:voidoreminer>)
+    .withRecipeMap(
+        RecipeMapBuilder.create("voidoreminer")
+            .setInputs(1, 1)
+            .setOutputs(1, 1)
+            .setFluidInputs(2, 2)
+            .setFluidOutputs(0, 0)
+            .build()
+    )
     .withBaseTexture(<metastate:gregtech:metal_casing:10>)
     .buildAndRegister();
-mbt_voidoreminer.hasMaintenanceMechanics = true;
-mbt_voidoreminer.hasMufflerMechanics = false;
+voidoreminer.hasMaintenanceMechanics = true;
+voidoreminer.hasMufflerMechanics = false;
 
 assembly_line.recipeBuilder()
     .inputs([<metaitem:hull.zpm>])
@@ -77,7 +84,7 @@ assembly_line.recipeBuilder()
     .duration(600)
     .EUt(122880)
     .buildAndRegister();
-JEI.addDescription(<metaitem:multiblocktweaker:voidoreminer>, I18n.format("modpack.multiblocktweaker.voidoreminer.tooltip.1"));
+JEI.addDescription(<metaitem:multiblocktweaker:voidoreminer>, I18n.format("multiblocktweaker.voidoreminer.tooltip.1"));
 
 
 
@@ -302,9 +309,9 @@ var ores as IItemStack[] = [
     <gregtech:ore_beryllium_0>
 ];
 for i, ore in ores {
-    voidoreminer.recipeBuilder()
+    voidoreminer.recipeMap.recipeBuilder()
         .inputs([oresAny[i]])
-        .fluidInputs([<liquid:drilling_fluid> * 19200])
+        .fluidInputs([<liquid:drilling_fluid> * 20000])
         .fluidInputs([<liquid:ender_distillation> * 10])
         .outputs([ore * 64])
         .duration(20)
