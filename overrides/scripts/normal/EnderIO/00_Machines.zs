@@ -398,8 +398,4 @@ recipes.addShaped(<enderio:block_impulse_hopper>, [
 JEI.hide(<enderio:block_simple_crafter>);
 
 # Crafter
-recipes.addShaped(<enderio:block_crafter>, [
-    [<ore:plateSilicon>, <ore:plateSilicon>, <ore:plateSilicon>], 
-    [<ore:plateConstructionAlloy>, <ore:itemEnhancedMachineChassi>, <ore:plateConstructionAlloy>], 
-    [<ore:gearVibrantAlloy>, <metaitem:workbench>, <ore:gearVibrantAlloy>]
-]);
+JEI.hide(<enderio:block_crafter>);
