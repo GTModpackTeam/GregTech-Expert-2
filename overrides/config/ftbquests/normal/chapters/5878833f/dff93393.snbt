@@ -1,6 +1,13 @@
 {
+	title: "グリーンスパイダー",
 	x: 10.0d,
 	y: 12.0d,
+	description: "Workstation",
+	text: [
+		"最初のEV回路は独特の形状をしています。",
+		"",
+		"今後HV時代で使うことになるでしょう。"
+	],
 	dependencies: [
 		"9066a29a",
 		"2d65a034"

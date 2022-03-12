@@ -1,6 +1,13 @@
 {
+	title: "最高のMV回路",
 	x: 6.0d,
 	y: 12.0d,
+	description: "Integrated Processor",
+	text: [
+		"集積処理装置は最高のMV回路です。今後はゲームクリアするまでこれをずっと作り続けることになります。",
+		"",
+		"IV時代に入ると更に安く作れるようになります。"
+	],
 	dependencies: [
 		"06cc2fc2"
 	],

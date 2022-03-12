@@ -1,8 +1,12 @@
 {
-	title: "Advanced Circuit Preperation",
+	title: "発展回路までのクエスト集約点",
 	disable_toast: true,
 	x: 6.0d,
 	y: 10.0d,
+	description: "Advanced Circuit Preperation",
+	text: [
+		"ここまでのクエストをこなしていればより発展した回路が作れるようになります。"
+	],
 	dependencies: [
 		"b9c20662",
 		"b408211b",

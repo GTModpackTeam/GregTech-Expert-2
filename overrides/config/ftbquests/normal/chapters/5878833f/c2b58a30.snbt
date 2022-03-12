@@ -1,6 +1,10 @@
 {
 	x: -4.0d,
 	y: -4.0d,
+	description: "Electric Baking Oven",
+	text: [
+		"~仕様が複雑なので要検証~"
+	],
 	dependencies: [
 		"4ca7718b"
 	],
