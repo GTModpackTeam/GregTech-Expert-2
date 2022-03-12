@@ -1,6 +1,11 @@
 {
+	title: "このmodpackには6GBくらいは当てておきましょう",
 	x: 8.0d,
 	y: 2.0d,
+	description: "RAM",
+	text: [
+		"ランダムアクセスメモリーはより発展的な電子部品を作るのに必要です。"
+	],
 	dependencies: [
 		"f591d087"
 	],
@@ -11,9 +16,6 @@
 		type: "item",
 		items: [{
 			item: "gregtech:meta_lens 1 278"
-		},
-		{
-			item: "gregtech:meta_item_1 1 833"
 		}]
 	},
 	{

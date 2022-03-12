@@ -1,6 +1,13 @@
 {
+	title: "最高のLV回路",
 	x: 4.0d,
 	y: 12.0d,
+	description: "MicroProcessor",
+	text: [
+		"マイクロプロセッサは最高のLV回路です。今後はゲームクリアするまでこれをずっと作り続けることになります。",
+		"",
+		"EV時代に入ると更に安く作れるようになります。"
+	],
 	dependencies: [
 		"06cc2fc2"
 	],

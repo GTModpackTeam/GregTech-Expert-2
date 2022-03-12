@@ -1,6 +1,11 @@
 {
+	title: "Q=CV",
 	x: 4.0d,
 	y: 8.0d,
+	description: "Capacitor",
+	text: [
+		"キャパシタはMV組立機によって作られる回路の素材です。"
+	],
 	dependencies: [
 		"ac8a1743"
 	],

@@ -1,6 +1,18 @@
 {
+	title: "くさい",
 	x: 0.0d,
 	y: 10.0d,
+	description: "Light Fuel",
+	text: [
+		"前のクエストを読んでいればすんなり理解できる内容ですが、",
+		"原油を蒸留すると硫化された燃料が獲得できます。",
+		"",
+		"硫化水素は電解槽で完全にリサイクルすることができ、",
+		"化学反応機と電解槽を隣り合うように設置するだけで自動化できます。",
+		"スクリュードライバーで搬出面からの搬入を有効化するのを忘れないで下さい。",
+		"",
+		"軽油はいい電源になりますが、もっとよい発電手段がこの先のクエストにあります。"
+	],
 	dependencies: [
 		"50f93cb7"
 	],
@@ -8,13 +20,11 @@
 	tasks: [{
 		uid: "3dd908c3",
 		type: "fluid",
-		fluid: "sulfuric_light_fuel",
-		amount: 1
+		fluid: "sulfuric_light_fuel"
 	},
 	{
 		uid: "31778a57",
 		type: "fluid",
-		fluid: "light_fuel",
-		amount: 1
+		fluid: "light_fuel"
 	}]
 }

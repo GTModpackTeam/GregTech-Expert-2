@@ -1,6 +1,13 @@
 {
+	title: "かつてのMolecular Assemblerの素材要員",
 	x: 10.0d,
 	y: 8.0d,
+	description: "Advanced Circuit Assembler",
+	text: [
+		"どの電圧でもそうですが、回路組立機は新しい回路を作るための進行に必須の機械です。",
+		"",
+		"この段階ではもう回路組立機の隣に抽出機を置き、はんだ合金を直接送り込むといいでしょう。"
+	],
 	dependencies: [
 		"4308b9f4"
 	],

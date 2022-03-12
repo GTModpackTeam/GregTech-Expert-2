@@ -1,6 +1,12 @@
 {
+	title: "論理回路を一つにまとめた",
 	x: 6.0d,
 	y: 0.0d,
+	description: "Integrated Circuit",
+	text: [
+		"統合論理回路は新しいLV回路を作るために必要な大事な部品です。",
+		"加工時間が遅いので沢山作っておきましょう。"
+	],
 	dependencies: [
 		"f591d087"
 	],
@@ -11,9 +17,6 @@
 		type: "item",
 		items: [{
 			item: "gregtech:meta_lens 1 311"
-		},
-		{
-			item: "gregtech:meta_item_1 1 834"
 		}]
 	},
 	{

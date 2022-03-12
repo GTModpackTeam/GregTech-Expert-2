@@ -1,6 +1,13 @@
 {
+	title: "Hull-9000",
 	x: 0.0d,
 	y: 0.0d,
+	description: "MV Machine Hull",
+	text: [
+		"MVマシン筐体は全てのMV機械の材料です。",
+		"",
+		"余談：当初温室の素材にはMVマシン筐体が要求される予定だった。"
+	],
 	min_width: 300,
 	tasks: [{
 		uid: "d58fa905",
