@@ -28,8 +28,8 @@ assembler.recipeBuilder()
         <minecraft:ender_eye>
     ])
     .outputs([<packagedauto:package_component>])
-    .duration(100)
-    .EUt(480)
+    .duration(20)
+    .EUt(1920)
     .buildAndRegister();
 
 # ME Packaging Component
