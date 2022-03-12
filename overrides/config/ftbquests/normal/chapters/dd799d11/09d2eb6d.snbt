@@ -14,7 +14,8 @@
 		type: "item",
 		items: [{
 			item: "appliedenergistics2:energy_acceptor"
-		}]
+		}],
+		ignore_nbt: 1b
 	},
 	{
 		uid: "c1765ed9",
@@ -22,6 +23,7 @@
 		items: [{
 			id: "appliedenergistics2:energy_cell",
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	}]
 }

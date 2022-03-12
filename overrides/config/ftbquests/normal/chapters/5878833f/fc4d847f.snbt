@@ -1,33 +1,36 @@
 {
+	title: "石油納品所",
 	x: -2.0d,
 	y: 8.0d,
-	dependencies: [
-		"fc5ba32b"
+	description: "Oils",
+	text: [
+		"このクエストで今まで色んな方法で入手してきた石油を納品することでエチレンへの道が開かれます。"
 	],
+	dependencies: [
+		"fc5ba32b",
+		"2dd32cc0"
+	],
+	dependency_requirement: "one_completed",
 	min_width: 300,
 	or_tasks: true,
 	tasks: [{
 		uid: "03a0b27f",
 		type: "fluid",
-		fluid: "oil",
-		amount: 1
+		fluid: "oil"
 	},
 	{
 		uid: "08c8db79",
 		type: "fluid",
-		fluid: "oil_heavy",
-		amount: 1
+		fluid: "oil_heavy"
 	},
 	{
 		uid: "8713da67",
 		type: "fluid",
-		fluid: "oil_medium",
-		amount: 1
+		fluid: "oil_medium"
 	},
 	{
 		uid: "bf9122b6",
 		type: "fluid",
-		fluid: "oil_light",
-		amount: 1
+		fluid: "oil_light"
 	}]
 }
