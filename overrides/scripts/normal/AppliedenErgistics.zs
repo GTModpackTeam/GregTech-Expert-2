@@ -1657,6 +1657,19 @@ recipes.addShaped(<appliedenergistics2:interface>, [
     [<contenttweaker:matrixcore>, <gregtech:machine_casing:3>, <contenttweaker:matrixcore>],
     [<ore:plateSteel>, <ore:plateGlass>, <ore:plateSteel>]
 ]);
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <gregtech:machine_casing:3>,
+        <contenttweaker:matrixcore>,
+        <ore:plateGlass>,
+        <ore:plateSteel> * 2
+    ])
+    .fluidInputs([<liquid:plastic> * 144])
+    .outputs([<appliedenergistics2:interface>])
+    .duration(20)
+    .EUt(7680)
+    .buildAndRegister();
 
 # ME Fluid Interface
 recipes.removeShaped(<appliedenergistics2:fluid_interface>, [
@@ -1669,6 +1682,19 @@ recipes.addShaped(<appliedenergistics2:fluid_interface>, [
     [<contenttweaker:matrixcore>, <gregtech:machine_casing:3>, <contenttweaker:matrixcore>],
     [<ore:plateStainlessSteel>, <ore:plateGlass>, <ore:plateStainlessSteel>]
 ]);
+assembler.recipeBuilder()
+    .circuit(2)
+    .inputs([
+        <gregtech:machine_casing:3>,
+        <contenttweaker:matrixcore>,
+        <ore:plateGlass>,
+        <ore:plateStainlessSteel> * 2
+    ])
+    .fluidInputs([<liquid:plastic> * 144])
+    .outputs([<appliedenergistics2:fluid_interface>])
+    .duration(20)
+    .EUt(7680)
+    .buildAndRegister();
 
 # Cell Workbench
 recipes.remove(<appliedenergistics2:cell_workbench>);
