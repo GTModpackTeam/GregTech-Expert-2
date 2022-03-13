@@ -23,7 +23,7 @@ recipes.addShaped(<catwalks:blowtorch>, [
 # Classic Catwalk
 recipes.remove(<catwalks:catwalk>);
 assembler.recipeBuilder()
-    .circuit(1)
+    .circuit(6)
     .inputs([
         <ore:frameGtSteel>,
         <ore:screwSteel> * 2,
@@ -34,7 +34,7 @@ assembler.recipeBuilder()
     .EUt(7)
     .buildAndRegister();
 assembler.recipeBuilder()
-    .circuit(2)
+    .circuit(3)
     .inputs([
         <ore:frameGtDarkSteel>,
         <ore:screwDarkSteel> * 2,
@@ -45,7 +45,7 @@ assembler.recipeBuilder()
     .EUt(7)
     .buildAndRegister();
 assembler.recipeBuilder()
-    .circuit(1)
+    .circuit(6)
     .inputs([<catwalks:catwalk>.withTag({material: "classic"})])
     .notConsumable([<minecraft:record_cat>])
     .outputs([<catwalks:catwalk>.withTag({material: "nyanwalk"})])
@@ -56,7 +56,7 @@ assembler.recipeBuilder()
 # Glass Catwalk
 recipes.remove(<catwalks:catwalk>.withTag({material: "glass"}));
 assembler.recipeBuilder()
-    .circuit(1)
+    .circuit(6)
     .inputs([
         <ore:frameGtSteel>,
         <ore:paneGlass> * 3,
@@ -67,7 +67,7 @@ assembler.recipeBuilder()
     .EUt(7)
     .buildAndRegister();
 assembler.recipeBuilder()
-    .circuit(2)
+    .circuit(3)
     .inputs([
         <ore:frameGtDarkSteel>,
         <ore:paneGlass> * 3,
@@ -81,7 +81,7 @@ assembler.recipeBuilder()
 # Wood Catwalk
 recipes.remove(<catwalks:catwalk>.withTag({material: "treated_wood"}));
 assembler.recipeBuilder()
-    .circuit(1)
+    .circuit(6)
     .inputs([
         <ore:frameGtTreatedWood>,
         <ore:plateTreatedWood> * 3,
@@ -92,7 +92,7 @@ assembler.recipeBuilder()
     .EUt(7)
     .buildAndRegister();
 assembler.recipeBuilder()
-    .circuit(2)
+    .circuit(3)
     .inputs([
         <ore:frameGtTreatedWood>,
         <ore:plateTreatedWood> * 3,
@@ -108,7 +108,7 @@ recipes.addShapeless(<catwalks:catwalk>.withTag({material: "custom_0"}), [<catwa
 # Classic Ladder
 recipes.remove(<catwalks:ladder>);
 assembler.recipeBuilder()
-    .circuit(1)
+    .circuit(6)
     .inputs([
         <minecraft:ladder>,
         <ore:stickLongSteel> * 4
@@ -118,7 +118,7 @@ assembler.recipeBuilder()
     .EUt(7)
     .buildAndRegister();
 assembler.recipeBuilder()
-    .circuit(2)
+    .circuit(3)
     .inputs([
         <enderio:block_dark_steel_ladder>,
         <ore:stickLongDarkSteel> * 4
@@ -131,14 +131,14 @@ assembler.recipeBuilder()
 # Classic Support Cables
 recipes.remove(<catwalks:cable>);
 assembler.recipeBuilder()
-    .circuit(1)
+    .circuit(6)
     .inputs([<ore:stickLongSteel> * 3])
     .outputs([<catwalks:cable> * 6])
     .duration(20)
     .EUt(7)
     .buildAndRegister();
 assembler.recipeBuilder()
-    .circuit(2)
+    .circuit(3)
     .inputs([<ore:stickLongDarkSteel> * 3])
     .outputs([<catwalks:cable> * 32])
     .duration(20)
