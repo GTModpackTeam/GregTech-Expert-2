@@ -5,6 +5,9 @@
 ########################################
 # Items
 ########################################
+# Charcoal
+furnace.remove(<minecraft:coal:1>);
+
 # Lead
 recipes.remove(<minecraft:lead>);
 recipes.addShaped(<minecraft:lead>, [
