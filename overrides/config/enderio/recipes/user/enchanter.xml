@@ -307,4 +307,17 @@
             <enchantment name="railcraft:wrecking" costMultiplier="1"/>
         </enchanting>
     </recipe>
+    <!-- GregTech -->
+    <recipe name="Enchanter: gregtech:disjunction" required="true" disabled="false">
+        <enchanting>
+            <input name="skullEnderResonator" amount="1"/>
+            <enchantment name="gregtech:disjunction" costMultiplier="1"/>
+        </enchanting>
+    </recipe>
+    <recipe name="Enchanter: gregtech:hard_hammer" required="true" disabled="false">
+        <enchanting>
+            <input name="toolHeadHammerDiamond" amount="1"/>
+            <enchantment name="gregtech:hard_hammer" costMultiplier="1"/>
+        </enchanting>
+    </recipe>
 </enderio:recipes>

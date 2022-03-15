@@ -56,6 +56,19 @@ recipes.addShaped(<volumetricflask:o_interface>, [
     [<contenttweaker:matrixcore>, <gregtech:machine_casing:3>, <contenttweaker:matrixcore>],
     [<ore:plateDoubleStainlessSteel>, <ore:plateGlass>, <ore:plateDoubleStainlessSteel>]
 ]);
+assembler.recipeBuilder()
+    .circuit(3)
+    .inputs([
+        <gregtech:machine_casing:3>,
+        <contenttweaker:matrixcore>,
+        <ore:plateGlass>,
+        <ore:plateDoubleStainlessSteel> * 2
+    ])
+    .fluidInputs([<liquid:plastic> * 144])
+    .outputs([<volumetricflask:o_interface>])
+    .duration(20)
+    .EUt(7680)
+    .buildAndRegister();
 
 # Buffer
 recipes.remove(<volumetricflask:buffer>);

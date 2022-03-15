@@ -1,3 +1,42 @@
+# v1.2.0
+## Modpack fix
+* Fixed unexpected behavior of Multiblock.
+* Fixed a bug that prevented the creation of Steel Crate in the Assembling Machine.
+* Fixed a serious bug related to charcoal.
+
+## Modpack update
+* Quest include v0.8.0
+
+## Del mod
+* Not Enough Energistics
+
+## Update mods
+* AE2 Unofficial Extended Life
+* CensoredASM
+* Had Enough Items
+* MixinBooter
+
+## Add enchanter
+### GregTech
+* Disjunction
+* Hard Hammer
+
+## Update recipes
+### AE2
+* Changed coloring method for all cables.
+
+## New recipes
+### AE2
+* Add a recipe for a great deal on Interface.
+
+### VolumetricFlask
+* Add a recipe for a great deal on Interface.
+
+### PackagedAuto
+* GT swallowed me up.
+
+* * *
+
 # v1.1.3
 ## Update mods
 * AE2 Unofficial Extended Life
