@@ -1,7 +1,20 @@
 #packmode normal
 # Imports
 import mods.jei.JEI;
+import crafttweaker.mods.IMod;
+import crafttweaker.item.IItemStack;
 import mods.zenutils.I18n;
+
+val ec as IMod = loadedMods["extracells"];
+if (!isNull(ec)) {
+    val ecItems as IItemStack[] = ec.items;
+
+    for item in ecItems {
+        if(item.displayName has "ME Fluid Pattern") {
+            JEI.hide(item);
+        }
+    }
+}
 
 
 

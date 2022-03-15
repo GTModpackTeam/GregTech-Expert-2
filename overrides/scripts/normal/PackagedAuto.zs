@@ -39,6 +39,19 @@ recipes.addShaped(<packagedauto:me_package_component>, [
     [<appliedenergistics2:material:44>, <packagedauto:package_component>, <appliedenergistics2:material:43>],
     [<ore:plateTitanium>, <appliedenergistics2:quartz_glass>, <ore:plateTitanium>]
 ]);
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <ore:plateTitanium> * 2,
+        <appliedenergistics2:material:44>,
+        <appliedenergistics2:material:43>,
+        <appliedenergistics2:quartz_glass>,
+        <packagedauto:package_component>
+    ])
+    .outputs([<packagedauto:me_package_component>])
+    .duration(20)
+    .EUt(1920)
+    .buildAndRegister();
 
 
 
@@ -50,9 +63,22 @@ recipes.remove(<packagedauto:packager>);
 recipes.addShapeless(<packagedauto:packager>, [<packagedauto:unpackager>]);
 recipes.addShaped(<packagedauto:packager>, [
     [<ore:plateTitanium>, <packagedauto:me_package_component>, <ore:plateTitanium>],
-    [<ore:circuitAdvanced>, <metaitem:workbench>, <ore:circuitAdvanced>],
+    [<ore:circuitAdvanced>, <metaitem:packer.hv>, <ore:circuitAdvanced>],
     [<ore:plateTitanium>, <ore:ae2.interface.item>, <ore:plateTitanium>]
 ]);
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <ore:plateTitanium> * 2,
+        <ore:ae2.interface.item>,
+        <metaitem:packer.hv>,
+        <ore:circuitAdvanced>,
+        <packagedauto:me_package_component>
+    ])
+    .outputs([<packagedauto:packager>])
+    .duration(20)
+    .EUt(480)
+    .buildAndRegister();
 
 # Unpackager
 recipes.remove(<packagedauto:unpackager>);
@@ -62,22 +88,40 @@ recipes.addShapeless(<packagedauto:unpackager>, [<packagedauto:packager>]);
 recipes.remove(<packagedauto:encoder>);
 recipes.addShaped(<packagedauto:encoder>, [
     [<ore:plateTitanium>, <packagedauto:me_package_component>, <ore:plateTitanium>],
-    [<packagedauto:recipe_holder>, <metaitem:workbench>, <packagedauto:recipe_holder>],
+    [<packagedauto:recipe_holder>, <appliedenergistics2:part:341>, <packagedauto:recipe_holder>],
     [<ore:plateTitanium>, <ore:circuitAdvanced>, <ore:plateTitanium>]
 ]);
+assembler.recipeBuilder()
+    .circuit(2)
+    .inputs([
+        <ore:plateTitanium> * 2,
+        <ore:circuitAdvanced>,
+        <appliedenergistics2:part:341>,
+        <packagedauto:recipe_holder>,
+        <packagedauto:me_package_component>
+    ])
+    .outputs([<packagedauto:encoder>])
+    .duration(20)
+    .EUt(480)
+    .buildAndRegister();
 
 # Packager Extension
 recipes.remove(<packagedauto:packager_extension>);
 recipes.addShaped(<packagedauto:packager_extension>, [
     [<ore:plateTitanium>, <packagedauto:me_package_component>, <ore:plateTitanium>],
-    [<ore:circuitExtreme>, <metaitem:workbench>, <ore:circuitExtreme>],
+    [<ore:circuitExtreme>, <storagedrawers:controllerslave>, <ore:circuitExtreme>],
     [<ore:plateTitanium>, <ore:ae2.interface.item>, <ore:plateTitanium>]
 ]);
-
-# Packager Crafter
-recipes.remove(<packagedauto:crafter>);
-recipes.addShaped(<packagedauto:crafter>, [
-    [<ore:plateTitanium>, <packagedauto:me_package_component>, <ore:plateTitanium>],
-    [<ore:circuitExtreme>, <metaitem:workbench>, <ore:circuitExtreme>],
-    [<ore:plateTitanium>, <metaitem:conveyor.module.ev>, <ore:plateTitanium>]
-]);
+assembler.recipeBuilder()
+    .circuit(3)
+    .inputs([
+        <ore:plateTitanium> * 2,
+        <ore:ae2.interface.item>,
+        <storagedrawers:controllerslave>,
+        <ore:circuitExtreme>,
+        <packagedauto:me_package_component>
+    ])
+    .outputs([<packagedauto:packager_extension>])
+    .duration(20)
+    .EUt(1920)
+    .buildAndRegister();
