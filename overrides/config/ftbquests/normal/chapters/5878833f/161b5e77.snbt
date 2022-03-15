@@ -2,6 +2,7 @@
 	title: "ムーアの法則",
 	x: 8.0d,
 	y: 4.0d,
+	shape: "diamond",
 	description: "Transistor",
 	text: [
 		"トランジスタはMV組立機によって作ることのできる回路の素材です。"

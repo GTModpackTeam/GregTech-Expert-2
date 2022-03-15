@@ -6,6 +6,7 @@
 		"2589efac",
 		"8db0249b"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "edf77ab9",
 		type: "item",

@@ -2,6 +2,7 @@
 	title: "まだかっこよくない",
 	x: 10.0d,
 	y: 2.0d,
+	shape: "diamond",
 	description: "Advanced Integrated Circuit",
 	text: [
 		"HV回路とステンレス鋼が出そろったので厳密にはもうHVに進めますが、まだ焦って進むときではありません。",

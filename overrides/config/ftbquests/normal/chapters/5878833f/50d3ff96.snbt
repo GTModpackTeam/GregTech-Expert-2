@@ -2,6 +2,7 @@
 	title: "MV作り置きの会",
 	x: -4.0d,
 	y: 0.0d,
+	shape: "diamond",
 	description: "MV Components",
 	text: [
 		"このリストにはMV時代に必要な中間素材が一覧で表示されています。",

@@ -2,6 +2,7 @@
 	title: "アベンジャーズ組立機",
 	x: 4.0d,
 	y: -2.0d,
+	shape: "diamond",
 	description: "Advanced Assembling Machine",
 	text: [
 		"発展型組立機は全ての電圧のメイン機械であり、",
