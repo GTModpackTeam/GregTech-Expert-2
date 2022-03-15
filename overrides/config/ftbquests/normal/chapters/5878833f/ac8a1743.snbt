@@ -2,6 +2,7 @@
 	title: "ひとつなぎの炭化水素",
 	x: 6.0d,
 	y: 4.0d,
+	shape: "diamond",
 	description: "Polyethylene",
 	text: [
 		"エチレンを連結させるために酸素を加えましょう。空気より効率的です。",

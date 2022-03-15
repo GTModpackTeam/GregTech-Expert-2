@@ -2,6 +2,7 @@
 	title: "一つの到達点",
 	x: 4.0d,
 	y: 4.0d,
+	shape: "diamond",
 	description: "Ethylene",
 	text: [
 		"エチレンを獲得するための方法はこれまでのクエストで説明しました。",

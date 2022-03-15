@@ -2,6 +2,7 @@
 	title: "ULPICをよく見るとうっすら模様がある",
 	x: 6.0d,
 	y: -2.0d,
+	shape: "diamond",
 	description: "MV Energy Hatch",
 	text: [
 		"LVバッテリーバッファーと2つのLVエネルギーハッチは今後使い続けるにはあまりスマートではないのでなんとかしましょう。",

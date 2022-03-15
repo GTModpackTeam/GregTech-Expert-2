@@ -2,6 +2,7 @@
 	title: "クエスト文が長かったので裁断してもらった",
 	x: 4.0d,
 	y: 0.0d,
+	shape: "diamond",
 	description: "Advanced Cutting Machine",
 	text: [
 		"発展型裁断機は単結晶シリコンボウルを切断してレーザー加工できる形にもっていくために必要です。",

@@ -2,6 +2,7 @@
 	title: "Molecular Disassembler",
 	x: 2.0d,
 	y: -4.0d,
+	shape: "diamond",
 	description: "Advanced Electrolyzer",
 	text: [
 		"LVのクエストで電解槽を作った時から示唆されていたMVの電解槽が今解禁されます。",

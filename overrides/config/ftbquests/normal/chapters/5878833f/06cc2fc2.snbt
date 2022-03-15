@@ -3,6 +3,7 @@
 	disable_toast: true,
 	x: 6.0d,
 	y: 10.0d,
+	shape: "square",
 	description: "Advanced Circuit Preperation",
 	text: [
 		"ここまでのクエストをこなしていればより発展した回路が作れるようになります。"
