@@ -2,7 +2,7 @@
 	title: "よく見ると成長スペースが1ブロックしかない",
 	x: -2.0d,
 	y: -6.0d,
-	description: "Greemhouse",
+	description: "Greenhouse",
 	text: [
 		"GregTechにはまだ植物や木を植える機能がないので、modpack側で温室という新しいマルチブロックを用意しました。",
 		"",

@@ -4,6 +4,7 @@
 	dependencies: [
 		"2589efac"
 	],
+	min_width: 300,
 	or_tasks: true,
 	tasks: [{
 		uid: "fb23536a",

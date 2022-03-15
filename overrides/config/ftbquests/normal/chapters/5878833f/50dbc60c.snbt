@@ -2,6 +2,7 @@
 	title: "何を根拠にGoodと言っているのだろう",
 	x: 10.0d,
 	y: 0.0d,
+	shape: "diamond",
 	description: "Good Integrated Circuit",
 	text: [
 		"改良型集積回路は集積回路のMV版です。"

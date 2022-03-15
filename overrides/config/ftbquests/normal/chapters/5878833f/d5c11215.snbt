@@ -2,6 +2,7 @@
 	title: "Minerと一字違い",
 	x: 4.0d,
 	y: -4.0d,
+	shape: "diamond",
 	description: "Advanced Mixer",
 	text: [
 		"複雑な合金を作るためにはより高い電圧の機械で材料の粉を混ぜ合わせる必要があります。",

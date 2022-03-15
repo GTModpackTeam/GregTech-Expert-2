@@ -2,6 +2,7 @@
 	title: "硫黄が欲しいおう...",
 	x: 4.0d,
 	y: 10.0d,
+	shape: "diamond",
 	description: "Sulfuric Acid",
 	text: [
 		"ここでもっともよい硫酸の入手法を現在情報過多となっているJEIに代わって提示します。",

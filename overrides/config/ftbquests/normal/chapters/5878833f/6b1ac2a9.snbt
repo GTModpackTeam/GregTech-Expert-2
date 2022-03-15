@@ -2,6 +2,7 @@
 	title: "エッチング溶液",
 	x: 6.0d,
 	y: 6.0d,
+	shape: "diamond",
 	description: "Sodium Persulfate / Iron III Chloride",
 	text: [
 		"過硫酸ナトリウムは鉱石処理の過程で化学槽の処理に使うことができます。",

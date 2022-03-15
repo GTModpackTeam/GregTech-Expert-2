@@ -2,6 +2,7 @@
 	title: "前のバージョンでは盛大にバグっていた",
 	x: 0.0d,
 	y: 8.0d,
+	shape: "diamond",
 	description: "Distillery",
 	text: [
 		"石油ルートではLVの蒸留機、バイオマスルートではMVの蒸留機を作らなくてはいけません。",
