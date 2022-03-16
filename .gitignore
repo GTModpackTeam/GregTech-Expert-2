@@ -1,6 +1,9 @@
 /overrides/config/JustEnoughCalculation/*
 /overrides/config/fpsreducer/*
-/overrides/config/jei/*
+/overrides/config/jei/bookmarks.ini
+/overrides/config/jei/itemBlacklist.cfg
+/overrides/config/jei/searchColors.cfg
+/overrides/config/jei/worldSettings.cfg
 /overrides/config/jeresources/*
 /overrides/config/ftbbackups.cfg
 /overrides/config/splash.properties

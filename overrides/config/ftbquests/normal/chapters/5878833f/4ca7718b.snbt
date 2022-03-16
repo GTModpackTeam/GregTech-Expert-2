@@ -2,6 +2,7 @@
 	title: "Hull-9000",
 	x: 0.0d,
 	y: 0.0d,
+	shape: "diamond",
 	description: "MV Machine Hull",
 	text: [
 		"MVマシン筐体は全てのMV機械の材料です。",

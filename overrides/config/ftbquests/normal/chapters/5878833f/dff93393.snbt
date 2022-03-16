@@ -2,6 +2,7 @@
 	title: "グリーンスパイダー",
 	x: 10.0d,
 	y: 12.0d,
+	shape: "diamond",
 	description: "Workstation",
 	text: [
 		"最初のEV回路は独特の形状をしています。",

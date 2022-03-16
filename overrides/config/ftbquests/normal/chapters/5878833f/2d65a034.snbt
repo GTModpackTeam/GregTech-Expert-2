@@ -2,6 +2,7 @@
 	title: "最高じゃないHV回路",
 	x: 8.0d,
 	y: 12.0d,
+	shape: "diamond",
 	description: "Processor Assembly",
 	text: [
 		"処理演算装置は前のレベルの回路よりとても安く簡単に作れる回路です。",

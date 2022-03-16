@@ -101,7 +101,7 @@ var logs as IItemStack[] = [
 
 for i, log in logs {
     saw_mill.recipeMap.recipeBuilder()
-        .circuit(1)
+        .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))
         .inputs([log * 6])
         .fluidInputs([<liquid:water> * 1000])
         .outputs([planks[i] * 48])
@@ -110,7 +110,7 @@ for i, log in logs {
         .EUt(7)
         .buildAndRegister();
     saw_mill.recipeMap.recipeBuilder()
-        .circuit(2)
+        .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 2}))
         .inputs([log * 6])
         .fluidInputs([<liquid:water> * 1000])
         .outputs([<metaitem:dustWood> * 30])
@@ -122,7 +122,7 @@ for i, log in logs {
 
 ## Rubber
 saw_mill.recipeMap.recipeBuilder()
-    .circuit(1)
+    .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))
     .inputs([<gregtech:rubber_log:0> * 6])
     .fluidInputs([<liquid:water> * 1000])
     .outputs([<gregtech:planks> * 48])
@@ -131,7 +131,7 @@ saw_mill.recipeMap.recipeBuilder()
     .EUt(7)
     .buildAndRegister();
 saw_mill.recipeMap.recipeBuilder()
-    .circuit(2)
+    .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 2}))
     .inputs([<gregtech:rubber_log:0> * 6])
     .fluidInputs([<liquid:water> * 1000])
     .outputs([<metaitem:dustWood> * 30])

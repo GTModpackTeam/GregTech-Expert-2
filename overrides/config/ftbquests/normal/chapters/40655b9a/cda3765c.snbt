@@ -4,6 +4,7 @@
 	dependencies: [
 		"cc773cf6"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "9f47fe6d",
 		type: "dimension",

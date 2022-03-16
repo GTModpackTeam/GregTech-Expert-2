@@ -2,6 +2,7 @@
 	title: "プラカード",
 	x: 6.0d,
 	y: 8.0d,
+	shape: "diamond",
 	description: "Plastic Circuit Board",
 	text: [
 		"この段階でプラスチック基板を作るのに必要なツールは全て揃っている筈です。",

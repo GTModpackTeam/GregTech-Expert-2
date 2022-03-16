@@ -4,6 +4,7 @@
 	dependencies: [
 		"2589efac"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "c6552fe6",
 		type: "fluid",

@@ -3,6 +3,7 @@
 	icon: "gregtech:machine 1 561",
 	x: 2.0d,
 	y: 0.0d,
+	shape: "diamond",
 	description: "Advanced Precision Laser Engraver",
 	text: [
 		"レーザー彫刻機は与えられたレンズの種類に応じてシリコンウェハーに模様を掘り込みます。",

@@ -99,7 +99,7 @@ var logs as IItemStack[] = [
 ];
 for i, sapling in saplings {
     greenhouse.recipeMap.recipeBuilder()
-        .circuit(1)
+        .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))
         .notConsumable([sapling])
         .fluidInputs([<liquid:water> * 1000])
         .outputs([logs[i] * 32])
@@ -108,7 +108,7 @@ for i, sapling in saplings {
         .EUt(40)
         .buildAndRegister();
     greenhouse.recipeMap.recipeBuilder()
-        .circuit(2)
+        .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 2}))
         .notConsumable([sapling])
         .inputs([<metaitem:fertilizer> * 4])
         .fluidInputs([<liquid:water> * 1000])
@@ -122,7 +122,7 @@ for i, sapling in saplings {
 
 # Rubber
 greenhouse.recipeMap.recipeBuilder()
-    .circuit(1)
+    .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))
     .notConsumable(<gregtech:rubber_sapling>)
     .fluidInputs([<liquid:water> * 1000])
     .outputs([<gregtech:rubber_log> * 8])
@@ -132,7 +132,7 @@ greenhouse.recipeMap.recipeBuilder()
     .EUt(40)
     .buildAndRegister();
 greenhouse.recipeMap.recipeBuilder()
-    .circuit(2)
+    .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 2}))
     .notConsumable(<gregtech:rubber_sapling>)
     .inputs(<metaitem:fertilizer> * 4)
     .fluidInputs([<liquid:water> * 1000])
@@ -172,7 +172,7 @@ var plants as IItemStack[] = [
 ];
 for i, seed in seeds {
     greenhouse.recipeMap.recipeBuilder()
-        .circuit(1)
+        .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))
         .notConsumable([seed])
         .fluidInputs([<liquid:water> * 1000])
         .outputs([plants[i]])
@@ -180,7 +180,7 @@ for i, seed in seeds {
         .EUt(40)
         .buildAndRegister();
     greenhouse.recipeMap.recipeBuilder()
-        .circuit(2)
+        .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 2}))
         .notConsumable([seed])
         .inputs([<metaitem:fertilizer> * 4])
         .fluidInputs([<liquid:water> * 1000])

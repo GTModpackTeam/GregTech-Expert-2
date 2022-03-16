@@ -6,6 +6,7 @@
 		"TODO:ウラン処理",
 		"TODO:Central Monitor"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "e6c7c2ba",
 		type: "checkmark"
