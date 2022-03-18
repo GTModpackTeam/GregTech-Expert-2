@@ -1,3 +1,8 @@
+# Japanese translate by tier940 & Quarri6343
+# 日本語ローカライズ担当： tier940 & Quarri6343
+# Corresponding Version: v51e
+# 対応バージョン: v51e
+
 // Blocks
 tile.appliedenergistics2.cable_bus.name=AE2ケーブル または バス
 tile.appliedenergistics2.cell_workbench.name=セルワークベンチ
@@ -204,11 +209,11 @@ gui.appliedenergistics2.inWorldSingularity=作る為には一個のシンギュ�
 gui.appliedenergistics2.ChargedQuartz=チャージドケルタスクォーツは普通のケルタスクォーツをチャージ機にセットし、電力を供給することで作製されます。
 gui.appliedenergistics2.ChargedQuartzFind=チャージドケルタスクォーツは輝くことを除いて通常のケルタスクォーツに非常に似ています。見分け方は青い靄です。
 gui.appliedenergistics2.NoSecondOutput=副産物なし
-gui.appliedenergistics2.OfSecondOutput=%1$d%%の確率で副産物
-gui.appliedenergistics2.MultipleOutputs=%1$d%%の確率で副産物, %2$d%%の確率で第二副産物.
+gui.appliedenergistics2.OfSecondOutput=%1$d%%の確率で副産物。
+gui.appliedenergistics2.MultipleOutputs=%1$d%%の確率で副産物、%2$d%%の確率で第二副産物。
 gui.appliedenergistics2.SelectAmount=数を選択
 gui.appliedenergistics2.CopyMode=コピーモード
-gui.appliedenergistics2.CopyModeDesc=ストレージセルを取り外したとき設定パネルの内容を消去するかどうか
+gui.appliedenergistics2.CopyModeDesc=ストレージセルを取り外したとき設定パネルの内容を消去するかどうか。
 gui.appliedenergistics2.Next=次
 gui.appliedenergistics2.Lumen=ルーメン
 gui.appliedenergistics2.Empty=空
@@ -228,17 +233,17 @@ gui.appliedenergistics2.Bytes=ストレージ
 gui.appliedenergistics2.Simulation=シミュレーション
 gui.appliedenergistics2.CoProcessors=Coプロセッサ
 gui.appliedenergistics2.CraftingCPU=クラフティングCPU
-gui.appliedenergistics2.NoCraftingCPUs=利用可能なCPUがありません
-gui.appliedenergistics2.CalculatingWait=計算中です.お待ちください...
+gui.appliedenergistics2.NoCraftingCPUs=利用可能なCPUがありません。
+gui.appliedenergistics2.CalculatingWait=計算中です。お待ちください...。
 gui.appliedenergistics2.Clean=クリーン
 gui.appliedenergistics2.InvalidPattern=無効なパターン
 gui.appliedenergistics2.Range=範囲
 gui.appliedenergistics2.TransparentFacades=透明な偽装版
-gui.appliedenergistics2.TransparentFacadesHint=ネットワークツールがツールバーにあるとき偽装版の表示/非表示を切り替えられる
+gui.appliedenergistics2.TransparentFacadesHint=ネットワークツールがツールバーにあるとき偽装版の表示/非表示を切り替えられる。
 gui.appliedenergistics2.CPUs=CPU
-gui.appliedenergistics2.NoCraftingJobs=クラフティングが実行されていない
+gui.appliedenergistics2.NoCraftingJobs=クラフティングが実行されていない。
 gui.appliedenergistics2.FacadeCrafting=偽装版クラフト
-gui.appliedenergistics2.inWorldCraftingPresses=金型は世界中に散らばっている隕石の中心にあります。隕石は隕石探知コンパスで探せます
+gui.appliedenergistics2.inWorldCraftingPresses=金型は世界中に散らばっている隕石の中心にあります。隕石は隕石探知コンパスで探せます。
 gui.appliedenergistics2.Included=含める
 gui.appliedenergistics2.Excluded=含めない
 gui.appliedenergistics2.Partitioned=分割
@@ -250,14 +255,14 @@ gui.appliedenergistics2.Nothing=なし
 
 // GUI Tooltips
 gui.tooltips.appliedenergistics2.Stash=アイテムを保存
-gui.tooltips.appliedenergistics2.StashDesc=グリッド上のアイテムをネットワークに戻す
+gui.tooltips.appliedenergistics2.StashDesc=グリッド上のアイテムをネットワークに戻す。
 gui.tooltips.appliedenergistics2.Substitutions=鉱石辞書の置換
-gui.tooltips.appliedenergistics2.SubstitutionsDescEnabled=材料を鉱石辞書で置換させる
-gui.tooltips.appliedenergistics2.SubstitutionsDescDisabled=材料を鉱石辞書で置換させない
+gui.tooltips.appliedenergistics2.SubstitutionsDescEnabled=材料を鉱石辞書で置換させる。
+gui.tooltips.appliedenergistics2.SubstitutionsDescDisabled=材料を鉱石辞書で置換させない。
 gui.tooltips.appliedenergistics2.SubstitutionsOn=置換は有効です
 gui.tooltips.appliedenergistics2.SubstitutionsOff=置換は無効です
 gui.tooltips.appliedenergistics2.Encode=MEパターンエンコーダ
-gui.tooltips.appliedenergistics2.EncodeDescription=現在エンコードされているパターン、または使用できるブランクパターンに入力されたパターンを書き込みます
+gui.tooltips.appliedenergistics2.EncodeDescription=現在エンコードされているパターン、または使用できるブランクパターンに入力されたパターンを書き込みます。
 gui.tooltips.appliedenergistics2.FuzzyMode=ファジー比較
 gui.tooltips.appliedenergistics2.FZPercent_25=25%%の分離損失
 gui.tooltips.appliedenergistics2.FZPercent_50=50%%の分離損失
@@ -336,7 +341,7 @@ gui.tooltips.appliedenergistics2.ReportInaccessibleItems=アクセスできな�
 gui.tooltips.appliedenergistics2.ReportInaccessibleItemsYes=Yes: 搬出できないアイテムがネットワークで可視化されます
 gui.tooltips.appliedenergistics2.ReportInaccessibleItemsNo=No: 搬出できるアイテムのみがネットワークで可視化されます
 gui.tooltips.appliedenergistics2.ReportInaccessibleFluids=アクセスできない液体を報告する
-gui.tooltips.appliedenergistics2.ReportInaccessibleFluidsYes=Yes: 搬出できない液体がネットワークで可視化されます.
+gui.tooltips.appliedenergistics2.ReportInaccessibleFluidsYes=Yes: 搬出できない液体がネットワークで可視化されます
 gui.tooltips.appliedenergistics2.ReportInaccessibleFluidsNo=No: 搬出できる液体のみがネットワークで可視化されます
 gui.tooltips.appliedenergistics2.BlockPlacement=ブロック設置について
 gui.tooltips.appliedenergistics2.BlockPlacementYes=ブロックは設置される
@@ -352,24 +357,24 @@ gui.tooltips.appliedenergistics2.ItemsStored=在庫アイテム: %s
 gui.tooltips.appliedenergistics2.ItemsRequestable=要求可能なアイテム: %s
 gui.tooltips.appliedenergistics2.P2PFrequency=周波数: %s
 gui.tooltips.appliedenergistics2.MultiplyByTwo=アイテムを倍にする
-gui.tooltips.appliedenergistics2.MultiplyByTwoDesc=スロットのアイテム数を倍にすることを試みる
+gui.tooltips.appliedenergistics2.MultiplyByTwoDesc=スロットのアイテム数を倍にすることを試みる。
 gui.tooltips.appliedenergistics2.MultiplyByThree=アイテムを3倍にする
-gui.tooltips.appliedenergistics2.MultiplyByThreeDesc=スロットのアイテム数を3倍にすることを試みる
+gui.tooltips.appliedenergistics2.MultiplyByThreeDesc=スロットのアイテム数を3倍にすることを試みる。
 gui.tooltips.appliedenergistics2.IncreaseByOne=1個追加
-gui.tooltips.appliedenergistics2.IncreaseByOneDesc=スロットのアイテム数を1個増やすことを試みる。材料の比率は保持されない
+gui.tooltips.appliedenergistics2.IncreaseByOneDesc=スロットのアイテム数を1個増やすことを試みる。材料の比率は保持されない。
 gui.tooltips.appliedenergistics2.DivideByTwo=2で割る
-gui.tooltips.appliedenergistics2.DivideByTwoDesc=スロットのアイテム数を2で割ることを試みる
+gui.tooltips.appliedenergistics2.DivideByTwoDesc=スロットのアイテム数を2で割ることを試みる。
 gui.tooltips.appliedenergistics2.DivideByThree=3で割る
-gui.tooltips.appliedenergistics2.DivideByThreeDesc=スロットのアイテム数を3で割ることを試みる
+gui.tooltips.appliedenergistics2.DivideByThreeDesc=スロットのアイテム数を3で割ることを試みる。
 gui.tooltips.appliedenergistics2.DecreaseByOne=1個減らす
-gui.tooltips.appliedenergistics2.DecreaseByOneDesc=スロットのアイテム数を1個増やすことを試みる。材料の比率は保持されない
+gui.tooltips.appliedenergistics2.DecreaseByOneDesc=スロットのアイテム数を1個増やすことを試みる。材料の比率は保持されない。
 gui.tooltips.appliedenergistics2.MaxCount=スロットのアイテム数を最大化
-gui.tooltips.appliedenergistics2.MaxCountDesc=材料アイテムの比率を保ったままスロットのアイテム数を最大化する
-gui.tooltips.appliedenergistics2.FreeMolecularSlotShortcut=スロットが空いているインターフェースを表示する
-gui.tooltips.appliedenergistics2.FreeMolecularSlotShortcutDesc=スロットが空いているインターフェースを切り替えて分子組立室を検索するショートカット
+gui.tooltips.appliedenergistics2.MaxCountDesc=材料アイテムの比率を保ったままスロットのアイテム数を最大化する。
+gui.tooltips.appliedenergistics2.FreeMolecularSlotShortcut=スロットが空いているインターフェースを表示する。
+gui.tooltips.appliedenergistics2.FreeMolecularSlotShortcutDesc=スロットが空いているインターフェースを切り替えて分子組立室を検索するショートカット。
 gui.tooltips.appliedenergistics2.ToggleShowFullInterfaces=スロットが一杯になっているインターフェースの表示切り替え
-gui.tooltips.appliedenergistics2.ToggleShowFullInterfacesOnDesc=全てのインターフェースを表示
-gui.tooltips.appliedenergistics2.ToggleShowFullInterfacesOffDesc=空きがあるインターフェースのみを表示
+gui.tooltips.appliedenergistics2.ToggleShowFullInterfacesOnDesc=全てのインターフェースを表示。
+gui.tooltips.appliedenergistics2.ToggleShowFullInterfacesOffDesc=空きがあるインターフェースのみを表示。
 gui.tooltips.appliedenergistics2.HighlightInterface=インターフェースを強調表示
 
 // Units
