@@ -149,6 +149,11 @@ assembler.recipeBuilder()
     .EUt(4)
     .buildAndRegister();
 
+# TNTs
+JEI.hide(<enderio:block_confusion_charge>);
+JEI.hide(<enderio:block_concussion_charge>);
+JEI.hide(<enderio:block_ender_charge>);
+
 # Pressure Plates
 JEI.hide(<enderio:block_painted_pressure_plate:*>);
 

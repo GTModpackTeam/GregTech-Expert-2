@@ -277,6 +277,7 @@ recipes.addShaped(<enderio:block_powered_spawner>.withEmptyTag(), [
     [<ore:plateSoularium>, <ore:itemSoulMachineChassi>, <ore:plateSoularium>],
     [<ore:itemEnderCrystal>, <ore:skullZombieFrankenstein>, <ore:itemEnderCrystal>]
 ]);
+JEI.hide(<enderio:block_creative_spawner>);
 
 # The Vat
 JEI.hide(<enderio:block_vat>);

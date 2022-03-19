@@ -56,9 +56,9 @@ recipes.addShaped(<enderio:item_yeta_wrench>, [
 
 # Experience Rod
 recipes.addShaped(<enderio:item_xp_transfer>, [
-    [null, null, <ore:ingotSoularium>],
-    [null, <ore:ingotEnergeticAlloy>, null],
-    [<ore:ingotSoularium>, null, null]
+    [null, null, <ore:itemVibrantCrystal>],
+    [null, <ore:stickVibrantAlloy>, null],
+    [<ore:stickVibrantAlloy>, null, null]
 ]);
 
 # Cold Fire Igniter
@@ -66,8 +66,8 @@ JEI.hide(<enderio:item_cold_fire_igniter>);
 
 # Coordinate Selector
 recipes.addShaped(<enderio:item_coord_selector>, [
-    [<ore:plateElectricalSteel>, <ore:enderpearl>, <ore:plateElectricalSteel>],
-    [null, <minecraft:compass>, <ore:plateElectricalSteel>],
+    [<metaitem:emitter.hv>, <ore:circuitAdvanced>, <ore:plateElectricalSteel>],
+    [null, <ore:gearVibrantAlloy>, <ore:plateElectricalSteel>],
     [null, null, <ore:plateElectricalSteel>]
 ]);
 
