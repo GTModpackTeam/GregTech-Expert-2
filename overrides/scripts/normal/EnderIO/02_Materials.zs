@@ -299,27 +299,113 @@ JEI.hide(<enderio:item_material:73>);
 
 # Pulsating Crystal
 autoclave.recipeBuilder()
-    .inputs([<ore:gemDiamond>])
-    .fluidInputs([<liquid:pulsating_iron> * 144])
+    .inputs([<ore:itemPulsatingPowder>])
+    .fluidInputs([<liquid:distilled_water> * 50])
     .outputs([<enderio:item_material:14>])
-    .duration(100)
-    .EUt(480)
+    .duration(600)
+    .EUt(24)
+    .buildAndRegister();
+autoclave.recipeBuilder()
+    .inputs([<ore:itemPulsatingPowder>])
+    .fluidInputs([<liquid:water> * 250])
+    .chancedOutput(<enderio:item_material:14>, 7000, 1000)
+    .duration(1200)
+    .EUt(24)
+    .buildAndRegister();
+implosion_compressor.recipeBuilder()
+    .inputs([<ore:itemPulsatingPowder> * 4])
+    .property("explosives", <minecraft:tnt> * 2)
+    .outputs([
+        <enderio:item_material:14> * 3,
+        <metaitem:dustTinyDarkAsh>
+    ])
+    .duration(20)
+    .EUt(30)
+    .buildAndRegister();
+implosion_compressor.recipeBuilder()
+    .inputs([<ore:itemPulsatingPowder> * 4])
+    .property("explosives", <metaitem:dynamite>)
+    .outputs([
+        <enderio:item_material:14> * 3,
+        <metaitem:dustTinyDarkAsh>
+    ])
+    .duration(20)
+    .EUt(30)
     .buildAndRegister();
 
 # Vibrant Crystal
 autoclave.recipeBuilder()
-    .inputs([<ore:gemEmerald>])
-    .fluidInputs([<liquid:vibrant_alloy> * 144])
+    .inputs([<ore:itemVibrantPowder>])
+    .fluidInputs([<liquid:distilled_water> * 50])
     .outputs([<enderio:item_material:15>])
-    .duration(100)
-    .EUt(480)
+    .duration(600)
+    .EUt(24)
+    .buildAndRegister();
+autoclave.recipeBuilder()
+    .inputs([<ore:itemVibrantPowder>])
+    .fluidInputs([<liquid:water> * 250])
+    .chancedOutput(<enderio:item_material:15>, 7000, 1000)
+    .duration(1200)
+    .EUt(24)
+    .buildAndRegister();
+implosion_compressor.recipeBuilder()
+    .inputs([<ore:itemVibrantPowder> * 4])
+    .property("explosives", <minecraft:tnt> * 2)
+    .outputs([
+        <enderio:item_material:15> * 3,
+        <metaitem:dustTinyDarkAsh>
+    ])
+    .duration(20)
+    .EUt(30)
+    .buildAndRegister();
+implosion_compressor.recipeBuilder()
+    .inputs([<ore:itemVibrantPowder> * 4])
+    .property("explosives", <metaitem:dynamite>)
+    .outputs([
+        <enderio:item_material:15> * 3,
+        <metaitem:dustTinyDarkAsh>
+    ])
+    .duration(20)
+    .EUt(30)
     .buildAndRegister();
 
-
 # Ender Crystal
-SoulBinder.addRecipe(<enderio:item_material:16>, <ore:itemVibrantCrystal>, ["minecraft:enderman"], 150000, 6);
+autoclave.recipeBuilder()
+    .inputs([<ore:itemEnderCrystalPowder>])
+    .fluidInputs([<liquid:distilled_water> * 50])
+    .outputs([<enderio:item_material:16>])
+    .duration(600)
+    .EUt(24)
+    .buildAndRegister();
+autoclave.recipeBuilder()
+    .inputs([<ore:itemEnderCrystalPowder>])
+    .fluidInputs([<liquid:water> * 250])
+    .chancedOutput(<enderio:item_material:16>, 7000, 1000)
+    .duration(1200)
+    .EUt(24)
+    .buildAndRegister();
+implosion_compressor.recipeBuilder()
+    .inputs([<ore:itemEnderCrystalPowder> * 4])
+    .property("explosives", <minecraft:tnt> * 2)
+    .outputs([
+        <enderio:item_material:16> * 3,
+        <metaitem:dustTinyDarkAsh>
+    ])
+    .duration(20)
+    .EUt(30)
+    .buildAndRegister();
+implosion_compressor.recipeBuilder()
+    .inputs([<ore:itemEnderCrystalPowder> * 4])
+    .property("explosives", <metaitem:dynamite>)
+    .outputs([
+        <enderio:item_material:16> * 3,
+        <metaitem:dustTinyDarkAsh>
+    ])
+    .duration(20)
+    .EUt(30)
+    .buildAndRegister();
 
-# Ender Crystal
+# Enticing Crystal
 SoulBinder.addRecipe(<enderio:item_material:17>, <minecraft:emerald>, ["minecraft:villager"], 100000, 4);
 
 # Weather Crystal
@@ -329,8 +415,41 @@ recipes.addShaped(<enderio:item_material:18>, [
     [null, <ore:itemPulsatingCrystal>, null]
 ]);
 
-# Ender Crystal
-SoulBinder.addRecipe(<enderio:item_material:19>, <enderio:item_material:15>, ["minecraft:shulker"], 200000, 8);
+# Prescient Crystal
+autoclave.recipeBuilder()
+    .inputs([<ore:itemPrecientPowder>])
+    .fluidInputs([<liquid:distilled_water> * 50])
+    .outputs([<enderio:item_material:19>])
+    .duration(600)
+    .EUt(24)
+    .buildAndRegister();
+autoclave.recipeBuilder()
+    .inputs([<ore:itemPrecientPowder>])
+    .fluidInputs([<liquid:water> * 250])
+    .chancedOutput(<enderio:item_material:19>, 7000, 1000)
+    .duration(1200)
+    .EUt(24)
+    .buildAndRegister();
+implosion_compressor.recipeBuilder()
+    .inputs([<ore:itemPrecientPowder> * 4])
+    .property("explosives", <minecraft:tnt> * 2)
+    .outputs([
+        <enderio:item_material:19> * 3,
+        <metaitem:dustTinyDarkAsh>
+    ])
+    .duration(20)
+    .EUt(30)
+    .buildAndRegister();
+implosion_compressor.recipeBuilder()
+    .inputs([<ore:itemPrecientPowder> * 4])
+    .property("explosives", <metaitem:dynamite>)
+    .outputs([
+        <enderio:item_material:19> * 3,
+        <metaitem:dustTinyDarkAsh>
+    ])
+    .duration(20)
+    .EUt(30)
+    .buildAndRegister();
 
 # Flour
 JEI.hide(<enderio:item_material:21>);
@@ -392,32 +511,84 @@ JEI.hide(<enderio:item_material:76>);
 macerator.recipeBuilder()
     .inputs([<ore:itemPrecientCrystal>])
     .outputs([<enderio:item_material:34>])
-    .duration(100)
-    .EUt(480)
+    .duration(20)
+    .EUt(2)
+    .buildAndRegister();
+mixer.recipeBuilder()
+    .inputs([
+        <ore:itemVibrantPowder>,
+        <ore:dustEnderPearl>
+    ])
+    .fluidInputs([<liquid:xpjuice> * 864])
+    .outputs([<enderio:item_material:34>])
+    .duration(20)
+    .EUt(30)
     .buildAndRegister();
 
 # Grains of Vibranct
 macerator.recipeBuilder()
     .inputs([<ore:itemVibrantCrystal>])
     .outputs([<enderio:item_material:35>])
-    .duration(100)
-    .EUt(480)
+    .duration(20)
+    .EUt(2)
+    .buildAndRegister();
+mixer.recipeBuilder()
+    .inputs([
+        <ore:dustVibrantAlloy>,
+        <ore:dustEmerald>
+    ])
+    .outputs([<enderio:item_material:35>])
+    .duration(20)
+    .EUt(30)
+    .buildAndRegister();
+mixer.recipeBuilder()
+    .inputs([<ore:dustEmerald>])
+    .fluidInputs([<liquid:vibrant_alloy> * 144])
+    .outputs([<enderio:item_material:35>])
+    .duration(20)
+    .EUt(30)
     .buildAndRegister();
 
 # Grains of Piezallity
 macerator.recipeBuilder()
     .inputs([<ore:itemPulsatingCrystal>])
     .outputs([<enderio:item_material:36>])
-    .duration(100)
-    .EUt(480)
+    .duration(20)
+    .EUt(2)
+    .buildAndRegister();
+mixer.recipeBuilder()
+    .inputs([<ore:dustDiamond>])
+    .fluidInputs([<liquid:pulsating_iron> * 144])
+    .outputs([<enderio:item_material:36>])
+    .duration(20)
+    .EUt(30)
+    .buildAndRegister();
+mixer.recipeBuilder()
+    .inputs([
+        <ore:dustPulsatingIron>,
+        <ore:dustDiamond>
+    ])
+    .outputs([<enderio:item_material:36>])
+    .duration(20)
+    .EUt(30)
     .buildAndRegister();
 
 # Grains of the End
 macerator.recipeBuilder()
     .inputs([<ore:itemEnderCrystal>])
     .outputs([<enderio:item_material:37>])
-    .duration(100)
-    .EUt(480)
+    .duration(20)
+    .EUt(2)
+    .buildAndRegister();
+mixer.recipeBuilder()
+    .inputs([
+        <ore:itemVibrantPowder>,
+        <ore:dustEndstone>
+    ])
+    .fluidInputs([<liquid:xpjuice> * 864])
+    .outputs([<enderio:item_material:37>])
+    .duration(20)
+    .EUt(30)
     .buildAndRegister();
 
 # Photovoltaic Composite
