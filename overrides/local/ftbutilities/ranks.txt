@@ -1,0 +1,17 @@
+// For more info visit https://gist.github.com/LatvianModder/580500873676c5252c72957fd93e4a28
+
+[player]
+default_player_rank: true
+power: 1
+ftbutilities.homes.max: 30
+ftbutilities.homes.cooldown: 0
+ftbutilities.homes.warmup: 5
+ftbutilities.chunkloader.load_offline: false
+ftbutilities.chunkloader.max_chunks: 0
+
+[vip]
+power: 10
+
+[admin]
+default_op_rank: true
+power: 100
