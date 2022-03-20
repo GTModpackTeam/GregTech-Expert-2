@@ -1,6 +1,14 @@
 {
-	x: 12.0d,
-	y: -8.0d,
+	title: "今なら月額9.99ドージコインから、2セタンブースト付き!",
+	x: 14.0d,
+	y: -6.0d,
+	description: "Nitrobenzene",
+	text: [
+		"ニトロベンゼンはベンゼンのエネルギー効率を大体4倍にブーストします。",
+		"計算してみると結構収益が高いです。",
+		"",
+		"ただし蒸留水と硫黄を大量に使うことに注意してください。"
+	],
 	dependencies: [
 		"ac4f28c9"
 	],
@@ -8,7 +16,6 @@
 	tasks: [{
 		uid: "d66b3a26",
 		type: "fluid",
-		fluid: "nitrobenzene",
-		amount: 1
+		fluid: "nitrobenzene"
 	}]
 }

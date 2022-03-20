@@ -1,7 +1,8 @@
 {
-	title: "OilSands Vein",
+	title: "まっくろくろすけの貴重な化石",
 	x: 2.0d,
 	y: 12.0d,
+	description: "OilSands Vein",
 	text: [
 		""
 	],

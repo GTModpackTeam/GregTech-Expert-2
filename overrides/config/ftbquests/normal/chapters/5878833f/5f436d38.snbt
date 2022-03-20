@@ -2,7 +2,7 @@
 	title: "精製ガスを生成",
 	x: -4.0d,
 	y: 4.0d,
-	description: "LPGとメタン",
+	description: "LPG and Methane",
 	text: [
 		"LPG(液化石油ガス)は水酸化炭素の混合物で主に加熱装置で用いられます。",
 		"精製ガスとLPGとメタンはガス燃料です。",

@@ -1,6 +1,11 @@
 {
+	title: "選手1番:火が名前の由来の割に燃えないPyrolusuite",
 	x: 4.0d,
 	y: 12.0d,
+	description: "Manganese Vein",
+	text: [
+		""
+	],
 	dependencies: [
 		"2b9a2b25"
 	],

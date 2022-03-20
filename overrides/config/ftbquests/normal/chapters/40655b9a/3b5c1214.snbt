@@ -1,15 +1,33 @@
 {
-	x: -4.0d,
-	y: -8.0d,
+	title: "Greg史上最強のマルチブロック(執筆中)",
+	icon: "gregtech:machine 1 1029",
+	x: -8.0d,
+	y: -2.0d,
+	description: "Central Monitor",
+	text: [
+		"セントラルモニターは建設は任意ですが極めて魅力的なマルチブロックです。",
+		"",
+		"モニターは機械の情報、機械のGUI、その他色々を表示するためのスクリーンとして機能します。",
+		"また、モニターを使うことで遠隔で機械にアクセスして設定変更を行うことができるようになります。"
+	],
 	dependencies: [
 		"3dcc4dc4"
 	],
 	min_width: 300,
+	or_tasks: true,
 	tasks: [{
 		uid: "417b7b7b",
 		type: "item",
 		items: [{
 			item: "gregtech:machine 1 1029"
 		}]
+	},
+	{
+		uid: "20e898ab",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1667"
+		}],
+		count: 6L
 	}]
 }

@@ -1,6 +1,11 @@
 {
-	x: 0.0d,
-	y: -6.0d,
+	title: "どんどん裁断されるクエスト文",
+	x: -2.0d,
+	y: -8.0d,
+	description: "Advanced Cutting Machine II",
+	text: [
+		"これを作ることでLPICウェハーを低出力電源ICに加工出来ます。"
+	],
 	dependencies: [
 		"bfdb6d9e"
 	],

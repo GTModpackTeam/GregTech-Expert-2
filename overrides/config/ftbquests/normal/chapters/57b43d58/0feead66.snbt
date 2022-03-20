@@ -1,7 +1,7 @@
 {
 	title: "(ケーブルが繋がっているように見えるけど)電気がなくても動く",
 	x: -0.5d,
-	y: -4.0d,
+	y: -6.0d,
 	shape: "diamond",
 	description: "Electric Pump",
 	text: [

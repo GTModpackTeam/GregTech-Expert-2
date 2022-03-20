@@ -14,6 +14,7 @@
 		"a3a7970d",
 		"b0ce37e5"
 	],
+	dependency_requirement: "one_completed",
 	min_width: 300,
 	tasks: [{
 		uid: "4099103c",

@@ -1,6 +1,12 @@
 {
-	x: 0.0d,
-	y: 4.0d,
+	title: "料理組立機とかないかな",
+	x: -6.0d,
+	y: 2.0d,
+	description: "Advanced Circuit Assembler II",
+	text: [
+		"これが次の回路組立機です。",
+		"これはメインフレームと呼ばれる1種類の回路を作るためだけに要求されます。"
+	],
 	dependencies: [
 		"798d57e7"
 	],

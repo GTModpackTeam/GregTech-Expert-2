@@ -1,7 +1,7 @@
 {
 	title: "ベルトであるとは一言も書かれていない",
-	x: -0.5d,
-	y: -8.0d,
+	x: -2.5d,
+	y: -6.0d,
 	shape: "diamond",
 	description: "Conveyor Module",
 	text: [
@@ -16,7 +16,7 @@
 		"コンベヤーモジュールにはアイテムフィルターを適用することが可能です。"
 	],
 	dependencies: [
-		"a81e00cd"
+		"2bef72fb"
 	],
 	dependency_requirement: "one_started",
 	min_width: 300,

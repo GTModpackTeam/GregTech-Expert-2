@@ -1,15 +1,57 @@
 {
-	x: 0.0d,
-	y: -4.0d,
+	title: "PICとSoC",
+	icon: "gregtech:machine 1 562",
+	x: -2.0d,
+	y: -6.0d,
+	description: "Advanced Precision Laser Engraver II",
+	text: [
+		"※簡易SoCはMVの彫刻機でも作れますが前提の都合上ここに置いています",
+		"",
+		"全ての種類のレンズを作ることができるようになったので、彫刻機で色んなウェハーを彫刻することができるようになりました。",
+		"",
+		"電源IC系はエネルギーハッチの材料として使用します。",
+		"簡易SoCは最後のULV回路の材料として使用します。",
+		"",
+		"このタイミングで全ての他の便利な色付きレンズを先取りして作ることをおすすめします。"
+	],
 	dependencies: [
-		"798d57e7"
+		"cc773cf6"
 	],
 	min_width: 300,
+	or_tasks: true,
 	tasks: [{
 		uid: "6437da1a",
 		type: "item",
 		items: [{
 			item: "gregtech:machine 1 562"
+		}]
+	},
+	{
+		uid: "d812156e",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 821"
+		}]
+	},
+	{
+		uid: "617d6694",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 603"
+		}]
+	},
+	{
+		uid: "b8159f18",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 829"
+		}]
+	},
+	{
+		uid: "06433280",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 596"
 		}]
 	}]
 }

@@ -1,7 +1,8 @@
 {
-	title: "Magnetite Vein",
+	title: "鉱脈生成をいじらないとエンドはこいつで埋め尽くされる",
 	x: 4.0d,
 	y: 16.0d,
+	description: "Magnetite Vein",
 	text: [
 		""
 	],
