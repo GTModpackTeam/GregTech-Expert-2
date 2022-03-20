@@ -1,4 +1,4 @@
-// For more info visit https://faq.ftb.world/books/ftb-utilities/page/ranks
+// For more info visit https://gist.github.com/LatvianModder/580500873676c5252c72957fd93e4a28
 
 [player]
 default_player_rank: true
