@@ -1,7 +1,11 @@
 {
-	title: "Nickel Vein",
+	title: "この中に一人仲間はずれがいます",
 	x: 2.0d,
 	y: 8.0d,
+	description: "Nickel Vein",
+	text: [
+		""
+	],
 	dependencies: [
 		"2b9a2b25"
 	],

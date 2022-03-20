@@ -1,7 +1,8 @@
 {
-	title: "Beryllium Vein",
+	title: "ベリーグッド",
 	x: 8.0d,
 	y: 12.0d,
+	description: "Beryllium Vein",
 	text: [
 		""
 	],

@@ -1,13 +1,28 @@
 {
-	x: 0.0d,
-	y: -8.0d,
+	title: "いつものパターン",
+	icon: "gregtech:machine 1 1213",
+	x: -4.0d,
+	y: -4.0d,
+	description: "HV Energy Hatch",
+	text: [
+		"HVエネルギーハッチはマルチブロックを直接HV電源で動かすのに使います。",
+		"主に工業用電気炉と大型化学反応炉で使うでしょう。",
+		"",
+		"工業用電気炉を2つのエネルギーハッチでEVにアップグレードするのは今回は必要ありません。"
+	],
 	dependencies: [
 		"3dcc4dc4",
 		"48cefe67"
 	],
 	min_width: 300,
+	or_tasks: true,
 	tasks: [{
-		uid: "82f227a4",
+		uid: "7a510d4c",
+		type: "fluid",
+		fluid: "sodium_potassium"
+	},
+	{
+		uid: "0445b357",
 		type: "item",
 		items: [{
 			item: "gregtech:machine 1 1213"

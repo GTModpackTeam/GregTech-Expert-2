@@ -27,6 +27,7 @@
 		},
 		{
 			item: "gregtech:meta_item_1 1 736"
-		}]
+		}],
+		ignore_nbt: 1b
 	}]
 }

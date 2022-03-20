@@ -1,6 +1,11 @@
 {
+	title: "歳をとると誰でもなれる",
 	x: 4.0d,
 	y: 10.0d,
+	description: "Silver Ingot",
+	text: [
+		""
+	],
 	dependencies: [
 		"1a646786"
 	],

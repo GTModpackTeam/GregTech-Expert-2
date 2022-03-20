@@ -1,7 +1,8 @@
 {
-	title: "Saltpeter Vein",
+	title: "偽ダイヤ鉱脈",
 	x: 8.0d,
 	y: 16.0d,
+	description: "Saltpeter Vein",
 	text: [
 		""
 	],

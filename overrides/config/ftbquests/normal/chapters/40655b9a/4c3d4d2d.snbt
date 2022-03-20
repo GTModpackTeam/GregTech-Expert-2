@@ -1,13 +1,31 @@
 {
-	x: 8.0d,
+	title: "岩盤を抜けたいならトラベルアンカーを目指そう",
+	x: 10.0d,
 	y: -6.0d,
+	description: "Artificial Ender Pearl",
+	text: [
+		"エンダーパールはエンダーマンを倒すことで入手できますが、",
+		"都合によりトラップタワーを作らずに大量に入手したくなるかもしれません。",
+		"そういった時はHVミキサーでエンダーパールの粉を作って内破圧縮機にかけましょう。",
+		"",
+		"エンダーマンはボートに嵌めることで簡単に倒すことができます。",
+		"肉切り包丁で倒すことでルーティングIIIのドロップボーナスを得ましょう。"
+	],
 	dependencies: [
 		"24f45198",
 		"631b0e30"
 	],
 	min_width: 300,
+	or_tasks: true,
 	tasks: [{
-		uid: "de9d6885",
+		uid: "376517ea",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 416"
+		}]
+	},
+	{
+		uid: "1ebddb23",
 		type: "item",
 		items: [{
 			item: "minecraft:ender_pearl"

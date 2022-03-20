@@ -1,0 +1,70 @@
+{
+	title: "楽しいね",
+	x: 0.0d,
+	y: 6.0d,
+	description: "HV Components",
+	text: [
+		"MVと同じくHVにも中間素材があります。",
+		"",
+		"作製するのが苦痛だった傷のない宝石は作製するのが苦痛なエンダーアイに置き換わりました。",
+		"",
+		"モーターの作製には2xの銀のケーブルが必要です、筐体と機械には金のケーブルが必要です。",
+		"",
+		"エレクトロチンの分解と鉱石処理を用いてエレクトラムを入手してもいいかもしれません。",
+		"また、色んな種類の鉱石を化学槽の水銀のレシピで処理して金を入手してもいいかもしれません。"
+	],
+	dependencies: [
+		"798d57e7"
+	],
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "3508e46e",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 129"
+		}]
+	},
+	{
+		uid: "39634b45",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 174"
+		}]
+	},
+	{
+		uid: "9b7f9ef2",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 159"
+		}]
+	},
+	{
+		uid: "71e5b4db",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 144"
+		}]
+	},
+	{
+		uid: "6ebeb56c",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 189"
+		}]
+	},
+	{
+		uid: "2b533d3a",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 219"
+		}]
+	},
+	{
+		uid: "21a54178",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 234"
+		}]
+	}]
+}

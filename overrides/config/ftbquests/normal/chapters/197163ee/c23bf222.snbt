@@ -1,6 +1,11 @@
 {
+	title: "哀れEBF以降の使い道なし",
 	x: 2.0d,
 	y: 10.0d,
+	description: "Nickel Ingot",
+	text: [
+		""
+	],
 	dependencies: [
 		"b8c4c436"
 	],
