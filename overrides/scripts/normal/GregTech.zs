@@ -301,12 +301,22 @@ assembly_line.recipeBuilder()
     .EUt(491520)
     .buildAndRegister();
 
+# Glowstone Dust (Override)
+centrifuge.findRecipe(80, [<minecraft:glowstone_dust>], null).remove();
+centrifuge.recipeBuilder()
+    .inputs([<minecraft:glowstone_dust> * 2])
+    .outputs([<minecraft:redstone>])
+    .outputs([<metaitem:dustGold>])
+    .duration(488)
+    .EUt(80)
+    .buildAndRegister();
+
 # Netherrack Dust (Override)
 centrifuge.findRecipe(20, [<metaitem:dustNetherrack>], null).remove();
 centrifuge.recipeBuilder()
     .inputs([<metaitem:dustNetherrack>])
-    .chancedOutput(<metaitem:dustTinyGold>, 620, 120)
-    .chancedOutput(<metaitem:dustTinyRedstone>, 5600, 850)
+    // .chancedOutput(<metaitem:dustTinyGold>, 620, 120)
+    // .chancedOutput(<metaitem:dustTinyRedstone>, 5600, 850)
     .chancedOutput(<metaitem:dustTinyCoal>, 5600, 850)
     .chancedOutput(<metaitem:dustTinyGlowstone>, 5600, 850)
     .chancedOutput(<metaitem:dustSulfur>, 9900, 100)

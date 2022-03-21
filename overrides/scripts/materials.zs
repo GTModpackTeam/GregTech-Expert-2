@@ -32,6 +32,9 @@ certus_quartz.addFlags(["generate_lens"]);
 ########################################
 # Items
 ########################################
+# Glow Stone
+MaterialRegistry.get("glowstone").setFormula("(Si(FeS2)5(CrAl2O3)Hg3)Au", true);
+
 # Nether Quartz Rod
 MaterialRegistry.get("nether_quartz").addFlags("generate_rod");
 
