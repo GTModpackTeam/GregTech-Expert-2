@@ -78,6 +78,7 @@ MaterialBuilder(32101, "energetic_alloy")
         <material:glowstone> * 1
     ])
     .build();
+MaterialRegistry.get("energetic_alloy").setFormula("((Si(FeS2)5(CrAl2O3)Hg3)Au)2", true);
 
 # EIO - Vibrant Alloy
 MaterialBuilder(32102, "vibrant_alloy")
@@ -96,6 +97,7 @@ MaterialBuilder(32102, "vibrant_alloy")
         <material:ender_pearl> * 1
     ])
     .build();
+MaterialRegistry.get("vibrant_alloy").setFormula("BeK4N5((Si(FeS2)5(CrAl2O3)Hg3)Au)2", true);
 
 # EIO - Redstone Alloy
 MaterialBuilder(32103, "redstone_alloy")
@@ -168,14 +170,18 @@ MaterialBuilder(32106, "dark_steel")
 # EIO - Soularium
 MaterialBuilder(32107, "soularium")
     .ingot()
-    .color(0x5A4226)
     .fluidTemp(1200)
+    .color(0x5A4226)
+    .blastTemp(3600, "HIGH", 480, 600)
     .flags([
         "generate_plate"
     ])
-    .blastTemp(3600, "HIGH", 480, 600)
+    .components([
+        <material:gold> * 1,
+        <material:ash> * 1
+    ])
     .build();
-MaterialRegistry.get("soularium").setFormula("?", true);
+MaterialRegistry.get("soularium").setFormula("AuC?", true);
 
 # EIO - End Steel
 MaterialBuilder(32108, "end_steel")
@@ -197,6 +203,7 @@ MaterialBuilder(32108, "end_steel")
         <material:obsidian> * 1
     ])
     .build();
+MaterialRegistry.get("end_steel").setFormula("FeC(MgFeSi2O4)2?", true);
 
 # EIO - Construction Alloy(Iron Alloy)
 MaterialBuilder(32109, "construction_alloy")
@@ -219,7 +226,7 @@ MaterialBuilder(32110, "crude_steel")
     .color(0x8C8682)
     .blastTemp(3600, "HIGHER", 1920, 600)
     .build();
-MaterialRegistry.get("crude_steel").setFormula("?", true);
+MaterialRegistry.get("crude_steel").setFormula("Fe(Na2LiAl2Si2(H2O)6)?", true);
 
 # EIO - Crystalline Alloy
 MaterialBuilder(32111, "crystalline_alloy")
@@ -232,7 +239,7 @@ MaterialBuilder(32111, "crystalline_alloy")
         "generate_plate"
     ])
     .build();
-MaterialRegistry.get("crystalline_alloy").setFormula("?", true);
+MaterialRegistry.get("crystalline_alloy").setFormula("Au(BeK4N5((Si(FeS2)5(CrAl2O3)Hg3)Au)2)(Be3Al2Si6O18)", true);
 
 # EIO - Melodic Alloy
 MaterialBuilder(32112, "melodic_alloy")
@@ -245,7 +252,7 @@ MaterialBuilder(32112, "melodic_alloy")
         "generate_plate"
     ])
     .build();
-MaterialRegistry.get("melodic_alloy").setFormula("?", true);
+MaterialRegistry.get("melodic_alloy").setFormula("FeC(MgFeSi2O4)2?", true);
 
 # EIO - Stellar Alloy
 MaterialBuilder(32113, "stellar_alloy")
@@ -270,7 +277,7 @@ MaterialBuilder(32114, "crystalline_pink_slime")
         "generate_plate"
     ])
     .build();
-MaterialRegistry.get("crystalline_pink_slime").setFormula("?", true);
+MaterialRegistry.get("crystalline_pink_slime").setFormula("FeC(MgFeSi2O4)2?", true);
 
 # EIO - Energetic Silver
 MaterialBuilder(32115, "energetic_silver")
@@ -279,8 +286,13 @@ MaterialBuilder(32115, "energetic_silver")
     .fluidTemp(1200)
     .color(0x598DB3)
     .blastTemp(5400, "HIGHER", 1920, 1072)
+    .components([
+        <material:redstone> * 1,
+        <material:silver> * 1,
+        <material:glowstone> * 1
+    ])
     .build();
-MaterialRegistry.get("energetic_silver").setFormula("?", true);
+MaterialRegistry.get("energetic_silver").setFormula("(Si2(Fe2S4)5(Cr2Al4O6)Hg6)Ag", true);
 
 # EIO - Vivid Alloy
 MaterialBuilder(32116, "vivid_alloy")
@@ -289,6 +301,10 @@ MaterialBuilder(32116, "vivid_alloy")
     .fluidTemp(1200)
     .color(0x469BB1)
     .blastTemp(5400, "HIGHER", 1920, 1072)
+    .components([
+        <material:energetic_silver> * 1,
+        <material:ender_pearl> * 1
+    ])
     .build();
 MaterialRegistry.get("vivid_alloy").setFormula("?", true);
 
