@@ -7,16 +7,11 @@
 ########################################
 # Chunk Loader
 recipes.remove(<chickenchunks:chunk_loader>);
-recipes.addShaped(<chickenchunks:chunk_loader>, [
-    [<chickenchunks:chunk_loader:1>, <chickenchunks:chunk_loader:1>, <chickenchunks:chunk_loader:1>],
-    [<chickenchunks:chunk_loader:1>, <chickenchunks:chunk_loader:1>, <chickenchunks:chunk_loader:1>],
-    [<chickenchunks:chunk_loader:1>, <chickenchunks:chunk_loader:1>, <chickenchunks:chunk_loader:1>]
-]);
 assembler.recipeBuilder()
-    .circuit(4)
+    .circuit(1)
     .inputs([
         <minecraft:enchanting_table>,
-        <gregtech:machine:1392>,
+        <metaitem:world_accelerator.hv>,
     ])
     .outputs([<chickenchunks:chunk_loader>])
     .duration(1000)
@@ -25,4 +20,17 @@ assembler.recipeBuilder()
 
 # Spot Loader
 recipes.remove(<chickenchunks:chunk_loader:1>);
-recipes.addShapeless(<chickenchunks:chunk_loader:1> * 9, [<chickenchunks:chunk_loader>]);
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <minecraft:carpet:14>,
+        <minecraft:bookshelf>,
+        <ore:plateObsidian>,
+        <ore:gemDiamond>,
+        <metaitem:sensor.mv> * 2,
+        <metaitem:field.generator.mv> * 2
+    ])
+    .outputs([<chickenchunks:chunk_loader:1>])
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
