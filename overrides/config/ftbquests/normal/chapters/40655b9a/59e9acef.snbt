@@ -1,0 +1,21 @@
+{
+	title: "MV超電導ワイヤー",
+	x: 8.0d,
+	y: 6.0d,
+	description: "MV Superconductors",
+	text: [
+		"4アンペアのMV電力用ケーブルは魅力的ですが、多分現時点では必要ないでしょう。",
+		"必要になったらいつでも作れることだけ覚えておきましょう。"
+	],
+	dependencies: [
+		"2f9dcb81"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "06061a65",
+		type: "item",
+		items: [{
+			item: "gregtech:wire_single 1 425"
+		}]
+	}]
+}

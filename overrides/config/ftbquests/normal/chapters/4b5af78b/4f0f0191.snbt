@@ -4,6 +4,8 @@
 	y: 0.0d,
 	shape: "diamond",
 	text: [
+		"People keep asking me about English quests so I made the icon larger :)",
+		"",
 		"Welcome to Gregtech Expert 2!",
 		"If you cannot understand Japanese, There are four options you can do",
 		"",
@@ -19,6 +21,7 @@
 		"",
 		"4.Learn Japanese and go ahead :trollface:"
 	],
+	size: 3.0d,
 	min_width: 300,
 	tasks: [{
 		uid: "04740278",

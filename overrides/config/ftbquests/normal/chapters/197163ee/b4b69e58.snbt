@@ -1,9 +1,15 @@
 {
+	title: "大事な大事なチタンの入手源",
 	x: 2.0d,
 	y: 18.0d,
+	description: "Bauxite Dust",
+	text: [
+		""
+	],
 	dependencies: [
 		"2dd7178b"
 	],
+	or_tasks: true,
 	tasks: [{
 		uid: "c84a3919",
 		type: "item",

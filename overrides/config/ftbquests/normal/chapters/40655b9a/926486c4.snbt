@@ -1,0 +1,21 @@
+{
+	title: "どこでもじゃぐち",
+	x: -6.0d,
+	y: -2.0d,
+	description: "Infinite Water Cover",
+	text: [
+		"初歩的な揚水ポンプを捨てる時がやってきました。",
+		"このカバーを機械の面に貼り付けると秒間16バケツの水が供給されます。"
+	],
+	dependencies: [
+		"3dcc4dc4"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "dbab0a03",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 310"
+		}]
+	}]
+}

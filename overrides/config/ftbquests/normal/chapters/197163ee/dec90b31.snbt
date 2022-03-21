@@ -1,6 +1,11 @@
 {
+	title: "亜鉛にあえんくてぴえん",
 	x: 10.0d,
 	y: 10.0d,
+	description: "Zinc Ingot",
+	text: [
+		""
+	],
 	dependencies: [
 		"1abcd71a"
 	],

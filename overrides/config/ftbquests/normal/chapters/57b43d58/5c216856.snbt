@@ -1,11 +1,13 @@
 {
-	title: "Universal Macerator",
+	title: "HV粉砕機を目指そう",
+	icon: "gregtech:machine 1 67",
 	x: -2.0d,
 	y: 4.5d,
-	description: "Advanced Macerator II",
+	shape: "square",
+	description: "Advanced Macerator II Preparation",
 	text: [
-		"HV粉砕機はLV時代では作ることができないので本来このタブに存在してはいけないのですが、",
-		"鉱石処理とかかわりがあるのでここでまとめて説明します。",
+		"HV粉砕機はLV時代では作ることができないのでこのタブに存在してはいけません、",
+		"ですが鉱石処理と切っても離せない関わりがあるのでここでざっくり説明します。",
 		"",
 		"粉砕機から副産物が取れないという問題はHVまで継続します。",
 		"",
@@ -21,10 +23,8 @@
 	],
 	min_width: 300,
 	tasks: [{
-		uid: "21a5aa79",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 67"
-		}]
+		uid: "9dcd103b",
+		type: "checkmark",
+		title: "読んだら押しましょう"
 	}]
 }

@@ -1,7 +1,8 @@
 {
-	title: "Bauxite Vein",
+	title: "某木「このサイト古いんだけど」",
 	x: 2.0d,
 	y: 16.0d,
+	description: "Bauxite Vein",
 	text: [
 		""
 	],

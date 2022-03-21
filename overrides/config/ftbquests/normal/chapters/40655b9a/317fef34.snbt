@@ -1,0 +1,21 @@
+{
+	x: 2.0d,
+	y: 8.0d,
+	text: [
+		"※このアイテムは厳密にはMV時代で作れますがHVの充電器がないとまともに充電できないので",
+		"クエストとしてはHVにしています。"
+	],
+	dependencies: [
+		"ff348005"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "62ac261c",
+		type: "item",
+		items: [{
+			item: "gregtech:gt_armor 1 4"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

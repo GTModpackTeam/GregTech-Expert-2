@@ -1,6 +1,14 @@
 {
-	x: -4.0d,
+	title: "カラフル絆創膏",
+	x: -6.0d,
 	y: -6.0d,
+	description: "SMD Components",
+	text: [
+		"SMD(サーフェスマウントデバイス)素材は次のレベルの回路(ナノ)の作製に要求されます。",
+		"SMDは大半の回路のレシピでSMDでない同名の素材の代わりに使うこともできます。",
+		"",
+		"もちろんSMDは作るのにより複雑な工程が必要になりますが、これがGregTechです。"
+	],
 	dependencies: [
 		"3dcc4dc4"
 	],
@@ -25,13 +33,6 @@
 		type: "item",
 		items: [{
 			item: "gregtech:meta_item_1 1 525"
-		}]
-	},
-	{
-		uid: "d3f77201",
-		type: "item",
-		items: [{
-			item: "gregtech:meta_item_1 1 527"
 		}]
 	}]
 }

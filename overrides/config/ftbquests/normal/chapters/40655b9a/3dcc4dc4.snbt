@@ -1,6 +1,12 @@
 {
-	x: -4.0d,
+	title: "アッセンブラ",
+	x: -6.0d,
 	y: -4.0d,
+	description: "Advanced Assebling Mahcine II",
+	text: [
+		"HV組立機は進行に必須な次なるステップです。",
+		"次の電圧以外にも色んな便利なアイテムを解禁します。"
+	],
 	dependencies: [
 		"798d57e7"
 	],

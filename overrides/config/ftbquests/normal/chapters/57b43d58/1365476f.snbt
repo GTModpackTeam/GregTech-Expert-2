@@ -1,7 +1,7 @@
 {
 	title: "インサータ？",
-	x: -0.5d,
-	y: -10.0d,
+	x: -4.5d,
+	y: -6.0d,
 	shape: "diamond",
 	description: "Robot Arm",
 	text: [
@@ -17,7 +17,7 @@
 		"GTCEはそれらを全てロボットアームとフィルターというカバーに置換して省スペース化した"
 	],
 	dependencies: [
-		"e55c78c0"
+		"2bef72fb"
 	],
 	dependency_requirement: "one_started",
 	min_width: 300,

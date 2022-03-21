@@ -1,6 +1,11 @@
 {
+	title: "ディアルガ",
 	x: 12.0d,
 	y: 10.0d,
+	description: "Realgar Dust",
+	text: [
+		""
+	],
 	dependencies: [
 		"1950532f"
 	],

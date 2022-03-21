@@ -1,6 +1,11 @@
 {
+	title: "触媒の王",
 	x: 6.0d,
 	y: 18.0d,
+	description: "Platinum Ingot",
+	text: [
+		""
+	],
 	dependencies: [
 		"c3814c1e"
 	],

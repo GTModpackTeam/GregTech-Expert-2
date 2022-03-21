@@ -1,7 +1,7 @@
 {
 	title: "これがなかった時代はCircuit AssemblerにSoldering Alloyが64バケツ詰まっていた",
 	x: -0.5d,
-	y: -6.0d,
+	y: -8.0d,
 	description: "LV Fluid Regulator",
 	text: [
 		"流量制御器はロボットアームの液体版です。",

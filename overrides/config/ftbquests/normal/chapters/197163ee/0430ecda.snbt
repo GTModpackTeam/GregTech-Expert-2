@@ -1,6 +1,11 @@
 {
+	title: "現実では価値があろうとGregでは関係ない",
 	x: 6.0d,
 	y: 10.0d,
+	description: "Sapphire Dust",
+	text: [
+		""
+	],
 	dependencies: [
 		"196ef01e"
 	],

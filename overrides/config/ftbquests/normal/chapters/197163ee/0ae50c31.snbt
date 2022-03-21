@@ -1,6 +1,11 @@
 {
+	title: "核融合炉MK1...筐体...うっ頭が",
 	x: 6.0d,
 	y: 14.0d,
+	description: "Ruby Dust",
+	text: [
+		""
+	],
 	dependencies: [
 		"dd4949d8"
 	],
