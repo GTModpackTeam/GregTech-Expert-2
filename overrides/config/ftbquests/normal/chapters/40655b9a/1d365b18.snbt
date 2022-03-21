@@ -1,15 +1,31 @@
 {
-	x: -6.0d,
+	title: "カラフル絆創膏その2",
+	x: -8.0d,
 	y: -6.0d,
+	description: "More SMD Components",
+	text: [
+		"SMDダイオードで必要なプラチナについてはEVのタブに専用のクエストがあります。",
+		"",
+		"余談：SMDインダクタはGTCEuで初めて登場した",
+		"全ての回路素材にSMDバージョンが存在した方が一貫性が保たれて尚且つ便利だからである"
+	],
 	dependencies: [
 		"3dcc4dc4"
 	],
 	min_width: 300,
+	or_tasks: true,
 	tasks: [{
 		uid: "e0ae9811",
 		type: "item",
 		items: [{
 			item: "gregtech:meta_item_1 1 526"
+		}]
+	},
+	{
+		uid: "74da27de",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 527"
 		}]
 	}]
 }

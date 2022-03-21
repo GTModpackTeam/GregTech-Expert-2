@@ -2,7 +2,7 @@
 	title: "EUをKUに変えます",
 	icon: "gregtech:meta_item_1 1 127",
 	x: -0.5d,
-	y: -2.0d,
+	y: -4.0d,
 	shape: "diamond",
 	description: "LV Electric motor",
 	text: [

@@ -1,7 +1,11 @@
 {
-	title: "Sapphire Vein",
+	title: "赤いサファイアと青いルビー",
 	x: 6.0d,
 	y: 8.0d,
+	description: "Sapphire Vein",
+	text: [
+		""
+	],
 	dependencies: [
 		"2b9a2b25"
 	],

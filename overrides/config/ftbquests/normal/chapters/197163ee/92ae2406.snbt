@@ -1,6 +1,11 @@
 {
+	title: "モニーの信者を攻撃するもの",
 	x: 14.0d,
 	y: 10.0d,
+	description: "Antimony",
+	text: [
+		""
+	],
 	dependencies: [
 		"0e4dd360"
 	],

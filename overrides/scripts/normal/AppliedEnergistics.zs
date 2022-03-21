@@ -1591,8 +1591,8 @@ recipes.addShapeless(<appliedenergistics2:quartz_fixture>, [
 
 # Charger
 JEI.removeAndHide(<appliedenergistics2:charger>);
-JEI.addDescription(<appliedenergistics2:charger>, I18n.format("ae2.tooltip.charger"));
-<appliedenergistics2:charger>.addTooltip(format.green(I18n.format("ae2.tooltip.charger")));
+JEI.addDescription(<appliedenergistics2:charger>, I18n.format("modpack.ae2.charger.tooltip.1"));
+<appliedenergistics2:charger>.addTooltip(format.green(I18n.format("modpack.ae2.charger.tooltip.1")));
 
 # Security Terminal
 recipes.remove(<appliedenergistics2:security_station>);
@@ -2015,23 +2015,23 @@ recipes.addShaped(<appliedenergistics2:part:222>, [
 
 # Import Bus
 JEI.removeAndHide(<appliedenergistics2:part:240>);
-JEI.addDescription(<appliedenergistics2:part:240>, I18n.format("ae2.tooltip.bus.item"));
-<appliedenergistics2:part:240>.addTooltip(format.green(I18n.format("ae2.tooltip.bus.item")));
+JEI.addDescription(<appliedenergistics2:part:240>, I18n.format("modpack.ae2.tooltip.bus.item"));
+<appliedenergistics2:part:240>.addTooltip(format.green(I18n.format("modpack.ae2.tooltip.bus.item")));
 
 # Fluid Import Bus
 JEI.removeAndHide(<appliedenergistics2:part:241>);
-JEI.addDescription(<appliedenergistics2:part:241>, I18n.format("ae2.tooltip.bus.fluid"));
-<appliedenergistics2:part:241>.addTooltip(format.green(I18n.format("ae2.tooltip.bus.fluid")));
+JEI.addDescription(<appliedenergistics2:part:241>, I18n.format("modpack.ae2.tooltip.bus.fluid"));
+<appliedenergistics2:part:241>.addTooltip(format.green(I18n.format("modpack.ae2.tooltip.bus.fluid")));
 
 # Export Bus
 JEI.removeAndHide(<appliedenergistics2:part:260>);
-JEI.addDescription(<appliedenergistics2:part:260>, I18n.format("ae2.tooltip.bus.item"));
-<appliedenergistics2:part:260>.addTooltip(format.green(I18n.format("ae2.tooltip.bus.item")));
+JEI.addDescription(<appliedenergistics2:part:260>, I18n.format("modpack.ae2.tooltip.bus.item"));
+<appliedenergistics2:part:260>.addTooltip(format.green(I18n.format("modpack.ae2.tooltip.bus.item")));
 
 # Fluid Export Bus
 JEI.removeAndHide(<appliedenergistics2:part:261>);
-JEI.addDescription(<appliedenergistics2:part:261>, I18n.format("ae2.tooltip.bus.fluid"));
-<appliedenergistics2:part:261>.addTooltip(format.green(I18n.format("ae2.tooltip.bus.fluid")));
+JEI.addDescription(<appliedenergistics2:part:261>, I18n.format("modpack.ae2.tooltip.bus.fluid"));
+<appliedenergistics2:part:261>.addTooltip(format.green(I18n.format("modpack.ae2.tooltip.bus.fluid")));
 
 # Toggle Bus
 recipes.remove(<appliedenergistics2:part:80>);

@@ -1,6 +1,11 @@
 {
+	title: "Gregに交易要素を持ち込んではいけない理由",
 	x: 8.0d,
 	y: 14.0d,
+	description: "Emerald",
+	text: [
+		""
+	],
 	dependencies: [
 		"fd672e87"
 	],

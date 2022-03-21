@@ -1,0 +1,23 @@
+{
+	title: "名前が長い",
+	x: 12.0d,
+	y: 4.0d,
+	description: "HV Superconductors",
+	text: [
+		"この時点で通常の被覆したケーブルはあまり損失を気にせず運用できるようになっています。",
+		"",
+		"超電導ワイヤーを見た目のために使うのはありでしょう。",
+		"空間発生器などの一部の素材にも使います。"
+	],
+	dependencies: [
+		"c8d028ff"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "06fda3d0",
+		type: "item",
+		items: [{
+			item: "gregtech:wire_single 1 426"
+		}]
+	}]
+}

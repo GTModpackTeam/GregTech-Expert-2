@@ -90,6 +90,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 # null mk6
+recipes.remove(<danknull:dank_null_5>);
 recipes.addShapeless(<danknull:dank_null_5>, [<danknull:dank_null_5>.withEmptyTag()]);
 assembler.recipeBuilder()
     .circuit(1)

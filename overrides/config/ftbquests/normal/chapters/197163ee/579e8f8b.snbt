@@ -1,6 +1,11 @@
 {
+	title: "これが欲しくて字牌を捨てまくる",
 	x: 4.0d,
 	y: 14.0d,
+	description: "Manganese Dust",
+	text: [
+		""
+	],
 	dependencies: [
 		"55f8843e"
 	],

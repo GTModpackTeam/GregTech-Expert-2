@@ -1,6 +1,11 @@
 {
+	title: "錬金術の暗黒時代",
 	x: 4.0d,
 	y: 18.0d,
+	description: "Gold Ingot",
+	text: [
+		""
+	],
 	dependencies: [
 		"64914cac",
 		"59e79100"

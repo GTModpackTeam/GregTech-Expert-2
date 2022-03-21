@@ -1,6 +1,14 @@
 {
-	x: -6.0d,
+	title: "貼り付けるだけで個人情報筒抜け",
+	x: -8.0d,
 	y: -4.0d,
+	description: "Digital Interface Cover",
+	text: [
+		"デジタルインターフェースカバーは見た目系のカバーです。",
+		"このカバーを機械の面に貼り付けることで機械の進捗や状態、スーパータンク内の液体の量などの便利な情報が表示されます。",
+		"",
+		"カバーはカバーや機械とセントラルモニターをリンクするためにワイヤレスデジタルインターフェースカバーにアップグレードすることができます。"
+	],
 	dependencies: [
 		"3dcc4dc4"
 	],
@@ -11,20 +19,6 @@
 		type: "item",
 		items: [{
 			item: "gregtech:meta_item_1 1 312"
-		}]
-	},
-	{
-		uid: "a42f6f0c",
-		type: "item",
-		items: [{
-			item: "gregtech:meta_item_1 1 311"
-		}]
-	},
-	{
-		uid: "cb515660",
-		type: "item",
-		items: [{
-			item: "gregtech:meta_item_1 1 310"
 		}]
 	}]
 }

@@ -1,5 +1,5 @@
 {
-	title: "HammerXもどき",
+	title: "ビットコインも掘れる",
 	icon: {
 		id: "gregtech:meta_tool",
 		Damage: 19s,
