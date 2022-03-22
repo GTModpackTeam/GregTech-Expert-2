@@ -525,7 +525,7 @@ mixer.recipeBuilder()
     .EUt(30)
     .buildAndRegister();
 
-# Grains of Vibranct
+# Grains of Vibrant
 macerator.recipeBuilder()
     .inputs([<ore:itemVibrantCrystal>])
     .outputs([<enderio:item_material:35>])
@@ -583,7 +583,7 @@ macerator.recipeBuilder()
 mixer.recipeBuilder()
     .inputs([
         <ore:itemVibrantPowder>,
-        <ore:dustEndstone>
+        <metaitem:dustEndSteel>
     ])
     .fluidInputs([<liquid:xpjuice> * 864])
     .outputs([<enderio:item_material:37>])
