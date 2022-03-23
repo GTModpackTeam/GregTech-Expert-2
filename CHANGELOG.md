@@ -1,4 +1,4 @@
-# v1.3.0
+# v1.2.5
 ## Modpack fix
 * [Feature] AE2 Unofficial Extended Lifeの翻訳 (#90)
 * [Bug] Input Bus is not set for Void Ore Miner (#94)
