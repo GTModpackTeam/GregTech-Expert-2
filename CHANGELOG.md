@@ -2,7 +2,7 @@
 ## Modpack fix
 * [Bug] Void Ore Miner didn't require Input Bus (#94)
 * [Fix] AE2 tooltip (#97)
-* [Rebert] /dank/null/ mk6 (#98)
+* [Revert] /dank/null/ mk6 (#98)
 * [Fix] Centrifuge recipe (#103)
 * [Fix] Mod configs (#106)
 
