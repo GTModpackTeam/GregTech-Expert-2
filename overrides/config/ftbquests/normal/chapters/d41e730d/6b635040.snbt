@@ -1,8 +1,12 @@
 {
-	x: 8.0d,
-	y: 0.0d,
+	x: -2.0d,
+	y: 2.0d,
+	description: "Silicon Rubber",
+	text: [
+		"※シリコンゴムはMVで作れますが塩素の消費量が大きく推奨されないのでEVにクエストを置いています"
+	],
 	dependencies: [
-		"2589efac"
+		"c02ff32f"
 	],
 	min_width: 300,
 	or_tasks: true,

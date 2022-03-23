@@ -2,6 +2,7 @@
 	title: "料理組立機とかないかな",
 	x: -6.0d,
 	y: 2.0d,
+	shape: "diamond",
 	description: "Advanced Circuit Assembler II",
 	text: [
 		"これが次の回路組立機です。",

@@ -1,7 +1,7 @@
 {
 	title: "二者択一",
-	x: 2.0d,
-	y: -8.0d,
+	x: 0.0d,
+	y: -4.0d,
 	description: "Automatic Maintenance Hatch & Configurable Maintenance Hatch",
 	text: [
 		"今二つの新しいメンテナンスハッチのレシピが解放されました。",

@@ -1,7 +1,7 @@
 {
 	title: "税関が欲しがりそうなガジェット",
-	x: 0.0d,
-	y: 8.0d,
+	x: 2.0d,
+	y: 6.0d,
 	description: "Electric Prospector's Scanner(HV)",
 	text: [
 		"このスキャナーはLVのものより大きなスキャン範囲があります。",

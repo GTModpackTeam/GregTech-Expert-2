@@ -2,6 +2,7 @@
 	title: "要はテフロン",
 	x: 6.0d,
 	y: -4.0d,
+	shape: "diamond",
 	description: "Polytetrafluoroethylene",
 	text: [
 		"ポリテトラフルオロエチレン(PTFE)は炭素とフッ素のポリマーです。",

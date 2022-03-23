@@ -2,6 +2,7 @@
 	title: "チーズシリコン",
 	x: 10.0d,
 	y: 6.0d,
+	shape: "diamond",
 	description: "Glowstone-doped Monocrystalline Silicon Boule",
 	text: [
 		"シリコンは少量のグロウストーンでドープすることでより良いシリコン単結晶に加工することができます。",

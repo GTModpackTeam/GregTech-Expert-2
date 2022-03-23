@@ -2,6 +2,7 @@
 	title: "けみ☆りあ☆うー",
 	x: 6.0d,
 	y: -2.0d,
+	shape: "diamond",
 	description: "Advanced Chemical Reactor II",
 	text: [
 		"HV化学反応器は応用化学反応器として沢山のレシピを解禁します。",

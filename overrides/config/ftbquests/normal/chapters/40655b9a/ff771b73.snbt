@@ -2,6 +2,7 @@
 	title: "Cleanroomのクエスト予定地",
 	x: -8.0d,
 	y: 0.0d,
+	shape: "diamond",
 	description: "The Cleanroom (Placeholder)",
 	text: [
 		"無菌室はGTCEuにまだ実装されていません。",

@@ -2,6 +2,7 @@
 	title: "鼻が痛い",
 	x: 12.0d,
 	y: -4.0d,
+	shape: "diamond",
 	description: "Ammonia",
 	text: [
 		"アンモニアはHV時代で作ることができますが、必須ではありません。",

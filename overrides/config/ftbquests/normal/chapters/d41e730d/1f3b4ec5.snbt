@@ -1,0 +1,18 @@
+{
+	x: 0.0d,
+	y: 2.0d,
+	text: [
+		"※蒸留塔はHVでも作れますがエポキシをEVに設定した都合上EVにクエストを置いています。"
+	],
+	dependencies: [
+		"c02ff32f"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "b6e50e58",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1005"
+		}]
+	}]
+}
