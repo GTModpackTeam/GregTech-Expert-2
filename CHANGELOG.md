@@ -1,3 +1,46 @@
+# v1.3.0
+## Modpack fix
+* [Feature] AE2 Unofficial Extended Lifeの翻訳 (#85)
+* [Bug] Input Bus is not set for Void Ore Miner (#93)
+* [Fix] AE2 tooltip (#97)
+* [Rebert] null mk6 (#98)
+* [Fix] Centrifuge recipe (#103)
+* [Fix] Mod configs (#106)
+
+## Modpack update
+* [Update] Default ranks (#100)
+* [Update] Quest include v0.9.0 (#107)
+* [Update] New and update mods (#104)
+* [Update] Spot Loader (#102)
+
+## New mods
+* Craft Presence
+* Fluidlogged API
+
+## Update mods
+* AE2 Unofficial Extended Life
+* OAuth
+* Trash Cans
+
+## Update recipes
+### ChickenChunks
+* Chunk Loader
+* Spot Loader
+
+### GregTech
+* Glowstone Dust
+
+## New recipes
+* No change
+
+## Fix recipes
+* No change
+
+## Del recipes
+* No change
+
+* * * 
+
 # v1.2.0
 ## Modpack fix
 * Fixed unexpected behavior of Multiblock.
