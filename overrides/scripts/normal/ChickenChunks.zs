@@ -7,30 +7,29 @@
 ########################################
 # Chunk Loader
 recipes.remove(<chickenchunks:chunk_loader>);
+packer.recipeBuilder()
+    .inputs([<chickenchunks:chunk_loader:1> * 9])
+    .outputs([<chickenchunks:chunk_loader>])
+    .duration(20)
+    .EUt(30)
+    .buildAndRegister();
 assembler.recipeBuilder()
     .circuit(1)
     .inputs([
-        <minecraft:enchanting_table>,
-        <metaitem:world_accelerator.hv>,
+        <metaitem:frameSteel>,
+        <metaitem:stickLongGold> * 2,
+        <metaitem:plateObsidian> * 3
     ])
     .outputs([<chickenchunks:chunk_loader>])
-    .duration(1000)
-    .EUt(480)
+    .duration(100)
+    .EUt(30)
     .buildAndRegister();
 
 # Spot Loader
 recipes.remove(<chickenchunks:chunk_loader:1>);
-assembler.recipeBuilder()
-    .circuit(1)
-    .inputs([
-        <minecraft:carpet:14>,
-        <minecraft:bookshelf>,
-        <ore:plateObsidian>,
-        <ore:gemDiamond>,
-        <metaitem:sensor.mv> * 2,
-        <metaitem:field.generator.mv> * 2
-    ])
-    .outputs([<chickenchunks:chunk_loader:1>])
-    .duration(200)
-    .EUt(120)
+packer.recipeBuilder()
+    .inputs([<chickenchunks:chunk_loader>])
+    .outputs([<chickenchunks:chunk_loader:1> * 9])
+    .duration(20)
+    .EUt(30)
     .buildAndRegister();
