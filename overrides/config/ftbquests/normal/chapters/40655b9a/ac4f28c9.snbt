@@ -2,6 +2,7 @@
 	title: "酸酸たいそう",
 	x: 12.0d,
 	y: -6.0d,
+	shape: "diamond",
 	description: "Nitric Acid",
 	text: [
 		"硝酸は以下の用途で使えます:",

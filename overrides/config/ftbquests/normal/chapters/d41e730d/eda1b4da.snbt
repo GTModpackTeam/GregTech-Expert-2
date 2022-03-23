@@ -1,8 +1,8 @@
 {
-	x: -2.0d,
-	y: 8.0d,
+	x: 0.0d,
+	y: 4.0d,
 	dependencies: [
-		"798d57e7"
+		"1f3b4ec5"
 	],
 	min_width: 300,
 	tasks: [{

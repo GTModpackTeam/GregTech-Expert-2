@@ -3,6 +3,7 @@
 	icon: "gregtech:machine 1 562",
 	x: -2.0d,
 	y: -6.0d,
+	shape: "diamond",
 	description: "Advanced Precision Laser Engraver II",
 	text: [
 		"※簡易SoCはMVの彫刻機でも作れますが前提の都合上ここに置いています",

@@ -2,6 +2,7 @@
 	title: "アッセンブラ",
 	x: -6.0d,
 	y: -4.0d,
+	shape: "diamond",
 	description: "Advanced Assebling Mahcine II",
 	text: [
 		"HV組立機は進行に必須な次なるステップです。",

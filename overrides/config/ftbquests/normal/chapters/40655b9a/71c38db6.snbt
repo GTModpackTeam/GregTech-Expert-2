@@ -2,6 +2,7 @@
 	title: "宝石用温室",
 	x: -4.0d,
 	y: 4.0d,
+	shape: "diamond",
 	description: "Advanced Autoclace II",
 	text: [
 		"HVオートクレーブは一応作製が任意ではあるものの必ず欲しい機械でしょう。",

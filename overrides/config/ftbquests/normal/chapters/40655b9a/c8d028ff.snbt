@@ -2,6 +2,7 @@
 	title: "太陽の温度までまだ遠い",
 	x: 10.0d,
 	y: 4.0d,
+	shape: "diamond",
 	description: "Nichrome Coil Block",
 	text: [
 		"ニクロムコイルブロックは工業用電気炉の耐熱を3600Kまで上げます。",

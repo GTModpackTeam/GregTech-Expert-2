@@ -1,7 +1,8 @@
 {
 	title: "タイタニウム",
 	x: 10.0d,
-	y: 2.0d,
+	y: 0.0d,
+	shape: "diamond",
 	description: "Titanium Ingot",
 	text: [
 		"チタンはEV機械の主な材料です。",

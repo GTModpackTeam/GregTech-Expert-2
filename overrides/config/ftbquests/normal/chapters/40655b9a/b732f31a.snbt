@@ -2,6 +2,7 @@
 	title: "どかーん",
 	x: 4.0d,
 	y: -6.0d,
+	shape: "diamond",
 	description: "TNT",
 	text: [
 		"TNT(トリニトロトルエン)はGregTechではいつも通り火薬と砂で作ることはできません。",

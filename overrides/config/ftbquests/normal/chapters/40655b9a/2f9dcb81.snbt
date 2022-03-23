@@ -2,6 +2,7 @@
 	title: "なんか熱くなってきた",
 	x: 8.0d,
 	y: 4.0d,
+	shape: "diamond",
 	description: "Kanthal Coil Block",
 	text: [
 		"カンタルコイルブロックは進行に関わる大きな関門です。",
