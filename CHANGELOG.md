@@ -1,7 +1,7 @@
 # v1.3.0
 ## Modpack fix
-* [Feature] AE2 Unofficial Extended Lifeの翻訳 (#85)
-* [Bug] Input Bus is not set for Void Ore Miner (#93)
+* [Feature] AE2 Unofficial Extended Lifeの翻訳 (#90)
+* [Bug] Input Bus is not set for Void Ore Miner (#94)
 * [Fix] AE2 tooltip (#97)
 * [Rebert] null mk6 (#98)
 * [Fix] Centrifuge recipe (#103)
