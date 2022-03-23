@@ -1,13 +1,13 @@
 # v1.2.5
 ## Modpack fix
-* [Feature] AE2 Unofficial Extended Lifeの翻訳 (#90)
-* [Bug] Input Bus is not set for Void Ore Miner (#94)
+* [Bug] Void Ore Miner didn't require Input Bus (#94)
 * [Fix] AE2 tooltip (#97)
-* [Rebert] null mk6 (#98)
+* [Rebert] /dank/null/ mk6 (#98)
 * [Fix] Centrifuge recipe (#103)
 * [Fix] Mod configs (#106)
 
 ## Modpack update
+* [Update] AE2 Unofficial Extended Lifeの翻訳 (#90)
 * [Update] Default ranks (#100)
 * [Update] Quest include v0.9.0 (#107)
 * [Update] New and update mods (#104)
