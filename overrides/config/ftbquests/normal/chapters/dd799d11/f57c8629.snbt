@@ -5,6 +5,7 @@
 		"f7850c87"
 	],
 	dependency_requirement: "one_started",
+	min_width: 300,
 	tasks: [{
 		uid: "ec379448",
 		type: "item",

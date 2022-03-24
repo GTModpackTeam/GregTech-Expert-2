@@ -1,7 +1,7 @@
 {
 	title: "名前が長い",
-	x: 12.0d,
-	y: 4.0d,
+	x: 10.0d,
+	y: 2.0d,
 	description: "HV Superconductors",
 	text: [
 		"この時点で通常の被覆したケーブルはあまり損失を気にせず運用できるようになっています。",

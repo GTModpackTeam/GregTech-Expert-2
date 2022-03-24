@@ -2,6 +2,7 @@
 	title: "現実で真空は物質を熱くする",
 	x: 6.0d,
 	y: 2.0d,
+	shape: "diamond",
 	description: "Vacuum Freezer",
 	text: [
 		"真空冷却器は熱いインゴットを冷却するマルチブロックです。",

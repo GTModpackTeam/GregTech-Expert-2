@@ -2,6 +2,7 @@
 	title: "チルチルルチル",
 	x: 6.0d,
 	y: 0.0d,
+	shape: "diamond",
 	description: "Rutile",
 	text: [
 		"チタンを作るためにはこれまでの材料より少し複雑な処理が必要になります。",

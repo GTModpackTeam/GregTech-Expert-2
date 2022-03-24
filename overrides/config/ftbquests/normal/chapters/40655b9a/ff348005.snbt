@@ -2,6 +2,7 @@
 	title: "楽しいね",
 	x: 0.0d,
 	y: 6.0d,
+	shape: "diamond",
 	description: "HV Components",
 	text: [
 		"MVと同じくHVにも中間素材があります。",

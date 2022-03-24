@@ -2,6 +2,7 @@
 	title: "高電圧大浴場",
 	x: -2.0d,
 	y: -4.0d,
+	shape: "diamond",
 	description: "Advanced Chemical Bath II",
 	text: [
 		"HV化学槽は化学染料でレンズを染めるために必要です。",

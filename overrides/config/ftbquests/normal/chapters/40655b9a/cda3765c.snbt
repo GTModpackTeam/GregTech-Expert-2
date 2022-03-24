@@ -3,6 +3,7 @@
 	icon: "minecraft:end_portal_frame",
 	x: 0.0d,
 	y: -6.0d,
+	shape: "diamond",
 	description: "The End",
 	text: [
 		"まさかピースフルでプレイしている方はいないと思いますが、",

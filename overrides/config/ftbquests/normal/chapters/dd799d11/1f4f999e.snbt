@@ -2,10 +2,9 @@
 	x: 4.0d,
 	y: 0.0d,
 	dependencies: [
-		"24f45198",
-		"26766057",
-		"05b78152"
+		"26766057"
 	],
+	min_width: 300,
 	or_tasks: true,
 	tasks: [{
 		uid: "497591d9",

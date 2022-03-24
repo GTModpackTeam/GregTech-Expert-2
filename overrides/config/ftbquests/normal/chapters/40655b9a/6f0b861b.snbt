@@ -3,6 +3,7 @@
 	icon: "gregtech:machine 1 1213",
 	x: -4.0d,
 	y: -4.0d,
+	shape: "diamond",
 	description: "HV Energy Hatch",
 	text: [
 		"HVエネルギーハッチはマルチブロックを直接HV電源で動かすのに使います。",

@@ -2,6 +2,7 @@
 	title: "キミの素敵なメインフレーム",
 	x: -8.0d,
 	y: 2.0d,
+	shape: "diamond",
 	description: "Mainframe",
 	text: [
 		"最初のIV回路です。おめでとうございます。",
@@ -9,9 +10,7 @@
 		"この回路はEV時代で使います。",
 		"",
 		"余談：メインフレームのテクスチャはIBM zEnterpriseのメインフレームの画像が元ネタである。",
-		"https://www.datacenterknowledge.com/archives/2010/07/22/roundup-ibms-new-zenterprise-mainframe",
-		"",
-		"余談：このクエストのタイトルは実在する曲の名前である"
+		"https://www.datacenterknowledge.com/archives/2010/07/22/roundup-ibms-new-zenterprise-mainframe"
 	],
 	dependencies: [
 		"ac9b7b50"

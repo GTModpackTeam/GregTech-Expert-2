@@ -2,6 +2,7 @@
 	title: "どかーんしてきゅっとする機械",
 	x: 6.0d,
 	y: -6.0d,
+	shape: "diamond",
 	description: "Implosion Compressor",
 	text: [
 		"内破圧縮機は粉の宝石を通常の宝石に変換します。",

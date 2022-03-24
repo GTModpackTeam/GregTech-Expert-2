@@ -4,6 +4,7 @@
 	dependencies: [
 		"81a3529a"
 	],
+	min_width: 300,
 	or_tasks: true,
 	tasks: [{
 		uid: "36317c5a",

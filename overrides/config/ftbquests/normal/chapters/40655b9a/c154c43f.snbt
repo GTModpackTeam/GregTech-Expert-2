@@ -2,6 +2,7 @@
 	title: "毎日これで歯を磨こう",
 	x: 4.0d,
 	y: -4.0d,
+	shape: "diamond",
 	description: "Fluorine",
 	text: [
 		"※フッ素はMVでも作れますが目立った用途がないためここに置いています",

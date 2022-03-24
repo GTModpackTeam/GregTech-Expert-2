@@ -1,6 +1,13 @@
 {
+	title: "特徴なし",
 	x: 2.0d,
 	y: -4.0d,
+	shape: "diamond",
+	description: "Advanced Wiremill II",
+	text: [
+		"HVワイヤー作製機はクォーツファイバーを作るために使います。",
+		"既存のワイヤーを早く作れるのでHVの適当なタイミングで金属加工機と同時に作っておくとよいでしょう。"
+	],
 	dependencies: [
 		"798d57e7"
 	],

@@ -2,6 +2,7 @@
 	title: "GTNHのぶっ壊れ要員",
 	x: 8.0d,
 	y: -4.0d,
+	shape: "diamond",
 	description: "Large Chemical Reactor",
 	text: [
 		"大型化学反応炉(LCR)は沢山の搬入出スロットがあるマルチブロックの化学反応器で、",
