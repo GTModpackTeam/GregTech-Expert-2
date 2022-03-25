@@ -1,14 +1,6 @@
 #packmode normal
 # Imports
 import mods.jei.JEI;
-import mods.enderio.AlloySmelter; // 1
-import mods.enderio.CombustionGen; // no
-import mods.enderio.Enchanter; // no
-import mods.enderio.SagMill; // 2
-import mods.enderio.SliceNSplice; // 3
-import mods.enderio.SoulBinder; // 4
-import mods.enderio.Vat; // 5
-import mods.enderio.Tank; // no
 
 
 
@@ -56,9 +48,9 @@ recipes.addShaped(<enderio:item_yeta_wrench>, [
 
 # Experience Rod
 recipes.addShaped(<enderio:item_xp_transfer>, [
-    [null, null, <ore:ingotSoularium>],
-    [null, <ore:ingotEnergeticAlloy>, null],
-    [<ore:ingotSoularium>, null, null]
+    [null, null, <ore:itemVibrantCrystal>],
+    [null, <ore:stickVibrantAlloy>, null],
+    [<ore:stickVibrantAlloy>, null, null]
 ]);
 
 # Cold Fire Igniter
@@ -66,8 +58,8 @@ JEI.hide(<enderio:item_cold_fire_igniter>);
 
 # Coordinate Selector
 recipes.addShaped(<enderio:item_coord_selector>, [
-    [<ore:plateElectricalSteel>, <ore:enderpearl>, <ore:plateElectricalSteel>],
-    [null, <minecraft:compass>, <ore:plateElectricalSteel>],
+    [<metaitem:emitter.hv>, <ore:circuitAdvanced>, <ore:plateElectricalSteel>],
+    [null, <ore:gearVibrantAlloy>, <ore:plateElectricalSteel>],
     [null, null, <ore:plateElectricalSteel>]
 ]);
 
@@ -130,11 +122,6 @@ recipes.addShaped(<enderio:item_big_advanced_item_filter>, [
     [null, <minecraft:shulker_shell>, null]
 ]);
 
-# Big Soul Item Filter
-for mob in entitieMobs {
-  SoulBinder.addRecipe(<enderio:item_soul_filter_big>, <enderio:item_big_item_filter>, [mob], 5000000, 12);
-}
-
 # Big Enchantment Item Filter
 recipes.addShapeless(<enderio:item_enchantment_filter_big>, [
     <enderio:item_big_item_filter>, <minecraft:enchanted_book>
@@ -160,11 +147,6 @@ recipes.addShaped(<enderio:item_power_item_filter>, [
     [<ore:paperBlack>, <enderio:item_conduit_probe>, <ore:paperBlack>],
     [null, <ore:paperBlack>, null]
 ]);
-
-# Soul Item Filter
-for mob in entitieMobs {
-    SoulBinder.addRecipe(<enderio:item_soul_filter_normal>, <enderio:item_basic_item_filter>, [mob], 5000000, 12);
-}
 
 # Enchantment Item Filter
 recipes.addShapeless(<enderio:item_enchantment_filter_normal>, [

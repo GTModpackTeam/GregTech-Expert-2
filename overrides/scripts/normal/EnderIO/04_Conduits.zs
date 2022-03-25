@@ -1,14 +1,6 @@
 #packmode normal
 # Imports
 import mods.jei.JEI;
-import mods.enderio.AlloySmelter; // 1
-import mods.enderio.CombustionGen; // no
-import mods.enderio.Enchanter; // no
-import mods.enderio.SagMill; // 2
-import mods.enderio.SliceNSplice; // 3
-import mods.enderio.SoulBinder; // 4
-import mods.enderio.Vat; // 5
-import mods.enderio.Tank; // no
 
 
 
@@ -61,43 +53,40 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 # Energy Conduit
-JEI.hide(<enderio:item_power_conduit>);
-// assembler.recipeBuilder()
-//     .inputs([
-//         <ore:wireGtSingleGold>,
-//         <ore:plateConductiveIron>
-//     ])
-//     .fluidInputs([<liquid:plastic> * 144])
-//     .outputs([<enderio:item_power_conduit>])
-//     .duration(100)
-//     .EUt(480)
-//     .buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([
+        <ore:wireGtSingleGold>,
+        <ore:plateConductiveIron>
+    ])
+    .fluidInputs([<liquid:plastic> * 144])
+    .outputs([<enderio:item_power_conduit>])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 
 # Enhaned Energy Conduit
-JEI.hide(<enderio:item_power_conduit:1>);
-// assembler.recipeBuilder()
-//     .inputs([
-//         <ore:wireGtSingleAluminium>,
-//         <ore:plateEnergeticAlloy>
-//     ])
-//     .fluidInputs([<liquid:plastic> * 144])
-//     .outputs([<enderio:item_power_conduit:1>])
-//     .duration(100)
-//     .EUt(1920)
-//     .buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([
+        <ore:wireGtSingleAluminium>,
+        <ore:plateEnergeticAlloy>
+    ])
+    .fluidInputs([<liquid:plastic> * 144])
+    .outputs([<enderio:item_power_conduit:1>])
+    .duration(100)
+    .EUt(1920)
+    .buildAndRegister();
 
 # Ender Energy Conduit
-JEI.hide(<enderio:item_power_conduit:2>);
-// assembler.recipeBuilder()
-//     .inputs([
-//         <ore:wireGtSingleOsmium>,
-//         <ore:plateVibrantAlloy>
-//     ])
-//     .fluidInputs([<liquid:plastic> * 144])
-//     .outputs([<enderio:item_power_conduit:2>])
-//     .duration(100)
-//     .EUt(7680)
-//     .buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([
+        <ore:wireGtSingleOsmium>,
+        <ore:plateVibrantAlloy>
+    ])
+    .fluidInputs([<liquid:plastic> * 144])
+    .outputs([<enderio:item_power_conduit:2>])
+    .duration(100)
+    .EUt(7680)
+    .buildAndRegister();
 
 # Redstone Conduit
 assembler.recipeBuilder()
@@ -158,43 +147,40 @@ JEI.hide(<enderio:item_endergy_conduit:6>);
 JEI.hide(<enderio:item_endergy_conduit:7>);
 
 # Crystalline Alloy Endergy Conduit
-JEI.hide(<enderio:item_endergy_conduit:8>);
-// assembler.recipeBuilder()
-//     .inputs([
-//         <ore:wireGtSingleHssg>,
-//         <ore:plateCrystallineAlloy>
-//     ])
-//     .fluidInputs([<liquid:plastic> * 144])
-//     .outputs([<enderio:item_endergy_conduit:8>])
-//     .duration(100)
-//     .EUt(1920)
-//     .buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([
+        <ore:wireGtSingleHssg>,
+        <ore:plateCrystallineAlloy>
+    ])
+    .fluidInputs([<liquid:plastic> * 144])
+    .outputs([<enderio:item_endergy_conduit:8>])
+    .duration(100)
+    .EUt(1920)
+    .buildAndRegister();
 
 # Crystalline Pink Slime Endergy Conduit
-JEI.hide(<enderio:item_endergy_conduit:9>);
-// assembler.recipeBuilder()
-//     .inputs([
-//         <ore:wireGtSingleNiobiumTitanium>,
-//         <ore:plateCrystallinePinkSlime>
-//     ])
-//     .fluidInputs([<liquid:plastic> * 144])
-//     .outputs([<enderio:item_endergy_conduit:9>])
-//     .duration(100)
-//     .EUt(1920)
-//     .buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([
+        <ore:wireGtSingleNiobiumTitanium>,
+        <ore:plateCrystallinePinkSlime>
+    ])
+    .fluidInputs([<liquid:plastic> * 144])
+    .outputs([<enderio:item_endergy_conduit:9>])
+    .duration(100)
+    .EUt(1920)
+    .buildAndRegister();
 
 # Melodic Alloy Endergy Conduit
-JEI.hide(<enderio:item_endergy_conduit:10>);
-// assembler.recipeBuilder()
-//     .inputs([
-//         <ore:wireGtSingleNaquadah>,
-//         <ore:plateMelodicAlloy>
-//     ])
-//     .fluidInputs([<liquid:plastic> * 144])
-//     .outputs([<enderio:item_endergy_conduit:10>])
-//     .duration(100)
-//     .EUt(7680)
-//     .buildAndRegister();
+assembler.recipeBuilder()
+    .inputs([
+        <ore:wireGtSingleNaquadah>,
+        <ore:plateMelodicAlloy>
+    ])
+    .fluidInputs([<liquid:plastic> * 144])
+    .outputs([<enderio:item_endergy_conduit:10>])
+    .duration(100)
+    .EUt(7680)
+    .buildAndRegister();
 
 # Stellar Alloy Endergy Conduit
 JEI.hide(<enderio:item_endergy_conduit:11>);

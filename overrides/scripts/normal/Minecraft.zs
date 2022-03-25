@@ -32,13 +32,6 @@ recipes.addShapeless(<minecraft:iron_nugget> * 9, [<minecraft:iron_ingot>]);
 # Gold Nugget
 recipes.addShapeless(<minecraft:gold_nugget> * 9, [<minecraft:gold_ingot>]);
 
-# Ender Pearl
-recipes.addShaped(<minecraft:ender_pearl>, [
-    [null, <enderio:item_material:62>, null],
-    [<enderio:item_material:62>, <enderio:item_material:62>, <enderio:item_material:62>],
-    [null, <enderio:item_material:62>, null]
-]);
-
 # Fermented Spider Eye
 recipes.removeShapeless(<minecraft:fermented_spider_eye>, [
     <minecraft:spider_eye>, <minecraft:brown_mushroom>, <minecraft:sugar>

@@ -5,10 +5,12 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 
 JEI.hideCategory("AlloySmelter");
+JEI.hideCategory("CombustionGenerator");
 JEI.hideCategory("EIOTank");
 JEI.hideCategory("LavaGenerator");
 JEI.hideCategory("Painter");
 JEI.hideCategory("SolarPanel");
+JEI.hideCategory("StirlingGenerator");
 
 
 
@@ -33,7 +35,10 @@ var balls as IItemStack[] = [
     <enderio:item_alloy_endergy_ball:3>,
     <enderio:item_alloy_endergy_ball:4>,
     <enderio:item_alloy_endergy_ball:5>,
-    <enderio:item_alloy_endergy_ball:6>
+    <enderio:item_alloy_endergy_ball:6>,
+    <enderio:item_material:57>,
+    <enderio:item_material:58>,
+    <enderio:item_material:59>
 ];
 
 # Nugget
@@ -102,24 +107,24 @@ var blocks as IItemStack[] = [
 
 # Set Recipe
 ## Ball
-for i, ingot in ingots {
-    JEI.removeAndHide(balls[i]);
+for ball in balls {
+    JEI.removeAndHide(ball);
 }
 
 ## Nugget
-for i, nugget in nuggets {
-    JEI.removeAndHide(nuggets[i]);
+for nugget in nuggets {
+    JEI.removeAndHide(nugget);
 }
 
 ## Ingot
-for i, ingot in ingots {
-    JEI.removeAndHide(ingots[i]);
-    furnace.remove(ingots[i]);
+for ingot in ingots {
+    JEI.removeAndHide(ingot);
+    furnace.remove(ingot);
 }
 
 ## Block
-for i, block in blocks {
-    JEI.removeAndHide(blocks[i]);
+for block in blocks {
+    JEI.removeAndHide(block);
 }
 
 ## Gear

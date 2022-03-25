@@ -1,14 +1,7 @@
 #packmode normal
 # Imports
 import mods.jei.JEI;
-import mods.enderio.AlloySmelter; // 1
-import mods.enderio.CombustionGen; // no
-import mods.enderio.Enchanter; // no
-import mods.enderio.SagMill; // 2
-import mods.enderio.SliceNSplice; // 3
-import mods.enderio.SoulBinder; // 4
-import mods.enderio.Vat; // 5
-import mods.enderio.Tank; // no
+import mods.enderio.SliceNSplice;
 
 
 
@@ -274,6 +267,9 @@ recipes.addShaped(<enderio:item_material:7>, [
     [<enderio:item_material:6>, <ore:stickLongDarkSteel>, <enderio:item_material:6>]
 ]);
 
+# Nutritious Stick
+JEI.hide(<enderio:item_material:8>);
+
 # Wooden Gear
 JEI.hide(<enderio:item_material:9>);
 <ore:gearWood>.remove(<enderio:item_material:9>);
@@ -295,24 +291,112 @@ JEI.hide(<enderio:item_material:13>);
 JEI.hide(<enderio:item_material:73>);
 
 # Pulsating Crystal
-recipes.addShaped(<enderio:item_material:14>, [
-    [<ore:nuggetPulsatingIron>, <ore:nuggetPulsatingIron>, <ore:nuggetPulsatingIron>],
-    [<ore:nuggetPulsatingIron>, <minecraft:diamond>, <ore:nuggetPulsatingIron>],
-    [<ore:nuggetPulsatingIron>, <ore:nuggetPulsatingIron>, <ore:nuggetPulsatingIron>]
-]);
+autoclave.recipeBuilder()
+    .inputs([<ore:itemPulsatingPowder>])
+    .fluidInputs([<liquid:distilled_water> * 50])
+    .outputs([<enderio:item_material:14>])
+    .duration(600)
+    .EUt(24)
+    .buildAndRegister();
+autoclave.recipeBuilder()
+    .inputs([<ore:itemPulsatingPowder>])
+    .fluidInputs([<liquid:water> * 250])
+    .chancedOutput(<enderio:item_material:14>, 7000, 1000)
+    .duration(1200)
+    .EUt(24)
+    .buildAndRegister();
+implosion_compressor.recipeBuilder()
+    .inputs([<ore:itemPulsatingPowder> * 4])
+    .property("explosives", <minecraft:tnt> * 2)
+    .outputs([
+        <enderio:item_material:14> * 3,
+        <metaitem:dustTinyDarkAsh>
+    ])
+    .duration(20)
+    .EUt(30)
+    .buildAndRegister();
+implosion_compressor.recipeBuilder()
+    .inputs([<ore:itemPulsatingPowder> * 4])
+    .property("explosives", <metaitem:dynamite>)
+    .outputs([
+        <enderio:item_material:14> * 3,
+        <metaitem:dustTinyDarkAsh>
+    ])
+    .duration(20)
+    .EUt(30)
+    .buildAndRegister();
 
 # Vibrant Crystal
-recipes.addShaped(<enderio:item_material:15>, [
-    [<ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>],
-    [<ore:nuggetVibrantAlloy>, <ore:gemEmerald>, <ore:nuggetVibrantAlloy>],
-    [<ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>, <ore:nuggetVibrantAlloy>]
-]);
+autoclave.recipeBuilder()
+    .inputs([<ore:itemVibrantPowder>])
+    .fluidInputs([<liquid:distilled_water> * 50])
+    .outputs([<enderio:item_material:15>])
+    .duration(600)
+    .EUt(24)
+    .buildAndRegister();
+autoclave.recipeBuilder()
+    .inputs([<ore:itemVibrantPowder>])
+    .fluidInputs([<liquid:water> * 250])
+    .chancedOutput(<enderio:item_material:15>, 7000, 1000)
+    .duration(1200)
+    .EUt(24)
+    .buildAndRegister();
+implosion_compressor.recipeBuilder()
+    .inputs([<ore:itemVibrantPowder> * 4])
+    .property("explosives", <minecraft:tnt> * 2)
+    .outputs([
+        <enderio:item_material:15> * 3,
+        <metaitem:dustTinyDarkAsh>
+    ])
+    .duration(20)
+    .EUt(30)
+    .buildAndRegister();
+implosion_compressor.recipeBuilder()
+    .inputs([<ore:itemVibrantPowder> * 4])
+    .property("explosives", <metaitem:dynamite>)
+    .outputs([
+        <enderio:item_material:15> * 3,
+        <metaitem:dustTinyDarkAsh>
+    ])
+    .duration(20)
+    .EUt(30)
+    .buildAndRegister();
 
 # Ender Crystal
-SoulBinder.addRecipe(<enderio:item_material:16>, <ore:itemVibrantCrystal>, ["minecraft:enderman"], 150000, 6);
-
-# Ender Crystal
-SoulBinder.addRecipe(<enderio:item_material:17>, <minecraft:emerald>, ["minecraft:villager"], 100000, 4);
+autoclave.recipeBuilder()
+    .inputs([<ore:itemEnderCrystalPowder>])
+    .fluidInputs([<liquid:distilled_water> * 50])
+    .outputs([<enderio:item_material:16>])
+    .duration(600)
+    .EUt(24)
+    .buildAndRegister();
+autoclave.recipeBuilder()
+    .inputs([<ore:itemEnderCrystalPowder>])
+    .fluidInputs([<liquid:water> * 250])
+    .chancedOutput(<enderio:item_material:16>, 7000, 1000)
+    .duration(1200)
+    .EUt(24)
+    .buildAndRegister();
+implosion_compressor.recipeBuilder()
+    .inputs([<ore:itemEnderCrystalPowder> * 4])
+    .property("explosives", <minecraft:tnt> * 2)
+    .outputs([
+        <enderio:item_material:16> * 3,
+        <metaitem:dustTinyDarkAsh>
+    ])
+    .duration(20)
+    .EUt(30)
+    .buildAndRegister();
+implosion_compressor.recipeBuilder()
+    .inputs([<ore:itemEnderCrystalPowder> * 4])
+    .property("explosives", <metaitem:dynamite>)
+    .outputs([
+        <enderio:item_material:16> * 3,
+        <metaitem:dustTinyDarkAsh>
+    ])
+    .duration(20)
+    .EUt(30)
+    .buildAndRegister();
 
 # Weather Crystal
 recipes.addShaped(<enderio:item_material:18>, [
@@ -321,8 +405,41 @@ recipes.addShaped(<enderio:item_material:18>, [
     [null, <ore:itemPulsatingCrystal>, null]
 ]);
 
-# Ender Crystal
-SoulBinder.addRecipe(<enderio:item_material:19>, <enderio:item_material:15>, ["minecraft:shulker"], 200000, 8);
+# Prescient Crystal
+autoclave.recipeBuilder()
+    .inputs([<ore:itemPrecientPowder>])
+    .fluidInputs([<liquid:distilled_water> * 50])
+    .outputs([<enderio:item_material:19>])
+    .duration(600)
+    .EUt(24)
+    .buildAndRegister();
+autoclave.recipeBuilder()
+    .inputs([<ore:itemPrecientPowder>])
+    .fluidInputs([<liquid:water> * 250])
+    .chancedOutput(<enderio:item_material:19>, 7000, 1000)
+    .duration(1200)
+    .EUt(24)
+    .buildAndRegister();
+implosion_compressor.recipeBuilder()
+    .inputs([<ore:itemPrecientPowder> * 4])
+    .property("explosives", <minecraft:tnt> * 2)
+    .outputs([
+        <enderio:item_material:19> * 3,
+        <metaitem:dustTinyDarkAsh>
+    ])
+    .duration(20)
+    .EUt(30)
+    .buildAndRegister();
+implosion_compressor.recipeBuilder()
+    .inputs([<ore:itemPrecientPowder> * 4])
+    .property("explosives", <metaitem:dynamite>)
+    .outputs([
+        <enderio:item_material:19> * 3,
+        <metaitem:dustTinyDarkAsh>
+    ])
+    .duration(20)
+    .EUt(30)
+    .buildAndRegister();
 
 # Flour
 JEI.hide(<enderio:item_material:21>);
@@ -352,7 +469,7 @@ JEI.hide(<enderio:item_material:27>);
 <ore:dustTin>.remove(<enderio:item_material:27>);
 
 # Ender Pearl Powder
-JEI.hide(<enderio:item_material:22>);
+JEI.hide(<enderio:item_material:28>);
 // <ore:nuggetEnderpearl>.remove(<enderio:item_material:28>);
 
 # Obsidian Powder
@@ -371,9 +488,6 @@ JEI.hide(<enderio:item_material:32>);
 JEI.hide(<enderio:item_material:33>);
 <ore:dustNetherQuartz>.remove(<enderio:item_material:33>);
 
-# Withering Dust
-JEI.hide(<enderio:item_material:63>);
-
 # Confusing Powder
 JEI.hide(<enderio:item_material:61>);
 
@@ -381,46 +495,75 @@ JEI.hide(<enderio:item_material:61>);
 JEI.hide(<enderio:item_material:74>);
 
 # Glowstone Dust
-alloy_smelter.recipeBuilder()
-    .inputs([
-        <ore:dustGlowstone>,
-        <minecraft:clay_ball>
-    ])
-    .outputs([<enderio:item_material:76>])
-    .duration(56)
-    .EUt(480)
-    .buildAndRegister();
+JEI.hide(<enderio:item_material:76>);
 
 # Grains of Prescience
 macerator.recipeBuilder()
     .inputs([<ore:itemPrecientCrystal>])
     .outputs([<enderio:item_material:34>])
-    .duration(100)
-    .EUt(480)
+    .duration(20)
+    .EUt(2)
+    .buildAndRegister();
+mixer.recipeBuilder()
+    .inputs([
+        <ore:itemVibrantPowder>,
+        <ore:dustPlatinum>
+    ])
+    .outputs([<enderio:item_material:34>])
+    .duration(20)
+    .EUt(30)
     .buildAndRegister();
 
-# Grains of Vibranct
+# Grains of Vibrant
 macerator.recipeBuilder()
     .inputs([<ore:itemVibrantCrystal>])
     .outputs([<enderio:item_material:35>])
-    .duration(100)
-    .EUt(480)
+    .duration(20)
+    .EUt(2)
+    .buildAndRegister();
+mixer.recipeBuilder()
+    .inputs([
+        <ore:dustVibrantAlloy>,
+        <ore:dustEmerald>
+    ])
+    .outputs([<enderio:item_material:35>])
+    .duration(20)
+    .EUt(30)
     .buildAndRegister();
 
 # Grains of Piezallity
 macerator.recipeBuilder()
     .inputs([<ore:itemPulsatingCrystal>])
     .outputs([<enderio:item_material:36>])
-    .duration(100)
-    .EUt(480)
+    .duration(20)
+    .EUt(2)
+    .buildAndRegister();
+mixer.recipeBuilder()
+    .inputs([
+        <ore:dustPulsatingIron>,
+        <ore:dustDiamond>
+    ])
+    .outputs([<enderio:item_material:36>])
+    .duration(20)
+    .EUt(30)
     .buildAndRegister();
 
 # Grains of the End
 macerator.recipeBuilder()
     .inputs([<ore:itemEnderCrystal>])
     .outputs([<enderio:item_material:37>])
-    .duration(100)
-    .EUt(480)
+    .duration(20)
+    .EUt(2)
+    .buildAndRegister();
+mixer.recipeBuilder()
+    .inputs([
+        <ore:itemVibrantPowder>,
+        <metaitem:dustEndSteel>
+    ])
+    .fluidInputs([<liquid:xpjuice> * 864])
+    .outputs([<enderio:item_material:37>])
+    .duration(20)
+    .EUt(30)
     .buildAndRegister();
 
 # Photovoltaic Composite
@@ -433,31 +576,25 @@ recipes.addShaped(<enderio:item_material:38>, [
 # Zombie Eletrode
 SliceNSplice.addRecipe(<enderio:item_material:40>, [
     <ore:plateEnergeticAlloy>, <minecraft:skull:2>, <ore:plateEnergeticAlloy>,
-    <ore:plateSilicon>, <enderio:item_basic_capacitor> | <enderio:item_capacitor_silver>, <ore:plateSilicon>
+    <metaitem:wafer.silicon>, <enderio:item_basic_capacitor> | <enderio:item_capacitor_silver>, <metaitem:wafer.silicon>
 ]);
 
 # Z-Logic Controller
 SliceNSplice.addRecipe(<enderio:item_material:41>, [
     <ore:plateSoularium>, <minecraft:skull:2>, <ore:plateSoularium>,
-    <ore:plateSilicon>, <ore:dustRedstone>, <ore:plateSilicon>
+    <metaitem:wafer.silicon>, <ore:dustRedstone>, <metaitem:wafer.silicon>
 ]);
-
-# Frank'N'Zombie
-SoulBinder.addRecipe(<enderio:item_material:42>, <enderio:item_material:41>, ["minecraft:zombie"], 100000, 4);
 
 # Ender Resonator
 SliceNSplice.addRecipe(<enderio:item_material:43>, [
     <ore:plateSoularium>, <enderio:block_enderman_skull>, <ore:plateSoularium>,
-    <ore:plateSilicon>, <ore:plateVibrantAlloy>, <ore:plateSilicon>
+    <metaitem:wafer.silicon>, <ore:plateVibrantAlloy>, <metaitem:wafer.silicon>
 ]);
-
-# Sentient Ender
-SoulBinder.addRecipe(<enderio:item_material:44>, <enderio:item_material:43>, ["minecraft:witch"], 100000, 4);
 
 # Skeletal Contractor
 SliceNSplice.addRecipe(<enderio:item_material:45>, [
     <ore:plateSoularium>, <minecraft:skull>, <ore:plateSoularium>,
-    <minecraft:rotten_flesh>, <enderio:item_basic_capacitor> | <enderio:item_capacitor_silver>, <minecraft:rotten_flesh>
+    <metaitem:wafer.silicon>, <enderio:item_basic_capacitor> | <enderio:item_capacitor_silver>, <metaitem:wafer.silicon>
 ]);
 
 # Clippings and Trimmings
@@ -550,7 +687,7 @@ mixer.recipeBuilder()
 # Guardian Diode
 SliceNSplice.addRecipe(<enderio:item_material:56>, [
     <ore:plateEnergeticAlloy>, <ore:gemPrismarine>, <ore:plateEnergeticAlloy>,
-    <ore:itemPulsatingCrystal>, <ore:plateSilicon>, <ore:itemPulsatingCrystal>
+    <ore:itemPulsatingCrystal>, <metaitem:wafer.silicon>, <ore:itemPulsatingCrystal>
 ]);
 
 # Wireless Energy Transmitter
@@ -559,6 +696,15 @@ recipes.addShaped(<enderio:item_material:65>, [
     [null, <minecraft:dye:15>, <ore:plateElectricalSteel>],
     [<minecraft:dye:15>, <ore:plateElectricalSteel>, null]
 ]);
+
+# Ender Fragment
+JEI.hide(<enderio:item_material:62>);
+
+# Withering Dust
+JEI.hide(<enderio:item_material:63>);
+
+# Remote Awareness Upgrade
+JEI.hide(<enderio:item_material:64>);
 
 # Cake Base
 JEI.hide(<enderio:item_material:70>);
@@ -644,13 +790,18 @@ macerator.recipeBuilder()
     .EUt(480)
     .buildAndRegister();
 
-# Enderman Head
-
 # Tormented Enderman Head
 SliceNSplice.addRecipe(<enderio:block_enderman_skull:2>, [
     <ore:plateSoularium>, <enderio:block_enderman_skull>, <ore:plateSoularium>,
-    <minecraft:potion>.withTag({Potion: "minecraft:water"}), <enderio:item_basic_capacitor> | <enderio:item_capacitor_silver>, <minecraft:potion>.withTag({Potion: "minecraft:water"})
+    <metaitem:wafer.silicon>, <enderio:item_basic_capacitor> | <enderio:item_capacitor_silver>, <metaitem:wafer.silicon>
 ]);
+
+# Glowstone Nano-Particles
+JEI.hide(<enderio:block_holy_fog>);
+JEI.hide(<enderio:block_holier_fog>);
+
+# Owl Egg
+JEI.hide(<enderio:item_owl_egg>);
 
 # Crude Steel
 mixer.recipeBuilder()
@@ -811,5 +962,5 @@ assembler.recipeBuilder()
 # Totemic Capacitor
 SliceNSplice.addRecipe(<enderio:item_capacitor_totemic>, [
     <ore:plateSoularium>, <minecraft:totem_of_undying>, <ore:plateSoularium>,
-    <enderio:item_material:35>, <enderio:item_capacitor_crystalline>, <enderio:item_material:35>
+    <metaitem:wafer.silicon>, <enderio:item_capacitor_melodic>, <metaitem:wafer.silicon>
 ]);
