@@ -1,14 +1,7 @@
 #packmode normal
 # Imports
 import mods.jei.JEI;
-import mods.enderio.AlloySmelter; // 1
-import mods.enderio.CombustionGen; // no
-import mods.enderio.Enchanter; // no
-import mods.enderio.SagMill; // 2
-import mods.enderio.SliceNSplice; // 3
-import mods.enderio.SoulBinder; // 4
-import mods.enderio.Vat; // 5
-import mods.enderio.Tank; // no
+import mods.enderio.SliceNSplice;
 
 
 
@@ -405,9 +398,6 @@ implosion_compressor.recipeBuilder()
     .EUt(30)
     .buildAndRegister();
 
-# Enticing Crystal
-SoulBinder.addRecipe(<enderio:item_material:17>, <minecraft:emerald>, ["minecraft:villager"], 100000, 4);
-
 # Weather Crystal
 recipes.addShaped(<enderio:item_material:18>, [
     [null, <ore:itemPulsatingCrystal>, null],
@@ -517,9 +507,8 @@ macerator.recipeBuilder()
 mixer.recipeBuilder()
     .inputs([
         <ore:itemVibrantPowder>,
-        <ore:dustEnderPearl>
+        <ore:dustPlatinum>
     ])
-    .fluidInputs([<liquid:xpjuice> * 864])
     .outputs([<enderio:item_material:34>])
     .duration(20)
     .EUt(30)
@@ -541,13 +530,6 @@ mixer.recipeBuilder()
     .duration(20)
     .EUt(30)
     .buildAndRegister();
-mixer.recipeBuilder()
-    .inputs([<ore:dustEmerald>])
-    .fluidInputs([<liquid:vibrant_alloy> * 144])
-    .outputs([<enderio:item_material:35>])
-    .duration(20)
-    .EUt(30)
-    .buildAndRegister();
 
 # Grains of Piezallity
 macerator.recipeBuilder()
@@ -555,13 +537,6 @@ macerator.recipeBuilder()
     .outputs([<enderio:item_material:36>])
     .duration(20)
     .EUt(2)
-    .buildAndRegister();
-mixer.recipeBuilder()
-    .inputs([<ore:dustDiamond>])
-    .fluidInputs([<liquid:pulsating_iron> * 144])
-    .outputs([<enderio:item_material:36>])
-    .duration(20)
-    .EUt(30)
     .buildAndRegister();
 mixer.recipeBuilder()
     .inputs([
@@ -610,17 +585,11 @@ SliceNSplice.addRecipe(<enderio:item_material:41>, [
     <metaitem:wafer.silicon>, <ore:dustRedstone>, <metaitem:wafer.silicon>
 ]);
 
-# Frank'N'Zombie
-SoulBinder.addRecipe(<enderio:item_material:42>, <enderio:item_material:41>, ["minecraft:zombie"], 100000, 4);
-
 # Ender Resonator
 SliceNSplice.addRecipe(<enderio:item_material:43>, [
     <ore:plateSoularium>, <enderio:block_enderman_skull>, <ore:plateSoularium>,
     <metaitem:wafer.silicon>, <ore:plateVibrantAlloy>, <metaitem:wafer.silicon>
 ]);
-
-# Sentient Ender
-SoulBinder.addRecipe(<enderio:item_material:44>, <enderio:item_material:43>, ["minecraft:witch"], 100000, 4);
 
 # Skeletal Contractor
 SliceNSplice.addRecipe(<enderio:item_material:45>, [
