@@ -1,6 +1,11 @@
 {
+	title: "橙レンジャー",
 	x: 20.0d,
 	y: 0.0d,
+	description: "Wireless Pattern Terminal",
+	text: [
+		"無線パターンターミナルはパターンターミナルのワイヤレス版です。"
+	],
 	dependencies: [
 		"f49e45c9"
 	],

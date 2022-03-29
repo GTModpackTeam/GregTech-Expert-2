@@ -1,0 +1,34 @@
+{
+	title: "耐特異点装置",
+	icon: "appliedenergistics2:material 1 47",
+	x: 10.0d,
+	y: -6.0d,
+	description: "Singularity",
+	text: [
+		"マターコンデンサを作って64kコンポーネントをセットして、",
+		"不要なアイテムをコンデンサに沢山入れることでシンギュラリティができます。",
+		"これはME量子リンクチャンバーを起動するのに必要な中間素材です。",
+		"",
+		"マターコンデンサでは他にマターキャノンで使えるマターボールも作れますが、",
+		"マターキャノンはGregTechの鉱石を掘ってくれないので大人しくドリルを使いましょう。"
+	],
+	dependencies: [
+		"46f4d2ad"
+	],
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "c6df3618",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:condenser"
+		}]
+	},
+	{
+		uid: "a148ad6b",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 47"
+		}]
+	}]
+}

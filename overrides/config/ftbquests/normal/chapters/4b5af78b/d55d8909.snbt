@@ -29,5 +29,47 @@
 		uid: "68b321b5",
 		type: "checkmark",
 		title: "読んだら押しましょう"
+	}],
+	rewards: [{
+		uid: "2148678d",
+		type: "item",
+		item: "ftbquests:book"
+	},
+	{
+		uid: "bcf500e4",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 465s,
+			tag: {
+				terminal: {
+					_hw: {}
+				}
+			}
+		}
+	},
+	{
+		uid: "db6a3d21",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 466s,
+			tag: {
+				Charge: 100000L
+			}
+		}
+	},
+	{
+		uid: "9dbd475a",
+		type: "item",
+		item: {
+			id: "gregtech:meta_tool",
+			Damage: 19s,
+			tag: {
+				GT.ToolStats: {
+					Material: "diamond"
+				}
+			}
+		}
 	}]
 }

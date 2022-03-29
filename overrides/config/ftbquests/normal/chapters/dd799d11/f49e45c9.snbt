@@ -1,6 +1,11 @@
 {
+	title: "青レンジャー",
 	x: 18.0d,
 	y: 0.0d,
+	description: "Wireless Fluid Terminal",
+	text: [
+		"ワイヤレス液体ターミナルは液体ターミナルのワイヤレス版です。"
+	],
 	dependencies: [
 		"eb1959d9"
 	],
