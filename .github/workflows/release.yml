@@ -13,7 +13,9 @@ jobs:
 
       - name: Get the version
         id: get_version
-        run: echo ::set-output name=VERSION::${GITHUB_REF/refs\/tags\//}
+        run: |-
+          echo ::set-output name=VERSION::$(echo ${GITHUB_REF} | sed -e 's#refs/tags/##g' | awk -F'-' '{print $1}')
+          echo ::set-output name=LEVEL::$(echo ${GITHUB_REF} | sed -e 's#refs/tags/##g' | awk -F'-' '{print $2}')
 
       - name: Archive Release Client
         uses: thedoctor0/zip-release@master
@@ -45,4 +47,4 @@ jobs:
           game-version: "1.12.2"
           display-name: "GTExpert2-${{ steps.get_version.outputs.VERSION }}"
           # server-display-name: "GTExpert2-${{ steps.get_version.outputs.VERSION }}-server"
-          release-type: "release"
+          release-type: "${{ steps.get_version.outputs.LEVEL }}"
