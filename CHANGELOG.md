@@ -1,3 +1,137 @@
+# v1.3.0(beta)
+## Modpack fix
+* [Fix] Paint Ball & Color Applicator (#113)
+
+## Modpack update
+* [Update] EIO Brushup (#96)
+* [Update] Refresh mods (#111)
+* [Update] Chunkloader Upgrade (#112)
+* [Update] Quest include v0.9.1 (#117)
+
+## New mods
+* Gregic Probe
+* TombManyGraves 2 API
+* TombManyPlugins - Cosmetic Armor Reworked
+* Smooth Font
+* Untranslated Items
+
+## Move mods
+* Custom Starter Gear -> FTB Quest
+* GraveStone Mod -> TombManyGraves 2
+* No Recipe Book -> Crafting Tweaks
+* Secure EnderStorage -> Claimed(FTB Utilities)
+
+## Del mods
+* Bed Patch
+* Better P2P
+* Born in a Barn
+* Cucumber Library
+* FastWorkbench
+* FastFurnace
+* Fluidlogged API
+* Just Enough Characters
+* Just Enough Drags
+* Mouse Tweaks
+* LunatriusCore
+* Stackie
+* Tips
+
+## Change cfg
+### Just Enough Calculation
+* B:clientMode=false -> true
+
+### JEI(HEI)
+* B:ultraLowMemoryUsage=true -> false
+
+### Random Patches
+* S:title=Minecraft 1.12.2 -> GregTech Expert 2
+* I:packetSizeLimit=16777216 -> 2147483647
+
+## Update recipes
+### Open Computers
+* Chunkloader Upgrade
+
+### Ender IO
+* Experience Rod
+* Coordinate Selector
+* Pulsating Crystal
+* Vibrant Crystal
+* Ender Crystal
+* Prescient Crystal
+* Grains of Prescience
+* Grains of Vibrant
+* Grains of Piezallity
+* Grains of the End
+* Zombie Eletrode
+* Z-Logic Controller
+* Ender Resonator
+* Skeletal Contractor
+* Guardian Diode
+* Tormented Enderman Head
+* Totemic Capacitor
+
+## New recipes
+### Ender IO
+* Wired Charger
+* Energy Conduit
+* Enhaned Energy Conduit
+* Ender Energy Conduit
+* Crystalline Alloy Endergy Conduit
+* Crystalline Pink Slime Endergy Conduit
+* Melodic Alloy Endergy Conduit
+* Soularium Dust
+* Crude Steel Dust
+* Crystalline Alloy Dust
+* Melodic Alloy Dust
+* Stellar Alloy Dust
+* Crystalline Pink Slime Dust
+
+## Fix recipes
+### Ender IO
+* Conductive Iron
+	* 2700K -> 1700K
+* Construction Alloy(Iron Alloy)
+	* 5400K -> 1700K
+* Electrical Steel(Formula only)
+* Energetic Alloy(Formula only)
+* Vibrant Alloy(Formula only)
+* Redstone Alloy(Formula only)
+* Pulsating Iron(Formula only)
+* Dark Steel(Formula only)
+* Soularium(Formula only)
+* End Steel(Formula only)
+* Crystalline Alloy(Formula only)
+* Melodic Alloy(Formula only)
+* Stellar Alloy(Formula only)
+* Crystalline Pink Slime(Formula only)
+* Energetic Silver(Formula only)
+* Vivid Alloy(Formula only)
+
+## Hide recipes
+### Ender IO
+* Combustion Generator
+* Stirling Generator
+* Qreative Powered Spawner
+* Nutritious Stick
+* Ender Pearl Powder
+* Glowstone Dust(EIO)
+* Ender Fragment
+* Withering Dust
+* Remote Awareness Upgrade
+* Glowstone Nano-Particles
+* Owl Egg
+* EIO TNTs
+
+## Del recipes
+### AE2
+* Color Applicator
+* Paint Ball
+
+### FTB Quests
+* Remove non-book recipes from JEI.
+
+* * *
+
 # v1.2.5
 ## Modpack fix
 * [Bug] Void Ore Miner didn't require Input Bus (#94)
