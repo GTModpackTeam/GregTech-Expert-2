@@ -32,8 +32,11 @@ if (!isNull(ae2)) {
     val ae2Items as IItemStack[] = ae2.items;
 
     for item in ae2Items {
-        if(item.displayName has "Cable Facade") {
+        if (item.displayName has "Cable Facade") {
             JEI.hide(item); 
+        }
+        if (item.displayName has "Paint Ball") {
+            JEI.removeAndHide(item); 
         }
     }
 }
@@ -59,6 +62,9 @@ recipes.addShaped(<aenetvistool:net_visualizer>, [
     [<appliedenergistics2:network_tool>, <metaitem:wireless>, <appliedenergistics2:entropy_manipulator>],
     [<ore:plateAluminium>, <appliedenergistics2:material:44>, <ore:plateAluminium>]
 ]);
+
+# Color Applicator
+JEI.removeAndHide(<appliedenergistics2:color_applicator>);
 
 # Inscriber Calulation Press
 Inscriber.removeRecipe(<appliedenergistics2:material:13>);
