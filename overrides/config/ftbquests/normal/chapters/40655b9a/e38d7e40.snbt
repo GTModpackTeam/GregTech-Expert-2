@@ -25,7 +25,8 @@
 	tasks: [{
 		uid: "fb23536a",
 		type: "fluid",
-		fluid: "polytetrafluoroethylene"
+		fluid: "polytetrafluoroethylene",
+		amount: 144
 	},
 	{
 		uid: "63cb5b93",

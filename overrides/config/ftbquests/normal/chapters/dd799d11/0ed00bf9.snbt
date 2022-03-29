@@ -1,6 +1,12 @@
 {
+	title: "ME Real Component",
 	x: 12.0d,
 	y: -4.0d,
+	description: "16384k ME Storage Component",
+	text: [
+		"16384kセルは億単位でアイテムを収納できる最後のセルです。",
+		"主に中間素材としての使用が主になるでしょう。"
+	],
 	dependencies: [
 		"46f4d2ad"
 	],

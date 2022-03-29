@@ -1,0 +1,43 @@
+{
+	title: "もつれを安定化",
+	icon: "appliedenergistics2:quantum_link",
+	x: 10.0d,
+	y: -8.0d,
+	description: "Quantum Tunnel",
+	text: [
+		"量子トンネルを使うことでMEネットワークを拡張することができます。",
+		"",
+		"拠点を移動したいときや大型採掘機を設置したいときやなにか色々したいときに入用になるでしょう。",
+		"",
+		"量子トンネルは高価ですがこれを使いたいときには安くなっていると信じています。"
+	],
+	dependencies: [
+		"3b518fb2"
+	],
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "0346ee68",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 48"
+		}],
+		count: 2L
+	},
+	{
+		uid: "b68ed677",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:quantum_link"
+		}],
+		count: 2L
+	},
+	{
+		uid: "53528a62",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:quantum_ring"
+		}],
+		count: 16L
+	}]
+}

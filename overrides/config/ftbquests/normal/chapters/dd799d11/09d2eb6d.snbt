@@ -1,23 +1,21 @@
 {
-	x: 6.0d,
-	y: 0.0d,
+	title: "繰り返される充電と放電",
+	x: 8.0d,
+	y: 2.0d,
+	shape: "diamond",
+	description: "Energy Cell",
 	text: [
-		"Energy_CellをMEネットワークに組み込まないとネットワークが極めて不安定になる不具合が確認されています。",
-		"数個作ってこのあと作るME Controller付近に置きましょう。"
+		"Energy_CellはMEネットワークのバッテリー役を担います。",
+		"",
+		"これをMEネットワークに最低1個は組み込まないと",
+		"例え十分な電力が供給されていてもネットワークの内部バッファーが小さすぎて頻繁に停電する問題が確認されています。",
+		"保険の為に数個作ってこのあと作るME Controllerに隣接させましょう。"
 	],
 	dependencies: [
-		"1f4f999e"
+		"26766057"
 	],
 	min_width: 300,
 	tasks: [{
-		uid: "21f918d7",
-		type: "item",
-		items: [{
-			item: "appliedenergistics2:energy_acceptor"
-		}],
-		ignore_nbt: 1b
-	},
-	{
 		uid: "c1765ed9",
 		type: "item",
 		items: [{

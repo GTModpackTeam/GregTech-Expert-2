@@ -1,6 +1,12 @@
 {
+	title: "紫レンジャー",
 	x: 22.0d,
 	y: 0.0d,
+	description: "Wireless Interface Terminal",
+	text: [
+		"無線インターフェースターミナルはインターフェースターミナルのワイヤレス版です。",
+		"検索機能が一部失われてしまっていますが仕様です。"
+	],
 	dependencies: [
 		"811a1952"
 	],

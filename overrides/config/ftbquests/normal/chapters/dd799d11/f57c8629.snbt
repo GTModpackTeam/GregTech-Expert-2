@@ -1,6 +1,12 @@
 {
+	title: "赤レンジャー",
 	x: 24.0d,
 	y: 0.0d,
+	description: "Wireless Crafting Terminal",
+	text: [
+		"無線クラフティングターミナルはクラフティングターミナルのワイヤレス版です。",
+		"無線ターミナル系の中で特に需要が高いでしょう。"
+	],
 	dependencies: [
 		"f7850c87"
 	],
