@@ -1,3 +1,12 @@
+# v1.3.0(beta)
+## Modpack fix
+* 
+
+## Modpack update
+* 
+
+* * *
+
 # v1.2.5
 ## Modpack fix
 * [Bug] Void Ore Miner didn't require Input Bus (#94)
