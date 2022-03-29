@@ -515,7 +515,7 @@ batteryupgrade3 {
 chunkloaderupgrade {
   input: [
     ["wireGtSingleNiobiumTitanium", "blockGlass", "wireGtSingleNiobiumTitanium"]
-    ["oc:circuitChip3", "eyeOfEnder", "oc:circuitChip3"]
+    ["oc:circuitChip3", {block="chickenchunks:chunk_loader", subID=1}, "oc:circuitChip3"]
     ["obsidian", {oreDict: "circuitBasic", gtid: "circuit.basic"}, "obsidian"]
   ]
 }
