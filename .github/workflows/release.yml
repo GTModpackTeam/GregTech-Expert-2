@@ -2,7 +2,9 @@ name: Deploy Modpack
 on:
   push:
     tags:
-      - 'v*'
+      - 'v*-release'
+      - 'v*-beta'
+      - 'v*-alpha'
 
 jobs:
   test:
