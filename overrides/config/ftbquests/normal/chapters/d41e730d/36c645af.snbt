@@ -1,7 +1,9 @@
 {
-	x: 8.0d,
-	y: 0.0d,
+	x: 2.0d,
+	y: -8.0d,
+	shape: "diamond",
 	dependencies: [
+		"e29d9148",
 		"f0b87da3"
 	],
 	tasks: [{

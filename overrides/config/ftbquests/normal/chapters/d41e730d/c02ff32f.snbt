@@ -1,6 +1,7 @@
 {
 	x: 0.0d,
 	y: 0.0d,
+	shape: "diamond",
 	hide: true,
 	tasks: [{
 		uid: "cfa14a2e",

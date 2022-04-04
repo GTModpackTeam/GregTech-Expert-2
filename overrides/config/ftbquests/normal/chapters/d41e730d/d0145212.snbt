@@ -1,0 +1,46 @@
+{
+	title: "有機物蒸留",
+	x: -4.0d,
+	y: 6.0d,
+	text: [
+		"※蒸留器でのクエストスキップを防ぐ為に全て入手しないと達成できない判定にしています"
+	],
+	dependencies: [
+		"1f3b4ec5"
+	],
+	tasks: [{
+		uid: "8325d854",
+		type: "fluid",
+		fluid: "phenol"
+	},
+	{
+		uid: "9cf5f7d9",
+		type: "fluid",
+		fluid: "benzene"
+	},
+	{
+		uid: "2596bd02",
+		type: "fluid",
+		fluid: "toluene"
+	},
+	{
+		uid: "5a166962",
+		type: "fluid",
+		fluid: "dimethylbenzene"
+	},
+	{
+		uid: "684fbeea",
+		type: "fluid",
+		fluid: "acetic_acid"
+	},
+	{
+		uid: "a7a0d9c9",
+		type: "fluid",
+		fluid: "methanol"
+	},
+	{
+		uid: "f6d62edf",
+		type: "fluid",
+		fluid: "acetone"
+	}]
+}

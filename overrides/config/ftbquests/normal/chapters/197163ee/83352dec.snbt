@@ -1,0 +1,32 @@
+{
+	x: 4.0d,
+	y: 20.0d,
+	description: "Monazite Vein",
+	text: [
+		""
+	],
+	dependencies: [
+		"2b9a2b25"
+	],
+	tasks: [{
+		uid: "b7b7e1e1",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_bastnasite_0 1 1"
+		}]
+	},
+	{
+		uid: "21560d72",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_monazite_0 1 1"
+		}]
+	},
+	{
+		uid: "e7f00a4e",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_neodymium_0 1 1"
+		}]
+	}]
+}

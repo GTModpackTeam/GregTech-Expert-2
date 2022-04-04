@@ -1,0 +1,19 @@
+{
+	title: "最初のプラチナの入手法",
+	x: 2.0d,
+	y: 0.0d,
+	shape: "diamond",
+	text: [
+		""
+	],
+	dependencies: [
+		"c02ff32f"
+	],
+	tasks: [{
+		uid: "68cded59",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 80"
+		}]
+	}]
+}

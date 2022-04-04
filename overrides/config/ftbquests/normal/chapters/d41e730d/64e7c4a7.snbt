@@ -1,0 +1,17 @@
+{
+	title: "Gregicality-Multiblockのクエスト追加予定地",
+	icon: "gregtech:machine 1 1031",
+	x: 6.0d,
+	y: 6.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"6735403d"
+	],
+	tasks: [{
+		uid: "c6380401",
+		type: "checkmark",
+		title: "読んだら押しましょう"
+	}]
+}

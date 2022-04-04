@@ -1,12 +1,13 @@
 {
-	x: -2.0d,
-	y: 2.0d,
+	icon: "gregtech:meta_plate 1 1000",
+	x: -6.0d,
+	y: -2.0d,
 	description: "Silicon Rubber",
 	text: [
 		"※シリコンゴムはMVで作れますが塩素の消費量が大きく推奨されないのでEVにクエストを置いています"
 	],
 	dependencies: [
-		"c02ff32f"
+		"844ace19"
 	],
 	min_width: 300,
 	or_tasks: true,
@@ -14,7 +15,7 @@
 		uid: "b49a9913",
 		type: "fluid",
 		fluid: "silicone_rubber",
-		amount: 1
+		amount: 144
 	},
 	{
 		uid: "d47f22f6",

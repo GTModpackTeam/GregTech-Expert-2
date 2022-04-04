@@ -1,0 +1,31 @@
+{
+	title: "空気蒸留",
+	x: -6.0d,
+	y: 6.0d,
+	text: [
+		"※蒸留器でのクエストスキップを防ぐ為に全て入手しないと達成できない判定にしています"
+	],
+	dependencies: [
+		"1f3b4ec5"
+	],
+	tasks: [{
+		uid: "3c0bd360",
+		type: "fluid",
+		fluid: "oxygen"
+	},
+	{
+		uid: "c53dda65",
+		type: "fluid",
+		fluid: "nitrogen"
+	},
+	{
+		uid: "04ef7e2e",
+		type: "fluid",
+		fluid: "helium"
+	},
+	{
+		uid: "bbe2740b",
+		type: "fluid",
+		fluid: "argon"
+	}]
+}
