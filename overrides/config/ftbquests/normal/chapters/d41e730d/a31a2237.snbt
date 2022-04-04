@@ -1,0 +1,29 @@
+{
+	icon: "gregtech:meta_plate 1 1004",
+	x: -6.0d,
+	y: 2.0d,
+	dependencies: [
+		"844ace19"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "9615eac9",
+		type: "fluid",
+		fluid: "styrene_butadiene_rubber",
+		amount: 144
+	},
+	{
+		uid: "bdc0e9af",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 1004"
+		}]
+	},
+	{
+		uid: "2772c1eb",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_plate 1 1004"
+		}]
+	}]
+}

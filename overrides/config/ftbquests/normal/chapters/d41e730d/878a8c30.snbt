@@ -1,0 +1,21 @@
+{
+	title: "大型タービン講座",
+	x: 0.0d,
+	y: 8.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"1631b3c1",
+		"47819e5a"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "c18a6ad9",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 711"
+		}],
+		ignore_nbt: 1b
+	}]
+}

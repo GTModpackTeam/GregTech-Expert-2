@@ -1,0 +1,13 @@
+{
+	x: -8.0d,
+	y: 2.0d,
+	shape: "diamond",
+	dependencies: [
+		"844ace19"
+	],
+	tasks: [{
+		uid: "e9a6ab3b",
+		type: "fluid",
+		fluid: "acetone"
+	}]
+}

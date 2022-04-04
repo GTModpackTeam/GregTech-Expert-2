@@ -1,0 +1,24 @@
+{
+	icon: "gregtech:machine 1 1011",
+	x: 0.0d,
+	y: 6.0d,
+	dependencies: [
+		"331de251",
+		"af8baf2f"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "d1140918",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1011"
+		}]
+	},
+	{
+		uid: "c0d88afd",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1641"
+		}]
+	}]
+}

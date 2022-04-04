@@ -1,7 +1,7 @@
 {
 	title: "触媒の王",
-	x: 6.0d,
-	y: 18.0d,
+	x: 2.0d,
+	y: 22.0d,
 	description: "Platinum Ingot",
 	text: [
 		""
@@ -14,6 +14,13 @@
 		type: "item",
 		items: [{
 			item: "gregtech:meta_ingot 1 80"
+		}]
+	},
+	{
+		uid: "2dfdc349",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_crushed_purified 1 273"
 		}]
 	}]
 }

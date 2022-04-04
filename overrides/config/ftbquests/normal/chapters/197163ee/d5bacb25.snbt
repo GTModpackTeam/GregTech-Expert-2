@@ -1,0 +1,25 @@
+{
+	x: 6.0d,
+	y: 20.0d,
+	description: "Pitchblende Vein",
+	text: [
+		""
+	],
+	dependencies: [
+		"2b9a2b25"
+	],
+	tasks: [{
+		uid: "8bbaff41",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_pitchblende_0 1 2"
+		}]
+	},
+	{
+		uid: "d979bb14",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_uraninite_0 1 2"
+		}]
+	}]
+}

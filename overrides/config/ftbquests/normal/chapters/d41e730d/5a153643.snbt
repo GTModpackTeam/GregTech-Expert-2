@@ -1,0 +1,31 @@
+{
+	title: "燃料蒸留",
+	x: -8.0d,
+	y: 6.0d,
+	text: [
+		"※蒸留器でのクエストスキップを防ぐ為に全て入手しないと達成できない判定にしています"
+	],
+	dependencies: [
+		"1f3b4ec5"
+	],
+	tasks: [{
+		uid: "f168760b",
+		type: "fluid",
+		fluid: "benzene"
+	},
+	{
+		uid: "2b159272",
+		type: "fluid",
+		fluid: "butadiene"
+	},
+	{
+		uid: "d1ab36dd",
+		type: "fluid",
+		fluid: "ethylene"
+	},
+	{
+		uid: "7cc016b5",
+		type: "fluid",
+		fluid: "methane"
+	}]
+}
