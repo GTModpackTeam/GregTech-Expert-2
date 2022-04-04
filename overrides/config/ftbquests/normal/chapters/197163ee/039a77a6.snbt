@@ -10,6 +10,7 @@
 		"64914cac",
 		"59e79100"
 	],
+	dependency_requirement: "one_completed",
 	tasks: [{
 		uid: "61344f8d",
 		type: "item",

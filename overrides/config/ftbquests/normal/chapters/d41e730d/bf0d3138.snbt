@@ -1,0 +1,23 @@
+{
+	icon: "gregtech:meta_dust 1 116",
+	x: 2.0d,
+	y: -2.0d,
+	shape: "diamond",
+	dependencies: [
+		"c02ff32f",
+		"b079061c"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "348e191e",
+		type: "fluid",
+		fluid: "uranium_hexafluoride"
+	},
+	{
+		uid: "3c7b380b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 116"
+		}]
+	}]
+}

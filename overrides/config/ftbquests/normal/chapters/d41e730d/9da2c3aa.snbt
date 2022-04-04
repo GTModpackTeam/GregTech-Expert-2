@@ -1,0 +1,34 @@
+{
+	icon: "gregtech:meta_dust 1 115",
+	x: 4.0d,
+	y: -2.0d,
+	shape: "diamond",
+	description: "Tungsten Chain",
+	text: [
+		""
+	],
+	dependencies: [
+		"e96ba058"
+	],
+	tasks: [{
+		uid: "a25efeba",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 203"
+		}]
+	},
+	{
+		uid: "6f84c430",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 278"
+		}]
+	},
+	{
+		uid: "982c26b7",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 115"
+		}]
+	}]
+}

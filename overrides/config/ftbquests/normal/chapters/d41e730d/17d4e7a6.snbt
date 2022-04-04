@@ -1,0 +1,21 @@
+{
+	x: 2.0d,
+	y: -4.0d,
+	shape: "diamond",
+	dependencies: [
+		"bf0d3138"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "91486813",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 81"
+		}]
+	},
+	{
+		uid: "96001944",
+		type: "fluid",
+		fluid: "radon"
+	}]
+}

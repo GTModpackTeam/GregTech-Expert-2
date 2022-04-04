@@ -1,0 +1,26 @@
+{
+	icon: "gregtech:machine 1 1010",
+	x: -2.0d,
+	y: 6.0d,
+	text: [
+		"※このマルチブロックはHVでも作れますが、EV時代に初めて需要が生まれる性能なのでEVのタブに置いています"
+	],
+	dependencies: [
+		"c02ff32f"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "9f9e320f",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1010"
+		}]
+	},
+	{
+		uid: "cf6dc629",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1640"
+		}]
+	}]
+}
