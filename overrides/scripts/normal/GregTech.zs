@@ -386,19 +386,6 @@ electrolyzer.recipeBuilder()
     .EUt(30)
     .buildAndRegister();
 
-# Stellar Alloy Dust
-electrolyzer.findRecipe(30, [<metaitem:dustStellarAlloy> * 2], null).remove();
-electrolyzer.recipeBuilder()
-    .inputs([<metaitem:dustStellarAlloy> * 3])
-    .outputs([
-        <metaitem:dustNetherStar>,
-        <metaitem:dustMelodicAlloy>,
-        <metaitem:dustClay>
-    ])
-    .duration(168)
-    .EUt(30)
-    .buildAndRegister();
-
 # Crystalline Pink Slime Dust
 electrolyzer.recipeBuilder()
     .inputs([<metaitem:dustCrystallinePinkSlime> * 2])

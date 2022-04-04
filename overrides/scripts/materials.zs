@@ -284,8 +284,8 @@ MaterialBuilder(32113, "stellar_alloy")
     ])
     .components([
         <material:melodic_alloy> * 1,
-        <material:clay> * 1
-        // <material:netherstar> * 1
+        <material:clay> * 1,
+        <material:nether_star> * 1
     ])
     .build();
 MaterialRegistry.get("stellar_alloy").setFormula("FeC(MgFeSi2O4)2(Na2LiAl2Si2(H2O)6)?", true);
@@ -300,7 +300,7 @@ MaterialBuilder(32114, "crystalline_pink_slime")
         "generate_plate"
     ])
     .build();
-MaterialRegistry.get("crystalline_pink_slime").setFormula("FeC(MgFeSi2O4(C5H8))2", true);
+MaterialRegistry.get("crystalline_pink_slime").setFormula("FeC(MgFeSi2O4(C5H8))2?", true);
 
 # EIO - Energetic Silver
 MaterialBuilder(32115, "energetic_silver")
