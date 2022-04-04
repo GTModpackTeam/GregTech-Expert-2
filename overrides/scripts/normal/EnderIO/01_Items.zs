@@ -290,10 +290,10 @@ recipes.addShaped(<enderio:item_dark_steel_sword>, [
     [null, <ore:stickDarkSteel>, null]
 ]);
 
-# Dark Pick
+# Dark Pickaxe
 recipes.addShaped(<enderio:item_dark_steel_pickaxe>, [
-    [<ore:plateDarkSteel>, <ore:ingotDarkSteel>, <ore:gtce.tool.hard.hammers>],
-    [<ore:gtce.tool.files>, <ore:stickDarkSteel>, null],
+    [<ore:plateDarkSteel>, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>],
+    [<ore:gtce.tool.files>, <ore:stickDarkSteel>, <ore:gtce.tool.hard.hammers>],
     [null, <ore:stickDarkSteel>, null]
 ]);
 
