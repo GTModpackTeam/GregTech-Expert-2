@@ -9,3 +9,5 @@
 /overrides/mods/memory_repo
 /overrides/mods/1.12.2
 /overrides/scripts/recipes.zs
+/overrides/config/smoothfont/*
+!/overrides/config/smoothfont/smoothfont.cfg
