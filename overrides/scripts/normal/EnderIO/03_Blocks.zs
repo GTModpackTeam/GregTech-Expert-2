@@ -6,7 +6,7 @@ import mods.jei.JEI;
 
 # Dark Steel Anvil
 alloy_smelter.recipeBuilder()
-    .inputs([<ore:ingotDarkSteel> * 31])
+    .inputs([<metaitem:ingotDarkSteel> * 31])
     .notConsumable([<metaitem:shape.mold.anvil>])
     .outputs([<enderio:block_dark_steel_anvil>])
     .duration(512)
@@ -33,13 +33,13 @@ alloy_smelter.recipeBuilder()
 
 # Dark Steel Ladder
 recipes.addShaped(<enderio:block_dark_steel_ladder> * 2, [
-    [<ore:stickDarkSteel>, <ore:gtce.tool.soft.hammers>, <ore:stickDarkSteel>],
-    [<ore:stickDarkSteel>, <ore:stickDarkSteel>, <ore:stickDarkSteel>],
-    [<ore:stickDarkSteel>, <ore:gtce.tool.hard.hammers>, <ore:stickDarkSteel>]
+    [<metaitem:stickDarkSteel>, <ore:gtce.tool.soft.hammers>, <metaitem:stickDarkSteel>],
+    [<metaitem:stickDarkSteel>, <metaitem:stickDarkSteel>, <metaitem:stickDarkSteel>],
+    [<metaitem:stickDarkSteel>, <ore:gtce.tool.hard.hammers>, <metaitem:stickDarkSteel>]
 ]);
 assembler.recipeBuilder()
     .circuit(1)
-    .inputs([<ore:stickDarkSteel> * 7])
+    .inputs([<metaitem:stickDarkSteel> * 7])
     .outputs([<enderio:block_dark_steel_ladder> * 2])
     .duration(40)
     .EUt(1)
@@ -48,12 +48,12 @@ assembler.recipeBuilder()
 # Dark Iron Bars
 recipes.addShaped(<enderio:block_dark_iron_bars> * 8, [
     [null, <ore:gtce.tool.hard.hammers>, null],
-    [<ore:stickDarkSteel>, <ore:stickDarkSteel>, <ore:stickDarkSteel>],
-    [<ore:stickDarkSteel>, <ore:stickDarkSteel>, <ore:stickDarkSteel>]
+    [<metaitem:stickDarkSteel>, <metaitem:stickDarkSteel>, <metaitem:stickDarkSteel>],
+    [<metaitem:stickDarkSteel>, <metaitem:stickDarkSteel>, <metaitem:stickDarkSteel>]
 ]);
 assembler.recipeBuilder()
     .circuit(3)
-    .inputs([<ore:stickDarkSteel> * 3])
+    .inputs([<metaitem:stickDarkSteel> * 3])
     .outputs([<enderio:block_dark_iron_bars> * 4])
     .duration(300)
     .EUt(4)
@@ -61,13 +61,13 @@ assembler.recipeBuilder()
 
 # Dark Steel Trapdoor
 recipes.addShaped(<enderio:block_dark_steel_trapdoor>, [
-    [<ore:screwDarkSteel>, <ore:plateDarkSteel>, <ore:screwDarkSteel>],
-    [<ore:plateDarkSteel>, <minecraft:trapdoor>, <ore:plateDarkSteel>],
-    [<ore:gtce.tool.saws>, <ore:plateDarkSteel>, <ore:gtce.tool.screwdrivers>]
+    [<metaitem:screwDarkSteel>, <metaitem:plateDarkSteel>, <metaitem:screwDarkSteel>],
+    [<metaitem:plateDarkSteel>, <minecraft:trapdoor>, <metaitem:plateDarkSteel>],
+    [<ore:gtce.tool.saws>, <metaitem:plateDarkSteel>, <ore:gtce.tool.screwdrivers>]
 ]);
 assembler.recipeBuilder()
     .inputs([
-        <ore:plateDarkSteel> * 4,
+        <metaitem:plateDarkSteel> * 4,
         <minecraft:trapdoor>
     ])
     .fluidInputs([<liquid:steel> * 16])
@@ -78,14 +78,14 @@ assembler.recipeBuilder()
 
 # Dark Steel Door
 recipes.addShaped(<enderio:block_dark_steel_door>, [
-    [<ore:plateDarkSteel>, <enderio:block_dark_iron_bars>, <ore:gtce.tool.hard.hammers>],
-    [<ore:plateDarkSteel>, <ore:ringDarkSteel>, <ore:screwDarkSteel>],
-    [<ore:plateDarkSteel>, <ore:plateDarkSteel>, <ore:gtce.tool.screwdrivers>]
+    [<metaitem:plateDarkSteel>, <enderio:block_dark_iron_bars>, <ore:gtce.tool.hard.hammers>],
+    [<metaitem:plateDarkSteel>, <metaitem:ringDarkSteel>, <metaitem:screwDarkSteel>],
+    [<metaitem:plateDarkSteel>, <metaitem:plateDarkSteel>, <ore:gtce.tool.screwdrivers>]
 ]);
 assembler.recipeBuilder()
     .inputs([
         <enderio:block_dark_iron_bars>,
-        <ore:plateDarkSteel> * 4
+        <metaitem:plateDarkSteel> * 4
     ])
     .outputs([<enderio:block_dark_steel_door>])
     .duration(400)
@@ -111,9 +111,9 @@ JEI.hide(<enderio:block_decoration3:*>);
 
 # Reinforced Obsidian
 recipes.addShaped(<enderio:block_reinforced_obsidian>, [
-    [<ore:dustBedrock>, <enderio:block_dark_iron_bars>, <ore:dustBedrock>],
+    [<enderio:item_material:20>, <enderio:block_dark_iron_bars>, <enderio:item_material:20>],
     [<enderio:block_dark_iron_bars>, <ore:obsidian>, <enderio:block_dark_iron_bars>],
-    [<ore:dustBedrock>, <enderio:block_dark_iron_bars>, <ore:dustBedrock>]
+    [<enderio:item_material:20>, <enderio:block_dark_iron_bars>, <enderio:item_material:20>]
 ]);
 
 # Industrial Insulation
@@ -130,12 +130,12 @@ alloy_smelter.recipeBuilder()
 # End Steel Bars
 recipes.addShaped(<enderio:block_end_iron_bars> * 8, [
     [null, <ore:gtce.tool.hard.hammers>, null],
-    [<ore:stickEndSteel>, <ore:stickEndSteel>, <ore:stickEndSteel>],
-    [<ore:stickEndSteel>, <ore:stickEndSteel>, <ore:stickEndSteel>]
+    [<metaitem:stickEndSteel>, <metaitem:stickEndSteel>, <metaitem:stickEndSteel>],
+    [<metaitem:stickEndSteel>, <metaitem:stickEndSteel>, <metaitem:stickEndSteel>]
 ]);
 assembler.recipeBuilder()
     .circuit(3)
-    .inputs([<ore:stickEndSteel> * 3])
+    .inputs([<metaitem:stickEndSteel> * 3])
     .outputs([<enderio:block_end_iron_bars> * 4])
     .duration(300)
     .EUt(4)

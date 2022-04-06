@@ -10,9 +10,9 @@ import mods.jei.JEI;
 # Wrench
 recipes.remove(<opencomputers:wrench>);
 recipes.addShaped(<opencomputers:wrench>, [
-    [<ore:ingotIron>, null, <ore:ingotIron>],
+    [<metaitem:ingotIron>, null, <metaitem:ingotIron>],
     [null, <opencomputers:material:8>, null],
-    [null, <ore:ingotIron>, null]
+    [null, <metaitem:ingotIron>, null]
 ]);
 
 # Memory Tier1
@@ -34,7 +34,7 @@ assembler.recipeBuilder()
     .circuit(1)
     .inputs([
         <ore:boltIron> * 3,
-        <ore:dustRedstone>
+        <minecraft:redstone>
     ])
     .outputs([<opencomputers:material:6>])
     .duration(200)
@@ -47,7 +47,7 @@ assembler.recipeBuilder()
     .circuit(1)
     .inputs([
         <opencomputers:material:6> * 4,
-        <ore:circuitBasic>
+        <ore:circuitLv>
     ])
     .outputs([<opencomputers:material:7>])
     .duration(200)
@@ -60,7 +60,7 @@ assembler.recipeBuilder()
     .circuit(2)
     .inputs([
         <opencomputers:material:6> * 8,
-        <ore:circuitGood>
+        <ore:circuitMv>
     ])
     .outputs([<opencomputers:material:8>])
     .duration(200)
@@ -73,7 +73,7 @@ assembler.recipeBuilder()
     .circuit(3)
     .inputs([
         <opencomputers:material:6> * 16,
-        <ore:circuitAdvanced>
+        <ore:circuitHv>
     ])
     .outputs([<opencomputers:material:9>])
     .duration(200)
@@ -86,7 +86,7 @@ assembler.recipeBuilder()
     .circuit(1)
     .inputs([
         <projectred-integration:gate:26> * 3,
-        <ore:circuitBasic>
+        <ore:circuitLv>
     ])
     .outputs([<opencomputers:material:10>])
     .duration(200)
@@ -99,7 +99,7 @@ assembler.recipeBuilder()
     .circuit(1)
     .inputs([
         <opencomputers:material:6> * 6,
-        <ore:circuitBasic>
+        <ore:circuitLv>
     ])
     .outputs([<opencomputers:material:11>])
     .duration(200)
@@ -118,8 +118,8 @@ JEI.removeAndHide(<opencomputers:disassembler>);
 recipes.remove(<opencomputers:cable>);
 assembler.recipeBuilder()
     .inputs([
-        <ore:wireGtSingleCopper> * 8,
-        <ore:dustEmerald>
+        <metaitem:wireGtSingleCopper> * 8,
+        <metaitem:dustEmerald>
     ])
     .outputs([<opencomputers:cable>])
     .duration(200)

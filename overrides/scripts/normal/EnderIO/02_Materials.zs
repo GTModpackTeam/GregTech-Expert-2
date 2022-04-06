@@ -12,7 +12,7 @@ import mods.enderio.SliceNSplice;
 assembler.recipeBuilder()
     .inputs([
         <metaitem:battery.hull.hv>,
-        <ore:circuitAdvanced>
+        <ore:circuitHv>
     ])
     .fluidInputs([<liquid:electrical_steel> * 1152])
     .outputs([<enderio:item_basic_capacitor>])
@@ -24,7 +24,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs([
         <enderio:item_basic_capacitor> * 2,
-        <ore:circuitExtreme>
+        <ore:circuitEv>
     ])
     .fluidInputs([<liquid:energetic_alloy> * 1152])
     .outputs([<enderio:item_basic_capacitor:1>])
@@ -36,7 +36,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs([
         <enderio:item_basic_capacitor:1> * 2,
-        <ore:circuitElite>
+        <ore:circuitIv>
     ])
     .fluidInputs([<liquid:vibrant_alloy> * 1152])
     .outputs([<enderio:item_basic_capacitor:2>])
@@ -47,9 +47,9 @@ assembler.recipeBuilder()
 # Electrical Steel
 mixer.recipeBuilder()
     .inputs([
-        <ore:dustSteel>,
-        <ore:dustCoal>,
-        <ore:dustSilicon>
+        <metaitem:dustSteel>,
+        <metaitem:dustCoal>,
+        <metaitem:dustSilicon>
     ])
     .outputs([<metaitem:dustElectricalSteel>])
     .duration(40)
@@ -59,9 +59,9 @@ mixer.recipeBuilder()
 # Energetic Alloy
 mixer.recipeBuilder()
     .inputs([
-        <ore:dustRedstone>,
-        <ore:dustGold>,
-        <ore:dustGlowstone>
+        <minecraft:redstone>,
+        <metaitem:dustGold>,
+        <minecraft:glowstone_dust>
     ])
     .outputs([<metaitem:dustEnergeticAlloy>])
     .duration(40)
@@ -71,8 +71,8 @@ mixer.recipeBuilder()
 # Vibrant Alloy
 mixer.recipeBuilder()
     .inputs([
-        <ore:dustEnergeticAlloy>,
-        <ore:dustEnderPearl>
+        <metaitem:dustEnergeticAlloy>,
+        <metaitem:dustEnderPearl>
     ])
     .outputs([<metaitem:dustVibrantAlloy>])
     .duration(40)
@@ -82,8 +82,8 @@ mixer.recipeBuilder()
 # Redstone Alloy
 mixer.recipeBuilder()
     .inputs([
-        <ore:dustRedAlloy>,
-        <ore:dustSilicon>
+        <metaitem:dustRedAlloy>,
+        <metaitem:dustSilicon>
     ])
     .outputs([<metaitem:dustRedstoneAlloy>])
     .duration(40)
@@ -93,8 +93,8 @@ mixer.recipeBuilder()
 # Conductive Iron
 mixer.recipeBuilder()
     .inputs([
-        <ore:dustRedstoneAlloy>,
-        <ore:dustIron>
+        <metaitem:dustRedstoneAlloy>,
+        <metaitem:dustIron>
     ])
     .outputs([<metaitem:dustConductiveIron>])
     .duration(40)
@@ -104,8 +104,8 @@ mixer.recipeBuilder()
 # Pulsating Iron
 mixer.recipeBuilder()
     .inputs([
-        <ore:dustEnderPearl>,
-        <ore:dustIron>
+        <metaitem:dustEnderPearl>,
+        <metaitem:dustIron>
     ])
     .outputs([<metaitem:dustPulsatingIron>])
     .duration(40)
@@ -115,9 +115,9 @@ mixer.recipeBuilder()
 # Dark Steel
 mixer.recipeBuilder()
     .inputs([
-        <ore:dustObsidian>,
-        <ore:dustIron>,
-        <ore:dustCoal>
+        <metaitem:dustObsidian>,
+        <metaitem:dustIron>,
+        <metaitem:dustCoal>
     ])
     .outputs([<metaitem:dustDarkSteel>])
     .duration(40)
@@ -127,8 +127,8 @@ mixer.recipeBuilder()
 # Soularium
 mixer.recipeBuilder()
     .inputs([
-        <ore:dustGold>,
-        <ore:dustAsh>,
+        <metaitem:dustGold>,
+        <metaitem:dustAsh>,
         <minecraft:soul_sand>
     ])
     .outputs([<metaitem:dustSoularium>])
@@ -139,9 +139,9 @@ mixer.recipeBuilder()
 # End Steel
 mixer.recipeBuilder()
     .inputs([
-        <ore:dustEndstone>,
-        <ore:dustDarkSteel>,
-        <ore:dustObsidian>
+        <metaitem:dustEndstone>,
+        <metaitem:dustDarkSteel>,
+        <metaitem:dustObsidian>
     ])
     .outputs([<metaitem:dustEndSteel>])
     .duration(40)
@@ -151,9 +151,9 @@ mixer.recipeBuilder()
 # Construction Alloy(Iron Alloy)
 mixer.recipeBuilder()
     .inputs([
-        <ore:dustPlatinum>,
-        <ore:dustIron>,
-        <ore:dustAluminium>
+        <metaitem:dustPlatinum>,
+        <metaitem:dustIron>,
+        <metaitem:dustAluminium>
     ])
     .outputs([<metaitem:dustConstructionAlloy>])
     .duration(40)
@@ -171,9 +171,9 @@ JEI.hide(<enderio:item_material:68>);
 
 # Simple Machine Chassis
 recipes.addShaped(<enderio:item_material>, [
-    [<ore:barsIron>, <ore:plateIron>, <ore:barsIron>],
-    [<ore:plateIron>, <ore:dustBedrock>, <ore:plateIron>],
-    [<ore:barsIron>, <ore:plateIron>, <ore:barsIron>]
+    [<ore:barsIron>, <metaitem:plateIron>, <ore:barsIron>],
+    [<metaitem:plateIron>, <enderio:item_material:20>, <metaitem:plateIron>],
+    [<ore:barsIron>, <metaitem:plateIron>, <ore:barsIron>]
 ]);
 
 # Industrial Machine Chassis
@@ -225,7 +225,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs([
         <enderio:block_end_iron_bars> * 4,
-        <ore:plateEndSteel> * 4,
+        <metaitem:plateEndSteel> * 4,
         <ore:skullEnderResonator>,
     ])
     .outputs([<enderio:item_material:66>])
@@ -239,9 +239,9 @@ JEI.hide(<enderio:item_material:3>);
 # Conduit Binder
 electric_blast_furnace.recipeBuilder()
     .inputs([
-        <ore:dustAndesite> * 5,
-        <ore:dustDiorite> * 5,
-        <ore:dustClay> * 3
+        <metaitem:dustAndesite> * 5,
+        <metaitem:dustDiorite> * 5,
+        <metaitem:dustClay> * 3
     ])
     .property("temperature", 1800)
     .outputs([<enderio:item_material:4>])
@@ -255,16 +255,16 @@ JEI.hide(<enderio:item_material:5>);
 
 # Glider Wing
 recipes.addShaped(<enderio:item_material:6>, [
-    [null, null, <ore:stickDarkSteel>],
-    [null, <ore:stickDarkSteel>, <minecraft:leather>],
-    [<ore:stickDarkSteel>, <minecraft:leather>, <minecraft:leather>]
+    [null, null, <metaitem:stickDarkSteel>],
+    [null, <metaitem:stickDarkSteel>, <minecraft:leather>],
+    [<metaitem:stickDarkSteel>, <minecraft:leather>, <minecraft:leather>]
 ]);
 
 # Glider Wings
 recipes.addShaped(<enderio:item_material:7>, [
-    [<ore:screwDarkSteel>, <ore:stickDarkSteel>, <ore:screwDarkSteel>],
-    [<ore:ringDarkSteel>, <ore:stickLongDarkSteel>, <ore:ringDarkSteel>],
-    [<enderio:item_material:6>, <ore:stickLongDarkSteel>, <enderio:item_material:6>]
+    [<metaitem:screwDarkSteel>, <metaitem:stickDarkSteel>, <metaitem:screwDarkSteel>],
+    [<metaitem:ringDarkSteel>, <metaitem:stickLongDarkSteel>, <metaitem:ringDarkSteel>],
+    [<enderio:item_material:6>, <metaitem:stickLongDarkSteel>, <enderio:item_material:6>]
 ]);
 
 # Nutritious Stick
@@ -507,7 +507,7 @@ macerator.recipeBuilder()
 mixer.recipeBuilder()
     .inputs([
         <ore:itemVibrantPowder>,
-        <ore:dustPlatinum>
+        <metaitem:dustPlatinum>
     ])
     .outputs([<enderio:item_material:34>])
     .duration(20)
@@ -523,8 +523,8 @@ macerator.recipeBuilder()
     .buildAndRegister();
 mixer.recipeBuilder()
     .inputs([
-        <ore:dustVibrantAlloy>,
-        <ore:dustEmerald>
+        <metaitem:dustVibrantAlloy>,
+        <metaitem:dustEmerald>
     ])
     .outputs([<enderio:item_material:35>])
     .duration(20)
@@ -540,8 +540,8 @@ macerator.recipeBuilder()
     .buildAndRegister();
 mixer.recipeBuilder()
     .inputs([
-        <ore:dustPulsatingIron>,
-        <ore:dustDiamond>
+        <metaitem:dustPulsatingIron>,
+        <metaitem:dustDiamond>
     ])
     .outputs([<enderio:item_material:36>])
     .duration(20)
@@ -568,32 +568,32 @@ mixer.recipeBuilder()
 
 # Photovoltaic Composite
 recipes.addShaped(<enderio:item_material:38>, [
-    [<ore:dustLapis>, <ore:dustCoal>, null],
-    [<ore:dustSilicon>, null, null],
+    [<metaitem:dustLapis>, <metaitem:dustCoal>, null],
+    [<metaitem:dustSilicon>, null, null],
     [null, null, null]
 ]);
 
 # Zombie Eletrode
 SliceNSplice.addRecipe(<enderio:item_material:40>, [
-    <ore:plateEnergeticAlloy>, <minecraft:skull:2>, <ore:plateEnergeticAlloy>,
+    <metaitem:plateEnergeticAlloy>, <minecraft:skull:2>, <metaitem:plateEnergeticAlloy>,
     <metaitem:wafer.silicon>, <enderio:item_basic_capacitor> | <enderio:item_capacitor_silver>, <metaitem:wafer.silicon>
 ]);
 
 # Z-Logic Controller
 SliceNSplice.addRecipe(<enderio:item_material:41>, [
-    <ore:plateSoularium>, <minecraft:skull:2>, <ore:plateSoularium>,
-    <metaitem:wafer.silicon>, <ore:dustRedstone>, <metaitem:wafer.silicon>
+    <metaitem:plateSoularium>, <minecraft:skull:2>, <metaitem:plateSoularium>,
+    <metaitem:wafer.silicon>, <minecraft:redstone>, <metaitem:wafer.silicon>
 ]);
 
 # Ender Resonator
 SliceNSplice.addRecipe(<enderio:item_material:43>, [
-    <ore:plateSoularium>, <enderio:block_enderman_skull>, <ore:plateSoularium>,
-    <metaitem:wafer.silicon>, <ore:plateVibrantAlloy>, <metaitem:wafer.silicon>
+    <metaitem:plateSoularium>, <enderio:block_enderman_skull>, <metaitem:plateSoularium>,
+    <metaitem:wafer.silicon>, <metaitem:plateVibrantAlloy>, <metaitem:wafer.silicon>
 ]);
 
 # Skeletal Contractor
 SliceNSplice.addRecipe(<enderio:item_material:45>, [
-    <ore:plateSoularium>, <minecraft:skull>, <ore:plateSoularium>,
+    <metaitem:plateSoularium>, <minecraft:skull>, <metaitem:plateSoularium>,
     <metaitem:wafer.silicon>, <enderio:item_basic_capacitor> | <enderio:item_capacitor_silver>, <metaitem:wafer.silicon>
 ]);
 
@@ -638,7 +638,7 @@ alloy_smelter.recipeBuilder()
 # Organic Black Dye
 alloy_smelter.recipeBuilder()
     .inputs([
-        <ore:dustCoal> * 3,
+        <metaitem:dustCoal> * 3,
         <minecraft:egg>
     ])
     .outputs([<enderio:item_material:50>])
@@ -649,8 +649,8 @@ alloy_smelter.recipeBuilder()
 # Induatrial Dye Blend
 mixer.recipeBuilder()
     .inputs([
-        <ore:dustNetherQuartz> * 4,
-        <ore:dustLapis> * 2,
+        <metaitem:dustNetherQuartz> * 4,
+        <metaitem:dustLapis> * 2,
         <ore:dyeGreen> * 2,
         <ore:dyeBlack>
     ])
@@ -662,8 +662,8 @@ mixer.recipeBuilder()
 # Soul Attuned Dye Blend
 mixer.recipeBuilder()
     .inputs([
-        <ore:dustNetherQuartz> * 4,
-        <ore:dustSoularium> * 2,
+        <metaitem:dustNetherQuartz> * 4,
+        <metaitem:dustSoularium> * 2,
         <ore:dyeBrown> * 2,
         <ore:dyeBlack>
     ])
@@ -676,7 +676,7 @@ mixer.recipeBuilder()
 mixer.recipeBuilder()
     .inputs([
         <ore:itemPulsatingPowder> * 4,
-        <ore:dustNetherQuartz> * 4,
+        <metaitem:dustNetherQuartz> * 4,
         <ore:dyeBlack>
     ])
     .outputs([<enderio:item_material:67>])
@@ -686,15 +686,15 @@ mixer.recipeBuilder()
 
 # Guardian Diode
 SliceNSplice.addRecipe(<enderio:item_material:56>, [
-    <ore:plateEnergeticAlloy>, <ore:gemPrismarine>, <ore:plateEnergeticAlloy>,
+    <metaitem:plateEnergeticAlloy>, <ore:gemPrismarine>, <metaitem:plateEnergeticAlloy>,
     <ore:itemPulsatingCrystal>, <metaitem:wafer.silicon>, <ore:itemPulsatingCrystal>
 ]);
 
 # Wireless Energy Transmitter
 recipes.addShaped(<enderio:item_material:65>, [
-    [<minecraft:dye:15>, <ore:plateElectricalSteel>, null],
-    [null, <minecraft:dye:15>, <ore:plateElectricalSteel>],
-    [<minecraft:dye:15>, <ore:plateElectricalSteel>, null]
+    [<minecraft:dye:15>, <metaitem:plateElectricalSteel>, null],
+    [null, <minecraft:dye:15>, <metaitem:plateElectricalSteel>],
+    [<minecraft:dye:15>, <metaitem:plateElectricalSteel>, null]
 ]);
 
 # Ender Fragment
@@ -752,7 +752,7 @@ alloy_smelter.recipeBuilder()
 
 # Infinity Dust
 macerator.recipeBuilder()
-    .inputs([<ore:dustBedrock>])
+    .inputs([<enderio:item_material:20>])
     .outputs([<enderio:block_infinity_fog>])
     .duration(500)
     .EUt(480)
@@ -760,7 +760,7 @@ macerator.recipeBuilder()
 
 # Infinity Dust Block
 compressor.recipeBuilder()
-    .inputs([<ore:dustBedrock> * 9])
+    .inputs([<enderio:item_material:20> * 9])
     .outputs([<enderio:block_infinity>])
     .duration(500)
     .EUt(480)
@@ -792,7 +792,7 @@ macerator.recipeBuilder()
 
 # Tormented Enderman Head
 SliceNSplice.addRecipe(<enderio:block_enderman_skull:2>, [
-    <ore:plateSoularium>, <enderio:block_enderman_skull>, <ore:plateSoularium>,
+    <metaitem:plateSoularium>, <enderio:block_enderman_skull>, <metaitem:plateSoularium>,
     <metaitem:wafer.silicon>, <enderio:item_basic_capacitor> | <enderio:item_capacitor_silver>, <metaitem:wafer.silicon>
 ]);
 
@@ -806,9 +806,9 @@ JEI.hide(<enderio:item_owl_egg>);
 # Crude Steel
 mixer.recipeBuilder()
     .inputs([
-        <ore:dustSteel>,
+        <metaitem:dustSteel>,
         <minecraft:gravel>,
-        <ore:dustClay>
+        <metaitem:dustClay>
     ])
     .outputs([<metaitem:dustCrudeSteel>])
     .duration(40)
@@ -818,7 +818,7 @@ mixer.recipeBuilder()
 # Crystalline Alloy
 mixer.recipeBuilder()
     .inputs([
-        <ore:dustGold>,
+        <metaitem:dustGold>,
         <ore:itemPrecientPowder>
     ])
     .outputs([<metaitem:dustCrystallineAlloy>])
@@ -829,7 +829,7 @@ mixer.recipeBuilder()
 # Melodic Alloy
 mixer.recipeBuilder()
     .inputs([
-        <ore:dustEndSteel>,
+        <metaitem:dustEndSteel>,
         <minecraft:chorus_fruit_popped>
     ])
     .outputs([<metaitem:dustMelodicAlloy>])
@@ -840,9 +840,9 @@ mixer.recipeBuilder()
 # Stellar Alloy
 mixer.recipeBuilder()
     .inputs([
-        <ore:dustNetherStar>,
-        <ore:dustMelodicAlloy>,
-        <ore:dustClay>
+        <metaitem:dustNetherStar>,
+        <metaitem:dustMelodicAlloy>,
+        <metaitem:dustClay>
     ])
     .outputs([<metaitem:dustStellarAlloy>])
     .duration(40)
@@ -852,7 +852,7 @@ mixer.recipeBuilder()
 # Crystalline Pink Slime
 mixer.recipeBuilder()
     .inputs([
-        <ore:dustMelodicAlloy>,
+        <metaitem:dustMelodicAlloy>,
         <minecraft:slime_ball>
     ])
     .outputs([<metaitem:dustCrystallinePinkSlime>])
@@ -863,9 +863,9 @@ mixer.recipeBuilder()
 # Energetic Silver
 mixer.recipeBuilder()
     .inputs([
-        <ore:dustRedstone>,
-        <ore:dustSilver>,
-        <ore:dustGlowstone>,
+        <minecraft:redstone>,
+        <metaitem:dustSilver>,
+        <minecraft:glowstone_dust>,
     ])
     .outputs([<metaitem:dustEnergeticSilver>])
     .duration(40)
@@ -875,8 +875,8 @@ mixer.recipeBuilder()
 # Vivid Alloy
 mixer.recipeBuilder()
     .inputs([
-        <ore:dustEnergeticSilver>,
-        <ore:dustEnderPearl>,
+        <metaitem:dustEnergeticSilver>,
+        <metaitem:dustEnderPearl>,
     ])
     .outputs([<metaitem:dustVividAlloy>])
     .duration(40)
@@ -889,7 +889,7 @@ JEI.hide(<enderio:item_capacitor_grainy>);
 # Silver Capacitor
 assembler.recipeBuilder()
     .inputs([
-        <ore:circuitAdvanced>,
+        <ore:circuitHv>,
         <metaitem:battery.hull.hv>
     ])
     .fluidInputs([<liquid:silver> * 1152])
@@ -901,7 +901,7 @@ assembler.recipeBuilder()
 # Endergetic Silver Capacitor
 assembler.recipeBuilder()
     .inputs([
-        <ore:circuitExtreme>,
+        <ore:circuitEv>,
         <enderio:item_capacitor_silver> * 2
     ])
     .fluidInputs([<liquid:energetic_silver> * 1152])
@@ -913,7 +913,7 @@ assembler.recipeBuilder()
 # Endergised Capacitor
 assembler.recipeBuilder()
     .inputs([
-        <ore:circuitElite>,
+        <ore:circuitIv>,
         <enderio:item_capacitor_energetic_silver> * 2
     ])
     .fluidInputs([<liquid:vivid_alloy> * 1152])
@@ -925,7 +925,7 @@ assembler.recipeBuilder()
 # Crystalline Capacitor
 assembler.recipeBuilder()
     .inputs([
-        <ore:circuitExtreme>,
+        <ore:circuitEv>,
         <enderio:item_basic_capacitor:2> * 2
     ])
     .fluidInputs([<liquid:crystalline_alloy> * 1152])
@@ -937,7 +937,7 @@ assembler.recipeBuilder()
 # Melodic Capacitor
 assembler.recipeBuilder()
     .inputs([
-        <ore:circuitElite>,
+        <ore:circuitIv>,
         <enderio:item_capacitor_crystalline> * 2
     ])
     .fluidInputs([<liquid:melodic_alloy> * 1152])
@@ -949,7 +949,7 @@ assembler.recipeBuilder()
 # Stellar Capacitor
 assembler.recipeBuilder()
     .inputs([
-        <ore:circuitMaster>,
+        <ore:circuitLuv>,
         <minecraft:shulker_shell>,
         <enderio:item_capacitor_melodic> * 2
     ])
@@ -961,6 +961,6 @@ assembler.recipeBuilder()
 
 # Totemic Capacitor
 SliceNSplice.addRecipe(<enderio:item_capacitor_totemic>, [
-    <ore:plateSoularium>, <minecraft:totem_of_undying>, <ore:plateSoularium>,
+    <metaitem:plateSoularium>, <minecraft:totem_of_undying>, <metaitem:plateSoularium>,
     <metaitem:wafer.silicon>, <enderio:item_capacitor_melodic>, <metaitem:wafer.silicon>
 ]);

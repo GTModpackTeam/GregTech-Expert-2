@@ -30,7 +30,7 @@ recipes.remove(<enderstorage:ender_storage>);
 assembler.recipeBuilder()
     .circuit(1)
     .inputs([
-        <ore:plateBronze> * 4,
+        <metaitem:plateBronze> * 4,
         <enderio:block_reinforced_obsidian> * 2,
         <ore:wool> | <ore:blockWool>,
         <metaitem:cover.ender_fluid_link>,
@@ -46,7 +46,7 @@ recipes.remove(<enderstorage:ender_storage:1>);
 assembler.recipeBuilder()
     .circuit(2)
     .inputs([
-        <ore:plateBronze> * 4,
+        <metaitem:plateBronze> * 4,
         <enderio:block_reinforced_obsidian> * 2,
         <ore:wool> | <ore:blockWool>,
         <metaitem:cover.ender_fluid_link>,

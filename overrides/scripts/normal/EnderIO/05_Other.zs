@@ -55,7 +55,7 @@ mixer.recipeBuilder()
         <minecraft:pumpkin_seeds> * 2 |
         <minecraft:melon_seeds> * 2 |
         <minecraft:poisonous_potato>,
-        <ore:dustSugar>
+        <minecraft:sugar>
     ])
     .fluidInputs([<liquid:water> * 2000])
     .fluidOutputs([<liquid:hootch> * 500])
@@ -75,7 +75,7 @@ mixer.recipeBuilder()
 # Sunshine
 mixer.recipeBuilder()
     .inputs([
-        <ore:dustGlowstone> * 2,
+        <minecraft:glowstone_dust> * 2,
         <minecraft:double_plant>
     ])
     .fluidInputs([<liquid:fire_water> * 250])
@@ -86,7 +86,7 @@ mixer.recipeBuilder()
 
 # Cloud Seed
 mixer.recipeBuilder()
-    .inputs([<ore:dustSilver> * 2])
+    .inputs([<metaitem:dustSilver> * 2])
     .fluidInputs([<liquid:water> * 3550])
     .fluidOutputs([<liquid:cloud_seed> * 3550])
     .duration(300)
@@ -96,7 +96,7 @@ mixer.recipeBuilder()
 # Concentrated Cloud
 mixer.recipeBuilder()
     .inputs([
-        <ore:dustElectrum> * 2,
+        <metaitem:dustElectrum> * 2,
         <minecraft:snow>
     ])
     .fluidInputs([<liquid:cloud_seed> * 3500])

@@ -5,7 +5,7 @@ import mods.zenutils.I18n;
 import mods.gregtech.IControllerTile;
 import mods.gregtech.recipe.RecipeMap;
 import mods.gregtech.recipe.RecipeMaps;
-import mods.gregtech.recipe.RecipeMapBuilder;
+import mods.gregtech.recipe.FactoryRecipeMap;
 import mods.gregtech.recipe.functions.IRunOverclockingLogicFunction;
 import mods.gregtech.recipe.IRecipe;
 import mods.gregtech.recipe.IRecipeLogic;
@@ -34,7 +34,7 @@ import mods.gregtech.render.MoveType;
 ########################################
 # Multiblock Builder
 ########################################
-var greenhouse = Builder.start("greenhouse", 32000)
+var greenhouse_mbt = Builder.start("greenhouse", 32000)
     .withPattern(function(controller as IControllerTile) as IBlockPattern {
         return FactoryBlockPattern.start()
             .aisle(" CCC ", " CCC ", " CCC ", " CCC ")
@@ -55,22 +55,15 @@ var greenhouse = Builder.start("greenhouse", 32000)
             .where('#', CTPredicate.getAir())
             .build();
     } as IPatternBuilderFunction)
-    .withRecipeMap(
-        RecipeMapBuilder.create("greenhouse")
-            .setInputs(3, 2)
-            .setOutputs(4, 1)
-            .setFluidInputs(1, 1)
-            .setFluidOutputs(0, 0)
-            .build()
-    )
+    .withRecipeMap(<recipemap:greenhouse>)
     .withBaseTexture(<metastate:gregtech:machine_casing>)
     .buildAndRegister();
-greenhouse.hasMaintenanceMechanics = true;
-greenhouse.hasMufflerMechanics = false;
+greenhouse_mbt.hasMaintenanceMechanics = true;
+greenhouse_mbt.hasMufflerMechanics = false;
 
 recipes.addShaped(<metaitem:multiblocktweaker:greenhouse>, [
     [<gregtech:transparent_casing>, <gregtech:transparent_casing>, <gregtech:transparent_casing>],
-    [<ore:circuitGood>, <metaitem:hull.mv>, <ore:circuitGood>],
+    [<ore:circuitMv>, <metaitem:hull.mv>, <ore:circuitMv>],
     [<metaitem:electric.piston.mv>, <metaitem:electric.pump.mv>, <metaitem:electric.piston.mv>]
 ]);
 JEI.addDescription(<metaitem:multiblocktweaker:greenhouse>, I18n.format("multiblocktweaker.greenhouse.tooltip.1"));
@@ -98,8 +91,8 @@ var logs as IItemStack[] = [
     <minecraft:log2:1>
 ];
 for i, sapling in saplings {
-    greenhouse.recipeMap.recipeBuilder()
-        .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))
+    greenhouse.recipeBuilder()
+        .circuit(1)
         .notConsumable([sapling])
         .fluidInputs([<liquid:water> * 1000])
         .outputs([logs[i] * 32])
@@ -107,8 +100,8 @@ for i, sapling in saplings {
         .duration(1200)
         .EUt(40)
         .buildAndRegister();
-    greenhouse.recipeMap.recipeBuilder()
-        .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 2}))
+    greenhouse.recipeBuilder()
+        .circuit(2)
         .notConsumable([sapling])
         .inputs([<metaitem:fertilizer> * 4])
         .fluidInputs([<liquid:water> * 1000])
@@ -121,8 +114,8 @@ for i, sapling in saplings {
 }
 
 # Rubber
-greenhouse.recipeMap.recipeBuilder()
-    .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))
+greenhouse.recipeBuilder()
+    .circuit(1)
     .notConsumable(<gregtech:rubber_sapling>)
     .fluidInputs([<liquid:water> * 1000])
     .outputs([<gregtech:rubber_log> * 8])
@@ -131,8 +124,8 @@ greenhouse.recipeMap.recipeBuilder()
     .duration(1200)
     .EUt(40)
     .buildAndRegister();
-greenhouse.recipeMap.recipeBuilder()
-    .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 2}))
+greenhouse.recipeBuilder()
+    .circuit(2)
     .notConsumable(<gregtech:rubber_sapling>)
     .inputs(<metaitem:fertilizer> * 4)
     .fluidInputs([<liquid:water> * 1000])
@@ -171,16 +164,16 @@ var plants as IItemStack[] = [
     <minecraft:nether_wart> * 12
 ];
 for i, seed in seeds {
-    greenhouse.recipeMap.recipeBuilder()
-        .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))
+    greenhouse.recipeBuilder()
+        .circuit(1)
         .notConsumable([seed])
         .fluidInputs([<liquid:water> * 1000])
         .outputs([plants[i]])
         .duration(1200)
         .EUt(40)
         .buildAndRegister();
-    greenhouse.recipeMap.recipeBuilder()
-        .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 2}))
+    greenhouse.recipeBuilder()
+        .circuit(2)
         .notConsumable([seed])
         .inputs([<metaitem:fertilizer> * 4])
         .fluidInputs([<liquid:water> * 1000])

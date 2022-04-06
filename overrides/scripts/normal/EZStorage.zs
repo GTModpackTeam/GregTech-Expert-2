@@ -9,16 +9,16 @@
 recipes.remove(<ezstorage:blank_box>);
 recipes.addShaped(<ezstorage:blank_box>, [
     [<ore:logWood>, <ore:gtce.tool.hard.hammers>, <ore:logWood>],
-    [<ore:plateBronze>, <ore:logWood>, <ore:plateBronze>],
-    [<ore:logWood>, <ore:plateBronze>, <ore:logWood>]
+    [<metaitem:plateBronze>, <ore:logWood>, <metaitem:plateBronze>],
+    [<ore:logWood>, <metaitem:plateBronze>, <ore:logWood>]
 ]);
 
 # Storage Core
 recipes.remove(<ezstorage:storage_core>);
 recipes.addShaped(<ezstorage:storage_core>, [
     [<ore:logWood>, <ore:gtce.tool.hard.hammers>, <ore:logWood>],
-    [<ore:plateIron>, <ezstorage:storage_box>, <ore:plateIron>],
-    [<ore:logWood>, <ore:plateIron>, <ore:logWood>]
+    [<metaitem:plateIron>, <ezstorage:storage_box>, <metaitem:plateIron>],
+    [<ore:logWood>, <metaitem:plateIron>, <ore:logWood>]
 ]);
 
 # Storage Box
@@ -32,49 +32,49 @@ recipes.addShaped(<ezstorage:storage_box>, [
 # Condensed Storage Box
 recipes.remove(<ezstorage:condensed_storage_box>);
 recipes.addShaped(<ezstorage:condensed_storage_box>, [
-    [<ore:plateIron>, <ore:gtce.tool.hard.hammers>, <ore:plateIron>],
-    [<ore:plateIron>, <gregtech:machine:1626>, <ore:plateIron>],
-    [<ore:plateIron>, <ezstorage:storage_box>, <ore:plateIron>]
+    [<metaitem:plateIron>, <ore:gtce.tool.hard.hammers>, <metaitem:plateIron>],
+    [<metaitem:plateIron>, <gregtech:machine:1626>, <metaitem:plateIron>],
+    [<metaitem:plateIron>, <ezstorage:storage_box>, <metaitem:plateIron>]
 ]);
 
 # Super Storage Box
 recipes.remove(<ezstorage:super_storage_box>);
 recipes.addShaped(<ezstorage:super_storage_box>, [
-    [<ore:plateGold>, <ore:gtce.tool.hard.hammers>, <ore:plateGold>],
-    [<ore:plateGold>, <gregtech:machine:1627>, <ore:plateGold>],
-    [<ore:plateGold>, <ezstorage:condensed_storage_box>, <ore:plateGold>]
+    [<metaitem:plateGold>, <ore:gtce.tool.hard.hammers>, <metaitem:plateGold>],
+    [<metaitem:plateGold>, <gregtech:machine:1627>, <metaitem:plateGold>],
+    [<metaitem:plateGold>, <ezstorage:condensed_storage_box>, <metaitem:plateGold>]
 ]);
 
 # Ultra Storage Box
 recipes.remove(<ezstorage:ultra_storage_box>);
 recipes.addShaped(<ezstorage:ultra_storage_box>, [
-    [<ore:plateAluminium>, <ore:gtce.tool.hard.hammers>, <ore:plateAluminium>],
-    [<ore:plateAluminium>, <gregtech:machine:1628>, <ore:plateAluminium>],
-    [<ore:plateAluminium>, <ezstorage:super_storage_box>, <ore:plateAluminium>]
+    [<metaitem:plateAluminium>, <ore:gtce.tool.hard.hammers>, <metaitem:plateAluminium>],
+    [<metaitem:plateAluminium>, <gregtech:machine:1628>, <metaitem:plateAluminium>],
+    [<metaitem:plateAluminium>, <ezstorage:super_storage_box>, <metaitem:plateAluminium>]
 ]);
 
 # Hyper Storage Box
 recipes.remove(<ezstorage:hyper_storage_box>);
 recipes.addShaped(<ezstorage:hyper_storage_box>, [
-    [<ore:plateStainlessSteel>, <ore:gtce.tool.hard.hammers>, <ore:plateStainlessSteel>],
-    [<ore:plateStainlessSteel>, <gregtech:machine:1629>, <ore:plateStainlessSteel>],
-    [<ore:plateStainlessSteel>, <ezstorage:ultra_storage_box>, <ore:plateStainlessSteel>]
+    [<metaitem:plateStainlessSteel>, <ore:gtce.tool.hard.hammers>, <metaitem:plateStainlessSteel>],
+    [<metaitem:plateStainlessSteel>, <gregtech:machine:1629>, <metaitem:plateStainlessSteel>],
+    [<metaitem:plateStainlessSteel>, <ezstorage:ultra_storage_box>, <metaitem:plateStainlessSteel>]
 ]);
 
 # Input Port
 recipes.remove(<ezstorage:input_port>);
 recipes.addShaped(<ezstorage:input_port>, [
-    [<ore:plateSteel>, <ore:gtce.tool.wrenches>, <ore:plateSteel>],
+    [<metaitem:plateSteel>, <ore:gtce.tool.wrenches>, <metaitem:plateSteel>],
     [<minecraft:hopper>, <ezstorage:storage_core>, <minecraft:hopper>],
-    [<ore:plateSteel>, <ore:craftingPiston>, <ore:plateSteel>]
+    [<metaitem:plateSteel>, <ore:craftingPiston>, <metaitem:plateSteel>]
 ]);
 
 # Output Port
 recipes.remove(<ezstorage:output_port>);
 recipes.addShaped(<ezstorage:output_port>, [
-    [<ore:plateSteel>, <minecraft:dropper>, <ore:plateSteel>],
+    [<metaitem:plateSteel>, <minecraft:dropper>, <metaitem:plateSteel>],
     [<minecraft:dropper>, <ezstorage:input_port>, <minecraft:dropper>],
-    [<ore:plateSteel>, <ore:gtce.tool.wrenches>, <ore:plateSteel>]
+    [<metaitem:plateSteel>, <ore:gtce.tool.wrenches>, <metaitem:plateSteel>]
 ]);
 
 # Extract Port
@@ -88,25 +88,25 @@ recipes.addShaped(<ezstorage:extract_port>, [
 # Crafting Box
 recipes.remove(<ezstorage:crafting_box>);
 recipes.addShaped(<ezstorage:crafting_box>, [
-    [<ore:plateSteel>, <ore:gtce.tool.hard.hammers>, <ore:plateSteel>],
+    [<metaitem:plateSteel>, <ore:gtce.tool.hard.hammers>, <metaitem:plateSteel>],
     [<metaitem:cover.crafting>, <ezstorage:blank_box>, <metaitem:cover.crafting>],
-    [<ore:plateSteel>, <ore:gtce.tool.wrenches>, <ore:plateSteel>]
+    [<metaitem:plateSteel>, <ore:gtce.tool.wrenches>, <metaitem:plateSteel>]
 ]);
 recipes.addShaped(<ezstorage:crafting_box>, [
-    [<ore:plateSteel>, <ore:gtce.tool.wrenches>, <ore:plateSteel>],
+    [<metaitem:plateSteel>, <ore:gtce.tool.wrenches>, <metaitem:plateSteel>],
     [<metaitem:cover.crafting>, <ezstorage:blank_box>, <metaitem:cover.crafting>],
-    [<ore:plateSteel>, <ore:gtce.tool.hard.hammers>, <ore:plateSteel>]
+    [<metaitem:plateSteel>, <ore:gtce.tool.hard.hammers>, <metaitem:plateSteel>]
 ]);
 
 # Search Box
 recipes.remove(<ezstorage:search_box>);
 recipes.addShaped(<ezstorage:search_box>, [
-    [<ore:plateSteel>, <ore:gtce.tool.wrenches>, <ore:plateSteel>],
+    [<metaitem:plateSteel>, <ore:gtce.tool.wrenches>, <metaitem:plateSteel>],
     [<minecraft:compass>, <ezstorage:blank_box>, <minecraft:compass>],
-    [<ore:plateSteel>, <ore:gtce.tool.hard.hammers>, <ore:plateSteel>]
+    [<metaitem:plateSteel>, <ore:gtce.tool.hard.hammers>, <metaitem:plateSteel>]
 ]);
 recipes.addShaped(<ezstorage:search_box>, [
-    [<ore:plateSteel>, <ore:gtce.tool.hard.hammers>, <ore:plateSteel>],
+    [<metaitem:plateSteel>, <ore:gtce.tool.hard.hammers>, <metaitem:plateSteel>],
     [<minecraft:compass>, <ezstorage:blank_box>, <minecraft:compass>],
-    [<ore:plateSteel>, <ore:gtce.tool.wrenches>, <ore:plateSteel>]
+    [<metaitem:plateSteel>, <ore:gtce.tool.wrenches>, <metaitem:plateSteel>]
 ]);

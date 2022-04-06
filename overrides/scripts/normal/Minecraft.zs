@@ -61,9 +61,9 @@ recipes.removeShaped(<minecraft:comparator>, [
 # Brewing Stand
 recipes.remove(<minecraft:brewing_stand>);
 recipes.addShaped(<minecraft:brewing_stand>, [
-    [<ore:ringSteel>, <ore:stickBlaze>, <ore:ringSteel>],
-    [<ore:stickSteel>, <ore:stickBlaze>, <ore:stickSteel>],
-    [<ore:screwSteel>, <minecraft:cauldron>, <ore:screwSteel>]
+    [<metaitem:ringSteel>, <metaitem:stickBlaze>, <metaitem:ringSteel>],
+    [<metaitem:stickSteel>, <metaitem:stickBlaze>, <metaitem:stickSteel>],
+    [<metaitem:screwSteel>, <minecraft:cauldron>, <metaitem:screwSteel>]
 ]);
 
 # Nether Quartz Block

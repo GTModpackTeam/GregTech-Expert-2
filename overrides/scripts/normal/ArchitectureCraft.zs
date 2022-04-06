@@ -20,9 +20,9 @@ recipes.addShapeless(<architecturecraft:chisel>, [<chisel:chisel_iron>]);
 # Hammer
 recipes.remove(<architecturecraft:hammer>);
 recipes.addShaped(<architecturecraft:hammer>, [
-    [<ore:toolHeadHammerIron>, <ore:ingotIron>, <ore:ingotIron>],
-    [<ore:gtce.tool.files>, <ore:stickWood>, <ore:gtce.tool.hard.hammers>],
-    [null, <ore:stickWood>, null]
+    [<metaitem:toolHeadHammerIron>, <metaitem:ingotIron>, <metaitem:ingotIron>],
+    [<ore:gtce.tool.files>, <metaitem:stickWood>, <ore:gtce.tool.hard.hammers>],
+    [null, <metaitem:stickWood>, null]
 ]);
 
 
@@ -33,7 +33,7 @@ recipes.addShaped(<architecturecraft:hammer>, [
 # Sawbench
 recipes.remove(<architecturecraft:sawbench>);
 recipes.addShaped(<architecturecraft:sawbench>, [
-    [<ore:plateDoubleIron>, <ore:toolHeadBuzzSawIron>, <ore:plateDoubleIron>],
-    [<ore:fenceWood>, <ore:gearWood>, <ore:fenceWood>],
+    [<metaitem:plateDoubleIron>, <metaitem:toolHeadBuzzSawIron>, <metaitem:plateDoubleIron>],
+    [<ore:fenceWood>, <metaitem:gearWood>, <ore:fenceWood>],
     [<ore:fenceWood>, <minecraft:wooden_pressure_plate>, <ore:fenceWood>]
 ]);

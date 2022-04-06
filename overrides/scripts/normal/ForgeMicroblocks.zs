@@ -15,22 +15,22 @@ JEI.removeAndHide(<microblockcbe:stone_rod>);
 recipes.remove(<microblockcbe:saw_stone>);
 recipes.addShaped(<microblockcbe:saw_stone>, [
     [null, <ore:gtce.tool.hard.hammers>, null],
-    [<ore:stickWood>, <ore:stickStone>, <ore:stickStone>],
-    [<ore:stickWood>, <minecraft:flint>, <minecraft:flint>]
+    [<metaitem:stickWood>, <metaitem:stickStone>, <metaitem:stickStone>],
+    [<metaitem:stickWood>, <minecraft:flint>, <minecraft:flint>]
 ]);
 
 # Iron Saw
 recipes.remove(<microblockcbe:saw_iron>);
 recipes.addShaped(<microblockcbe:saw_iron>, [
     [null, <ore:gtce.tool.hard.hammers>, null],
-    [<ore:stickWood>, <ore:stickStone>, <ore:stickStone>],
-    [<ore:stickWood>, <ore:plateIron>, <ore:plateIron>]
+    [<metaitem:stickWood>, <metaitem:stickStone>, <metaitem:stickStone>],
+    [<metaitem:stickWood>, <metaitem:plateIron>, <metaitem:plateIron>]
 ]);
 
 # Diamond Saw
 recipes.remove(<microblockcbe:saw_diamond>);
 recipes.addShaped(<microblockcbe:saw_diamond>, [
     [null, <ore:gtce.tool.hard.hammers>, null],
-    [<ore:stickWood>, <ore:stickStone>, <ore:stickStone>],
-    [<ore:stickWood>, <ore:plateDiamond>, <ore:plateDiamond>]
+    [<metaitem:stickWood>, <metaitem:stickStone>, <metaitem:stickStone>],
+    [<metaitem:stickWood>, <metaitem:plateDiamond>, <metaitem:plateDiamond>]
 ]);

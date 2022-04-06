@@ -5,7 +5,7 @@ import mods.zenutils.I18n;
 import mods.gregtech.IControllerTile;
 import mods.gregtech.recipe.RecipeMap;
 import mods.gregtech.recipe.RecipeMaps;
-import mods.gregtech.recipe.RecipeMapBuilder;
+import mods.gregtech.recipe.FactoryRecipeMap;
 import mods.gregtech.recipe.functions.IRunOverclockingLogicFunction;
 import mods.gregtech.recipe.IRecipe;
 import mods.gregtech.recipe.IRecipeLogic;
@@ -34,7 +34,7 @@ import mods.gregtech.render.MoveType;
 ########################################
 # Multiblock Builder
 ########################################
-var voidoreminer = Builder.start("voidoreminer", 32001)
+var voidoreminer_mbt = Builder.start("voidoreminer", 32001)
     .withPattern(function(controller as IControllerTile) as IBlockPattern {
         return FactoryBlockPattern.start()
             .aisle("CCCCC", " FFF ", " FFF ", " FFF ", "     ", "     ", "     ", "     ", "     ", "     ")
@@ -54,23 +54,16 @@ var voidoreminer = Builder.start("voidoreminer", 32001)
             .where('#', CTPredicate.getAir())
             .build();
     } as IPatternBuilderFunction)
-    .withRecipeMap(
-        RecipeMapBuilder.create("voidoreminer")
-            .setInputs(1, 1)
-            .setOutputs(1, 1)
-            .setFluidInputs(2, 2)
-            .setFluidOutputs(0, 0)
-            .build()
-    )
+    .withRecipeMap(<recipemap:voidoreminer>)
     .withBaseTexture(<metastate:gregtech:metal_casing:10>)
     .buildAndRegister();
-voidoreminer.hasMaintenanceMechanics = true;
-voidoreminer.hasMufflerMechanics = false;
+voidoreminer_mbt.hasMaintenanceMechanics = true;
+voidoreminer_mbt.hasMufflerMechanics = false;
 
 assembly_line.recipeBuilder()
     .inputs([<metaitem:hull.zpm>])
     .inputs([<metaitem:frameNaquadahAlloy> * 4])
-    .inputs([<ore:circuitUltimate> * 4])
+    .inputs([<ore:circuitZpm> * 4])
     .inputs([<metaitem:electric.motor.zpm> * 4])
     .inputs([<metaitem:electric.pump.zpm> * 4])
     .inputs([<metaitem:conveyor.module.zpm> * 4])
@@ -310,7 +303,7 @@ var ores as IItemStack[] = [
     <gregtech:ore_beryllium_0>
 ];
 for i, ore in ores {
-    voidoreminer.recipeMap.recipeBuilder()
+    voidoreminer.recipeBuilder()
         .inputs([oresAny[i]])
         .fluidInputs([<liquid:drilling_fluid> * 20000])
         .fluidInputs([<liquid:ender_distillation> * 10])

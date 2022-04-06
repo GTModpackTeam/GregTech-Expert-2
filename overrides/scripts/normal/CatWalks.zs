@@ -10,9 +10,9 @@ import mods.jei.JEI;
 # Blowtorch
 recipes.remove(<catwalks:blowtorch>);
 recipes.addShaped(<catwalks:blowtorch>, [
-    [null, <ore:screwSteel>, <minecraft:flint_and_steel>],
-    [<ore:gtce.tool.screwdrivers>, <ore:stickLongSteel>, <ore:screwSteel>],
-    [<ore:stickLongSteel>, <ore:gtce.tool.wrenches>, null]
+    [null, <metaitem:screwSteel>, <minecraft:flint_and_steel>],
+    [<ore:gtce.tool.screwdrivers>, <metaitem:stickLongSteel>, <metaitem:screwSteel>],
+    [<metaitem:stickLongSteel>, <ore:gtce.tool.wrenches>, null]
 ]);
 
 
@@ -26,8 +26,8 @@ assembler.recipeBuilder()
     .circuit(6)
     .inputs([
         <ore:frameGtSteel>,
-        <ore:screwSteel> * 2,
-        <ore:stickLongSteel> * 4
+        <metaitem:screwSteel> * 2,
+        <metaitem:stickLongSteel> * 4
     ])
     .outputs([<catwalks:catwalk>.withTag({material: "classic"}) * 4])
     .duration(20)
@@ -37,8 +37,8 @@ assembler.recipeBuilder()
     .circuit(7)
     .inputs([
         <ore:frameGtDarkSteel>,
-        <ore:screwDarkSteel> * 2,
-        <ore:stickLongDarkSteel> * 4
+        <metaitem:screwDarkSteel> * 2,
+        <metaitem:stickLongDarkSteel> * 4
     ])
     .outputs([<catwalks:catwalk>.withTag({material: "classic"}) * 16])
     .duration(20)
@@ -60,7 +60,7 @@ assembler.recipeBuilder()
     .inputs([
         <ore:frameGtSteel>,
         <ore:paneGlass> * 3,
-        <ore:stickLongSteel> * 4
+        <metaitem:stickLongSteel> * 4
     ])
     .outputs([<catwalks:catwalk>.withTag({material: "glass"}) * 4])
     .duration(20)
@@ -71,7 +71,7 @@ assembler.recipeBuilder()
     .inputs([
         <ore:frameGtDarkSteel>,
         <ore:paneGlass> * 3,
-        <ore:stickLongDarkSteel> * 4
+        <metaitem:stickLongDarkSteel> * 4
     ])
     .outputs([<catwalks:catwalk>.withTag({material: "glass"}) * 16])
     .duration(20)
@@ -84,8 +84,8 @@ assembler.recipeBuilder()
     .circuit(6)
     .inputs([
         <ore:frameGtTreatedWood>,
-        <ore:plateTreatedWood> * 3,
-        <ore:stickLongSteel> * 4
+        <metaitem:plateTreatedWood> * 3,
+        <metaitem:stickLongSteel> * 4
     ])
     .outputs([<catwalks:catwalk>.withTag({material: "treated_wood"}) * 4])
     .duration(20)
@@ -95,8 +95,8 @@ assembler.recipeBuilder()
     .circuit(7)
     .inputs([
         <ore:frameGtTreatedWood>,
-        <ore:plateTreatedWood> * 3,
-        <ore:stickLongDarkSteel> * 4
+        <metaitem:plateTreatedWood> * 3,
+        <metaitem:stickLongDarkSteel> * 4
     ])
     .outputs([<catwalks:catwalk>.withTag({material: "treated_wood"}) * 16])
     .duration(20)
@@ -111,7 +111,7 @@ assembler.recipeBuilder()
     .circuit(6)
     .inputs([
         <minecraft:ladder>,
-        <ore:stickLongSteel> * 4
+        <metaitem:stickLongSteel> * 4
     ])
     .outputs([<catwalks:ladder> * 6])
     .duration(20)
@@ -121,7 +121,7 @@ assembler.recipeBuilder()
     .circuit(7)
     .inputs([
         <enderio:block_dark_steel_ladder>,
-        <ore:stickLongDarkSteel> * 4
+        <metaitem:stickLongDarkSteel> * 4
     ])
     .outputs([<catwalks:ladder> * 32])
     .duration(20)
@@ -132,14 +132,14 @@ assembler.recipeBuilder()
 recipes.remove(<catwalks:cable>);
 assembler.recipeBuilder()
     .circuit(6)
-    .inputs([<ore:stickLongSteel> * 3])
+    .inputs([<metaitem:stickLongSteel> * 3])
     .outputs([<catwalks:cable> * 6])
     .duration(20)
     .EUt(7)
     .buildAndRegister();
 assembler.recipeBuilder()
     .circuit(7)
-    .inputs([<ore:stickLongDarkSteel> * 3])
+    .inputs([<metaitem:stickLongDarkSteel> * 3])
     .outputs([<catwalks:cable> * 32])
     .duration(20)
     .EUt(7)

@@ -7,8 +7,8 @@ import mods.jei.JEI;
 # Item Conduit
 assembler.recipeBuilder()
     .inputs([
-        <ore:pipeSmallItemElectrum>,
-        <ore:platePulsatingIron>
+        <metaitem:pipeSmallItemElectrum>,
+        <metaitem:platePulsatingIron>
     ])
     .fluidInputs([<liquid:plastic> * 144])
     .outputs([<enderio:item_item_conduit>])
@@ -19,8 +19,8 @@ assembler.recipeBuilder()
 # Fluid Conduit
 assembler.recipeBuilder()
     .inputs([
-        <ore:pipeNormalFluidCopper>,
-        <ore:plateElectricalSteel>
+        <metaitem:pipeNormalFluidCopper>,
+        <metaitem:plateElectricalSteel>
     ])
     .fluidInputs([<liquid:plastic> * 144])
     .outputs([<enderio:item_liquid_conduit>])
@@ -31,8 +31,8 @@ assembler.recipeBuilder()
 # Pressurized Fluid Conduit
 assembler.recipeBuilder()
     .inputs([
-        <ore:pipeNormalFluidSteel>,
-        <ore:plateDarkSteel>
+        <metaitem:pipeNormalFluidSteel>,
+        <metaitem:plateDarkSteel>
     ])
     .fluidInputs([<liquid:plastic> * 144])
     .outputs([<enderio:item_liquid_conduit:1>])
@@ -43,8 +43,8 @@ assembler.recipeBuilder()
 # Ender Fluid Conduit
 assembler.recipeBuilder()
     .inputs([
-        <ore:pipeTinyFluidPolytetrafluoroethylene>,
-        <ore:plateVibrantAlloy>
+        <metaitem:pipeTinyFluidPolytetrafluoroethylene>,
+        <metaitem:plateVibrantAlloy>
     ])
     .fluidInputs([<liquid:plastic> * 144])
     .outputs([<enderio:item_liquid_conduit:2>])
@@ -55,8 +55,8 @@ assembler.recipeBuilder()
 # Energy Conduit
 assembler.recipeBuilder()
     .inputs([
-        <ore:wireGtSingleGold>,
-        <ore:plateConductiveIron>
+        <metaitem:wireGtSingleGold>,
+        <metaitem:plateConductiveIron>
     ])
     .fluidInputs([<liquid:plastic> * 144])
     .outputs([<enderio:item_power_conduit>])
@@ -67,8 +67,8 @@ assembler.recipeBuilder()
 # Enhaned Energy Conduit
 assembler.recipeBuilder()
     .inputs([
-        <ore:wireGtSingleAluminium>,
-        <ore:plateEnergeticAlloy>
+        <metaitem:wireGtSingleAluminium>,
+        <metaitem:plateEnergeticAlloy>
     ])
     .fluidInputs([<liquid:plastic> * 144])
     .outputs([<enderio:item_power_conduit:1>])
@@ -79,8 +79,8 @@ assembler.recipeBuilder()
 # Ender Energy Conduit
 assembler.recipeBuilder()
     .inputs([
-        <ore:wireGtSingleOsmium>,
-        <ore:plateVibrantAlloy>
+        <metaitem:wireGtSingleOsmium>,
+        <metaitem:plateVibrantAlloy>
     ])
     .fluidInputs([<liquid:plastic> * 144])
     .outputs([<enderio:item_power_conduit:2>])
@@ -91,8 +91,8 @@ assembler.recipeBuilder()
 # Redstone Conduit
 assembler.recipeBuilder()
     .inputs([
-        <ore:wireGtSingleRedAlloy>,
-        <ore:plateRedstoneAlloy>
+        <metaitem:wireGtSingleRedAlloy>,
+        <metaitem:plateRedstoneAlloy>
     ])
     .fluidInputs([<liquid:plastic> * 144])
     .outputs([<enderio:item_redstone_conduit>])
@@ -104,7 +104,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs([
         <ore:ae2.cable.glass>,
-        <ore:plateTitanium>
+        <metaitem:plateTitanium>
     ])
     .fluidInputs([<liquid:plastic> * 144])
     .outputs([<enderio:item_me_conduit>])
@@ -116,7 +116,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs([
         <enderio:item_me_conduit> * 4,
-        <ore:plateTitanium>
+        <metaitem:plateTitanium>
     ])
     .fluidInputs([<liquid:plastic> * 144])
     .outputs([<enderio:item_me_conduit:1>])
@@ -128,7 +128,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs([
         <opencomputers:cable>,
-        <ore:plateRedstoneAlloy>
+        <metaitem:plateRedstoneAlloy>
     ])
     .fluidInputs([<liquid:plastic> * 144])
     .outputs([<enderio:item_opencomputers_conduit>])
@@ -149,8 +149,8 @@ JEI.hide(<enderio:item_endergy_conduit:7>);
 # Crystalline Alloy Endergy Conduit
 assembler.recipeBuilder()
     .inputs([
-        <ore:wireGtSingleHssg>,
-        <ore:plateCrystallineAlloy>
+        <metaitem:wireGtSingleHssg>,
+        <metaitem:plateCrystallineAlloy>
     ])
     .fluidInputs([<liquid:plastic> * 144])
     .outputs([<enderio:item_endergy_conduit:8>])
@@ -161,8 +161,8 @@ assembler.recipeBuilder()
 # Crystalline Pink Slime Endergy Conduit
 assembler.recipeBuilder()
     .inputs([
-        <ore:wireGtSingleNiobiumTitanium>,
-        <ore:plateCrystallinePinkSlime>
+        <metaitem:wireGtSingleNiobiumTitanium>,
+        <metaitem:plateCrystallinePinkSlime>
     ])
     .fluidInputs([<liquid:plastic> * 144])
     .outputs([<enderio:item_endergy_conduit:9>])
@@ -173,8 +173,8 @@ assembler.recipeBuilder()
 # Melodic Alloy Endergy Conduit
 assembler.recipeBuilder()
     .inputs([
-        <ore:wireGtSingleNaquadah>,
-        <ore:plateMelodicAlloy>
+        <metaitem:wireGtSingleNaquadah>,
+        <metaitem:plateMelodicAlloy>
     ])
     .fluidInputs([<liquid:plastic> * 144])
     .outputs([<enderio:item_endergy_conduit:10>])
