@@ -5,7 +5,7 @@ import mods.zenutils.I18n;
 import mods.gregtech.IControllerTile;
 import mods.gregtech.recipe.RecipeMap;
 import mods.gregtech.recipe.RecipeMaps;
-import mods.gregtech.recipe.FactoryRecipeMap;
+import mods.gregtech.recipe.RecipeMapBuilder;
 import mods.gregtech.recipe.functions.IRunOverclockingLogicFunction;
 import mods.gregtech.recipe.IRecipe;
 import mods.gregtech.recipe.IRecipeLogic;
@@ -34,7 +34,7 @@ import mods.gregtech.render.MoveType;
 ########################################
 # Multiblock Builder
 ########################################
-var saw_mill_mbt = Builder.start("saw_mill", 32002)
+var saw_mill = Builder.start("saw_mill", 32002)
     .withPattern(function(controller as IControllerTile) as IBlockPattern {
         return FactoryBlockPattern.start()
             .aisle("CFC", "C#C", "C#C")
@@ -54,11 +54,17 @@ var saw_mill_mbt = Builder.start("saw_mill", 32002)
             .where('#', CTPredicate.getAir())
             .build();
     } as IPatternBuilderFunction)
-    .withRecipeMap(<recipemap:saw_mill>)
+    .withRecipeMap(RecipeMapBuilder.create("saw_mill")
+        .setInputs(2, 2)
+        .setOutputs(4, 1)
+        .setFluidInputs(1, 1)
+        .setFluidOutputs(0, 0)
+        .build()
+    )
     .withBaseTexture(<metastate:gregtech:metal_casing:4>)
     .buildAndRegister();
-saw_mill_mbt.hasMaintenanceMechanics = false;
-saw_mill_mbt.hasMufflerMechanics = false;
+saw_mill.hasMaintenanceMechanics = false;
+saw_mill.hasMufflerMechanics = false;
 
 recipes.addShaped(<metaitem:multiblocktweaker:saw_mill>, [
     [<metaitem:screwSteel>, <metaitem:toolHeadBuzzSawSteel>, <ore:gtce.tool.screwdrivers>],
@@ -93,7 +99,7 @@ var logs as IItemStack[] = [
 ];
 
 for i, log in logs {
-    saw_mill.recipeBuilder()
+    saw_mill.recipeMap.recipeBuilder()
         .circuit(1)
         .inputs([log * 6])
         .fluidInputs([<liquid:water> * 1000])
@@ -102,7 +108,7 @@ for i, log in logs {
         .duration(300)
         .EUt(7)
         .buildAndRegister();
-    saw_mill.recipeBuilder()
+    saw_mill.recipeMap.recipeBuilder()
         .circuit(2)
         .inputs([log * 6])
         .fluidInputs([<liquid:water> * 1000])
@@ -114,7 +120,7 @@ for i, log in logs {
 }
 
 ## Rubber
-saw_mill.recipeBuilder()
+saw_mill.recipeMap.recipeBuilder()
     .circuit(1)
     .inputs([<gregtech:rubber_log:0> * 6])
     .fluidInputs([<liquid:water> * 1000])
@@ -123,7 +129,7 @@ saw_mill.recipeBuilder()
     .duration(300)
     .EUt(7)
     .buildAndRegister();
-saw_mill.recipeBuilder()
+saw_mill.recipeMap.recipeBuilder()
     .circuit(2)
     .inputs([<gregtech:rubber_log:0> * 6])
     .fluidInputs([<liquid:water> * 1000])
