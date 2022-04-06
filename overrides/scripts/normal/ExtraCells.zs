@@ -280,7 +280,7 @@ assembler.recipeBuilder()
 recipes.remove(<extracells:storage.component:2>);
 assembler.recipeBuilder()
     .inputs([
-        <ore:circuitSuper> * 4,
+        <ore:circuitUv> * 4,
         <metaitem:plateDarmstadtium> * 4,
         <metaitem:dustCertusQuartz> * 32,
         <appliedenergistics2:material:23>
@@ -293,7 +293,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs([
         <appliedenergistics2:material:23>,
-        <ore:circuitSuper> * 4,
+        <ore:circuitUv> * 4,
         <extracells:storage.component:1> * 4
     ])
     .fluidInputs(<liquid:steel> * 144)
@@ -306,7 +306,7 @@ assembler.recipeBuilder()
 recipes.remove(<extracells:storage.component:3>);
 assembler.recipeBuilder()
     .inputs([
-        <ore:circuitSuper> * 4,
+        <ore:circuitUv> * 4,
         <metaitem:plateNeutronium> * 4,
         <metaitem:dustCertusQuartz> * 32,
         <appliedenergistics2:material:23>
@@ -319,7 +319,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs([
         <appliedenergistics2:material:23>,
-        <ore:circuitSuper> * 4,
+        <ore:circuitUv> * 4,
         <extracells:storage.component:2> * 4
     ])
     .fluidInputs(<liquid:steel> * 144)
@@ -384,7 +384,7 @@ assembler.recipeBuilder()
 recipes.remove(<extracells:storage.component:10>);
 assembler.recipeBuilder()
     .inputs([
-        <ore:circuitSuper> * 4,
+        <ore:circuitUv> * 4,
         <metaitem:plateDarmstadtium> * 4,
         <metaitem:dustNetherQuartz> * 32,
         <appliedenergistics2:material:23>
@@ -397,7 +397,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs([
         <appliedenergistics2:material:23>,
-        <ore:circuitSuper> * 4,
+        <ore:circuitUv> * 4,
         <extracells:storage.component:9> * 4
     ])
     .fluidInputs(<liquid:stainless_steel> * 144)
