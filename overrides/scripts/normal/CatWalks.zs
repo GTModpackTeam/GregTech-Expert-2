@@ -25,7 +25,7 @@ recipes.remove(<catwalks:catwalk>);
 assembler.recipeBuilder()
     .circuit(6)
     .inputs([
-        <ore:frameGtSteel>,
+        <metaitem:frameSteel>,
         <metaitem:screwSteel> * 2,
         <metaitem:stickLongSteel> * 4
     ])
@@ -36,7 +36,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .circuit(7)
     .inputs([
-        <ore:frameGtDarkSteel>,
+        <metaitem:frameDarkSteel>,
         <metaitem:screwDarkSteel> * 2,
         <metaitem:stickLongDarkSteel> * 4
     ])
@@ -58,8 +58,8 @@ recipes.remove(<catwalks:catwalk>.withTag({material: "glass"}));
 assembler.recipeBuilder()
     .circuit(6)
     .inputs([
-        <ore:frameGtSteel>,
-        <ore:paneGlass> * 3,
+        <metaitem:frameSteel>,
+        <metaitem:plateGlass> * 3,
         <metaitem:stickLongSteel> * 4
     ])
     .outputs([<catwalks:catwalk>.withTag({material: "glass"}) * 4])
@@ -69,8 +69,8 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .circuit(7)
     .inputs([
-        <ore:frameGtDarkSteel>,
-        <ore:paneGlass> * 3,
+        <metaitem:frameDarkSteel>,
+        <metaitem:plateGlass> * 3,
         <metaitem:stickLongDarkSteel> * 4
     ])
     .outputs([<catwalks:catwalk>.withTag({material: "glass"}) * 16])
@@ -83,7 +83,7 @@ recipes.remove(<catwalks:catwalk>.withTag({material: "treated_wood"}));
 assembler.recipeBuilder()
     .circuit(6)
     .inputs([
-        <ore:frameGtTreatedWood>,
+        <metaitem:frameTreatedWood>,
         <metaitem:plateTreatedWood> * 3,
         <metaitem:stickLongSteel> * 4
     ])
@@ -94,7 +94,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .circuit(7)
     .inputs([
-        <ore:frameGtTreatedWood>,
+        <metaitem:frameTreatedWood>,
         <metaitem:plateTreatedWood> * 3,
         <metaitem:stickLongDarkSteel> * 4
     ])
