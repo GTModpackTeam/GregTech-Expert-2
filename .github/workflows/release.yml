@@ -22,31 +22,32 @@ jobs:
       - name: Archive Release Client
         uses: thedoctor0/zip-release@master
         with:
-          filename: "./GTExpert2-${{ steps.get_version.outputs.VERSION }}.zip"
-          exclusions: '*.git* .editorconfig LICENSE *.md */.github/* ./serverfiles/'
+          type: "zip"
+          filename: "./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}.zip"
+          exclusions: '*.git* .editorconfig LICENSE *.md */.github/* *mods/* *serverfiles/*'
 
       # - name: Archive Release Server
       #   uses: thedoctor0/zip-release@master
       #   with:
       #     filename: "./GTExpert2-${{ steps.get_version.outputs.VERSION }}-tmp-server.zip"
-      #     exclusions: '*.git* .editorconfig LICENSE *.md */.github/*'
+      #     exclusions: '*.git* .editorconfig LICENSE *.md */.github/* *mods/*'
 
       # - name: Build Server
       #   uses: henkelmax/build-modpack-server-action@v1.0.0
       #   with:
       #     modpack-path: "./GTExpert2-${{ steps.get_version.outputs.VERSION }}-tmp-server.zip"
-      #     output-path: "./GTExpert2-${{ steps.get_version.outputs.VERSION }}-server.zip"
+      #     output-path: "./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-server.zip"
 
       - name: Upload Curseforge
         uses: henkelmax/upload-curseforge-modpack-action@v1.0.0
         with: 
           api-token: ${{ secrets.CF_API_TOKEN }}
           project-id: "565238"
-          modpack-path: "./GTExpert2-${{ steps.get_version.outputs.VERSION }}.zip"
+          modpack-path: "./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}.zip"
           # modpack-server-path: "./GTExpert2-${{ steps.get_version.outputs.VERSION }}-server.zip"
           changelog: 'Check the changes here. [Github - CHANGELOG.md](https://github.com/GTModpackTeam/gregtech-expert-2/blob/main/CHANGELOG.md "")' 
           changelog-format: "markdown"
           game-version: "1.12.2"
-          display-name: "GTExpert2-${{ steps.get_version.outputs.VERSION }}"
+          display-name: "GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}"
           # server-display-name: "GTExpert2-${{ steps.get_version.outputs.VERSION }}-server"
           release-type: "${{ steps.get_version.outputs.LEVEL }}"
