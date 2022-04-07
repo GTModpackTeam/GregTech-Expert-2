@@ -1666,9 +1666,9 @@ recipes.addShaped(<appliedenergistics2:drive>, [
 
 # ME Interface
 recipes.removeShaped(<appliedenergistics2:interface>, [
-    [<metaitem:ingotIron>, <ore:blockGlassColorless>, <metaitem:ingotIron>],
+    [<minecraft:iron_ingot>, <ore:blockGlassColorless>, <minecraft:iron_ingot>],
     [<appliedenergistics2:material:44>, null, <appliedenergistics2:material:43>],
-    [<metaitem:ingotIron>, <ore:blockGlassColorless>, <metaitem:ingotIron>]
+    [<minecraft:iron_ingot>, <ore:blockGlassColorless>, <minecraft:iron_ingot>]
 ]);
 recipes.addShaped(<appliedenergistics2:interface>, [
     [<metaitem:plateSteel>, <metaitem:plateGlass>, <metaitem:plateSteel>],
@@ -1691,9 +1691,9 @@ assembler.recipeBuilder()
 
 # ME Fluid Interface
 recipes.removeShaped(<appliedenergistics2:fluid_interface>, [
-    [<metaitem:ingotIron>, <ore:gemLapis>, <metaitem:ingotIron>],
+    [<minecraft:iron_ingot>, <ore:gemLapis>, <minecraft:iron_ingot>],
     [<appliedenergistics2:material:44>, null, <appliedenergistics2:material:43>],
-    [<metaitem:ingotIron>, <ore:gemLapis>, <metaitem:ingotIron>]
+    [<minecraft:iron_ingot>, <ore:gemLapis>, <minecraft:iron_ingot>]
 ]);
 recipes.addShaped(<appliedenergistics2:fluid_interface>, [
     [<metaitem:plateStainlessSteel>, <metaitem:plateGlass>, <metaitem:plateStainlessSteel>],
@@ -1894,7 +1894,7 @@ packer.recipeBuilder()
 recipes.remove(<appliedenergistics2:molecular_assembler>);
 assembler.recipeBuilder()
     .inputs([
-        <ore:paneGlassColorless> * 2,
+        <metaitem:plateGlass> * 2,
         <ore:circuitHv> * 2,
         <metaitem:conveyor.module.hv> * 2,
         <metaitem:robot.arm.hv> * 2,
