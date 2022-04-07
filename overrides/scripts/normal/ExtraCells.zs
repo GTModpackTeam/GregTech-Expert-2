@@ -452,7 +452,7 @@ JEI.addDescription(<extracells:part.base:12>, "Lag device. Use OreDict Storage b
 recipes.remove(<extracells:fluidcrafter>);
 assembler.recipeBuilder()
     .inputs([
-        <ore:paneGlassColorless> * 2,
+        <metaitem:plateGlass> * 2,
         <ore:circuitHv> * 2,
         <metaitem:conveyor.module.hv> * 2,
         <metaitem:fluid.regulator.hv> * 2,

@@ -93,7 +93,7 @@ recipes.remove(<minecraft:ender_chest>);
 # End Rod
 recipes.remove(<minecraft:end_rod>);
 
-# Daylight Detector
+# Daylight Sensor
 recipes.removeShaped(<minecraft:daylight_detector>, [
     [<ore:blockGlassColorless>, <ore:blockGlassColorless>, <ore:blockGlassColorless>],
     [<ore:gemNetherQuartz>, <ore:gemNetherQuartz>, <ore:gemNetherQuartz>],
