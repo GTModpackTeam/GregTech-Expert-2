@@ -18,6 +18,7 @@
 * Gregicality Multiblocks
 * GregTech CE: Unofficial
 * GregTech Food Option
+* MultiblockTweaker
 * Sledgehammer
 
 ## Move mods
