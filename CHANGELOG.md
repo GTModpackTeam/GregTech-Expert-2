@@ -8,6 +8,7 @@
 * [Update] Quest include v0.11.0 (#120)
 * [Update] Add Utility Worlds (#124)
 * [Update] CEu v2.2.0 (#125)
+* [Update] MBT DL (#126)
 
 ## New mods
 * Utility Worlds
@@ -18,8 +19,11 @@
 * Gregicality Multiblocks
 * GregTech CE: Unofficial
 * GregTech Food Option
-* MultiblockTweaker
 * Sledgehammer
+
+## Other mods
+* MultiblockTweaker
+    * CEu Dev team has download it from Github.
 
 ## Move mods
 * Gregic Probe -> GTCEu
