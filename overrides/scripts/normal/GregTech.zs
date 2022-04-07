@@ -61,8 +61,8 @@ extractor.recipeBuilder()
 # Fluix
 mixer.recipeBuilder()
     .inputs([
-        <ore:dustRedstone>,
-        <ore:dustNetherQuartz>
+        <minecraft:redstone>,
+        <metaitem:dustNetherQuartz>
     ])
     .fluidInputs([<liquid:charged_certus_quartz> * 144])
     .fluidOutputs([<liquid:fluix> * 144])
@@ -71,8 +71,8 @@ mixer.recipeBuilder()
     .buildAndRegister();
 mixer.recipeBuilder()
     .inputs([
-        <ore:dustRedstone>,
-        <ore:dustChargedCertusQuartz>
+        <minecraft:redstone>,
+        <metaitem:dustChargedCertusQuartz>
     ])
     .fluidInputs([<liquid:nether_quartz> * 144])
     .fluidOutputs([<liquid:fluix> * 144])
@@ -81,8 +81,8 @@ mixer.recipeBuilder()
     .buildAndRegister();
 mixer.recipeBuilder()
     .inputs([
-        <ore:dustNetherQuartz>,
-        <ore:dustChargedCertusQuartz>
+        <metaitem:dustNetherQuartz>,
+        <metaitem:dustChargedCertusQuartz>
     ])
     .fluidInputs([<liquid:redstone> * 144])
     .fluidOutputs([<liquid:fluix> * 144])
@@ -115,7 +115,7 @@ extractor.recipeBuilder()
 ########################################
 # Red Alloy Dust
 recipes.addShapeless(<metaitem:dustRedAlloy>, [
-    <ore:gtce.tool.mortars>, <ore:ingotRedAlloy>
+    <ore:gtce.tool.mortars>, <metaitem:ingotRedAlloy>
 ]);
 
 # Stone Rod
@@ -135,13 +135,13 @@ lathe.recipeBuilder()
     .buildAndRegister();
 
 # Wrought Iron Nugget
-recipes.addShapeless(<metaitem:nuggetWroughtIron> * 9, [<ore:ingotWroughtIron>]);
+recipes.addShapeless(<metaitem:nuggetWroughtIron> * 9, [<metaitem:ingotWroughtIron>]);
 
 # Wrought Iron Ingot
 recipes.addShaped(<metaitem:ingotWroughtIron>, [
-    [<ore:nuggetWroughtIron>, <ore:nuggetWroughtIron>, <ore:nuggetWroughtIron>],
-    [<ore:nuggetWroughtIron>, <ore:nuggetWroughtIron>, <ore:nuggetWroughtIron>],
-    [<ore:nuggetWroughtIron>, <ore:nuggetWroughtIron>, <ore:nuggetWroughtIron>]
+    [<metaitem:nuggetWroughtIron>, <metaitem:nuggetWroughtIron>, <metaitem:nuggetWroughtIron>],
+    [<metaitem:nuggetWroughtIron>, <metaitem:nuggetWroughtIron>, <metaitem:nuggetWroughtIron>],
+    [<metaitem:nuggetWroughtIron>, <metaitem:nuggetWroughtIron>, <metaitem:nuggetWroughtIron>]
 ]);
 
 # Tiny Charcoal Dust
@@ -170,7 +170,7 @@ for solarPanel in solarPanels {
 assembly_line.recipeBuilder()
     .inputs([<metaitem:cover.solar.panel> * 8])
     .inputs([<minecraft:daylight_detector> * 8])
-    .inputs([<metaitem:circuit.vacuum_tube> * 4])
+    .inputs([<ore:circuitUlv> * 4])
     .inputs([<metaitem:plate.ultra_low_power_integrated_circuit> * 4])
     .inputs([<minecraft:glass>])
     .inputs([<metaitem:transformer.ulv>])
@@ -327,8 +327,8 @@ centrifuge.recipeBuilder()
 # Nether Star Dust
 chemical_reactor.recipeBuilder()
     .inputs([
-        <ore:dustDiamond>,
-        <ore:dustIridium>
+        <metaitem:dustDiamond>,
+        <metaitem:dustIridium>
     ])
     .fluidInputs([
         <liquid:nether_air> * 8000,
@@ -439,7 +439,7 @@ macerator.recipeBuilder()
 
 # Charged Certus Quartz Dust
 electrolyzer.recipeBuilder()
-    .inputs([<ore:dustCertusQuartz>])
+    .inputs([<metaitem:dustCertusQuartz>])
     .outputs([<metaitem:dustChargedCertusQuartz>])
     .duration(20)
     .EUt(30)
@@ -454,9 +454,9 @@ macerator.recipeBuilder()
 # Fluix Dust (Override)
 mixer.recipeBuilder()
     .inputs([
-        <ore:dustChargedCertusQuartz>,
-        <ore:dustRedstone>,
-        <ore:dustNetherQuartz>
+        <metaitem:dustChargedCertusQuartz>,
+        <minecraft:redstone>,
+        <metaitem:dustNetherQuartz>
     ])
     .fluidInputs([<liquid:distilled_water> * 50])
     .outputs([<metaitem:dustFluix>])
@@ -557,21 +557,21 @@ electrolyzer.recipeBuilder()
     .EUt(30)
     .buildAndRegister();
 autoclave.recipeBuilder()
-    .inputs([<ore:dustChargedCertusQuartz>])
+    .inputs([<metaitem:dustChargedCertusQuartz>])
     .fluidInputs([<liquid:distilled_water> * 50])
     .outputs([<appliedenergistics2:material:1>])
     .duration(600)
     .EUt(24)
     .buildAndRegister();
 autoclave.recipeBuilder()
-    .inputs([<ore:dustChargedCertusQuartz>])
+    .inputs([<metaitem:dustChargedCertusQuartz>])
     .fluidInputs([<liquid:water> * 250])
     .chancedOutput(<appliedenergistics2:material:1>, 7000, 1000)
     .duration(1200)
     .EUt(24)
     .buildAndRegister();
 implosion_compressor.recipeBuilder()
-    .inputs([<ore:dustChargedCertusQuartz> * 4])
+    .inputs([<metaitem:dustChargedCertusQuartz> * 4])
     .property("explosives", <minecraft:tnt> * 2)
     .outputs([
         <appliedenergistics2:material:1> * 3,
@@ -581,7 +581,7 @@ implosion_compressor.recipeBuilder()
     .EUt(30)
     .buildAndRegister();
 implosion_compressor.recipeBuilder()
-    .inputs([<ore:dustChargedCertusQuartz> * 4])
+    .inputs([<metaitem:dustChargedCertusQuartz> * 4])
     .property("explosives", <metaitem:dynamite>)
     .outputs([
         <appliedenergistics2:material:1> * 3,
@@ -598,7 +598,7 @@ recipes.removeShapeless(<appliedenergistics2:material:7> * 4, [<appliedenergisti
 mixer.recipeBuilder()
     .inputs([
         <ore:gemChargedCertusQuartz>,
-        <ore:dustRedstone>,
+        <minecraft:redstone>,
         <ore:gemNetherQuartz>
     ])
     .fluidInputs([<liquid:distilled_water> * 50])
@@ -607,21 +607,21 @@ mixer.recipeBuilder()
     .EUt(30)
     .buildAndRegister();
 autoclave.recipeBuilder()
-    .inputs([<ore:dustFluix>])
+    .inputs([<metaitem:dustFluix>])
     .fluidInputs([<liquid:distilled_water> * 50])
     .outputs([<appliedenergistics2:material:7>])
     .duration(600)
     .EUt(24)
     .buildAndRegister();
 autoclave.recipeBuilder()
-    .inputs([<ore:dustFluix>])
+    .inputs([<metaitem:dustFluix>])
     .fluidInputs([<liquid:water> * 250])
     .chancedOutput(<appliedenergistics2:material:7>, 7000, 1000)
     .duration(1200)
     .EUt(24)
     .buildAndRegister();
 implosion_compressor.recipeBuilder()
-    .inputs([<ore:dustFluix> * 4])
+    .inputs([<metaitem:dustFluix> * 4])
     .property("explosives", <minecraft:tnt> * 2)
     .outputs([
         <appliedenergistics2:material:7> * 3,
@@ -631,7 +631,7 @@ implosion_compressor.recipeBuilder()
     .EUt(30)
     .buildAndRegister();
 implosion_compressor.recipeBuilder()
-    .inputs([<ore:dustFluix> * 4])
+    .inputs([<metaitem:dustFluix> * 4])
     .property("explosives", <metaitem:dynamite>)
     .outputs([
         <appliedenergistics2:material:7> * 3,
@@ -731,29 +731,29 @@ compressor.recipeBuilder()
 # UHV Voltage 4x Battery Buffer
 recipes.addShaped(<metaitem:battery_buffer.uhv.4>, [
     [null, null, null],
-    [<ore:wireGtQuadrupleEuropium>, <minecraft:chest>, <ore:wireGtQuadrupleEuropium>],
-    [<ore:wireGtQuadrupleEuropium>, <metaitem:hull.uhv>, <ore:wireGtQuadrupleEuropium>]
+    [<metaitem:wireGtQuadrupleEuropium>, <minecraft:chest>, <metaitem:wireGtQuadrupleEuropium>],
+    [<metaitem:wireGtQuadrupleEuropium>, <metaitem:hull.uhv>, <metaitem:wireGtQuadrupleEuropium>]
 ]);
 
 # UHV Voltage 8x Battery Buffer
 recipes.addShaped(<metaitem:battery_buffer.uhv.8>, [
     [null, null, null],
-    [<ore:wireGtOctalEuropium>, <minecraft:chest>, <ore:wireGtOctalEuropium>],
-    [<ore:wireGtOctalEuropium>, <metaitem:hull.uhv>, <ore:wireGtOctalEuropium>]
+    [<metaitem:wireGtOctalEuropium>, <minecraft:chest>, <metaitem:wireGtOctalEuropium>],
+    [<metaitem:wireGtOctalEuropium>, <metaitem:hull.uhv>, <metaitem:wireGtOctalEuropium>]
 ]);
 
 # UHV Voltage 16x Battery Buffer
 recipes.addShaped(<metaitem:battery_buffer.uhv.16>, [
     [null, null, null],
-    [<ore:wireGtHexEuropium>, <minecraft:chest>, <ore:wireGtHexEuropium>],
-    [<ore:wireGtHexEuropium>, <metaitem:hull.uhv>, <ore:wireGtHexEuropium>]
+    [<metaitem:wireGtHexEuropium>, <minecraft:chest>, <metaitem:wireGtHexEuropium>],
+    [<metaitem:wireGtHexEuropium>, <metaitem:hull.uhv>, <metaitem:wireGtHexEuropium>]
 ]);
 
 # UHV Voltage Turbo Charger
 recipes.addShaped(<metaitem:charger.uhv>, [
-    [<ore:wireGtQuadrupleEuropium>, <minecraft:chest>, <ore:wireGtQuadrupleEuropium>],
-    [<ore:wireGtQuadrupleEuropium>, <metaitem:hull.uhv>, <ore:wireGtQuadrupleEuropium>],
-    [<ore:wireGtSingleEuropium>, <ore:circuitInfinite>, <ore:wireGtSingleEuropium>]
+    [<metaitem:wireGtQuadrupleEuropium>, <minecraft:chest>, <metaitem:wireGtQuadrupleEuropium>],
+    [<metaitem:wireGtQuadrupleEuropium>, <metaitem:hull.uhv>, <metaitem:wireGtQuadrupleEuropium>],
+    [<metaitem:wireGtSingleEuropium>, <ore:circuitInfinite>, <metaitem:wireGtSingleEuropium>]
 ]);
 
 # UHV 16A Energy Hatch

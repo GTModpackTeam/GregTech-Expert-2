@@ -1,3 +1,4 @@
+#packmode normal
 # Imports
 import crafttweaker.item.IItemStack;
 
@@ -52,17 +53,17 @@ for i, flask in flasks {
 recipes.remove(<volumetricflask:o_interface>);
 recipes.addShapeless(<volumetricflask:o_interface>, [<volumetricflask:part_o_interface>]);
 recipes.addShaped(<volumetricflask:o_interface>, [
-    [<ore:plateDoubleStainlessSteel>, <ore:plateGlass>, <ore:plateDoubleStainlessSteel>],
+    [<metaitem:plateDoubleStainlessSteel>, <metaitem:plateGlass>, <metaitem:plateDoubleStainlessSteel>],
     [<contenttweaker:matrixcore>, <gregtech:machine_casing:3>, <contenttweaker:matrixcore>],
-    [<ore:plateDoubleStainlessSteel>, <ore:plateGlass>, <ore:plateDoubleStainlessSteel>]
+    [<metaitem:plateDoubleStainlessSteel>, <metaitem:plateGlass>, <metaitem:plateDoubleStainlessSteel>]
 ]);
 assembler.recipeBuilder()
     .circuit(3)
     .inputs([
         <gregtech:machine_casing:3>,
         <contenttweaker:matrixcore>,
-        <ore:plateGlass>,
-        <ore:plateDoubleStainlessSteel> * 2
+        <metaitem:plateGlass>,
+        <metaitem:plateDoubleStainlessSteel> * 2
     ])
     .fluidInputs([<liquid:plastic> * 144])
     .outputs([<volumetricflask:o_interface>])
@@ -83,8 +84,8 @@ recipes.remove(<volumetricflask:filler>);
 assembler.recipeBuilder()
     .inputs([
         <ore:flask> * 2,
-        <ore:circuitAdvanced> * 2,
-        <ore:plateTitanium> * 4,
+        <ore:circuitHv> * 2,
+        <metaitem:plateTitanium> * 4,
         <extracells:fluidcrafter>
     ])
     .fluidInputs([<liquid:plastic> * 144])

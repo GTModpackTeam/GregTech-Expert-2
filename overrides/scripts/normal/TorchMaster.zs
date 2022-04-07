@@ -11,12 +11,12 @@ import mods.zenutils.I18n;
 # Mega Torch
 recipes.remove(<torchmaster:mega_torch:0>);
 recipes.addShaped(<torchmaster:mega_torch:0>, [
-    [<ore:dustCoal>, <ore:dustCoal>, <ore:dustCoal>],
+    [<metaitem:dustCoal>, <metaitem:dustCoal>, <metaitem:dustCoal>],
     [<ore:foilGold>, <gregtech:planks:1>, <ore:foilGold>],
     [<ore:foilGold>, <gregtech:planks:1>, <ore:foilGold>]
 ]);
 recipes.addShaped(<torchmaster:mega_torch:0>, [
-    [<ore:dustCharcoal>, <ore:dustCharcoal>, <ore:dustCharcoal>],
+    [<metaitem:dustCharcoal>, <metaitem:dustCharcoal>, <metaitem:dustCharcoal>],
     [<ore:foilGold>, <gregtech:planks:1>, <ore:foilGold>],
     [<ore:foilGold>, <gregtech:planks:1>, <ore:foilGold>]
 ]);

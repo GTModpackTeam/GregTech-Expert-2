@@ -1,3 +1,4 @@
+#packmode normal
 # Imports
 import mods.jei.JEI;
 
@@ -23,17 +24,17 @@ JEI.removeAndHide(<projectred-core:resource_item:301>);
 # Red Silicon Compound
 recipes.remove(<projectred-core:resource_item:310>);
 recipes.addShaped(<projectred-core:resource_item:310>, [
-    [<ore:dustRedstone>, <ore:dustRedstone>, <ore:dustRedstone>],
-    [<ore:dustRedstone>, <metaitem:wafer.silicon>, <ore:dustRedstone>],
-    [<ore:dustRedstone>, <ore:dustRedstone>, <ore:dustRedstone>]
+    [<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>],
+    [<minecraft:redstone>, <metaitem:wafer.silicon>, <minecraft:redstone>],
+    [<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>]
 ]);
 
 # Glowing Silicon Compound
 recipes.remove(<projectred-core:resource_item:311>);
 recipes.addShaped(<projectred-core:resource_item:311>, [
-    [<ore:dustGlowstone>, <ore:dustGlowstone>, <ore:dustGlowstone>],
-    [<ore:dustGlowstone>, <metaitem:wafer.silicon>, <ore:dustGlowstone>],
-    [<ore:dustGlowstone>, <ore:dustGlowstone>, <ore:dustGlowstone>]
+    [<minecraft:glowstone_dust>, <minecraft:glowstone_dust>, <minecraft:glowstone_dust>],
+    [<minecraft:glowstone_dust>, <metaitem:wafer.silicon>, <minecraft:glowstone_dust>],
+    [<minecraft:glowstone_dust>, <minecraft:glowstone_dust>, <minecraft:glowstone_dust>]
 ]);
 
 # Electrotine Silicon Compound

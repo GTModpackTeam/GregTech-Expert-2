@@ -46,27 +46,27 @@ JEI.addDescription(<extracells:terminal.universal.wireless>, I18n.format("modpac
 # Advanced Storage Housing
 recipes.remove(<extracells:storage.casing>);
 recipes.addShaped(<extracells:storage.casing>, [
-    [<ore:gtce.tool.screwdrivers>, <ore:plateTungstenSteel>, <ore:screwTungstenSteel>],
-    [<ore:plateTungstenSteel>, null, <ore:plateTungstenSteel>],
-    [<ore:screwTungstenSteel>, <ore:plateTungstenSteel>, <ore:gtce.tool.hard.hammers>]
+    [<ore:gtce.tool.screwdrivers>, <metaitem:plateTungstenSteel>, <metaitem:screwTungstenSteel>],
+    [<metaitem:plateTungstenSteel>, null, <metaitem:plateTungstenSteel>],
+    [<metaitem:screwTungstenSteel>, <metaitem:plateTungstenSteel>, <ore:gtce.tool.hard.hammers>]
 ]);
 recipes.addShaped(<extracells:storage.casing>, [
-    [<ore:gtce.tool.hard.hammers>, <ore:plateTungstenSteel>, <ore:screwTungstenSteel>],
-    [<ore:plateTungstenSteel>, null, <ore:plateTungstenSteel>],
-    [<ore:screwTungstenSteel>, <ore:plateTungstenSteel>, <ore:gtce.tool.screwdrivers>]
+    [<ore:gtce.tool.hard.hammers>, <metaitem:plateTungstenSteel>, <metaitem:screwTungstenSteel>],
+    [<metaitem:plateTungstenSteel>, null, <metaitem:plateTungstenSteel>],
+    [<metaitem:screwTungstenSteel>, <metaitem:plateTungstenSteel>, <ore:gtce.tool.screwdrivers>]
 ]);
 
 # Fluid Housing
 recipes.remove(<extracells:storage.casing:1>);
 recipes.addShaped(<extracells:storage.casing:1>, [
-    [<ore:gtce.tool.screwdrivers>, <ore:plateStainlessSteel>, <ore:screwStainlessSteel>],
-    [<ore:plateStainlessSteel>, null, <ore:plateStainlessSteel>],
-    [<ore:screwStainlessSteel>, <ore:plateStainlessSteel>, <ore:gtce.tool.hard.hammers>]
+    [<ore:gtce.tool.screwdrivers>, <metaitem:plateStainlessSteel>, <metaitem:screwStainlessSteel>],
+    [<metaitem:plateStainlessSteel>, null, <metaitem:plateStainlessSteel>],
+    [<metaitem:screwStainlessSteel>, <metaitem:plateStainlessSteel>, <ore:gtce.tool.hard.hammers>]
 ]);
 recipes.addShaped(<extracells:storage.casing:1>, [
-    [<ore:gtce.tool.hard.hammers>, <ore:plateStainlessSteel>, <ore:screwStainlessSteel>],
-    [<ore:plateStainlessSteel>, null, <ore:plateStainlessSteel>],
-    [<ore:screwStainlessSteel>, <ore:plateStainlessSteel>, <ore:gtce.tool.screwdrivers>]
+    [<ore:gtce.tool.hard.hammers>, <metaitem:plateStainlessSteel>, <metaitem:screwStainlessSteel>],
+    [<metaitem:plateStainlessSteel>, null, <metaitem:plateStainlessSteel>],
+    [<metaitem:screwStainlessSteel>, <metaitem:plateStainlessSteel>, <ore:gtce.tool.screwdrivers>]
 ]);
 
 # 256k Storage Cell
@@ -228,9 +228,9 @@ packer.recipeBuilder()
 recipes.remove(<extracells:storage.component>);
 assembler.recipeBuilder()
     .inputs([
-        <ore:circuitUltimate> * 4,
-        <ore:plateNaquadahAlloy> * 4,
-        <ore:dustCertusQuartz> * 16,
+        <ore:circuitZpm> * 4,
+        <metaitem:plateNaquadahAlloy> * 4,
+        <metaitem:dustCertusQuartz> * 16,
         <appliedenergistics2:material:24>
     ])
     .fluidInputs(<liquid:steel> * 144)
@@ -241,7 +241,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs([
         <appliedenergistics2:material:24>,
-        <ore:circuitUltimate> * 4,
+        <ore:circuitZpm> * 4,
         <appliedenergistics2:material:38> * 4
     ])
     .fluidInputs(<liquid:steel> * 144)
@@ -254,9 +254,9 @@ assembler.recipeBuilder()
 recipes.remove(<extracells:storage.component:1>);
 assembler.recipeBuilder()
     .inputs([
-        <ore:circuitUltimate> * 4,
-        <ore:plateAmericium> * 4,
-        <ore:dustCertusQuartz> * 16,
+        <ore:circuitZpm> * 4,
+        <metaitem:plateAmericium> * 4,
+        <metaitem:dustCertusQuartz> * 16,
         <appliedenergistics2:material:24>
     ])
     .fluidInputs(<liquid:steel> * 144)
@@ -267,7 +267,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs([
         <appliedenergistics2:material:24>,
-        <ore:circuitUltimate> * 4,
+        <ore:circuitZpm> * 4,
         <extracells:storage.component> * 4
     ])
     .fluidInputs(<liquid:steel> * 144)
@@ -280,9 +280,9 @@ assembler.recipeBuilder()
 recipes.remove(<extracells:storage.component:2>);
 assembler.recipeBuilder()
     .inputs([
-        <ore:circuitSuper> * 4,
-        <ore:plateDarmstadtium> * 4,
-        <ore:dustCertusQuartz> * 32,
+        <ore:circuitUv> * 4,
+        <metaitem:plateDarmstadtium> * 4,
+        <metaitem:dustCertusQuartz> * 32,
         <appliedenergistics2:material:23>
     ])
     .fluidInputs(<liquid:steel> * 144)
@@ -293,7 +293,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs([
         <appliedenergistics2:material:23>,
-        <ore:circuitSuper> * 4,
+        <ore:circuitUv> * 4,
         <extracells:storage.component:1> * 4
     ])
     .fluidInputs(<liquid:steel> * 144)
@@ -306,9 +306,9 @@ assembler.recipeBuilder()
 recipes.remove(<extracells:storage.component:3>);
 assembler.recipeBuilder()
     .inputs([
-        <ore:circuitSuper> * 4,
-        <ore:plateNeutronium> * 4,
-        <ore:dustCertusQuartz> * 32,
+        <ore:circuitUv> * 4,
+        <metaitem:plateNeutronium> * 4,
+        <metaitem:dustCertusQuartz> * 32,
         <appliedenergistics2:material:23>
     ])
     .fluidInputs(<liquid:steel> * 144)
@@ -319,7 +319,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs([
         <appliedenergistics2:material:23>,
-        <ore:circuitSuper> * 4,
+        <ore:circuitUv> * 4,
         <extracells:storage.component:2> * 4
     ])
     .fluidInputs(<liquid:steel> * 144)
@@ -332,9 +332,9 @@ assembler.recipeBuilder()
 recipes.remove(<extracells:storage.component:8>);
 assembler.recipeBuilder()
     .inputs([
-        <ore:circuitUltimate> * 4,
-        <ore:plateNaquadahAlloy> * 4,
-        <ore:dustNetherQuartz> * 16,
+        <ore:circuitZpm> * 4,
+        <metaitem:plateNaquadahAlloy> * 4,
+        <metaitem:dustNetherQuartz> * 16,
         <appliedenergistics2:material:24>
     ])
     .fluidInputs(<liquid:stainless_steel> * 144)
@@ -345,7 +345,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs([
         <appliedenergistics2:material:24>,
-        <ore:circuitUltimate> * 4,
+        <ore:circuitZpm> * 4,
         <appliedenergistics2:material:57> * 4
     ])
     .fluidInputs(<liquid:stainless_steel> * 144)
@@ -358,9 +358,9 @@ assembler.recipeBuilder()
 recipes.remove(<extracells:storage.component:9>);
 assembler.recipeBuilder()
     .inputs([
-        <ore:circuitUltimate> * 4,
-        <ore:plateAmericium> * 4,
-        <ore:dustNetherQuartz> * 16,
+        <ore:circuitZpm> * 4,
+        <metaitem:plateAmericium> * 4,
+        <metaitem:dustNetherQuartz> * 16,
         <appliedenergistics2:material:24>
     ])
     .fluidInputs(<liquid:stainless_steel> * 144)
@@ -371,7 +371,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs([
         <appliedenergistics2:material:24>,
-        <ore:circuitUltimate> * 4,
+        <ore:circuitZpm> * 4,
         <extracells:storage.component:8> * 4
     ])
     .fluidInputs(<liquid:stainless_steel> * 144)
@@ -384,9 +384,9 @@ assembler.recipeBuilder()
 recipes.remove(<extracells:storage.component:10>);
 assembler.recipeBuilder()
     .inputs([
-        <ore:circuitSuper> * 4,
-        <ore:plateDarmstadtium> * 4,
-        <ore:dustNetherQuartz> * 32,
+        <ore:circuitUv> * 4,
+        <metaitem:plateDarmstadtium> * 4,
+        <metaitem:dustNetherQuartz> * 32,
         <appliedenergistics2:material:23>
     ])
     .fluidInputs(<liquid:stainless_steel> * 144)
@@ -397,7 +397,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs([
         <appliedenergistics2:material:23>,
-        <ore:circuitSuper> * 4,
+        <ore:circuitUv> * 4,
         <extracells:storage.component:9> * 4
     ])
     .fluidInputs(<liquid:stainless_steel> * 144)
@@ -453,10 +453,10 @@ recipes.remove(<extracells:fluidcrafter>);
 assembler.recipeBuilder()
     .inputs([
         <ore:paneGlassColorless> * 2,
-        <ore:circuitAdvanced> * 2,
+        <ore:circuitHv> * 2,
         <metaitem:conveyor.module.hv> * 2,
         <metaitem:fluid.regulator.hv> * 2,
-        <ore:plateSteel> * 4
+        <metaitem:plateSteel> * 4
     ])
     .fluidInputs([<liquid:plastic> * 144])
     .outputs([<extracells:fluidcrafter>])
@@ -484,11 +484,11 @@ recipes.addShaped(<extracells:part.base:8>, [
 recipes.remove(<extracells:vibrantchamberfluid>);
 assembler.recipeBuilder()
     .inputs([
-        <ore:circuitAdvanced> * 2,
+        <ore:circuitHv> * 2,
         <ore:cableGtSingleGold> * 2,
         <metaitem:electric.pump.hv> * 2,
-        <ore:wireGtDoubleKanthal> * 4,
-        <ore:plateStainlessSteel> * 7
+        <metaitem:wireGtDoubleKanthal> * 4,
+        <metaitem:plateStainlessSteel> * 7
     ])
     .outputs([<extracells:vibrantchamberfluid>])
     .duration(200)

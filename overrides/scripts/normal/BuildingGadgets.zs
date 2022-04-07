@@ -12,11 +12,11 @@ recipes.remove(<buildinggadgets:buildingtool>);
 assembler.recipeBuilder()
     .circuit(1)
     .inputs([
-        <ore:stickRedAlloy> * 2,
-        <ore:screwRedAlloy> * 2,
-        <ore:dustIron>,
+        <metaitem:stickRedAlloy> * 2,
+        <metaitem:screwRedAlloy> * 2,
+        <metaitem:dustIron>,
         <metaitem:board.coated>,
-        <ore:circuitPrimitive>,
+        <ore:circuitUlv>,
         <ore:batteryBasic>
     ])
     .outputs([<buildinggadgets:buildingtool>])
@@ -29,11 +29,11 @@ recipes.remove(<buildinggadgets:copypastetool>);
 assembler.recipeBuilder()
     .circuit(2)
     .inputs([
-        <ore:stickRedAlloy> * 2,
-        <ore:screwRedAlloy> * 2,
-        <ore:dustGold>,
+        <metaitem:stickRedAlloy> * 2,
+        <metaitem:screwRedAlloy> * 2,
+        <metaitem:dustGold>,
         <metaitem:board.coated>,
-        <ore:circuitPrimitive>,
+        <ore:circuitUlv>,
         <ore:batteryBasic>
     ])
     .outputs([<buildinggadgets:copypastetool>])
@@ -46,11 +46,11 @@ recipes.remove(<buildinggadgets:exchangertool>);
 assembler.recipeBuilder()
     .circuit(3)
     .inputs([
-        <ore:stickRedAlloy> * 3,
-        <ore:screwRedAlloy> * 3,
-        <ore:dustObsidian>,
+        <metaitem:stickRedAlloy> * 3,
+        <metaitem:screwRedAlloy> * 3,
+        <metaitem:dustObsidian>,
         <metaitem:board.coated> * 2,
-        <ore:circuitPrimitive>,
+        <ore:circuitUlv>,
         <ore:batteryBasic>
     ])
     .outputs([<buildinggadgets:exchangertool>])
@@ -63,11 +63,11 @@ recipes.remove(<buildinggadgets:destructiontool>);
 assembler.recipeBuilder()
     .circuit(4)
     .inputs([
-        <ore:stickRedAlloy> * 2,
-        <ore:screwRedAlloy> * 2,
-        <ore:dustBedrock>,
+        <metaitem:stickRedAlloy> * 2,
+        <metaitem:screwRedAlloy> * 2,
+        <enderio:item_material:20>,
         <metaitem:board.coated>,
-        <ore:circuitPrimitive>,
+        <ore:circuitUlv>,
         <ore:batteryBasic>
     ])
     .outputs([<buildinggadgets:destructiontool>])
@@ -85,9 +85,9 @@ recipes.remove(<buildinggadgets:templatemanager>);
 assembler.recipeBuilder()
     .circuit(4)
     .inputs([
-        <ore:plateSteel> * 3,
-        <ore:plateGold> * 2,
-        <ore:circuitBasic>,
+        <metaitem:plateSteel> * 3,
+        <metaitem:plateGold> * 2,
+        <ore:circuitLv>,
         <gregtech:machine_casing:1>
     ])
     .outputs([<buildinggadgets:templatemanager>])

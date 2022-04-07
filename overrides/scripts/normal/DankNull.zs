@@ -35,7 +35,7 @@ recipes.addShapeless(<danknull:dank_null_1>, [<danknull:dank_null_1>.withEmptyTa
 assembler.recipeBuilder()
     .circuit(1)
     .inputs([
-        <ore:plateLapis> * 4,
+        <metaitem:plateLapis> * 4,
         <danknull:dank_null_0>
     ])
     .fluidInputs([<liquid:glass> * 144])
@@ -50,7 +50,7 @@ recipes.addShapeless(<danknull:dank_null_2>, [<danknull:dank_null_2>.withEmptyTa
 assembler.recipeBuilder()
     .circuit(1)
     .inputs([
-        <ore:plateTinAlloy> * 4,
+        <metaitem:plateTinAlloy> * 4,
         <danknull:dank_null_1>
     ])
     .fluidInputs([<liquid:glass> * 144])
@@ -65,7 +65,7 @@ recipes.addShapeless(<danknull:dank_null_3>, [<danknull:dank_null_3>.withEmptyTa
 assembler.recipeBuilder()
     .circuit(1)
     .inputs([
-        <ore:plateRoseGold> * 4,
+        <metaitem:plateRoseGold> * 4,
         <danknull:dank_null_2>
     ])
     .fluidInputs([<liquid:glass> * 144])
@@ -80,7 +80,7 @@ recipes.addShapeless(<danknull:dank_null_4>, [<danknull:dank_null_4>.withEmptyTa
 assembler.recipeBuilder()
     .circuit(1)
     .inputs([
-        <ore:plateDiamond> * 4,
+        <metaitem:plateDiamond> * 4,
         <danknull:dank_null_3>
     ])
     .fluidInputs([<liquid:glass> * 144])
@@ -95,7 +95,7 @@ recipes.addShapeless(<danknull:dank_null_5>, [<danknull:dank_null_5>.withEmptyTa
 assembler.recipeBuilder()
     .circuit(1)
     .inputs([
-        <ore:plateEmerald> * 4,
+        <metaitem:plateEmerald> * 4,
         <danknull:dank_null_4>
     ])
     .fluidInputs([<liquid:glass> * 144])

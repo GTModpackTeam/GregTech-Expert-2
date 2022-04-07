@@ -35,7 +35,7 @@ assembler.recipeBuilder()
     .circuit(4)
     .inputs([
         <appliedenergistics2:sky_stone_block>,
-        <ore:circuitMaster> * 4,
+        <ore:circuitLuv> * 4,
     ])
     .outputs([<fluxnetworks:fluxplug>])
     .duration(2000)
@@ -48,7 +48,7 @@ assembler.recipeBuilder()
     .circuit(6)
     .inputs([
         <appliedenergistics2:sky_stone_block>,
-        <ore:circuitMaster> * 4,
+        <ore:circuitLuv> * 4,
     ])
     .outputs([<fluxnetworks:fluxpoint>])
     .duration(2000)
@@ -59,8 +59,8 @@ assembler.recipeBuilder()
 recipes.remove(<fluxnetworks:fluxcontroller>);
 assembler.recipeBuilder()
     .inputs([
-        <ore:circuitMaster> * 4,
-        <ore:plateGlass> * 4,
+        <ore:circuitLuv> * 4,
+        <metaitem:plateGlass> * 4,
         <appliedenergistics2:sky_stone_block>
     ])
     .outputs([<fluxnetworks:fluxcontroller>])

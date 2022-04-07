@@ -8,7 +8,7 @@
 ########################################
 # GTE ME Storage Fake Component
 assembly_line.recipeBuilder()
-    .inputs([<ore:screwNeutronium> * 4])
+    .inputs([<metaitem:screwNeutronium> * 4])
     .inputs([<enderio:block_cap_bank>.withTag({"enderio:energy": 50000000}) * 4])
     .inputs([<gregtech:machine:1344> * 20])
     .inputs([<appliedenergistics2:creative_energy_cell> * 4])

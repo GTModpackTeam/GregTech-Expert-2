@@ -34,9 +34,9 @@ for elevator in elevators {
     }
 }
 recipes.addShaped(<elevatorid:elevator_black>, [
-    [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
-    [<ore:gearSmallSteel>, <ore:frameGtSteel>, <ore:gearSmallSteel>],
-    [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]
+    [<metaitem:plateSteel>, <metaitem:plateSteel>, <metaitem:plateSteel>],
+    [<metaitem:gearSmallSteel>, <metaitem:frameSteel>, <metaitem:gearSmallSteel>],
+    [<metaitem:plateSteel>, <metaitem:plateSteel>, <metaitem:plateSteel>]
 ]);
 chemical_bath.recipeBuilder()
     .inputs([<ore:blockElevator>])

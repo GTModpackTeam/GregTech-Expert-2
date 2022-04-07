@@ -54,13 +54,12 @@ var saw_mill = Builder.start("saw_mill", 32002)
             .where('#', CTPredicate.getAir())
             .build();
     } as IPatternBuilderFunction)
-    .withRecipeMap(
-        RecipeMapBuilder.create("saw_mill")
-            .setInputs(2, 2)
-            .setOutputs(4, 1)
-            .setFluidInputs(1, 1)
-            .setFluidOutputs(0, 0)
-            .build()
+    .withRecipeMap(RecipeMapBuilder.create("saw_mill")
+        .setInputs(2, 2)
+        .setOutputs(4, 1)
+        .setFluidInputs(1, 1)
+        .setFluidOutputs(0, 0)
+        .build()
     )
     .withBaseTexture(<metastate:gregtech:metal_casing:4>)
     .buildAndRegister();
@@ -68,9 +67,9 @@ saw_mill.hasMaintenanceMechanics = false;
 saw_mill.hasMufflerMechanics = false;
 
 recipes.addShaped(<metaitem:multiblocktweaker:saw_mill>, [
-    [<ore:screwSteel>, <ore:toolHeadBuzzSawSteel>, <ore:gtce.tool.screwdrivers>],
+    [<metaitem:screwSteel>, <metaitem:toolHeadBuzzSawSteel>, <ore:gtce.tool.screwdrivers>],
     [<metaitem:electric.motor.mv>, <gregtech:metal_casing:4>, <metaitem:electric.motor.mv>],
-    [<ore:circuitGood>, <metaitem:conveyor.module.mv>, <ore:circuitGood>]
+    [<ore:circuitMv>, <metaitem:conveyor.module.mv>, <ore:circuitMv>]
 ]);
 JEI.addDescription(<metaitem:multiblocktweaker:saw_mill>, I18n.format("multiblocktweaker.saw_mill.tooltip.1"));
 
@@ -101,7 +100,7 @@ var logs as IItemStack[] = [
 
 for i, log in logs {
     saw_mill.recipeMap.recipeBuilder()
-        .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))
+        .circuit(1)
         .inputs([log * 6])
         .fluidInputs([<liquid:water> * 1000])
         .outputs([planks[i] * 48])
@@ -110,7 +109,7 @@ for i, log in logs {
         .EUt(7)
         .buildAndRegister();
     saw_mill.recipeMap.recipeBuilder()
-        .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 2}))
+        .circuit(2)
         .inputs([log * 6])
         .fluidInputs([<liquid:water> * 1000])
         .outputs([<metaitem:dustWood> * 30])
@@ -122,7 +121,7 @@ for i, log in logs {
 
 ## Rubber
 saw_mill.recipeMap.recipeBuilder()
-    .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 1}))
+    .circuit(1)
     .inputs([<gregtech:rubber_log:0> * 6])
     .fluidInputs([<liquid:water> * 1000])
     .outputs([<gregtech:planks> * 48])
@@ -131,7 +130,7 @@ saw_mill.recipeMap.recipeBuilder()
     .EUt(7)
     .buildAndRegister();
 saw_mill.recipeMap.recipeBuilder()
-    .notConsumable(<metaitem:circuit.integrated>.withTag({Configuration: 2}))
+    .circuit(2)
     .inputs([<gregtech:rubber_log:0> * 6])
     .fluidInputs([<liquid:water> * 1000])
     .outputs([<metaitem:dustWood> * 30])
