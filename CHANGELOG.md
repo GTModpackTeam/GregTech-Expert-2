@@ -1,3 +1,64 @@
+# v1.4.0
+## Modpack fix
+* [Fix] Dark Pickaxe (#121)
+* [Fix] Stellar Alloy & Crystalline Pink Slime (#122)
+* [Fix] Modpack cfg (#123)
+
+## Modpack update
+* [Update] Quest include v0.11.0 (#120)
+* [Update] Add Utility Worlds (#124)
+* [Update] CEu v2.2.0 (#125)
+
+## New mods
+* Utility Worlds
+
+## Update mods
+* AE2 Unofficial Extended Life
+* Devtech
+* Gregicality Multiblocks
+* GregTech CE: Unofficial
+* GregTech Food Option
+* Sledgehammer
+
+## Move mods
+* Gregic Probe -> GTCEu
+
+## Del mods
+* JEI Integration
+
+## Fix config
+### FTB Utilities
+* B:enable_starting_items=false -> true
+* S:starting_items
+> {id:"ftbquests:book",Count:1b,Damage:0s}
+> {id:"gregtech:meta_item_1",Count:1b,Damage:465s,tag:{terminal:{_hw:{}}}}
+> {id:"gregtech:meta_item_1",Count:1b,Damage:466s,tag:{Charge:100000L}}
+> {id:"gregtech:meta_tool",Count:1b,Damage:19s,tag:{GT.ToolStats:{Material:"diamond"}}}
+
+### Smooth Font
+* B:autoBrightness=true -> false
+* I:blurReduction=10 -> 0
+* I:brightness=3 -> 0
+* D:limitMagnification=3.0 -> 1.0
+* I:shadowLength=5 -> 0
+
+## Update recipes
+### Ender IO
+* Stellar Alloy
+* Crystalline Pink Slime(Formula only)
+
+## New recipes
+* No change
+
+## Fix recipes
+### Ender IO
+* Dark Pickaxe
+
+## Del recipes
+* No change
+
+* * * 
+
 # v1.3.0(beta)
 ## Modpack fix
 * [Fix] Paint Ball & Color Applicator (#113)
