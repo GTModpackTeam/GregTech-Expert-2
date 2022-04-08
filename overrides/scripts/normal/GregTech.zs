@@ -593,7 +593,7 @@ implosion_compressor.recipeBuilder()
 
 # Fluix Crystal (Override)
 electrolyzer.findRecipe(60, [<metaitem:dustFluix> * 7], null).remove();
-recipes.removeShapeless(<appliedenergistics2:material:7> * 4, [<appliedenergistics2:fluix_block>]);
+recipes.remove(<appliedenergistics2:material:7>);
 <ore:gemFluix>.addItems([<appliedenergistics2:material:7>]);
 mixer.recipeBuilder()
     .inputs([

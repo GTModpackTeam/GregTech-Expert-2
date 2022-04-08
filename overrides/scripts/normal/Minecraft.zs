@@ -33,9 +33,7 @@ recipes.addShapeless(<minecraft:iron_nugget> * 9, [<minecraft:iron_ingot>]);
 recipes.addShapeless(<minecraft:gold_nugget> * 9, [<minecraft:gold_ingot>]);
 
 # Fermented Spider Eye
-recipes.removeShapeless(<minecraft:fermented_spider_eye>, [
-    <minecraft:spider_eye>, <minecraft:brown_mushroom>, <minecraft:sugar>
-]);
+recipes.remove(<minecraft:fermented_spider_eye>);
 
 
 
@@ -43,20 +41,16 @@ recipes.removeShapeless(<minecraft:fermented_spider_eye>, [
 # Blocks
 ########################################
 # Granite
-recipes.removeShapeless(<minecraft:stone:1>);
+recipes.remove(<minecraft:stone:1>);
 
 # Diorite
 recipes.remove(<minecraft:stone:3>);
 
 # Andesite
-recipes.removeShapeless(<minecraft:stone:5>);
+recipes.remove(<minecraft:stone:5>);
 
 # Comparator
-recipes.removeShaped(<minecraft:comparator>, [
-    [null, <minecraft:redstone_torch>, null],
-    [<minecraft:redstone_torch>, <ore:gemNetherQuartz>, <minecraft:redstone_torch>],
-    [<ore:stoneSmooth>, <ore:stoneSmooth>, <ore:stoneSmooth>]
-]);
+recipes.removeByRecipeName("appliedenergistics2:misc/vanilla_comparator");
 
 # Brewing Stand
 recipes.remove(<minecraft:brewing_stand>);
@@ -94,11 +88,7 @@ recipes.remove(<minecraft:ender_chest>);
 recipes.remove(<minecraft:end_rod>);
 
 # Daylight Sensor
-recipes.removeShaped(<minecraft:daylight_detector>, [
-    [<ore:blockGlassColorless>, <ore:blockGlassColorless>, <ore:blockGlassColorless>],
-    [<ore:gemNetherQuartz>, <ore:gemNetherQuartz>, <ore:gemNetherQuartz>],
-    [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]
-]);
+recipes.removeByRecipeName("appliedenergistics2:misc/vanilla_daylight_detector");
 
 # Beacon
 assembler.recipeBuilder()

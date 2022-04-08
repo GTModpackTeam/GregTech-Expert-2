@@ -1085,7 +1085,7 @@ cover.filter.blacklist.disabled=ホワイトリスト
 cover.filter.blacklist.enabled=ブラックリスト
 
 cover.ore_dictionary_filter.title=鉱石辞書フィルター
-cover.ore_dictionary_filter.info=§b論理式対応/n& = AND/n| = OR/n^ = XOR/n! = NOT/n( ) 優先/n* ワイルドカード/n§b例:/n§6dust*Gold | (plate* & !*Double*)/n全てのサイズの金の粉または全てのプレートが該当するが, 二重プレートは該当しない
+cover.ore_dictionary_filter.info=§b論理式対応/n&=AND/n|=OR/n^=XOR/n!=NOT/n( ) 優先/n* ワイルドカード/n§b例:/n§6dust*Gold | (plate* & !*Double*)/n全てのサイズの金の粉または全てのプレートが該当するが, 二重プレートは該当しない
 cover.ore_dictionary_filter.test_slot.info=フィルタ式に一致するかどうかのテスト用スロット
 cover.ore_dictionary_filter.matches=適合アイテム
 cover.ore_dictionary_filter.matches_not=非適合アイテム
@@ -3625,13 +3625,13 @@ gregtech.machine.circuit_assembler.opv.tooltip=計算機工場
 
 # Mass Fabricator
 gregtech.machine.mass_fabricator.lv.name=基本型物質製造機
-gregtech.machine.mass_fabricator.lv.tooltip=UUM = Matter * Fabrication の2乗
+gregtech.machine.mass_fabricator.lv.tooltip=UUM=Matter * Fabrication の2乗
 gregtech.machine.mass_fabricator.mv.name=発展型物質製造機
-gregtech.machine.mass_fabricator.mv.tooltip=UUM = Matter * Fabrication の2乗
+gregtech.machine.mass_fabricator.mv.tooltip=UUM=Matter * Fabrication の2乗
 gregtech.machine.mass_fabricator.hv.name=発展型物質製造機 II
-gregtech.machine.mass_fabricator.hv.tooltip=UUM = Matter * Fabrication の2乗
+gregtech.machine.mass_fabricator.hv.tooltip=UUM=Matter * Fabrication の2乗
 gregtech.machine.mass_fabricator.ev.name=発展型物質製造機 III
-gregtech.machine.mass_fabricator.ev.tooltip=UUM = Matter * Fabrication の2乗
+gregtech.machine.mass_fabricator.ev.tooltip=UUM=Matter * Fabrication の2乗
 gregtech.machine.mass_fabricator.iv.name=精鋭型物質製造機
 gregtech.machine.mass_fabricator.iv.tooltip=創世工場
 gregtech.machine.mass_fabricator.luv.name=精鋭型物質製造機 II
