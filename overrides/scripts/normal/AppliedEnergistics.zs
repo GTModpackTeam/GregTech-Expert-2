@@ -1127,25 +1127,8 @@ wiremill.recipeBuilder()
     .buildAndRegister();
 
 # Glass Cable
-val glassCables as IItemStack[] = [
-    <appliedenergistics2:part:0>,
-    <appliedenergistics2:part:1>,
-    <appliedenergistics2:part:2>,
-    <appliedenergistics2:part:3>,
-    <appliedenergistics2:part:4>,
-    <appliedenergistics2:part:5>,
-    <appliedenergistics2:part:6>,
-    <appliedenergistics2:part:7>,
-    <appliedenergistics2:part:8>,
-    <appliedenergistics2:part:9>,
-    <appliedenergistics2:part:10>,
-    <appliedenergistics2:part:11>,
-    <appliedenergistics2:part:12>,
-    <appliedenergistics2:part:13>,
-    <appliedenergistics2:part:14>,
-    <appliedenergistics2:part:15>
-];
 recipes.remove(<appliedenergistics2:part:16> * 4);
+recipes.removeByRecipeName("appliedenergistics2:network/cables/glass_fluix_clean");
 recipes.addShaped(<appliedenergistics2:part:16> * 6, [
     [<metaitem:stickAluminium>, <metaitem:dustFluix>, <metaitem:stickAluminium>],
     [<appliedenergistics2:part:140>, <appliedenergistics2:part:140>, <appliedenergistics2:part:140>],
@@ -1180,38 +1163,19 @@ chemical_bath.recipeBuilder()
     .duration(8)
     .EUt(480)
     .buildAndRegister();
-for i, glassCable in glassCables {
+for i in 0 .. 16 {
     chemical_bath.recipeBuilder()
         .inputs([<ore:ae2.cable.glass>])
         .fluidInputs([colorLiquid[i] * 18])
-        .outputs([glassCable])
+        .outputs([glassCables[i]])
         .duration(20)
         .EUt(7)
         .buildAndRegister();
 }
 
 # Covered Cable
-val coveredCables as IItemStack[] = [
-    <appliedenergistics2:part:20>,
-    <appliedenergistics2:part:21>,
-    <appliedenergistics2:part:22>,
-    <appliedenergistics2:part:23>,
-    <appliedenergistics2:part:24>,
-    <appliedenergistics2:part:25>,
-    <appliedenergistics2:part:26>,
-    <appliedenergistics2:part:27>,
-    <appliedenergistics2:part:28>,
-    <appliedenergistics2:part:29>,
-    <appliedenergistics2:part:30>,
-    <appliedenergistics2:part:31>,
-    <appliedenergistics2:part:32>,
-    <appliedenergistics2:part:33>,
-    <appliedenergistics2:part:34>,
-    <appliedenergistics2:part:35>
-];
-recipes.removeShapeless(<appliedenergistics2:part:36>, [
-    <ore:wool>, <ore:ae2.cable.glass>
-]);
+recipes.removeByRecipeName("appliedenergistics2:network/cables/covered_fluix");
+recipes.removeByRecipeName("appliedenergistics2:network/cables/covered_fluix_clean");
 recipes.addShaped(<appliedenergistics2:part:36>, [
     [<metaitem:plateStyreneButadieneRubber>, <metaitem:plateStyreneButadieneRubber>, <metaitem:plateStyreneButadieneRubber>],
     [<ore:ae2.cable.glass>, <ore:ae2.cable.glass>, <ore:ae2.cable.glass>],
@@ -1258,38 +1222,19 @@ chemical_bath.recipeBuilder()
     .duration(8)
     .EUt(480)
     .buildAndRegister();
-for i, coveredCable in coveredCables {
+for i in 0 .. 16 {
     chemical_bath.recipeBuilder()
         .inputs([<ore:ae2.cable.covered>])
         .fluidInputs([colorLiquid[i] * 18])
-        .outputs([coveredCable])
+        .outputs([coveredCables[i]])
         .duration(20)
         .EUt(7)
         .buildAndRegister();
 }
 
 # Smart Cable
-val smartCables as IItemStack[] = [
-    <appliedenergistics2:part:40>,
-    <appliedenergistics2:part:41>,
-    <appliedenergistics2:part:42>,
-    <appliedenergistics2:part:43>,
-    <appliedenergistics2:part:44>,
-    <appliedenergistics2:part:45>,
-    <appliedenergistics2:part:46>,
-    <appliedenergistics2:part:47>,
-    <appliedenergistics2:part:48>,
-    <appliedenergistics2:part:49>,
-    <appliedenergistics2:part:50>,
-    <appliedenergistics2:part:51>,
-    <appliedenergistics2:part:52>,
-    <appliedenergistics2:part:53>,
-    <appliedenergistics2:part:54>,
-    <appliedenergistics2:part:55>
-];
-recipes.removeShapeless(<appliedenergistics2:part:56>, [
-    <appliedenergistics2:part:36>, <minecraft:redstone>, <minecraft:glowstone_dust>
-]);
+recipes.removeByRecipeName("appliedenergistics2:network/cables/smart_fluix");
+recipes.removeByRecipeName("appliedenergistics2:network/cables/smart_fluix_clean");
 recipes.addShaped(<appliedenergistics2:part:56>, [
     [null, <minecraft:glowstone_dust>, null],
     [<minecraft:redstone>, <appliedenergistics2:part:36>, <minecraft:redstone>],
@@ -1354,39 +1299,20 @@ chemical_bath.recipeBuilder()
     .duration(8)
     .EUt(480)
     .buildAndRegister();
-for i, smartCable in smartCables {
+for i in 0 .. 16 {
     chemical_bath.recipeBuilder()
         .inputs([<ore:ae2.cable.smart>])
         .fluidInputs([colorLiquid[i] * 18])
-        .outputs([smartCable])
+        .outputs([smartCables[i]])
         .duration(20)
         .EUt(7)
         .buildAndRegister();
 }
 
+
 # Dense Covered Cable
-val denseCoveredCables as IItemStack[] = [
-    <appliedenergistics2:part:500>,
-    <appliedenergistics2:part:501>,
-    <appliedenergistics2:part:502>,
-    <appliedenergistics2:part:503>,
-    <appliedenergistics2:part:504>,
-    <appliedenergistics2:part:505>,
-    <appliedenergistics2:part:506>,
-    <appliedenergistics2:part:507>,
-    <appliedenergistics2:part:508>,
-    <appliedenergistics2:part:509>,
-    <appliedenergistics2:part:510>,
-    <appliedenergistics2:part:511>,
-    <appliedenergistics2:part:512>,
-    <appliedenergistics2:part:513>,
-    <appliedenergistics2:part:514>,
-    <appliedenergistics2:part:515>
-];
-recipes.removeShapeless(<appliedenergistics2:part:516>, [
-    <appliedenergistics2:part:36>, <appliedenergistics2:part:36>,
-    <appliedenergistics2:part:36>, <appliedenergistics2:part:36>
-]);
+recipes.removeByRecipeName("appliedenergistics2:network/cables/dense_covered_fluix");
+recipes.removeByRecipeName("appliedenergistics2:network/cables/dense_covered_fluix_clean");
 assembler.recipeBuilder()
     .circuit(3)
     .inputs([<appliedenergistics2:part:36> * 4])
@@ -1425,38 +1351,19 @@ chemical_bath.recipeBuilder()
     .duration(8)
     .EUt(480)
     .buildAndRegister();
-for i, denseCoveredCable in denseCoveredCables {
+for i in 0 .. 16 {
     chemical_bath.recipeBuilder()
         .inputs([<ore:ae2.cable.dense.covered>])
         .fluidInputs([colorLiquid[i] * 18])
-        .outputs([denseCoveredCable])
+        .outputs([denseCoveredCables[i]])
         .duration(20)
         .EUt(7)
         .buildAndRegister();
 }
 
 # Dense Smart Cable
-var denseSmartCables as IItemStack[] = [
-    <appliedenergistics2:part:60>,
-    <appliedenergistics2:part:61>,
-    <appliedenergistics2:part:62>,
-    <appliedenergistics2:part:63>,
-    <appliedenergistics2:part:64>,
-    <appliedenergistics2:part:65>,
-    <appliedenergistics2:part:66>,
-    <appliedenergistics2:part:67>,
-    <appliedenergistics2:part:68>,
-    <appliedenergistics2:part:69>,
-    <appliedenergistics2:part:70>,
-    <appliedenergistics2:part:71>,
-    <appliedenergistics2:part:72>,
-    <appliedenergistics2:part:73>,
-    <appliedenergistics2:part:74>,
-    <appliedenergistics2:part:75>
-];
-recipes.removeShapeless(<appliedenergistics2:part:76>, [
-    <appliedenergistics2:part:516>, <minecraft:redstone>, <minecraft:glowstone_dust>
-]);
+recipes.removeByRecipeName("appliedenergistics2:network/cables/dense_smart_fluix");
+recipes.removeByRecipeName("appliedenergistics2:network/cables/dense_smart_fluix_clean");
 recipes.addShaped(<appliedenergistics2:part:76>, [
     [null, <minecraft:glowstone_dust>, null],
     [<minecraft:redstone>, <appliedenergistics2:part:516>, <minecraft:redstone>],
@@ -1539,11 +1446,11 @@ chemical_bath.recipeBuilder()
     .duration(8)
     .EUt(480)
     .buildAndRegister();
-for i, denseSmartCable in denseSmartCables {
+for i in 0 .. 16 {
     chemical_bath.recipeBuilder()
         .inputs([<ore:ae2.cable.dense.smart>])
         .fluidInputs([colorLiquid[i] * 18])
-        .outputs([denseSmartCable])
+        .outputs([denseSmartCables[i]])
         .duration(20)
         .EUt(7)
         .buildAndRegister();
@@ -1665,11 +1572,7 @@ recipes.addShaped(<appliedenergistics2:drive>, [
 ]);
 
 # ME Interface
-recipes.removeShaped(<appliedenergistics2:interface>, [
-    [<minecraft:iron_ingot>, <ore:blockGlassColorless>, <minecraft:iron_ingot>],
-    [<appliedenergistics2:material:44>, null, <appliedenergistics2:material:43>],
-    [<minecraft:iron_ingot>, <ore:blockGlassColorless>, <minecraft:iron_ingot>]
-]);
+recipes.removeByRecipeName("appliedenergistics2:network/blocks/interfaces_interface");
 recipes.addShaped(<appliedenergistics2:interface>, [
     [<metaitem:plateSteel>, <metaitem:plateGlass>, <metaitem:plateSteel>],
     [<contenttweaker:matrixcore>, <gregtech:machine_casing:3>, <contenttweaker:matrixcore>],
@@ -1690,16 +1593,13 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 # ME Fluid Interface
-recipes.removeShaped(<appliedenergistics2:fluid_interface>, [
-    [<minecraft:iron_ingot>, <ore:gemLapis>, <minecraft:iron_ingot>],
-    [<appliedenergistics2:material:44>, null, <appliedenergistics2:material:43>],
-    [<minecraft:iron_ingot>, <ore:gemLapis>, <minecraft:iron_ingot>]
-]);
+recipes.remove(<appliedenergistics2:fluid_interface>);
 recipes.addShaped(<appliedenergistics2:fluid_interface>, [
     [<metaitem:plateStainlessSteel>, <metaitem:plateGlass>, <metaitem:plateStainlessSteel>],
     [<contenttweaker:matrixcore>, <gregtech:machine_casing:3>, <contenttweaker:matrixcore>],
     [<metaitem:plateStainlessSteel>, <metaitem:plateGlass>, <metaitem:plateStainlessSteel>]
 ]);
+recipes.addShapeless(<appliedenergistics2:fluid_interface>, [<appliedenergistics2:part:441>]);
 assembler.recipeBuilder()
     .circuit(2)
     .inputs([
@@ -2003,8 +1903,6 @@ recipes.addShaped(<appliedenergistics2:part:220>, [
 
 # Fluid Bus
 recipes.remove(<appliedenergistics2:part:221>);
-recipes.removeShapeless(<appliedenergistics2:fluid_interface>, [<extracells:ecbaseblock>]);
-recipes.removeShapeless(<appliedenergistics2:fluid_interface>, [<extracells:part.base:9>]);
 recipes.addShaped(<appliedenergistics2:part:221>, [
     [<metaitem:plateStainlessSteel>, <ore:gtce.tool.soft.hammers>, <metaitem:plateStainlessSteel>],
     [<metaitem:electric.pump.hv>, <ore:ae2.interface.fluid>, <metaitem:electric.pump.hv>],
@@ -2012,7 +1910,7 @@ recipes.addShaped(<appliedenergistics2:part:221>, [
 ]);
 
 # OreDict Storage Bus
-recipes.removeShapeless(<appliedenergistics2:part:222>);
+recipes.remove(<appliedenergistics2:part:222>);
 recipes.addShaped(<appliedenergistics2:part:222>, [
     [<metaitem:plateAluminium>, <ore:gtce.tool.soft.hammers>, <metaitem:plateAluminium>],
     [<metaitem:conveyor.module.ev>, <appliedenergistics2:part:220>, <metaitem:conveyor.module.ev>],
@@ -2041,11 +1939,6 @@ JEI.addDescription(<appliedenergistics2:part:261>, I18n.format("modpack.ae2.tool
 
 # Toggle Bus
 recipes.remove(<appliedenergistics2:part:80>);
-recipes.removeShaped(<appliedenergistics2:part:80>, [
-    [null, <minecraft:redstone>, null],
-    [<ore:ae2.cable.glass>, <minecraft:lever>, <ore:ae2.cable.glass>],
-    [null, <minecraft:redstone>, null]
-]);
 recipes.addShaped(<appliedenergistics2:part:80>, [
     [null, <metaitem:plateRedAlloy>, null],
     [<ore:ae2.cable.glass>, <minecraft:lever>, <ore:ae2.cable.glass>],
