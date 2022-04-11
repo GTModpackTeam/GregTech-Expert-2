@@ -1,0 +1,59 @@
+{
+	icon: "gregtech:meta_dust 1 1598",
+	x: 2.0d,
+	y: 0.0d,
+	shape: "diamond",
+	dependencies: [
+		"33845a9f"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "7f6469b5",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 1598"
+		}]
+	},
+	{
+		uid: "0ed6f081",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust_small 1 53"
+		}]
+	},
+	{
+		uid: "2a592ebf",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust_small 1 121"
+		}]
+	},
+	{
+		uid: "72622a6f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust_small 1 20"
+		}]
+	},
+	{
+		uid: "5bd99f42",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust_small 1 95"
+		}]
+	},
+	{
+		uid: "de56bae7",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust_small 1 66"
+		}]
+	},
+	{
+		uid: "b8617788",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust_small 1 19"
+		}]
+	}]
+}

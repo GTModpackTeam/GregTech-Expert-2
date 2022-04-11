@@ -1,0 +1,38 @@
+{
+	icon: "gregtech:meta_dust 1 48",
+	x: -6.0d,
+	y: 2.0d,
+	shape: "diamond",
+	dependencies: [
+		"33845a9f"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "2880e171",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_crushed_purified 1 279"
+		}]
+	},
+	{
+		uid: "61ca830f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_crushed_purified 1 322"
+		}]
+	},
+	{
+		uid: "704c188c",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust_small 1 48"
+		}]
+	},
+	{
+		uid: "ea3ab199",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 354"
+		}]
+	}]
+}

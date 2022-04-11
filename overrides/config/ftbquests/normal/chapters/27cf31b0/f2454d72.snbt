@@ -1,0 +1,15 @@
+{
+	x: 4.0d,
+	y: 6.0d,
+	shape: "diamond",
+	dependencies: [
+		"5ed85ae6"
+	],
+	tasks: [{
+		uid: "3acc72d3",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 638"
+		}]
+	}]
+}

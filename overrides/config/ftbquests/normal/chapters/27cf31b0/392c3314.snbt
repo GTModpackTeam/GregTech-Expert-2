@@ -1,0 +1,16 @@
+{
+	x: 4.0d,
+	y: -2.0d,
+	shape: "diamond",
+	dependencies: [
+		"324f4306",
+		"e528d6af"
+	],
+	tasks: [{
+		uid: "1a560b24",
+		type: "item",
+		items: [{
+			item: "gregtech:wire_single 1 428"
+		}]
+	}]
+}

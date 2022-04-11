@@ -23,6 +23,7 @@
 		type: "item",
 		items: [{
 			item: "gregtech:wire_coil 1 1"
-		}]
+		}],
+		count: 16L
 	}]
 }

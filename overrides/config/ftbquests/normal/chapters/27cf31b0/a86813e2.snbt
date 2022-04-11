@@ -1,14 +1,37 @@
 {
-	x: 2.0d,
+	icon: "gregtech:meta_dust 1 364",
+	x: -2.0d,
 	y: 0.0d,
+	shape: "diamond",
 	dependencies: [
-		"dda2a402"
+		"33845a9f"
 	],
+	or_tasks: true,
 	tasks: [{
-		uid: "61a3dc09",
+		uid: "6219aa4b",
+		type: "fluid",
+		fluid: "aqua_regia"
+	},
+	{
+		uid: "dd67b652",
 		type: "item",
 		items: [{
 			item: "gregtech:meta_dust 1 364"
+		}],
+		count: 6L
+	},
+	{
+		uid: "64963935",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 299"
+		}]
+	},
+	{
+		uid: "c7f8799f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 2058"
 		}]
 	}]
 }

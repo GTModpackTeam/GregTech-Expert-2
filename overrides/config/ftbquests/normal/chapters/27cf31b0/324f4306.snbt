@@ -1,16 +1,15 @@
 {
-	x: 6.0d,
-	y: 4.0d,
+	x: 2.0d,
+	y: -2.0d,
 	shape: "diamond",
 	dependencies: [
-		"027279df",
-		"99548f33"
+		"4368a55d"
 	],
 	tasks: [{
-		uid: "064d1ed8",
+		uid: "4cd816b9",
 		type: "item",
 		items: [{
-			item: "gregtech:wire_coil 1 3"
+			item: "gregtech:wire_coil 1 4"
 		}],
 		count: 16L
 	}]

@@ -1,0 +1,45 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	shape: "diamond",
+	dependencies: [
+		"a50e93fa",
+		"324f4306"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "5df47fc7",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 528"
+		}]
+	},
+	{
+		uid: "cd97a64d",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 529"
+		}]
+	},
+	{
+		uid: "c887e8f2",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 530"
+		}]
+	},
+	{
+		uid: "a5b23f21",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 531"
+		}]
+	},
+	{
+		uid: "44052d36",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 532"
+		}]
+	}]
+}

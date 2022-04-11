@@ -1,0 +1,31 @@
+{
+	icon: "gregtech:meta_ingot 1 93",
+	x: -4.0d,
+	y: 0.0d,
+	shape: "diamond",
+	dependencies: [
+		"a86813e2"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "60210bf7",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 433"
+		}]
+	},
+	{
+		uid: "2e4a9345",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 93"
+		}]
+	},
+	{
+		uid: "7dcaa57a",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 90"
+		}]
+	}]
+}
