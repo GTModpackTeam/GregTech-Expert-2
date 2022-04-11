@@ -1,0 +1,23 @@
+{
+	x: -8.0d,
+	y: 4.0d,
+	shape: "diamond",
+	dependencies: [
+		"a2d4136d",
+		"7ccb04e8"
+	],
+	tasks: [{
+		uid: "e13257a0",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1215"
+		}]
+	},
+	{
+		uid: "5197d80e",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1230"
+		}]
+	}]
+}

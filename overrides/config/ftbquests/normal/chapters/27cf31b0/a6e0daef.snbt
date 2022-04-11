@@ -1,0 +1,25 @@
+{
+	icon: "minecraft:nether_star",
+	x: -4.0d,
+	y: 6.0d,
+	shape: "diamond",
+	dependencies: [
+		"a2d4136d",
+		"5f54f72d"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "31c6ef94",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 1602"
+		}]
+	},
+	{
+		uid: "70f5f58a",
+		type: "item",
+		items: [{
+			item: "minecraft:nether_star"
+		}]
+	}]
+}

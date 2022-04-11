@@ -1,0 +1,16 @@
+{
+	title: "鉱石大量処理の方法",
+	x: -4.0d,
+	y: -2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"26f4d197"
+	],
+	tasks: [{
+		uid: "883b6e7b",
+		type: "checkmark",
+		title: "読んだら押しましょう"
+	}]
+}

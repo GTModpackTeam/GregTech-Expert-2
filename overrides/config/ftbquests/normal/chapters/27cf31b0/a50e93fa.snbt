@@ -1,0 +1,23 @@
+{
+	icon: "gregtech:meta_ingot 1 1010",
+	x: 2.0d,
+	y: 2.0d,
+	shape: "diamond",
+	dependencies: [
+		"33845a9f"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "11b34694",
+		type: "fluid",
+		fluid: "polybenzimidazole",
+		amount: 1008
+	},
+	{
+		uid: "d1cdf2c9",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 1010"
+		}]
+	}]
+}
