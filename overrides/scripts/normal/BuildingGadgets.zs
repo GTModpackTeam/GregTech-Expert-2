@@ -17,7 +17,7 @@ assembler.recipeBuilder()
         <metaitem:dustIron>,
         <metaitem:board.coated>,
         <ore:circuitUlv>,
-        <ore:batteryBasic>
+        <ore:batteryLv>
     ])
     .outputs([<buildinggadgets:buildingtool>])
     .duration(100)
@@ -34,7 +34,7 @@ assembler.recipeBuilder()
         <metaitem:dustGold>,
         <metaitem:board.coated>,
         <ore:circuitUlv>,
-        <ore:batteryBasic>
+        <ore:batteryLv>
     ])
     .outputs([<buildinggadgets:copypastetool>])
     .duration(100)
@@ -51,7 +51,7 @@ assembler.recipeBuilder()
         <metaitem:dustObsidian>,
         <metaitem:board.coated> * 2,
         <ore:circuitUlv>,
-        <ore:batteryBasic>
+        <ore:batteryLv>
     ])
     .outputs([<buildinggadgets:exchangertool>])
     .duration(100)
@@ -68,7 +68,7 @@ assembler.recipeBuilder()
         <enderio:item_material:20>,
         <metaitem:board.coated>,
         <ore:circuitUlv>,
-        <ore:batteryBasic>
+        <ore:batteryLv>
     ])
     .outputs([<buildinggadgets:destructiontool>])
     .duration(100)
