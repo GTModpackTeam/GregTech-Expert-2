@@ -753,7 +753,7 @@ recipes.addShaped(<metaitem:battery_buffer.uhv.16>, [
 recipes.addShaped(<metaitem:charger.uhv>, [
     [<metaitem:wireGtQuadrupleEuropium>, <minecraft:chest>, <metaitem:wireGtQuadrupleEuropium>],
     [<metaitem:wireGtQuadrupleEuropium>, <metaitem:hull.uhv>, <metaitem:wireGtQuadrupleEuropium>],
-    [<metaitem:wireGtSingleEuropium>, <ore:circuitInfinite>, <metaitem:wireGtSingleEuropium>]
+    [<metaitem:wireGtSingleEuropium>, <ore:circuitUhv>, <metaitem:wireGtSingleEuropium>]
 ]);
 
 # UHV 16A Energy Hatch
