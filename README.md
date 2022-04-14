@@ -4,11 +4,10 @@
 
 ## About
 
-This ModPack is made as 1.12.2 version of [GregTech Expert](https://www.curseforge.com/minecraft/modpacks/gregtech-expert), and uses [CE Unofficial](https://www.curseforge.com/minecraft/mc-mods/gregtech-ce-unofficial) version of GregTech instead of CE version.
+This ModPack is designed to be a continuation of [GregTech Expert](https://www.curseforge.com/minecraft/modpacks/gregtech-expert), and uses [CE Unofficial](https://www.curseforge.com/minecraft/mc-mods/gregtech-ce-unofficial) version of GregTech instead of the outdated CE version.
+We have the concept of forcing the usage of GregTech's machines as much as possible, so we gregified most of recipes from other mods.
 
-Simple changes, but if there are recipes that can be made with GregTech's machines, I'll make the changes so that they can be made only with those.
-
-Then, useful machines that are added by other mods will be made available for creation as they progress.
+When you continue your GregTech journey, you will be eventually able to make something cannot be replaced by GregTech such as ME System!
 
 ## Unofficial build mods
 
@@ -16,4 +15,6 @@ Then, useful machines that are added by other mods will be made available for cr
 
 ## Credited Works
 
-* Greenhouse is from the [GregTech-Community-Pack](https://github.com/GregTechCEu/GregTech-Community-Pack).
+* Greenhouse and some other recipes are from [GregTech-Community-Pack](https://github.com/GregTechCEu/GregTech-Community-Pack).
+* Many Japanese Quests are also translated from the GCP.
+* The idea of Saw Mill and some other recipes are from [IMPACT: GREGTECH EDITION](https://gtimpact.space/)

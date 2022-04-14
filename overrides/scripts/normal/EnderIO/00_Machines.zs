@@ -14,7 +14,7 @@ recipes.remove(<enderio:block_cap_bank:1>);
 recipes.addShaped(<enderio:block_cap_bank:1>, [
     [<enderio:item_basic_capacitor>, <ore:circuitHv>, <enderio:item_basic_capacitor>],
     [<metaitem:plateElectricalSteel>, <ore:itemSimpleMachineChassi>, <metaitem:plateElectricalSteel>],
-    [<enderio:item_basic_capacitor>, <ore:batteryAdvanced>, <enderio:item_basic_capacitor>]
+    [<enderio:item_basic_capacitor>, <ore:batteryHv>, <enderio:item_basic_capacitor>]
 ]);
 
 # Capacitor Bank
@@ -22,7 +22,7 @@ recipes.remove(<enderio:block_cap_bank:2>);
 recipes.addShaped(<enderio:block_cap_bank:2>, [
     [<enderio:item_basic_capacitor:1>, <ore:circuitEv>, <enderio:item_basic_capacitor:1>],
     [<metaitem:plateEnergeticAlloy>, <ore:itemMachineChassi>, <metaitem:plateEnergeticAlloy>],
-    [<enderio:block_cap_bank:1>, <ore:batteryExtreme>, <enderio:block_cap_bank:1>]
+    [<enderio:block_cap_bank:1>, <ore:batteryEv>, <enderio:block_cap_bank:1>]
 ]);
 
 # Vibrant Capacitor Bank
@@ -30,7 +30,7 @@ recipes.remove(<enderio:block_cap_bank:3>);
 recipes.addShaped(<enderio:block_cap_bank:3>, [
     [<enderio:item_basic_capacitor:2>, <ore:circuitIv>, <enderio:item_basic_capacitor:2>],
     [<ore:itemVibrantCrystal>, <ore:itemEnhancedMachineChassi>, <ore:itemVibrantCrystal>],
-    [<enderio:block_cap_bank:2>, <ore:batteryElite>, <enderio:block_cap_bank:2>]
+    [<enderio:block_cap_bank:2>, <ore:batteryIv>, <enderio:block_cap_bank:2>]
 ]);
 
 # Block Detector
