@@ -25,7 +25,6 @@
 * No change
 
 ## Update recipes
-### Ender IO
 * No change
 
 ## New recipes
@@ -35,19 +34,19 @@
 ## AE2
 * Creative Energy Cell
 
-## Building Gadgets
+### Building Gadgets
 * Building Gadget
 * Copy-Paste Gadget
 * Exchanging Gadget
 * Destruction Gadget
 
-## Ender IO
+### Ender IO
 * Basic Capacitor Bank
 * Capacitor Bank
 * Vibrant Capacitor Bank
 * Creative Capacitor Bank
 
-## GregTech
+### GregTech
 * UHV Voltage Turbo Charger
 
 * * *
