@@ -3,14 +3,11 @@
 * [Hotfix] OreDictionary for batteries (#135)
 * [Fix] Re-edit the battery OreDictionary. (#138)
 
-# Modpack update
+## Modpack update
 * [Update] Quest include v0.12.0 (#131)
 * [Update] CEu mods (#133)
 * [Update] Mods (#137)
 * MBT has been uploaded to CF, so changed to DL from CF instead of DL from Github.
-
-## New mods
-* No change
 
 ## Update mods
 * AE2 Unofficial Extended Life
@@ -19,20 +16,8 @@
 * Had Enough Items
 * MultiblockTweaker
 
-## Del mods
-* No change
-
-## Fix config
-* No change
-
-## Update recipes
-* No change
-
-## New recipes
-* No change
-
 ## Fix recipes
-## AE2
+### AE2
 * Creative Energy Cell
 
 ### Building Gadgets
