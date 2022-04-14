@@ -3,10 +3,11 @@
 * [Hotfix] OreDictionary for batteries (#135)
 * [Fix] Re-edit the battery OreDictionary. (#138)
 
-## Update mods
+# Modpack update
 * [Update] Quest include v0.12.0 (#131)
 * [Update] CEu mods (#133)
 * [Update] Mods (#137)
+* MBT has been uploaded to CF, so changed to DL from CF instead of DL from Github.
 
 ## New mods
 * No change
