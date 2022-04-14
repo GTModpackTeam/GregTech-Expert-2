@@ -1,3 +1,57 @@
+# v1.5.0
+## Modpack fix
+* [Hotfix] OreDictionary for batteries (#135)
+* [Fix] Re-edit the battery OreDictionary. (#138)
+
+## Update mods
+* [Update] Quest include v0.12.0 (#131)
+* [Update] CEu mods (#133)
+* [Update] Mods (#137)
+
+## New mods
+* No change
+
+## Update mods
+* AE2 Unofficial Extended Life
+* GregTech CE: Unofficial
+* GregTech Food Option
+* Had Enough Items
+* MultiblockTweaker
+
+## Del mods
+* No change
+
+## Fix config
+* No change
+
+## Update recipes
+### Ender IO
+* No change
+
+## New recipes
+* No change
+
+## Fix recipes
+## AE2
+* Creative Energy Cell
+
+## Building Gadgets
+* Building Gadget
+* Copy-Paste Gadget
+* Exchanging Gadget
+* Destruction Gadget
+
+## Ender IO
+* Basic Capacitor Bank
+* Capacitor Bank
+* Vibrant Capacitor Bank
+* Creative Capacitor Bank
+
+## GregTech
+* UHV Voltage Turbo Charger
+
+* * *
+
 # v1.4.1(beta)
 ## Modpack fix
 * utilityworlds.cfg
