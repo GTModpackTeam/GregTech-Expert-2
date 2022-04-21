@@ -20,99 +20,119 @@
   "buttons": {
     "singleplayer": {
       "text": "menu.singleplayer",
-      "posX": -120,
-      "posY": 48,
-      "width": 120,
+      "texture": "mainmenu:textures/btn.png",
+      "normalTextColor": 4227327,
+      "hoverTextColor": 65535,
+      "posX": 0,
+      "posY": -140,
+      "width": 150,
       "height": 20,
+      "imageWidth": 1000,
+      "imageHeight": 1,
+      "alignment": "column_bottom",
       "action": {
         "type": "openGui",
         "gui": "singleplayer"
       }
     },
     "multiplayer": {
-      "text": "menu.multiplayer",
+      "text": "Multiplayer",
+      "texture": "mainmenu:textures/btn.png",
+      "normalTextColor": 4227327,
+      "hoverTextColor": 65535,
       "posX": 0,
-      "posY": 48,
-      "width": 120,
+      "posY": -120,
+      "width": 150,
       "height": 20,
+      "imageWidth": 1000,
+      "imageHeight": 1,
+      "alignment": "column_bottom",
       "action": {
         "type": "openGui",
         "gui": "multiplayer"
       }
     },
-    "mods": {
-      "text": "fml.menu.mods",
-      "posX": -120,
-      "posY": 68,
-      "width": 120,
-      "height": 20,
-      "action": {
-        "type": "openGui",
-        "gui": "mods"
-      }
-    },
-    "options": {
-      "text": "menu.options",
-      "posX": 0,
-      "posY": 68,
-      "width": 120,
-      "height": 20,
-      "action": {
-        "type": "openGui",
-        "gui": "options"
-      }
-    },
     "discord": {
       "text": "Join Us On Discord!",
-      "posX": -120,
-      "posY": 88,
-      "width": 120,
+      "normalTextColor": 250080,
+      "hoverTextColor": 16758315,
+      "texture": "mainmenu:textures/btn.png",
+      "posX": 0,
+      "posY": -90,
+      "width": 150,
       "height": 20,
+      "imageWidth": 1000,
+      "imageHeight": 1,
+      "alignment": "column_bottom",
       "action": {
         "type": "openLink",
         "link": "https://discord.gg/xBwHpZyZdW"
       }
     },
-    "update": {
-      "text": "Update Notes",
+    "language": {
+      "text": "Language",
+      "normalTextColor": 120120,
+      "hoverTextColor": 4229927,
+      "texture": "mainmenu:textures/btn.png",
       "posX": 0,
-      "posY": 88,
-      "width": 120,
+      "posY": -70,
+      "width": 150,
       "height": 20,
+      "imageWidth": 1000,
+      "imageHeight": 1,
+      "alignment": "column_bottom",
       "action": {
-        "type": "openLink",
-        "link": "https://github.com/GTModpackTeam/gregtech-expert-2/blob/main/CHANGELOG.md"
+        "type": "openGui",
+        "gui": "languages"
       }
     },
-    "refresh": {
-      "text" : "",
-      "posX" : -154,
-      "posY" : 132,
-      "width" : 20,
-      "height" : 20,
-      "texture" : "custommainmenu:textures/gui/buttons.png",
-      "action" : {
-        "type" : "refresh"
+    "options": {
+      "text": "Options",
+      "normalTextColor": 120120,
+      "hoverTextColor": 4229927,
+      "texture": "mainmenu:textures/btn.png",
+      "posX": 0,
+      "posY": -50,
+      "width": 150,
+      "height": 20,
+      "imageWidth": 1000,
+      "imageHeight": 1,
+      "alignment": "column_bottom",
+      "action": {
+        "type": "openGui",
+        "gui": "options"
       }
     },
-    "language":
-    {
-      "text" : "",
-      "posX" : 135,
-      "posY" : 132,
-      "width" : 20,
-      "height" : 20,
-      "action" : {
-          "type" : "openGui",
-          "gui" : "languages"
+    "mods": {
+      "text": "fml.menu.mods",
+      "normalTextColor": 120120,
+      "hoverTextColor": 4229927,
+      "texture": "mainmenu:textures/btn.png",
+      "posX": 0,
+      "posY": -30,
+      "width": 150,
+      "height": 20,
+      "imageWidth": 1000,
+      "imageHeight": 1,
+      "alignment": "column_bottom",
+      "action": {
+        "type": "openGui",
+        "gui": "mods"
       }
     },
     "quit": {
-      "text": "menu.quit",
-      "posX": -120,
-      "posY": 132,
-      "width": 240,
+      "text": "Quit",
+      "hoverText": "Permission denied!",
+      "normalTextColor": 12012000,
+      "hoverTextColor": 16711680,
+      "texture": "mainmenu:textures/btn.png",
+      "posX": 0,
+      "posY": -10,
+      "width": 150,
       "height": 20,
+      "imageWidth": 1000,
+      "imageHeight": 1,
+      "alignment": "column_bottom",
       "action": {
         "type": "quit"
       }
@@ -120,28 +140,41 @@
   },
   "labels": {
     "mojang": {
-      "text": "Copyright Mojang AB. Do not distribute!",
-      "posX": -197,
-      "posY": -10,
-      "color": -1,
-      "alignment": "bottom_right"
+      "text": "Forge #forgeversion# for Minecraft #mcversion# - Copyright Mojang AB. Do not distribute!",
+      "posX": 155,
+      "posY": 0,
+      "alignment": "column_bottom"
     },
-    "fml": {
-      "text" : "",
-      "posX" : 2,
-      "posY" : -46,
-      "color" : -1,
-      "alignment" : "bottom_left"
+    "version": {
+      "text": "file:mainmenu:version.txt",
+      "posX": 155,
+      "posY": -10,
+      "alignment": "column_bottom",
+      "action": {
+        "type": "openLink",
+        "link": "https://github.com/GTModpackTeam/gregtech-expert-2/blob/main/CHANGELOG.md"
+      }
+    }
+  },
+  "alignments": {
+    "column_top": {
+      "factorWidth": 0.1,
+      "factorHeight": 0.0
+    },
+    "column_logo": {
+      "factorWidth": 0.1,
+      "factorHeight": 0.05
+    },
+    "column_center": {
+      "factorWidth": 0.1,
+      "factorHeight": 0.5
+    },
+    "column_bottom": {
+      "factorWidth": 0.1,
+      "factorHeight": 0.95
     }
   },
   "other": {
-    "splash-text": {
-      "posX" : 90,
-      "posY" : 70,
-      "color" : -256,
-      "alignment" : "top_center",
-      "texts" : "file:minecraft:texts/splashes.txt"
-    },
     "panorama": {
       "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
       "animate" : true,

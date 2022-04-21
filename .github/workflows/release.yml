@@ -19,6 +19,9 @@ jobs:
           echo ::set-output name=VERSION::$(echo ${GITHUB_REF} | sed -e 's#refs/tags/##g' | awk -F'-' '{print $1}')
           echo ::set-output name=LEVEL::$(echo ${GITHUB_REF} | sed -e 's#refs/tags/##g' | awk -F'-' '{print $2}')
 
+      - name: Set the version
+        run: echo "GregTech Expert 2 ${{ steps.get_version.outputs.VERSION }} ${{ steps.get_version.outputs.LEVEL }}" > ./overrides/resources/mainmenu/version.txt
+
       - name: Archive Release Client
         uses: thedoctor0/zip-release@master
         with:
