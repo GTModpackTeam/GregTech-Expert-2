@@ -58,7 +58,7 @@ JEI.removeAndHide(<appliedenergistics2:material:40>);
 # Network Tool
 recipes.remove(<appliedenergistics2:network_tool>);
 recipes.addShapeless(<appliedenergistics2:network_tool>, [
-    <enderio:item_yeta_wrench>, <appliedenergistics2:part:200>,
+    <appliedenergistics2:certus_quartz_wrench> | <appliedenergistics2:nether_quartz_wrench> | <enderio:item_yeta_wrench>, <appliedenergistics2:part:200>,
     <appliedenergistics2:material:23>,<minecraft:chest>
 ]);
 
@@ -801,6 +801,22 @@ assembler.recipeBuilder()
     .EUt(30720)
     .buildAndRegister();
 
+# Certus Quartz Wrench
+recipes.remove(<appliedenergistics2:certus_quartz_wrench>);
+recipes.addShaped(<appliedenergistics2:certus_quartz_wrench>, [
+    [<metaitem:plateCertusQuartz>, <ore:gtce.tool.hard.hammers>, <metaitem:plateCertusQuartz>],
+    [<metaitem:plateCertusQuartz>, <metaitem:plateCertusQuartz>, <metaitem:plateCertusQuartz>],
+    [null, <metaitem:plateCertusQuartz>, null]
+]);
+
+# Nether Quartz Wrench
+recipes.remove(<appliedenergistics2:nether_quartz_wrench>);
+recipes.addShaped(<appliedenergistics2:nether_quartz_wrench>, [
+    [<metaitem:plateNetherQuartz>, <ore:gtce.tool.hard.hammers>, <metaitem:plateNetherQuartz>],
+    [<metaitem:plateNetherQuartz>, <metaitem:plateNetherQuartz>, <metaitem:plateNetherQuartz>],
+    [null, <metaitem:plateNetherQuartz>, null]
+]);
+
 # Entropy Manipulator
 recipes.remove(<appliedenergistics2:entropy_manipulator>);
 recipes.addShaped(<appliedenergistics2:entropy_manipulator>, [
@@ -1056,20 +1072,22 @@ recipes.removeByRecipeName("appliedenergistics2:network/parts/cable_anchor");
 val anchorIngots_x2 as IItemStack[] = [
     <minecraft:iron_ingot>,
     <metaitem:ingotCopper>,
+    <metaitem:ingotAnnealedCopper>,
     <metaitem:ingotTin>,
     <metaitem:ingotLead>,
     <metaitem:ingotNickel>,
-    <metaitem:ingotSilver>
+    <metaitem:ingotSilver>,
+    <metaitem:ingotSteel>
 ];
 val anchorIngots_x3 as IItemStack[] = [
     <metaitem:ingotBronze>,
-    <metaitem:ingotAnnealedCopper>,
     <metaitem:ingotBrass>,
-    <metaitem:ingotInvar>
+    <metaitem:ingotInvar>,
+    <metaitem:ingotDarkSteel>
 ];
 val anchorIngots_x4 as IItemStack[] = [
-    <metaitem:ingotSteel>,
-    <metaitem:ingotAluminium>
+    <metaitem:ingotStainlessSteel>,
+    <metaitem:ingotTitanium>
 ];
 for anchorIngot_x2 in anchorIngots_x2 {
     recipes.addShapeless(<appliedenergistics2:part:120> * 2, [anchorIngot_x2, <ore:gtce.tool.knife>]);
