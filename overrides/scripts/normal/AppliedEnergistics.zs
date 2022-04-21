@@ -1096,21 +1096,21 @@ for anchorIngot_x2 in anchorIngots_x2 {
         .fluidInputs([<liquid:lubricant> * 1])
         .outputs([<appliedenergistics2:part:120> * 4])
         .duration(80)
-        .EUt(8)
+        .EUt(480)
         .buildAndRegister();
     cutter.recipeBuilder()
         .inputs([anchorIngot_x2])
         .fluidInputs([<liquid:distilled_water> * 3])
         .outputs([<appliedenergistics2:part:120> * 4])
         .duration(160)
-        .EUt(8)
+        .EUt(480)
         .buildAndRegister();
     cutter.recipeBuilder()
         .inputs([anchorIngot_x2])
         .fluidInputs([<liquid:water> * 4])
         .outputs([<appliedenergistics2:part:120> * 4])
         .duration(200)
-        .EUt(8)
+        .EUt(480)
         .buildAndRegister();
 }
 for anchorIngot_x3 in anchorIngots_x3 {
@@ -1120,21 +1120,21 @@ for anchorIngot_x3 in anchorIngots_x3 {
         .fluidInputs([<liquid:lubricant> * 1])
         .outputs([<appliedenergistics2:part:120> * 6])
         .duration(80)
-        .EUt(8)
+        .EUt(480)
         .buildAndRegister();
     cutter.recipeBuilder()
         .inputs([anchorIngot_x3])
         .fluidInputs([<liquid:distilled_water> * 3])
         .outputs([<appliedenergistics2:part:120> * 6])
         .duration(160)
-        .EUt(8)
+        .EUt(480)
         .buildAndRegister();
     cutter.recipeBuilder()
         .inputs([anchorIngot_x3])
         .fluidInputs([<liquid:water> * 4])
         .outputs([<appliedenergistics2:part:120> * 6])
         .duration(200)
-        .EUt(8)
+        .EUt(480)
         .buildAndRegister();
 }
 for anchorIngot_x4 in anchorIngots_x4 {
@@ -1144,21 +1144,21 @@ for anchorIngot_x4 in anchorIngots_x4 {
         .fluidInputs([<liquid:lubricant> * 1])
         .outputs([<appliedenergistics2:part:120> * 8])
         .duration(80)
-        .EUt(8)
+        .EUt(480)
         .buildAndRegister();
     cutter.recipeBuilder()
         .inputs([anchorIngot_x4])
         .fluidInputs([<liquid:distilled_water> * 3])
         .outputs([<appliedenergistics2:part:120> * 8])
         .duration(160)
-        .EUt(8)
+        .EUt(480)
         .buildAndRegister();
     cutter.recipeBuilder()
         .inputs([anchorIngot_x4])
         .fluidInputs([<liquid:water> * 4])
         .outputs([<appliedenergistics2:part:120> * 8])
         .duration(200)
-        .EUt(8)
+        .EUt(480)
         .buildAndRegister();
 }
 
