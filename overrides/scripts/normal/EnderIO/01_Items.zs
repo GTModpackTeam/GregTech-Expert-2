@@ -481,8 +481,8 @@ alloy_smelter.recipeBuilder()
 # Dark Steel Upgrade "Micro Anvil"
 recipes.addShaped(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:anvil"}), [
     [null, <metaitem:nuggetDarkSteel>, <metaitem:nuggetDarkSteel>],
-    [null, null, <metaitem:stickWood>],
-    [<enderio:item_dark_steel_upgrade>, null, <metaitem:stickWood>]
+    [null, null, <minecraft:stick>],
+    [<enderio:item_dark_steel_upgrade>, null, <minecraft:stick>]
 ]);
 
 # Dark Steel Upgrade(XP) "Micro Anvil"
@@ -497,8 +497,8 @@ assembler.recipeBuilder()
 # Dark Steel Upgrade "Mini Anvil"
 recipes.addShaped(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:anvil1"}), [
     [null, <metaitem:plateDarkSteel>, <metaitem:plateDarkSteel>],
-    [null, null, <metaitem:stickWood>],
-    [<enderio:item_dark_steel_upgrade>, null, <metaitem:stickWood>]
+    [null, null, <minecraft:stick>],
+    [<enderio:item_dark_steel_upgrade>, null, <minecraft:stick>]
 ]);
 
 # Dark Steel Upgrade(XP) "Mini Anvil"
@@ -513,8 +513,8 @@ assembler.recipeBuilder()
 # Dark Steel Upgrade "Pocket Anvil"
 recipes.addShaped(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:anvil2"}), [
     [null, null, <ore:blockDarkSteel>],
-    [null, null, <metaitem:stickWood>],
-    [<enderio:item_dark_steel_upgrade>, <enderio:block_dark_steel_anvil>, <metaitem:stickWood>]
+    [null, null, <minecraft:stick>],
+    [<enderio:item_dark_steel_upgrade>, <enderio:block_dark_steel_anvil>, <minecraft:stick>]
 ]);
 
 # Dark Steel Upgrade(XP) "Pocket Anvil"
