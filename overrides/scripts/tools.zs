@@ -56,7 +56,7 @@ var ae2 as IItemStack[] = [
     <appliedenergistics2:nether_quartz_spade>,
     <appliedenergistics2:nether_quartz_pickaxe>,
     <appliedenergistics2:nether_quartz_axe>,
-    <appliedenergistics2:nether_quartz_hoe>,
+    <appliedenergistics2:nether_quartz_hoe>
 ];
 for tool in ae2 {
     JEI.removeAndHide(tool);

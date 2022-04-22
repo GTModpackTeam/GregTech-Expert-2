@@ -25,7 +25,6 @@ modpack.gregtech.energy_hatch_output_16a_uhv.tooltip.1=Cannot create yet.
 # AE2
 material.fluix=Fluix
 material.charged_certus_quartz=Charged Certus Quartz
-modpack.ae2.charger.tooltip.1=Use GT TurboCharger.
 modpack.ae2.bus_item.tooltip.1=Lag device. Use interface.
 modpack.ae2.bus_fluid.tooltip.1=Lag device. Use Fluid interface.
 modpack.ae2.p2p_conduit.tooltip.1=Made by right-clicking ME P2P Tunnel with an energy conduit.
