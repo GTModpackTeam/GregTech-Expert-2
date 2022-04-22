@@ -1,3 +1,44 @@
+# v1.6.0
+## Modpack fix
+* [Fix] circuit board (#142)
+* [Fix] Recipes using Stick Wood (#144)
+* [fix] Recipes that cannot be created (#143)
+
+## Update mods
+* AE2 Unofficial Extended Life
+* CensoredASM
+* SuperMartijn642's Core Lib
+* Trash Cans
+* Had Enough Items
+
+## Add mods
+* FindMyItemsAndFluids
+
+## Add resource pack
+* Zederrian Technology for GTCEu
+
+## Fix recipes
+## AE2
+* Network Tool
+
+### ArchitectureCraft
+* Hammer
+
+### Building Gadget
+* The CIRCUIT BOARD used in the recipe is different.
+
+### EnderIO
+* Dark Steel Upgrade "Micro Anvil"
+* Dark Steel Upgrade "Mini Anvil"
+* Dark Steel Upgrade(XP) "Mini Anvil"
+
+### ForgeMicroblocks
+* Stone Saw
+* Iron Saw
+* Diamond Saw
+
+* * *
+
 # v1.5.0
 ## Modpack fix
 * [Hotfix] OreDictionary for batteries (#135)
