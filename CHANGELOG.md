@@ -14,6 +14,9 @@
 ## Add mods
 * FindMyItemsAndFluids
 
+## Del mods
+* Sledgehammer
+
 ## Add resource pack
 * Zederrian Technology for GTCEu
 
