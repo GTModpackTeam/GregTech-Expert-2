@@ -801,6 +801,22 @@ assembler.recipeBuilder()
     .EUt(30720)
     .buildAndRegister();
 
+# Certus Quartz Cutting Knife
+recipes.remove(<appliedenergistics2:certus_quartz_cutting_knife>);
+recipes.addShaped(<appliedenergistics2:certus_quartz_cutting_knife>, [
+    [<ore:gtce.tool.files>, <metaitem:plateCertusQuartz>, <ore:gtce.tool.hard.hammers>],
+    [<ore:crystalCertusQuartz>, <metaitem:stickWood>, <ore:crystalCertusQuartz>],
+    [null, <metaitem:stickWood>, null]
+]);
+
+# Nether Quartz Cutting Knife
+recipes.remove(<appliedenergistics2:nether_quartz_cutting_knife>);
+recipes.addShaped(<appliedenergistics2:nether_quartz_cutting_knife>, [
+    [<ore:gtce.tool.files>, <metaitem:plateNetherQuartz>, <ore:gtce.tool.hard.hammers>],
+    [<ore:gemNetherQuartz>, <metaitem:stickWood>, <ore:gemNetherQuartz>],
+    [null, <metaitem:stickWood>, null]
+]);
+
 # Certus Quartz Wrench
 recipes.remove(<appliedenergistics2:certus_quartz_wrench>);
 recipes.addShaped(<appliedenergistics2:certus_quartz_wrench>, [
@@ -1067,101 +1083,6 @@ macerator.recipeBuilder()
 ########################################
 # Blocks
 ########################################
-# Cable Anchor
-recipes.removeByRecipeName("appliedenergistics2:network/parts/cable_anchor");
-val anchorIngots_x2 as IItemStack[] = [
-    <minecraft:iron_ingot>,
-    <metaitem:ingotCopper>,
-    <metaitem:ingotAnnealedCopper>,
-    <metaitem:ingotTin>,
-    <metaitem:ingotLead>,
-    <metaitem:ingotNickel>,
-    <metaitem:ingotSilver>,
-    <metaitem:ingotSteel>
-];
-val anchorIngots_x3 as IItemStack[] = [
-    <metaitem:ingotBronze>,
-    <metaitem:ingotBrass>,
-    <metaitem:ingotInvar>,
-    <metaitem:ingotDarkSteel>
-];
-val anchorIngots_x4 as IItemStack[] = [
-    <metaitem:ingotStainlessSteel>,
-    <metaitem:ingotTitanium>
-];
-for anchorIngot_x2 in anchorIngots_x2 {
-    recipes.addShapeless(<appliedenergistics2:part:120> * 2, [anchorIngot_x2, <ore:gtce.tool.knife>]);
-    cutter.recipeBuilder()
-        .inputs([anchorIngot_x2])
-        .fluidInputs([<liquid:lubricant> * 1])
-        .outputs([<appliedenergistics2:part:120> * 4])
-        .duration(80)
-        .EUt(480)
-        .buildAndRegister();
-    cutter.recipeBuilder()
-        .inputs([anchorIngot_x2])
-        .fluidInputs([<liquid:distilled_water> * 3])
-        .outputs([<appliedenergistics2:part:120> * 4])
-        .duration(160)
-        .EUt(480)
-        .buildAndRegister();
-    cutter.recipeBuilder()
-        .inputs([anchorIngot_x2])
-        .fluidInputs([<liquid:water> * 4])
-        .outputs([<appliedenergistics2:part:120> * 4])
-        .duration(200)
-        .EUt(480)
-        .buildAndRegister();
-}
-for anchorIngot_x3 in anchorIngots_x3 {
-    recipes.addShapeless(<appliedenergistics2:part:120> * 3, [anchorIngot_x3, <ore:gtce.tool.knife>]);
-    cutter.recipeBuilder()
-        .inputs([anchorIngot_x3])
-        .fluidInputs([<liquid:lubricant> * 1])
-        .outputs([<appliedenergistics2:part:120> * 6])
-        .duration(80)
-        .EUt(480)
-        .buildAndRegister();
-    cutter.recipeBuilder()
-        .inputs([anchorIngot_x3])
-        .fluidInputs([<liquid:distilled_water> * 3])
-        .outputs([<appliedenergistics2:part:120> * 6])
-        .duration(160)
-        .EUt(480)
-        .buildAndRegister();
-    cutter.recipeBuilder()
-        .inputs([anchorIngot_x3])
-        .fluidInputs([<liquid:water> * 4])
-        .outputs([<appliedenergistics2:part:120> * 6])
-        .duration(200)
-        .EUt(480)
-        .buildAndRegister();
-}
-for anchorIngot_x4 in anchorIngots_x4 {
-    recipes.addShapeless(<appliedenergistics2:part:120> * 4, [anchorIngot_x4, <ore:gtce.tool.knife>]);
-    cutter.recipeBuilder()
-        .inputs([anchorIngot_x4])
-        .fluidInputs([<liquid:lubricant> * 1])
-        .outputs([<appliedenergistics2:part:120> * 8])
-        .duration(80)
-        .EUt(480)
-        .buildAndRegister();
-    cutter.recipeBuilder()
-        .inputs([anchorIngot_x4])
-        .fluidInputs([<liquid:distilled_water> * 3])
-        .outputs([<appliedenergistics2:part:120> * 8])
-        .duration(160)
-        .EUt(480)
-        .buildAndRegister();
-    cutter.recipeBuilder()
-        .inputs([anchorIngot_x4])
-        .fluidInputs([<liquid:water> * 4])
-        .outputs([<appliedenergistics2:part:120> * 8])
-        .duration(200)
-        .EUt(480)
-        .buildAndRegister();
-}
-
 # Quartz Blocks
 JEI.removeAndHide(<appliedenergistics2:quartz_block>);
 JEI.removeAndHide(<appliedenergistics2:quartz_slab>);
