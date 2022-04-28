@@ -65,9 +65,9 @@ mixer.recipeBuilder()
 
 # Fire Water
 mixer.recipeBuilder()
-    .inputs([<minecraft:redstone> * 2])
-    .fluidInputs([<liquid:blaze> * 1000])
-    .fluidOutputs([<liquid:fire_water> * 1000])
+    .inputs([<minecraft:redstone> * 1])
+    .fluidInputs([<liquid:blaze> * 576])
+    .fluidOutputs([<liquid:fire_water> * 576])
     .duration(100)
     .EUt(480)
     .buildAndRegister();
@@ -78,8 +78,8 @@ mixer.recipeBuilder()
         <minecraft:glowstone_dust> * 2,
         <minecraft:double_plant>
     ])
-    .fluidInputs([<liquid:fire_water> * 250])
-    .fluidOutputs([<liquid:liquid_sunshine> * 250])
+    .fluidInputs([<liquid:fire_water> * 288])
+    .fluidOutputs([<liquid:liquid_sunshine> * 288])
     .duration(56)
     .EUt(480)
     .buildAndRegister();
