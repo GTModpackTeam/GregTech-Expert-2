@@ -2,7 +2,7 @@
 ## Modpack fix
 * [Fix] circuit board (#142)
 * [Fix] Recipes using Stick Wood (#144)
-* [fix] Recipes that cannot be created (#143)
+* [Fix] Recipes that cannot be created (#143)
 * [Fix] Cannot create (#148)
 
 ## Update mods
