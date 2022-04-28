@@ -1,11 +1,16 @@
 {
+	title: "Aqua Regia",
 	icon: "gregtech:meta_dust 1 364",
 	x: -2.0d,
 	y: 0.0d,
 	shape: "diamond",
+	text: [
+		""
+	],
 	dependencies: [
 		"33845a9f"
 	],
+	min_width: 300,
 	or_tasks: true,
 	tasks: [{
 		uid: "6219aa4b",
@@ -25,13 +30,15 @@
 		type: "item",
 		items: [{
 			item: "gregtech:meta_dust 1 299"
-		}]
+		}],
+		count: 3L
 	},
 	{
 		uid: "c7f8799f",
 		type: "item",
 		items: [{
 			item: "gregtech:meta_dust 1 2058"
-		}]
+		}],
+		count: 3L
 	}]
 }

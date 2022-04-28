@@ -1,0 +1,65 @@
+{
+	title: "楽しさに限界はない",
+	x: 2.0d,
+	y: 2.0d,
+	description: "IV Components",
+	text: [
+		"IVの中間素材は、幸運にも前の電圧の素材よりもそれ程複雑な工程を要求してきません。",
+		"タングステンが大量に要求されるぐらいです。",
+		"",
+		"エミッタとセンサは別で、ネザースターとイリジウムを要求してきます。",
+		"作り方は専用のクエストを参照してください。"
+	],
+	dependencies: [
+		"33845a9f"
+	],
+	tasks: [{
+		uid: "572421b9",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 131"
+		}]
+	},
+	{
+		uid: "e1a0900f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 176"
+		}]
+	},
+	{
+		uid: "949e56a5",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 146"
+		}]
+	},
+	{
+		uid: "d1841d24",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 161"
+		}]
+	},
+	{
+		uid: "c529bf92",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 191"
+		}]
+	},
+	{
+		uid: "9dc44c33",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 236"
+		}]
+	},
+	{
+		uid: "41828a69",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 221"
+		}]
+	}]
+}

@@ -1,9 +1,15 @@
 {
+	title: "えすおーしー",
 	x: -2.0d,
 	y: -4.0d,
+	description: "SoC",
+	text: [
+		"システムオンチップはLV回路の最後のレシピを解放します。"
+	],
 	dependencies: [
 		"63c8b620"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "e65d3a77",
 		type: "item",

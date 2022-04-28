@@ -1,10 +1,16 @@
 {
+	title: "こんナノ誰が使うの？",
 	x: 4.0d,
 	y: -8.0d,
 	shape: "diamond",
+	description: "Nanoprocessor Mainframe",
+	text: [
+		"この回路は高価ですがLuVに進むときに二枚必要になります。"
+	],
 	dependencies: [
 		"36c645af"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "3753031a",
 		type: "item",

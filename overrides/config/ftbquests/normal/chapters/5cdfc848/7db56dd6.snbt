@@ -1,6 +1,10 @@
 {
+	title: "Solar Panel(LuV)",
 	x: 0.0d,
 	y: -2.0d,
+	text: [
+		""
+	],
 	dependencies: [
 		"6e458906"
 	],

@@ -1,9 +1,15 @@
 {
+	title: "スウェーデン語で「重い石」",
 	x: 4.0d,
 	y: 0.0d,
+	description: "Tungsten Ingot",
+	text: [
+		"タングステンはIVのケーブルの素材になりますが、他の用途で使うこともあります。"
+	],
 	dependencies: [
 		"9da2c3aa"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "97772816",
 		type: "item",

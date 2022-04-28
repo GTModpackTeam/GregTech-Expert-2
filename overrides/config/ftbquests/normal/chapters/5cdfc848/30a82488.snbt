@@ -1,6 +1,10 @@
 {
+	title: "Infinite GT Energy Unit Emitter",
 	x: -2.0d,
 	y: 2.0d,
+	text: [
+		""
+	],
 	dependencies: [
 		"f37eb8c7"
 	],

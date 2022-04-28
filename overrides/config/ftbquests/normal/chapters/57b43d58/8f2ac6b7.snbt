@@ -1,7 +1,7 @@
 {
 	title: "一番現実的な性能",
 	x: 5.5d,
-	y: 8.0d,
+	y: 6.0d,
 	description: "Liquid-Fueled Impeller Jetpack",
 	text: [
 		"液体燃料式インペラージェットパックは最初のジェットパックです。",
