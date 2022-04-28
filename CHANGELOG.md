@@ -7,6 +7,7 @@
 * [Fix] Recipes using Stick Wood (#144)
 * [Fix] Recipes that cannot be created (#143)
 * [Fix] Cannot create (#148)
+* [Fix] EIO Liquid (#147)
 
 ## Update mods
 * AE2 Unofficial Extended Life
@@ -38,6 +39,12 @@
 * Dark Steel Upgrade "Micro Anvil"
 * Dark Steel Upgrade "Mini Anvil"
 * Dark Steel Upgrade(XP) "Mini Anvil"
+* Nutrient Distillation
+* Dew of Void
+* Fire Water
+* Sunshine
+* Cloud Seed
+* Concentrated Cloud
 
 ### ForgeMicroblocks
 * Stone Saw
