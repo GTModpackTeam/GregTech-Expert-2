@@ -5,8 +5,17 @@
 ########################################
 # Items
 ########################################
-# Charcoal
-furnace.remove(<minecraft:coal:1>);
+# Fireworks Rocket
+recipes.addShapeless(<minecraft:fireworks>.withTag({Fireworks: {Flight: 1}}) * 3, [
+    <minecraft:paper>, <minecraft:gunpowder>
+]);
+recipes.addShapeless(<minecraft:fireworks>.withTag({Fireworks: {Flight: 2}}) * 3, [
+    <minecraft:paper>, <minecraft:gunpowder>, <minecraft:gunpowder>
+]);
+recipes.addShapeless(<minecraft:fireworks>.withTag({Fireworks: {Flight: 3}}) * 3, [
+    <minecraft:paper>, <minecraft:gunpowder>,
+    <minecraft:gunpowder>, <minecraft:gunpowder>
+]);
 
 # Lead
 recipes.remove(<minecraft:lead>);
@@ -32,9 +41,6 @@ recipes.addShapeless(<minecraft:iron_nugget> * 9, [<minecraft:iron_ingot>]);
 # Gold Nugget
 recipes.addShapeless(<minecraft:gold_nugget> * 9, [<minecraft:gold_ingot>]);
 
-# Fermented Spider Eye
-recipes.remove(<minecraft:fermented_spider_eye>);
-
 
 
 ########################################
@@ -55,8 +61,8 @@ recipes.removeByRecipeName("appliedenergistics2:misc/vanilla_comparator");
 # Brewing Stand
 recipes.remove(<minecraft:brewing_stand>);
 recipes.addShaped(<minecraft:brewing_stand>, [
-    [<metaitem:ringSteel>, <metaitem:stickBlaze>, <metaitem:ringSteel>],
-    [<metaitem:stickSteel>, <metaitem:stickBlaze>, <metaitem:stickSteel>],
+    [<metaitem:ringSteel>, <minecraft:blaze_rod>, <metaitem:ringSteel>],
+    [<metaitem:stickSteel>, <minecraft:blaze_rod>, <metaitem:stickSteel>],
     [<metaitem:screwSteel>, <minecraft:cauldron>, <metaitem:screwSteel>]
 ]);
 
@@ -80,12 +86,6 @@ assembler.recipeBuilder()
     .duration(200)
     .EUt(4)
     .buildAndRegister();
-
-# Ender Chest
-recipes.remove(<minecraft:ender_chest>);
-
-# End Rod
-recipes.remove(<minecraft:end_rod>);
 
 # Daylight Sensor
 recipes.removeByRecipeName("appliedenergistics2:misc/vanilla_daylight_detector");
