@@ -3,6 +3,7 @@
 * [Fix] circuit board (#142)
 * [Fix] Recipes using Stick Wood (#144)
 * [fix] Recipes that cannot be created (#143)
+* [Fix] Cannot create (#148)
 
 ## Update mods
 * AE2 Unofficial Extended Life
@@ -39,6 +40,9 @@
 * Stone Saw
 * Iron Saw
 * Diamond Saw
+
+### OpenComputer
+* Fixed a recipe that could no longer be created with the CEu update.
 
 ### Vanilla
 * Fireworks Rocket
