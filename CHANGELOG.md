@@ -40,6 +40,10 @@
 * Iron Saw
 * Diamond Saw
 
+### Vanilla
+* Fireworks Rocket
+* Brewing Stand
+
 * * *
 
 # v1.5.0
