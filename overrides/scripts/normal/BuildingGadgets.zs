@@ -15,7 +15,7 @@ assembler.recipeBuilder()
         <metaitem:stickRedAlloy> * 2,
         <metaitem:screwRedAlloy> * 2,
         <metaitem:dustIron>,
-        <metaitem:board.coated>,
+        <metaitem:circuit_board.basic>,
         <ore:circuitUlv>,
         <ore:batteryLv>
     ])
@@ -32,7 +32,7 @@ assembler.recipeBuilder()
         <metaitem:stickRedAlloy> * 2,
         <metaitem:screwRedAlloy> * 2,
         <metaitem:dustGold>,
-        <metaitem:board.coated>,
+        <metaitem:circuit_board.basic>,
         <ore:circuitUlv>,
         <ore:batteryLv>
     ])
@@ -49,7 +49,7 @@ assembler.recipeBuilder()
         <metaitem:stickRedAlloy> * 3,
         <metaitem:screwRedAlloy> * 3,
         <metaitem:dustObsidian>,
-        <metaitem:board.coated> * 2,
+        <metaitem:circuit_board.basic> * 2,
         <ore:circuitUlv>,
         <ore:batteryLv>
     ])
@@ -66,7 +66,7 @@ assembler.recipeBuilder()
         <metaitem:stickRedAlloy> * 2,
         <metaitem:screwRedAlloy> * 2,
         <enderio:item_material:20>,
-        <metaitem:board.coated>,
+        <metaitem:circuit_board.basic>,
         <ore:circuitUlv>,
         <ore:batteryLv>
     ])

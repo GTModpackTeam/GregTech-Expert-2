@@ -55,6 +55,13 @@ JEI.hide(<appliedenergistics2:material:46>);
 JEI.removeAndHide(<appliedenergistics2:material:40>);
 <ore:gearWood>.remove(<appliedenergistics2:material:40>);
 
+# Network Tool
+recipes.remove(<appliedenergistics2:network_tool>);
+recipes.addShapeless(<appliedenergistics2:network_tool>, [
+    <appliedenergistics2:certus_quartz_wrench> | <appliedenergistics2:nether_quartz_wrench> | <enderio:item_yeta_wrench>, <appliedenergistics2:part:200>,
+    <appliedenergistics2:material:23>,<minecraft:chest>
+]);
+
 # Network Visualization Tool
 recipes.remove(<aenetvistool:net_visualizer>);
 recipes.addShaped(<aenetvistool:net_visualizer>, [
@@ -62,9 +69,6 @@ recipes.addShaped(<aenetvistool:net_visualizer>, [
     [<appliedenergistics2:network_tool>, <metaitem:wireless>, <appliedenergistics2:entropy_manipulator>],
     [<metaitem:plateAluminium>, <appliedenergistics2:material:44>, <metaitem:plateAluminium>]
 ]);
-
-# Color Applicator
-JEI.removeAndHide(<appliedenergistics2:color_applicator>);
 
 # Inscriber Calulation Press
 Inscriber.removeRecipe(<appliedenergistics2:material:13>);
@@ -854,12 +858,7 @@ recipes.addShaped(<appliedenergistics2:matter_cannon>, [
 ]);
 
 # Color Applicator
-recipes.remove(<appliedenergistics2:color_applicator>);
-recipes.addShaped(<appliedenergistics2:color_applicator>, [
-    [<metaitem:wireGtSingleAluminium>, <appliedenergistics2:material:43>, <metaitem:wireGtSingleAluminium>],
-    [<appliedenergistics2:material:36>, <appliedenergistics2:energy_cell>, <appliedenergistics2:material:36>],
-    [null, <metaitem:stickSteel>, null]
-]);
+JEI.removeAndHide(<appliedenergistics2:color_applicator>);
 
 # Wireless Terminal
 recipes.remove(<appliedenergistics2:wireless_terminal>);
@@ -1504,8 +1503,6 @@ recipes.addShapeless(<appliedenergistics2:quartz_fixture>, [
 
 # Charger
 JEI.removeAndHide(<appliedenergistics2:charger>);
-JEI.addDescription(<appliedenergistics2:charger>, I18n.format("modpack.ae2.charger.tooltip.1"));
-<appliedenergistics2:charger>.addTooltip(format.green(I18n.format("modpack.ae2.charger.tooltip.1")));
 
 # Security Terminal
 recipes.remove(<appliedenergistics2:security_station>);
@@ -1893,6 +1890,30 @@ recipes.addShaped(<appliedenergistics2:part:341>, [
     [<metaitem:plateAluminium>, <appliedenergistics2:material:24>, <metaitem:plateAluminium>]
 ]);
 
+# Wireless Access Point
+recipes.remove(<appliedenergistics2:wireless_access_point>);
+recipes.addShaped(<appliedenergistics2:wireless_access_point>, [
+    [null, <appliedenergistics2:material:41>, null],
+    [null, <appliedenergistics2:material:23>, null],
+    [null, <ore:ae2.cable.glass>, null]
+]);
+
+# Level Emitter
+recipes.remove(<appliedenergistics2:part:280>);
+recipes.addShaped(<appliedenergistics2:part:280>, [
+    [null, <metaitem:plateSteel>, null],
+    [<ore:ae2.cable.glass>, <minecraft:redstone_torch>, <ore:ae2.cable.glass>],
+    [null, <metaitem:plateSteel>, null]
+]);
+
+# Fluid Level Emitter
+recipes.remove(<appliedenergistics2:part:281>);
+recipes.addShaped(<appliedenergistics2:part:281>, [
+    [null, <metaitem:plateStainlessSteel>, null],
+    [<ore:ae2.cable.glass>, <minecraft:redstone_torch>, <ore:ae2.cable.glass>],
+    [null, <metaitem:plateStainlessSteel>, null]
+]);
+
 # Storage Bus
 recipes.remove(<appliedenergistics2:part:220>);
 recipes.addShaped(<appliedenergistics2:part:220>, [
@@ -1918,29 +1939,34 @@ recipes.addShaped(<appliedenergistics2:part:222>, [
 ]);
 
 # Import Bus
-JEI.removeAndHide(<appliedenergistics2:part:240>);
-JEI.addDescription(<appliedenergistics2:part:240>, I18n.format("modpack.ae2.tooltip.bus.item"));
-<appliedenergistics2:part:240>.addTooltip(format.green(I18n.format("modpack.ae2.tooltip.bus.item")));
+recipes.remove(<appliedenergistics2:part:240>);
+JEI.addDescription(<appliedenergistics2:part:240>, I18n.format("modpack.ae2.bus_item.tooltip.1"));
+<appliedenergistics2:part:240>.addTooltip(format.green(I18n.format("modpack.ae2.bus_item.tooltip.1")));
 
 # Fluid Import Bus
-JEI.removeAndHide(<appliedenergistics2:part:241>);
-JEI.addDescription(<appliedenergistics2:part:241>, I18n.format("modpack.ae2.tooltip.bus.fluid"));
-<appliedenergistics2:part:241>.addTooltip(format.green(I18n.format("modpack.ae2.tooltip.bus.fluid")));
+recipes.remove(<appliedenergistics2:part:241>);
+JEI.addDescription(<appliedenergistics2:part:241>, I18n.format("modpack.ae2.bus_fluid.tooltip.1"));
+<appliedenergistics2:part:241>.addTooltip(format.green(I18n.format("modpack.ae2.bus_fluid.tooltip.1")));
 
 # Export Bus
-JEI.removeAndHide(<appliedenergistics2:part:260>);
-JEI.addDescription(<appliedenergistics2:part:260>, I18n.format("modpack.ae2.tooltip.bus.item"));
-<appliedenergistics2:part:260>.addTooltip(format.green(I18n.format("modpack.ae2.tooltip.bus.item")));
+recipes.remove(<appliedenergistics2:part:260>);
+JEI.addDescription(<appliedenergistics2:part:260>, I18n.format("modpack.ae2.bus_item.tooltip.1"));
+<appliedenergistics2:part:260>.addTooltip(format.green(I18n.format("modpack.ae2.bus_item.tooltip.1")));
 
 # Fluid Export Bus
-JEI.removeAndHide(<appliedenergistics2:part:261>);
-JEI.addDescription(<appliedenergistics2:part:261>, I18n.format("modpack.ae2.tooltip.bus.fluid"));
-<appliedenergistics2:part:261>.addTooltip(format.green(I18n.format("modpack.ae2.tooltip.bus.fluid")));
+recipes.remove(<appliedenergistics2:part:261>);
+JEI.addDescription(<appliedenergistics2:part:261>, I18n.format("modpack.ae2.bus_fluid.tooltip.1"));
+<appliedenergistics2:part:261>.addTooltip(format.green(I18n.format("modpack.ae2.bus_fluid.tooltip.1")));
 
 # Toggle Bus
 recipes.remove(<appliedenergistics2:part:80>);
+recipes.addShapeless(<appliedenergistics2:part:80>, [<appliedenergistics2:part:100>]);
 recipes.addShaped(<appliedenergistics2:part:80>, [
     [null, <metaitem:plateRedAlloy>, null],
     [<ore:ae2.cable.glass>, <minecraft:lever>, <ore:ae2.cable.glass>],
     [null, <metaitem:plateRedAlloy>, null]
 ]);
+
+# Inverted Toggle Bus
+recipes.remove(<appliedenergistics2:part:100>);
+recipes.addShapeless(<appliedenergistics2:part:100>, [<appliedenergistics2:part:80>]);
