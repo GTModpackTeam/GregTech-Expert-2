@@ -1,10 +1,15 @@
 {
+	title: "Qubit CPU",
 	x: -4.0d,
 	y: 2.0d,
 	shape: "diamond",
+	text: [
+		""
+	],
 	dependencies: [
 		"7a4879e5"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "6486c688",
 		type: "item",

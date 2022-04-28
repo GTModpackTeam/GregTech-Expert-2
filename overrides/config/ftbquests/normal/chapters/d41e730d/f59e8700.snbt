@@ -1,10 +1,17 @@
 {
+	title: "もうすぐ退役",
 	x: -4.0d,
 	y: -2.0d,
 	shape: "diamond",
+	description: "Advanced Chemical Reactor III",
+	text: [
+		"理論上この機械の作製は大型化学反応炉を使うことでスキップ出来ます。",
+		"でも、まだ製造コスト的にも占有スペース的にも普通に作った方がいいです。"
+	],
 	dependencies: [
 		"c02ff32f"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "9f4ab284",
 		type: "item",

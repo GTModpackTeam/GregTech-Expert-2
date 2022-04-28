@@ -1,6 +1,10 @@
 {
+	title: "Creative Quantum Tank",
 	x: -2.0d,
 	y: 0.0d,
+	text: [
+		""
+	],
 	dependencies: [
 		"30a82488"
 	],

@@ -1,10 +1,18 @@
 {
+	title: "実は初代IndustrialCraftの時代から存在する",
 	x: -2.0d,
 	y: 4.0d,
 	shape: "diamond",
+	description: "Lapotron Crystal",
+	text: [
+		"ラポトロンクリスタルはEV時代の最高のバッテリーのようななにかです。",
+		"",
+		"加工手順が若干面倒なのでまとめて作るかAE2で自動化しましょう。"
+	],
 	dependencies: [
 		"99548f33"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "1540fd57",
 		type: "item",

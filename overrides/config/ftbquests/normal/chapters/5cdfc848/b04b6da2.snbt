@@ -1,6 +1,10 @@
 {
+	title: "Creative Capacitor Bank",
 	x: 2.0d,
 	y: 2.0d,
+	text: [
+		""
+	],
 	dependencies: [
 		"5d388d48"
 	],

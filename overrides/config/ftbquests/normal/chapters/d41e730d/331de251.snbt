@@ -1,11 +1,20 @@
 {
-	icon: "gregtech:machine 1 248",
+	title: "電源集積回路",
+	icon: "gregtech:meta_item_1 1 604",
 	x: 0.0d,
 	y: 4.0d,
 	shape: "diamond",
+	description: "Power Integration Circuit",
+	text: [
+		"新しい裁断機、新しいレンズ、新しい電源ICを作ってアップグレードに備えましょう。",
+		"",
+		"もしジャングルバイオームを見つけていないのなら、",
+		"石の粉を遠心分離して二倍の化学染料に加工できる金属混合物の粉を作りましょう。"
+	],
 	dependencies: [
 		"c02ff32f"
 	],
+	min_width: 300,
 	or_tasks: true,
 	tasks: [{
 		uid: "3bb3a091",
