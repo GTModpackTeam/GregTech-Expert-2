@@ -1,4 +1,7 @@
 # v1.6.0
+## Modpack update
+* [Update] Quest include v0.13.1 (#150)
+
 ## Modpack fix
 * [Fix] circuit board (#142)
 * [Fix] Recipes using Stick Wood (#144)
