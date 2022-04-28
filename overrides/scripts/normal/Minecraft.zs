@@ -41,6 +41,9 @@ recipes.addShapeless(<minecraft:iron_nugget> * 9, [<minecraft:iron_ingot>]);
 # Gold Nugget
 recipes.addShapeless(<minecraft:gold_nugget> * 9, [<minecraft:gold_ingot>]);
 
+# Fermented Spider Eye
+recipes.remove(<minecraft:fermented_spider_eye>);
+
 
 
 ########################################
@@ -86,6 +89,12 @@ assembler.recipeBuilder()
     .duration(200)
     .EUt(4)
     .buildAndRegister();
+
+# Ender Chest
+recipes.remove(<minecraft:ender_chest>);
+
+# End Rod
+recipes.remove(<minecraft:end_rod>);
 
 # Daylight Sensor
 recipes.removeByRecipeName("appliedenergistics2:misc/vanilla_daylight_detector");

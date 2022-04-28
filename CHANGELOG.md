@@ -54,10 +54,6 @@
 ### OpenComputer
 * Fixed a recipe that could no longer be created with the CEu update.
 
-### Vanilla
-* Fireworks Rocket
-* Brewing Stand
-
 * * *
 
 # v1.5.0
