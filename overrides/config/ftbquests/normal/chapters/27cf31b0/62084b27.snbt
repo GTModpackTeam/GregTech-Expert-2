@@ -1,10 +1,15 @@
 {
+	title: "Fiber-Reinforced Epoxy Resin Sheet",
 	x: 0.0d,
 	y: 2.0d,
 	shape: "diamond",
+	text: [
+		""
+	],
 	dependencies: [
 		"33845a9f"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "4f2cd272",
 		type: "item",

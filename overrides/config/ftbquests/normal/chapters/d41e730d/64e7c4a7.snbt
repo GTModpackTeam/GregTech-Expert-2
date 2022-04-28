@@ -4,11 +4,14 @@
 	x: 6.0d,
 	y: 6.0d,
 	text: [
-		""
+		"※このクエストブックではややこしくなるため一旦Gregicality Multiblockはないものとして扱います。",
+		"なので、今後マルチブロック版の機械でスキップできる工程でもシングルブロックの機械を作ることをクエストで要求されるかもしれません。",
+		"気に入らない場合は/ftbquests editing_modeで飛ばしてしまいましょう。"
 	],
 	dependencies: [
 		"6735403d"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "c6380401",
 		type: "checkmark",

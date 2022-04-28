@@ -1,11 +1,17 @@
 {
+	title: "うん、そーナノ",
 	x: 2.0d,
 	y: -8.0d,
 	shape: "diamond",
+	description: "Nano Supercomputer",
+	text: [
+		"この回路でIV時代に突入するのはそれほど大変でもないでしょう。"
+	],
 	dependencies: [
 		"e29d9148",
 		"f0b87da3"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "329fc62e",
 		type: "item",

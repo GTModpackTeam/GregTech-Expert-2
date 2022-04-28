@@ -1,12 +1,17 @@
 {
+	title: "Quantumprocessor",
 	x: 0.0d,
 	y: 6.0d,
 	shape: "diamond",
+	text: [
+		""
+	],
 	dependencies: [
 		"8dc33126",
 		"a0307789",
 		"b0f59bbe"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "9c66bb66",
 		type: "item",
