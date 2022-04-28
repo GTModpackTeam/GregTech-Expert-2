@@ -1,10 +1,15 @@
 {
+	title: "Lapotronic Energy Orb",
 	x: 4.0d,
 	y: 4.0d,
 	shape: "diamond",
+	text: [
+		""
+	],
 	dependencies: [
 		"8dc33126"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "f295f00b",
 		type: "item",

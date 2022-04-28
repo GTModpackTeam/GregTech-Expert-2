@@ -1,11 +1,16 @@
 {
+	title: "Ruthenium",
 	icon: "gregtech:meta_ingot 1 93",
 	x: -4.0d,
 	y: 0.0d,
 	shape: "diamond",
+	text: [
+		""
+	],
 	dependencies: [
 		"a86813e2"
 	],
+	min_width: 300,
 	or_tasks: true,
 	tasks: [{
 		uid: "60210bf7",

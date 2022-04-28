@@ -1,6 +1,10 @@
 {
+	title: "Solar Panel",
 	x: 0.0d,
 	y: 4.0d,
+	text: [
+		""
+	],
 	tasks: [{
 		uid: "a1e22813",
 		type: "item",

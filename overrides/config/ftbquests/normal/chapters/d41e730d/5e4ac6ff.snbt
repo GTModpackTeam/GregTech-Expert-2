@@ -1,10 +1,17 @@
 {
+	title: "日本語訳、撹拌器じゃだめかな",
 	x: 6.0d,
 	y: -2.0d,
 	shape: "diamond",
+	description: "Advanced Mixer III",
+	text: [
+		"EVのミキサーは更なる色んな合金を作るのに要求されます。",
+		"最も代表的なのがタングステンスチールです。"
+	],
 	dependencies: [
 		"9da2c3aa"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "f46f21cc",
 		type: "item",

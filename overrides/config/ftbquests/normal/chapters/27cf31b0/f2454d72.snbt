@@ -1,10 +1,15 @@
 {
+	title: "Quantum Supercomputer",
 	x: 4.0d,
 	y: 6.0d,
 	shape: "diamond",
+	text: [
+		""
+	],
 	dependencies: [
 		"5ed85ae6"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "3acc72d3",
 		type: "item",

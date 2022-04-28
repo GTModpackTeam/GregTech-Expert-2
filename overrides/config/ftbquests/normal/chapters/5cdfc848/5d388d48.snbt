@@ -1,6 +1,10 @@
 {
+	title: "Solar Panel(UV)",
 	x: 2.0d,
 	y: 0.0d,
+	text: [
+		""
+	],
 	dependencies: [
 		"865243ce"
 	],

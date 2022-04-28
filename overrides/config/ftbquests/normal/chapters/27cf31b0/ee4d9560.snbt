@@ -1,9 +1,14 @@
 {
+	title: "Processing Array",
 	x: -6.0d,
 	y: 6.0d,
+	text: [
+		""
+	],
 	dependencies: [
 		"a6e0daef"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "fa893d97",
 		type: "item",

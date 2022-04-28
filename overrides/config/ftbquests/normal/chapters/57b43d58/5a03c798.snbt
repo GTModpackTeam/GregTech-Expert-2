@@ -1,7 +1,7 @@
 {
 	title: "ポータブルThe_Last_Millenium",
-	x: 11.5d,
-	y: 10.0d,
+	x: 13.5d,
+	y: 8.0d,
 	description: "/dank/null MK VI",
 	text: [
 		"/dank/nullMK_VIはMK_Vより増えた収容量とスロット数で採掘をより楽にしてくれます。",

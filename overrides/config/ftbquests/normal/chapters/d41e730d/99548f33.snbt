@@ -1,10 +1,16 @@
 {
+	title: "IVの活躍ぶりと比べるとかなり影が薄い",
 	x: 2.0d,
 	y: 2.0d,
 	shape: "diamond",
+	description: "Advanced Assembling Machine III",
+	text: [
+		"これを作ることで次の中間素材が作れるようになります。"
+	],
 	dependencies: [
 		"c02ff32f"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "b9d1974c",
 		type: "item",

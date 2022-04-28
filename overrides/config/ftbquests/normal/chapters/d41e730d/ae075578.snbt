@@ -1,11 +1,19 @@
 {
+	title: "電気100倍",
 	x: 2.0d,
 	y: 6.0d,
 	shape: "diamond",
+	description: "EV Energy Hatch",
+	text: [
+		"EVのエネルギーハッチは工業用電気炉のアップグレードに使います。",
+		"",
+		"このあたりでネザーの空気を蒸留塔で処理することが現実的になってきます。"
+	],
 	dependencies: [
 		"331de251",
 		"af8baf2f"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "36071539",
 		type: "item",
