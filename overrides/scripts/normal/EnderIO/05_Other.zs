@@ -18,7 +18,7 @@ mixer.recipeBuilder()
         <minecraft:rotten_flesh> * 8,
         <minecraft:fermented_spider_eye> * 2
     ])
-    .fluidInputs([<liquid:water> * 4000])
+    .fluidInputs([<liquid:water> * 1000])
     .fluidOutputs([<liquid:nutrient_distillation> * 1000])
     .duration(400)
     .EUt(480)
@@ -27,8 +27,16 @@ mixer.recipeBuilder()
 # Dew of Void
 mixer.recipeBuilder()
     .inputs([<ore:itemVibrantPowder> * 2])
-    .fluidInputs([<liquid:end_steel> * 1296])
-    .fluidInputs([<liquid:nutrient_distillation> * 4000])
+    .inputs([<metaitem:dustEndSteel> * 2])
+    .fluidInputs([<liquid:nutrient_distillation> * 1000])
+    .fluidOutputs([<liquid:ender_distillation> * 1000])
+    .duration(400)
+    .EUt(480)
+    .buildAndRegister();
+mixer.recipeBuilder()
+    .inputs([<ore:itemVibrantPowder> * 2])
+    .fluidInputs([<liquid:end_steel> * 244])
+    .fluidInputs([<liquid:nutrient_distillation> * 1000])
     .fluidOutputs([<liquid:ender_distillation> * 1000])
     .duration(400)
     .EUt(480)
@@ -65,9 +73,9 @@ mixer.recipeBuilder()
 
 # Fire Water
 mixer.recipeBuilder()
-    .inputs([<minecraft:redstone> * 1])
-    .fluidInputs([<liquid:blaze> * 576])
-    .fluidOutputs([<liquid:fire_water> * 576])
+    .inputs([<minecraft:redstone> * 2])
+    .fluidInputs([<liquid:blaze> * 1008])
+    .fluidOutputs([<liquid:fire_water> * 1000])
     .duration(100)
     .EUt(480)
     .buildAndRegister();
@@ -78,8 +86,8 @@ mixer.recipeBuilder()
         <minecraft:glowstone_dust> * 2,
         <minecraft:double_plant>
     ])
-    .fluidInputs([<liquid:fire_water> * 288])
-    .fluidOutputs([<liquid:liquid_sunshine> * 288])
+    .fluidInputs([<liquid:fire_water> * 250])
+    .fluidOutputs([<liquid:liquid_sunshine> * 250])
     .duration(56)
     .EUt(480)
     .buildAndRegister();
@@ -87,8 +95,8 @@ mixer.recipeBuilder()
 # Cloud Seed
 mixer.recipeBuilder()
     .inputs([<metaitem:dustSilver> * 2])
-    .fluidInputs([<liquid:water> * 3550])
-    .fluidOutputs([<liquid:cloud_seed> * 3550])
+    .fluidInputs([<liquid:water> * 3500])
+    .fluidOutputs([<liquid:cloud_seed> * 3500])
     .duration(300)
     .EUt(480)
     .buildAndRegister();
@@ -100,7 +108,7 @@ mixer.recipeBuilder()
         <minecraft:snow>
     ])
     .fluidInputs([<liquid:cloud_seed> * 3500])
-    .fluidOutputs([<liquid:cloud_seed_concentrated> * 1750])
+    .fluidOutputs([<liquid:cloud_seed_concentrated> * 1500])
     .duration(300)
     .EUt(480)
     .buildAndRegister();
