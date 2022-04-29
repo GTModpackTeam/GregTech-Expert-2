@@ -1,3 +1,10 @@
+# v1.6.1(hotfix)
+## Update mods
+* AE2 Unofficial Extended Life
+* CensoredASM
+
+* * *
+
 # v1.6.0
 ## Modpack update
 * [Update] Quest include v0.13.1 (#150)
