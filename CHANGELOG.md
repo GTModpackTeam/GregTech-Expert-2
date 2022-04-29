@@ -1,4 +1,4 @@
-# v1.6.1(hotfix)
+# v1.7.0(hotfix)
 ## Update mods
 * AE2 Unofficial Extended Life
 * CensoredASM
