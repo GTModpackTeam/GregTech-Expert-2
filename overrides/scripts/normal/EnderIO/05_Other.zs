@@ -9,6 +9,7 @@ import mods.jei.JEI;
 ########################################
 # Nutrient Distillation
 mixer.recipeBuilder()
+    .circuit(1)
     .inputs([
         <minecraft:porkchop> * 4 |
         <minecraft:beef> * 4 |
@@ -26,6 +27,7 @@ mixer.recipeBuilder()
 
 # Dew of Void
 mixer.recipeBuilder()
+    .circuit(1)
     .inputs([<ore:itemVibrantPowder> * 2])
     .inputs([<metaitem:dustEndSteel> * 2])
     .fluidInputs([<liquid:nutrient_distillation> * 1000])
@@ -34,6 +36,7 @@ mixer.recipeBuilder()
     .EUt(480)
     .buildAndRegister();
 mixer.recipeBuilder()
+    .circuit(1)
     .inputs([<ore:itemVibrantPowder> * 2])
     .fluidInputs([<liquid:end_steel> * 244])
     .fluidInputs([<liquid:nutrient_distillation> * 1000])
@@ -44,6 +47,7 @@ mixer.recipeBuilder()
 
 # Vapor of levity
 mixer.recipeBuilder()
+    .circuit(1)
     .inputs([
         <ore:itemPulsatingPowder> * 2,
         <ore:itemPrecientPowder> * 2
@@ -56,6 +60,7 @@ mixer.recipeBuilder()
 
 # Hootch
 mixer.recipeBuilder()
+    .circuit(1)
     .inputs([
         <minecraft:wheat_seeds> * 4 |
         <minecraft:dye:3> * 4 |
@@ -73,6 +78,7 @@ mixer.recipeBuilder()
 
 # Fire Water
 mixer.recipeBuilder()
+    .circuit(1)
     .inputs([<minecraft:redstone> * 2])
     .fluidInputs([<liquid:blaze> * 1008])
     .fluidOutputs([<liquid:fire_water> * 1000])
@@ -82,6 +88,7 @@ mixer.recipeBuilder()
 
 # Sunshine
 mixer.recipeBuilder()
+    .circuit(1)
     .inputs([
         <minecraft:glowstone_dust> * 2,
         <minecraft:double_plant>
@@ -94,6 +101,7 @@ mixer.recipeBuilder()
 
 # Cloud Seed
 mixer.recipeBuilder()
+    .circuit(1)
     .inputs([<metaitem:dustSilver> * 2])
     .fluidInputs([<liquid:water> * 3500])
     .fluidOutputs([<liquid:cloud_seed> * 3500])
@@ -103,6 +111,7 @@ mixer.recipeBuilder()
 
 # Concentrated Cloud
 mixer.recipeBuilder()
+    .circuit(1)
     .inputs([
         <metaitem:dustElectrum> * 2,
         <minecraft:snow>
