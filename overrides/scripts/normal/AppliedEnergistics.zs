@@ -1083,6 +1083,100 @@ macerator.recipeBuilder()
 ########################################
 # Blocks
 ########################################
+# Cable Anchor
+val anchorIngots_x4 as IItemStack[] = [
+    <minecraft:iron_ingot>,
+    <metaitem:ingotCopper>,
+    <metaitem:ingotAnnealedCopper>,
+    <metaitem:ingotTin>,
+    <metaitem:ingotLead>,
+    <metaitem:ingotNickel>,
+    <metaitem:ingotSilver>,
+    <metaitem:ingotSteel>
+];
+val anchorIngots_x6 as IItemStack[] = [
+    <metaitem:ingotBronze>,
+    <metaitem:ingotBrass>,
+    <metaitem:ingotInvar>,
+    <metaitem:ingotDarkSteel>
+];
+val anchorIngots_x8 as IItemStack[] = [
+    <metaitem:ingotStainlessSteel>,
+    <metaitem:ingotTitanium>
+];
+for anchorIngot_x4 in anchorIngots_x4 {
+    recipes.addShapeless(<appliedenergistics2:part:120> * 4, [anchorIngot_x4, <ore:gtce.tool.knife>]);
+    cutter.recipeBuilder()
+        .inputs([anchorIngot_x4])
+        .fluidInputs([<liquid:lubricant> * 1])
+        .outputs([<appliedenergistics2:part:120> * 8])
+        .duration(80)
+        .EUt(480)
+        .buildAndRegister();
+    cutter.recipeBuilder()
+        .inputs([anchorIngot_x4])
+        .fluidInputs([<liquid:distilled_water> * 3])
+        .outputs([<appliedenergistics2:part:120> * 8])
+        .duration(160)
+        .EUt(480)
+        .buildAndRegister();
+    cutter.recipeBuilder()
+        .inputs([anchorIngot_x4])
+        .fluidInputs([<liquid:water> * 4])
+        .outputs([<appliedenergistics2:part:120> * 8])
+        .duration(200)
+        .EUt(480)
+        .buildAndRegister();
+}
+for anchorIngot_x6 in anchorIngots_x6 {
+    recipes.addShapeless(<appliedenergistics2:part:120> * 6, [anchorIngot_x6, <ore:gtce.tool.knife>]);
+    cutter.recipeBuilder()
+        .inputs([anchorIngot_x6])
+        .fluidInputs([<liquid:lubricant> * 1])
+        .outputs([<appliedenergistics2:part:120> * 12])
+        .duration(80)
+        .EUt(480)
+        .buildAndRegister();
+    cutter.recipeBuilder()
+        .inputs([anchorIngot_x6])
+        .fluidInputs([<liquid:distilled_water> * 3])
+        .outputs([<appliedenergistics2:part:120> * 12])
+        .duration(160)
+        .EUt(480)
+        .buildAndRegister();
+    cutter.recipeBuilder()
+        .inputs([anchorIngot_x6])
+        .fluidInputs([<liquid:water> * 4])
+        .outputs([<appliedenergistics2:part:120> * 12])
+        .duration(200)
+        .EUt(480)
+        .buildAndRegister();
+}
+for anchorIngot_x8 in anchorIngots_x8 {
+    recipes.addShapeless(<appliedenergistics2:part:120> * 8, [anchorIngot_x8, <ore:gtce.tool.knife>]);
+    cutter.recipeBuilder()
+        .inputs([anchorIngot_x8])
+        .fluidInputs([<liquid:lubricant> * 1])
+        .outputs([<appliedenergistics2:part:120> * 16])
+        .duration(80)
+        .EUt(480)
+        .buildAndRegister();
+    cutter.recipeBuilder()
+        .inputs([anchorIngot_x8])
+        .fluidInputs([<liquid:distilled_water> * 3])
+        .outputs([<appliedenergistics2:part:120> * 16])
+        .duration(160)
+        .EUt(480)
+        .buildAndRegister();
+    cutter.recipeBuilder()
+        .inputs([anchorIngot_x8])
+        .fluidInputs([<liquid:water> * 4])
+        .outputs([<appliedenergistics2:part:120> * 16])
+        .duration(200)
+        .EUt(480)
+        .buildAndRegister();
+}
+
 # Quartz Blocks
 JEI.removeAndHide(<appliedenergistics2:quartz_block>);
 JEI.removeAndHide(<appliedenergistics2:quartz_slab>);
