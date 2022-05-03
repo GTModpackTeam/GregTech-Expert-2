@@ -115,7 +115,7 @@ assembler.recipeBuilder()
     ])
     .outputs([<ezstorage:ultra_storage_box>])
     .duration(100)
-    .EUt(30)
+    .EUt(120)
     .buildAndRegister();
 
 # Hyper Storage Box
@@ -134,7 +134,7 @@ assembler.recipeBuilder()
     ])
     .outputs([<ezstorage:hyper_storage_box>])
     .duration(100)
-    .EUt(30)
+    .EUt(480)
     .buildAndRegister();
 
 # Input Port
