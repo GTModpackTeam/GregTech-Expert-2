@@ -1999,7 +1999,7 @@ recipes.addShaped(<appliedenergistics2:part:222>, [
     [<metaitem:plateTitanium>, <metaitem:ore_dictionary_filter>, <metaitem:plateTitanium>]
 ]);
 assembler.recipeBuilder()
-    .circuit(2)
+    .circuit(1)
     .inputs([
         <metaitem:conveyor.module.hv>,
         <metaitem:ore_dictionary_filter>,
