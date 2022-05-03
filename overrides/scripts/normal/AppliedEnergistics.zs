@@ -1917,13 +1917,13 @@ recipes.addShaped(<appliedenergistics2:wireless_access_point>, [
 recipes.remove(<appliedenergistics2:part:280>);
 recipes.addShaped(<appliedenergistics2:part:280>, [
     [null, <metaitem:plateSteel>, null],
-    [<ore:ae2.cable.glass>, <metaitem:cover.activity.detector>, <ore:ae2.cable.glass>],
+    [<ore:ae2.cable.glass>, <minecraft:redstone_torch>, <ore:ae2.cable.glass>],
     [null, <metaitem:plateSteel>, null]
 ]);
 assembler.recipeBuilder()
     .circuit(1)
     .inputs([
-        <metaitem:cover.activity.detector>,
+        <minecraft:redstone_torch>,
         <ore:ae2.cable.glass>,
         <metaitem:plateSteel>
     ])
@@ -1936,13 +1936,13 @@ assembler.recipeBuilder()
 recipes.remove(<appliedenergistics2:part:281>);
 recipes.addShaped(<appliedenergistics2:part:281>, [
     [null, <metaitem:plateStainlessSteel>, null],
-    [<ore:ae2.cable.glass>, <metaitem:cover.activity.detector>, <ore:ae2.cable.glass>],
+    [<ore:ae2.cable.glass>, <minecraft:redstone_torch>, <ore:ae2.cable.glass>],
     [null, <metaitem:plateStainlessSteel>, null]
 ]);
 assembler.recipeBuilder()
     .circuit(2)
     .inputs([
-        <metaitem:cover.activity.detector>,
+        <minecraft:redstone_torch>,
         <ore:ae2.cable.glass>,
         <metaitem:plateStainlessSteel>
     ])
@@ -2016,13 +2016,13 @@ recipes.remove(<appliedenergistics2:part:80>);
 recipes.addShapeless(<appliedenergistics2:part:80>, [<appliedenergistics2:part:100>]);
 recipes.addShaped(<appliedenergistics2:part:80>, [
     [null, <metaitem:plateRedAlloy>, null],
-    [<ore:ae2.cable.glass>, <metaitem:cover.controller>, <ore:ae2.cable.glass>],
+    [<ore:ae2.cable.glass>, <minecraft:lever>, <ore:ae2.cable.glass>],
     [null, <metaitem:plateRedAlloy>, null]
 ]);
 assembler.recipeBuilder()
     .circuit(1)
     .inputs([
-        <metaitem:cover.controller>,
+        <minecraft:lever>,
         <ore:ae2.cable.glass>,
         <metaitem:plateRedAlloy>
     ])
