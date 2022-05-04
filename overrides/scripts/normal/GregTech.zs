@@ -113,12 +113,12 @@ extractor.recipeBuilder()
 ########################################
 # Items
 ########################################
-# Red Alloy Dust
+# Red Alloy Dust (Override)
 recipes.addShapeless(<metaitem:dustRedAlloy>, [
     <ore:gtce.tool.mortars>, <metaitem:ingotRedAlloy>
 ]);
 
-# Stone Rod
+# Stone Rod (Override)
 recipes.addShaped(<metaitem:stickStone>, [
     [<ore:gtce.tool.files>, null, null],
     [null, <minecraft:stone>, null],
@@ -134,20 +134,20 @@ lathe.recipeBuilder()
     .EUt(7)
     .buildAndRegister();
 
-# Wrought Iron Nugget
+# Wrought Iron Nugget (Override)
 recipes.addShapeless(<metaitem:nuggetWroughtIron> * 9, [<metaitem:ingotWroughtIron>]);
 
-# Wrought Iron Ingot
+# Wrought Iron Ingot (Override)
 recipes.addShaped(<metaitem:ingotWroughtIron>, [
     [<metaitem:nuggetWroughtIron>, <metaitem:nuggetWroughtIron>, <metaitem:nuggetWroughtIron>],
     [<metaitem:nuggetWroughtIron>, <metaitem:nuggetWroughtIron>, <metaitem:nuggetWroughtIron>],
     [<metaitem:nuggetWroughtIron>, <metaitem:nuggetWroughtIron>, <metaitem:nuggetWroughtIron>]
 ]);
 
-# Tiny Charcoal Dust
+# Tiny Charcoal Dust (Override)
 furnace.setFuel(<metaitem:dustTinyCharcoal>, 200);
 
-# Tiny Coal Dust
+# Tiny Coal Dust (Override)
 furnace.setFuel(<metaitem:dustTinyCoal>, 200);
 
 # Solar Panels
@@ -166,7 +166,7 @@ for solarPanel in solarPanels {
     recipes.remove(solarPanel);
 }
 
-# Solar Panel (8V)
+# Solar Panel (Override - 8V)
 assembly_line.recipeBuilder()
     .inputs([<metaitem:cover.solar.panel> * 8])
     .inputs([<minecraft:daylight_detector> * 8])
@@ -181,7 +181,7 @@ assembly_line.recipeBuilder()
     .EUt(30720)
     .buildAndRegister();
 
-# Solar Panel (LV)
+# Solar Panel (Override - LV)
 assembly_line.recipeBuilder()
     .inputs([<metaitem:cover.solar.panel.ulv> * 4])
     .inputs([<metaitem:sensor.lv> * 8])
@@ -196,7 +196,7 @@ assembly_line.recipeBuilder()
     .EUt(30720)
     .buildAndRegister();
 
-# Solar Panel (MV)
+# Solar Panel (Override - MV)
 assembly_line.recipeBuilder()
     .inputs([<metaitem:cover.solar.panel.lv> * 4])
     .inputs([<metaitem:sensor.mv> * 8])
@@ -211,7 +211,7 @@ assembly_line.recipeBuilder()
     .EUt(30720)
     .buildAndRegister();
 
-# Solar Panel (HV)
+# Solar Panel (Override - HV)
 assembly_line.recipeBuilder()
     .inputs([<metaitem:cover.solar.panel.mv> * 4])
     .inputs([<metaitem:sensor.hv> * 8])
@@ -226,7 +226,7 @@ assembly_line.recipeBuilder()
     .EUt(30720)
     .buildAndRegister();
 
-# Solar Panel (EV)
+# Solar Panel (Override - EV)
 assembly_line.recipeBuilder()
     .inputs([<metaitem:cover.solar.panel.hv> * 4])
     .inputs([<metaitem:sensor.ev> * 8])
@@ -241,7 +241,7 @@ assembly_line.recipeBuilder()
     .EUt(30720)
     .buildAndRegister();
 
-# Solar Panel (IV)
+# Solar Panel (Override - IV)
 assembly_line.recipeBuilder()
     .inputs([<metaitem:cover.solar.panel.ev> * 4])
     .inputs([<metaitem:sensor.iv> * 8])
@@ -256,7 +256,7 @@ assembly_line.recipeBuilder()
     .EUt(30720)
     .buildAndRegister();
 
-# Solar Panel (LuV)
+# Solar Panel (Override - LuV)
 assembly_line.recipeBuilder()
     .inputs([<metaitem:cover.solar.panel.iv> * 4])
     .inputs([<metaitem:sensor.luv> * 8])
@@ -271,7 +271,7 @@ assembly_line.recipeBuilder()
     .EUt(30720)
     .buildAndRegister();
 
-# Solar Panel (ZPM)
+# Solar Panel (Override - ZPM)
 assembly_line.recipeBuilder()
     .inputs([<metaitem:cover.solar.panel.luv> * 4])
     .inputs([<metaitem:sensor.zpm> * 8])
@@ -286,7 +286,7 @@ assembly_line.recipeBuilder()
     .EUt(122880)
     .buildAndRegister();
 
-# Solar Panel (UV)
+# Solar Panel (Override - UV)
 assembly_line.recipeBuilder()
     .inputs([<metaitem:cover.solar.panel.zpm> * 4])
     .inputs([<metaitem:sensor.uv> * 8])
@@ -301,7 +301,7 @@ assembly_line.recipeBuilder()
     .EUt(491520)
     .buildAndRegister();
 
-# Glowstone Dust (Override)
+# Glowstone Dust (Override - Override)
 centrifuge.findRecipe(80, [<minecraft:glowstone_dust>], null).remove();
 centrifuge.recipeBuilder()
     .inputs([<minecraft:glowstone_dust> * 2])
@@ -311,7 +311,7 @@ centrifuge.recipeBuilder()
     .EUt(80)
     .buildAndRegister();
 
-# Netherrack Dust (Override)
+# Netherrack Dust (Override - Override)
 centrifuge.findRecipe(20, [<metaitem:dustNetherrack>], null).remove();
 centrifuge.recipeBuilder()
     .inputs([<metaitem:dustNetherrack>])
@@ -324,7 +324,7 @@ centrifuge.recipeBuilder()
     .EUt(20)
     .buildAndRegister();
 
-# Nether Star Dust
+# Nether Star Dust (From GCP)
 chemical_reactor.recipeBuilder()
     .inputs([
         <metaitem:dustDiamond>,
@@ -685,7 +685,7 @@ macerator.recipeBuilder()
     .EUt(2)
     .buildAndRegister();
 
-# Quartz Block
+# Quartz Block (Override)
 compressor.findRecipe(2, [<metaitem:gemCertusQuartz> * 9], null).remove();
 fluid_solidifier.findRecipe(7, [<metaitem:shape.mold.block>], [<liquid:certus_quartz> * 1296]).remove();
 compressor.recipeBuilder()
@@ -708,7 +708,7 @@ fluid_solidifier.recipeBuilder()
     .EUt(7)
     .buildAndRegister();
 
-# Fluix Block
+# Fluix Block (Override)
 <ore:blockFluix>.addItems([<appliedenergistics2:fluix_block>]);
 fluid_solidifier.recipeBuilder()
     .notConsumable([<metaitem:shape.mold.block>])
@@ -718,7 +718,7 @@ fluid_solidifier.recipeBuilder()
     .EUt(7)
     .buildAndRegister();
 
-# Quartzite Block
+# Quartzite Block (Override)
 compressor.findRecipe(2, [<metaitem:gemQuartzite> * 9], null).remove();
 compressor.recipeBuilder()
     .inputs([<metaitem:gemQuartzite> * 4])
@@ -727,35 +727,35 @@ compressor.recipeBuilder()
     .EUt(2)
     .buildAndRegister();
 
-# UHV Voltage 4x Battery Buffer
+# UHV Voltage 4x Battery Buffer (Override)
 recipes.addShaped(<metaitem:battery_buffer.uhv.4>, [
     [null, null, null],
     [<metaitem:wireGtQuadrupleEuropium>, <minecraft:chest>, <metaitem:wireGtQuadrupleEuropium>],
     [<metaitem:wireGtQuadrupleEuropium>, <metaitem:hull.uhv>, <metaitem:wireGtQuadrupleEuropium>]
 ]);
 
-# UHV Voltage 8x Battery Buffer
+# UHV Voltage 8x Battery Buffer (Override)
 recipes.addShaped(<metaitem:battery_buffer.uhv.8>, [
     [null, null, null],
     [<metaitem:wireGtOctalEuropium>, <minecraft:chest>, <metaitem:wireGtOctalEuropium>],
     [<metaitem:wireGtOctalEuropium>, <metaitem:hull.uhv>, <metaitem:wireGtOctalEuropium>]
 ]);
 
-# UHV Voltage 16x Battery Buffer
+# UHV Voltage 16x Battery Buffer (Override)
 recipes.addShaped(<metaitem:battery_buffer.uhv.16>, [
     [null, null, null],
     [<metaitem:wireGtHexEuropium>, <minecraft:chest>, <metaitem:wireGtHexEuropium>],
     [<metaitem:wireGtHexEuropium>, <metaitem:hull.uhv>, <metaitem:wireGtHexEuropium>]
 ]);
 
-# UHV Voltage Turbo Charger
+# UHV Voltage Turbo Charger (Override)
 recipes.addShaped(<metaitem:charger.uhv>, [
     [<metaitem:wireGtQuadrupleEuropium>, <minecraft:chest>, <metaitem:wireGtQuadrupleEuropium>],
     [<metaitem:wireGtQuadrupleEuropium>, <metaitem:hull.uhv>, <metaitem:wireGtQuadrupleEuropium>],
     [<metaitem:wireGtSingleEuropium>, <ore:circuitUhv>, <metaitem:wireGtSingleEuropium>]
 ]);
 
-# UHV 16A Energy Hatch
+# UHV 16A Energy Hatch (Override)
 assembler.findRecipe(491520, [
     <metaitem:energy_hatch.input_16a.uhv> * 2,
     <metaitem:plate.ultra_high_power_integrated_circuit> * 2,
@@ -765,7 +765,7 @@ assembler.findRecipe(491520, [
 <metaitem:energy_hatch.input_16a.uhv>.addTooltip(format.green(I18n.format("modpack.gregtech.energy_hatch_input_16a_uhv.tooltip.1")));
 JEI.addDescription(<metaitem:energy_hatch.input_16a.uhv>, I18n.format("modpack.gregtech.energy_hatch_input_16a_uhv.tooltip.1"));
 
-# UHV 16A Dynamo Hatch
+# UHV 16A Dynamo Hatch (Override)
 assembler.findRecipe(491520, [
     <metaitem:energy_hatch.output_16a.uhv> * 2,
     <metaitem:plate.ultra_high_power_integrated_circuit> * 2,
@@ -774,3 +774,69 @@ assembler.findRecipe(491520, [
 ], null).remove();
 <metaitem:energy_hatch.output_16a.uhv>.addTooltip(format.green(I18n.format("modpack.gregtech.energy_hatch_output_16a_uhv.tooltip.1")));
 JEI.addDescription(<metaitem:energy_hatch.output_16a.uhv>, I18n.format("modpack.gregtech.energy_hatch_output_16a_uhv.tooltip.1"));
+
+# Basic Ore Drilling Plant (Override)
+assembler.findRecipe(1920, [
+    <metaitem:hull.ev>, <metaitem:frameTitanium> * 4, <metaitem:circuit.workstation> * 4,
+    <metaitem:electric.motor.ev> * 4, <metaitem:electric.pump.ev> * 4, <metaitem:conveyor.module.ev> * 4,
+    <metaitem:gearTungsten> * 4, <metaitem:circuit.integrated>.withTag({Configuration: 1})
+], null).remove();
+assembler.recipeBuilder()
+    .circuit(2)
+    .inputs([
+        <metaitem:hull.ev>,
+        <metaitem:frameTitanium> * 4,
+        <metaitem:circuit.workstation> * 4,
+        <metaitem:electric.motor.ev> * 4,
+        <metaitem:electric.pump.ev> * 4,
+        <metaitem:conveyor.module.ev> * 4,
+        <metaitem:gearTungsten> * 4
+    ])
+    .outputs([<metaitem:large_miner.ev>])
+    .duration(400)
+    .EUt(1920)
+    .buildAndRegister();
+
+# Advanced Ore Drilling Plant (Override)
+assembler.findRecipe(7680, [
+    <metaitem:hull.iv>, <metaitem:frameTungstenSteel> * 4, <metaitem:circuit.mainframe> * 4,
+    <metaitem:electric.motor.iv> * 4, <metaitem:electric.pump.iv> * 4, <metaitem:conveyor.module.iv> * 4,
+    <metaitem:gearIridium> * 4, <metaitem:circuit.integrated>.withTag({Configuration: 1})
+], null).remove();
+assembler.recipeBuilder()
+    .circuit(2)
+    .inputs([
+        <metaitem:hull.iv>,
+        <metaitem:frameTungstenSteel> * 4,
+        <metaitem:circuit.mainframe> * 4,
+        <metaitem:electric.motor.iv> * 4,
+        <metaitem:electric.pump.iv> * 4,
+        <metaitem:conveyor.module.iv> * 4,
+        <metaitem:gearIridium> * 4
+    ])
+    .outputs([<metaitem:large_miner.iv>])
+    .duration(400)
+    .EUt(7680)
+    .buildAndRegister();
+
+# Advanced Ore Drilling Plant II (Override)
+assembler.findRecipe(30720, [
+    <metaitem:hull.luv>, <metaitem:frameHsss> * 4, <metaitem:circuit.nano_mainframe> * 4,
+    <metaitem:electric.motor.luv> * 4, <metaitem:electric.pump.luv> * 4, <metaitem:conveyor.module.luv> * 4,
+    <metaitem:gearRuridit> * 4, <metaitem:circuit.integrated>.withTag({Configuration: 1})
+], null).remove();
+assembler.recipeBuilder()
+    .circuit(2)
+    .inputs([
+        <metaitem:hull.luv>,
+        <metaitem:frameHsss> * 4,
+        <metaitem:circuit.nano_mainframe> * 4,
+        <metaitem:electric.motor.luv> * 4,
+        <metaitem:electric.pump.luv> * 4,
+        <metaitem:conveyor.module.luv> * 4,
+        <metaitem:gearRuridit> * 4
+    ])
+    .outputs([<metaitem:large_miner.luv>])
+    .duration(400)
+    .EUt(30720)
+    .buildAndRegister();
