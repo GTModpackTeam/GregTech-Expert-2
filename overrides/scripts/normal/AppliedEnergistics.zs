@@ -1929,7 +1929,7 @@ assembler.recipeBuilder()
     ])
     .outputs([<appliedenergistics2:part:280>])
     .duration(20)
-    .EUt(480)
+    .EUt(7680)
     .buildAndRegister();
 
 # Fluid Level Emitter
@@ -1948,7 +1948,7 @@ assembler.recipeBuilder()
     ])
     .outputs([<appliedenergistics2:part:281>])
     .duration(20)
-    .EUt(480)
+    .EUt(7680)
     .buildAndRegister();
 
 # Storage Bus
@@ -1956,7 +1956,7 @@ recipes.remove(<appliedenergistics2:part:220>);
 recipes.addShaped(<appliedenergistics2:part:220>, [
     [<metaitem:plateSteel>, <ore:gtce.tool.soft.hammers>, <metaitem:plateSteel>],
     [<metaitem:conveyor.module.hv>, <ore:ae2.interface.item>, <metaitem:conveyor.module.hv>],
-    [<metaitem:plateSteel>, <metaitem:item_filter>, <metaitem:plateSteel>]
+    [<metaitem:plateSteel>, null, <metaitem:plateSteel>]
 ]);
 assembler.recipeBuilder()
     .circuit(1)
@@ -1968,7 +1968,7 @@ assembler.recipeBuilder()
     ])
     .outputs([<appliedenergistics2:part:220>])
     .duration(20)
-    .EUt(480)
+    .EUt(7680)
     .buildAndRegister();
 
 # Fluid Storage Bus
@@ -1976,7 +1976,7 @@ recipes.remove(<appliedenergistics2:part:221>);
 recipes.addShaped(<appliedenergistics2:part:221>, [
     [<metaitem:plateStainlessSteel>, <ore:gtce.tool.soft.hammers>, <metaitem:plateStainlessSteel>],
     [<metaitem:electric.pump.hv>, <ore:ae2.interface.fluid>, <metaitem:electric.pump.hv>],
-    [<metaitem:plateStainlessSteel>, <metaitem:fluid_filter>, <metaitem:plateStainlessSteel>]
+    [<metaitem:plateStainlessSteel>, null, <metaitem:plateStainlessSteel>]
 ]);
 assembler.recipeBuilder()
     .circuit(1)
@@ -1988,7 +1988,7 @@ assembler.recipeBuilder()
     ])
     .outputs([<appliedenergistics2:part:221>])
     .duration(20)
-    .EUt(480)
+    .EUt(7680)
     .buildAndRegister();
 
 # OreDict Storage Bus
@@ -2008,7 +2008,7 @@ assembler.recipeBuilder()
     ])
     .outputs([<appliedenergistics2:part:222>])
     .duration(20)
-    .EUt(480)
+    .EUt(7680)
     .buildAndRegister();
 
 # Toggle Bus
@@ -2028,7 +2028,7 @@ assembler.recipeBuilder()
     ])
     .outputs([<appliedenergistics2:part:80>])
     .duration(20)
-    .EUt(480)
+    .EUt(7680)
     .buildAndRegister();
 
 # Inverted Toggle Bus
