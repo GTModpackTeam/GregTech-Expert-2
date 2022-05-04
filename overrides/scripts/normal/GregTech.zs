@@ -301,7 +301,7 @@ assembly_line.recipeBuilder()
     .EUt(491520)
     .buildAndRegister();
 
-# Glowstone Dust (Override - Override)
+# Glowstone Dust (Override)
 centrifuge.findRecipe(80, [<minecraft:glowstone_dust>], null).remove();
 centrifuge.recipeBuilder()
     .inputs([<minecraft:glowstone_dust> * 2])
@@ -311,7 +311,7 @@ centrifuge.recipeBuilder()
     .EUt(80)
     .buildAndRegister();
 
-# Netherrack Dust (Override - Override)
+# Netherrack Dust (Override)
 centrifuge.findRecipe(20, [<metaitem:dustNetherrack>], null).remove();
 centrifuge.recipeBuilder()
     .inputs([<metaitem:dustNetherrack>])
