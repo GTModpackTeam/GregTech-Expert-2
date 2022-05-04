@@ -339,64 +339,6 @@ chemical_reactor.recipeBuilder()
     .EUt(7680)
     .buildAndRegister();
 
-# Soularium Dust
-electrolyzer.findRecipe(30, [<metaitem:dustSoularium> * 2], null).remove();
-electrolyzer.recipeBuilder()
-    .inputs([<metaitem:dustSoularium> * 3])
-    .outputs([
-        <metaitem:dustGold>,
-        <metaitem:dustAsh>,
-        <minecraft:soul_sand>
-    ])
-    .duration(168)
-    .EUt(30)
-    .buildAndRegister();
-
-# Crude Steel Dust
-electrolyzer.recipeBuilder()
-    .inputs([<metaitem:dustCrudeSteel> * 3])
-    .outputs([
-        <metaitem:dustSteel>,
-        <metaitem:dustClay>,
-        <minecraft:gravel>
-    ])
-    .duration(168)
-    .EUt(30)
-    .buildAndRegister();
-
-# Crystalline Alloy Dust
-electrolyzer.recipeBuilder()
-    .inputs([<metaitem:dustCrystallineAlloy> * 2])
-    .outputs([
-        <metaitem:dustGold>,
-        <enderio:item_material:34>
-    ])
-    .duration(168)
-    .EUt(30)
-    .buildAndRegister();
-
-# Melodic Alloy Dust
-electrolyzer.recipeBuilder()
-    .inputs([<metaitem:dustMelodicAlloy> * 2])
-    .outputs([
-        <metaitem:dustEndSteel>,
-        <minecraft:chorus_fruit_popped>
-    ])
-    .duration(168)
-    .EUt(30)
-    .buildAndRegister();
-
-# Crystalline Pink Slime Dust
-electrolyzer.recipeBuilder()
-    .inputs([<metaitem:dustCrystallinePinkSlime> * 2])
-    .outputs([
-        <metaitem:dustMelodicAlloy>,
-        <minecraft:slime_ball>
-    ])
-    .duration(168)
-    .EUt(30)
-    .buildAndRegister();
-
 # Nether Quartz Rod
 lathe.recipeBuilder()
     .inputs([<ore:crystalPureNetherQuartz>])
