@@ -67,7 +67,6 @@ voidoreminer.hasMaintenanceMechanics = true;
 voidoreminer.hasMufflerMechanics = false;
 
 assembly_line.recipeBuilder()
-    .circuit(2)
     .inputs([<metaitem:hull.zpm>])
     .inputs([<metaitem:frameNaquadahAlloy> * 4])
     .inputs([<ore:circuitZpm> * 4])
@@ -78,6 +77,7 @@ assembly_line.recipeBuilder()
     .inputs([<metaitem:robot.arm.zpm> * 4])
     .inputs([<metaitem:emitter.zpm> * 4])
     .inputs([<metaitem:sensor.zpm> * 4])
+    .inputs([<metaitem:ore_dictionary_filter>])
     .inputs([<metaitem:gearNaquadahAlloy>])
     .fluidInputs(<liquid:soldering_alloy> * 18432)
     .outputs([<metaitem:multiblocktweaker:voidoreminer>])
