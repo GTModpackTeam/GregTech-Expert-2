@@ -125,7 +125,6 @@ mixer.recipeBuilder()
     .buildAndRegister();
 
 # Soularium
-electrolyzer.findRecipe(30, [<metaitem:dustSoularium> * 2], null).remove();
 mixer.recipeBuilder()
     .inputs([
         <metaitem:dustGold>,
@@ -135,16 +134,6 @@ mixer.recipeBuilder()
     .outputs([<metaitem:dustSoularium>])
     .duration(40)
     .EUt(480)
-    .buildAndRegister();
-electrolyzer.recipeBuilder()
-    .inputs([<metaitem:dustSoularium> * 3])
-    .outputs([
-        <metaitem:dustGold>,
-        <metaitem:dustAsh>,
-        <minecraft:soul_sand>
-    ])
-    .duration(168)
-    .EUt(30)
     .buildAndRegister();
 alloy_blast_smelter.recipeBuilder()
     .circuit(2)
@@ -850,16 +839,6 @@ mixer.recipeBuilder()
     .duration(40)
     .EUt(1920)
     .buildAndRegister();
-electrolyzer.recipeBuilder()
-    .inputs([<metaitem:dustCrudeSteel> * 3])
-    .outputs([
-        <metaitem:dustSteel>,
-        <metaitem:dustClay>,
-        <minecraft:gravel>
-    ])
-    .duration(168)
-    .EUt(30)
-    .buildAndRegister();
 
 # Crystalline Alloy
 mixer.recipeBuilder()
@@ -871,15 +850,6 @@ mixer.recipeBuilder()
     .duration(40)
     .EUt(1920)
     .buildAndRegister();
-electrolyzer.recipeBuilder()
-    .inputs([<metaitem:dustCrystallineAlloy> * 2])
-    .outputs([
-        <metaitem:dustGold>,
-        <enderio:item_material:34>
-    ])
-    .duration(168)
-    .EUt(30)
-    .buildAndRegister();
 
 # Melodic Alloy
 mixer.recipeBuilder()
@@ -890,15 +860,6 @@ mixer.recipeBuilder()
     .outputs([<metaitem:dustMelodicAlloy>])
     .duration(40)
     .EUt(1920)
-    .buildAndRegister();
-electrolyzer.recipeBuilder()
-    .inputs([<metaitem:dustMelodicAlloy> * 2])
-    .outputs([
-        <metaitem:dustEndSteel>,
-        <minecraft:chorus_fruit_popped>
-    ])
-    .duration(168)
-    .EUt(30)
     .buildAndRegister();
 
 # Stellar Alloy
@@ -922,15 +883,6 @@ mixer.recipeBuilder()
     .outputs([<metaitem:dustCrystallinePinkSlime>])
     .duration(40)
     .EUt(1920)
-    .buildAndRegister();
-electrolyzer.recipeBuilder()
-    .inputs([<metaitem:dustCrystallinePinkSlime> * 2])
-    .outputs([
-        <metaitem:dustMelodicAlloy>,
-        <minecraft:slime_ball>
-    ])
-    .duration(168)
-    .EUt(30)
     .buildAndRegister();
 
 # Energetic Silver
