@@ -301,6 +301,21 @@ recipes.addShaped(<appliedenergistics2:material:39>, [
     [<metaitem:plateSteel>, null, <metaitem:plateSteel>],
     [<metaitem:screwSteel>, <metaitem:plateSteel>, <ore:gtce.tool.hard.hammers>]
 ]);
+recipes.addShaped(<appliedenergistics2:material:39>, [
+    [<ore:gtce.tool.hard.hammers>, <metaitem:plateSteel>, <metaitem:screwSteel>],
+    [<metaitem:plateSteel>, null, <metaitem:plateSteel>],
+    [<metaitem:screwSteel>, <metaitem:plateSteel>, <ore:gtce.tool.screwdrivers>]
+]);
+assembler.recipeBuilder()
+    .circuit(3)
+    .inputs([
+        <metaitem:plateSteel> * 2,
+        <metaitem:screwSteel> * 2
+    ])
+    .outputs([<appliedenergistics2:material:39>])
+    .duration(20)
+    .EUt(480)
+    .buildAndRegister();
 
 # Creative Storage Cell
 JEI.hide(<appliedenergistics2:creative_storage_cell>);
@@ -1999,6 +2014,17 @@ recipes.addShaped(<appliedenergistics2:part:280>, [
     [<ore:ae2.cable.glass>, <minecraft:redstone_torch>, <ore:ae2.cable.glass>],
     [null, <metaitem:plateSteel>, null]
 ]);
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <minecraft:redstone_torch>,
+        <ore:ae2.cable.glass>,
+        <metaitem:plateSteel>
+    ])
+    .outputs([<appliedenergistics2:part:280>])
+    .duration(20)
+    .EUt(7680)
+    .buildAndRegister();
 
 # Fluid Level Emitter
 recipes.remove(<appliedenergistics2:part:281>);
@@ -2007,30 +2033,101 @@ recipes.addShaped(<appliedenergistics2:part:281>, [
     [<ore:ae2.cable.glass>, <minecraft:redstone_torch>, <ore:ae2.cable.glass>],
     [null, <metaitem:plateStainlessSteel>, null]
 ]);
+assembler.recipeBuilder()
+    .circuit(2)
+    .inputs([
+        <minecraft:redstone_torch>,
+        <ore:ae2.cable.glass>,
+        <metaitem:plateStainlessSteel>
+    ])
+    .outputs([<appliedenergistics2:part:281>])
+    .duration(20)
+    .EUt(7680)
+    .buildAndRegister();
 
 # Storage Bus
 recipes.remove(<appliedenergistics2:part:220>);
 recipes.addShaped(<appliedenergistics2:part:220>, [
-    [<metaitem:plateAluminium>, <ore:gtce.tool.soft.hammers>, <metaitem:plateAluminium>],
+    [<metaitem:plateSteel>, <ore:gtce.tool.soft.hammers>, <metaitem:plateSteel>],
     [<metaitem:conveyor.module.hv>, <ore:ae2.interface.item>, <metaitem:conveyor.module.hv>],
-    [<metaitem:plateAluminium>, null, <metaitem:plateAluminium>]
+    [<metaitem:plateSteel>, null, <metaitem:plateSteel>]
 ]);
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:conveyor.module.hv>,
+        <metaitem:item_filter>,
+        <ore:ae2.interface.item>,
+        <metaitem:plateSteel> * 2
+    ])
+    .outputs([<appliedenergistics2:part:220>])
+    .duration(20)
+    .EUt(7680)
+    .buildAndRegister();
 
-# Fluid Bus
+# Fluid Storage Bus
 recipes.remove(<appliedenergistics2:part:221>);
 recipes.addShaped(<appliedenergistics2:part:221>, [
     [<metaitem:plateStainlessSteel>, <ore:gtce.tool.soft.hammers>, <metaitem:plateStainlessSteel>],
     [<metaitem:electric.pump.hv>, <ore:ae2.interface.fluid>, <metaitem:electric.pump.hv>],
     [<metaitem:plateStainlessSteel>, null, <metaitem:plateStainlessSteel>]
 ]);
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:electric.pump.hv>,
+        <metaitem:fluid_filter>,
+        <ore:ae2.interface.fluid>,
+        <metaitem:plateStainlessSteel> * 2
+    ])
+    .outputs([<appliedenergistics2:part:221>])
+    .duration(20)
+    .EUt(7680)
+    .buildAndRegister();
 
 # OreDict Storage Bus
 recipes.remove(<appliedenergistics2:part:222>);
 recipes.addShaped(<appliedenergistics2:part:222>, [
-    [<metaitem:plateAluminium>, <ore:gtce.tool.soft.hammers>, <metaitem:plateAluminium>],
-    [<metaitem:conveyor.module.ev>, <appliedenergistics2:part:220>, <metaitem:conveyor.module.ev>],
-    [<metaitem:plateAluminium>, <metaitem:ore_dictionary_filter>, <metaitem:plateAluminium>]
+    [<metaitem:plateTitanium>, <ore:gtce.tool.soft.hammers>, <metaitem:plateTitanium>],
+    [<metaitem:conveyor.module.hv>, <ore:ae2.interface.item>, <metaitem:conveyor.module.hv>],
+    [<metaitem:plateTitanium>, <metaitem:ore_dictionary_filter>, <metaitem:plateTitanium>]
 ]);
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:conveyor.module.hv>,
+        <metaitem:ore_dictionary_filter>,
+        <ore:ae2.interface.item>,
+        <metaitem:plateTitanium> * 2
+    ])
+    .outputs([<appliedenergistics2:part:222>])
+    .duration(20)
+    .EUt(7680)
+    .buildAndRegister();
+
+# Toggle Bus
+recipes.remove(<appliedenergistics2:part:80>);
+recipes.addShapeless(<appliedenergistics2:part:80>, [<appliedenergistics2:part:100>]);
+recipes.addShaped(<appliedenergistics2:part:80>, [
+    [null, <metaitem:plateRedAlloy>, null],
+    [<ore:ae2.cable.glass>, <minecraft:lever>, <ore:ae2.cable.glass>],
+    [null, <metaitem:plateRedAlloy>, null]
+]);
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <minecraft:lever>,
+        <ore:ae2.cable.glass>,
+        <metaitem:plateRedAlloy>
+    ])
+    .outputs([<appliedenergistics2:part:80>])
+    .duration(20)
+    .EUt(7680)
+    .buildAndRegister();
+
+# Inverted Toggle Bus
+recipes.remove(<appliedenergistics2:part:100>);
+recipes.addShapeless(<appliedenergistics2:part:100>, [<appliedenergistics2:part:80>]);
 
 # Import Bus
 recipes.remove(<appliedenergistics2:part:240>);
@@ -2051,16 +2148,3 @@ JEI.addDescription(<appliedenergistics2:part:260>, I18n.format("modpack.ae2.bus_
 recipes.remove(<appliedenergistics2:part:261>);
 JEI.addDescription(<appliedenergistics2:part:261>, I18n.format("modpack.ae2.bus_fluid.tooltip.1"));
 <appliedenergistics2:part:261>.addTooltip(format.green(I18n.format("modpack.ae2.bus_fluid.tooltip.1")));
-
-# Toggle Bus
-recipes.remove(<appliedenergistics2:part:80>);
-recipes.addShapeless(<appliedenergistics2:part:80>, [<appliedenergistics2:part:100>]);
-recipes.addShaped(<appliedenergistics2:part:80>, [
-    [null, <metaitem:plateRedAlloy>, null],
-    [<ore:ae2.cable.glass>, <minecraft:lever>, <ore:ae2.cable.glass>],
-    [null, <metaitem:plateRedAlloy>, null]
-]);
-
-# Inverted Toggle Bus
-recipes.remove(<appliedenergistics2:part:100>);
-recipes.addShapeless(<appliedenergistics2:part:100>, [<appliedenergistics2:part:80>]);
