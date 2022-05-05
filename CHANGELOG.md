@@ -3,11 +3,17 @@
 * [Update] Cable anchor (#151)
 * [Update] EZStorage assembler recipes (#155)
 * [Update] AE2 assembler recipes (#154)
+* [Update] EIO Painter (#162)
 
 ## Modpack fix
 * [Fix] Charged Certus Quartz Crystal (#153)
 * [Fix] Redstone Lamp (#157)
 * [Fix] Molten Soularium (#159)
+
+## Update mods
+* Had Enough Items
+* SuperMartijn642's Core Lib
+* Trash Cans
 
 ## Update recipes
 ### AE2
@@ -20,6 +26,9 @@
 
 ### GregTech(EIO)
 * Molten Soularium
+
+### Ender IO
+* Painter
 
 ### Vanilla
 * Redstone Lamp
