@@ -125,6 +125,12 @@ mixer.recipeBuilder()
     .buildAndRegister();
 
 # Soularium
+alloy_blast_smelter.findRecipe(480, [
+    <metaitem:dustGold>, <metaitem:dustAsh>, <metaitem:circuit.integrated>.withTag({Configuration: 2})
+], null).remove();
+alloy_blast_smelter.findRecipe(480, [
+    <metaitem:dustGold>, <metaitem:dustAsh>, <metaitem:circuit.integrated>.withTag({Configuration: 12})
+], [<liquid:argon> * 100]).remove();
 mixer.recipeBuilder()
     .inputs([
         <metaitem:dustGold>,
