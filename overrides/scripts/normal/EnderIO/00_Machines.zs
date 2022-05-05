@@ -206,12 +206,16 @@ recipes.addShaped(<enderio:block_weather_obelisk>, [
 # Experienec Obelisk
 recipes.addShaped(<enderio:block_experience_obelisk>, [
     [null, <enderio:item_xp_transfer>, null],
-    [<metaitem:plateEnergeticAlloy>, <gregtech:machine:1575>, <metaitem:plateEnergeticAlloy>],
+    [<metaitem:plateEnergeticAlloy>, <metaitem:super_tank.lv>, <metaitem:plateEnergeticAlloy>],
     [<metaitem:plateSoularium>, <ore:itemSoulMachineChassi>, <metaitem:plateSoularium>]
 ]);
 
 # Painting Machine
-JEI.hide(<enderio:block_painter>);
+recipes.addShaped(<enderio:block_painter>, [
+    [<metaitem:sensor.hv>, <ore:circuitHv>, <metaitem:sensor.hv>],
+    [<metaitem:gearElectricalSteel>, <ore:itemMachineChassi>, <metaitem:gearElectricalSteel>],
+    [<metaitem:plateElectricalSteel>, <metaitem:plateElectricalSteel>, <metaitem:plateElectricalSteel>]
+]);
 
 # Endervoir
 JEI.hide(<enderio:block_reservoir>);
