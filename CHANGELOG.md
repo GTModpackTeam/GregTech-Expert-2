@@ -1,3 +1,14 @@
+# v1.9.0(hotfix)
+* Client startup errors may occur
+
+## Update mods
+* CensoredASM
+
+## Add mods
+* Foam​Fix
+
+* * *
+
 # v1.8.0
 ## Modpack update
 * [Update] Cable anchor (#151)
