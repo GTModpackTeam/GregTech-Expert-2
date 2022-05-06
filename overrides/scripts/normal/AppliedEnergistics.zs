@@ -820,16 +820,16 @@ assembler.recipeBuilder()
 recipes.remove(<appliedenergistics2:certus_quartz_cutting_knife>);
 recipes.addShaped(<appliedenergistics2:certus_quartz_cutting_knife>, [
     [<ore:gtce.tool.files>, <metaitem:plateCertusQuartz>, <ore:gtce.tool.hard.hammers>],
-    [<ore:crystalCertusQuartz>, <metaitem:stickWood>, <ore:crystalCertusQuartz>],
-    [null, <metaitem:stickWood>, null]
+    [<ore:crystalCertusQuartz>, <minecraft:stick>, <ore:crystalCertusQuartz>],
+    [null, <minecraft:stick>, null]
 ]);
 
 # Nether Quartz Cutting Knife
 recipes.remove(<appliedenergistics2:nether_quartz_cutting_knife>);
 recipes.addShaped(<appliedenergistics2:nether_quartz_cutting_knife>, [
     [<ore:gtce.tool.files>, <metaitem:plateNetherQuartz>, <ore:gtce.tool.hard.hammers>],
-    [<ore:gemNetherQuartz>, <metaitem:stickWood>, <ore:gemNetherQuartz>],
-    [null, <metaitem:stickWood>, null]
+    [<ore:gemNetherQuartz>, <minecraft:stick>, <ore:gemNetherQuartz>],
+    [null, <minecraft:stick>, null]
 ]);
 
 # Certus Quartz Wrench

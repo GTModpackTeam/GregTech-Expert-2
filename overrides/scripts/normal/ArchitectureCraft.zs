@@ -20,7 +20,7 @@ recipes.addShapeless(<architecturecraft:chisel>, [<chisel:chisel_iron>]);
 # Hammer
 recipes.remove(<architecturecraft:hammer>);
 recipes.addShaped(<architecturecraft:hammer>, [
-    [<metaitem:toolHeadHammerIron>, <metaitem:ingotIron>, <metaitem:ingotIron>],
+    [<metaitem:toolHeadHammerIron>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],
     [<ore:gtce.tool.files>, <minecraft:stick>, <ore:gtce.tool.hard.hammers>],
     [null, <minecraft:stick>, null]
 ]);
