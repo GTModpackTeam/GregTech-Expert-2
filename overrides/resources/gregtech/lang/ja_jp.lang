@@ -285,6 +285,9 @@ metaitem.battery.hull.uv.tooltip=空の§3UV用§7バッテリー筐体
 
 metaitem.battery.charge_time=§a%,d%s放出可能
 metaitem.battery.charge_detailed=%,d/%,d EU - Tier %s §7(§%c%,d%s放出可能§7)
+metaitem.battery.charge_unit.second=秒
+metaitem.battery.charge_unit.minute=分
+metaitem.battery.charge_unit.hour=時間
 
 metaitem.battery.re.ulv.tantalum.name=タンタル製キャパシター
 metaitem.battery.re.ulv.tantalum.tooltip=充電式
@@ -4741,7 +4744,7 @@ gregtech.cable.amperage=最大電流: §e%,d
 gregtech.cable.loss_per_block=損失/メートル/アンペア: §c%,d§7 EU-Volt
 gregtech.cable.superconductor=§d%s ロスレス
 
-regtech.fluid_pipe.throughput=§b運搬速度: %,d L/t
+gregtech.fluid_pipe.throughput=§b運搬速度: %,d L/t
 gregtech.fluid_pipe.capacity=§9液体容量: %,d L
 gregtech.fluid_pipe.max_temperature=§c限界温度: %,d K
 gregtech.fluid_pipe.channels=§eチャンネル: %d
