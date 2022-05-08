@@ -293,6 +293,11 @@ recipes.addShaped(<appliedenergistics2:material:52>, [
     [<metaitem:plateGlowstone>, <ore:crystalCertusQuartz>, <metaitem:plateGlowstone>],
     [<metaitem:plateAluminium>, <metaitem:plateAluminium>, <metaitem:plateAluminium>]
 ]);
+recipes.addShaped(<appliedenergistics2:material:52> * 2, [
+    [<appliedenergistics2:quartz_glass>, <metaitem:plateGlowstone>, <appliedenergistics2:quartz_glass>],
+    [<metaitem:plateGlowstone>, <ore:crystalPureCertusQuartz>, <metaitem:plateGlowstone>],
+    [<metaitem:plateAluminium>, <metaitem:plateAluminium>, <metaitem:plateAluminium>]
+]);
 
 # Storage Housing
 recipes.remove(<appliedenergistics2:material:39>);
