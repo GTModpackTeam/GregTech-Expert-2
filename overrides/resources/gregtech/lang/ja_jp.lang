@@ -2336,20 +2336,20 @@ tile.warning_sign.acid_hazard.name=酸危害警告ブロック
 tile.warning_sign.magic_hazard.name=魔術的危害警告ブロック
 tile.warning_sign.frost_hazard.name=降霜危害警告ブロック
 tile.warning_sign.noise_hazard.name=騒音危害警告ブロック
-tile.warning_sign.generic_hazard.name=一版危害警告ブロック
+tile.warning_sign.generic_hazard.name=汎用危害警告ブロック
 tile.warning_sign.high_voltage_hazard.name=高電圧危害警告ブロック
 tile.warning_sign.magnetic_hazard.name=磁力危害警告ブロック
 tile.warning_sign.antimatter_hazard.name=反物質危害警告ブロック
 tile.warning_sign.high_temperature_hazard.name=高温危害警告ブロック
-tile.warning_sign.void_hazard.name=虚無危害警告ブロック
-tile.warning_sign_1.mob_spawner_hazard.name=モプスポナー危害警告ブロック
+tile.warning_sign.void_hazard.name=亜空間危害警告ブロック
+tile.warning_sign_1.mob_spawner_hazard.name=スポナー危害警告ブロック
 tile.warning_sign_1.spatial_storage_hazard.name=空間ストレージ危害警告ブロック
 tile.warning_sign_1.laser_hazard.name=レーザー危害警告ブロック
 tile.warning_sign_1.mob_hazard.name=モブ侵入危害警告ブロック
 tile.warning_sign_1.boss_hazard.name=ボス危害警告ブロック
 tile.warning_sign_1.gregification_hazard.name=Greg化危害警告ブロック
-tile.warning_sign_1.causality_hazard.name=非一般的危害警告ブロック
-tile.warning_sign_1.automated_defenses_hazard.name=自動防衛危害警告ブロック
+tile.warning_sign_1.causality_hazard.name=標準的因果危害警告ブロック
+tile.warning_sign_1.automated_defenses_hazard.name=自動防衛システム危害警告ブロック
 tile.warning_sign_1.high_pressure_hazard.name=高圧危害警告ブロック
 
 # Boiler casing blocks
@@ -5135,7 +5135,7 @@ terminal.minesweeper.lose=失敗! %s秒後にリスタートします.
 terminal.minesweeper.win.1=%s秒で勝利しました!
 terminal.minesweeper.win.2=%s秒後にリスタートします.
 
-terminal.cape_selector.empty=まだマントを一つも持っていません！
+terminal.cape_selector.empty=まだマントを一つも持っていません!
 terminal.cape_selector.select=マントをクリックして選択してください!
 terminal.cape_selector.tip=象徴的な実績を達成することでマントを獲得できます.
 
