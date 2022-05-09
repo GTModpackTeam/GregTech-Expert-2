@@ -1,11 +1,17 @@
 {
-	title: "Nether Star Dust",
+	title: "BetterQuestingのデフォルトアイコン",
 	icon: "minecraft:nether_star",
 	x: -4.0d,
 	y: 6.0d,
 	shape: "diamond",
+	description: "Nether Star",
 	text: [
-		""
+		"ネザースターは高い電圧のセンサ、エミッタ、空間発生器の作製に必要です。",
+		"",
+		"恒久的なポーション効果が欲しいなら、バニラのビーコンの材料として使用しても構いません。",
+		"",
+		"ネザーの空気がレシピに要求されているので、ついでにネザーの液体空気の蒸留に投資してもいいかもしれません。",
+		"PBIの作製が少し楽になります。"
 	],
 	dependencies: [
 		"a2d4136d",

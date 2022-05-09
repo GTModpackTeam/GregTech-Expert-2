@@ -1,10 +1,11 @@
 {
-	title: "Quantumprocessor Assembly",
+	title: "量子というのはフレーバーテキストで実は関係ない",
 	x: 2.0d,
 	y: 6.0d,
 	shape: "diamond",
+	description: "Quantumprocessor Assembly",
 	text: [
-		""
+		"IV時代を快適に進めることができるようになる、最高のIV回路です。"
 	],
 	dependencies: [
 		"9f60d423"

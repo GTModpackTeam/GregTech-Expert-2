@@ -1,10 +1,12 @@
 {
-	title: "Elite Circuit Assembler",
+	title: "おつかれ！今回は新しいポリマーは不要だよ！",
 	x: -2.0d,
 	y: 6.0d,
 	shape: "diamond",
+	description: "Elite Circuit Assembler",
 	text: [
-		""
+		"IV回路組立機は量子回路を解禁します。",
+		"また、これで最高効率でMV回路を作れるようになります。"
 	],
 	dependencies: [
 		"a6e0daef"
