@@ -20,7 +20,10 @@ jobs:
           echo ::set-output name=LEVEL::$(echo ${GITHUB_REF} | sed -e 's#refs/tags/##g' | awk -F'-' '{print $2}')
 
       - name: Set the version
-        run: echo "GregTech Expert 2 ${{ steps.get_version.outputs.VERSION }} ${{ steps.get_version.outputs.LEVEL }}" > ./overrides/resources/mainmenu/version.txt
+        run: |-
+          MODPACKVERSION=v${{ steps.get_version.outputs.VERSION }}
+          echo "GregTech Expert 2 ${MODPACKVERSION} ${{ steps.get_version.outputs.LEVEL }}" > ./overrides/resources/mainmenu/version.txt
+          sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" manifest.json
 
       - name: Archive Release Client
         uses: thedoctor0/zip-release@master
