@@ -1,10 +1,12 @@
 {
-	title: "HPIC",
+	title: "HP[ | | | | |・・・・ ]",
 	x: -8.0d,
 	y: 0.0d,
 	shape: "diamond",
+	description: "HPIC",
 	text: [
-		""
+		"貴重なインジウムを使ってHPICを作ることで次の電気系統が解禁されます。",
+		"アセンブリラインにも必要です。"
 	],
 	dependencies: [
 		"7a4879e5",

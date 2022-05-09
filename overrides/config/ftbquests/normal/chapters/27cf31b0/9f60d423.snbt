@@ -1,10 +1,14 @@
 {
-	title: "Quantumprocessor",
+	title: "最高のEV回路",
 	x: 0.0d,
 	y: 6.0d,
 	shape: "diamond",
+	description: "Quantumprocessor",
 	text: [
-		""
+		"量子処理装置は最初の量子回路です。",
+		"",
+		"望むなら、発展型SMDを作って回路をより安く作ることができます。",
+		"これにはPBIとHSS-Sコイルでしか作れない合金が要求されます。"
 	],
 	dependencies: [
 		"8dc33126",

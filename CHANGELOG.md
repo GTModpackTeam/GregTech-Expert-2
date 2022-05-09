@@ -1,3 +1,10 @@
+# v1.9.1
+## Modpack update
+* Quest include v0.14.0
+
+## Update mods
+* Gregicality Multiblocks
+
 # v1.9.0
 ## Modpack update
 * [Update] Cable anchor (#151)

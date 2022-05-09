@@ -1,10 +1,11 @@
 {
-	title: "Quantum Supercomputer",
+	title: "漁師と猟師の両氏は量子の海を泳ぐ",
 	x: 4.0d,
 	y: 6.0d,
 	shape: "diamond",
+	description: "Quantum Supercomputer",
 	text: [
-		""
+		"メインフレームではないLuV回路です。"
 	],
 	dependencies: [
 		"5ed85ae6"
