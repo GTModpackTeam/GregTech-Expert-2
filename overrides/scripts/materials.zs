@@ -115,8 +115,7 @@ MaterialBuilder(32103, "redstone_alloy")
         "generate_plate"
     ])
     .components([
-        <material:copper> * 1,
-        <material:redstone> * 4,
+        <material:red_alloy> * 1,
         <material:silicon> * 1
     ])
     .build();
@@ -132,7 +131,7 @@ MaterialBuilder(32104, "conductive_iron")
     ])
     .components([
         <material:iron> * 1,
-        <material:redstone> * 1
+        <material:redstone_alloy> * 1
     ])
     .build();
 
@@ -283,9 +282,9 @@ MaterialBuilder(32113, "stellar_alloy")
         "generate_rod"
     ])
     .components([
+        <material:nether_star> * 1,
         <material:melodic_alloy> * 1,
-        <material:clay> * 1,
-        <material:nether_star> * 1
+        <material:clay> * 1
     ])
     .build();
 MaterialRegistry.get("stellar_alloy").setFormula("FeC(MgFeSi2O4)2(Na2LiAl2Si2(H2O)6)?", true);

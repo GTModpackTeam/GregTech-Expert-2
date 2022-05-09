@@ -1,6 +1,10 @@
 {
+	title: "Solar Panel(EV)",
 	x: -4.0d,
 	y: -2.0d,
+	text: [
+		""
+	],
 	dependencies: [
 		"2397174a"
 	],

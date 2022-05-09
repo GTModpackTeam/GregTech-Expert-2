@@ -8,14 +8,14 @@
 # Storage Upgrade MK2
 recipes.addShaped(<storagedrawers:upgrade_storage:1>, [
     [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
-    [<metaitem:ingotIron>, <storagedrawers:upgrade_storage>, <metaitem:ingotIron>],
+    [<minecraft:iron_ingot>, <storagedrawers:upgrade_storage>, <minecraft:iron_ingot>],
     [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>]
 ]);
 
 # Storage Upgrade MK3
 recipes.addShaped(<storagedrawers:upgrade_storage:2>, [
     [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
-    [<metaitem:ingotGold>, <storagedrawers:upgrade_storage:0> | <storagedrawers:upgrade_storage:1>, <metaitem:ingotGold>],
+    [<minecraft:gold_ingot>, <storagedrawers:upgrade_storage:0> | <storagedrawers:upgrade_storage:1>, <minecraft:gold_ingot>],
     [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>]
 ]);
 

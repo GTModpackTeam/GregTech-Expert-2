@@ -293,6 +293,11 @@ recipes.addShaped(<appliedenergistics2:material:52>, [
     [<metaitem:plateGlowstone>, <ore:crystalCertusQuartz>, <metaitem:plateGlowstone>],
     [<metaitem:plateAluminium>, <metaitem:plateAluminium>, <metaitem:plateAluminium>]
 ]);
+recipes.addShaped(<appliedenergistics2:material:52> * 2, [
+    [<appliedenergistics2:quartz_glass>, <metaitem:plateGlowstone>, <appliedenergistics2:quartz_glass>],
+    [<metaitem:plateGlowstone>, <ore:crystalPureCertusQuartz>, <metaitem:plateGlowstone>],
+    [<metaitem:plateAluminium>, <metaitem:plateAluminium>, <metaitem:plateAluminium>]
+]);
 
 # Storage Housing
 recipes.remove(<appliedenergistics2:material:39>);
@@ -301,6 +306,21 @@ recipes.addShaped(<appliedenergistics2:material:39>, [
     [<metaitem:plateSteel>, null, <metaitem:plateSteel>],
     [<metaitem:screwSteel>, <metaitem:plateSteel>, <ore:gtce.tool.hard.hammers>]
 ]);
+recipes.addShaped(<appliedenergistics2:material:39>, [
+    [<ore:gtce.tool.hard.hammers>, <metaitem:plateSteel>, <metaitem:screwSteel>],
+    [<metaitem:plateSteel>, null, <metaitem:plateSteel>],
+    [<metaitem:screwSteel>, <metaitem:plateSteel>, <ore:gtce.tool.screwdrivers>]
+]);
+assembler.recipeBuilder()
+    .circuit(3)
+    .inputs([
+        <metaitem:plateSteel> * 2,
+        <metaitem:screwSteel> * 2
+    ])
+    .outputs([<appliedenergistics2:material:39>])
+    .duration(20)
+    .EUt(480)
+    .buildAndRegister();
 
 # Creative Storage Cell
 JEI.hide(<appliedenergistics2:creative_storage_cell>);
@@ -805,16 +825,16 @@ assembler.recipeBuilder()
 recipes.remove(<appliedenergistics2:certus_quartz_cutting_knife>);
 recipes.addShaped(<appliedenergistics2:certus_quartz_cutting_knife>, [
     [<ore:gtce.tool.files>, <metaitem:plateCertusQuartz>, <ore:gtce.tool.hard.hammers>],
-    [<ore:crystalCertusQuartz>, <metaitem:stickWood>, <ore:crystalCertusQuartz>],
-    [null, <metaitem:stickWood>, null]
+    [<ore:crystalCertusQuartz>, <minecraft:stick>, <ore:crystalCertusQuartz>],
+    [null, <minecraft:stick>, null]
 ]);
 
 # Nether Quartz Cutting Knife
 recipes.remove(<appliedenergistics2:nether_quartz_cutting_knife>);
 recipes.addShaped(<appliedenergistics2:nether_quartz_cutting_knife>, [
     [<ore:gtce.tool.files>, <metaitem:plateNetherQuartz>, <ore:gtce.tool.hard.hammers>],
-    [<ore:gemNetherQuartz>, <metaitem:stickWood>, <ore:gemNetherQuartz>],
-    [null, <metaitem:stickWood>, null]
+    [<ore:gemNetherQuartz>, <minecraft:stick>, <ore:gemNetherQuartz>],
+    [null, <minecraft:stick>, null]
 ]);
 
 # Certus Quartz Wrench
@@ -1083,6 +1103,100 @@ macerator.recipeBuilder()
 ########################################
 # Blocks
 ########################################
+# Cable Anchor
+val anchorIngots_x4 as IItemStack[] = [
+    <minecraft:iron_ingot>,
+    <metaitem:ingotCopper>,
+    <metaitem:ingotAnnealedCopper>,
+    <metaitem:ingotTin>,
+    <metaitem:ingotLead>,
+    <metaitem:ingotNickel>,
+    <metaitem:ingotSilver>,
+    <metaitem:ingotSteel>
+];
+val anchorIngots_x6 as IItemStack[] = [
+    <metaitem:ingotBronze>,
+    <metaitem:ingotBrass>,
+    <metaitem:ingotInvar>,
+    <metaitem:ingotDarkSteel>
+];
+val anchorIngots_x8 as IItemStack[] = [
+    <metaitem:ingotStainlessSteel>,
+    <metaitem:ingotTitanium>
+];
+for anchorIngot_x4 in anchorIngots_x4 {
+    recipes.addShapeless(<appliedenergistics2:part:120> * 4, [anchorIngot_x4, <ore:gtce.tool.knife>]);
+    cutter.recipeBuilder()
+        .inputs([anchorIngot_x4])
+        .fluidInputs([<liquid:lubricant> * 1])
+        .outputs([<appliedenergistics2:part:120> * 8])
+        .duration(80)
+        .EUt(480)
+        .buildAndRegister();
+    cutter.recipeBuilder()
+        .inputs([anchorIngot_x4])
+        .fluidInputs([<liquid:distilled_water> * 3])
+        .outputs([<appliedenergistics2:part:120> * 8])
+        .duration(160)
+        .EUt(480)
+        .buildAndRegister();
+    cutter.recipeBuilder()
+        .inputs([anchorIngot_x4])
+        .fluidInputs([<liquid:water> * 4])
+        .outputs([<appliedenergistics2:part:120> * 8])
+        .duration(200)
+        .EUt(480)
+        .buildAndRegister();
+}
+for anchorIngot_x6 in anchorIngots_x6 {
+    recipes.addShapeless(<appliedenergistics2:part:120> * 6, [anchorIngot_x6, <ore:gtce.tool.knife>]);
+    cutter.recipeBuilder()
+        .inputs([anchorIngot_x6])
+        .fluidInputs([<liquid:lubricant> * 1])
+        .outputs([<appliedenergistics2:part:120> * 12])
+        .duration(80)
+        .EUt(480)
+        .buildAndRegister();
+    cutter.recipeBuilder()
+        .inputs([anchorIngot_x6])
+        .fluidInputs([<liquid:distilled_water> * 3])
+        .outputs([<appliedenergistics2:part:120> * 12])
+        .duration(160)
+        .EUt(480)
+        .buildAndRegister();
+    cutter.recipeBuilder()
+        .inputs([anchorIngot_x6])
+        .fluidInputs([<liquid:water> * 4])
+        .outputs([<appliedenergistics2:part:120> * 12])
+        .duration(200)
+        .EUt(480)
+        .buildAndRegister();
+}
+for anchorIngot_x8 in anchorIngots_x8 {
+    recipes.addShapeless(<appliedenergistics2:part:120> * 8, [anchorIngot_x8, <ore:gtce.tool.knife>]);
+    cutter.recipeBuilder()
+        .inputs([anchorIngot_x8])
+        .fluidInputs([<liquid:lubricant> * 1])
+        .outputs([<appliedenergistics2:part:120> * 16])
+        .duration(80)
+        .EUt(480)
+        .buildAndRegister();
+    cutter.recipeBuilder()
+        .inputs([anchorIngot_x8])
+        .fluidInputs([<liquid:distilled_water> * 3])
+        .outputs([<appliedenergistics2:part:120> * 16])
+        .duration(160)
+        .EUt(480)
+        .buildAndRegister();
+    cutter.recipeBuilder()
+        .inputs([anchorIngot_x8])
+        .fluidInputs([<liquid:water> * 4])
+        .outputs([<appliedenergistics2:part:120> * 16])
+        .duration(200)
+        .EUt(480)
+        .buildAndRegister();
+}
+
 # Quartz Blocks
 JEI.removeAndHide(<appliedenergistics2:quartz_block>);
 JEI.removeAndHide(<appliedenergistics2:quartz_slab>);
@@ -1905,6 +2019,17 @@ recipes.addShaped(<appliedenergistics2:part:280>, [
     [<ore:ae2.cable.glass>, <minecraft:redstone_torch>, <ore:ae2.cable.glass>],
     [null, <metaitem:plateSteel>, null]
 ]);
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <minecraft:redstone_torch>,
+        <ore:ae2.cable.glass>,
+        <metaitem:plateSteel>
+    ])
+    .outputs([<appliedenergistics2:part:280>])
+    .duration(20)
+    .EUt(7680)
+    .buildAndRegister();
 
 # Fluid Level Emitter
 recipes.remove(<appliedenergistics2:part:281>);
@@ -1913,30 +2038,101 @@ recipes.addShaped(<appliedenergistics2:part:281>, [
     [<ore:ae2.cable.glass>, <minecraft:redstone_torch>, <ore:ae2.cable.glass>],
     [null, <metaitem:plateStainlessSteel>, null]
 ]);
+assembler.recipeBuilder()
+    .circuit(2)
+    .inputs([
+        <minecraft:redstone_torch>,
+        <ore:ae2.cable.glass>,
+        <metaitem:plateStainlessSteel>
+    ])
+    .outputs([<appliedenergistics2:part:281>])
+    .duration(20)
+    .EUt(7680)
+    .buildAndRegister();
 
 # Storage Bus
 recipes.remove(<appliedenergistics2:part:220>);
 recipes.addShaped(<appliedenergistics2:part:220>, [
-    [<metaitem:plateAluminium>, <ore:gtce.tool.soft.hammers>, <metaitem:plateAluminium>],
+    [<metaitem:plateSteel>, <ore:gtce.tool.soft.hammers>, <metaitem:plateSteel>],
     [<metaitem:conveyor.module.hv>, <ore:ae2.interface.item>, <metaitem:conveyor.module.hv>],
-    [<metaitem:plateAluminium>, null, <metaitem:plateAluminium>]
+    [<metaitem:plateSteel>, null, <metaitem:plateSteel>]
 ]);
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:conveyor.module.hv>,
+        <metaitem:item_filter>,
+        <ore:ae2.interface.item>,
+        <metaitem:plateSteel> * 2
+    ])
+    .outputs([<appliedenergistics2:part:220>])
+    .duration(20)
+    .EUt(7680)
+    .buildAndRegister();
 
-# Fluid Bus
+# Fluid Storage Bus
 recipes.remove(<appliedenergistics2:part:221>);
 recipes.addShaped(<appliedenergistics2:part:221>, [
     [<metaitem:plateStainlessSteel>, <ore:gtce.tool.soft.hammers>, <metaitem:plateStainlessSteel>],
     [<metaitem:electric.pump.hv>, <ore:ae2.interface.fluid>, <metaitem:electric.pump.hv>],
     [<metaitem:plateStainlessSteel>, null, <metaitem:plateStainlessSteel>]
 ]);
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:electric.pump.hv>,
+        <metaitem:fluid_filter>,
+        <ore:ae2.interface.fluid>,
+        <metaitem:plateStainlessSteel> * 2
+    ])
+    .outputs([<appliedenergistics2:part:221>])
+    .duration(20)
+    .EUt(7680)
+    .buildAndRegister();
 
 # OreDict Storage Bus
 recipes.remove(<appliedenergistics2:part:222>);
 recipes.addShaped(<appliedenergistics2:part:222>, [
-    [<metaitem:plateAluminium>, <ore:gtce.tool.soft.hammers>, <metaitem:plateAluminium>],
-    [<metaitem:conveyor.module.ev>, <appliedenergistics2:part:220>, <metaitem:conveyor.module.ev>],
-    [<metaitem:plateAluminium>, <metaitem:ore_dictionary_filter>, <metaitem:plateAluminium>]
+    [<metaitem:plateTitanium>, <ore:gtce.tool.soft.hammers>, <metaitem:plateTitanium>],
+    [<metaitem:conveyor.module.hv>, <ore:ae2.interface.item>, <metaitem:conveyor.module.hv>],
+    [<metaitem:plateTitanium>, <metaitem:ore_dictionary_filter>, <metaitem:plateTitanium>]
 ]);
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:conveyor.module.hv>,
+        <metaitem:ore_dictionary_filter>,
+        <ore:ae2.interface.item>,
+        <metaitem:plateTitanium> * 2
+    ])
+    .outputs([<appliedenergistics2:part:222>])
+    .duration(20)
+    .EUt(7680)
+    .buildAndRegister();
+
+# Toggle Bus
+recipes.remove(<appliedenergistics2:part:80>);
+recipes.addShapeless(<appliedenergistics2:part:80>, [<appliedenergistics2:part:100>]);
+recipes.addShaped(<appliedenergistics2:part:80>, [
+    [null, <metaitem:plateRedAlloy>, null],
+    [<ore:ae2.cable.glass>, <minecraft:lever>, <ore:ae2.cable.glass>],
+    [null, <metaitem:plateRedAlloy>, null]
+]);
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <minecraft:lever>,
+        <ore:ae2.cable.glass>,
+        <metaitem:plateRedAlloy>
+    ])
+    .outputs([<appliedenergistics2:part:80>])
+    .duration(20)
+    .EUt(7680)
+    .buildAndRegister();
+
+# Inverted Toggle Bus
+recipes.remove(<appliedenergistics2:part:100>);
+recipes.addShapeless(<appliedenergistics2:part:100>, [<appliedenergistics2:part:80>]);
 
 # Import Bus
 recipes.remove(<appliedenergistics2:part:240>);
@@ -1957,16 +2153,3 @@ JEI.addDescription(<appliedenergistics2:part:260>, I18n.format("modpack.ae2.bus_
 recipes.remove(<appliedenergistics2:part:261>);
 JEI.addDescription(<appliedenergistics2:part:261>, I18n.format("modpack.ae2.bus_fluid.tooltip.1"));
 <appliedenergistics2:part:261>.addTooltip(format.green(I18n.format("modpack.ae2.bus_fluid.tooltip.1")));
-
-# Toggle Bus
-recipes.remove(<appliedenergistics2:part:80>);
-recipes.addShapeless(<appliedenergistics2:part:80>, [<appliedenergistics2:part:100>]);
-recipes.addShaped(<appliedenergistics2:part:80>, [
-    [null, <metaitem:plateRedAlloy>, null],
-    [<ore:ae2.cable.glass>, <minecraft:lever>, <ore:ae2.cable.glass>],
-    [null, <metaitem:plateRedAlloy>, null]
-]);
-
-# Inverted Toggle Bus
-recipes.remove(<appliedenergistics2:part:100>);
-recipes.addShapeless(<appliedenergistics2:part:100>, [<appliedenergistics2:part:80>]);

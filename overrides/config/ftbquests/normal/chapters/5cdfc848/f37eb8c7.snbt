@@ -1,6 +1,10 @@
 {
+	title: "GTExpert ME Fake Component",
 	x: 0.0d,
 	y: 2.0d,
+	text: [
+		""
+	],
 	dependencies: [
 		"b04b6da2"
 	],

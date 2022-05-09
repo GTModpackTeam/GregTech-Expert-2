@@ -152,7 +152,7 @@ JEI.hide(<enderio:block_painted_pressure_plate:*>);
 # Fused Quartz
 alloy_smelter.recipeBuilder()
     .inputs([<ore:blockQuartz>])
-    .outputs([<enderio:block_fused_quartz>])
+    .outputs([<enderio:block_fused_quartz:0>])
     .duration(56)
     .EUt(480)
     .buildAndRegister();
@@ -172,8 +172,30 @@ JEI.hide(<enderio:block_fused_quartz:13>);
 JEI.hide(<enderio:block_fused_quartz:14>);
 JEI.hide(<enderio:block_fused_quartz:15>);
 
+# Quartz Clear Glass
+alloy_smelter.recipeBuilder()
+    .inputs([<enderio:block_fused_quartz>])
+    .outputs([<enderio:block_fused_glass:0>])
+    .duration(56)
+    .EUt(480)
+    .buildAndRegister();
+JEI.hide(<enderio:block_fused_glass:1>);
+JEI.hide(<enderio:block_fused_glass:2>);
+JEI.hide(<enderio:block_fused_glass:3>);
+JEI.hide(<enderio:block_fused_glass:4>);
+JEI.hide(<enderio:block_fused_glass:5>);
+JEI.hide(<enderio:block_fused_glass:6>);
+JEI.hide(<enderio:block_fused_glass:7>);
+JEI.hide(<enderio:block_fused_glass:8>);
+JEI.hide(<enderio:block_fused_glass:9>);
+JEI.hide(<enderio:block_fused_glass:10>);
+JEI.hide(<enderio:block_fused_glass:11>);
+JEI.hide(<enderio:block_fused_glass:12>);
+JEI.hide(<enderio:block_fused_glass:13>);
+JEI.hide(<enderio:block_fused_glass:14>);
+JEI.hide(<enderio:block_fused_glass:15>);
+
 # Other Glass
-JEI.hide(<enderio:block_fused_glass:*>);
 JEI.hide(<enderio:block_enlightened_fused_quartz:*>);
 JEI.hide(<enderio:block_holy_fused_quartz:*>);
 JEI.hide(<enderio:block_holy_fused_glass:*>);
@@ -181,7 +203,6 @@ JEI.hide(<enderio:block_holy_enlightened_fused_glass:*>);
 JEI.hide(<enderio:block_holy_dark_fused_quartz:*>);
 JEI.hide(<enderio:block_holy_dark_fused_glass:*>);
 JEI.hide(<enderio:block_unholy_fused_quartz:*>);
-JEI.hide(<enderio:block_fused_glass:*>);
 JEI.hide(<enderio:block_enlightened_fused_quartz:*>);
 JEI.hide(<enderio:block_enlightened_fused_glass:*>);
 JEI.hide(<enderio:block_dark_fused_quartz:*>);

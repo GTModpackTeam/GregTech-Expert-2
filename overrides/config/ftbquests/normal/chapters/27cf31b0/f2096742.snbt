@@ -1,10 +1,20 @@
 {
+	title: "最近こればっかり使っている",
 	x: -6.0d,
 	y: -2.0d,
 	shape: "diamond",
-	dependencies: [
-		"33845a9f"
+	description: "Elite Assembling Machine",
+	text: [
+		"IV組立機とIV裁断機はIVのエネルギーとダイナモハッチを解禁します。",
+		"",
+		"ついでにGregicality Multiblocksの大型版も解禁したり、",
+		"最上位の/dank/nullも解禁したり、",
+		"AE2の自動化に必要な安いレシピも解禁します。"
 	],
+	dependencies: [
+		"7a014b0b"
+	],
+	min_width: 300,
 	or_tasks: true,
 	tasks: [{
 		uid: "feb8f200",

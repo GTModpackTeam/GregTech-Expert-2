@@ -1,8 +1,8 @@
 {
 	title: "蒸気機関車の電化は大変な維持電力がかかるらしく地方を中心にディーゼル式に戻っている",
 	icon: "gregtech:machine 1 80",
-	x: 3.5d,
-	y: 4.0d,
+	x: 1.5d,
+	y: 6.0d,
 	description: "T1 Machines Upgrade",
 	text: [
 		"蒸気時代に作った機械は電気機械にアップグレードすることができます。",

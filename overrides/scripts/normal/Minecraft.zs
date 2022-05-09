@@ -5,8 +5,17 @@
 ########################################
 # Items
 ########################################
-# Charcoal
-furnace.remove(<minecraft:coal:1>);
+# Fireworks Rocket
+recipes.addShapeless(<minecraft:fireworks>.withTag({Fireworks: {Flight: 1}}) * 3, [
+    <minecraft:paper>, <minecraft:gunpowder>
+]);
+recipes.addShapeless(<minecraft:fireworks>.withTag({Fireworks: {Flight: 2}}) * 3, [
+    <minecraft:paper>, <minecraft:gunpowder>, <minecraft:gunpowder>
+]);
+recipes.addShapeless(<minecraft:fireworks>.withTag({Fireworks: {Flight: 3}}) * 3, [
+    <minecraft:paper>, <minecraft:gunpowder>,
+    <minecraft:gunpowder>, <minecraft:gunpowder>
+]);
 
 # Lead
 recipes.remove(<minecraft:lead>);
@@ -55,8 +64,8 @@ recipes.removeByRecipeName("appliedenergistics2:misc/vanilla_comparator");
 # Brewing Stand
 recipes.remove(<minecraft:brewing_stand>);
 recipes.addShaped(<minecraft:brewing_stand>, [
-    [<metaitem:ringSteel>, <metaitem:stickBlaze>, <metaitem:ringSteel>],
-    [<metaitem:stickSteel>, <metaitem:stickBlaze>, <metaitem:stickSteel>],
+    [<metaitem:ringSteel>, <minecraft:blaze_rod>, <metaitem:ringSteel>],
+    [<metaitem:stickSteel>, <minecraft:blaze_rod>, <metaitem:stickSteel>],
     [<metaitem:screwSteel>, <minecraft:cauldron>, <metaitem:screwSteel>]
 ]);
 
@@ -100,4 +109,19 @@ assembler.recipeBuilder()
     .outputs([<minecraft:beacon>])
     .duration(100)
     .EUt(16)
+    .buildAndRegister();
+
+# Redstone Lamp
+assembler.findRecipe(1, [
+    <minecraft:redstone:0> * 4, <minecraft:glowstone_dust:0> * 4
+], null).remove();
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <minecraft:redstone> * 4,
+        <minecraft:glowstone_dust> * 4
+    ])
+    .outputs([<minecraft:redstone_lamp>])
+    .duration(400)
+    .EUt(1)
     .buildAndRegister();

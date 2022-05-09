@@ -1,7 +1,7 @@
 {
 	title: "ポータブルAnnihilation_Plane",
-	x: 7.5d,
-	y: 10.0d,
+	x: 9.5d,
+	y: 8.0d,
 	description: "/dank/nullMK IV",
 	text: [
 		"/dank/nullMK_IVはMK_IIIより増えた収容量とスロット数で採掘をより楽にしてくれます。"
