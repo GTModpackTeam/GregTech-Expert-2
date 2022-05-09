@@ -1,20 +1,11 @@
-# v1.9.0(hotfix)
-* Client startup errors may occur
-
-## Update mods
-* CensoredASM
-
-## Add mods
-* Foam​Fix
-
-* * *
-
-# v1.8.0
+# v1.9.0
 ## Modpack update
 * [Update] Cable anchor (#151)
 * [Update] EZStorage assembler recipes (#155)
 * [Update] AE2 assembler recipes (#154)
 * [Update] EIO Painter (#162)
+* [Update] CEu 2.2.2 beta (#169)
+* [Update] add pure certus quartz recipe for the blank pattern (#170)
 
 ## Modpack fix
 * [Fix] Charged Certus Quartz Crystal (#153)
@@ -22,7 +13,15 @@
 * [Fix] Molten Soularium (#159)
 
 ## Update mods
+* GregTech CE: Unofficial
+* Gregicality Multiblocks
+* GregTech Food Option
+* MultiblockTweaker
+* Devtech
+* CensoredASM
 * Had Enough Items
+* CraftTweaker
+* Smooth Font
 * SuperMartijn642's Core Lib
 * Trash Cans
 
