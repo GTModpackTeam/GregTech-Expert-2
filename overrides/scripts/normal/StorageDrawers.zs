@@ -246,14 +246,14 @@ recipes.addShaped(<storagedrawers:tape>, [
 recipes.remove(<storagedrawers:upgrade_template>);
 recipes.addShaped(<storagedrawers:upgrade_template> * 2, [
     [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
-    [<minecraft:stick>, <ore:drawer>, <minecraft:stick>],
+    [<minecraft:stick>, <ore:drawerBasic>, <minecraft:stick>],
     [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>]
 ]);
 assembler.recipeBuilder()
     .circuit(8)
     .inputs([
         <minecraft:stick> * 4,
-        <ore:drawer>
+        <ore:drawerBasic>
     ])
     .outputs([<storagedrawers:upgrade_template> * 2])
     .duration(40)
