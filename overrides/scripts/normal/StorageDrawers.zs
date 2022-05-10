@@ -195,8 +195,8 @@ assembler.recipeBuilder()
 
 # Controller
 Carving.addGroup("drawer_controller");
-Carving.addVariation("drawer_controller", <storagedrawers:controller>);
 Carving.addVariation("drawer_controller", <framedcompactdrawers:framed_drawer_controller>);
+Carving.addVariation("drawer_controller", <storagedrawers:controller>);
 recipes.remove(<storagedrawers:controller>);
 recipes.remove(<framedcompactdrawers:framed_drawer_controller>);
 recipes.addShaped(<framedcompactdrawers:framed_drawer_controller>, [
@@ -207,8 +207,8 @@ recipes.addShaped(<framedcompactdrawers:framed_drawer_controller>, [
 
 # Compacting Drawer
 Carving.addGroup("drawer_compacting");
-Carving.addVariation("drawer_compacting", <storagedrawers:compdrawers>);
 Carving.addVariation("drawer_compacting", <framedcompactdrawers:framed_compact_drawer>);
+Carving.addVariation("drawer_compacting", <storagedrawers:compdrawers>);
 recipes.remove(<storagedrawers:compdrawers>);
 recipes.remove(<framedcompactdrawers:framed_compact_drawer>);
 recipes.addShaped(<framedcompactdrawers:framed_compact_drawer>, [
@@ -219,8 +219,8 @@ recipes.addShaped(<framedcompactdrawers:framed_compact_drawer>, [
 
 # Controller Slave
 Carving.addGroup("drawer_slave");
-Carving.addVariation("drawer_slave", <storagedrawers:controllerslave>);
 Carving.addVariation("drawer_slave", <framedcompactdrawers:framed_slave>);
+Carving.addVariation("drawer_slave", <storagedrawers:controllerslave>);
 recipes.remove(<storagedrawers:controllerslave>);
 recipes.remove(<framedcompactdrawers:framed_slave>);
 recipes.addShaped(<framedcompactdrawers:framed_slave>, [
