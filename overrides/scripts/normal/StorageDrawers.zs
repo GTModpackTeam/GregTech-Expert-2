@@ -318,7 +318,7 @@ assembler.recipeBuilder()
 # Storage Downgrade
 recipes.addShaped(<storagedrawers:upgrade_one_stack>, [
     [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
-    [<minecraft:flint>, <storagedrawers:upgrade_template> | <storagedrawers:upgrade_storage:*>, <minecraft:flint>],
+    [<minecraft:flint>, <storagedrawers:upgrade_storage:*>, <minecraft:flint>],
     [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>]
 ]);
 assembler.recipeBuilder()

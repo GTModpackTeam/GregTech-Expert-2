@@ -17,7 +17,7 @@ recipes.addShapeless(<minecraft:fireworks>.withTag({Fireworks: {Flight: 3}}) * 3
     <minecraft:gunpowder>, <minecraft:gunpowder>
 ]);
 
-# Lead
+# Lead (Override)
 recipes.remove(<minecraft:lead>);
 recipes.addShaped(<minecraft:lead>, [
     [<minecraft:string>, <minecraft:string>, <minecraft:string>],
@@ -61,7 +61,7 @@ recipes.remove(<minecraft:stone:5>);
 # Comparator
 recipes.removeByRecipeName("appliedenergistics2:misc/vanilla_comparator");
 
-# Brewing Stand
+# Brewing Stand (Override)
 recipes.remove(<minecraft:brewing_stand>);
 recipes.addShaped(<minecraft:brewing_stand>, [
     [<metaitem:ringSteel>, <minecraft:blaze_rod>, <metaitem:ringSteel>],
@@ -69,7 +69,7 @@ recipes.addShaped(<minecraft:brewing_stand>, [
     [<metaitem:screwSteel>, <minecraft:cauldron>, <metaitem:screwSteel>]
 ]);
 
-# Nether Quartz Block
+# Nether Quartz Block (Override)
 recipes.remove(<minecraft:quartz_block>);
 compressor.recipeBuilder()
     .inputs([<ore:crystalPureNetherQuartz> * 8])
@@ -78,7 +78,7 @@ compressor.recipeBuilder()
     .EUt(2)
     .buildAndRegister();
 
-# Chest
+# Chest (Override)
 assembler.findRecipe(4, [
     <metaitem:plateWood> * 8, <metaitem:circuit.integrated>.withTag({Configuration: 8})
 ], null).remove();
@@ -111,7 +111,7 @@ assembler.recipeBuilder()
     .EUt(16)
     .buildAndRegister();
 
-# Redstone Lamp
+# Redstone Lamp (Override)
 assembler.findRecipe(1, [
     <minecraft:redstone:0> * 4, <minecraft:glowstone_dust:0> * 4
 ], null).remove();
@@ -124,4 +124,34 @@ assembler.recipeBuilder()
     .outputs([<minecraft:redstone_lamp>])
     .duration(400)
     .EUt(1)
+    .buildAndRegister();
+
+# Redstone Torch (Override)
+assembler.findRecipe(1, [
+    <minecraft:redstone>, <minecraft:stick>
+], null).remove();
+assembler.recipeBuilder()
+    .circuit(5)
+    .inputs([
+        <minecraft:redstone>,
+        <minecraft:stick>
+    ])
+    .outputs([<minecraft:redstone_torch>])
+    .duration(20)
+    .EUt(1)
+    .buildAndRegister();
+
+# Sign (Override)
+assembler.findRecipe(4, [
+    <metaitem:plateWood> * 6, <minecraft:stick>
+], null).remove();
+assembler.recipeBuilder()
+    .circuit(5)
+    .inputs([
+        <ore:plankWood> * 6,
+        <minecraft:stick>
+    ])
+    .outputs([<minecraft:sign> * 3])
+    .duration(100)
+    .EUt(4)
     .buildAndRegister();
