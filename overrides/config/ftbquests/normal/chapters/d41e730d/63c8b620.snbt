@@ -1,11 +1,19 @@
 {
+	title: "焦らずに目指そう",
 	x: 0.0d,
 	y: -4.0d,
 	shape: "diamond",
+	description: "Advanced Circuit Assembler",
+	text: [
+		"EV回路組立機を作るころには拠点のインフラが粗方EVに対応しているべきです。",
+		"",
+		"EV回路組立機は次のレベルの回路、ナノを解禁します。"
+	],
 	dependencies: [
 		"c02ff32f",
 		"17d4e7a6"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "7543a2f3",
 		type: "item",

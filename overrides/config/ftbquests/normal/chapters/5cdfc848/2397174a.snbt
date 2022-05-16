@@ -1,6 +1,10 @@
 {
+	title: "Solar Panel(HV)",
 	x: -4.0d,
 	y: 0.0d,
+	text: [
+		""
+	],
 	dependencies: [
 		"15e0ee20"
 	],

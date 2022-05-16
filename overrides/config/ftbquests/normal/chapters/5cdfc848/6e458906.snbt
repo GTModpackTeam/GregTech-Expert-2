@@ -1,6 +1,10 @@
 {
+	title: "Solar Panel(IV)",
 	x: -2.0d,
 	y: -2.0d,
+	text: [
+		""
+	],
 	dependencies: [
 		"d900c4f0"
 	],

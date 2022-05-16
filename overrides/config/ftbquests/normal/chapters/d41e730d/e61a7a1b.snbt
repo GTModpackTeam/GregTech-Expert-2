@@ -1,10 +1,16 @@
 {
+	title: "ウラニウムトリケラトプスワイヤー",
 	x: 4.0d,
 	y: 4.0d,
+	description: "Uranium Triplatinum Wire",
+	text: [
+		"このワイヤーは1倍で6アンペアを流せます。"
+	],
 	dependencies: [
 		"6735403d",
 		"bf0d3138"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "4ae6bf35",
 		type: "item",

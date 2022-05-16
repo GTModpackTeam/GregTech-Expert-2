@@ -93,8 +93,8 @@ mixer.recipeBuilder()
 # Conductive Iron
 mixer.recipeBuilder()
     .inputs([
-        <metaitem:dustRedstoneAlloy>,
-        <metaitem:dustIron>
+        <metaitem:dustIron>,
+        <metaitem:dustRedstoneAlloy>
     ])
     .outputs([<metaitem:dustConductiveIron>])
     .duration(40)
@@ -104,8 +104,8 @@ mixer.recipeBuilder()
 # Pulsating Iron
 mixer.recipeBuilder()
     .inputs([
+        <metaitem:dustIron>,
         <metaitem:dustEnderPearl>,
-        <metaitem:dustIron>
     ])
     .outputs([<metaitem:dustPulsatingIron>])
     .duration(40)
@@ -115,9 +115,9 @@ mixer.recipeBuilder()
 # Dark Steel
 mixer.recipeBuilder()
     .inputs([
-        <metaitem:dustObsidian>,
         <metaitem:dustIron>,
-        <metaitem:dustCoal>
+        <metaitem:dustCoal>,
+        <metaitem:dustObsidian>
     ])
     .outputs([<metaitem:dustDarkSteel>])
     .duration(40)
@@ -125,6 +125,12 @@ mixer.recipeBuilder()
     .buildAndRegister();
 
 # Soularium
+alloy_blast_smelter.findRecipe(480, [
+    <metaitem:dustGold>, <metaitem:dustAsh>, <metaitem:circuit.integrated>.withTag({Configuration: 2})
+], null).remove();
+alloy_blast_smelter.findRecipe(480, [
+    <metaitem:dustGold>, <metaitem:dustAsh>, <metaitem:circuit.integrated>.withTag({Configuration: 12})
+], [<liquid:argon> * 100]).remove();
 mixer.recipeBuilder()
     .inputs([
         <metaitem:dustGold>,
@@ -134,6 +140,31 @@ mixer.recipeBuilder()
     .outputs([<metaitem:dustSoularium>])
     .duration(40)
     .EUt(480)
+    .buildAndRegister();
+alloy_blast_smelter.recipeBuilder()
+    .circuit(2)
+    .property("temperature", 3600)
+    .inputs([
+        <metaitem:dustGold>,
+        <metaitem:dustAsh>,
+        <minecraft:soul_sand>
+    ])
+    .fluidOutputs([<liquid:molten.soularium> * 288])
+    .duration(900)
+    .EUt(1920)
+    .buildAndRegister();
+alloy_blast_smelter.recipeBuilder()
+    .circuit(12)
+    .property("temperature", 3600)
+    .inputs([
+        <metaitem:dustGold>,
+        <metaitem:dustAsh>,
+        <minecraft:soul_sand>
+    ])
+    .fluidInputs([<liquid:argon> * 100])
+    .fluidOutputs([<liquid:molten.soularium> * 288])
+    .duration(603)
+    .EUt(1920)
     .buildAndRegister();
 
 # End Steel
@@ -807,8 +838,8 @@ JEI.hide(<enderio:item_owl_egg>);
 mixer.recipeBuilder()
     .inputs([
         <metaitem:dustSteel>,
-        <minecraft:gravel>,
-        <metaitem:dustClay>
+        <metaitem:dustClay>,
+        <minecraft:gravel>
     ])
     .outputs([<metaitem:dustCrudeSteel>])
     .duration(40)
@@ -863,8 +894,8 @@ mixer.recipeBuilder()
 # Energetic Silver
 mixer.recipeBuilder()
     .inputs([
-        <minecraft:redstone>,
         <metaitem:dustSilver>,
+        <minecraft:redstone>,
         <minecraft:glowstone_dust>,
     ])
     .outputs([<metaitem:dustEnergeticSilver>])

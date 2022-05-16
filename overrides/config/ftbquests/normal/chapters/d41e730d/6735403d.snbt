@@ -1,11 +1,20 @@
 {
+	title: "更に熱くなってきた",
 	x: 6.0d,
 	y: 4.0d,
 	shape: "diamond",
+	description: "Tungstensteel Coil",
+	text: [
+		"タングステンスチールコイルは工業用電気炉の熱限界を4,500Kにまで引き上げます。",
+		"",
+		"これはIV時代に初めて必要になりますが、",
+		"これを早く獲得することでコイルボーナスの恩恵を享受できるので今作りましょう。"
+	],
 	dependencies: [
 		"027279df",
 		"99548f33"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "064d1ed8",
 		type: "item",

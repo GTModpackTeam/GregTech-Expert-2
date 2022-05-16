@@ -551,7 +551,6 @@ electrolyzer.findRecipe(30, [<metaitem:dustChargedCertusQuartz> * 3], null).remo
 <ore:gemChargedCertusQuartz>.addItems([<appliedenergistics2:material:1>]);
 electrolyzer.recipeBuilder()
     .inputs([<ore:crystalCertusQuartz>])
-    .fluidInputs([<liquid:distilled_water> * 50])
     .outputs([<appliedenergistics2:material:1>])
     .duration(20)
     .EUt(30)

@@ -1,11 +1,18 @@
 {
-	x: 4.0d,
-	y: -2.0d,
+	title: "割と量産できるようになってくる",
+	x: 2.0d,
+	y: -4.0d,
 	shape: "diamond",
+	description: "Samarium Iron Arsenic Oxide",
+	text: [
+		"この超電導ワイヤーはLuVを進めるのに必要になってきます。",
+		"何故かと思ったらJEIで検索してみましょう。"
+	],
 	dependencies: [
 		"324f4306",
 		"e528d6af"
 	],
+	min_width: 300,
 	tasks: [{
 		uid: "1a560b24",
 		type: "item",

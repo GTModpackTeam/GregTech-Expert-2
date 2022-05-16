@@ -1,6 +1,10 @@
 {
+	title: "Solar Panel(ZPM)",
 	x: 2.0d,
 	y: -2.0d,
+	text: [
+		""
+	],
 	dependencies: [
 		"7db56dd6"
 	],

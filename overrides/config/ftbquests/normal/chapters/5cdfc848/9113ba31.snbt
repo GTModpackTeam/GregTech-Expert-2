@@ -1,6 +1,10 @@
 {
+	title: "Creative Quantum Chest",
 	x: 0.0d,
 	y: 0.0d,
+	text: [
+		""
+	],
 	dependencies: [
 		"63f6deb5"
 	],
