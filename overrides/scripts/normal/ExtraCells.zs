@@ -500,6 +500,12 @@ recipes.addShaped(<extracells:part.base:8>, [
     [<ore:ae2.cable.glass>, <appliedenergistics2:part:120>, <ore:ae2.cable.glass>]
 ]);
 
+# ME Fluid Storage Monitor
+recipes.remove(<extracells:part.base:10>);
+recipes.addShapeless(<extracells:part.base:10>, [
+    <appliedenergistics2:part:281>,<ore:itemIlluminatedPanel>
+]);
+
 # Fluid Vibration Chamber
 recipes.remove(<extracells:vibrantchamberfluid>);
 assembler.recipeBuilder()
