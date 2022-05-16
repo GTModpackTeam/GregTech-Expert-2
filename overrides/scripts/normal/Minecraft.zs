@@ -38,8 +38,14 @@ assembler.recipeBuilder()
 # Iron Nugget
 recipes.addShapeless(<minecraft:iron_nugget> * 9, [<minecraft:iron_ingot>]);
 
+# Iron Ingot
+furnace.remove(<minecraft:iron_ingot>);
+
 # Gold Nugget
 recipes.addShapeless(<minecraft:gold_nugget> * 9, [<minecraft:gold_ingot>]);
+
+# Gold Ingot
+furnace.remove(<minecraft:gold_ingot>);
 
 # Fermented Spider Eye
 recipes.remove(<minecraft:fermented_spider_eye>);
