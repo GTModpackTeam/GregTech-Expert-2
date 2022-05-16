@@ -1,10 +1,11 @@
 {
-	title: "Quantumprocessor Mainframe",
+	title: "最初のZPM回路",
 	x: 6.0d,
 	y: 6.0d,
 	shape: "diamond",
+	description: "Quantumprocessor Mainframe",
 	text: [
-		""
+		"量子処理メインフレームは勿論LuVの回路組立機の素材として使うほか、核融合炉の素材にもなります。"
 	],
 	dependencies: [
 		"f2454d72"

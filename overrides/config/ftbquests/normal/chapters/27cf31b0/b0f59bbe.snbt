@@ -1,10 +1,14 @@
 {
-	title: "Qubit CPU",
+	title: "キュービ－ちゃん",
 	x: -4.0d,
 	y: 2.0d,
 	shape: "diamond",
+	description: "Qubit CPU",
 	text: [
-		""
+		"このCPUのクエストがインジウムの後に配置されていることに不満を持つかもしれませんが、",
+		"こちらの方が将来的によりよいレシピになるのでこのようになっています。",
+		"",
+		"量子ビットCPUは量子処理装置の材料です。"
 	],
 	dependencies: [
 		"7a4879e5"

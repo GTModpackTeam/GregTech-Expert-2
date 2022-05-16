@@ -10,9 +10,9 @@ import mods.jei.JEI;
 # Wrench
 recipes.remove(<opencomputers:wrench>);
 recipes.addShaped(<opencomputers:wrench>, [
-    [<metaitem:ingotIron>, null, <metaitem:ingotIron>],
+    [<minecraft:iron_ingot>, null, <minecraft:iron_ingot>],
     [null, <opencomputers:material:8>, null],
-    [null, <metaitem:ingotIron>, null]
+    [null, <minecraft:iron_ingot>, null]
 ]);
 
 # Memory Tier1

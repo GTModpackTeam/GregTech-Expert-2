@@ -1,11 +1,17 @@
 {
-	title: "Ruthenium",
+	title: "三原色勢ぞろい",
 	icon: "gregtech:meta_ingot 1 93",
 	x: -4.0d,
 	y: 0.0d,
 	shape: "diamond",
+	description: "Ruthenium",
 	text: [
-		""
+		"この処理ラインは不活性金属混合物の粉の処理から始まります。",
+		"",
+		"硫酸は完全にリサイクルできます。酸素と水素は余ります。",
+		"",
+		"ルテニウムとロジウムはLuV時代への橋渡し役に過ぎません。",
+		"ただ後で困るかもしれないので自動化はしておくべきです。"
 	],
 	dependencies: [
 		"a86813e2"

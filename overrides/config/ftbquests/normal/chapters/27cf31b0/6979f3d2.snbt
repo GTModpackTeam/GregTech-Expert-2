@@ -1,10 +1,18 @@
 {
-	title: "Rhodium Plated Palladium",
+	title: "貴金属ｘ貴金属",
 	x: -6.0d,
 	y: 0.0d,
 	shape: "diamond",
+	description: "Rhodium Plated Palladium",
 	text: [
-		""
+		"ロジウムメッキパラジウムは主要なLuVの素材です。",
+		"LuV時代に進入するためにはこの合金とLuVの回路だけでなく、アセンブリラインが必要です。",
+		"",
+		"これから核融合炉の建設が始まりますが、要求される資源の量はとてつもなく上昇します。",
+		"もしまだ殆ど全てを自動化しきっていないのなら、IV時代にとどまって自動化すべきでしょう。",
+		"プロセッシングアレイやGregicality_Multiblocksをうまく活用してみましょう。",
+		"",
+		"もし発電を大型タービンに頼っているのなら、LuVのローターホルダーがここで解禁されます。"
 	],
 	dependencies: [
 		"fa25d6bf"

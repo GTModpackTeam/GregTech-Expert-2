@@ -1,16 +1,22 @@
 {
-	title: "IV Energy Hatch",
+	title: "100万回アップグレードしたEBF",
 	x: -8.0d,
 	y: 4.0d,
 	shape: "diamond",
+	description: "IV Energy Hatch",
 	text: [
-		""
+		"このクエストはIVのエネルギーハッチまたはマルチブロックの為のIVダイナモハッチのどちらかを作ることで達成できます。",
+		"",
+		"どちらのハッチにも4アンペアバージョンが存在することを忘れないで下さい。",
+		"ただ、どちらを作るにしてもポリフェニレンスルファイドを要求するニオブチタニウム合金のケーブルが必要になります。",
+		"簡単に入手できますが気になる方はLuVのタブを見ましょう。"
 	],
 	dependencies: [
 		"a2d4136d",
 		"7ccb04e8"
 	],
 	min_width: 300,
+	or_tasks: true,
 	tasks: [{
 		uid: "e13257a0",
 		type: "item",

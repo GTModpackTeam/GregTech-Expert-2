@@ -110,3 +110,18 @@ assembler.recipeBuilder()
     .duration(100)
     .EUt(16)
     .buildAndRegister();
+
+# Redstone Lamp
+assembler.findRecipe(1, [
+    <minecraft:redstone:0> * 4, <minecraft:glowstone_dust:0> * 4
+], null).remove();
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <minecraft:redstone> * 4,
+        <minecraft:glowstone_dust> * 4
+    ])
+    .outputs([<minecraft:redstone_lamp>])
+    .duration(400)
+    .EUt(1)
+    .buildAndRegister();

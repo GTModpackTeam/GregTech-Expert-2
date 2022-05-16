@@ -1,10 +1,12 @@
 {
-	title: "Fiber-Reinforced Epoxy Resin Sheet",
+	title: "Epoxy v2.0",
 	x: 0.0d,
 	y: 2.0d,
 	shape: "diamond",
+	description: "Fiber-Reinforced Epoxy Resin Sheet",
 	text: [
-		""
+		"次の回路基板の素材はエポキシを化学槽で処理するだけで作ることができます。",
+		"エポキシが作れるなら簡単です。"
 	],
 	dependencies: [
 		"33845a9f"

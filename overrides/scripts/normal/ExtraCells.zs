@@ -55,6 +55,16 @@ recipes.addShaped(<extracells:storage.casing>, [
     [<metaitem:plateTungstenSteel>, null, <metaitem:plateTungstenSteel>],
     [<metaitem:screwTungstenSteel>, <metaitem:plateTungstenSteel>, <ore:gtce.tool.screwdrivers>]
 ]);
+assembler.recipeBuilder()
+    .circuit(3)
+    .inputs([
+        <metaitem:plateTungstenSteel> * 2,
+        <metaitem:screwTungstenSteel> * 2
+    ])
+    .outputs([<extracells:storage.casing>])
+    .duration(20)
+    .EUt(480)
+    .buildAndRegister();
 
 # Fluid Housing
 recipes.remove(<extracells:storage.casing:1>);
@@ -68,6 +78,16 @@ recipes.addShaped(<extracells:storage.casing:1>, [
     [<metaitem:plateStainlessSteel>, null, <metaitem:plateStainlessSteel>],
     [<metaitem:screwStainlessSteel>, <metaitem:plateStainlessSteel>, <ore:gtce.tool.screwdrivers>]
 ]);
+assembler.recipeBuilder()
+    .circuit(3)
+    .inputs([
+        <metaitem:plateStainlessSteel> * 2,
+        <metaitem:screwStainlessSteel> * 2
+    ])
+    .outputs([<extracells:storage.casing:1>])
+    .duration(20)
+    .EUt(480)
+    .buildAndRegister();
 
 # 256k Storage Cell
 recipes.removeByRecipeName("extracells:storagecells/item/owncasing/256k");

@@ -1,6 +1,6 @@
 # GregTech Expert 2
 
-[![Curseforge](https://cf.way2muchnoise.eu/full_565238_downloads.svg)](https://www.curseforge.com/minecraft/modpacks/gregtech-expert-2) [![Curseforge](https://cf.way2muchnoise.eu/versions/For%20MC_565238_latest.svg)](https://www.curseforge.com/minecraft/modpacks/gregtech-expert-2)
+[![Curseforge](https://cf.way2muchnoise.eu/full_565238_downloads.svg)](https://www.curseforge.com/minecraft/modpacks/gregtech-expert-2) [![Curseforge](https://cf.way2muchnoise.eu/versions/For%20MC_565238_latest.svg)](https://www.curseforge.com/minecraft/modpacks/gregtech-expert-2) [![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 
 ## About
 

@@ -1,10 +1,13 @@
 {
-	title: "IV Machine Hull",
+	title: "Hullが来た、どこへ来た？",
 	x: 0.0d,
 	y: 0.0d,
 	shape: "diamond",
+	description: "IV Machine Hull",
 	text: [
-		""
+		"IV時代へようこそ！",
+		"この電圧では更に色んな楽しいマルチブロックが解放されます。",
+		"一つ一つ使いこなしていきましょう。"
 	],
 	hide: true,
 	min_width: 300,

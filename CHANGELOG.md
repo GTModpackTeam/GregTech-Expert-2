@@ -1,3 +1,87 @@
+# v1.9.1
+## Modpack update
+* Quest include v0.14.0
+
+## Update mods
+* Gregicality Multiblocks
+
+# v1.9.0
+## Modpack update
+* [Update] Cable anchor (#151)
+* [Update] EZStorage assembler recipes (#155)
+* [Update] AE2 assembler recipes (#154)
+* [Update] EIO Painter (#162)
+* [Update] CEu 2.2.2 beta (#169)
+* [Update] add pure certus quartz recipe for the blank pattern (#170)
+
+## Modpack fix
+* [Fix] Charged Certus Quartz Crystal (#153)
+* [Fix] Redstone Lamp (#157)
+* [Fix] Molten Soularium (#159)
+
+## Update mods
+* GregTech CE: Unofficial
+* Gregicality Multiblocks
+* GregTech Food Option
+* MultiblockTweaker
+* Devtech
+* CensoredASM
+* Had Enough Items
+* CraftTweaker
+* Smooth Font
+* SuperMartijn642's Core Lib
+* Trash Cans
+
+## Update recipes
+### AE2
+* Cable Anchor
+
+## Fix recipe
+### AE2
+* Charged Certus Quartz Crystal
+    * Changed to not require distilled water
+
+### GregTech(EIO)
+* Molten Soularium
+
+### Ender IO
+* Painter
+
+### Vanilla
+* Redstone Lamp
+    * Duplicate recipe with AE Dense Cables
+
+## Add recipes
+### AE2
+* Storage Housing
+* Level Emitter
+* Fluid Level Emitter
+* Storage Bus
+* Fluid Storage Bus
+* OreDict Storage Bus
+* Toggle Bus
+* Blank Pattern
+
+### ExtraCells
+* Fluid Housing
+* Advanced Storage Housing
+
+### EZStorage
+* Blank Box
+* Storage Core
+* Storage Box
+* Condensed Storage Box
+* Super Storage Box
+* Ultra Storage Box
+* Hyper Storage Box
+* Input Port
+* Output Port
+* Extract Port
+* Crafting Box
+* Search Box
+
+* * *
+
 # v1.7.0(hotfix)
 ## Update mods
 * AE2 Unofficial Extended Life
