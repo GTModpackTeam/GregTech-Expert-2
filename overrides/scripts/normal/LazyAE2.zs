@@ -37,7 +37,7 @@ mixer.recipeBuilder()
     .inputs([
         <metaitem:dustFluix>,
         <metaitem:dustSteel>,
-        <metaitem:dustSilicon>
+        <appliedenergistics2:material:45>
     ])
     .outputs([<threng:material:1>])
     .duration(100)
@@ -52,7 +52,7 @@ JEI.hide(<threng:material:2>);
 JEI.hide(<threng:material:3>);
 
 # Fluix Logic Unit
-JEI.hide(<threng:material:4>);
+JEI.removeAndHide(<threng:material:4>);
 
 # Resonating Crystal
 JEI.hide(<threng:material:5>);

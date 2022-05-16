@@ -1134,9 +1134,15 @@ macerator.recipeBuilder()
 ########################################
 # Sky Stone
 compressor.recipeBuilder()
-    .inputs([<appliedenergistics2:material:45> * 9])
+    .inputs([<ore:compressed3xDustBedrock> * 4])
     .outputs([<appliedenergistics2:sky_stone_block>])
     .duration(500)
+    .EUt(480)
+    .buildAndRegister();
+rock_breaker.recipeBuilder()
+    .notConsumable([<appliedenergistics2:material:45>])
+    .outputs([<appliedenergistics2:sky_stone_block>])
+    .duration(100)
     .EUt(480)
     .buildAndRegister();
 
@@ -1269,13 +1275,6 @@ compressor.recipeBuilder()
     .duration(300)
     .EUt(480)
     .buildAndRegister();
-
-# Sky Srone
-recipes.addShaped(<appliedenergistics2:sky_stone_block>, [
-    [<ore:compressed3xDustBedrock>, <ore:compressed3xDustBedrock>, <ore:compressed3xDustBedrock>],
-    [<ore:compressed3xDustBedrock>, <metaitem:dustObsidian>, <ore:compressed3xDustBedrock>],
-    [<ore:compressed3xDustBedrock>, <ore:compressed3xDustBedrock>, <ore:compressed3xDustBedrock>]
-]);
 
 # Quartz Fiber
 recipes.remove(<appliedenergistics2:part:140>);
