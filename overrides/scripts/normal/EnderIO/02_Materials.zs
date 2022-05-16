@@ -789,6 +789,14 @@ macerator.recipeBuilder()
     .EUt(480)
     .buildAndRegister();
 
+# Grains of Infinity
+macerator.recipeBuilder()
+    .inputs([<enderio:block_infinity>])
+    .outputs([<enderio:item_material:20>])
+    .duration(500)
+    .EUt(480)
+    .buildAndRegister();
+
 # Infinity Dust Block
 rock_breaker.recipeBuilder()
     .notConsumable([<enderio:item_material:20>])
