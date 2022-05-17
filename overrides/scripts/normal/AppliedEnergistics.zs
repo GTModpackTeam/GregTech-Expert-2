@@ -1787,17 +1787,17 @@ assembler.recipeBuilder()
 # Dense Energy Cell
 recipes.remove(<appliedenergistics2:dense_energy_cell>);
 recipes.addShaped(<appliedenergistics2:dense_energy_cell>, [
-    [<appliedenergistics2:energy_cell>, <ore:circuitHv>, <appliedenergistics2:energy_cell>],
+    [<appliedenergistics2:energy_cell>, <ore:circuitEv>, <appliedenergistics2:energy_cell>],
     [<ore:ae2.cable.dense.covered>, <contenttweaker:matrixcore>, <ore:ae2.cable.dense.covered>],
-    [<appliedenergistics2:energy_cell>, <metaitem:battery_buffer.hv.16>, <appliedenergistics2:energy_cell>]
+    [<appliedenergistics2:energy_cell>, <metaitem:battery_buffer.ev.16>, <appliedenergistics2:energy_cell>]
 ]);
 assembler.recipeBuilder()
     .circuit(1)
     .inputs([
         <appliedenergistics2:energy_cell> * 2,
-        <metaitem:battery_buffer.hv.16>,
+        <metaitem:battery_buffer.ev.16>,
         <contenttweaker:matrixcore>,
-        <ore:circuitHv>,
+        <ore:circuitEv>,
         <ore:ae2.cable.dense.covered>
     ])
     .fluidInputs([<liquid:plastic> * 144])
