@@ -1766,18 +1766,45 @@ assembler.recipeBuilder()
 # Energy Cell
 recipes.remove(<appliedenergistics2:energy_cell>);
 recipes.addShaped(<appliedenergistics2:energy_cell>, [
-    [<metaitem:stickAluminium>, <metaitem:dustFluix>, <metaitem:stickAluminium>],
-    [<ore:circuitHv>, <appliedenergistics2:fluix_block>, <ore:circuitHv>],
-    [<metaitem:stickAluminium>, <ore:cableGtOctalAluminium>, <metaitem:stickAluminium>]
+    [<metaitem:plateFluix>, <ore:circuitHv>, <metaitem:plateFluix>],
+    [<ore:ae2.cable.covered>, <ore:batteryHv>, <ore:ae2.cable.covered>],
+    [<metaitem:plateFluix>, <ore:cableGtOctalAluminium>, <metaitem:plateFluix>]
 ]);
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:plateFluix> * 2,
+        <ore:batteryHv>,
+        <ore:circuitHv>,
+        <ore:ae2.cable.covered>
+    ])
+    .fluidInputs([<liquid:plastic> * 144])
+    .outputs([<appliedenergistics2:energy_cell>])
+    .duration(20)
+    .EUt(7680)
+    .buildAndRegister();
 
 # Dense Energy Cell
 recipes.remove(<appliedenergistics2:dense_energy_cell>);
 recipes.addShaped(<appliedenergistics2:dense_energy_cell>, [
-    [<appliedenergistics2:energy_cell>, <appliedenergistics2:energy_cell>, <appliedenergistics2:energy_cell>],
-    [<ore:circuitLuv>, <contenttweaker:matrixcore>, <ore:circuitLuv>],
-    [<appliedenergistics2:energy_cell>, <gregtech:machine:1339>, <appliedenergistics2:energy_cell>]
+    [<appliedenergistics2:energy_cell>, <ore:circuitHv>, <appliedenergistics2:energy_cell>],
+    [<ore:ae2.cable.dense.covered>, <contenttweaker:matrixcore>, <ore:ae2.cable.dense.covered>],
+    [<appliedenergistics2:energy_cell>, <metaitem:battery_buffer.hv.16>, <appliedenergistics2:energy_cell>]
 ]);
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <appliedenergistics2:energy_cell> * 2,
+        <metaitem:battery_buffer.hv.16>,
+        <contenttweaker:matrixcore>,
+        <ore:circuitHv>,
+        <ore:ae2.cable.dense.covered>
+    ])
+    .fluidInputs([<liquid:plastic> * 144])
+    .outputs([<appliedenergistics2:dense_energy_cell>])
+    .duration(20)
+    .EUt(7680)
+    .buildAndRegister();
 
 # Crafting Unit
 recipes.remove(<appliedenergistics2:crafting_unit>);

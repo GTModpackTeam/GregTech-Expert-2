@@ -35,9 +35,6 @@ modpack.ae2.p2p_redstone.tooltip.1=レッドストーンを持ってME P2P Tunne
 # Extra Cells
 modpack.ec2.wireless_terminal.tooltip.1=単体クラフトで変換すること。
 
-# EnderIO
-modpack.enderio.capacitor_bank.tooltip.1=ブロック情報が変わるので、クラフトで使用する場合は設置しないこと！
-
 # Minecraft
 modpack.minecraft.tools.tooltip.1=クラフト材料にのみ使用できます。
 
