@@ -1,3 +1,18 @@
+# v1.9.2
+## Update mods
+* AE2 Unofficial Extended Life
+* LoliASM
+* Devtech
+* GregTech Food Option
+* Had Enough Items
+
+## Fix recipes
+### GregTech Food Option
+* Sludge
+* Unheated Cane Syrup
+
+* * *
+
 # v1.9.1
 ## Modpack update
 * Quest include v0.14.0
