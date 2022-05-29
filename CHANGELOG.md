@@ -1,4 +1,11 @@
 # v1.9.2
+## Modpack update
+* [Update] CEu mods (#178)
+* [Update] CEu 2.3.1 (#181) 
+
+## Modpack fix
+* [Fix] EIO duplication recipes (#156)
+
 ## Update mods
 * AE2 Unofficial Extended Life
 * LoliASM
