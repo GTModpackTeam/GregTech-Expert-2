@@ -1,3 +1,30 @@
+# v1.9.2
+## Modpack update
+* [Update] CEu mods (#178)
+* [Update] CEu 2.3.1 (#181)
+* [Update] Better P2P (#180)
+
+## Modpack fix
+* [Fix] EIO duplication recipes (#156)
+
+## Add mod
+* Better P2P
+
+## Update mods
+* AE2 Unofficial Extended Life
+* GregTech CE: Unofficial
+* LoliASM
+* DevTech
+* GregTech Food Option
+* Had Enough Items
+
+## Fix recipes
+### GregTech Food Option
+* Sludge
+* Unheated Cane Syrup
+
+* * *
+
 # v1.9.1
 ## Modpack update
 * Quest include v0.14.0
@@ -24,8 +51,8 @@
 * Gregicality Multiblocks
 * GregTech Food Option
 * MultiblockTweaker
-* Devtech
-* CensoredASM
+* DevTech
+* LoliASM
 * Had Enough Items
 * CraftTweaker
 * Smooth Font
@@ -85,7 +112,7 @@
 # v1.7.0(hotfix)
 ## Update mods
 * AE2 Unofficial Extended Life
-* CensoredASM
+* LoliASM
 
 * * *
 
@@ -102,7 +129,7 @@
 
 ## Update mods
 * AE2 Unofficial Extended Life
-* CensoredASM
+* LoliASM
 * SuperMartijn642's Core Lib
 * Trash Cans
 * Had Enough Items
@@ -213,7 +240,7 @@
 
 ## Update mods
 * AE2 Unofficial Extended Life
-* Devtech
+* DevTech
 * Gregicality Multiblocks
 * GregTech CE: Unofficial
 * GregTech Food Option
@@ -453,7 +480,7 @@
 
 ## Update mods
 * AE2 Unofficial Extended Life
-* CensoredASM
+* LoliASM
 * Had Enough Items
 * MixinBooter
 
@@ -481,7 +508,7 @@
 # v1.1.3
 ## Update mods
 * AE2 Unofficial Extended Life
-* Devtech
+* DevTech
 * GregTech Food Option
 * Had Enough Items
 * MixinBooter
@@ -727,7 +754,7 @@
 
 ## Add mods
 * Born in a Barn
-* Devtech
+* DevTech
 * RandomPatches
 
 ## Modpack update
@@ -803,7 +830,7 @@ Respond to the fact that GTFO is not included and that quests are not included.
 * AE2 Unofficial Extended Life
 * CraftTweaker
 * GregTech Food Option
-* CensoredASM
+* LoliASM
 * MixinBooter
 * Not Enough Energistics
 
