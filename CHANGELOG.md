@@ -12,7 +12,7 @@
 ## Update mods
 * AE2 Unofficial Extended Life
 * LoliASM
-* Devtech
+* DevTech
 * GregTech Food Option
 * Had Enough Items
 
@@ -49,8 +49,8 @@
 * Gregicality Multiblocks
 * GregTech Food Option
 * MultiblockTweaker
-* Devtech
-* CensoredASM
+* DevTech
+* LoliASM
 * Had Enough Items
 * CraftTweaker
 * Smooth Font
@@ -110,7 +110,7 @@
 # v1.7.0(hotfix)
 ## Update mods
 * AE2 Unofficial Extended Life
-* CensoredASM
+* LoliASM
 
 * * *
 
@@ -127,7 +127,7 @@
 
 ## Update mods
 * AE2 Unofficial Extended Life
-* CensoredASM
+* LoliASM
 * SuperMartijn642's Core Lib
 * Trash Cans
 * Had Enough Items
@@ -238,7 +238,7 @@
 
 ## Update mods
 * AE2 Unofficial Extended Life
-* Devtech
+* DevTech
 * Gregicality Multiblocks
 * GregTech CE: Unofficial
 * GregTech Food Option
@@ -478,7 +478,7 @@
 
 ## Update mods
 * AE2 Unofficial Extended Life
-* CensoredASM
+* LoliASM
 * Had Enough Items
 * MixinBooter
 
@@ -506,7 +506,7 @@
 # v1.1.3
 ## Update mods
 * AE2 Unofficial Extended Life
-* Devtech
+* DevTech
 * GregTech Food Option
 * Had Enough Items
 * MixinBooter
@@ -752,7 +752,7 @@
 
 ## Add mods
 * Born in a Barn
-* Devtech
+* DevTech
 * RandomPatches
 
 ## Modpack update
@@ -828,7 +828,7 @@ Respond to the fact that GTFO is not included and that quests are not included.
 * AE2 Unofficial Extended Life
 * CraftTweaker
 * GregTech Food Option
-* CensoredASM
+* LoliASM
 * MixinBooter
 * Not Enough Energistics
 
