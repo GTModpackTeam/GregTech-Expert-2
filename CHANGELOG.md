@@ -11,6 +11,7 @@
 
 ## Update mods
 * AE2 Unofficial Extended Life
+* GregTech CE: Unofficial
 * LoliASM
 * DevTech
 * GregTech Food Option
