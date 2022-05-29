@@ -6,6 +6,9 @@
 ## Modpack fix
 * [Fix] EIO duplication recipes (#156)
 
+## Add mod
+* Better P2P
+
 ## Update mods
 * AE2 Unofficial Extended Life
 * LoliASM
