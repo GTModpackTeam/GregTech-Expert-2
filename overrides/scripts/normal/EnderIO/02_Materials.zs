@@ -274,7 +274,7 @@ electric_blast_furnace.recipeBuilder()
         <metaitem:dustDiorite> * 5,
         <metaitem:dustClay> * 3
     ])
-    .property("temperature", 1700)
+    .property("temperature", 1800)
     .outputs([<enderio:item_material:4>])
     .duration(20)
     .EUt(480)
