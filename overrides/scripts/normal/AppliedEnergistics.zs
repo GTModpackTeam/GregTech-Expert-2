@@ -1786,15 +1786,40 @@ recipes.addShaped(<appliedenergistics2:crafting_unit>, [
     [<ore:circuitHv>, <appliedenergistics2:material:24>, <ore:circuitHv>],
     [<metaitem:plateSteel>, <appliedenergistics2:material:23>, <metaitem:plateSteel>]
 ]);
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <appliedenergistics2:material:22>,
+        <appliedenergistics2:material:24>,
+        <appliedenergistics2:material:23>,
+        <ore:circuitHv>,
+        <metaitem:plateSteel> * 2
+    ])
+    .outputs([<appliedenergistics2:crafting_unit>])
+    .duration(20)
+    .EUt(7680)
+    .buildAndRegister();
 
 # Crafting Co-Processing Unit
 recipes.remove(<appliedenergistics2:crafting_accelerator>);
-recipes.addShapeless(<appliedenergistics2:crafting_accelerator>, [
-    <appliedenergistics2:crafting_unit>,
-    <appliedenergistics2:material:23>,
-    <appliedenergistics2:material:22>,
-    <appliedenergistics2:material:24>
-]);
+packer.recipeBuilder()
+    .inputs([
+        <appliedenergistics2:crafting_unit>,
+        <appliedenergistics2:material:9>
+    ])
+    .outputs([<appliedenergistics2:crafting_accelerator>])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
+packer.recipeBuilder()
+    .inputs([<appliedenergistics2:crafting_accelerator>])
+    .outputs([
+        <appliedenergistics2:crafting_unit>,
+        <appliedenergistics2:material:9>
+    ])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
 
 # Crafting Monitor
 recipes.remove(<appliedenergistics2:crafting_monitor>);
