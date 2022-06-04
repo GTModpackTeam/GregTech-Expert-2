@@ -2006,8 +2006,8 @@ recipes.addShaped(<appliedenergistics2:part:520>, [
 # P2P Tunnel
 recipes.remove(<appliedenergistics2:part:460>);
 recipes.addShaped(<appliedenergistics2:part:460>, [
-    [<appliedenergistics2:material:24>, <metaitem:plateSteel>, <appliedenergistics2:material:24>],
-    [<metaitem:plateSteel>, <appliedenergistics2:part:180>, <metaitem:plateSteel>],
+    [<appliedenergistics2:material:24>, <metaitem:plateAluminium>, <appliedenergistics2:material:24>],
+    [<metaitem:plateAluminium>, <appliedenergistics2:part:180>, <metaitem:plateAluminium>],
     [<ore:crystalPureFluix>, <ore:crystalPureFluix>, <ore:crystalPureFluix>]
 ]);
 
