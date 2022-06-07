@@ -35,6 +35,15 @@ assembler.recipeBuilder()
     .EUt(2)
     .buildAndRegister();
 
+# Book
+extractor.findRecipe(2, [<minecraft:bookshelf:0>], null).remove();
+extractor.recipeBuilder()
+    .inputs([<ore:bookshelf>])
+    .outputs([<minecraft:book> * 3])
+    .duration(300)
+    .EUt(2)
+    .buildAndRegister();
+
 # Iron Nugget
 recipes.addShapeless(<minecraft:iron_nugget> * 9, [<minecraft:iron_ingot>]);
 
@@ -125,3 +134,11 @@ assembler.recipeBuilder()
     .duration(400)
     .EUt(1)
     .buildAndRegister();
+
+# Enchantment Table
+recipes.remove(<minecraft:enchanting_table>);
+recipes.addShaped(<minecraft:enchanting_table>, [
+    [<minecraft:diamond>, <minecraft:carpet:14>, <minecraft:diamond>],
+    [<metaitem:plateObsidian>, <ore:bookshelf>, <metaitem:plateObsidian>],
+    [<minecraft:diamond>, <metaitem:plateObsidian>, <minecraft:diamond>]
+]);
