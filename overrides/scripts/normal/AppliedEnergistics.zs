@@ -1802,24 +1802,12 @@ assembler.recipeBuilder()
 
 # Crafting Co-Processing Unit
 recipes.remove(<appliedenergistics2:crafting_accelerator>);
-packer.recipeBuilder()
-    .inputs([
-        <appliedenergistics2:crafting_unit>,
-        <appliedenergistics2:material:9>
-    ])
-    .outputs([<appliedenergistics2:crafting_accelerator>])
-    .duration(10)
-    .EUt(7)
-    .buildAndRegister();
-packer.recipeBuilder()
-    .inputs([<appliedenergistics2:crafting_accelerator>])
-    .outputs([
-        <appliedenergistics2:crafting_unit>,
-        <appliedenergistics2:material:9>
-    ])
-    .duration(10)
-    .EUt(7)
-    .buildAndRegister();
+recipes.addShapeless(<appliedenergistics2:crafting_accelerator>, [
+    <appliedenergistics2:crafting_unit>,
+    <appliedenergistics2:material:23>,
+    <appliedenergistics2:material:22>,
+    <appliedenergistics2:material:24>
+]);
 
 # Crafting Monitor
 recipes.remove(<appliedenergistics2:crafting_monitor>);
