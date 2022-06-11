@@ -1,21 +1,29 @@
 {
   "images": {
-    "title": {
-      "image" : "custommainmenu:textures/gui/minecraft.png",
-      "posX" : -137,
-      "posY" : 30,
-      "width" : 512,
-      "height" : 512,
-      "alignment" : "top_center"
-    },
-    "edition": {
-      "image" : "custommainmenu:textures/gui/edition.png",
-      "posX" : -49,
-      "posY" : 67,
-      "width" : 128,
-      "height" : 16,
-      "alignment" : "top_center"
-    }
+    "black": {
+			"image": "mainmenu:textures/bg_menu.png",
+			"posX": -43,
+			"posY": 0,
+			"width": 148,
+			"height": 4096,
+			"alignment": "column_top"
+		},
+    "logo": {
+			"image": "mainmenu:textures/logo1.png",
+			"posX": 118,
+			"posY": 0,
+			"width": 280,
+			"height": 60,
+			"alignment": "column_logo"
+		},
+    "icon": {
+			"image": "mainmenu:textures/icon1.png",
+			"posX": -10,
+			"posY": 0,
+			"width": 80,
+			"height": 80,
+			"alignment": "column_logo"
+		}
   },
   "buttons": {
     "singleplayer": {
@@ -141,13 +149,13 @@
   "labels": {
     "mojang": {
       "text": "Copyright Mojang AB. Do not distribute!",
-      "posX": 250,
+      "posX": 210,
       "posY": 0,
       "alignment": "column_bottom"
     },
     "version": {
       "text": "file:mainmenu:version.txt",
-      "posX": 250,
+      "posX": 210,
       "posY": -10,
       "alignment": "column_bottom",
       "action": {
@@ -179,12 +187,7 @@
       "image": "",
       "slideshow": {
         "images": [
-          "mainmenu:textures/bg1.png",
-          "mainmenu:textures/bg2.png",
-          "mainmenu:textures/bg3.png",
-          "mainmenu:textures/bg4.png",
-          "mainmenu:textures/bg5.png",
-          "mainmenu:textures/bg6.png"
+          "mainmenu:textures/bg1.png"
         ],
         "displayDuration": 150,
         "fadeDuration": 40
