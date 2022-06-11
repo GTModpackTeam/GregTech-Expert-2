@@ -15,14 +15,6 @@
 			"width": 280,
 			"height": 60,
 			"alignment": "column_logo"
-		},
-    "icon": {
-			"image": "mainmenu:textures/icon1.png",
-			"posX": -10,
-			"posY": 0,
-			"width": 80,
-			"height": 80,
-			"alignment": "column_logo"
 		}
   },
   "buttons": {
