@@ -17,7 +17,7 @@
 * Crafting Unit
 
 ## Update recipe
-* Vanilla Bookshelfs is now compatible with ore dictionaries.
+* Vanilla Bookshelves is now compatible with ore dictionaries.
 
 ### EnderIO
 * Conduit Binder
@@ -27,7 +27,7 @@
 * Classic Support Cables
 
 ### Chisel
-* Bookshelfs
+* Bookshelves
 
 * * *
 
