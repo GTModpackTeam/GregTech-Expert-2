@@ -1,3 +1,36 @@
+# v1.9.3
+## Modpack update
+* [Update] AE2 & Better P2P (#190)
+* [Update] Conduit Binder cost down (#183)
+* [Update] Crafting Unit assembler recipe (#184)
+* [Update] onDemandAnimatedTextures (#192)
+
+## Modpack fix
+* [Fix] recipe duplication (#191)
+
+## Update mods
+* AE2 Unofficial Extended Life
+* Better P2P
+
+## Add recipe
+### AE2
+* Crafting Unit
+
+## Update recipe
+* Vanilla Bookshelfs is now compatible with ore dictionaries.
+
+### EnderIO
+* Conduit Binder
+
+## Fix recipe
+### CatWalks
+* Classic Support Cables
+
+### Chisel
+* Bookshelfs
+
+* * *
+
 # v1.9.2
 ## Modpack update
 * [Update] CEu mods (#178)
