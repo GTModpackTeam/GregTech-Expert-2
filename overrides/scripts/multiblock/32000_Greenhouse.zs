@@ -154,12 +154,7 @@ var seeds as IItemStack[] = [
     <minecraft:cactus>,
     <minecraft:brown_mushroom>,
     <minecraft:red_mushroom>,
-    <minecraft:nether_wart>,
-    <gregtechfoodoption:gtfo_meta_item:159>,
-    <gregtechfoodoption:gtfo_meta_item:162>,
-    <gregtechfoodoption:gtfo_meta_item:164>,
-    <gregtechfoodoption:gtfo_meta_item:163>,
-    <gregtechfoodoption:gtfo_meta_item:161>
+    <minecraft:nether_wart>
 ];
 var plants as IItemStack[] = [
     <minecraft:pumpkin> * 6,
@@ -172,12 +167,7 @@ var plants as IItemStack[] = [
     <minecraft:cactus> * 12,
     <minecraft:brown_mushroom> * 12,
     <minecraft:red_mushroom> * 12,
-    <minecraft:nether_wart> * 12,
-    <gregtechfoodoption:gtfo_meta_item:77> * 12,
-    <gregtechfoodoption:gtfo_meta_item:76> * 12,
-    <gregtechfoodoption:gtfo_meta_item:78> * 12,
-    <gregtechfoodoption:gtfo_meta_item:124> * 12,
-    <gregtechfoodoption:gtfo_meta_item:160> * 12
+    <minecraft:nether_wart> * 12
 ];
 for i, seed in seeds {
     greenhouse.recipeMap.recipeBuilder()
