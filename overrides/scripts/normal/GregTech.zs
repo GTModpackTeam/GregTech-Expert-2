@@ -113,6 +113,28 @@ extractor.recipeBuilder()
 ########################################
 # Items
 ########################################
+# Tiny Pile of Ashes (Bookshelf Override)
+arc_furnace.findRecipe(30, [<minecraft:bookshelf:0>], [<liquid:oxygen>]).remove();
+arc_furnace.recipeBuilder()
+    .inputs([<ore:bookshelf>])
+    .fluidInputs([<liquid:oxygen>])
+    .outputs([<metaitem:dustTinyAsh> * 16])
+    .duration(1)
+    .EUt(30)
+    .buildAndRegister();
+
+# Chad & Wood Pulp (Bookshelf Override)
+macerator.findRecipe(2, [<minecraft:bookshelf:0>], null).remove();
+macerator.recipeBuilder()
+    .inputs([<ore:bookshelf>])
+    .outputs([
+        <metaitem:dustPaper> * 9,
+        <metaitem:dustWood> * 6
+    ])
+    .duration(196)
+    .EUt(2)
+    .buildAndRegister();
+
 # Red Alloy Dust
 recipes.addShapeless(<metaitem:dustRedAlloy>, [
     <ore:gtce.tool.mortars>, <metaitem:ingotRedAlloy>
@@ -590,7 +612,7 @@ implosion_compressor.recipeBuilder()
     .EUt(30)
     .buildAndRegister();
 
-# Fluix Crystal (Override)
+# Fluix Crystal
 electrolyzer.findRecipe(60, [<metaitem:dustFluix> * 7], null).remove();
 recipes.remove(<appliedenergistics2:material:7>);
 <ore:gemFluix>.addItems([<appliedenergistics2:material:7>]);
@@ -685,7 +707,7 @@ macerator.recipeBuilder()
     .EUt(2)
     .buildAndRegister();
 
-# Quartz Block
+# Quartz Block (Override)
 compressor.findRecipe(2, [<metaitem:gemCertusQuartz> * 9], null).remove();
 fluid_solidifier.findRecipe(7, [<metaitem:shape.mold.block>], [<liquid:certus_quartz> * 1296]).remove();
 compressor.recipeBuilder()
@@ -718,7 +740,7 @@ fluid_solidifier.recipeBuilder()
     .EUt(7)
     .buildAndRegister();
 
-# Quartzite Block
+# Quartzite Block (Override)
 compressor.findRecipe(2, [<metaitem:gemQuartzite> * 9], null).remove();
 compressor.recipeBuilder()
     .inputs([<metaitem:gemQuartzite> * 4])
@@ -727,35 +749,35 @@ compressor.recipeBuilder()
     .EUt(2)
     .buildAndRegister();
 
-# UHV Voltage 4x Battery Buffer
+# UHV Voltage 4x Battery Buffer (Override)
 recipes.addShaped(<metaitem:battery_buffer.uhv.4>, [
     [null, null, null],
     [<metaitem:wireGtQuadrupleEuropium>, <minecraft:chest>, <metaitem:wireGtQuadrupleEuropium>],
     [<metaitem:wireGtQuadrupleEuropium>, <metaitem:hull.uhv>, <metaitem:wireGtQuadrupleEuropium>]
 ]);
 
-# UHV Voltage 8x Battery Buffer
+# UHV Voltage 8x Battery Buffer (Override)
 recipes.addShaped(<metaitem:battery_buffer.uhv.8>, [
     [null, null, null],
     [<metaitem:wireGtOctalEuropium>, <minecraft:chest>, <metaitem:wireGtOctalEuropium>],
     [<metaitem:wireGtOctalEuropium>, <metaitem:hull.uhv>, <metaitem:wireGtOctalEuropium>]
 ]);
 
-# UHV Voltage 16x Battery Buffer
+# UHV Voltage 16x Battery Buffer (Override)
 recipes.addShaped(<metaitem:battery_buffer.uhv.16>, [
     [null, null, null],
     [<metaitem:wireGtHexEuropium>, <minecraft:chest>, <metaitem:wireGtHexEuropium>],
     [<metaitem:wireGtHexEuropium>, <metaitem:hull.uhv>, <metaitem:wireGtHexEuropium>]
 ]);
 
-# UHV Voltage Turbo Charger
+# UHV Voltage Turbo Charger (Override)
 recipes.addShaped(<metaitem:charger.uhv>, [
     [<metaitem:wireGtQuadrupleEuropium>, <minecraft:chest>, <metaitem:wireGtQuadrupleEuropium>],
     [<metaitem:wireGtQuadrupleEuropium>, <metaitem:hull.uhv>, <metaitem:wireGtQuadrupleEuropium>],
     [<metaitem:wireGtSingleEuropium>, <ore:circuitUhv>, <metaitem:wireGtSingleEuropium>]
 ]);
 
-# UHV 16A Energy Hatch
+# UHV 16A Energy Hatch (Override)
 assembler.findRecipe(491520, [
     <metaitem:energy_hatch.input_16a.uhv> * 2,
     <metaitem:plate.ultra_high_power_integrated_circuit> * 2,
@@ -765,7 +787,7 @@ assembler.findRecipe(491520, [
 <metaitem:energy_hatch.input_16a.uhv>.addTooltip(format.green(I18n.format("modpack.gregtech.energy_hatch_input_16a_uhv.tooltip.1")));
 JEI.addDescription(<metaitem:energy_hatch.input_16a.uhv>, I18n.format("modpack.gregtech.energy_hatch_input_16a_uhv.tooltip.1"));
 
-# UHV 16A Dynamo Hatch
+# UHV 16A Dynamo Hatch (Override)
 assembler.findRecipe(491520, [
     <metaitem:energy_hatch.output_16a.uhv> * 2,
     <metaitem:plate.ultra_high_power_integrated_circuit> * 2,
