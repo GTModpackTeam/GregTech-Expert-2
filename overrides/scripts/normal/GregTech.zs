@@ -113,6 +113,28 @@ extractor.recipeBuilder()
 ########################################
 # Items
 ########################################
+# Tiny Pile of Ashes
+arc_furnace.findRecipe(30, [<minecraft:bookshelf:0>], [<liquid:oxygen>]).remove();
+arc_furnace.recipeBuilder()
+    .inputs([<ore:bookshelf>])
+    .fluidInputs([<liquid:oxygen>])
+    .outputs([<metaitem:dustTinyAsh> * 16])
+    .duration(1)
+    .EUt(30)
+    .buildAndRegister();
+
+# Chad & Wood Pulp
+macerator.findRecipe(2, [<minecraft:bookshelf:0>], null).remove();
+macerator.recipeBuilder()
+    .inputs([<ore:bookshelf>])
+    .outputs([
+        <metaitem:dustPaper> * 9,
+        <metaitem:dustWood> * 6
+    ])
+    .duration(196)
+    .EUt(2)
+    .buildAndRegister();
+
 # Red Alloy Dust
 recipes.addShapeless(<metaitem:dustRedAlloy>, [
     <ore:gtce.tool.mortars>, <metaitem:ingotRedAlloy>
