@@ -49,6 +49,20 @@ recipes.addShaped(<chisel:auto_chisel>, [
 ]);
 
 # Bookshelfs
+<ore:bookshelf>.add(<minecraft:bookshelf>);
+
+## Oak
+assembler.findRecipe(4, [<metaitem:plateWood> * 6, <minecraft:book:0> * 3], null).remove();
+assembler.recipeBuilder()
+    .inputs([
+        <minecraft:planks:0> * 6,
+        <minecraft:book> * 3
+    ])
+    .outputs([<chisel:bookshelf_oak>])
+    .duration(400)
+    .EUt(4)
+    .buildAndRegister();
+
 ## Spruce
 recipes.remove(<chisel:bookshelf_spruce>);
 assembler.recipeBuilder()
