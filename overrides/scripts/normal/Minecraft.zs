@@ -17,7 +17,7 @@ recipes.addShapeless(<minecraft:fireworks>.withTag({Fireworks: {Flight: 3}}) * 3
     <minecraft:gunpowder>, <minecraft:gunpowder>
 ]);
 
-# Lead
+# Lead (Override)
 recipes.remove(<minecraft:lead>);
 recipes.addShaped(<minecraft:lead>, [
     [<minecraft:string>, <minecraft:string>, <minecraft:string>],
@@ -35,7 +35,7 @@ assembler.recipeBuilder()
     .EUt(2)
     .buildAndRegister();
 
-# Book
+# Book (Override)
 extractor.findRecipe(2, [<minecraft:bookshelf:0>], null).remove();
 extractor.recipeBuilder()
     .inputs([<ore:bookshelf>])
@@ -87,7 +87,7 @@ compressor.recipeBuilder()
     .EUt(2)
     .buildAndRegister();
 
-# Chest
+# Chest (Override)
 assembler.findRecipe(4, [
     <metaitem:plateWood> * 8, <metaitem:circuit.integrated>.withTag({Configuration: 8})
 ], null).remove();
@@ -120,7 +120,7 @@ assembler.recipeBuilder()
     .EUt(16)
     .buildAndRegister();
 
-# Redstone Lamp
+# Redstone Lamp (Override)
 assembler.findRecipe(1, [
     <minecraft:redstone:0> * 4, <minecraft:glowstone_dust:0> * 4
 ], null).remove();
