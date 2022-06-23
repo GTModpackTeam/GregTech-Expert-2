@@ -42,20 +42,20 @@ recipes.addShapeless(<bhc:red_heart_canister>, [
     <minecraft:apple>, <bhc:canister>
 ]);
 
-# Yellow Heart Canister
-recipes.remove(<bhc:yellow_heart_canister>);
-recipes.addShapeless(<bhc:yellow_heart_canister>, [
-    <bhc:red_heart_canister>, <metaitem:component.structural_mesh.apple>, <bhc:yellow_heart>
+# Blue Heart Canister
+recipes.remove(<bhc:blue_heart_canister>);
+recipes.addShapeless(<bhc:blue_heart_canister>, [
+    <bhc:red_heart_canister>, <metaitem:component.structural_mesh.apple>, <bhc:blue_heart>
 ]);
 
 # Green Heart Canister
 recipes.remove(<bhc:green_heart_canister>);
 recipes.addShapeless(<bhc:green_heart_canister>, [
-    <bhc:yellow_heart_canister>, <bhc:relic_apple>, <bhc:green_heart>
+    <bhc:blue_heart_canister>, <bhc:relic_apple>, <bhc:green_heart>
 ]);
 
-# Blue Heart Canister
-recipes.remove(<bhc:blue_heart_canister>);
-recipes.addShapeless(<bhc:blue_heart_canister>, [
-    <bhc:green_heart_canister>, <minecraft:golden_apple>, <bhc:blue_heart>
+# Yellow Heart Canister
+recipes.remove(<bhc:yellow_heart_canister>);
+recipes.addShapeless(<bhc:yellow_heart_canister>, [
+    <bhc:green_heart_canister>, <minecraft:golden_apple>, <bhc:yellow_heart>
 ]);
