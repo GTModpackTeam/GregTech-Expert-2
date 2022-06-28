@@ -1,3 +1,35 @@
+# v1.9.4
+## 💣 Backup your world before updating 💣
+* Back in GregTech5u, machines put outside explode in rainy weather.
+* Now this nice feature has finally been implemented into GTCEu !
+* You didn't build your base outdoors, thinking it wouldn't explode, didn't you?
+
+## Modpack update
+* [Update] check mods (#195)
+* [Update] GTFO v1.6.2 (#196)
+* [Update] ceu 2.3.2 (#198)
+
+## Modpack fix
+* [Fix] Unable to create Wireless Booster Card (#199)
+
+## Add mods
+* dan's Mouse Tweaks
+* spark
+
+## Update mods
+* Crafting Tweaks -> dan's Crafting Tweaks
+* GregTech CE: Unofficial
+* GregTech Food Option
+* LoliASM
+* Had Enough Items
+* ModTweaker
+
+## Fix recipe
+### AE2WTLib
+* Wireless Booster Card
+
+* * *
+
 # v1.9.3
 ## Modpack update
 * [Update] AE2 & Better P2P (#190)
