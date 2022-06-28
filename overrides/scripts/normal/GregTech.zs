@@ -776,23 +776,3 @@ recipes.addShaped(<metaitem:charger.uhv>, [
     [<metaitem:wireGtQuadrupleEuropium>, <metaitem:hull.uhv>, <metaitem:wireGtQuadrupleEuropium>],
     [<metaitem:wireGtSingleEuropium>, <ore:circuitUhv>, <metaitem:wireGtSingleEuropium>]
 ]);
-
-# UHV 16A Energy Hatch (Override)
-assembler.findRecipe(491520, [
-    <metaitem:energy_hatch.input_16a.uhv> * 2,
-    <metaitem:plate.ultra_high_power_integrated_circuit> * 2,
-    <metaitem:wireGtOctalEuropium> * 2,
-    <metaitem:plateNeutronium> * 4
-], null).remove();
-<metaitem:energy_hatch.input_16a.uhv>.addTooltip(format.green(I18n.format("modpack.gregtech.energy_hatch_input_16a_uhv.tooltip.1")));
-JEI.addDescription(<metaitem:energy_hatch.input_16a.uhv>, I18n.format("modpack.gregtech.energy_hatch_input_16a_uhv.tooltip.1"));
-
-# UHV 16A Dynamo Hatch (Override)
-assembler.findRecipe(491520, [
-    <metaitem:energy_hatch.output_16a.uhv> * 2,
-    <metaitem:plate.ultra_high_power_integrated_circuit> * 2,
-    <metaitem:wireGtOctalEuropium> * 2,
-    <metaitem:plateNeutronium> * 4
-], null).remove();
-<metaitem:energy_hatch.output_16a.uhv>.addTooltip(format.green(I18n.format("modpack.gregtech.energy_hatch_output_16a_uhv.tooltip.1")));
-JEI.addDescription(<metaitem:energy_hatch.output_16a.uhv>, I18n.format("modpack.gregtech.energy_hatch_output_16a_uhv.tooltip.1"));
