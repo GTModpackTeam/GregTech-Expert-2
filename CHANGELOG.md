@@ -1,4 +1,4 @@
-# v1.9.4
+# v1.10.0
 ## 💣 Backup your world before updating 💣
 * Back in GregTech5u, machines put outside explode in rainy weather.
 * Now this nice feature has finally been implemented into GTCEu !
