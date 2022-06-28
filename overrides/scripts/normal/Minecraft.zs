@@ -31,7 +31,7 @@ assembler.recipeBuilder()
         <minecraft:slime_ball> | <metaitem:rubber_drop>
     ])
     .outputs([<minecraft:lead> * 2])
-    .duration(200)
+    .duration(100)
     .EUt(2)
     .buildAndRegister();
 
@@ -87,18 +87,6 @@ compressor.recipeBuilder()
     .EUt(2)
     .buildAndRegister();
 
-# Chest (Override)
-assembler.findRecipe(4, [
-    <metaitem:plateWood> * 8, <metaitem:circuit.integrated>.withTag({Configuration: 8})
-], null).remove();
-assembler.recipeBuilder()
-    .circuit(8)
-    .inputs([<ore:plankWood> * 8])
-    .outputs([<minecraft:chest>])
-    .duration(200)
-    .EUt(4)
-    .buildAndRegister();
-
 # Ender Chest
 recipes.remove(<minecraft:ender_chest>);
 
@@ -131,7 +119,7 @@ assembler.recipeBuilder()
         <minecraft:glowstone_dust> * 4
     ])
     .outputs([<minecraft:redstone_lamp>])
-    .duration(400)
+    .duration(100)
     .EUt(1)
     .buildAndRegister();
 
