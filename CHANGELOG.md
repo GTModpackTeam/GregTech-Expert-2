@@ -1,3 +1,29 @@
+# v1.10.1
+## Modpack update
+* [Update] Housing Recycle (#202)
+* [Update] CEu 2.3.3 (#204) 
+
+## Modpack Fix
+* [Fix] /gt recipecheck (#201)
+
+## Update mods
+* GregTech CE: Unofficial
+* dan's Crafting Tweaks
+
+## Update recipes
+### AE2
+* Storage Housing
+
+### ExtraCells
+* Advanced Storage Housing
+* Fluid Housing
+
+## Fix recipes
+### OpenComputers
+* CU
+
+* * *
+
 # v1.10.0
 ## 💣 Backup your world before updating 💣
 * Back in GregTech5u, machines put outside explode in rainy weather.
