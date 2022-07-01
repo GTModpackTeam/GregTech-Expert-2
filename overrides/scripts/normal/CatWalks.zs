@@ -131,14 +131,14 @@ assembler.recipeBuilder()
 # Classic Support Cables
 recipes.remove(<catwalks:cable>);
 assembler.recipeBuilder()
-    .circuit(6)
+    .circuit(8)
     .inputs([<metaitem:stickLongSteel> * 3])
     .outputs([<catwalks:cable> * 6])
     .duration(20)
     .EUt(7)
     .buildAndRegister();
 assembler.recipeBuilder()
-    .circuit(7)
+    .circuit(9)
     .inputs([<metaitem:stickLongDarkSteel> * 3])
     .outputs([<catwalks:cable> * 32])
     .duration(20)

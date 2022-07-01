@@ -7,7 +7,7 @@ import mods.jei.JEI;
 ########################################
 # Liquid
 ########################################
-# Sludge * 200
+# Sludge * 200 (Override)
 mixer.findRecipe(16, [<minecraft:porkchop:0>], [<liquid:sulfuric_acid> * 200]).remove();
 mixer.findRecipe(16, [<minecraft:chicken:0>], [<liquid:sulfuric_acid> * 200]).remove();
 mixer.findRecipe(16, [<minecraft:rabbit:0>], [<liquid:sulfuric_acid> * 200]).remove();
@@ -32,7 +32,7 @@ mixer.recipeBuilder()
     .EUt(16)
     .buildAndRegister();
 
-# Sludge * 100
+# Sludge * 100 (Override)
 mixer.findRecipe(16, [<minecraft:fish:0>], [<liquid:water> * 400]).remove();
 mixer.findRecipe(16, [<minecraft:fish:1>], [<liquid:water> * 400]).remove();
 mixer.findRecipe(16, [<minecraft:fish:2>], [<liquid:water> * 400]).remove();

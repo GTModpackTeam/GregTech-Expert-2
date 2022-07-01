@@ -1,3 +1,95 @@
+# v1.10.0
+## 💣 Backup your world before updating 💣
+* Back in GregTech5u, machines put outside explode in rainy weather.
+* Now this nice feature has finally been implemented into GTCEu !
+* You didn't build your base outdoors, thinking it wouldn't explode, didn't you?
+
+## Modpack update
+* [Update] check mods (#195)
+* [Update] GTFO v1.6.2 (#196)
+* [Update] ceu 2.3.2 (#198)
+
+## Modpack fix
+* [Fix] Unable to create Wireless Booster Card (#199)
+
+## Add mods
+* dan's Mouse Tweaks
+* spark
+
+## Update mods
+* Crafting Tweaks -> dan's Crafting Tweaks
+* GregTech CE: Unofficial
+* GregTech Food Option
+* LoliASM
+* Had Enough Items
+* ModTweaker
+
+## Fix recipe
+### AE2WTLib
+* Wireless Booster Card
+
+* * *
+
+# v1.9.3
+## Modpack update
+* [Update] AE2 & Better P2P (#190)
+* [Update] Conduit Binder cost down (#183)
+* [Update] Crafting Unit assembler recipe (#184)
+* [Update] onDemandAnimatedTextures (#192)
+
+## Modpack fix
+* [Fix] recipe duplication (#191)
+
+## Update mods
+* AE2 Unofficial Extended Life
+* Better P2P
+
+## Add recipe
+### AE2
+* Crafting Unit
+
+## Update recipe
+* Vanilla Bookshelves is now compatible with ore dictionaries.
+
+### EnderIO
+* Conduit Binder
+
+## Fix recipe
+### CatWalks
+* Classic Support Cables
+
+### Chisel
+* Bookshelves
+
+* * *
+
+# v1.9.2
+## Modpack update
+* [Update] CEu mods (#178)
+* [Update] CEu 2.3.1 (#181)
+* [Update] Better P2P (#180)
+
+## Modpack fix
+* [Fix] EIO duplication recipes (#156)
+
+## Add mod
+* Better P2P
+
+## Update mods
+* AE2 Unofficial Extended Life
+* GregTech CE: Unofficial
+* LoliASM
+* DevTech
+* GregTech Food Option
+* Had Enough Items
+
+## Fix recipes
+### GregTech Food Option
+* Sludge
+* Unheated Cane Syrup
+
+* * *
+
 # v1.9.1
 ## Modpack update
 * Quest include v0.14.0
@@ -24,8 +116,8 @@
 * Gregicality Multiblocks
 * GregTech Food Option
 * MultiblockTweaker
-* Devtech
-* CensoredASM
+* DevTech
+* LoliASM
 * Had Enough Items
 * CraftTweaker
 * Smooth Font
@@ -85,7 +177,7 @@
 # v1.7.0(hotfix)
 ## Update mods
 * AE2 Unofficial Extended Life
-* CensoredASM
+* LoliASM
 
 * * *
 
@@ -102,7 +194,7 @@
 
 ## Update mods
 * AE2 Unofficial Extended Life
-* CensoredASM
+* LoliASM
 * SuperMartijn642's Core Lib
 * Trash Cans
 * Had Enough Items
@@ -213,7 +305,7 @@
 
 ## Update mods
 * AE2 Unofficial Extended Life
-* Devtech
+* DevTech
 * Gregicality Multiblocks
 * GregTech CE: Unofficial
 * GregTech Food Option
@@ -453,7 +545,7 @@
 
 ## Update mods
 * AE2 Unofficial Extended Life
-* CensoredASM
+* LoliASM
 * Had Enough Items
 * MixinBooter
 
@@ -481,7 +573,7 @@
 # v1.1.3
 ## Update mods
 * AE2 Unofficial Extended Life
-* Devtech
+* DevTech
 * GregTech Food Option
 * Had Enough Items
 * MixinBooter
@@ -727,7 +819,7 @@
 
 ## Add mods
 * Born in a Barn
-* Devtech
+* DevTech
 * RandomPatches
 
 ## Modpack update
@@ -803,7 +895,7 @@ Respond to the fact that GTFO is not included and that quests are not included.
 * AE2 Unofficial Extended Life
 * CraftTweaker
 * GregTech Food Option
-* CensoredASM
+* LoliASM
 * MixinBooter
 * Not Enough Energistics
 
