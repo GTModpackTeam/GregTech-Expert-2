@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "GregTech Expert 2",
-  "version": "v1.9.1",
+  "version": "v1.10.0",
   "author": "tier940",
   "files": [
     {
@@ -91,7 +91,7 @@
     },
     {
       "projectID": 570458,
-      "fileID": 3791235,
+      "fileID": 3811277,
       "required": true
     },
     {
@@ -180,11 +180,6 @@
       "required": true
     },
     {
-      "projectID": 248020,
-      "fileID": 3178199,
-      "required": true
-    },
-    {
       "projectID": 231868,
       "fileID": 2972849,
       "required": true
@@ -202,11 +197,6 @@
     {
       "projectID": 401770,
       "fileID": 3151260,
-      "required": true
-    },
-    {
-      "projectID": 394535,
-      "fileID": 3773701,
       "required": true
     },
     {
@@ -266,12 +256,12 @@
     },
     {
       "projectID": 477021,
-      "fileID": 3806304,
+      "fileID": 3835574,
       "required": true
     },
     {
       "projectID": 557242,
-      "fileID": 3805253,
+      "fileID": 3850717,
       "required": true
     },
     {
@@ -290,8 +280,8 @@
       "required": true
     },
     {
-      "projectID": 233071,
-      "fileID": 2562139,
+      "projectID": 633720,
+      "fileID": 3832872,
       "required": true
     },
     {
@@ -451,7 +441,7 @@
     },
     {
       "projectID": 220954,
-      "fileID": 3488553,
+      "fileID": 3840577,
       "required": true
     },
     {
@@ -462,11 +452,6 @@
     {
       "projectID": 383632,
       "fileID": 3056455,
-      "required": true
-    },
-    {
-      "projectID": 454372,
-      "fileID": 3773944,
       "required": true
     },
     {
@@ -581,7 +566,7 @@
     },
     {
       "projectID": 460609,
-      "fileID": 3801417,
+      "fileID": 3834448,
       "required": true
     },
     {
@@ -606,12 +591,27 @@
     },
     {
       "projectID": 557549,
-      "fileID": 3801373,
+      "fileID": 3831825,
       "required": true
     },
     {
       "projectID": 278494,
       "fileID": 3327893,
+      "required": true
+    },
+    {
+      "projectID": 538092,
+      "fileID": 3817892,
+      "required": true
+    },
+    {
+      "projectID": 461660,
+      "fileID": 3251426,
+      "required": true
+    },
+    {
+      "projectID": 361579,
+      "fileID": 3245793,
       "required": true
     }
   ],
