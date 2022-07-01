@@ -427,19 +427,27 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 # Recycle - Advanced Storage Housing
-macerator.recipeBuilder()
+arc_furnace.recipeBuilder()
     .inputs([<extracells:storage.casing>])
-    .outputs([<metaitem:dustTungstenSteel>])
-    .duration(100)
-    .EUt(16)
+    .fluidInputs([<liquid:oxygen> * 56])
+    .outputs([
+        <metaitem:ingotTungstenSteel> * 2,
+        <metaitem:nuggetTungstenSteel> * 2
+    ])
+    .duration(56)
+    .EUt(30)
     .buildAndRegister();
 
 # Recycle - Fluid Housing
-macerator.recipeBuilder()
+arc_furnace.recipeBuilder()
     .inputs([<extracells:storage.casing:1>])
-    .outputs([<metaitem:dustStainlessSteel>])
-    .duration(100)
-    .EUt(16)
+    .fluidInputs([<liquid:oxygen> * 56])
+    .outputs([
+        <metaitem:ingotStainlessSteel> * 2,
+        <metaitem:nuggetStainlessSteel> * 2
+    ])
+    .duration(56)
+    .EUt(30)
     .buildAndRegister();
 
 
