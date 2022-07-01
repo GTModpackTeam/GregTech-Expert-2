@@ -1977,6 +1977,19 @@ recipes.addShaped(<appliedenergistics2:part:380>, [
     [<metaitem:stickSteel>, <ore:gtce.tool.screwdrivers>, <metaitem:stickSteel>]
 ]);
 
+# Fluid Terminal
+recipes.remove(<appliedenergistics2:part:520>);
+recipes.addShaped(<appliedenergistics2:part:520>, [
+    [<metaitem:stickStainlessSteel>, <ore:gtce.tool.screwdrivers>, <metaitem:stickStainlessSteel>],
+    [<appliedenergistics2:part:180>, <ore:circuitHv>, <metaitem:plateStainlessSteel>],
+    [<metaitem:stickStainlessSteel>,  <metaitem:screwStainlessSteel>, <metaitem:stickStainlessSteel>]
+]);
+recipes.addShaped(<appliedenergistics2:part:520>, [
+    [<metaitem:stickStainlessSteel>, <metaitem:screwStainlessSteel>, <metaitem:stickStainlessSteel>],
+    [<appliedenergistics2:part:180>, <ore:circuitHv>, <metaitem:plateStainlessSteel>],
+    [<metaitem:stickStainlessSteel>, <ore:gtce.tool.screwdrivers>, <metaitem:stickStainlessSteel>]
+]);
+
 # Crafting Terminal
 recipes.remove(<appliedenergistics2:part:360>);
 recipes.addShaped(<appliedenergistics2:part:360>, [
@@ -2001,19 +2014,6 @@ recipes.addShaped(<appliedenergistics2:part:480>, [
     [<ore:gtce.tool.soft.hammers>, <appliedenergistics2:part:380>, <ore:gtce.tool.screwdrivers>],
     [<metaitem:screwSteel>, <ore:ae2.interface.item>, <metaitem:screwSteel>],
     [<metaitem:plateSteel>, <appliedenergistics2:material:24>, <metaitem:plateSteel>]
-]);
-
-# Fluid Interface Terminal
-recipes.remove(<appliedenergistics2:part:520>);
-recipes.addShaped(<appliedenergistics2:part:520>, [
-    [<ore:gtce.tool.screwdrivers>, <appliedenergistics2:part:380>, <ore:gtce.tool.soft.hammers>],
-    [<metaitem:screwStainlessSteel>, <ore:ae2.interface.fluid>, <metaitem:screwStainlessSteel>],
-    [<metaitem:plateStainlessSteel>, <appliedenergistics2:material:24>, <metaitem:plateStainlessSteel>]
-]);
-recipes.addShaped(<appliedenergistics2:part:520>, [
-    [<ore:gtce.tool.soft.hammers>, <appliedenergistics2:part:380>, <ore:gtce.tool.screwdrivers>],
-    [<metaitem:screwStainlessSteel>, <ore:ae2.interface.fluid>, <metaitem:screwStainlessSteel>],
-    [<metaitem:plateStainlessSteel>, <appliedenergistics2:material:24>, <metaitem:plateStainlessSteel>]
 ]);
 
 # P2P Tunnel
