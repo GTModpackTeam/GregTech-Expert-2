@@ -59,7 +59,7 @@ assembler.recipeBuilder()
         <minecraft:book> * 3
     ])
     .outputs([<chisel:bookshelf_oak>])
-    .duration(400)
+    .duration(100)
     .EUt(4)
     .buildAndRegister();
 
@@ -71,7 +71,7 @@ assembler.recipeBuilder()
         <minecraft:book> * 3
     ])
     .outputs([<chisel:bookshelf_spruce>])
-    .duration(400)
+    .duration(100)
     .EUt(4)
     .buildAndRegister();
 
@@ -83,7 +83,7 @@ assembler.recipeBuilder()
         <minecraft:book> * 3
     ])
     .outputs([<chisel:bookshelf_birch>])
-    .duration(400)
+    .duration(100)
     .EUt(4)
     .buildAndRegister();
 
@@ -95,7 +95,7 @@ assembler.recipeBuilder()
         <minecraft:book> * 3
     ])
     .outputs([<chisel:bookshelf_jungle>])
-    .duration(400)
+    .duration(100)
     .EUt(4)
     .buildAndRegister();
 
@@ -107,7 +107,7 @@ assembler.recipeBuilder()
         <minecraft:book> * 3
     ])
     .outputs([<chisel:bookshelf_acacia>])
-    .duration(400)
+    .duration(100)
     .EUt(4)
     .buildAndRegister();
 
@@ -119,7 +119,7 @@ assembler.recipeBuilder()
         <minecraft:book> * 3
     ])
     .outputs([<chisel:bookshelf_darkoak>])
-    .duration(400)
+    .duration(100)
     .EUt(4)
     .buildAndRegister();
 
