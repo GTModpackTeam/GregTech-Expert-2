@@ -21,7 +21,7 @@ jobs:
 
       - name: Set the version
         run: |-
-          MODPACKVERSION=v${{ steps.get_version.outputs.VERSION }}
+          MODPACKVERSION=${{ steps.get_version.outputs.VERSION }}
           sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" manifest.json
       
       - name: Archive Release Client
