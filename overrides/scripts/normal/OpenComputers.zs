@@ -96,7 +96,7 @@ assembler.recipeBuilder()
 # CU
 recipes.remove(<opencomputers:material:11>);
 assembler.recipeBuilder()
-    .circuit(1)
+    .circuit(2)
     .inputs([
         <opencomputers:material:6> * 6,
         <ore:circuitLv>
