@@ -1,26 +1,26 @@
 {
   "images": {
     "black": {
-			"image": "mainmenu:textures/bg_menu.png",
-			"posX": -43,
-			"posY": 0,
-			"width": 148,
-			"height": 4096,
-			"alignment": "column_top"
-		},
+      "image": "custommainmenu:textures/bg_menu.png",
+      "posX": -43,
+      "posY": 0,
+      "width": 148,
+      "height": 4096,
+      "alignment": "column_top"
+    },
     "logo": {
-			"image": "mainmenu:textures/logo1.png",
-			"posX": 118,
-			"posY": 0,
-			"width": 280,
-			"height": 60,
-			"alignment": "column_logo"
-		}
+      "image": "mainmenu:textures/logo1.png",
+      "posX": 118,
+      "posY": 10,
+      "width": 280,
+      "height": 60,
+      "alignment": "column_top"
+    }
   },
   "buttons": {
     "singleplayer": {
       "text": "menu.singleplayer",
-      "texture": "mainmenu:textures/btn.png",
+      "texture": "custommainmenu:textures/btn.png",
       "normalTextColor": 4227327,
       "hoverTextColor": 65535,
       "posX": -44,
@@ -37,7 +37,7 @@
     },
     "multiplayer": {
       "text": "menu.multiplayer",
-      "texture": "mainmenu:textures/btn.png",
+      "texture": "custommainmenu:textures/btn.png",
       "normalTextColor": 4227327,
       "hoverTextColor": 65535,
       "posX": -44,
@@ -56,7 +56,7 @@
       "text": "menu.join.discord",
       "normalTextColor": 250080,
       "hoverTextColor": 16758315,
-      "texture": "mainmenu:textures/btn.png",
+      "texture": "custommainmenu:textures/btn.png",
       "posX": -44,
       "posY": -90,
       "width": 150,
@@ -73,7 +73,7 @@
       "text": "menu.language",
       "normalTextColor": 120120,
       "hoverTextColor": 4229927,
-      "texture": "mainmenu:textures/btn.png",
+      "texture": "custommainmenu:textures/btn.png",
       "posX": -44,
       "posY": -70,
       "width": 150,
@@ -90,7 +90,7 @@
       "text": "menu.options",
       "normalTextColor": 120120,
       "hoverTextColor": 4229927,
-      "texture": "mainmenu:textures/btn.png",
+      "texture": "custommainmenu:textures/btn.png",
       "posX": -44,
       "posY": -50,
       "width": 150,
@@ -107,7 +107,7 @@
       "text": "Mods (#modsloaded#/#modsactive#)",
       "normalTextColor": 120120,
       "hoverTextColor": 4229927,
-      "texture": "mainmenu:textures/btn.png",
+      "texture": "custommainmenu:textures/btn.png",
       "posX": -44,
       "posY": -30,
       "width": 150,
@@ -125,7 +125,7 @@
       "hoverText": "menu.quit.warning",
       "normalTextColor": 12012000,
       "hoverTextColor": 16711680,
-      "texture": "mainmenu:textures/btn.png",
+      "texture": "custommainmenu:textures/btn.png",
       "posX": -44,
       "posY": -10,
       "width": 150,
@@ -141,13 +141,13 @@
   "labels": {
     "mojang": {
       "text": "Copyright Mojang AB. Do not distribute!",
-      "posX": 210,
+      "posX": 240,
       "posY": 0,
       "alignment": "column_bottom"
     },
     "version": {
-      "text": "file:mainmenu:version.txt",
-      "posX": 210,
+      "text": "file:custommainmenu:version.txt",
+      "posX": 240,
       "posY": -10,
       "alignment": "column_bottom",
       "action": {
@@ -179,7 +179,7 @@
       "image": "",
       "slideshow": {
         "images": [
-          "mainmenu:textures/bg1.png"
+          "custommainmenu:textures/bg1.png"
         ],
         "displayDuration": 150,
         "fadeDuration": 40

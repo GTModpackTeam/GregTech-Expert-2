@@ -22,7 +22,7 @@ jobs:
       - name: Set the version
         run: |-
           MODPACKVERSION=v${{ steps.get_version.outputs.VERSION }}
-          echo "GregTech Expert 2 ${MODPACKVERSION} ${{ steps.get_version.outputs.LEVEL }}" > ./overrides/resources/mainmenu/version.txt
+          echo "GregTech Expert 2 ${MODPACKVERSION} ${{ steps.get_version.outputs.LEVEL }}" > ./overrides/resources/custommainmenu/version.txt
           sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" manifest.json
 
       - name: Archive Release Client
