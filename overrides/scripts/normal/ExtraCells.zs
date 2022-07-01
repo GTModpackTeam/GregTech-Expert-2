@@ -511,6 +511,12 @@ assembler.recipeBuilder()
     .EUt(480)
     .buildAndRegister();
 
+# Fluid Storage Monitor
+recipes.remove(<extracells:part.base:10>);
+recipes.addShapeless(<extracells:part.base:10>, [
+    <appliedenergistics2:part:281>, <ore:itemIlluminatedPanel>
+]);
+
 # Obsidian ME Drive
 recipes.remove(<extracells:hardmedrive>);
 recipes.addShaped(<extracells:hardmedrive>, [

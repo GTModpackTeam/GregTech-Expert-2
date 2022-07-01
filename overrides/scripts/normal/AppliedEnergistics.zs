@@ -2101,7 +2101,7 @@ recipes.remove(<appliedenergistics2:part:220>);
 recipes.addShaped(<appliedenergistics2:part:220>, [
     [<metaitem:plateSteel>, <ore:gtce.tool.soft.hammers>, <metaitem:plateSteel>],
     [<metaitem:conveyor.module.hv>, <ore:ae2.interface.item>, <metaitem:conveyor.module.hv>],
-    [<metaitem:plateSteel>, null, <metaitem:plateSteel>]
+    [<metaitem:plateSteel>, <metaitem:item_filter>, <metaitem:plateSteel>]
 ]);
 assembler.recipeBuilder()
     .circuit(1)
@@ -2121,7 +2121,7 @@ recipes.remove(<appliedenergistics2:part:221>);
 recipes.addShaped(<appliedenergistics2:part:221>, [
     [<metaitem:plateStainlessSteel>, <ore:gtce.tool.soft.hammers>, <metaitem:plateStainlessSteel>],
     [<metaitem:electric.pump.hv>, <ore:ae2.interface.fluid>, <metaitem:electric.pump.hv>],
-    [<metaitem:plateStainlessSteel>, null, <metaitem:plateStainlessSteel>]
+    [<metaitem:plateStainlessSteel>, <metaitem:fluid_filter>, <metaitem:plateStainlessSteel>]
 ]);
 assembler.recipeBuilder()
     .circuit(1)
