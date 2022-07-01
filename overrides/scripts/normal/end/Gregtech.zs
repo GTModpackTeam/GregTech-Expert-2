@@ -22,7 +22,6 @@ assembly_line.recipeBuilder()
 
 # Creative Quantum Tank
 assembly_line.recipeBuilder()
-    .circuit(1)
     .inputs([<metaitem:infinite_energy> * 2])
     .inputs([<metaitem:quantum_tank.uhv> * 64])
     .inputs([<metaitem:quantumstar> * 64])
@@ -44,7 +43,6 @@ assembly_line.recipeBuilder()
 
 # Creative Quantum Chest
 assembly_line.recipeBuilder()
-    .circuit(2)
     .inputs([<metaitem:infinite_energy> * 8])
     .inputs([<metaitem:creative_tank> * 4])
     .inputs([<metaitem:quantum_chest.uhv> * 64])
