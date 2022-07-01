@@ -31,7 +31,16 @@ assembler.recipeBuilder()
         <minecraft:slime_ball> | <metaitem:rubber_drop>
     ])
     .outputs([<minecraft:lead> * 2])
-    .duration(200)
+    .duration(100)
+    .EUt(2)
+    .buildAndRegister();
+
+# Book (Override)
+extractor.findRecipe(2, [<minecraft:bookshelf:0>], null).remove();
+extractor.recipeBuilder()
+    .inputs([<ore:bookshelf>])
+    .outputs([<minecraft:book> * 3])
+    .duration(300)
     .EUt(2)
     .buildAndRegister();
 
@@ -61,7 +70,7 @@ recipes.remove(<minecraft:stone:5>);
 # Comparator
 recipes.removeByRecipeName("appliedenergistics2:misc/vanilla_comparator");
 
-# Brewing Stand (Override)
+# Brewing Stand
 recipes.remove(<minecraft:brewing_stand>);
 recipes.addShaped(<minecraft:brewing_stand>, [
     [<metaitem:ringSteel>, <minecraft:blaze_rod>, <metaitem:ringSteel>],
@@ -69,25 +78,13 @@ recipes.addShaped(<minecraft:brewing_stand>, [
     [<metaitem:screwSteel>, <minecraft:cauldron>, <metaitem:screwSteel>]
 ]);
 
-# Nether Quartz Block (Override)
+# Nether Quartz Block
 recipes.remove(<minecraft:quartz_block>);
 compressor.recipeBuilder()
     .inputs([<ore:crystalPureNetherQuartz> * 8])
     .outputs([<minecraft:quartz_block>])
     .duration(300)
     .EUt(2)
-    .buildAndRegister();
-
-# Chest (Override)
-assembler.findRecipe(4, [
-    <metaitem:plateWood> * 8, <metaitem:circuit.integrated>.withTag({Configuration: 8})
-], null).remove();
-assembler.recipeBuilder()
-    .circuit(8)
-    .inputs([<ore:plankWood> * 8])
-    .outputs([<minecraft:chest>])
-    .duration(200)
-    .EUt(4)
     .buildAndRegister();
 
 # Ender Chest
@@ -122,7 +119,7 @@ assembler.recipeBuilder()
         <minecraft:glowstone_dust> * 4
     ])
     .outputs([<minecraft:redstone_lamp>])
-    .duration(400)
+    .duration(100)
     .EUt(1)
     .buildAndRegister();
 

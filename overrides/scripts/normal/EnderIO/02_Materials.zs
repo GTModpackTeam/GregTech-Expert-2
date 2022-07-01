@@ -270,11 +270,11 @@ JEI.hide(<enderio:item_material:3>);
 # Conduit Binder
 electric_blast_furnace.recipeBuilder()
     .inputs([
-        <metaitem:dustAndesite> * 5,
-        <metaitem:dustDiorite> * 5,
-        <metaitem:dustClay> * 3
+        <metaitem:dustClay> * 3,
+        <metaitem:dustAndesite>,
+        <metaitem:dustDiorite>
     ])
-    .property("temperature", 1800)
+    .property("temperature", 1700)
     .outputs([<enderio:item_material:4>])
     .duration(20)
     .EUt(480)
