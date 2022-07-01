@@ -1091,6 +1091,15 @@ autoclave.recipeBuilder()
     .buildAndRegister();
 
 # Recycle - Storage Housing
+macerator.recipeBuilder()
+    .inputs([<appliedenergistics2:material:39>])
+    .outputs([
+        <metaitem:dustSteel> * 2,
+        <metaitem:dustTinySteel> * 2
+    ])
+    .duration(100)
+    .EUt(16)
+    .buildAndRegister();
 arc_furnace.recipeBuilder()
     .inputs([<appliedenergistics2:material:39>])
     .fluidInputs([<liquid:oxygen> * 56])
