@@ -69,8 +69,8 @@ greenhouse.hasMufflerMechanics = false;
 
 recipes.addShaped(<metaitem:multiblocktweaker:greenhouse>, [
     [<gregtech:transparent_casing>, <gregtech:transparent_casing>, <gregtech:transparent_casing>],
-    [<ore:circuitMv>, <metaitem:hull.mv>, <ore:circuitMv>],
-    [<metaitem:electric.piston.mv>, <metaitem:electric.pump.mv>, <metaitem:electric.piston.mv>]
+    [<metaitem:electric.pump.mv>, <metaitem:gregtechfoodoption:farmer.mv>, <metaitem:electric.pump.mv>],
+    [<metaitem:wireGtQuadrupleCopper>, <ore:circuitMv>, <metaitem:wireGtQuadrupleCopper>]
 ]);
 JEI.addDescription(<metaitem:multiblocktweaker:greenhouse>, I18n.format("multiblocktweaker.greenhouse.tooltip.1"));
 
