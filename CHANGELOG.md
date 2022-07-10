@@ -1,3 +1,29 @@
+# v1.11.0
+## Modpack update
+* [Update] ceu 2.3.4 (#207)
+* [Update] gtfo 1.6.3c (#208)
+
+## Modpack Fix
+* [Fix] Dew of Void (#209)
+
+## Update mods
+* GregTech CE: Unofficial
+* GregTech Food Option
+* Had Enough Items
+
+## Fix recipe
+### Modpack
+* Greenhouse
+
+### Ender IO
+* Dew of Void
+
+## Del recipe
+### EnderIO
+* Farming Station
+
+* * *
+
 # v1.10.1
 ## Modpack update
 * [Update] Housing Recycle (#202)
