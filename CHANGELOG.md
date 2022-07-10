@@ -1,7 +1,7 @@
 # v1.11.0
 ## Modpack update
 * [Update] ceu 2.3.4 (#207)
-* [Update] gtfo 1.6.3c
+* [Update] gtfo 1.6.3c (#208)
 
 ## Modpack Fix
 * [Fix] Dew of Void (#209)
