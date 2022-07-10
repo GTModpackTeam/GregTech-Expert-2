@@ -5,7 +5,7 @@ import mods.jei.JEI;
 
 
 ########################################
-# Liquids
+# Liquid
 ########################################
 # Nutrient Distillation
 mixer.recipeBuilder()
@@ -35,7 +35,7 @@ mixer.recipeBuilder()
     .buildAndRegister();
 mixer.recipeBuilder()
     .inputs([<ore:itemVibrantPowder> * 2])
-    .fluidInputs([<liquid:end_steel> * 244])
+    .fluidInputs([<liquid:end_steel> * 288])
     .fluidInputs([<liquid:nutrient_distillation> * 1000])
     .fluidOutputs([<liquid:ender_distillation> * 1000])
     .duration(400)
