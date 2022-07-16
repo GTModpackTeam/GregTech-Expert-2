@@ -35,13 +35,9 @@ JEI.hide(<extracells:storage.component:7>);
 
 # Wireless Fluid Terminal
 JEI.removeAndHide(<extracells:terminal.fluid.wireless>);
-JEI.addDescription(<extracells:terminal.fluid.wireless>, I18n.format("modpack.ec2.wireless_terminal.tooltip.1"));
-<extracells:terminal.fluid.wireless>.addTooltip(format.green(I18n.format("modpack.ec2.wireless_terminal.tooltip.1")));
 
 # Wireless Universal Terminal
 JEI.removeAndHide(<extracells:terminal.universal.wireless>);
-JEI.addDescription(<extracells:terminal.universal.wireless>, I18n.format("modpack.ec2.wireless_terminal.tooltip.1"));
-<extracells:terminal.universal.wireless>.addTooltip(format.green(I18n.format("modpack.ec2.wireless_terminal.tooltip.1")));
 
 # Advanced Storage Housing
 recipes.remove(<extracells:storage.casing>);
@@ -540,6 +536,12 @@ assembler.recipeBuilder()
     .duration(200)
     .EUt(480)
     .buildAndRegister();
+
+# Fluid Storage Monitor
+recipes.remove(<extracells:part.base:10>);
+recipes.addShapeless(<extracells:part.base:10>, [
+    <appliedenergistics2:part:281>, <ore:itemIlluminatedPanel>
+]);
 
 # Obsidian ME Drive
 recipes.remove(<extracells:hardmedrive>);
