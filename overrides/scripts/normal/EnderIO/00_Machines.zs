@@ -114,12 +114,7 @@ recipes.addShaped(<enderio:block_enchanter>, [
 ]);
 
 # Farming Station
-recipes.addShaped(<enderio:block_farm_station>, [
-    [<ore:itemVibrantCrystal>, <ore:skullZombieController>, <ore:itemVibrantCrystal>],
-    [<metaitem:plateSoularium>, <ore:itemMachineChassi>, <metaitem:plateSoularium>],
-    [<metaitem:gearEnergeticAlloy>, <ore:itemPulsatingCrystal>, <metaitem:gearEnergeticAlloy>]
-]);
-<enderio:block_farm_station>.addTooltip(format.red("We have Greenhouse, so that's better."));
+JEI.hide(<enderio:block_farm_station>);
 
 # Combustion Generator
 JEI.hide(<enderio:block_combustion_generator>);

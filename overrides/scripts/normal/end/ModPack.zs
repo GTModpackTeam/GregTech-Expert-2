@@ -10,7 +10,7 @@
 assembly_line.recipeBuilder()
     .inputs([<metaitem:screwNeutronium> * 4])
     .inputs([<enderio:block_cap_bank:0> * 4])
-    .inputs([<gregtech:machine:1344> * 20])
+    .inputs([<metaitem:battery_buffer.uhv.16> * 20])
     .inputs([<appliedenergistics2:creative_energy_cell> * 4])
     .inputs([<extracells:storage.component:3> * 5])
     .inputs([<extracells:storage.component:10> * 4])

@@ -32,9 +32,6 @@ modpack.ae2.p2p_chest.tooltip.1=Made by right-clicking ME P2P Tunnel with a ches
 modpack.ae2.p2p_torch.tooltip.1=Made by right-clicking ME P2P Tunnel with a torch.
 modpack.ae2.p2p_redstone.tooltip.1=Made by right-clicking ME P2P Tunnel with redstone dust.
 
-# Extra Cells
-modpack.ec2.wireless_terminal.tooltip.1=To change in a single craft.
-
 # Minecraft
 modpack.minecraft.tools.tooltip.1=It can only be used for crafting materials.
 

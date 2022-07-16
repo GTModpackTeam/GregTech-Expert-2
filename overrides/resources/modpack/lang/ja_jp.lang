@@ -30,9 +30,6 @@ modpack.ae2.p2p_chest.tooltip.1=チェストを持ってME P2P Tunnelを右ク�
 modpack.ae2.p2p_torch.tooltip.1=松明を持ってME P2P Tunnelを右クリックすることで変化します。
 modpack.ae2.p2p_redstone.tooltip.1=レッドストーンを持ってME P2P Tunnelを右クリックすることで変化します。
 
-# Extra Cells
-modpack.ec2.wireless_terminal.tooltip.1=単体クラフトで変換すること。
-
 # Minecraft
 modpack.minecraft.tools.tooltip.1=クラフト材料にのみ使用できます。
 

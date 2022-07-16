@@ -10,7 +10,7 @@
 assembly_line.recipeBuilder()
     .inputs([<metaitem:energy.cluster> * 4])
     .inputs([<gregtech:fusion_casing:4> * 28])
-    .inputs([<gregtech:machine:994> * 5])
+    .inputs([<metaitem:hull.uhv> * 5])
     .inputs([<ore:circuitUhv> * 20])
     .inputs([<appliedenergistics2:dense_energy_cell> * 16])
     .inputs([<metaitem:cover.solar.panel.uv>])
