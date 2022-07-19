@@ -102,18 +102,6 @@ recipes.remove(<minecraft:end_rod>);
 # Daylight Sensor
 recipes.removeByRecipeName("appliedenergistics2:misc/vanilla_daylight_detector");
 
-# Beacon
-assembler.recipeBuilder()
-    .inputs([
-        <minecraft:obsidian> * 3,
-        <minecraft:nether_star>
-    ])
-    .fluidInputs([<liquid:glass> * 720])
-    .outputs([<minecraft:beacon>])
-    .duration(100)
-    .EUt(16)
-    .buildAndRegister();
-
 # Redstone Lamp (Override)
 assembler.findRecipe(1, [
     <minecraft:redstone:0> * 4, <minecraft:glowstone_dust:0> * 4
@@ -142,19 +130,4 @@ assembler.recipeBuilder()
     .outputs([<minecraft:redstone_torch>])
     .duration(20)
     .EUt(1)
-    .buildAndRegister();
-
-# Sign (Override)
-assembler.findRecipe(4, [
-    <metaitem:plateWood> * 6, <minecraft:stick>
-], null).remove();
-assembler.recipeBuilder()
-    .circuit(5)
-    .inputs([
-        <ore:plankWood> * 6,
-        <minecraft:stick>
-    ])
-    .outputs([<minecraft:sign> * 3])
-    .duration(100)
-    .EUt(4)
     .buildAndRegister();

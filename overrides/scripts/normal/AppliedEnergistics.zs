@@ -1173,7 +1173,7 @@ compressor.recipeBuilder()
     .EUt(480)
     .buildAndRegister();
 rock_breaker.recipeBuilder()
-    .notConsumable([<appliedenergistics2:material:45>])
+    .notConsumable([<appliedenergistics2:sky_stone_block>])
     .outputs([<appliedenergistics2:sky_stone_block>])
     .duration(100)
     .EUt(480)
