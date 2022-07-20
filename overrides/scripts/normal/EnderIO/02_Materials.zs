@@ -799,7 +799,7 @@ macerator.recipeBuilder()
 
 # Infinity Dust Block
 rock_breaker.recipeBuilder()
-    .notConsumable([<enderio:item_material:20>])
+    .notConsumable([<enderio:block_infinity>])
     .outputs([<enderio:block_infinity>])
     .duration(100)
     .EUt(480)

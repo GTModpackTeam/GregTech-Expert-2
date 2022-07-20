@@ -18,7 +18,7 @@ electric_blast_furnace.recipeBuilder()
     .inputs([<threng:material:1>])
     .property("temperature", 1700)
     .outputs([<threng:material>])
-    .duration(500)
+    .duration(300)
     .EUt(480)
     .buildAndRegister();
 electric_blast_furnace.recipeBuilder()

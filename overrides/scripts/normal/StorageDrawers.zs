@@ -7,6 +7,15 @@ import mods.chisel.Carving;
 ########################################
 # Blocks
 ########################################
+# Framed Drawer
+<ore:storagedrawers.framed>.addItems([
+    <storagedrawers:customdrawers>,
+    <storagedrawers:customdrawers:1>,
+    <storagedrawers:customdrawers:2>,
+    <storagedrawers:customdrawers:3>,
+    <storagedrawers:customdrawers:4>
+]);
+
 # Trim
 recipes.remove(<storagedrawers:trim:*>);
 Carving.addGroup("drawerTrim");
@@ -77,7 +86,7 @@ Carving.addVariation("drawer_half_2x2", <storagedrawers:basicdrawers:4>.withTag(
 recipes.remove(<storagedrawers:framingtable>);
 recipes.addShaped(<storagedrawers:framingtable>, [
     [null, null, null],
-    [<metaitem:plateWood>, <metaitem:plateWood>, <metaitem:plateWood>],
+    [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>],
     [<minecraft:stick>, null, <minecraft:stick>]
 ]);
 
@@ -200,9 +209,9 @@ Carving.addVariation("drawer_controller", <storagedrawers:controller>);
 recipes.remove(<storagedrawers:controller>);
 recipes.remove(<framedcompactdrawers:framed_drawer_controller>);
 recipes.addShaped(<framedcompactdrawers:framed_drawer_controller>, [
-    [<ore:stoneSmooth>, <ore:stoneSmooth>, <ore:stoneSmooth>],
-    [<minecraft:comparator>, <storagedrawers:customdrawers>, <minecraft:comparator>],
-    [<ore:stoneSmooth>, <minecraft:diamond>, <ore:stoneSmooth>]
+    [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+    [<minecraft:repeater>, <storagedrawers:customdrawers>, <minecraft:repeater>],
+    [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
 ]);
 
 # Compacting Drawer
@@ -212,9 +221,9 @@ Carving.addVariation("drawer_compacting", <storagedrawers:compdrawers>);
 recipes.remove(<storagedrawers:compdrawers>);
 recipes.remove(<framedcompactdrawers:framed_compact_drawer>);
 recipes.addShaped(<framedcompactdrawers:framed_compact_drawer>, [
-    [<ore:stoneSmooth>, <ore:stoneSmooth>, <ore:stoneSmooth>],
+    [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
     [<ore:craftingPiston>, <storagedrawers:customdrawers>, <ore:craftingPiston>],
-    [<ore:stoneSmooth>, <minecraft:iron_ingot>, <ore:stoneSmooth>]
+    [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
 ]);
 
 # Controller Slave
@@ -224,9 +233,9 @@ Carving.addVariation("drawer_slave", <storagedrawers:controllerslave>);
 recipes.remove(<storagedrawers:controllerslave>);
 recipes.remove(<framedcompactdrawers:framed_slave>);
 recipes.addShaped(<framedcompactdrawers:framed_slave>, [
-    [<ore:stoneSmooth>, <ore:stoneSmooth>, <ore:stoneSmooth>],
+    [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
     [<minecraft:comparator>, <storagedrawers:customdrawers>, <minecraft:comparator>],
-    [<ore:stoneSmooth>, <minecraft:gold_ingot>, <ore:stoneSmooth>]
+    [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
 ]);
 
 
@@ -246,14 +255,14 @@ recipes.addShaped(<storagedrawers:tape>, [
 recipes.remove(<storagedrawers:upgrade_template>);
 recipes.addShaped(<storagedrawers:upgrade_template> * 2, [
     [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
-    [<minecraft:stick>, <ore:drawerBasic>, <minecraft:stick>],
+    [<minecraft:stick>, <ore:storagedrawers.framed>, <minecraft:stick>],
     [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>]
 ]);
 assembler.recipeBuilder()
     .circuit(8)
     .inputs([
         <minecraft:stick> * 4,
-        <ore:drawerBasic>
+        <ore:storagedrawers.framed>
     ])
     .outputs([<storagedrawers:upgrade_template> * 2])
     .duration(40)
