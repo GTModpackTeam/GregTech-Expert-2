@@ -19,8 +19,6 @@ material.vivid_alloy=ビビッド合金
 
 # GregTech
 material.naquadah_rocket_fuel=ナクアダロケット燃料
-modpack.gregtech.energy_hatch_input_16a_uhv.tooltip.1=まだ作成できません。
-modpack.gregtech.energy_hatch_output_16a_uhv.tooltip.1=まだ作成できません。
 
 # AE2
 material.fluix=フルーシュ
@@ -31,12 +29,6 @@ modpack.ae2.p2p_gtceu.tooltip.1=GregTechのケーブルを持ってME P2P Tunnel
 modpack.ae2.p2p_chest.tooltip.1=チェストを持ってME P2P Tunnelを右クリックすることで変化します。
 modpack.ae2.p2p_torch.tooltip.1=松明を持ってME P2P Tunnelを右クリックすることで変化します。
 modpack.ae2.p2p_redstone.tooltip.1=レッドストーンを持ってME P2P Tunnelを右クリックすることで変化します。
-
-# Extra Cells
-modpack.ec2.wireless_terminal.tooltip.1=単体クラフトで変換すること。
-
-# EnderIO
-modpack.enderio.capacitor_bank.tooltip.1=ブロック情報が変わるので、クラフトで使用する場合は設置しないこと！
 
 # Minecraft
 modpack.minecraft.tools.tooltip.1=クラフト材料にのみ使用できます。

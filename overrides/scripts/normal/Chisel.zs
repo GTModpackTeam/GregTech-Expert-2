@@ -15,7 +15,7 @@ Carving.addVariation("basalt", <gregtech:stone_smooth:3>);
 recipes.remove(<chisel:chisel_iron>);
 recipes.addShaped(<chisel:chisel_iron>, [
     [<ore:gtce.tool.files>, <metaitem:plateIron>, <metaitem:plateIron>],
-    [null, <metaitem:screwSteel>, <metaitem:plateIron>],
+    [null, <metaitem:screwIron>, <metaitem:plateIron>],
     [<metaitem:stickBronze>, null, <ore:gtce.tool.hard.hammers>]
 ]);
 
@@ -45,10 +45,24 @@ recipes.remove(<chisel:auto_chisel>);
 recipes.addShaped(<chisel:auto_chisel>, [
     [<metaitem:plateGlass>, <metaitem:plateGlass>, <metaitem:plateGlass>],
     [<metaitem:plateGlass>, <chisel:chisel_iron> | <chisel:chisel_diamond> | <chisel:chisel_hitech>, <metaitem:plateGlass>],
-    [<metaitem:plateIron>, <ore:compressed1xDustBedrock>, <metaitem:plateIron>]
+    [<minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:stone_slab>]
 ]);
 
 # Bookshelfs
+<ore:bookshelf>.add(<minecraft:bookshelf>);
+
+## Oak
+assembler.findRecipe(4, [<metaitem:plateWood> * 6, <minecraft:book:0> * 3], null).remove();
+assembler.recipeBuilder()
+    .inputs([
+        <minecraft:planks:0> * 6,
+        <minecraft:book> * 3
+    ])
+    .outputs([<chisel:bookshelf_oak>])
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+
 ## Spruce
 recipes.remove(<chisel:bookshelf_spruce>);
 assembler.recipeBuilder()
@@ -57,7 +71,7 @@ assembler.recipeBuilder()
         <minecraft:book> * 3
     ])
     .outputs([<chisel:bookshelf_spruce>])
-    .duration(400)
+    .duration(100)
     .EUt(4)
     .buildAndRegister();
 
@@ -69,7 +83,7 @@ assembler.recipeBuilder()
         <minecraft:book> * 3
     ])
     .outputs([<chisel:bookshelf_birch>])
-    .duration(400)
+    .duration(100)
     .EUt(4)
     .buildAndRegister();
 
@@ -81,7 +95,7 @@ assembler.recipeBuilder()
         <minecraft:book> * 3
     ])
     .outputs([<chisel:bookshelf_jungle>])
-    .duration(400)
+    .duration(100)
     .EUt(4)
     .buildAndRegister();
 
@@ -93,7 +107,7 @@ assembler.recipeBuilder()
         <minecraft:book> * 3
     ])
     .outputs([<chisel:bookshelf_acacia>])
-    .duration(400)
+    .duration(100)
     .EUt(4)
     .buildAndRegister();
 
@@ -105,7 +119,7 @@ assembler.recipeBuilder()
         <minecraft:book> * 3
     ])
     .outputs([<chisel:bookshelf_darkoak>])
-    .duration(400)
+    .duration(100)
     .EUt(4)
     .buildAndRegister();
 

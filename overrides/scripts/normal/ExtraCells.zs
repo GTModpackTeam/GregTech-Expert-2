@@ -35,13 +35,9 @@ JEI.hide(<extracells:storage.component:7>);
 
 # Wireless Fluid Terminal
 JEI.removeAndHide(<extracells:terminal.fluid.wireless>);
-JEI.addDescription(<extracells:terminal.fluid.wireless>, I18n.format("modpack.ec2.wireless_terminal.tooltip.1"));
-<extracells:terminal.fluid.wireless>.addTooltip(format.green(I18n.format("modpack.ec2.wireless_terminal.tooltip.1")));
 
 # Wireless Universal Terminal
 JEI.removeAndHide(<extracells:terminal.universal.wireless>);
-JEI.addDescription(<extracells:terminal.universal.wireless>, I18n.format("modpack.ec2.wireless_terminal.tooltip.1"));
-<extracells:terminal.universal.wireless>.addTooltip(format.green(I18n.format("modpack.ec2.wireless_terminal.tooltip.1")));
 
 # Advanced Storage Housing
 recipes.remove(<extracells:storage.casing>);
@@ -429,17 +425,43 @@ assembler.recipeBuilder()
 # Recycle - Advanced Storage Housing
 macerator.recipeBuilder()
     .inputs([<extracells:storage.casing>])
-    .outputs([<metaitem:dustTungstenSteel>])
+    .outputs([
+        <metaitem:dustTungstenSteel> * 2,
+        <metaitem:dustTinyTungstenSteel> * 2
+    ])
     .duration(100)
     .EUt(16)
+    .buildAndRegister();
+arc_furnace.recipeBuilder()
+    .inputs([<extracells:storage.casing>])
+    .fluidInputs([<liquid:oxygen> * 56])
+    .outputs([
+        <metaitem:ingotTungstenSteel> * 2,
+        <metaitem:nuggetTungstenSteel> * 2
+    ])
+    .duration(56)
+    .EUt(30)
     .buildAndRegister();
 
 # Recycle - Fluid Housing
 macerator.recipeBuilder()
     .inputs([<extracells:storage.casing:1>])
-    .outputs([<metaitem:dustStainlessSteel>])
+    .outputs([
+        <metaitem:dustStainlessSteel> * 2,
+        <metaitem:dustTinyStainlessSteel> * 2
+    ])
     .duration(100)
     .EUt(16)
+    .buildAndRegister();
+arc_furnace.recipeBuilder()
+    .inputs([<extracells:storage.casing:1>])
+    .fluidInputs([<liquid:oxygen> * 56])
+    .outputs([
+        <metaitem:ingotStainlessSteel> * 2,
+        <metaitem:nuggetStainlessSteel> * 2
+    ])
+    .duration(56)
+    .EUt(30)
     .buildAndRegister();
 
 
@@ -514,6 +536,12 @@ assembler.recipeBuilder()
     .duration(200)
     .EUt(480)
     .buildAndRegister();
+
+# Fluid Storage Monitor
+recipes.remove(<extracells:part.base:10>);
+recipes.addShapeless(<extracells:part.base:10>, [
+    <appliedenergistics2:part:281>, <ore:itemIlluminatedPanel>
+]);
 
 # Obsidian ME Drive
 recipes.remove(<extracells:hardmedrive>);

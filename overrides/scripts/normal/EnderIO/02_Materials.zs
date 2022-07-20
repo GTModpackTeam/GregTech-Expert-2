@@ -270,11 +270,11 @@ JEI.hide(<enderio:item_material:3>);
 # Conduit Binder
 electric_blast_furnace.recipeBuilder()
     .inputs([
-        <metaitem:dustAndesite> * 5,
-        <metaitem:dustDiorite> * 5,
-        <metaitem:dustClay> * 3
+        <metaitem:dustClay> * 3,
+        <metaitem:dustAndesite>,
+        <metaitem:dustDiorite>
     ])
-    .property("temperature", 1800)
+    .property("temperature", 1700)
     .outputs([<enderio:item_material:4>])
     .duration(20)
     .EUt(480)
@@ -789,17 +789,25 @@ macerator.recipeBuilder()
     .EUt(480)
     .buildAndRegister();
 
-# Infinity Dust Block
-compressor.recipeBuilder()
-    .inputs([<enderio:item_material:20> * 9])
-    .outputs([<enderio:block_infinity>])
+# Grains of Infinity
+macerator.recipeBuilder()
+    .inputs([<enderio:block_infinity>])
+    .outputs([<enderio:item_material:20>])
     .duration(500)
+    .EUt(480)
+    .buildAndRegister();
+
+# Infinity Dust Block
+rock_breaker.recipeBuilder()
+    .notConsumable([<enderio:block_infinity>])
+    .outputs([<enderio:block_infinity>])
+    .duration(100)
     .EUt(480)
     .buildAndRegister();
 
 # Compressed Infinity Dust Block
 compressor.recipeBuilder()
-    .inputs([<enderio:block_infinity> * 9])
+    .inputs([<enderio:block_infinity> * 4])
     .outputs([<enderio:block_infinity:1>])
     .duration(500)
     .EUt(480)
@@ -807,7 +815,7 @@ compressor.recipeBuilder()
 
 # Double Compressed Infinity Dust Block
 compressor.recipeBuilder()
-    .inputs([<enderio:block_infinity:1> * 9])
+    .inputs([<enderio:block_infinity:1> * 4])
     .outputs([<enderio:block_infinity:2>])
     .duration(500)
     .EUt(480)

@@ -19,8 +19,6 @@ material.vivid_alloy=Vivid Alloy
 
 # GregTech
 material.naquadah_rocket_fuel=Naquadah Rocket Fuel
-modpack.gregtech.energy_hatch_input_16a_uhv.tooltip.1=Cannot create yet.
-modpack.gregtech.energy_hatch_output_16a_uhv.tooltip.1=Cannot create yet.
 
 # AE2
 material.fluix=Fluix
@@ -33,12 +31,6 @@ modpack.ae2.p2p_gtceu.tooltip.1=Made by right-clicking ME P2P Tunnel with a Greg
 modpack.ae2.p2p_chest.tooltip.1=Made by right-clicking ME P2P Tunnel with a chest.
 modpack.ae2.p2p_torch.tooltip.1=Made by right-clicking ME P2P Tunnel with a torch.
 modpack.ae2.p2p_redstone.tooltip.1=Made by right-clicking ME P2P Tunnel with redstone dust.
-
-# Extra Cells
-modpack.ec2.wireless_terminal.tooltip.1=To change in a single craft.
-
-# EnderIO
-modpack.enderio.capacitor_bank.tooltip.1=Information changes as it is placed!! If you use it for crafting, do not place it!!!!
 
 # Minecraft
 modpack.minecraft.tools.tooltip.1=It can only be used for crafting materials.

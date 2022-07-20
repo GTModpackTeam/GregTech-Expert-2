@@ -69,8 +69,8 @@ greenhouse.hasMufflerMechanics = false;
 
 recipes.addShaped(<metaitem:multiblocktweaker:greenhouse>, [
     [<gregtech:transparent_casing>, <gregtech:transparent_casing>, <gregtech:transparent_casing>],
-    [<ore:circuitMv>, <metaitem:hull.mv>, <ore:circuitMv>],
-    [<metaitem:electric.piston.mv>, <metaitem:electric.pump.mv>, <metaitem:electric.piston.mv>]
+    [<metaitem:electric.pump.mv>, <metaitem:gregtechfoodoption:farmer.mv>, <metaitem:electric.pump.mv>],
+    [<metaitem:wireGtQuadrupleCopper>, <ore:circuitMv>, <metaitem:wireGtQuadrupleCopper>]
 ]);
 JEI.addDescription(<metaitem:multiblocktweaker:greenhouse>, I18n.format("multiblocktweaker.greenhouse.tooltip.1"));
 
@@ -154,7 +154,12 @@ var seeds as IItemStack[] = [
     <minecraft:cactus>,
     <minecraft:brown_mushroom>,
     <minecraft:red_mushroom>,
-    <minecraft:nether_wart>
+    <minecraft:nether_wart>,
+    <gregtechfoodoption:gtfo_meta_item:159>,
+    <gregtechfoodoption:gtfo_meta_item:162>,
+    <gregtechfoodoption:gtfo_meta_item:164>,
+    <gregtechfoodoption:gtfo_meta_item:163>,
+    <gregtechfoodoption:gtfo_meta_item:161>
 ];
 var plants as IItemStack[] = [
     <minecraft:pumpkin> * 6,
@@ -167,7 +172,12 @@ var plants as IItemStack[] = [
     <minecraft:cactus> * 12,
     <minecraft:brown_mushroom> * 12,
     <minecraft:red_mushroom> * 12,
-    <minecraft:nether_wart> * 12
+    <minecraft:nether_wart> * 12,
+    <gregtechfoodoption:gtfo_meta_item:77> * 12,
+    <gregtechfoodoption:gtfo_meta_item:76> * 12,
+    <gregtechfoodoption:gtfo_meta_item:78> * 12,
+    <gregtechfoodoption:gtfo_meta_item:124> * 12,
+    <gregtechfoodoption:gtfo_meta_item:160> * 12
 ];
 for i, seed in seeds {
     greenhouse.recipeMap.recipeBuilder()
