@@ -699,14 +699,6 @@ macerator.recipeBuilder()
     .EUt(2)
     .buildAndRegister();
 
-# Treated Wood Pulp (Override)
-macerator.recipeBuilder()
-    .inputs([<ore:plankTreatedWood>])
-    .outputs([<metaitem:dustTreatedWood>])
-    .duration(98)
-    .EUt(2)
-    .buildAndRegister();
-
 # Quartz Block (Override)
 compressor.findRecipe(2, [<metaitem:gemCertusQuartz> * 9], null).remove();
 fluid_solidifier.findRecipe(7, [<metaitem:shape.mold.block>], [<liquid:certus_quartz> * 1296]).remove();

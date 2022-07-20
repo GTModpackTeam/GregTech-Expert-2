@@ -1,3 +1,55 @@
+# v1.11.0
+## Modpack update
+* [Update] ceu 2.3.4 (#207)
+* [Update] gtfo 1.6.3c (#208)
+
+## Modpack Fix
+* [Fix] Dew of Void (#209)
+
+## Update mods
+* GregTech CE: Unofficial
+* GregTech Food Option
+* Had Enough Items
+
+## Fix recipe
+### Modpack
+* Greenhouse
+
+### Ender IO
+* Dew of Void
+
+## Del recipe
+### EnderIO
+* Farming Station
+
+* * *
+
+# v1.10.1
+## Modpack update
+* [Update] Housing Recycle (#202)
+* [Update] CEu 2.3.3 (#204) 
+
+## Modpack Fix
+* [Fix] /gt recipecheck (#201)
+
+## Update mods
+* GregTech CE: Unofficial
+* dan's Crafting Tweaks
+
+## Update recipes
+### AE2
+* Storage Housing
+
+### ExtraCells
+* Advanced Storage Housing
+* Fluid Housing
+
+## Fix recipes
+### OpenComputers
+* CU
+
+* * *
+
 # v1.10.0
 ## 💣 Backup your world before updating 💣
 * Back in GregTech5u, machines put outside explode in rainy weather.
