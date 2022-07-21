@@ -447,7 +447,7 @@ recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_cell
 recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_cell_1k_storage");
 packer.recipeBuilder()
     .inputs([
-        <extracells:storage.casing:1>,
+        <aeadditions:storage.casing:1>,
         <appliedenergistics2:material:54>
     ])
     .outputs([<appliedenergistics2:fluid_storage_cell_1k>])
@@ -457,7 +457,7 @@ packer.recipeBuilder()
 // packer.recipeBuilder()
 //     .inputs([<appliedenergistics2:fluid_storage_cell_1k>])
 //     .outputs([
-//         <extracells:storage.casing:1>,
+//         <aeadditions:storage.casing:1>,
 //         <appliedenergistics2:material:54>
 //     ])
 //     .duration(10)
@@ -469,7 +469,7 @@ recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_cell
 recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_cell_4k_storage");
 packer.recipeBuilder()
     .inputs([
-        <extracells:storage.casing:1>,
+        <aeadditions:storage.casing:1>,
         <appliedenergistics2:material:55>
     ])
     .outputs([<appliedenergistics2:fluid_storage_cell_4k>])
@@ -479,7 +479,7 @@ packer.recipeBuilder()
 // packer.recipeBuilder()
 //     .inputs([<appliedenergistics2:fluid_storage_cell_4k>])
 //     .outputs([
-//         <extracells:storage.casing:1>,
+//         <aeadditions:storage.casing:1>,
 //         <appliedenergistics2:material:55>
 //     ])
 //     .duration(10)
@@ -491,7 +491,7 @@ recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_cell
 recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_cell_16k_storage");
 packer.recipeBuilder()
     .inputs([
-        <extracells:storage.casing:1>,
+        <aeadditions:storage.casing:1>,
         <appliedenergistics2:material:56>
     ])
     .outputs([<appliedenergistics2:fluid_storage_cell_16k>])
@@ -501,7 +501,7 @@ packer.recipeBuilder()
 // packer.recipeBuilder()
 //     .inputs([<appliedenergistics2:fluid_storage_cell_16k>])
 //     .outputs([
-//         <extracells:storage.casing:1>,
+//         <aeadditions:storage.casing:1>,
 //         <appliedenergistics2:material:56>
 //     ])
 //     .duration(10)
@@ -513,7 +513,7 @@ recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_cell
 recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_cell_64k_storage");
 packer.recipeBuilder()
     .inputs([
-        <extracells:storage.casing:1>,
+        <aeadditions:storage.casing:1>,
         <appliedenergistics2:material:57>
     ])
     .outputs([<appliedenergistics2:fluid_storage_cell_64k>])
@@ -523,7 +523,7 @@ packer.recipeBuilder()
 // packer.recipeBuilder()
 //     .inputs([<appliedenergistics2:fluid_storage_cell_64k>])
 //     .outputs([
-//         <extracells:storage.casing:1>,
+//         <aeadditions:storage.casing:1>,
 //         <appliedenergistics2:material:57>
 //     ])
 //     .duration(10)
@@ -535,7 +535,7 @@ recipes.removeByRecipeName("appliedenergistics2:network/cells/spatial_storage_ce
 recipes.removeByRecipeName("appliedenergistics2:network/cells/spatial_storage_cell_2_cubed_storage");
 packer.recipeBuilder()
     .inputs([
-        <extracells:storage.casing:0>,
+        <aeadditions:storage.casing:0>,
         <appliedenergistics2:material:32>
     ])
     .outputs([<appliedenergistics2:spatial_storage_cell_2_cubed>])
@@ -545,7 +545,7 @@ packer.recipeBuilder()
 // packer.recipeBuilder()
 //     .inputs([<appliedenergistics2:spatial_storage_cell_2_cubed>])
 //     .outputs([
-//         <extracells:storage.casing:0>,
+//         <aeadditions:storage.casing:0>,
 //         <appliedenergistics2:material:32>
 //     ])
 //     .duration(10)
@@ -557,7 +557,7 @@ recipes.removeByRecipeName("appliedenergistics2:network/cells/spatial_storage_ce
 recipes.removeByRecipeName("appliedenergistics2:network/cells/spatial_storage_cell_16_cubed_storage");
 packer.recipeBuilder()
     .inputs([
-        <extracells:storage.casing:0>,
+        <aeadditions:storage.casing:0>,
         <appliedenergistics2:material:33>
     ])
     .outputs([<appliedenergistics2:spatial_storage_cell_16_cubed>])
@@ -567,7 +567,7 @@ packer.recipeBuilder()
 // packer.recipeBuilder()
 //     .inputs([<appliedenergistics2:spatial_storage_cell_16_cubed>])
 //     .outputs([
-//         <extracells:storage.casing:0>,
+//         <aeadditions:storage.casing:0>,
 //         <appliedenergistics2:material:33>
 //     ])
 //     .duration(10)
@@ -579,7 +579,7 @@ recipes.removeByRecipeName("appliedenergistics2:network/cells/spatial_storage_ce
 recipes.removeByRecipeName("appliedenergistics2:network/cells/spatial_storage_cell_128_cubed_storage");
 packer.recipeBuilder()
     .inputs([
-        <extracells:storage.casing:0>,
+        <aeadditions:storage.casing:0>,
         <appliedenergistics2:material:34>
     ])
     .outputs([<appliedenergistics2:spatial_storage_cell_128_cubed>])
@@ -589,7 +589,7 @@ packer.recipeBuilder()
 // packer.recipeBuilder()
 //     .inputs([<appliedenergistics2:spatial_storage_cell_128_cubed>])
 //     .outputs([
-//         <extracells:storage.casing:0>,
+//         <aeadditions:storage.casing:0>,
 //         <appliedenergistics2:material:34>
 //     ])
 //     .duration(10)
