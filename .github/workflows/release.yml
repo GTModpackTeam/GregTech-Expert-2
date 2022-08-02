@@ -10,7 +10,7 @@ on:
       - 'v*-alpha'
 
 jobs:
-  test:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

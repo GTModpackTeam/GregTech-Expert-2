@@ -6,7 +6,7 @@ on:
       - update-v2
 
 jobs:
-  test:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -29,3 +29,8 @@ jobs:
           type: "zip"
           filename: "./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}.zip"
           exclusions: '*.git* .editorconfig LICENSE *.md */.github/* *mods/* *serverfiles/*'
+
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: "./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}.zip"
