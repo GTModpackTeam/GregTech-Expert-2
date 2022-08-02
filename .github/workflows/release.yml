@@ -1,4 +1,4 @@
-name: Deploy Modpack
+name: Deploy modpack
 on:
   push:
     tags:
@@ -21,9 +21,10 @@ jobs:
 
       - name: Set the version
         run: |-
-          MODPACKVERSION=${{ steps.get_version.outputs.VERSION }}
+          MODPACKVERSION=v${{ steps.get_version.outputs.VERSION }}
+          echo "GregTech Expert 2 ${MODPACKVERSION} ${{ steps.get_version.outputs.LEVEL }}" > ./overrides/resources/custommainmenu/version.txt
           sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" manifest.json
-      
+
       - name: Archive Release Client
         uses: thedoctor0/zip-release@master
         with:
@@ -42,13 +43,6 @@ jobs:
       #   with:
       #     modpack-path: "./GTExpert2-${{ steps.get_version.outputs.VERSION }}-tmp-server.zip"
       #     output-path: "./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-server.zip"
-
-      - name: Release Github
-        uses: softprops/action-gh-release@v1
-        with:
-          prerelease: false
-          tag_name: ${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}
-          files: "./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}.zip"
 
       - name: Upload Curseforge
         uses: henkelmax/upload-curseforge-modpack-action@v1.0.0
