@@ -1,0 +1,38 @@
+name: Deploy preview modpack
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - update-v2
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Get the version
+        id: get_version
+        run: |-
+          echo ::set-output name=VERSION::preview
+          echo ::set-output name=LEVEL::$(date +%Y%m%d%H%M)
+
+      - name: Set the version
+        run: |-
+          MODPACKVERSION=${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}
+          sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" manifest.json
+
+      - name: Archive Release Client
+        uses: thedoctor0/zip-release@master
+        with:
+          type: "zip"
+          filename: "./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}.zip"
+          exclusions: '*.git* .editorconfig LICENSE *.md */.github/* *mods/* *serverfiles/*'
+
+      - name: Release Github
+        uses: softprops/action-gh-release@v1
+        with:
+          prerelease: true
+          tag_name: ${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}
+          files: "./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}.zip"

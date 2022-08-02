@@ -43,6 +43,13 @@ jobs:
       #     modpack-path: "./GTExpert2-${{ steps.get_version.outputs.VERSION }}-tmp-server.zip"
       #     output-path: "./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-server.zip"
 
+      - name: Release Github
+        uses: softprops/action-gh-release@v1
+        with:
+          prerelease: false
+          tag_name: ${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}
+          files: "./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}.zip"
+
       - name: Upload Curseforge
         uses: henkelmax/upload-curseforge-modpack-action@v1.0.0
         with: 
