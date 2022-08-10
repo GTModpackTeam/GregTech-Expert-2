@@ -7,7 +7,7 @@ on:
       - 'v*-alpha'
 
 jobs:
-  test:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -31,6 +31,14 @@ jobs:
           type: "zip"
           filename: "./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}.zip"
           exclusions: '*.git* .editorconfig LICENSE *.md */.github/* *mods/* *serverfiles/*'
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          prerelease: false
+          files: "./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}.zip"
+          generate_release_notes: false
 
       # - name: Archive Release Server
       #   uses: thedoctor0/zip-release@master
