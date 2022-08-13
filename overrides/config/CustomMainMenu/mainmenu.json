@@ -152,7 +152,7 @@
       "alignment": "column_bottom",
       "action": {
         "type": "openLink",
-        "link": "https://github.com/GTModpackTeam/gregtech-expert-2/blob/main/CHANGELOG.md"
+        "link": "https://github.com/GTModpackTeam/gregtech-expert-2/blob/main/CHANGELOG_v2.md"
       }
     }
   },
