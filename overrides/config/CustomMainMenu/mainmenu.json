@@ -9,7 +9,7 @@
       "alignment": "column_top"
     },
     "logo": {
-      "image": "mainmenu:textures/logo1.png",
+      "image": "custommainmenu:textures/logo1.png",
       "posX": 118,
       "posY": 10,
       "width": 280,
