@@ -1,4 +1,4 @@
-name: Deploy Modpack
+name: Deploy modpack
 on:
   push:
     tags:
@@ -7,7 +7,7 @@ on:
       - 'v*-alpha'
 
 jobs:
-  test:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -21,15 +21,24 @@ jobs:
 
       - name: Set the version
         run: |-
-          MODPACKVERSION=${{ steps.get_version.outputs.VERSION }}
+          MODPACKVERSION=v${{ steps.get_version.outputs.VERSION }}
+          echo "GregTech Expert 2 ${MODPACKVERSION} ${{ steps.get_version.outputs.LEVEL }}" > ./overrides/resources/custommainmenu/version.txt
           sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" manifest.json
-      
+
       - name: Archive Release Client
         uses: thedoctor0/zip-release@master
         with:
           type: "zip"
           filename: "./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}.zip"
           exclusions: '*.git* .editorconfig LICENSE *.md */.github/* *mods/* *serverfiles/*'
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          prerelease: false
+          files: "./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}.zip"
+          generate_release_notes: false
 
       # - name: Archive Release Server
       #   uses: thedoctor0/zip-release@master
