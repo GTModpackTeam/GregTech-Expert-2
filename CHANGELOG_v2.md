@@ -60,6 +60,7 @@
 * Dense Energy Cell
 
 ## New Mods
+* GTExpert Core
 * Lazy AE2
 * AE Additions
 * Gregicality Science
