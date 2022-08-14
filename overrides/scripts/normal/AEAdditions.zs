@@ -83,15 +83,15 @@ packer.recipeBuilder()
     .duration(10)
     .EUt(7)
     .buildAndRegister();
-// packer.recipeBuilder()
-//     .inputs([<aeadditions:storage.physical:0>])
-//     .outputs([
-//         <aeadditions:storage.casing:0>,
-//         <aeadditions:storage.component:0>
-//     ])
-//     .duration(10)
-//     .EUt(7)
-//     .buildAndRegister();
+packer.recipeBuilder()
+    .inputs([<aeadditions:storage.physical:0>])
+    .outputs([
+        <aeadditions:storage.casing:0>,
+        <aeadditions:storage.component:0>
+    ])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
 
 # 1024k Storage Cell
 recipes.removeByRecipeName("aeadditions:storagecells/item/owncasing/1024k");
@@ -105,15 +105,15 @@ packer.recipeBuilder()
     .duration(10)
     .EUt(7)
     .buildAndRegister();
-// packer.recipeBuilder()
-//     .inputs([<aeadditions:storage.physical:1>])
-//     .outputs([
-//         <aeadditions:storage.casing:0>,
-//         <aeadditions:storage.component:1>
-//     ])
-//     .duration(10)
-//     .EUt(7)
-//     .buildAndRegister();
+packer.recipeBuilder()
+    .inputs([<aeadditions:storage.physical:1>])
+    .outputs([
+        <aeadditions:storage.casing:0>,
+        <aeadditions:storage.component:1>
+    ])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
 
 # 4096k Storage Cell
 recipes.removeByRecipeName("aeadditions:storagecells/item/owncasing/4096k");
@@ -127,15 +127,15 @@ packer.recipeBuilder()
     .duration(10)
     .EUt(7)
     .buildAndRegister();
-// packer.recipeBuilder()
-//     .inputs([<aeadditions:storage.physical:2>])
-//     .outputs([
-//         <aeadditions:storage.casing:0>,
-//         <aeadditions:storage.component:2>
-//     ])
-//     .duration(10)
-//     .EUt(7)
-//     .buildAndRegister();
+packer.recipeBuilder()
+    .inputs([<aeadditions:storage.physical:2>])
+    .outputs([
+        <aeadditions:storage.casing:0>,
+        <aeadditions:storage.component:2>
+    ])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
 
 # 16384k Storage Cell
 recipes.removeByRecipeName("aeadditions:storagecells/item/owncasing/16384k");
@@ -149,15 +149,15 @@ packer.recipeBuilder()
     .duration(10)
     .EUt(7)
     .buildAndRegister();
-// packer.recipeBuilder()
-//     .inputs([<aeadditions:storage.physical:3>])
-//     .outputs([
-//         <aeadditions:storage.casing:0>,
-//         <aeadditions:storage.component:3>
-//     ])
-//     .duration(10)
-//     .EUt(7)
-//     .buildAndRegister();
+packer.recipeBuilder()
+    .inputs([<aeadditions:storage.physical:3>])
+    .outputs([
+        <aeadditions:storage.casing:0>,
+        <aeadditions:storage.component:3>
+    ])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
 
 # 256k Fluid Cell
 recipes.removeByRecipeName("aeadditions:storagecells/fluid/owncasing/256k");
@@ -171,15 +171,15 @@ packer.recipeBuilder()
     .duration(10)
     .EUt(7)
     .buildAndRegister();
-// packer.recipeBuilder()
-//     .inputs([<aeadditions:storage.fluid>])
-//     .outputs([
-//         <aeadditions:storage.casing:1>,
-//         <aeadditions:storage.component:4>
-//     ])
-//     .duration(10)
-//     .EUt(7)
-//     .buildAndRegister();
+packer.recipeBuilder()
+    .inputs([<aeadditions:storage.fluid>])
+    .outputs([
+        <aeadditions:storage.casing:1>,
+        <aeadditions:storage.component:4>
+    ])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
 
 # 1024k Fluid Cell
 recipes.removeByRecipeName("aeadditions:storagecells/fluid/owncasing/1024k");
@@ -193,15 +193,15 @@ packer.recipeBuilder()
     .duration(10)
     .EUt(7)
     .buildAndRegister();
-// packer.recipeBuilder()
-//     .inputs([<aeadditions:storage.fluid:1>])
-//     .outputs([
-//         <aeadditions:storage.casing:1>,
-//         <aeadditions:storage.component:5>
-//     ])
-//     .duration(10)
-//     .EUt(7)
-//     .buildAndRegister();
+packer.recipeBuilder()
+    .inputs([<aeadditions:storage.fluid:1>])
+    .outputs([
+        <aeadditions:storage.casing:1>,
+        <aeadditions:storage.component:5>
+    ])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
 
 # 4096k Fluid Cell
 recipes.removeByRecipeName("aeadditions:storagecells/fluid/owncasing/4096k");
@@ -215,15 +215,15 @@ packer.recipeBuilder()
     .duration(10)
     .EUt(7)
     .buildAndRegister();
-// packer.recipeBuilder()
-//     .inputs([<aeadditions:storage.fluid:2>])
-//     .outputs([
-//         <aeadditions:storage.casing:1>,
-//         <aeadditions:storage.component:6>
-//     ])
-//     .duration(10)
-//     .EUt(7)
-//     .buildAndRegister();
+packer.recipeBuilder()
+    .inputs([<aeadditions:storage.fluid:2>])
+    .outputs([
+        <aeadditions:storage.casing:1>,
+        <aeadditions:storage.component:6>
+    ])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
 
 # 256k Storage Component
 recipes.remove(<aeadditions:storage.component>);
