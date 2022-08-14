@@ -1,4 +1,3 @@
-#packmode normal
 # Imports
 import mods.jei.JEI;
 import crafttweaker.mods.IMod;

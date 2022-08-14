@@ -1,4 +1,3 @@
-#packmode normal
 # Imports
 import crafttweaker.mods.IMod;
 import crafttweaker.item.IItemStack;

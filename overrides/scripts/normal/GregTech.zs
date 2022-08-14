@@ -1,4 +1,3 @@
-#packmode normal
 # Imports
 import mods.jei.JEI;
 import mods.zenutils.I18n;
