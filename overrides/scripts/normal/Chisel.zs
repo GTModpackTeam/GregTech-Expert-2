@@ -1,4 +1,3 @@
-#packmode normal
 # Imports
 import crafttweaker.item.IItemStack;
 import mods.chisel.Carving;
