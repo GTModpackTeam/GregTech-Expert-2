@@ -466,7 +466,7 @@
 
 ## Add mods
 * MixinBooter
-* CensoredASM
+* LoliASM
 
 ## Fix recipe
 ### AE2
