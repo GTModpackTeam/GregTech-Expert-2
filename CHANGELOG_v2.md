@@ -1,3 +1,38 @@
+# v2.1.0-pr
+## Del mods
+* Extra Cells 2
+* PackMode
+
+## Add mod
+* Clayium
+
+## Update mods
+* AE2 Unofficial Extended Life
+* Gregicality Science(modified by Quarri)
+* CraftPresence
+* CraftTweaker
+* MixinBooter
+* LoliASM
+* Zen Utils
+
+## Add recipe
+### AE2 & AE Additions
+* Cells can be extracted
+
+## Fix recipe
+### AE2
+* Vibrant Quartz Glass
+
+### GregTech
+* Solar Panel (LV)
+* Solar Panel (MV)
+* Solar Panel (EV)
+* Solar Panel (IV)
+* Solar Panel (LuV)
+* Solar Panel (ZPM)
+
+* * *
+
 # v2.0.0-pr
 ## Level rework
 * No longer require charged capacitors for end content.
