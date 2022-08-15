@@ -21,11 +21,7 @@ jobs:
 
       - name: Set the version
         run: |-
-<<<<<<< HEAD
-          MODPACKVERSION=v${{ steps.get_version.outputs.VERSION }}
-=======
           MODPACKVERSION=${{ steps.get_version.outputs.VERSION }}
->>>>>>> main
           echo "GregTech Expert 2 ${MODPACKVERSION} ${{ steps.get_version.outputs.LEVEL }}" > ./overrides/resources/custommainmenu/version.txt
           sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" manifest.json
 
