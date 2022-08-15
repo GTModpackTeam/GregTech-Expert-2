@@ -44,17 +44,11 @@ extractor.recipeBuilder()
     .EUt(2)
     .buildAndRegister();
 
-# Iron Nugget
-recipes.addShapeless(<minecraft:iron_nugget> * 9, [<minecraft:iron_ingot>]);
-
 # Iron Ingot
 furnace.remove(<minecraft:iron_ingot>, <appliedenergistics2:material:49>);
 
 # Gold Nugget
 recipes.addShapeless(<minecraft:gold_nugget> * 9, [<minecraft:gold_ingot>]);
-
-# Gold Ingot
-furnace.remove(<minecraft:gold_ingot>, <appliedenergistics2:material:51>);
 
 # Fermented Spider Eye
 recipes.remove(<minecraft:fermented_spider_eye>);
