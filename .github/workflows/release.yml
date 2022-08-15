@@ -21,7 +21,11 @@ jobs:
 
       - name: Set the version
         run: |-
+<<<<<<< HEAD
           MODPACKVERSION=v${{ steps.get_version.outputs.VERSION }}
+=======
+          MODPACKVERSION=${{ steps.get_version.outputs.VERSION }}
+>>>>>>> main
           echo "GregTech Expert 2 ${MODPACKVERSION} ${{ steps.get_version.outputs.LEVEL }}" > ./overrides/resources/custommainmenu/version.txt
           sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" manifest.json
 
@@ -59,7 +63,7 @@ jobs:
           project-id: "565238"
           modpack-path: "./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}.zip"
           # modpack-server-path: "./GTExpert2-${{ steps.get_version.outputs.VERSION }}-server.zip"
-          changelog: 'Check the changes here. [Github - CHANGELOG.md](https://github.com/GTModpackTeam/gregtech-expert-2/blob/main/CHANGELOG.md "")' 
+          changelog: 'Check the changes here. [Github - CHANGELOG.md](https://github.com/GTModpackTeam/gregtech-expert-2/blob/main/CHANGELOG_v2.md "")' 
           changelog-format: "markdown"
           game-version: "1.12.2"
           display-name: "GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}"

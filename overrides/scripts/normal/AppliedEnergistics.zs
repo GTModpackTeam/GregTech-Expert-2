@@ -1,4 +1,3 @@
-#packmode normal
 # Imports
 import crafttweaker.mods.IMod;
 import crafttweaker.item.IItemStack;
@@ -366,15 +365,15 @@ packer.recipeBuilder()
     .duration(10)
     .EUt(7)
     .buildAndRegister();
-// packer.recipeBuilder()
-//     .inputs([<appliedenergistics2:storage_cell_1k>])
-//     .outputs([
-//         <appliedenergistics2:material:39>,
-//         <appliedenergistics2:material:35>
-//     ])
-//     .duration(10)
-//     .EUt(7)
-//     .buildAndRegister();
+packer.recipeBuilder()
+    .inputs([<appliedenergistics2:storage_cell_1k>])
+    .outputs([
+        <appliedenergistics2:material:39>,
+        <appliedenergistics2:material:35>
+    ])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
 
 # 4k Storage Cell
 recipes.removeByRecipeName("appliedenergistics2:network/cells/storage_cell_4k");
@@ -388,15 +387,15 @@ packer.recipeBuilder()
     .duration(10)
     .EUt(7)
     .buildAndRegister();
-// packer.recipeBuilder()
-//     .inputs([<appliedenergistics2:storage_cell_4k>])
-//     .outputs([
-//         <appliedenergistics2:material:39>,
-//         <appliedenergistics2:material:36>
-//     ])
-//     .duration(10)
-//     .EUt(7)
-//     .buildAndRegister();
+packer.recipeBuilder()
+    .inputs([<appliedenergistics2:storage_cell_4k>])
+    .outputs([
+        <appliedenergistics2:material:39>,
+        <appliedenergistics2:material:36>
+    ])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
 
 # 16k Storage Cell
 recipes.removeByRecipeName("appliedenergistics2:network/cells/storage_cell_16k");
@@ -410,15 +409,15 @@ packer.recipeBuilder()
     .duration(10)
     .EUt(7)
     .buildAndRegister();
-// packer.recipeBuilder()
-//     .inputs([<appliedenergistics2:storage_cell_16k>])
-//     .outputs([
-//         <appliedenergistics2:material:39>,
-//         <appliedenergistics2:material:37>
-//     ])
-//     .duration(10)
-//     .EUt(7)
-//     .buildAndRegister();
+packer.recipeBuilder()
+    .inputs([<appliedenergistics2:storage_cell_16k>])
+    .outputs([
+        <appliedenergistics2:material:39>,
+        <appliedenergistics2:material:37>
+    ])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
 
 # 64k Storage Cell
 recipes.removeByRecipeName("appliedenergistics2:network/cells/storage_cell_64k");
@@ -432,15 +431,15 @@ packer.recipeBuilder()
     .duration(10)
     .EUt(7)
     .buildAndRegister();
-// packer.recipeBuilder()
-//     .inputs([<appliedenergistics2:storage_cell_64k>])
-//     .outputs([
-//         <appliedenergistics2:material:39>,
-//         <appliedenergistics2:material:38>
-//     ])
-//     .duration(10)
-//     .EUt(7)
-//     .buildAndRegister();
+packer.recipeBuilder()
+    .inputs([<appliedenergistics2:storage_cell_64k>])
+    .outputs([
+        <appliedenergistics2:material:39>,
+        <appliedenergistics2:material:38>
+    ])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
 
 # 1k Fluid Cell
 recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_cell_1k");
@@ -454,15 +453,15 @@ packer.recipeBuilder()
     .duration(10)
     .EUt(7)
     .buildAndRegister();
-// packer.recipeBuilder()
-//     .inputs([<appliedenergistics2:fluid_storage_cell_1k>])
-//     .outputs([
-//         <aeadditions:storage.casing:1>,
-//         <appliedenergistics2:material:54>
-//     ])
-//     .duration(10)
-//     .EUt(7)
-//     .buildAndRegister();
+packer.recipeBuilder()
+    .inputs([<appliedenergistics2:fluid_storage_cell_1k>])
+    .outputs([
+        <aeadditions:storage.casing:1>,
+        <appliedenergistics2:material:54>
+    ])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
 
 # 4k Fluid Cell
 recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_cell_4k");
@@ -476,15 +475,15 @@ packer.recipeBuilder()
     .duration(10)
     .EUt(7)
     .buildAndRegister();
-// packer.recipeBuilder()
-//     .inputs([<appliedenergistics2:fluid_storage_cell_4k>])
-//     .outputs([
-//         <aeadditions:storage.casing:1>,
-//         <appliedenergistics2:material:55>
-//     ])
-//     .duration(10)
-//     .EUt(7)
-//     .buildAndRegister();
+packer.recipeBuilder()
+    .inputs([<appliedenergistics2:fluid_storage_cell_4k>])
+    .outputs([
+        <aeadditions:storage.casing:1>,
+        <appliedenergistics2:material:55>
+    ])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
 
 # 16k Fluid Cell
 recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_cell_16k");
@@ -498,15 +497,15 @@ packer.recipeBuilder()
     .duration(10)
     .EUt(7)
     .buildAndRegister();
-// packer.recipeBuilder()
-//     .inputs([<appliedenergistics2:fluid_storage_cell_16k>])
-//     .outputs([
-//         <aeadditions:storage.casing:1>,
-//         <appliedenergistics2:material:56>
-//     ])
-//     .duration(10)
-//     .EUt(7)
-//     .buildAndRegister();
+packer.recipeBuilder()
+    .inputs([<appliedenergistics2:fluid_storage_cell_16k>])
+    .outputs([
+        <aeadditions:storage.casing:1>,
+        <appliedenergistics2:material:56>
+    ])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
 
 # 64k Fluid Cell
 recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_cell_64k");
@@ -520,15 +519,15 @@ packer.recipeBuilder()
     .duration(10)
     .EUt(7)
     .buildAndRegister();
-// packer.recipeBuilder()
-//     .inputs([<appliedenergistics2:fluid_storage_cell_64k>])
-//     .outputs([
-//         <aeadditions:storage.casing:1>,
-//         <appliedenergistics2:material:57>
-//     ])
-//     .duration(10)
-//     .EUt(7)
-//     .buildAndRegister();
+packer.recipeBuilder()
+    .inputs([<appliedenergistics2:fluid_storage_cell_64k>])
+    .outputs([
+        <aeadditions:storage.casing:1>,
+        <appliedenergistics2:material:57>
+    ])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
 
 # 2³ Spatial Cell
 recipes.removeByRecipeName("appliedenergistics2:network/cells/spatial_storage_cell_2_cubed");
@@ -542,15 +541,15 @@ packer.recipeBuilder()
     .duration(10)
     .EUt(7)
     .buildAndRegister();
-// packer.recipeBuilder()
-//     .inputs([<appliedenergistics2:spatial_storage_cell_2_cubed>])
-//     .outputs([
-//         <aeadditions:storage.casing:0>,
-//         <appliedenergistics2:material:32>
-//     ])
-//     .duration(10)
-//     .EUt(7)
-//     .buildAndRegister();
+packer.recipeBuilder()
+    .inputs([<appliedenergistics2:spatial_storage_cell_2_cubed>])
+    .outputs([
+        <aeadditions:storage.casing:0>,
+        <appliedenergistics2:material:32>
+    ])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
 
 # 16³ Spatial Cell
 recipes.removeByRecipeName("appliedenergistics2:network/cells/spatial_storage_cell_16_cubed");
@@ -564,15 +563,15 @@ packer.recipeBuilder()
     .duration(10)
     .EUt(7)
     .buildAndRegister();
-// packer.recipeBuilder()
-//     .inputs([<appliedenergistics2:spatial_storage_cell_16_cubed>])
-//     .outputs([
-//         <aeadditions:storage.casing:0>,
-//         <appliedenergistics2:material:33>
-//     ])
-//     .duration(10)
-//     .EUt(7)
-//     .buildAndRegister();
+packer.recipeBuilder()
+    .inputs([<appliedenergistics2:spatial_storage_cell_16_cubed>])
+    .outputs([
+        <aeadditions:storage.casing:0>,
+        <appliedenergistics2:material:33>
+    ])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
 
 # 128³ Spatial Cell
 recipes.removeByRecipeName("appliedenergistics2:network/cells/spatial_storage_cell_128_cubed");
@@ -586,15 +585,15 @@ packer.recipeBuilder()
     .duration(10)
     .EUt(7)
     .buildAndRegister();
-// packer.recipeBuilder()
-//     .inputs([<appliedenergistics2:spatial_storage_cell_128_cubed>])
-//     .outputs([
-//         <aeadditions:storage.casing:0>,
-//         <appliedenergistics2:material:34>
-//     ])
-//     .duration(10)
-//     .EUt(7)
-//     .buildAndRegister();
+packer.recipeBuilder()
+    .inputs([<appliedenergistics2:spatial_storage_cell_128_cubed>])
+    .outputs([
+        <aeadditions:storage.casing:0>,
+        <appliedenergistics2:material:34>
+    ])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
 
 # 1k Storage Component
 recipes.remove(<appliedenergistics2:material:35>);
@@ -1677,17 +1676,24 @@ alloy_smelter.recipeBuilder()
 
 # Vibrant Quartz Glass
 recipes.remove(<appliedenergistics2:quartz_vibrant_glass>);
-recipes.addShaped(<appliedenergistics2:quartz_vibrant_glass>, [
-    [<minecraft:glowstone_dust>, <metaitem:plateGlowstone>, <minecraft:glowstone_dust>],
-    [<metaitem:plateGlowstone>, <appliedenergistics2:quartz_glass>, <metaitem:plateGlowstone>],
-    [<minecraft:glowstone_dust>, <metaitem:plateGlowstone>, <minecraft:glowstone_dust>]
-]);
-recipes.addShaped(<appliedenergistics2:quartz_vibrant_glass>, [
-    [<metaitem:stickAluminium>, <metaitem:dustAluminium>, <metaitem:stickAluminium>],
-    [<metaitem:dustAluminium>, <minecraft:glowstone>, <metaitem:dustAluminium>],
-    [<metaitem:stickAluminium>, <metaitem:dustAluminium>, <metaitem:stickAluminium>]
-]);
-
+alloy_smelter.recipeBuilder()
+    .inputs([
+        <appliedenergistics2:quartz_glass>,
+        <minecraft:glowstone_dust> * 8
+    ])
+    .outputs([<appliedenergistics2:quartz_vibrant_glass>])
+    .duration(20)
+    .EUt(480)
+    .buildAndRegister();
+alloy_smelter.recipeBuilder()
+    .inputs([
+        <minecraft:glowstone>,
+        <metaitem:dustAluminium> * 8
+    ])
+    .outputs([<appliedenergistics2:quartz_vibrant_glass>])
+    .duration(20)
+    .EUt(480)
+    .buildAndRegister();
 # Quartz Fixture
 recipes.remove(<appliedenergistics2:quartz_fixture>);
 recipes.addShapeless(<appliedenergistics2:quartz_fixture>, [

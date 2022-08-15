@@ -1,4 +1,3 @@
-#packmode normal
 /* 
   TODO?
     # Computer Case

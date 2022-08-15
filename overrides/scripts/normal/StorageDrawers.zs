@@ -1,4 +1,3 @@
-#packmode normal
 # Imports
 import mods.chisel.Carving;
 
