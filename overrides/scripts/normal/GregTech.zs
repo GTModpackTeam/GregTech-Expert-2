@@ -135,8 +135,10 @@ macerator.recipeBuilder()
     .buildAndRegister();
 
 # Red Alloy Dust
-recipes.addShapeless(<metaitem:dustRedAlloy>, [
-    <ore:gtce.tool.mortars>, <metaitem:ingotRedAlloy>
+recipes.addShaped(<metaitem:dustRedAlloy>, [
+    [null, <metaitem:ingotRedAlloy>, null],
+    [null, <ore:gtce.tool.mortars>, null],
+    [null, null, null]
 ]);
 
 # Stone Rod
@@ -154,16 +156,6 @@ lathe.recipeBuilder()
     .duration(10)
     .EUt(7)
     .buildAndRegister();
-
-# Wrought Iron Nugget
-recipes.addShapeless(<metaitem:nuggetWroughtIron> * 9, [<metaitem:ingotWroughtIron>]);
-
-# Wrought Iron Ingot
-recipes.addShaped(<metaitem:ingotWroughtIron>, [
-    [<metaitem:nuggetWroughtIron>, <metaitem:nuggetWroughtIron>, <metaitem:nuggetWroughtIron>],
-    [<metaitem:nuggetWroughtIron>, <metaitem:nuggetWroughtIron>, <metaitem:nuggetWroughtIron>],
-    [<metaitem:nuggetWroughtIron>, <metaitem:nuggetWroughtIron>, <metaitem:nuggetWroughtIron>]
-]);
 
 # Tiny Charcoal Dust
 furnace.setFuel(<metaitem:dustTinyCharcoal>, 200);
@@ -731,31 +723,3 @@ compressor.recipeBuilder()
     .duration(300)
     .EUt(2)
     .buildAndRegister();
-
-# UHV Voltage 4x Battery Buffer (Override)
-recipes.addShaped(<metaitem:battery_buffer.uhv.4>, [
-    [null, null, null],
-    [<metaitem:wireGtQuadrupleEuropium>, <minecraft:chest>, <metaitem:wireGtQuadrupleEuropium>],
-    [<metaitem:wireGtQuadrupleEuropium>, <metaitem:hull.uhv>, <metaitem:wireGtQuadrupleEuropium>]
-]);
-
-# UHV Voltage 8x Battery Buffer (Override)
-recipes.addShaped(<metaitem:battery_buffer.uhv.8>, [
-    [null, null, null],
-    [<metaitem:wireGtOctalEuropium>, <minecraft:chest>, <metaitem:wireGtOctalEuropium>],
-    [<metaitem:wireGtOctalEuropium>, <metaitem:hull.uhv>, <metaitem:wireGtOctalEuropium>]
-]);
-
-# UHV Voltage 16x Battery Buffer (Override)
-recipes.addShaped(<metaitem:battery_buffer.uhv.16>, [
-    [null, null, null],
-    [<metaitem:wireGtHexEuropium>, <minecraft:chest>, <metaitem:wireGtHexEuropium>],
-    [<metaitem:wireGtHexEuropium>, <metaitem:hull.uhv>, <metaitem:wireGtHexEuropium>]
-]);
-
-# UHV Voltage Turbo Charger (Override)
-recipes.addShaped(<metaitem:charger.uhv>, [
-    [<metaitem:wireGtQuadrupleEuropium>, <minecraft:chest>, <metaitem:wireGtQuadrupleEuropium>],
-    [<metaitem:wireGtQuadrupleEuropium>, <metaitem:hull.uhv>, <metaitem:wireGtQuadrupleEuropium>],
-    [<metaitem:wireGtSingleEuropium>, <ore:circuitUhv>, <metaitem:wireGtSingleEuropium>]
-]);
