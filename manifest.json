@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "GregTech Expert 2",
-  "version": "MODPACKVERSION",
+  "version": "v2.1.0",
   "author": "tier940",
   "files": [
     {
@@ -30,8 +30,13 @@
       "required": true
     },
     {
-      "projectID": 240633,
-      "fileID": 2546769,
+      "projectID": 624243,
+      "fileID": 3895901,
+      "required": true
+    },
+    {
+      "projectID": 632327,
+      "fileID": 3912622,
       "required": true
     },
     {
@@ -91,7 +96,7 @@
     },
     {
       "projectID": 570458,
-      "fileID": 3932004,
+      "fileID": 3935165,
       "required": true
     },
     {
@@ -172,11 +177,6 @@
     {
       "projectID": 349942,
       "fileID": 3008019,
-      "required": true
-    },
-    {
-      "projectID": 255257,
-      "fileID": 3507866,
       "required": true
     },
     {

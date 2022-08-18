@@ -1,3 +1,28 @@
+# v2.2.0-pr
+## Update mods
+* Inventory Sorter -> Inventory Bogo Sorter
+* Gregicality Science(modified by Quarri)
+* AE2 Unofficial Extended Life
+
+## Remove mod
+* LootTweaker
+
+## New mods
+* ModularUI
+
+## Fix config
+### HEI
+* B:searchAdvancedTooltips=false -> true
+* searchadvancedtooltips{ B:search=false -> true }
+
+## Fix recipe
+### Modpack End Content
+* Creative Energy Cell
+* Creative Capacitor Bank
+* GTE ME Storage Fake Component
+
+* * *
+
 # v2.1.0-pr
 ## Del mods
 * Extra Cells 2
