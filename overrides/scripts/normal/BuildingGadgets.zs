@@ -64,7 +64,7 @@ assembler.recipeBuilder()
     .inputs([
         <metaitem:stickRedAlloy> * 2,
         <metaitem:screwRedAlloy> * 2,
-        <enderio:item_material:20>,
+        <metaitem:dustBedrock> | <enderio:item_material:20>,
         <metaitem:circuit_board.basic>,
         <ore:circuitUlv>,
         <ore:batteryLv>
