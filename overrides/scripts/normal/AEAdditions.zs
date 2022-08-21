@@ -308,7 +308,7 @@ recipes.remove(<aeadditions:storage.component:3>);
 assembler.recipeBuilder()
     .inputs([
         <ore:circuitUv> * 4,
-        <metaitem:plateNeutronium> * 4,
+        <metaitem:plateOrichalcum> * 4,
         <metaitem:dustCertusQuartz> * 32,
         <appliedenergistics2:material:23>
     ])
