@@ -116,7 +116,7 @@ extractor.recipeBuilder()
 electromagnetic_separator.findRecipe(7680, [<metaitem:dustBedrock>], null).remove();
 electromagnetic_separator.recipeBuilder()
     .inputs([<metaitem:dustBedrock>])
-    .chancedOutput(<metaitem:dustAdamantite>, 3000, 0)
+    .chancedOutput(<metaitem:dustAdamantite>, 3000, 500)
     .chancedOutput(<metaitem:dustMonazite> * 2, 3000, 0)
     .chancedOutput(<metaitem:dustGraphite> * 3, 3000, 0)
     .duration(120)
