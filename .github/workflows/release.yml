@@ -38,6 +38,9 @@ jobs:
           python-version: '3.8'
           architecture: 'x64'
 
+      - name: Install dependencies
+        run: pip install -r buildtools/requirements.txt
+
       - name: Run Python
         env:
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
