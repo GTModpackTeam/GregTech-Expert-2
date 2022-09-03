@@ -11,16 +11,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Get the version
         id: get_version
-        run: |-
+        run: |
           echo ::set-output name=VERSION::$(echo ${GITHUB_REF} | sed -e 's#refs/tags/##g' | awk -F'-' '{print $1}')
           echo ::set-output name=LEVEL::$(echo ${GITHUB_REF} | sed -e 's#refs/tags/##g' | awk -F'-' '{print $2}')
 
       - name: Set the version
-        run: |-
+        run: |
           MODPACKVERSION=${{ steps.get_version.outputs.VERSION }}
           echo "GregTech Expert 2 ${MODPACKVERSION} ${{ steps.get_version.outputs.LEVEL }}" > ./overrides/resources/custommainmenu/version.txt
           sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" manifest.json
@@ -28,26 +28,29 @@ jobs:
       - name: Archive Release Client
         uses: thedoctor0/zip-release@master
         with:
-          type: "zip"
-          filename: "./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}.zip"
+          type: zip
+          filename: ${{ github.workspace }}/GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}.zip
           exclusions: '*.git* .editorconfig LICENSE *.md */.github/* *mods/* *serverfiles/* *buildtools/*'
 
       - name: Setup Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
-          python-version: '3.8'
-          architecture: 'x64'
+          python-version: '3.10'
+          cache: pip
+
+      - name: Install Python dependencies
+        run: pip install -r buildtools/requirements.txt
 
       - name: Run Python
+        run: python buildtools/server-install.py
         env:
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
-        run: python buildtools/server-install.py
 
       - name: Archive Release Server
         uses: thedoctor0/zip-release@master
         with:
-          type: "zip"
-          filename: ./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-server.zip
+          type: zip
+          filename: ${{ github.workspace }}/GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-server.zip
           exclusions: '*.git* *.zip .editorconfig LICENSE *.md */.github/* *overrides/* *buildtools/*'
 
       - name: Create GitHub Release
@@ -55,21 +58,21 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/')
         with:
           prerelease: false
-          files: |-
-            "./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}.zip"
-            "./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-server.zip"
+          files: |
+            ${{ github.workspace }}/GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}.zip
+            ${{ github.workspace }}/GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-server.zip
           generate_release_notes: false
 
       - name: Upload Curseforge
         uses: henkelmax/upload-curseforge-modpack-action@v1.0.0
         with: 
           api-token: ${{ secrets.CF_API_TOKEN }}
-          project-id: "565238"
-          modpack-path: "./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}.zip"
-          modpack-server-path: "./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-server.zip"
+          project-id: '565238'
+          modpack-path: ${{ github.workspace }}/GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}.zip
+          modpack-server-path: ${{ github.workspace }}/GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-server.zip
           changelog: 'Check the changes here. [Github - CHANGELOG.md](https://github.com/GTModpackTeam/gregtech-expert-2/blob/main/CHANGELOG_v2.md "")' 
-          changelog-format: "markdown"
-          game-version: "1.12.2"
-          display-name: "GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}"
-          server-display-name: "GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-server"
-          release-type: "${{ steps.get_version.outputs.LEVEL }}"
+          changelog-format: markdown
+          game-version: '1.12.2'
+          display-name: GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}
+          server-display-name: GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-server
+          release-type: ${{ steps.get_version.outputs.LEVEL }}
