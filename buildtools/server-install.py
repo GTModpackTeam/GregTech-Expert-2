@@ -42,4 +42,6 @@ for key in manifest_json["files"]:
         mod_file = requests.get(mod_json["data"]["downloadUrl"], stream=True)
         with open(mod_json["data"]["fileName"], "wb") as f:
             shutil.copyfileobj(mod_file.raw, f)
-        del mod_file
+            print("Downloaded {f}".format(f=mod_json["data"]["fileName"]))
+
+os.chdir("../")

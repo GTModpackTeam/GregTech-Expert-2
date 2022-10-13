@@ -42,9 +42,9 @@ jobs:
           if [ -f buildtools/requirements.txt ]; then pip install -r buildtools/requirements.txt; fi
 
       - name: Run Python
-        run: python buildtools/server-install.py
         env:
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+        run: python buildtools/server-install.py
 
       - name: Archive Release Server
         uses: thedoctor0/zip-release@master
