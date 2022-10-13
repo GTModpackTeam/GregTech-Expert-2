@@ -693,6 +693,20 @@ lathe.recipeBuilder()
 ########################################
 # Blocks
 ########################################
+# Crafting Station
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <ore:plankWood> * 4,
+        <ore:chestWood> * 2,
+        <ore:slabWood>,
+        <minecraft:crafting_table>
+    ])
+    .outputs([<metaitem:workbench>])
+    .duration(100)
+    .EUt(16)
+    .buildAndRegister();
+
 # Quartz Block (Override)
 compressor.findRecipe(2, [<metaitem:gemCertusQuartz> * 9], null).remove();
 fluid_solidifier.findRecipe(7, [<metaitem:shape.mold.block>], [<liquid:certus_quartz> * 1296]).remove();
