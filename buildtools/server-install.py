@@ -1,10 +1,10 @@
+#!/usr/bin/env python3
 # GTE2 Server install
 
 ## Import library
 import json
 import os
 import shutil
-
 import requests
 
 ## Init
@@ -31,15 +31,15 @@ os.chdir("./mods")
 
 ## Access CF and save file if request succeeds
 for key in manifest_json["files"]:
-    mod_json = requests.get("{f1}/v1/mods/{f2}/files/{f3}".format(
-        f1=cf_url,
-        f2=key["projectID"],
-        f3=key["fileID"]
+    mod_json = requests.get("{}/v1/mods/{}/files/{}".format(
+        cf_url,
+        key["projectID"],
+        key["fileID"]
     ), allow_redirects=True, stream=True, headers=headers)
 
     if mod_json.status_code == 200:
         mod_json = mod_json.json()
-        mod_file = requests.get(mod_json["data"]["downloadUrl"], stream=True)
+        mod_file = requests.get(mod_json["data"]["downloadUrl"], allow_redirects=True, stream=True, headers=headers)
         with open(mod_json["data"]["fileName"], "wb") as f:
             shutil.copyfileobj(mod_file.raw, f)
             print("Downloaded {f}".format(f=mod_json["data"]["fileName"]))
