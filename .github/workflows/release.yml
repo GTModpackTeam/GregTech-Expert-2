@@ -59,27 +59,39 @@ jobs:
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
         run: python buildtools/server-install.py
 
+      - name: Rename Directory Server
+        run: |
+          cd ../
+          mv -vf overrides/* ./
+          rmdir overrides
+
       - name: Archive Release Server
         uses: thedoctor0/zip-release@master
         with:
           type: zip
           filename: ${{ github.workspace }}/GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-server.zip
-          exclusions: '*.git* *.zip .editorconfig LICENSE *.md *.github/* *buildtools/* */cf/* */mmc/*'
+          exclusions: '*.git* *.zip .editorconfig LICENSE *.md *.github/* *buildtools/* *cf/* *mmc/*'
 
       - name: Copy MMC manifest
         run: |
           cp -vf mmc/mmc-pack.json mmc-pack.json
           cp -vf mmc/instance.cfg instance.cfg
 
-      - name: Rename Directory MMC
-        run: mv -vf overrides/ .minecraft/
+      - name: Move Directory MMC
+        run: |
+          mkdir .minecraft/
+          mv -vf bansoukou/ .minecraft/
+          mv -vf config/ .minecraft/
+          mv -vf local/ .minecraft/
+          mv -vf resources/ .minecraft/
+          mv -vf scripts/ .minecraft/
 
       - name: Archive Release MMC
         uses: thedoctor0/zip-release@master
         with:
           type: zip
           filename: ${{ github.workspace }}/GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-mmc.zip
-          exclusions: '*.git* *.zip .editorconfig LICENSE *.md *.github/* */buildtools/* */cf/* */mmc/*'
+          exclusions: '*.git* *.zip .editorconfig LICENSE *.md *.github/* *buildtools/* *cf/* *mmc/*'
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v1
