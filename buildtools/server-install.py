@@ -16,7 +16,7 @@ headers = {
 }
 
 ### Import List
-manifest_json = json.load(open("manifest.json"))
+manifest_json = json.load(open("cf/manifest.json"))
 
 ## Move dir
 shutil.move("./overrides/bansoukou/", "./")
