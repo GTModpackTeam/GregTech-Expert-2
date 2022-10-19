@@ -55,7 +55,7 @@ jobs:
       - name: Run Python
         env:
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
-        run: buildtools/server-install.py
+        run: python buildtools/server-install.py
       
       - name: Archive Release Server
         uses: thedoctor0/zip-release@master
