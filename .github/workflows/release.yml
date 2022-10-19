@@ -23,14 +23,25 @@ jobs:
         run: |
           MODPACKVERSION=${{ steps.get_version.outputs.VERSION }}
           echo "GregTech Expert 2 ${MODPACKVERSION} ${{ steps.get_version.outputs.LEVEL }}" > ./overrides/resources/custommainmenu/version.txt
-          sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" manifest.json
+          sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" cf/manifest.json
+          sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" mmc/instance.cfg
 
-      - name: Archive Release Client
+      - name: Copy CF manifest
+        run: |
+          cp -vf cf/manifest.json manifest.json
+          cp -vf cf/modlist.html modlist.html
+      
+      - name: Archive Release CF
         uses: thedoctor0/zip-release@master
         with:
           type: zip
           filename: ${{ github.workspace }}/GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}.zip
-          exclusions: '*.git* .editorconfig LICENSE *.md */.github/* *mods/* *serverfiles/* *buildtools/*'
+          exclusions: '*.git* .editorconfig LICENSE *.md */.github/* *mods/* *serverfiles/* *buildtools/* *cf/* *mmc/*'
+
+      - name: Delte CF manifest
+        run: |
+          rm -vf manifest.json
+          rm -vf modlist.html
 
       - name: Setup Python
         uses: actions/setup-python@v4
@@ -53,7 +64,14 @@ jobs:
         with:
           type: zip
           filename: ${{ github.workspace }}/GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-server.zip
-          exclusions: '*.git* *.zip .editorconfig LICENSE *.md */.github/* *overrides/* *buildtools/*'
+          exclusions: '*.git* *.zip .editorconfig LICENSE *.md *.github/* *overrides/* *buildtools/* *cf/* *mmc/*'
+
+      - name: Archive Release MMC
+        uses: thedoctor0/zip-release@master
+        with:
+          type: zip
+          filename: ${{ github.workspace }}/GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-mmc.zip
+          exclusions: '*.git* *.zip .editorconfig LICENSE *.md *.github/* *overrides/* *buildtools/* *cf/* *mmc/*'
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v1
@@ -62,6 +80,7 @@ jobs:
           prerelease: false
           files: |
             ${{ github.workspace }}/GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}.zip
+            ${{ github.workspace }}/GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-mmc.zip
             ${{ github.workspace }}/GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-server.zip
           generate_release_notes: false
 
