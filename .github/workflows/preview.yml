@@ -24,20 +24,11 @@ jobs:
           sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" cf/manifest.json
           sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" mmc/instance.cfg
 
-      - name: Copy CF manifest
-        run: |
+      - name: Archive Release CF
+        run: | 
           cp -vf cf/manifest.json manifest.json
           cp -vf cf/modlist.html modlist.html
-      
-      - name: Archive Release CF
-        uses: thedoctor0/zip-release@master
-        with:
-          type: zip
-          filename: ${{ github.workspace }}/GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}.zip
-          exclusions: '*.git* .editorconfig LICENSE *.md */.github/* *serverfiles/* *buildtools/* *cf/* *mmc/*'
-
-      - name: Delte CF manifest
-        run: |
+          zip -r GregTech-Expert-2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}.zip manifest.json modlist.html overrides 
           rm -vf manifest.json
           rm -vf modlist.html
 
@@ -57,39 +48,23 @@ jobs:
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
         run: python buildtools/server-install.py
       
-      - name: Rename Directory Server
+      - name: Archive Release Server
         run: |
-          cd ../
           mv -vf overrides/* ./
           rmdir overrides
+          zip -r ${{ github.workspace }}/GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-server.zip ./bansoukou/ ./config/ ./local/ ./mods/ ./resources/ ./scripts/
 
-      - name: Archive Release Server
-        uses: thedoctor0/zip-release@master
-        with:
-          type: zip
-          filename: ${{ github.workspace }}/GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-server.zip
-          exclusions: '*.git* *.zip .editorconfig LICENSE *.md *.github/* *buildtools/* *cf/* *mmc/*'
-
-      - name: Copy MMC manifest
+      - name: Archive Release MMC
         run: |
           cp -vf mmc/mmc-pack.json mmc-pack.json
           cp -vf mmc/instance.cfg instance.cfg
-
-      - name: Move Directory MMC
-        run: |
           mkdir .minecraft/
           mv -vf bansoukou/ .minecraft/
           mv -vf config/ .minecraft/
           mv -vf local/ .minecraft/
           mv -vf resources/ .minecraft/
           mv -vf scripts/ .minecraft/
-
-      - name: Archive Release MMC
-        uses: thedoctor0/zip-release@master
-        with:
-          type: zip
-          filename: ${{ github.workspace }}/GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-mmc.zip
-          exclusions: '*.git* *.zip .editorconfig LICENSE *.md *.github/* *buildtools/* *cf/* *mmc/*'
+          zip -r ${{ github.workspace }}/GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-mmc.zip ./mmc-pack.json ./instance.cfg .minecraft/
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v1
