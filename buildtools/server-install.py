@@ -25,11 +25,8 @@ shutil.move("./overrides/local/", "./")
 shutil.move("./overrides/resources/", "./")
 shutil.move("./overrides/scripts/", "./")
 
-## Download mods
-os.makedirs("mods")
-os.chdir("./mods")
-
 ## Access CF and save file if request succeeds
+os.makedirs("mods")
 for key in manifest_json["files"]:
     mod_json = requests.get("{}/v1/mods/{}/files/{}".format(
         cf_url,
@@ -42,6 +39,5 @@ for key in manifest_json["files"]:
         mod_file = requests.get(mod_json["data"]["downloadUrl"], allow_redirects=True, stream=True, headers=headers)
         with open(mod_json["data"]["fileName"], "wb") as f:
             shutil.copyfileobj(mod_file.raw, f)
+            shutil.move(mod_json["data"]["fileName"], "./mods")
             print("Downloaded {f}".format(f=mod_json["data"]["fileName"]))
-
-os.chdir("../")
