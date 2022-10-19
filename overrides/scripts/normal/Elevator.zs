@@ -39,7 +39,7 @@ recipes.addShaped(<elevatorid:elevator_black>, [
 ]);
 chemical_bath.recipeBuilder()
     .inputs([<ore:blockElevator>])
-    .fluidInputs([<liquid:chlorine> * 144])
+    .fluidInputs([<liquid:chlorine> * 50])
     .outputs([<elevatorid:elevator_black>])
     .duration(400)
     .EUt(7)
