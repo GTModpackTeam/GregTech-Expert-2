@@ -62,7 +62,7 @@ jobs:
         with:
           type: zip
           filename: ${{ github.workspace }}/GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-server.zip
-          exclusions: '*.git* *.zip .editorconfig LICENSE *.md */.github/* *overrides/* *buildtools/* *cf/* *mmc/*'
+          exclusions: '*.git* *.zip .editorconfig LICENSE *.md */.github/* */buildtools/* */cf/* */mmc/*'
 
       - name: Copy MMC manifest
         run: |
@@ -70,14 +70,14 @@ jobs:
           cp -vf mmc/instance.cfg instance.cfg
 
       - name: Rename Directory MMC
-        run: mv -vf overrides .minecraft
+        run: mv -fv overrides/ .minecraft/
 
       - name: Archive Release MMC
         uses: thedoctor0/zip-release@master
         with:
           type: zip
           filename: ${{ github.workspace }}/GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-mmc.zip
-          exclusions: '*.git* *.zip .editorconfig LICENSE *.md */.github/* *overrides/* *buildtools/* *cf/* *mmc/*'
+          exclusions: '*.git* *.zip .editorconfig LICENSE *.md */.github/* */buildtools/* */cf/* */mmc/*'
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v1
