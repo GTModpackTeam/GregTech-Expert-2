@@ -295,10 +295,20 @@ recipes.addShaped(<metaitem:matrix_core>, [
     [<appliedenergistics2:material:43>, <ore:crystalFluix>, <appliedenergistics2:material:43>],
     [<metaitem:stickAluminium>, <appliedenergistics2:material:44>, <metaitem:stickAluminium>]
 ]);
+recipes.addShaped(<metaitem:matrix_core>, [
+    [<metaitem:stickAluminium>, <appliedenergistics2:material:43>, <metaitem:stickAluminium>],
+    [<appliedenergistics2:material:44>, <ore:crystalFluix>, <appliedenergistics2:material:44>],
+    [<metaitem:stickAluminium>, <appliedenergistics2:material:43>, <metaitem:stickAluminium>]
+]);
 recipes.addShaped(<metaitem:matrix_core> * 2, [
     [<metaitem:stickAluminium>, <appliedenergistics2:material:44>, <metaitem:stickAluminium>],
     [<appliedenergistics2:material:43>, <ore:crystalPureFluix>, <appliedenergistics2:material:43>],
     [<metaitem:stickAluminium>, <appliedenergistics2:material:44>, <metaitem:stickAluminium>]
+]);
+recipes.addShaped(<metaitem:matrix_core> * 2, [
+    [<metaitem:stickAluminium>, <appliedenergistics2:material:43>, <metaitem:stickAluminium>],
+    [<appliedenergistics2:material:44>, <ore:crystalPureFluix>, <appliedenergistics2:material:44>],
+    [<metaitem:stickAluminium>, <appliedenergistics2:material:43>, <metaitem:stickAluminium>]
 ]);
 assembler.recipeBuilder()
     .circuit(3)
