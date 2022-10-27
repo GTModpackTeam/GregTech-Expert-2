@@ -250,7 +250,7 @@ assembler.recipeBuilder()
     .fluidInputs([<liquid:plastic> * 144])
     .outputs([<appliedenergistics2:material:43> * 4])
     .duration(20)
-    .EUt(1920)
+    .EUt(7680)
     .buildAndRegister();
 
 # Annihilation Core
@@ -286,7 +286,7 @@ assembler.recipeBuilder()
     .fluidInputs([<liquid:plastic> * 144])
     .outputs([<appliedenergistics2:material:44> * 4])
     .duration(20)
-    .EUt(1920)
+    .EUt(7680)
     .buildAndRegister();
 
 # Matrix Core
@@ -321,7 +321,7 @@ assembler.recipeBuilder()
     .fluidInputs([<liquid:plastic> * 144])
     .outputs([<metaitem:matrix_core> * 4])
     .duration(20)
-    .EUt(1920)
+    .EUt(7680)
     .buildAndRegister();
 assembler.recipeBuilder()
     .circuit(2)
@@ -335,7 +335,7 @@ assembler.recipeBuilder()
     .fluidInputs([<liquid:plastic> * 144])
     .outputs([<metaitem:matrix_core> * 4])
     .duration(100)
-    .EUt(1920)
+    .EUt(7680)
     .buildAndRegister();
 
 # View Cell
