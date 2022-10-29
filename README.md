@@ -3,25 +3,30 @@
 [![Curseforge](https://cf.way2muchnoise.eu/full_565238_downloads.svg)](https://www.curseforge.com/minecraft/modpacks/gregtech-expert-2) [![Curseforge](https://cf.way2muchnoise.eu/versions/For%20MC_565238_latest.svg)](https://www.curseforge.com/minecraft/modpacks/gregtech-expert-2) <a title="Join us on Discord!" href="https://discord.gg/xBwHpZyZdW"><img src="https://img.shields.io/discord/945647524855812176?label=GTExpert%20Discord&amp;logo=Discord&amp;style=?flat" alt="Discord"/></a> [![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 
 ## Modpack Version Information
-### v1
+### All Versions
 #### en_us
-* The stable version is released to CurseForge and is developed to maintain compatibility when updated to v2.
-* Currently, v2 is under development, and bug fixes in v1 will be incorporated in v2.
+* Major version upgrades in the following categories are not compatible.
 
 #### ja_jp
-* CurseForgeへ公開している安定版でv2へ更新時、互換を保つように開発されている。
-* なお現在はv2の開発に移行しており、v1でのバグ修正はv2にて取り込まれる。
+* 下記区分の大きなバージョンアップは互換性はありません。
 
-### v2
+### v1.x.x
 #### en_us
-* The next stable version that will begin to be released as a mirror on CurseForge and Github. The original version included GCY:S (Gregicality Science), but this version was slid from 2022/10/28 based on GT's development situation.
-* Compatibility from v1 to v2 will be maintained, but not from v2 to v3 as it is impractical to do so.
+* Stable version as of 10/28/2022 released to CurseForge. Currently, v2 is under development, and bug fixes in v1 will be included in v2.
 
 #### ja_jp
-* CurseForgeやGithubでもミラーとして公開し始める次期安定版。元はGCY:S(Gregicality Science)を含んだバージョンだが、GTの開発事情を踏まえて2022/10/28からスライドしたバージョン。
-* なおv1からv2への互換は保つが、v2からv3への互換は現実的ではないため行われない。
+* CurseForgeへ公開している2022/10/28現状での安定版。なお現在はv2の開発に移行しており、v1でのバグ修正はv2にて取り込まれる。
 
-### v3
+### v2.x.x
+#### en_us
+* Next stable version to start releasing as a mirror on CurseForge and Github as the next version.
+* The original version included GCY:S (Gregicality Science), but the plan was changed to v3 from 2022/10/28 based on GT's development status.
+
+#### ja_jp
+* CurseForgeやGithubでもミラーとして公開し始める次期安定版。
+* 元はGCY:S(Gregicality Science)を含んだバージョンだが、GTの開発事情を踏まえて2022/10/28からv3に計画変更された。
+
+### v3.x.x
 #### en_us
 * An experimental version that includes significant development contributions from GCY:S. It will eventually be introduced but not officially released until much later.
 * Single-player play is not recommended, and as long as v2 is stable, the only distribution method will be GitHub.
