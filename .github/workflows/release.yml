@@ -28,8 +28,8 @@ jobs:
 
       - name: Archive Release CF
         run: |
-          cp -vf ./cf/manifest.json manifest.json
-          cp -vf ./cf/modlist.html modlist.html
+          cp -vf ./cf/manifest.json ./manifest.json
+          cp -vf ./cf/modlist.html ./modlist.html
           zip -r ./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}.zip ./manifest.json ./modlist.html ./overrides/
           rm -vf ./manifest.json
           rm -vf ./modlist.html
@@ -52,8 +52,9 @@ jobs:
 
       - name: Archive Release MMC
         run: |
-          cp -vf ./mmc/mmc-pack.json mmc-pack.json
-          cp -vf ./mmc/instance.cfg instance.cfg
+          cp -vf ./mmc/mmc-pack.json ./mmc-pack.json
+          cp -vf ./mmc/instance.cfg ./instance.cfg
+          cp -vf ./mmc/icon.png ./icon.png
           mv -vf ./overrides/ .minecraft/
           zip -r ./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-mmc.zip ./mmc-pack.json ./instance.cfg .minecraft/
 

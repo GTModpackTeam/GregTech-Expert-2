@@ -644,11 +644,562 @@ minecraft:record_ward, Music Disc
 minecraft:record_11, Music Disc
 minecraft:record_wait, Music Disc
 aenetvistool:net_visualizer, Network Visualization Tool
+aeadditions:part.base:0, ME Drive Fixture
+aeadditions:part.base:1, ME Energy Cell Fixture
+aeadditions:part.base:2, ME Fluid Interface
+aeadditions:part.base:3, ME Ore Dictionary Export Bus
+aeadditions:storage.fluid:0, ME 256k Fluid Storage Cell
+aeadditions:storage.fluid:1, ME 1024k Fluid Storage Cell
+aeadditions:storage.fluid:2, ME 4096k Fluid Storage Cell
+aeadditions:storage.physical:0, ME 256k Storage Cell
+aeadditions:storage.physical:1, ME 1024k Storage Cell
+aeadditions:storage.physical:2, ME 4096k Storage Cell
+aeadditions:storage.physical:3, ME 16384k Storage Cell
+aeadditions:storage.physical:4, ME Block Container - Empty
+aeadditions:storage.physical:4, ME Block Container - Empty
+aeadditions:pattern.fluid:0, ME Fluid Pattern
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Water
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Lava
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Aluminium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Americium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Antimony
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Argon
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Argon Plasma
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Arsenic
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Beryllium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Bismuth
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Carbon
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Cerium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Chlorine
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Chrome
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Cobalt
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Copper
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Darmstadtium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Deuterium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Europium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Fluorine
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Gallium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Gold
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Hydrogen
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Helium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Helium Plasma
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Helium-3
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Indium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Iridium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Iron
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Iron Plasma
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Krypton
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Lanthanum
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Lead
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Lithium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Lutetium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Magnesium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Manganese
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Mercury
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molybdenum
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Neodymium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Neon
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Nickel
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Nickel Plasma
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Niobium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Nitrogen
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Nitrogen Plasma
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Osmium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Oxygen
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Oxygen Plasma
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Palladium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Platinum
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Plutonium 239
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Plutonium 241
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Potassium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Radon
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Rhodium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Ruthenium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Samarium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Silicon
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Silver
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Tantalum
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Thorium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Tin
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Titanium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Tritium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Tungsten
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Uranium 238
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Uranium 235
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Vanadium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Xenon
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Yttrium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Zinc
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Naquadah
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Enriched Naquadah
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Naquadria
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Neutronium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Tritanium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Duranium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Trinium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Certus Quartz
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Annealed Copper
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Battery Alloy
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Brass
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Bronze
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Liquid Oxygen
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Cupronickel
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Electrum
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Ice
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Invar
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Kanthal
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Magnalium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Nichrome
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Niobium Nitride
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Niobium-Titanium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Sterling Silver
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Rose Gold
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Black Bronze
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Bismuth Bronze
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Ruridit
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Soldering Alloy
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Stainless Steel
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Steel
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Tin Alloy
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Ultimet
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Vanadium-Gallium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Wrought Iron
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Yttrium Barium Cuprate
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Nether Quartz
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Osmiridium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Gallium Arsenide
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Indium Gallium Phosphide
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Nickel Zinc Ferrite
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Sodium Persulfate
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Tungstencarbide
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Carbon Dioxide
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Titanium Tetrachloride
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Nitrogen Dioxide
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Hydrogen Sulfide
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Nitric Acid
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Sulfuric Acid
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Phosphoric Acid
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Sulfur Trioxide
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Sulfur Dioxide
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Carbon Monoxide
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Hypochlorous Acid
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Ammonia
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Hydrofluoric Acid
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Nitric Oxide
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Iron III Chloride
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Uranium Hexafluoride
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Enriched Uranium Hexafluoride
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Depleted Uranium Hexafluoride
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Nitrous Oxide
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Enderpearl
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Hydrochloric Acid
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Steam
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Distilled Water
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Sodium Potassium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Manganese Phosphide
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Magnesium Diboride
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Mercury Barium Calcium Cuprate
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Uranium Triplatinum
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Samarium Iron Arsenic Oxide
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Indium Tin Barium Titanium Cuprate
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Uranium Rhodium Dinaquadide
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Enriched Naquadah Trinium Europium Duranide
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Ruthenium Trinium Americium Neutronate
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Rhodium Sulfate
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Fluoroantimonic Acid
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Liquid Helium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Silicone Rubber
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Nitrobenzene
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Styrene-Butadiene Rubber
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Polyvinyl Acetate
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Fiber-Reinforced Epoxy Resin
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Polyvinyl Chloride (PVC)
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Polyphenylene Sulfide
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Glyceryl Trinitrate
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Polybenzimidazole (PBI)
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Polyethylene (PE)
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Epoxy Resin
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Polycaprolactam
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Polytetrafluoroethylene (PTFE)
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Methane
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Epichlorohydrin
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Monochloramine
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Chloroform
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Cumene
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Tetrafluoroethylene
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Chloromethane
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Allyl Chloride
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Isoprene
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Propane
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Propene
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Ethane
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Butene
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Butane
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Dissolved Calcium Acetate
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Vinyl Acetate
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Methyl Acetate
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Ethenone
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Tetranitromethane
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Dimethylamine
+aeadditions:pattern.fluid:0, ME Fluid Pattern: 1,1-Dimethylhydrazine
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Dinitrogen Tetroxide
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Dimethyldichlorosilane
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Styrene
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Butadiene
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Dichlorobenzene
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Acetic Acid
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Phenol
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Bisphenol A
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Vinyl Chloride
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Ethylene
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Benzene
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Acetone
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Glycerol
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Methanol
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Ethanol
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Toluene
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Diphenyl Isophthalate
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Phthalic Acid
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Dimethylbenzene
+aeadditions:pattern.fluid:0, ME Fluid Pattern: 3,3-Diaminobenzidine
+aeadditions:pattern.fluid:0, ME Fluid Pattern: 3,3-Dichlorobenzidine
+aeadditions:pattern.fluid:0, ME Fluid Pattern: 2-Nitrochlorobenzene
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Chlorobenzene
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Octane
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Ethyl Tert-Butyl Ether
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Ethylbenzene
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Naphthalene
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Rubber
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Cyclohexane
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Nitrosyl Chloride
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Butyraldehyde
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Polyvinyl Butyral
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Wood Gas
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Wood Vinegar
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Wood Tar
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Charcoal Byproducts
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Biomass
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Bio Diesel
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Fermented Biomass
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Creosote
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Diesel
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Rocket Fuel
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Glue
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Lubricant
+aeadditions:pattern.fluid:0, ME Fluid Pattern: McGuffium 239
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Indium Concentrate
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Seed Oil
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Drilling Fluid
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Construction Foam
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Sulfuric Heavy Fuel
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Heavy Fuel
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Lightly Hydro-Cracked Heavy Fuel
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Severely Hydro-Cracked Heavy Fuel
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Lightly Steam-Cracked Heavy Fuel
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Severely Steam-Cracked Heavy Fuel
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Sulfuric Light Fuel
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Light Fuel
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Lightly Hydro-Cracked Light Fuel
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Severely Hydro-Cracked Light Fuel
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Lightly Steam-Cracked Light Fuel
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Severely Steam-Cracked Light Fuel
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Sulfuric Naphtha
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Naphtha
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Lightly Hydro-Cracked Naphtha
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Severely Hydro-Cracked Naphtha
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Lightly Steam-Cracked Naphtha
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Severely Steam-Cracked Naphtha
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Sulfuric Gas
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Refinery Gas
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Lightly Hydro-Cracked Refinery Gas
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Severely Hydro-Cracked Refinery Gas
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Lightly Steam-Cracked Refinery Gas
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Severely Steam-Cracked Refinery Gas
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Hydro-Cracked Ethane
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Hydro-Cracked Ethylene
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Hydro-Cracked Propene
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Hydro-Cracked Propane
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Hydro-Cracked Butane
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Hydro-Cracked Butene
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Hydro-Cracked Butadiene
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Steam-Cracked Ethane
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Steam-Cracked Ethylene
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Steam-Cracked Propene
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Steam-Cracked Propane
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Steam-Cracked Butane
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Steam-Cracked Butene
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Steam-Cracked Butadiene
+aeadditions:pattern.fluid:0, ME Fluid Pattern: LPG
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Raw Growth Medium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Sterilized Growth Medium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Oil
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Heavy Oil
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Raw Oil
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Light Oil
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Natural Gas
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Bacteria
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Bacterial Sludge
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Enriched Bacterial Sludge
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Mutagen
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Gelatin Mixture
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Raw Gasoline
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Gasoline
+aeadditions:pattern.fluid:0, ME Fluid Pattern: High Octane Gasoline
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Coal Gas
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Coal Tar
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Glowstone
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Cetane-Boosted Diesel
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Milk
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Fish Oil
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Ruby Slurry
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Sapphire Slurry
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Green Sapphire Slurry
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Chemical Black Dye
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Chemical Red Dye
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Chemical Green Dye
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Chemical Brown Dye
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Chemical Blue Dye
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Chemical Purple Dye
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Chemical Cyan Dye
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Chemical Light Gray Dye
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Chemical Gray Dye
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Chemical Pink Dye
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Chemical Lime Dye
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Chemical Yellow Dye
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Chemical Light Blue Dye
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Chemical Magenta Dye
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Chemical Orange Dye
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Chemical White Dye
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Impure Enriched Naquadah Solution
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Enriched Naquadah Solution
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Acidic Enriched Naquadah Solution
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Enriched Naquadah Waste
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Impure Naquadria Solution
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Naquadria Solution
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Acidic Naquadria Solution
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Naquadria Waste
+aeadditions:pattern.fluid:0, ME Fluid Pattern: UU-Matter
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Glass
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Salt Water
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Blaze
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Black Steel
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Damascus Steel
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Tungstensteel
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Cobalt Brass
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Concrete
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Vanadiumsteel
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Potin
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Borosilicate Glass
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Naquadah Alloy
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Sulfuric Nickel Solution
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Sulfuric Copper Solution
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Lead-Zinc Solution
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Nitration Mixture
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Diluted Sulfuric Acid
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Diluted Hydrochloric Acid
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Air
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Liquid Air
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Nether Air
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Liquid Nether Air
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Ender Air
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Liquid Ender Air
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Aqua Regia
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Acidic Osmium Solution
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Rhodium Plated Palladium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Redstone
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Red Steel
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Blue Steel
+aeadditions:pattern.fluid:0, ME Fluid Pattern: HSS-G
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Red Alloy
+aeadditions:pattern.fluid:0, ME Fluid Pattern: HSS-E
+aeadditions:pattern.fluid:0, ME Fluid Pattern: HSS-S
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Blue Alloy
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Stellite-100
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Watertight Steel
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Maraging Steel 300
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Hastelloy-C276
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Hastelloy-X
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Trinaquadalloy
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Zeron-100
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Titanium Carbide
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Tantalum Carbide
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molybdenum Disilicide
+aeadditions:pattern.fluid:0, ME Fluid Pattern: HSLA Steel
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Titanium Tungsten Carbide
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Incoloy-MA956
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Isopropyl Chloride
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Lemon Extract
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Lime Extract
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Orange Juice
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Apple Juice
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Apple Cider
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Unheated Cane Syrup
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Cane Syrup
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Purple Drink
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Frying Oil
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Hot Frying Oil
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Starch-Filled Water
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Mushroom Stew
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Beetroot Soup
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Italian Buffalo's Milk
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Crude Rennet Solution
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Whey
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Activated Buffalo Milk
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Whey/Salt Water Mix
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Heated Ricotta Starter
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Acidic Milk Solution
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Coagulating Ricotta Solution
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Tomato Sauce
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Olive Oil
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Sludge
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Alkaline Extract
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Potato Juice
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Vodka
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Leninade
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Perchloric Acid
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Chloroauric Acid
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Moist Air
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Cold Moist Air
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Albumen
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Yolk
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Butter
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Rabbit Stew
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Liquid Fat (Stearin)
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Stearic Acid
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Sodium Stearate (Soap)
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Citric Acid
+aeadditions:pattern.fluid:0, ME Fluid Pattern: material.gtfo_hydrogen_cyanide
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Cream
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Skim Milk
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Soy Lecithin
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Raw Soybean Oil
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Hydrated Soybean Oil
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Refined Soybean Oil
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Pasteurized Milk
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Milk Colloid
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Ice Cream Mixture
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Guaiacol
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Acetaldehyde
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Glyoxal
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Glyoxylic Acid
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Melon Extract
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Unsweetened Chocolate
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Cocoa Butter
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Dark Chocolate
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Milk Chocolate
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Sodium Arsenite Solution
+aeadditions:pattern.fluid:0, ME Fluid Pattern: material.gtfo_rubber_sap
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Rainbow Sap
+aeadditions:pattern.fluid:0, ME Fluid Pattern: material.gtfo_blue_vitriol
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Baking Soda Solution
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Beer Batter
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Wheaty Juice
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Poor-Quality Beer
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Sweetened Diluted Cane Syrup Mixture
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Marshmallow Syrup Mixture
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Marshmallow Foam
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Sodium Carbonate Solution
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Coffee
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Energizing Coffee
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Galvalume
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Noble-Metal High-Entropy-Alloy Nanoparticles
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Electrical Steel
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Energetic Alloy
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Vibrant Alloy
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Redstone Alloy
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Pulsating Iron
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Dark Steel
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Soularium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: End Steel
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Crystalline Alloy
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Melodic Alloy
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Stellar Alloy
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Energetic Silver
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Vivid Alloy
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Fluix
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Charged Certus Quartz
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Naquadah Rocket Fuel
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Kanthal
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Nichrome
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Niobium-Titanium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Black Bronze
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Ruridit
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Ultimet
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Vanadium-Gallium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Osmiridium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Tungstencarbide
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Magnesium Diboride
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Uranium Triplatinum
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Uranium Rhodium Dinaquadide
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Enriched Naquadah Trinium Europium Duranide
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Tungstensteel
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Naquadah Alloy
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Rhodium Plated Palladium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten HSS-G
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten HSS-E
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten HSS-S
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Stellite-100
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Watertight Steel
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Maraging Steel 300
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Hastelloy-C276
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Hastelloy-X
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Trinaquadalloy
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Zeron-100
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Titanium Carbide
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Tantalum Carbide
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Molybdenum Disilicide
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Titanium Tungsten Carbide
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Incoloy-MA956
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Noble-Metal High-Entropy-Alloy Nanoparticles
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Electrical Steel
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Energetic Alloy
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Vibrant Alloy
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Redstone Alloy
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Pulsating Iron
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Dark Steel
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Soularium
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten End Steel
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Stellar Alloy
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Energetic Silver
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Vivid Alloy
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Nutrient Distillation
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Dew of the Void
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Vapor of Levity
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Hootch
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Fire Water
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Liquid XP
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Liquid Sunshine
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Cloud Seed
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Concentrated Cloud Seed
+aeadditions:terminal.fluid.wireless, item.com.the9grounds.aeadditions.terminal.fluid.wireless.name
+aeadditions:storage.component:0, 256k ME Storage Component
+aeadditions:storage.component:1, 1024k ME Storage Component
+aeadditions:storage.component:2, 4096k ME Storage Component
+aeadditions:storage.component:3, 16384k ME Storage Component
+aeadditions:storage.component:4, 256k ME Fluid Storage Component
+aeadditions:storage.component:5, 1024k ME Fluid Storage Component
+aeadditions:storage.component:6, 4096k ME Fluid Storage Component
+aeadditions:storage.casing:0, Advanced Storage Housing
+aeadditions:storage.casing:1, Fluid Storage Housing
+aeadditions:fluid.item, item.com.the9grounds.aeadditions.fluid.item.name
+aeadditions:storage.fluid.portable:0, ME Portable Fluid Storage
+aeadditions:storage.fluid.portable:0, ME Portable Fluid Storage
+aeadditions:pattern.crafting, item.com.the9grounds.aeadditions.pattern.crafting.name
+aeadditions:terminal.universal.wireless, item.com.the9grounds.aeadditions.terminal.universal.wireless.name
+aeadditions:oc.upgrade:2, ME Upgrade (Tier 1)
+aeadditions:oc.upgrade:1, ME Upgrade (Tier 2)
+aeadditions:oc.upgrade:0, ME Upgrade (Tier 3)
+aeadditions:certustank, com.the9grounds.aeadditions.block.certustank.name
+aeadditions:fluidcrafter, ME Fluid Assembler
+aeadditions:fluidfiller, ME Fluid Auto Filler
+aeadditions:hardmedrive, Blast resistant ME Drive
+aeadditions:vibrantchamberfluid, Fluid Vibration Chamber
+aeadditions:gas_interface, ME Gas Interface
 chickenchunks:chunk_loader:0, Chunk Loader
 chickenchunks:chunk_loader:1, Spot Loader
 opencomputers:adapter:0, Adapter
 opencomputers:assembler:0, Electronics Assembler
-opencomputers:cable:11250603, Cable
+opencomputers:cable:0, Cable
 opencomputers:capacitor:0, Capacitor
 opencomputers:case1:0, Computer Case (Tier 1)
 opencomputers:case3:0, Computer Case (Tier 3)
@@ -781,6 +1332,7 @@ opencomputers:upgrade:19, Navigation Upgrade
 opencomputers:upgrade:20, Piston Upgrade
 opencomputers:upgrade:21, Sign I/O Upgrade
 opencomputers:upgrade:22, Solar Generator Upgrade
+opencomputers:upgrade:33, Sticky Piston Upgrade
 opencomputers:upgrade:23, Tank Upgrade
 opencomputers:upgrade:24, Tank Controller Upgrade
 opencomputers:upgrade:25, Tractor Beam Upgrade
@@ -800,538 +1352,6 @@ opencomputers:misc:0, EEPROM (Lua BIOS)
 enderstorage:ender_storage:0, Ender Chest
 enderstorage:ender_storage:1, Ender Tank
 enderstorage:ender_pouch, Ender Pouch
-extracells:part.base:0, ME Fluid Export Bus
-extracells:part.base:1, ME Fluid Import Bus
-extracells:part.base:2, ME Fluid Storage Bus
-extracells:part.base:3, ME Fluid Terminal
-extracells:part.base:4, ME Fluid Level Emitter
-extracells:part.base:5, ME Fluid Annihilation Plane
-extracells:part.base:6, ME Fluid Formation Plane
-extracells:part.base:7, ME Drive Fixture
-extracells:part.base:8, ME Energy Cell Fixture
-extracells:part.base:9, ME Fluid Interface
-extracells:part.base:10, ME Fluid Storage Monitor
-extracells:part.base:11, ME Fluid Conversion Monitor
-extracells:part.base:12, ME Ore Dictionary Export Bus
-extracells:storage.fluid:0, ME 1k Fluid Storage Cell
-extracells:storage.fluid:1, ME 4k Fluid Storage Cell
-extracells:storage.fluid:2, ME 16k Fluid Storage Cell
-extracells:storage.fluid:3, ME 64k Fluid Storage Cell
-extracells:storage.fluid:4, ME 256k Fluid Storage Cell
-extracells:storage.fluid:5, ME 1024k Fluid Storage Cell
-extracells:storage.fluid:6, ME 4096k Fluid Storage Cell
-extracells:storage.physical:0, ME 256k Storage Cell
-extracells:storage.physical:1, ME 1024k Storage Cell
-extracells:storage.physical:2, ME 4096k Storage Cell
-extracells:storage.physical:3, ME 16384k Storage Cell
-extracells:storage.physical:4, ME Block Container - Empty
-extracells:storage.physical:4, ME Block Container - Empty
-extracells:pattern.fluid:0, ME Fluid Pattern
-extracells:pattern.fluid:0, ME Fluid Pattern: Water
-extracells:pattern.fluid:0, ME Fluid Pattern: Lava
-extracells:pattern.fluid:0, ME Fluid Pattern: Aluminium
-extracells:pattern.fluid:0, ME Fluid Pattern: Americium
-extracells:pattern.fluid:0, ME Fluid Pattern: Antimony
-extracells:pattern.fluid:0, ME Fluid Pattern: Argon
-extracells:pattern.fluid:0, ME Fluid Pattern: Argon Plasma
-extracells:pattern.fluid:0, ME Fluid Pattern: Arsenic
-extracells:pattern.fluid:0, ME Fluid Pattern: Beryllium
-extracells:pattern.fluid:0, ME Fluid Pattern: Bismuth
-extracells:pattern.fluid:0, ME Fluid Pattern: Carbon
-extracells:pattern.fluid:0, ME Fluid Pattern: Cerium
-extracells:pattern.fluid:0, ME Fluid Pattern: Chlorine
-extracells:pattern.fluid:0, ME Fluid Pattern: Chrome
-extracells:pattern.fluid:0, ME Fluid Pattern: Cobalt
-extracells:pattern.fluid:0, ME Fluid Pattern: Copper
-extracells:pattern.fluid:0, ME Fluid Pattern: Darmstadtium
-extracells:pattern.fluid:0, ME Fluid Pattern: Deuterium
-extracells:pattern.fluid:0, ME Fluid Pattern: Europium
-extracells:pattern.fluid:0, ME Fluid Pattern: Fluorine
-extracells:pattern.fluid:0, ME Fluid Pattern: Gallium
-extracells:pattern.fluid:0, ME Fluid Pattern: Gold
-extracells:pattern.fluid:0, ME Fluid Pattern: Hydrogen
-extracells:pattern.fluid:0, ME Fluid Pattern: Helium
-extracells:pattern.fluid:0, ME Fluid Pattern: Helium Plasma
-extracells:pattern.fluid:0, ME Fluid Pattern: Helium-3
-extracells:pattern.fluid:0, ME Fluid Pattern: Indium
-extracells:pattern.fluid:0, ME Fluid Pattern: Iridium
-extracells:pattern.fluid:0, ME Fluid Pattern: Iron
-extracells:pattern.fluid:0, ME Fluid Pattern: Iron Plasma
-extracells:pattern.fluid:0, ME Fluid Pattern: Krypton
-extracells:pattern.fluid:0, ME Fluid Pattern: Lanthanum
-extracells:pattern.fluid:0, ME Fluid Pattern: Lead
-extracells:pattern.fluid:0, ME Fluid Pattern: Lithium
-extracells:pattern.fluid:0, ME Fluid Pattern: Lutetium
-extracells:pattern.fluid:0, ME Fluid Pattern: Magnesium
-extracells:pattern.fluid:0, ME Fluid Pattern: Manganese
-extracells:pattern.fluid:0, ME Fluid Pattern: Mercury
-extracells:pattern.fluid:0, ME Fluid Pattern: Molybdenum
-extracells:pattern.fluid:0, ME Fluid Pattern: Neodymium
-extracells:pattern.fluid:0, ME Fluid Pattern: Neon
-extracells:pattern.fluid:0, ME Fluid Pattern: Nickel
-extracells:pattern.fluid:0, ME Fluid Pattern: Nickel Plasma
-extracells:pattern.fluid:0, ME Fluid Pattern: Niobium
-extracells:pattern.fluid:0, ME Fluid Pattern: Nitrogen
-extracells:pattern.fluid:0, ME Fluid Pattern: Nitrogen Plasma
-extracells:pattern.fluid:0, ME Fluid Pattern: Osmium
-extracells:pattern.fluid:0, ME Fluid Pattern: Oxygen
-extracells:pattern.fluid:0, ME Fluid Pattern: Oxygen Plasma
-extracells:pattern.fluid:0, ME Fluid Pattern: Palladium
-extracells:pattern.fluid:0, ME Fluid Pattern: Platinum
-extracells:pattern.fluid:0, ME Fluid Pattern: Plutonium 239
-extracells:pattern.fluid:0, ME Fluid Pattern: Plutonium 241
-extracells:pattern.fluid:0, ME Fluid Pattern: Potassium
-extracells:pattern.fluid:0, ME Fluid Pattern: Radon
-extracells:pattern.fluid:0, ME Fluid Pattern: Rhodium
-extracells:pattern.fluid:0, ME Fluid Pattern: Ruthenium
-extracells:pattern.fluid:0, ME Fluid Pattern: Samarium
-extracells:pattern.fluid:0, ME Fluid Pattern: Silicon
-extracells:pattern.fluid:0, ME Fluid Pattern: Silver
-extracells:pattern.fluid:0, ME Fluid Pattern: Tantalum
-extracells:pattern.fluid:0, ME Fluid Pattern: Thorium
-extracells:pattern.fluid:0, ME Fluid Pattern: Tin
-extracells:pattern.fluid:0, ME Fluid Pattern: Titanium
-extracells:pattern.fluid:0, ME Fluid Pattern: Tritium
-extracells:pattern.fluid:0, ME Fluid Pattern: Tungsten
-extracells:pattern.fluid:0, ME Fluid Pattern: Uranium 238
-extracells:pattern.fluid:0, ME Fluid Pattern: Uranium 235
-extracells:pattern.fluid:0, ME Fluid Pattern: Vanadium
-extracells:pattern.fluid:0, ME Fluid Pattern: Xenon
-extracells:pattern.fluid:0, ME Fluid Pattern: Yttrium
-extracells:pattern.fluid:0, ME Fluid Pattern: Zinc
-extracells:pattern.fluid:0, ME Fluid Pattern: Naquadah
-extracells:pattern.fluid:0, ME Fluid Pattern: Enriched Naquadah
-extracells:pattern.fluid:0, ME Fluid Pattern: Naquadria
-extracells:pattern.fluid:0, ME Fluid Pattern: Neutronium
-extracells:pattern.fluid:0, ME Fluid Pattern: Tritanium
-extracells:pattern.fluid:0, ME Fluid Pattern: Duranium
-extracells:pattern.fluid:0, ME Fluid Pattern: Trinium
-extracells:pattern.fluid:0, ME Fluid Pattern: Certus Quartz
-extracells:pattern.fluid:0, ME Fluid Pattern: Annealed Copper
-extracells:pattern.fluid:0, ME Fluid Pattern: Battery Alloy
-extracells:pattern.fluid:0, ME Fluid Pattern: Brass
-extracells:pattern.fluid:0, ME Fluid Pattern: Bronze
-extracells:pattern.fluid:0, ME Fluid Pattern: Liquid Oxygen
-extracells:pattern.fluid:0, ME Fluid Pattern: Cupronickel
-extracells:pattern.fluid:0, ME Fluid Pattern: Electrum
-extracells:pattern.fluid:0, ME Fluid Pattern: Ice
-extracells:pattern.fluid:0, ME Fluid Pattern: Invar
-extracells:pattern.fluid:0, ME Fluid Pattern: Kanthal
-extracells:pattern.fluid:0, ME Fluid Pattern: Magnalium
-extracells:pattern.fluid:0, ME Fluid Pattern: Nichrome
-extracells:pattern.fluid:0, ME Fluid Pattern: Niobium Nitride
-extracells:pattern.fluid:0, ME Fluid Pattern: Niobium-Titanium
-extracells:pattern.fluid:0, ME Fluid Pattern: Sterling Silver
-extracells:pattern.fluid:0, ME Fluid Pattern: Rose Gold
-extracells:pattern.fluid:0, ME Fluid Pattern: Black Bronze
-extracells:pattern.fluid:0, ME Fluid Pattern: Bismuth Bronze
-extracells:pattern.fluid:0, ME Fluid Pattern: Ruridit
-extracells:pattern.fluid:0, ME Fluid Pattern: Soldering Alloy
-extracells:pattern.fluid:0, ME Fluid Pattern: Stainless Steel
-extracells:pattern.fluid:0, ME Fluid Pattern: Steel
-extracells:pattern.fluid:0, ME Fluid Pattern: Tin Alloy
-extracells:pattern.fluid:0, ME Fluid Pattern: Ultimet
-extracells:pattern.fluid:0, ME Fluid Pattern: Vanadium-Gallium
-extracells:pattern.fluid:0, ME Fluid Pattern: Wrought Iron
-extracells:pattern.fluid:0, ME Fluid Pattern: Yttrium Barium Cuprate
-extracells:pattern.fluid:0, ME Fluid Pattern: Nether Quartz
-extracells:pattern.fluid:0, ME Fluid Pattern: Osmiridium
-extracells:pattern.fluid:0, ME Fluid Pattern: Gallium Arsenide
-extracells:pattern.fluid:0, ME Fluid Pattern: Indium Gallium Phosphide
-extracells:pattern.fluid:0, ME Fluid Pattern: Nickel Zinc Ferrite
-extracells:pattern.fluid:0, ME Fluid Pattern: Sodium Persulfate
-extracells:pattern.fluid:0, ME Fluid Pattern: Tungstencarbide
-extracells:pattern.fluid:0, ME Fluid Pattern: Carbon Dioxide
-extracells:pattern.fluid:0, ME Fluid Pattern: Titanium Tetrachloride
-extracells:pattern.fluid:0, ME Fluid Pattern: Nitrogen Dioxide
-extracells:pattern.fluid:0, ME Fluid Pattern: Hydrogen Sulfide
-extracells:pattern.fluid:0, ME Fluid Pattern: Nitric Acid
-extracells:pattern.fluid:0, ME Fluid Pattern: Sulfuric Acid
-extracells:pattern.fluid:0, ME Fluid Pattern: Phosphoric Acid
-extracells:pattern.fluid:0, ME Fluid Pattern: Sulfur Trioxide
-extracells:pattern.fluid:0, ME Fluid Pattern: Sulfur Dioxide
-extracells:pattern.fluid:0, ME Fluid Pattern: Carbon Monoxide
-extracells:pattern.fluid:0, ME Fluid Pattern: Hypochlorous Acid
-extracells:pattern.fluid:0, ME Fluid Pattern: Ammonia
-extracells:pattern.fluid:0, ME Fluid Pattern: Hydrofluoric Acid
-extracells:pattern.fluid:0, ME Fluid Pattern: Nitric Oxide
-extracells:pattern.fluid:0, ME Fluid Pattern: Iron III Chloride
-extracells:pattern.fluid:0, ME Fluid Pattern: Uranium Hexafluoride
-extracells:pattern.fluid:0, ME Fluid Pattern: Enriched Uranium Hexafluoride
-extracells:pattern.fluid:0, ME Fluid Pattern: Depleted Uranium Hexafluoride
-extracells:pattern.fluid:0, ME Fluid Pattern: Nitrous Oxide
-extracells:pattern.fluid:0, ME Fluid Pattern: Hydrochloric Acid
-extracells:pattern.fluid:0, ME Fluid Pattern: Steam
-extracells:pattern.fluid:0, ME Fluid Pattern: Distilled Water
-extracells:pattern.fluid:0, ME Fluid Pattern: Sodium Potassium
-extracells:pattern.fluid:0, ME Fluid Pattern: Manganese Phosphide
-extracells:pattern.fluid:0, ME Fluid Pattern: Magnesium Diboride
-extracells:pattern.fluid:0, ME Fluid Pattern: Mercury Barium Calcium Cuprate
-extracells:pattern.fluid:0, ME Fluid Pattern: Uranium Triplatinum
-extracells:pattern.fluid:0, ME Fluid Pattern: Samarium Iron Arsenic Oxide
-extracells:pattern.fluid:0, ME Fluid Pattern: Indium Tin Barium Titanium Cuprate
-extracells:pattern.fluid:0, ME Fluid Pattern: Uranium Rhodium Dinaquadide
-extracells:pattern.fluid:0, ME Fluid Pattern: Enriched Naquadah Trinium Europium Duranide
-extracells:pattern.fluid:0, ME Fluid Pattern: Ruthenium Trinium Americium Neutronate
-extracells:pattern.fluid:0, ME Fluid Pattern: Rhodium Sulfate
-extracells:pattern.fluid:0, ME Fluid Pattern: Fluoroantimonic Acid
-extracells:pattern.fluid:0, ME Fluid Pattern: Silicone Rubber
-extracells:pattern.fluid:0, ME Fluid Pattern: Nitrobenzene
-extracells:pattern.fluid:0, ME Fluid Pattern: Styrene-Butadiene Rubber
-extracells:pattern.fluid:0, ME Fluid Pattern: Polyvinyl Acetate
-extracells:pattern.fluid:0, ME Fluid Pattern: Fiber-Reinforced Epoxy Resin
-extracells:pattern.fluid:0, ME Fluid Pattern: Polyvinyl Chloride (PVC)
-extracells:pattern.fluid:0, ME Fluid Pattern: Polyphenylene Sulfide
-extracells:pattern.fluid:0, ME Fluid Pattern: Glyceryl Trinitrate
-extracells:pattern.fluid:0, ME Fluid Pattern: Polybenzimidazole (PBI)
-extracells:pattern.fluid:0, ME Fluid Pattern: Polyethylene (PE)
-extracells:pattern.fluid:0, ME Fluid Pattern: Epoxy Resin
-extracells:pattern.fluid:0, ME Fluid Pattern: Polycaprolactam
-extracells:pattern.fluid:0, ME Fluid Pattern: Polytetrafluoroethylene (PTFE)
-extracells:pattern.fluid:0, ME Fluid Pattern: Methane
-extracells:pattern.fluid:0, ME Fluid Pattern: Epichlorohydrin
-extracells:pattern.fluid:0, ME Fluid Pattern: Monochloramine
-extracells:pattern.fluid:0, ME Fluid Pattern: Chloroform
-extracells:pattern.fluid:0, ME Fluid Pattern: Cumene
-extracells:pattern.fluid:0, ME Fluid Pattern: Tetrafluoroethylene
-extracells:pattern.fluid:0, ME Fluid Pattern: Chloromethane
-extracells:pattern.fluid:0, ME Fluid Pattern: Allyl Chloride
-extracells:pattern.fluid:0, ME Fluid Pattern: Isoprene
-extracells:pattern.fluid:0, ME Fluid Pattern: Propane
-extracells:pattern.fluid:0, ME Fluid Pattern: Propene
-extracells:pattern.fluid:0, ME Fluid Pattern: Ethane
-extracells:pattern.fluid:0, ME Fluid Pattern: Butene
-extracells:pattern.fluid:0, ME Fluid Pattern: Butane
-extracells:pattern.fluid:0, ME Fluid Pattern: Dissolved Calcium Acetate
-extracells:pattern.fluid:0, ME Fluid Pattern: Vinyl Acetate
-extracells:pattern.fluid:0, ME Fluid Pattern: Methyl Acetate
-extracells:pattern.fluid:0, ME Fluid Pattern: Ethenone
-extracells:pattern.fluid:0, ME Fluid Pattern: Tetranitromethane
-extracells:pattern.fluid:0, ME Fluid Pattern: Dimethylamine
-extracells:pattern.fluid:0, ME Fluid Pattern: 1,1-Dimethylhydrazine
-extracells:pattern.fluid:0, ME Fluid Pattern: Dinitrogen Tetroxide
-extracells:pattern.fluid:0, ME Fluid Pattern: Dimethyldichlorosilane
-extracells:pattern.fluid:0, ME Fluid Pattern: Styrene
-extracells:pattern.fluid:0, ME Fluid Pattern: Butadiene
-extracells:pattern.fluid:0, ME Fluid Pattern: Dichlorobenzene
-extracells:pattern.fluid:0, ME Fluid Pattern: Acetic Acid
-extracells:pattern.fluid:0, ME Fluid Pattern: Phenol
-extracells:pattern.fluid:0, ME Fluid Pattern: Bisphenol A
-extracells:pattern.fluid:0, ME Fluid Pattern: Vinyl Chloride
-extracells:pattern.fluid:0, ME Fluid Pattern: Ethylene
-extracells:pattern.fluid:0, ME Fluid Pattern: Benzene
-extracells:pattern.fluid:0, ME Fluid Pattern: Acetone
-extracells:pattern.fluid:0, ME Fluid Pattern: Glycerol
-extracells:pattern.fluid:0, ME Fluid Pattern: Methanol
-extracells:pattern.fluid:0, ME Fluid Pattern: Ethanol
-extracells:pattern.fluid:0, ME Fluid Pattern: Toluene
-extracells:pattern.fluid:0, ME Fluid Pattern: Diphenyl Isophthalate
-extracells:pattern.fluid:0, ME Fluid Pattern: Phthalic Acid
-extracells:pattern.fluid:0, ME Fluid Pattern: Dimethylbenzene
-extracells:pattern.fluid:0, ME Fluid Pattern: 3,3-Diaminobenzidine
-extracells:pattern.fluid:0, ME Fluid Pattern: 3,3-Dichlorobenzidine
-extracells:pattern.fluid:0, ME Fluid Pattern: 2-Nitrochlorobenzene
-extracells:pattern.fluid:0, ME Fluid Pattern: Chlorobenzene
-extracells:pattern.fluid:0, ME Fluid Pattern: Octane
-extracells:pattern.fluid:0, ME Fluid Pattern: Ethyl Tert-Butyl Ether
-extracells:pattern.fluid:0, ME Fluid Pattern: Ethylbenzene
-extracells:pattern.fluid:0, ME Fluid Pattern: Naphthalene
-extracells:pattern.fluid:0, ME Fluid Pattern: Rubber
-extracells:pattern.fluid:0, ME Fluid Pattern: Cyclohexane
-extracells:pattern.fluid:0, ME Fluid Pattern: Nitrosyl Chloride
-extracells:pattern.fluid:0, ME Fluid Pattern: Butyraldehyde
-extracells:pattern.fluid:0, ME Fluid Pattern: Polyvinyl Butyral
-extracells:pattern.fluid:0, ME Fluid Pattern: Wood Gas
-extracells:pattern.fluid:0, ME Fluid Pattern: Wood Vinegar
-extracells:pattern.fluid:0, ME Fluid Pattern: Wood Tar
-extracells:pattern.fluid:0, ME Fluid Pattern: Charcoal Byproducts
-extracells:pattern.fluid:0, ME Fluid Pattern: Biomass
-extracells:pattern.fluid:0, ME Fluid Pattern: Bio Diesel
-extracells:pattern.fluid:0, ME Fluid Pattern: Fermented Biomass
-extracells:pattern.fluid:0, ME Fluid Pattern: Creosote
-extracells:pattern.fluid:0, ME Fluid Pattern: Diesel
-extracells:pattern.fluid:0, ME Fluid Pattern: Rocket Fuel
-extracells:pattern.fluid:0, ME Fluid Pattern: Glue
-extracells:pattern.fluid:0, ME Fluid Pattern: Lubricant
-extracells:pattern.fluid:0, ME Fluid Pattern: McGuffium 239
-extracells:pattern.fluid:0, ME Fluid Pattern: Indium Concentrate
-extracells:pattern.fluid:0, ME Fluid Pattern: Seed Oil
-extracells:pattern.fluid:0, ME Fluid Pattern: Drilling Fluid
-extracells:pattern.fluid:0, ME Fluid Pattern: Construction Foam
-extracells:pattern.fluid:0, ME Fluid Pattern: Sulfuric Heavy Fuel
-extracells:pattern.fluid:0, ME Fluid Pattern: Heavy Fuel
-extracells:pattern.fluid:0, ME Fluid Pattern: Lightly Hydro-Cracked Heavy Fuel
-extracells:pattern.fluid:0, ME Fluid Pattern: Severely Hydro-Cracked Heavy Fuel
-extracells:pattern.fluid:0, ME Fluid Pattern: Lightly Steam-Cracked Heavy Fuel
-extracells:pattern.fluid:0, ME Fluid Pattern: Severely Steam-Cracked Heavy Fuel
-extracells:pattern.fluid:0, ME Fluid Pattern: Sulfuric Light Fuel
-extracells:pattern.fluid:0, ME Fluid Pattern: Light Fuel
-extracells:pattern.fluid:0, ME Fluid Pattern: Lightly Hydro-Cracked Light Fuel
-extracells:pattern.fluid:0, ME Fluid Pattern: Severely Hydro-Cracked Light Fuel
-extracells:pattern.fluid:0, ME Fluid Pattern: Lightly Steam-Cracked Light Fuel
-extracells:pattern.fluid:0, ME Fluid Pattern: Severely Steam-Cracked Light Fuel
-extracells:pattern.fluid:0, ME Fluid Pattern: Sulfuric Naphtha
-extracells:pattern.fluid:0, ME Fluid Pattern: Naphtha
-extracells:pattern.fluid:0, ME Fluid Pattern: Lightly Hydro-Cracked Naphtha
-extracells:pattern.fluid:0, ME Fluid Pattern: Severely Hydro-Cracked Naphtha
-extracells:pattern.fluid:0, ME Fluid Pattern: Lightly Steam-Cracked Naphtha
-extracells:pattern.fluid:0, ME Fluid Pattern: Severely Steam-Cracked Naphtha
-extracells:pattern.fluid:0, ME Fluid Pattern: Sulfuric Gas
-extracells:pattern.fluid:0, ME Fluid Pattern: Refinery Gas
-extracells:pattern.fluid:0, ME Fluid Pattern: Lightly Hydro-Cracked Refinery Gas
-extracells:pattern.fluid:0, ME Fluid Pattern: Severely Hydro-Cracked Refinery Gas
-extracells:pattern.fluid:0, ME Fluid Pattern: Lightly Steam-Cracked Refinery Gas
-extracells:pattern.fluid:0, ME Fluid Pattern: Severely Steam-Cracked Refinery Gas
-extracells:pattern.fluid:0, ME Fluid Pattern: Hydro-Cracked Ethane
-extracells:pattern.fluid:0, ME Fluid Pattern: Hydro-Cracked Ethylene
-extracells:pattern.fluid:0, ME Fluid Pattern: Hydro-Cracked Propene
-extracells:pattern.fluid:0, ME Fluid Pattern: Hydro-Cracked Propane
-extracells:pattern.fluid:0, ME Fluid Pattern: Hydro-Cracked Butane
-extracells:pattern.fluid:0, ME Fluid Pattern: Hydro-Cracked Butene
-extracells:pattern.fluid:0, ME Fluid Pattern: Hydro-Cracked Butadiene
-extracells:pattern.fluid:0, ME Fluid Pattern: Steam-Cracked Ethane
-extracells:pattern.fluid:0, ME Fluid Pattern: Steam-Cracked Ethylene
-extracells:pattern.fluid:0, ME Fluid Pattern: Steam-Cracked Propene
-extracells:pattern.fluid:0, ME Fluid Pattern: Steam-Cracked Propane
-extracells:pattern.fluid:0, ME Fluid Pattern: Steam-Cracked Butane
-extracells:pattern.fluid:0, ME Fluid Pattern: Steam-Cracked Butene
-extracells:pattern.fluid:0, ME Fluid Pattern: Steam-Cracked Butadiene
-extracells:pattern.fluid:0, ME Fluid Pattern: LPG
-extracells:pattern.fluid:0, ME Fluid Pattern: Raw Growth Medium
-extracells:pattern.fluid:0, ME Fluid Pattern: Sterilized Growth Medium
-extracells:pattern.fluid:0, ME Fluid Pattern: Oil
-extracells:pattern.fluid:0, ME Fluid Pattern: Heavy Oil
-extracells:pattern.fluid:0, ME Fluid Pattern: Raw Oil
-extracells:pattern.fluid:0, ME Fluid Pattern: Light Oil
-extracells:pattern.fluid:0, ME Fluid Pattern: Natural Gas
-extracells:pattern.fluid:0, ME Fluid Pattern: Bacteria
-extracells:pattern.fluid:0, ME Fluid Pattern: Bacterial Sludge
-extracells:pattern.fluid:0, ME Fluid Pattern: Enriched Bacterial Sludge
-extracells:pattern.fluid:0, ME Fluid Pattern: Mutagen
-extracells:pattern.fluid:0, ME Fluid Pattern: Gelatin Mixture
-extracells:pattern.fluid:0, ME Fluid Pattern: Raw Gasoline
-extracells:pattern.fluid:0, ME Fluid Pattern: Gasoline
-extracells:pattern.fluid:0, ME Fluid Pattern: High Octane Gasoline
-extracells:pattern.fluid:0, ME Fluid Pattern: Coal Gas
-extracells:pattern.fluid:0, ME Fluid Pattern: Coal Tar
-extracells:pattern.fluid:0, ME Fluid Pattern: Glowstone
-extracells:pattern.fluid:0, ME Fluid Pattern: Cetane-Boosted Diesel
-extracells:pattern.fluid:0, ME Fluid Pattern: Milk
-extracells:pattern.fluid:0, ME Fluid Pattern: Fish Oil
-extracells:pattern.fluid:0, ME Fluid Pattern: Ruby Slurry
-extracells:pattern.fluid:0, ME Fluid Pattern: Sapphire Slurry
-extracells:pattern.fluid:0, ME Fluid Pattern: Green Sapphire Slurry
-extracells:pattern.fluid:0, ME Fluid Pattern: Chemical Black Dye
-extracells:pattern.fluid:0, ME Fluid Pattern: Chemical Red Dye
-extracells:pattern.fluid:0, ME Fluid Pattern: Chemical Green Dye
-extracells:pattern.fluid:0, ME Fluid Pattern: Chemical Brown Dye
-extracells:pattern.fluid:0, ME Fluid Pattern: Chemical Blue Dye
-extracells:pattern.fluid:0, ME Fluid Pattern: Chemical Purple Dye
-extracells:pattern.fluid:0, ME Fluid Pattern: Chemical Cyan Dye
-extracells:pattern.fluid:0, ME Fluid Pattern: Chemical Light Gray Dye
-extracells:pattern.fluid:0, ME Fluid Pattern: Chemical Gray Dye
-extracells:pattern.fluid:0, ME Fluid Pattern: Chemical Pink Dye
-extracells:pattern.fluid:0, ME Fluid Pattern: Chemical Lime Dye
-extracells:pattern.fluid:0, ME Fluid Pattern: Chemical Yellow Dye
-extracells:pattern.fluid:0, ME Fluid Pattern: Chemical Light Blue Dye
-extracells:pattern.fluid:0, ME Fluid Pattern: Chemical Magenta Dye
-extracells:pattern.fluid:0, ME Fluid Pattern: Chemical Orange Dye
-extracells:pattern.fluid:0, ME Fluid Pattern: Chemical White Dye
-extracells:pattern.fluid:0, ME Fluid Pattern: Impure Enriched Naquadah Solution
-extracells:pattern.fluid:0, ME Fluid Pattern: Enriched Naquadah Solution
-extracells:pattern.fluid:0, ME Fluid Pattern: Acidic Enriched Naquadah Solution
-extracells:pattern.fluid:0, ME Fluid Pattern: Enriched Naquadah Waste
-extracells:pattern.fluid:0, ME Fluid Pattern: Impure Naquadria Solution
-extracells:pattern.fluid:0, ME Fluid Pattern: Naquadria Solution
-extracells:pattern.fluid:0, ME Fluid Pattern: Acidic Naquadria Solution
-extracells:pattern.fluid:0, ME Fluid Pattern: Naquadria Waste
-extracells:pattern.fluid:0, ME Fluid Pattern: UU-Matter
-extracells:pattern.fluid:0, ME Fluid Pattern: Glass
-extracells:pattern.fluid:0, ME Fluid Pattern: Salt Water
-extracells:pattern.fluid:0, ME Fluid Pattern: Blaze
-extracells:pattern.fluid:0, ME Fluid Pattern: Black Steel
-extracells:pattern.fluid:0, ME Fluid Pattern: Damascus Steel
-extracells:pattern.fluid:0, ME Fluid Pattern: Tungstensteel
-extracells:pattern.fluid:0, ME Fluid Pattern: Cobalt Brass
-extracells:pattern.fluid:0, ME Fluid Pattern: Concrete
-extracells:pattern.fluid:0, ME Fluid Pattern: Vanadiumsteel
-extracells:pattern.fluid:0, ME Fluid Pattern: Potin
-extracells:pattern.fluid:0, ME Fluid Pattern: Borosilicate Glass
-extracells:pattern.fluid:0, ME Fluid Pattern: Naquadah Alloy
-extracells:pattern.fluid:0, ME Fluid Pattern: Sulfuric Nickel Solution
-extracells:pattern.fluid:0, ME Fluid Pattern: Sulfuric Copper Solution
-extracells:pattern.fluid:0, ME Fluid Pattern: Lead-Zinc Solution
-extracells:pattern.fluid:0, ME Fluid Pattern: Nitration Mixture
-extracells:pattern.fluid:0, ME Fluid Pattern: Diluted Sulfuric Acid
-extracells:pattern.fluid:0, ME Fluid Pattern: Diluted Hydrochloric Acid
-extracells:pattern.fluid:0, ME Fluid Pattern: Air
-extracells:pattern.fluid:0, ME Fluid Pattern: Liquid Air
-extracells:pattern.fluid:0, ME Fluid Pattern: Nether Air
-extracells:pattern.fluid:0, ME Fluid Pattern: Liquid Nether Air
-extracells:pattern.fluid:0, ME Fluid Pattern: Ender Air
-extracells:pattern.fluid:0, ME Fluid Pattern: Liquid Ender Air
-extracells:pattern.fluid:0, ME Fluid Pattern: Aqua Regia
-extracells:pattern.fluid:0, ME Fluid Pattern: Acidic Osmium Solution
-extracells:pattern.fluid:0, ME Fluid Pattern: Rhodium Plated Palladium
-extracells:pattern.fluid:0, ME Fluid Pattern: Redstone
-extracells:pattern.fluid:0, ME Fluid Pattern: Red Steel
-extracells:pattern.fluid:0, ME Fluid Pattern: Blue Steel
-extracells:pattern.fluid:0, ME Fluid Pattern: HSS-G
-extracells:pattern.fluid:0, ME Fluid Pattern: Red Alloy
-extracells:pattern.fluid:0, ME Fluid Pattern: HSS-E
-extracells:pattern.fluid:0, ME Fluid Pattern: HSS-S
-extracells:pattern.fluid:0, ME Fluid Pattern: Blue Alloy
-extracells:pattern.fluid:0, ME Fluid Pattern: Stellite-100
-extracells:pattern.fluid:0, ME Fluid Pattern: Watertight Steel
-extracells:pattern.fluid:0, ME Fluid Pattern: Maraging Steel 300
-extracells:pattern.fluid:0, ME Fluid Pattern: Hastelloy-C276
-extracells:pattern.fluid:0, ME Fluid Pattern: Hastelloy-X
-extracells:pattern.fluid:0, ME Fluid Pattern: Trinaquadalloy
-extracells:pattern.fluid:0, ME Fluid Pattern: Zeron-100
-extracells:pattern.fluid:0, ME Fluid Pattern: Titanium Carbide
-extracells:pattern.fluid:0, ME Fluid Pattern: Tantalum Carbide
-extracells:pattern.fluid:0, ME Fluid Pattern: Molybdenum Disilicide
-extracells:pattern.fluid:0, ME Fluid Pattern: HSLA Steel
-extracells:pattern.fluid:0, ME Fluid Pattern: Titanium Tungsten Carbide
-extracells:pattern.fluid:0, ME Fluid Pattern: Incoloy-MA956
-extracells:pattern.fluid:0, ME Fluid Pattern: Isopropyl Chloride
-extracells:pattern.fluid:0, ME Fluid Pattern: Lemon Extract
-extracells:pattern.fluid:0, ME Fluid Pattern: Lime Extract
-extracells:pattern.fluid:0, ME Fluid Pattern: Orange Juice
-extracells:pattern.fluid:0, ME Fluid Pattern: Apple Juice
-extracells:pattern.fluid:0, ME Fluid Pattern: Apple Cider
-extracells:pattern.fluid:0, ME Fluid Pattern: Unheated Cane Syrup
-extracells:pattern.fluid:0, ME Fluid Pattern: Cane Syrup
-extracells:pattern.fluid:0, ME Fluid Pattern: Purple Drink
-extracells:pattern.fluid:0, ME Fluid Pattern: Frying Oil
-extracells:pattern.fluid:0, ME Fluid Pattern: Hot Frying Oil
-extracells:pattern.fluid:0, ME Fluid Pattern: Starch-Filled Water
-extracells:pattern.fluid:0, ME Fluid Pattern: Mushroom Stew
-extracells:pattern.fluid:0, ME Fluid Pattern: Beetroot Soup
-extracells:pattern.fluid:0, ME Fluid Pattern: Italian Buffalo's Milk
-extracells:pattern.fluid:0, ME Fluid Pattern: Crude Rennet Solution
-extracells:pattern.fluid:0, ME Fluid Pattern: Whey
-extracells:pattern.fluid:0, ME Fluid Pattern: Activated Buffalo Milk
-extracells:pattern.fluid:0, ME Fluid Pattern: Whey/Salt Water Mix
-extracells:pattern.fluid:0, ME Fluid Pattern: Heated Ricotta Starter
-extracells:pattern.fluid:0, ME Fluid Pattern: Acidic Milk Solution
-extracells:pattern.fluid:0, ME Fluid Pattern: Coagulating Ricotta Solution
-extracells:pattern.fluid:0, ME Fluid Pattern: Tomato Sauce
-extracells:pattern.fluid:0, ME Fluid Pattern: Olive Oil
-extracells:pattern.fluid:0, ME Fluid Pattern: Sludge
-extracells:pattern.fluid:0, ME Fluid Pattern: Alkaline Extract
-extracells:pattern.fluid:0, ME Fluid Pattern: Potato Juice
-extracells:pattern.fluid:0, ME Fluid Pattern: Vodka
-extracells:pattern.fluid:0, ME Fluid Pattern: Leninade
-extracells:pattern.fluid:0, ME Fluid Pattern: Perchloric Acid
-extracells:pattern.fluid:0, ME Fluid Pattern: Chloroauric Acid
-extracells:pattern.fluid:0, ME Fluid Pattern: Moist Air
-extracells:pattern.fluid:0, ME Fluid Pattern: Cold Moist Air
-extracells:pattern.fluid:0, ME Fluid Pattern: Albumen
-extracells:pattern.fluid:0, ME Fluid Pattern: Yolk
-extracells:pattern.fluid:0, ME Fluid Pattern: Butter
-extracells:pattern.fluid:0, ME Fluid Pattern: Rabbit Stew
-extracells:pattern.fluid:0, ME Fluid Pattern: Liquid Fat (Stearin)
-extracells:pattern.fluid:0, ME Fluid Pattern: Stearic Acid
-extracells:pattern.fluid:0, ME Fluid Pattern: Sodium Stearate (Soap)
-extracells:pattern.fluid:0, ME Fluid Pattern: Citric Acid
-extracells:pattern.fluid:0, ME Fluid Pattern: material.gtfo_hydrogen_cyanide
-extracells:pattern.fluid:0, ME Fluid Pattern: Electrical Steel
-extracells:pattern.fluid:0, ME Fluid Pattern: Energetic Alloy
-extracells:pattern.fluid:0, ME Fluid Pattern: Vibrant Alloy
-extracells:pattern.fluid:0, ME Fluid Pattern: Redstone Alloy
-extracells:pattern.fluid:0, ME Fluid Pattern: Pulsating Iron
-extracells:pattern.fluid:0, ME Fluid Pattern: Dark Steel
-extracells:pattern.fluid:0, ME Fluid Pattern: Soularium
-extracells:pattern.fluid:0, ME Fluid Pattern: End Steel
-extracells:pattern.fluid:0, ME Fluid Pattern: Crystalline Alloy
-extracells:pattern.fluid:0, ME Fluid Pattern: Melodic Alloy
-extracells:pattern.fluid:0, ME Fluid Pattern: Stellar Alloy
-extracells:pattern.fluid:0, ME Fluid Pattern: Energetic Silver
-extracells:pattern.fluid:0, ME Fluid Pattern: Vivid Alloy
-extracells:pattern.fluid:0, ME Fluid Pattern: Fluix
-extracells:pattern.fluid:0, ME Fluid Pattern: Charged Certus Quartz
-extracells:pattern.fluid:0, ME Fluid Pattern: Naquadah Rocket Fuel
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Kanthal
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Nichrome
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Niobium-Titanium
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Black Bronze
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Ruridit
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Ultimet
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Vanadium-Gallium
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Osmiridium
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Tungstencarbide
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Magnesium Diboride
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Uranium Triplatinum
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Uranium Rhodium Dinaquadide
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Enriched Naquadah Trinium Europium Duranide
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Tungstensteel
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Naquadah Alloy
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Rhodium Plated Palladium
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten HSS-G
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten HSS-E
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten HSS-S
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Stellite-100
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Watertight Steel
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Maraging Steel 300
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Hastelloy-C276
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Hastelloy-X
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Trinaquadalloy
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Zeron-100
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Titanium Carbide
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Tantalum Carbide
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Molybdenum Disilicide
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Titanium Tungsten Carbide
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Incoloy-MA956
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Electrical Steel
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Energetic Alloy
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Vibrant Alloy
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Redstone Alloy
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Pulsating Iron
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Dark Steel
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Soularium
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten End Steel
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Stellar Alloy
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Energetic Silver
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Vivid Alloy
-extracells:pattern.fluid:0, ME Fluid Pattern: Nutrient Distillation
-extracells:pattern.fluid:0, ME Fluid Pattern: Dew of the Void
-extracells:pattern.fluid:0, ME Fluid Pattern: Vapor of Levity
-extracells:pattern.fluid:0, ME Fluid Pattern: Hootch
-extracells:pattern.fluid:0, ME Fluid Pattern: Fire Water
-extracells:pattern.fluid:0, ME Fluid Pattern: Liquid XP
-extracells:pattern.fluid:0, ME Fluid Pattern: Liquid Sunshine
-extracells:pattern.fluid:0, ME Fluid Pattern: Cloud Seed
-extracells:pattern.fluid:0, ME Fluid Pattern: Concentrated Cloud Seed
-extracells:terminal.fluid.wireless, item.extracells.terminal.fluid.wireless.name
-extracells:storage.component:0, 256k ME Storage Component
-extracells:storage.component:1, 1024k ME Storage Component
-extracells:storage.component:2, 4096k ME Storage Component
-extracells:storage.component:3, 16384k ME Storage Component
-extracells:storage.component:4, 1k ME Fluid Storage Component
-extracells:storage.component:5, 4k ME Fluid Storage Component
-extracells:storage.component:6, 16k ME Fluid Storage Component
-extracells:storage.component:7, 64k ME Fluid Storage Component
-extracells:storage.component:8, 256k ME Fluid Storage Component
-extracells:storage.component:9, 1024k ME Fluid Storage Component
-extracells:storage.component:10, 4096k ME Fluid Storage Component
-extracells:storage.casing:0, Advanced Storage Housing
-extracells:storage.casing:1, Fluid Storage Housing
-extracells:fluid.item, item.extracells.fluid.item.name
-extracells:storage.fluid.portable:0, ME Portable Fluid Storage
-extracells:storage.fluid.portable:0, ME Portable Fluid Storage
-extracells:pattern.crafting, item.extracells.pattern.crafting.name
-extracells:terminal.universal.wireless, item.extracells.terminal.universal.wireless.name
-extracells:oc.upgrade:2, ME Upgrade (Tier 1)
-extracells:oc.upgrade:1, ME Upgrade (Tier 2)
-extracells:oc.upgrade:0, ME Upgrade (Tier 3)
-extracells:certustank, extracells.block.certustank.name
-extracells:walrus, Walrus
-extracells:fluidcrafter, ME Fluid Assembler
-extracells:ecbaseblock, ME Fluid Interface
-extracells:fluidfiller, ME Fluid Auto Filler
-extracells:hardmedrive, Blast resistant ME Drive
-extracells:vibrantchamberfluid, Fluid Vibration Chamber
 microblockcbe:saw_stone, Stone Saw
 microblockcbe:saw_iron, Iron Saw
 microblockcbe:saw_diamond, Diamond Saw
@@ -3951,10 +3971,10 @@ appliedenergistics2:dense_energy_cell, Dense Energy Cell
 appliedenergistics2:creative_energy_cell, Creative Energy Cell
 appliedenergistics2:crafting_unit, Crafting Unit
 appliedenergistics2:crafting_accelerator, Crafting Co-Processing Unit
-appliedenergistics2:crafting_storage_1k, 1k Crafting Storage
-appliedenergistics2:crafting_storage_4k, 4k Crafting Storage
-appliedenergistics2:crafting_storage_16k, 16k Crafting Storage
-appliedenergistics2:crafting_storage_64k, 64k Crafting Storage
+appliedenergistics2:crafting_storage_1k, §61k§r Crafting Storage
+appliedenergistics2:crafting_storage_4k, §e4k§r Crafting Storage
+appliedenergistics2:crafting_storage_16k, §a16k§r Crafting Storage
+appliedenergistics2:crafting_storage_64k, §b64k§r Crafting Storage
 appliedenergistics2:crafting_monitor, Crafting Monitor
 appliedenergistics2:molecular_assembler, Molecular Assembler
 appliedenergistics2:light_detector, Light Detecting Fixture
@@ -4001,17 +4021,17 @@ appliedenergistics2:memory_card, Memory Card
 appliedenergistics2:network_tool, Network Tool
 appliedenergistics2:creative_storage_cell, Creative ME Storage Cell
 appliedenergistics2:view_cell, View Cell
-appliedenergistics2:storage_cell_1k, 1k ME Storage Cell
-appliedenergistics2:storage_cell_4k, 4k ME Storage Cell
-appliedenergistics2:storage_cell_16k, 16k ME Storage Cell
-appliedenergistics2:storage_cell_64k, 64k ME Storage Cell
-appliedenergistics2:fluid_storage_cell_1k, 1k ME Fluid Storage Cell
-appliedenergistics2:fluid_storage_cell_4k, 4k ME Fluid Storage Cell
-appliedenergistics2:fluid_storage_cell_16k, 16k ME Fluid Storage Cell
-appliedenergistics2:fluid_storage_cell_64k, 64k ME Fluid Storage Cell
-appliedenergistics2:spatial_storage_cell_2_cubed, 2³ Spatial Storage Cell
-appliedenergistics2:spatial_storage_cell_16_cubed, 16³ Spatial Storage Cell
-appliedenergistics2:spatial_storage_cell_128_cubed, 128³ Spatial Storage Cell
+appliedenergistics2:storage_cell_1k, §61k§r ME Storage Cell
+appliedenergistics2:storage_cell_4k, §e4k§r ME Storage Cell
+appliedenergistics2:storage_cell_16k, §a16k§r ME Storage Cell
+appliedenergistics2:storage_cell_64k, §b64k§r ME Storage Cell
+appliedenergistics2:fluid_storage_cell_1k, §61k§r ME Fluid Storage Cell
+appliedenergistics2:fluid_storage_cell_4k, §e4k§r ME Fluid Storage Cell
+appliedenergistics2:fluid_storage_cell_16k, §a16k§r ME Fluid Storage Cell
+appliedenergistics2:fluid_storage_cell_64k, §b64k§r ME Fluid Storage Cell
+appliedenergistics2:spatial_storage_cell_2_cubed, §62³§r Spatial Storage Cell
+appliedenergistics2:spatial_storage_cell_16_cubed, §916³§r Spatial Storage Cell
+appliedenergistics2:spatial_storage_cell_128_cubed, §d128³§r  Spatial Storage Cell
 appliedenergistics2:facade:0, Cable Facade - Stone
 appliedenergistics2:facade:0, Cable Facade - Granite
 appliedenergistics2:facade:0, Cable Facade - Polished Granite
@@ -6152,6 +6172,28 @@ appliedenergistics2:facade:0, Cable Facade - Orange Wool
 appliedenergistics2:facade:0, Cable Facade - Orange Wool
 appliedenergistics2:facade:0, Cable Facade - Wool
 appliedenergistics2:facade:0, Cable Facade - Wool
+appliedenergistics2:facade:0, Cable Facade - White Elevator
+appliedenergistics2:facade:0, Cable Facade - Orange Elevator
+appliedenergistics2:facade:0, Cable Facade - Magenta Elevator
+appliedenergistics2:facade:0, Cable Facade - Light Blue Elevator
+appliedenergistics2:facade:0, Cable Facade - Yellow Elevator
+appliedenergistics2:facade:0, Cable Facade - Lime Elevator
+appliedenergistics2:facade:0, Cable Facade - Pink Elevator
+appliedenergistics2:facade:0, Cable Facade - Gray Elevator
+appliedenergistics2:facade:0, Cable Facade - Light Gray Elevator
+appliedenergistics2:facade:0, Cable Facade - Cyan Elevator
+appliedenergistics2:facade:0, Cable Facade - Purple Elevator
+appliedenergistics2:facade:0, Cable Facade - Blue Elevator
+appliedenergistics2:facade:0, Cable Facade - Brown Elevator
+appliedenergistics2:facade:0, Cable Facade - Green Elevator
+appliedenergistics2:facade:0, Cable Facade - Red Elevator
+appliedenergistics2:facade:0, Cable Facade - Black Elevator
+appliedenergistics2:facade:0, Cable Facade - Oak Trim
+appliedenergistics2:facade:0, Cable Facade - Spruce Trim
+appliedenergistics2:facade:0, Cable Facade - Birch Trim
+appliedenergistics2:facade:0, Cable Facade - Jungle Trim
+appliedenergistics2:facade:0, Cable Facade - Acacia Trim
+appliedenergistics2:facade:0, Cable Facade - Dark Oak Trim
 appliedenergistics2:facade:0, Cable Facade - Hermetic Casing I
 appliedenergistics2:facade:0, Cable Facade - Hermetic Casing II
 appliedenergistics2:facade:0, Cable Facade - Hermetic Casing III
@@ -6161,6 +6203,9 @@ appliedenergistics2:facade:0, Cable Facade - Hermetic Casing VI
 appliedenergistics2:facade:0, Cable Facade - Hermetic Casing VII
 appliedenergistics2:facade:0, Cable Facade - Hermetic Casing VIII
 appliedenergistics2:facade:0, Cable Facade - Hermetic Casing IX
+appliedenergistics2:facade:0, Cable Facade - Plascrete
+appliedenergistics2:facade:0, Cable Facade - Filter Casing
+appliedenergistics2:facade:0, Cable Facade - Sterilizing Filter Casing
 appliedenergistics2:facade:0, Cable Facade - Bronze Pipe Casing
 appliedenergistics2:facade:0, Cable Facade - Steel Pipe Casing
 appliedenergistics2:facade:0, Cable Facade - Titanium Pipe Casing
@@ -6338,14 +6383,6 @@ appliedenergistics2:facade:0, Cable Facade - Rubber Wood
 appliedenergistics2:facade:0, Cable Facade - Rubber Tree Leaves
 appliedenergistics2:facade:0, Cable Facade - Rubber Wood Planks
 appliedenergistics2:facade:0, Cable Facade - Treated Wood Planks
-appliedenergistics2:facade:0, Cable Facade - Block of Olivine
-appliedenergistics2:facade:0, Cable Facade - Block of Opal
-appliedenergistics2:facade:0, Cable Facade - Block of Amethyst
-appliedenergistics2:facade:0, Cable Facade - Block of Apatite
-appliedenergistics2:facade:0, Cable Facade - Block of Black Steel
-appliedenergistics2:facade:0, Cable Facade - Block of Damascus Steel
-appliedenergistics2:facade:0, Cable Facade - Block of Tungstensteel
-appliedenergistics2:facade:0, Cable Facade - Block of Cobalt Brass
 appliedenergistics2:facade:0, Cable Facade - Block of Soldering Alloy
 appliedenergistics2:facade:0, Cable Facade - Block of Spessartine
 appliedenergistics2:facade:0, Cable Facade - Block of Stainless Steel
@@ -6356,36 +6393,60 @@ appliedenergistics2:facade:0, Cable Facade - Block of Ultimet
 appliedenergistics2:facade:0, Cable Facade - Block of Uvarovite
 appliedenergistics2:facade:0, Cable Facade - Block of Vanadium-Gallium
 appliedenergistics2:facade:0, Cable Facade - Block of Wrought Iron
-appliedenergistics2:facade:0, Cable Facade - Block of Yttrium Barium Cuprate
-appliedenergistics2:facade:0, Cable Facade - Block of Quartzite
-appliedenergistics2:facade:0, Cable Facade - Block of Osmiridium
-appliedenergistics2:facade:0, Cable Facade - Block of Gallium Arsenide
-appliedenergistics2:facade:0, Cable Facade - Block of Kanthal
-appliedenergistics2:facade:0, Cable Facade - Block of Lazurite
-appliedenergistics2:facade:0, Cable Facade - Block of Magnalium
-appliedenergistics2:facade:0, Cable Facade - Block of Nichrome
-appliedenergistics2:facade:0, Cable Facade - Block of Niobium Nitride
-appliedenergistics2:facade:0, Cable Facade - Block of Niobium-Titanium
-appliedenergistics2:facade:0, Cable Facade - Block of Sterling Silver
-appliedenergistics2:facade:0, Cable Facade - Block of Rose Gold
-appliedenergistics2:facade:0, Cable Facade - Block of Black Bronze
-appliedenergistics2:facade:0, Cable Facade - Block of Bismuth Bronze
-appliedenergistics2:facade:0, Cable Facade - Block of Silicon
-appliedenergistics2:facade:0, Cable Facade - Block of Silver
-appliedenergistics2:facade:0, Cable Facade - Block of Tantalum
-appliedenergistics2:facade:0, Cable Facade - Block of Thorium
-appliedenergistics2:facade:0, Cable Facade - Block of Electrical Steel
-appliedenergistics2:facade:0, Cable Facade - Block of Energetic Alloy
-appliedenergistics2:facade:0, Cable Facade - Block of Vibrant Alloy
-appliedenergistics2:facade:0, Cable Facade - Block of Redstone Alloy
-appliedenergistics2:facade:0, Cable Facade - Block of Conductive Iron
-appliedenergistics2:facade:0, Cable Facade - Block of Pulsating Iron
-appliedenergistics2:facade:0, Cable Facade - Block of Dark Steel
-appliedenergistics2:facade:0, Cable Facade - Block of Soularium
-appliedenergistics2:facade:0, Cable Facade - Block of End Steel
-appliedenergistics2:facade:0, Cable Facade - Block of Iron Alloy
-appliedenergistics2:facade:0, Cable Facade - Block of Crude Steel
-appliedenergistics2:facade:0, Cable Facade - Block of Crystalline Alloy
+appliedenergistics2:facade:0, Cable Facade - Block of Enderpearl
+appliedenergistics2:facade:0, Cable Facade - Block of Magnetic Neodymium
+appliedenergistics2:facade:0, Cable Facade - Block of Magnetic Samarium
+appliedenergistics2:facade:0, Cable Facade - Block of Manganese Phosphide
+appliedenergistics2:facade:0, Cable Facade - Block of Magnesium Diboride
+appliedenergistics2:facade:0, Cable Facade - Block of Mercury Barium Calcium Cuprate
+appliedenergistics2:facade:0, Cable Facade - Block of Uranium Triplatinum
+appliedenergistics2:facade:0, Cable Facade - Block of Samarium Iron Arsenic Oxide
+appliedenergistics2:facade:0, Cable Facade - Block of Indium Tin Barium Titanium Cuprate
+appliedenergistics2:facade:0, Cable Facade - Block of Uranium Rhodium Dinaquadide
+appliedenergistics2:facade:0, Cable Facade - Block of Enriched Naquadah Trinium Europium Duranide
+appliedenergistics2:facade:0, Cable Facade - Block of Olivine
+appliedenergistics2:facade:0, Cable Facade - Block of Opal
+appliedenergistics2:facade:0, Cable Facade - Block of Amethyst
+appliedenergistics2:facade:0, Cable Facade - Block of Apatite
+appliedenergistics2:facade:0, Cable Facade - Block of Black Steel
+appliedenergistics2:facade:0, Cable Facade - Block of Damascus Steel
+appliedenergistics2:facade:0, Cable Facade - Block of Tungstensteel
+appliedenergistics2:facade:0, Cable Facade - Block of Cobalt Brass
+appliedenergistics2:facade:0, Cable Facade - Block of Melodic Alloy
+appliedenergistics2:facade:0, Cable Facade - Block of Stellar Alloy
+appliedenergistics2:facade:0, Cable Facade - Block of Crystalline Pink Slime
+appliedenergistics2:facade:0, Cable Facade - Block of Energetic Silver
+appliedenergistics2:facade:0, Cable Facade - Block of Vivid Alloy
+appliedenergistics2:facade:0, Cable Facade - Block of Polyphenylene Sulfide
+appliedenergistics2:facade:0, Cable Facade - Block of Polybenzimidazole (PBI)
+appliedenergistics2:facade:0, Cable Facade - Block of Polyethylene (PE)
+appliedenergistics2:facade:0, Cable Facade - Block of Epoxy Resin
+appliedenergistics2:facade:0, Cable Facade - Block of Polycaprolactam
+appliedenergistics2:facade:0, Cable Facade - Block of Polytetrafluoroethylene (PTFE)
+appliedenergistics2:facade:0, Cable Facade - Block of Sugar
+appliedenergistics2:facade:0, Cable Facade - Block of Pyrope
+appliedenergistics2:facade:0, Cable Facade - Block of Rock Salt
+appliedenergistics2:facade:0, Cable Facade - Block of Ruridit
+appliedenergistics2:facade:0, Cable Facade - Block of Ruby
+appliedenergistics2:facade:0, Cable Facade - Block of Salt
+appliedenergistics2:facade:0, Cable Facade - Block of Sapphire
+appliedenergistics2:facade:0, Cable Facade - Block of Sodalite
+appliedenergistics2:facade:0, Cable Facade - Block of Coke
+appliedenergistics2:facade:0, Cable Facade - Block of Polyvinyl Butyral
+appliedenergistics2:facade:0, Cable Facade - Block of Stellite-100
+appliedenergistics2:facade:0, Cable Facade - Block of Watertight Steel
+appliedenergistics2:facade:0, Cable Facade - Block of Maraging Steel 300
+appliedenergistics2:facade:0, Cable Facade - Block of Hastelloy-C276
+appliedenergistics2:facade:0, Cable Facade - Block of Hastelloy-X
+appliedenergistics2:facade:0, Cable Facade - Block of Trinaquadalloy
+appliedenergistics2:facade:0, Cable Facade - Block of Zeron-100
+appliedenergistics2:facade:0, Cable Facade - Block of Titanium Carbide
+appliedenergistics2:facade:0, Cable Facade - Block of Cupronickel
+appliedenergistics2:facade:0, Cable Facade - Block of Electrum
+appliedenergistics2:facade:0, Cable Facade - Block of Green Sapphire
+appliedenergistics2:facade:0, Cable Facade - Block of Grossular
+appliedenergistics2:facade:0, Cable Facade - Block of Rutile
+appliedenergistics2:facade:0, Cable Facade - Block of Invar
 appliedenergistics2:facade:0, Cable Facade - Block of Tin
 appliedenergistics2:facade:0, Cable Facade - Block of Titanium
 appliedenergistics2:facade:0, Cable Facade - Block of Tungsten
@@ -6398,181 +6459,147 @@ appliedenergistics2:facade:0, Cable Facade - Block of Naquadah
 appliedenergistics2:facade:0, Cable Facade - Block of Enriched Naquadah
 appliedenergistics2:facade:0, Cable Facade - Block of Naquadria
 appliedenergistics2:facade:0, Cable Facade - Block of Neutronium
-appliedenergistics2:facade:0, Cable Facade - Block of Malachite
-appliedenergistics2:facade:0, Cable Facade - Block of Magnetic Iron
-appliedenergistics2:facade:0, Cable Facade - Block of Tungstencarbide
-appliedenergistics2:facade:0, Cable Facade - Block of Enderpearl
-appliedenergistics2:facade:0, Cable Facade - Block of Magnetic Neodymium
-appliedenergistics2:facade:0, Cable Facade - Block of Magnetic Samarium
-appliedenergistics2:facade:0, Cable Facade - Block of Manganese Phosphide
-appliedenergistics2:facade:0, Cable Facade - Block of Magnesium Diboride
-appliedenergistics2:facade:0, Cable Facade - Block of Mercury Barium Calcium Cuprate
-appliedenergistics2:facade:0, Cable Facade - Block of Uranium Triplatinum
-appliedenergistics2:facade:0, Cable Facade - Block of Samarium Iron Arsenic Oxide
-appliedenergistics2:facade:0, Cable Facade - Block of Indium Tin Barium Titanium Cuprate
-appliedenergistics2:facade:0, Cable Facade - Block of Uranium Rhodium Dinaquadide
-appliedenergistics2:facade:0, Cable Facade - Block of Enriched Naquadah Trinium Europium Duranide
-appliedenergistics2:facade:0, Cable Facade - Block of Stellite-100
-appliedenergistics2:facade:0, Cable Facade - Block of Watertight Steel
-appliedenergistics2:facade:0, Cable Facade - Block of Maraging Steel 300
-appliedenergistics2:facade:0, Cable Facade - Block of Hastelloy-C276
-appliedenergistics2:facade:0, Cable Facade - Block of Hastelloy-X
-appliedenergistics2:facade:0, Cable Facade - Block of Trinaquadalloy
-appliedenergistics2:facade:0, Cable Facade - Block of Zeron-100
-appliedenergistics2:facade:0, Cable Facade - Block of Titanium Carbide
-appliedenergistics2:facade:0, Cable Facade - Block of Nether Star
-appliedenergistics2:facade:0, Cable Facade - Block of Almandine
-appliedenergistics2:facade:0, Cable Facade - Block of Andradite
-appliedenergistics2:facade:0, Cable Facade - Block of Annealed Copper
+appliedenergistics2:facade:0, Cable Facade - Block of Kanthal
+appliedenergistics2:facade:0, Cable Facade - Block of Lazurite
+appliedenergistics2:facade:0, Cable Facade - Block of Magnalium
+appliedenergistics2:facade:0, Cable Facade - Block of Nichrome
+appliedenergistics2:facade:0, Cable Facade - Block of Niobium Nitride
+appliedenergistics2:facade:0, Cable Facade - Block of Niobium-Titanium
+appliedenergistics2:facade:0, Cable Facade - Block of Sterling Silver
+appliedenergistics2:facade:0, Cable Facade - Block of Rose Gold
+appliedenergistics2:facade:0, Cable Facade - Block of Black Bronze
+appliedenergistics2:facade:0, Cable Facade - Block of Bismuth Bronze
+appliedenergistics2:facade:0, Cable Facade - Block of Electrical Steel
+appliedenergistics2:facade:0, Cable Facade - Block of Energetic Alloy
+appliedenergistics2:facade:0, Cable Facade - Block of Vibrant Alloy
+appliedenergistics2:facade:0, Cable Facade - Block of Redstone Alloy
+appliedenergistics2:facade:0, Cable Facade - Block of Conductive Iron
+appliedenergistics2:facade:0, Cable Facade - Block of Pulsating Iron
+appliedenergistics2:facade:0, Cable Facade - Block of Dark Steel
+appliedenergistics2:facade:0, Cable Facade - Block of Soularium
+appliedenergistics2:facade:0, Cable Facade - Block of End Steel
+appliedenergistics2:facade:0, Cable Facade - Block of Iron Alloy
+appliedenergistics2:facade:0, Cable Facade - Block of Crude Steel
+appliedenergistics2:facade:0, Cable Facade - Block of Crystalline Alloy
 appliedenergistics2:facade:0, Cable Facade - Block of Tantalum Carbide
 appliedenergistics2:facade:0, Cable Facade - Block of Molybdenum Disilicide
 appliedenergistics2:facade:0, Cable Facade - Block of HSLA Steel
 appliedenergistics2:facade:0, Cable Facade - Block of Titanium Tungsten Carbide
 appliedenergistics2:facade:0, Cable Facade - Block of Incoloy-MA956
-appliedenergistics2:facade:0, Cable Facade - Block of Flint
-appliedenergistics2:facade:0, Cable Facade - Block of Rhodium Plated Palladium
-appliedenergistics2:facade:0, Cable Facade - Block of Tritanium
-appliedenergistics2:facade:0, Cable Facade - Block of Duranium
-appliedenergistics2:facade:0, Cable Facade - Block of Trinium
-appliedenergistics2:facade:0, Cable Facade - Block of Pyrope
-appliedenergistics2:facade:0, Cable Facade - Block of Rock Salt
-appliedenergistics2:facade:0, Cable Facade - Block of Ruridit
-appliedenergistics2:facade:0, Cable Facade - Block of Ruby
-appliedenergistics2:facade:0, Cable Facade - Block of Salt
-appliedenergistics2:facade:0, Cable Facade - Block of Sapphire
-appliedenergistics2:facade:0, Cable Facade - Block of Sodalite
-appliedenergistics2:facade:0, Cable Facade - Block of Coke
-appliedenergistics2:facade:0, Cable Facade - Block of Aluminium
-appliedenergistics2:facade:0, Cable Facade - Block of Americium
-appliedenergistics2:facade:0, Cable Facade - Block of Antimony
-appliedenergistics2:facade:0, Cable Facade - Block of Beryllium
-appliedenergistics2:facade:0, Cable Facade - Block of Bismuth
-appliedenergistics2:facade:0, Cable Facade - Block of HSS-G
-appliedenergistics2:facade:0, Cable Facade - Block of Red Alloy
-appliedenergistics2:facade:0, Cable Facade - Block of HSS-E
-appliedenergistics2:facade:0, Cable Facade - Block of HSS-S
-appliedenergistics2:facade:0, Cable Facade - Block of Blue Alloy
-appliedenergistics2:facade:0, Cable Facade - Block of Polyphenylene Sulfide
-appliedenergistics2:facade:0, Cable Facade - Block of Polybenzimidazole (PBI)
-appliedenergistics2:facade:0, Cable Facade - Block of Polyethylene (PE)
-appliedenergistics2:facade:0, Cable Facade - Block of Epoxy Resin
-appliedenergistics2:facade:0, Cable Facade - Block of Polycaprolactam
-appliedenergistics2:facade:0, Cable Facade - Block of Polytetrafluoroethylene (PTFE)
-appliedenergistics2:facade:0, Cable Facade - Block of Sugar
-appliedenergistics2:facade:0, Cable Facade - Block of Magnetic Steel
-appliedenergistics2:facade:0, Cable Facade - Block of Vanadiumsteel
-appliedenergistics2:facade:0, Cable Facade - Block of Potin
-appliedenergistics2:facade:0, Cable Facade - Block of Borosilicate Glass
-appliedenergistics2:facade:0, Cable Facade - Block of Naquadah Alloy
-appliedenergistics2:facade:0, Cable Facade - Block of Melodic Alloy
-appliedenergistics2:facade:0, Cable Facade - Block of Stellar Alloy
-appliedenergistics2:facade:0, Cable Facade - Block of Crystalline Pink Slime
-appliedenergistics2:facade:0, Cable Facade - Block of Energetic Silver
-appliedenergistics2:facade:0, Cable Facade - Block of Vivid Alloy
-appliedenergistics2:facade:0, Cable Facade - Block of Chrome
-appliedenergistics2:facade:0, Cable Facade - Block of Cobalt
-appliedenergistics2:facade:0, Cable Facade - Block of Copper
-appliedenergistics2:facade:0, Cable Facade - Block of Darmstadtium
-appliedenergistics2:facade:0, Cable Facade - Block of Indium
-appliedenergistics2:facade:0, Cable Facade - Block of Iridium
-appliedenergistics2:facade:0, Cable Facade - Block of Lead
-appliedenergistics2:facade:0, Cable Facade - Block of Manganese
-appliedenergistics2:facade:0, Cable Facade - Block of Battery Alloy
-appliedenergistics2:facade:0, Cable Facade - Block of Blue Topaz
-appliedenergistics2:facade:0, Cable Facade - Block of Brass
-appliedenergistics2:facade:0, Cable Facade - Block of Bronze
-appliedenergistics2:facade:0, Cable Facade - Block of Charcoal
-appliedenergistics2:facade:0, Cable Facade - Block of Cinnabar
 appliedenergistics2:facade:0, Cable Facade - Block of Molybdenum
 appliedenergistics2:facade:0, Cable Facade - Block of Neodymium
 appliedenergistics2:facade:0, Cable Facade - Block of Nickel
 appliedenergistics2:facade:0, Cable Facade - Block of Niobium
 appliedenergistics2:facade:0, Cable Facade - Block of Osmium
 appliedenergistics2:facade:0, Cable Facade - Block of Palladium
-appliedenergistics2:facade:0, Cable Facade - Block of Cupronickel
-appliedenergistics2:facade:0, Cable Facade - Block of Electrum
-appliedenergistics2:facade:0, Cable Facade - Block of Green Sapphire
-appliedenergistics2:facade:0, Cable Facade - Block of Grossular
-appliedenergistics2:facade:0, Cable Facade - Block of Rutile
-appliedenergistics2:facade:0, Cable Facade - Block of Invar
-appliedenergistics2:facade:0, Cable Facade - Block of Indium Gallium Phosphide
-appliedenergistics2:facade:0, Cable Facade - Block of Nickel Zinc Ferrite
-appliedenergistics2:facade:0, Cable Facade - Block of Realgar
 appliedenergistics2:facade:0, Cable Facade - Block of Certus Quartz
-appliedenergistics2:facade:0, Cable Facade - Block of Silicone Rubber
-appliedenergistics2:facade:0, Cable Facade - Block of Styrene-Butadiene Rubber
-appliedenergistics2:facade:0, Cable Facade - Block of Fiber-Reinforced Epoxy Resin
-appliedenergistics2:facade:0, Cable Facade - Block of Polyvinyl Chloride (PVC)
-appliedenergistics2:facade:0, Cable Facade - Block of Europium
-appliedenergistics2:facade:0, Cable Facade - Block of Gallium
-appliedenergistics2:facade:0, Cable Facade - Block of Red Garnet
-appliedenergistics2:facade:0, Cable Facade - Block of Yellow Garnet
-appliedenergistics2:facade:0, Cable Facade - Block of Monazite
-appliedenergistics2:facade:0, Cable Facade - Block of Rubber
-appliedenergistics2:facade:0, Cable Facade - Block of Endereye
-appliedenergistics2:facade:0, Cable Facade - Block of Red Steel
-appliedenergistics2:facade:0, Cable Facade - Block of Blue Steel
+appliedenergistics2:facade:0, Cable Facade - Block of Magnetic Steel
+appliedenergistics2:facade:0, Cable Facade - Block of Vanadiumsteel
+appliedenergistics2:facade:0, Cable Facade - Block of Potin
+appliedenergistics2:facade:0, Cable Facade - Block of Borosilicate Glass
+appliedenergistics2:facade:0, Cable Facade - Block of Naquadah Alloy
+appliedenergistics2:facade:0, Cable Facade - Block of Galvalume
+appliedenergistics2:facade:0, Cable Facade - Block of Noble-Metal High-Entropy-Alloy Nanoparticles
+appliedenergistics2:facade:0, Cable Facade - Block of Tritanium
+appliedenergistics2:facade:0, Cable Facade - Block of Duranium
+appliedenergistics2:facade:0, Cable Facade - Block of Trinium
 appliedenergistics2:facade:0, Cable Facade - Block of Platinum
 appliedenergistics2:facade:0, Cable Facade - Block of Plutonium 239
 appliedenergistics2:facade:0, Cable Facade - Block of Plutonium 241
 appliedenergistics2:facade:0, Cable Facade - Block of Rhodium
 appliedenergistics2:facade:0, Cable Facade - Block of Ruthenium
 appliedenergistics2:facade:0, Cable Facade - Block of Samarium
-appliedenergistics2:facade:0, Cable Facade - Block of Polyvinyl Butyral
+appliedenergistics2:facade:0, Cable Facade - Block of Yttrium Barium Cuprate
+appliedenergistics2:facade:0, Cable Facade - Block of Quartzite
+appliedenergistics2:facade:0, Cable Facade - Block of Osmiridium
+appliedenergistics2:facade:0, Cable Facade - Block of Gallium Arsenide
+appliedenergistics2:facade:0, Cable Facade - Block of Malachite
+appliedenergistics2:facade:0, Cable Facade - Block of Magnetic Iron
+appliedenergistics2:facade:0, Cable Facade - Block of Tungstencarbide
+appliedenergistics2:facade:0, Cable Facade - Block of Battery Alloy
+appliedenergistics2:facade:0, Cable Facade - Block of Blue Topaz
+appliedenergistics2:facade:0, Cable Facade - Block of Brass
+appliedenergistics2:facade:0, Cable Facade - Block of Bronze
+appliedenergistics2:facade:0, Cable Facade - Block of Charcoal
+appliedenergistics2:facade:0, Cable Facade - Block of Cinnabar
+appliedenergistics2:facade:0, Cable Facade - Block of Nether Star
+appliedenergistics2:facade:0, Cable Facade - Block of Almandine
+appliedenergistics2:facade:0, Cable Facade - Block of Andradite
+appliedenergistics2:facade:0, Cable Facade - Block of Annealed Copper
 appliedenergistics2:facade:0, Cable Facade - Block of Ruthenium Trinium Americium Neutronate
-appliedenergistics2:facade:0, Cable Facade - Wood Frame Box
-appliedenergistics2:facade:0, Cable Facade - Dark Steel Frame Box
-appliedenergistics2:facade:0, Cable Facade - Invar Frame Box
-appliedenergistics2:facade:0, Cable Facade - Brass Frame Box
-appliedenergistics2:facade:0, Cable Facade - Bronze Frame Box
-appliedenergistics2:facade:0, Cable Facade - Tungstencarbide Frame Box
+appliedenergistics2:facade:0, Cable Facade - Block of HSS-G
+appliedenergistics2:facade:0, Cable Facade - Block of Red Alloy
+appliedenergistics2:facade:0, Cable Facade - Block of HSS-E
+appliedenergistics2:facade:0, Cable Facade - Block of HSS-S
+appliedenergistics2:facade:0, Cable Facade - Block of Blue Alloy
+appliedenergistics2:facade:0, Cable Facade - Block of Chrome
+appliedenergistics2:facade:0, Cable Facade - Block of Cobalt
+appliedenergistics2:facade:0, Cable Facade - Block of Copper
+appliedenergistics2:facade:0, Cable Facade - Block of Darmstadtium
+appliedenergistics2:facade:0, Cable Facade - Block of Endereye
+appliedenergistics2:facade:0, Cable Facade - Block of Red Steel
+appliedenergistics2:facade:0, Cable Facade - Block of Blue Steel
+appliedenergistics2:facade:0, Cable Facade - Block of Indium
+appliedenergistics2:facade:0, Cable Facade - Block of Iridium
+appliedenergistics2:facade:0, Cable Facade - Block of Lead
+appliedenergistics2:facade:0, Cable Facade - Block of Manganese
+appliedenergistics2:facade:0, Cable Facade - Block of Silicone Rubber
+appliedenergistics2:facade:0, Cable Facade - Block of Styrene-Butadiene Rubber
+appliedenergistics2:facade:0, Cable Facade - Block of Fiber-Reinforced Epoxy Resin
+appliedenergistics2:facade:0, Cable Facade - Block of Polyvinyl Chloride (PVC)
+appliedenergistics2:facade:0, Cable Facade - Block of Red Garnet
+appliedenergistics2:facade:0, Cable Facade - Block of Yellow Garnet
+appliedenergistics2:facade:0, Cable Facade - Block of Monazite
+appliedenergistics2:facade:0, Cable Facade - Block of Indium Gallium Phosphide
+appliedenergistics2:facade:0, Cable Facade - Block of Nickel Zinc Ferrite
+appliedenergistics2:facade:0, Cable Facade - Block of Realgar
+appliedenergistics2:facade:0, Cable Facade - Block of Rubber
+appliedenergistics2:facade:0, Cable Facade - Block of Silicon
+appliedenergistics2:facade:0, Cable Facade - Block of Silver
+appliedenergistics2:facade:0, Cable Facade - Block of Tantalum
+appliedenergistics2:facade:0, Cable Facade - Block of Thorium
+appliedenergistics2:facade:0, Cable Facade - Block of Europium
+appliedenergistics2:facade:0, Cable Facade - Block of Gallium
+appliedenergistics2:facade:0, Cable Facade - Block of Aluminium
+appliedenergistics2:facade:0, Cable Facade - Block of Americium
+appliedenergistics2:facade:0, Cable Facade - Block of Antimony
+appliedenergistics2:facade:0, Cable Facade - Block of Beryllium
+appliedenergistics2:facade:0, Cable Facade - Block of Bismuth
+appliedenergistics2:facade:0, Cable Facade - Block of Flint
+appliedenergistics2:facade:0, Cable Facade - Block of Rhodium Plated Palladium
+appliedenergistics2:facade:0, Cable Facade - Treated Wood Frame Box
+appliedenergistics2:facade:0, Cable Facade - HSLA Steel Frame Box
+appliedenergistics2:facade:0, Cable Facade - Incoloy-MA956 Frame Box
+appliedenergistics2:facade:0, Cable Facade - Titanium Frame Box
+appliedenergistics2:facade:0, Cable Facade - Tungsten Frame Box
+appliedenergistics2:facade:0, Cable Facade - Neutronium Frame Box
+appliedenergistics2:facade:0, Cable Facade - Black Steel Frame Box
+appliedenergistics2:facade:0, Cable Facade - Tungstensteel Frame Box
+appliedenergistics2:facade:0, Cable Facade - Tritanium Frame Box
+appliedenergistics2:facade:0, Cable Facade - HSS-G Frame Box
+appliedenergistics2:facade:0, Cable Facade - HSS-E Frame Box
+appliedenergistics2:facade:0, Cable Facade - HSS-S Frame Box
 appliedenergistics2:facade:0, Cable Facade - Watertight Steel Frame Box
 appliedenergistics2:facade:0, Cable Facade - Maraging Steel 300 Frame Box
 appliedenergistics2:facade:0, Cable Facade - Hastelloy-C276 Frame Box
 appliedenergistics2:facade:0, Cable Facade - Hastelloy-X Frame Box
-appliedenergistics2:facade:0, Cable Facade - Tritanium Frame Box
+appliedenergistics2:facade:0, Cable Facade - Bismuth Bronze Frame Box
+appliedenergistics2:facade:0, Cable Facade - Tungstencarbide Frame Box
+appliedenergistics2:facade:0, Cable Facade - Europium Frame Box
+appliedenergistics2:facade:0, Cable Facade - Invar Frame Box
+appliedenergistics2:facade:0, Cable Facade - Blue Steel Frame Box
 appliedenergistics2:facade:0, Cable Facade - Stainless Steel Frame Box
 appliedenergistics2:facade:0, Cable Facade - Steel Frame Box
-appliedenergistics2:facade:0, Cable Facade - Bismuth Bronze Frame Box
-appliedenergistics2:facade:0, Cable Facade - Treated Wood Frame Box
-appliedenergistics2:facade:0, Cable Facade - Titanium Frame Box
-appliedenergistics2:facade:0, Cable Facade - Tungsten Frame Box
-appliedenergistics2:facade:0, Cable Facade - Neutronium Frame Box
-appliedenergistics2:facade:0, Cable Facade - HSLA Steel Frame Box
-appliedenergistics2:facade:0, Cable Facade - Incoloy-MA956 Frame Box
-appliedenergistics2:facade:0, Cable Facade - Blue Steel Frame Box
-appliedenergistics2:facade:0, Cable Facade - HSS-G Frame Box
-appliedenergistics2:facade:0, Cable Facade - HSS-E Frame Box
-appliedenergistics2:facade:0, Cable Facade - HSS-S Frame Box
-appliedenergistics2:facade:0, Cable Facade - Tungstensteel Frame Box
 appliedenergistics2:facade:0, Cable Facade - Naquadah Alloy Frame Box
-appliedenergistics2:facade:0, Cable Facade - Aluminium Frame Box
-appliedenergistics2:facade:0, Cable Facade - Europium Frame Box
+appliedenergistics2:facade:0, Cable Facade - Galvalume Frame Box
+appliedenergistics2:facade:0, Cable Facade - Noble-Metal High-Entropy-Alloy Nanoparticles Frame Box
 appliedenergistics2:facade:0, Cable Facade - Iron Frame Box
+appliedenergistics2:facade:0, Cable Facade - Dark Steel Frame Box
+appliedenergistics2:facade:0, Cable Facade - Aluminium Frame Box
 appliedenergistics2:facade:0, Cable Facade - Polytetrafluoroethylene (PTFE) Frame Box
-appliedenergistics2:facade:0, Cable Facade - White Elevator
-appliedenergistics2:facade:0, Cable Facade - Orange Elevator
-appliedenergistics2:facade:0, Cable Facade - Magenta Elevator
-appliedenergistics2:facade:0, Cable Facade - Light Blue Elevator
-appliedenergistics2:facade:0, Cable Facade - Yellow Elevator
-appliedenergistics2:facade:0, Cable Facade - Lime Elevator
-appliedenergistics2:facade:0, Cable Facade - Pink Elevator
-appliedenergistics2:facade:0, Cable Facade - Gray Elevator
-appliedenergistics2:facade:0, Cable Facade - Light Gray Elevator
-appliedenergistics2:facade:0, Cable Facade - Cyan Elevator
-appliedenergistics2:facade:0, Cable Facade - Purple Elevator
-appliedenergistics2:facade:0, Cable Facade - Blue Elevator
-appliedenergistics2:facade:0, Cable Facade - Brown Elevator
-appliedenergistics2:facade:0, Cable Facade - Green Elevator
-appliedenergistics2:facade:0, Cable Facade - Red Elevator
-appliedenergistics2:facade:0, Cable Facade - Black Elevator
-appliedenergistics2:facade:0, Cable Facade - Flux Block
-appliedenergistics2:facade:0, Cable Facade - Oak Trim
-appliedenergistics2:facade:0, Cable Facade - Spruce Trim
-appliedenergistics2:facade:0, Cable Facade - Birch Trim
-appliedenergistics2:facade:0, Cable Facade - Jungle Trim
-appliedenergistics2:facade:0, Cable Facade - Acacia Trim
-appliedenergistics2:facade:0, Cable Facade - Dark Oak Trim
+appliedenergistics2:facade:0, Cable Facade - Brass Frame Box
+appliedenergistics2:facade:0, Cable Facade - Bronze Frame Box
+appliedenergistics2:facade:0, Cable Facade - Wood Frame Box
 appliedenergistics2:facade:0, Cable Facade - Crushing Wheels
 appliedenergistics2:facade:0, Cable Facade - Slicing Blades
 appliedenergistics2:facade:0, Cable Facade - Electrolytic Cell
@@ -6594,6 +6621,34 @@ appliedenergistics2:facade:0, Cable Facade - Industrial Steam Casing
 appliedenergistics2:facade:0, Cable Facade - Adobe Bricks
 appliedenergistics2:facade:0, Cable Facade - Reinforced Adobe Bricks
 appliedenergistics2:facade:0, Cable Facade - Food-Safe Bismuth Bronze Casing
+appliedenergistics2:facade:0, Cable Facade - Banana Leaves
+appliedenergistics2:facade:0, Cable Facade - Orange Leaves
+appliedenergistics2:facade:0, Cable Facade - Mango Leaves
+appliedenergistics2:facade:0, Cable Facade - Apricot Leaves
+appliedenergistics2:facade:0, Cable Facade - Lemon Leaves
+appliedenergistics2:facade:0, Cable Facade - Lime Leaves
+appliedenergistics2:facade:0, Cable Facade - Olive Leaves
+appliedenergistics2:facade:0, Cable Facade - Rainbowwood Leaves
+appliedenergistics2:facade:0, Cable Facade - Banana Pseudostem
+appliedenergistics2:facade:0, Cable Facade - Orange Wood
+appliedenergistics2:facade:0, Cable Facade - Mango Wood
+appliedenergistics2:facade:0, Cable Facade - Apricot Wood
+appliedenergistics2:facade:0, Cable Facade - Lemon Wood
+appliedenergistics2:facade:0, Cable Facade - Lime Wood
+appliedenergistics2:facade:0, Cable Facade - Olive Wood
+appliedenergistics2:facade:0, Cable Facade - Rainbowwood Wood
+appliedenergistics2:facade:0, Cable Facade - Banana Planks
+appliedenergistics2:facade:0, Cable Facade - Orange Planks
+appliedenergistics2:facade:0, Cable Facade - Mango Planks
+appliedenergistics2:facade:0, Cable Facade - Apricot Planks
+appliedenergistics2:facade:0, Cable Facade - Lemon Planks
+appliedenergistics2:facade:0, Cable Facade - Lime Planks
+appliedenergistics2:facade:0, Cable Facade - Olive Planks
+appliedenergistics2:facade:0, Cable Facade - Rainbowwood Planks
+appliedenergistics2:facade:0, Cable Facade - Corrosion Proof Galvalume Machine Casing
+appliedenergistics2:facade:0, Cable Facade - Treated Wood Machine Casing
+appliedenergistics2:facade:0, Cable Facade - Voiding Proof NM-HEA NP Machine Casing
+appliedenergistics2:facade:0, Cable Facade - Sawmill Conveyor
 appliedenergistics2:facade:0, Cable Facade - Blank Box
 appliedenergistics2:facade:0, Cable Facade - Storage Box
 appliedenergistics2:facade:0, Cable Facade - Condensed Storage Box
@@ -6661,32 +6716,37 @@ appliedenergistics2:material:31, Inverter Card
 appliedenergistics2:material:58, Pattern Expansion Card
 appliedenergistics2:material:26, Redstone Card
 appliedenergistics2:material:30, Acceleration Card
-appliedenergistics2:material:34, 128³ Spatial Component
-appliedenergistics2:material:37, 16k ME Storage Component
-appliedenergistics2:material:33, 16³ Spatial Component
-appliedenergistics2:material:35, 1k ME Storage Component
-appliedenergistics2:material:32, 2³ Spatial Component
-appliedenergistics2:material:36, 4k ME Storage Component
-appliedenergistics2:material:38, 64k ME Storage Component
+appliedenergistics2:material:34, §d128³§r Spatial Component
+appliedenergistics2:material:37, §a16k§r ME Storage Component
+appliedenergistics2:material:33, §916³§r Spatial Component
+appliedenergistics2:material:35, §61k§r ME Storage Component
+appliedenergistics2:material:32, §62³§r Spatial Component
+appliedenergistics2:material:36, §e4k§r ME Storage Component
+appliedenergistics2:material:38, §b64k§r ME Storage Component
 appliedenergistics2:material:0, Certus Quartz Crystal
 appliedenergistics2:material:1, Charged Certus Quartz Crystal
+appliedenergistics2:material:2, Certus Quartz Dust
 appliedenergistics2:material:39, ME Storage Housing
 appliedenergistics2:material:46, Ender Dust
 appliedenergistics2:material:24, Engineering Processor
 appliedenergistics2:material:14, Inscriber Engineering Press
 appliedenergistics2:material:17, Printed Engineering Circuit
-appliedenergistics2:material:56, 16k ME Fluid Storage Component
-appliedenergistics2:material:54, 1k ME Fluid Storage Component
-appliedenergistics2:material:55, 4k ME Fluid Storage Component
-appliedenergistics2:material:57, 64k ME Fluid Storage Component
+appliedenergistics2:material:56, §a16k§r ME Fluid Storage Component
+appliedenergistics2:material:54, §61k§r ME Fluid Storage Component
+appliedenergistics2:material:55, §e4k§r ME Fluid Storage Component
+appliedenergistics2:material:57, §b64k§r ME Fluid Storage Component
 appliedenergistics2:material:7, Fluix Crystal
+appliedenergistics2:material:8, Fluix Dust
 appliedenergistics2:material:9, Fluix Pearl
 appliedenergistics2:material:43, Formation Core
+appliedenergistics2:material:51, Gold Dust
+appliedenergistics2:material:49, Iron Dust
 appliedenergistics2:material:22, Logic Processor
 appliedenergistics2:material:15, Inscriber Logic Press
 appliedenergistics2:material:18, Printed Logic Circuit
 appliedenergistics2:material:6, Matter Ball
 appliedenergistics2:material:21, Inscriber Name Press
+appliedenergistics2:material:3, Nether Quartz Dust
 appliedenergistics2:material:10, Pure Certus Quartz Crystal
 appliedenergistics2:material:12, Pure Fluix Crystal
 appliedenergistics2:material:11, Pure Nether Quartz Crystal
@@ -6694,6 +6754,7 @@ appliedenergistics2:material:48, Quantum Entangled Singularity
 appliedenergistics2:material:19, Inscriber Silicon Press
 appliedenergistics2:material:20, Printed Silicon
 appliedenergistics2:material:47, Singularity
+appliedenergistics2:material:45, Sky Stone Dust
 appliedenergistics2:material:41, Wireless Receiver
 appliedenergistics2:material:42, Wireless Booster
 appliedenergistics2:part:300, ME Annihilation Plane
@@ -6793,6 +6854,7 @@ appliedenergistics2:part:261, ME Fluid Export Bus
 appliedenergistics2:part:321, ME Fluid Formation Plane
 appliedenergistics2:part:241, ME Fluid Import Bus
 appliedenergistics2:part:441, ME Fluid Interface
+appliedenergistics2:part:522, ME Configuration Fluid Interface Terminal
 appliedenergistics2:part:281, ME Fluid Level Emitter
 appliedenergistics2:part:221, ME Fluid Storage Bus
 appliedenergistics2:part:520, ME Fluid Terminal
@@ -6800,6 +6862,7 @@ appliedenergistics2:part:320, ME Formation Plane
 appliedenergistics2:part:301, ME Identity Annihilation Plane
 appliedenergistics2:part:240, ME Import Bus
 appliedenergistics2:part:440, ME Interface
+appliedenergistics2:part:521, ME Configuration Interface Terminal
 appliedenergistics2:part:480, ME Interface Terminal
 appliedenergistics2:part:100, ME Inverted Toggle Bus
 appliedenergistics2:part:280, ME Level Emitter
@@ -8008,6 +8071,8 @@ enderio:block_creative_spawner, Creative Spawner
 ae2wtlib:infinity_booster_card, Infinity Booster Card
 ae2wtlib:wut, Wireless Ultimate Terminal
 ae2wtlib:wut_creative, Creative Wireless Ultimate Terminal
+betterp2p:advanced_memory_card, Advanced Memory Card
+modularui:test_block, tile.null.name
 buildinggadgets:buildingtool, Building Gadget
 buildinggadgets:exchangertool, Exchanging Gadget
 buildinggadgets:copypastetool, Copy-Paste Gadget
@@ -8023,11 +8088,11 @@ buildinggadgets:constructionpastecontainer, Paste Container
 buildinggadgets:constructionpastecontainert2, Paste Container T2
 buildinggadgets:constructionpastecontainert3, Paste Container T3
 buildinggadgets:constructionpastecontainercreative, Creative Paste Container
+catwalks:blowtorch, Blowtorch
 catwalks:cable, Classic Support Cables
 catwalks:catwalk, tile.catwalks.catwalk.name
 catwalks:ladder, Classic Ladder
 catwalks:stair, WORK IN PROGRESS
-catwalks:blowtorch, Blowtorch
 chisel:auto_chisel, Auto Chisel
 chisel:chisel_iron, Chisel
 chisel:chisel_diamond, Diamond Chisel
@@ -8047,6 +8112,111 @@ danknull:dank_null_panel_3, Gold /dank/null Panel
 danknull:dank_null_panel_4, Diamond /dank/null Panel
 danknull:dank_null_panel_5, Emerald /dank/null Panel
 danknull:danknull_dock, /dank/null Docking Station
+elevatorid:elevator_white, White Elevator
+elevatorid:elevator_orange, Orange Elevator
+elevatorid:elevator_magenta, Magenta Elevator
+elevatorid:elevator_light_blue, Light Blue Elevator
+elevatorid:elevator_yellow, Yellow Elevator
+elevatorid:elevator_lime, Lime Elevator
+elevatorid:elevator_pink, Pink Elevator
+elevatorid:elevator_gray, Gray Elevator
+elevatorid:elevator_silver, Light Gray Elevator
+elevatorid:elevator_cyan, Cyan Elevator
+elevatorid:elevator_purple, Purple Elevator
+elevatorid:elevator_blue, Blue Elevator
+elevatorid:elevator_brown, Brown Elevator
+elevatorid:elevator_green, Green Elevator
+elevatorid:elevator_red, Red Elevator
+elevatorid:elevator_black, Black Elevator
+storagedrawers:basicdrawers:0, Basic Drawer
+storagedrawers:basicdrawers:0, Basic Drawer
+storagedrawers:basicdrawers:0, Basic Drawer
+storagedrawers:basicdrawers:0, Basic Drawer
+storagedrawers:basicdrawers:0, Basic Drawer
+storagedrawers:basicdrawers:0, Basic Drawer
+storagedrawers:basicdrawers:1, Basic Drawers 1x2
+storagedrawers:basicdrawers:1, Basic Drawers 1x2
+storagedrawers:basicdrawers:1, Basic Drawers 1x2
+storagedrawers:basicdrawers:1, Basic Drawers 1x2
+storagedrawers:basicdrawers:1, Basic Drawers 1x2
+storagedrawers:basicdrawers:1, Basic Drawers 1x2
+storagedrawers:basicdrawers:2, Basic Drawers 2x2
+storagedrawers:basicdrawers:2, Basic Drawers 2x2
+storagedrawers:basicdrawers:2, Basic Drawers 2x2
+storagedrawers:basicdrawers:2, Basic Drawers 2x2
+storagedrawers:basicdrawers:2, Basic Drawers 2x2
+storagedrawers:basicdrawers:2, Basic Drawers 2x2
+storagedrawers:basicdrawers:3, Half Drawers 1x2
+storagedrawers:basicdrawers:3, Half Drawers 1x2
+storagedrawers:basicdrawers:3, Half Drawers 1x2
+storagedrawers:basicdrawers:3, Half Drawers 1x2
+storagedrawers:basicdrawers:3, Half Drawers 1x2
+storagedrawers:basicdrawers:3, Half Drawers 1x2
+storagedrawers:basicdrawers:4, Half Drawers 2x2
+storagedrawers:basicdrawers:4, Half Drawers 2x2
+storagedrawers:basicdrawers:4, Half Drawers 2x2
+storagedrawers:basicdrawers:4, Half Drawers 2x2
+storagedrawers:basicdrawers:4, Half Drawers 2x2
+storagedrawers:basicdrawers:4, Half Drawers 2x2
+storagedrawers:keybutton:0, Drawer Key Button
+storagedrawers:keybutton:1, Concealment Key Button
+storagedrawers:keybutton:2, Personal Key Button
+storagedrawers:keybutton:3, Quantify Key Button
+storagedrawers:compdrawers, Compacting Drawer
+storagedrawers:controller, Drawer Controller
+storagedrawers:controllerslave, Controller Slave
+storagedrawers:trim:0, Oak Trim
+storagedrawers:trim:1, Spruce Trim
+storagedrawers:trim:2, Birch Trim
+storagedrawers:trim:3, Jungle Trim
+storagedrawers:trim:4, Acacia Trim
+storagedrawers:trim:5, Dark Oak Trim
+storagedrawers:framingtable, Framing Table
+storagedrawers:customdrawers:0, Framed Drawer
+storagedrawers:customdrawers:1, Framed Drawers 1x2
+storagedrawers:customdrawers:2, Framed Drawers 2x2
+storagedrawers:customdrawers:3, Framed Half Drawers 1x2
+storagedrawers:customdrawers:4, Framed Half Drawers 2x2
+storagedrawers:customtrim, Framed Trim
+storagedrawers:upgrade_template, Upgrade Template
+storagedrawers:upgrade_storage:0, Storage Upgrade (I)
+storagedrawers:upgrade_storage:1, Storage Upgrade (II)
+storagedrawers:upgrade_storage:2, Storage Upgrade (III)
+storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
+storagedrawers:upgrade_storage:4, Storage Upgrade (V)
+storagedrawers:upgrade_one_stack, Storage Downgrade
+storagedrawers:upgrade_status:0, Status Upgrade (I)
+storagedrawers:upgrade_status:1, Status Upgrade (II)
+storagedrawers:upgrade_void, Void Upgrade
+storagedrawers:upgrade_conversion, Conversion Upgrade
+storagedrawers:upgrade_creative:0, Creative Storage Upgrade
+storagedrawers:upgrade_creative:1, Creative Vending Upgrade
+storagedrawers:upgrade_redstone:0, Redstone Upgrade
+storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
+storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
+storagedrawers:drawer_key, Drawer Key
+storagedrawers:shroud_key, Concealment Key
+storagedrawers:personal_key, Personal Key
+storagedrawers:quantify_key, Quantify Key
+storagedrawers:tape, Packing Tape
+framedcompactdrawers:framed_compact_drawer, Framed Compacting Drawer
+framedcompactdrawers:framed_drawer_controller:0, Framed Drawer Controller
+framedcompactdrawers:framed_slave:0, Framed Controller Slave
+itemfilters:filter, Item Filter
+itemfilters:missing, Missing Item
+ftbquests:screen, Task Screen
+ftbquests:progress_detector, Quest Progress Detector
+ftbquests:detector:0, Redstone Detector
+ftbquests:detector:1, Player Detector
+ftbquests:progress_screen, Progress Screen
+ftbquests:chest, Quest Chest
+ftbquests:loot_crate_storage, Loot Crate Storage
+ftbquests:loot_crate_opener, Loot Crate Opener
+ftbquests:barrier, Quest Barrier
+ftbquests:reward_collector, Reward Collector
+ftbquests:book, Quest Book
+ftbquests:lootcrate, Loot Crate
+ftbquests:custom_icon, Custom Icon
 gregtech:machine:1, Small Steam Solid Fuel Boiler
 gregtech:machine:2, High Pressure Steam Solid Fuel Boiler
 gregtech:machine:3, Steam Solar Boiler
@@ -8418,6 +8588,7 @@ gregtech:machine:1031, Advanced Processing Array
 gregtech:machine:1032, Basic Fluid Drilling Rig
 gregtech:machine:1033, Advanced Fluid Drilling Rig
 gregtech:machine:1034, Advanced Fluid Drilling Rig II
+gregtech:machine:1035, Cleanroom
 gregtech:machine:1150, ULV Input Bus
 gregtech:machine:1151, LV Input Bus
 gregtech:machine:1152, MV Input Bus
@@ -8581,6 +8752,8 @@ gregtech:machine:1395, Elite World Accelerator II
 gregtech:machine:1396, Elite World Accelerator III
 gregtech:machine:1397, Ultimate World Accelerator
 gregtech:machine:1398, Machine Access Interface
+gregtech:machine:1402, Item Passthrough Hatch
+gregtech:machine:1403, Fluid Passthrough Hatch
 gregtech:machine:1510, Basic Buffer
 gregtech:machine:1511, Advanced Buffer
 gregtech:machine:1512, Advanced Buffer II
@@ -8649,6 +8822,7 @@ gregtech:machine:1653, Steam Hatch
 gregtech:machine:1654, Maintenance Hatch
 gregtech:machine:1655, Configurable Maintenance Hatch
 gregtech:machine:1656, Automatic Maintenance Hatch
+gregtech:machine:1401, Automatic Filtration Maintenance Hatch
 gregtech:machine:1657, LV Muffler Hatch
 gregtech:machine:1658, MV Muffler Hatch
 gregtech:machine:1659, HV Muffler Hatch
@@ -8696,6 +8870,10 @@ gregtech:machine:1702, UV Energy Converter (1A)
 gregtech:machine:1703, UV Energy Converter (4A)
 gregtech:machine:1704, UV Energy Converter (8A)
 gregtech:machine:1705, UV Energy Converter (16A)
+gregtech:machine:1706, UHV Energy Converter (1A)
+gregtech:machine:1707, UHV Energy Converter (4A)
+gregtech:machine:1708, UHV Energy Converter (8A)
+gregtech:machine:1709, UHV Energy Converter (16A)
 gregtech:machine:2000, Large Maceration Tower
 gregtech:machine:2001, Alloy Blast Smelter
 gregtech:machine:2002, Large Arc Smelter
@@ -8705,7 +8883,6 @@ gregtech:machine:2005, Large Material Press
 gregtech:machine:2006, Large Brewing Vat
 gregtech:machine:2007, Large Centrifuge Unit
 gregtech:machine:2008, Large Chemical Bath
-gregtech:machine:2009, Chemical Plant
 gregtech:machine:2010, Large Extracting Machine
 gregtech:machine:2011, Large Cutting Machine
 gregtech:machine:2012, Large Fractionating Distillery
@@ -8744,7 +8921,7 @@ gregtech:machine:8506, Advanced Slicing Machine III
 gregtech:machine:8507, Elite Slicing Machine
 gregtech:machine:8508, Elite Slicing Machine II
 gregtech:machine:8509, Elite Slicing Machine III
-gregtech:machine:8510, Elite Slicing Machine IV
+gregtech:machine:8510, Ultimate Slicing Machine
 gregtech:machine:8516, Primitive Baking Oven
 gregtech:machine:8517, Electric Baking Oven
 gregtech:machine:8518, Basic Cuisine Assembler
@@ -8754,7 +8931,7 @@ gregtech:machine:8521, Advanced Cuisine Assembler III
 gregtech:machine:8522, Elite Cuisine Assembler
 gregtech:machine:8523, Elite Cuisine Assembler II
 gregtech:machine:8524, Elite Cuisine Assembler III
-gregtech:machine:8525, Elite Cuisine Assembler IV
+gregtech:machine:8525, Ultimate Cuisine Assembler
 gregtech:machine:8531, Basic Microwave
 gregtech:machine:8532, Advanced Microwave
 gregtech:machine:8533, Advanced Microwave II
@@ -8762,7 +8939,7 @@ gregtech:machine:8534, Advanced Microwave III
 gregtech:machine:8535, Elite Microwave
 gregtech:machine:8536, Elite Microwave II
 gregtech:machine:8537, Elite Microwave III
-gregtech:machine:8538, Elite Microwave IV
+gregtech:machine:8538, Ultimate Microwave
 gregtech:machine:8544, Steam Baking Oven
 gregtech:machine:8545, Basic Mob Age Sorter
 gregtech:machine:8546, Advanced Mob Age Sorter
@@ -8780,9 +8957,15 @@ gregtech:machine:8557, Elite Mob Extractor
 gregtech:machine:8558, Elite Mob Extractor II
 gregtech:machine:8559, Elite Mob Extractor III
 gregtech:machine:8560, Elite Mob Extractor IV
-gregtech:machine:32000, Greenhouse
-gregtech:machine:32001, Void Ore Drilling Plant
-gregtech:machine:32002, Saw Mill
+gregtech:machine:8561, Basic Farmer
+gregtech:machine:8562, Advanced Farmer
+gregtech:machine:8563, Advanced Farmer II
+gregtech:machine:8564, Advanced Farmer III
+gregtech:machine:8565, Greenhouse
+gregtech:machine:11007, Elite Extreme Mixer III
+gregtech:machine:12001, Sawmill
+gregtech:machine:12002, Greenhouse
+gregtech:machine:12003, Void Ore Miner
 gregtech:wire_single:2, 1x Aluminium Wire
 gregtech:wire_single:252, 1x Annealed Copper Wire
 gregtech:wire_single:2011, 1x Black Steel Wire
@@ -9332,141 +9515,141 @@ gregtech:fluid_pipe_nonuple:115, Nonuple Tungsten Fluid Pipe
 gregtech:fluid_pipe_nonuple:396, Nonuple Tungstencarbide Fluid Pipe
 gregtech:fluid_pipe_nonuple:2013, Nonuple Tungstensteel Fluid Pipe
 gregtech:fluid_pipe_nonuple:2036, Nonuple Vanadiumsteel Fluid Pipe
-gregtech:item_pipe_small:300, Small Sterling Silver Item Pipe
-gregtech:item_pipe_small:112, Small Tin Item Pipe
-gregtech:item_pipe_small:3, Small Americium Item Pipe
+gregtech:item_pipe_small:331, Small Ultimet Item Pipe
+gregtech:item_pipe_small:75, Small Osmium Item Pipe
+gregtech:item_pipe_small:277, Small Electrum Item Pipe
 gregtech:item_pipe_small:23, Small Cobalt Item Pipe
+gregtech:item_pipe_small:1007, Small Polyvinyl Chloride (PVC) Item Pipe
+gregtech:item_pipe_small:2014, Small Cobalt Brass Item Pipe
 gregtech:item_pipe_small:274, Small Cupronickel Item Pipe
 gregtech:item_pipe_small:290, Small Magnalium Item Pipe
+gregtech:item_pipe_small:3, Small Americium Item Pipe
 gregtech:item_pipe_small:301, Small Rose Gold Item Pipe
-gregtech:item_pipe_small:277, Small Electrum Item Pipe
-gregtech:item_pipe_small:259, Small Brass Item Pipe
-gregtech:item_pipe_small:2014, Small Cobalt Brass Item Pipe
 gregtech:item_pipe_small:69, Small Nickel Item Pipe
-gregtech:item_pipe_small:331, Small Ultimet Item Pipe
+gregtech:item_pipe_small:300, Small Sterling Silver Item Pipe
 gregtech:item_pipe_small:302, Small Black Bronze Item Pipe
-gregtech:item_pipe_small:1007, Small Polyvinyl Chloride (PVC) Item Pipe
+gregtech:item_pipe_small:112, Small Tin Item Pipe
 gregtech:item_pipe_small:80, Small Platinum Item Pipe
-gregtech:item_pipe_small:75, Small Osmium Item Pipe
+gregtech:item_pipe_small:259, Small Brass Item Pipe
 gregtech:item_pipe_small:344, Small Osmiridium Item Pipe
-gregtech:item_pipe_normal:300, Sterling Silver Item Pipe
-gregtech:item_pipe_normal:112, Tin Item Pipe
-gregtech:item_pipe_normal:3, Americium Item Pipe
+gregtech:item_pipe_normal:331, Ultimet Item Pipe
+gregtech:item_pipe_normal:75, Osmium Item Pipe
+gregtech:item_pipe_normal:277, Electrum Item Pipe
 gregtech:item_pipe_normal:23, Cobalt Item Pipe
+gregtech:item_pipe_normal:1007, Polyvinyl Chloride (PVC) Item Pipe
+gregtech:item_pipe_normal:2014, Cobalt Brass Item Pipe
 gregtech:item_pipe_normal:274, Cupronickel Item Pipe
 gregtech:item_pipe_normal:290, Magnalium Item Pipe
+gregtech:item_pipe_normal:3, Americium Item Pipe
 gregtech:item_pipe_normal:301, Rose Gold Item Pipe
-gregtech:item_pipe_normal:277, Electrum Item Pipe
-gregtech:item_pipe_normal:259, Brass Item Pipe
-gregtech:item_pipe_normal:2014, Cobalt Brass Item Pipe
 gregtech:item_pipe_normal:69, Nickel Item Pipe
-gregtech:item_pipe_normal:331, Ultimet Item Pipe
+gregtech:item_pipe_normal:300, Sterling Silver Item Pipe
 gregtech:item_pipe_normal:302, Black Bronze Item Pipe
-gregtech:item_pipe_normal:1007, Polyvinyl Chloride (PVC) Item Pipe
+gregtech:item_pipe_normal:112, Tin Item Pipe
 gregtech:item_pipe_normal:80, Platinum Item Pipe
-gregtech:item_pipe_normal:75, Osmium Item Pipe
+gregtech:item_pipe_normal:259, Brass Item Pipe
 gregtech:item_pipe_normal:344, Osmiridium Item Pipe
-gregtech:item_pipe_large:300, Large Sterling Silver Item Pipe
-gregtech:item_pipe_large:112, Large Tin Item Pipe
-gregtech:item_pipe_large:3, Large Americium Item Pipe
+gregtech:item_pipe_large:331, Large Ultimet Item Pipe
+gregtech:item_pipe_large:75, Large Osmium Item Pipe
+gregtech:item_pipe_large:277, Large Electrum Item Pipe
 gregtech:item_pipe_large:23, Large Cobalt Item Pipe
+gregtech:item_pipe_large:1007, Large Polyvinyl Chloride (PVC) Item Pipe
+gregtech:item_pipe_large:2014, Large Cobalt Brass Item Pipe
 gregtech:item_pipe_large:274, Large Cupronickel Item Pipe
 gregtech:item_pipe_large:290, Large Magnalium Item Pipe
+gregtech:item_pipe_large:3, Large Americium Item Pipe
 gregtech:item_pipe_large:301, Large Rose Gold Item Pipe
-gregtech:item_pipe_large:277, Large Electrum Item Pipe
-gregtech:item_pipe_large:259, Large Brass Item Pipe
-gregtech:item_pipe_large:2014, Large Cobalt Brass Item Pipe
 gregtech:item_pipe_large:69, Large Nickel Item Pipe
-gregtech:item_pipe_large:331, Large Ultimet Item Pipe
+gregtech:item_pipe_large:300, Large Sterling Silver Item Pipe
 gregtech:item_pipe_large:302, Large Black Bronze Item Pipe
-gregtech:item_pipe_large:1007, Large Polyvinyl Chloride (PVC) Item Pipe
+gregtech:item_pipe_large:112, Large Tin Item Pipe
 gregtech:item_pipe_large:80, Large Platinum Item Pipe
-gregtech:item_pipe_large:75, Large Osmium Item Pipe
+gregtech:item_pipe_large:259, Large Brass Item Pipe
 gregtech:item_pipe_large:344, Large Osmiridium Item Pipe
-gregtech:item_pipe_huge:300, Huge Sterling Silver Item Pipe
-gregtech:item_pipe_huge:112, Huge Tin Item Pipe
-gregtech:item_pipe_huge:3, Huge Americium Item Pipe
+gregtech:item_pipe_huge:331, Huge Ultimet Item Pipe
+gregtech:item_pipe_huge:75, Huge Osmium Item Pipe
+gregtech:item_pipe_huge:277, Huge Electrum Item Pipe
 gregtech:item_pipe_huge:23, Huge Cobalt Item Pipe
+gregtech:item_pipe_huge:1007, Huge Polyvinyl Chloride (PVC) Item Pipe
+gregtech:item_pipe_huge:2014, Huge Cobalt Brass Item Pipe
 gregtech:item_pipe_huge:274, Huge Cupronickel Item Pipe
 gregtech:item_pipe_huge:290, Huge Magnalium Item Pipe
+gregtech:item_pipe_huge:3, Huge Americium Item Pipe
 gregtech:item_pipe_huge:301, Huge Rose Gold Item Pipe
-gregtech:item_pipe_huge:277, Huge Electrum Item Pipe
-gregtech:item_pipe_huge:259, Huge Brass Item Pipe
-gregtech:item_pipe_huge:2014, Huge Cobalt Brass Item Pipe
 gregtech:item_pipe_huge:69, Huge Nickel Item Pipe
-gregtech:item_pipe_huge:331, Huge Ultimet Item Pipe
+gregtech:item_pipe_huge:300, Huge Sterling Silver Item Pipe
 gregtech:item_pipe_huge:302, Huge Black Bronze Item Pipe
-gregtech:item_pipe_huge:1007, Huge Polyvinyl Chloride (PVC) Item Pipe
+gregtech:item_pipe_huge:112, Huge Tin Item Pipe
 gregtech:item_pipe_huge:80, Huge Platinum Item Pipe
-gregtech:item_pipe_huge:75, Huge Osmium Item Pipe
+gregtech:item_pipe_huge:259, Huge Brass Item Pipe
 gregtech:item_pipe_huge:344, Huge Osmiridium Item Pipe
-gregtech:item_pipe_small_restrictive:300, Small Restrictive Sterling Silver Item Pipe
-gregtech:item_pipe_small_restrictive:112, Small Restrictive Tin Item Pipe
-gregtech:item_pipe_small_restrictive:3, Small Restrictive Americium Item Pipe
+gregtech:item_pipe_small_restrictive:331, Small Restrictive Ultimet Item Pipe
+gregtech:item_pipe_small_restrictive:75, Small Restrictive Osmium Item Pipe
+gregtech:item_pipe_small_restrictive:277, Small Restrictive Electrum Item Pipe
 gregtech:item_pipe_small_restrictive:23, Small Restrictive Cobalt Item Pipe
+gregtech:item_pipe_small_restrictive:1007, Small Restrictive Polyvinyl Chloride (PVC) Item Pipe
+gregtech:item_pipe_small_restrictive:2014, Small Restrictive Cobalt Brass Item Pipe
 gregtech:item_pipe_small_restrictive:274, Small Restrictive Cupronickel Item Pipe
 gregtech:item_pipe_small_restrictive:290, Small Restrictive Magnalium Item Pipe
+gregtech:item_pipe_small_restrictive:3, Small Restrictive Americium Item Pipe
 gregtech:item_pipe_small_restrictive:301, Small Restrictive Rose Gold Item Pipe
-gregtech:item_pipe_small_restrictive:277, Small Restrictive Electrum Item Pipe
-gregtech:item_pipe_small_restrictive:259, Small Restrictive Brass Item Pipe
-gregtech:item_pipe_small_restrictive:2014, Small Restrictive Cobalt Brass Item Pipe
 gregtech:item_pipe_small_restrictive:69, Small Restrictive Nickel Item Pipe
-gregtech:item_pipe_small_restrictive:331, Small Restrictive Ultimet Item Pipe
+gregtech:item_pipe_small_restrictive:300, Small Restrictive Sterling Silver Item Pipe
 gregtech:item_pipe_small_restrictive:302, Small Restrictive Black Bronze Item Pipe
-gregtech:item_pipe_small_restrictive:1007, Small Restrictive Polyvinyl Chloride (PVC) Item Pipe
+gregtech:item_pipe_small_restrictive:112, Small Restrictive Tin Item Pipe
 gregtech:item_pipe_small_restrictive:80, Small Restrictive Platinum Item Pipe
-gregtech:item_pipe_small_restrictive:75, Small Restrictive Osmium Item Pipe
+gregtech:item_pipe_small_restrictive:259, Small Restrictive Brass Item Pipe
 gregtech:item_pipe_small_restrictive:344, Small Restrictive Osmiridium Item Pipe
-gregtech:item_pipe_normal_restrictive:300, Restrictive Sterling Silver Item Pipe
-gregtech:item_pipe_normal_restrictive:112, Restrictive Tin Item Pipe
-gregtech:item_pipe_normal_restrictive:3, Restrictive Americium Item Pipe
+gregtech:item_pipe_normal_restrictive:331, Restrictive Ultimet Item Pipe
+gregtech:item_pipe_normal_restrictive:75, Restrictive Osmium Item Pipe
+gregtech:item_pipe_normal_restrictive:277, Restrictive Electrum Item Pipe
 gregtech:item_pipe_normal_restrictive:23, Restrictive Cobalt Item Pipe
+gregtech:item_pipe_normal_restrictive:1007, Restrictive Polyvinyl Chloride (PVC) Item Pipe
+gregtech:item_pipe_normal_restrictive:2014, Restrictive Cobalt Brass Item Pipe
 gregtech:item_pipe_normal_restrictive:274, Restrictive Cupronickel Item Pipe
 gregtech:item_pipe_normal_restrictive:290, Restrictive Magnalium Item Pipe
+gregtech:item_pipe_normal_restrictive:3, Restrictive Americium Item Pipe
 gregtech:item_pipe_normal_restrictive:301, Restrictive Rose Gold Item Pipe
-gregtech:item_pipe_normal_restrictive:277, Restrictive Electrum Item Pipe
-gregtech:item_pipe_normal_restrictive:259, Restrictive Brass Item Pipe
-gregtech:item_pipe_normal_restrictive:2014, Restrictive Cobalt Brass Item Pipe
 gregtech:item_pipe_normal_restrictive:69, Restrictive Nickel Item Pipe
-gregtech:item_pipe_normal_restrictive:331, Restrictive Ultimet Item Pipe
+gregtech:item_pipe_normal_restrictive:300, Restrictive Sterling Silver Item Pipe
 gregtech:item_pipe_normal_restrictive:302, Restrictive Black Bronze Item Pipe
-gregtech:item_pipe_normal_restrictive:1007, Restrictive Polyvinyl Chloride (PVC) Item Pipe
+gregtech:item_pipe_normal_restrictive:112, Restrictive Tin Item Pipe
 gregtech:item_pipe_normal_restrictive:80, Restrictive Platinum Item Pipe
-gregtech:item_pipe_normal_restrictive:75, Restrictive Osmium Item Pipe
+gregtech:item_pipe_normal_restrictive:259, Restrictive Brass Item Pipe
 gregtech:item_pipe_normal_restrictive:344, Restrictive Osmiridium Item Pipe
-gregtech:item_pipe_large_restrictive:300, Large Restrictive Sterling Silver Item Pipe
-gregtech:item_pipe_large_restrictive:112, Large Restrictive Tin Item Pipe
-gregtech:item_pipe_large_restrictive:3, Large Restrictive Americium Item Pipe
+gregtech:item_pipe_large_restrictive:331, Large Restrictive Ultimet Item Pipe
+gregtech:item_pipe_large_restrictive:75, Large Restrictive Osmium Item Pipe
+gregtech:item_pipe_large_restrictive:277, Large Restrictive Electrum Item Pipe
 gregtech:item_pipe_large_restrictive:23, Large Restrictive Cobalt Item Pipe
+gregtech:item_pipe_large_restrictive:1007, Large Restrictive Polyvinyl Chloride (PVC) Item Pipe
+gregtech:item_pipe_large_restrictive:2014, Large Restrictive Cobalt Brass Item Pipe
 gregtech:item_pipe_large_restrictive:274, Large Restrictive Cupronickel Item Pipe
 gregtech:item_pipe_large_restrictive:290, Large Restrictive Magnalium Item Pipe
+gregtech:item_pipe_large_restrictive:3, Large Restrictive Americium Item Pipe
 gregtech:item_pipe_large_restrictive:301, Large Restrictive Rose Gold Item Pipe
-gregtech:item_pipe_large_restrictive:277, Large Restrictive Electrum Item Pipe
-gregtech:item_pipe_large_restrictive:259, Large Restrictive Brass Item Pipe
-gregtech:item_pipe_large_restrictive:2014, Large Restrictive Cobalt Brass Item Pipe
 gregtech:item_pipe_large_restrictive:69, Large Restrictive Nickel Item Pipe
-gregtech:item_pipe_large_restrictive:331, Large Restrictive Ultimet Item Pipe
+gregtech:item_pipe_large_restrictive:300, Large Restrictive Sterling Silver Item Pipe
 gregtech:item_pipe_large_restrictive:302, Large Restrictive Black Bronze Item Pipe
-gregtech:item_pipe_large_restrictive:1007, Large Restrictive Polyvinyl Chloride (PVC) Item Pipe
+gregtech:item_pipe_large_restrictive:112, Large Restrictive Tin Item Pipe
 gregtech:item_pipe_large_restrictive:80, Large Restrictive Platinum Item Pipe
-gregtech:item_pipe_large_restrictive:75, Large Restrictive Osmium Item Pipe
+gregtech:item_pipe_large_restrictive:259, Large Restrictive Brass Item Pipe
 gregtech:item_pipe_large_restrictive:344, Large Restrictive Osmiridium Item Pipe
-gregtech:item_pipe_huge_restrictive:300, Huge Restrictive Sterling Silver Item Pipe
-gregtech:item_pipe_huge_restrictive:112, Huge Restrictive Tin Item Pipe
-gregtech:item_pipe_huge_restrictive:3, Huge Restrictive Americium Item Pipe
+gregtech:item_pipe_huge_restrictive:331, Huge Restrictive Ultimet Item Pipe
+gregtech:item_pipe_huge_restrictive:75, Huge Restrictive Osmium Item Pipe
+gregtech:item_pipe_huge_restrictive:277, Huge Restrictive Electrum Item Pipe
 gregtech:item_pipe_huge_restrictive:23, Huge Restrictive Cobalt Item Pipe
+gregtech:item_pipe_huge_restrictive:1007, Huge Restrictive Polyvinyl Chloride (PVC) Item Pipe
+gregtech:item_pipe_huge_restrictive:2014, Huge Restrictive Cobalt Brass Item Pipe
 gregtech:item_pipe_huge_restrictive:274, Huge Restrictive Cupronickel Item Pipe
 gregtech:item_pipe_huge_restrictive:290, Huge Restrictive Magnalium Item Pipe
+gregtech:item_pipe_huge_restrictive:3, Huge Restrictive Americium Item Pipe
 gregtech:item_pipe_huge_restrictive:301, Huge Restrictive Rose Gold Item Pipe
-gregtech:item_pipe_huge_restrictive:277, Huge Restrictive Electrum Item Pipe
-gregtech:item_pipe_huge_restrictive:259, Huge Restrictive Brass Item Pipe
-gregtech:item_pipe_huge_restrictive:2014, Huge Restrictive Cobalt Brass Item Pipe
 gregtech:item_pipe_huge_restrictive:69, Huge Restrictive Nickel Item Pipe
-gregtech:item_pipe_huge_restrictive:331, Huge Restrictive Ultimet Item Pipe
+gregtech:item_pipe_huge_restrictive:300, Huge Restrictive Sterling Silver Item Pipe
 gregtech:item_pipe_huge_restrictive:302, Huge Restrictive Black Bronze Item Pipe
-gregtech:item_pipe_huge_restrictive:1007, Huge Restrictive Polyvinyl Chloride (PVC) Item Pipe
+gregtech:item_pipe_huge_restrictive:112, Huge Restrictive Tin Item Pipe
 gregtech:item_pipe_huge_restrictive:80, Huge Restrictive Platinum Item Pipe
-gregtech:item_pipe_huge_restrictive:75, Huge Restrictive Osmium Item Pipe
+gregtech:item_pipe_huge_restrictive:259, Huge Restrictive Brass Item Pipe
 gregtech:item_pipe_huge_restrictive:344, Huge Restrictive Osmiridium Item Pipe
 gregtech:hermetic_casing:0, Hermetic Casing I
 gregtech:hermetic_casing:1, Hermetic Casing II
@@ -9477,6 +9660,9 @@ gregtech:hermetic_casing:5, Hermetic Casing VI
 gregtech:hermetic_casing:6, Hermetic Casing VII
 gregtech:hermetic_casing:7, Hermetic Casing VIII
 gregtech:hermetic_casing:8, Hermetic Casing IX
+gregtech:cleanroom_casing:0, Plascrete
+gregtech:cleanroom_casing:1, Filter Casing
+gregtech:cleanroom_casing:2, Sterilizing Filter Casing
 gregtech:boiler_casing:0, Bronze Pipe Casing
 gregtech:boiler_casing:1, Steel Pipe Casing
 gregtech:boiler_casing:2, Titanium Pipe Casing
@@ -9530,6 +9716,7 @@ gregtech:multiblock_casing:4, Assembly Line Casing
 gregtech:transparent_casing:0, Tempered Glass
 gregtech:transparent_casing:1, Fusion Glass
 gregtech:transparent_casing:2, Laminated Glass
+gregtech:transparent_casing:3, Cleanroom Glass
 gregtech:wire_coil:0, Cupronickel Coil Block
 gregtech:wire_coil:1, Kanthal Coil Block
 gregtech:wire_coil:2, Nichrome Coil Block
@@ -9658,14 +9845,6 @@ gregtech:planks:1, Treated Wood Planks
 gregtech:rubber_log, Rubber Wood
 gregtech:rubber_leaves, Rubber Tree Leaves
 gregtech:rubber_sapling, Rubber Tree Sapling
-gregtech:meta_block_compressed_125:4, Block of Olivine
-gregtech:meta_block_compressed_125:5, Block of Opal
-gregtech:meta_block_compressed_125:6, Block of Amethyst
-gregtech:meta_block_compressed_125:10, Block of Apatite
-gregtech:meta_block_compressed_125:11, Block of Black Steel
-gregtech:meta_block_compressed_125:12, Block of Damascus Steel
-gregtech:meta_block_compressed_125:13, Block of Tungstensteel
-gregtech:meta_block_compressed_125:14, Block of Cobalt Brass
 gregtech:meta_block_compressed_20:0, Block of Soldering Alloy
 gregtech:meta_block_compressed_20:1, Block of Spessartine
 gregtech:meta_block_compressed_20:3, Block of Stainless Steel
@@ -9676,36 +9855,60 @@ gregtech:meta_block_compressed_20:11, Block of Ultimet
 gregtech:meta_block_compressed_20:13, Block of Uvarovite
 gregtech:meta_block_compressed_20:14, Block of Vanadium-Gallium
 gregtech:meta_block_compressed_20:15, Block of Wrought Iron
-gregtech:meta_block_compressed_21:2, Block of Yttrium Barium Cuprate
-gregtech:meta_block_compressed_21:4, Block of Quartzite
-gregtech:meta_block_compressed_21:8, Block of Osmiridium
-gregtech:meta_block_compressed_21:15, Block of Gallium Arsenide
-gregtech:meta_block_compressed_18:0, Block of Kanthal
-gregtech:meta_block_compressed_18:1, Block of Lazurite
-gregtech:meta_block_compressed_18:2, Block of Magnalium
-gregtech:meta_block_compressed_18:6, Block of Nichrome
-gregtech:meta_block_compressed_18:7, Block of Niobium Nitride
-gregtech:meta_block_compressed_18:8, Block of Niobium-Titanium
-gregtech:meta_block_compressed_18:12, Block of Sterling Silver
-gregtech:meta_block_compressed_18:13, Block of Rose Gold
-gregtech:meta_block_compressed_18:14, Block of Black Bronze
-gregtech:meta_block_compressed_18:15, Block of Bismuth Bronze
-gregtech:meta_block_compressed_6:3, Block of Silicon
-gregtech:meta_block_compressed_6:4, Block of Silver
-gregtech:meta_block_compressed_6:8, Block of Tantalum
-gregtech:meta_block_compressed_6:13, Block of Thorium
-gregtech:meta_block_compressed_2006:4, Block of Electrical Steel
-gregtech:meta_block_compressed_2006:5, Block of Energetic Alloy
-gregtech:meta_block_compressed_2006:6, Block of Vibrant Alloy
-gregtech:meta_block_compressed_2006:7, Block of Redstone Alloy
-gregtech:meta_block_compressed_2006:8, Block of Conductive Iron
-gregtech:meta_block_compressed_2006:9, Block of Pulsating Iron
-gregtech:meta_block_compressed_2006:10, Block of Dark Steel
-gregtech:meta_block_compressed_2006:11, Block of Soularium
-gregtech:meta_block_compressed_2006:12, Block of End Steel
-gregtech:meta_block_compressed_2006:13, Block of Iron Alloy
-gregtech:meta_block_compressed_2006:14, Block of Crude Steel
-gregtech:meta_block_compressed_2006:15, Block of Crystalline Alloy
+gregtech:meta_block_compressed_26:0, Block of Enderpearl
+gregtech:meta_block_compressed_26:2, Block of Magnetic Neodymium
+gregtech:meta_block_compressed_26:7, Block of Magnetic Samarium
+gregtech:meta_block_compressed_26:8, Block of Manganese Phosphide
+gregtech:meta_block_compressed_26:9, Block of Magnesium Diboride
+gregtech:meta_block_compressed_26:10, Block of Mercury Barium Calcium Cuprate
+gregtech:meta_block_compressed_26:11, Block of Uranium Triplatinum
+gregtech:meta_block_compressed_26:12, Block of Samarium Iron Arsenic Oxide
+gregtech:meta_block_compressed_26:13, Block of Indium Tin Barium Titanium Cuprate
+gregtech:meta_block_compressed_26:14, Block of Uranium Rhodium Dinaquadide
+gregtech:meta_block_compressed_26:15, Block of Enriched Naquadah Trinium Europium Duranide
+gregtech:meta_block_compressed_125:4, Block of Olivine
+gregtech:meta_block_compressed_125:5, Block of Opal
+gregtech:meta_block_compressed_125:6, Block of Amethyst
+gregtech:meta_block_compressed_125:10, Block of Apatite
+gregtech:meta_block_compressed_125:11, Block of Black Steel
+gregtech:meta_block_compressed_125:12, Block of Damascus Steel
+gregtech:meta_block_compressed_125:13, Block of Tungstensteel
+gregtech:meta_block_compressed_125:14, Block of Cobalt Brass
+gregtech:meta_block_compressed_2007:0, Block of Melodic Alloy
+gregtech:meta_block_compressed_2007:1, Block of Stellar Alloy
+gregtech:meta_block_compressed_2007:2, Block of Crystalline Pink Slime
+gregtech:meta_block_compressed_2007:3, Block of Energetic Silver
+gregtech:meta_block_compressed_2007:4, Block of Vivid Alloy
+gregtech:meta_block_compressed_63:0, Block of Polyphenylene Sulfide
+gregtech:meta_block_compressed_63:2, Block of Polybenzimidazole (PBI)
+gregtech:meta_block_compressed_63:4, Block of Polyethylene (PE)
+gregtech:meta_block_compressed_63:5, Block of Epoxy Resin
+gregtech:meta_block_compressed_63:7, Block of Polycaprolactam
+gregtech:meta_block_compressed_63:8, Block of Polytetrafluoroethylene (PTFE)
+gregtech:meta_block_compressed_63:9, Block of Sugar
+gregtech:meta_block_compressed_19:4, Block of Pyrope
+gregtech:meta_block_compressed_19:5, Block of Rock Salt
+gregtech:meta_block_compressed_19:6, Block of Ruridit
+gregtech:meta_block_compressed_19:7, Block of Ruby
+gregtech:meta_block_compressed_19:8, Block of Salt
+gregtech:meta_block_compressed_19:10, Block of Sapphire
+gregtech:meta_block_compressed_19:12, Block of Sodalite
+gregtech:meta_block_compressed_19:15, Block of Coke
+gregtech:meta_block_compressed_67:2, Block of Polyvinyl Butyral
+gregtech:meta_block_compressed_187:8, Block of Stellite-100
+gregtech:meta_block_compressed_187:9, Block of Watertight Steel
+gregtech:meta_block_compressed_187:10, Block of Maraging Steel 300
+gregtech:meta_block_compressed_187:11, Block of Hastelloy-C276
+gregtech:meta_block_compressed_187:12, Block of Hastelloy-X
+gregtech:meta_block_compressed_187:13, Block of Trinaquadalloy
+gregtech:meta_block_compressed_187:14, Block of Zeron-100
+gregtech:meta_block_compressed_187:15, Block of Titanium Carbide
+gregtech:meta_block_compressed_17:2, Block of Cupronickel
+gregtech:meta_block_compressed_17:5, Block of Electrum
+gregtech:meta_block_compressed_17:9, Block of Green Sapphire
+gregtech:meta_block_compressed_17:10, Block of Grossular
+gregtech:meta_block_compressed_17:13, Block of Rutile
+gregtech:meta_block_compressed_17:15, Block of Invar
 gregtech:meta_block_compressed_7:0, Block of Tin
 gregtech:meta_block_compressed_7:1, Block of Titanium
 gregtech:meta_block_compressed_7:3, Block of Tungsten
@@ -9718,274 +9921,147 @@ gregtech:meta_block_compressed_7:12, Block of Naquadah
 gregtech:meta_block_compressed_7:13, Block of Enriched Naquadah
 gregtech:meta_block_compressed_7:14, Block of Naquadria
 gregtech:meta_block_compressed_7:15, Block of Neutronium
-gregtech:meta_block_compressed_24:1, Block of Malachite
-gregtech:meta_block_compressed_24:11, Block of Magnetic Iron
-gregtech:meta_block_compressed_24:12, Block of Tungstencarbide
-gregtech:meta_block_compressed_26:0, Block of Enderpearl
-gregtech:meta_block_compressed_26:2, Block of Magnetic Neodymium
-gregtech:meta_block_compressed_26:7, Block of Magnetic Samarium
-gregtech:meta_block_compressed_26:8, Block of Manganese Phosphide
-gregtech:meta_block_compressed_26:9, Block of Magnesium Diboride
-gregtech:meta_block_compressed_26:10, Block of Mercury Barium Calcium Cuprate
-gregtech:meta_block_compressed_26:11, Block of Uranium Triplatinum
-gregtech:meta_block_compressed_26:12, Block of Samarium Iron Arsenic Oxide
-gregtech:meta_block_compressed_26:13, Block of Indium Tin Barium Titanium Cuprate
-gregtech:meta_block_compressed_26:14, Block of Uranium Rhodium Dinaquadide
-gregtech:meta_block_compressed_26:15, Block of Enriched Naquadah Trinium Europium Duranide
-gregtech:meta_block_compressed_187:8, Block of Stellite-100
-gregtech:meta_block_compressed_187:9, Block of Watertight Steel
-gregtech:meta_block_compressed_187:10, Block of Maraging Steel 300
-gregtech:meta_block_compressed_187:11, Block of Hastelloy-C276
-gregtech:meta_block_compressed_187:12, Block of Hastelloy-X
-gregtech:meta_block_compressed_187:13, Block of Trinaquadalloy
-gregtech:meta_block_compressed_187:14, Block of Zeron-100
-gregtech:meta_block_compressed_187:15, Block of Titanium Carbide
-gregtech:meta_block_compressed_100:2, Block of Nether Star
-gregtech:meta_block_compressed_15:10, Block of Almandine
-gregtech:meta_block_compressed_15:11, Block of Andradite
-gregtech:meta_block_compressed_15:12, Block of Annealed Copper
+gregtech:meta_block_compressed_18:0, Block of Kanthal
+gregtech:meta_block_compressed_18:1, Block of Lazurite
+gregtech:meta_block_compressed_18:2, Block of Magnalium
+gregtech:meta_block_compressed_18:6, Block of Nichrome
+gregtech:meta_block_compressed_18:7, Block of Niobium Nitride
+gregtech:meta_block_compressed_18:8, Block of Niobium-Titanium
+gregtech:meta_block_compressed_18:12, Block of Sterling Silver
+gregtech:meta_block_compressed_18:13, Block of Rose Gold
+gregtech:meta_block_compressed_18:14, Block of Black Bronze
+gregtech:meta_block_compressed_18:15, Block of Bismuth Bronze
+gregtech:meta_block_compressed_2006:4, Block of Electrical Steel
+gregtech:meta_block_compressed_2006:5, Block of Energetic Alloy
+gregtech:meta_block_compressed_2006:6, Block of Vibrant Alloy
+gregtech:meta_block_compressed_2006:7, Block of Redstone Alloy
+gregtech:meta_block_compressed_2006:8, Block of Conductive Iron
+gregtech:meta_block_compressed_2006:9, Block of Pulsating Iron
+gregtech:meta_block_compressed_2006:10, Block of Dark Steel
+gregtech:meta_block_compressed_2006:11, Block of Soularium
+gregtech:meta_block_compressed_2006:12, Block of End Steel
+gregtech:meta_block_compressed_2006:13, Block of Iron Alloy
+gregtech:meta_block_compressed_2006:14, Block of Crude Steel
+gregtech:meta_block_compressed_2006:15, Block of Crystalline Alloy
 gregtech:meta_block_compressed_188:0, Block of Tantalum Carbide
 gregtech:meta_block_compressed_188:1, Block of Molybdenum Disilicide
 gregtech:meta_block_compressed_188:12, Block of HSLA Steel
 gregtech:meta_block_compressed_188:13, Block of Titanium Tungsten Carbide
 gregtech:meta_block_compressed_188:14, Block of Incoloy-MA956
-gregtech:meta_block_compressed_128:1, Block of Flint
-gregtech:meta_block_compressed_128:14, Block of Rhodium Plated Palladium
-gregtech:meta_block_compressed_8:0, Block of Tritanium
-gregtech:meta_block_compressed_8:1, Block of Duranium
-gregtech:meta_block_compressed_8:2, Block of Trinium
-gregtech:meta_block_compressed_19:4, Block of Pyrope
-gregtech:meta_block_compressed_19:5, Block of Rock Salt
-gregtech:meta_block_compressed_19:6, Block of Ruridit
-gregtech:meta_block_compressed_19:7, Block of Ruby
-gregtech:meta_block_compressed_19:8, Block of Salt
-gregtech:meta_block_compressed_19:10, Block of Sapphire
-gregtech:meta_block_compressed_19:12, Block of Sodalite
-gregtech:meta_block_compressed_19:15, Block of Coke
-gregtech:meta_block_compressed_0:2, Block of Aluminium
-gregtech:meta_block_compressed_0:3, Block of Americium
-gregtech:meta_block_compressed_0:4, Block of Antimony
-gregtech:meta_block_compressed_0:10, Block of Beryllium
-gregtech:meta_block_compressed_0:11, Block of Bismuth
-gregtech:meta_block_compressed_157:4, Block of HSS-G
-gregtech:meta_block_compressed_157:5, Block of Red Alloy
-gregtech:meta_block_compressed_157:7, Block of HSS-E
-gregtech:meta_block_compressed_157:8, Block of HSS-S
-gregtech:meta_block_compressed_157:15, Block of Blue Alloy
-gregtech:meta_block_compressed_63:0, Block of Polyphenylene Sulfide
-gregtech:meta_block_compressed_63:2, Block of Polybenzimidazole (PBI)
-gregtech:meta_block_compressed_63:4, Block of Polyethylene (PE)
-gregtech:meta_block_compressed_63:5, Block of Epoxy Resin
-gregtech:meta_block_compressed_63:7, Block of Polycaprolactam
-gregtech:meta_block_compressed_63:8, Block of Polytetrafluoroethylene (PTFE)
-gregtech:meta_block_compressed_63:9, Block of Sugar
-gregtech:meta_block_compressed_127:3, Block of Magnetic Steel
-gregtech:meta_block_compressed_127:4, Block of Vanadiumsteel
-gregtech:meta_block_compressed_127:5, Block of Potin
-gregtech:meta_block_compressed_127:6, Block of Borosilicate Glass
-gregtech:meta_block_compressed_127:10, Block of Naquadah Alloy
-gregtech:meta_block_compressed_2007:0, Block of Melodic Alloy
-gregtech:meta_block_compressed_2007:1, Block of Stellar Alloy
-gregtech:meta_block_compressed_2007:2, Block of Crystalline Pink Slime
-gregtech:meta_block_compressed_2007:3, Block of Energetic Silver
-gregtech:meta_block_compressed_2007:4, Block of Vivid Alloy
-gregtech:meta_block_compressed_1:6, Block of Chrome
-gregtech:meta_block_compressed_1:7, Block of Cobalt
-gregtech:meta_block_compressed_1:9, Block of Copper
-gregtech:meta_block_compressed_1:11, Block of Darmstadtium
-gregtech:meta_block_compressed_3:0, Block of Indium
-gregtech:meta_block_compressed_3:2, Block of Iridium
-gregtech:meta_block_compressed_3:7, Block of Lead
-gregtech:meta_block_compressed_3:13, Block of Manganese
-gregtech:meta_block_compressed_16:0, Block of Battery Alloy
-gregtech:meta_block_compressed_16:1, Block of Blue Topaz
-gregtech:meta_block_compressed_16:3, Block of Brass
-gregtech:meta_block_compressed_16:4, Block of Bronze
-gregtech:meta_block_compressed_16:10, Block of Charcoal
-gregtech:meta_block_compressed_16:12, Block of Cinnabar
 gregtech:meta_block_compressed_4:0, Block of Molybdenum
 gregtech:meta_block_compressed_4:2, Block of Neodymium
 gregtech:meta_block_compressed_4:5, Block of Nickel
 gregtech:meta_block_compressed_4:7, Block of Niobium
 gregtech:meta_block_compressed_4:11, Block of Osmium
 gregtech:meta_block_compressed_4:13, Block of Palladium
-gregtech:meta_block_compressed_17:2, Block of Cupronickel
-gregtech:meta_block_compressed_17:5, Block of Electrum
-gregtech:meta_block_compressed_17:9, Block of Green Sapphire
-gregtech:meta_block_compressed_17:10, Block of Grossular
-gregtech:meta_block_compressed_17:13, Block of Rutile
-gregtech:meta_block_compressed_17:15, Block of Invar
-gregtech:meta_block_compressed_22:2, Block of Indium Gallium Phosphide
-gregtech:meta_block_compressed_22:3, Block of Nickel Zinc Ferrite
-gregtech:meta_block_compressed_22:13, Block of Realgar
 gregtech:meta_block_compressed_13:6, Block of Certus Quartz
-gregtech:meta_block_compressed_62:8, Block of Silicone Rubber
-gregtech:meta_block_compressed_62:12, Block of Styrene-Butadiene Rubber
-gregtech:meta_block_compressed_62:14, Block of Fiber-Reinforced Epoxy Resin
-gregtech:meta_block_compressed_62:15, Block of Polyvinyl Chloride (PVC)
-gregtech:meta_block_compressed_2:1, Block of Europium
-gregtech:meta_block_compressed_2:7, Block of Gallium
-gregtech:meta_block_compressed_126:0, Block of Red Garnet
-gregtech:meta_block_compressed_126:1, Block of Yellow Garnet
-gregtech:meta_block_compressed_126:13, Block of Monazite
-gregtech:meta_block_compressed_66:12, Block of Rubber
-gregtech:meta_block_compressed_156:12, Block of Endereye
-gregtech:meta_block_compressed_156:14, Block of Red Steel
-gregtech:meta_block_compressed_156:15, Block of Blue Steel
+gregtech:meta_block_compressed_127:3, Block of Magnetic Steel
+gregtech:meta_block_compressed_127:4, Block of Vanadiumsteel
+gregtech:meta_block_compressed_127:5, Block of Potin
+gregtech:meta_block_compressed_127:6, Block of Borosilicate Glass
+gregtech:meta_block_compressed_127:10, Block of Naquadah Alloy
+gregtech:meta_block_compressed_1500:1, Block of Galvalume
+gregtech:meta_block_compressed_1500:2, Block of Noble-Metal High-Entropy-Alloy Nanoparticles
+gregtech:meta_block_compressed_8:0, Block of Tritanium
+gregtech:meta_block_compressed_8:1, Block of Duranium
+gregtech:meta_block_compressed_8:2, Block of Trinium
 gregtech:meta_block_compressed_5:0, Block of Platinum
 gregtech:meta_block_compressed_5:1, Block of Plutonium 239
 gregtech:meta_block_compressed_5:2, Block of Plutonium 241
 gregtech:meta_block_compressed_5:10, Block of Rhodium
 gregtech:meta_block_compressed_5:13, Block of Ruthenium
 gregtech:meta_block_compressed_5:15, Block of Samarium
-gregtech:meta_block_compressed_67:2, Block of Polyvinyl Butyral
+gregtech:meta_block_compressed_21:2, Block of Yttrium Barium Cuprate
+gregtech:meta_block_compressed_21:4, Block of Quartzite
+gregtech:meta_block_compressed_21:8, Block of Osmiridium
+gregtech:meta_block_compressed_21:15, Block of Gallium Arsenide
+gregtech:meta_block_compressed_24:1, Block of Malachite
+gregtech:meta_block_compressed_24:11, Block of Magnetic Iron
+gregtech:meta_block_compressed_24:12, Block of Tungstencarbide
+gregtech:meta_block_compressed_16:0, Block of Battery Alloy
+gregtech:meta_block_compressed_16:1, Block of Blue Topaz
+gregtech:meta_block_compressed_16:3, Block of Brass
+gregtech:meta_block_compressed_16:4, Block of Bronze
+gregtech:meta_block_compressed_16:10, Block of Charcoal
+gregtech:meta_block_compressed_16:12, Block of Cinnabar
+gregtech:meta_block_compressed_100:2, Block of Nether Star
+gregtech:meta_block_compressed_15:10, Block of Almandine
+gregtech:meta_block_compressed_15:11, Block of Andradite
+gregtech:meta_block_compressed_15:12, Block of Annealed Copper
 gregtech:meta_block_compressed_27:0, Block of Ruthenium Trinium Americium Neutronate
-gregtech:meta_block_frame_101:1, Wood Frame Box
-gregtech:meta_block_frame_2006:10, Dark Steel Frame Box
-gregtech:meta_block_frame_17:15, Invar Frame Box
-gregtech:meta_block_frame_16:3, Brass Frame Box
-gregtech:meta_block_frame_16:4, Bronze Frame Box
-gregtech:meta_block_frame_24:12, Tungstencarbide Frame Box
+gregtech:meta_block_compressed_157:4, Block of HSS-G
+gregtech:meta_block_compressed_157:5, Block of Red Alloy
+gregtech:meta_block_compressed_157:7, Block of HSS-E
+gregtech:meta_block_compressed_157:8, Block of HSS-S
+gregtech:meta_block_compressed_157:15, Block of Blue Alloy
+gregtech:meta_block_compressed_1:6, Block of Chrome
+gregtech:meta_block_compressed_1:7, Block of Cobalt
+gregtech:meta_block_compressed_1:9, Block of Copper
+gregtech:meta_block_compressed_1:11, Block of Darmstadtium
+gregtech:meta_block_compressed_156:12, Block of Endereye
+gregtech:meta_block_compressed_156:14, Block of Red Steel
+gregtech:meta_block_compressed_156:15, Block of Blue Steel
+gregtech:meta_block_compressed_3:0, Block of Indium
+gregtech:meta_block_compressed_3:2, Block of Iridium
+gregtech:meta_block_compressed_3:7, Block of Lead
+gregtech:meta_block_compressed_3:13, Block of Manganese
+gregtech:meta_block_compressed_62:8, Block of Silicone Rubber
+gregtech:meta_block_compressed_62:12, Block of Styrene-Butadiene Rubber
+gregtech:meta_block_compressed_62:14, Block of Fiber-Reinforced Epoxy Resin
+gregtech:meta_block_compressed_62:15, Block of Polyvinyl Chloride (PVC)
+gregtech:meta_block_compressed_126:0, Block of Red Garnet
+gregtech:meta_block_compressed_126:1, Block of Yellow Garnet
+gregtech:meta_block_compressed_126:13, Block of Monazite
+gregtech:meta_block_compressed_22:2, Block of Indium Gallium Phosphide
+gregtech:meta_block_compressed_22:3, Block of Nickel Zinc Ferrite
+gregtech:meta_block_compressed_22:13, Block of Realgar
+gregtech:meta_block_compressed_66:12, Block of Rubber
+gregtech:meta_block_compressed_6:3, Block of Silicon
+gregtech:meta_block_compressed_6:4, Block of Silver
+gregtech:meta_block_compressed_6:8, Block of Tantalum
+gregtech:meta_block_compressed_6:13, Block of Thorium
+gregtech:meta_block_compressed_2:1, Block of Europium
+gregtech:meta_block_compressed_2:7, Block of Gallium
+gregtech:meta_block_compressed_0:2, Block of Aluminium
+gregtech:meta_block_compressed_0:3, Block of Americium
+gregtech:meta_block_compressed_0:4, Block of Antimony
+gregtech:meta_block_compressed_0:10, Block of Beryllium
+gregtech:meta_block_compressed_0:11, Block of Bismuth
+gregtech:meta_block_compressed_128:1, Block of Flint
+gregtech:meta_block_compressed_128:14, Block of Rhodium Plated Palladium
+gregtech:meta_block_frame_103:0, Treated Wood Frame Box
+gregtech:meta_block_frame_188:12, HSLA Steel Frame Box
+gregtech:meta_block_frame_188:14, Incoloy-MA956 Frame Box
+gregtech:meta_block_frame_7:1, Titanium Frame Box
+gregtech:meta_block_frame_7:3, Tungsten Frame Box
+gregtech:meta_block_frame_7:15, Neutronium Frame Box
+gregtech:meta_block_frame_125:11, Black Steel Frame Box
+gregtech:meta_block_frame_125:13, Tungstensteel Frame Box
+gregtech:meta_block_frame_8:0, Tritanium Frame Box
+gregtech:meta_block_frame_157:4, HSS-G Frame Box
+gregtech:meta_block_frame_157:7, HSS-E Frame Box
+gregtech:meta_block_frame_157:8, HSS-S Frame Box
 gregtech:meta_block_frame_187:9, Watertight Steel Frame Box
 gregtech:meta_block_frame_187:10, Maraging Steel 300 Frame Box
 gregtech:meta_block_frame_187:11, Hastelloy-C276 Frame Box
 gregtech:meta_block_frame_187:12, Hastelloy-X Frame Box
-gregtech:meta_block_frame_8:0, Tritanium Frame Box
+gregtech:meta_block_frame_18:15, Bismuth Bronze Frame Box
+gregtech:meta_block_frame_24:12, Tungstencarbide Frame Box
+gregtech:meta_block_frame_2:1, Europium Frame Box
+gregtech:meta_block_frame_17:15, Invar Frame Box
+gregtech:meta_block_frame_156:15, Blue Steel Frame Box
 gregtech:meta_block_frame_20:3, Stainless Steel Frame Box
 gregtech:meta_block_frame_20:4, Steel Frame Box
-gregtech:meta_block_frame_18:15, Bismuth Bronze Frame Box
-gregtech:meta_block_frame_103:0, Treated Wood Frame Box
-gregtech:meta_block_frame_7:1, Titanium Frame Box
-gregtech:meta_block_frame_7:3, Tungsten Frame Box
-gregtech:meta_block_frame_7:15, Neutronium Frame Box
-gregtech:meta_block_frame_188:12, HSLA Steel Frame Box
-gregtech:meta_block_frame_188:14, Incoloy-MA956 Frame Box
-gregtech:meta_block_frame_156:15, Blue Steel Frame Box
-gregtech:meta_block_frame_157:4, HSS-G Frame Box
-gregtech:meta_block_frame_157:7, HSS-E Frame Box
-gregtech:meta_block_frame_157:8, HSS-S Frame Box
-gregtech:meta_block_frame_125:13, Tungstensteel Frame Box
 gregtech:meta_block_frame_127:10, Naquadah Alloy Frame Box
-gregtech:meta_block_frame_0:2, Aluminium Frame Box
-gregtech:meta_block_frame_2:1, Europium Frame Box
+gregtech:meta_block_frame_1500:1, Galvalume Frame Box
+gregtech:meta_block_frame_1500:2, Noble-Metal High-Entropy-Alloy Nanoparticles Frame Box
 gregtech:meta_block_frame_3:3, Iron Frame Box
+gregtech:meta_block_frame_2006:10, Dark Steel Frame Box
+gregtech:meta_block_frame_0:2, Aluminium Frame Box
 gregtech:meta_block_frame_63:8, Polytetrafluoroethylene (PTFE) Frame Box
-elevatorid:elevator_white, White Elevator
-elevatorid:elevator_orange, Orange Elevator
-elevatorid:elevator_magenta, Magenta Elevator
-elevatorid:elevator_light_blue, Light Blue Elevator
-elevatorid:elevator_yellow, Yellow Elevator
-elevatorid:elevator_lime, Lime Elevator
-elevatorid:elevator_pink, Pink Elevator
-elevatorid:elevator_gray, Gray Elevator
-elevatorid:elevator_silver, Light Gray Elevator
-elevatorid:elevator_cyan, Cyan Elevator
-elevatorid:elevator_purple, Purple Elevator
-elevatorid:elevator_blue, Blue Elevator
-elevatorid:elevator_brown, Brown Elevator
-elevatorid:elevator_green, Green Elevator
-elevatorid:elevator_red, Red Elevator
-elevatorid:elevator_black, Black Elevator
-fluxnetworks:flux, Flux
-fluxnetworks:fluxcore, Flux Core
-fluxnetworks:fluxconfigurator, Flux Configurator
-fluxnetworks:adminconfigurator, Admin Configurator
-fluxnetworks:fluxblock, Flux Block
-fluxnetworks:fluxplug, Flux Plug
-fluxnetworks:fluxpoint, Flux Point
-fluxnetworks:fluxcontroller, Flux Controller
-fluxnetworks:fluxstorage, Basic Flux Storage
-fluxnetworks:herculeanfluxstorage, Herculean Flux Storage
-fluxnetworks:gargantuanfluxstorage, Gargantuan Flux Storage
-storagedrawers:upgrade_template, Upgrade Template
-storagedrawers:upgrade_storage:0, Storage Upgrade (I)
-storagedrawers:upgrade_storage:1, Storage Upgrade (II)
-storagedrawers:upgrade_storage:2, Storage Upgrade (III)
-storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
-storagedrawers:upgrade_storage:4, Storage Upgrade (V)
-storagedrawers:upgrade_one_stack, Storage Downgrade
-storagedrawers:upgrade_status:0, Status Upgrade (I)
-storagedrawers:upgrade_status:1, Status Upgrade (II)
-storagedrawers:upgrade_void, Void Upgrade
-storagedrawers:upgrade_conversion, Conversion Upgrade
-storagedrawers:upgrade_creative:0, Creative Storage Upgrade
-storagedrawers:upgrade_creative:1, Creative Vending Upgrade
-storagedrawers:upgrade_redstone:0, Redstone Upgrade
-storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
-storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
-storagedrawers:drawer_key, Drawer Key
-storagedrawers:shroud_key, Concealment Key
-storagedrawers:personal_key, Personal Key
-storagedrawers:quantify_key, Quantify Key
-storagedrawers:tape, Packing Tape
-storagedrawers:basicdrawers:0, Basic Drawer
-storagedrawers:basicdrawers:0, Basic Drawer
-storagedrawers:basicdrawers:0, Basic Drawer
-storagedrawers:basicdrawers:0, Basic Drawer
-storagedrawers:basicdrawers:0, Basic Drawer
-storagedrawers:basicdrawers:0, Basic Drawer
-storagedrawers:basicdrawers:1, Basic Drawers 1x2
-storagedrawers:basicdrawers:1, Basic Drawers 1x2
-storagedrawers:basicdrawers:1, Basic Drawers 1x2
-storagedrawers:basicdrawers:1, Basic Drawers 1x2
-storagedrawers:basicdrawers:1, Basic Drawers 1x2
-storagedrawers:basicdrawers:1, Basic Drawers 1x2
-storagedrawers:basicdrawers:2, Basic Drawers 2x2
-storagedrawers:basicdrawers:2, Basic Drawers 2x2
-storagedrawers:basicdrawers:2, Basic Drawers 2x2
-storagedrawers:basicdrawers:2, Basic Drawers 2x2
-storagedrawers:basicdrawers:2, Basic Drawers 2x2
-storagedrawers:basicdrawers:2, Basic Drawers 2x2
-storagedrawers:basicdrawers:3, Half Drawers 1x2
-storagedrawers:basicdrawers:3, Half Drawers 1x2
-storagedrawers:basicdrawers:3, Half Drawers 1x2
-storagedrawers:basicdrawers:3, Half Drawers 1x2
-storagedrawers:basicdrawers:3, Half Drawers 1x2
-storagedrawers:basicdrawers:3, Half Drawers 1x2
-storagedrawers:basicdrawers:4, Half Drawers 2x2
-storagedrawers:basicdrawers:4, Half Drawers 2x2
-storagedrawers:basicdrawers:4, Half Drawers 2x2
-storagedrawers:basicdrawers:4, Half Drawers 2x2
-storagedrawers:basicdrawers:4, Half Drawers 2x2
-storagedrawers:basicdrawers:4, Half Drawers 2x2
-storagedrawers:keybutton:0, Drawer Key Button
-storagedrawers:keybutton:1, Concealment Key Button
-storagedrawers:keybutton:2, Personal Key Button
-storagedrawers:keybutton:3, Quantify Key Button
-storagedrawers:compdrawers, Compacting Drawer
-storagedrawers:controller, Drawer Controller
-storagedrawers:controllerslave, Controller Slave
-storagedrawers:trim:0, Oak Trim
-storagedrawers:trim:1, Spruce Trim
-storagedrawers:trim:2, Birch Trim
-storagedrawers:trim:3, Jungle Trim
-storagedrawers:trim:4, Acacia Trim
-storagedrawers:trim:5, Dark Oak Trim
-storagedrawers:framingtable, Framing Table
-storagedrawers:customdrawers:0, Framed Drawer
-storagedrawers:customdrawers:1, Framed Drawers 1x2
-storagedrawers:customdrawers:2, Framed Drawers 2x2
-storagedrawers:customdrawers:3, Framed Half Drawers 1x2
-storagedrawers:customdrawers:4, Framed Half Drawers 2x2
-storagedrawers:customtrim, Framed Trim
-framedcompactdrawers:framed_compact_drawer, Framed Compacting Drawer
-framedcompactdrawers:framed_drawer_controller:0, Framed Drawer Controller
-framedcompactdrawers:framed_slave:0, Framed Controller Slave
-itemfilters:filter, Item Filter
-itemfilters:missing, Missing Item
-ftbquests:screen, Task Screen
-ftbquests:progress_detector, Quest Progress Detector
-ftbquests:detector:0, Redstone Detector
-ftbquests:detector:1, Player Detector
-ftbquests:progress_screen, Progress Screen
-ftbquests:chest, Quest Chest
-ftbquests:loot_crate_storage, Loot Crate Storage
-ftbquests:loot_crate_opener, Loot Crate Opener
-ftbquests:barrier, Quest Barrier
-ftbquests:reward_collector, Reward Collector
-ftbquests:book, Quest Book
-ftbquests:lootcrate, Loot Crate
-ftbquests:custom_icon, Custom Icon
+gregtech:meta_block_frame_16:3, Brass Frame Box
+gregtech:meta_block_frame_16:4, Bronze Frame Box
+gregtech:meta_block_frame_101:1, Wood Frame Box
 gcym:unique_casing:0, Crushing Wheels
 gcym:unique_casing:1, Slicing Blades
 gcym:unique_casing:2, Electrolytic Cell
@@ -10007,45 +10083,55 @@ gcym:large_multiblock_casing:12, Industrial Steam Casing
 gregtechfoodoption:gtfo_casing:0, Adobe Bricks
 gregtechfoodoption:gtfo_casing:1, Reinforced Adobe Bricks
 gregtechfoodoption:gtfo_metal_casing:0, Food-Safe Bismuth Bronze Casing
+gregtechfoodoption:gtfo_glass_casing:0, Greenhouse Glass
+gregtechfoodoption:gtfo_leaves_0:0, Banana Leaves
+gregtechfoodoption:gtfo_leaves_0:4, Orange Leaves
+gregtechfoodoption:gtfo_leaves_0:8, Mango Leaves
+gregtechfoodoption:gtfo_leaves_0:12, Apricot Leaves
+gregtechfoodoption:gtfo_leaves_1:0, Lemon Leaves
+gregtechfoodoption:gtfo_leaves_1:4, Lime Leaves
+gregtechfoodoption:gtfo_leaves_1:8, Olive Leaves
+gregtechfoodoption:gtfo_leaves_1:12, Rainbowwood Leaves
+gregtechfoodoption:gtfo_log_0:0, Banana Pseudostem
+gregtechfoodoption:gtfo_log_0:4, Orange Wood
+gregtechfoodoption:gtfo_log_0:8, Mango Wood
+gregtechfoodoption:gtfo_log_0:12, Apricot Wood
+gregtechfoodoption:gtfo_log_1:0, Lemon Wood
+gregtechfoodoption:gtfo_log_1:4, Lime Wood
+gregtechfoodoption:gtfo_log_1:8, Olive Wood
+gregtechfoodoption:gtfo_log_1:12, Rainbowwood Wood
+gregtechfoodoption:gtfo_sapling_0:0, Banana Sapling
+gregtechfoodoption:gtfo_sapling_0:2, Orange Sapling
+gregtechfoodoption:gtfo_sapling_0:4, Mango Sapling
+gregtechfoodoption:gtfo_sapling_0:6, Apricot Sapling
+gregtechfoodoption:gtfo_sapling_0:8, Lemon Sapling
+gregtechfoodoption:gtfo_sapling_0:10, Lime Sapling
+gregtechfoodoption:gtfo_sapling_0:12, Olive Sapling
+gregtechfoodoption:gtfo_sapling_0:14, Rainbowwood Sapling
+gregtechfoodoption:gtfo_planks_0:0, Banana Planks
+gregtechfoodoption:gtfo_planks_0:1, Orange Planks
+gregtechfoodoption:gtfo_planks_0:2, Mango Planks
+gregtechfoodoption:gtfo_planks_0:3, Apricot Planks
+gregtechfoodoption:gtfo_planks_0:4, Lemon Planks
+gregtechfoodoption:gtfo_planks_0:5, Lime Planks
+gregtechfoodoption:gtfo_planks_0:6, Olive Planks
+gregtechfoodoption:gtfo_planks_0:7, Rainbowwood Planks
+gtexpert:gte_metal_casing:0, Corrosion Proof Galvalume Machine Casing
+gtexpert:gte_metal_casing:1, Treated Wood Machine Casing
+gtexpert:gte_metal_casing:2, Voiding Proof NM-HEA NP Machine Casing
+gtexpert:sawmill_conveyor, Sawmill Conveyor
 jecalculation:item_calculator:0, Crafting Calculator
 jecalculation:item_calculator:1, Math Calculator
+torchmaster:frozen_pearl, Frozen Pearl
 torchmaster:mega_torch:0, Mega Torch
 torchmaster:mega_torch:1, Unlit Mega Torch
 torchmaster:terrain_lighter, Terrain Lighter
 torchmaster:dread_lamp, Dread Lamp
 torchmaster:feral_flare_lantern, Feral Flare Lantern
-torchmaster:frozen_pearl, Frozen Pearl
-trashcans:item_trash_can, Item Trash Can
-trashcans:liquid_trash_can, Fluid Trash Can
-trashcans:energy_trash_can, Energy Trash Can
-trashcans:ultimate_trash_can, Ultimate Trash Can
 utilityworlds:portal_mining, Mining Portal
 utilityworlds:portal_void, Void Portal
 utilityworlds:portal_garden, Garden Portal
 utilityworlds:portal_return, Return Portal
-volumetricflask:volumetric_flask_16, Volumetric Flask
-volumetricflask:volumetric_flask_32, Volumetric Flask
-volumetricflask:volumetric_flask_18, Volumetric Flask
-volumetricflask:volumetric_flask_36, Volumetric Flask
-volumetricflask:volumetric_flask_72, Volumetric Flask
-volumetricflask:volumetric_flask_144, Volumetric Flask
-volumetricflask:volumetric_flask_100, Volumetric Flask
-volumetricflask:volumetric_flask_1000, Volumetric Flask
-volumetricflask:volumetric_flask_50, Volumetric Flask
-volumetricflask:volumetric_flask_250, Volumetric Flask
-volumetricflask:volumetric_flask_2000, Volumetric Flask
-volumetricflask:volumetric_flask_4000, Volumetric Flask
-volumetricflask:volumetric_flask_8000, Volumetric Flask
-volumetricflask:volumetric_flask_16000, Volumetric Flask
-volumetricflask:volumetric_flask_32000, Volumetric Flask
-volumetricflask:volumetric_flask_64000, Volumetric Flask
-volumetricflask:volumetric_flask_33, Volumetric Flask
-volumetricflask:volumetric_flask_133, Volumetric Flask
-volumetricflask:volumetric_flask_300, Volumetric Flask
-volumetricflask:part_o_interface, Volumetric Interface
-volumetricflask:o_interface, Volumetric Interface
-volumetricflask:buffer, Buffer
-volumetricflask:filler, Filler
 wct:wct, Wireless Crafting Terminal
 wct:wct_creative, Creative Wireless Crafting Terminal
 wct:magnet_card, Magnet Card
@@ -10060,8 +10146,6 @@ architecturecraft:largepulley, Large Pulley
 architecturecraft:chisel, Architect's Chisel
 architecturecraft:hammer, Architect's Hammer
 architecturecraft:sawbench, Architect's Sawbench
-contenttweaker:creativecomponent, GTExpert ME Fake Component
-contenttweaker:matrixcore, Matrix Core
 theoneprobe:probe, The One Probe
 theoneprobe:creativeprobe, The Creative Probe
 theoneprobe:probenote, The One Probe Read Me
@@ -10086,6 +10170,20 @@ ezstorage:security_box, Security Box
 ezstorage:key, EZ Key
 ezstorage:dolly, Dolly
 ezstorage:dolly_super, Super Dolly
+ae2fc:fluid_discretizer, ME Fluid Discretizer
+ae2fc:fluid_pattern_encoder, Fluid Pattern Encoder
+ae2fc:fluid_packet_decoder, ME Fluid Packet Decoder
+ae2fc:ingredient_buffer, Ingredient Buffer
+ae2fc:large_ingredient_buffer, Large Ingredient Buffer
+ae2fc:burette, Precision Burette
+ae2fc:dual_interface, ME Dual Interface
+ae2fc:fluid_level_maintainer, ME Fluid Level Maintainer
+ae2fc:fluid_drop, Drop of %s
+ae2fc:fluid_packet, Fluid Packet
+ae2fc:dense_encoded_pattern, Encoded Pattern
+ae2fc:part_dual_interface, ME Dual Interface
+ae2fc:part_fluid_pattern_terminal, ME Fluid Pattern Terminal
+ae2fc:part_fluid_pattern_ex_terminal, ME Extended Processing Fluid Pattern Terminal
 threng:machine:0, Fluix Aggregator
 threng:machine:1, Pulse Centrifuge
 threng:machine:2, ME Circuit Etcher
