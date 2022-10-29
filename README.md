@@ -5,35 +5,35 @@
 ## Modpack Version Information
 ### All Versions
 #### en_us
-* Major version upgrades in the following categories are not compatible.
+* There is no compatibility between v1, v2 and v3.
 
 #### ja_jp
-* 下記区分の大きなバージョンアップは互換性はありません。
+* v1, v2, v3の間に互換性はありません。
 
 ### v1.x.x
 #### en_us
-* Stable version as of 10/28/2022 released to CurseForge. Currently, v2 is under development, and bug fixes in v1 will be included in v2.
+* Its the most stable version available on curseforge, using old version of GTCEu. Since the dev team are focusing on v2 development, this version will unlikely receive supports.
 
 #### ja_jp
-* CurseForgeへ公開している2022/10/28現状での安定版。なお現在はv2の開発に移行しており、v1でのバグ修正はv2にて取り込まれる。
+* 古いバージョンのGTCEuが導入されている、CurseForge上での2022/10/28時点での安定版です。なお現在はv2の開発に移行しており、v1でのバグ修正はv2にて取り込まれます。
 
 ### v2.x.x
 #### en_us
-* Next stable version to start releasing as a mirror on CurseForge and Github as the next version.
-* The original version included GCY:S (Gregicality Science), but the plan was changed to v3 from 2022/10/28 based on GT's development status.
+* It is the new version which includes the latest version of GTCEu. It is available on Curseforge and Github from now!
+* We have moved the original v2 which includes GCY:S (Gregicality Science) to v3, because GTCEu dev team does not have a plan to update GCY:S for next few months.
 
 #### ja_jp
-* CurseForgeやGithubでもミラーとして公開し始める次期安定版。
-* 元はGCY:S(Gregicality Science)を含んだバージョンだが、GTの開発事情を踏まえて2022/10/28からv3に計画変更された。
+* CurseForgeやGithubで今回公開し始めた、最新版のGTCEuを含んだ次期バージョンです。
+* GCY:S(Gregicality Science)を含んだバージョンはGT側の更新が当面期待できないことから、2022/10/28からv2ではなくv3にスライドしました。
 
 ### v3.x.x
 #### en_us
-* An experimental version that includes significant development contributions from GCY:S. It will eventually be introduced but not officially released until much later.
-* Single-player play is not recommended, and as long as v2 is stable, the only distribution method will be GitHub.
+* It is an experimental version for giving feedbacks to GCY:S dev team about GCY:S issues. We won't release it as stable until GCY:S becomes stable.
+* We will release this version on CF, however it is impossible to play it in survival mode due to GCY:S progression blocking issue.
 
 #### ja_jp
-* GCY:Sの開発貢献を大きく含む実験的なバージョン。最終的には導入されるが正式リリースはかなり後となる。
-* またシングルプレイは推奨されておらず、v2が安定版である限り配布方法もGitHubだけとなる。
+* GCY:SをデバッグしてGTCEuの開発陣にフィードバックするために用意された実験的なバージョンです。正式リリースは当面先となります。
+* このバージョンはCurseforgeで配布しますが、現時点で修正不可能な進行不能バグがあるため、サバイバルモードでプレイすることは不可能です。
 
 ## About
 
