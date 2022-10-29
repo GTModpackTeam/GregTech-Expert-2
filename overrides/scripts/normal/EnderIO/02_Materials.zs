@@ -202,7 +202,7 @@ JEI.hide(<enderio:item_material:68>);
 # Simple Machine Chassis
 recipes.addShaped(<enderio:item_material>, [
     [<ore:barsIron>, <metaitem:plateIron>, <ore:barsIron>],
-    [<metaitem:plateIron>, <metaitem:dustBedrock> | <enderio:item_material:20>, <metaitem:plateIron>],
+    [<metaitem:plateIron>, <enderio:item_material:20>, <metaitem:plateIron>],
     [<ore:barsIron>, <metaitem:plateIron>, <ore:barsIron>]
 ]);
 
@@ -781,7 +781,6 @@ alloy_smelter.recipeBuilder()
     .buildAndRegister();
 
 # Infinity Dust
-<ore:dustBedrock>.remove(<enderio:item_material:20>);
 macerator.recipeBuilder()
     .inputs([<enderio:item_material:20>])
     .outputs([<enderio:block_infinity_fog>])

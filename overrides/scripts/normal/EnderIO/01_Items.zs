@@ -35,7 +35,7 @@ recipes.addShapeless(<enderio:item_conduit_facade:3>, [
 recipes.addShaped(<enderio:item_conduit_probe>, [
     [<metaitem:nuggetElectricalSteel>, null, <metaitem:nuggetElectricalSteel>],
     [<metaitem:plateConstructionAlloy>, <enderio:item_yeta_wrench>, <metaitem:plateConstructionAlloy>],
-    [<metaitem:plateConstructionAlloy>, <metaitem:dustBedrock> | <enderio:item_material:20>, <metaitem:plateConstructionAlloy>]
+    [<metaitem:plateConstructionAlloy>, <enderio:item_material:20>, <metaitem:plateConstructionAlloy>]
 ]);
 
 # Yeta Wrench

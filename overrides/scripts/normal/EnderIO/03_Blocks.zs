@@ -110,9 +110,9 @@ JEI.hide(<enderio:block_decoration3:*>);
 
 # Reinforced Obsidian
 recipes.addShaped(<enderio:block_reinforced_obsidian>, [
-    [<metaitem:dustBedrock> | <enderio:item_material:20>, <enderio:block_dark_iron_bars>, <metaitem:dustBedrock> | <enderio:item_material:20>],
+    [<enderio:item_material:20>, <enderio:block_dark_iron_bars>, <enderio:item_material:20>],
     [<enderio:block_dark_iron_bars>, <ore:obsidian>, <enderio:block_dark_iron_bars>],
-    [<metaitem:dustBedrock> | <enderio:item_material:20>, <enderio:block_dark_iron_bars>, <metaitem:dustBedrock> | <enderio:item_material:20>]
+    [<enderio:item_material:20>, <enderio:block_dark_iron_bars>, <enderio:item_material:20>]
 ]);
 
 # Industrial Insulation
