@@ -1,4 +1,4 @@
-# v2.2.0-pr
+# v3.2.0-pr
 ## Update mods
 * Inventory Sorter -> Inventory Bogo Sorter
 * Gregicality Science(modified by Quarri)
@@ -23,7 +23,7 @@
 
 * * *
 
-# v2.1.0-pr
+# v3.1.0-pr
 ## Del mods
 * Extra Cells 2
 * PackMode
@@ -58,7 +58,7 @@
 
 * * *
 
-# v2.0.0-pr
+# v3.0.0-pr
 ## Level rework
 * No longer require charged capacitors for end content.
 * Even if an EIO capacitor is put in place, it can now be used as a recipe ingredient.
