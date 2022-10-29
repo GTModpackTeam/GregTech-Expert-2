@@ -1,15 +1,12 @@
 # v2.0.0
 ## Update mods
 * AE2 Unofficial Extended Life
-* AE2 Fluid Crafting
+* AE2 Fluid Crafting Rework
 * CraftPresence
 * CraftTweaker
-* dan's Crafting Tweaks
-* Foam​Fix
-* Had Enough Items
-* LoliASM
-* MixinBooter
+* GregTech CE: Unofficial
+* Gregicality Multiblocks
+* GregTech Food Option
+* Inventory Bogo Sorter
 * OpenComputers
-* Smooth Font
-* SuperMartijn642's Core Lib
 * Zen Utils
