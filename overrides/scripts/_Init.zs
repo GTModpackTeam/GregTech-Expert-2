@@ -130,10 +130,10 @@ global wiremill                  as RecipeMap = RecipeMap.getByName("wiremill");
     <appliedenergistics2:part:441>
 ]);
 
-# Flask Interface
-<ore:ae2.interface.flask>.addItems([
-    <volumetricflask:o_interface>,
-    <volumetricflask:part_o_interface>
+# Dual Interface
+<ore:ae2.interface.dual>.addItems([
+    <ae2fc:dual_interface>,
+    <ae2fc:part_dual_interface>
 ]);
 
 # Glass Cable

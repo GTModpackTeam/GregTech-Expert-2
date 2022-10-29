@@ -112,6 +112,17 @@ extractor.recipeBuilder()
 ########################################
 # Items
 ########################################
+# Adamantite Dust, Monazite Dust, Graphite Dust (Override)
+electromagnetic_separator.findRecipe(7680, [<metaitem:dustBedrock>], null).remove();
+electromagnetic_separator.recipeBuilder()
+    .inputs([<metaitem:dustBedrock>])
+    .chancedOutput(<metaitem:dustAdamantite>, 3000, 500)
+    .chancedOutput(<metaitem:dustMonazite> * 2, 3000, 0)
+    .chancedOutput(<metaitem:dustGraphite> * 3, 3000, 0)
+    .duration(120)
+    .EUt(7680)
+    .buildAndRegister();
+
 # Tiny Pile of Ashes (Bookshelf Override)
 arc_furnace.findRecipe(30, [<minecraft:bookshelf:0>], [<liquid:oxygen>]).remove();
 arc_furnace.recipeBuilder()
@@ -682,6 +693,20 @@ lathe.recipeBuilder()
 ########################################
 # Blocks
 ########################################
+# Crafting Station
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <ore:plankWood> * 4,
+        <ore:chestWood> * 2,
+        <ore:slabWood>,
+        <minecraft:crafting_table>
+    ])
+    .outputs([<metaitem:workbench>])
+    .duration(100)
+    .EUt(16)
+    .buildAndRegister();
+
 # Quartz Block (Override)
 compressor.findRecipe(2, [<metaitem:gemCertusQuartz> * 9], null).remove();
 fluid_solidifier.findRecipe(7, [<metaitem:shape.mold.block>], [<liquid:certus_quartz> * 1296]).remove();

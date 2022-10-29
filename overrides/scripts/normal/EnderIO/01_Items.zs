@@ -35,7 +35,7 @@ recipes.addShapeless(<enderio:item_conduit_facade:3>, [
 recipes.addShaped(<enderio:item_conduit_probe>, [
     [<metaitem:nuggetElectricalSteel>, null, <metaitem:nuggetElectricalSteel>],
     [<metaitem:plateConstructionAlloy>, <enderio:item_yeta_wrench>, <metaitem:plateConstructionAlloy>],
-    [<metaitem:plateConstructionAlloy>, <enderio:item_material:20>, <metaitem:plateConstructionAlloy>]
+    [<metaitem:plateConstructionAlloy>, <metaitem:dustBedrock> | <enderio:item_material:20>, <metaitem:plateConstructionAlloy>]
 ]);
 
 # Yeta Wrench
@@ -683,7 +683,7 @@ assembler.recipeBuilder()
 
 # Dark Steel Upgrade "Inventory lv1"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:inv"}), [
-    <enderio:item_dark_steel_upgrade>, <ore:chest>, <metaitem:gearWood>
+    <enderio:item_dark_steel_upgrade>, <ore:chestWood>, <metaitem:gearWood>
 ]);
 
 # Dark Steel Upgrade(XP) "Inventory lv1"
@@ -697,7 +697,7 @@ assembler.recipeBuilder()
 
 # Dark Steel Upgrade "Inventory lv2"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:inv1"}), [
-    <enderio:item_dark_steel_upgrade>, <ore:chest>, <metaitem:gearEnergeticAlloy>
+    <enderio:item_dark_steel_upgrade>, <ore:chestWood>, <metaitem:gearEnergeticAlloy>
 ]);
 
 # Dark Steel Upgrade(XP) "Inventory lv2"
@@ -711,7 +711,7 @@ assembler.recipeBuilder()
 
 # Dark Steel Upgrade "Inventory lv3"
 recipes.addShapeless(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderio:inv2"}), [
-    <enderio:item_dark_steel_upgrade>, <ore:chest>, <metaitem:gearVibrantAlloy>
+    <enderio:item_dark_steel_upgrade>, <ore:chestWood>, <metaitem:gearVibrantAlloy>
 ]);
 
 # Dark Steel Upgrade(XP) "Inventory lv3"

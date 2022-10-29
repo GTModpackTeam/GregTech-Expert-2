@@ -146,7 +146,7 @@
     </recipe>
     <recipe name="Enchanter: minecraft:infinity" required="true" disabled="false">
         <enchanting>
-            <input name="POWDER_INFINITY" amount="4"/>
+            <input name="enderio:item_material:20" amount="4"/>
             <enchantment name="minecraft:infinity" costMultiplier="1"/>
         </enchanting>
     </recipe>

@@ -1,4 +1,5 @@
 # Imports
+import mods.jei.JEI;
 
 
 
@@ -88,7 +89,7 @@ recipes.addShapeless(<packagedauto:unpackager>, [<packagedauto:packager>]);
 recipes.remove(<packagedauto:encoder>);
 recipes.addShaped(<packagedauto:encoder>, [
     [<metaitem:plateTitanium>, <packagedauto:me_package_component>, <metaitem:plateTitanium>],
-    [<packagedauto:recipe_holder>, <appliedenergistics2:part:341>, <packagedauto:recipe_holder>],
+    [<packagedauto:recipe_holder>, <appliedenergistics2:part:341> | <ae2fc:part_fluid_pattern_ex_terminal>, <packagedauto:recipe_holder>],
     [<metaitem:plateTitanium>, <ore:circuitHv>, <metaitem:plateTitanium>]
 ]);
 assembler.recipeBuilder()
@@ -96,7 +97,7 @@ assembler.recipeBuilder()
     .inputs([
         <metaitem:plateTitanium> * 2,
         <ore:circuitHv>,
-        <appliedenergistics2:part:341>,
+        <appliedenergistics2:part:341> | <ae2fc:part_fluid_pattern_ex_terminal>,
         <packagedauto:recipe_holder>,
         <packagedauto:me_package_component>
     ])

@@ -221,19 +221,30 @@ assembler.recipeBuilder()
 recipes.remove(<appliedenergistics2:material:43>);
 recipes.addShaped(<appliedenergistics2:material:43>, [
     [<metaitem:stickAluminium>, <appliedenergistics2:material:24>, <metaitem:stickAluminium>],
-    [<appliedenergistics2:material:24>, <ore:gemNetherQuartz>, <appliedenergistics2:material:24>],
+    [<appliedenergistics2:material:22>, <ore:gemNetherQuartz>, <appliedenergistics2:material:22>],
     [<metaitem:stickAluminium>, <appliedenergistics2:material:24>, <metaitem:stickAluminium>]
+]);
+recipes.addShaped(<appliedenergistics2:material:43>, [
+    [<metaitem:stickAluminium>, <appliedenergistics2:material:22>, <metaitem:stickAluminium>],
+    [<appliedenergistics2:material:24>, <ore:gemNetherQuartz>, <appliedenergistics2:material:24>],
+    [<metaitem:stickAluminium>, <appliedenergistics2:material:22>, <metaitem:stickAluminium>]
 ]);
 recipes.addShaped(<appliedenergistics2:material:43> * 2, [
     [<metaitem:stickAluminium>, <appliedenergistics2:material:24>, <metaitem:stickAluminium>],
-    [<appliedenergistics2:material:24>, <ore:crystalPureNetherQuartz>, <appliedenergistics2:material:24>],
+    [<appliedenergistics2:material:22>, <ore:crystalPureNetherQuartz>, <appliedenergistics2:material:22>],
     [<metaitem:stickAluminium>, <appliedenergistics2:material:24>, <metaitem:stickAluminium>]
+]);
+recipes.addShaped(<appliedenergistics2:material:43> * 2, [
+    [<metaitem:stickAluminium>, <appliedenergistics2:material:22>, <metaitem:stickAluminium>],
+    [<appliedenergistics2:material:24>, <ore:crystalPureNetherQuartz>, <appliedenergistics2:material:24>],
+    [<metaitem:stickAluminium>, <appliedenergistics2:material:22>, <metaitem:stickAluminium>]
 ]);
 assembler.recipeBuilder()
     .circuit(1)
     .inputs([
         <metaitem:stickAluminium> * 2,
-        <appliedenergistics2:material:24> * 2,
+        <appliedenergistics2:material:22>,
+        <appliedenergistics2:material:24>,
         <ore:gemNetherQuartz> | <ore:crystalPureNetherQuartz>
     ])
     .fluidInputs([<liquid:plastic> * 144])
@@ -246,19 +257,30 @@ assembler.recipeBuilder()
 recipes.remove(<appliedenergistics2:material:44>);
 recipes.addShaped(<appliedenergistics2:material:44>, [
     [<metaitem:stickAluminium>, <appliedenergistics2:material:24>, <metaitem:stickAluminium>],
-    [<appliedenergistics2:material:24>, <ore:gemCertusQuartz>, <appliedenergistics2:material:24>],
+    [<appliedenergistics2:material:23>, <ore:gemCertusQuartz>, <appliedenergistics2:material:23>],
     [<metaitem:stickAluminium>, <appliedenergistics2:material:24>, <metaitem:stickAluminium>]
+]);
+recipes.addShaped(<appliedenergistics2:material:44>, [
+    [<metaitem:stickAluminium>, <appliedenergistics2:material:23>, <metaitem:stickAluminium>],
+    [<appliedenergistics2:material:24>, <ore:gemCertusQuartz>, <appliedenergistics2:material:24>],
+    [<metaitem:stickAluminium>, <appliedenergistics2:material:23>, <metaitem:stickAluminium>]
 ]);
 recipes.addShaped(<appliedenergistics2:material:44> * 2, [
     [<metaitem:stickAluminium>, <appliedenergistics2:material:24>, <metaitem:stickAluminium>],
-    [<appliedenergistics2:material:24>, <ore:crystalPureCertusQuartz>, <appliedenergistics2:material:24>],
+    [<appliedenergistics2:material:23>, <ore:crystalPureCertusQuartz>, <appliedenergistics2:material:23>],
     [<metaitem:stickAluminium>, <appliedenergistics2:material:24>, <metaitem:stickAluminium>]
+]);
+recipes.addShaped(<appliedenergistics2:material:44> * 2, [
+    [<metaitem:stickAluminium>, <appliedenergistics2:material:23>, <metaitem:stickAluminium>],
+    [<appliedenergistics2:material:24>, <ore:crystalPureCertusQuartz>, <appliedenergistics2:material:24>],
+    [<metaitem:stickAluminium>, <appliedenergistics2:material:23>, <metaitem:stickAluminium>]
 ]);
 assembler.recipeBuilder()
     .circuit(1)
     .inputs([
         <metaitem:stickAluminium> * 2,
-        <appliedenergistics2:material:24> * 2,
+        <appliedenergistics2:material:23>,
+        <appliedenergistics2:material:24>,
         <ore:gemCertusQuartz> | <ore:crystalPureCertusQuartz>
     ])
     .fluidInputs([<liquid:plastic> * 144])
@@ -990,6 +1012,9 @@ recipes.addShaped(<appliedenergistics2:material:31>, [
 # Pattern Expansion Card
 recipes.remove(<appliedenergistics2:material:58>);
 recipes.addShapeless(<appliedenergistics2:material:58>, [
+    <appliedenergistics2:material:28>, <ore:ae2.interface.dual>, <appliedenergistics2:material:23>,
+]);
+recipes.addShapeless(<appliedenergistics2:material:58>, [
     <appliedenergistics2:material:28>, <ore:ae2.interface.item>, 
     <ore:ae2.interface.fluid>, <appliedenergistics2:material:23>,
 ]);
@@ -1349,7 +1374,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 chemical_bath.recipeBuilder()
     .inputs([<ore:ae2.cable.glass.colors>])
-    .fluidInputs([<liquid:chlorine> * 144])
+    .fluidInputs([<liquid:chlorine> * 25])
     .outputs([<appliedenergistics2:part:16>])
     .duration(8)
     .EUt(480)
@@ -1408,7 +1433,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 chemical_bath.recipeBuilder()
     .inputs([<ore:ae2.cable.covered.colors>])
-    .fluidInputs([<liquid:chlorine> * 144])
+    .fluidInputs([<liquid:chlorine> * 25])
     .outputs([<appliedenergistics2:part:36>])
     .duration(8)
     .EUt(480)
@@ -1485,7 +1510,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 chemical_bath.recipeBuilder()
     .inputs([<ore:ae2.cable.smart.colors>])
-    .fluidInputs([<liquid:chlorine> * 144])
+    .fluidInputs([<liquid:chlorine> * 25])
     .outputs([<appliedenergistics2:part:56>])
     .duration(8)
     .EUt(480)
@@ -1537,7 +1562,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 chemical_bath.recipeBuilder()
     .inputs([<ore:ae2.cable.dense.covered.colors>])
-    .fluidInputs([<liquid:chlorine> * 144])
+    .fluidInputs([<liquid:chlorine> * 25])
     .outputs([<appliedenergistics2:part:516>])
     .duration(8)
     .EUt(480)
@@ -1632,7 +1657,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 chemical_bath.recipeBuilder()
     .inputs([<ore:ae2.cable.dense.smart.colors>])
-    .fluidInputs([<liquid:chlorine> * 144])
+    .fluidInputs([<liquid:chlorine> * 25])
     .outputs([<appliedenergistics2:part:76>])
     .duration(8)
     .EUt(480)
@@ -2086,12 +2111,12 @@ recipes.addShaped(<appliedenergistics2:part:520>, [
 recipes.remove(<appliedenergistics2:part:360>);
 recipes.addShaped(<appliedenergistics2:part:360>, [
     [<ore:gtce.tool.screwdrivers>, <appliedenergistics2:part:380>, <ore:gtce.tool.soft.hammers>],
-    [<metaitem:screwSteel>, <metaitem:workbench>, <metaitem:screwSteel>],
+    [<metaitem:screwSteel>, <metaitem:cover.crafting>, <metaitem:screwSteel>],
     [<metaitem:plateSteel>, <appliedenergistics2:material:24>, <metaitem:plateSteel>]
 ]);
 recipes.addShaped(<appliedenergistics2:part:360>, [
     [<ore:gtce.tool.soft.hammers>, <appliedenergistics2:part:380>, <ore:gtce.tool.screwdrivers>],
-    [<metaitem:screwSteel>, <metaitem:workbench>, <metaitem:screwSteel>],
+    [<metaitem:screwSteel>, <metaitem:cover.crafting>, <metaitem:screwSteel>],
     [<metaitem:plateSteel>, <appliedenergistics2:material:24>, <metaitem:plateSteel>]
 ]);
 
@@ -2121,25 +2146,25 @@ recipes.remove(<appliedenergistics2:part:340>);
 recipes.addShaped(<appliedenergistics2:part:340>, [
     [<ore:gtce.tool.screwdrivers>, <appliedenergistics2:part:380>, <ore:gtce.tool.soft.hammers>],
     [<metaitem:screwSteel>, <appliedenergistics2:material:52>, <metaitem:screwSteel>],
-    [<metaitem:plateSteel>, <appliedenergistics2:material:24>, <metaitem:plateSteel>]
+    [<metaitem:plateSteel>, <appliedenergistics2:material:22>, <metaitem:plateSteel>]
 ]);
 recipes.addShaped(<appliedenergistics2:part:340>, [
     [<ore:gtce.tool.soft.hammers>, <appliedenergistics2:part:380>, <ore:gtce.tool.screwdrivers>],
     [<metaitem:screwSteel>, <appliedenergistics2:material:52>, <metaitem:screwSteel>],
-    [<metaitem:plateSteel>, <appliedenergistics2:material:24>, <metaitem:plateSteel>]
+    [<metaitem:plateSteel>, <appliedenergistics2:material:22>, <metaitem:plateSteel>]
 ]);
 
 # Extended Processing Pattrern Terminal
 recipes.remove(<appliedenergistics2:part:341>);
 recipes.addShaped(<appliedenergistics2:part:341>, [
     [<ore:gtce.tool.screwdrivers>, <appliedenergistics2:part:340>, <ore:gtce.tool.soft.hammers>],
-    [<metaitem:plateTitanium>, <appliedenergistics2:material:52>, <metaitem:plateTitanium>],
-    [<metaitem:plateTitanium>, <appliedenergistics2:material:24>, <metaitem:plateTitanium>]
+    [<metaitem:screwSteel>, <appliedenergistics2:material:52>, <metaitem:screwSteel>],
+    [<metaitem:plateSteel>, <appliedenergistics2:material:24>, <metaitem:plateSteel>]
 ]);
 recipes.addShaped(<appliedenergistics2:part:341>, [
     [<ore:gtce.tool.soft.hammers>, <appliedenergistics2:part:340>, <ore:gtce.tool.screwdrivers>],
-    [<metaitem:plateTitanium>, <appliedenergistics2:material:52>, <metaitem:plateTitanium>],
-    [<metaitem:plateTitanium>, <appliedenergistics2:material:24>, <metaitem:plateTitanium>]
+    [<metaitem:screwSteel>, <appliedenergistics2:material:52>, <metaitem:screwSteel>],
+    [<metaitem:plateSteel>, <appliedenergistics2:material:24>, <metaitem:plateSteel>]
 ]);
 
 # Wireless Access Point
