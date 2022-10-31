@@ -28,7 +28,7 @@ jobs:
         run: | 
           cp -vf ./cf/manifest.json ./manifest.json
           cp -vf ./cf/modlist.html ./modlist.html
-          zip -r ./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}.zip manifest.json modlist.html ./overrides/
+          zip -r ./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-cf.zip manifest.json modlist.html ./overrides/
           rm -vf ./manifest.json
           rm -vf ./modlist.html
 
@@ -67,7 +67,7 @@ jobs:
         with:
           prerelease: true
           files: |
-            ./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}.zip
+            ./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-cf.zip
             ./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-mmc.zip
             ./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-server.zip
           generate_release_notes: true

@@ -30,7 +30,7 @@ jobs:
         run: |
           cp -vf ./cf/manifest.json ./manifest.json
           cp -vf ./cf/modlist.html ./modlist.html
-          zip -r ./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}.zip ./manifest.json ./modlist.html ./overrides/
+          zip -r ./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-cf.zip ./manifest.json ./modlist.html ./overrides/
           rm -vf ./manifest.json
           rm -vf ./modlist.html
 
@@ -69,7 +69,7 @@ jobs:
         with:
           prerelease: false
           files: |
-            ./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}.zip
+            ./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-cf.zip
             ./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-mmc.zip
             ./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-server.zip
           generate_release_notes: false
@@ -79,7 +79,7 @@ jobs:
         with: 
           api-token: ${{ secrets.CF_API_TOKEN }}
           project-id: '565238'
-          modpack-path: ./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}.zip
+          modpack-path: ./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-cf.zip
           modpack-server-path: ./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-server.zip
           changelog: 'Check the changes here. [Github - CHANGELOG.md](https://github.com/GTModpackTeam/gregtech-expert-2/blob/main/CHANGELOG_v2.md "")' 
           changelog-format: markdown
