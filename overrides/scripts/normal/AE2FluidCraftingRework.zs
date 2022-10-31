@@ -60,7 +60,7 @@ packer.recipeBuilder()
         <ore:ae2.interface.fluid>
     ])
     .outputs([<ae2fc:dual_interface>])
-    .duration(100)
+    .duration(200)
     .EUt(480)
     .buildAndRegister();
 packer.recipeBuilder()
@@ -69,7 +69,7 @@ packer.recipeBuilder()
         <appliedenergistics2:interface>,
         <appliedenergistics2:fluid_interface>
     ])
-    .duration(100)
+    .duration(200)
     .EUt(480)
     .buildAndRegister();
 
@@ -95,7 +95,7 @@ assembler.recipeBuilder()
     ])
     .outputs([<ae2fc:part_fluid_pattern_terminal>])
     .duration(20)
-    .EUt(7680)
+    .EUt(1920)
     .buildAndRegister();
 
 # Extended Processing Fluid Pattrern Terminal
@@ -120,7 +120,7 @@ assembler.recipeBuilder()
     ])
     .outputs([<ae2fc:part_fluid_pattern_ex_terminal>])
     .duration(20)
-    .EUt(7680)
+    .EUt(1920)
     .buildAndRegister();
 
 # Level Maintainer

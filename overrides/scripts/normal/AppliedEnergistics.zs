@@ -250,7 +250,7 @@ assembler.recipeBuilder()
     .fluidInputs([<liquid:plastic> * 144])
     .outputs([<appliedenergistics2:material:43> * 4])
     .duration(20)
-    .EUt(7680)
+    .EUt(1920)
     .buildAndRegister();
 
 # Annihilation Core
@@ -286,7 +286,7 @@ assembler.recipeBuilder()
     .fluidInputs([<liquid:plastic> * 144])
     .outputs([<appliedenergistics2:material:44> * 4])
     .duration(20)
-    .EUt(7680)
+    .EUt(1920)
     .buildAndRegister();
 
 # Matrix Core
@@ -321,7 +321,7 @@ assembler.recipeBuilder()
     .fluidInputs([<liquid:plastic> * 144])
     .outputs([<metaitem:matrix_core> * 4])
     .duration(20)
-    .EUt(7680)
+    .EUt(1920)
     .buildAndRegister();
 assembler.recipeBuilder()
     .circuit(2)
@@ -335,7 +335,7 @@ assembler.recipeBuilder()
     .fluidInputs([<liquid:plastic> * 144])
     .outputs([<metaitem:matrix_core> * 4])
     .duration(100)
-    .EUt(7680)
+    .EUt(1920)
     .buildAndRegister();
 
 # View Cell
@@ -1764,7 +1764,7 @@ assembler.recipeBuilder()
     ])
     .outputs([<appliedenergistics2:quantum_ring>])
     .duration(100)
-    .EUt(7680)
+    .EUt(1920)
     .buildAndRegister();
 
 # Quantum Link
@@ -1783,7 +1783,7 @@ assembler.recipeBuilder()
     ])
     .outputs([<appliedenergistics2:quantum_link>])
     .duration(100)
-    .EUt(7680)
+    .EUt(1920)
     .buildAndRegister();
 
 # Spatial Pylon
@@ -1836,7 +1836,7 @@ assembler.recipeBuilder()
     ])
     .outputs([<appliedenergistics2:chest>])
     .duration(20)
-    .EUt(7680)
+    .EUt(1920)
     .buildAndRegister();
 
 # ME Drive
@@ -1857,7 +1857,7 @@ assembler.recipeBuilder()
     ])
     .outputs([<appliedenergistics2:drive>])
     .duration(100)
-    .EUt(7680)
+    .EUt(1920)
     .buildAndRegister();
 
 # ME Interface
@@ -1878,7 +1878,7 @@ assembler.recipeBuilder()
     .fluidInputs([<liquid:plastic> * 144])
     .outputs([<appliedenergistics2:interface>])
     .duration(20)
-    .EUt(7680)
+    .EUt(1920)
     .buildAndRegister();
 
 # ME Fluid Interface
@@ -1900,7 +1900,7 @@ assembler.recipeBuilder()
     .fluidInputs([<liquid:plastic> * 144])
     .outputs([<appliedenergistics2:fluid_interface>])
     .duration(20)
-    .EUt(7680)
+    .EUt(1920)
     .buildAndRegister();
 
 # Cell Workbench
@@ -1959,7 +1959,7 @@ assembler.recipeBuilder()
     .fluidInputs([<liquid:plastic> * 144])
     .outputs([<appliedenergistics2:energy_cell>])
     .duration(20)
-    .EUt(7680)
+    .EUt(1920)
     .buildAndRegister();
 
 # Dense Energy Cell
@@ -2002,7 +2002,7 @@ assembler.recipeBuilder()
     ])
     .outputs([<appliedenergistics2:crafting_unit>])
     .duration(20)
-    .EUt(7680)
+    .EUt(1920)
     .buildAndRegister();
 
 # Crafting Co-Processing Unit
@@ -2157,7 +2157,7 @@ assembler.recipeBuilder()
     ])
     .outputs([<appliedenergistics2:part:180>])
     .duration(20)
-    .EUt(7680)
+    .EUt(1920)
     .buildAndRegister();
 
 # Terminal
@@ -2182,7 +2182,7 @@ assembler.recipeBuilder()
     ])
     .outputs([<appliedenergistics2:part:380>])
     .duration(20)
-    .EUt(7680)
+    .EUt(1920)
     .buildAndRegister();
 
 # Fluid Terminal
@@ -2207,7 +2207,7 @@ assembler.recipeBuilder()
     ])
     .outputs([<appliedenergistics2:part:520>])
     .duration(20)
-    .EUt(7680)
+    .EUt(1920)
     .buildAndRegister();
 
 # Crafting Terminal
@@ -2232,7 +2232,7 @@ assembler.recipeBuilder()
     ])
     .outputs([<appliedenergistics2:part:360>])
     .duration(20)
-    .EUt(7680)
+    .EUt(1920)
     .buildAndRegister();
 
 # Interface Terminal
@@ -2257,7 +2257,7 @@ assembler.recipeBuilder()
     ])
     .outputs([<appliedenergistics2:part:480>])
     .duration(20)
-    .EUt(7680)
+    .EUt(1920)
     .buildAndRegister();
 
 # Configuration Interface Terminal
@@ -2282,7 +2282,7 @@ assembler.recipeBuilder()
     ])
     .outputs([<appliedenergistics2:part:521>])
     .duration(20)
-    .EUt(7680)
+    .EUt(1920)
     .buildAndRegister();
 
 # Pattrern Terminal
@@ -2307,7 +2307,7 @@ assembler.recipeBuilder()
     ])
     .outputs([<appliedenergistics2:part:340>])
     .duration(20)
-    .EUt(7680)
+    .EUt(1920)
     .buildAndRegister();
 
 # Extended Processing Pattrern Terminal
@@ -2332,7 +2332,7 @@ assembler.recipeBuilder()
     ])
     .outputs([<appliedenergistics2:part:341>])
     .duration(20)
-    .EUt(7680)
+    .EUt(1920)
     .buildAndRegister();
 
 # P2P Tunnel
@@ -2367,7 +2367,7 @@ assembler.recipeBuilder()
     ])
     .outputs([<appliedenergistics2:part:280>])
     .duration(20)
-    .EUt(7680)
+    .EUt(1920)
     .buildAndRegister();
 
 # Fluid Level Emitter
@@ -2386,7 +2386,7 @@ assembler.recipeBuilder()
     ])
     .outputs([<appliedenergistics2:part:281>])
     .duration(20)
-    .EUt(7680)
+    .EUt(1920)
     .buildAndRegister();
 
 # Storage Bus
@@ -2406,7 +2406,7 @@ assembler.recipeBuilder()
     ])
     .outputs([<appliedenergistics2:part:220>])
     .duration(20)
-    .EUt(7680)
+    .EUt(1920)
     .buildAndRegister();
 
 # Fluid Storage Bus
@@ -2426,7 +2426,7 @@ assembler.recipeBuilder()
     ])
     .outputs([<appliedenergistics2:part:221>])
     .duration(20)
-    .EUt(7680)
+    .EUt(1920)
     .buildAndRegister();
 
 # OreDict Storage Bus
@@ -2446,7 +2446,7 @@ assembler.recipeBuilder()
     ])
     .outputs([<appliedenergistics2:part:222>])
     .duration(20)
-    .EUt(7680)
+    .EUt(1920)
     .buildAndRegister();
 
 # Toggle Bus
@@ -2466,7 +2466,7 @@ assembler.recipeBuilder()
     ])
     .outputs([<appliedenergistics2:part:80>])
     .duration(20)
-    .EUt(7680)
+    .EUt(1920)
     .buildAndRegister();
 
 # Inverted Toggle Bus
