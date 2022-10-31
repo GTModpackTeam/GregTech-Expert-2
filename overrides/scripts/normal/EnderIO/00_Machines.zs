@@ -19,7 +19,6 @@ assembler.recipeBuilder()
         <ore:circuitHv>,
         <ore:itemSimpleMachineChassi>
     ])
-    .fluidInputs([<liquid:plastic> * 144])
     .outputs([<enderio:block_cap_bank:1>])
     .duration(20)
     .EUt(7680)
@@ -42,7 +41,6 @@ assembler.recipeBuilder()
         <ore:batteryEv>,
         <ore:itemMachineChassi>
     ])
-    .fluidInputs([<liquid:plastic> * 144])
     .outputs([<enderio:block_cap_bank:2>])
     .duration(20)
     .EUt(7680)
@@ -65,7 +63,6 @@ assembler.recipeBuilder()
         <ore:batteryIv>,
         <ore:itemEnhancedMachineChassi>
     ])
-    .fluidInputs([<liquid:plastic> * 144])
     .outputs([<enderio:block_cap_bank:3>])
     .duration(20)
     .EUt(7680)
