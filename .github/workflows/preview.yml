@@ -21,14 +21,12 @@ jobs:
         run: |
           MODPACKVERSION=v${{ steps.get_version.outputs.VERSION }}
           echo "GregTech Expert 2 ${MODPACKVERSION} ${{ steps.get_version.outputs.LEVEL }}" > ./overrides/resources/custommainmenu/version.txt
-          sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" cf/manifest.json
-          sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" mmc/instance.cfg
+          sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" ./manifest.json
+          sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" ./instance.cfg
 
       - name: Archive Release CF
-        run: | 
-          cp -vf ./cf/manifest.json ./manifest.json
-          cp -vf ./cf/modlist.html ./modlist.html
-          zip -r ./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-cf.zip manifest.json modlist.html ./overrides/
+        run: |
+          zip -r ./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-cf.zip ./manifest.json ./modlist.html ./overrides/
           rm -vf ./manifest.json
           rm -vf ./modlist.html
 
@@ -50,11 +48,8 @@ jobs:
 
       - name: Archive Release MMC
         run: |
-          cp -vf ./mmc/mmc-pack.json ./mmc-pack.json
-          cp -vf ./mmc/instance.cfg ./instance.cfg
-          cp -vf ./mmc/icon.png ./icon.png
           mv -vf ./overrides/ .minecraft/
-          zip -r ./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-mmc.zip ./mmc-pack.json ./instance.cfg .minecraft/
+          zip -r ./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-mmc.zip ./icon.png ./mmc-pack.json ./instance.cfg .minecraft/
 
       - name: Archive Release Server
         run: |
@@ -62,12 +57,12 @@ jobs:
           zip -r ./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-server.zip ./bansoukou/ ./config/ ./local/ ./mods/ ./resources/ ./scripts/
 
       - name: Create GitHub Release
-        uses: softprops/action-gh-release@v1
+        uses: technote-space/action-gh-release@v2
         if: startsWith(github.ref, 'refs/tags/')
         with:
           prerelease: true
+          generate_release_notes: true
           files: |
             ./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-cf.zip
             ./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-mmc.zip
             ./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-server.zip
-          generate_release_notes: true
