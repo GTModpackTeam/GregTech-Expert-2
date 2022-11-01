@@ -1796,14 +1796,6 @@ recipes.addShaped(<appliedenergistics2:spatial_pylon>, [
 
 # ME IO Port
 recipes.remove(<appliedenergistics2:io_port>);
-recipes.addShaped(<appliedenergistics2:spatial_io_port>, [
-    [<metaitem:plateGlass>, <metaitem:plateGlass>, <metaitem:plateGlass>],
-    [<ore:ae2.cable.glass>, <appliedenergistics2:io_port>, <ore:ae2.cable.glass>],
-    [<metaitem:plateSteel>, <appliedenergistics2:material:24>, <metaitem:plateSteel>]
-]);
-
-# ME Spatial IO Port
-recipes.remove(<appliedenergistics2:spatial_io_port>);
 recipes.addShaped(<appliedenergistics2:io_port>, [
     [<metaitem:plateGlass>, <metaitem:plateGlass>, <metaitem:plateGlass>],
     [<ore:ae2.cable.glass>, <appliedenergistics2:drive>, <ore:ae2.cable.glass>],
@@ -1814,7 +1806,7 @@ recipes.addShaped(<appliedenergistics2:io_port>, [
 recipes.remove(<appliedenergistics2:spatial_io_port>);
 recipes.addShaped(<appliedenergistics2:spatial_io_port>, [
     [<metaitem:plateGlass>, <metaitem:plateGlass>, <metaitem:plateGlass>],
-    [<ore:ae2.cable.glass>, <appliedenergistics2:io_port>, <ore:ae2.cable.glass>],
+    [<ore:ae2.cable.glass>, <appliedenergistics2:drive>, <ore:ae2.cable.glass>],
     [<metaitem:plateSteel>, <metaitem:matrix_core>, <metaitem:plateSteel>]
 ]);
 
