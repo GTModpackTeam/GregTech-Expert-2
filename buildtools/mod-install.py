@@ -19,7 +19,6 @@ headers = {
 manifest_json = json.load(open("./manifest.json"))
 
 ## Access CF and save file if request succeeds
-os.makedirs("./overrides/mods/")
 for key in manifest_json["files"]:
     mod_json = requests.get("{}/v1/mods/{}/files/{}".format(
         cf_url,
