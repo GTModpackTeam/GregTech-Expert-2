@@ -16,7 +16,7 @@ headers = {
 }
 
 ### Import List
-manifest_json = json.load(open("cf/manifest.json"))
+manifest_json = json.load(open("./manifest.json"))
 
 ## Access CF and save file if request succeeds
 os.makedirs("./overrides/mods/")

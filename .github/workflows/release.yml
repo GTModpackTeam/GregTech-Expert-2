@@ -29,8 +29,6 @@ jobs:
       - name: Archive Release CF
         run: |
           zip -r ./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-cf.zip ./manifest.json ./modlist.html ./overrides/
-          rm -vf ./manifest.json
-          rm -vf ./modlist.html
 
       - name: Setup Python
         uses: actions/setup-python@v4
@@ -59,7 +57,7 @@ jobs:
           zip -r ./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-server.zip ./bansoukou/ ./config/ ./local/ ./mods/ ./resources/ ./scripts/
 
       - name: Create GitHub Release
-        uses: technote-space/action-gh-release@v2
+        uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
           prerelease: false
