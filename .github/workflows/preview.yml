@@ -47,7 +47,9 @@ jobs:
       - name: Archive Release MMC
         run: |
           mv -vf ./overrides/ .minecraft/
-          zip -r ./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-mmc.zip ./icon.png ./mmc-pack.json ./instance.cfg .minecraft/
+          cp -vf ./icon.png .minecraft/
+          zip -r ./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-mmc.zip ./mmc-pack.json ./instance.cfg .minecraft/
+          rm -rf .minecraft/icon.png
 
       - name: Archive Release Server
         run: |
