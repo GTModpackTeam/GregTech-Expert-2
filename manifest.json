@@ -242,12 +242,12 @@
     {
       "projectID": 477021,
       "fileID": 4023986,
-      "required": true
+      "required": false
     },
     {
       "projectID": 557242,
       "fileID": 4051202,
-      "required": true
+      "required": false
     },
     {
       "projectID": 267602,
