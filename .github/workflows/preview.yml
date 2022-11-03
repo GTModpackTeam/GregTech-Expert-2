@@ -9,31 +9,60 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Get the version
         id: get_version
-        run: |-
+        run: |
           echo ::set-output name=VERSION::$(echo ${GITHUB_REF} | sed -e 's#refs/tags/##g' | awk -F'-' '{print $1}')
-          echo ::set-output name=LEVEL::preview
+          echo ::set-output name=LEVEL::$(echo ${GITHUB_REF} | sed -e 's#refs/tags/##g' | awk -F'-' '{print $2}')
 
       - name: Set the version
-        run: |-
+        run: |
           MODPACKVERSION=v${{ steps.get_version.outputs.VERSION }}
           echo "GregTech Expert 2 ${MODPACKVERSION} ${{ steps.get_version.outputs.LEVEL }}" > ./overrides/resources/custommainmenu/version.txt
-          sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" manifest.json
+          sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" ./manifest.json
+          sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" ./instance.cfg
 
-      - name: Archive Release Client
-        uses: thedoctor0/zip-release@master
+      - name: Archive Release CF
+        run: |
+          zip -r ./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-cf.zip ./manifest.json ./modlist.html ./overrides/bansoukou/ ./overrides/config/ ./overrides/local/ ./overrides/resources/ ./overrides/scripts/
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
         with:
-          type: "zip"
-          filename: "./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}.zip"
-          exclusions: '*.git* .editorconfig LICENSE *.md */.github/* *mods/* *serverfiles/*'
+          python-version: '3.10'
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r ./buildtools/requirements.txt
+
+      - name: Run Python
+        env:
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+        run: python buildtools/mod-install.py
+
+      - name: Archive Release MMC
+        run: |
+          mv -vf ./overrides/ .minecraft/
+          cp -vf ./icon.png .minecraft/
+          zip -r ./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-mmc.zip ./mmc-pack.json ./instance.cfg .minecraft/
+          rm -rf .minecraft/icon.png
+
+      - name: Archive Release Server
+        run: |
+          mv -vf .minecraft/* ./
+          zip -r ./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-server.zip ./bansoukou/ ./config/ ./local/ ./mods/ ./resources/ ./scripts/
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
           prerelease: true
-          files: "./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}.zip"
           generate_release_notes: true
+          files: |
+            ./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-cf.zip
+            ./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-mmc.zip
+            ./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-server.zip
