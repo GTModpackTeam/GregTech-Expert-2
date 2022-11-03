@@ -7,9 +7,9 @@
 * AE2 Fluid Crafting Rework
 * CraftPresence
 * CraftTweaker
-* GregTech CE: Unofficial
+* GregTech CE: Unofficial(Github: [9883ff9d45b95f9cca85e0c2107328f74d02fdcf](https://github.com/GregTechCEu/GregTech/tree/9883ff9d45b95f9cca85e0c2107328f74d02fdcf))
 * Gregicality Multiblocks
-* GregTech Food Option
+* GregTech Food Option(Github: [757e3a8836a923691168fcdd714cdcf9987e40b9](https://github.com/bruberu/GregTechFoodOption/tree/757e3a8836a923691168fcdd714cdcf9987e40b9))
 * GTExpert-Core
 * Inventory Bogo Sorter
 * OpenComputers
