@@ -1,141 +1,24 @@
-# v2.2.0-pr
-## Update mods
-* Inventory Sorter -> Inventory Bogo Sorter
-* Gregicality Science(modified by Quarri)
-* AE2 Unofficial Extended Life
-
-## Remove mod
-* LootTweaker
-
-## New mods
-* ModularUI
-
-## Fix config
-### HEI
-* B:searchAdvancedTooltips=false -> true
-* searchadvancedtooltips{ B:search=false -> true }
-
-## Fix recipe
-### Modpack End Content
-* Creative Energy Cell
-* Creative Capacitor Bank
-* GTE ME Storage Fake Component
-
-* * *
-
-# v2.1.0-pr
-## Del mods
-* Extra Cells 2
-* PackMode
-
-## Add mod
-* Clayium
+# v2.0.0
+## Modpack information
+* This version does not contain Gregicality-Science!
+* Please read [README.md](https://github.com/GTModpackTeam/gregtech-expert-2/blob/develop/README.md?rgh-link-date=2022-11-03T13%3A01%3A47Z) for details.
 
 ## Update mods
 * AE2 Unofficial Extended Life
-* Gregicality Science(modified by Quarri)
+* AE2 Fluid Crafting Rework
 * CraftPresence
 * CraftTweaker
-* MixinBooter
-* LoliASM
+* GregTech CE: Unofficial(Github: [9883ff9d45b95f9cca85e0c2107328f74d02fdcf](https://github.com/GregTechCEu/GregTech/tree/9883ff9d45b95f9cca85e0c2107328f74d02fdcf))
+* Gregicality Multiblocks
+* GregTech Food Option(Github: [757e3a8836a923691168fcdd714cdcf9987e40b9](https://github.com/bruberu/GregTechFoodOption/tree/757e3a8836a923691168fcdd714cdcf9987e40b9))
+* GTExpert-Core
+* Inventory Bogo Sorter
+* OpenComputers
 * Zen Utils
 
-## Add recipe
-### AE2 & AE Additions
-* Cells can be extracted
-
-## Fix recipe
-### AE2
-* Vibrant Quartz Glass
-
-### GregTech
-* Solar Panel (LV)
-* Solar Panel (MV)
-* Solar Panel (EV)
-* Solar Panel (IV)
-* Solar Panel (LuV)
-* Solar Panel (ZPM)
-
-* * *
-
-# v2.0.0-pr
-## Level rework
-* No longer require charged capacitors for end content.
-* Even if an EIO capacitor is put in place, it can now be used as a recipe ingredient.
-
-## Move item to coremod
-* Matrix Core
-* GTE ME Storage Fake Component
-
-## Move MultiblockMachine to coremod
-* Greenhouse
-* VoidOreMiner
-* SawMill
-
-## Add recipes
-### EIO
-* Basic Capacitor Bank
-* Capacitor Bank
-* Vibrant Capacitor Bank
-
-## Fix recipes
-### AE2
-* Sky Stone
-
-### LazyAE2
-* Fluix Steel Ingot
-
-### Ender IO
-* Ender Shield
-* Infinity Dust Block
-* Grains of Infinity
-* Infinity Dust Block
-
-### Storage Drawers
-* Framing Table
-* Controller
-* Compacting Drawer
-* Controller Slave
-* Upgrade Template
-
-## Update recipe
-### AE2
-* Annihilation Plane
-* Fulid Annihilation Plane
-* Formation Plane
-* Fulid Formation Plane
-* Illuminated Panel
-* Terminal
-* Crafting Terminal
-* Interface Terminal
-* Fluid Interface Terminal
-* Pattrern Terminal
-* Extended Processing Pattrern Terminal
-* Storage Bus
-* Fluid Storage Bus
-
-## Rework recipes
-### AE2
-* Energy Cell
-* Dense Energy Cell
-
-## New Mods
-* GTExpert Core
-* Lazy AE2
-* AE Additions
+## Del mods(move v3)
+* GregTech CE: Unofficial(GCY:S version)
+* GregTech Food Option(GCY:S version)
+* Gregicality Multiblocks(GCY:S version)
 * Gregicality Science
-
-## Update mods
-* AE2 Unofficial Extended Life
-* GregTech CE: Unofficial
-* Gregicality Multiblocks
-* GregTech Food Option
-
-## Del mod
-* SuperMartijn642's Core Lib
-* Trash Cans
-* B.A.S.E
-* Extra Cells
-* MultiblockTweaker
-* ContentTweaker
-* Devtech
+* Clayium
