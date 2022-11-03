@@ -4,6 +4,11 @@
 /overrides/config/jeresources/*
 /overrides/config/JustEnoughCalculation/*
 !/overrides/config/JustEnoughCalculation/main.cfg
+/overrides/config/AppliedEnergistics2/CustomRecipes.cfg
+/overrides/config/AppliedEnergistics2/VersionChecker.cfg
+/overrides/config/AppliedEnergistics2/items.csv
+/overrides/config/journeymap_ModInfo.cfg
+/overrides/config/journeymap_server.cfg
 /overrides/config/ftbbackups.cfg
 /overrides/config/splash.properties
 /overrides/mods/memory_repo
