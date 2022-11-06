@@ -157,6 +157,16 @@ lathe.recipeBuilder()
     .EUt(7)
     .buildAndRegister();
 
+# Wrought Iron Nugget
+recipes.addShapeless(<metaitem:nuggetWroughtIron> * 9, [<metaitem:ingotWroughtIron>]);
+
+# Wrought Iron Ingot
+recipes.addShaped(<metaitem:ingotWroughtIron>, [
+    [<metaitem:nuggetWroughtIron>, <metaitem:nuggetWroughtIron>, <metaitem:nuggetWroughtIron>],
+    [<metaitem:nuggetWroughtIron>, <metaitem:nuggetWroughtIron>, <metaitem:nuggetWroughtIron>],
+    [<metaitem:nuggetWroughtIron>, <metaitem:nuggetWroughtIron>, <metaitem:nuggetWroughtIron>]
+]);
+
 # Tiny Charcoal Dust
 furnace.setFuel(<metaitem:dustTinyCharcoal>, 200);
 
