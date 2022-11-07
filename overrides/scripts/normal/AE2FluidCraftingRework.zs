@@ -41,13 +41,26 @@ recipes.addShaped(<ae2fc:fluid_discretizer>, [
 
 # ME Dual Interface
 recipes.removeByRecipeName("ae2fc:dual_interface");
+assembler.recipeBuilder()
+    .circuit(2)
+    .inputs([
+        <gregtech:machine_casing:3> * 2,
+        <metaitem:matrix_core> * 2,
+        <metaitem:plateGlass> * 2,
+        <metaitem:plateSteel> * 2,
+        <metaitem:plateStainlessSteel> * 2
+    ])
+    .outputs([<ae2fc:dual_interface>])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
 packer.recipeBuilder()
     .inputs([
         <ore:ae2.interface.item>,
         <ore:ae2.interface.fluid>
     ])
     .outputs([<ae2fc:dual_interface>])
-    .duration(100)
+    .duration(200)
     .EUt(480)
     .buildAndRegister();
 packer.recipeBuilder()
@@ -56,7 +69,7 @@ packer.recipeBuilder()
         <appliedenergistics2:interface>,
         <appliedenergistics2:fluid_interface>
     ])
-    .duration(100)
+    .duration(200)
     .EUt(480)
     .buildAndRegister();
 
@@ -65,13 +78,25 @@ recipes.remove(<ae2fc:part_fluid_pattern_terminal>);
 recipes.addShaped(<ae2fc:part_fluid_pattern_terminal>, [
     [<ore:gtce.tool.screwdrivers>, <appliedenergistics2:part:380>, <ore:gtce.tool.soft.hammers>],
     [<metaitem:screwStainlessSteel>, <appliedenergistics2:material:52>, <metaitem:screwStainlessSteel>],
-    [<metaitem:plateStainlessSteel>, <appliedenergistics2:material:22>, <metaitem:plateStainlessSteel>]
+    [<metaitem:plateStainlessSteel>, <appliedenergistics2:material:23>, <metaitem:plateStainlessSteel>]
 ]);
 recipes.addShaped(<ae2fc:part_fluid_pattern_terminal>, [
     [<ore:gtce.tool.soft.hammers>, <appliedenergistics2:part:380>, <ore:gtce.tool.screwdrivers>],
     [<metaitem:screwStainlessSteel>, <appliedenergistics2:material:52>, <metaitem:screwStainlessSteel>],
-    [<metaitem:plateStainlessSteel>, <appliedenergistics2:material:22>, <metaitem:plateStainlessSteel>]
+    [<metaitem:plateStainlessSteel>, <appliedenergistics2:material:23>, <metaitem:plateStainlessSteel>]
 ]);
+assembler.recipeBuilder()
+    .inputs([
+        <appliedenergistics2:material:23>,
+        <appliedenergistics2:part:380>,
+        <appliedenergistics2:material:52>,
+        <metaitem:screwStainlessSteel>,
+        <metaitem:plateStainlessSteel>
+    ])
+    .outputs([<ae2fc:part_fluid_pattern_terminal>])
+    .duration(20)
+    .EUt(1920)
+    .buildAndRegister();
 
 # Extended Processing Fluid Pattrern Terminal
 recipes.remove(<ae2fc:part_fluid_pattern_ex_terminal>);
@@ -85,6 +110,18 @@ recipes.addShaped(<ae2fc:part_fluid_pattern_ex_terminal>, [
     [<metaitem:screwStainlessSteel>, <appliedenergistics2:material:52>, <metaitem:screwStainlessSteel>],
     [<metaitem:plateStainlessSteel>, <appliedenergistics2:material:24>, <metaitem:plateStainlessSteel>]
 ]);
+assembler.recipeBuilder()
+    .inputs([
+        <appliedenergistics2:material:24>,
+        <appliedenergistics2:part:340>,
+        <appliedenergistics2:material:52>,
+        <metaitem:screwStainlessSteel>,
+        <metaitem:plateStainlessSteel>
+    ])
+    .outputs([<ae2fc:part_fluid_pattern_ex_terminal>])
+    .duration(20)
+    .EUt(1920)
+    .buildAndRegister();
 
 # Level Maintainer
 recipes.remove(<ae2fc:fluid_level_maintainer>);
