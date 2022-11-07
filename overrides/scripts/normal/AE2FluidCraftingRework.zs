@@ -42,7 +42,7 @@ recipes.addShaped(<ae2fc:fluid_discretizer>, [
 # ME Dual Interface
 recipes.removeByRecipeName("ae2fc:dual_interface");
 assembler.recipeBuilder()
-    .circuit(2)
+    .circuit(3)
     .inputs([
         <gregtech:machine_casing:3> * 2,
         <metaitem:matrix_core> * 2,
