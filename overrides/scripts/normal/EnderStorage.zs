@@ -11,7 +11,7 @@ assembler.recipeBuilder()
     .circuit(1)
     .inputs([
         <ore:foilBronze> * 4,
-         <minecraft:leather> * 3,
+        <minecraft:leather> * 3,
         <ore:wool> | <ore:blockWool>,
         <metaitem:cover.ender_fluid_link>
     ])
@@ -30,7 +30,7 @@ recipes.remove(<enderstorage:ender_storage>);
 assembler.recipeBuilder()
     .circuit(1)
     .inputs([
-        <metaitem:plateBronze> * 4,
+        <metaitem:screwBronze> * 8,
         <enderio:block_reinforced_obsidian> * 2,
         <ore:wool> | <ore:blockWool>,
         <metaitem:cover.ender_fluid_link>,
@@ -44,9 +44,9 @@ assembler.recipeBuilder()
 # Tank
 recipes.remove(<enderstorage:ender_storage:1>);
 assembler.recipeBuilder()
-    .circuit(2)
+    .circuit(1)
     .inputs([
-        <metaitem:plateBronze> * 4,
+        <metaitem:stickBronze> * 4,
         <enderio:block_reinforced_obsidian> * 2,
         <ore:wool> | <ore:blockWool>,
         <metaitem:cover.ender_fluid_link>,
