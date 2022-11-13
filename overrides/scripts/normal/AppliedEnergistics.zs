@@ -1679,19 +1679,19 @@ for i in 0 .. 16 {
 }
 
 # ME Controller
-JEI.removeAndHide(<appliedenergistics2:controller>);
-// assembler.recipeBuilder()
-//     .inputs([
-//         <appliedenergistics2:material:24> * 2,
-//         <ore:circuitHv> * 2,
-//         <metaitem:plateTitanium> * 4,
-//         <appliedenergistics2:fluix_block>
-//     ])
-//     .fluidInputs([<liquid:plastic> * 144])
-//     .outputs([<appliedenergistics2:controller>])
-//     .duration(200)
-//     .EUt(480)
-//     .buildAndRegister();
+recipes.remove(<appliedenergistics2:controller>);
+assembler.recipeBuilder()
+    .inputs([
+        <appliedenergistics2:material:24> * 2,
+        <ore:circuitHv> * 2,
+        <metaitem:plateTitanium> * 4,
+        <appliedenergistics2:fluix_block>
+    ])
+    .fluidInputs([<liquid:plastic> * 144])
+    .outputs([<appliedenergistics2:controller>])
+    .duration(200)
+    .EUt(480)
+    .buildAndRegister();
 
 # Quartz Glass
 recipes.remove(<appliedenergistics2:quartz_glass>);
