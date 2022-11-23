@@ -1,3 +1,19 @@
+# v2.0.1
+## Update mods
+* GregTech CE: Unofficial
+* GregTech Food Option
+* GTExpert-Core
+* AE2 Unofficial Extended Life
+* AE2 Fluid Crafting Rework
+* CraftPresence
+* CraftTweaker
+* Had Enough Items
+* Inventory Bogo Sorter
+* MixinBooter
+* Zen Utils
+
+* * *
+
 # v2.0.0
 ## Modpack information
 * This version does not contain Gregicality-Science!
