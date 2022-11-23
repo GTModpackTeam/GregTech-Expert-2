@@ -705,7 +705,6 @@ assembler.recipeBuilder()
     .EUt(30720)
     .buildAndRegister();
 assembler.recipeBuilder()
-    .circuit(1)
     .inputs([
         <appliedenergistics2:material:24>,
         <ore:circuitLuv> * 4,
@@ -842,7 +841,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs([
         <appliedenergistics2:material:23>,
-        <ore:circuitLuv> * 4,
+        <ore:circuitIv> * 4,
         <appliedenergistics2:material:32> * 4
     ])
     .fluidInputs(<liquid:tungsten_steel> * 144)
