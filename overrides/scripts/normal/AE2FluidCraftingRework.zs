@@ -41,18 +41,22 @@ recipes.addShaped(<ae2fc:fluid_discretizer>, [
 
 # ME Dual Interface
 recipes.removeByRecipeName("ae2fc:dual_interface");
+recipes.addShaped(<ae2fc:dual_interface>, [
+    [<metaitem:plateTitanium>, <metaitem:plateGlass>, <metaitem:plateTitanium>],
+    [<metaitem:matrix_core>, <gregtech:machine_casing:3>, <metaitem:matrix_core>],
+    [<metaitem:plateTitanium>, <metaitem:plateGlass>, <metaitem:plateTitanium>]
+]);
 assembler.recipeBuilder()
     .circuit(3)
     .inputs([
-        <gregtech:machine_casing:3> * 2,
-        <metaitem:matrix_core> * 2,
-        <metaitem:plateGlass> * 2,
-        <metaitem:plateSteel> * 2,
-        <metaitem:plateStainlessSteel> * 2
+        <gregtech:machine_casing:3>,
+        <metaitem:matrix_core>,
+        <metaitem:plateGlass>,
+        <metaitem:plateTitanium> * 2,
     ])
     .outputs([<ae2fc:dual_interface>])
-    .duration(100)
-    .EUt(480)
+    .duration(20)
+    .EUt(1920)
     .buildAndRegister();
 packer.recipeBuilder()
     .inputs([
@@ -60,8 +64,8 @@ packer.recipeBuilder()
         <ore:ae2.interface.fluid>
     ])
     .outputs([<ae2fc:dual_interface>])
-    .duration(200)
-    .EUt(480)
+    .duration(20)
+    .EUt(1920)
     .buildAndRegister();
 packer.recipeBuilder()
     .inputs([<ae2fc:dual_interface>])
@@ -69,7 +73,7 @@ packer.recipeBuilder()
         <appliedenergistics2:interface>,
         <appliedenergistics2:fluid_interface>
     ])
-    .duration(200)
+    .duration(20)
     .EUt(480)
     .buildAndRegister();
 

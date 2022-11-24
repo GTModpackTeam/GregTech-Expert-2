@@ -2268,6 +2268,31 @@ assembler.recipeBuilder()
     .EUt(1920)
     .buildAndRegister();
 
+# Configuration Fluid Interface Terminal
+recipes.remove(<appliedenergistics2:part:522>);
+recipes.addShaped(<appliedenergistics2:part:522>, [
+    [<ore:gtce.tool.screwdrivers>, <appliedenergistics2:part:380>, <ore:gtce.tool.soft.hammers>],
+    [<metaitem:screwStainlessSteel>, <ore:ae2.interface.fluid>, <metaitem:screwStainlessSteel>],
+    [<metaitem:plateStainlessSteel>, <metaitem:matrix_core>, <metaitem:plateStainlessSteel>]
+]);
+recipes.addShaped(<appliedenergistics2:part:522>, [
+    [<ore:gtce.tool.soft.hammers>, <appliedenergistics2:part:380>, <ore:gtce.tool.screwdrivers>],
+    [<metaitem:screwStainlessSteel>, <ore:ae2.interface.fluid>, <metaitem:screwStainlessSteel>],
+    [<metaitem:plateStainlessSteel>, <metaitem:matrix_core>, <metaitem:plateStainlessSteel>]
+]);
+assembler.recipeBuilder()
+    .inputs([
+        <metaitem:matrix_core>,
+        <appliedenergistics2:part:380>,
+        <ore:ae2.interface.fluid>,
+        <metaitem:screwStainlessSteel>,
+        <metaitem:plateStainlessSteel>
+    ])
+    .outputs([<appliedenergistics2:part:522>])
+    .duration(20)
+    .EUt(1920)
+    .buildAndRegister();
+
 # ME Pattrern Terminal
 recipes.remove(<appliedenergistics2:part:340>);
 recipes.addShaped(<appliedenergistics2:part:340>, [
