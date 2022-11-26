@@ -1,3 +1,14 @@
+# v2.0.2
+## Bugfix recipes
+### AE2
+* ME Dual Interface
+* Configuration Fluid Interface Terminal
+
+## Updated mod
+* GregTech Food Option
+
+* * *
+
 # v2.0.1
 ## Update mods
 * GregTech CE: Unofficial
