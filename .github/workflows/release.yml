@@ -78,7 +78,7 @@ jobs:
           modpack-server-path: ./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-server.zip
           changelog: 'Check the changes here. [Github - CHANGELOG.md](https://github.com/GTModpackTeam/gregtech-expert-2/blob/main/CHANGELOG_v2.md "")' 
           changelog-format: markdown
-          game-version: '628' # https://minecraft.curseforge.com/api/game/version-types?token=your_token
+          game-version: '1.12.2'
           display-name: GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}
           server-display-name: GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-server
           release-type: ${{ steps.get_version.outputs.LEVEL }}
