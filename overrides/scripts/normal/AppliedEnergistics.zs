@@ -1697,7 +1697,16 @@ recipes.remove(<appliedenergistics2:quartz_glass>);
 alloy_smelter.recipeBuilder()
     .inputs([
         <ore:blockGlass>,
-        <metaitem:dustCertusQuartz> | <metaitem:dustQuartzite>
+        <metaitem:dustCertusQuartz>
+    ])
+    .outputs([<appliedenergistics2:quartz_glass>])
+    .duration(20)
+    .EUt(480)
+    .buildAndRegister();
+alloy_smelter.recipeBuilder()
+    .inputs([
+        <ore:blockGlass>,
+        <metaitem:dustQuartzite>
     ])
     .outputs([<appliedenergistics2:quartz_glass>])
     .duration(20)
@@ -1724,6 +1733,7 @@ alloy_smelter.recipeBuilder()
     .duration(20)
     .EUt(480)
     .buildAndRegister();
+
 # Quartz Fixture
 recipes.remove(<appliedenergistics2:quartz_fixture>);
 recipes.addShapeless(<appliedenergistics2:quartz_fixture>, [
@@ -2350,6 +2360,17 @@ recipes.addShaped(<appliedenergistics2:part:460>, [
     [<metaitem:plateAluminium>, <appliedenergistics2:part:180>, <metaitem:plateAluminium>],
     [<ore:crystalPureFluix>, <ore:crystalPureFluix>, <ore:crystalPureFluix>]
 ]);
+assembler.recipeBuilder()
+    .inputs([
+        <appliedenergistics2:material:24>,
+        <appliedenergistics2:part:180>,
+        <ore:crystalPureFluix> * 2,
+        <metaitem:plateAluminium> * 2
+    ])
+    .outputs([<appliedenergistics2:part:460>])
+    .duration(20)
+    .EUt(1920)
+    .buildAndRegister();
 
 # ME Wireless Access Point
 recipes.remove(<appliedenergistics2:wireless_access_point>);
