@@ -70,7 +70,7 @@ jobs:
             ./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-server.zip
 
       - name: Upload Curseforge
-        uses: henkelmax/upload-curseforge-modpack-action@v1.0.0
+        uses: ./.github/actions/curseforge-modpack-upload
         with: 
           api-token: ${{ secrets.CF_API_TOKEN }}
           project-id: '565238'
@@ -78,7 +78,7 @@ jobs:
           modpack-server-path: ./GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-server.zip
           changelog: 'Check the changes here. [Github - CHANGELOG.md](https://github.com/GTModpackTeam/gregtech-expert-2/blob/main/CHANGELOG_v2.md "")' 
           changelog-format: markdown
-          game-version: '628' # https://minecraft.curseforge.com/api/game/version-types?token=your_token
+          game-version: '6756' # 628 or 6756 (Accepted at either)
           display-name: GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}
           server-display-name: GTExpert2-${{ steps.get_version.outputs.VERSION }}-${{ steps.get_version.outputs.LEVEL }}-server
           release-type: ${{ steps.get_version.outputs.LEVEL }}
