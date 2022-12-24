@@ -1,3 +1,26 @@
+# v2.0.3
+## Add other recipe
+* P2P
+
+## Fix recipe
+* Quartz Glass
+
+## Move mods
+* AI Improvements -> Universal Tweaks
+* AttributeFix -> Universal Tweaks
+* Fast Leaf Decay -> Universal Tweaks
+* Surge -> Universal Tweaks
+
+## Update mods
+* AE2 Unofficial Extended Life
+* AE2 Fluid Crafting Rework
+* GregTech CE: Unofficial
+* PackagedAuto
+* LoliASM
+* Had Enough Items
+
+* * *
+
 # v2.0.2
 ## Bugfix recipes
 ### AE2
