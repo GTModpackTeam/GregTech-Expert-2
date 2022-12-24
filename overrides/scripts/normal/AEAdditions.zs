@@ -484,8 +484,13 @@ JEI.removeAndHide(<aeadditions:part.base:3>);
 JEI.addDescription(<aeadditions:part.base:3>, "Lag device. Use OreDict Storage bus.");
 <aeadditions:part.base:3>.addTooltip(format.green("Lag device. Use OreDict Storage bus."));
 
+# Fluid Filler
+recipes.remove(<aeadditions:fluidfiller>);
+recipes.addShapeless(<aeadditions:fluidfiller>, [<appliedenergistics2:part:520>, <ae2fc:fluid_assembler> | <aeadditions:fluidcrafter>]);
+
 # ME Fluid Assembler
 recipes.remove(<aeadditions:fluidcrafter>);
+recipes.addShapeless(<aeadditions:fluidcrafter>, [<ae2fc:fluid_assembler>]);
 assembler.recipeBuilder()
     .inputs([
         <metaitem:plateGlass> * 2,

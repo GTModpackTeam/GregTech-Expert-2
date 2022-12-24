@@ -1,7 +1,34 @@
+# v2.0.2
+## Bugfix recipes
+### AE2
+* ME Dual Interface
+* Configuration Fluid Interface Terminal
+
+## Updated mod
+* GregTech Food Option
+
+* * *
+
+# v2.0.1
+## Update mods
+* GregTech CE: Unofficial
+* GregTech Food Option
+* GTExpert-Core
+* AE2 Unofficial Extended Life
+* AE2 Fluid Crafting Rework
+* CraftPresence
+* CraftTweaker
+* Had Enough Items
+* Inventory Bogo Sorter
+* MixinBooter
+* Zen Utils
+
+* * *
+
 # v2.0.0
 ## Modpack information
 * This version does not contain Gregicality-Science!
-* Please read [README.md](https://github.com/GTModpackTeam/gregtech-expert-2/blob/develop/README.md?rgh-link-date=2022-11-03T13%3A01%3A47Z) for details.
+* Please read [README.md](https://github.com/GTModpackTeam/gregtech-expert-2/blob/develop/README.md) for details.
 
 ## Update mods
 * AE2 Unofficial Extended Life
