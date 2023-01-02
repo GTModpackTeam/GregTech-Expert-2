@@ -10,6 +10,8 @@
 * AttributeFix -> Universal Tweaks
 * Fast Leaf Decay -> Universal Tweaks
 * Surge -> Universal Tweaks
+* Ding -> Universal Tweaks
+* Swing Through Grass -> Universal Tweaks
 
 ## Update mods
 * AE2 Unofficial Extended Life
