@@ -12,6 +12,7 @@
 * Surge -> Universal Tweaks
 * Ding -> Universal Tweaks
 * Swing Through Grass -> Universal Tweaks
+* JustEnoughIDs -> RoughlyEnoughIDs
 
 ## Update mods
 * AE2 Unofficial Extended Life
