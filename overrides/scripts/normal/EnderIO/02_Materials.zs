@@ -50,7 +50,7 @@ mixer.recipeBuilder()
         <metaitem:dustCoal>,
         <metaitem:dustSilicon>
     ])
-    .outputs([<metaitem:dustElectricalSteel>])
+    .outputs([<metaitem:dustElectricalSteel> * 3])
     .duration(40)
     .EUt(480)
     .buildAndRegister();
@@ -62,7 +62,7 @@ mixer.recipeBuilder()
         <metaitem:dustGold>,
         <minecraft:glowstone_dust>
     ])
-    .outputs([<metaitem:dustEnergeticAlloy>])
+    .outputs([<metaitem:dustEnergeticAlloy> * 3])
     .duration(40)
     .EUt(480)
     .buildAndRegister();
@@ -73,7 +73,7 @@ mixer.recipeBuilder()
         <metaitem:dustEnergeticAlloy>,
         <metaitem:dustEnderPearl>
     ])
-    .outputs([<metaitem:dustVibrantAlloy>])
+    .outputs([<metaitem:dustVibrantAlloy> * 2])
     .duration(40)
     .EUt(480)
     .buildAndRegister();
@@ -84,7 +84,7 @@ mixer.recipeBuilder()
         <metaitem:dustRedAlloy>,
         <metaitem:dustSilicon>
     ])
-    .outputs([<metaitem:dustRedstoneAlloy>])
+    .outputs([<metaitem:dustRedstoneAlloy> * 2])
     .duration(40)
     .EUt(480)
     .buildAndRegister();
@@ -95,7 +95,7 @@ mixer.recipeBuilder()
         <metaitem:dustIron>,
         <metaitem:dustRedstoneAlloy>
     ])
-    .outputs([<metaitem:dustConductiveIron>])
+    .outputs([<metaitem:dustConductiveIron> * 2])
     .duration(40)
     .EUt(480)
     .buildAndRegister();
@@ -106,7 +106,7 @@ mixer.recipeBuilder()
         <metaitem:dustIron>,
         <metaitem:dustEnderPearl>,
     ])
-    .outputs([<metaitem:dustPulsatingIron>])
+    .outputs([<metaitem:dustPulsatingIron> * 2])
     .duration(40)
     .EUt(480)
     .buildAndRegister();
@@ -118,52 +118,21 @@ mixer.recipeBuilder()
         <metaitem:dustCoal>,
         <metaitem:dustObsidian>
     ])
-    .outputs([<metaitem:dustDarkSteel>])
+    .outputs([<metaitem:dustDarkSteel> * 3])
     .duration(40)
     .EUt(480)
     .buildAndRegister();
 
 # Soularium
-alloy_blast_smelter.findRecipe(480, [
-    <metaitem:dustGold>, <metaitem:dustAsh>, <metaitem:circuit.integrated>.withTag({Configuration: 2})
-], null).remove();
-alloy_blast_smelter.findRecipe(480, [
-    <metaitem:dustGold>, <metaitem:dustAsh>, <metaitem:circuit.integrated>.withTag({Configuration: 12})
-], [<liquid:argon> * 100]).remove();
 mixer.recipeBuilder()
     .inputs([
         <metaitem:dustGold>,
         <metaitem:dustAsh>,
         <minecraft:soul_sand>
     ])
-    .outputs([<metaitem:dustSoularium>])
+    .outputs([<metaitem:dustSoularium> * 3])
     .duration(40)
     .EUt(480)
-    .buildAndRegister();
-alloy_blast_smelter.recipeBuilder()
-    .circuit(2)
-    .property("temperature", 3600)
-    .inputs([
-        <metaitem:dustGold>,
-        <metaitem:dustAsh>,
-        <minecraft:soul_sand>
-    ])
-    .fluidOutputs([<liquid:molten.soularium> * 288])
-    .duration(900)
-    .EUt(1920)
-    .buildAndRegister();
-alloy_blast_smelter.recipeBuilder()
-    .circuit(12)
-    .property("temperature", 3600)
-    .inputs([
-        <metaitem:dustGold>,
-        <metaitem:dustAsh>,
-        <minecraft:soul_sand>
-    ])
-    .fluidInputs([<liquid:argon> * 100])
-    .fluidOutputs([<liquid:molten.soularium> * 288])
-    .duration(603)
-    .EUt(1920)
     .buildAndRegister();
 
 # End Steel
@@ -173,7 +142,7 @@ mixer.recipeBuilder()
         <metaitem:dustDarkSteel>,
         <metaitem:dustObsidian>
     ])
-    .outputs([<metaitem:dustEndSteel>])
+    .outputs([<metaitem:dustEndSteel> * 3])
     .duration(40)
     .EUt(1920)
     .buildAndRegister();
@@ -185,7 +154,7 @@ mixer.recipeBuilder()
         <metaitem:dustIron>,
         <metaitem:dustAluminium>
     ])
-    .outputs([<metaitem:dustConstructionAlloy>])
+    .outputs([<metaitem:dustConstructionAlloy> * 3])
     .duration(40)
     .EUt(1920)
     .buildAndRegister();
@@ -539,7 +508,7 @@ mixer.recipeBuilder()
         <ore:itemVibrantPowder>,
         <metaitem:dustPlatinum>
     ])
-    .outputs([<enderio:item_material:34>])
+    .outputs([<enderio:item_material:34> * 2])
     .duration(20)
     .EUt(30)
     .buildAndRegister();
@@ -556,7 +525,7 @@ mixer.recipeBuilder()
         <metaitem:dustVibrantAlloy>,
         <metaitem:dustEmerald>
     ])
-    .outputs([<enderio:item_material:35>])
+    .outputs([<enderio:item_material:35> * 2])
     .duration(20)
     .EUt(30)
     .buildAndRegister();
@@ -573,7 +542,7 @@ mixer.recipeBuilder()
         <metaitem:dustPulsatingIron>,
         <metaitem:dustDiamond>
     ])
-    .outputs([<enderio:item_material:36>])
+    .outputs([<enderio:item_material:36> * 2])
     .duration(20)
     .EUt(30)
     .buildAndRegister();
@@ -591,7 +560,7 @@ mixer.recipeBuilder()
         <metaitem:dustEndSteel>
     ])
     .fluidInputs([<liquid:xpjuice> * 864])
-    .outputs([<enderio:item_material:37>])
+    .outputs([<enderio:item_material:37> * 2])
     .duration(20)
     .EUt(30)
     .buildAndRegister();
@@ -684,7 +653,7 @@ mixer.recipeBuilder()
         <ore:dyeGreen> * 2,
         <ore:dyeBlack>
     ])
-    .outputs([<enderio:item_material:51>])
+    .outputs([<enderio:item_material:51> * 9])
     .duration(40)
     .EUt(480)
     .buildAndRegister();
@@ -697,7 +666,7 @@ mixer.recipeBuilder()
         <ore:dyeBrown> * 2,
         <ore:dyeBlack>
     ])
-    .outputs([<enderio:item_material:52>])
+    .outputs([<enderio:item_material:52> * 9])
     .duration(40)
     .EUt(480)
     .buildAndRegister();
@@ -709,7 +678,7 @@ mixer.recipeBuilder()
         <metaitem:dustNetherQuartz> * 4,
         <ore:dyeBlack>
     ])
-    .outputs([<enderio:item_material:67>])
+    .outputs([<enderio:item_material:67> * 9])
     .duration(40)
     .EUt(480)
     .buildAndRegister();
@@ -864,9 +833,9 @@ mixer.recipeBuilder()
     .inputs([
         <metaitem:dustSteel>,
         <metaitem:dustClay>,
-        <minecraft:gravel>
+        <metaitem:dustFlint>
     ])
-    .outputs([<metaitem:dustCrudeSteel>])
+    .outputs([<metaitem:dustCrudeSteel> * 3])
     .duration(40)
     .EUt(1920)
     .buildAndRegister();
@@ -877,7 +846,7 @@ mixer.recipeBuilder()
         <metaitem:dustGold>,
         <ore:itemPrecientPowder>
     ])
-    .outputs([<metaitem:dustCrystallineAlloy>])
+    .outputs([<metaitem:dustCrystallineAlloy> * 2])
     .duration(40)
     .EUt(1920)
     .buildAndRegister();
@@ -888,7 +857,7 @@ mixer.recipeBuilder()
         <metaitem:dustEndSteel>,
         <minecraft:chorus_fruit_popped>
     ])
-    .outputs([<metaitem:dustMelodicAlloy>])
+    .outputs([<metaitem:dustMelodicAlloy> * 2])
     .duration(40)
     .EUt(1920)
     .buildAndRegister();
@@ -900,7 +869,7 @@ mixer.recipeBuilder()
         <metaitem:dustMelodicAlloy>,
         <metaitem:dustClay>
     ])
-    .outputs([<metaitem:dustStellarAlloy>])
+    .outputs([<metaitem:dustStellarAlloy> * 3])
     .duration(40)
     .EUt(30720)
     .buildAndRegister();
@@ -911,7 +880,7 @@ mixer.recipeBuilder()
         <metaitem:dustMelodicAlloy>,
         <minecraft:slime_ball>
     ])
-    .outputs([<metaitem:dustCrystallinePinkSlime>])
+    .outputs([<metaitem:dustCrystallinePinkSlime> * 2])
     .duration(40)
     .EUt(1920)
     .buildAndRegister();
@@ -923,7 +892,7 @@ mixer.recipeBuilder()
         <minecraft:redstone>,
         <minecraft:glowstone_dust>,
     ])
-    .outputs([<metaitem:dustEnergeticSilver>])
+    .outputs([<metaitem:dustEnergeticSilver> * 3])
     .duration(40)
     .EUt(1920)
     .buildAndRegister();
@@ -934,7 +903,7 @@ mixer.recipeBuilder()
         <metaitem:dustEnergeticSilver>,
         <metaitem:dustEnderPearl>,
     ])
-    .outputs([<metaitem:dustVividAlloy>])
+    .outputs([<metaitem:dustVividAlloy> * 2])
     .duration(40)
     .EUt(1920)
     .buildAndRegister();
