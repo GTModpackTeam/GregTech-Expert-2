@@ -245,16 +245,17 @@ MaterialBuilder(32109, "construction_alloy")
 # EIO - Crude Steel
 MaterialBuilder(32110, "crude_steel")
     .ingot()
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(1700)
     .color(0x8C8682)
     .iconSet("ROUGH")
-    .blastTemp(1700, "HIGHER", 1920, 600)
     .flags([
         "disable_decomposition"
     ])
     .components([
-        <material:steel> * 1,
-        <material:clay> * 1,
-        <material:flint> * 1
+        <material:iron> * 1,
+        <material:quicklime> * 1,
+        <material:coke> * 1
     ])
     .build();
 
@@ -262,43 +263,47 @@ MaterialBuilder(32110, "crude_steel")
 MaterialBuilder(32111, "crystalline_alloy")
     .ingot()
     .fluid(FluidTypes.LIQUID, false)
-    .fluidTemp(1200)
+    .fluidTemp(4500)
     .color(0x9FE4E4)
     .iconSet("SHINY")
-    .blastTemp(4500, "HIGHER", 1920, 600)
     .flags([
         "generate_plate",
+        "no_smelting",
         "disable_decomposition"
     ])
+    .components([
+        <material:vibrant_alloy> * 1,
+        <material:emerald> * 1,
+        <material:gold> * 1,
+        <material:crude_steel> * 1
+    ])
     .build();
-MaterialRegistry.get("crystalline_alloy").setFormula("Au(BeK4N5(Au2(Si(FeS2)5(CrAl2O3)Hg3)2))(Be3Al2Si6O18)", true);
 
 # EIO - Melodic Alloy
 MaterialBuilder(32112, "melodic_alloy")
     .ingot()
     .fluid(FluidTypes.LIQUID, false)
-    .fluidTemp(1200)
+    .fluidTemp(5400)
     .color(0xA877A8)
     .iconSet("SHINY")
-    .blastTemp(5400, "HIGHER", 1920, 600)
     .flags([
         "generate_plate",
+        "no_smelting",
         "disable_decomposition"
     ])
     .build();
-MaterialRegistry.get("melodic_alloy").setFormula("FeC(MgFeSi2O4)2?", true);
 
 # EIO - Stellar Alloy
 MaterialBuilder(32113, "stellar_alloy")
     .ingot()
     .fluid(FluidTypes.LIQUID, false)
-    .fluidTemp(1200)
+    .fluidTemp(7200)
     .color(0xDBDECC)
     .iconSet("SHINY")
-    .blastTemp(7200, "HIGHEST", 30720, 600)
     .flags([
         "generate_plate",
         "generate_rod",
+        "no_smelting",
         "disable_decomposition"
     ])
     .components([
@@ -307,30 +312,30 @@ MaterialBuilder(32113, "stellar_alloy")
         <material:clay> * 1
     ])
     .build();
-MaterialRegistry.get("stellar_alloy").setFormula("FeC(MgFeSi2O4)2(Na2LiAl2Si2(H2O)6)?", true);
 
 # EIO - Crystalline Pink Slime
 MaterialBuilder(32114, "crystalline_pink_slime")
     .ingot()
+    .fluid(FluidTypes.LIQUID, false)
+    .fluidTemp(5400)
     .color(0xE79EDB)
     .iconSet("SHINY")
-    .blastTemp(5400, "HIGHER", 1920, 600)
     .flags([
         "generate_plate",
+        "no_smelting",
         "disable_decomposition"
     ])
     .build();
-MaterialRegistry.get("crystalline_pink_slime").setFormula("FeC(MgFeSi2O4(C5H8))2?", true);
 
 # EIO - Energetic Silver
 MaterialBuilder(32115, "energetic_silver")
     .ingot()
     .fluid(FluidTypes.LIQUID, false)
-    .fluidTemp(1200)
+    .fluidTemp(5400)
     .color(0x598DB3)
     .iconSet("SHINY")
-    .blastTemp(5400, "HIGHER", 1920, 1072)
     .flags([
+        "no_smelting",
         "disable_decomposition"
     ])
     .components([
@@ -339,17 +344,16 @@ MaterialBuilder(32115, "energetic_silver")
         <material:glowstone> * 1
     ])
     .build();
-MaterialRegistry.get("energetic_silver").setFormula("Ag(Si2(Fe2S4)5(Cr2Al4O6)Hg6)", true);
 
 # EIO - Vivid Alloy
 MaterialBuilder(32116, "vivid_alloy")
     .ingot()
     .fluid(FluidTypes.LIQUID, false)
-    .fluidTemp(1200)
+    .fluidTemp(5400)
     .color(0x469BB1)
     .iconSet("SHINY")
-    .blastTemp(5400, "HIGHER", 1920, 1072)
     .flags([
+        "no_smelting",
         "disable_decomposition"
     ])
     .components([
@@ -357,7 +361,6 @@ MaterialBuilder(32116, "vivid_alloy")
         <material:ender_pearl> * 1
     ])
     .build();
-MaterialRegistry.get("vivid_alloy").setFormula("BeK4N5(Ag(Si2(Fe2S4)5(Cr2Al4O6)Hg6))", true);
 
 # AE2 - Fluix Dust (Override)
 MaterialBuilder(32117, "fluix")

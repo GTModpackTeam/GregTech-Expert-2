@@ -829,82 +829,176 @@ JEI.hide(<enderio:block_holier_fog>);
 JEI.hide(<enderio:item_owl_egg>);
 
 # Crude Steel
-mixer.recipeBuilder()
+electric_blast_furnace.recipeBuilder()
     .inputs([
-        <metaitem:dustSteel>,
-        <metaitem:dustClay>,
-        <metaitem:dustFlint>
+        <metaitem:dustIron>,
+        <metaitem:dustQuicklime>,
+        <metaitem:dustCoke>
     ])
-    .outputs([<metaitem:dustCrudeSteel> * 3])
-    .duration(40)
-    .EUt(1920)
+    .fluidInputs([<liquid:oxygen> * 250])
+    .outputs([<metaitem:ingotCrudeSteel>])
+    .property("temperature", 1700)
+    .duration(1000)
+    .EUt(480)
+    .buildAndRegister();
+alloy_blast_smelter.recipeBuilder()
+    .inputs([
+        <metaitem:dustIron>,
+        <metaitem:dustQuicklime>,
+        <metaitem:dustCoke>
+    ])
+    .fluidInputs([<liquid:oxygen> * 250])
+    .fluidOutputs([<liquid:crude_steel> * 432])
+    .property("temperature", 1700)
+    .duration(1000)
+    .EUt(480)
     .buildAndRegister();
 
 # Crystalline Alloy
-mixer.recipeBuilder()
+electric_blast_furnace.recipeBuilder()
     .inputs([
-        <metaitem:dustGold>,
-        <ore:itemPrecientPowder>
+        <ore:itemPrecientPowder> * 2,
+        <metaitem:dustGold>
     ])
-    .outputs([<metaitem:dustCrystallineAlloy> * 2])
-    .duration(40)
+    .fluidInputs([<liquid:crude_steel> * 144])
+    .outputs([<metaitem:ingotCrystallineAlloy>])
+    .property("temperature", 4500)
+    .duration(600)
+    .EUt(1920)
+    .buildAndRegister();
+alloy_blast_smelter.recipeBuilder()
+    .inputs([
+        <ore:itemPrecientPowder> * 2,
+        <metaitem:dustGold>
+    ])
+    .fluidInputs([<liquid:crude_steel> * 144])
+    .fluidOutputs([<liquid:crystalline_alloy> * 576])
+    .property("temperature", 4500)
+    .duration(600)
     .EUt(1920)
     .buildAndRegister();
 
 # Melodic Alloy
-mixer.recipeBuilder()
+electric_blast_furnace.recipeBuilder()
     .inputs([
         <metaitem:dustEndSteel>,
         <minecraft:chorus_fruit_popped>
     ])
-    .outputs([<metaitem:dustMelodicAlloy> * 2])
-    .duration(40)
+    .fluidInputs([<liquid:crude_steel> * 144])
+    .outputs([<metaitem:ingotMelodicAlloy>])
+    .property("temperature", 5400)
+    .duration(600)
+    .EUt(1920)
+    .buildAndRegister();
+alloy_blast_smelter.recipeBuilder()
+    .inputs([
+        <metaitem:dustEndSteel>,
+        <minecraft:chorus_fruit_popped>
+    ])
+    .fluidInputs([<liquid:crude_steel> * 144])
+    .fluidOutputs([<liquid:melodic_alloy> * 432])
+    .property("temperature", 5400)
+    .duration(600)
     .EUt(1920)
     .buildAndRegister();
 
 # Stellar Alloy
-mixer.recipeBuilder()
+electric_blast_furnace.recipeBuilder()
     .inputs([
         <metaitem:dustNetherStar>,
         <metaitem:dustMelodicAlloy>,
         <metaitem:dustClay>
     ])
-    .outputs([<metaitem:dustStellarAlloy> * 3])
-    .duration(40)
+    .fluidInputs([<liquid:crude_steel> * 144])
+    .outputs([<metaitem:ingotStellarAlloy>])
+    .property("temperature", 7200)
+    .duration(600)
+    .EUt(30720)
+    .buildAndRegister();
+alloy_blast_smelter.recipeBuilder()
+    .inputs([
+        <metaitem:dustNetherStar>,
+        <metaitem:dustMelodicAlloy>,
+        <metaitem:dustClay>
+    ])
+    .fluidInputs([<liquid:crude_steel> * 144])
+    .fluidOutputs([<liquid:stellar_alloy> * 576])
+    .property("temperature", 7200)
+    .duration(600)
     .EUt(30720)
     .buildAndRegister();
 
 # Crystalline Pink Slime
-mixer.recipeBuilder()
+electric_blast_furnace.recipeBuilder()
     .inputs([
         <metaitem:dustMelodicAlloy>,
         <minecraft:slime_ball>
     ])
-    .outputs([<metaitem:dustCrystallinePinkSlime> * 2])
-    .duration(40)
+    .fluidInputs([<liquid:crude_steel> * 144])
+    .outputs([<metaitem:ingotCrystallinePinkSlime>])
+    .property("temperature", 5400)
+    .duration(600)
+    .EUt(1920)
+    .buildAndRegister();
+alloy_blast_smelter.recipeBuilder()
+    .inputs([
+        <metaitem:dustMelodicAlloy>,
+        <minecraft:slime_ball>
+    ])
+    .fluidInputs([<liquid:crude_steel> * 144])
+    .fluidOutputs([<liquid:crystalline_pink_slime> * 432])
+    .property("temperature", 5400)
+    .duration(600)
     .EUt(1920)
     .buildAndRegister();
 
 # Energetic Silver
-mixer.recipeBuilder()
+electric_blast_furnace.recipeBuilder()
     .inputs([
         <metaitem:dustSilver>,
         <minecraft:redstone>,
-        <minecraft:glowstone_dust>,
+        <minecraft:glowstone_dust>
     ])
-    .outputs([<metaitem:dustEnergeticSilver> * 3])
-    .duration(40)
+    .fluidInputs([<liquid:crude_steel> * 144])
+    .outputs([<metaitem:ingotEnergeticSilver>])
+    .property("temperature", 5400)
+    .duration(1072)
+    .EUt(1920)
+    .buildAndRegister();
+alloy_blast_smelter.recipeBuilder()
+    .inputs([
+        <metaitem:dustSilver>,
+        <minecraft:redstone>,
+        <minecraft:glowstone_dust>
+    ])
+    .fluidInputs([<liquid:crude_steel> * 144])
+    .fluidOutputs([<liquid:energetic_silver> * 576])
+    .property("temperature", 5400)
+    .duration(1072)
     .EUt(1920)
     .buildAndRegister();
 
 # Vivid Alloy
-mixer.recipeBuilder()
+electric_blast_furnace.recipeBuilder()
     .inputs([
         <metaitem:dustEnergeticSilver>,
-        <metaitem:dustEnderPearl>,
+        <metaitem:dustEnderPearl>
     ])
-    .outputs([<metaitem:dustVividAlloy> * 2])
-    .duration(40)
+    .fluidInputs([<liquid:crude_steel> * 144])
+    .outputs([<metaitem:ingotVividAlloy>])
+    .property("temperature", 5400)
+    .duration(1072)
+    .EUt(1920)
+    .buildAndRegister();
+alloy_blast_smelter.recipeBuilder()
+    .inputs([
+        <metaitem:dustEnergeticSilver>,
+        <metaitem:dustEnderPearl>
+    ])
+    .fluidInputs([<liquid:crude_steel> * 144])
+    .fluidOutputs([<liquid:vivid_alloy> * 432])
+    .property("temperature", 5400)
+    .duration(1072)
     .EUt(1920)
     .buildAndRegister();
 
