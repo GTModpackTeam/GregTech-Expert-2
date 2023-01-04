@@ -4,6 +4,7 @@
 ### AE2
 * Quartz Glass
 * P2P
+* 16k Fluid Component(EU/t misconfigured)
 
 ### AE Additions
 * Fluid Assembler
