@@ -527,17 +527,6 @@ implosion_compressor.recipeBuilder()
 # Fluix Crystal
 recipes.remove(<appliedenergistics2:material:7>);
 <ore:gemFluix>.addItems([<appliedenergistics2:material:7>]);
-mixer.recipeBuilder()
-    .inputs([
-        <ore:gemChargedCertusQuartz>,
-        <minecraft:redstone>,
-        <ore:gemNetherQuartz>
-    ])
-    .fluidInputs([<liquid:distilled_water> * 50])
-    .outputs([<appliedenergistics2:material:7>])
-    .duration(20)
-    .EUt(30)
-    .buildAndRegister();
 autoclave.recipeBuilder()
     .inputs([<metaitem:dustFluix>])
     .fluidInputs([<liquid:distilled_water> * 50])
