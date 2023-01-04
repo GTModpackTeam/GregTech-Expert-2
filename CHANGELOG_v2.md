@@ -1,9 +1,18 @@
 # v2.0.3
-## Add other recipe
-* P2P
 
 ## Fix recipe
+### AE2
 * Quartz Glass
+* P2P
+
+### AE Additions
+* Fluid Assembler
+
+### AE2 Fluid Crafting Rework
+* Fluid Assembler
+
+## New mods
+* JEI Utilities
 
 ## Move mods
 * AI Improvements -> Universal Tweaks
