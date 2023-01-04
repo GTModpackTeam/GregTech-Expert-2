@@ -28,7 +28,7 @@ assembler.recipeBuilder()
         <metaitem:plateSteel> * 4
     ])
     .fluidInputs([<liquid:plastic> * 144])
-    .outputs([<aeadditions:fluidcrafter>])
+    .outputs([<ae2fc:fluid_assembler>])
     .duration(200)
     .EUt(480)
     .buildAndRegister();
