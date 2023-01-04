@@ -492,6 +492,7 @@ recipes.addShapeless(<aeadditions:fluidfiller>, [<appliedenergistics2:part:520>,
 recipes.remove(<aeadditions:fluidcrafter>);
 recipes.addShapeless(<aeadditions:fluidcrafter>, [<ae2fc:fluid_assembler>]);
 assembler.recipeBuilder()
+    .circuits(1)
     .inputs([
         <metaitem:plateGlass> * 2,
         <ore:circuitHv> * 2,

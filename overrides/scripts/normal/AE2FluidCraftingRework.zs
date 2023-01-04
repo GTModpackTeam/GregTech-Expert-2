@@ -18,6 +18,20 @@ JEI.removeAndHide(<ae2fc:large_ingredient_buffer>);
 # ME Fluid Assembler
 recipes.remove(<ae2fc:fluid_assembler>);
 recipes.addShapeless(<ae2fc:fluid_assembler>, [<aeadditions:fluidcrafter>]);
+assembler.recipeBuilder()
+    .circuits(2)
+    .inputs([
+        <metaitem:plateGlass> * 2,
+        <ore:circuitHv> * 2,
+        <metaitem:electric.pump.hv> * 2,
+        <metaitem:fluid.regulator.hv> * 2,
+        <metaitem:plateSteel> * 4
+    ])
+    .fluidInputs([<liquid:plastic> * 144])
+    .outputs([<aeadditions:fluidcrafter>])
+    .duration(200)
+    .EUt(480)
+    .buildAndRegister();
 
 # Fluid Packet Decoder
 recipes.remove(<ae2fc:fluid_packet_decoder>);
