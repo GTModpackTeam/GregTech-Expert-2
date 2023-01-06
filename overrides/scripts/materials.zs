@@ -12,8 +12,7 @@ import mods.gregtech.material.MaterialRegistry;
 ########################################
 # Naquadah Rocket Fuel
 MaterialBuilder(32200, "naquadah_rocket_fuel")
-    .fluid(FluidTypes.LIQUID, false)
-    .fluidTemp(1200)
+    .fluid(FluidTypes.LIQUID, false).fluidTemp(1200)
     .color(0x2E4C00)
     .build();
 
@@ -47,10 +46,8 @@ MaterialRegistry.get("quartzite").addFlags("generate_rod");
 # EIO - Electrical Steel
 MaterialBuilder(32100, "electrical_steel")
     .ingot()
-    .fluid(FluidTypes.LIQUID, false)
-    .fluidTemp(1200)
-    .color(0x949494)
-    .iconSet("METALLIC")
+    .fluid(FluidTypes.LIQUID, false).fluidTemp(1200)
+    .color(0x949494).iconSet("METALLIC")
     .blastTemp(2700, "HIGH", 480, 120)
     .flags([
         "generate_plate",
@@ -68,10 +65,8 @@ MaterialBuilder(32100, "electrical_steel")
 # EIO - Energetic Alloy
 MaterialBuilder(32101, "energetic_alloy")
     .ingot()
-    .fluid(FluidTypes.LIQUID, false)
-    .fluidTemp(1200)
-    .color(0xED8009)
-    .iconSet("SHINY")
+    .fluid(FluidTypes.LIQUID, false).fluidTemp(1200)
+    .color(0xED8009).iconSet("SHINY")
     .blastTemp(2700, "HIGH", 480, 120)
     .flags([
         "generate_plate",
@@ -90,10 +85,8 @@ MaterialRegistry.get("energetic_alloy").setFormula("Au2(Si(FeS2)5(CrAl2O3)Hg3)2"
 # EIO - Vibrant Alloy
 MaterialBuilder(32102, "vibrant_alloy")
     .ingot()
-    .fluid(FluidTypes.LIQUID, false)
-    .fluidTemp(1200)
-    .color(0xBAC63F)
-    .iconSet("SHINY")
+    .fluid(FluidTypes.LIQUID, false).fluidTemp(1200)
+    .color(0xBAC63F).iconSet("SHINY")
     .blastTemp(2700, "HIGH", 480, 120)
     .flags([
         "generate_plate",
@@ -111,8 +104,7 @@ MaterialRegistry.get("vibrant_alloy").setFormula("BeK4N5(Au2(Si(FeS2)5(CrAl2O3)H
 # EIO - Redstone Alloy
 MaterialBuilder(32103, "redstone_alloy")
     .ingot()
-    .color(0x942323)
-    .iconSet("DULL")
+    .color(0x942323).iconSet("DULL")
     .blastTemp(2700, "HIGH", 480, 120)
     .flags([
         "generate_plate",
@@ -127,8 +119,7 @@ MaterialBuilder(32103, "redstone_alloy")
 # EIO - Conductive Iron
 MaterialBuilder(32104, "conductive_iron")
     .ingot()
-    .color(0xD1A79B)
-    .iconSet("ROUGH")
+    .color(0xD1A79B).iconSet("ROUGH")
     .blastTemp(1700, "HIGH", 480, 120)
     .flags([
         "generate_plate",
@@ -143,10 +134,8 @@ MaterialBuilder(32104, "conductive_iron")
 # EIO - Pulsating Iron
 MaterialBuilder(32105, "pulsating_iron")
     .ingot()
-    .fluid(FluidTypes.LIQUID, false)
-    .fluidTemp(1200)
-    .color(0x6EAC7D)
-    .iconSet("SHINY")
+    .fluid(FluidTypes.LIQUID, false).fluidTemp(1200)
+    .color(0x6EAC7D).iconSet("SHINY")
     .blastTemp(2700, "HIGH", 480, 120)
     .flags([
         "generate_plate",
@@ -162,10 +151,8 @@ MaterialBuilder(32105, "pulsating_iron")
 # EIO - Dark Steel
 MaterialBuilder(32106, "dark_steel")
     .ingot()
-    .fluid(FluidTypes.LIQUID, false)
-    .fluidTemp(1200)
-    .color(0x5F5F5F)
-    .iconSet("METALLIC")
+    .fluid(FluidTypes.LIQUID, false).fluidTemp(1200)
+    .color(0x5F5F5F).iconSet("METALLIC")
     .blastTemp(2700, "HIGH", 480, 120)
     .flags([
         "generate_plate",
@@ -186,9 +173,8 @@ MaterialBuilder(32106, "dark_steel")
 # EIO - Soularium
 MaterialBuilder(32107, "soularium")
     .ingot()
-    .fluidTemp(1200)
-    .color(0x5A4226)
-    .iconSet("DULL")
+    .fluid(FluidTypes.LIQUID, false).fluidTemp(1200)
+    .color(0x5A4226).iconSet("DULL")
     .blastTemp(3600, "HIGH", 480, 600)
     .flags([
         "generate_plate",
@@ -204,10 +190,8 @@ MaterialBuilder(32107, "soularium")
 # EIO - End Steel
 MaterialBuilder(32108, "end_steel")
     .ingot()
-    .fluid(FluidTypes.LIQUID, false)
-    .fluidTemp(1200)
-    .color(0xBCB682)
-    .iconSet("METALLIC")
+    .fluid(FluidTypes.LIQUID, false).fluidTemp(1200)
+    .color(0xBCB682).iconSet("METALLIC")
     .blastTemp(4500, "HIGHER", 1920, 1072)
     .flags([
         "generate_plate",
@@ -228,8 +212,7 @@ MaterialRegistry.get("end_steel").setFormula("FeC(MgFeSi2O4)2?", true);
 # EIO - Construction Alloy(Iron Alloy)
 MaterialBuilder(32109, "construction_alloy")
     .ingot()
-    .color(0x524C53)
-    .iconSet("ROUGH")
+    .color(0x524C53).iconSet("ROUGH")
     .blastTemp(1700, "HIGHER", 1920, 1072)
     .flags([
         "generate_plate",
@@ -242,68 +225,48 @@ MaterialBuilder(32109, "construction_alloy")
     ])
     .build();
 
-# EIO - Crude Steel
-MaterialBuilder(32110, "crude_steel")
-    .ingot()
-    .fluid(FluidTypes.LIQUID, false)
-    .fluidTemp(1700)
-    .color(0x8C8682)
-    .iconSet("ROUGH")
-    .flags([
-        "disable_decomposition"
-    ])
-    .components([
-        <material:iron> * 1,
-        <material:quicklime> * 1,
-        <material:coke> * 1
-    ])
-    .build();
-
 # EIO - Crystalline Alloy
 MaterialBuilder(32111, "crystalline_alloy")
     .ingot()
-    .fluid(FluidTypes.LIQUID, false)
-    .fluidTemp(4500)
-    .color(0x9FE4E4)
-    .iconSet("SHINY")
+    .fluid(FluidTypes.LIQUID, false).fluidTemp(1200)
+    .color(0x9FE4E4).iconSet("SHINY")
+    .blastTemp(4500, "HIGHER", 1920, 600)
     .flags([
         "generate_plate",
-        "no_smelting",
         "disable_decomposition"
     ])
     .components([
         <material:vibrant_alloy> * 1,
         <material:emerald> * 1,
-        <material:gold> * 1,
-        <material:crude_steel> * 1
+        <material:gold> * 1
     ])
     .build();
 
 # EIO - Melodic Alloy
 MaterialBuilder(32112, "melodic_alloy")
     .ingot()
-    .fluid(FluidTypes.LIQUID, false)
-    .fluidTemp(5400)
-    .color(0xA877A8)
-    .iconSet("SHINY")
+    .fluid(FluidTypes.LIQUID, false).fluidTemp(1200)
+    .color(0xA877A8).iconSet("SHINY")
+    .blastTemp(5400, "HIGHER", 1920, 600)
     .flags([
         "generate_plate",
-        "no_smelting",
         "disable_decomposition"
     ])
+    // .components([
+    //     <material:end_steel> * 1,
+    //     <material:chorus_fruit> * 1
+    // ])
     .build();
 
 # EIO - Stellar Alloy
 MaterialBuilder(32113, "stellar_alloy")
     .ingot()
-    .fluid(FluidTypes.LIQUID, false)
-    .fluidTemp(7200)
-    .color(0xDBDECC)
-    .iconSet("SHINY")
+    .fluid(FluidTypes.LIQUID, false).fluidTemp(1200)
+    .color(0xDBDECC).iconSet("SHINY")
+    .blastTemp(7200, "HIGHEST", 30720, 600)
     .flags([
         "generate_plate",
         "generate_rod",
-        "no_smelting",
         "disable_decomposition"
     ])
     .components([
@@ -316,26 +279,26 @@ MaterialBuilder(32113, "stellar_alloy")
 # EIO - Crystalline Pink Slime
 MaterialBuilder(32114, "crystalline_pink_slime")
     .ingot()
-    .fluid(FluidTypes.LIQUID, false)
-    .fluidTemp(5400)
-    .color(0xE79EDB)
-    .iconSet("SHINY")
+    .fluid(FluidTypes.LIQUID, false).fluidTemp(1200)
+    .color(0xE79EDB).iconSet("SHINY")
+    .blastTemp(5400, "HIGHER", 1920, 600)
     .flags([
         "generate_plate",
-        "no_smelting",
         "disable_decomposition"
     ])
+    // .components([
+    //     <material:melodic_alloy> * 1,
+    //     <metaitem:raw_rubber> * 2
+    // ])
     .build();
 
 # EIO - Energetic Silver
 MaterialBuilder(32115, "energetic_silver")
     .ingot()
-    .fluid(FluidTypes.LIQUID, false)
-    .fluidTemp(5400)
-    .color(0x598DB3)
-    .iconSet("SHINY")
+    .fluid(FluidTypes.LIQUID, false).fluidTemp(1200)
+    .color(0x598DB3).iconSet("SHINY")
+    .blastTemp(5400, "HIGHER", 1920, 1072)
     .flags([
-        "no_smelting",
         "disable_decomposition"
     ])
     .components([
@@ -348,12 +311,10 @@ MaterialBuilder(32115, "energetic_silver")
 # EIO - Vivid Alloy
 MaterialBuilder(32116, "vivid_alloy")
     .ingot()
-    .fluid(FluidTypes.LIQUID, false)
-    .fluidTemp(5400)
-    .color(0x469BB1)
-    .iconSet("SHINY")
+    .fluid(FluidTypes.LIQUID, false).fluidTemp(1200)
+    .color(0x469BB1).iconSet("SHINY")
+    .blastTemp(5400, "HIGHER", 1920, 1072)
     .flags([
-        "no_smelting",
         "disable_decomposition"
     ])
     .components([
@@ -366,10 +327,8 @@ MaterialBuilder(32116, "vivid_alloy")
 MaterialBuilder(32117, "fluix")
     .dust()
     //.gem()
-    .fluid(FluidTypes.LIQUID, false)
-    .fluidTemp(1200)
-    .color(0x846994)
-    .iconSet("QUARTZ")
+    .fluid(FluidTypes.LIQUID, false).fluidTemp(1200)
+    .color(0x846994).iconSet("QUARTZ")
     .flags([
         // "crystallizable"
         "generate_plate",
@@ -387,9 +346,8 @@ MaterialBuilder(32117, "fluix")
 MaterialBuilder(32118, "charged_certus_quartz")
     .dust()
     //.gem()
-    .fluidTemp(1200)
-    .color(0xCFDAFF)
-    .iconSet("QUARTZ")
+    .fluid(FluidTypes.LIQUID, false).fluidTemp(1200)
+    .color(0xCFDAFF).iconSet("QUARTZ")
     .flags([
         // "crystallizable"
         "generate_plate",
