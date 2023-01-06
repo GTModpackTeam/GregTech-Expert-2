@@ -238,6 +238,7 @@ MaterialBuilder(32111, "crystalline_alloy")
     .components([
         <material:vibrant_alloy> * 1,
         <material:emerald> * 1,
+        <material:platinum> * 1,
         <material:gold> * 1
     ])
     .build();

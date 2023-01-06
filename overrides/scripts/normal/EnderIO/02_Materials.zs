@@ -504,6 +504,7 @@ macerator.recipeBuilder()
     .EUt(2)
     .buildAndRegister();
 mixer.recipeBuilder()
+    .circuit(2)
     .inputs([
         <ore:itemVibrantPowder>,
         <metaitem:dustPlatinum>
@@ -521,6 +522,7 @@ macerator.recipeBuilder()
     .EUt(2)
     .buildAndRegister();
 mixer.recipeBuilder()
+    .circuit(2)
     .inputs([
         <metaitem:dustVibrantAlloy>,
         <metaitem:dustEmerald>
@@ -538,6 +540,7 @@ macerator.recipeBuilder()
     .EUt(2)
     .buildAndRegister();
 mixer.recipeBuilder()
+    .circuit(2)
     .inputs([
         <metaitem:dustPulsatingIron>,
         <metaitem:dustDiamond>
@@ -555,6 +558,7 @@ macerator.recipeBuilder()
     .EUt(2)
     .buildAndRegister();
 mixer.recipeBuilder()
+    .circuit(2)
     .inputs([
         <ore:itemVibrantPowder>,
         <metaitem:dustEndSteel>
@@ -831,10 +835,12 @@ JEI.hide(<enderio:item_owl_egg>);
 # Crystalline Alloy
 mixer.recipeBuilder()
     .inputs([
-        <metaitem:dustGold>,
-        <ore:itemPrecientPowder>
+        <metaitem:dustVibrantAlloy>,
+        <metaitem:dustEmerald>,
+        <metaitem:dustPlatinum>,
+        <metaitem:dustGold>
     ])
-    .outputs([<metaitem:dustCrystallineAlloy> * 2])
+    .outputs([<metaitem:dustCrystallineAlloy> * 4])
     .duration(40)
     .EUt(1920)
     .buildAndRegister();
