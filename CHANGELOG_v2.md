@@ -1,3 +1,38 @@
+# v2.0.3
+## Fix recipe
+### AE2
+* Quartz Glass
+* P2P
+* 16k Fluid Component(EU/t only)
+
+### AE Additions
+* Fluid Assembler
+
+### AE2 Fluid Crafting Rework
+* Fluid Assembler
+
+## New mods
+* JEI Utilities
+
+## Move mods
+* AI Improvements -> Universal Tweaks
+* AttributeFix -> Universal Tweaks
+* Fast Leaf Decay -> Universal Tweaks
+* Surge -> Universal Tweaks
+* Ding -> Universal Tweaks
+* Swing Through Grass -> Universal Tweaks
+* JustEnoughIDs -> RoughlyEnoughIDs
+
+## Update mods
+* AE2 Unofficial Extended Life
+* AE2 Fluid Crafting Rework
+* GregTech CE: Unofficial
+* PackagedAuto
+* LoliASM
+* Had Enough Items
+
+* * *
+
 # v2.0.2
 ## Bugfix recipes
 ### AE2

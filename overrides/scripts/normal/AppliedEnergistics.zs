@@ -769,7 +769,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:stainless_steel> * 144)
     .outputs([<appliedenergistics2:material:56>])
     .duration(200)
-    .EUt(480)
+    .EUt(7680)
     .buildAndRegister();
 assembler.recipeBuilder()
     .inputs([
