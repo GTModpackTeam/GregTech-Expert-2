@@ -1,10 +1,9 @@
 # v2.0.3
-
 ## Fix recipe
 ### AE2
 * Quartz Glass
 * P2P
-* 16k Fluid Component(EU/t misconfigured)
+* 16k Fluid Component(EU/t only)
 
 ### AE Additions
 * Fluid Assembler
