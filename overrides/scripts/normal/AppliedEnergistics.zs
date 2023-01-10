@@ -1412,6 +1412,12 @@ recipes.addShaped(<appliedenergistics2:part:36>, [
     [<ore:ae2.cable.glass>, <ore:ae2.cable.glass>, <ore:ae2.cable.glass>],
     [<metaitem:plateRubber>, <metaitem:plateRubber>, <metaitem:plateRubber>]
 ]);
+packer.recipeBuilder()
+    .inputs([<appliedenergistics2:part:516> * 4])
+    .outputs([<appliedenergistics2:part:36>])
+    .duration(10)
+    .EUt(480)
+    .buildAndRegister();
 assembler.recipeBuilder()
     .circuit(1)
     .inputs([<appliedenergistics2:part:16> * 3])
@@ -1466,6 +1472,12 @@ recipes.addShaped(<appliedenergistics2:part:56>, [
     [<minecraft:glowstone_dust>, <appliedenergistics2:part:36>, <minecraft:glowstone_dust>],
     [null, <minecraft:redstone>, null]
 ]);
+packer.recipeBuilder()
+    .inputs([<appliedenergistics2:part:76>])
+    .outputs([<appliedenergistics2:part:56> * 4])
+    .duration(10)
+    .EUt(480)
+    .buildAndRegister();
 assembler.recipeBuilder()
     .circuit(2)
     .inputs([
@@ -1534,11 +1546,10 @@ for i in 0 .. 16 {
 # Dense Covered Cable
 recipes.removeByRecipeName("appliedenergistics2:network/cables/dense_covered_fluix");
 recipes.removeByRecipeName("appliedenergistics2:network/cables/dense_covered_fluix_clean");
-assembler.recipeBuilder()
-    .circuit(3)
+packer.recipeBuilder()
     .inputs([<appliedenergistics2:part:36> * 4])
     .outputs([<appliedenergistics2:part:516>])
-    .duration(20)
+    .duration(10)
     .EUt(480)
     .buildAndRegister();
 assembler.recipeBuilder()
@@ -1595,11 +1606,10 @@ recipes.addShaped(<appliedenergistics2:part:76>, [
     [<minecraft:glowstone_dust>, <appliedenergistics2:part:516>, <minecraft:glowstone_dust>],
     [null, <minecraft:redstone>, null]
 ]);
-assembler.recipeBuilder()
-    .circuit(4)
+packer.recipeBuilder()
     .inputs([<appliedenergistics2:part:56> * 4])
     .outputs([<appliedenergistics2:part:76>])
-    .duration(20)
+    .duration(10)
     .EUt(480)
     .buildAndRegister();
 assembler.recipeBuilder()
