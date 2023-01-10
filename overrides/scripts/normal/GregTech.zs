@@ -113,10 +113,10 @@ extractor.recipeBuilder()
 # Items
 ########################################
 # Tiny Pile of Ashes (Bookshelf Override)
-arc_furnace.findRecipe(30, [<minecraft:bookshelf:0>], [<liquid:oxygen>]).remove();
+arc_furnace.findRecipe(30, [<minecraft:bookshelf:0>], [<liquid:oxygen> * 21]).remove();
 arc_furnace.recipeBuilder()
     .inputs([<ore:bookshelf>])
-    .fluidInputs([<liquid:oxygen>])
+    .fluidInputs([<liquid:oxygen> * 21])
     .outputs([<metaitem:dustTinyAsh> * 16])
     .duration(1)
     .EUt(30)
@@ -692,6 +692,14 @@ lathe.recipeBuilder()
 ########################################
 # Blocks
 ########################################
+# Enchanting Table (Override)
+recipes.remove(<minecraft:enchanting_table>);
+recipes.addShaped(<minecraft:enchanting_table>, [
+    [<minecraft:diamond>, <minecraft:carpet:14>, <minecraft:diamond>],
+    [<metaitem:plateObsidian>, <ore:bookshelf>, <metaitem:plateObsidian>],
+    [<minecraft:diamond>, <metaitem:plateObsidian>, <minecraft:diamond>]
+]);
+
 # Crafting Station
 assembler.recipeBuilder()
     .circuit(1)
