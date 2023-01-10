@@ -692,6 +692,14 @@ lathe.recipeBuilder()
 ########################################
 # Blocks
 ########################################
+# Enchanting Table (Override)
+recipes.remove(<minecraft:enchanting_table>);
+recipes.addShaped(<minecraft:enchanting_table>, [
+    [<minecraft:diamond>, <minecraft:carpet:14>, <minecraft:diamond>],
+    [<metaitem:plateObsidian>, <ore:bookshelf>, <metaitem:plateObsidian>],
+    [<minecraft:diamond>, <metaitem:plateObsidian>, <minecraft:diamond>]
+]);
+
 # Crafting Station
 assembler.recipeBuilder()
     .circuit(1)
