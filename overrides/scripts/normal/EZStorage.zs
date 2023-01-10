@@ -8,7 +8,7 @@
 # Blank Box
 recipes.remove(<ezstorage:blank_box>);
 recipes.addShaped(<ezstorage:blank_box>, [
-    [<ore:logWood>, <ore:gtce.tool.hard.hammers>, <ore:logWood>],
+    [<ore:logWood>, <ore:gtce.tool.hammer>, <ore:logWood>],
     [<metaitem:plateBronze>, <ore:logWood>, <metaitem:plateBronze>],
     [<ore:logWood>, <metaitem:plateBronze>, <ore:logWood>]
 ]);
@@ -26,7 +26,7 @@ assembler.recipeBuilder()
 # Storage Core
 recipes.remove(<ezstorage:storage_core>);
 recipes.addShaped(<ezstorage:storage_core>, [
-    [<ore:logWood>, <ore:gtce.tool.hard.hammers>, <ore:logWood>],
+    [<ore:logWood>, <ore:gtce.tool.hammer>, <ore:logWood>],
     [<metaitem:plateIron>, <ezstorage:storage_box>, <metaitem:plateIron>],
     [<ore:logWood>, <metaitem:plateIron>, <ore:logWood>]
 ]);
@@ -45,7 +45,7 @@ assembler.recipeBuilder()
 # Storage Box
 recipes.remove(<ezstorage:storage_box>);
 recipes.addShaped(<ezstorage:storage_box>, [
-    [<ore:logWood>, <ore:gtce.tool.hard.hammers>, <ore:logWood>],
+    [<ore:logWood>, <ore:gtce.tool.hammer>, <ore:logWood>],
     [<ezstorage:blank_box>, <metaitem:crate.wood>, <ezstorage:blank_box>],
     [<ore:logWood>, <ezstorage:blank_box>, <ore:logWood>]
 ]);
@@ -64,7 +64,7 @@ assembler.recipeBuilder()
 # Condensed Storage Box
 recipes.remove(<ezstorage:condensed_storage_box>);
 recipes.addShaped(<ezstorage:condensed_storage_box>, [
-    [<metaitem:plateIron>, <ore:gtce.tool.hard.hammers>, <metaitem:plateIron>],
+    [<metaitem:plateIron>, <ore:gtce.tool.hammer>, <metaitem:plateIron>],
     [<metaitem:plateIron>, <metaitem:crate.bronze>, <metaitem:plateIron>],
     [<metaitem:plateIron>, <ezstorage:storage_box>, <metaitem:plateIron>]
 ]);
@@ -83,7 +83,7 @@ assembler.recipeBuilder()
 # Super Storage Box
 recipes.remove(<ezstorage:super_storage_box>);
 recipes.addShaped(<ezstorage:super_storage_box>, [
-    [<metaitem:plateGold>, <ore:gtce.tool.hard.hammers>, <metaitem:plateGold>],
+    [<metaitem:plateGold>, <ore:gtce.tool.hammer>, <metaitem:plateGold>],
     [<metaitem:plateGold>, <metaitem:crate.steel>, <metaitem:plateGold>],
     [<metaitem:plateGold>, <ezstorage:condensed_storage_box>, <metaitem:plateGold>]
 ]);
@@ -102,7 +102,7 @@ assembler.recipeBuilder()
 # Ultra Storage Box
 recipes.remove(<ezstorage:ultra_storage_box>);
 recipes.addShaped(<ezstorage:ultra_storage_box>, [
-    [<metaitem:plateAluminium>, <ore:gtce.tool.hard.hammers>, <metaitem:plateAluminium>],
+    [<metaitem:plateAluminium>, <ore:gtce.tool.hammer>, <metaitem:plateAluminium>],
     [<metaitem:plateAluminium>, <metaitem:crate.aluminium>, <metaitem:plateAluminium>],
     [<metaitem:plateAluminium>, <ezstorage:super_storage_box>, <metaitem:plateAluminium>]
 ]);
@@ -121,7 +121,7 @@ assembler.recipeBuilder()
 # Hyper Storage Box
 recipes.remove(<ezstorage:hyper_storage_box>);
 recipes.addShaped(<ezstorage:hyper_storage_box>, [
-    [<metaitem:plateStainlessSteel>, <ore:gtce.tool.hard.hammers>, <metaitem:plateStainlessSteel>],
+    [<metaitem:plateStainlessSteel>, <ore:gtce.tool.hammer>, <metaitem:plateStainlessSteel>],
     [<metaitem:plateStainlessSteel>, <metaitem:crate.stainless_steel>, <metaitem:plateStainlessSteel>],
     [<metaitem:plateStainlessSteel>, <ezstorage:ultra_storage_box>, <metaitem:plateStainlessSteel>]
 ]);
@@ -140,7 +140,7 @@ assembler.recipeBuilder()
 # Input Port
 recipes.remove(<ezstorage:input_port>);
 recipes.addShaped(<ezstorage:input_port>, [
-    [<metaitem:plateSteel>, <ore:gtce.tool.wrenches>, <metaitem:plateSteel>],
+    [<metaitem:plateSteel>, <ore:gtce.tool.wrench>, <metaitem:plateSteel>],
     [<minecraft:hopper>, <ezstorage:storage_core>, <minecraft:hopper>],
     [<metaitem:plateSteel>, <ore:craftingPiston>, <metaitem:plateSteel>]
 ]);
@@ -161,7 +161,7 @@ recipes.remove(<ezstorage:output_port>);
 recipes.addShaped(<ezstorage:output_port>, [
     [<metaitem:plateSteel>, <minecraft:dropper>, <metaitem:plateSteel>],
     [<minecraft:dropper>, <ezstorage:input_port>, <minecraft:dropper>],
-    [<metaitem:plateSteel>, <ore:gtce.tool.wrenches>, <metaitem:plateSteel>]
+    [<metaitem:plateSteel>, <ore:gtce.tool.wrench>, <metaitem:plateSteel>]
 ]);
 assembler.recipeBuilder()
     .circuit(1)
@@ -198,14 +198,14 @@ assembler.recipeBuilder()
 # Crafting Box
 recipes.remove(<ezstorage:crafting_box>);
 recipes.addShaped(<ezstorage:crafting_box>, [
-    [<metaitem:plateSteel>, <ore:gtce.tool.hard.hammers>, <metaitem:plateSteel>],
+    [<metaitem:plateSteel>, <ore:gtce.tool.hammer>, <metaitem:plateSteel>],
     [<metaitem:cover.crafting>, <ezstorage:blank_box>, <metaitem:cover.crafting>],
-    [<metaitem:plateSteel>, <ore:gtce.tool.wrenches>, <metaitem:plateSteel>]
+    [<metaitem:plateSteel>, <ore:gtce.tool.wrench>, <metaitem:plateSteel>]
 ]);
 recipes.addShaped(<ezstorage:crafting_box>, [
-    [<metaitem:plateSteel>, <ore:gtce.tool.wrenches>, <metaitem:plateSteel>],
+    [<metaitem:plateSteel>, <ore:gtce.tool.wrench>, <metaitem:plateSteel>],
     [<metaitem:cover.crafting>, <ezstorage:blank_box>, <metaitem:cover.crafting>],
-    [<metaitem:plateSteel>, <ore:gtce.tool.hard.hammers>, <metaitem:plateSteel>]
+    [<metaitem:plateSteel>, <ore:gtce.tool.hammer>, <metaitem:plateSteel>]
 ]);
 assembler.recipeBuilder()
     .circuit(1)
@@ -222,14 +222,14 @@ assembler.recipeBuilder()
 # Search Box
 recipes.remove(<ezstorage:search_box>);
 recipes.addShaped(<ezstorage:search_box>, [
-    [<metaitem:plateSteel>, <ore:gtce.tool.wrenches>, <metaitem:plateSteel>],
+    [<metaitem:plateSteel>, <ore:gtce.tool.wrench>, <metaitem:plateSteel>],
     [<minecraft:compass>, <ezstorage:blank_box>, <minecraft:compass>],
-    [<metaitem:plateSteel>, <ore:gtce.tool.hard.hammers>, <metaitem:plateSteel>]
+    [<metaitem:plateSteel>, <ore:gtce.tool.hammer>, <metaitem:plateSteel>]
 ]);
 recipes.addShaped(<ezstorage:search_box>, [
-    [<metaitem:plateSteel>, <ore:gtce.tool.hard.hammers>, <metaitem:plateSteel>],
+    [<metaitem:plateSteel>, <ore:gtce.tool.hammer>, <metaitem:plateSteel>],
     [<minecraft:compass>, <ezstorage:blank_box>, <minecraft:compass>],
-    [<metaitem:plateSteel>, <ore:gtce.tool.wrenches>, <metaitem:plateSteel>]
+    [<metaitem:plateSteel>, <ore:gtce.tool.wrench>, <metaitem:plateSteel>]
 ]);
 assembler.recipeBuilder()
     .circuit(1)
