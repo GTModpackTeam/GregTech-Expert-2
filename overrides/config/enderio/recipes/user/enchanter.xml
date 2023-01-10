@@ -316,7 +316,7 @@
     </recipe>
     <recipe name="Enchanter: gregtech:hard_hammer" required="true" disabled="false">
         <enchanting>
-            <input name="toolHeadHammerDiamond" amount="1"/>
+            <input name="toolHeadDrillDiamond" amount="1"/>
             <enchantment name="gregtech:hard_hammer" costMultiplier="1"/>
         </enchanting>
     </recipe>

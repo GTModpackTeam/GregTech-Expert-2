@@ -40,7 +40,7 @@ recipes.addShaped(<enderio:item_conduit_probe>, [
 
 # Yeta Wrench
 recipes.addShaped(<enderio:item_yeta_wrench>, [
-    [<metaitem:plateElectricalSteel>, <ore:gtce.tool.hard.hammers>, <metaitem:plateElectricalSteel>],
+    [<metaitem:plateElectricalSteel>, <ore:gtce.tool.hammer>, <metaitem:plateElectricalSteel>],
     [<metaitem:plateElectricalSteel>, <metaitem:plateElectricalSteel>, <metaitem:plateElectricalSteel>],
     [null, <metaitem:plateElectricalSteel>, null]
 ]);
@@ -257,22 +257,22 @@ recipes.addShaped(<enderio:item_soul_vial>, [
 recipes.addShaped(<enderio:item_dark_steel_helmet>, [
     [null, null, null],
     [<metaitem:plateDarkSteel>, <metaitem:plateDarkSteel>, <metaitem:plateDarkSteel>],
-    [<metaitem:plateDarkSteel>, <ore:gtce.tool.hard.hammers>, <metaitem:plateDarkSteel>]
+    [<metaitem:plateDarkSteel>, <ore:gtce.tool.hammer>, <metaitem:plateDarkSteel>]
 ]);
 recipes.addShaped(<enderio:item_dark_steel_chestplate>, [
-    [<metaitem:plateDarkSteel>, <ore:gtce.tool.hard.hammers>, <metaitem:plateDarkSteel>],
+    [<metaitem:plateDarkSteel>, <ore:gtce.tool.hammer>, <metaitem:plateDarkSteel>],
     [<metaitem:plateDarkSteel>, <metaitem:plateDarkSteel>, <metaitem:plateDarkSteel>],
     [<metaitem:plateDarkSteel>, <metaitem:plateDarkSteel>, <metaitem:plateDarkSteel>]
 ]);
 recipes.addShaped(<enderio:item_dark_steel_leggings>, [
     [<metaitem:plateDarkSteel>, <metaitem:plateDarkSteel>, <metaitem:plateDarkSteel>],
-    [<metaitem:plateDarkSteel>, <ore:gtce.tool.hard.hammers>, <metaitem:plateDarkSteel>],
+    [<metaitem:plateDarkSteel>, <ore:gtce.tool.hammer>, <metaitem:plateDarkSteel>],
     [<metaitem:plateDarkSteel>, null, <metaitem:plateDarkSteel>]
 ]);
 recipes.addShaped(<enderio:item_dark_steel_boots>, [
     [null, null, null],
     [<metaitem:plateDarkSteel>, null, <metaitem:plateDarkSteel>],
-    [<metaitem:plateDarkSteel>, <ore:gtce.tool.hard.hammers>, <metaitem:plateDarkSteel>]
+    [<metaitem:plateDarkSteel>, <ore:gtce.tool.hammer>, <metaitem:plateDarkSteel>]
 ]);
 
 # Dark Shield
@@ -285,99 +285,99 @@ recipes.addShaped(<enderio:item_dark_steel_shield>, [
 # The Ender
 recipes.addShaped(<enderio:item_dark_steel_sword>, [
     [null, <metaitem:plateDarkSteel>, null],
-    [<ore:gtce.tool.files>, <metaitem:plateDarkSteel>, <ore:gtce.tool.hard.hammers>],
+    [<ore:gtce.tool.file>, <metaitem:plateDarkSteel>, <ore:gtce.tool.hammer>],
     [null, <metaitem:stickDarkSteel>, null]
 ]);
 
 # Dark Pickaxe
 recipes.addShaped(<enderio:item_dark_steel_pickaxe>, [
     [<metaitem:plateDarkSteel>, <metaitem:ingotDarkSteel>, <metaitem:ingotDarkSteel>],
-    [<ore:gtce.tool.files>, <metaitem:stickDarkSteel>, <ore:gtce.tool.hard.hammers>],
+    [<ore:gtce.tool.file>, <metaitem:stickDarkSteel>, <ore:gtce.tool.hammer>],
     [null, <metaitem:stickDarkSteel>, null]
 ]);
 
 # Dark Axe
 recipes.addShaped(<enderio:item_dark_steel_axe>, [
-    [<metaitem:plateDarkSteel>, <metaitem:ingotDarkSteel>, <ore:gtce.tool.hard.hammers>],
+    [<metaitem:plateDarkSteel>, <metaitem:ingotDarkSteel>, <ore:gtce.tool.hammer>],
     [<metaitem:plateDarkSteel>, <metaitem:stickDarkSteel>, null],
-    [<ore:gtce.tool.files>, <metaitem:stickDarkSteel>, null]
+    [<ore:gtce.tool.file>, <metaitem:stickDarkSteel>, null]
 ]);
 
 # Dark Bow
 recipes.addShaped(<enderio:item_dark_steel_bow>, [
-    [<ore:gtce.tool.hard.hammers>, <metaitem:stickLongDarkSteel>, <ore:string>],
+    [<ore:gtce.tool.hammer>, <metaitem:stickLongDarkSteel>, <ore:string>],
     [<metaitem:stickLongDarkSteel>, <metaitem:ringDarkSteel>, <ore:string>],
-    [<ore:gtce.tool.files>, <metaitem:stickLongDarkSteel>, <ore:string>]
+    [<ore:gtce.tool.file>, <metaitem:stickLongDarkSteel>, <ore:string>]
 ]);
 
 # Dark Shears
 recipes.addShaped(<enderio:item_dark_steel_shears>, [
     [<metaitem:plateDarkSteel>, <metaitem:screwDarkSteel>, <metaitem:plateDarkSteel>],
-    [<ore:gtce.tool.hard.hammers>, <metaitem:ringDarkSteel>, <ore:gtce.tool.files>],
-    [<metaitem:stickDarkSteel>, <ore:gtce.tool.screwdrivers>, <metaitem:stickDarkSteel>]
+    [<ore:gtce.tool.hammer>, <metaitem:ringDarkSteel>, <ore:gtce.tool.file>],
+    [<metaitem:stickDarkSteel>, <ore:gtce.tool.screwdriver>, <metaitem:stickDarkSteel>]
 ]);
 
 # Dark Crook
 recipes.addShaped(<enderio:item_dark_steel_crook>, [
     [<metaitem:plateDarkSteel>, <metaitem:plateDarkSteel>, <metaitem:stickLongDarkSteel>],
-    [<ore:gtce.tool.screwdrivers>, <ore:gtce.tool.hard.hammers>, <metaitem:stickLongDarkSteel>],
-    [null, <ore:gtce.tool.files>, <metaitem:stickLongDarkSteel>]
+    [<ore:gtce.tool.screwdriver>, <ore:gtce.tool.hammer>, <metaitem:stickLongDarkSteel>],
+    [null, <ore:gtce.tool.file>, <metaitem:stickLongDarkSteel>]
 ]);
 
 # Dark Backhoe
 recipes.addShaped(<enderio:item_dark_steel_hand>, [
     [<metaitem:plateDarkSteel>, <metaitem:plateDarkSteel>, <metaitem:plateDarkSteel>],
     [<metaitem:plateDarkSteel>, <minecraft:diamond_hoe>, <metaitem:plateDarkSteel>],
-    [<ore:gtce.tool.screwdrivers>, <ore:gtce.tool.hard.hammers>, <ore:gtce.tool.files>]
+    [<ore:gtce.tool.screwdriver>, <ore:gtce.tool.hammer>, <ore:gtce.tool.file>]
 ]);
 
 # The Ender Mk2
 recipes.addShaped(<enderio:item_end_steel_sword>, [
     [null, <metaitem:plateEndSteel>, null],
-    [<ore:gtce.tool.files>, <metaitem:plateEndSteel>, <ore:gtce.tool.hard.hammers>],
+    [<ore:gtce.tool.file>, <metaitem:plateEndSteel>, <ore:gtce.tool.hammer>],
     [null, <metaitem:stickEndSteel>, null]
 ]);
 
 # Ender Pickaxe
 recipes.addShaped(<enderio:item_end_steel_pickaxe>, [
     [<metaitem:plateEndSteel>, <metaitem:ingotEndSteel>, <metaitem:ingotEndSteel>],
-    [<ore:gtce.tool.files>, <metaitem:stickEndSteel>, <ore:gtce.tool.hard.hammers>],
+    [<ore:gtce.tool.file>, <metaitem:stickEndSteel>, <ore:gtce.tool.hammer>],
     [null, <metaitem:stickEndSteel>, null]
 ]);
 
 # Ender Axe
 recipes.addShaped(<enderio:item_end_steel_axe>, [
-    [<metaitem:plateEndSteel>, <metaitem:ingotEndSteel>, <ore:gtce.tool.hard.hammers>],
+    [<metaitem:plateEndSteel>, <metaitem:ingotEndSteel>, <ore:gtce.tool.hammer>],
     [<metaitem:plateEndSteel>, <metaitem:stickEndSteel>, null],
-    [<ore:gtce.tool.files>, <metaitem:stickEndSteel>, null]
+    [<ore:gtce.tool.file>, <metaitem:stickEndSteel>, null]
 ]);
 
 # Ender Bow
 recipes.addShaped(<enderio:item_end_steel_bow>, [
-    [<ore:gtce.tool.hard.hammers>, <metaitem:stickLongEndSteel>, <ore:string>],
+    [<ore:gtce.tool.hammer>, <metaitem:stickLongEndSteel>, <ore:string>],
     [<metaitem:stickLongEndSteel>, <metaitem:ringEndSteel>, <ore:string>],
-    [<ore:gtce.tool.files>, <metaitem:stickLongEndSteel>, <ore:string>]
+    [<ore:gtce.tool.file>, <metaitem:stickLongEndSteel>, <ore:string>]
 ]);
 
 # Ender Armors
 recipes.addShaped(<enderio:item_end_steel_helmet>, [
     [<metaitem:plateEndSteel>, <metaitem:plateEndSteel>, <metaitem:plateEndSteel>],
-    [<metaitem:plateEndSteel>, <ore:gtce.tool.hard.hammers>, <metaitem:plateEndSteel>],
+    [<metaitem:plateEndSteel>, <ore:gtce.tool.hammer>, <metaitem:plateEndSteel>],
     [null, <ore:skullGuardianDiode>, null],
 ]);
 recipes.addShaped(<enderio:item_end_steel_chestplate>, [
-    [<metaitem:plateEndSteel>, <ore:gtce.tool.hard.hammers>, <metaitem:plateEndSteel>],
+    [<metaitem:plateEndSteel>, <ore:gtce.tool.hammer>, <metaitem:plateEndSteel>],
     [<metaitem:plateEndSteel>, <ore:skullGuardianDiode>, <metaitem:plateEndSteel>],
     [<metaitem:plateEndSteel>, <metaitem:plateEndSteel>, <metaitem:plateEndSteel>]
 ]);
 recipes.addShaped(<enderio:item_end_steel_leggings>, [
     [<metaitem:plateEndSteel>, <metaitem:plateEndSteel>, <metaitem:plateEndSteel>],
-    [<metaitem:plateEndSteel>, <ore:gtce.tool.hard.hammers>, <metaitem:plateEndSteel>],
+    [<metaitem:plateEndSteel>, <ore:gtce.tool.hammer>, <metaitem:plateEndSteel>],
     [<metaitem:plateEndSteel>, <ore:skullGuardianDiode>, <metaitem:plateEndSteel>]
 ]);
 recipes.addShaped(<enderio:item_end_steel_boots>, [
     [<metaitem:plateEndSteel>, <ore:skullGuardianDiode>, <metaitem:plateEndSteel>],
-    [<metaitem:plateEndSteel>, <ore:gtce.tool.hard.hammers>, <metaitem:plateEndSteel>],
+    [<metaitem:plateEndSteel>, <ore:gtce.tool.hammer>, <metaitem:plateEndSteel>],
     [null, null, null],
 ]);
 
@@ -398,43 +398,43 @@ recipes.addShaped(<enderio:item_staff_of_levity>, [
 # The Ender Mark IV
 recipes.addShaped(<enderio:item_stellar_alloy_sword>, [
     [null, <ore:skullSentientEnder>, null],
-    [<ore:gtce.tool.files>, <metaitem:plateStellarAlloy>, <ore:gtce.tool.hard.hammers>],
+    [<ore:gtce.tool.file>, <metaitem:plateStellarAlloy>, <ore:gtce.tool.hammer>],
     [null, <metaitem:stickStellarAlloy>, null]
 ]);
 
 # Stellar Pickaxe
 recipes.addShaped(<enderio:item_stellar_alloy_pickaxe>, [
     [<metaitem:plateStellarAlloy>, <metaitem:ingotStellarAlloy>, <metaitem:ingotStellarAlloy>],
-    [<ore:gtce.tool.files>, <ore:skullSentientEnder>, <ore:gtce.tool.hard.hammers>],
+    [<ore:gtce.tool.file>, <ore:skullSentientEnder>, <ore:gtce.tool.hammer>],
     [null, <metaitem:stickStellarAlloy>, null]
 ]);
 
 # Stellar Axe
 recipes.addShaped(<enderio:item_stellar_alloy_axe>, [
-    [<metaitem:plateStellarAlloy>, <metaitem:ingotStellarAlloy>, <ore:gtce.tool.hard.hammers>],
+    [<metaitem:plateStellarAlloy>, <metaitem:ingotStellarAlloy>, <ore:gtce.tool.hammer>],
     [<metaitem:plateStellarAlloy>, <ore:skullSentientEnder>, null],
-    [<ore:gtce.tool.files>, <metaitem:stickStellarAlloy>, null]
+    [<ore:gtce.tool.file>, <metaitem:stickStellarAlloy>, null]
 ]);
 
 # Stellar Armors
 recipes.addShaped(<enderio:item_stellar_alloy_helmet>, [
     [<metaitem:plateStellarAlloy>, <metaitem:plateStellarAlloy>, <metaitem:plateStellarAlloy>],
-    [<metaitem:plateStellarAlloy>, <ore:gtce.tool.hard.hammers>, <metaitem:plateStellarAlloy>],
+    [<metaitem:plateStellarAlloy>, <ore:gtce.tool.hammer>, <metaitem:plateStellarAlloy>],
     [null, <ore:skullSentientEnder>, null]
 ]);
 recipes.addShaped(<enderio:item_stellar_alloy_chestplate>, [
-    [<metaitem:plateStellarAlloy>, <ore:gtce.tool.hard.hammers>, <metaitem:plateStellarAlloy>],
+    [<metaitem:plateStellarAlloy>, <ore:gtce.tool.hammer>, <metaitem:plateStellarAlloy>],
     [<metaitem:plateStellarAlloy>, <ore:skullSentientEnder>, <metaitem:plateStellarAlloy>],
     [<metaitem:plateStellarAlloy>, <metaitem:plateStellarAlloy>, <metaitem:plateStellarAlloy>]
 ]);
 recipes.addShaped(<enderio:item_stellar_alloy_leggings>, [
     [<metaitem:plateStellarAlloy>, <metaitem:plateStellarAlloy>, <metaitem:plateStellarAlloy>],
-    [<metaitem:plateStellarAlloy>, <ore:gtce.tool.hard.hammers>, <metaitem:plateStellarAlloy>],
+    [<metaitem:plateStellarAlloy>, <ore:gtce.tool.hammer>, <metaitem:plateStellarAlloy>],
     [<metaitem:plateStellarAlloy>, <ore:skullSentientEnder>, <metaitem:plateStellarAlloy>]
 ]);
 recipes.addShaped(<enderio:item_stellar_alloy_boots>, [
     [<metaitem:plateStellarAlloy>, <ore:skullSentientEnder>, <metaitem:plateStellarAlloy>],
-    [<metaitem:plateStellarAlloy>, <ore:gtce.tool.hard.hammers>, <metaitem:plateStellarAlloy>],
+    [<metaitem:plateStellarAlloy>, <ore:gtce.tool.hammer>, <metaitem:plateStellarAlloy>],
     [null, null, null]
 ]);
 

@@ -83,10 +83,10 @@ extractor.recipeBuilder()
 # Items
 ########################################
 # Tiny Pile of Ashes (Bookshelf Override)
-arc_furnace.findRecipe(30, [<minecraft:bookshelf:0>], [<liquid:oxygen>]).remove();
+arc_furnace.findRecipe(30, [<minecraft:bookshelf:0>], [<liquid:oxygen> * 21]).remove();
 arc_furnace.recipeBuilder()
     .inputs([<ore:bookshelf>])
-    .fluidInputs([<liquid:oxygen>])
+    .fluidInputs([<liquid:oxygen> * 21])
     .outputs([<metaitem:dustTinyAsh> * 16])
     .duration(1)
     .EUt(30)
@@ -107,13 +107,13 @@ macerator.recipeBuilder()
 # Red Alloy Dust
 recipes.addShaped(<metaitem:dustRedAlloy>, [
     [null, <metaitem:ingotRedAlloy>, null],
-    [null, <ore:gtce.tool.mortars>, null],
+    [null, <ore:gtce.tool.mortar>, null],
     [null, null, null]
 ]);
 
 # Stone Rod
 recipes.addShaped(<metaitem:stickStone>, [
-    [<ore:gtce.tool.files>, null, null],
+    [<ore:gtce.tool.file>, null, null],
     [null, <minecraft:stone>, null],
     [null, null, null]
 ]);
@@ -591,6 +591,14 @@ lathe.recipeBuilder()
 ########################################
 # Blocks
 ########################################
+# Enchanting Table (Override)
+recipes.remove(<minecraft:enchanting_table>);
+recipes.addShaped(<minecraft:enchanting_table>, [
+    [<minecraft:diamond>, <minecraft:carpet:14>, <minecraft:diamond>],
+    [<metaitem:plateObsidian>, <ore:bookshelf>, <metaitem:plateObsidian>],
+    [<minecraft:diamond>, <metaitem:plateObsidian>, <minecraft:diamond>]
+]);
+
 # Crafting Station
 assembler.recipeBuilder()
     .circuit(1)

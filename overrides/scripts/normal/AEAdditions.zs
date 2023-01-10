@@ -28,14 +28,14 @@ JEI.removeAndHide(<aeadditions:terminal.fluid.wireless>);
 # Advanced Storage Housing
 recipes.remove(<aeadditions:storage.casing>);
 recipes.addShaped(<aeadditions:storage.casing>, [
-    [<ore:gtce.tool.screwdrivers>, <metaitem:plateTungstenSteel>, <metaitem:screwTungstenSteel>],
+    [<ore:gtce.tool.screwdriver>, <metaitem:plateTungstenSteel>, <metaitem:screwTungstenSteel>],
     [<metaitem:plateTungstenSteel>, null, <metaitem:plateTungstenSteel>],
-    [<metaitem:screwTungstenSteel>, <metaitem:plateTungstenSteel>, <ore:gtce.tool.hard.hammers>]
+    [<metaitem:screwTungstenSteel>, <metaitem:plateTungstenSteel>, <ore:gtce.tool.hammer>]
 ]);
 recipes.addShaped(<aeadditions:storage.casing>, [
-    [<ore:gtce.tool.hard.hammers>, <metaitem:plateTungstenSteel>, <metaitem:screwTungstenSteel>],
+    [<ore:gtce.tool.hammer>, <metaitem:plateTungstenSteel>, <metaitem:screwTungstenSteel>],
     [<metaitem:plateTungstenSteel>, null, <metaitem:plateTungstenSteel>],
-    [<metaitem:screwTungstenSteel>, <metaitem:plateTungstenSteel>, <ore:gtce.tool.screwdrivers>]
+    [<metaitem:screwTungstenSteel>, <metaitem:plateTungstenSteel>, <ore:gtce.tool.screwdriver>]
 ]);
 assembler.recipeBuilder()
     .circuit(3)
@@ -51,14 +51,14 @@ assembler.recipeBuilder()
 # Fluid Housing
 recipes.remove(<aeadditions:storage.casing:1>);
 recipes.addShaped(<aeadditions:storage.casing:1>, [
-    [<ore:gtce.tool.screwdrivers>, <metaitem:plateStainlessSteel>, <metaitem:screwStainlessSteel>],
+    [<ore:gtce.tool.screwdriver>, <metaitem:plateStainlessSteel>, <metaitem:screwStainlessSteel>],
     [<metaitem:plateStainlessSteel>, null, <metaitem:plateStainlessSteel>],
-    [<metaitem:screwStainlessSteel>, <metaitem:plateStainlessSteel>, <ore:gtce.tool.hard.hammers>]
+    [<metaitem:screwStainlessSteel>, <metaitem:plateStainlessSteel>, <ore:gtce.tool.hammer>]
 ]);
 recipes.addShaped(<aeadditions:storage.casing:1>, [
-    [<ore:gtce.tool.hard.hammers>, <metaitem:plateStainlessSteel>, <metaitem:screwStainlessSteel>],
+    [<ore:gtce.tool.hammer>, <metaitem:plateStainlessSteel>, <metaitem:screwStainlessSteel>],
     [<metaitem:plateStainlessSteel>, null, <metaitem:plateStainlessSteel>],
-    [<metaitem:screwStainlessSteel>, <metaitem:plateStainlessSteel>, <ore:gtce.tool.screwdrivers>]
+    [<metaitem:screwStainlessSteel>, <metaitem:plateStainlessSteel>, <ore:gtce.tool.screwdriver>]
 ]);
 assembler.recipeBuilder()
     .circuit(3)
@@ -492,6 +492,7 @@ recipes.addShapeless(<aeadditions:fluidfiller>, [<appliedenergistics2:part:520>,
 recipes.remove(<aeadditions:fluidcrafter>);
 recipes.addShapeless(<aeadditions:fluidcrafter>, [<ae2fc:fluid_assembler>]);
 assembler.recipeBuilder()
+    .circuit(1)
     .inputs([
         <metaitem:plateGlass> * 2,
         <ore:circuitHv> * 2,

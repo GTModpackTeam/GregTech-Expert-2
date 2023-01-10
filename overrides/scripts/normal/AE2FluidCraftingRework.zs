@@ -18,6 +18,20 @@ JEI.removeAndHide(<ae2fc:large_ingredient_buffer>);
 # ME Fluid Assembler
 recipes.remove(<ae2fc:fluid_assembler>);
 recipes.addShapeless(<ae2fc:fluid_assembler>, [<aeadditions:fluidcrafter>]);
+assembler.recipeBuilder()
+    .circuit(2)
+    .inputs([
+        <metaitem:plateGlass> * 2,
+        <ore:circuitHv> * 2,
+        <metaitem:electric.pump.hv> * 2,
+        <metaitem:fluid.regulator.hv> * 2,
+        <metaitem:plateSteel> * 4
+    ])
+    .fluidInputs([<liquid:plastic> * 144])
+    .outputs([<ae2fc:fluid_assembler>])
+    .duration(200)
+    .EUt(480)
+    .buildAndRegister();
 
 # Fluid Packet Decoder
 recipes.remove(<ae2fc:fluid_packet_decoder>);
@@ -84,12 +98,12 @@ packer.recipeBuilder()
 # Fluid Pattrern Terminal
 recipes.remove(<ae2fc:part_fluid_pattern_terminal>);
 recipes.addShaped(<ae2fc:part_fluid_pattern_terminal>, [
-    [<ore:gtce.tool.screwdrivers>, <appliedenergistics2:part:380>, <ore:gtce.tool.soft.hammers>],
+    [<ore:gtce.tool.screwdriver>, <appliedenergistics2:part:380>, <ore:gtce.tool.mallet>],
     [<metaitem:screwStainlessSteel>, <appliedenergistics2:material:52>, <metaitem:screwStainlessSteel>],
     [<metaitem:plateStainlessSteel>, <appliedenergistics2:material:23>, <metaitem:plateStainlessSteel>]
 ]);
 recipes.addShaped(<ae2fc:part_fluid_pattern_terminal>, [
-    [<ore:gtce.tool.soft.hammers>, <appliedenergistics2:part:380>, <ore:gtce.tool.screwdrivers>],
+    [<ore:gtce.tool.mallet>, <appliedenergistics2:part:380>, <ore:gtce.tool.screwdriver>],
     [<metaitem:screwStainlessSteel>, <appliedenergistics2:material:52>, <metaitem:screwStainlessSteel>],
     [<metaitem:plateStainlessSteel>, <appliedenergistics2:material:23>, <metaitem:plateStainlessSteel>]
 ]);
@@ -109,12 +123,12 @@ assembler.recipeBuilder()
 # Extended Processing Fluid Pattrern Terminal
 recipes.remove(<ae2fc:part_fluid_pattern_ex_terminal>);
 recipes.addShaped(<ae2fc:part_fluid_pattern_ex_terminal>, [
-    [<ore:gtce.tool.screwdrivers>, <ae2fc:part_fluid_pattern_terminal>, <ore:gtce.tool.soft.hammers>],
+    [<ore:gtce.tool.screwdriver>, <ae2fc:part_fluid_pattern_terminal>, <ore:gtce.tool.mallet>],
     [<metaitem:screwStainlessSteel>, <appliedenergistics2:material:52>, <metaitem:screwStainlessSteel>],
     [<metaitem:plateStainlessSteel>, <appliedenergistics2:material:24>, <metaitem:plateStainlessSteel>]
 ]);
 recipes.addShaped(<ae2fc:part_fluid_pattern_ex_terminal>, [
-    [<ore:gtce.tool.soft.hammers>, <ae2fc:part_fluid_pattern_terminal>, <ore:gtce.tool.screwdrivers>],
+    [<ore:gtce.tool.mallet>, <ae2fc:part_fluid_pattern_terminal>, <ore:gtce.tool.screwdriver>],
     [<metaitem:screwStainlessSteel>, <appliedenergistics2:material:52>, <metaitem:screwStainlessSteel>],
     [<metaitem:plateStainlessSteel>, <appliedenergistics2:material:24>, <metaitem:plateStainlessSteel>]
 ]);
