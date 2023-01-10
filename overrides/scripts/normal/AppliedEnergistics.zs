@@ -358,14 +358,14 @@ recipes.addShaped(<appliedenergistics2:material:52> * 2, [
 # Storage Housing
 recipes.remove(<appliedenergistics2:material:39>);
 recipes.addShaped(<appliedenergistics2:material:39>, [
-    [<ore:gtce.tool.screwdrivers>, <metaitem:plateSteel>, <metaitem:screwSteel>],
+    [<ore:gtce.tool.screwdriver>, <metaitem:plateSteel>, <metaitem:screwSteel>],
     [<metaitem:plateSteel>, null, <metaitem:plateSteel>],
-    [<metaitem:screwSteel>, <metaitem:plateSteel>, <ore:gtce.tool.hard.hammers>]
+    [<metaitem:screwSteel>, <metaitem:plateSteel>, <ore:gtce.tool.hammer>]
 ]);
 recipes.addShaped(<appliedenergistics2:material:39>, [
-    [<ore:gtce.tool.hard.hammers>, <metaitem:plateSteel>, <metaitem:screwSteel>],
+    [<ore:gtce.tool.hammer>, <metaitem:plateSteel>, <metaitem:screwSteel>],
     [<metaitem:plateSteel>, null, <metaitem:plateSteel>],
-    [<metaitem:screwSteel>, <metaitem:plateSteel>, <ore:gtce.tool.screwdrivers>]
+    [<metaitem:screwSteel>, <metaitem:plateSteel>, <ore:gtce.tool.screwdriver>]
 ]);
 assembler.recipeBuilder()
     .circuit(3)
@@ -879,7 +879,7 @@ assembler.recipeBuilder()
 # Certus Quartz Cutting Knife
 recipes.remove(<appliedenergistics2:certus_quartz_cutting_knife>);
 recipes.addShaped(<appliedenergistics2:certus_quartz_cutting_knife>, [
-    [<ore:gtce.tool.files>, <metaitem:plateCertusQuartz>, <ore:gtce.tool.hard.hammers>],
+    [<ore:gtce.tool.file>, <metaitem:plateCertusQuartz>, <ore:gtce.tool.hammer>],
     [<ore:crystalCertusQuartz>, <minecraft:stick>, <ore:crystalCertusQuartz>],
     [null, <minecraft:stick>, null]
 ]);
@@ -887,7 +887,7 @@ recipes.addShaped(<appliedenergistics2:certus_quartz_cutting_knife>, [
 # Nether Quartz Cutting Knife
 recipes.remove(<appliedenergistics2:nether_quartz_cutting_knife>);
 recipes.addShaped(<appliedenergistics2:nether_quartz_cutting_knife>, [
-    [<ore:gtce.tool.files>, <metaitem:plateNetherQuartz>, <ore:gtce.tool.hard.hammers>],
+    [<ore:gtce.tool.file>, <metaitem:plateNetherQuartz>, <ore:gtce.tool.hammer>],
     [<ore:gemNetherQuartz>, <minecraft:stick>, <ore:gemNetherQuartz>],
     [null, <minecraft:stick>, null]
 ]);
@@ -895,7 +895,7 @@ recipes.addShaped(<appliedenergistics2:nether_quartz_cutting_knife>, [
 # Certus Quartz Wrench
 recipes.remove(<appliedenergistics2:certus_quartz_wrench>);
 recipes.addShaped(<appliedenergistics2:certus_quartz_wrench>, [
-    [<metaitem:plateCertusQuartz>, <ore:gtce.tool.hard.hammers>, <metaitem:plateCertusQuartz>],
+    [<metaitem:plateCertusQuartz>, <ore:gtce.tool.hammer>, <metaitem:plateCertusQuartz>],
     [<metaitem:plateCertusQuartz>, <metaitem:plateCertusQuartz>, <metaitem:plateCertusQuartz>],
     [null, <metaitem:plateCertusQuartz>, null]
 ]);
@@ -903,7 +903,7 @@ recipes.addShaped(<appliedenergistics2:certus_quartz_wrench>, [
 # Nether Quartz Wrench
 recipes.remove(<appliedenergistics2:nether_quartz_wrench>);
 recipes.addShaped(<appliedenergistics2:nether_quartz_wrench>, [
-    [<metaitem:plateNetherQuartz>, <ore:gtce.tool.hard.hammers>, <metaitem:plateNetherQuartz>],
+    [<metaitem:plateNetherQuartz>, <ore:gtce.tool.hammer>, <metaitem:plateNetherQuartz>],
     [<metaitem:plateNetherQuartz>, <metaitem:plateNetherQuartz>, <metaitem:plateNetherQuartz>],
     [null, <metaitem:plateNetherQuartz>, null]
 ]);
@@ -1068,12 +1068,12 @@ recipes.addShaped(<appliedenergistics2:material:42>, [
 # Annihilation Plane
 recipes.remove(<appliedenergistics2:part:300>);
 recipes.addShaped(<appliedenergistics2:part:300>, [
-    [<ore:gtce.tool.screwdrivers>, <metaitem:dustFluix>, <ore:gtce.tool.soft.hammers>],
+    [<ore:gtce.tool.screwdriver>, <metaitem:dustFluix>, <ore:gtce.tool.mallet>],
     [<metaitem:screwSteel>, <metaitem:dustFluix>, <metaitem:screwSteel>],
     [<metaitem:plateSteel>, <appliedenergistics2:material:44>, <metaitem:plateSteel>]
 ]);
 recipes.addShaped(<appliedenergistics2:part:300>, [
-    [<ore:gtce.tool.soft.hammers>, <metaitem:dustFluix>, <ore:gtce.tool.screwdrivers>],
+    [<ore:gtce.tool.mallet>, <metaitem:dustFluix>, <ore:gtce.tool.screwdriver>],
     [<metaitem:screwSteel>, <metaitem:dustFluix>, <metaitem:screwSteel>],
     [<metaitem:plateSteel>, <appliedenergistics2:material:44>, <metaitem:plateSteel>]
 ]);
@@ -1081,12 +1081,12 @@ recipes.addShaped(<appliedenergistics2:part:300>, [
 # Fulid Annihilation Plane
 recipes.remove(<appliedenergistics2:part:302>);
 recipes.addShaped(<appliedenergistics2:part:302>, [
-    [<ore:gtce.tool.screwdrivers>, <metaitem:dustLapis>, <ore:gtce.tool.soft.hammers>],
+    [<ore:gtce.tool.screwdriver>, <metaitem:dustLapis>, <ore:gtce.tool.mallet>],
     [<metaitem:screwStainlessSteel>, <metaitem:dustLapis>, <metaitem:screwSteel>],
     [<metaitem:plateStainlessSteel>, <appliedenergistics2:material:44>, <metaitem:plateStainlessSteel>]
 ]);
 recipes.addShaped(<appliedenergistics2:part:302>, [
-    [<ore:gtce.tool.soft.hammers>, <ore:gemLapis>, <ore:gtce.tool.screwdrivers>],
+    [<ore:gtce.tool.mallet>, <ore:gemLapis>, <ore:gtce.tool.screwdriver>],
     [<metaitem:screwStainlessSteel>, <ore:gemLapis>, <metaitem:screwStainlessSteel>],
     [<metaitem:plateStainlessSteel>, <appliedenergistics2:material:44>, <metaitem:plateStainlessSteel>]
 ]);
@@ -1094,12 +1094,12 @@ recipes.addShaped(<appliedenergistics2:part:302>, [
 # Formation Plane
 recipes.remove(<appliedenergistics2:part:320>);
 recipes.addShaped(<appliedenergistics2:part:320>, [
-    [<ore:gtce.tool.screwdrivers>, <metaitem:dustFluix>, <ore:gtce.tool.soft.hammers>],
+    [<ore:gtce.tool.screwdriver>, <metaitem:dustFluix>, <ore:gtce.tool.mallet>],
     [<metaitem:screwSteel>, <metaitem:dustFluix>, <metaitem:screwSteel>],
     [<metaitem:plateSteel>, <appliedenergistics2:material:43>, <metaitem:plateSteel>]
 ]);
 recipes.addShaped(<appliedenergistics2:part:320>, [
-    [<ore:gtce.tool.soft.hammers>, <metaitem:dustFluix>, <ore:gtce.tool.screwdrivers>],
+    [<ore:gtce.tool.mallet>, <metaitem:dustFluix>, <ore:gtce.tool.screwdriver>],
     [<metaitem:screwSteel>, <metaitem:dustFluix>, <metaitem:screwSteel>],
     [<metaitem:plateSteel>, <appliedenergistics2:material:43>, <metaitem:plateSteel>]
 ]);
@@ -1107,12 +1107,12 @@ recipes.addShaped(<appliedenergistics2:part:320>, [
 # Fulid Formation Plane
 recipes.remove(<appliedenergistics2:part:321>);
 recipes.addShaped(<appliedenergistics2:part:302>, [
-    [<ore:gtce.tool.screwdrivers>, <metaitem:dustLapis>, <ore:gtce.tool.soft.hammers>],
+    [<ore:gtce.tool.screwdriver>, <metaitem:dustLapis>, <ore:gtce.tool.mallet>],
     [<metaitem:screwStainlessSteel>, <metaitem:dustLapis>, <metaitem:screwSteel>],
     [<metaitem:plateStainlessSteel>, <appliedenergistics2:material:43>, <metaitem:plateStainlessSteel>]
 ]);
 recipes.addShaped(<appliedenergistics2:part:302>, [
-    [<ore:gtce.tool.soft.hammers>, <ore:gemLapis>, <ore:gtce.tool.screwdrivers>],
+    [<ore:gtce.tool.mallet>, <ore:gemLapis>, <ore:gtce.tool.screwdriver>],
     [<metaitem:screwStainlessSteel>, <ore:gemLapis>, <metaitem:screwStainlessSteel>],
     [<metaitem:plateStainlessSteel>, <appliedenergistics2:material:43>, <metaitem:plateStainlessSteel>]
 ]);
@@ -2156,14 +2156,14 @@ assembler.recipeBuilder()
 # ME Terminal
 recipes.remove(<appliedenergistics2:part:380>);
 recipes.addShaped(<appliedenergistics2:part:380>, [
-    [<metaitem:stickSteel>, <ore:gtce.tool.screwdrivers>, <metaitem:stickSteel>],
+    [<metaitem:stickSteel>, <ore:gtce.tool.screwdriver>, <metaitem:stickSteel>],
     [<appliedenergistics2:part:180>, <ore:circuitHv>, <metaitem:plateSteel>],
     [<metaitem:stickSteel>,  <metaitem:screwSteel>, <metaitem:stickSteel>]
 ]);
 recipes.addShaped(<appliedenergistics2:part:380>, [
     [<metaitem:stickSteel>, <metaitem:screwSteel>, <metaitem:stickSteel>],
     [<appliedenergistics2:part:180>, <ore:circuitHv>, <metaitem:plateSteel>],
-    [<metaitem:stickSteel>, <ore:gtce.tool.screwdrivers>, <metaitem:stickSteel>]
+    [<metaitem:stickSteel>, <ore:gtce.tool.screwdriver>, <metaitem:stickSteel>]
 ]);
 assembler.recipeBuilder()
     .inputs([
@@ -2181,14 +2181,14 @@ assembler.recipeBuilder()
 # ME Fluid Terminal
 recipes.remove(<appliedenergistics2:part:520>);
 recipes.addShaped(<appliedenergistics2:part:520>, [
-    [<metaitem:stickStainlessSteel>, <ore:gtce.tool.screwdrivers>, <metaitem:stickStainlessSteel>],
+    [<metaitem:stickStainlessSteel>, <ore:gtce.tool.screwdriver>, <metaitem:stickStainlessSteel>],
     [<appliedenergistics2:part:180>, <ore:circuitHv>, <metaitem:plateStainlessSteel>],
     [<metaitem:stickStainlessSteel>,  <metaitem:screwStainlessSteel>, <metaitem:stickStainlessSteel>]
 ]);
 recipes.addShaped(<appliedenergistics2:part:520>, [
     [<metaitem:stickStainlessSteel>, <metaitem:screwStainlessSteel>, <metaitem:stickStainlessSteel>],
     [<appliedenergistics2:part:180>, <ore:circuitHv>, <metaitem:plateStainlessSteel>],
-    [<metaitem:stickStainlessSteel>, <ore:gtce.tool.screwdrivers>, <metaitem:stickStainlessSteel>]
+    [<metaitem:stickStainlessSteel>, <ore:gtce.tool.screwdriver>, <metaitem:stickStainlessSteel>]
 ]);
 assembler.recipeBuilder()
     .inputs([
@@ -2206,12 +2206,12 @@ assembler.recipeBuilder()
 # ME Crafting Terminal
 recipes.remove(<appliedenergistics2:part:360>);
 recipes.addShaped(<appliedenergistics2:part:360>, [
-    [<ore:gtce.tool.screwdrivers>, <appliedenergistics2:part:380>, <ore:gtce.tool.soft.hammers>],
+    [<ore:gtce.tool.screwdriver>, <appliedenergistics2:part:380>, <ore:gtce.tool.mallet>],
     [<metaitem:screwSteel>, <metaitem:cover.crafting>, <metaitem:screwSteel>],
     [<metaitem:plateSteel>, <appliedenergistics2:material:22>, <metaitem:plateSteel>]
 ]);
 recipes.addShaped(<appliedenergistics2:part:360>, [
-    [<ore:gtce.tool.soft.hammers>, <appliedenergistics2:part:380>, <ore:gtce.tool.screwdrivers>],
+    [<ore:gtce.tool.mallet>, <appliedenergistics2:part:380>, <ore:gtce.tool.screwdriver>],
     [<metaitem:screwSteel>, <metaitem:cover.crafting>, <metaitem:screwSteel>],
     [<metaitem:plateSteel>, <appliedenergistics2:material:22>, <metaitem:plateSteel>]
 ]);
@@ -2231,12 +2231,12 @@ assembler.recipeBuilder()
 # ME Interface Terminal
 recipes.remove(<appliedenergistics2:part:480>);
 recipes.addShaped(<appliedenergistics2:part:480>, [
-    [<ore:gtce.tool.screwdrivers>, <appliedenergistics2:part:380>, <ore:gtce.tool.soft.hammers>],
+    [<ore:gtce.tool.screwdriver>, <appliedenergistics2:part:380>, <ore:gtce.tool.mallet>],
     [<metaitem:screwSteel>, <ore:ae2.interface.item>, <metaitem:screwSteel>],
     [<metaitem:plateSteel>, <appliedenergistics2:material:23>, <metaitem:plateSteel>]
 ]);
 recipes.addShaped(<appliedenergistics2:part:480>, [
-    [<ore:gtce.tool.soft.hammers>, <appliedenergistics2:part:380>, <ore:gtce.tool.screwdrivers>],
+    [<ore:gtce.tool.mallet>, <appliedenergistics2:part:380>, <ore:gtce.tool.screwdriver>],
     [<metaitem:screwSteel>, <ore:ae2.interface.item>, <metaitem:screwSteel>],
     [<metaitem:plateSteel>, <appliedenergistics2:material:23>, <metaitem:plateSteel>]
 ]);
@@ -2256,12 +2256,12 @@ assembler.recipeBuilder()
 # Configuration Interface Terminal
 recipes.remove(<appliedenergistics2:part:521>);
 recipes.addShaped(<appliedenergistics2:part:521>, [
-    [<ore:gtce.tool.screwdrivers>, <appliedenergistics2:part:380>, <ore:gtce.tool.soft.hammers>],
+    [<ore:gtce.tool.screwdriver>, <appliedenergistics2:part:380>, <ore:gtce.tool.mallet>],
     [<metaitem:screwSteel>, <ore:ae2.interface.item>, <metaitem:screwSteel>],
     [<metaitem:plateSteel>, <metaitem:matrix_core>, <metaitem:plateSteel>]
 ]);
 recipes.addShaped(<appliedenergistics2:part:521>, [
-    [<ore:gtce.tool.soft.hammers>, <appliedenergistics2:part:380>, <ore:gtce.tool.screwdrivers>],
+    [<ore:gtce.tool.mallet>, <appliedenergistics2:part:380>, <ore:gtce.tool.screwdriver>],
     [<metaitem:screwSteel>, <ore:ae2.interface.item>, <metaitem:screwSteel>],
     [<metaitem:plateSteel>, <metaitem:matrix_core>, <metaitem:plateSteel>]
 ]);
@@ -2281,12 +2281,12 @@ assembler.recipeBuilder()
 # Configuration Fluid Interface Terminal
 recipes.remove(<appliedenergistics2:part:522>);
 recipes.addShaped(<appliedenergistics2:part:522>, [
-    [<ore:gtce.tool.screwdrivers>, <appliedenergistics2:part:380>, <ore:gtce.tool.soft.hammers>],
+    [<ore:gtce.tool.screwdriver>, <appliedenergistics2:part:380>, <ore:gtce.tool.mallet>],
     [<metaitem:screwStainlessSteel>, <ore:ae2.interface.fluid>, <metaitem:screwStainlessSteel>],
     [<metaitem:plateStainlessSteel>, <metaitem:matrix_core>, <metaitem:plateStainlessSteel>]
 ]);
 recipes.addShaped(<appliedenergistics2:part:522>, [
-    [<ore:gtce.tool.soft.hammers>, <appliedenergistics2:part:380>, <ore:gtce.tool.screwdrivers>],
+    [<ore:gtce.tool.mallet>, <appliedenergistics2:part:380>, <ore:gtce.tool.screwdriver>],
     [<metaitem:screwStainlessSteel>, <ore:ae2.interface.fluid>, <metaitem:screwStainlessSteel>],
     [<metaitem:plateStainlessSteel>, <metaitem:matrix_core>, <metaitem:plateStainlessSteel>]
 ]);
@@ -2306,12 +2306,12 @@ assembler.recipeBuilder()
 # ME Pattrern Terminal
 recipes.remove(<appliedenergistics2:part:340>);
 recipes.addShaped(<appliedenergistics2:part:340>, [
-    [<ore:gtce.tool.screwdrivers>, <appliedenergistics2:part:380>, <ore:gtce.tool.soft.hammers>],
+    [<ore:gtce.tool.screwdriver>, <appliedenergistics2:part:380>, <ore:gtce.tool.mallet>],
     [<metaitem:screwSteel>, <appliedenergistics2:material:52>, <metaitem:screwSteel>],
     [<metaitem:plateSteel>, <appliedenergistics2:material:23>, <metaitem:plateSteel>]
 ]);
 recipes.addShaped(<appliedenergistics2:part:340>, [
-    [<ore:gtce.tool.soft.hammers>, <appliedenergistics2:part:380>, <ore:gtce.tool.screwdrivers>],
+    [<ore:gtce.tool.mallet>, <appliedenergistics2:part:380>, <ore:gtce.tool.screwdriver>],
     [<metaitem:screwSteel>, <appliedenergistics2:material:52>, <metaitem:screwSteel>],
     [<metaitem:plateSteel>, <appliedenergistics2:material:23>, <metaitem:plateSteel>]
 ]);
@@ -2331,12 +2331,12 @@ assembler.recipeBuilder()
 # ME Extended Processing Pattrern Terminal
 recipes.remove(<appliedenergistics2:part:341>);
 recipes.addShaped(<appliedenergistics2:part:341>, [
-    [<ore:gtce.tool.screwdrivers>, <appliedenergistics2:part:340>, <ore:gtce.tool.soft.hammers>],
+    [<ore:gtce.tool.screwdriver>, <appliedenergistics2:part:340>, <ore:gtce.tool.mallet>],
     [<metaitem:screwSteel>, <appliedenergistics2:material:52>, <metaitem:screwSteel>],
     [<metaitem:plateSteel>, <appliedenergistics2:material:24>, <metaitem:plateSteel>]
 ]);
 recipes.addShaped(<appliedenergistics2:part:341>, [
-    [<ore:gtce.tool.soft.hammers>, <appliedenergistics2:part:340>, <ore:gtce.tool.screwdrivers>],
+    [<ore:gtce.tool.mallet>, <appliedenergistics2:part:340>, <ore:gtce.tool.screwdriver>],
     [<metaitem:screwSteel>, <appliedenergistics2:material:52>, <metaitem:screwSteel>],
     [<metaitem:plateSteel>, <appliedenergistics2:material:24>, <metaitem:plateSteel>]
 ]);
@@ -2421,7 +2421,7 @@ assembler.recipeBuilder()
 # ME Storage Bus
 recipes.remove(<appliedenergistics2:part:220>);
 recipes.addShaped(<appliedenergistics2:part:220>, [
-    [<metaitem:plateSteel>, <ore:gtce.tool.soft.hammers>, <metaitem:plateSteel>],
+    [<metaitem:plateSteel>, <ore:gtce.tool.mallet>, <metaitem:plateSteel>],
     [<metaitem:conveyor.module.hv>, <ore:ae2.interface.item>, <metaitem:conveyor.module.hv>],
     [<metaitem:plateSteel>, <metaitem:item_filter>, <metaitem:plateSteel>]
 ]);
@@ -2441,7 +2441,7 @@ assembler.recipeBuilder()
 # ME Fluid Storage Bus
 recipes.remove(<appliedenergistics2:part:221>);
 recipes.addShaped(<appliedenergistics2:part:221>, [
-    [<metaitem:plateStainlessSteel>, <ore:gtce.tool.soft.hammers>, <metaitem:plateStainlessSteel>],
+    [<metaitem:plateStainlessSteel>, <ore:gtce.tool.mallet>, <metaitem:plateStainlessSteel>],
     [<metaitem:electric.pump.hv>, <ore:ae2.interface.fluid>, <metaitem:electric.pump.hv>],
     [<metaitem:plateStainlessSteel>, <metaitem:fluid_filter>, <metaitem:plateStainlessSteel>]
 ]);
@@ -2461,7 +2461,7 @@ assembler.recipeBuilder()
 # ME OreDict Storage Bus
 recipes.remove(<appliedenergistics2:part:222>);
 recipes.addShaped(<appliedenergistics2:part:222>, [
-    [<metaitem:plateTitanium>, <ore:gtce.tool.soft.hammers>, <metaitem:plateTitanium>],
+    [<metaitem:plateTitanium>, <ore:gtce.tool.mallet>, <metaitem:plateTitanium>],
     [<metaitem:conveyor.module.hv>, <ore:ae2.interface.item>, <metaitem:conveyor.module.hv>],
     [<metaitem:plateTitanium>, <metaitem:ore_dictionary_filter>, <metaitem:plateTitanium>]
 ]);

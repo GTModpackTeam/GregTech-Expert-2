@@ -137,13 +137,13 @@ macerator.recipeBuilder()
 # Red Alloy Dust
 recipes.addShaped(<metaitem:dustRedAlloy>, [
     [null, <metaitem:ingotRedAlloy>, null],
-    [null, <ore:gtce.tool.mortars>, null],
+    [null, <ore:gtce.tool.mortar>, null],
     [null, null, null]
 ]);
 
 # Stone Rod
 recipes.addShaped(<metaitem:stickStone>, [
-    [<ore:gtce.tool.files>, null, null],
+    [<ore:gtce.tool.file>, null, null],
     [null, <minecraft:stone>, null],
     [null, null, null]
 ]);

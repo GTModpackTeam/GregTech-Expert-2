@@ -32,9 +32,9 @@ alloy_smelter.recipeBuilder()
 
 # Dark Steel Ladder
 recipes.addShaped(<enderio:block_dark_steel_ladder> * 2, [
-    [<metaitem:stickDarkSteel>, <ore:gtce.tool.soft.hammers>, <metaitem:stickDarkSteel>],
+    [<metaitem:stickDarkSteel>, <ore:gtce.tool.mallet>, <metaitem:stickDarkSteel>],
     [<metaitem:stickDarkSteel>, <metaitem:stickDarkSteel>, <metaitem:stickDarkSteel>],
-    [<metaitem:stickDarkSteel>, <ore:gtce.tool.hard.hammers>, <metaitem:stickDarkSteel>]
+    [<metaitem:stickDarkSteel>, <ore:gtce.tool.hammer>, <metaitem:stickDarkSteel>]
 ]);
 assembler.recipeBuilder()
     .circuit(1)
@@ -46,7 +46,7 @@ assembler.recipeBuilder()
 
 # Dark Iron Bars
 recipes.addShaped(<enderio:block_dark_iron_bars> * 8, [
-    [null, <ore:gtce.tool.hard.hammers>, null],
+    [null, <ore:gtce.tool.hammer>, null],
     [<metaitem:stickDarkSteel>, <metaitem:stickDarkSteel>, <metaitem:stickDarkSteel>],
     [<metaitem:stickDarkSteel>, <metaitem:stickDarkSteel>, <metaitem:stickDarkSteel>]
 ]);
@@ -62,7 +62,7 @@ assembler.recipeBuilder()
 recipes.addShaped(<enderio:block_dark_steel_trapdoor>, [
     [<metaitem:screwDarkSteel>, <metaitem:plateDarkSteel>, <metaitem:screwDarkSteel>],
     [<metaitem:plateDarkSteel>, <minecraft:trapdoor>, <metaitem:plateDarkSteel>],
-    [<ore:gtce.tool.saws>, <metaitem:plateDarkSteel>, <ore:gtce.tool.screwdrivers>]
+    [<ore:gtce.tool.saw>, <metaitem:plateDarkSteel>, <ore:gtce.tool.screwdriver>]
 ]);
 assembler.recipeBuilder()
     .inputs([
@@ -77,9 +77,9 @@ assembler.recipeBuilder()
 
 # Dark Steel Door
 recipes.addShaped(<enderio:block_dark_steel_door>, [
-    [<metaitem:plateDarkSteel>, <enderio:block_dark_iron_bars>, <ore:gtce.tool.hard.hammers>],
+    [<metaitem:plateDarkSteel>, <enderio:block_dark_iron_bars>, <ore:gtce.tool.hammer>],
     [<metaitem:plateDarkSteel>, <metaitem:ringDarkSteel>, <metaitem:screwDarkSteel>],
-    [<metaitem:plateDarkSteel>, <metaitem:plateDarkSteel>, <ore:gtce.tool.screwdrivers>]
+    [<metaitem:plateDarkSteel>, <metaitem:plateDarkSteel>, <ore:gtce.tool.screwdriver>]
 ]);
 assembler.recipeBuilder()
     .inputs([
@@ -128,7 +128,7 @@ alloy_smelter.recipeBuilder()
 
 # End Steel Bars
 recipes.addShaped(<enderio:block_end_iron_bars> * 8, [
-    [null, <ore:gtce.tool.hard.hammers>, null],
+    [null, <ore:gtce.tool.hammer>, null],
     [<metaitem:stickEndSteel>, <metaitem:stickEndSteel>, <metaitem:stickEndSteel>],
     [<metaitem:stickEndSteel>, <metaitem:stickEndSteel>, <metaitem:stickEndSteel>]
 ]);
