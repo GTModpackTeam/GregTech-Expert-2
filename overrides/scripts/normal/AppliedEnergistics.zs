@@ -1480,8 +1480,8 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .circuit(2)
     .inputs([
-        <minecraft:redstone>,
-        <minecraft:glowstone_dust>,
+        <minecraft:redstone> * 3,
+        <minecraft:glowstone_dust> * 3,
         <appliedenergistics2:part:16> * 3
     ])
     .fluidInputs([<liquid:styrene_butadiene_rubber> * 108])
@@ -1492,8 +1492,8 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .circuit(2)
     .inputs([
-        <minecraft:redstone>,
-        <minecraft:glowstone_dust>,
+        <minecraft:redstone> * 3,
+        <minecraft:glowstone_dust> * 3,
         <appliedenergistics2:part:16> * 3
     ])
     .fluidInputs([<liquid:silicone_rubber> * 216])
@@ -1504,8 +1504,8 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .circuit(2)
     .inputs([
-        <minecraft:redstone>,
-        <minecraft:glowstone_dust>,
+        <minecraft:redstone> * 3,
+        <minecraft:glowstone_dust> * 3,
         <appliedenergistics2:part:16> * 3
     ])
     .fluidInputs([<liquid:rubber> * 432])
@@ -1616,8 +1616,8 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .circuit(4)
     .inputs([
-        <minecraft:redstone>,
-        <minecraft:glowstone_dust>,
+        <minecraft:redstone> * 4,
+        <minecraft:glowstone_dust> * 4,
         <appliedenergistics2:part:36> * 4
     ])
     .outputs([<appliedenergistics2:part:76>])
@@ -1627,8 +1627,8 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .circuit(4)
     .inputs([
-        <minecraft:redstone>,
-        <minecraft:glowstone_dust>,
+        <minecraft:redstone> * 12,
+        <minecraft:glowstone_dust> * 12,
         <appliedenergistics2:part:16> * 12
     ])
     .fluidInputs([<liquid:styrene_butadiene_rubber> * 432])
@@ -1639,8 +1639,8 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .circuit(4)
     .inputs([
-        <minecraft:redstone>,
-        <minecraft:glowstone_dust>,
+        <minecraft:redstone> * 12,
+        <minecraft:glowstone_dust> * 12,
         <appliedenergistics2:part:16> * 12
     ])
     .fluidInputs([<liquid:silicone_rubber> * 864])
@@ -1651,8 +1651,8 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .circuit(4)
     .inputs([
-        <minecraft:redstone>,
-        <minecraft:glowstone_dust>,
+        <minecraft:redstone> * 12,
+        <minecraft:glowstone_dust> * 12,
         <appliedenergistics2:part:16> * 12
     ])
     .fluidInputs([<liquid:rubber> * 1728])
