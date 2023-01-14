@@ -3,3 +3,4 @@
 * However, support is for recipes only, so we will not respond to reports of unstable operation of the mod itself : <
     * [Compact Machines](https://www.curseforge.com/minecraft/mc-mods/compact-machines)
     * [Volumetric Flask](https://www.curseforge.com/minecraft/mc-mods/volumetric-flask)
+    * [The Spice of Life](https://www.curseforge.com/minecraft/mc-mods/the-spice-of-life)
