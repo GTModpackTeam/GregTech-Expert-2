@@ -1,7 +1,7 @@
 #modloaded volumetricflask
 # Imports
+import mods.jei.JEI;
 import crafttweaker.item.IItemStack;
-
 
 
 ########################################
@@ -43,6 +43,16 @@ for i, flask in flasks {
         .EUt(480)
         .buildAndRegister();
 }
+for i, flask in flasks {
+    extractor.recipeBuilder()
+        .inputs([flask])
+        .fluidOutputs([<liquid:glass> * 144])
+        .duration(10)
+        .EUt(7)
+        .buildAndRegister();
+}
+<ore:flask>.addTooltip(format.red("VolumetricFlask is out of support, please move AE2 Fluid Crafting Rework!!"));
+JEI.addDescription(<ore:flask>, "VolumetricFlask is out of support, please move AE2 Fluid Crafting Rework!!");
 
 
 
@@ -70,6 +80,16 @@ assembler.recipeBuilder()
     .duration(20)
     .EUt(1920)
     .buildAndRegister();
+packer.recipeBuilder()
+    .inputs([<volumetricflask:o_interface> | <volumetricflask:part_o_interface>])
+    .outputs([<appliedenergistics2:fluid_interface>, <metaitem:plateStainlessSteel> * 4])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
+<volumetricflask:part_o_interface>.addTooltip(format.red("VolumetricFlask is out of support, please move AE2 Fluid Crafting Rework!!"));
+JEI.addDescription(<volumetricflask:part_o_interface>, "VolumetricFlask is out of support, please move AE2 Fluid Crafting Rework!!");
+<volumetricflask:o_interface>.addTooltip(format.red("VolumetricFlask is out of support, please move AE2 Fluid Crafting Rework!!"));
+JEI.addDescription(<volumetricflask:o_interface>, "VolumetricFlask is out of support, please move AE2 Fluid Crafting Rework!!");
 
 # Buffer
 recipes.remove(<volumetricflask:buffer>);
@@ -78,6 +98,14 @@ recipes.addShaped(<volumetricflask:buffer>, [
     [<ore:flask>, <gregtech:machine:1512>, <ore:flask>],
     [<ore:flask>, <ore:flask>, <ore:flask>]
 ]);
+packer.recipeBuilder()
+    .inputs([<volumetricflask:buffer>])
+    .outputs([<metaitem:buffer.hv>, <metaitem:plateGlass> * 8])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
+<volumetricflask:buffer>.addTooltip(format.red("VolumetricFlask is out of support, please move AE2 Fluid Crafting Rework!!"));
+JEI.addDescription(<volumetricflask:buffer>, "VolumetricFlask is out of support, please move AE2 Fluid Crafting Rework!!");
 
 # Filler
 recipes.remove(<volumetricflask:filler>);
@@ -93,3 +121,11 @@ assembler.recipeBuilder()
     .duration(200)
     .EUt(480)
     .buildAndRegister();
+packer.recipeBuilder()
+    .inputs([<volumetricflask:filler>])
+    .outputs([<ae2fc:fluid_assembler>, <metaitem:circuit.advanced_integrated> * 2])
+    .duration(10)
+    .EUt(7)
+    .buildAndRegister();
+<volumetricflask:filler>.addTooltip(format.red("VolumetricFlask is out of support, please move AE2 Fluid Crafting Rework!!"));
+JEI.addDescription(<volumetricflask:filler>, "VolumetricFlask is out of support, please move AE2 Fluid Crafting Rework!!");
