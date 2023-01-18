@@ -1,8 +1,8 @@
 {
 	title: "いつものパターン",
 	icon: "gregtech:machine 1 1213",
-	x: -4.0d,
-	y: -4.0d,
+	x: -6.0d,
+	y: -8.0d,
 	shape: "diamond",
 	description: "HV Energy Hatch",
 	text: [

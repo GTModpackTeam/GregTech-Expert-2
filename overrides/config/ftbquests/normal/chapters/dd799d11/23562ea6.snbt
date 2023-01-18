@@ -25,8 +25,8 @@
 		"用途がやや特殊なのでここでは解説しません。"
 	],
 	dependencies: [
-		"af094e40",
-		"1979af9f"
+		"1979af9f",
+		"09d2eb6d"
 	],
 	min_width: 300,
 	tasks: [{

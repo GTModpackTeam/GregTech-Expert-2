@@ -1,7 +1,7 @@
 {
 	title: "全ての需要をカバーします",
 	x: -4.0d,
-	y: -6.0d,
+	y: -8.0d,
 	description: "Ender Fluid Link Cover",
 	text: [
 		"液体エンダーリンクカバーはGregTech版のエンダータンクです。",
