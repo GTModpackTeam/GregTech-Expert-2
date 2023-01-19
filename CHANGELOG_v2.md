@@ -7,9 +7,10 @@
 
 ### v1 to v2
 * **Those updating from v1 to v2 should be sure to make a backup before doing so.**
-* Please stop the factory that used the recycle bin a lot before updating, and migrate to the newly added void cover in CEu, because it is deleting mods in addition to switching to the mods of the subsequent development.
+* In addition to switching to new mods, some mods have been removed, especially factories that used a lot of trash can mods should be stopped before the update and replaced with the new void covers that were added at CEu after the update.
     * As a supplement, we have included a script to assist in the transition of mods that have a large impact when switching to mods developed later, so please install and migrate the mods yourself. For more information, see [here](https://github.com/GTModpackTeam/gregtech-expert-2#mod-compatibility-info).
 * Another major specification change is the deletion of the AE2 channel. This makes it easier to create larger networks.
+* And the major change from CEu is the addition of a Cleanroom, which was in GT5u. Factories that automate wafers and chips need to replace their facilities.
 
 ## Modpack update
 * The quest book has not been updated in quite some time. More quests will be added or updated in the next update!!
