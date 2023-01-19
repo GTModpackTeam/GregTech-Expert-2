@@ -1,21 +1,38 @@
 {
 	title: "どんどん裁断されるクエスト文",
-	x: -2.0d,
-	y: -8.0d,
+	x: -4.0d,
+	y: -6.0d,
 	shape: "diamond",
 	description: "Advanced Cutting Machine II",
 	text: [
-		"これを作ることでLPICウェハーを低出力電源ICに加工出来ます。"
+		"これを作ることでLPICウェハーを低出力電源ICに加工出来ます。",
+		"クリーンルームの中に設置しましょう。"
 	],
 	dependencies: [
+		"07cc29d4",
 		"bfdb6d9e"
 	],
 	min_width: 300,
+	or_tasks: true,
 	tasks: [{
 		uid: "a7d7736d",
 		type: "item",
 		items: [{
 			item: "gregtech:machine 1 247"
+		}]
+	},
+	{
+		uid: "51efc34c",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 603"
+		}]
+	},
+	{
+		uid: "5681cf9d",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 596"
 		}]
 	}]
 }

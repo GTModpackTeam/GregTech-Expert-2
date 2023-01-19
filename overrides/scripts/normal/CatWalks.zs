@@ -10,8 +10,8 @@ import mods.jei.JEI;
 recipes.remove(<catwalks:blowtorch>);
 recipes.addShaped(<catwalks:blowtorch>, [
     [null, <metaitem:screwSteel>, <minecraft:flint_and_steel>],
-    [<ore:gtce.tool.screwdrivers>, <metaitem:stickLongSteel>, <metaitem:screwSteel>],
-    [<metaitem:stickLongSteel>, <ore:gtce.tool.wrenches>, null]
+    [<ore:gtce.tool.screwdriver>, <metaitem:stickLongSteel>, <metaitem:screwSteel>],
+    [<metaitem:stickLongSteel>, <ore:gtce.tool.wrench>, null]
 ]);
 
 

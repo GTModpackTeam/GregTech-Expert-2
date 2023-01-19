@@ -38,7 +38,7 @@ mixer.recipeBuilder()
         <metaitem:dustSteel>,
         <appliedenergistics2:material:45>
     ])
-    .outputs([<threng:material:1>])
+    .outputs([<threng:material:1> * 3])
     .duration(100)
     .EUt(480)
     .buildAndRegister();

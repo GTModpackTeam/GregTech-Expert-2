@@ -98,12 +98,12 @@ packer.recipeBuilder()
 # Fluid Pattrern Terminal
 recipes.remove(<ae2fc:part_fluid_pattern_terminal>);
 recipes.addShaped(<ae2fc:part_fluid_pattern_terminal>, [
-    [<ore:gtce.tool.screwdrivers>, <appliedenergistics2:part:380>, <ore:gtce.tool.soft.hammers>],
+    [<ore:gtce.tool.screwdriver>, <appliedenergistics2:part:380>, <ore:gtce.tool.mallet>],
     [<metaitem:screwStainlessSteel>, <appliedenergistics2:material:52>, <metaitem:screwStainlessSteel>],
     [<metaitem:plateStainlessSteel>, <appliedenergistics2:material:23>, <metaitem:plateStainlessSteel>]
 ]);
 recipes.addShaped(<ae2fc:part_fluid_pattern_terminal>, [
-    [<ore:gtce.tool.soft.hammers>, <appliedenergistics2:part:380>, <ore:gtce.tool.screwdrivers>],
+    [<ore:gtce.tool.mallet>, <appliedenergistics2:part:380>, <ore:gtce.tool.screwdriver>],
     [<metaitem:screwStainlessSteel>, <appliedenergistics2:material:52>, <metaitem:screwStainlessSteel>],
     [<metaitem:plateStainlessSteel>, <appliedenergistics2:material:23>, <metaitem:plateStainlessSteel>]
 ]);
@@ -123,12 +123,12 @@ assembler.recipeBuilder()
 # Extended Processing Fluid Pattrern Terminal
 recipes.remove(<ae2fc:part_fluid_pattern_ex_terminal>);
 recipes.addShaped(<ae2fc:part_fluid_pattern_ex_terminal>, [
-    [<ore:gtce.tool.screwdrivers>, <ae2fc:part_fluid_pattern_terminal>, <ore:gtce.tool.soft.hammers>],
+    [<ore:gtce.tool.screwdriver>, <ae2fc:part_fluid_pattern_terminal>, <ore:gtce.tool.mallet>],
     [<metaitem:screwStainlessSteel>, <appliedenergistics2:material:52>, <metaitem:screwStainlessSteel>],
     [<metaitem:plateStainlessSteel>, <appliedenergistics2:material:24>, <metaitem:plateStainlessSteel>]
 ]);
 recipes.addShaped(<ae2fc:part_fluid_pattern_ex_terminal>, [
-    [<ore:gtce.tool.soft.hammers>, <ae2fc:part_fluid_pattern_terminal>, <ore:gtce.tool.screwdrivers>],
+    [<ore:gtce.tool.mallet>, <ae2fc:part_fluid_pattern_terminal>, <ore:gtce.tool.screwdriver>],
     [<metaitem:screwStainlessSteel>, <appliedenergistics2:material:52>, <metaitem:screwStainlessSteel>],
     [<metaitem:plateStainlessSteel>, <appliedenergistics2:material:24>, <metaitem:plateStainlessSteel>]
 ]);

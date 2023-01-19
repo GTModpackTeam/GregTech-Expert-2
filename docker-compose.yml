@@ -1,0 +1,30 @@
+version: "3.8"
+
+# Repository for the image below: https://github.com/itzg/docker-minecraft-server
+
+services:
+  minecraft:
+    image: itzg/minecraft-server:java8-multiarch
+    ports:
+      - 25565:25565
+    environment:
+      EULA: true
+      TYPE: AUTO_CURSEFORGE
+      CF_SLUG: gregtech-expert-2
+      # Get the ID of the Server version from CF. The following is an example and specifies v2.0.3.
+      # https://www.curseforge.com/minecraft/modpacks/gregtech-expert-2/files
+      CF_FILE_ID: 4312480
+      REMOVE_OLD_MODS: true
+      # Default RAM allocation
+      MEMORY: 4G
+      OPS: Honon
+    volumes:
+      - ./data:/data
+      - /etc/timezone:/etc/timezone:ro
+    tty: true
+    stdin_open: true
+    restart: always
+    deploy:
+      resources:
+        limits:
+          memory: 4.5G

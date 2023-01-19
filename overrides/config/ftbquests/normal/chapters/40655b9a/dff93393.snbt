@@ -1,7 +1,7 @@
 {
 	title: "グリーンスパイダー",
-	x: 10.0d,
-	y: 12.0d,
+	x: -6.0d,
+	y: 0.0d,
 	shape: "diamond",
 	description: "Workstation",
 	text: [
@@ -11,7 +11,7 @@
 	],
 	dependencies: [
 		"9066a29a",
-		"2d65a034"
+		"07cc29d4"
 	],
 	min_width: 300,
 	tasks: [{

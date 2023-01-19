@@ -3,10 +3,10 @@
 	x: 14.0d,
 	y: -6.0d,
 	shape: "diamond",
-	description: "ME Interface / ME Fluid Interface",
+	description: "ME Interface / ME Fluid Interface / ME Dual Interface",
 	text: [
 		"§c※警告：MEインターフェースをクラフトで作るためには非常に大量のダイヤモンドを消費します。",
-		"事前に大量にダイヤ鉱脈を潰すか、IVまで待って組立機で作るようにしましょう。§r",
+		"事前に大量にダイヤ鉱脈を潰すか、EVまで待って組立機で作るようにしましょう。§r",
 		"",
 		"§cME搬入バスと搬出バスはラグを起こすので無効化されています、代わりにインターフェースの機能1と機能2を使いましょう。§r",
 		"§cME Import Bus and ME Export Bus are removed from the game! instead use ME interfaces wisely§r",
@@ -63,6 +63,13 @@
 		type: "item",
 		items: [{
 			item: "appliedenergistics2:fluid_interface"
+		}]
+	},
+	{
+		uid: "47b6e2b0",
+		type: "item",
+		items: [{
+			item: "ae2fc:dual_interface"
 		}]
 	}]
 }

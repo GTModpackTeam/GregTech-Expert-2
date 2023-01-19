@@ -58,36 +58,6 @@ extractor.recipeBuilder()
     .buildAndRegister();
 
 # Fluix
-mixer.recipeBuilder()
-    .inputs([
-        <minecraft:redstone>,
-        <metaitem:dustNetherQuartz>
-    ])
-    .fluidInputs([<liquid:charged_certus_quartz> * 144])
-    .fluidOutputs([<liquid:fluix> * 144])
-    .duration(20)
-    .EUt(480)
-    .buildAndRegister();
-mixer.recipeBuilder()
-    .inputs([
-        <minecraft:redstone>,
-        <metaitem:dustChargedCertusQuartz>
-    ])
-    .fluidInputs([<liquid:nether_quartz> * 144])
-    .fluidOutputs([<liquid:fluix> * 144])
-    .duration(20)
-    .EUt(480)
-    .buildAndRegister();
-mixer.recipeBuilder()
-    .inputs([
-        <metaitem:dustNetherQuartz>,
-        <metaitem:dustChargedCertusQuartz>
-    ])
-    .fluidInputs([<liquid:redstone> * 144])
-    .fluidOutputs([<liquid:fluix> * 144])
-    .duration(20)
-    .EUt(480)
-    .buildAndRegister();
 extractor.recipeBuilder()
     .inputs([<ore:crystalPureFluix>])
     .fluidOutputs([<liquid:fluix> * 72])
@@ -137,13 +107,13 @@ macerator.recipeBuilder()
 # Red Alloy Dust
 recipes.addShaped(<metaitem:dustRedAlloy>, [
     [null, <metaitem:ingotRedAlloy>, null],
-    [null, <ore:gtce.tool.mortars>, null],
+    [null, <ore:gtce.tool.mortar>, null],
     [null, null, null]
 ]);
 
 # Stone Rod
 recipes.addShaped(<metaitem:stickStone>, [
-    [<ore:gtce.tool.files>, null, null],
+    [<ore:gtce.tool.file>, null, null],
     [null, <minecraft:stone>, null],
     [null, null, null]
 ]);
@@ -362,64 +332,6 @@ chemical_reactor.recipeBuilder()
     .EUt(7680)
     .buildAndRegister();
 
-# Soularium Dust
-electrolyzer.findRecipe(30, [<metaitem:dustSoularium> * 2], null).remove();
-electrolyzer.recipeBuilder()
-    .inputs([<metaitem:dustSoularium> * 3])
-    .outputs([
-        <metaitem:dustGold>,
-        <metaitem:dustAsh>,
-        <minecraft:soul_sand>
-    ])
-    .duration(168)
-    .EUt(30)
-    .buildAndRegister();
-
-# Crude Steel Dust
-electrolyzer.recipeBuilder()
-    .inputs([<metaitem:dustCrudeSteel> * 3])
-    .outputs([
-        <metaitem:dustSteel>,
-        <metaitem:dustClay>,
-        <minecraft:gravel>
-    ])
-    .duration(168)
-    .EUt(30)
-    .buildAndRegister();
-
-# Crystalline Alloy Dust
-electrolyzer.recipeBuilder()
-    .inputs([<metaitem:dustCrystallineAlloy> * 2])
-    .outputs([
-        <metaitem:dustGold>,
-        <enderio:item_material:34>
-    ])
-    .duration(168)
-    .EUt(30)
-    .buildAndRegister();
-
-# Melodic Alloy Dust
-electrolyzer.recipeBuilder()
-    .inputs([<metaitem:dustMelodicAlloy> * 2])
-    .outputs([
-        <metaitem:dustEndSteel>,
-        <minecraft:chorus_fruit_popped>
-    ])
-    .duration(168)
-    .EUt(30)
-    .buildAndRegister();
-
-# Crystalline Pink Slime Dust
-electrolyzer.recipeBuilder()
-    .inputs([<metaitem:dustCrystallinePinkSlime> * 2])
-    .outputs([
-        <metaitem:dustMelodicAlloy>,
-        <minecraft:slime_ball>
-    ])
-    .duration(168)
-    .EUt(30)
-    .buildAndRegister();
-
 # Nether Quartz Rod
 lathe.recipeBuilder()
     .inputs([<ore:crystalPureNetherQuartz>])
@@ -476,13 +388,13 @@ macerator.recipeBuilder()
 
 # Fluix Dust (Override)
 mixer.recipeBuilder()
+    .circuit(1)
     .inputs([
         <metaitem:dustChargedCertusQuartz>,
         <minecraft:redstone>,
         <metaitem:dustNetherQuartz>
     ])
-    .fluidInputs([<liquid:distilled_water> * 50])
-    .outputs([<metaitem:dustFluix>])
+    .outputs([<metaitem:dustFluix> * 3])
     .duration(20)
     .EUt(30)
     .buildAndRegister();
@@ -570,7 +482,6 @@ cutter.recipeBuilder()
     .buildAndRegister();
 
 # Charged Certus Quartz Crystal
-electrolyzer.findRecipe(30, [<metaitem:dustChargedCertusQuartz> * 3], null).remove();
 <ore:gemChargedCertusQuartz>.addItems([<appliedenergistics2:material:1>]);
 electrolyzer.recipeBuilder()
     .inputs([<ore:crystalCertusQuartz>])
@@ -614,20 +525,8 @@ implosion_compressor.recipeBuilder()
     .buildAndRegister();
 
 # Fluix Crystal
-electrolyzer.findRecipe(60, [<metaitem:dustFluix> * 7], null).remove();
 recipes.remove(<appliedenergistics2:material:7>);
 <ore:gemFluix>.addItems([<appliedenergistics2:material:7>]);
-mixer.recipeBuilder()
-    .inputs([
-        <ore:gemChargedCertusQuartz>,
-        <minecraft:redstone>,
-        <ore:gemNetherQuartz>
-    ])
-    .fluidInputs([<liquid:distilled_water> * 50])
-    .outputs([<appliedenergistics2:material:7>])
-    .duration(20)
-    .EUt(30)
-    .buildAndRegister();
 autoclave.recipeBuilder()
     .inputs([<metaitem:dustFluix>])
     .fluidInputs([<liquid:distilled_water> * 50])
@@ -692,6 +591,14 @@ lathe.recipeBuilder()
 ########################################
 # Blocks
 ########################################
+# Enchanting Table (Override)
+recipes.remove(<minecraft:enchanting_table>);
+recipes.addShaped(<minecraft:enchanting_table>, [
+    [<minecraft:diamond>, <minecraft:carpet:14>, <minecraft:diamond>],
+    [<metaitem:plateObsidian>, <ore:bookshelf>, <metaitem:plateObsidian>],
+    [<minecraft:diamond>, <metaitem:plateObsidian>, <minecraft:diamond>]
+]);
+
 # Crafting Station
 assembler.recipeBuilder()
     .circuit(1)

@@ -38,7 +38,7 @@
 		uid: "617d6694",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 603"
+			item: "gregtech:meta_item_1 1 578"
 		}]
 	},
 	{
@@ -52,7 +52,7 @@
 		uid: "06433280",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 596"
+			item: "gregtech:meta_item_1 1 571"
 		}]
 	}]
 }

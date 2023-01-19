@@ -1,6 +1,6 @@
 {
 	title: "格差問題発生",
-	x: 8.0d,
+	x: 6.0d,
 	y: 0.0d,
 	shape: "diamond",
 	description: "Processors",

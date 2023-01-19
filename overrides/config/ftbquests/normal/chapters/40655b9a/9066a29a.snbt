@@ -1,7 +1,7 @@
 {
 	title: "こいつもRedPower由来",
-	x: 10.0d,
-	y: 10.0d,
+	x: -8.0d,
+	y: 0.0d,
 	description: "Blue Alloy Ingot",
 	text: [
 		"青合金はHV時代のケーブル素材に最適です。",

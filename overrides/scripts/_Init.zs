@@ -88,23 +88,23 @@ global wiremill                  as RecipeMap = RecipeMap.getByName("wiremill");
     <gregtech:meta_tool:32>.withEmptyTag()
 ]);
 
-<ore:gtce.tool.files>.addItems([
+<ore:gtce.tool.file>.addItems([
     <gregtech:meta_tool:9>.withEmptyTag()
 ]);
 
-<ore:gtce.tool.cutters>.addItems([
+<ore:gtce.tool.cutter>.addItems([
     <gregtech:meta_tool:13>.withEmptyTag()
 ]);
 
-<ore:gtce.tool.soft.hammers>.addItems([
+<ore:gtce.tool.mallet>.addItems([
     <gregtech:meta_tool:7>.withEmptyTag()
 ]);
 
-<ore:gtce.tool.mortars>.addItems([
+<ore:gtce.tool.mortar>.addItems([
     <gregtech:meta_tool:12>.withEmptyTag()
 ]);
 
-<ore:gtce.tool.shovels>.addItems([
+<ore:gtce.tool.shovel>.addItems([
     <gregtech:meta_tool:2>.withEmptyTag()
 ]);
 
