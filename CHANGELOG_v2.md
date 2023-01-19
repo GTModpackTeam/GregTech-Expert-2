@@ -1,3 +1,91 @@
+# v2.0.4
+## Modpack information
+### v2.0.x-beta to v2.0.4
+* This is the **first stable version of v2** from this version!!
+* Various improvements have been made, including feedback, bug reports, and a switch to a later-developed mod.
+* Also, as those of you who have installed v2 may know, a CEu version with tool rework is planned for this next GTE2 version!!
+
+### v1 to v2
+* **Those updating from v1 to v2 should be sure to make a backup before doing so.**
+* In addition to switching to new mods, some mods have been removed, especially factories that used a lot of trash can mods should be stopped before the update and replaced with the new void covers that were added at CEu after the update.
+    * As a supplement, we have included a script to assist in the transition of mods that have a large impact when switching to mods developed later, so please install and migrate the mods yourself. For more information, see [here](https://github.com/GTModpackTeam/gregtech-expert-2#mod-compatibility-info).
+* Another major specification change is the deletion of the AE2 channel. This makes it easier to create larger networks.
+* And the major change from CEu is the addition of a Cleanroom, which was in GT5u. Factories that automate wafers and chips need to replace their facilities.
+
+## Modpack update
+* The quest book has not been updated in quite some time. More quests will be added or updated in the next update!!
+
+## Update mods
+* AE2 Unofficial Extended Life
+* AE2 Fluid Crafting Rework
+* Inventory Bogo Sorter
+* JEI Utilities
+
+## New mods
+* Spice of Life: Carrot Edition
+* Mantle
+
+## Del recipes
+### Ender IO
+* Crude Steel
+* Molten Electrical Steel
+* Molten Energetic Alloy
+* Molten Vibrant Alloy
+* Molten Redstone Alloy
+* Molten Conductive Iron
+* Molten Pulsating Iron
+* Molten Dark Steel
+* Molten Soularium
+* Molten End Steel
+* Molten Construction Alloy
+* Molten Crystalline Alloy
+* Molten Melodic Alloy
+* Molten Stellar Alloy
+* Molten Crystalline Pink Slime
+* Molten Energetic Silver
+* Molten Vivid Alloy
+
+## New recipes
+### AE2
+* Covered Cable
+* Smart Cable
+
+## Fix recipes
+### AE2 and LazyAE2 and Ender IO
+* The number of powders created has increased with the GT standard!!
+* I also removed the Material decomposition recipe, as it does not seem to be used.
+
+### AE2
+* Smart Cable
+* Dense Covered Cable
+* Dense Smart Cable
+* Fluix Liquid
+* Fluix Dust
+
+### Architecture Craft
+* Hammer
+
+### Ender IO
+* Electrical Steel Dust
+* Electrical Steel Dust
+* Energetic Alloy Dust
+* Vibrant Alloy Dust
+* Redstone Alloy Dust
+* Conductive Iron Dust
+* Pulsating Iron Dust
+* Dark Steel Dust
+* Soularium Dust
+* End Steel Dust
+* Construction Alloy Dust
+* Crystalline Alloy Dust
+* Melodic Alloy Dust
+* Stellar Alloy Dust
+* Crystalline Pink Slime Dust
+* Energetic Silver Dust
+* Vivid Alloy Dust
+
+* * *
+
 # v2.0.3
 ## Fix recipe
 ### AE2

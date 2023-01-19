@@ -1,0 +1,33 @@
+{
+	title: "ブレーカーが欲しい",
+	x: 9.5d,
+	y: 6.0d,
+	description: "Simple Wired Charger",
+	text: [
+		"このmodpackではEUを使ってFEで動くアイテムを充電できないので、FEのアイテムを動かしたい場合は簡易型有線充電装置を作る必要があります。",
+		"更に、EUとFEは相互変換できないので、充電装置を動かしたい場合エネルギー変換器を作ってEUをFEに変換する必要があります。",
+		"",
+		"エネルギー変換器を設置した後一回ソフトハンマーで叩かないとEU->FEモードにならないので注意しましょう。",
+		"",
+		"また、簡易型有線充電装置は漏電するので、使わない時は設置しない方がよいです。"
+	],
+	dependencies: [
+		"b75f94e8"
+	],
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "dda4da65",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_wired_charger"
+		}]
+	},
+	{
+		uid: "ecec80b8",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1675"
+		}]
+	}]
+}

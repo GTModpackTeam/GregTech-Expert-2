@@ -1,6 +1,6 @@
 {
 	title: "今NANDは何度？",
-	x: 0.0d,
+	x: -2.0d,
 	y: -8.0d,
 	description: "NAND Chip",
 	text: [

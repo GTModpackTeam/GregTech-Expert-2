@@ -1,0 +1,24 @@
+{
+	title: "着飾られた虚影",
+	x: -5.0d,
+	y: 0.0d,
+	description: "steel frame box",
+	text: [
+		"GregTechのパイプはかっこいいですが、骨組みの中に入れることで更にかっこよくなります。",
+		"",
+		"骨組みに対してパイプを右クリックするか、パイプに対して骨組みを右クリックしましょう。",
+		"",
+		"余談：パイプを被覆すること自体は他のGregTechでもできるが、骨組みに埋め込めるのはGTCEuにしか存在しない仕様...のはず"
+	],
+	dependencies: [
+		"76b62977"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "0a4215a0",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_block_frame_20 1 4"
+		}]
+	}]
+}

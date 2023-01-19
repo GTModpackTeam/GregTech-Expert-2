@@ -1,6 +1,6 @@
 {
 	title: "AE2にようこそ",
-	x: 2.0d,
+	x: 0.0d,
 	y: 0.0d,
 	shape: "square",
 	description: "Welcome to AE2",

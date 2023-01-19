@@ -2,10 +2,11 @@
 	title: "木炭の満員電車",
 	icon: "gregtech:machine 1 19",
 	x: 6.0d,
-	y: 2.0d,
+	y: 0.0d,
 	description: "Charcoal Pit Igniter",
 	text: [
-		"Charcoal Pit Igniterが実装されたら加筆します。"
+		"Charcoal Pit Igniterが実装されたら加筆します。",
+		"Charcoal Pit IgniterはGT5にあった、手作業しなくてはいけない代わりに大量の木炭を入手できるというコンセプトのマルチブロックです。"
 	],
 	dependencies: [
 		"a887d7d6"
