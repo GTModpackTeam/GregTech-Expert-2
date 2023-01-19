@@ -64,53 +64,57 @@ global wiremill                  as RecipeMap = RecipeMap.getByName("wiremill");
 
 
 # Tools
-<ore:gtce.tool.wrenche>.addItems([
-    <gregtech:meta_tool:8>.withEmptyTag(),
-    <gregtech:meta_tool:28>.withEmptyTag(),
-    <gregtech:meta_tool:29>.withEmptyTag(),
-    <gregtech:meta_tool:30>.withEmptyTag()
+<ore:gtce.tool.wrench>.addItems([
+    <gregtech:wrench>.withEmptyTag(),
+    <gregtech:wrench_lv>.withEmptyTag(),
+    <gregtech:wrench_hv>.withEmptyTag(),
+    <gregtech:wrench_iv>.withEmptyTag()
 ]);
 
 <ore:gtce.tool.screwdriver>.addItems([
-    <gregtech:meta_tool:11>.withEmptyTag(),
-    <gregtech:meta_tool:31>.withEmptyTag()
+    <gregtech:screwdriver>.withEmptyTag(),
+    <gregtech:screwdriver_lv>.withEmptyTag()
 ]);
 
-<ore:gtce.tool.hard.hammer>.addItems([
-    <gregtech:meta_tool:6>.withEmptyTag()
+<ore:gtce.tool.hammer>.addItems([
+    <gregtech:hammer>.withEmptyTag()
 ]);
 
-<ore:gtce.tool.saws>.addItems([
-    <gregtech:meta_tool:5>.withEmptyTag(),
-    <gregtech:meta_tool:25>.withEmptyTag(),
-    <gregtech:meta_tool:26>.withEmptyTag(),
-    <gregtech:meta_tool:27>.withEmptyTag(),
-    <gregtech:meta_tool:32>.withEmptyTag()
+<ore:gtce.tool.saw>.addItems([
+    <gregtech:saw>.withEmptyTag(),
+    <gregtech:chainsaw_lv>.withEmptyTag(),
+    <gregtech:buzzsaw>.withEmptyTag()
 ]);
 
 <ore:gtce.tool.file>.addItems([
-    <gregtech:meta_tool:9>.withEmptyTag()
+    <gregtech:file>.withEmptyTag()
 ]);
 
 <ore:gtce.tool.cutter>.addItems([
-    <gregtech:meta_tool:13>.withEmptyTag()
+    <gregtech:wire_cutter>.withEmptyTag()
 ]);
 
 <ore:gtce.tool.mallet>.addItems([
-    <gregtech:meta_tool:7>.withEmptyTag()
+    <gregtech:mallet>.withEmptyTag()
 ]);
 
 <ore:gtce.tool.mortar>.addItems([
-    <gregtech:meta_tool:12>.withEmptyTag()
+    <gregtech:mortar>.withEmptyTag()
 ]);
 
 <ore:gtce.tool.shovel>.addItems([
-    <gregtech:meta_tool:2>.withEmptyTag()
+    <gregtech:shovel>.withEmptyTag(),
+    <gregtech:drill_lv>.withEmptyTag(),
+    <gregtech:drill_mv>.withEmptyTag(),
+    <gregtech:drill_hv>.withEmptyTag(),
+    <gregtech:drill_ev>.withEmptyTag(),
+    <gregtech:drill_iv>.withEmptyTag(),
+    <gregtech:spade>.withEmptyTag()
 ]);
 
 <ore:gtce.tool.knife>.addItems([
-    <gregtech:meta_tool:15>.withEmptyTag(),
-    <gregtechfoodoption:gtfo_meta_tool:1>.withEmptyTag()
+    <gregtech:knife>.withEmptyTag(),
+    <gregtechfoodoption:butchery_knife.hv>.withEmptyTag()
 ]);
 
 

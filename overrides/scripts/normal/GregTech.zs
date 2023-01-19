@@ -83,10 +83,10 @@ extractor.recipeBuilder()
 # Items
 ########################################
 # Tiny Pile of Ashes (Bookshelf Override)
-arc_furnace.findRecipe(30, [<minecraft:bookshelf:0>], [<liquid:oxygen>]).remove();
+arc_furnace.findRecipe(30, [<minecraft:bookshelf:0>], [<liquid:oxygen> * 21]).remove();
 arc_furnace.recipeBuilder()
     .inputs([<ore:bookshelf>])
-    .fluidInputs([<liquid:oxygen>])
+    .fluidInputs([<liquid:oxygen> * 21])
     .outputs([<metaitem:dustTinyAsh> * 16])
     .duration(1)
     .EUt(30)
