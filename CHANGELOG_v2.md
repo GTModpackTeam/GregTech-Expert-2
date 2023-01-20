@@ -1,3 +1,16 @@
+# v2.0.5
+## Modpack information
+* This version is a hotfix for v2.0.4!
+* If you are updating from v1.x.x to v2.x.x for the first time, be sure to check the changelog for v2.0.4!
+
+## Downgrade mod
+* Inventory Bogo Sorter
+
+## Update mod
+* AE2 Fluid Crafting Rework
+
+* * *
+
 # v2.0.4
 ## Modpack information
 ### v2.0.x-beta to v2.0.4
