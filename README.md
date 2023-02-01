@@ -50,9 +50,12 @@ When you continue your GregTech journey, you will be eventually able to make som
 * GTE2 comes with compatibility scripts for the following mods. You can drop them into the mods folder and their recipes will be adjusted accordingly.
 * However, support is for recipes only, so we will not respond to reports of unstable operation of the mod itself :<
     * [The Spice of Life](https://www.curseforge.com/minecraft/mc-mods/the-spice-of-life)
-        * For those who want to live a harder life.
+        * For those who want to live a hardcore life.
     * [Compact Machines](https://www.curseforge.com/minecraft/mc-mods/compact-machines)
-        * For those who want to build a minimalist base.
+        * For those who want to build a minimalist factory.
+        * I think practicality starts with EV...?
+    * [ME Capability Adapter](https://www.curseforge.com/minecraft/mc-mods/capability-adapter)
+        * For those who want to use ME System.
     * [Volumetric Flask](https://www.curseforge.com/minecraft/mc-mods/volumetric-flask)
         * Migration to AE2 Fluid Crafting Rework. However, a Flask can still be created.
     * [ExtraCells2 - SamLam140330's Fork](https://www.curseforge.com/minecraft/mc-mods/extra-cells-2-samlam140330s-fork)
