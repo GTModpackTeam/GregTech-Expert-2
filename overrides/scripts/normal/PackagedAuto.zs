@@ -78,7 +78,7 @@ assembler.recipeBuilder()
     ])
     .outputs([<packagedauto:packager>])
     .duration(20)
-    .EUt(480)
+    .EUt(1920)
     .buildAndRegister();
 
 # Unpackager
@@ -103,14 +103,14 @@ assembler.recipeBuilder()
     ])
     .outputs([<packagedauto:encoder>])
     .duration(20)
-    .EUt(480)
+    .EUt(1920)
     .buildAndRegister();
 
 # Packager Extension
 recipes.remove(<packagedauto:packager_extension>);
 recipes.addShaped(<packagedauto:packager_extension>, [
     [<metaitem:plateTitanium>, <packagedauto:me_package_component>, <metaitem:plateTitanium>],
-    [<ore:circuitEv>, <storagedrawers:controllerslave>, <ore:circuitEv>],
+    [<ore:circuitHv>, <storagedrawers:controllerslave>, <ore:circuitHv>],
     [<metaitem:plateTitanium>, <ore:ae2.interface.item>, <metaitem:plateTitanium>]
 ]);
 assembler.recipeBuilder()
@@ -119,7 +119,7 @@ assembler.recipeBuilder()
         <metaitem:plateTitanium> * 2,
         <ore:ae2.interface.item>,
         <storagedrawers:controllerslave>,
-        <ore:circuitEv>,
+        <ore:circuitHv>,
         <packagedauto:me_package_component>
     ])
     .outputs([<packagedauto:packager_extension>])
