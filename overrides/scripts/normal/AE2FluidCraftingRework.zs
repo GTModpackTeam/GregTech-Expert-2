@@ -19,7 +19,7 @@ JEI.removeAndHide(<ae2fc:large_ingredient_buffer>);
 recipes.remove(<ae2fc:fluid_assembler>);
 recipes.addShapeless(<ae2fc:fluid_assembler>, [<aeadditions:fluidcrafter>]);
 assembler.recipeBuilder()
-    .circuit(2)
+    .circuit(3)
     .inputs([
         <metaitem:plateGlass> * 2,
         <ore:circuitHv> * 2,

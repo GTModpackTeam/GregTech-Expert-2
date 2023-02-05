@@ -80,7 +80,7 @@ assembler.recipeBuilder()
 # Wood Catwalk
 recipes.remove(<catwalks:catwalk>.withTag({material: "treated_wood"}));
 assembler.recipeBuilder()
-    .circuit(6)
+    .circuit(7)
     .inputs([
         <metaitem:frameTreatedWood>,
         <metaitem:plateTreatedWood> * 3,
@@ -91,7 +91,7 @@ assembler.recipeBuilder()
     .EUt(7)
     .buildAndRegister();
 assembler.recipeBuilder()
-    .circuit(7)
+    .circuit(8)
     .inputs([
         <metaitem:frameTreatedWood>,
         <metaitem:plateTreatedWood> * 3,
