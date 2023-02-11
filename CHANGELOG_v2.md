@@ -1,3 +1,24 @@
+# v2.0.7
+## Modpack information
+* EZStorage just got a little more useful.
+
+## Move mods
+* AE2 Wireless Terminal Library -> AE2 Wireless Terminal-LTS
+
+## Update mod
+* AE2 Unofficial Extended Life
+* AE2 Fluid Crafting Rework
+* Universal Tweaks
+
+## Del mod
+* Mod Name Tooltip
+
+## Update recipes
+### PackagedAuto
+* Packager Extension(circuitEv -> circuitHv)
+
+* * *
+
 # v2.0.6
 ## Modpack information
 * This version is a hotfix for v2.0.5!

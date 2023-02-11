@@ -1023,10 +1023,6 @@ recipes.addShapeless(<appliedenergistics2:material:58>, [
     <appliedenergistics2:material:28>, <ore:ae2.interface.item>, 
     <ore:ae2.interface.fluid>, <appliedenergistics2:material:23>,
 ]);
-recipes.addShapeless(<appliedenergistics2:material:58>, [
-    <appliedenergistics2:material:28>, <ore:ae2.interface.fluid>, 
-    <ore:ae2.interface.item>, <appliedenergistics2:material:23>
-]);
 
 # Acceleration Card
 recipes.remove(<appliedenergistics2:material:30>);
