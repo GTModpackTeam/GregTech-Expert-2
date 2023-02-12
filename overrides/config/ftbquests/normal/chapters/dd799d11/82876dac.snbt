@@ -1,0 +1,29 @@
+{
+	title: "両方とも一つは組み込みましょう",
+	x: 14.0d,
+	y: 6.0d,
+	description: "ME Fluid Discretizer / ME Fluid Packet Decoder",
+	text: [
+		"ME液体ディスクレタイザは液体と液体を雫としてアイテム化します。この雫を指定することで液体を用いた自動加工リクエストを行うことができます。",
+		"",
+		"ME液体パケットデコーダーはクラフトに失敗した際に再び液体化してME倉庫へ戻してくれます。"
+	],
+	dependencies: [
+		"40368ce5"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "fc877c7b",
+		type: "item",
+		items: [{
+			item: "ae2fc:fluid_discretizer"
+		}]
+	},
+	{
+		uid: "b63eaf83",
+		type: "item",
+		items: [{
+			item: "ae2fc:fluid_packet_decoder"
+		}]
+	}]
+}

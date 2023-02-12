@@ -1,0 +1,28 @@
+{
+	title: "どれにしようかな",
+	x: 22.0d,
+	y: 4.0d,
+	description: "ME Fluid Assembler",
+	text: [
+		"ME Fluid AssemblerはMolecular Assemblerの液体版です。",
+		"",
+		"また見た目は完全に一緒で分かりずらいですが二種類存在します。",
+		"一つはAE Additionsで、もう一つはAE2 Fluid Crafting Reworkです。",
+		"",
+		"基本的な動作は同じなので好きな方を使いましょう。"
+	],
+	dependencies: [
+		"e27585b7"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "9645c08e",
+		type: "item",
+		items: [{
+			item: "aeadditions:fluidcrafter"
+		},
+		{
+			item: "ae2fc:fluid_assembler"
+		}]
+	}]
+}

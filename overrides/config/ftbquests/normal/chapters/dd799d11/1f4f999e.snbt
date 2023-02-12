@@ -1,21 +1,18 @@
 {
-	title: "クォーツの多様化",
+	title: "水に投げ込まなくてよい",
 	icon: "appliedenergistics2:material 1 7",
 	x: 2.0d,
 	y: 0.0d,
 	shape: "diamond",
-	description: "Charged Certus Quartz Crystal / Fluix Crystal",
+	description: "Charged Certus Quartz Dust / Fluix Dust",
 	text: [
 		"前置きはここまでにして、早速最初の中間素材である加工クォーツを作りましょう。",
 		"",
 		"チャージドケルタスクォーツはケルタスクォーツを電解することで作れます。",
-		"ケルタスクォーツが粉でも液体でも同じレシピが利用できます。",
-		"",
-		"フルーシュはミキサーでチャージドケルタスクォーツと赤石とネザークォーツの粉を混ぜ、",
-		"オートクレーブにかけることで作成できます。",
+		"フルーシュはミキサーでチャージドケルタスクォーツと赤石とネザークォーツの粉を混ぜ、オートクレーブにかけることで作成できます。",
 		"",
 		"余談：少し前までフルーシュは粉ではないチャージドケルタスクォーツを赤石とネザークォーツと混ぜるレシピもあったが、",
-		"粉の作成数がGT基準の材料数に応じた作成数へ修正した一環で削除された。"
+		"粉の作成数がGT基準の材料数に増加された一環で削除された。"
 	],
 	dependencies: [
 		"28bed37e"
@@ -26,9 +23,6 @@
 		uid: "497591d9",
 		type: "item",
 		items: [{
-			item: "appliedenergistics2:material 1 1"
-		},
-		{
 			item: "gregtech:meta_dust 1 32118"
 		}]
 	},
@@ -36,9 +30,6 @@
 		uid: "693a4a28",
 		type: "item",
 		items: [{
-			item: "appliedenergistics2:material 1 7"
-		},
-		{
 			item: "gregtech:meta_dust 1 32117"
 		}]
 	}]

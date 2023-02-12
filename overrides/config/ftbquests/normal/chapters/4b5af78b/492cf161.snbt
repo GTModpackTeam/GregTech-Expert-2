@@ -91,29 +91,16 @@
 		uid: "f2876961",
 		type: "item",
 		items: [{
-			id: "gregtech:meta_tool",
-			Damage: 17s,
+			id: "itemfilters:filter",
 			tag: {
-				GT.ToolStats: {
-					Material: "iron"
+				display: {
+					Name: "Any toolScythe"
 				}
-			}
-		},
-		{
-			id: "gregtech:meta_tool",
-			Damage: 17s,
-			tag: {
-				GT.ToolStats: {
-					Material: "bronze"
-				}
-			}
-		},
-		{
-			id: "gregtech:meta_tool",
-			Damage: 17s,
-			tag: {
-				GT.ToolStats: {
-					Material: "wrought_iron"
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "toolScythe"
 				}
 			}
 		}],
@@ -123,41 +110,16 @@
 		uid: "946ce753",
 		type: "item",
 		items: [{
-			id: "gregtech:meta_tool",
-			Damage: 16s,
+			id: "itemfilters:filter",
 			tag: {
-				ench: [{
-					lvl: 3s,
-					id: 21
-				}],
-				GT.ToolStats: {
-					Material: "iron"
+				display: {
+					Name: "Any craftingToolButcheryKnife"
 				}
-			}
-		},
-		{
-			id: "gregtech:meta_tool",
-			Damage: 16s,
-			tag: {
-				ench: [{
-					lvl: 3s,
-					id: 21
-				}],
-				GT.ToolStats: {
-					Material: "bronze"
-				}
-			}
-		},
-		{
-			id: "gregtech:meta_tool",
-			Damage: 16s,
-			tag: {
-				ench: [{
-					lvl: 3s,
-					id: 21
-				}],
-				GT.ToolStats: {
-					Material: "wrought_iron"
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolButcheryKnife"
 				}
 			}
 		}],
@@ -167,48 +129,16 @@
 		uid: "2004f2ca",
 		type: "item",
 		items: [{
-			id: "gregtech:meta_tool",
-			Damage: 15s,
-			tag: {
-				GT.ToolStats: {
-					Material: "iron"
-				}
-			}
-		},
-		{
-			id: "gregtech:meta_tool",
-			Damage: 15s,
-			tag: {
-				GT.ToolStats: {
-					Material: "bronze"
-				}
-			}
-		},
-		{
-			id: "gregtech:meta_tool",
-			Damage: 15s,
-			tag: {
-				GT.ToolStats: {
-					Material: "wrought_iron"
-				}
-			}
-		}],
-		ignore_nbt: 1b
-	},
-	{
-		uid: "74318471",
-		type: "item",
-		items: [{
 			id: "itemfilters:filter",
 			tag: {
 				display: {
-					Name: "Any craftingToolBranchCutter"
+					Name: "Any craftingToolButcheryKnife"
 				}
 			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
-					data: "craftingToolBranchCutter"
+					data: "craftingToolButcheryKnife"
 				}
 			}
 		}],
@@ -221,13 +151,13 @@
 			id: "itemfilters:filter",
 			tag: {
 				display: {
-					Name: "Any craftingToolPlunger"
+					Name: "Any toolPlunger"
 				}
 			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
-					data: "craftingToolPlunger"
+					data: "toolPlunger"
 				}
 			}
 		}],
@@ -237,7 +167,18 @@
 		uid: "67a1e0f8",
 		type: "item",
 		items: [{
-			item: "minecraft:shears"
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any toolShears"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "toolShears"
+				}
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
