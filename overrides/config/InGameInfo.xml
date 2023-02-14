@@ -199,11 +199,11 @@
                 <and>
                     <equal>
                         <var>chunkoffsetx</var>
-                        <num>7</num>
+                        <num>8</num>
                     </equal>
                     <equal>
                         <var>chunkoffsetz</var>
-                        <num>7</num>
+                        <num>8</num>
                     </equal>
                 </and>
                 <concat>
@@ -244,7 +244,7 @@
                         </and>
                         <str>      </str>
                     </if>
-                    <str>  You are at the {darkred}center {white}of the chunk.</str>
+                    <str>  You are at the {red}center {white}of the chunk.</str>
                 </concat>
             </if>
         </line>
