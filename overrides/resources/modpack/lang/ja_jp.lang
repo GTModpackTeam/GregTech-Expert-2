@@ -31,6 +31,7 @@ modpack.ae2.p2p_redstone.tooltip.1=レッドストーンを持ってME P2P Tunne
 
 # Minecraft
 modpack.minecraft.tools.tooltip.1=クラフト材料にのみ使用できます。
+modpack.deprecated.tooltip.1=このアイテムは廃止されました。新しいアイテムに移行してください。
 
 # Mega Torch
 modpack.torchmaster.mega_torch.tooltip.1=このModpackでは128ブロックの範囲がある。

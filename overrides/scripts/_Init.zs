@@ -63,62 +63,6 @@ global vacuum_freezer            as RecipeMap = RecipeMap.getByName("vacuum_free
 global wiremill                  as RecipeMap = RecipeMap.getByName("wiremill");
 
 
-# Tools
-<ore:gtce.tool.wrench>.addItems([
-    <gregtech:wrench>.withEmptyTag(),
-    <gregtech:wrench_lv>.withEmptyTag(),
-    <gregtech:wrench_hv>.withEmptyTag(),
-    <gregtech:wrench_iv>.withEmptyTag()
-]);
-
-<ore:gtce.tool.screwdriver>.addItems([
-    <gregtech:screwdriver>.withEmptyTag(),
-    <gregtech:screwdriver_lv>.withEmptyTag()
-]);
-
-<ore:gtce.tool.hammer>.addItems([
-    <gregtech:hammer>.withEmptyTag()
-]);
-
-<ore:gtce.tool.saw>.addItems([
-    <gregtech:saw>.withEmptyTag(),
-    <gregtech:chainsaw_lv>.withEmptyTag(),
-    <gregtech:buzzsaw>.withEmptyTag()
-]);
-
-<ore:gtce.tool.file>.addItems([
-    <gregtech:file>.withEmptyTag()
-]);
-
-<ore:gtce.tool.cutter>.addItems([
-    <gregtech:wire_cutter>.withEmptyTag()
-]);
-
-<ore:gtce.tool.mallet>.addItems([
-    <gregtech:mallet>.withEmptyTag()
-]);
-
-<ore:gtce.tool.mortar>.addItems([
-    <gregtech:mortar>.withEmptyTag()
-]);
-
-<ore:gtce.tool.shovel>.addItems([
-    <gregtech:shovel>.withEmptyTag(),
-    <gregtech:drill_lv>.withEmptyTag(),
-    <gregtech:drill_mv>.withEmptyTag(),
-    <gregtech:drill_hv>.withEmptyTag(),
-    <gregtech:drill_ev>.withEmptyTag(),
-    <gregtech:drill_iv>.withEmptyTag(),
-    <gregtech:spade>.withEmptyTag()
-]);
-
-<ore:gtce.tool.knife>.addItems([
-    <gregtech:knife>.withEmptyTag(),
-    <gregtechfoodoption:butchery_knife.hv>.withEmptyTag()
-]);
-
-
-
 ########################################
 # Applied Energistics 2
 ########################################

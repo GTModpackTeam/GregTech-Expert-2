@@ -10,8 +10,8 @@ import mods.jei.JEI;
 recipes.remove(<catwalks:blowtorch>);
 recipes.addShaped(<catwalks:blowtorch>, [
     [null, <metaitem:screwSteel>, <minecraft:flint_and_steel>],
-    [<ore:gtce.tool.screwdriver>, <metaitem:stickLongSteel>, <metaitem:screwSteel>],
-    [<metaitem:stickLongSteel>, <ore:gtce.tool.wrench>, null]
+    [<ore:craftingToolScrewdriver>, <metaitem:stickLongSteel>, <metaitem:screwSteel>],
+    [<metaitem:stickLongSteel>, <ore:craftingToolWrench>, null]
 ]);
 
 
@@ -36,8 +36,8 @@ assembler.recipeBuilder()
     .circuit(7)
     .inputs([
         <metaitem:frameDarkSteel>,
-        <metaitem:screwDarkSteel> * 2,
-        <metaitem:stickLongDarkSteel> * 4
+        <ore:screwDarkSteel> * 2,
+        <ore:stickLongDarkSteel> * 4
     ])
     .outputs([<catwalks:catwalk>.withTag({material: "classic"}) * 16])
     .duration(20)
@@ -70,7 +70,7 @@ assembler.recipeBuilder()
     .inputs([
         <metaitem:frameDarkSteel>,
         <metaitem:plateGlass> * 3,
-        <metaitem:stickLongDarkSteel> * 4
+        <ore:stickLongDarkSteel> * 4
     ])
     .outputs([<catwalks:catwalk>.withTag({material: "glass"}) * 16])
     .duration(20)
@@ -95,7 +95,7 @@ assembler.recipeBuilder()
     .inputs([
         <metaitem:frameTreatedWood>,
         <metaitem:plateTreatedWood> * 3,
-        <metaitem:stickLongDarkSteel> * 4
+        <ore:stickLongDarkSteel> * 4
     ])
     .outputs([<catwalks:catwalk>.withTag({material: "treated_wood"}) * 16])
     .duration(20)
@@ -120,7 +120,7 @@ assembler.recipeBuilder()
     .circuit(7)
     .inputs([
         <enderio:block_dark_steel_ladder>,
-        <metaitem:stickLongDarkSteel> * 4
+        <ore:stickLongDarkSteel> * 4
     ])
     .outputs([<catwalks:ladder> * 32])
     .duration(20)
@@ -138,7 +138,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 assembler.recipeBuilder()
     .circuit(9)
-    .inputs([<metaitem:stickLongDarkSteel> * 3])
+    .inputs([<ore:stickLongDarkSteel> * 3])
     .outputs([<catwalks:cable> * 32])
     .duration(20)
     .EUt(7)

@@ -33,6 +33,7 @@ modpack.ae2.p2p_redstone.tooltip.1=Made by right-clicking ME P2P Tunnel with red
 
 # Minecraft
 modpack.minecraft.tools.tooltip.1=It can only be used for crafting materials.
+modpack.deprecated.tooltip.1=This item is deprecated. Please move to the new item.
 
 # Mega Torch
 modpack.torchmaster.mega_torch.tooltip.1=In this modpack, there is a range of 128 blocks.

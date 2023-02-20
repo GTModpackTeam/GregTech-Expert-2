@@ -28,14 +28,14 @@ JEI.removeAndHide(<aeadditions:terminal.fluid.wireless>);
 # Advanced Storage Housing
 recipes.remove(<aeadditions:storage.casing>);
 recipes.addShaped(<aeadditions:storage.casing>, [
-    [<ore:gtce.tool.screwdriver>, <metaitem:plateTungstenSteel>, <metaitem:screwTungstenSteel>],
+    [<ore:craftingToolScrewdriver>, <metaitem:plateTungstenSteel>, <metaitem:screwTungstenSteel>],
     [<metaitem:plateTungstenSteel>, null, <metaitem:plateTungstenSteel>],
-    [<metaitem:screwTungstenSteel>, <metaitem:plateTungstenSteel>, <ore:gtce.tool.hammer>]
+    [<metaitem:screwTungstenSteel>, <metaitem:plateTungstenSteel>, <ore:craftingToolHardHammer>]
 ]);
 recipes.addShaped(<aeadditions:storage.casing>, [
-    [<ore:gtce.tool.hammer>, <metaitem:plateTungstenSteel>, <metaitem:screwTungstenSteel>],
+    [<ore:craftingToolHardHammer>, <metaitem:plateTungstenSteel>, <metaitem:screwTungstenSteel>],
     [<metaitem:plateTungstenSteel>, null, <metaitem:plateTungstenSteel>],
-    [<metaitem:screwTungstenSteel>, <metaitem:plateTungstenSteel>, <ore:gtce.tool.screwdriver>]
+    [<metaitem:screwTungstenSteel>, <metaitem:plateTungstenSteel>, <ore:craftingToolScrewdriver>]
 ]);
 assembler.recipeBuilder()
     .circuit(3)
@@ -51,14 +51,14 @@ assembler.recipeBuilder()
 # Fluid Housing
 recipes.remove(<aeadditions:storage.casing:1>);
 recipes.addShaped(<aeadditions:storage.casing:1>, [
-    [<ore:gtce.tool.screwdriver>, <metaitem:plateStainlessSteel>, <metaitem:screwStainlessSteel>],
+    [<ore:craftingToolScrewdriver>, <metaitem:plateStainlessSteel>, <metaitem:screwStainlessSteel>],
     [<metaitem:plateStainlessSteel>, null, <metaitem:plateStainlessSteel>],
-    [<metaitem:screwStainlessSteel>, <metaitem:plateStainlessSteel>, <ore:gtce.tool.hammer>]
+    [<metaitem:screwStainlessSteel>, <metaitem:plateStainlessSteel>, <ore:craftingToolHardHammer>]
 ]);
 recipes.addShaped(<aeadditions:storage.casing:1>, [
-    [<ore:gtce.tool.hammer>, <metaitem:plateStainlessSteel>, <metaitem:screwStainlessSteel>],
+    [<ore:craftingToolHardHammer>, <metaitem:plateStainlessSteel>, <metaitem:screwStainlessSteel>],
     [<metaitem:plateStainlessSteel>, null, <metaitem:plateStainlessSteel>],
-    [<metaitem:screwStainlessSteel>, <metaitem:plateStainlessSteel>, <ore:gtce.tool.screwdriver>]
+    [<metaitem:screwStainlessSteel>, <metaitem:plateStainlessSteel>, <ore:craftingToolScrewdriver>]
 ]);
 assembler.recipeBuilder()
     .circuit(3)
