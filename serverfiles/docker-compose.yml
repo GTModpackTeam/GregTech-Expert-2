@@ -13,10 +13,10 @@ services:
       CF_SLUG: gregtech-expert-2
       # Get the ID of the Server version from CF. The following is an example and specifies v2.0.3.
       # https://www.curseforge.com/minecraft/modpacks/gregtech-expert-2/files
-      CF_FILE_ID: 4312480
+      CF_FILE_ID: 
       REMOVE_OLD_MODS: true
       # Default RAM allocation
-      MEMORY: 4G
+      MEMORY: 2G
       OPS: Honon
     volumes:
       - ./data:/data
@@ -27,4 +27,4 @@ services:
     deploy:
       resources:
         limits:
-          memory: 4.5G
+          memory: 8G

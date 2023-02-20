@@ -56,7 +56,7 @@ jobs:
       - name: Archive Release Server
         run: |
           mv -vf .minecraft/* ./
-          zip -r ./GTExpert2-${{ env.VERSION }}-${{ env.LEVEL }}-server.zip ./bansoukou/ ./config/ ./local/ ./mods/ ./resources/ ./scripts/
+          zip -r ./GTExpert2-${{ env.VERSION }}-${{ env.LEVEL }}-server.zip ./serverfiles ./bansoukou/ ./config/ ./local/ ./mods/ ./resources/ ./scripts/
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v1
