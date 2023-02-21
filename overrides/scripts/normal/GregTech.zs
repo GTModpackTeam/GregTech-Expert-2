@@ -262,9 +262,6 @@ chemical_reactor.recipeBuilder()
     .EUt(7680)
     .buildAndRegister();
 
-# Fluix Crystal
-<ore:gemFluix>.addItems([<appliedenergistics2:material:7>]);
-
 
 
 ########################################

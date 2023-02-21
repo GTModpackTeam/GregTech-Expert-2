@@ -44,36 +44,6 @@ if (!isNull(ae2)) {
 ########################################
 # Items
 ########################################
-# Certus Quartz Dust
-<ore:dustCertusQuartz>.remove(<appliedenergistics2:material:2>);
-JEI.hide(<appliedenergistics2:material:2>);
-
-# Nether Quartz Dust
-<ore:dustNetherQuartz>.remove(<appliedenergistics2:material:3>);
-<ore:dustQuartz>.remove(<appliedenergistics2:material:3>);
-JEI.hide(<appliedenergistics2:material:3>);
-
-# Fluix Dust
-<ore:dustFluix>.remove(<appliedenergistics2:material:8>);
-JEI.hide(<appliedenergistics2:material:8>);
-
-# Ender Dust
-<ore:dustEnder>.remove(<appliedenergistics2:material:46>);
-<ore:dustEnderPearl>.remove(<appliedenergistics2:material:46>);
-JEI.hide(<appliedenergistics2:material:46>);
-
-# Iron Dust
-<ore:dustIron>.remove(<appliedenergistics2:material:49>);
-JEI.hide(<appliedenergistics2:material:49>);
-
-# Gold Dust
-<ore:dustGold>.remove(<appliedenergistics2:material:51>);
-JEI.hide(<appliedenergistics2:material:51>);
-
-# Wooden Gear
-JEI.removeAndHide(<appliedenergistics2:material:40>);
-<ore:gearWood>.remove(<appliedenergistics2:material:40>);
-
 # Network Tool
 recipes.remove(<appliedenergistics2:network_tool>);
 recipes.addShapeless(<appliedenergistics2:network_tool>, [
