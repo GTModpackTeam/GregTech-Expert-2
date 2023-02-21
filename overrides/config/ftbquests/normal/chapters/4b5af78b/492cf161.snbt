@@ -1,5 +1,5 @@
 {
-	title: "お母さんが使ってそうな道具ベスト8",
+	title: "お母さんが使ってそうな道具ベスト7",
 	x: 16.0d,
 	y: -4.0d,
 	description: "NotSoImportantTools",
@@ -28,10 +28,6 @@
 		"・ナイフ",
 		"ナイフはゴムをリングにしたりなどいくつかのレシピで要求されます。",
 		"主に電気時代以降に出番があります。",
-		"",
-		"・枝切りばさみ",
-		"ブランチカッターは葉ブロックを高速で破壊することができます。",
-		"実はハサミと殆ど同じ機能ですが羊毛は刈れません。",
 		"",
 		"・ラバーカップ",
 		"ラバーカップは機械に右クリックすることで使用でき、",
@@ -132,13 +128,13 @@
 			id: "itemfilters:filter",
 			tag: {
 				display: {
-					Name: "Any craftingToolButcheryKnife"
+					Name: "Any craftingToolKnife"
 				}
 			},
 			ForgeCaps: {
 				Parent: {
 					id: "ore",
-					data: "craftingToolButcheryKnife"
+					data: "craftingToolKnife"
 				}
 			}
 		}],
