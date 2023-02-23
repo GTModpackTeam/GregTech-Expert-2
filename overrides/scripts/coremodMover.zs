@@ -21,6 +21,16 @@ recipes.addShapeless(<gregtech:meta_dust_small:24103>, [<gregtech:meta_dust_smal
 // <ore:dustElectricalSteel> <---> <metaitem:dustElectricalSteel>
 recipes.addShapeless(<gregtech:meta_dust:24103>, [<gregtech:meta_dust:32100>]);
 <gregtech:meta_dust:32100>.addTooltip(format.red(I18n.format("modpack.deprecated.tooltip.1")));
+mixer.recipeBuilder()
+    .inputs([
+        <metaitem:dustSteel>,
+        <metaitem:dustCoal>,
+        <metaitem:dustSilicon>
+    ])
+    .outputs([<gregtech:meta_dust:24103> * 3])
+    .duration(40)
+    .EUt(480)
+    .buildAndRegister();
 
 // Nugget
 // <ore:nuggetElectricalSteel> <---> <metaitem:nuggetElectricalSteel>
@@ -80,6 +90,16 @@ recipes.addShapeless(<gregtech:meta_dust_small:24104>, [<gregtech:meta_dust_smal
 // <ore:dustEnergeticAlloy> <---> <metaitem:dustEnergeticAlloy>
 recipes.addShapeless(<gregtech:meta_dust:24104>, [<gregtech:meta_dust:32101>]);
 <gregtech:meta_dust:32101>.addTooltip(format.red(I18n.format("modpack.deprecated.tooltip.1")));
+mixer.recipeBuilder()
+    .inputs([
+        <minecraft:redstone>,
+        <metaitem:dustGold>,
+        <minecraft:glowstone_dust>
+    ])
+    .outputs([<gregtech:meta_dust:24104> * 3])
+    .duration(40)
+    .EUt(480)
+    .buildAndRegister();
 
 // Nugget
 // <ore:nuggetEnergeticAlloy> <---> <metaitem:nuggetEnergeticAlloy>
@@ -134,6 +154,15 @@ recipes.addShapeless(<gregtech:meta_dust_small:24105>, [<gregtech:meta_dust_smal
 // <ore:dustVibrantAlloy> <---> <metaitem:dustVibrantAlloy>
 recipes.addShapeless(<gregtech:meta_dust:24105>, [<gregtech:meta_dust:32102>]);
 <gregtech:meta_dust:32102>.addTooltip(format.red(I18n.format("modpack.deprecated.tooltip.1")));
+mixer.recipeBuilder()
+    .inputs([
+        <metaitem:dustEnergeticAlloy>,
+        <metaitem:dustEnderPearl>
+    ])
+    .outputs([<gregtech:meta_dust:24105> * 2])
+    .duration(40)
+    .EUt(480)
+    .buildAndRegister();
 
 // Nugget
 // <ore:nuggetVibrantAlloy> <---> <metaitem:nuggetVibrantAlloy>
@@ -188,6 +217,15 @@ recipes.addShapeless(<gregtech:meta_dust_small:24106>, [<gregtech:meta_dust_smal
 // <ore:dustRedstoneAlloy> <---> <metaitem:dustRedstoneAlloy>
 recipes.addShapeless(<gregtech:meta_dust:24106>, [<gregtech:meta_dust:32103>]);
 <gregtech:meta_dust:32103>.addTooltip(format.red(I18n.format("modpack.deprecated.tooltip.1")));
+mixer.recipeBuilder()
+    .inputs([
+        <metaitem:dustRedAlloy>,
+        <metaitem:dustSilicon>
+    ])
+    .outputs([<gregtech:meta_dust:24106> * 2])
+    .duration(40)
+    .EUt(480)
+    .buildAndRegister();
 
 // Nugget
 // <ore:nuggetRedstoneAlloy> <---> <metaitem:nuggetRedstoneAlloy>
@@ -227,6 +265,16 @@ recipes.addShapeless(<gregtech:meta_dust_small:24107>, [<gregtech:meta_dust_smal
 // <ore:dustConductiveIron> <---> <metaitem:dustConductiveIron>
 recipes.addShapeless(<gregtech:meta_dust:24107>, [<gregtech:meta_dust:32104>]);
 <gregtech:meta_dust:32104>.addTooltip(format.red(I18n.format("modpack.deprecated.tooltip.1")));
+mixer.recipeBuilder()
+    .inputs([
+        <metaitem:dustIron>,
+        <metaitem:dustRedstoneAlloy>
+    ])
+    .outputs([<gregtech:meta_dust:24107> * 2])
+    .duration(40)
+    .EUt(480)
+    .buildAndRegister();
+
 
 // Nugget
 // <ore:nuggetConductiveIron> <---> <metaitem:nuggetConductiveIron>
@@ -266,6 +314,15 @@ recipes.addShapeless(<gregtech:meta_dust_small:24108>, [<gregtech:meta_dust_smal
 // <ore:dustPulsatingIron> <---> <metaitem:dustPulsatingIron>
 recipes.addShapeless(<gregtech:meta_dust:24108>, [<gregtech:meta_dust:32105>]);
 <gregtech:meta_dust:32105>.addTooltip(format.red(I18n.format("modpack.deprecated.tooltip.1")));
+mixer.recipeBuilder()
+    .inputs([
+        <metaitem:dustIron>,
+        <metaitem:dustEnderPearl>,
+    ])
+    .outputs([<gregtech:meta_dust:24108> * 2])
+    .duration(40)
+    .EUt(480)
+    .buildAndRegister();
 
 // Nugget
 // <ore:nuggetPulsatingIron> <---> <metaitem:nuggetPulsatingIron>
@@ -310,6 +367,16 @@ recipes.addShapeless(<gregtech:meta_dust_small:24109>, [<gregtech:meta_dust_smal
 // <ore:dustDarkSteel> <---> <metaitem:dustDarkSteel>
 recipes.addShapeless(<gregtech:meta_dust:24109>, [<gregtech:meta_dust:32106>]);
 <gregtech:meta_dust:32106>.addTooltip(format.red(I18n.format("modpack.deprecated.tooltip.1")));
+mixer.recipeBuilder()
+    .inputs([
+        <metaitem:dustIron>,
+        <metaitem:dustCoal>,
+        <metaitem:dustObsidian>
+    ])
+    .outputs([<gregtech:meta_dust:24109> * 3])
+    .duration(40)
+    .EUt(480)
+    .buildAndRegister();
 
 // Nugget
 // <ore:nuggetDarkSteel> <---> <metaitem:nuggetDarkSteel>
@@ -374,6 +441,16 @@ recipes.addShapeless(<gregtech:meta_dust_small:24110>, [<gregtech:meta_dust_smal
 // <ore:dustSoularium> <---> <metaitem:dustSoularium>
 recipes.addShapeless(<gregtech:meta_dust:24110>, [<gregtech:meta_dust:32107>]);
 <gregtech:meta_dust:32107>.addTooltip(format.red(I18n.format("modpack.deprecated.tooltip.1")));
+mixer.recipeBuilder()
+    .inputs([
+        <metaitem:dustGold>,
+        <metaitem:dustAsh>,
+        <metaitem:dustSoulSand>
+    ])
+    .outputs([<gregtech:meta_dust:24110> * 3])
+    .duration(40)
+    .EUt(480)
+    .buildAndRegister();
 
 // Nugget
 // <ore:nuggetSoularium> <---> <metaitem:nuggetSoularium>
@@ -413,6 +490,16 @@ recipes.addShapeless(<gregtech:meta_dust_small:24111>, [<gregtech:meta_dust_smal
 // <ore:dustEndSteel> <---> <metaitem:dustEndSteel>
 recipes.addShapeless(<gregtech:meta_dust:24111>, [<gregtech:meta_dust:32108>]);
 <gregtech:meta_dust:32108>.addTooltip(format.red(I18n.format("modpack.deprecated.tooltip.1")));
+mixer.recipeBuilder()
+    .inputs([
+        <metaitem:dustEndstone>,
+        <metaitem:dustDarkSteel>,
+        <metaitem:dustObsidian>
+    ])
+    .outputs([<gregtech:meta_dust:24111> * 3])
+    .duration(40)
+    .EUt(1920)
+    .buildAndRegister();
 
 // Nugget
 // <ore:nuggetEndSteel> <---> <metaitem:nuggetEndSteel>
@@ -472,6 +559,16 @@ recipes.addShapeless(<gregtech:meta_dust_small:24112>, [<gregtech:meta_dust_smal
 // <ore:dustConstructionAlloy> <---> <metaitem:dustConstructionAlloy>
 recipes.addShapeless(<gregtech:meta_dust:24112>, [<gregtech:meta_dust:32109>]);
 <gregtech:meta_dust:32109>.addTooltip(format.red(I18n.format("modpack.deprecated.tooltip.1")));
+mixer.recipeBuilder()
+    .inputs([
+        <metaitem:dustPlatinum>,
+        <metaitem:dustIron>,
+        <metaitem:dustAluminium>
+    ])
+    .outputs([<gregtech:meta_dust:24112> * 3])
+    .duration(40)
+    .EUt(1920)
+    .buildAndRegister();
 
 // Nugget
 // <ore:nuggetConstructionAlloy> <---> <metaitem:nuggetConstructionAlloy>
@@ -511,6 +608,17 @@ recipes.addShapeless(<gregtech:meta_dust_small:24113>, [<gregtech:meta_dust_smal
 // <ore:dustCrystallineAlloy> <---> <metaitem:dustCrystallineAlloy>
 recipes.addShapeless(<gregtech:meta_dust:24113>, [<gregtech:meta_dust:32111>]);
 <gregtech:meta_dust:32111>.addTooltip(format.red(I18n.format("modpack.deprecated.tooltip.1")));
+mixer.recipeBuilder()
+    .inputs([
+        <metaitem:dustGold>,
+        <metaitem:dustPlatinum>,
+        <metaitem:dustEmerald>,
+        <metaitem:dustVibrantAlloy>
+    ])
+    .outputs([<gregtech:meta_dust:24113> * 4])
+    .duration(40)
+    .EUt(1920)
+    .buildAndRegister();
 
 // Nugget
 // <ore:nuggetCrystallineAlloy> <---> <metaitem:nuggetCrystallineAlloy>
@@ -550,6 +658,15 @@ recipes.addShapeless(<gregtech:meta_dust_small:24114>, [<gregtech:meta_dust_smal
 // <ore:dustMelodicAlloy> <---> <metaitem:dustMelodicAlloy>
 recipes.addShapeless(<gregtech:meta_dust:24114>, [<gregtech:meta_dust:32112>]);
 <gregtech:meta_dust:32112>.addTooltip(format.red(I18n.format("modpack.deprecated.tooltip.1")));
+mixer.recipeBuilder()
+    .inputs([
+        <metaitem:dustEndSteel>,
+        <metaitem:dustChorusFruit>
+    ])
+    .outputs([<gregtech:meta_dust:24114> * 2])
+    .duration(40)
+    .EUt(1920)
+    .buildAndRegister();
 
 // Nugget
 // <ore:nuggetMelodicAlloy> <---> <metaitem:nuggetMelodicAlloy>
@@ -589,6 +706,16 @@ recipes.addShapeless(<gregtech:meta_dust_small:24115>, [<gregtech:meta_dust_smal
 // <ore:dustStellarAlloy> <---> <metaitem:dustStellarAlloy>
 recipes.addShapeless(<gregtech:meta_dust:24115>, [<gregtech:meta_dust:32113>]);
 <gregtech:meta_dust:32113>.addTooltip(format.red(I18n.format("modpack.deprecated.tooltip.1")));
+mixer.recipeBuilder()
+    .inputs([
+        <metaitem:dustNetherStar>,
+        <metaitem:dustMelodicAlloy>,
+        <metaitem:dustClay>
+    ])
+    .outputs([<gregtech:meta_dust:24115> * 3])
+    .duration(40)
+    .EUt(30720)
+    .buildAndRegister();
 
 // Nugget
 // <ore:nuggetStellarAlloy> <---> <metaitem:nuggetStellarAlloy>
@@ -633,6 +760,15 @@ recipes.addShapeless(<gregtech:meta_dust_small:24116>, [<gregtech:meta_dust_smal
 // <ore:dustCrystallinePinkSlime> <---> <metaitem:dustCrystallinePinkSlime>
 recipes.addShapeless(<gregtech:meta_dust:24116>, [<gregtech:meta_dust:32114>]);
 <gregtech:meta_dust:32114>.addTooltip(format.red(I18n.format("modpack.deprecated.tooltip.1")));
+mixer.recipeBuilder()
+    .inputs([
+        <metaitem:dustMelodicAlloy>,
+        <minecraft:slime_ball>
+    ])
+    .outputs([<gregtech:meta_dust:24116> * 2])
+    .duration(40)
+    .EUt(1920)
+    .buildAndRegister();
 
 // Nugget
 // <ore:nuggetCrystallinePinkSlime> <---> <metaitem:nuggetCrystallinePinkSlime>
@@ -672,6 +808,16 @@ recipes.addShapeless(<gregtech:meta_dust_small:24117>, [<gregtech:meta_dust_smal
 // <ore:dustEnergeticSilver> <---> <metaitem:dustEnergeticSilver>
 recipes.addShapeless(<gregtech:meta_dust:24117>, [<gregtech:meta_dust:32115>]);
 <gregtech:meta_dust:32115>.addTooltip(format.red(I18n.format("modpack.deprecated.tooltip.1")));
+mixer.recipeBuilder()
+    .inputs([
+        <metaitem:dustSilver>,
+        <minecraft:redstone>,
+        <minecraft:glowstone_dust>,
+    ])
+    .outputs([<gregtech:meta_dust:24117> * 3])
+    .duration(40)
+    .EUt(1920)
+    .buildAndRegister();
 
 // Nugget
 // <ore:nuggetEnergeticSilver> <---> <metaitem:nuggetEnergeticSilver>
@@ -711,6 +857,15 @@ recipes.addShapeless(<gregtech:meta_dust_small:24118>, [<gregtech:meta_dust_smal
 // <ore:dustVividAlloy> <---> <metaitem:dustVividAlloy>
 recipes.addShapeless(<gregtech:meta_dust:24118>, [<gregtech:meta_dust:32116>]);
 <gregtech:meta_dust:32116>.addTooltip(format.red(I18n.format("modpack.deprecated.tooltip.1")));
+mixer.recipeBuilder()
+    .inputs([
+        <metaitem:dustEnergeticSilver>,
+        <metaitem:dustEnderPearl>,
+    ])
+    .outputs([<gregtech:meta_dust:24118> * 2])
+    .duration(40)
+    .EUt(1920)
+    .buildAndRegister();
 
 // Nugget
 // <ore:nuggetVividAlloy> <---> <metaitem:nuggetVividAlloy>
@@ -745,6 +900,16 @@ recipes.addShapeless(<gregtech:meta_dust_small:24202>, [<gregtech:meta_dust_smal
 // <ore:dustFluix> <---> <metaitem:dustFluix>
 recipes.addShapeless(<gregtech:meta_dust:24202>, [<gregtech:meta_dust:32117>]);
 <gregtech:meta_dust:32117>.addTooltip(format.red(I18n.format("modpack.deprecated.tooltip.1")));
+mixer.recipeBuilder()
+    .inputs([
+        <metaitem:dustChargedCertusQuartz>,
+        <metaitem:dustChargedCertusQuartz>,
+        <metaitem:dustNetherQuartz>
+    ])
+    .outputs([<gregtech:meta_dust:24202> * 3])
+    .duration(200)
+    .EUt(480)
+    .buildAndRegister();
 
 // Plate
 // <ore:plateFluix> <---> <metaitem:plateFluix>
@@ -755,6 +920,12 @@ recipes.addShapeless(<gregtech:meta_plate:24202>, [<gregtech:meta_plate:32117>])
 // <ore:lensFluix> <---> <metaitem:lensFluix>
 recipes.addShapeless(<gregtech:meta_lens:24202>, [<gregtech:meta_lens:32117>]);
 <gregtech:meta_lens:32117>.addTooltip(format.red(I18n.format("modpack.deprecated.tooltip.1")));
+lathe.recipeBuilder()
+    .inputs([<metaitem:plateFluix>])
+    .outputs([<metaitem:lensFluix>, <gregtech:meta_lens:24202>])
+    .duration(600)
+    .EUt(120)
+    .buildAndRegister();
 
 
 ########################################
@@ -774,6 +945,18 @@ recipes.addShapeless(<gregtech:meta_dust_small:24201>, [<gregtech:meta_dust_smal
 // <ore:dustChargedCertusQuartz> <---> <metaitem:dustChargedCertusQuartz>
 recipes.addShapeless(<gregtech:meta_dust:24201>, [<gregtech:meta_dust:32118>]);
 <gregtech:meta_dust:32118>.addTooltip(format.red(I18n.format("modpack.deprecated.tooltip.1")));
+electrolyzer.recipeBuilder()
+    .inputs([<metaitem:dustCertusQuartz>])
+    .outputs([<gregtech:meta_dust:24201>])
+    .duration(20)
+    .EUt(30)
+    .buildAndRegister();
+macerator.recipeBuilder()
+    .inputs([<appliedenergistics2:material:1>])
+    .outputs([<gregtech:meta_dust:24201>])
+    .duration(20)
+    .EUt(2)
+    .buildAndRegister();
 
 // Plate
 // <ore:plateChargedCertusQuartz> <---> <metaitem:plateChargedCertusQuartz>
@@ -784,3 +967,12 @@ recipes.addShapeless(<gregtech:meta_plate:24201>, [<gregtech:meta_plate:32118>])
 // <ore:lensChargedCertusQuartz> <---> <metaitem:lensChargedCertusQuartz>
 recipes.addShapeless(<gregtech:meta_lens:24201>, [<gregtech:meta_lens:32118>]);
 <gregtech:meta_lens:32118>.addTooltip(format.red(I18n.format("modpack.deprecated.tooltip.1")));
+lathe.recipeBuilder()
+    .inputs([<metaitem:plateChargedCertusQuartz>])
+    .outputs([
+        <gregtech:meta_lens:24201>,
+        <metaitem:lensChargedCertusQuartz>
+    ])
+    .duration(600)
+    .EUt(120)
+    .buildAndRegister();
