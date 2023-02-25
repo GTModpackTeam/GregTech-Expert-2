@@ -5,7 +5,6 @@ import crafttweaker.oredict.IOreDictEntry;
 
 JEI.hideCategory("AlloySmelter");
 JEI.hideCategory("CombustionGenerator");
-JEI.hideCategory("EIOTank");
 JEI.hideCategory("LavaGenerator");
 JEI.hideCategory("SolarPanel");
 JEI.hideCategory("StirlingGenerator");

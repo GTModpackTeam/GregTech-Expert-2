@@ -2,6 +2,7 @@
 import mods.jei.JEI;
 import crafttweaker.mods.IMod;
 import crafttweaker.item.IItemStack;
+import mods.zenutils.I18n;
 
 val ec as IMod = loadedMods["aeadditions"];
 if (!isNull(ec)) {
@@ -19,6 +20,16 @@ if (!isNull(ec)) {
 ########################################
 # Items
 ########################################
+# Fluid Pattern
+recipes.remove(<aeadditions:pattern.fluid>);
+recipes.addShaped(<aeadditions:pattern.fluid>, [
+    [<metaitem:screwStainlessSteel>, <metaitem:plateStainlessSteel>, <ore:craftingToolHardHammer>],
+    [<metaitem:plateStainlessSteel>, <appliedenergistics2:quartz_glass>, <metaitem:plateStainlessSteel>],
+    [<ore:craftingToolScrewdriver>, <metaitem:plateStainlessSteel>, <metaitem:screwStainlessSteel>]
+]);
+JEI.addDescription(<aeadditions:pattern.fluid>, I18n.format("modpack.aeadditions.fluid_pattern.tooltip.1"));
+<aeadditions:pattern.fluid>.addTooltip(format.green(I18n.format("modpack.aeadditions.fluid_pattern.tooltip.1")));
+
 # Wireless Universal Terminal
 JEI.removeAndHide(<aeadditions:terminal.universal.wireless>);
 
