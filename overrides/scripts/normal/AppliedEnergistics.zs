@@ -1127,16 +1127,6 @@ for anchorIngot_x8 in anchorIngots_x8 {
         .buildAndRegister();
 }
 
-# Quartz Blocks
-JEI.removeAndHide(<appliedenergistics2:quartz_block>);
-JEI.removeAndHide(<appliedenergistics2:quartz_slab>);
-JEI.removeAndHide(<appliedenergistics2:quartz_stairs>);
-JEI.removeAndHide(<appliedenergistics2:quartz_pillar>);
-JEI.removeAndHide(<appliedenergistics2:quartz_pillar_slab>);
-JEI.removeAndHide(<appliedenergistics2:quartz_pillar_stairs>);
-JEI.removeAndHide(<appliedenergistics2:chiseled_quartz_block>);
-JEI.removeAndHide(<appliedenergistics2:chiseled_quartz_slab>);
-JEI.removeAndHide(<appliedenergistics2:chiseled_quartz_stairs>);
 
 # Quartz Fiber
 recipes.remove(<appliedenergistics2:part:140>);
