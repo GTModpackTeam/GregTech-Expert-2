@@ -1,5 +1,6 @@
 # Imports
 import mods.jei.JEI;
+import mods.zenutils.I18n;
 
 
 
@@ -8,19 +9,13 @@ import mods.jei.JEI;
 ########################################
 # Wireless Crafting Terminal
 recipes.remove(<wct:wct>);
-recipes.addShaped(<wct:wct>, [
-    [<appliedenergistics2:dense_energy_cell>, <appliedenergistics2:wireless_terminal>, <appliedenergistics2:dense_energy_cell>],
-    [<metaitem:sensor.luv>, <appliedenergistics2:part:360>, <metaitem:sensor.luv>],
-    [<metaitem:stickOsmiridium>, <metaitem:emitter.luv>, <metaitem:stickOsmiridium>]
-]);
+recipes.addShapeless(<wct:wct>, [<appliedenergistics2:wireless_crafting_terminal>]);
+<wct:wct>.addTooltip(format.red(I18n.format("modpack.deprecated.tooltip.1")));
 
 # Wireless Fluid Terminal
 recipes.remove(<wft:wft>);
-recipes.addShaped(<wft:wft>, [
-    [<appliedenergistics2:dense_energy_cell>, <appliedenergistics2:wireless_terminal>, <appliedenergistics2:dense_energy_cell>],
-    [<metaitem:sensor.iv>, <appliedenergistics2:part:520>, <metaitem:sensor.iv>],
-    [<metaitem:stickOsmiridium>, <metaitem:emitter.iv>, <metaitem:stickOsmiridium>]
-]);
+recipes.addShapeless(<wft:wft>, [<appliedenergistics2:wireless_fluid_terminal>]);
+<wft:wft>.addTooltip(format.red(I18n.format("modpack.deprecated.tooltip.1")));
 
 # Wireless Interface Terminal
 recipes.remove(<wit:wit>);
@@ -32,11 +27,8 @@ recipes.addShaped(<wit:wit>, [
 
 # Wireless Pattern Terminal
 recipes.remove(<wpt:wpt>);
-recipes.addShaped(<wpt:wpt>, [
-    [<appliedenergistics2:dense_energy_cell>, <appliedenergistics2:wireless_terminal>, <appliedenergistics2:dense_energy_cell>],
-    [<metaitem:sensor.iv>, <appliedenergistics2:part:340>, <metaitem:sensor.iv>],
-    [<metaitem:stickOsmiridium>, <metaitem:emitter.iv>, <metaitem:stickOsmiridium>]
-]);
+recipes.addShapeless(<wpt:wpt>, [<appliedenergistics2:wireless_pattern_terminal>]);
+<wpt:wpt>.addTooltip(format.red(I18n.format("modpack.deprecated.tooltip.1")));
 
 # Infinity Booster Card
 recipes.remove(<ae2wtlib:infinity_booster_card>);
@@ -48,8 +40,5 @@ recipes.addShaped(<ae2wtlib:infinity_booster_card>, [
 
 # Magnet Card
 recipes.remove(<wct:magnet_card>);
-recipes.addShaped(<wct:magnet_card>, [
-    [<metaitem:plateRedstone>, <appliedenergistics2:part:300>, <metaitem:plateLapis>],
-    [<metaitem:stickNeodymiumMagnetic>, <appliedenergistics2:material:28>, <metaitem:stickNeodymiumMagnetic>],
-    [<metaitem:stickNeodymiumMagnetic>, <metaitem:ingotNeodymiumMagnetic>, <metaitem:stickNeodymiumMagnetic>]
-]);
+recipes.addShapeless(<wct:magnet_card>, [<appliedenergistics2:material:60>]);
+<wct:magnet_card>.addTooltip(format.red(I18n.format("modpack.deprecated.tooltip.1")));

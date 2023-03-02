@@ -786,6 +786,33 @@ recipes.addShaped(<appliedenergistics2:wireless_terminal>, [
     [<metaitem:plateNetherQuartz>, <appliedenergistics2:dense_energy_cell>, <metaitem:plateNetherQuartz>]
 ]);
 
+# Wireless Crafting Terminal
+recipes.remove(<appliedenergistics2:wireless_crafting_terminal>);
+recipes.addShapeless(<appliedenergistics2:wireless_crafting_terminal>, [<wct:wct>]);
+recipes.addShaped(<appliedenergistics2:wireless_crafting_terminal>, [
+    [<appliedenergistics2:material:41>, <appliedenergistics2:part:360>, <appliedenergistics2:material:41>],
+    [<appliedenergistics2:material:24>, <metaitem:matrix_core>, <appliedenergistics2:material:24>],
+    [<metaitem:plateNetherQuartz>, <appliedenergistics2:dense_energy_cell>, <metaitem:plateNetherQuartz>]
+]);
+
+# Wireless Fluid Terminal
+recipes.remove(<appliedenergistics2:wireless_fluid_terminal>);
+recipes.addShapeless(<appliedenergistics2:wireless_fluid_terminal>, [<wft:wft>]);
+recipes.addShaped(<appliedenergistics2:wireless_fluid_terminal>, [
+    [<appliedenergistics2:material:41>, <appliedenergistics2:part:520>, <appliedenergistics2:material:41>],
+    [<appliedenergistics2:material:24>, <metaitem:matrix_core>, <appliedenergistics2:material:24>],
+    [<metaitem:plateNetherQuartz>, <appliedenergistics2:dense_energy_cell>, <metaitem:plateNetherQuartz>]
+]);
+
+# Wireless Pattern Terminal
+recipes.remove(<appliedenergistics2:wireless_pattern_terminal>);
+recipes.addShapeless(<appliedenergistics2:wireless_pattern_terminal>, [<wpt:wpt>]);
+recipes.addShaped(<appliedenergistics2:wireless_pattern_terminal>, [
+    [<appliedenergistics2:material:41>, <appliedenergistics2:part:340>, <appliedenergistics2:material:41>],
+    [<appliedenergistics2:material:24>, <metaitem:matrix_core>, <appliedenergistics2:material:24>],
+    [<metaitem:plateNetherQuartz>, <appliedenergistics2:dense_energy_cell>, <metaitem:plateNetherQuartz>]
+]);
+
 # Biometric Card
 recipes.remove(<appliedenergistics2:biometric_card>);
 recipes.addShaped(<appliedenergistics2:biometric_card>, [
@@ -845,7 +872,8 @@ recipes.addShaped(<appliedenergistics2:material:28>, [
 # Fuzzy Card
 recipes.remove(<appliedenergistics2:material:29>);
 recipes.addShaped(<appliedenergistics2:material:29>, [
-    [<appliedenergistics2:material:28>, <appliedenergistics2:material:24>, null],[<appliedenergistics2:material:22>, <appliedenergistics2:material:23>, null],
+    [<appliedenergistics2:material:28>, <appliedenergistics2:material:24>, null],
+    [<appliedenergistics2:material:22>, <appliedenergistics2:material:23>, null],
     [null, null, null]
 ]);
 
@@ -873,6 +901,22 @@ recipes.addShaped(<appliedenergistics2:material:30>, [
     [<appliedenergistics2:material:28>, <appliedenergistics2:material:24>, null],
     [<appliedenergistics2:material:22>, <ore:crystalFluix> | <ore:crystalPureFluix>, null],
     [null, null, null]
+]);
+
+# Magnet Card
+recipes.addShapeless(<appliedenergistics2:material:60>, [<wct:magnet_card>]);
+recipes.addShaped(<appliedenergistics2:material:60>, [
+    [<metaitem:plateRedstone>, <appliedenergistics2:part:300>, <metaitem:plateLapis>],
+    [<metaitem:stickNeodymiumMagnetic>, <appliedenergistics2:material:28>, <metaitem:stickNeodymiumMagnetic>],
+    [<metaitem:stickNeodymiumMagnetic>, null, <metaitem:stickNeodymiumMagnetic>]
+]);
+
+# Quantum Link Card
+recipes.remove(<appliedenergistics2:material:59>);
+recipes.addShaped(<appliedenergistics2:material:59>, [
+    [<appliedenergistics2:material:42>, <metaitem:cover.digital.wireless>, <appliedenergistics2:material:42>],
+    [<metaitem:sensor.ev>, <appliedenergistics2:material:28>, <metaitem:sensor.ev>],
+    [<appliedenergistics2:material:42>, null, <appliedenergistics2:material:42>]
 ]);
 
 # Fluix Pearl
@@ -1555,7 +1599,7 @@ recipes.addShaped(<appliedenergistics2:security_station>, [
 recipes.remove(<appliedenergistics2:quantum_ring>);
 recipes.addShaped(<appliedenergistics2:quantum_ring>, [
     [<metaitem:plateTitanium>, <appliedenergistics2:material:22>, <metaitem:plateTitanium>],
-    [<metaitem:matrix_core>, <metaitem:emitter.hv>, <ore:ae2.cable.glass>],
+    [<metaitem:matrix_core>, <metaitem:emitter.ev>, <ore:ae2.cable.glass>],
     [<metaitem:plateTitanium>, <appliedenergistics2:material:22>, <metaitem:plateTitanium>]
 ]);
 assembler.recipeBuilder()
@@ -1564,7 +1608,7 @@ assembler.recipeBuilder()
         <appliedenergistics2:material:22>,
         <ore:ae2.cable.glass>,
         <metaitem:matrix_core>,
-        <metaitem:emitter.hv>,
+        <metaitem:emitter.ev>,
         <metaitem:plateTitanium> * 2
     ])
     .outputs([<appliedenergistics2:quantum_ring>])
@@ -1576,13 +1620,13 @@ assembler.recipeBuilder()
 recipes.remove(<appliedenergistics2:quantum_link>);
 recipes.addShaped(<appliedenergistics2:quantum_link>, [
     [<metaitem:plateGlass>, <ore:pearlFluix>, <metaitem:plateGlass>],
-    [<ore:pearlFluix>, <metaitem:field.generator.hv>, <ore:pearlFluix>],
+    [<ore:pearlFluix>, <metaitem:field.generator.ev>, <ore:pearlFluix>],
     [<metaitem:plateGlass>, <ore:pearlFluix>, <metaitem:plateGlass>]
 ]);
 assembler.recipeBuilder()
     .circuit(1)
     .inputs([
-        <metaitem:field.generator.hv>,
+        <metaitem:field.generator.ev>,
         <ore:pearlFluix> * 2,
         <metaitem:plateGlass> * 2
     ])
@@ -1598,6 +1642,18 @@ recipes.addShaped(<appliedenergistics2:spatial_pylon>, [
     [<ore:dustFluix>, <ore:crystalFluix>, <ore:dustFluix>],
     [<metaitem:plateGlass>, <ore:ae2.cable.glass>, <metaitem:plateGlass>]
 ]);
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:plateGlass> * 2,
+        <ore:ae2.cable.glass> * 2,
+        <ore:dustFluix>,
+        <ore:crystalFluix>
+    ])
+    .outputs([<appliedenergistics2:spatial_pylon>])
+    .duration(100)
+    .EUt(1920)
+    .buildAndRegister();
 
 # ME IO Port
 recipes.remove(<appliedenergistics2:io_port>);
