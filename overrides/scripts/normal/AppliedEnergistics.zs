@@ -739,7 +739,7 @@ recipes.addShaped(<appliedenergistics2:nether_quartz_cutting_knife>, [
 recipes.remove(<appliedenergistics2:certus_quartz_wrench>);
 recipes.addShaped(<appliedenergistics2:certus_quartz_wrench>, [
     [<metaitem:plateCertusQuartz>, <ore:craftingToolHardHammer>, <metaitem:plateCertusQuartz>],
-    [<metaitem:plateCertusQuartz>, <metaitem:plateCertusQuartz>, <metaitem:plateCertusQuartz>],
+    [null, <metaitem:plateCertusQuartz>, null],
     [null, <metaitem:plateCertusQuartz>, null]
 ]);
 
@@ -747,7 +747,7 @@ recipes.addShaped(<appliedenergistics2:certus_quartz_wrench>, [
 recipes.remove(<appliedenergistics2:nether_quartz_wrench>);
 recipes.addShaped(<appliedenergistics2:nether_quartz_wrench>, [
     [<metaitem:plateNetherQuartz>, <ore:craftingToolHardHammer>, <metaitem:plateNetherQuartz>],
-    [<metaitem:plateNetherQuartz>, <metaitem:plateNetherQuartz>, <metaitem:plateNetherQuartz>],
+    [null, <metaitem:plateNetherQuartz>, null],
     [null, <metaitem:plateNetherQuartz>, null]
 ]);
 
