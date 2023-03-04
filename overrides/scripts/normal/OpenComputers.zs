@@ -10,6 +10,7 @@ if (!isNull(oc)) {
 
     for item in ocItems {
         if (
+            item.displayName has "Grog" |
             item.displayName has "Scrench" |
             item.displayName has "OpenComputers Manual" |
             item.displayName has "EEPROM" |
@@ -27,9 +28,10 @@ if (!isNull(oc)) {
             item.displayName has "Digger" |
             item.displayName has "Mazer" |
             item.displayName has "OpenIRC" |
-            item.displayName has "Block of Chamelium"
+            item.displayName has "Carpeted Capacitor" |
+            item.displayName has "Ink Cartridge"
         ) {}
-        # else { recipes.remove(item); }
+        else { recipes.remove(item); }
     }
 }
 
@@ -38,13 +40,30 @@ if (!isNull(oc)) {
 ########################################
 # Items
 ########################################
+# Ink Cartridge
+recipes.removeByRecipeName("opencomputers:material52");
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:circuit_board.plastic>,
+        <opencomputers:material:7>,
+        <opencomputers:material:6> * 2,
+        <metaitem:pipeTinyFluidPlastic> * 8,
+        <metaitem:boltElectrum> * 8
+    ])
+    .fluidInputs(<liquid:plastic> * 36)
+    .outputs([<opencomputers:material:26>])
+    .duration(100)
+    .EUt(120)
+    .buildAndRegister();
+
 # Analyzer
 circuit_assembler.recipeBuilder()
     .circuit(1)
     .inputs([
         <metaitem:tricorder_scanner>,
         <opencomputers:material:8> * 2,
-        <ore:componentTransistor> * 2,
+        <opencomputers:material:6> * 2,
         <metaitem:sensor.mv>
     ])
     .outputs([<opencomputers:tool>])
@@ -142,6 +161,124 @@ assembler.recipeBuilder()
     .EUt(1920)
     .buildAndRegister();
 
+# Battery Upgrade - Tier 1
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:circuit_board.plastic>,
+        <metaitem:plateAluminium> * 2,
+        <opencomputers:capacitor>,
+        <opencomputers:material:6> * 2,
+        <metaitem:boltRedAlloy> * 4
+    ])
+    .fluidInputs(<liquid:tin> * 144)
+    .outputs([<opencomputers:upgrade:1>])
+    .duration(100)
+    .EUt(120)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:circuit_board.plastic>,
+        <metaitem:plateAluminium> * 2,
+        <opencomputers:capacitor>,
+        <opencomputers:material:6> * 2,
+        <metaitem:boltRedAlloy> * 4
+    ])
+    .fluidInputs(<liquid:soldering_alloy> * 72)
+    .outputs([<opencomputers:upgrade:1>])
+    .duration(100)
+    .EUt(120)
+    .buildAndRegister();
+
+# Battery Upgrade - Tier 2
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:circuit_board.advanced>,
+        <metaitem:plateStainlessSteel> * 2,
+        <opencomputers:capacitor> * 2,
+        <ore:componentTransistor> * 2,
+        <metaitem:boltSilver> * 8
+    ])
+    .fluidInputs(<liquid:tin> * 144)
+    .outputs([<opencomputers:upgrade:2>])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:circuit_board.advanced>,
+        <metaitem:plateStainlessSteel> * 2,
+        <opencomputers:capacitor> * 2,
+        <ore:componentTransistor> * 2,
+        <metaitem:boltSilver> * 8
+    ])
+    .fluidInputs(<liquid:soldering_alloy> * 72)
+    .outputs([<opencomputers:upgrade:2>])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
+
+# Battery Upgrade - Tier 3
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:circuit_board.extreme>,
+        <metaitem:plateTungstenSteel> * 2,
+        <opencomputers:capacitor> * 4,
+        <metaitem:component.advanced_smd.transistor>,
+        <metaitem:boltElectrum> * 16
+    ])
+    .fluidInputs(<liquid:tin> * 144)
+    .outputs([<opencomputers:upgrade:3>])
+    .duration(100)
+    .EUt(1920)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:circuit_board.extreme>,
+        <metaitem:plateTungstenSteel> * 2,
+        <opencomputers:capacitor> * 4,
+        <metaitem:component.advanced_smd.transistor>,
+        <metaitem:boltElectrum> * 16
+    ])
+    .fluidInputs(<liquid:soldering_alloy> * 72)
+    .outputs([<opencomputers:upgrade:3>])
+    .duration(100)
+    .EUt(1920)
+    .buildAndRegister();
+
+# Chunkloader Upgrade
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:circuit_board.plastic>,
+        <metaitem:plateAluminium> * 2,
+        <chickenchunks:chunk_loader>,
+        <opencomputers:material:9>
+    ])
+    .fluidInputs(<liquid:tin> * 144)
+    .outputs([<opencomputers:upgrade:4>])
+    .duration(100)
+    .EUt(120)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:circuit_board.plastic>,
+        <metaitem:plateAluminium> * 2,
+        <chickenchunks:chunk_loader>,
+        <opencomputers:material:9>
+    ])
+    .fluidInputs(<liquid:soldering_alloy> * 72)
+    .outputs([<opencomputers:upgrade:4>])
+    .duration(100)
+    .EUt(120)
+    .buildAndRegister();
+
 # Arrow Keys
 assembler.recipeBuilder()
     .circuit(1)
@@ -212,7 +349,7 @@ circuit_assembler.recipeBuilder()
     .inputs([
         <metaitem:circuit_board.plastic>,
         <opencomputers:material:7>,
-        <ore:componentTransistor> * 4,
+        <opencomputers:material:6> * 4,
         <metaitem:foilElectrum>
     ])
     .fluidInputs(<liquid:tin> * 144)
@@ -225,7 +362,7 @@ circuit_assembler.recipeBuilder()
     .inputs([
         <metaitem:circuit_board.plastic>,
         <opencomputers:material:7>,
-        <ore:componentTransistor> * 4,
+        <opencomputers:material:6> * 4,
         <metaitem:foilElectrum>
     ])
     .fluidInputs(<liquid:soldering_alloy> * 72)
@@ -1150,7 +1287,7 @@ circuit_assembler.recipeBuilder()
     .inputs([
         <metaitem:circuit_board.good>,
         <ore:circuitLv>,
-        <ore:componentTransistor> * 4,
+        <opencomputers:material:6> * 4,
         <metaitem:foilElectrum> * 4
     ])
     .fluidInputs(<liquid:tin> * 144)
@@ -1163,33 +1300,7 @@ circuit_assembler.recipeBuilder()
     .inputs([
         <metaitem:circuit_board.good>,
         <ore:circuitLv>,
-        <ore:componentTransistor> * 4,
-        <metaitem:foilElectrum> * 4
-    ])
-    .fluidInputs(<liquid:soldering_alloy> * 72)
-    .outputs([<opencomputers:material:7>])
-    .duration(100)
-    .EUt(30)
-    .buildAndRegister();
-circuit_assembler.recipeBuilder()
-    .circuit(2)
-    .inputs([
-        <metaitem:circuit_board.good>,
-        <ore:circuitLv>,
-        <metaitem:component.advanced_smd.transistor>,
-        <metaitem:foilElectrum> * 4
-    ])
-    .fluidInputs(<liquid:tin> * 144)
-    .outputs([<opencomputers:material:7>])
-    .duration(100)
-    .EUt(30)
-    .buildAndRegister();
-circuit_assembler.recipeBuilder()
-    .circuit(2)
-    .inputs([
-        <metaitem:circuit_board.good>,
-        <ore:circuitLv>,
-        <metaitem:component.advanced_smd.transistor>,
+        <opencomputers:material:6> * 4,
         <metaitem:foilElectrum> * 4
     ])
     .fluidInputs(<liquid:soldering_alloy> * 72)
@@ -1204,7 +1315,7 @@ circuit_assembler.recipeBuilder()
     .inputs([
         <metaitem:circuit_board.plastic>,
         <ore:circuitMv>,
-        <ore:componentTransistor> * 8,
+        <opencomputers:material:6> * 8,
         <metaitem:foilElectrum> * 8
     ])
     .fluidInputs(<liquid:tin> * 144)
@@ -1217,33 +1328,7 @@ circuit_assembler.recipeBuilder()
     .inputs([
         <metaitem:circuit_board.plastic>,
         <ore:circuitMv>,
-        <ore:componentTransistor> * 8,
-        <metaitem:foilElectrum> * 8
-    ])
-    .fluidInputs(<liquid:soldering_alloy> * 72)
-    .outputs([<opencomputers:material:8>])
-    .duration(100)
-    .EUt(120)
-    .buildAndRegister();
-circuit_assembler.recipeBuilder()
-    .circuit(3)
-    .inputs([
-        <metaitem:circuit_board.plastic>,
-        <ore:circuitMv>,
-        <metaitem:component.advanced_smd.transistor> * 2,
-        <metaitem:foilElectrum> * 8
-    ])
-    .fluidInputs(<liquid:tin> * 144)
-    .outputs([<opencomputers:material:8>])
-    .duration(100)
-    .EUt(120)
-    .buildAndRegister();
-circuit_assembler.recipeBuilder()
-    .circuit(3)
-    .inputs([
-        <metaitem:circuit_board.plastic>,
-        <ore:circuitMv>,
-        <metaitem:component.advanced_smd.transistor> * 2,
+        <opencomputers:material:6> * 8,
         <metaitem:foilElectrum> * 8
     ])
     .fluidInputs(<liquid:soldering_alloy> * 72)
@@ -1258,7 +1343,7 @@ circuit_assembler.recipeBuilder()
     .inputs([
         <metaitem:circuit_board.advanced>,
         <ore:circuitHv>,
-        <ore:componentTransistor> * 16,
+        <ore:componentTransistor> * 8,
         <metaitem:foilElectrum> * 16
     ])
     .fluidInputs(<liquid:tin> * 144)
@@ -1271,33 +1356,7 @@ circuit_assembler.recipeBuilder()
     .inputs([
         <metaitem:circuit_board.advanced>,
         <ore:circuitHv>,
-        <ore:componentTransistor> * 16,
-        <metaitem:foilElectrum> * 16
-    ])
-    .fluidInputs(<liquid:soldering_alloy> * 72)
-    .outputs([<opencomputers:material:9>])
-    .duration(100)
-    .EUt(480)
-    .buildAndRegister();
-circuit_assembler.recipeBuilder()
-    .circuit(2)
-    .inputs([
-        <metaitem:circuit_board.advanced>,
-        <ore:circuitHv>,
-        <ore:componentTransistor> * 4,
-        <metaitem:foilElectrum> * 16
-    ])
-    .fluidInputs(<liquid:tin> * 144)
-    .outputs([<opencomputers:material:9>])
-    .duration(100)
-    .EUt(480)
-    .buildAndRegister();
-circuit_assembler.recipeBuilder()
-    .circuit(2)
-    .inputs([
-        <metaitem:circuit_board.advanced>,
-        <ore:circuitHv>,
-        <ore:componentTransistor> * 4,
+        <ore:componentTransistor> * 8,
         <metaitem:foilElectrum> * 16
     ])
     .fluidInputs(<liquid:soldering_alloy> * 72)
@@ -1417,6 +1476,55 @@ assembler.recipeBuilder()
     .EUt(120)
     .buildAndRegister();
 
+# Capacitor
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <gregtech:machine_casing:1>,
+        <metaitem:battery.re.ulv.tantalum> * 8,
+        <metaitem:circuit_board.plastic>,
+        <opencomputers:material:6>,
+        <opencomputers:cable> * 2
+    ])
+    .fluidInputs(<liquid:plastic> * 72)
+    .outputs([<opencomputers:capacitor>])
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+# Charger
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <gregtech:machine_casing:1>,
+        <opencomputers:capacitor>,
+        <metaitem:circuit_board.plastic>,
+        <opencomputers:material:9>,
+        <opencomputers:cable> * 2
+    ])
+    .fluidInputs(<liquid:plastic> * 72)
+    .outputs([<opencomputers:charger>])
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+# Power Distributor
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <gregtech:machine_casing:3>,
+        <opencomputers:capacitor>,
+        <metaitem:circuit_board.advanced>,
+        <metaitem:plateStainlessSteel>,
+        <opencomputers:cable> * 2,
+        <ore:circuitHv>
+    ])
+    .fluidInputs(<liquid:plastic> * 72)
+    .outputs([<opencomputers:powerdistributor>])
+    .duration(200)
+    .EUt(480)
+    .buildAndRegister();
+
 # Power Converter
 assembler.recipeBuilder()
     .circuit(1)
@@ -1433,6 +1541,39 @@ assembler.recipeBuilder()
     .EUt(120)
     .buildAndRegister();
 
+# Waypoint
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <gregtech:machine_casing:2>,
+        <opencomputers:material:13>,
+        <metaitem:circuit_board.plastic>,
+        <opencomputers:material:7>,
+        <opencomputers:material:6> * 2,
+        <opencomputers:cable> * 2
+    ])
+    .fluidInputs(<liquid:plastic> * 72)
+    .outputs([<opencomputers:waypoint>])
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+# Net Splitter
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:buffer.mv>,
+        <opencomputers:upgrade:18>,
+        <opencomputers:upgrade:24>,
+        <metaitem:board.plastic> * 2,
+        <opencomputers:cable> * 2
+    ])
+    .fluidInputs(<liquid:plastic> * 72)
+    .outputs([<opencomputers:transposer> * 2])
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
 # Screen - Tier 1
 circuit_assembler.recipeBuilder()
     .circuit(1)
@@ -1440,7 +1581,7 @@ circuit_assembler.recipeBuilder()
         <gregtech:machine_casing:2>,
         <metaitem:cover.screen>,
         <ore:circuitMv> * 2,
-        <ore:componentTransistor> * 2
+        <opencomputers:material:6> * 2
     ])
     .fluidInputs(<liquid:tin> * 144)
     .outputs([<opencomputers:screen1>])
@@ -1453,7 +1594,7 @@ circuit_assembler.recipeBuilder()
         <gregtech:machine_casing:2>,
         <metaitem:cover.screen>,
         <ore:circuitMv> * 2,
-        <ore:componentTransistor> * 2
+        <opencomputers:material:6> * 2
     ])
     .fluidInputs(<liquid:plastic> * 72)
     .outputs([<opencomputers:screen1>])
@@ -1467,7 +1608,7 @@ circuit_assembler.recipeBuilder()
     .inputs([
         <opencomputers:screen1>,
         <ore:circuitHv> * 2,
-        <ore:componentTransistor> * 4
+        <ore:componentTransistor> * 2
     ])
     .fluidInputs(<liquid:tin> * 144)
     .outputs([<opencomputers:screen2>])
@@ -1479,7 +1620,7 @@ circuit_assembler.recipeBuilder()
     .inputs([
         <opencomputers:screen1>,
         <ore:circuitHv> * 2,
-        <ore:componentTransistor> * 4
+        <ore:componentTransistor> * 2
     ])
     .fluidInputs(<liquid:plastic> * 72)
     .outputs([<opencomputers:screen2>])
