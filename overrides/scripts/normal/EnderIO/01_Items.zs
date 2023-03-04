@@ -41,7 +41,7 @@ recipes.addShaped(<enderio:item_conduit_probe>, [
 # Yeta Wrench
 recipes.addShaped(<enderio:item_yeta_wrench>, [
     [<ore:plateElectricalSteel>, <ore:craftingToolHardHammer>, <ore:plateElectricalSteel>],
-    [<ore:plateElectricalSteel>, <ore:plateElectricalSteel>, <ore:plateElectricalSteel>],
+    [null, <ore:plateElectricalSteel>, null],
     [null, <ore:plateElectricalSteel>, null]
 ]);
 
