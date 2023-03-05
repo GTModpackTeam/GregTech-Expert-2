@@ -1,11 +1,70 @@
+# v2.1.0
+## Modpack information
+* This is the latest update to support CEu 2.5 series!!
+* The major change is that the tool specifications have changed significantly, so it is necessary to re-create the tool...
+* I also updated the quest to CEu 2.5 standards.
+
+## New mods
+* Baubles-LTS
+* Tool Belt
+* LunatriusCore
+* InGame Info XML
+* Modern Splash
+
+## Update mods
+* GregTech CE: Unofficial
+* Gregicality Multiblocks
+* GTExpert-Core
+* CraftTweaker
+* AE2 Unofficial Extended Life
+* AE2 Fluid Crafting Rework
+* PackagedAuto
+* Roughly Enough IDs
+* Inventory Bogo Sorter
+* UniversalTweaks
+* Zen Utils
+
+## Del mods
+* Phosphor
+* Toast Control
+
+## Other updates (ResourcePack)
+* Zederrian Technology for GTCEu -> ZedTech-2
+* Colored GT Casings
+
+## Update recipes
+### Modpack Information
+* In order to migrate all AE2 and EIO materials to the CoreMod side in the future, a migration CrT is included.
+
+### AE2
+* Certus Quartz Wrench
+* Nether Quartz Wrench
+
+## Add recipes
+### AE2
+* Spatial Pylon
+
+## Fix recipes
+### AE2
+* Quantum Ring
+* Quantum Link Chamber
+
+### Lazy AE2
+* Fluix Steel Ingot
+* Preemptive Assembly Unit
+* Level Maintainer
+* Mass Assembler Frame
+
+* * *
+
 # v2.0.7
 ## Modpack information
 * EZStorage just got a little more useful.
 
-## Move mods
+## Move mod
 * AE2 Wireless Terminal Library -> AE2 Wireless Terminal-LTS
 
-## Update mod
+## Update mods
 * AE2 Unofficial Extended Life
 * AE2 Fluid Crafting Rework
 * Universal Tweaks
