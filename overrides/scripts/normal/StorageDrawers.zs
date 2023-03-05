@@ -8,7 +8,7 @@ import mods.chisel.Carving;
 ########################################
 # Framed Drawer
 <ore:storagedrawers.framed>.addItems([
-    <storagedrawers:customdrawers>,
+    <storagedrawers:customdrawers:0>,
     <storagedrawers:customdrawers:1>,
     <storagedrawers:customdrawers:2>,
     <storagedrawers:customdrawers:3>,
@@ -27,9 +27,9 @@ Carving.addVariation("drawerTrim", <storagedrawers:trim:4>);
 Carving.addVariation("drawerTrim", <storagedrawers:trim:5>);
 
 # Basic Drawer
-recipes.remove(<storagedrawers:basicdrawers>);
+recipes.remove(<storagedrawers:basicdrawers:0>);
 Carving.addGroup("drawer");
-Carving.addVariation("drawer", <storagedrawers:customdrawers>);
+Carving.addVariation("drawer", <storagedrawers:customdrawers:0>.withTag({}));
 Carving.addVariation("drawer", <storagedrawers:basicdrawers>.withTag({material: "oak"}));
 Carving.addVariation("drawer", <storagedrawers:basicdrawers>.withTag({material: "spruce"}));
 Carving.addVariation("drawer", <storagedrawers:basicdrawers>.withTag({material: "birch"}));
@@ -40,7 +40,7 @@ Carving.addVariation("drawer", <storagedrawers:basicdrawers>.withTag({material: 
 # Basic Drawer 1x2
 recipes.remove(<storagedrawers:basicdrawers:1>);
 Carving.addGroup("drawer_1x2");
-Carving.addVariation("drawer_1x2", <storagedrawers:customdrawers:1>);
+Carving.addVariation("drawer_1x2", <storagedrawers:customdrawers:1>.withTag({}));
 Carving.addVariation("drawer_1x2", <storagedrawers:basicdrawers:1>.withTag({material: "oak"}));
 Carving.addVariation("drawer_1x2", <storagedrawers:basicdrawers:1>.withTag({material: "spruce"}));
 Carving.addVariation("drawer_1x2", <storagedrawers:basicdrawers:1>.withTag({material: "birch"}));
@@ -51,7 +51,7 @@ Carving.addVariation("drawer_1x2", <storagedrawers:basicdrawers:1>.withTag({mate
 # Basic Drawer 2x2
 recipes.remove(<storagedrawers:basicdrawers:2>);
 Carving.addGroup("drawer_2x2");
-Carving.addVariation("drawer_2x2", <storagedrawers:customdrawers:2>);
+Carving.addVariation("drawer_2x2", <storagedrawers:customdrawers:2>.withTag({}));
 Carving.addVariation("drawer_2x2", <storagedrawers:basicdrawers:2>.withTag({material: "oak"}));
 Carving.addVariation("drawer_2x2", <storagedrawers:basicdrawers:2>.withTag({material: "spruce"}));
 Carving.addVariation("drawer_2x2", <storagedrawers:basicdrawers:2>.withTag({material: "birch"}));
@@ -62,7 +62,7 @@ Carving.addVariation("drawer_2x2", <storagedrawers:basicdrawers:2>.withTag({mate
 # Half Basic Drawer 1x2
 recipes.remove(<storagedrawers:basicdrawers:3>);
 Carving.addGroup("drawer_half_1x2");
-Carving.addVariation("drawer_half_1x2", <storagedrawers:customdrawers:3>);
+Carving.addVariation("drawer_half_1x2", <storagedrawers:customdrawers:3>.withTag({}));
 Carving.addVariation("drawer_half_1x2", <storagedrawers:basicdrawers:3>.withTag({material: "oak"}));
 Carving.addVariation("drawer_half_1x2", <storagedrawers:basicdrawers:3>.withTag({material: "spruce"}));
 Carving.addVariation("drawer_half_1x2", <storagedrawers:basicdrawers:3>.withTag({material: "birch"}));
@@ -73,7 +73,7 @@ Carving.addVariation("drawer_half_1x2", <storagedrawers:basicdrawers:3>.withTag(
 # Half Basic Drawer 2x2
 recipes.remove(<storagedrawers:basicdrawers:4>);
 Carving.addGroup("drawer_half_2x2");
-Carving.addVariation("drawer_half_2x2", <storagedrawers:customdrawers:4>);
+Carving.addVariation("drawer_half_2x2", <storagedrawers:customdrawers:4>.withTag({}));
 Carving.addVariation("drawer_half_2x2", <storagedrawers:basicdrawers:4>.withTag({material: "oak"}));
 Carving.addVariation("drawer_half_2x2", <storagedrawers:basicdrawers:4>.withTag({material: "spruce"}));
 Carving.addVariation("drawer_half_2x2", <storagedrawers:basicdrawers:4>.withTag({material: "birch"}));
@@ -109,7 +109,7 @@ assembler.recipeBuilder()
 
 # Framed Drawer
 recipes.remove(<storagedrawers:customdrawers:0>);
-recipes.addShaped(<storagedrawers:customdrawers:0>, [
+recipes.addShaped(<storagedrawers:customdrawers:0>.withTag({}), [
     [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
     [null, <minecraft:chest>, null],
     [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>]
@@ -120,14 +120,14 @@ assembler.recipeBuilder()
         <minecraft:stick> * 3,
         <minecraft:chest>
     ])
-    .outputs([<storagedrawers:customdrawers:0>])
+    .outputs([<storagedrawers:customdrawers:0>.withTag({})])
     .duration(40)
     .EUt(7)
     .buildAndRegister();
 
 # Framed Drawer 1x2
 recipes.remove(<storagedrawers:customdrawers:1>);
-recipes.addShaped(<storagedrawers:customdrawers:1> * 2, [
+recipes.addShaped(<storagedrawers:customdrawers:1>.withTag({}) * 2, [
     [<minecraft:stick>, <minecraft:chest>, <minecraft:stick>],
     [<minecraft:stick>, <ore:plankWood>, <minecraft:stick>],
     [<minecraft:stick>, <minecraft:chest>, <minecraft:stick>]
@@ -139,14 +139,14 @@ assembler.recipeBuilder()
         <minecraft:chest>,
         <ore:plankWood>
     ])
-    .outputs([<storagedrawers:customdrawers:1> * 2])
+    .outputs([<storagedrawers:customdrawers:1>.withTag({}) * 2])
     .duration(40)
     .EUt(7)
     .buildAndRegister();
 
 # Framed Drawer 2x2
 recipes.remove(<storagedrawers:customdrawers:2>);
-recipes.addShaped(<storagedrawers:customdrawers:2> * 4, [
+recipes.addShaped(<storagedrawers:customdrawers:2>.withTag({}) * 4, [
     [<minecraft:chest>, <minecraft:stick>, <minecraft:chest>],
     [<minecraft:stick>, <ore:plankWood>, <minecraft:stick>],
     [<minecraft:chest>, <minecraft:stick>, <minecraft:chest>]
@@ -158,14 +158,14 @@ assembler.recipeBuilder()
         <minecraft:chest> * 2,
         <ore:plankWood>
     ])
-    .outputs([<storagedrawers:customdrawers:2> * 4])
+    .outputs([<storagedrawers:customdrawers:2>.withTag({}) * 4])
     .duration(40)
     .EUt(7)
     .buildAndRegister();
 
 # Framed Half Drawer 1x2
 recipes.remove(<storagedrawers:customdrawers:3>);
-recipes.addShaped(<storagedrawers:customdrawers:3> * 2, [
+recipes.addShaped(<storagedrawers:customdrawers:3>.withTag({}) * 2, [
     [<minecraft:stick>, <minecraft:chest>, <minecraft:stick>],
     [<minecraft:stick>, <ore:slabWood>, <minecraft:stick>],
     [<minecraft:stick>, <minecraft:chest>, <minecraft:stick>]
@@ -177,14 +177,14 @@ assembler.recipeBuilder()
         <minecraft:chest>,
         <ore:slabWood>
     ])
-    .outputs([<storagedrawers:customdrawers:3> * 2])
+    .outputs([<storagedrawers:customdrawers:3>.withTag({}) * 2])
     .duration(40)
     .EUt(7)
     .buildAndRegister();
 
 # Framed Half Drawer 2x2
 recipes.remove(<storagedrawers:customdrawers:4>);
-recipes.addShaped(<storagedrawers:customdrawers:4> * 4, [
+recipes.addShaped(<storagedrawers:customdrawers:4>.withTag({}) * 4, [
     [<minecraft:chest>, <minecraft:stick>, <minecraft:chest>],
     [<minecraft:stick>, <ore:slabWood>, <minecraft:stick>],
     [<minecraft:chest>, <minecraft:stick>, <minecraft:chest>]
@@ -196,7 +196,7 @@ assembler.recipeBuilder()
         <minecraft:chest> * 2,
         <ore:slabWood>
     ])
-    .outputs([<storagedrawers:customdrawers:4> * 4])
+    .outputs([<storagedrawers:customdrawers:4>.withTag({}) * 4])
     .duration(40)
     .EUt(7)
     .buildAndRegister();
@@ -216,7 +216,7 @@ recipes.addShaped(<framedcompactdrawers:framed_drawer_controller>, [
 # Compacting Drawer
 Carving.addGroup("drawer_compacting");
 Carving.addVariation("drawer_compacting", <framedcompactdrawers:framed_compact_drawer>);
-Carving.addVariation("drawer_compacting", <storagedrawers:compdrawers>);
+Carving.addVariation("drawer_compacting", <storagedrawers:compdrawers>.withTag({}));
 recipes.remove(<storagedrawers:compdrawers>);
 recipes.remove(<framedcompactdrawers:framed_compact_drawer>);
 recipes.addShaped(<framedcompactdrawers:framed_compact_drawer>, [
