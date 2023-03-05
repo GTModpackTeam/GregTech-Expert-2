@@ -29,7 +29,12 @@ if (!isNull(oc)) {
             item.displayName has "Mazer" |
             item.displayName has "OpenIRC" |
             item.displayName has "Carpeted Capacitor" |
-            item.displayName has "Ink Cartridge"
+            item.displayName has "Ink Cartridge" |
+            item.displayName has "Texture Picker" |
+            item.displayName has "Navigation Upgrade" |
+            item.displayName has "robot.name" |
+            item.displayName has "Creatix" |
+            item.displayName has "Crecopter"
         ) {}
         else { recipes.remove(item); }
     }
@@ -40,6 +45,10 @@ if (!isNull(oc)) {
 ########################################
 # Items
 ########################################
+# Printed Circuit Board
+furnace.remove(<opencomputers:material:4>, <opencomputers:material:2>);
+JEI.hide(<opencomputers:material:4>);
+
 # Ink Cartridge
 recipes.removeByRecipeName("opencomputers:material52");
 assembler.recipeBuilder()
@@ -72,6 +81,7 @@ circuit_assembler.recipeBuilder()
     .buildAndRegister();
 
 # ME Upgrade - Tier 1
+recipes.removeByRecipeName("aeadditions:oc/upgradet1");
 assembler.recipeBuilder()
     .circuit(1)
     .inputs([
@@ -102,6 +112,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 # ME Upgrade - Tier 2
+recipes.removeByRecipeName("aeadditions:oc/upgradet2");
 assembler.recipeBuilder()
     .circuit(1)
     .inputs([
@@ -132,6 +143,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 # ME Upgrade - Tier 3
+recipes.removeByRecipeName("aeadditions:oc/upgradet3");
 assembler.recipeBuilder()
     .circuit(2)
     .inputs([
@@ -277,6 +289,700 @@ assembler.recipeBuilder()
     .outputs([<opencomputers:upgrade:4>])
     .duration(100)
     .EUt(120)
+    .buildAndRegister();
+
+# Card Container - Tier 1
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <opencomputers:material:5>,
+        <metaitem:plateAluminium> * 2,
+        <ore:chestWood>,
+        <opencomputers:material:7>
+    ])
+    .fluidInputs(<liquid:tin> * 144)
+    .outputs([<opencomputers:upgrade:5>])
+    .duration(100)
+    .EUt(120)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <opencomputers:material:5>,
+        <metaitem:plateAluminium> * 2,
+        <ore:chestWood>,
+        <opencomputers:material:7>
+    ])
+    .fluidInputs(<liquid:soldering_alloy> * 72)
+    .outputs([<opencomputers:upgrade:5>])
+    .duration(100)
+    .EUt(120)
+    .buildAndRegister();
+
+# Card Container - Tier 2
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <opencomputers:material:5>,
+        <metaitem:plateStainlessSteel> * 2,
+        <ore:chestWood>,
+        <opencomputers:material:8>
+    ])
+    .fluidInputs(<liquid:tin> * 144)
+    .outputs([<opencomputers:upgrade:6>])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <opencomputers:material:5>,
+        <metaitem:plateStainlessSteel> * 2,
+        <ore:chestWood>,
+        <opencomputers:material:8>
+    ])
+    .fluidInputs(<liquid:soldering_alloy> * 72)
+    .outputs([<opencomputers:upgrade:6>])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
+
+# Card Container - Tier 3
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <opencomputers:material:5>,
+        <metaitem:plateTitanium> * 2,
+        <ore:chestWood>,
+        <opencomputers:material:9>
+    ])
+    .fluidInputs(<liquid:tin> * 144)
+    .outputs([<opencomputers:upgrade:7>])
+    .duration(100)
+    .EUt(1920)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <opencomputers:material:5>,
+        <metaitem:plateTitanium> * 2,
+        <ore:chestWood>,
+        <opencomputers:material:9>
+    ])
+    .fluidInputs(<liquid:soldering_alloy> * 72)
+    .outputs([<opencomputers:upgrade:7>])
+    .duration(100)
+    .EUt(1920)
+    .buildAndRegister();
+
+# Upgrade Container - Tier 1
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:circuit_board.plastic>,
+        <metaitem:plateAluminium> * 2,
+        <ore:chestWood>,
+        <opencomputers:material:7>
+    ])
+    .fluidInputs(<liquid:tin> * 144)
+    .outputs([<opencomputers:upgrade:8>])
+    .duration(100)
+    .EUt(120)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:circuit_board.plastic>,
+        <metaitem:plateAluminium> * 2,
+        <ore:chestWood>,
+        <opencomputers:material:7>
+    ])
+    .fluidInputs(<liquid:soldering_alloy> * 72)
+    .outputs([<opencomputers:upgrade:8>])
+    .duration(100)
+    .EUt(120)
+    .buildAndRegister();
+
+# Upgrade Container - Tier 2
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:circuit_board.advanced>,
+        <metaitem:plateStainlessSteel> * 2,
+        <ore:chestWood>,
+        <opencomputers:material:8>
+    ])
+    .fluidInputs(<liquid:tin> * 144)
+    .outputs([<opencomputers:upgrade:9>])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:circuit_board.advanced>,
+        <metaitem:plateStainlessSteel> * 2,
+        <ore:chestWood>,
+        <opencomputers:material:8>
+    ])
+    .fluidInputs(<liquid:soldering_alloy> * 72)
+    .outputs([<opencomputers:upgrade:8>])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
+
+# Upgrade Container - Tier 3
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:circuit_board.extreme>,
+        <metaitem:plateTitanium> * 2,
+        <ore:chestWood>,
+        <opencomputers:material:9>
+    ])
+    .fluidInputs(<liquid:tin> * 144)
+    .outputs([<opencomputers:upgrade:10>])
+    .duration(100)
+    .EUt(1920)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:circuit_board.extreme>,
+        <metaitem:plateTitanium> * 2,
+        <ore:chestWood>,
+        <opencomputers:material:9>
+    ])
+    .fluidInputs(<liquid:soldering_alloy> * 72)
+    .outputs([<opencomputers:upgrade:8>])
+    .duration(100)
+    .EUt(1920)
+    .buildAndRegister();
+
+# Crafting Upgrade
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:circuit_board.plastic>,
+        <opencomputers:material:8>,
+        <metaitem:cover.crafting>
+    ])
+    .fluidInputs(<liquid:tin> * 144)
+    .outputs([<opencomputers:upgrade:11>])
+    .duration(100)
+    .EUt(120)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:circuit_board.plastic>,
+        <opencomputers:material:8>,
+        <metaitem:cover.crafting>
+    ])
+    .fluidInputs(<liquid:soldering_alloy> * 72)
+    .outputs([<opencomputers:upgrade:11>])
+    .duration(100)
+    .EUt(120)
+    .buildAndRegister();
+
+# Database Upgrade - Tier 1
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:circuit_board.plastic>,
+        <opencomputers:tool>,
+        <opencomputers:storage:2>,
+        <opencomputers:material:8> * 2
+    ])
+    .fluidInputs(<liquid:tin> * 144)
+    .outputs([<opencomputers:upgrade:12>])
+    .duration(100)
+    .EUt(120)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:circuit_board.plastic>,
+        <opencomputers:tool>,
+        <opencomputers:storage:2>,
+        <opencomputers:material:8> * 2
+    ])
+    .fluidInputs(<liquid:soldering_alloy> * 72)
+    .outputs([<opencomputers:upgrade:12>])
+    .duration(100)
+    .EUt(120)
+    .buildAndRegister();
+
+# Database Upgrade - Tier 2
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:circuit_board.advanced>,
+        <opencomputers:tool>,
+        <opencomputers:storage:3>,
+        <opencomputers:material:9> * 2
+    ])
+    .fluidInputs(<liquid:tin> * 144)
+    .outputs([<opencomputers:upgrade:13>])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:circuit_board.advanced>,
+        <opencomputers:tool>,
+        <opencomputers:storage:3>,
+        <opencomputers:material:9> * 2
+    ])
+    .fluidInputs(<liquid:soldering_alloy> * 72)
+    .outputs([<opencomputers:upgrade:13>])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
+
+# Database Upgrade - Tier 3
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:circuit_board.extreme>,
+        <opencomputers:tool>,
+        <opencomputers:storage:4>,
+        <opencomputers:material:10> * 2
+    ])
+    .fluidInputs(<liquid:tin> * 144)
+    .outputs([<opencomputers:upgrade:14>])
+    .duration(100)
+    .EUt(1920)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:circuit_board.extreme>,
+        <opencomputers:tool>,
+        <opencomputers:storage:4>,
+        <opencomputers:material:10> * 2
+    ])
+    .fluidInputs(<liquid:soldering_alloy> * 72)
+    .outputs([<opencomputers:upgrade:14>])
+    .duration(100)
+    .EUt(1920)
+    .buildAndRegister();
+
+# Experience Upgrade
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:circuit_board.advanced>,
+        <opencomputers:tool>,
+        <opencomputers:material:9>,
+        <enderio:item_xp_transfer>
+    ])
+    .fluidInputs(<liquid:tin> * 144)
+    .outputs([<opencomputers:upgrade:15>])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:circuit_board.advanced>,
+        <opencomputers:tool>,
+        <opencomputers:material:9>,
+        <enderio:item_xp_transfer>
+    ])
+    .fluidInputs(<liquid:soldering_alloy> * 72)
+    .outputs([<opencomputers:upgrade:15>])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
+
+# Hover Upgrade - Tier 1
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:circuit_board.plastic>,
+        <metaitem:plateAluminium> * 2,
+        <metaitem:rotorSteel> * 4,
+        <opencomputers:material:8> * 2,
+        <metaitem:electric.motor.mv>
+    ])
+    .fluidInputs(<liquid:tin> * 144)
+    .outputs([<opencomputers:upgrade:27>])
+    .duration(100)
+    .EUt(120)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:circuit_board.plastic>,
+        <metaitem:plateAluminium> * 2,
+        <metaitem:rotorSteel> * 4,
+        <opencomputers:material:8> * 2,
+        <metaitem:electric.motor.mv>
+    ])
+    .fluidInputs(<liquid:soldering_alloy> * 72)
+    .outputs([<opencomputers:upgrade:27>])
+    .duration(100)
+    .EUt(120)
+    .buildAndRegister();
+
+# Hover Upgrade - Tier 2
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:circuit_board.advanced>,
+        <metaitem:plateAluminium> * 2,
+        <metaitem:rotorStainlessSteel> * 4,
+        <opencomputers:material:9> * 2,
+        <metaitem:electric.motor.hv>
+    ])
+    .fluidInputs(<liquid:tin> * 144)
+    .outputs([<opencomputers:upgrade:28>])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:circuit_board.advanced>,
+        <metaitem:plateAluminium> * 2,
+        <metaitem:rotorStainlessSteel> * 4,
+        <opencomputers:material:9> * 2,
+        <metaitem:electric.motor.hv>
+    ])
+    .fluidInputs(<liquid:soldering_alloy> * 72)
+    .outputs([<opencomputers:upgrade:28>])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
+
+# Inventory Upgrade
+assembler.recipeBuilder()
+    .circuit(2)
+    .inputs([
+        <metaitem:circuit_board.plastic>,
+        <metaitem:plateAluminium> * 2,
+        <ore:chestWood>,
+        <opencomputers:material:8> 
+    ])
+    .fluidInputs(<liquid:tin> * 144)
+    .outputs([<opencomputers:upgrade:17>])
+    .duration(100)
+    .EUt(120)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(2)
+    .inputs([
+        <metaitem:circuit_board.plastic>,
+        <metaitem:plateAluminium> * 2,
+        <ore:chestWood>,
+        <opencomputers:material:8>
+    ])
+    .fluidInputs(<liquid:soldering_alloy> * 72)
+    .outputs([<opencomputers:upgrade:17>])
+    .duration(100)
+    .EUt(120)
+    .buildAndRegister();
+
+# Inventory Controller Upgrade
+assembler.recipeBuilder()
+    .circuit(2)
+    .inputs([
+        <opencomputers:upgrade:17>,
+        <metaitem:plateStainlessSteel> * 2,
+        <opencomputers:material:9>
+    ])
+    .fluidInputs(<liquid:tin> * 144)
+    .outputs([<opencomputers:upgrade:18>])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(2)
+    .inputs([
+        <opencomputers:upgrade:17>,
+        <metaitem:plateStainlessSteel> * 2,
+        <opencomputers:material:9>
+    ])
+    .fluidInputs(<liquid:soldering_alloy> * 72)
+    .outputs([<opencomputers:upgrade:18>])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
+
+# Tank Upgrade
+assembler.recipeBuilder()
+    .circuit(2)
+    .inputs([
+        <metaitem:circuit_board.plastic>,
+        <metaitem:drum.aluminium>,
+        <opencomputers:material:8>
+    ])
+    .fluidInputs(<liquid:tin> * 144)
+    .outputs([<opencomputers:upgrade:23>])
+    .duration(100)
+    .EUt(120)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(2)
+    .inputs([
+        <metaitem:circuit_board.plastic>,
+        <metaitem:drum.aluminium>,
+        <opencomputers:material:8>
+    ])
+    .fluidInputs(<liquid:soldering_alloy> * 72)
+    .outputs([<opencomputers:upgrade:23>])
+    .duration(100)
+    .EUt(120)
+    .buildAndRegister();
+
+# Tank Controller Upgrade
+assembler.recipeBuilder()
+    .circuit(2)
+    .inputs([
+        <opencomputers:upgrade:23>,
+        <metaitem:plateStainlessSteel> * 2,
+        <opencomputers:material:9>
+    ])
+    .fluidInputs(<liquid:tin> * 144)
+    .outputs([<opencomputers:upgrade:24>])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(2)
+    .inputs([
+        <opencomputers:upgrade:23>,
+        <metaitem:plateStainlessSteel> * 2,
+        <opencomputers:material:9>
+    ])
+    .fluidInputs(<liquid:soldering_alloy> * 72)
+    .outputs([<opencomputers:upgrade:24>])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
+
+# Leash Upgrade
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:circuit_board.plastic>,
+        <opencomputers:material:11>,
+        <minecraft:lead> * 4
+    ])
+    .fluidInputs(<liquid:tin> * 144)
+    .outputs([<opencomputers:upgrade:26>])
+    .duration(100)
+    .EUt(120)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:circuit_board.plastic>,
+        <opencomputers:material:11>,
+        <minecraft:lead> * 4
+    ])
+    .fluidInputs(<liquid:soldering_alloy> * 72)
+    .outputs([<opencomputers:upgrade:26>])
+    .duration(100)
+    .EUt(120)
+    .buildAndRegister();
+
+# MFU
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <opencomputers:adapter>,
+        <opencomputers:card:9> * 2,
+        <opencomputers:material:9>
+    ])
+    .fluidInputs(<liquid:tin> * 144)
+    .outputs([<opencomputers:upgrade:30>])
+    .duration(100)
+    .EUt(1920)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <opencomputers:adapter>,
+        <opencomputers:card:9> * 2,
+        <opencomputers:material:9>
+    ])
+    .fluidInputs(<liquid:soldering_alloy> * 72)
+    .outputs([<opencomputers:upgrade:30>])
+    .duration(100)
+    .EUt(1920)
+    .buildAndRegister();
+
+# Navigation Upgrade
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:circuit_board.extreme>,
+        <opencomputers:material:9> * 2,
+        <minecraft:map>
+    ])
+    .fluidInputs(<liquid:tin> * 144)
+    .outputs([<opencomputers:upgrade:19>])
+    .duration(100)
+    .EUt(1920)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:circuit_board.extreme>,
+        <opencomputers:material:9> * 2,
+        <minecraft:map>
+    ])
+    .fluidInputs(<liquid:soldering_alloy> * 72)
+    .outputs([<opencomputers:upgrade:19>])
+    .duration(100)
+    .EUt(1920)
+    .buildAndRegister();
+
+# Piston Upgrade
+recipes.addShapeless(<opencomputers:upgrade:20>, [<opencomputers:upgrade:33>]);
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:circuit_board.plastic>,
+        <metaitem:drum.aluminium>,
+        <opencomputers:material:8>
+    ])
+    .fluidInputs(<liquid:tin> * 144)
+    .outputs([<opencomputers:upgrade:20>])
+    .duration(100)
+    .EUt(120)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:circuit_board.plastic>,
+        <metaitem:drum.aluminium>,
+        <opencomputers:material:8>
+    ])
+    .fluidInputs(<liquid:soldering_alloy> * 72)
+    .outputs([<opencomputers:upgrade:20>])
+    .duration(100)
+    .EUt(120)
+    .buildAndRegister();
+
+# Sticky Piston Upgrade
+recipes.addShapeless(<opencomputers:upgrade:33>, [<opencomputers:upgrade:20>, <metaitem:rubber_drop> | <minecraft:slime_ball>]);
+
+# Sign Upgrade
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:circuit_board.plastic>,
+        <metaitem:plateAluminium> * 2,
+        <minecraft:sign>,
+        <opencomputers:material:8> * 2
+    ])
+    .fluidInputs(<liquid:tin> * 144)
+    .outputs([<opencomputers:upgrade:21>])
+    .duration(100)
+    .EUt(120)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:circuit_board.plastic>,
+        <metaitem:plateAluminium> * 2,
+        <minecraft:sign>,
+        <opencomputers:material:8> * 2
+    ])
+    .fluidInputs(<liquid:soldering_alloy> * 72)
+    .outputs([<opencomputers:upgrade:21>])
+    .duration(100)
+    .EUt(120)
+    .buildAndRegister();
+
+# Tractor Beam Upgrade
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:circuit_board.advanced>,
+        <metaitem:item_magnet.hv>.withEmptyTag(),
+        <opencomputers:material:9>
+    ])
+    .fluidInputs(<liquid:tin> * 144)
+    .outputs([<opencomputers:upgrade:25>])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:circuit_board.advanced>,
+        <metaitem:item_magnet.hv>.withEmptyTag(),
+        <opencomputers:material:9>
+    ])
+    .fluidInputs(<liquid:soldering_alloy> * 72)
+    .outputs([<opencomputers:upgrade:25>])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
+
+# Microcontroller Case - Tier 1
+    assembler.recipeBuilder()
+    .circuit(3)
+    .inputs([
+        <gregtech:machine_casing:2>,
+        <metaitem:circuit_board.plastic>,
+        <metaitem:plateAluminium> * 2,
+        <opencomputers:material:8> * 2
+    ])
+    .fluidInputs(<liquid:plastic> * 72)
+    .outputs([<opencomputers:material:20>])
+    .duration(100)
+    .EUt(120)
+    .buildAndRegister();
+
+# Microcontroller Case - Tier 2
+    assembler.recipeBuilder()
+    .circuit(3)
+    .inputs([
+        <gregtech:machine_casing:3>,
+        <metaitem:circuit_board.advanced>,
+        <metaitem:plateStainlessSteel> * 2,
+        <opencomputers:material:9> * 2
+    ])
+    .fluidInputs(<liquid:plastic> * 72)
+    .outputs([<opencomputers:material:21>])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
+
+# Drone Case - Tier 1
+    assembler.recipeBuilder()
+    .circuit(3)
+    .inputs([
+        <opencomputers:material:20>,
+        <opencomputers:component:4>,
+        <opencomputers:material:8> * 2,
+        <metaitem:electric.motor.mv> * 4
+    ])
+    .fluidInputs(<liquid:plastic> * 72)
+    .outputs([<opencomputers:material:23>])
+    .duration(100)
+    .EUt(120)
+    .buildAndRegister();
+
+# Drone Case - Tier 2
+    assembler.recipeBuilder()
+    .circuit(3)
+    .inputs([
+        <opencomputers:material:21>,
+        <opencomputers:component:5>,
+        <opencomputers:material:9> * 2,
+        <metaitem:electric.motor.hv> * 4
+    ])
+    .fluidInputs(<liquid:plastic> * 72)
+    .outputs([<opencomputers:material:24>])
+    .duration(100)
+    .EUt(480)
     .buildAndRegister();
 
 # Arrow Keys
@@ -1283,7 +1989,7 @@ circuit_assembler.recipeBuilder()
 
 # Microchip - Tier 1
 circuit_assembler.recipeBuilder()
-    .circuit(1)
+    .circuit(2)
     .inputs([
         <metaitem:circuit_board.good>,
         <ore:circuitLv>,
@@ -1296,7 +2002,7 @@ circuit_assembler.recipeBuilder()
     .EUt(30)
     .buildAndRegister();
 circuit_assembler.recipeBuilder()
-    .circuit(1)
+    .circuit(2)
     .inputs([
         <metaitem:circuit_board.good>,
         <ore:circuitLv>,
@@ -1339,7 +2045,7 @@ circuit_assembler.recipeBuilder()
 
 # Microchip - Tier 3
 circuit_assembler.recipeBuilder()
-    .circuit(1)
+    .circuit(2)
     .inputs([
         <metaitem:circuit_board.advanced>,
         <ore:circuitHv>,
@@ -1352,7 +2058,7 @@ circuit_assembler.recipeBuilder()
     .EUt(480)
     .buildAndRegister();
 circuit_assembler.recipeBuilder()
-    .circuit(1)
+    .circuit(2)
     .inputs([
         <metaitem:circuit_board.advanced>,
         <ore:circuitHv>,
@@ -1543,7 +2249,7 @@ assembler.recipeBuilder()
 
 # Waypoint
 assembler.recipeBuilder()
-    .circuit(1)
+    .circuit(2)
     .inputs([
         <gregtech:machine_casing:2>,
         <opencomputers:material:13>,
