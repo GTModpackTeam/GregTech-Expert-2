@@ -224,44 +224,6 @@ assembly_line.recipeBuilder()
     .EUt(491520)
     .buildAndRegister();
 
-# Glowstone Dust (Override)
-centrifuge.findRecipe(80, [<minecraft:glowstone_dust>], null).remove();
-centrifuge.recipeBuilder()
-    .inputs([<minecraft:glowstone_dust> * 2])
-    .outputs([<minecraft:redstone>])
-    .outputs([<metaitem:dustGold>])
-    .duration(488)
-    .EUt(80)
-    .buildAndRegister();
-
-# Netherrack Dust (Override)
-centrifuge.findRecipe(20, [<metaitem:dustNetherrack>], null).remove();
-centrifuge.recipeBuilder()
-    .inputs([<metaitem:dustNetherrack>])
-    .chancedOutput(<metaitem:dustTinyGold>, 620, 120)
-    .chancedOutput(<metaitem:dustTinyRedstone>, 5600, 850)
-    .chancedOutput(<metaitem:dustTinyCoal>, 5600, 850)
-    .chancedOutput(<metaitem:dustTinyGlowstone>, 5600, 850)
-    .chancedOutput(<metaitem:dustSulfur>, 9900, 100)
-    .duration(160)
-    .EUt(20)
-    .buildAndRegister();
-
-# Nether Star Dust
-chemical_reactor.recipeBuilder()
-    .inputs([
-        <metaitem:dustDiamond>,
-        <metaitem:dustIridium>
-    ])
-    .fluidInputs([
-        <liquid:nether_air> * 8000,
-        <liquid:rocket_fuel> * 1000
-    ])
-    .outputs([<metaitem:dustNetherStar> * 2])
-    .duration(200)
-    .EUt(7680)
-    .buildAndRegister();
-
 
 
 ########################################

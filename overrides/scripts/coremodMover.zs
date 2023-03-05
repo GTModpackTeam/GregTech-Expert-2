@@ -904,17 +904,17 @@ recipes.addShapeless(<gregtech:meta_ingot_hot:24118>, [<gregtech:meta_ingot_hot:
 ########################################
 // Tiny Dust
 // <ore:dustTinyFluix> <---> <metaitem:dustTinyFluix>
-recipes.addShapeless(<gregtech:meta_dust_tiny:24202>, [<gregtech:meta_dust_tiny:32117>]);
+recipes.addShapeless(<gregtech:meta_dust_tiny:24152>, [<gregtech:meta_dust_tiny:32117>]);
 <gregtech:meta_dust_tiny:32117>.addTooltip(format.red(I18n.format("modpack.deprecated.tooltip.1")));
 
 // Small Dust
 // <ore:dustSmallFluix> <---> <metaitem:dustSmallFluix>
-recipes.addShapeless(<gregtech:meta_dust_small:24202>, [<gregtech:meta_dust_small:32117>]);
+recipes.addShapeless(<gregtech:meta_dust_small:24152>, [<gregtech:meta_dust_small:32117>]);
 <gregtech:meta_dust_small:32117>.addTooltip(format.red(I18n.format("modpack.deprecated.tooltip.1")));
 
 // Dust
 // <ore:dustFluix> <---> <metaitem:dustFluix>
-recipes.addShapeless(<gregtech:meta_dust:24202>, [<gregtech:meta_dust:32117>]);
+recipes.addShapeless(<gregtech:meta_dust:24152>, [<gregtech:meta_dust:32117>]);
 <gregtech:meta_dust:32117>.addTooltip(format.red(I18n.format("modpack.deprecated.tooltip.1")));
 mixer.findRecipe(480, [<metaitem:dustChargedCertusQuartz>, <minecraft:redstone:0>, <metaitem:dustNetherQuartz>, <metaitem:circuit.integrated>.withTag({Configuration: 1})], null).remove();
 mixer.recipeBuilder()
@@ -924,23 +924,23 @@ mixer.recipeBuilder()
         <minecraft:redstone>,
         <metaitem:dustNetherQuartz>
     ])
-    .outputs([<gregtech:meta_dust:24202> * 3])
+    .outputs([<gregtech:meta_dust:24152> * 3])
     .duration(200)
     .EUt(480)
     .buildAndRegister();
 
 // Plate
 // <ore:plateFluix> <---> <metaitem:plateFluix>
-recipes.addShapeless(<gregtech:meta_plate:24202>, [<gregtech:meta_plate:32117>]);
+recipes.addShapeless(<gregtech:meta_plate:24152>, [<gregtech:meta_plate:32117>]);
 <gregtech:meta_plate:32117>.addTooltip(format.red(I18n.format("modpack.deprecated.tooltip.1")));
 
 // Lens
 // <ore:lensFluix> <---> <metaitem:lensFluix>
-recipes.addShapeless(<gregtech:meta_lens:24202>, [<gregtech:meta_lens:32117>]);
+recipes.addShapeless(<gregtech:meta_lens:24152>, [<gregtech:meta_lens:32117>]);
 <gregtech:meta_lens:32117>.addTooltip(format.red(I18n.format("modpack.deprecated.tooltip.1")));
 lathe.recipeBuilder()
     .inputs([<ore:plateFluix>])
-    .outputs([<gregtech:meta_lens:24202>, <gregtech:meta_dust_small:24202>])
+    .outputs([<gregtech:meta_lens:24152>, <gregtech:meta_dust_small:24152>])
     .duration(600)
     .EUt(120)
     .buildAndRegister();
@@ -951,45 +951,45 @@ lathe.recipeBuilder()
 ########################################
 // Tiny Dust
 // <ore:dustTinyChargedCertusQuartz> <---> <metaitem:dustTinyChargedCertusQuartz>
-recipes.addShapeless(<gregtech:meta_dust_tiny:24201>, [<gregtech:meta_dust_tiny:32118>]);
+recipes.addShapeless(<gregtech:meta_dust_tiny:24151>, [<gregtech:meta_dust_tiny:32118>]);
 <gregtech:meta_dust_tiny:32118>.addTooltip(format.red(I18n.format("modpack.deprecated.tooltip.1")));
 
 // Small Dust
 // <ore:dustSmallChargedCertusQuartz> <---> <metaitem:dustSmallChargedCertusQuartz>
-recipes.addShapeless(<gregtech:meta_dust_small:24201>, [<gregtech:meta_dust_small:32118>]);
+recipes.addShapeless(<gregtech:meta_dust_small:24151>, [<gregtech:meta_dust_small:32118>]);
 <gregtech:meta_dust_small:32118>.addTooltip(format.red(I18n.format("modpack.deprecated.tooltip.1")));
 
 // Dust
 // <ore:dustChargedCertusQuartz> <---> <metaitem:dustChargedCertusQuartz>
-recipes.addShapeless(<gregtech:meta_dust:24201>, [<gregtech:meta_dust:32118>]);
+recipes.addShapeless(<gregtech:meta_dust:24151>, [<gregtech:meta_dust:32118>]);
 <gregtech:meta_dust:32118>.addTooltip(format.red(I18n.format("modpack.deprecated.tooltip.1")));
 electrolyzer.recipeBuilder()
     .inputs([<ore:dustChargedCertusQuartz>])
-    .outputs([<gregtech:meta_dust:24201>])
+    .outputs([<gregtech:meta_dust:24151>])
     .duration(20)
     .EUt(30)
     .buildAndRegister();
 macerator.recipeBuilder()
     .inputs([<appliedenergistics2:material:1>])
-    .outputs([<gregtech:meta_dust:24201>])
+    .outputs([<gregtech:meta_dust:24151>])
     .duration(20)
     .EUt(2)
     .buildAndRegister();
 
 // Plate
 // <ore:plateChargedCertusQuartz> <---> <metaitem:plateChargedCertusQuartz>
-recipes.addShapeless(<gregtech:meta_plate:24201>, [<gregtech:meta_plate:32118>]);
+recipes.addShapeless(<gregtech:meta_plate:24151>, [<gregtech:meta_plate:32118>]);
 <gregtech:meta_plate:32118>.addTooltip(format.red(I18n.format("modpack.deprecated.tooltip.1")));
 
 // Lens
 // <ore:lensChargedCertusQuartz> <---> <metaitem:lensChargedCertusQuartz>
-recipes.addShapeless(<gregtech:meta_lens:24201>, [<gregtech:meta_lens:32118>]);
+recipes.addShapeless(<gregtech:meta_lens:24151>, [<gregtech:meta_lens:32118>]);
 <gregtech:meta_lens:32118>.addTooltip(format.red(I18n.format("modpack.deprecated.tooltip.1")));
 lathe.recipeBuilder()
     .inputs([<ore:plateChargedCertusQuartz>])
     .outputs([
-        <gregtech:meta_lens:24201>,
-        <gregtech:meta_dust_small:24201>
+        <gregtech:meta_lens:24151>,
+        <gregtech:meta_dust_small:24151>
     ])
     .duration(600)
     .EUt(120)
