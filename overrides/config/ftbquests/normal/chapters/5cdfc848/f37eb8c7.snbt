@@ -12,7 +12,7 @@
 		uid: "55321eb6",
 		type: "item",
 		items: [{
-			item: "contenttweaker:creativecomponent"
+			item: "gtexpert:meta_item_1"
 		}]
 	}]
 }

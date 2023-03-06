@@ -1,0 +1,5 @@
+1. Please Forge download for forge-1.12.2-14.23.5.2860-installer.jar
+2. Edit settings.bat or settings.sh
+3. Start Install.bat or Install.sh
+4. ServerStart.bat or ServerStart.sh push
+5. Enjoy

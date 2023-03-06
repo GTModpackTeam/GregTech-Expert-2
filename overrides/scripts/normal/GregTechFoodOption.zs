@@ -66,3 +66,11 @@ mixer.recipeBuilder()
     .duration(260)
     .EUt(80)
     .buildAndRegister();
+
+
+########################################
+# Items
+########################################
+<ore:craftingToolKnife>.addItems([
+    <gregtechfoodoption:butchery_knife.hv>.withEmptyTag()
+]);

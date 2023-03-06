@@ -17,14 +17,14 @@ recipes.addShaped(<packagedauto:recipe_holder> * 3, [
 # Package Component
 recipes.remove(<packagedauto:package_component>);
 recipes.addShaped(<packagedauto:package_component>, [
-    [<metaitem:plateVibrantAlloy>, <metaitem:plateTitanium>, <metaitem:plateVibrantAlloy>],
+    [<ore:plateVibrantAlloy>, <metaitem:plateTitanium>, <ore:plateVibrantAlloy>],
     [<metaitem:plateTitanium>, <minecraft:ender_eye>, <metaitem:plateTitanium>],
-    [<metaitem:plateVibrantAlloy>, <metaitem:plateTitanium>, <metaitem:plateVibrantAlloy>]
+    [<ore:plateVibrantAlloy>, <metaitem:plateTitanium>, <ore:plateVibrantAlloy>]
 ]);
 assembler.recipeBuilder()
     .circuit(1)
     .inputs([
-        <metaitem:plateVibrantAlloy> * 2,
+        <ore:plateVibrantAlloy> * 2,
         <metaitem:plateTitanium> * 2,
         <minecraft:ender_eye>
     ])

@@ -19,12 +19,30 @@
 		uid: "c370b7f9",
 		type: "item",
 		items: [{
-			id: "gregtech:meta_tool",
-			Damage: 22s,
+			id: "gregtech:drill_hv",
 			tag: {
-				GT.ToolStats: {
-					Material: "ultimet"
-				}
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "ultimet",
+					MaxDurability: 2048,
+					Durability: 0,
+					ToolSpeed: 14.0f,
+					HarvestLevel: 4,
+					AttackDamage: 8.0f,
+					AttackSpeed: -3.1000001f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {
+					TorchPlacing: 1b,
+					MaxAoEColumn: 2,
+					MaxAoERow: 2,
+					MaxAoELayer: 4,
+					AoEColumn: 2,
+					AoERow: 2,
+					AoELayer: 4
+				},
+				MaxCharge: 1600000L,
+				Charge: 0L
 			}
 		}],
 		ignore_damage: true,

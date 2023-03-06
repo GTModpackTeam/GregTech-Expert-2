@@ -22,7 +22,7 @@ recipes.addShaped(<spiceoflife:lunchbag>, [
 # Lunchbox
 recipes.remove(<spiceoflife:lunchbox>);
 recipes.addShaped(<spiceoflife:lunchbox>, [
-    [<metaitem:plateDoubleIron>, <ore:gtce.tool.screwdriver>, <metaitem:plateDoubleIron>],
+    [<metaitem:plateDoubleIron>, <ore:craftingToolScrewdriver>, <metaitem:plateDoubleIron>],
     [<metaitem:screwIron>, <metaitem:plateDoubleIron>, <metaitem:screwIron>],
     [null, null, null]
 ]);

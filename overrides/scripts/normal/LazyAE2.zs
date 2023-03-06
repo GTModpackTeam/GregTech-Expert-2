@@ -13,35 +13,10 @@ JEI.hideCategory("threng.energize");
 ########################################
 # Fluix Steel Ingot
 furnace.remove(<threng:material>);
-electric_blast_furnace.recipeBuilder()
-    .inputs([<threng:material:1>])
-    .property("temperature", 1700)
-    .outputs([<threng:material>])
-    .duration(300)
-    .EUt(480)
-    .buildAndRegister();
-electric_blast_furnace.recipeBuilder()
-    .inputs([<threng:material:1>])
-    .fluidInputs([<liquid:oxygen> * 200])
-    .property("temperature", 1700)
-    .outputs([<threng:material>])
-    .duration(200)
-    .EUt(480)
-    .buildAndRegister();
+JEI.hide(<threng:material>);
 
 # Carbonic Fluix Complex
-recipes.remove(<threng:material:1>);
-mixer.recipeBuilder()
-    .circuit(2)
-    .inputs([
-        <metaitem:dustFluix>,
-        <metaitem:dustSteel>,
-        <appliedenergistics2:material:45>
-    ])
-    .outputs([<threng:material:1> * 3])
-    .duration(100)
-    .EUt(480)
-    .buildAndRegister();
+JEI.removeAndHide(<threng:material:1>);
 
 # Fluix-Plated Iron Ingot
 JEI.hide(<threng:material:2>);
@@ -88,17 +63,17 @@ JEI.removeAndHide(<threng:machine:2>);
 # Preemptive Assembly Unit
 recipes.remove(<threng:machine:3>);
 recipes.addShaped(<threng:machine:3>, [
-    [<threng:material>, <ore:ae2.interface.item>, <threng:material>],
+    [<metaitem:plateFluixAlloy>, <ore:ae2.interface.item>, <metaitem:plateFluixAlloy>],
     [<appliedenergistics2:crafting_accelerator>, <metaitem:matrix_core>, <appliedenergistics2:crafting_accelerator>],
-    [<threng:material>, <appliedenergistics2:material:24>, <threng:material>]
+    [<metaitem:plateFluixAlloy>, <appliedenergistics2:material:24>, <metaitem:plateFluixAlloy>]
 ]);
 
 # Level Maintainer
 recipes.remove(<threng:machine:4>);
 recipes.addShaped(<threng:machine:4>, [
-    [<threng:material>, <appliedenergistics2:part:280>, <threng:material>],
+    [<metaitem:plateFluixAlloy>, <appliedenergistics2:part:280>, <metaitem:plateFluixAlloy>],
     [<appliedenergistics2:material:22>, <metaitem:matrix_core>, <appliedenergistics2:material:22>],
-    [<threng:material>, <appliedenergistics2:material:53>, <threng:material>]
+    [<metaitem:plateFluixAlloy>, <appliedenergistics2:material:53>, <metaitem:plateFluixAlloy>]
 ]);
 
 # Crystal Energizer
@@ -107,9 +82,9 @@ JEI.removeAndHide(<threng:machine:5>);
 # Mass Assembler Frame
 recipes.remove(<threng:big_assembler>);
 recipes.addShaped(<threng:big_assembler> * 4, [
-    [<threng:material>, <appliedenergistics2:smooth_sky_stone_block>, <threng:material>],
+    [<metaitem:plateFluixAlloy>, <appliedenergistics2:smooth_sky_stone_block>, <metaitem:plateFluixAlloy>],
     [<appliedenergistics2:smooth_sky_stone_block>, <gregtech:machine:1647>, <appliedenergistics2:smooth_sky_stone_block>],
-    [<threng:material>, <appliedenergistics2:smooth_sky_stone_block>, <threng:material>]
+    [<metaitem:plateFluixAlloy>, <appliedenergistics2:smooth_sky_stone_block>, <metaitem:plateFluixAlloy>]
 ]);
 
 # Mass Assembler Controller
