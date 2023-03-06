@@ -1,7 +1,7 @@
 # Japanese translate by MrKo_no & GTModpackTeam
 # 日本語ローカライズ担当： MrKo_no & GTModpackTeam
-# Corresponding Version: 2.5.2 - beta
-# 対応バージョン: 2.5.2 - beta
+# Corresponding Version: 2.5.3 - beta
+# 対応バージョン: 2.5.3 - beta
 
 death.attack.heat=%s は熱さを感じなくなった。
 death.attack.frost=%s のふとんがふっとんだ。
@@ -1222,12 +1222,16 @@ cover.ender_fluid_link.private.tooltip.enabled=公開タンクモードに切り
 cover.ender_fluid_link.incomplete_hex=入力した色が不完全です!/n8桁の16進数すべてが入力されると反映されます。/nGUIを閉じると編集内容が失われます!
 
 cover.advanced_energy_detector.label=発展型エネルギー検出器
-cover.advanced_energy_detector.min=最小EU
-cover.advanced_energy_detector.max=最大EU
+cover.advanced_energy_detector.min=最小
+cover.advanced_energy_detector.max=最大
 cover.advanced_energy_detector.invert_tooltip=赤石ロジックの反転を切り替え/nデフォルトでは、信号は最小EUを下回った時に出力され、最大EUを上回った時に信号出力が停止します。
 cover.advanced_energy_detector.invert_label=反転:
 cover.advanced_energy_detector.normal=しない
 cover.advanced_energy_detector.inverted=する
+cover.advanced_energy_detector.modes_tooltip=装置の蓄電量に対する最大/最小の比較を、EU値を数値で直接指定するまたは最大蓄電量に対する割合を使用するかどうかを切り替える。
+cover.advanced_energy_detector.modes_label=モード:
+cover.advanced_energy_detector.mode_eu=数値
+cover.advanced_energy_detector.mode_percent=割合
 
 cover.advanced_fluid_detector.label=発展型液体検出器
 cover.advanced_fluid_detector.invert_tooltip=赤石ロジックの反転を切り替え/nデフォルトでは、最小液体量を下回った時に信号が停止し、最大液体量を上回った時に信号が出力されます。
@@ -4348,6 +4352,7 @@ behaviour.paintspray.green.tooltip=様々なものを緑色に着色できる
 behaviour.paintspray.red.tooltip=様々なものを赤色に着色できる
 behaviour.paintspray.black.tooltip=様々なものを黒色に着色できる
 behaviour.paintspray.uses=残り使用回数: %,d
+behaviour.paintspray.offhand=オフハンドに持つと設置と同時に着色できる
 behaviour.prospecting=鉱石探知に
 
 # Multiblock machine controllers
@@ -4775,6 +4780,7 @@ gregtech.tool_action.screwdriver.toggle_mode_covers=§8スクリュードライ�
 gregtech.tool_action.screwdriver.access_covers=§8スクリュードライバーでカバーにアクセスできます。
 gregtech.tool_action.screwdriver.auto_collapse=§8スクリュードライバーでバス内の整頓を切替できます。
 gregtech.tool_action.screwdriver.auto_output=§8スクリュードライバーで自動搬出を切替できます。
+gregtech.tool_action.screwdriver.auto_output_down=§8スクリュードライバーで下面からの自動搬出を切替できます。
 gregtech.tool_action.screwdriver.toggle_mode=§8スクリュードライバーでモードを切替できます。
 gregtech.tool_action.wrench.set_facing=§8レンチを使うと向きを変更できます。
 gregtech.tool_action.wrench.connect=§8レンチで接続を設定でき、スニークで接続をブロックできます。
