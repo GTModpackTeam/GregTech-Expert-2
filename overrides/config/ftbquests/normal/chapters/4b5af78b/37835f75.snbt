@@ -58,12 +58,18 @@
 		uid: "9cbc5272",
 		type: "item",
 		items: [{
-			id: "gregtech:meta_tool",
-			Damage: 12s,
+			id: "gregtech:mortar",
 			tag: {
-				GT.ToolStats: {
-					Material: "flint"
-				}
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "flint",
+					MaxDurability: 64,
+					Durability: 0,
+					AttackDamage: 0.0f,
+					AttackSpeed: -2.4f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {}
 			}
 		}],
 		ignore_nbt: 1b
@@ -72,11 +78,21 @@
 		uid: "1f0805f9",
 		type: "item",
 		items: [{
-			id: "gregtech:meta_tool",
-			Damage: 1s,
+			id: "gregtech:pickaxe",
 			tag: {
-				GT.ToolStats: {
-					Material: "flint"
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "flint",
+					MaxDurability: 64,
+					Durability: 0,
+					ToolSpeed: 4.0f,
+					HarvestLevel: 1,
+					AttackDamage: 2.0f,
+					AttackSpeed: -2.8f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {
+					TorchPlacing: 1b
 				}
 			}
 		}],

@@ -15,11 +15,27 @@
 		uid: "35175d55",
 		type: "item",
 		items: [{
-			id: "gregtech:meta_tool",
-			Damage: 19s,
+			id: "gregtech:mining_hammer",
 			tag: {
-				GT.ToolStats: {
-					Material: "steel"
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "steel",
+					MaxDurability: 512,
+					Durability: 0,
+					ToolSpeed: 6.0f,
+					HarvestLevel: 3,
+					AttackDamage: 4.5f,
+					AttackSpeed: -3.2f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {
+					TorchPlacing: 1b,
+					MaxAoEColumn: 1,
+					MaxAoERow: 1,
+					MaxAoELayer: 0,
+					AoEColumn: 1,
+					AoERow: 1,
+					AoELayer: 0
 				}
 			}
 		}],

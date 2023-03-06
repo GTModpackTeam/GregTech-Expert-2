@@ -11,7 +11,9 @@
 		"Storage_Boxの隣に更にStorage_Boxを繋げる事でもStorage_Coreの容量を増やすことができます。",
 		"",
 		"余談：GTE1では初代EZStorageが倉庫modとして採用されていた",
-		"EZStorage周りのバグが多いのもそのときからである"
+		"EZStorage周りのバグが多いのもそのときからである",
+		"",
+		"余談：直近の更新で少しだけ扱いやすくはなったが..."
 	],
 	dependencies: [
 		"b91c9314"

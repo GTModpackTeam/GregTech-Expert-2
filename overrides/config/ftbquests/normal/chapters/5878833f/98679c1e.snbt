@@ -28,13 +28,30 @@
 		uid: "6e312838",
 		type: "item",
 		items: [{
-			id: "gregtech:meta_tool",
-			Damage: 21s,
+			id: "gregtech:drill_mv",
 			tag: {
-				Charge: 400000L,
-				GT.ToolStats: {
-					Material: "vanadium_steel"
-				}
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "vanadium_steel",
+					MaxDurability: 1536,
+					Durability: 0,
+					ToolSpeed: 7.0f,
+					HarvestLevel: 3,
+					AttackDamage: 4.0f,
+					AttackSpeed: -3.4f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {
+					TorchPlacing: 1b,
+					MaxAoEColumn: 1,
+					MaxAoERow: 1,
+					MaxAoELayer: 2,
+					AoEColumn: 1,
+					AoERow: 1,
+					AoELayer: 2
+				},
+				MaxCharge: 400000L,
+				Charge: 0L
 			}
 		}],
 		ignore_damage: true,

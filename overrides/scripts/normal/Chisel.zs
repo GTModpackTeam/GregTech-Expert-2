@@ -13,25 +13,25 @@ Carving.addVariation("basalt", <gregtech:stone_smooth:3>);
 # Iron Chisel
 recipes.remove(<chisel:chisel_iron>);
 recipes.addShaped(<chisel:chisel_iron>, [
-    [<ore:gtce.tool.file>, <metaitem:plateIron>, <metaitem:plateIron>],
+    [<ore:craftingToolFile>, <metaitem:plateIron>, <metaitem:plateIron>],
     [null, <metaitem:screwIron>, <metaitem:plateIron>],
-    [<metaitem:stickBronze>, null, <ore:gtce.tool.hammer>]
+    [<metaitem:stickBronze>, null, <ore:craftingToolHardHammer>]
 ]);
 
 # Diamond Chisel
 recipes.remove(<chisel:chisel_diamond>);
 recipes.addShaped(<chisel:chisel_diamond>, [
-    [<ore:gtce.tool.file>, <metaitem:plateDiamond>, <metaitem:plateDiamond>],
+    [<ore:craftingToolFile>, <metaitem:plateDiamond>, <metaitem:plateDiamond>],
     [null, <chisel:chisel_iron>, <metaitem:plateDiamond>],
-    [<metaitem:stickRoseGold>, null, <ore:gtce.tool.hammer>]
+    [<metaitem:stickRoseGold>, null, <ore:craftingToolHardHammer>]
 ]);
 
 # iChisel
 recipes.remove(<chisel:chisel_hitech>);
 recipes.addShaped(<chisel:chisel_hitech>, [
-    [<ore:gtce.tool.file>, <metaitem:plateDiamond>, <metaitem:plateDiamond>],
+    [<ore:craftingToolFile>, <metaitem:plateDiamond>, <metaitem:plateDiamond>],
     [null, <chisel:chisel_diamond>, <metaitem:plateDiamond>],
-    [<metaitem:stickStainlessSteel>, null, <ore:gtce.tool.hammer>]
+    [<metaitem:stickStainlessSteel>, null, <ore:craftingToolHardHammer>]
 ]);
 
 

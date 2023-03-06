@@ -1,0 +1,21 @@
+{
+	title: "木炭の満員電車",
+	x: 6.0d,
+	y: 0.0d,
+	description: "Charcoal Pile Igniter",
+	text: [
+		"Charcoal Pile Igniterは手作業しなくてはいけない代わりに",
+		"大量の木炭を入手できるというコンセプトのマルチブロックです。"
+	],
+	dependencies: [
+		"a887d7d6"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "d50a6ff7",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1036"
+		}]
+	}]
+}

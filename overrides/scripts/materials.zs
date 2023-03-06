@@ -16,33 +16,11 @@ MaterialBuilder(32200, "naquadah_rocket_fuel")
     .color(0x2E4C00)
     .build();
 
-# Nether Quartz
-var nether_quartz = MaterialRegistry.get("nether_quartz");
-nether_quartz.addFluid(FluidTypes.LIQUID, false);
-nether_quartz.addFlags(["generate_lens"]);
-
-# Certus Quartz
-var certus_quartz = MaterialRegistry.get("certus_quartz");
-certus_quartz.addFluid(FluidTypes.LIQUID, false);
-certus_quartz.addFlags(["generate_lens"]);
-
 
 
 ########################################
 # Items
 ########################################
-# Glowstone
-MaterialRegistry.get("glowstone").setFormula("Au(Si(FeS2)5(CrAl2O3)Hg3)", true);
-
-# Nether Quartz Rod
-MaterialRegistry.get("nether_quartz").addFlags("generate_rod");
-
-# Certus Quartz Rod
-MaterialRegistry.get("certus_quartz").addFlags("generate_rod");
-
-# Quartzite Quartz Rod
-MaterialRegistry.get("quartzite").addFlags("generate_rod");
-
 # EIO - Electrical Steel
 MaterialBuilder(32100, "electrical_steel")
     .ingot()
@@ -327,7 +305,6 @@ MaterialBuilder(32116, "vivid_alloy")
 # AE2 - Fluix Dust (Override)
 MaterialBuilder(32117, "fluix")
     .dust()
-    //.gem()
     .fluid(FluidTypes.LIQUID, false).fluidTemp(1200)
     .color(0x846994).iconSet("QUARTZ")
     .flags([
@@ -346,7 +323,6 @@ MaterialBuilder(32117, "fluix")
 # AE2 - Charged Certus Quartz Dust
 MaterialBuilder(32118, "charged_certus_quartz")
     .dust()
-    //.gem()
     .fluid(FluidTypes.LIQUID, false).fluidTemp(1200)
     .color(0xCFDAFF).iconSet("QUARTZ")
     .flags([

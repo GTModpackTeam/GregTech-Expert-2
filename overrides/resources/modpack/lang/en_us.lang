@@ -15,6 +15,7 @@ material.stellar_alloy=Stellar Alloy
 material.crystalline_pink_slime=Crystalline Pink Slime
 material.energetic_silver=Energetic Silver
 material.vivid_alloy=Vivid Alloy
+modpack.enderio.tank.tooltip.1=Exists only for recipe confirmation from liquid bucket. It cannot be created.
 
 # GregTech
 material.naquadah_rocket_fuel=Naquadah Rocket Fuel
@@ -30,9 +31,11 @@ modpack.ae2.p2p_gtceu.tooltip.1=Made by right-clicking ME P2P Tunnel with a Greg
 modpack.ae2.p2p_chest.tooltip.1=Made by right-clicking ME P2P Tunnel with a chest.
 modpack.ae2.p2p_torch.tooltip.1=Made by right-clicking ME P2P Tunnel with a torch.
 modpack.ae2.p2p_redstone.tooltip.1=Made by right-clicking ME P2P Tunnel with redstone dust.
+modpack.aeadditions.fluid_pattern.tooltip.1=AE2 Fluid Crafting recommended for fluid management.
 
 # Minecraft
 modpack.minecraft.tools.tooltip.1=It can only be used for crafting materials.
+modpack.deprecated.tooltip.1=This item is deprecated. Please move to the new item.
 
 # Mega Torch
 modpack.torchmaster.mega_torch.tooltip.1=In this modpack, there is a range of 128 blocks.

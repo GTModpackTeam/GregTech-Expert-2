@@ -1,14 +1,5 @@
 {
 	title: "ビットコインも掘れる",
-	icon: {
-		id: "gregtech:meta_tool",
-		Damage: 19s,
-		tag: {
-			GT.ToolStats: {
-				Material: "neutronium"
-			}
-		}
-	},
 	x: 10.0d,
 	y: -2.0d,
 	description: "Mining Hammer",
@@ -32,29 +23,16 @@
 		uid: "2028a064",
 		type: "item",
 		items: [{
-			id: "gregtech:meta_tool",
-			Damage: 19s,
+			id: "itemfilters:filter",
 			tag: {
-				GT.ToolStats: {
-					Material: "iron"
+				display: {
+					Name: "Any toolMiningHammer"
 				}
-			}
-		},
-		{
-			id: "gregtech:meta_tool",
-			Damage: 19s,
-			tag: {
-				GT.ToolStats: {
-					Material: "bronze"
-				}
-			}
-		},
-		{
-			id: "gregtech:meta_tool",
-			Damage: 19s,
-			tag: {
-				GT.ToolStats: {
-					Material: "wrought_iron"
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "toolMiningHammer"
 				}
 			}
 		}],

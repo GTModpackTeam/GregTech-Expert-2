@@ -15,6 +15,7 @@ material.stellar_alloy=ステラ合金
 material.crystalline_pink_slime=結晶性ピンクスライム
 material.energetic_silver=エナジェティックシルバー
 material.vivid_alloy=ビビッド合金
+modpack.enderio.tank.tooltip.1=液体バケツからのレシピ確認用としてだけに存在します。作成はできません。
 
 # GregTech
 material.naquadah_rocket_fuel=ナクアダロケット燃料
@@ -28,9 +29,11 @@ modpack.ae2.p2p_gtceu.tooltip.1=GregTechのケーブルを持ってME P2P Tunnel
 modpack.ae2.p2p_chest.tooltip.1=チェストを持ってME P2P Tunnelを右クリックすることで変化します。
 modpack.ae2.p2p_torch.tooltip.1=松明を持ってME P2P Tunnelを右クリックすることで変化します。
 modpack.ae2.p2p_redstone.tooltip.1=レッドストーンを持ってME P2P Tunnelを右クリックすることで変化します。
+modpack.aeadditions.fluid_pattern.tooltip.1=AE2 Fluid Craftingにて液体管理を推奨します。
 
 # Minecraft
 modpack.minecraft.tools.tooltip.1=クラフト材料にのみ使用できます。
+modpack.deprecated.tooltip.1=このアイテムは廃止されました。新しいアイテムに移行してください。
 
 # Mega Torch
 modpack.torchmaster.mega_torch.tooltip.1=このModpackでは128ブロックの範囲がある。

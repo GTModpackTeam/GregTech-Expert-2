@@ -1,0 +1,69 @@
+{
+	title: "自動クラフト講座その5",
+	x: 20.0d,
+	y: 6.0d,
+	description: "Mass Assembler",
+	text: [
+		"初代AEにあったクラフト装置を復活させたもので、ME分子組立室とMEインターフェースを合わせた機能を持つマルチブロックの装置です。",
+		"",
+		"作成難易度はかなり高いですが、この装置があればクラフトパターンを一か所で管理することができます。",
+		"また下記の作成ルールを満たして組み立て、または拡張後にコントローラーを右クリックして青く光れば完成です。",
+		"",
+		"①マルチブロックの形状が直方体である事。",
+		"②辺の全ブロックがAssembler Frameである事。",
+		"③面に任意の数のAssembler VentまたはAssembler IO Portである事。",
+		"④いずれかの面に1個のみコントローラーである事。",
+		"⑤内部に1個以上のPattern Providerと任意数のCrafting Coprocessorである事。",
+		"⑥内部スペースが512ブロック以下である事。",
+		"⑦各面に構成ブロック以外のマルチブロック部品を設置してない事。"
+	],
+	dependencies: [
+		"e7bd7fe1"
+	],
+	optional: true,
+	min_width: 350,
+	tasks: [{
+		uid: "3bba0a6f",
+		type: "item",
+		items: [{
+			item: "threng:big_assembler 1 2"
+		}]
+	},
+	{
+		uid: "be32275c",
+		type: "item",
+		items: [{
+			item: "threng:big_assembler 1 4"
+		}]
+	},
+	{
+		uid: "ca061d9c",
+		type: "item",
+		items: [{
+			item: "threng:big_assembler 1 3"
+		}]
+	},
+	{
+		uid: "2506e365",
+		type: "item",
+		items: [{
+			item: "threng:big_assembler 1 5"
+		}]
+	},
+	{
+		uid: "afdeb1fa",
+		type: "item",
+		items: [{
+			item: "threng:big_assembler 1 1"
+		}],
+		count: 8L
+	},
+	{
+		uid: "cd36f68b",
+		type: "item",
+		items: [{
+			item: "threng:big_assembler"
+		}],
+		count: 24L
+	}]
+}
