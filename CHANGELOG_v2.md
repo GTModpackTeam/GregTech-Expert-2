@@ -1,3 +1,12 @@
+# v2.1.1
+## Modpack information
+* Fixed problem with server not starting
+
+## Update mods
+* GTExpert-Core
+
+* * *
+
 # v2.1.0
 ## Modpack information
 * This is the latest update to support CEu 2.5 series!!
