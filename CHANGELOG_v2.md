@@ -14,6 +14,7 @@
 ## Update mods
 * GregTech CE: Unofficial
 * Gregicality Multiblocks
+* GregTech Food Option
 * GTExpert-Core
 * CraftTweaker
 * AE2 Unofficial Extended Life
