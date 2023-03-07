@@ -1,3 +1,10 @@
+# v2.1.2
+## Modpack information
+* CEu bugs preemptively incorporated.
+* Tool Belt quests added.
+
+* * *
+
 # v2.1.1
 ## Modpack information
 * Fixed problem with server not starting
