@@ -1,0 +1,34 @@
+{
+	title: "作業員のお気に入り",
+	x: 5.5d,
+	y: 2.0d,
+	description: "Tool Belt / Belt Pouch",
+	text: [
+		"Tool Beltは金床強化で最大9個もツールを仕舞えるポーチで、",
+		"ツールが多くなりがちなGreg環境にて必須のお供です。",
+		"",
+		"使用するにはデフォルトでVキーに設定されているキーを押して、",
+		"表示されたスロットに作成したTool Beltを入れる必要があります。"
+	],
+	dependencies: [
+		"b75f94e8"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "f953a7e0",
+		type: "item",
+		items: [{
+			item: "toolbelt:pouch"
+		}],
+		count: 2L
+	},
+	{
+		uid: "acb143eb",
+		type: "item",
+		items: [{
+			item: "toolbelt:belt"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

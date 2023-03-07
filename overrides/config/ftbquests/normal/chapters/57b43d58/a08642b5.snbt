@@ -1,7 +1,7 @@
 {
 	title: "昔は鉛で回路を作れたけど...",
 	icon: "gregtech:meta_ingot 1 320",
-	x: 15.5d,
+	x: 17.5d,
 	y: 4.0d,
 	description: "Soldering Alloy",
 	text: [

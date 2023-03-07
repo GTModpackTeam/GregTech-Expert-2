@@ -1,6 +1,6 @@
 {
 	title: "三番目の回路",
-	x: 11.5d,
+	x: 13.5d,
 	y: 4.0d,
 	shape: "diamond",
 	description: "Good Electronic Circuit",
