@@ -1,6 +1,6 @@
 {
 	title: "AI無限増殖の第一歩",
-	x: 13.5d,
+	x: 15.5d,
 	y: 4.0d,
 	shape: "diamond",
 	description: "Basic Circuit Assembler",
