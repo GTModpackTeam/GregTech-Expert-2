@@ -1,7 +1,7 @@
 {
 	title: "現実では高炉で焼くものではなさそう",
 	icon: "gregtech:meta_item_1 1 371",
-	x: 11.5d,
+	x: 13.5d,
 	y: 0.0d,
 	shape: "diamond",
 	description: "Silicon Wafer",
