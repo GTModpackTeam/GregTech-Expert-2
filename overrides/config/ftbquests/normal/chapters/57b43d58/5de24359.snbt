@@ -1,6 +1,6 @@
 {
 	title: "遮断機",
-	x: 11.5d,
+	x: 13.5d,
 	y: 2.0d,
 	shape: "diamond",
 	description: "Diode",
