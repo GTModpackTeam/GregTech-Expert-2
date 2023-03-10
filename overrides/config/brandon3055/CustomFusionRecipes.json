@@ -1,0 +1,22 @@
+[
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconium_chest",
+        "catalyst": "minecraft:chest"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:energy_crystal,4,2",
+        "catalyst": "draconicevolution:energy_crystal,4,1"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:awakened_core",
+        "catalyst": "minecraft:nether_star"
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:chaotic_core",
+        "catalyst": "draconicevolution:chaos_shard"
+    }
+]

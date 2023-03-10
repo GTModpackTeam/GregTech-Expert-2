@@ -38,13 +38,6 @@ recipes.addShaped(<enderio:item_conduit_probe>, [
     [<ore:plateConstructionAlloy>, <enderio:item_material:20>, <ore:plateConstructionAlloy>]
 ]);
 
-# Yeta Wrench
-recipes.addShaped(<enderio:item_yeta_wrench>, [
-    [<ore:plateElectricalSteel>, <ore:craftingToolHardHammer>, <ore:plateElectricalSteel>],
-    [null, <ore:plateElectricalSteel>, null],
-    [null, <ore:plateElectricalSteel>, null]
-]);
-
 # Experience Rod
 recipes.addShaped(<enderio:item_xp_transfer>, [
     [null, null, <ore:itemVibrantCrystal>],
