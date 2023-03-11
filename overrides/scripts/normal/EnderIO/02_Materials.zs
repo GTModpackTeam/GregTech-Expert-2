@@ -394,8 +394,8 @@ mixer.recipeBuilder()
         <metaitem:dustPlatinum>
     ])
     .outputs([<enderio:item_material:34> * 2])
-    .duration(20)
-    .EUt(30)
+    .duration(100)
+    .EUt(480)
     .buildAndRegister();
 
 # Grains of Vibrant
@@ -412,8 +412,8 @@ mixer.recipeBuilder()
         <metaitem:dustEmerald>
     ])
     .outputs([<enderio:item_material:35> * 2])
-    .duration(20)
-    .EUt(30)
+    .duration(100)
+    .EUt(480)
     .buildAndRegister();
 
 # Grains of Piezallity
@@ -430,8 +430,8 @@ mixer.recipeBuilder()
         <metaitem:dustDiamond>
     ])
     .outputs([<enderio:item_material:36> * 2])
-    .duration(20)
-    .EUt(30)
+    .duration(100)
+    .EUt(480)
     .buildAndRegister();
 
 # Grains of the End
@@ -447,10 +447,10 @@ mixer.recipeBuilder()
         <ore:itemVibrantPowder>,
         <ore:dustEndSteel>
     ])
-    .fluidInputs([<liquid:xpjuice> * 864])
+    .fluidInputs([<liquid:xpjuice> * 8000])
     .outputs([<enderio:item_material:37> * 2])
-    .duration(20)
-    .EUt(30)
+    .duration(600)
+    .EUt(480)
     .buildAndRegister();
 
 # Photovoltaic Composite
@@ -542,7 +542,7 @@ mixer.recipeBuilder()
         <ore:dyeBlack>
     ])
     .outputs([<enderio:item_material:51> * 9])
-    .duration(40)
+    .duration(100)
     .EUt(480)
     .buildAndRegister();
 
@@ -555,7 +555,7 @@ mixer.recipeBuilder()
         <ore:dyeBlack>
     ])
     .outputs([<enderio:item_material:52> * 9])
-    .duration(40)
+    .duration(100)
     .EUt(480)
     .buildAndRegister();
 
@@ -567,7 +567,7 @@ mixer.recipeBuilder()
         <ore:dyeBlack>
     ])
     .outputs([<enderio:item_material:67> * 9])
-    .duration(40)
+    .duration(100)
     .EUt(480)
     .buildAndRegister();
 
