@@ -1,3 +1,14 @@
+# v2.1.3
+## Update mods
+* AE2 Unofficial Extended Life
+* GregTech CE: Unofficial
+* GTExpert-Core
+* Controlling
+* CraftTweaker
+* Zen Utils
+
+* * *
+
 # v2.1.2
 ## Modpack information
 * CEu bugs preemptively incorporated.
