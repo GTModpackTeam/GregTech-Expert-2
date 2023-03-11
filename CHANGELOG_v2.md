@@ -1,3 +1,12 @@
+# v2.1.4
+## Modpack information
+* Please migrate all EIO materials, AE Certus Quartz, Charged Certus Quartz, and Fluix currently added in GTE to CoreMod as soon as possible, as they are to be completely migrated to CoreMod.
+
+## Hotfix recipe
+* Fixed an issue where Charged Certus Quartz could not be created.
+
+* * *
+
 # v2.1.3
 ## Modpack information
 * Vial Extractor was added as a new machine.
