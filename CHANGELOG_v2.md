@@ -1,4 +1,8 @@
 # v2.1.3
+## Modpack information
+* Vial Extractor was added as a new machine.
+* This is a device to obtain drops from enemy mobs!!
+
 ## Update mods
 * AE2 Unofficial Extended Life
 * GregTech CE: Unofficial
