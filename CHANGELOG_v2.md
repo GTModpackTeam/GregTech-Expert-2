@@ -1,6 +1,20 @@
+# v2.1.3
+## Update mods
+* AE2 Unofficial Extended Life
+* GregTech CE: Unofficial
+* GTExpert-Core
+* Controlling
+* CraftTweaker
+* Zen Utils
+
+## Known Issues
+* Creative Quantum Tank, the end content of GTE, cannot be created. We are currently investigating the cause.
+
+* * *
+
 # v2.1.2
 ## Modpack information
-* CEu bugs preemptively incorporated.
+* Preemptively Fixing Bugs in CEu.
 * Tool Belt quests added.
 
 * * *
