@@ -7,42 +7,6 @@ import mods.enderio.SliceNSplice;
 ########################################
 # Items
 ########################################
-# Basic Capacitor
-assembler.recipeBuilder()
-    .inputs([
-        <metaitem:battery.hull.hv>,
-        <ore:circuitHv>
-    ])
-    .fluidInputs([<liquid:electrical_steel> * 1152])
-    .outputs([<enderio:item_basic_capacitor>])
-    .duration(56)
-    .EUt(480)
-    .buildAndRegister();
-
-# Double-layer Capacitor
-assembler.recipeBuilder()
-    .inputs([
-        <enderio:item_basic_capacitor> * 2,
-        <ore:circuitEv>
-    ])
-    .fluidInputs([<liquid:energetic_alloy> * 1152])
-    .outputs([<enderio:item_basic_capacitor:1>])
-    .duration(56)
-    .EUt(1920)
-    .buildAndRegister();
-
-# Octadic Capacitor
-assembler.recipeBuilder()
-    .inputs([
-        <enderio:item_basic_capacitor:1> * 2,
-        <ore:circuitIv>
-    ])
-    .fluidInputs([<liquid:vibrant_alloy> * 1152])
-    .outputs([<enderio:item_basic_capacitor:2>])
-    .duration(56)
-    .EUt(7680)
-    .buildAndRegister();
-
 # Simple Machine Parts
 JEI.hide(<enderio:item_material:69>);
 
@@ -718,79 +682,6 @@ JEI.hide(<enderio:item_owl_egg>);
 
 # Grainy Capacior
 JEI.hide(<enderio:item_capacitor_grainy>);
-
-# Silver Capacitor
-assembler.recipeBuilder()
-    .inputs([
-        <ore:circuitHv>,
-        <metaitem:battery.hull.hv>
-    ])
-    .fluidInputs([<liquid:silver> * 1152])
-    .outputs([<enderio:item_capacitor_silver>])
-    .duration(40)
-    .EUt(480)
-    .buildAndRegister();
-
-# Endergetic Silver Capacitor
-assembler.recipeBuilder()
-    .inputs([
-        <ore:circuitEv>,
-        <enderio:item_capacitor_silver> * 2
-    ])
-    .fluidInputs([<liquid:energetic_silver> * 1152])
-    .outputs([<enderio:item_capacitor_energetic_silver>])
-    .duration(40)
-    .EUt(1920)
-    .buildAndRegister();
-
-# Endergised Capacitor
-assembler.recipeBuilder()
-    .inputs([
-        <ore:circuitIv>,
-        <enderio:item_capacitor_energetic_silver> * 2
-    ])
-    .fluidInputs([<liquid:vivid_alloy> * 1152])
-    .outputs([<enderio:item_capacitor_vivid>])
-    .duration(40)
-    .EUt(7680)
-    .buildAndRegister();
-
-# Crystalline Capacitor
-assembler.recipeBuilder()
-    .inputs([
-        <ore:circuitEv>,
-        <enderio:item_basic_capacitor:2> * 2
-    ])
-    .fluidInputs([<liquid:crystalline_alloy> * 1152])
-    .outputs([<enderio:item_capacitor_crystalline>])
-    .duration(40)
-    .EUt(1920)
-    .buildAndRegister();
-
-# Melodic Capacitor
-assembler.recipeBuilder()
-    .inputs([
-        <ore:circuitIv>,
-        <enderio:item_capacitor_crystalline> * 2
-    ])
-    .fluidInputs([<liquid:melodic_alloy> * 1152])
-    .outputs([<enderio:item_capacitor_melodic>])
-    .duration(40)
-    .EUt(7680)
-    .buildAndRegister();
-
-# Stellar Capacitor
-assembler.recipeBuilder()
-    .inputs([
-        <ore:circuitLuv>,
-        <minecraft:shulker_shell>,
-        <enderio:item_capacitor_melodic> * 2
-    ])
-    .fluidInputs([<liquid:stellar_alloy> * 1152])
-    .outputs([<enderio:item_capacitor_stellar>])
-    .duration(40)
-    .EUt(30720)
-    .buildAndRegister();
 
 # Totemic Capacitor
 SliceNSplice.addRecipe(<enderio:item_capacitor_totemic>, [
