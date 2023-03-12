@@ -1,3 +1,37 @@
+# v2.1.4
+## Modpack information
+* Please migrate all EIO materials, AE Certus Quartz, Charged Certus Quartz, and Fluix currently added in GTE to CoreMod as soon as possible, as they are to be completely migrated to CoreMod.
+
+## Hotfix recipe
+* Fixed an issue where Charged Certus Quartz could not be created.
+
+* * *
+
+# v2.1.3
+## Modpack information
+* Vial Extractor was added as a new machine.
+* This is a device to obtain drops from enemy mobs!!
+
+## Update mods
+* AE2 Unofficial Extended Life
+* GregTech CE: Unofficial
+* GTExpert-Core
+* Controlling
+* CraftTweaker
+* Zen Utils
+
+## Known Issues
+* Creative Quantum Tank, the end content of GTE, cannot be created. We are currently investigating the cause.
+
+* * *
+
+# v2.1.2
+## Modpack information
+* Preemptively Fixing Bugs in CEu.
+* Tool Belt quests added.
+
+* * *
+
 # v2.1.1
 ## Modpack information
 * Fixed problem with server not starting

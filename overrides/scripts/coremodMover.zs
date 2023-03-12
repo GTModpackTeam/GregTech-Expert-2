@@ -961,10 +961,11 @@ recipes.addShapeless(<gregtech:meta_dust_small:24151>, [<gregtech:meta_dust_smal
 
 // Dust
 // <ore:dustChargedCertusQuartz> <---> <metaitem:dustChargedCertusQuartz>
+electrolyzer.findRecipe(30, [<metaitem:dustCertusQuartz>], null).remove();
 recipes.addShapeless(<gregtech:meta_dust:24151>, [<gregtech:meta_dust:32118>]);
 <gregtech:meta_dust:32118>.addTooltip(format.red(I18n.format("modpack.deprecated.tooltip.1")));
 electrolyzer.recipeBuilder()
-    .inputs([<ore:dustChargedCertusQuartz>])
+    .inputs([<ore:dustCertusQuartz>])
     .outputs([<gregtech:meta_dust:24151>])
     .duration(20)
     .EUt(30)

@@ -224,6 +224,29 @@ assembly_line.recipeBuilder()
     .EUt(491520)
     .buildAndRegister();
 
+# Hopper (Override)
+assembler.findRecipe(2, [<minecraft:chest:0>, <metaitem:plateIron> * 5], null).remove();
+assembler.findRecipe(2, [<minecraft:chest:0>, <metaitem:plateWroughtIron> * 5], null).remove();
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <minecraft:chest>,
+        <metaitem:plateIron> * 5
+    ])
+    .outputs([<minecraft:hopper>])
+    .duration(800)
+    .EUt(2)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <minecraft:chest>,
+        <metaitem:plateWroughtIron> * 5
+    ])
+    .outputs([<minecraft:hopper>])
+    .duration(800)
+    .EUt(2)
+    .buildAndRegister();
 
 
 ########################################
