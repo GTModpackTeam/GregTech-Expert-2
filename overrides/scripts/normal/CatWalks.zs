@@ -36,8 +36,8 @@ assembler.recipeBuilder()
     .circuit(7)
     .inputs([
         <metaitem:frameDarkSteel>,
-        <ore:screwDarkSteel> * 2,
-        <ore:stickLongDarkSteel> * 4
+        <metaitem:screwDarkSteel> * 2,
+        <metaitem:stickLongDarkSteel> * 4
     ])
     .outputs([<catwalks:catwalk>.withTag({material: "classic"}) * 16])
     .duration(20)
@@ -70,7 +70,7 @@ assembler.recipeBuilder()
     .inputs([
         <metaitem:frameDarkSteel>,
         <metaitem:plateGlass> * 3,
-        <ore:stickLongDarkSteel> * 4
+        <metaitem:stickLongDarkSteel> * 4
     ])
     .outputs([<catwalks:catwalk>.withTag({material: "glass"}) * 16])
     .duration(20)
@@ -95,7 +95,7 @@ assembler.recipeBuilder()
     .inputs([
         <metaitem:frameTreatedWood>,
         <metaitem:plateTreatedWood> * 3,
-        <ore:stickLongDarkSteel> * 4
+        <metaitem:stickLongDarkSteel> * 4
     ])
     .outputs([<catwalks:catwalk>.withTag({material: "treated_wood"}) * 16])
     .duration(20)
@@ -120,7 +120,7 @@ assembler.recipeBuilder()
     .circuit(7)
     .inputs([
         <enderio:block_dark_steel_ladder>,
-        <ore:stickLongDarkSteel> * 4
+        <metaitem:stickLongDarkSteel> * 4
     ])
     .outputs([<catwalks:ladder> * 32])
     .duration(20)
@@ -138,7 +138,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 assembler.recipeBuilder()
     .circuit(9)
-    .inputs([<ore:stickLongDarkSteel> * 3])
+    .inputs([<metaitem:stickLongDarkSteel> * 3])
     .outputs([<catwalks:cable> * 32])
     .duration(20)
     .EUt(7)
