@@ -689,38 +689,6 @@ assembler.recipeBuilder()
     .EUt(30720)
     .buildAndRegister();
 
-# Certus Quartz Cutting Knife
-recipes.remove(<appliedenergistics2:certus_quartz_cutting_knife>);
-recipes.addShaped(<appliedenergistics2:certus_quartz_cutting_knife>, [
-    [<ore:craftingToolFile>, <metaitem:plateCertusQuartz>, <ore:craftingToolHardHammer>],
-    [<ore:crystalCertusQuartz>, <minecraft:stick>, <ore:crystalCertusQuartz>],
-    [null, <minecraft:stick>, null]
-]);
-
-# Nether Quartz Cutting Knife
-recipes.remove(<appliedenergistics2:nether_quartz_cutting_knife>);
-recipes.addShaped(<appliedenergistics2:nether_quartz_cutting_knife>, [
-    [<ore:craftingToolFile>, <metaitem:plateNetherQuartz>, <ore:craftingToolHardHammer>],
-    [<ore:gemNetherQuartz>, <minecraft:stick>, <ore:gemNetherQuartz>],
-    [null, <minecraft:stick>, null]
-]);
-
-# Certus Quartz Wrench
-recipes.remove(<appliedenergistics2:certus_quartz_wrench>);
-recipes.addShaped(<appliedenergistics2:certus_quartz_wrench>, [
-    [<metaitem:plateCertusQuartz>, <ore:craftingToolHardHammer>, <metaitem:plateCertusQuartz>],
-    [null, <metaitem:plateCertusQuartz>, null],
-    [null, <metaitem:plateCertusQuartz>, null]
-]);
-
-# Nether Quartz Wrench
-recipes.remove(<appliedenergistics2:nether_quartz_wrench>);
-recipes.addShaped(<appliedenergistics2:nether_quartz_wrench>, [
-    [<metaitem:plateNetherQuartz>, <ore:craftingToolHardHammer>, <metaitem:plateNetherQuartz>],
-    [null, <metaitem:plateNetherQuartz>, null],
-    [null, <metaitem:plateNetherQuartz>, null]
-]);
-
 # Entropy Manipulator
 recipes.remove(<appliedenergistics2:entropy_manipulator>);
 recipes.addShaped(<appliedenergistics2:entropy_manipulator>, [
