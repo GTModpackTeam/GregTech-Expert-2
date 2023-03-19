@@ -1,10 +1,3 @@
-#modloaded draconicevolution
 # Imports
 import mods.jei.JEI;
-
-
-
-########################################
-# Items
-########################################
-
+JEI.hideCategory("DraconicEvolution.Fusion");
