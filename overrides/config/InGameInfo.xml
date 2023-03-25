@@ -2,7 +2,7 @@
 <config>
     <lines at="topleft">
         <line>
-            <str>{pingicon}{gold}{username} {white}FPS: </str>
+            <str>{pingicon} {gold}{username} {white}FPS: </str>
             <op>
                 <str>gt</str>
                 <var>fps</var>
