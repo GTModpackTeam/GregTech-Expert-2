@@ -145,10 +145,10 @@ assembler.recipeBuilder()
     .EUt(1920)
     .buildAndRegister();
 
-# Level Maintainer
+# Fluid Level Maintainer
 recipes.remove(<ae2fc:fluid_level_maintainer>);
 recipes.addShaped(<ae2fc:fluid_level_maintainer>, [
-    [<threng:material>, <appliedenergistics2:part:281>, <threng:material>],
+    [<metaitem:plateFluixAlloy>, <appliedenergistics2:part:281>, <metaitem:plateFluixAlloy>],
     [<appliedenergistics2:material:22>, <metaitem:matrix_core>, <appliedenergistics2:material:22>],
-    [<threng:material>, <appliedenergistics2:material:53>, <threng:material>]
+    [<metaitem:plateFluixAlloy>, <appliedenergistics2:material:53>, <metaitem:plateFluixAlloy>]
 ]);

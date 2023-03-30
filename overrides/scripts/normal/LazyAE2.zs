@@ -68,7 +68,7 @@ recipes.addShaped(<threng:machine:3>, [
     [<metaitem:plateFluixAlloy>, <appliedenergistics2:material:24>, <metaitem:plateFluixAlloy>]
 ]);
 
-# Level Maintainer
+# Item Level Maintainer
 recipes.remove(<threng:machine:4>);
 recipes.addShaped(<threng:machine:4>, [
     [<metaitem:plateFluixAlloy>, <appliedenergistics2:part:280>, <metaitem:plateFluixAlloy>],
