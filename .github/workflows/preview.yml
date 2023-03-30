@@ -22,7 +22,7 @@ jobs:
           echo "GregTech Expert 2 ${MODPACKVERSION}-pr-${{ env.PR_VERSION }}" > ./overrides/resources/custommainmenu/version.txt
           sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" ./manifest.json
           sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" ./instance.cfg
-          sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" ./overrides/config/craftpresence.properties
+          sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" ./overrides/config/craftpresence.json
 
       - name: Archive Release CF
         run: |
