@@ -243,9 +243,9 @@
         </enchanting>
     </recipe>
     <!-- Draconic Evolution Enchant, Enchant_Reaper -->
-    <recipe name="Enchanter: draconicevolution:enchant_reaper" required="false" disabled="false">
+    <recipe name="Enchanter: draconicevolution:enchant_reaper" required="true" disabled="false">
         <enchanting>
-            <input name="draconicevolution:draconium_block" amount="12"/>
+            <input name="blockDraconium" amount="12"/>
             <enchantment name="draconicevolution:enchant_reaper" costMultiplier="1"/>
         </enchanting>
     </recipe>

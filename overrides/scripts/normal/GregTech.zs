@@ -34,22 +34,6 @@ macerator.recipeBuilder()
     .EUt(2)
     .buildAndRegister();
 
-# Stone Rod
-recipes.addShaped(<metaitem:stickStone>, [
-    [<ore:craftingToolFile>, null, null],
-    [null, <minecraft:stone>, null],
-    [null, null, null]
-]);
-lathe.recipeBuilder()
-    .inputs([<minecraft:stone>])
-    .outputs([
-        <metaitem:stickStone>,
-        <metaitem:dustSmallStone> * 2
-    ])
-    .duration(10)
-    .EUt(7)
-    .buildAndRegister();
-
 
 
 ########################################
