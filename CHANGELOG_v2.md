@@ -1,3 +1,45 @@
+# v2.2.0
+## CEu breaking changes
+* The slot where the Programmed Circuit is placed is now a dedicated slot.
+    * This means that molds, lenses, and fabricated products can no longer be temporarily placed, and if they have already been placed, they will disappear.
+
+## Modpack information
+* Because of the addition of Draconic Evolution and Draconic Additions, we have made significant changes around the end content recipes.
+* Also, as announced in the previous version (v2.1.4), materials added with ModPack have been moved to CoreMod.
+
+## Update mods
+* AE2 Unofficial Extended Life
+* AE2 Fluid Crafting Rework
+* PackagedAuto
+* GregTech CE: Unofficial
+* Gregicality Multiblocks
+* GregTech Food Option
+* GTExpert-Core
+* CraftTweaker
+* CraftPresence
+* MixinBooter
+* ModularUI
+* Inventory Bogo Sorter
+* Modern Splash
+* Had Enough Items
+* Roughly Enough IDs
+* Universal Tweaks
+* File Director
+* Zen Utils
+
+## New mods
+* Draconic Evolution
+* Draconic Additions
+
+## Fix recipes
+### AE2 Unofficial Extended Life
+* Quantum Link Card
+
+### AE2 Fluid Crafting Rework
+* Fluid Level Maintainer
+
+* * *
+
 # v2.1.4
 ## Modpack information
 * Please migrate all EIO materials, AE Certus Quartz, Charged Certus Quartz, and Fluix currently added in GTE to CoreMod as soon as possible, as they are to be completely migrated to CoreMod.

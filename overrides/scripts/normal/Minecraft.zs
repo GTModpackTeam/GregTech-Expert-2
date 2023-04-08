@@ -44,38 +44,11 @@ extractor.recipeBuilder()
     .EUt(2)
     .buildAndRegister();
 
-# Iron Nugget
-recipes.addShapeless(<minecraft:iron_nugget> * 9, [<minecraft:iron_ingot>]);
-
-# Iron Ingot
-furnace.remove(<minecraft:iron_ingot>, <appliedenergistics2:material:49>);
-
-# Gold Nugget
-recipes.addShapeless(<minecraft:gold_nugget> * 9, [<minecraft:gold_ingot>]);
-
-# Gold Ingot
-furnace.remove(<minecraft:gold_ingot>, <appliedenergistics2:material:51>);
-
-# Fermented Spider Eye
-recipes.remove(<minecraft:fermented_spider_eye>);
-
 
 
 ########################################
 # Blocks
 ########################################
-# Granite
-recipes.remove(<minecraft:stone:1>);
-
-# Diorite
-recipes.remove(<minecraft:stone:3>);
-
-# Andesite
-recipes.remove(<minecraft:stone:5>);
-
-# Comparator
-recipes.removeByRecipeName("appliedenergistics2:misc/vanilla_comparator");
-
 # Brewing Stand
 recipes.remove(<minecraft:brewing_stand>);
 recipes.addShaped(<minecraft:brewing_stand>, [
@@ -83,51 +56,3 @@ recipes.addShaped(<minecraft:brewing_stand>, [
     [<metaitem:stickSteel>, <minecraft:blaze_rod>, <metaitem:stickSteel>],
     [<metaitem:screwSteel>, <minecraft:cauldron>, <metaitem:screwSteel>]
 ]);
-
-# Nether Quartz Block
-recipes.remove(<minecraft:quartz_block>);
-compressor.recipeBuilder()
-    .inputs([<ore:crystalPureNetherQuartz> * 8])
-    .outputs([<minecraft:quartz_block>])
-    .duration(300)
-    .EUt(2)
-    .buildAndRegister();
-
-# Ender Chest
-recipes.remove(<minecraft:ender_chest>);
-
-# End Rod
-recipes.remove(<minecraft:end_rod>);
-
-# Daylight Sensor
-recipes.removeByRecipeName("appliedenergistics2:misc/vanilla_daylight_detector");
-
-# Redstone Lamp (Override)
-assembler.findRecipe(1, [
-    <minecraft:redstone:0> * 4, <minecraft:glowstone_dust:0> * 4
-], null).remove();
-assembler.recipeBuilder()
-    .circuit(1)
-    .inputs([
-        <minecraft:redstone> * 4,
-        <minecraft:glowstone_dust> * 4
-    ])
-    .outputs([<minecraft:redstone_lamp>])
-    .duration(100)
-    .EUt(1)
-    .buildAndRegister();
-
-# Redstone Torch (Override)
-assembler.findRecipe(1, [
-    <minecraft:redstone>, <minecraft:stick>
-], null).remove();
-assembler.recipeBuilder()
-    .circuit(5)
-    .inputs([
-        <minecraft:redstone>,
-        <minecraft:stick>
-    ])
-    .outputs([<minecraft:redstone_torch>])
-    .duration(20)
-    .EUt(1)
-    .buildAndRegister();

@@ -53,8 +53,6 @@
 		},
 		{
 			item: "gregtech:meta_item_1 1 738"
-		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
+		}]
 	}]
 }
