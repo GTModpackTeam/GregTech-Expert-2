@@ -1,3 +1,17 @@
+# v2.2.1
+## Modpack information
+* The update history was omitted and has been added to the previous version.
+
+## Update mods
+* GTExpert-Core
+* Inventory Bogo Sorter
+
+## Update lang(ja_jp)
+* GregTech CE: Unofficial
+* GregTech Food Option
+
+* * *
+
 # v2.2.0
 ## CEu breaking changes
 * The slot where the Programmed Circuit is placed is now a dedicated slot.
@@ -6,6 +20,14 @@
 ## Modpack information
 * Because of the addition of Draconic Evolution and Draconic Additions, we have made significant changes around the end content recipes.
 * Also, as announced in the previous version (v2.1.4), materials added with ModPack have been moved to CoreMod.
+* Chaos Island is generated every 1k instead of 10k blocks.
+
+## New ores
+* Apparently a Chaos Guardian is guarding a very valuable Ore at Chaos Island (End)...?
+
+## New mods
+* Draconic Evolution
+* Draconic Additions
 
 ## Update mods
 * AE2 Unofficial Extended Life
@@ -26,10 +48,6 @@
 * Universal Tweaks
 * File Director
 * Zen Utils
-
-## New mods
-* Draconic Evolution
-* Draconic Additions
 
 ## Fix recipes
 ### AE2 Unofficial Extended Life
