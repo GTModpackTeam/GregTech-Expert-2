@@ -46,17 +46,3 @@ recipes.addShaped(<minecraft:enchanting_table>, [
     [<metaitem:plateObsidian>, <ore:bookshelf>, <metaitem:plateObsidian>],
     [<minecraft:diamond>, <metaitem:plateObsidian>, <minecraft:diamond>]
 ]);
-
-# Crafting Station
-assembler.recipeBuilder()
-    .circuit(2)
-    .inputs([
-        <ore:plankWood> * 4,
-        <ore:chestWood> * 2,
-        <ore:slabWood>,
-        <minecraft:crafting_table>
-    ])
-    .outputs([<metaitem:workbench>])
-    .duration(100)
-    .EUt(16)
-    .buildAndRegister();

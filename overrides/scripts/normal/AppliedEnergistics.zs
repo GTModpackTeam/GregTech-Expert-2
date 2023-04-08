@@ -883,8 +883,8 @@ recipes.addShaped(<appliedenergistics2:material:60>, [
 recipes.remove(<appliedenergistics2:material:59>);
 recipes.addShaped(<appliedenergistics2:material:59>, [
     [<appliedenergistics2:material:42>, <metaitem:cover.digital.wireless>, <appliedenergistics2:material:42>],
-    [<metaitem:sensor.ev>, <appliedenergistics2:material:28>, <metaitem:sensor.ev>],
-    [<appliedenergistics2:material:42>, null, <appliedenergistics2:material:42>]
+    [<appliedenergistics2:material:47>, <appliedenergistics2:material:28>, <appliedenergistics2:material:47>],
+    [<appliedenergistics2:material:42>, <metaitem:sensor.ev>, <appliedenergistics2:material:42>]
 ]);
 
 # Fluix Pearl
