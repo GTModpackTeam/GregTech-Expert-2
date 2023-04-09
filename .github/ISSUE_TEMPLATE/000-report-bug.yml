@@ -12,25 +12,24 @@ body:
     validations:
       required: true
   - type: input
-    id: server
+    id: log
+    attributes:
+      label: Error Log
+      description: Please provide a link to the error log. I recommend [https://mclo.gs/](https://mclo.gs/)
+      placeholder: "https://mclo.gs/xxxxxxxx"
+  - type: dropdown
+    id: playmode
     attributes:
       label: SinglePlay or Server?
       description: How are you playing with this modpack?
-      placeholder: "SP"
-    validations:
-      required: true
-  - type: dropdown
-    id: server_other
-    attributes:
-      label: Type of Server
-      description: The brand of your server. Please note your server brand being listed here does not mean it is supported. Here Open To LAN means you started the world without any dedicated server software and clicked the Open To LAN button in ESC menu.
       options:
       - Single Player
-      - Open To LAN
-      - Forge
-      - Mohist
+      - Multi Player
+      - Docker
       - Other
       - "Don't know"
+    validations:
+      required: true
   - type: textarea
     id: expectation
     attributes:
