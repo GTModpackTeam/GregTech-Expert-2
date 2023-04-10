@@ -1,3 +1,15 @@
+# v2.2.2
+## Modpack information
+* v2.2.0 and v2.2.1 were made missing due to bugs.
+
+## Update mods
+* GregTech CE: Unofficial
+* Gregicality Multiblocks
+* GTExpert-Core
+* CraftPresence
+
+* * *
+
 # v2.2.1
 ## Modpack information
 * The update history was omitted and has been added to the previous version.
