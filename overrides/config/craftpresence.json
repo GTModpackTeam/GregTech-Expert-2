@@ -3,6 +3,7 @@
   "_schemaVersion": 3,
   "_lastMCVersionId": 340,
   "generalSettings": {
+    "detectATLauncherInstance": false,
     "detectCurseManifest": false,
     "detectMultiMCManifest": false,
     "detectMCUpdaterInstance": false,
@@ -72,7 +73,7 @@
   },
   "serverSettings": {
     "fallbackServerIcon": "gte_logo",
-    "fallbackServerName": "GTExpert2-MODPACKVERSION Server",
+    "fallbackServerName": "GregTech Expert 2 MODPACKVERSION Server",
     "fallbackServerMotd": "A Minecraft Server",
     "serverData": {
       "default": {
@@ -185,7 +186,6 @@
     }
   },
   "advancedSettings": {
-    "enableCommands": true,
     "enablePerGui": false,
     "enablePerItem": false,
     "enablePerEntity": false,
@@ -324,7 +324,7 @@
       "player_info_out": "As {player.name}",
       "player_info_health": "Health: {player.health.current}/{player.health.max}",
       "world_info": "On {world.name}",
-      "pack": "GTExpert2-MODPACKVERSION"
+      "pack": "GregTech Expert 2 MODPACKVERSION"
     }
   }
 }
