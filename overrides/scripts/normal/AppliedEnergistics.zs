@@ -76,10 +76,7 @@ JEI.removeAndHide(<appliedenergistics2:material:40>);
 
 # Network Tool
 recipes.remove(<appliedenergistics2:network_tool>);
-recipes.addShapeless(<appliedenergistics2:network_tool>, [
-    <appliedenergistics2:certus_quartz_wrench> | <appliedenergistics2:nether_quartz_wrench> | <enderio:item_yeta_wrench>, <appliedenergistics2:part:200>,
-    <appliedenergistics2:material:23>,<minecraft:chest>
-]);
+recipes.addShapeless(<appliedenergistics2:network_tool>, [<ore:wrench>, <appliedenergistics2:material:23>, <minecraft:chest>]);
 
 # Network Visualization Tool
 recipes.remove(<aenetvistool:net_visualizer>);
@@ -108,7 +105,7 @@ assembler.recipeBuilder()
         <metaitem:stickAluminium> * 2,
         <appliedenergistics2:material:22>,
         <appliedenergistics2:material:24>,
-        <ore:gemNetherQuartz> | <ore:crystalPureNetherQuartz>
+        <ore:ae2_nether_quartz>
     ])
     .outputs([<appliedenergistics2:material:43> * 4])
     .duration(20)
@@ -133,7 +130,7 @@ assembler.recipeBuilder()
         <metaitem:stickAluminium> * 2,
         <appliedenergistics2:material:23>,
         <appliedenergistics2:material:24>,
-        <ore:gemCertusQuartz> | <ore:crystalPureCertusQuartz>
+        <ore:ae2_certus_quartz>
     ])
     .outputs([<appliedenergistics2:material:44> * 4])
     .duration(20)
@@ -157,7 +154,7 @@ assembler.recipeBuilder()
         <metaitem:stickAluminium> * 2,
         <appliedenergistics2:material:43>,
         <appliedenergistics2:material:44>,
-        <ore:crystalFluix> | <ore:crystalPureFluix>
+        <ore:ae2_fluix>
     ])
     .outputs([<metaitem:matrix_core> * 4])
     .duration(20)
@@ -168,9 +165,9 @@ assembler.recipeBuilder()
     .inputs([
         <metaitem:stickAluminium> * 6,
         <appliedenergistics2:material:24> * 4,
-        <ore:gemNetherQuartz> | <ore:crystalPureNetherQuartz>,
-        <ore:gemCertusQuartz> | <ore:crystalPureCertusQuartz>,
-        <ore:crystalFluix> | <ore:crystalPureFluix>
+        <ore:ae2_nether_quartz>,
+        <ore:ae2_certus_quartz>,
+        <ore:ae2_fluix>
     ])
     .outputs([<metaitem:matrix_core> * 4])
     .duration(100)
@@ -867,7 +864,7 @@ recipes.addShapeless(<appliedenergistics2:material:58>, [
 recipes.remove(<appliedenergistics2:material:30>);
 recipes.addShaped(<appliedenergistics2:material:30>, [
     [<appliedenergistics2:material:28>, <appliedenergistics2:material:24>, null],
-    [<appliedenergistics2:material:22>, <ore:crystalFluix> | <ore:crystalPureFluix>, null],
+    [<appliedenergistics2:material:22>, <ore:ae2_fluix>, null],
     [null, null, null]
 ]);
 
@@ -1143,7 +1140,7 @@ for anchorIngot_x8 in anchorIngots_x8 {
 # Quartz Fiber
 recipes.remove(<appliedenergistics2:part:140>);
 wiremill.recipeBuilder()
-    .inputs([<metaitem:stickNetherQuartz> | <metaitem:stickCertusQuartz> | <metaitem:stickQuartzite>])
+    .inputs([<ore:ae2_quartz_stick>])
     .outputs([<appliedenergistics2:part:140>])
     .duration(20)
     .EUt(480)
@@ -1725,7 +1722,7 @@ assembler.recipeBuilder()
 # Cell Workbench
 recipes.remove(<appliedenergistics2:cell_workbench>);
 recipes.addShaped(<appliedenergistics2:cell_workbench>, [
-    [<ore:wool> | <ore:blockWool>, <metaitem:cover.screen>, <ore:wool> | <ore:blockWool>],
+    [<ore:wool>, <metaitem:cover.screen>, <ore:wool>],
     [<metaitem:plateAluminium>, <appliedenergistics2:material:23>, <metaitem:plateAluminium>],
     [<metaitem:plateAluminium>, <metaitem:plateAluminium>, <metaitem:plateAluminium>]
 ]);
