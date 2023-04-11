@@ -869,7 +869,8 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 # Sticky Piston Upgrade
-recipes.addShapeless(<opencomputers:upgrade:33>, [<opencomputers:upgrade:20>, <metaitem:rubber_drop> | <minecraft:slime_ball>]);
+recipes.addShapeless(<opencomputers:upgrade:33>, [<opencomputers:upgrade:20>, <metaitem:rubber_drop>]);
+recipes.addShapeless(<opencomputers:upgrade:33>, [<opencomputers:upgrade:20>, <minecraft:slime_ball>]);
 
 # Sign Upgrade
 assembler.recipeBuilder()
@@ -2160,7 +2161,17 @@ assembler.recipeBuilder()
     .circuit(1)
     .inputs([
         <metaitem:cableGtSingleGold>,
-        <metaitem:dustTinyRedAlloy> | <metaitem:dustTinyEmerald>
+        <metaitem:dustTinyRedAlloy>
+    ])
+    .outputs([<opencomputers:cable>])
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <metaitem:cableGtSingleGold>,
+        <metaitem:dustTinyEmerald>
     ])
     .outputs([<opencomputers:cable>])
     .duration(200)

@@ -427,7 +427,7 @@ recipes.addShaped(<enderio:item_material:38>, [
 # Zombie Eletrode
 SliceNSplice.addRecipe(<enderio:item_material:40>, [
     <metaitem:plateEnergeticAlloy>, <minecraft:skull:2>, <metaitem:plateEnergeticAlloy>,
-    <metaitem:wafer.silicon>, <enderio:item_basic_capacitor> | <enderio:item_capacitor_silver>, <metaitem:wafer.silicon>
+    <metaitem:wafer.silicon>, <ore:eio.capacitor>, <metaitem:wafer.silicon>
 ]);
 
 # Z-Logic Controller
@@ -445,7 +445,7 @@ SliceNSplice.addRecipe(<enderio:item_material:43>, [
 # Skeletal Contractor
 SliceNSplice.addRecipe(<enderio:item_material:45>, [
     <metaitem:plateSoularium>, <minecraft:skull>, <metaitem:plateSoularium>,
-    <metaitem:wafer.silicon>, <enderio:item_basic_capacitor> | <enderio:item_capacitor_silver>, <metaitem:wafer.silicon>
+    <metaitem:wafer.silicon>, <ore:eio.capacitor>, <metaitem:wafer.silicon>
 ]);
 
 # Clippings and Trimmings
@@ -670,7 +670,7 @@ macerator.recipeBuilder()
 # Tormented Enderman Head
 SliceNSplice.addRecipe(<enderio:block_enderman_skull:2>, [
     <metaitem:plateSoularium>, <enderio:block_enderman_skull>, <metaitem:plateSoularium>,
-    <metaitem:wafer.silicon>, <enderio:item_basic_capacitor> | <enderio:item_capacitor_silver>, <metaitem:wafer.silicon>
+    <metaitem:wafer.silicon>, <ore:eio.capacitor>, <metaitem:wafer.silicon>
 ]);
 
 # Glowstone Nano-Particles

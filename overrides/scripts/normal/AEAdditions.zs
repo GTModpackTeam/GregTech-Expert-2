@@ -497,9 +497,7 @@ JEI.addDescription(<aeadditions:part.base:3>, "Lag device. Use OreDict Storage b
 
 # Fluid Filler
 recipes.remove(<aeadditions:fluidfiller>);
-recipes.addShapeless(<aeadditions:fluidfiller>, [
-    <appliedenergistics2:part:520>, <ae2fc:fluid_assembler> | <aeadditions:fluidcrafter>
-]);
+recipes.addShapeless(<aeadditions:fluidfiller>, [<appliedenergistics2:part:520>, <ore:ae2.fluid.assembler>]);
 
 # ME Fluid Assembler
 recipes.remove(<aeadditions:fluidcrafter>);

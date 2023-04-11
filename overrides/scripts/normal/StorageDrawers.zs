@@ -246,7 +246,12 @@ recipes.addShaped(<framedcompactdrawers:framed_slave>, [
 recipes.remove(<storagedrawers:tape>);
 recipes.addShaped(<storagedrawers:tape>, [
     [null, null, null],
-    [null, <minecraft:slime_ball> | <metaitem:rubber_drop>, null],
+    [null, <minecraft:slime_ball>, null],
+    [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]
+]);
+recipes.addShaped(<storagedrawers:tape>, [
+    [null, null, null],
+    [null, <metaitem:rubber_drop>, null],
     [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]
 ]);
 
@@ -280,7 +285,19 @@ assembler.recipeBuilder()
         <minecraft:stick> * 2,
         <minecraft:redstone>,
         <minecraft:comparator>,
-        <storagedrawers:upgrade_template> | <storagedrawers:upgrade_status:0>
+        <storagedrawers:upgrade_template>
+    ])
+    .outputs([<storagedrawers:upgrade_status:1>])
+    .duration(40)
+    .EUt(7)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(8)
+    .inputs([
+        <minecraft:stick> * 2,
+        <minecraft:redstone>,
+        <minecraft:comparator>,
+        <storagedrawers:upgrade_status:0>
     ])
     .outputs([<storagedrawers:upgrade_status:1>])
     .duration(40)
@@ -290,7 +307,12 @@ assembler.recipeBuilder()
 # Redstone Max Upgrade
 recipes.addShaped(<storagedrawers:upgrade_redstone:1>, [
     [<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>],
-    [<minecraft:stick>, <storagedrawers:upgrade_redstone:0> | <storagedrawers:upgrade_redstone:2>, <minecraft:stick>],
+    [<minecraft:stick>, <storagedrawers:upgrade_redstone:0>, <minecraft:stick>],
+    [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>]
+]);
+recipes.addShaped(<storagedrawers:upgrade_redstone:1>, [
+    [<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>],
+    [<minecraft:stick>, <storagedrawers:upgrade_redstone:2>, <minecraft:stick>],
     [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>]
 ]);
 assembler.recipeBuilder()
@@ -298,7 +320,29 @@ assembler.recipeBuilder()
     .inputs([
         <minecraft:stick> * 2,
         <minecraft:redstone> * 2,
-        <storagedrawers:upgrade_template> | <storagedrawers:upgrade_redstone:0> | <storagedrawers:upgrade_redstone:2>
+        <storagedrawers:upgrade_template>
+    ])
+    .outputs([<storagedrawers:upgrade_redstone:1>])
+    .duration(40)
+    .EUt(7)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(9)
+    .inputs([
+        <minecraft:stick> * 2,
+        <minecraft:redstone> * 2,
+        <storagedrawers:upgrade_redstone:0>
+    ])
+    .outputs([<storagedrawers:upgrade_redstone:1>])
+    .duration(40)
+    .EUt(7)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(9)
+    .inputs([
+        <minecraft:stick> * 2,
+        <minecraft:redstone> * 2,
+        <storagedrawers:upgrade_redstone:2>
     ])
     .outputs([<storagedrawers:upgrade_redstone:1>])
     .duration(40)
@@ -308,7 +352,12 @@ assembler.recipeBuilder()
 # Redstone Min Upgrade
 recipes.addShaped(<storagedrawers:upgrade_redstone:2>, [
     [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
-    [<minecraft:stick>, <storagedrawers:upgrade_redstone:0> | <storagedrawers:upgrade_redstone:1>, <minecraft:stick>],
+    [<minecraft:stick>, <storagedrawers:upgrade_redstone:0>, <minecraft:stick>],
+    [<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>]
+]);
+recipes.addShaped(<storagedrawers:upgrade_redstone:2>, [
+    [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
+    [<minecraft:stick>, <storagedrawers:upgrade_redstone:1>, <minecraft:stick>],
     [<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>]
 ]);
 assembler.recipeBuilder()
@@ -316,7 +365,29 @@ assembler.recipeBuilder()
     .inputs([
         <minecraft:stick> * 2,
         <minecraft:redstone> * 2,
-        <storagedrawers:upgrade_template> | <storagedrawers:upgrade_redstone:0> | <storagedrawers:upgrade_redstone:1>
+        <storagedrawers:upgrade_template>
+    ])
+    .outputs([<storagedrawers:upgrade_redstone:2>])
+    .duration(40)
+    .EUt(7)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(10)
+    .inputs([
+        <minecraft:stick> * 2,
+        <minecraft:redstone> * 2,
+        <storagedrawers:upgrade_redstone:0>
+    ])
+    .outputs([<storagedrawers:upgrade_redstone:2>])
+    .duration(40)
+    .EUt(7)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(10)
+    .inputs([
+        <minecraft:stick> * 2,
+        <minecraft:redstone> * 2,
+        <storagedrawers:upgrade_redstone:1>
     ])
     .outputs([<storagedrawers:upgrade_redstone:2>])
     .duration(40)
@@ -334,7 +405,18 @@ assembler.recipeBuilder()
     .inputs([
         <minecraft:stick> * 3,
         <minecraft:flint>,
-        <storagedrawers:upgrade_template> | <storagedrawers:upgrade_storage:*>
+        <storagedrawers:upgrade_template>
+    ])
+    .outputs([<storagedrawers:upgrade_one_stack>])
+    .duration(40)
+    .EUt(7)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(8)
+    .inputs([
+        <minecraft:stick> * 3,
+        <minecraft:flint>,
+        <storagedrawers:upgrade_storage:*>
     ])
     .outputs([<storagedrawers:upgrade_one_stack>])
     .duration(40)
@@ -352,7 +434,18 @@ assembler.recipeBuilder()
     .inputs([
         <minecraft:stick> * 3,
         <minecraft:iron_ingot>,
-        <storagedrawers:upgrade_template> | <storagedrawers:upgrade_storage:0>
+        <storagedrawers:upgrade_template>
+    ])
+    .outputs([<storagedrawers:upgrade_storage:1>])
+    .duration(40)
+    .EUt(7)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(10)
+    .inputs([
+        <minecraft:stick> * 3,
+        <minecraft:iron_ingot>,
+        <storagedrawers:upgrade_storage:0>
     ])
     .outputs([<storagedrawers:upgrade_storage:1>])
     .duration(40)
@@ -362,7 +455,12 @@ assembler.recipeBuilder()
 # Storage Upgrade MK3
 recipes.addShaped(<storagedrawers:upgrade_storage:2>, [
     [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
-    [<minecraft:gold_ingot>, <storagedrawers:upgrade_storage:0> | <storagedrawers:upgrade_storage:1>, <minecraft:gold_ingot>],
+    [<minecraft:gold_ingot>, <storagedrawers:upgrade_storage:0>, <minecraft:gold_ingot>],
+    [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>]
+]);
+recipes.addShaped(<storagedrawers:upgrade_storage:2>, [
+    [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
+    [<minecraft:gold_ingot>, <storagedrawers:upgrade_storage:1>, <minecraft:gold_ingot>],
     [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>]
 ]);
 assembler.recipeBuilder()
@@ -370,7 +468,29 @@ assembler.recipeBuilder()
     .inputs([
         <minecraft:stick> * 3,
         <minecraft:gold_ingot>,
-        <storagedrawers:upgrade_template> | <storagedrawers:upgrade_storage:0> | <storagedrawers:upgrade_storage:1>
+        <storagedrawers:upgrade_template>
+    ])
+    .outputs([<storagedrawers:upgrade_storage:2>])
+    .duration(40)
+    .EUt(7)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(10)
+    .inputs([
+        <minecraft:stick> * 3,
+        <minecraft:gold_ingot>,
+        <storagedrawers:upgrade_storage:0>
+    ])
+    .outputs([<storagedrawers:upgrade_storage:2>])
+    .duration(40)
+    .EUt(7)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(10)
+    .inputs([
+        <minecraft:stick> * 3,
+        <minecraft:gold_ingot>,
+        <storagedrawers:upgrade_storage:1>
     ])
     .outputs([<storagedrawers:upgrade_storage:2>])
     .duration(40)
@@ -380,7 +500,22 @@ assembler.recipeBuilder()
 # Storage Upgrade MK4
 recipes.addShaped(<storagedrawers:upgrade_storage:3>, [
     [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
-    [<ore:gemDiamond>, <storagedrawers:upgrade_storage:0> | <storagedrawers:upgrade_storage:1> | <storagedrawers:upgrade_storage:2>, <ore:gemDiamond>],
+    [<ore:gemDiamond>, <storagedrawers:upgrade_template>, <ore:gemDiamond>],
+    [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>]
+]);
+recipes.addShaped(<storagedrawers:upgrade_storage:3>, [
+    [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
+    [<ore:gemDiamond>, <storagedrawers:upgrade_storage:0>, <ore:gemDiamond>],
+    [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>]
+]);
+recipes.addShaped(<storagedrawers:upgrade_storage:3>, [
+    [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
+    [<ore:gemDiamond>, <storagedrawers:upgrade_storage:1>, <ore:gemDiamond>],
+    [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>]
+]);
+recipes.addShaped(<storagedrawers:upgrade_storage:3>, [
+    [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
+    [<ore:gemDiamond>, <storagedrawers:upgrade_storage:2>, <ore:gemDiamond>],
     [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>]
 ]);
 assembler.recipeBuilder()
@@ -388,7 +523,40 @@ assembler.recipeBuilder()
     .inputs([
         <minecraft:stick> * 3,
         <ore:gemDiamond>,
-        <storagedrawers:upgrade_template> | <storagedrawers:upgrade_storage:0> | <storagedrawers:upgrade_storage:1> | <storagedrawers:upgrade_storage:2>
+        <storagedrawers:upgrade_template>
+    ])
+    .outputs([<storagedrawers:upgrade_storage:3>])
+    .duration(40)
+    .EUt(7)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(10)
+    .inputs([
+        <minecraft:stick> * 3,
+        <ore:gemDiamond>,
+        <storagedrawers:upgrade_storage:0>
+    ])
+    .outputs([<storagedrawers:upgrade_storage:3>])
+    .duration(40)
+    .EUt(7)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(10)
+    .inputs([
+        <minecraft:stick> * 3,
+        <ore:gemDiamond>,
+        <storagedrawers:upgrade_storage:1>
+    ])
+    .outputs([<storagedrawers:upgrade_storage:3>])
+    .duration(40)
+    .EUt(7)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(10)
+    .inputs([
+        <minecraft:stick> * 3,
+        <ore:gemDiamond>,
+        <storagedrawers:upgrade_storage:2>
     ])
     .outputs([<storagedrawers:upgrade_storage:3>])
     .duration(40)
@@ -398,7 +566,27 @@ assembler.recipeBuilder()
 # Storage Upgrade MK5
 recipes.addShaped(<storagedrawers:upgrade_storage:4>, [
     [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
-    [<ore:gemEmerald>, <storagedrawers:upgrade_storage:0> | <storagedrawers:upgrade_storage:1> | <storagedrawers:upgrade_storage:2> | <storagedrawers:upgrade_storage:3>, <ore:gemEmerald>],
+    [<ore:gemEmerald>, <storagedrawers:upgrade_template>, <ore:gemEmerald>],
+    [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>]
+]);
+recipes.addShaped(<storagedrawers:upgrade_storage:4>, [
+    [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
+    [<ore:gemEmerald>, <storagedrawers:upgrade_storage:0>, <ore:gemEmerald>],
+    [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>]
+]);
+recipes.addShaped(<storagedrawers:upgrade_storage:4>, [
+    [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
+    [<ore:gemEmerald>, <storagedrawers:upgrade_storage:1>, <ore:gemEmerald>],
+    [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>]
+]);
+recipes.addShaped(<storagedrawers:upgrade_storage:4>, [
+    [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
+    [<ore:gemEmerald>, <storagedrawers:upgrade_storage:2>, <ore:gemEmerald>],
+    [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>]
+]);
+recipes.addShaped(<storagedrawers:upgrade_storage:4>, [
+    [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
+    [<ore:gemEmerald>, <storagedrawers:upgrade_storage:3>, <ore:gemEmerald>],
     [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>]
 ]);
 assembler.recipeBuilder()
@@ -406,7 +594,51 @@ assembler.recipeBuilder()
     .inputs([
         <minecraft:stick> * 3,
         <ore:gemEmerald>,
-        <storagedrawers:upgrade_template> | <storagedrawers:upgrade_storage:0> | <storagedrawers:upgrade_storage:1> | <storagedrawers:upgrade_storage:2> | <storagedrawers:upgrade_storage:3>
+        <storagedrawers:upgrade_template>
+    ])
+    .outputs([<storagedrawers:upgrade_storage:4>])
+    .duration(40)
+    .EUt(7)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(10)
+    .inputs([
+        <minecraft:stick> * 3,
+        <ore:gemEmerald>,
+        <storagedrawers:upgrade_storage:0>
+    ])
+    .outputs([<storagedrawers:upgrade_storage:4>])
+    .duration(40)
+    .EUt(7)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(10)
+    .inputs([
+        <minecraft:stick> * 3,
+        <ore:gemEmerald>,
+        <storagedrawers:upgrade_storage:1>
+    ])
+    .outputs([<storagedrawers:upgrade_storage:4>])
+    .duration(40)
+    .EUt(7)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(10)
+    .inputs([
+        <minecraft:stick> * 3,
+        <ore:gemEmerald>,
+        <storagedrawers:upgrade_storage:2>
+    ])
+    .outputs([<storagedrawers:upgrade_storage:4>])
+    .duration(40)
+    .EUt(7)
+    .buildAndRegister();
+assembler.recipeBuilder()
+    .circuit(10)
+    .inputs([
+        <minecraft:stick> * 3,
+        <ore:gemEmerald>,
+        <storagedrawers:upgrade_storage:3>
     ])
     .outputs([<storagedrawers:upgrade_storage:4>])
     .duration(40)
