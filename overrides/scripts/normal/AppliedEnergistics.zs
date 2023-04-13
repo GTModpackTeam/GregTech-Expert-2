@@ -1140,6 +1140,7 @@ for anchorIngot_x8 in anchorIngots_x8 {
 # Quartz Fiber
 recipes.remove(<appliedenergistics2:part:140>);
 wiremill.recipeBuilder()
+    .circuit(1)
     .inputs([<ore:ae2_quartz_stick>])
     .outputs([<appliedenergistics2:part:140>])
     .duration(20)
