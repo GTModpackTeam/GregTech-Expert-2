@@ -12,7 +12,7 @@ assembler.recipeBuilder()
     .inputs([
         <ore:foilBronze> * 4,
         <minecraft:leather> * 3,
-        <ore:wool> | <ore:blockWool>,
+        <ore:wool>,
         <metaitem:cover.ender_fluid_link>
     ])
     .outputs([<enderstorage:ender_pouch>])
@@ -32,7 +32,7 @@ assembler.recipeBuilder()
     .inputs([
         <metaitem:screwBronze> * 8,
         <enderio:block_reinforced_obsidian> * 2,
-        <ore:wool> | <ore:blockWool>,
+        <ore:wool>,
         <metaitem:cover.ender_fluid_link>,
         <metaitem:super_chest.hv>
     ])
@@ -48,7 +48,7 @@ assembler.recipeBuilder()
     .inputs([
         <metaitem:stickBronze> * 4,
         <enderio:block_reinforced_obsidian> * 2,
-        <ore:wool> | <ore:blockWool>,
+        <ore:wool>,
         <metaitem:cover.ender_fluid_link>,
         <metaitem:super_tank.hv>
     ])

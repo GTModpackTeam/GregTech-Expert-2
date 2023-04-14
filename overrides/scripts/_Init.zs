@@ -1,4 +1,5 @@
 # Imports
+import crafttweaker.oredict.IOreDict;
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 import mods.gregtech.recipe.RecipeMap;
@@ -69,6 +70,12 @@ global awakened_draconium_fusion as RecipeMap = RecipeMap.getByName("awakened_dr
 ########################################
 # Applied Energistics 2
 ########################################
+# Extended Crafting Terminal
+<ore:ae2.extended.terminal>.addItems([
+    <appliedenergistics2:part:341>,
+    <ae2fc:part_fluid_pattern_ex_terminal>
+]);
+
 # Interface
 <ore:ae2.interface.item>.addItems([
     <appliedenergistics2:interface>,
@@ -232,6 +239,11 @@ for denseSmartCable in denseSmartCables {
     }
 }
 
+# Fluid Assembler
+<ore:ae2.fluid.assembler>.addItems([
+    <ae2fc:fluid_assembler>,
+    <aeadditions:fluidcrafter>
+]);
 
 
 ########################################
@@ -281,3 +293,36 @@ global colorLiquid as ILiquidStack[] = [
     <liquid:dye_red>,
     <liquid:dye_black>
 ];
+
+
+
+########################################
+# Other
+########################################
+# Wrench
+<ore:wrench>.addItems([
+    <appliedenergistics2:certus_quartz_wrench>,
+    <appliedenergistics2:nether_quartz_wrench>,
+    <enderio:item_yeta_wrench>,
+    <appliedenergistics2:part:200>
+]);
+
+# Wools
+<ore:wool>.addItems([
+    <chisel:wool_black:*>,
+    <chisel:wool_red:*>,
+    <chisel:wool_green:*>,
+    <chisel:wool_brown:*>,
+    <chisel:wool_blue:*>,
+    <chisel:wool_purple:*>,
+    <chisel:wool_cyan:*>,
+    <chisel:wool_lightgray:*>,
+    <chisel:wool_gray:*>,
+    <chisel:wool_pink:*>,
+    <chisel:wool_lime:*>,
+    <chisel:wool_yellow:*>,
+    <chisel:wool_lightblue:*>,
+    <chisel:wool_magenta:*>,
+    <chisel:wool_orange:*>,
+    <chisel:wool_white:*>
+]);
