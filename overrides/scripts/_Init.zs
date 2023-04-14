@@ -70,32 +70,6 @@ global awakened_draconium_fusion as RecipeMap = RecipeMap.getByName("awakened_dr
 ########################################
 # Applied Energistics 2
 ########################################
-# Nether Quartz
-<ore:ae2_nether_quartz>.addItems([
-    <minecraft:quartz>,
-    <appliedenergistics2:material:11>
-]);
-
-# Certus Quartz
-<ore:ae2_certus_quartz>.addItems([
-    <metaitem:gemCertusQuartz>,
-    <appliedenergistics2:material>,
-    <appliedenergistics2:material:10>
-]);
-
-# Fluix
-<ore:ae2_fluix>.addItems([
-    <appliedenergistics2:material:7>,
-    <appliedenergistics2:material:12>
-]);
-
-# Quartz Stick
-<ore:ae2_quartz_stick>.addItems([
-    <metaitem:stickNetherQuartz>,
-    <metaitem:stickCertusQuartz>,
-    <metaitem:stickQuartzite>
-]);
-
 # Extended Crafting Terminal
 <ore:ae2.extended.terminal>.addItems([
     <appliedenergistics2:part:341>,

@@ -86,94 +86,6 @@ recipes.addShaped(<aenetvistool:net_visualizer>, [
     [<metaitem:plateAluminium>, <appliedenergistics2:material:44>, <metaitem:plateAluminium>]
 ]);
 
-
-# Formation Core
-recipes.remove(<appliedenergistics2:material:43>);
-recipes.addShaped(<appliedenergistics2:material:43>, [
-    [<metaitem:stickAluminium>, <appliedenergistics2:material:24>, <metaitem:stickAluminium>],
-    [<appliedenergistics2:material:22>, <ore:gemNetherQuartz>, <appliedenergistics2:material:22>],
-    [<metaitem:stickAluminium>, <appliedenergistics2:material:24>, <metaitem:stickAluminium>]
-]);
-recipes.addShaped(<appliedenergistics2:material:43> * 2, [
-    [<metaitem:stickAluminium>, <appliedenergistics2:material:24>, <metaitem:stickAluminium>],
-    [<appliedenergistics2:material:22>, <ore:crystalPureNetherQuartz>, <appliedenergistics2:material:22>],
-    [<metaitem:stickAluminium>, <appliedenergistics2:material:24>, <metaitem:stickAluminium>]
-]);
-assembler.recipeBuilder()
-    .circuit(2)
-    .inputs([
-        <metaitem:stickAluminium> * 2,
-        <appliedenergistics2:material:22>,
-        <appliedenergistics2:material:24>,
-        <ore:ae2_nether_quartz>
-    ])
-    .outputs([<appliedenergistics2:material:43> * 4])
-    .duration(20)
-    .EUt(1920)
-    .buildAndRegister();
-
-# Annihilation Core
-recipes.remove(<appliedenergistics2:material:44>);
-recipes.addShaped(<appliedenergistics2:material:44>, [
-    [<metaitem:stickAluminium>, <appliedenergistics2:material:24>, <metaitem:stickAluminium>],
-    [<appliedenergistics2:material:23>, <ore:gemCertusQuartz>, <appliedenergistics2:material:23>],
-    [<metaitem:stickAluminium>, <appliedenergistics2:material:24>, <metaitem:stickAluminium>]
-]);
-recipes.addShaped(<appliedenergistics2:material:44> * 2, [
-    [<metaitem:stickAluminium>, <appliedenergistics2:material:23>, <metaitem:stickAluminium>],
-    [<appliedenergistics2:material:24>, <ore:crystalPureCertusQuartz>, <appliedenergistics2:material:24>],
-    [<metaitem:stickAluminium>, <appliedenergistics2:material:23>, <metaitem:stickAluminium>]
-]);
-assembler.recipeBuilder()
-    .circuit(2)
-    .inputs([
-        <metaitem:stickAluminium> * 2,
-        <appliedenergistics2:material:23>,
-        <appliedenergistics2:material:24>,
-        <ore:ae2_certus_quartz>
-    ])
-    .outputs([<appliedenergistics2:material:44> * 4])
-    .duration(20)
-    .EUt(1920)
-    .buildAndRegister();
-
-# Matrix Core
-recipes.addShaped(<metaitem:matrix_core>, [
-    [<metaitem:stickAluminium>, <appliedenergistics2:material:44>, <metaitem:stickAluminium>],
-    [<appliedenergistics2:material:43>, <ore:crystalFluix>, <appliedenergistics2:material:43>],
-    [<metaitem:stickAluminium>, <appliedenergistics2:material:44>, <metaitem:stickAluminium>]
-]);
-recipes.addShaped(<metaitem:matrix_core> * 2, [
-    [<metaitem:stickAluminium>, <appliedenergistics2:material:44>, <metaitem:stickAluminium>],
-    [<appliedenergistics2:material:43>, <ore:crystalPureFluix>, <appliedenergistics2:material:43>],
-    [<metaitem:stickAluminium>, <appliedenergistics2:material:44>, <metaitem:stickAluminium>]
-]);
-assembler.recipeBuilder()
-    .circuit(4)
-    .inputs([
-        <metaitem:stickAluminium> * 2,
-        <appliedenergistics2:material:43>,
-        <appliedenergistics2:material:44>,
-        <ore:ae2_fluix>
-    ])
-    .outputs([<metaitem:matrix_core> * 4])
-    .duration(20)
-    .EUt(1920)
-    .buildAndRegister();
-assembler.recipeBuilder()
-    .circuit(3)
-    .inputs([
-        <metaitem:stickAluminium> * 6,
-        <appliedenergistics2:material:24> * 4,
-        <ore:ae2_nether_quartz>,
-        <ore:ae2_certus_quartz>,
-        <ore:ae2_fluix>
-    ])
-    .outputs([<metaitem:matrix_core> * 4])
-    .duration(100)
-    .EUt(1920)
-    .buildAndRegister();
-
 # View Cell
 recipes.remove(<appliedenergistics2:view_cell>);
 recipes.addShaped(<appliedenergistics2:view_cell>, [
@@ -864,7 +776,7 @@ recipes.addShapeless(<appliedenergistics2:material:58>, [
 recipes.remove(<appliedenergistics2:material:30>);
 recipes.addShaped(<appliedenergistics2:material:30>, [
     [<appliedenergistics2:material:28>, <appliedenergistics2:material:24>, null],
-    [<appliedenergistics2:material:22>, <ore:ae2_fluix>, null],
+    [<appliedenergistics2:material:22>, <ore:craftFluix>, null],
     [null, null, null]
 ]);
 
@@ -1135,17 +1047,6 @@ for anchorIngot_x8 in anchorIngots_x8 {
         .EUt(480)
         .buildAndRegister();
 }
-
-
-# Quartz Fiber
-recipes.remove(<appliedenergistics2:part:140>);
-wiremill.recipeBuilder()
-    .circuit(1)
-    .inputs([<ore:ae2_quartz_stick>])
-    .outputs([<appliedenergistics2:part:140>])
-    .duration(20)
-    .EUt(480)
-    .buildAndRegister();
 
 # Glass Cable
 recipes.remove(<appliedenergistics2:part:16> * 4);
