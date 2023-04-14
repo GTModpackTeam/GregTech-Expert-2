@@ -1,3 +1,44 @@
+# v2.2.3
+## Update mods
+* GTExpert-Core
+
+## Bugfix recipes
+### Applied Energistics
+* Network Tool
+* Matrix Core
+* Acceleration Card
+* Quartz Fiber
+* Cell Workbench
+
+### AE Additions
+* Fluid Filler
+
+### Chise
+* Auto Chisel
+
+### EnderIO
+* Zombie Eletrode
+* Skeletal Contractor
+* Tormented Enderman Head
+* Nutrient Distillation
+* Hootch
+
+### Ender Storage
+* Pouch
+* Chest
+* Tank
+
+### GregTech Food Option
+* Sludge
+
+### Packaged Auto
+* Encoder
+
+### Vanilla
+* Wood Planks
+
+* * *
+
 # v2.2.2
 ## Modpack information
 * v2.2.0 and v2.2.1 were made missing due to bugs.
