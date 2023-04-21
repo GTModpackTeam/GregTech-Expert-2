@@ -10,6 +10,13 @@ Carving.addVariation("basalt", <gregtech:stone_smooth:3>);
 ########################################
 # Items
 ########################################
+# Chisel
+<ore:chisel>.addItems([
+    <chisel:chisel_iron>,
+    <chisel:chisel_diamond>,
+    <chisel:chisel_hitech>
+]);
+
 # Iron Chisel
 recipes.remove(<chisel:chisel_iron>);
 recipes.addShaped(<chisel:chisel_iron>, [
@@ -43,7 +50,7 @@ recipes.addShaped(<chisel:chisel_hitech>, [
 recipes.remove(<chisel:auto_chisel>);
 recipes.addShaped(<chisel:auto_chisel>, [
     [<metaitem:plateGlass>, <metaitem:plateGlass>, <metaitem:plateGlass>],
-    [<metaitem:plateGlass>, <chisel:chisel_iron> | <chisel:chisel_diamond> | <chisel:chisel_hitech>, <metaitem:plateGlass>],
+    [<metaitem:plateGlass>, <ore:chisel>, <metaitem:plateGlass>],
     [<minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:stone_slab>]
 ]);
 

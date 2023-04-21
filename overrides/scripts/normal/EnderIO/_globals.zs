@@ -122,3 +122,9 @@ for block in blocks {
 <ore:gearElectricalSteel>.add(<enderio:item_material:11>);
 <ore:gearEnergeticAlloy>.add(<enderio:item_material:12>);
 <ore:gearVibrantAlloy>.add(<enderio:item_material:13>);
+
+## Capacitor
+<ore:eio.capacitor>.addItems([
+    <enderio:item_basic_capacitor>,
+    <enderio:item_capacitor_silver>
+]);

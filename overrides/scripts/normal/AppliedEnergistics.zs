@@ -76,10 +76,7 @@ JEI.removeAndHide(<appliedenergistics2:material:40>);
 
 # Network Tool
 recipes.remove(<appliedenergistics2:network_tool>);
-recipes.addShapeless(<appliedenergistics2:network_tool>, [
-    <appliedenergistics2:certus_quartz_wrench> | <appliedenergistics2:nether_quartz_wrench> | <enderio:item_yeta_wrench>, <appliedenergistics2:part:200>,
-    <appliedenergistics2:material:23>,<minecraft:chest>
-]);
+recipes.addShapeless(<appliedenergistics2:network_tool>, [<ore:wrench>, <appliedenergistics2:material:23>, <minecraft:chest>]);
 
 # Network Visualization Tool
 recipes.remove(<aenetvistool:net_visualizer>);
@@ -88,94 +85,6 @@ recipes.addShaped(<aenetvistool:net_visualizer>, [
     [<appliedenergistics2:network_tool>, <metaitem:wireless>, <appliedenergistics2:entropy_manipulator>],
     [<metaitem:plateAluminium>, <appliedenergistics2:material:44>, <metaitem:plateAluminium>]
 ]);
-
-
-# Formation Core
-recipes.remove(<appliedenergistics2:material:43>);
-recipes.addShaped(<appliedenergistics2:material:43>, [
-    [<metaitem:stickAluminium>, <appliedenergistics2:material:24>, <metaitem:stickAluminium>],
-    [<appliedenergistics2:material:22>, <ore:gemNetherQuartz>, <appliedenergistics2:material:22>],
-    [<metaitem:stickAluminium>, <appliedenergistics2:material:24>, <metaitem:stickAluminium>]
-]);
-recipes.addShaped(<appliedenergistics2:material:43> * 2, [
-    [<metaitem:stickAluminium>, <appliedenergistics2:material:24>, <metaitem:stickAluminium>],
-    [<appliedenergistics2:material:22>, <ore:crystalPureNetherQuartz>, <appliedenergistics2:material:22>],
-    [<metaitem:stickAluminium>, <appliedenergistics2:material:24>, <metaitem:stickAluminium>]
-]);
-assembler.recipeBuilder()
-    .circuit(2)
-    .inputs([
-        <metaitem:stickAluminium> * 2,
-        <appliedenergistics2:material:22>,
-        <appliedenergistics2:material:24>,
-        <ore:gemNetherQuartz> | <ore:crystalPureNetherQuartz>
-    ])
-    .outputs([<appliedenergistics2:material:43> * 4])
-    .duration(20)
-    .EUt(1920)
-    .buildAndRegister();
-
-# Annihilation Core
-recipes.remove(<appliedenergistics2:material:44>);
-recipes.addShaped(<appliedenergistics2:material:44>, [
-    [<metaitem:stickAluminium>, <appliedenergistics2:material:24>, <metaitem:stickAluminium>],
-    [<appliedenergistics2:material:23>, <ore:gemCertusQuartz>, <appliedenergistics2:material:23>],
-    [<metaitem:stickAluminium>, <appliedenergistics2:material:24>, <metaitem:stickAluminium>]
-]);
-recipes.addShaped(<appliedenergistics2:material:44> * 2, [
-    [<metaitem:stickAluminium>, <appliedenergistics2:material:23>, <metaitem:stickAluminium>],
-    [<appliedenergistics2:material:24>, <ore:crystalPureCertusQuartz>, <appliedenergistics2:material:24>],
-    [<metaitem:stickAluminium>, <appliedenergistics2:material:23>, <metaitem:stickAluminium>]
-]);
-assembler.recipeBuilder()
-    .circuit(2)
-    .inputs([
-        <metaitem:stickAluminium> * 2,
-        <appliedenergistics2:material:23>,
-        <appliedenergistics2:material:24>,
-        <ore:gemCertusQuartz> | <ore:crystalPureCertusQuartz>
-    ])
-    .outputs([<appliedenergistics2:material:44> * 4])
-    .duration(20)
-    .EUt(1920)
-    .buildAndRegister();
-
-# Matrix Core
-recipes.addShaped(<metaitem:matrix_core>, [
-    [<metaitem:stickAluminium>, <appliedenergistics2:material:44>, <metaitem:stickAluminium>],
-    [<appliedenergistics2:material:43>, <ore:crystalFluix>, <appliedenergistics2:material:43>],
-    [<metaitem:stickAluminium>, <appliedenergistics2:material:44>, <metaitem:stickAluminium>]
-]);
-recipes.addShaped(<metaitem:matrix_core> * 2, [
-    [<metaitem:stickAluminium>, <appliedenergistics2:material:44>, <metaitem:stickAluminium>],
-    [<appliedenergistics2:material:43>, <ore:crystalPureFluix>, <appliedenergistics2:material:43>],
-    [<metaitem:stickAluminium>, <appliedenergistics2:material:44>, <metaitem:stickAluminium>]
-]);
-assembler.recipeBuilder()
-    .circuit(4)
-    .inputs([
-        <metaitem:stickAluminium> * 2,
-        <appliedenergistics2:material:43>,
-        <appliedenergistics2:material:44>,
-        <ore:crystalFluix> | <ore:crystalPureFluix>
-    ])
-    .outputs([<metaitem:matrix_core> * 4])
-    .duration(20)
-    .EUt(1920)
-    .buildAndRegister();
-assembler.recipeBuilder()
-    .circuit(3)
-    .inputs([
-        <metaitem:stickAluminium> * 6,
-        <appliedenergistics2:material:24> * 4,
-        <ore:gemNetherQuartz> | <ore:crystalPureNetherQuartz>,
-        <ore:gemCertusQuartz> | <ore:crystalPureCertusQuartz>,
-        <ore:crystalFluix> | <ore:crystalPureFluix>
-    ])
-    .outputs([<metaitem:matrix_core> * 4])
-    .duration(100)
-    .EUt(1920)
-    .buildAndRegister();
 
 # View Cell
 recipes.remove(<appliedenergistics2:view_cell>);
@@ -867,7 +776,7 @@ recipes.addShapeless(<appliedenergistics2:material:58>, [
 recipes.remove(<appliedenergistics2:material:30>);
 recipes.addShaped(<appliedenergistics2:material:30>, [
     [<appliedenergistics2:material:28>, <appliedenergistics2:material:24>, null],
-    [<appliedenergistics2:material:22>, <ore:crystalFluix> | <ore:crystalPureFluix>, null],
+    [<appliedenergistics2:material:22>, <ore:craftFluix>, null],
     [null, null, null]
 ]);
 
@@ -1138,16 +1047,6 @@ for anchorIngot_x8 in anchorIngots_x8 {
         .EUt(480)
         .buildAndRegister();
 }
-
-
-# Quartz Fiber
-recipes.remove(<appliedenergistics2:part:140>);
-wiremill.recipeBuilder()
-    .inputs([<metaitem:stickNetherQuartz> | <metaitem:stickCertusQuartz> | <metaitem:stickQuartzite>])
-    .outputs([<appliedenergistics2:part:140>])
-    .duration(20)
-    .EUt(480)
-    .buildAndRegister();
 
 # Glass Cable
 recipes.remove(<appliedenergistics2:part:16> * 4);
@@ -1725,7 +1624,7 @@ assembler.recipeBuilder()
 # Cell Workbench
 recipes.remove(<appliedenergistics2:cell_workbench>);
 recipes.addShaped(<appliedenergistics2:cell_workbench>, [
-    [<ore:wool> | <ore:blockWool>, <metaitem:cover.screen>, <ore:wool> | <ore:blockWool>],
+    [<ore:wool>, <metaitem:cover.screen>, <ore:wool>],
     [<metaitem:plateAluminium>, <appliedenergistics2:material:23>, <metaitem:plateAluminium>],
     [<metaitem:plateAluminium>, <metaitem:plateAluminium>, <metaitem:plateAluminium>]
 ]);

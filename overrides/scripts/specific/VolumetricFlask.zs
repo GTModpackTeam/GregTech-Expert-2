@@ -60,6 +60,12 @@ JEI.addDescription(<ore:flask>, "VolumetricFlask is out of support, please move 
 # Blocks
 ########################################
 # Interface
+<ore:ae2.interface.flask>.addItems([
+    <volumetricflask:o_interface>,
+    <volumetricflask:part_o_interface>
+]);
+
+# Interface
 recipes.remove(<volumetricflask:o_interface>);
 recipes.addShapeless(<volumetricflask:o_interface>, [<volumetricflask:part_o_interface>]);
 recipes.addShaped(<volumetricflask:o_interface>, [
@@ -81,7 +87,7 @@ assembler.recipeBuilder()
     .EUt(1920)
     .buildAndRegister();
 packer.recipeBuilder()
-    .inputs([<volumetricflask:o_interface> | <volumetricflask:part_o_interface>])
+    .inputs([<ore:ae2.interface.flask>])
     .outputs([<appliedenergistics2:fluid_interface>, <metaitem:plateStainlessSteel> * 4])
     .duration(10)
     .EUt(7)
@@ -114,7 +120,7 @@ assembler.recipeBuilder()
         <ore:flask> * 2,
         <ore:circuitHv> * 2,
         <metaitem:plateTitanium> * 4,
-        <aeadditions:fluidcrafter> | <ae2fc:fluid_assembler>
+        <ore:ae2.fluid.assembler>
     ])
     .fluidInputs([<liquid:plastic> * 144])
     .outputs([<volumetricflask:filler>])
