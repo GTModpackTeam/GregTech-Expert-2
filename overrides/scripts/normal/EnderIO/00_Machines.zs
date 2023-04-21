@@ -365,7 +365,11 @@ recipes.addShaped(<enderio:block_transceiver>, [
 ]);
 
 # Vacuum Chest
-JEI.hide(<enderio:block_vacuum_chest>);
+recipes.addShaped(<enderio:block_vacuum_chest>, [
+    [<metaitem:plateConstructionAlloy>, <metaitem:plateConstructionAlloy>, <metaitem:plateConstructionAlloy>],
+    [<metaitem:plateConstructionAlloy>, <metaitem:item_collector.hv>, <metaitem:plateConstructionAlloy>],
+    [<metaitem:plateConstructionAlloy>, <ore:itemEnderCrystal>, <metaitem:plateConstructionAlloy>]
+]);
 
 # XP Vacuum
 recipes.addShaped(<enderio:block_xp_vacuum>, [
