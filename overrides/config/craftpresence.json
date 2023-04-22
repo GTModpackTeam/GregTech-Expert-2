@@ -73,8 +73,8 @@
   },
   "serverSettings": {
     "fallbackServerIcon": "gte_logo",
-    "fallbackServerName": "GregTech Expert 2 MODPACKVERSION Server",
-    "fallbackServerMotd": "A Minecraft Server",
+    "fallbackServerName": "GregTech Expert 2 Server",
+    "fallbackServerMotd": "",
     "serverData": {
       "default": {
         "textOverride": "",
