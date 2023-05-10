@@ -47,11 +47,11 @@ jobs:
         run: python buildtools/mod-install.py
 
       - name: Download quest zip
-        run:
-          curl -L https://github.com/GTModpackTeam/gregtech-expert-2-questbook/archive/refs/heads/main.zip -o questbook.zip
+        run: |
+          wget -O questbook.zip https://github.com/GTModpackTeam/gregtech-expert-2-questbook/archive/refs/heads/main.zip
           unzip questbook.zip
-          rm questbook.zip
           mv -v gregtech-expert-2-questbook-main/ ./overrides/config/ftbquests/
+          rm questbook.zip && rm -rf gregtech-expert-2-questbook-main/
 
       - name: Archive Release MMC
         run: |
