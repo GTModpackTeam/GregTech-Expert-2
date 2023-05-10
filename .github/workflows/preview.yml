@@ -44,6 +44,13 @@ jobs:
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
         run: python buildtools/mod-install.py
 
+      - name: Download quest zip
+        run:
+          curl -L https://github.com/GTModpackTeam/gregtech-expert-2-questbook/archive/refs/heads/main.zip -o questbook.zip
+          unzip questbook.zip
+          rm questbook.zip
+          mv -v gregtech-expert-2-questbook-main/ ./overrides/config/ftbquests/
+
       - name: Archive Release MMC
         run: |
           mv -vf ./overrides/ .minecraft/

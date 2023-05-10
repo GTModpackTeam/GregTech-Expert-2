@@ -1,7 +1,0 @@
-{
-	title: "Tier 7 -LuV",
-	icon: "gregtech:machine 1 1020",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}
