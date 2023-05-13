@@ -76,7 +76,10 @@ JEI.removeAndHide(<appliedenergistics2:material:40>);
 
 # Network Tool
 recipes.remove(<appliedenergistics2:network_tool>);
-recipes.addShapeless(<appliedenergistics2:network_tool>, [<ore:wrench>, <appliedenergistics2:material:23>, <minecraft:chest>]);
+recipes.addShapeless(<appliedenergistics2:network_tool>, [
+    <ore:wrench>, <appliedenergistics2:material:23>,
+    <minecraft:chest>, <ore:itemIlluminatedPanel>
+]);
 
 # Network Visualization Tool
 recipes.remove(<aenetvistool:net_visualizer>);
@@ -1114,8 +1117,8 @@ recipes.addShaped(<appliedenergistics2:part:36>, [
     [<metaitem:plateRubber>, <metaitem:plateRubber>, <metaitem:plateRubber>]
 ]);
 packer.recipeBuilder()
-    .inputs([<appliedenergistics2:part:516> * 4])
-    .outputs([<appliedenergistics2:part:36>])
+    .inputs([<appliedenergistics2:part:516>])
+    .outputs([<appliedenergistics2:part:36> * 4])
     .duration(10)
     .EUt(480)
     .buildAndRegister();
