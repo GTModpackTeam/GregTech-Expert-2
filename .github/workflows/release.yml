@@ -48,12 +48,10 @@ jobs:
 
       - name: Download quest zip
         run: |
-          wget -O questbook.zip https://github.com/GTModpackTeam/gregtech-expert-2-questbook/archive/refs/heads/main.zip
-          unzip questbook.zip
-          mv ./gregtech-expert-2-questbook-main ./questbook
-          rm questbook.zip questbook/.gitkeep questbook/README.md questbook/LICENSE
-          mv -v questbook/* ./overrides/config/ftbquests/
-          rm -rf questbook/
+          wget https://github.com/GTModpackTeam/gregtech-expert-2-questbook/archive/refs/heads/main.zip
+          unzip main.zip
+          mv -vf ./gregtech-expert-2-questbook-main/* ./overrides/config/ftbquests/
+          rm -rf ./gregtech-expert-2-questbook-main/ ./main.zip
 
       - name: Archive Release MMC
         run: |
