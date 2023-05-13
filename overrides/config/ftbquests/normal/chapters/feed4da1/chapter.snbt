@@ -1,7 +1,0 @@
-{
-	title: "Tier 1 -Steam",
-	icon: "gregtech:machine 1 1",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}
