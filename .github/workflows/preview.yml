@@ -24,6 +24,13 @@ jobs:
           sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" ./instance.cfg
           sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" ./overrides/config/craftpresence.json
 
+      - name: Download quest zip
+        run: |
+          wget https://github.com/GTModpackTeam/gregtech-expert-2-questbook/archive/refs/heads/main.zip
+          unzip main.zip
+          mv -vf ./gregtech-expert-2-questbook-main/* ./overrides/config/ftbquests/
+          rm -rf ./gregtech-expert-2-questbook-main/ ./main.zip
+      
       - name: Archive Release CF
         run: |
           zip -r ./GTExpert2-${{ env.VERSION }}-pr-${{ env.PR_VERSION }}-cf.zip ./manifest.json ./modlist.html ./overrides/bansoukou/ ./overrides/config/ ./overrides/local/ ./overrides/resources/ ./overrides/scripts/
@@ -43,13 +50,6 @@ jobs:
         env:
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
         run: python buildtools/mod-install.py
-
-      - name: Download quest zip
-        run: |
-          wget https://github.com/GTModpackTeam/gregtech-expert-2-questbook/archive/refs/heads/main.zip
-          unzip main.zip
-          mv -vf ./gregtech-expert-2-questbook-main/* ./overrides/config/ftbquests/
-          rm -rf ./gregtech-expert-2-questbook-main/ ./main.zip
 
       - name: Archive Release MMC
         run: |
