@@ -1,3 +1,17 @@
+# v2.3.1
+## Modpack information
+* Fix for issue where all stand-alone craft were broken.
+
+## Update mods
+* GTExpert-Core
+* CraftTweaker
+
+## New recipes
+### GregTech(CoreMod)
+* SodiumBicarbonate
+
+* * *
+
 # v2.3.0
 ## Modpack information
 * Material has been absorbed into CoreMod.
