@@ -1,28 +1,10 @@
 # Ender IO
-material.electrical_steel=Electrical Steel
-material.energetic_alloy=Energetic Alloy
-material.vibrant_alloy=Vibrant Alloy
-material.redstone_alloy=Redstone Alloy
-material.conductive_iron=Conductive Iron
-material.pulsating_iron=Pulsating Iron
-material.dark_steel=Dark Steel
-material.soularium=Soularium
-material.end_steel=End Steel
-material.construction_alloy=Iron Alloy
-material.crystalline_alloy=Crystalline Alloy
-material.melodic_alloy=Melodic Alloy
-material.stellar_alloy=Stellar Alloy
-material.crystalline_pink_slime=Crystalline Pink Slime
-material.energetic_silver=Energetic Silver
-material.vivid_alloy=Vivid Alloy
 modpack.enderio.tank.tooltip.1=Exists only for recipe confirmation from liquid bucket. It cannot be created.
 
 # GregTech
 material.naquadah_rocket_fuel=Naquadah Rocket Fuel
 
 # AE2
-material.fluix=Fluix
-material.charged_certus_quartz=Charged Certus Quartz
 modpack.ae2.bus_item.tooltip.1=Lag device. Use interface.
 modpack.ae2.bus_fluid.tooltip.1=Lag device. Use Fluid interface.
 modpack.ae2.p2p_conduit.tooltip.1=Made by right-clicking ME P2P Tunnel with an energy conduit.

@@ -303,8 +303,7 @@ global colorLiquid as ILiquidStack[] = [
 <ore:wrench>.addItems([
     <appliedenergistics2:certus_quartz_wrench>,
     <appliedenergistics2:nether_quartz_wrench>,
-    <enderio:item_yeta_wrench>,
-    <appliedenergistics2:part:200>
+    <enderio:item_yeta_wrench>
 ]);
 
 # Wools

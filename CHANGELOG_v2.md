@@ -1,3 +1,85 @@
+# v2.3.1
+## Modpack information
+* Fix for issue where all stand-alone craft were broken.
+
+## Update mods
+* GTExpert-Core
+* CraftTweaker
+
+## New recipes
+### GregTech(CoreMod)
+* SodiumBicarbonate
+
+* * *
+
+# v2.3.0
+## Modpack information
+* Material has been absorbed into CoreMod.
+    * [https://www.curseforge.com/minecraft/mc-mods/gte2-coremod](https://www.curseforge.com/minecraft/mc-mods/gte2-coremod)
+* Casing colors have been corrected and updated. It should look much better now.
+* The number of casing to complete Sawmill was reduced and glass was no longer needed.
+* Draconic equipment can now be upgraded. Thanks to @miozune for his support!!
+
+## Update mods
+* GregTech CE: Unofficial
+* Gregicality Multiblocks
+* GregTech Food Option
+* GTExpert-Core
+* AE2 Unofficial Extended Life
+* AE2 Fluid Crafting Rework
+* OpenComputers
+* Universal Tweaks
+* Roughly Enough IDs
+* Had Enough Items
+* Inventory Bogo Sorter
+* Zen Utils
+
+## Other updates (ResourcePack)
+* ShaderTech
+
+## New recipes
+### Ender IO
+* Vacuum Chest
+
+### Draconic Evolution
+* Dragon Heart
+* Upgrade Key (RF Capacity)
+* Upgrade Key (Dig Speed)
+* Upgrade Key (Dig AOE)
+* Upgrade Key (Attack Damage)
+* Upgrade Key (Attack AOE)
+* Upgrade Key (Arrow Damage)
+* Upgrade Key (Draw Speed)
+* Upgrade Key (Arrow Speed)
+* Upgrade Key (Shield Capacity)
+* Upgrade Key (Shield Recharge)
+* Upgrade Key (Movement Speed)
+* Upgrade Key (Jump Boost)
+
+### GregTech(CoreMod)
+* Draconium Rotor
+* Awakened Draconium Rotor
+* Sawmill Casing
+* Draconum Casing
+* Awakened Draconum Casing
+
+## Update recipes
+### GregTech(CoreMod)
+* Cryotheum
+
+## Bugfix recipes
+### AE2 Unofficial Extended Life
+* Network Tool
+* Covered Cable
+
+### GregTech(CoreMod)
+* Solar Panels
+* Creative Energy Cell
+* Creative Capacitor Bank
+* GTE ME Storage Fake Component
+
+* * *
+
 # v2.2.3
 ## Update mods
 * GTExpert-Core
