@@ -1,3 +1,17 @@
+# v2.3.2
+## Update mods
+* BisectHosting Menu
+* GTExpert-Core
+* Had Enough Items
+* LoliASM
+* ModularUI
+* Zen Utils
+
+## New mod
+* Extra CPUs
+
+* * * 
+
 # v2.3.1
 ## Modpack information
 * Fix for issue where all stand-alone craft were broken.
