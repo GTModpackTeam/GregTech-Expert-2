@@ -1,16 +1,16 @@
 # Japanese translate by MrKo_no
 # 翻訳担当 : MrKo_no
-# Corresponding Version: 1.9.1
-# 対応バージョン: 1.9.1
+# Corresponding Version: 1.9.2
+# 対応バージョン: 1.9.2
 
 metaitem.phycomyces.culture.name=ヒゲカビ菌床
-metaitem.component.popcorn.ear.name=トウモロコシ
+metaitem.component.corn.ear.name=トウモロコシ
 metaitem.component.corn.dried_ear.name=乾燥トウモロコシ
 metaitem.component.corn.cob.name=剥きトウモロコシ
 metaitem.component.corn.flavored_flake.name=味付けしたトウモロコシの粒
 metaitem.component.bag.name=紙袋
-metaitem.food.corn_bag.name=ポップコーン袋
-metaitem.food.corn_bag.tooltip=美味しいバター風化学調味料のような味
+metaitem.food.popcorn_bag.name=ポップコーン袋
+metaitem.food.popcorn_bag.tooltip=美味しいバター風化学調味料のような味
 metaitem.2-aminopyridine_dust.name=2-アミノピリジン
 metaitem.isopropylmagnesium_chloride_dust.name=イソプロピルマグネシウムクロリド
 metaitem.beta_carotene_dust.name=β-カロテン
@@ -674,7 +674,7 @@ gregtechfoodoption.recipe.accepted_mobs_on_top=上面に%sが必要
 metaitem.seed.onion.name=タマネギの種
 metaitem.component.soybean.name=大豆
 metaitem.seed.unknown.name=未解析のGTFOの種
-metaitem.seed.unknown.tooltip=クラフトで種を得られる/n§cGTFOの種は右クリックで収穫できない
+metaitem.seed.unknown.tooltip=§6クラフト§rで種を得られる/n§cGTFOの種は植えた後に回収できない
 metaitem.seed.soy.name=大豆の種
 metaitem.seed.tomato.name=トマトの種
 metaitem.seed.grape.name=ブドウの種
