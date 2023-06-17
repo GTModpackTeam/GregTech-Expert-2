@@ -1,59 +1,11 @@
 # Imports
 import crafttweaker.item.IItemStack;
-import mods.chisel.Carving;
-
-Carving.addVariation("marble", <gregtech:stone_smooth:2>);
-Carving.addVariation("basalt", <gregtech:stone_smooth:3>);
-
-
-
-########################################
-# Items
-########################################
-# Chisel
-<ore:chisel>.addItems([
-    <chisel:chisel_iron>,
-    <chisel:chisel_diamond>,
-    <chisel:chisel_hitech>
-]);
-
-# Iron Chisel
-recipes.remove(<chisel:chisel_iron>);
-recipes.addShaped(<chisel:chisel_iron>, [
-    [<ore:craftingToolFile>, <metaitem:plateIron>, <metaitem:plateIron>],
-    [null, <metaitem:screwIron>, <metaitem:plateIron>],
-    [<metaitem:stickBronze>, null, <ore:craftingToolHardHammer>]
-]);
-
-# Diamond Chisel
-recipes.remove(<chisel:chisel_diamond>);
-recipes.addShaped(<chisel:chisel_diamond>, [
-    [<ore:craftingToolFile>, <metaitem:plateDiamond>, <metaitem:plateDiamond>],
-    [null, <chisel:chisel_iron>, <metaitem:plateDiamond>],
-    [<metaitem:stickRoseGold>, null, <ore:craftingToolHardHammer>]
-]);
-
-# iChisel
-recipes.remove(<chisel:chisel_hitech>);
-recipes.addShaped(<chisel:chisel_hitech>, [
-    [<ore:craftingToolFile>, <metaitem:plateDiamond>, <metaitem:plateDiamond>],
-    [null, <chisel:chisel_diamond>, <metaitem:plateDiamond>],
-    [<metaitem:stickStainlessSteel>, null, <ore:craftingToolHardHammer>]
-]);
 
 
 
 ########################################
 # Blocks
 ########################################
-# Auto Chisel
-recipes.remove(<chisel:auto_chisel>);
-recipes.addShaped(<chisel:auto_chisel>, [
-    [<metaitem:plateGlass>, <metaitem:plateGlass>, <metaitem:plateGlass>],
-    [<metaitem:plateGlass>, <ore:chisel>, <metaitem:plateGlass>],
-    [<minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:stone_slab>]
-]);
-
 # Bookshelfs
 <ore:bookshelf>.add(<minecraft:bookshelf>);
 
@@ -128,28 +80,3 @@ assembler.recipeBuilder()
     .duration(100)
     .EUt(4)
     .buildAndRegister();
-
-# Glass Pane
-var glassPanes as IItemStack[] = [
-    <chisel:glasspane>,
-    <chisel:glasspane:1>,
-    <chisel:glasspane:2>,
-    <chisel:glasspane:3>,
-    <chisel:glasspane:4>,
-    <chisel:glasspane:5>,
-    <chisel:glasspane:6>,
-    <chisel:glasspane:7>,
-    <chisel:glasspane:8>,
-    <chisel:glasspane:9>,
-    <chisel:glasspane:10>,
-    <chisel:glasspane:11>,
-    <chisel:glasspane:12>,
-    <chisel:glasspane:13>,
-    <chisel:glasspane:14>,
-    <chisel:glasspane:15>,
-    <chisel:glasspane1>,
-    <chisel:glasspane1:1>
-];
-for pane in glassPanes {
-    recipes.remove(pane);
-}
