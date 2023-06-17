@@ -1,8 +1,8 @@
 {
   "weight": 15,
   "density": 0.10,
-  "min_height": 190,
-  "max_height": 210,
+  "min_height": 170,
+  "max_height": 190,
   "vein_populator": {
     "type": "surface_rock",
     "material": "draconium"

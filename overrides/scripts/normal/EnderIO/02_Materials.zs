@@ -1,6 +1,5 @@
 # Imports
 import mods.jei.JEI;
-import mods.enderio.SliceNSplice;
 
 
 
@@ -424,30 +423,6 @@ recipes.addShaped(<enderio:item_material:38>, [
     [null, null, null]
 ]);
 
-# Zombie Eletrode
-SliceNSplice.addRecipe(<enderio:item_material:40>, [
-    <metaitem:plateEnergeticAlloy>, <minecraft:skull:2>, <metaitem:plateEnergeticAlloy>,
-    <metaitem:wafer.silicon>, <ore:eio.capacitor>, <metaitem:wafer.silicon>
-]);
-
-# Z-Logic Controller
-SliceNSplice.addRecipe(<enderio:item_material:41>, [
-    <metaitem:plateSoularium>, <minecraft:skull:2>, <metaitem:plateSoularium>,
-    <metaitem:wafer.silicon>, <minecraft:redstone>, <metaitem:wafer.silicon>
-]);
-
-# Ender Resonator
-SliceNSplice.addRecipe(<enderio:item_material:43>, [
-    <metaitem:plateSoularium>, <enderio:block_enderman_skull>, <metaitem:plateSoularium>,
-    <metaitem:wafer.silicon>, <metaitem:plateVibrantAlloy>, <metaitem:wafer.silicon>
-]);
-
-# Skeletal Contractor
-SliceNSplice.addRecipe(<enderio:item_material:45>, [
-    <metaitem:plateSoularium>, <minecraft:skull>, <metaitem:plateSoularium>,
-    <metaitem:wafer.silicon>, <ore:eio.capacitor>, <metaitem:wafer.silicon>
-]);
-
 # Clippings and Trimmings
 macerator.recipeBuilder()
     .inputs([<ore:grass>])
@@ -534,12 +509,6 @@ mixer.recipeBuilder()
     .duration(100)
     .EUt(480)
     .buildAndRegister();
-
-# Guardian Diode
-SliceNSplice.addRecipe(<enderio:item_material:56>, [
-    <metaitem:plateEnergeticAlloy>, <ore:gemPrismarine>, <metaitem:plateEnergeticAlloy>,
-    <ore:itemPulsatingCrystal>, <metaitem:wafer.silicon>, <ore:itemPulsatingCrystal>
-]);
 
 # Wireless Energy Transmitter
 recipes.addShaped(<enderio:item_material:65>, [
@@ -667,12 +636,6 @@ macerator.recipeBuilder()
     .EUt(480)
     .buildAndRegister();
 
-# Tormented Enderman Head
-SliceNSplice.addRecipe(<enderio:block_enderman_skull:2>, [
-    <metaitem:plateSoularium>, <enderio:block_enderman_skull>, <metaitem:plateSoularium>,
-    <metaitem:wafer.silicon>, <ore:eio.capacitor>, <metaitem:wafer.silicon>
-]);
-
 # Glowstone Nano-Particles
 JEI.hide(<enderio:block_holy_fog>);
 JEI.hide(<enderio:block_holier_fog>);
@@ -682,9 +645,3 @@ JEI.hide(<enderio:item_owl_egg>);
 
 # Grainy Capacior
 JEI.hide(<enderio:item_capacitor_grainy>);
-
-# Totemic Capacitor
-SliceNSplice.addRecipe(<enderio:item_capacitor_totemic>, [
-    <metaitem:plateSoularium>, <minecraft:totem_of_undying>, <metaitem:plateSoularium>,
-    <metaitem:wafer.silicon>, <enderio:item_capacitor_melodic>, <metaitem:wafer.silicon>
-]);
