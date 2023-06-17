@@ -263,28 +263,16 @@ JEI.hide(<enderio:block_sag_mill>);
 JEI.hide(<enderio:block_enhanced_sag_mill>);
 
 # Slice'N'Splice
-recipes.addShaped(<enderio:block_slice_and_splice>, [
-    [<metaitem:plateSoularium>, <ore:itemSkull>, <metaitem:plateSoularium>],
-    [<ore:circuitHv>, <ore:itemSoulMachineChassi>, <ore:circuitHv>],
-    [<metaitem:electric.motor.hv>, <enderio:block_dark_iron_bars>, <metaitem:electric.motor.hv>]
-]);
+JEI.hide(<enderio:block_slice_and_splice>);
 
 # Photovoltaic Cells
 JEI.hide(<enderio:block_solar_panel:*>);
 
 # Soul Binder
-recipes.addShaped(<enderio:block_soul_binder>, [
-    [<metaitem:plateSoularium>, <ore:skullEnderResonator>, <metaitem:plateSoularium>],
-    [<ore:circuitHv>, <ore:itemSoulMachineChassi>, <ore:circuitHv>],
-    [<metaitem:electric.motor.hv>, <ore:skullZombieController>, <metaitem:electric.motor.hv>]
-]);
+JEI.hide(<enderio:block_soul_binder>);
 
 # Powered Spawner
-recipes.addShaped(<enderio:block_powered_spawner>.withEmptyTag(), [
-    [<metaitem:plateConstructionAlloy>, <ore:skullSentientEnder>, <metaitem:plateConstructionAlloy>],
-    [<metaitem:plateSoularium>, <ore:itemSoulMachineChassi>, <metaitem:plateSoularium>],
-    [<ore:itemEnderCrystal>, <ore:skullZombieFrankenstein>, <ore:itemEnderCrystal>]
-]);
+JEI.hide(<enderio:block_powered_spawner>);
 JEI.hide(<enderio:block_creative_spawner>);
 
 # The Vat

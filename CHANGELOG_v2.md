@@ -1,530 +1,585 @@
+# v2.4.0
+## Modpack information
+- The electrification of EIO machine was made possible by their cooperation!!
+    - Thanks to @miozune and @MrKono for his support!!
+
+## Update mods
+- AE2 Unofficial Extended Life
+- Craft Presence
+- GregTech Food Option
+- GTExpert-Core
+- Had Enough Items
+- LoliASM
+- MixinBooter
+
+## Del mods
+- Ender Tweaker
+
+## New machines
+### GregTech(CoreMod)
+- Slice'N'Splice
+- Soul Binder
+- Soul Binder
+
+## New recipes
+### GregTech
+- Ultra High Voltage 4x Battery Buffer
+- Ultra High Voltage 8x Battery Buffer
+- Ultra High Voltage 16x Battery Buffer
+- Ultra High Voltage Turbo Charger
+- Hazard Sign
+- Black Granite
+- Red Granite
+- Marble
+- Basalt
+- Light Concrete
+- Dark Concrete
+- Lamp
+
+### Chisel
+- LED Lamps
+
+### EnderIO
+- Mob Vials
+
+## Fix recipes
+### AE2 Unofficial Extended Life
+- Certus Quartz Axe
+- Certus Quartz Hoe
+- Certus Quartz Pickaxe
+- Certus Quartz Shovel
+- Certus Quartz Sword
+- Certus Quartz Cutting Knife
+
+* * *
+
 # v2.3.2
 ## Update mods
-* BisectHosting Menu
-* GTExpert-Core
-* Had Enough Items
-* LoliASM
-* ModularUI
-* Zen Utils
+- BisectHosting Menu
+- GTExpert-Core
+- Had Enough Items
+- LoliASM
+- ModularUI
+- Zen Utils
 
 ## New mod
-* Extra CPUs
+- Extra CPUs
 
 * * * 
 
 # v2.3.1
 ## Modpack information
-* Fix for issue where all stand-alone craft were broken.
+- Fix for issue where all stand-alone craft were broken.
 
 ## Update mods
-* GTExpert-Core
-* CraftTweaker
+- GTExpert-Core
+- CraftTweaker
 
 ## New recipes
 ### GregTech(CoreMod)
-* SodiumBicarbonate
+- SodiumBicarbonate
 
 * * *
 
 # v2.3.0
 ## Modpack information
-* Material has been absorbed into CoreMod.
+- Material has been absorbed into CoreMod.
     * [https://www.curseforge.com/minecraft/mc-mods/gte2-coremod](https://www.curseforge.com/minecraft/mc-mods/gte2-coremod)
-* Casing colors have been corrected and updated. It should look much better now.
-* The number of casing to complete Sawmill was reduced and glass was no longer needed.
-* Draconic equipment can now be upgraded. Thanks to @miozune for his support!!
+- Casing colors have been corrected and updated. It should look much better now.
+- The number of casing to complete Sawmill was reduced and glass was no longer needed.
+- Draconic equipment can now be upgraded. Thanks to @miozune for his support!!
 
 ## Update mods
-* GregTech CE: Unofficial
-* Gregicality Multiblocks
-* GregTech Food Option
-* GTExpert-Core
-* AE2 Unofficial Extended Life
-* AE2 Fluid Crafting Rework
-* OpenComputers
-* Universal Tweaks
-* Roughly Enough IDs
-* Had Enough Items
-* Inventory Bogo Sorter
-* Zen Utils
+- GregTech CE: Unofficial
+- Gregicality Multiblocks
+- GregTech Food Option
+- GTExpert-Core
+- AE2 Unofficial Extended Life
+- AE2 Fluid Crafting Rework
+- OpenComputers
+- Universal Tweaks
+- Roughly Enough IDs
+- Had Enough Items
+- Inventory Bogo Sorter
+- Zen Utils
 
 ## Other updates (ResourcePack)
-* ShaderTech
+- ShaderTech
 
 ## New recipes
 ### Ender IO
-* Vacuum Chest
+- Vacuum Chest
 
 ### Draconic Evolution
-* Dragon Heart
-* Upgrade Key (RF Capacity)
-* Upgrade Key (Dig Speed)
-* Upgrade Key (Dig AOE)
-* Upgrade Key (Attack Damage)
-* Upgrade Key (Attack AOE)
-* Upgrade Key (Arrow Damage)
-* Upgrade Key (Draw Speed)
-* Upgrade Key (Arrow Speed)
-* Upgrade Key (Shield Capacity)
-* Upgrade Key (Shield Recharge)
-* Upgrade Key (Movement Speed)
-* Upgrade Key (Jump Boost)
+- Dragon Heart
+- Upgrade Key (RF Capacity)
+- Upgrade Key (Dig Speed)
+- Upgrade Key (Dig AOE)
+- Upgrade Key (Attack Damage)
+- Upgrade Key (Attack AOE)
+- Upgrade Key (Arrow Damage)
+- Upgrade Key (Draw Speed)
+- Upgrade Key (Arrow Speed)
+- Upgrade Key (Shield Capacity)
+- Upgrade Key (Shield Recharge)
+- Upgrade Key (Movement Speed)
+- Upgrade Key (Jump Boost)
 
 ### GregTech(CoreMod)
-* Draconium Rotor
-* Awakened Draconium Rotor
-* Sawmill Casing
-* Draconum Casing
-* Awakened Draconum Casing
+- Draconium Rotor
+- Awakened Draconium Rotor
+- Sawmill Casing
+- Draconum Casing
+- Awakened Draconum Casing
 
 ## Update recipes
 ### GregTech(CoreMod)
-* Cryotheum
+- Cryotheum
 
 ## Bugfix recipes
 ### AE2 Unofficial Extended Life
-* Network Tool
-* Covered Cable
+- Network Tool
+- Covered Cable
 
 ### GregTech(CoreMod)
-* Solar Panels
-* Creative Energy Cell
-* Creative Capacitor Bank
-* GTE ME Storage Fake Component
+- Solar Panels
+- Creative Energy Cell
+- Creative Capacitor Bank
+- GTE ME Storage Fake Component
 
 * * *
 
 # v2.2.3
 ## Update mods
-* GTExpert-Core
+- GTExpert-Core
 
 ## Bugfix recipes
 ### Applied Energistics
-* Network Tool
-* Matrix Core
-* Acceleration Card
-* Quartz Fiber
-* Cell Workbench
+- Network Tool
+- Matrix Core
+- Acceleration Card
+- Quartz Fiber
+- Cell Workbench
 
 ### AE Additions
-* Fluid Filler
+- Fluid Filler
 
 ### Chise
-* Auto Chisel
+- Auto Chisel
 
 ### EnderIO
-* Zombie Eletrode
-* Skeletal Contractor
-* Tormented Enderman Head
-* Nutrient Distillation
-* Hootch
+- Zombie Eletrode
+- Skeletal Contractor
+- Tormented Enderman Head
+- Nutrient Distillation
+- Hootch
 
 ### Ender Storage
-* Pouch
-* Chest
-* Tank
+- Pouch
+- Chest
+- Tank
 
 ### GregTech Food Option
-* Sludge
+- Sludge
 
 ### Packaged Auto
-* Encoder
+- Encoder
 
 ### Vanilla
-* Wood Planks
+- Wood Planks
 
 * * *
 
 # v2.2.2
 ## Modpack information
-* v2.2.0 and v2.2.1 were made missing due to bugs.
+- v2.2.0 and v2.2.1 were made missing due to bugs.
 
 ## Update mods
-* GregTech CE: Unofficial
-* Gregicality Multiblocks
-* GTExpert-Core
-* CraftPresence
+- GregTech CE: Unofficial
+- Gregicality Multiblocks
+- GTExpert-Core
+- CraftPresence
 
 * * *
 
 # v2.2.1
 ## Modpack information
-* The update history was omitted and has been added to the previous version.
+- The update history was omitted and has been added to the previous version.
 
 ## Update mods
-* GTExpert-Core
-* Inventory Bogo Sorter
+- GTExpert-Core
+- Inventory Bogo Sorter
 
 ## Update lang(ja_jp)
-* GregTech CE: Unofficial
-* GregTech Food Option
+- GregTech CE: Unofficial
+- GregTech Food Option
 
 * * *
 
 # v2.2.0
 ## CEu breaking changes
-* The slot where the Programmed Circuit is placed is now a dedicated slot.
+- The slot where the Programmed Circuit is placed is now a dedicated slot.
     * This means that molds, lenses, and fabricated products can no longer be temporarily placed, and if they have already been placed, they will disappear.
 
 ## Modpack information
-* Because of the addition of Draconic Evolution and Draconic Additions, we have made significant changes around the end content recipes.
-* Also, as announced in the previous version (v2.1.4), materials added with ModPack have been moved to CoreMod.
-* Chaos Island is generated every 1k instead of 10k blocks.
+- Because of the addition of Draconic Evolution and Draconic Additions, we have made significant changes around the end content recipes.
+- Also, as announced in the previous version (v2.1.4), materials added with ModPack have been moved to CoreMod.
+- Chaos Island is generated every 1k instead of 10k blocks.
 
 ## New ores
-* Apparently a Chaos Guardian is guarding a very valuable Ore at Chaos Island (End)...?
+- Apparently a Chaos Guardian is guarding a very valuable Ore at Chaos Island (End)...?
 
 ## New mods
-* Draconic Evolution
-* Draconic Additions
+- Draconic Evolution
+- Draconic Additions
 
 ## Update mods
-* AE2 Unofficial Extended Life
-* AE2 Fluid Crafting Rework
-* PackagedAuto
-* GregTech CE: Unofficial
-* Gregicality Multiblocks
-* GregTech Food Option
-* GTExpert-Core
-* CraftTweaker
-* CraftPresence
-* MixinBooter
-* ModularUI
-* Inventory Bogo Sorter
-* Modern Splash
-* Had Enough Items
-* Roughly Enough IDs
-* Universal Tweaks
-* File Director
-* Zen Utils
+- AE2 Unofficial Extended Life
+- AE2 Fluid Crafting Rework
+- PackagedAuto
+- GregTech CE: Unofficial
+- Gregicality Multiblocks
+- GregTech Food Option
+- GTExpert-Core
+- CraftTweaker
+- CraftPresence
+- MixinBooter
+- ModularUI
+- Inventory Bogo Sorter
+- Modern Splash
+- Had Enough Items
+- Roughly Enough IDs
+- Universal Tweaks
+- File Director
+- Zen Utils
 
 ## Fix recipes
 ### AE2 Unofficial Extended Life
-* Quantum Link Card
+- Quantum Link Card
 
 ### AE2 Fluid Crafting Rework
-* Fluid Level Maintainer
+- Fluid Level Maintainer
 
 * * *
 
 # v2.1.4
 ## Modpack information
-* Please migrate all EIO materials, AE Certus Quartz, Charged Certus Quartz, and Fluix currently added in GTE to CoreMod as soon as possible, as they are to be completely migrated to CoreMod.
+- Please migrate all EIO materials, AE Certus Quartz, Charged Certus Quartz, and Fluix currently added in GTE to CoreMod as soon as possible, as they are to be completely migrated to CoreMod.
 
 ## Hotfix recipe
-* Fixed an issue where Charged Certus Quartz could not be created.
+- Fixed an issue where Charged Certus Quartz could not be created.
 
 * * *
 
 # v2.1.3
 ## Modpack information
-* Vial Extractor was added as a new machine.
-* This is a device to obtain drops from enemy mobs!!
+- Vial Extractor was added as a new machine.
+- This is a device to obtain drops from enemy mobs!!
 
 ## Update mods
-* AE2 Unofficial Extended Life
-* GregTech CE: Unofficial
-* GTExpert-Core
-* Controlling
-* CraftTweaker
-* Zen Utils
+- AE2 Unofficial Extended Life
+- GregTech CE: Unofficial
+- GTExpert-Core
+- Controlling
+- CraftTweaker
+- Zen Utils
 
 ## Known Issues
-* Creative Quantum Tank, the end content of GTE, cannot be created. We are currently investigating the cause.
+- Creative Quantum Tank, the end content of GTE, cannot be created. We are currently investigating the cause.
 
 * * *
 
 # v2.1.2
 ## Modpack information
-* Preemptively Fixing Bugs in CEu.
-* Tool Belt quests added.
+- Preemptively Fixing Bugs in CEu.
+- Tool Belt quests added.
 
 * * *
 
 # v2.1.1
 ## Modpack information
-* Fixed problem with server not starting
+- Fixed problem with server not starting
 
 ## Update mods
-* GTExpert-Core
+- GTExpert-Core
 
 * * *
 
 # v2.1.0
 ## Modpack information
-* This is the latest update to support CEu 2.5 series!!
-* The major change is that the tool specifications have changed significantly, so it is necessary to re-create the tool...
-* I also updated the quest to CEu 2.5 standards.
+- This is the latest update to support CEu 2.5 series!!
+- The major change is that the tool specifications have changed significantly, so it is necessary to re-create the tool...
+- I also updated the quest to CEu 2.5 standards.
 
 ## New mods
-* Baubles-LTS
-* Tool Belt
-* LunatriusCore
-* InGame Info XML
-* Modern Splash
+- Baubles-LTS
+- Tool Belt
+- LunatriusCore
+- InGame Info XML
+- Modern Splash
 
 ## Update mods
-* GregTech CE: Unofficial
-* Gregicality Multiblocks
-* GregTech Food Option
-* GTExpert-Core
-* CraftTweaker
-* AE2 Unofficial Extended Life
-* AE2 Fluid Crafting Rework
-* PackagedAuto
-* Roughly Enough IDs
-* Inventory Bogo Sorter
-* UniversalTweaks
-* Zen Utils
+- GregTech CE: Unofficial
+- Gregicality Multiblocks
+- GregTech Food Option
+- GTExpert-Core
+- CraftTweaker
+- AE2 Unofficial Extended Life
+- AE2 Fluid Crafting Rework
+- PackagedAuto
+- Roughly Enough IDs
+- Inventory Bogo Sorter
+- UniversalTweaks
+- Zen Utils
 
 ## Del mods
-* Phosphor
-* Toast Control
+- Phosphor
+- Toast Control
 
 ## Other updates (ResourcePack)
-* Zederrian Technology for GTCEu -> ZedTech-2
-* Colored GT Casings
+- Zederrian Technology for GTCEu -> ZedTech-2
+- Colored GT Casings
 
 ## Update recipes
 ### Modpack Information
-* In order to migrate all AE2 and EIO materials to the CoreMod side in the future, a migration CrT is included.
+- In order to migrate all AE2 and EIO materials to the CoreMod side in the future, a migration CrT is included.
 
 ### AE2
-* Certus Quartz Wrench
-* Nether Quartz Wrench
+- Certus Quartz Wrench
+- Nether Quartz Wrench
 
 ## Add recipes
 ### AE2
-* Spatial Pylon
+- Spatial Pylon
 
 ## Fix recipes
 ### AE2
-* Quantum Ring
-* Quantum Link Chamber
+- Quantum Ring
+- Quantum Link Chamber
 
 ### Lazy AE2
-* Fluix Steel Ingot
-* Preemptive Assembly Unit
-* Level Maintainer
-* Mass Assembler Frame
+- Fluix Steel Ingot
+- Preemptive Assembly Unit
+- Level Maintainer
+- Mass Assembler Frame
 
 * * *
 
 # v2.0.7
 ## Modpack information
-* EZStorage just got a little more useful.
+- EZStorage just got a little more useful.
 
 ## Move mod
-* AE2 Wireless Terminal Library -> AE2 Wireless Terminal-LTS
+- AE2 Wireless Terminal Library -> AE2 Wireless Terminal-LTS
 
 ## Update mods
-* AE2 Unofficial Extended Life
-* AE2 Fluid Crafting Rework
-* Universal Tweaks
+- AE2 Unofficial Extended Life
+- AE2 Fluid Crafting Rework
+- Universal Tweaks
 
 ## Del mod
-* Mod Name Tooltip
+- Mod Name Tooltip
 
 ## Update recipes
 ### PackagedAuto
-* Packager Extension(circuitEv -> circuitHv)
+- Packager Extension(circuitEv -> circuitHv)
 
 * * *
 
 # v2.0.6
 ## Modpack information
-* This version is a hotfix for v2.0.5!
-* If you are updating from v1.x.x to v2.x.x for the first time, be sure to check the changelog for v2.0.4!
+- This version is a hotfix for v2.0.5!
+- If you are updating from v1.x.x to v2.x.x for the first time, be sure to check the changelog for v2.0.4!
 
 ## Fix recipes
-* Fixed a recipe that required GT Hammer that was impossible to create.
+- Fixed a recipe that required GT Hammer that was impossible to create.
 
 * * *
 
 # v2.0.5
 ## Modpack information
-* This version is a hotfix for v2.0.4!
-* If you are updating from v1.x.x to v2.x.x for the first time, be sure to check the changelog for v2.0.4!
+- This version is a hotfix for v2.0.4!
+- If you are updating from v1.x.x to v2.x.x for the first time, be sure to check the changelog for v2.0.4!
 
 ## Downgrade mod
-* Inventory Bogo Sorter
+- Inventory Bogo Sorter
 
 ## Update mod
-* AE2 Fluid Crafting Rework
+- AE2 Fluid Crafting Rework
 
 * * *
 
 # v2.0.4
 ## Modpack information
 ### v2.0.x-beta to v2.0.4
-* This is the **first stable version of v2** from this version!!
-* Various improvements have been made, including feedback, bug reports, and a switch to a later-developed mod.
-* Also, as those of you who have installed v2 may know, a CEu version with tool rework is planned for this next GTE2 version!!
+- This is the **first stable version of v2** from this version!!
+- Various improvements have been made, including feedback, bug reports, and a switch to a later-developed mod.
+- Also, as those of you who have installed v2 may know, a CEu version with tool rework is planned for this next GTE2 version!!
 
 ### v1 to v2
-* **Those updating from v1 to v2 should be sure to make a backup before doing so.**
-* In addition to switching to new mods, some mods have been removed, especially factories that used a lot of trash can mods should be stopped before the update and replaced with the new void covers that were added at CEu after the update.
+- **Those updating from v1 to v2 should be sure to make a backup before doing so.**
+- In addition to switching to new mods, some mods have been removed, especially factories that used a lot of trash can mods should be stopped before the update and replaced with the new void covers that were added at CEu after the update.
     * As a supplement, we have included a script to assist in the transition of mods that have a large impact when switching to mods developed later, so please install and migrate the mods yourself. For more information, see [here](https://github.com/GTModpackTeam/gregtech-expert-2#mod-compatibility-info).
-* Another major specification change is the deletion of the AE2 channel. This makes it easier to create larger networks.
-* And the major change from CEu is the addition of a Cleanroom, which was in GT5u. Factories that automate wafers and chips need to replace their facilities.
+- Another major specification change is the deletion of the AE2 channel. This makes it easier to create larger networks.
+- And the major change from CEu is the addition of a Cleanroom, which was in GT5u. Factories that automate wafers and chips need to replace their facilities.
 
 ## Modpack update
-* The quest book has not been updated in quite some time. More quests will be added or updated in the next update!!
+- The quest book has not been updated in quite some time. More quests will be added or updated in the next update!!
 
 ## Update mods
-* AE2 Unofficial Extended Life
-* AE2 Fluid Crafting Rework
-* Inventory Bogo Sorter
-* JEI Utilities
+- AE2 Unofficial Extended Life
+- AE2 Fluid Crafting Rework
+- Inventory Bogo Sorter
+- JEI Utilities
 
 ## New mods
-* Spice of Life: Carrot Edition
-* Mantle
+- Spice of Life: Carrot Edition
+- Mantle
 
 ## Del recipes
 ### Ender IO
-* Crude Steel
-* Molten Electrical Steel
-* Molten Energetic Alloy
-* Molten Vibrant Alloy
-* Molten Redstone Alloy
-* Molten Conductive Iron
-* Molten Pulsating Iron
-* Molten Dark Steel
-* Molten Soularium
-* Molten End Steel
-* Molten Construction Alloy
-* Molten Crystalline Alloy
-* Molten Melodic Alloy
-* Molten Stellar Alloy
-* Molten Crystalline Pink Slime
-* Molten Energetic Silver
-* Molten Vivid Alloy
+- Crude Steel
+- Molten Electrical Steel
+- Molten Energetic Alloy
+- Molten Vibrant Alloy
+- Molten Redstone Alloy
+- Molten Conductive Iron
+- Molten Pulsating Iron
+- Molten Dark Steel
+- Molten Soularium
+- Molten End Steel
+- Molten Construction Alloy
+- Molten Crystalline Alloy
+- Molten Melodic Alloy
+- Molten Stellar Alloy
+- Molten Crystalline Pink Slime
+- Molten Energetic Silver
+- Molten Vivid Alloy
 
 ## New recipes
 ### AE2
-* Covered Cable
-* Smart Cable
+- Covered Cable
+- Smart Cable
 
 ## Fix recipes
 ### AE2 and LazyAE2 and Ender IO
-* The number of powders created has increased with the GT standard!!
-* I also removed the Material decomposition recipe, as it does not seem to be used.
+- The number of powders created has increased with the GT standard!!
+- I also removed the Material decomposition recipe, as it does not seem to be used.
 
 ### AE2
-* Smart Cable
-* Dense Covered Cable
-* Dense Smart Cable
-* Fluix Liquid
-* Fluix Dust
+- Smart Cable
+- Dense Covered Cable
+- Dense Smart Cable
+- Fluix Liquid
+- Fluix Dust
 
 ### Architecture Craft
-* Hammer
+- Hammer
 
 ### Ender IO
-* Electrical Steel Dust
-* Electrical Steel Dust
-* Energetic Alloy Dust
-* Vibrant Alloy Dust
-* Redstone Alloy Dust
-* Conductive Iron Dust
-* Pulsating Iron Dust
-* Dark Steel Dust
-* Soularium Dust
-* End Steel Dust
-* Construction Alloy Dust
-* Crystalline Alloy Dust
-* Melodic Alloy Dust
-* Stellar Alloy Dust
-* Crystalline Pink Slime Dust
-* Energetic Silver Dust
-* Vivid Alloy Dust
+- Electrical Steel Dust
+- Electrical Steel Dust
+- Energetic Alloy Dust
+- Vibrant Alloy Dust
+- Redstone Alloy Dust
+- Conductive Iron Dust
+- Pulsating Iron Dust
+- Dark Steel Dust
+- Soularium Dust
+- End Steel Dust
+- Construction Alloy Dust
+- Crystalline Alloy Dust
+- Melodic Alloy Dust
+- Stellar Alloy Dust
+- Crystalline Pink Slime Dust
+- Energetic Silver Dust
+- Vivid Alloy Dust
 
 * * *
 
 # v2.0.3
 ## Fix recipe
 ### AE2
-* Quartz Glass
-* P2P
-* 16k Fluid Component(EU/t only)
+- Quartz Glass
+- P2P
+- 16k Fluid Component(EU/t only)
 
 ### AE Additions
-* Fluid Assembler
+- Fluid Assembler
 
 ### AE2 Fluid Crafting Rework
-* Fluid Assembler
+- Fluid Assembler
 
 ## New mods
-* JEI Utilities
+- JEI Utilities
 
 ## Move mods
-* AI Improvements -> Universal Tweaks
-* AttributeFix -> Universal Tweaks
-* Fast Leaf Decay -> Universal Tweaks
-* Surge -> Universal Tweaks
-* Ding -> Universal Tweaks
-* Swing Through Grass -> Universal Tweaks
-* JustEnoughIDs -> RoughlyEnoughIDs
+- AI Improvements -> Universal Tweaks
+- AttributeFix -> Universal Tweaks
+- Fast Leaf Decay -> Universal Tweaks
+- Surge -> Universal Tweaks
+- Ding -> Universal Tweaks
+- Swing Through Grass -> Universal Tweaks
+- JustEnoughIDs -> RoughlyEnoughIDs
 
 ## Update mods
-* AE2 Unofficial Extended Life
-* AE2 Fluid Crafting Rework
-* GregTech CE: Unofficial
-* PackagedAuto
-* LoliASM
-* Had Enough Items
+- AE2 Unofficial Extended Life
+- AE2 Fluid Crafting Rework
+- GregTech CE: Unofficial
+- PackagedAuto
+- LoliASM
+- Had Enough Items
 
 * * *
 
 # v2.0.2
 ## Bugfix recipes
 ### AE2
-* ME Dual Interface
-* Configuration Fluid Interface Terminal
+- ME Dual Interface
+- Configuration Fluid Interface Terminal
 
 ## Updated mod
-* GregTech Food Option
+- GregTech Food Option
 
 * * *
 
 # v2.0.1
 ## Update mods
-* GregTech CE: Unofficial
-* GregTech Food Option
-* GTExpert-Core
-* AE2 Unofficial Extended Life
-* AE2 Fluid Crafting Rework
-* CraftPresence
-* CraftTweaker
-* Had Enough Items
-* Inventory Bogo Sorter
-* MixinBooter
-* Zen Utils
+- GregTech CE: Unofficial
+- GregTech Food Option
+- GTExpert-Core
+- AE2 Unofficial Extended Life
+- AE2 Fluid Crafting Rework
+- CraftPresence
+- CraftTweaker
+- Had Enough Items
+- Inventory Bogo Sorter
+- MixinBooter
+- Zen Utils
 
 * * *
 
 # v2.0.0
 ## Modpack information
-* This version does not contain Gregicality-Science!
-* Please read [README.md](https://github.com/GTModpackTeam/gregtech-expert-2/blob/develop/README.md) for details.
+- This version does not contain Gregicality-Science!
+- Please read [README.md](https://github.com/GTModpackTeam/gregtech-expert-2/blob/develop/README.md) for details.
 
 ## Update mods
-* AE2 Unofficial Extended Life
-* AE2 Fluid Crafting Rework
-* CraftPresence
-* CraftTweaker
-* GregTech CE: Unofficial(Github: [9883ff9d45b95f9cca85e0c2107328f74d02fdcf](https://github.com/GregTechCEu/GregTech/tree/9883ff9d45b95f9cca85e0c2107328f74d02fdcf))
-* Gregicality Multiblocks
-* GregTech Food Option(Github: [757e3a8836a923691168fcdd714cdcf9987e40b9](https://github.com/bruberu/GregTechFoodOption/tree/757e3a8836a923691168fcdd714cdcf9987e40b9))
-* GTExpert-Core
-* Inventory Bogo Sorter
-* OpenComputers
-* Zen Utils
+- AE2 Unofficial Extended Life
+- AE2 Fluid Crafting Rework
+- CraftPresence
+- CraftTweaker
+- GregTech CE: Unofficial(Github: [9883ff9d45b95f9cca85e0c2107328f74d02fdcf](https://github.com/GregTechCEu/GregTech/tree/9883ff9d45b95f9cca85e0c2107328f74d02fdcf))
+- Gregicality Multiblocks
+- GregTech Food Option(Github: [757e3a8836a923691168fcdd714cdcf9987e40b9](https://github.com/bruberu/GregTechFoodOption/tree/757e3a8836a923691168fcdd714cdcf9987e40b9))
+- GTExpert-Core
+- Inventory Bogo Sorter
+- OpenComputers
+- Zen Utils
 
 ## Del mods(move v3)
-* GregTech CE: Unofficial(GCY:S version)
-* GregTech Food Option(GCY:S version)
-* Gregicality Multiblocks(GCY:S version)
-* Gregicality Science
-* Clayium
+- GregTech CE: Unofficial(GCY:S version)
+- GregTech Food Option(GCY:S version)
+- Gregicality Multiblocks(GCY:S version)
+- Gregicality Science
+- Clayium
