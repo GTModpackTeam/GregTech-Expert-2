@@ -35,8 +35,7 @@
         * If you want to add support for other mods, please contact us on Discord. In some cases, we will formally implement it.
 
 ## Bansoukou
-* This pack uses three bansoukou patches. The first is [Chisel](https://github.com/Chisel-Team/Chisel/tree/1.12/dev), the second is [Draconic Additions](https://github.com/FoxMcloud5655/Draconic-Additions/tree/1.12.2), and the third is [EZ Storage](https://github.com/zerofall/EZStorage2).
-    * [Chisel](https://github.com/GTModpackTeam/Chisel): Ore block crafting interfered with GT specifications, so it was removed.
+* This pack uses three bansoukou patches. The first is [Draconic Additions](https://github.com/FoxMcloud5655/Draconic-Additions/tree/1.12.2), and the third is [EZ Storage](https://github.com/zerofall/EZStorage2).
     * [Draconic Additions](https://github.com/GTModpackTeam/Draconic-Additions): Since the recipe cannot be deleted, it was removed directly from the source.
     * [EZ Storage](https://github.com/zerofall/EZStorage2/pull/69): Captured PR that was up.
 
