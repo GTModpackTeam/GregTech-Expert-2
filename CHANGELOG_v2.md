@@ -1,3 +1,16 @@
+# v2.4.1
+## Modpack information
+- They created a patch about ME Level Maintainer for Lazy AE2!!
+    - Thanks to @sjcl for his support!!
+
+## New mod
+- Lazy AE2 Patch
+
+## Update mods
+- GTExpert-Core
+
+* * *
+
 # v2.4.0
 ## Modpack information
 - The electrification of EIO machine was made possible by their cooperation!!
