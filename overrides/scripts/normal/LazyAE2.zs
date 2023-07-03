@@ -63,7 +63,7 @@ JEI.removeAndHide(<threng:machine:2>);
 # Preemptive Assembly Unit
 recipes.remove(<threng:machine:3>);
 recipes.addShaped(<threng:machine:3>, [
-    [<metaitem:plateFluixAlloy>, <ore:ae2.interface.item>, <metaitem:plateFluixAlloy>],
+    [<metaitem:plateFluixAlloy>, <ore:craftInterfaceItem>, <metaitem:plateFluixAlloy>],
     [<appliedenergistics2:crafting_accelerator>, <metaitem:matrix_core>, <appliedenergistics2:crafting_accelerator>],
     [<metaitem:plateFluixAlloy>, <appliedenergistics2:material:24>, <metaitem:plateFluixAlloy>]
 ]);
@@ -91,23 +91,23 @@ recipes.addShaped(<threng:big_assembler> * 4, [
 recipes.remove(<threng:big_assembler:2>);
 recipes.addShaped(<threng:big_assembler:2>, [
     [<threng:big_assembler>, <appliedenergistics2:molecular_assembler>, <threng:big_assembler>],
-    [<ore:ae2.cable.glass>, <metaitem:matrix_core>, <ore:ae2.cable.glass>],
-    [<threng:big_assembler>, <ore:ae2.interface.item>, <threng:big_assembler>]
+    [<ore:craftGlassCable>, <metaitem:matrix_core>, <ore:craftGlassCable>],
+    [<threng:big_assembler>, <ore:craftInterfaceItem>, <threng:big_assembler>]
 ]);
 
 # Pattern Provider
 recipes.remove(<threng:big_assembler:3>);
 recipes.addShaped(<threng:big_assembler:3>, [
     [<threng:big_assembler>, <appliedenergistics2:material:35>, <threng:big_assembler>],
-    [<ore:ae2.cable.glass>, <appliedenergistics2:material:24>, <ore:ae2.cable.glass>],
-    [<threng:big_assembler>, <ore:ae2.interface.item>, <threng:big_assembler>]
+    [<ore:craftGlassCable>, <appliedenergistics2:material:24>, <ore:craftGlassCable>],
+    [<threng:big_assembler>, <ore:craftInterfaceItem>, <threng:big_assembler>]
 ]);
 
 # Crafting Co-Processor
 recipes.remove(<threng:big_assembler:4>);
 recipes.addShaped(<threng:big_assembler:4>, [
     [<threng:big_assembler>, <appliedenergistics2:molecular_assembler>, <threng:big_assembler>],
-    [<ore:ae2.cable.glass>, <appliedenergistics2:material:24>, <ore:ae2.cable.glass>],
+    [<ore:craftGlassCable>, <appliedenergistics2:material:24>, <ore:craftGlassCable>],
     [<threng:big_assembler>, <appliedenergistics2:crafting_accelerator>, <threng:big_assembler>]
 ]);
 
@@ -115,6 +115,6 @@ recipes.addShaped(<threng:big_assembler:4>, [
 recipes.remove(<threng:big_assembler:5>);
 recipes.addShaped(<threng:big_assembler:5>, [
     [<threng:big_assembler>, <metaitem:robot.arm.hv>, <threng:big_assembler>],
-    [<ore:ae2.cable.glass>, <appliedenergistics2:io_port>, <ore:ae2.cable.glass>],
+    [<ore:craftGlassCable>, <appliedenergistics2:io_port>, <ore:craftGlassCable>],
     [<threng:big_assembler>, <appliedenergistics2:chest>, <threng:big_assembler>]
 ]);

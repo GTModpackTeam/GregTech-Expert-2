@@ -25,6 +25,8 @@
     * [Compact Machines](https://www.curseforge.com/minecraft/mc-mods/compact-machines)
         * For those who want to build a minimalist factory.
         * I think practicality starts with EV...?
+    * [Flux Networks](https://www.curseforge.com/minecraft/mc-mods/flux-networks)
+        * You want to make RF wireless?
     * [ME Capability Adapter](https://www.curseforge.com/minecraft/mc-mods/capability-adapter)
         * For those who want to use ME System.
     * [Volumetric Flask](https://www.curseforge.com/minecraft/mc-mods/volumetric-flask)

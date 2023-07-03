@@ -37,7 +37,7 @@ assembler.recipeBuilder()
 recipes.remove(<ae2fc:fluid_packet_decoder>);
 recipes.addShaped(<ae2fc:fluid_packet_decoder>, [
     [<metaitem:plateStainlessSteel>, <metaitem:electric.piston.hv>, <metaitem:plateStainlessSteel>],
-    [<ore:ae2.cable.glass>, <ore:ae2.interface.fluid>, <ore:ae2.cable.glass>],
+    [<ore:craftGlassCable>, <ore:craftInterfaceFluid>, <ore:craftGlassCable>],
     [<metaitem:plateStainlessSteel>, <appliedenergistics2:material:23>, <metaitem:plateStainlessSteel>]
 ]);
 
@@ -78,8 +78,8 @@ assembler.recipeBuilder()
     .buildAndRegister();
 packer.recipeBuilder()
     .inputs([
-        <ore:ae2.interface.item>,
-        <ore:ae2.interface.fluid>
+        <ore:craftInterfaceItem>,
+        <ore:craftInterfaceFluid>
     ])
     .outputs([<ae2fc:dual_interface>])
     .duration(20)

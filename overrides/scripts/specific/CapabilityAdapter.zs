@@ -11,6 +11,6 @@ import mods.jei.JEI;
 recipes.remove(<rf-capability-adapter:aecapabilityadapter>);
 recipes.addShaped(<rf-capability-adapter:aecapabilityadapter>, [
     [<metaitem:plateTitanium>, <ore:crystalPureFluix>, <metaitem:plateTitanium>],
-    [<ore:crystalPureFluix>, <ore:ae2.interface.dual>, <ore:crystalPureFluix>],
+    [<ore:crystalPureFluix>, <ore:craftInterfaceDual>, <ore:crystalPureFluix>],
     [<metaitem:plateTitanium>, <ore:crystalPureFluix>, <metaitem:plateTitanium>]
 ]);
