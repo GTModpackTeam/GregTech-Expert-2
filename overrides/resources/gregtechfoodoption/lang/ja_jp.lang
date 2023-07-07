@@ -1,7 +1,7 @@
 # Japanese translate by MrKo_no
 # 翻訳担当 : MrKo_no
-# Corresponding Version: 1.9.2
-# 対応バージョン: 1.9.2
+# Corresponding Version: 1.9.1
+# 対応バージョン: 1.9.1
 
 metaitem.phycomyces.culture.name=ヒゲカビ菌床
 metaitem.component.corn.ear.name=トウモロコシ
@@ -17,7 +17,7 @@ metaitem.beta_carotene_dust.name=β-カロテン
 metaitem.phycomyces_blakesleeanus_dust.name=ヒゲカビ
 metaitem.phycomyces_blakesleeanus_dust.tooltip=真菌
 metaitem.corn_kernel_gem_chipped.name=トウモロコシの種
-metaitem.corn_kernel_gem_chipped.tooltip=温室でのみ育成できる
+//metaitem.corn_kernel_gem_chipped.tooltip=温室でのみ育成できる
 metaitem.corn_kernel_bare_gem_chipped.name=トウモロコシ穀粒
 metaitem.corn_kernel_graded_gem_chipped.name=許容できるトウモロコシ穀粒
 material.gtfo_peptone_mixture=ペプトン混合物
@@ -206,7 +206,7 @@ material.gtfo_cough_syrup=咳止めシロップ
 material.gtfo_apple_candy_syrup=りんご飴シロップ
 material.gtfo_purple_drink=パープルドリンク
 material.gtfo_carbonated_water=炭酸水
-material.gtfo_x-phenothiazine-ii-propyl_chloride=10-フェノチアジン-2-プロピル塩化物
+material.gtfo_x_phenothiazine_ii_propyl_chloride=10-フェノチアジン-2-プロピル塩化物
 material.gtfo_hfcs_solution=高果糖コーンシロップ溶液
 material.gtfo_glucose_solution=グルコース溶液
 material.gtfo_apple_syrup=リンゴシロップ
