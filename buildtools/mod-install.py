@@ -6,6 +6,7 @@ import json
 import os
 import shutil
 import requests
+import time
 
 ## Init
 ### API
@@ -28,6 +29,9 @@ for key in manifest_json["files"]:
 
     if mod_json.status_code == 200:
         mod_json = mod_json.json()
+        print("{} - {}".format(mod_json["data"]["fileName"], mod_json["data"]["downloadUrl"]))
+        time.sleep(1)
+
         mod_file = requests.get(mod_json["data"]["downloadUrl"], allow_redirects=True, stream=True, headers=headers)
         with open(mod_json["data"]["fileName"], "wb") as f:
             shutil.copyfileobj(mod_file.raw, f)
