@@ -283,7 +283,10 @@ gregtechfoodoption.multiblock.electric_baking_oven.tooltip.3=温度設定:
 gregtechfoodoption.multiblock.electric_baking_oven.tooltip.4=消費: %d EU/t
 gregtechfoodoption.multiblock.electric_baking_oven.tooltip.5=設定温度: §a%dK§7
 gregtechfoodoption.multiblock.electric_baking_oven.tooltip.6=自動温度調整:
-gregtechfoodoption.recipe.baking_oven_temperature=必要温度: %dK
+gregtechfoodoption.multiblock.electric_baking_oven.temp_increment=設定温度を§a+5K§r/n§7電気式オーブンの消費電力は温度に応じて上昇します/n§c自動温度調整がOFFの時のみ有効です
+gregtechfoodoption.multiblock.electric_baking_oven.temp_decrement=設定温度を§c-5K§r/n§7電気式オーブンの消費電力は温度に応じて上昇します/n§c自動温度調整がOFFの時のみ有効です
+gregtechfoodoption.multiblock.electric_baking_oven.adaptable_on=自動温度調整を§coff§rに/n自動温度調整時は、オーブンが使われていない場合に自動的に電源を切りますが、実行時に温度を上昇させるために時間がかかります/nOFFにすると手動で温度を設定できます
+gregtechfoodoption.multiblock.electric_baking_oven.adaptable_off=自動温度調整を§aon§rに/n自動温度調整時は、オーブンが使われていない場合に自動的に電源を切りますが、実行時に温度を上昇させるために時間がかかります/nOFFにすると手動で温度を設定できます
 recipemap.baking_oven.name=初歩的なオーブン
 recipemap.electric_baking_oven.name=電気式オーブン
 recipemap.steam_baking_oven.name=蒸気式食物用オーブン
@@ -497,6 +500,7 @@ gregtech.material.gtfo_sodium_carbonate_solution=炭酸ナトリウム溶液
 gregtechfoodoption.machine.electric_baking_oven.tooltip.1=必要な温度が設定されている場合のみレシピを実行。
 gregtechfoodoption.machine.electric_baking_oven.tooltip.2=1tickあたりの要求§aEU§7は、現在の温度に指数関数的に関係する。
 gregtechfoodoption.machine.electric_baking_oven.tooltip.3=構成を§a1§7ブロック拡張するごとに並列処理を行う。
+
 
 gregtechfoodoption.machine.microwave.lv.name=基本型電子レンジ
 gregtechfoodoption.machine.microwave.mv.name=発展型電子レンジ
