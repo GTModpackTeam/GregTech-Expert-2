@@ -927,7 +927,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 # Microcontroller Case - Tier 1
-    assembler.recipeBuilder()
+assembler.recipeBuilder()
     .circuit(3)
     .inputs([
         <gregtech:machine_casing:2>,
@@ -942,7 +942,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 # Microcontroller Case - Tier 2
-    assembler.recipeBuilder()
+assembler.recipeBuilder()
     .circuit(3)
     .inputs([
         <gregtech:machine_casing:3>,
@@ -957,7 +957,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 # Drone Case - Tier 1
-    assembler.recipeBuilder()
+assembler.recipeBuilder()
     .circuit(3)
     .inputs([
         <opencomputers:material:20>,
@@ -972,7 +972,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 # Drone Case - Tier 2
-    assembler.recipeBuilder()
+assembler.recipeBuilder()
     .circuit(3)
     .inputs([
         <opencomputers:material:21>,
@@ -2287,6 +2287,21 @@ assembler.recipeBuilder()
     ])
     .fluidInputs(<liquid:plastic> * 72)
     .outputs([<opencomputers:transposer> * 2])
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+# Electronics Assembler
+assembler.recipeBuilder()
+    .circuit(2)
+    .inputs([
+        <gregtech:machine_casing:2>,
+        <metaitem:circuit_board.plastic>,
+        <opencomputers:material:8>,
+        <metaitem:robot.arm.mv> * 2
+    ])
+    .fluidInputs(<liquid:plastic> * 72)
+    .outputs([<opencomputers:assembler>])
     .duration(200)
     .EUt(120)
     .buildAndRegister();
