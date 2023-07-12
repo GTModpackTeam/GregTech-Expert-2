@@ -1,7 +1,7 @@
 # Japanese translate by MrKo_no
 # 日本語ローカライズ担当： MrKo_no
-# Corresponding Version: 1.2.3
-# 対応バージョン : 1.2.3
+# Corresponding Version: 1.2.4
+# 対応バージョン : 1.2.4
 
 # multiblocks
 gcym.machine.large_macerator.name=大型塔式粉砕機
@@ -133,20 +133,20 @@ tile.large_multiblock_casing.steam_casing.name=工業用蒸気マシン外装
 recipemap.alloy_blast_smelter.name=合金高炉
 
 # Materials
-material.stellite_100=ステライト100
-material.watertight_steel=防水性スチール
-material.maraging_steel_300=マルエージングスチール300
-material.hastelloy_c_276=ハステロイC276
-material.hastelloy_x=ハステロイX
-material.trinaquadalloy=トリナクアダロイ
-material.zeron_100=ゼロン100
-material.titanium_carbide=炭化チタン
-material.tantalum_carbide=炭化タンタル
-material.molybdenum_disilicide=二ケイ化モリブデン
+gregtech.material.stellite_100=ステライト100
+gregtech.material.watertight_steel=防水性スチール
+gregtech.material.maraging_steel_300=マルエージングスチール300
+gregtech.material.hastelloy_c_276=ハステロイC276
+gregtech.material.hastelloy_x=ハステロイX
+gregtech.material.trinaquadalloy=トリナクアダロイ
+gregtech.material.zeron_100=ゼロン100
+gregtech.material.titanium_carbide=炭化チタン
+gregtech.material.tantalum_carbide=炭化タンタル
+gregtech.material.molybdenum_disilicide=二ケイ化モリブデン
 
-material.hsla_steel=HSLAスチール
-material.titanium_tungsten_carbide=炭化タングステンチタン
-material.incoloy_ma_956=インコロイMA956
+gregtech.material.hsla_steel=HSLAスチール
+gregtech.material.titanium_tungsten_carbide=炭化タングステンチタン
+gregtech.material.incoloy_ma_956=インコロイMA956
 
 # fluids
 gcym.fluid.molten=熔融%s
