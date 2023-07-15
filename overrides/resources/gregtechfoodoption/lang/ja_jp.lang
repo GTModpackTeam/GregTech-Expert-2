@@ -273,7 +273,7 @@ gregtech.material.gtfo_hot_frying_oil=熱した揚げ油
 
 gregtechfoodoption.machine.baking_oven.name=初歩的なオーブン
 gregtechfoodoption.machine.steam_baking_oven.name=蒸気式食物用オーブン
-gregtechfoodoption.machine.steam_baking_oven.tooltip2段目の=角を除くブロックは強化ガラスと強化アドベレンガのどちらかを選択可能。初歩的なオーブンの2倍、すなわちJEIの倍の時間がかかる。
+gregtechfoodoption.machine.steam_baking_oven.tooltip=通常のオーブンよりも2倍時間がかかるが、燃料を必要としない。
 gregtechfoodoption.machine.electric_baking_oven.name=電気式オーブン
 tile.gtfo_casing.adobe_bricks.name=アドベレンガ
 tile.gtfo_casing.reinforced_adobe_bricks.name=強化アドベレンガ
