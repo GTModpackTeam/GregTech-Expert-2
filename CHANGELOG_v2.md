@@ -1,3 +1,55 @@
+# v2.5.0
+## Modpack information
+- They created a patch about EZStorage 2!!
+    - Thanks to @sjcl for his support!!
+- They created a patch about UntranslatedItems!!
+    - Thanks to @katatsumuri_pan for his support!!
+
+## CEu information
+### Breaking Changes
+- Assembly Line now requires strict adherence to the input order, as in GT5u.
+- Assembly Line became a method of doing research and running it like GT5u.
+- Power Substation has been added to allow for batch management of power.
+- A long-distance transport pipe, useful in the early stages of the game, has been added.
+- ME Hatch and Bus added.
+- New transmission methods, Lasers and Active Transformer, have been added.
+- Various other updates, improvements and bug fixes have also been incorporated.
+    - https://github.com/GregTechCEu/GregTech/releases
+
+# Update mods
+- AE2 Unofficial Extended Life
+- AE2 Fluid Crafting Rework
+- BisectHosting Menu
+- CraftPresence
+- dan's Mouse Tweaks
+- GregTech CE: Unofficial
+- Gregicality Multiblocks
+- GregTech Food Option
+- GTExpert-Core
+- CraftPresence
+- Inventory Bogo Sorter
+- JEI Utilities
+- LoliASM
+- ModularUI
+- Universal Tweaks
+- VintageFix
+
+# New mods
+- ConfigAnytime
+- Neeve's AE2: Extended Life Additions
+- UntranslatedItems: AlsoFluids
+- EZStorage 2 Patch
+
+# Downgrade mod
+- MixinBooter v8 -> v7
+
+# Move mod
+- Ender Storage -> Ender Storage continuation
+- Foam​Fix -> VintageFix
+- BetterP2P -> EnhancedP2P
+
+* * *
+
 # v2.4.1
 ## Modpack information
 - They created a patch about ME Level Maintainer for Lazy AE2!!
