@@ -61,14 +61,14 @@ recipes.addShaped(<ae2fc:fluid_discretizer>, [
 recipes.removeByRecipeName("ae2fc:dual_interface");
 recipes.addShaped(<ae2fc:dual_interface>, [
     [<metaitem:plateTitanium>, <metaitem:plateGlass>, <metaitem:plateTitanium>],
-    [<metaitem:matrix_core>, <gregtech:machine_casing:3>, <metaitem:matrix_core>],
+    [<gtexpert:meta_item_1:1>, <gregtech:machine_casing:3>, <gtexpert:meta_item_1:1>],
     [<metaitem:plateTitanium>, <metaitem:plateGlass>, <metaitem:plateTitanium>]
 ]);
 assembler.recipeBuilder()
     .circuit(3)
     .inputs([
         <gregtech:machine_casing:3>,
-        <metaitem:matrix_core>,
+        <gtexpert:meta_item_1:1>,
         <metaitem:plateGlass>,
         <metaitem:plateTitanium> * 2,
     ])
@@ -149,6 +149,6 @@ assembler.recipeBuilder()
 recipes.remove(<ae2fc:fluid_level_maintainer>);
 recipes.addShaped(<ae2fc:fluid_level_maintainer>, [
     [<metaitem:plateFluixAlloy>, <appliedenergistics2:part:281>, <metaitem:plateFluixAlloy>],
-    [<appliedenergistics2:material:22>, <metaitem:matrix_core>, <appliedenergistics2:material:22>],
+    [<appliedenergistics2:material:22>, <gtexpert:meta_item_1:1>, <appliedenergistics2:material:22>],
     [<metaitem:plateFluixAlloy>, <appliedenergistics2:material:53>, <metaitem:plateFluixAlloy>]
 ]);

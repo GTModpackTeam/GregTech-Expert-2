@@ -70,14 +70,14 @@ recipes.remove(<volumetricflask:o_interface>);
 recipes.addShapeless(<volumetricflask:o_interface>, [<volumetricflask:part_o_interface>]);
 recipes.addShaped(<volumetricflask:o_interface>, [
     [<metaitem:plateDoubleStainlessSteel>, <metaitem:plateGlass>, <metaitem:plateDoubleStainlessSteel>],
-    [<metaitem:matrix_core>, <gregtech:machine_casing:3>, <metaitem:matrix_core>],
+    [<gtexpert:meta_item_1:1>, <gregtech:machine_casing:3>, <gtexpert:meta_item_1:1>],
     [<metaitem:plateDoubleStainlessSteel>, <metaitem:plateGlass>, <metaitem:plateDoubleStainlessSteel>]
 ]);
 assembler.recipeBuilder()
     .circuit(4)
     .inputs([
         <gregtech:machine_casing:3>,
-        <metaitem:matrix_core>,
+        <gtexpert:meta_item_1:1>,
         <metaitem:plateGlass>,
         <metaitem:plateDoubleStainlessSteel> * 2
     ])
