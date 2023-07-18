@@ -1,12 +1,9 @@
 # v2.5.0
-## Modpack information
-- They created a patch about EZStorage 2!!
-    - Thanks to @sjcl for his support!!
-- They created a patch about UntranslatedItems!!
-    - Thanks to @katatsumuri_pan for his support!!
+## 💣 Update Warning 💣
+- Make a backup of your world before updating.
+    - **Be sure to shut down the DE reactor before updating!!**
 
-## CEu information
-### Breaking Changes
+## CEu breaking changes
 - Assembly Line now requires strict adherence to the input order, as in GT5u.
 - Assembly Line became a method of doing research and running it like GT5u.
 - Power Substation has been added to allow for batch management of power.
@@ -15,6 +12,12 @@
 - New transmission methods, Lasers and Active Transformer, have been added.
 - Various other updates, improvements and bug fixes have also been incorporated.
     - https://github.com/GregTechCEu/GregTech/releases
+
+## Modpack information
+- They created a patch about EZStorage 2!!
+    - Thanks to @sjcl for his support!!
+- They created a patch about UntranslatedItems!!
+    - Thanks to @katatsumuri_pan for his support!!
 
 # Update mods
 - AE2 Unofficial Extended Life
