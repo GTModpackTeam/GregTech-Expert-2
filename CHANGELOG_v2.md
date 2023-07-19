@@ -1,7 +1,7 @@
 # v2.5.0
 ## 💣 Update Warning 💣
 - Make a backup of your world before updating.
-    - **Be sure to shut down the DE reactor before updating!!**
+    - **Be sure to deactivate the DE reactor before updating!!**
 
 ## CEu breaking changes
 - Assembly Line now requires strict adherence to the input order, as in GT5u.
@@ -14,6 +14,7 @@
     - https://github.com/GregTechCEu/GregTech/releases
 
 ## Modpack information
+- Vacuum Freezer has more recipes other than Ingot.
 - They created a patch about EZStorage 2!!
     - Thanks to @sjcl for his support!!
 - They created a patch about UntranslatedItems!!
