@@ -44,9 +44,6 @@
 - UntranslatedItems: AlsoFluids
 - EZStorage 2 Patch
 
-# Downgrade mod
-- MixinBooter v8 -> v7
-
 # Move mod
 - Ender Storage -> Ender Storage continuation
 - Foam​Fix -> VintageFix
