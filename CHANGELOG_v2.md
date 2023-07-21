@@ -17,7 +17,7 @@
 - Vacuum Freezer has more recipes other than Ingot.
 - They created a patch about EZStorage 2!!
     - Thanks to @sjcl for his support!!
-- They created a patch about UntranslatedItems!!
+- They created a patch about UntranslatedItems and p455w0rd's AE2 Wireless Terminals Patch!!
     - Thanks to @katatsumuri_pan for his support!!
 
 # Update mods
@@ -43,6 +43,7 @@
 - Neeve's AE2: Extended Life Additions
 - UntranslatedItems: AlsoFluids
 - EZStorage 2 Patch
+- p455w0rd's AE2 Wireless Terminals Patch
 
 # Move mod
 - Ender Storage -> Ender Storage continuation
