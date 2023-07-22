@@ -36,7 +36,6 @@
 - LoliASM
 - ModularUI
 - Universal Tweaks
-- VintageFix
 
 # New mods
 - ConfigAnytime
