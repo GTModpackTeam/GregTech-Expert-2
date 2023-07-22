@@ -46,7 +46,7 @@
 - p455w0rd's AE2 Wireless Terminals Patch
 
 # Move mod
-- It's the little things -> RandomPatches (Forge)
+- RandomPatches (Forge) -> It's the little things
 - Ender Storage -> Ender Storage continuation
 - Foam​Fix -> VintageFix
 - BetterP2P -> EnhancedP2P
