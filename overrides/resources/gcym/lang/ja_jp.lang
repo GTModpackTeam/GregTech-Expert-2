@@ -152,4 +152,4 @@ gregtech.material.incoloy_ma_956=インコロイMA956
 gcym.fluid.molten=熔融%s
 
 # deprecation
-gcym.deprecation.tooltip=§cこの機械は廃止され、 次のアップデートで削除される予定です!コントローラを壊してクラフト素材を回収しましょう!
+gcym.deprecation.tooltip=§cこの機械は廃止され、次のアップデートで削除される予定です! コントローラを壊してクラフト素材を回収しましょう!
