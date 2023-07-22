@@ -278,17 +278,17 @@ JEI.removeAndHide(<aeadditions:gas_interface>);
 # ME Drive Fixture
 recipes.remove(<aeadditions:part.base>);
 recipes.addShaped(<aeadditions:part.base>, [
-    [<ore:ae2.cable.glass>, <appliedenergistics2:part:120>, <ore:ae2.cable.glass>],
+    [<ore:craftGlassCable>, <appliedenergistics2:part:120>, <ore:craftGlassCable>],
     [<appliedenergistics2:part:120>, <appliedenergistics2:drive>, <appliedenergistics2:part:120>],
-    [<ore:ae2.cable.glass>, <appliedenergistics2:part:120>, <ore:ae2.cable.glass>]
+    [<ore:craftGlassCable>, <appliedenergistics2:part:120>, <ore:craftGlassCable>]
 ]);
 
 # ME Energy Cell Fixture
 recipes.remove(<aeadditions:part.base:1>);
 recipes.addShaped(<aeadditions:part.base:1>, [
-    [<ore:ae2.cable.glass>, <appliedenergistics2:part:120>, <ore:ae2.cable.glass>],
+    [<ore:craftGlassCable>, <appliedenergistics2:part:120>, <ore:craftGlassCable>],
     [<appliedenergistics2:part:120>, <appliedenergistics2:energy_cell>, <appliedenergistics2:part:120>],
-    [<ore:ae2.cable.glass>, <appliedenergistics2:part:120>, <ore:ae2.cable.glass>]
+    [<ore:craftGlassCable>, <appliedenergistics2:part:120>, <ore:craftGlassCable>]
 ]);
 
 # Fluid Interface
@@ -301,7 +301,7 @@ JEI.addDescription(<aeadditions:part.base:3>, "Lag device. Use OreDict Storage b
 
 # Fluid Filler
 recipes.remove(<aeadditions:fluidfiller>);
-recipes.addShapeless(<aeadditions:fluidfiller>, [<appliedenergistics2:part:520>, <ore:ae2.fluid.assembler>]);
+recipes.addShapeless(<aeadditions:fluidfiller>, [<appliedenergistics2:part:520>, <ore:craftAssemblerFluid>]);
 
 # ME Fluid Assembler
 recipes.remove(<aeadditions:fluidcrafter>);
@@ -339,7 +339,7 @@ assembler.recipeBuilder()
 # Obsidian ME Drive
 recipes.remove(<aeadditions:hardmedrive>);
 recipes.addShaped(<aeadditions:hardmedrive>, [
-    [<enderio:block_reinforced_obsidian>, <ore:ae2.cable.dense.covered>, <enderio:block_reinforced_obsidian>],
+    [<enderio:block_reinforced_obsidian>, <ore:craftDenseCoveredCable>, <enderio:block_reinforced_obsidian>],
     [<enderio:block_reinforced_obsidian>, <appliedenergistics2:drive>, <enderio:block_reinforced_obsidian>],
     [<enderio:block_reinforced_obsidian>, <minecraft:obsidian>, <enderio:block_reinforced_obsidian>]
 ]);

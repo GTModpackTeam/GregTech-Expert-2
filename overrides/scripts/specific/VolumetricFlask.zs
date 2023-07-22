@@ -33,7 +33,7 @@ for flask in flasks {
     recipes.remove(flask);
 }
 for i, flask in flasks {
-    <ore:flask>.addItems([flasks[i]]);
+    <ore:craftFlask>.addItems([flasks[i]]);
     assembler.recipeBuilder()
         .circuit(i + 1)
         .notConsumable([<metaitem:shape.mold.bottle>])
@@ -51,8 +51,8 @@ for i, flask in flasks {
         .EUt(7)
         .buildAndRegister();
 }
-<ore:flask>.addTooltip(format.red("VolumetricFlask is out of support, please move AE2 Fluid Crafting Rework!!"));
-JEI.addDescription(<ore:flask>, "VolumetricFlask is out of support, please move AE2 Fluid Crafting Rework!!");
+<ore:craftFlask>.addTooltip(format.red("VolumetricFlask is out of support, please move AE2 Fluid Crafting Rework!!"));
+JEI.addDescription(<ore:craftFlask>, "VolumetricFlask is out of support, please move AE2 Fluid Crafting Rework!!");
 
 
 
@@ -60,7 +60,7 @@ JEI.addDescription(<ore:flask>, "VolumetricFlask is out of support, please move 
 # Blocks
 ########################################
 # Interface
-<ore:ae2.interface.flask>.addItems([
+<ore:craftInterfaceFlask>.addItems([
     <volumetricflask:o_interface>,
     <volumetricflask:part_o_interface>
 ]);
@@ -70,14 +70,14 @@ recipes.remove(<volumetricflask:o_interface>);
 recipes.addShapeless(<volumetricflask:o_interface>, [<volumetricflask:part_o_interface>]);
 recipes.addShaped(<volumetricflask:o_interface>, [
     [<metaitem:plateDoubleStainlessSteel>, <metaitem:plateGlass>, <metaitem:plateDoubleStainlessSteel>],
-    [<metaitem:matrix_core>, <gregtech:machine_casing:3>, <metaitem:matrix_core>],
+    [<gtexpert:meta_item_1:1>, <gregtech:machine_casing:3>, <gtexpert:meta_item_1:1>],
     [<metaitem:plateDoubleStainlessSteel>, <metaitem:plateGlass>, <metaitem:plateDoubleStainlessSteel>]
 ]);
 assembler.recipeBuilder()
     .circuit(4)
     .inputs([
         <gregtech:machine_casing:3>,
-        <metaitem:matrix_core>,
+        <gtexpert:meta_item_1:1>,
         <metaitem:plateGlass>,
         <metaitem:plateDoubleStainlessSteel> * 2
     ])
@@ -87,7 +87,7 @@ assembler.recipeBuilder()
     .EUt(1920)
     .buildAndRegister();
 packer.recipeBuilder()
-    .inputs([<ore:ae2.interface.flask>])
+    .inputs([<ore:craftInterfaceFlask>])
     .outputs([<appliedenergistics2:fluid_interface>, <metaitem:plateStainlessSteel> * 4])
     .duration(10)
     .EUt(7)
@@ -100,9 +100,9 @@ JEI.addDescription(<volumetricflask:o_interface>, "VolumetricFlask is out of sup
 # Buffer
 recipes.remove(<volumetricflask:buffer>);
 recipes.addShaped(<volumetricflask:buffer>, [
-    [<ore:flask>, <ore:flask>, <ore:flask>],
-    [<ore:flask>, <gregtech:machine:1512>, <ore:flask>],
-    [<ore:flask>, <ore:flask>, <ore:flask>]
+    [<ore:craftFlask>, <ore:craftFlask>, <ore:craftFlask>],
+    [<ore:craftFlask>, <gregtech:machine:1512>, <ore:craftFlask>],
+    [<ore:craftFlask>, <ore:craftFlask>, <ore:craftFlask>]
 ]);
 packer.recipeBuilder()
     .inputs([<volumetricflask:buffer>])
@@ -117,10 +117,10 @@ JEI.addDescription(<volumetricflask:buffer>, "VolumetricFlask is out of support,
 recipes.remove(<volumetricflask:filler>);
 assembler.recipeBuilder()
     .inputs([
-        <ore:flask> * 2,
+        <ore:craftFlask> * 2,
         <ore:circuitHv> * 2,
         <metaitem:plateTitanium> * 4,
-        <ore:ae2.fluid.assembler>
+        <ore:craftAssemblerFluid>
     ])
     .fluidInputs([<liquid:plastic> * 144])
     .outputs([<volumetricflask:filler>])

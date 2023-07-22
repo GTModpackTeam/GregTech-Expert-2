@@ -420,7 +420,7 @@ JEI.removeAndHide(<appliedenergistics2:color_applicator>);
 recipes.remove(<appliedenergistics2:wireless_terminal>);
 recipes.addShaped(<appliedenergistics2:wireless_terminal>, [
     [<appliedenergistics2:material:41>, <appliedenergistics2:part:380>, <appliedenergistics2:material:41>],
-    [<appliedenergistics2:material:24>, <metaitem:matrix_core>, <appliedenergistics2:material:24>],
+    [<appliedenergistics2:material:24>, <gtexpert:meta_item_1:1>, <appliedenergistics2:material:24>],
     [<metaitem:plateNetherQuartz>, <appliedenergistics2:dense_energy_cell>, <metaitem:plateNetherQuartz>]
 ]);
 
@@ -429,7 +429,7 @@ recipes.remove(<appliedenergistics2:wireless_crafting_terminal>);
 recipes.addShapeless(<appliedenergistics2:wireless_crafting_terminal>, [<wct:wct>]);
 recipes.addShaped(<appliedenergistics2:wireless_crafting_terminal>, [
     [<appliedenergistics2:material:41>, <appliedenergistics2:part:360>, <appliedenergistics2:material:41>],
-    [<appliedenergistics2:material:24>, <metaitem:matrix_core>, <appliedenergistics2:material:24>],
+    [<appliedenergistics2:material:24>, <gtexpert:meta_item_1:1>, <appliedenergistics2:material:24>],
     [<metaitem:plateNetherQuartz>, <appliedenergistics2:dense_energy_cell>, <metaitem:plateNetherQuartz>]
 ]);
 
@@ -438,7 +438,7 @@ recipes.remove(<appliedenergistics2:wireless_fluid_terminal>);
 recipes.addShapeless(<appliedenergistics2:wireless_fluid_terminal>, [<wft:wft>]);
 recipes.addShaped(<appliedenergistics2:wireless_fluid_terminal>, [
     [<appliedenergistics2:material:41>, <appliedenergistics2:part:520>, <appliedenergistics2:material:41>],
-    [<appliedenergistics2:material:24>, <metaitem:matrix_core>, <appliedenergistics2:material:24>],
+    [<appliedenergistics2:material:24>, <gtexpert:meta_item_1:1>, <appliedenergistics2:material:24>],
     [<metaitem:plateNetherQuartz>, <appliedenergistics2:dense_energy_cell>, <metaitem:plateNetherQuartz>]
 ]);
 
@@ -447,7 +447,7 @@ recipes.remove(<appliedenergistics2:wireless_pattern_terminal>);
 recipes.addShapeless(<appliedenergistics2:wireless_pattern_terminal>, [<wpt:wpt>]);
 recipes.addShaped(<appliedenergistics2:wireless_pattern_terminal>, [
     [<appliedenergistics2:material:41>, <appliedenergistics2:part:340>, <appliedenergistics2:material:41>],
-    [<appliedenergistics2:material:24>, <metaitem:matrix_core>, <appliedenergistics2:material:24>],
+    [<appliedenergistics2:material:24>, <gtexpert:meta_item_1:1>, <appliedenergistics2:material:24>],
     [<metaitem:plateNetherQuartz>, <appliedenergistics2:dense_energy_cell>, <metaitem:plateNetherQuartz>]
 ]);
 
@@ -526,11 +526,11 @@ recipes.addShaped(<appliedenergistics2:material:31>, [
 # Pattern Expansion Card
 recipes.remove(<appliedenergistics2:material:58>);
 recipes.addShapeless(<appliedenergistics2:material:58>, [
-    <appliedenergistics2:material:28>, <ore:ae2.interface.dual>, <appliedenergistics2:material:23>,
+    <appliedenergistics2:material:28>, <ore:craftInterfaceDual>, <appliedenergistics2:material:23>,
 ]);
 recipes.addShapeless(<appliedenergistics2:material:58>, [
-    <appliedenergistics2:material:28>, <ore:ae2.interface.item>, 
-    <ore:ae2.interface.fluid>, <appliedenergistics2:material:23>,
+    <appliedenergistics2:material:28>, <ore:craftInterfaceItem>, 
+    <ore:craftInterfaceFluid>, <appliedenergistics2:material:23>,
 ]);
 
 # Acceleration Card
@@ -573,7 +573,7 @@ recipes.addShaped(<appliedenergistics2:material:9> * 2, [
 # Wireless Receiver
 recipes.remove(<appliedenergistics2:material:41>);
 recipes.addShaped(<appliedenergistics2:material:41>, [
-    [<ore:ae2.cable.glass>, <appliedenergistics2:material:9>, <ore:ae2.cable.glass>],
+    [<ore:craftGlassCable>, <appliedenergistics2:material:9>, <ore:craftGlassCable>],
     [<metaitem:sensor.ev>, <metaitem:stickTitanium>, <metaitem:sensor.ev>],
     [<metaitem:plateCertusQuartz>, <ore:circuitEv>, <metaitem:plateCertusQuartz>]
 ]);
@@ -790,7 +790,6 @@ for anchorIngot_x8 in anchorIngots_x8 {
 
 # Glass Cable
 recipes.remove(<appliedenergistics2:part:16> * 4);
-recipes.removeByRecipeName("appliedenergistics2:network/cables/glass_fluix_clean");
 recipes.addShaped(<appliedenergistics2:part:16> * 6, [
     [<metaitem:stickAluminium>, <metaitem:dustFluix>, <metaitem:stickAluminium>],
     [<appliedenergistics2:part:140>, <appliedenergistics2:part:140>, <appliedenergistics2:part:140>],
@@ -818,39 +817,22 @@ assembler.recipeBuilder()
     .duration(20)
     .EUt(480)
     .buildAndRegister();
-chemical_bath.recipeBuilder()
-    .inputs([<ore:ae2.cable.glass.colors>])
-    .fluidInputs([<liquid:chlorine> * 25])
-    .outputs([<appliedenergistics2:part:16>])
-    .duration(8)
-    .EUt(480)
-    .buildAndRegister();
-for i in 0 .. 16 {
-    chemical_bath.recipeBuilder()
-        .inputs([<ore:ae2.cable.glass>])
-        .fluidInputs([colorLiquid[i] * 18])
-        .outputs([glassCables[i]])
-        .duration(20)
-        .EUt(7)
-        .buildAndRegister();
-}
 
 # Covered Cable
 recipes.removeByRecipeName("appliedenergistics2:network/cables/covered_fluix");
-recipes.removeByRecipeName("appliedenergistics2:network/cables/covered_fluix_clean");
 recipes.addShaped(<appliedenergistics2:part:36>, [
     [<metaitem:plateStyreneButadieneRubber>, <metaitem:plateStyreneButadieneRubber>, <metaitem:plateStyreneButadieneRubber>],
-    [<ore:ae2.cable.glass>, <ore:ae2.cable.glass>, <ore:ae2.cable.glass>],
+    [<ore:craftGlassCable>, <ore:craftGlassCable>, <ore:craftGlassCable>],
     [<metaitem:plateStyreneButadieneRubber>, <metaitem:plateStyreneButadieneRubber>, <metaitem:plateStyreneButadieneRubber>]
 ]);
 recipes.addShaped(<appliedenergistics2:part:36>, [
     [<metaitem:plateSiliconeRubber>, <metaitem:plateSiliconeRubber>, <metaitem:plateSiliconeRubber>],
-    [<ore:ae2.cable.glass>, <ore:ae2.cable.glass>, <ore:ae2.cable.glass>],
+    [<ore:craftGlassCable>, <ore:craftGlassCable>, <ore:craftGlassCable>],
     [<metaitem:plateSiliconeRubber>, <metaitem:plateSiliconeRubber>, <metaitem:plateSiliconeRubber>]
 ]);
 recipes.addShaped(<appliedenergistics2:part:36>, [
     [<metaitem:plateRubber>, <metaitem:plateRubber>, <metaitem:plateRubber>],
-    [<ore:ae2.cable.glass>, <ore:ae2.cable.glass>, <ore:ae2.cable.glass>],
+    [<ore:craftGlassCable>, <ore:craftGlassCable>, <ore:craftGlassCable>],
     [<metaitem:plateRubber>, <metaitem:plateRubber>, <metaitem:plateRubber>]
 ]);
 packer.recipeBuilder()
@@ -883,26 +865,9 @@ assembler.recipeBuilder()
     .duration(20)
     .EUt(480)
     .buildAndRegister();
-chemical_bath.recipeBuilder()
-    .inputs([<ore:ae2.cable.covered.colors>])
-    .fluidInputs([<liquid:chlorine> * 25])
-    .outputs([<appliedenergistics2:part:36>])
-    .duration(8)
-    .EUt(480)
-    .buildAndRegister();
-for i in 0 .. 16 {
-    chemical_bath.recipeBuilder()
-        .inputs([<ore:ae2.cable.covered>])
-        .fluidInputs([colorLiquid[i] * 18])
-        .outputs([coveredCables[i]])
-        .duration(20)
-        .EUt(7)
-        .buildAndRegister();
-}
 
 # Smart Cable
 recipes.removeByRecipeName("appliedenergistics2:network/cables/smart_fluix");
-recipes.removeByRecipeName("appliedenergistics2:network/cables/smart_fluix_clean");
 recipes.addShaped(<appliedenergistics2:part:56>, [
     [null, <minecraft:glowstone_dust>, null],
     [<minecraft:redstone>, <appliedenergistics2:part:36>, <minecraft:redstone>],
@@ -966,27 +931,10 @@ assembler.recipeBuilder()
     .duration(20)
     .EUt(480)
     .buildAndRegister();
-chemical_bath.recipeBuilder()
-    .inputs([<ore:ae2.cable.smart.colors>])
-    .fluidInputs([<liquid:chlorine> * 25])
-    .outputs([<appliedenergistics2:part:56>])
-    .duration(8)
-    .EUt(480)
-    .buildAndRegister();
-for i in 0 .. 16 {
-    chemical_bath.recipeBuilder()
-        .inputs([<ore:ae2.cable.smart>])
-        .fluidInputs([colorLiquid[i] * 18])
-        .outputs([smartCables[i]])
-        .duration(20)
-        .EUt(7)
-        .buildAndRegister();
-}
 
 
 # Dense Covered Cable
 recipes.removeByRecipeName("appliedenergistics2:network/cables/dense_covered_fluix");
-recipes.removeByRecipeName("appliedenergistics2:network/cables/dense_covered_fluix_clean");
 packer.recipeBuilder()
     .inputs([<appliedenergistics2:part:36> * 4])
     .outputs([<appliedenergistics2:part:516>])
@@ -1017,26 +965,9 @@ assembler.recipeBuilder()
     .duration(20)
     .EUt(480)
     .buildAndRegister();
-chemical_bath.recipeBuilder()
-    .inputs([<ore:ae2.cable.dense.covered.colors>])
-    .fluidInputs([<liquid:chlorine> * 25])
-    .outputs([<appliedenergistics2:part:516>])
-    .duration(8)
-    .EUt(480)
-    .buildAndRegister();
-for i in 0 .. 16 {
-    chemical_bath.recipeBuilder()
-        .inputs([<ore:ae2.cable.dense.covered>])
-        .fluidInputs([colorLiquid[i] * 18])
-        .outputs([denseCoveredCables[i]])
-        .duration(20)
-        .EUt(7)
-        .buildAndRegister();
-}
 
 # Dense Smart Cable
 recipes.removeByRecipeName("appliedenergistics2:network/cables/dense_smart_fluix");
-recipes.removeByRecipeName("appliedenergistics2:network/cables/dense_smart_fluix_clean");
 recipes.addShaped(<appliedenergistics2:part:76>, [
     [null, <minecraft:glowstone_dust>, null],
     [<minecraft:redstone>, <appliedenergistics2:part:516>, <minecraft:redstone>],
@@ -1111,22 +1042,6 @@ assembler.recipeBuilder()
     .duration(20)
     .EUt(480)
     .buildAndRegister();
-chemical_bath.recipeBuilder()
-    .inputs([<ore:ae2.cable.dense.smart.colors>])
-    .fluidInputs([<liquid:chlorine> * 25])
-    .outputs([<appliedenergistics2:part:76>])
-    .duration(8)
-    .EUt(480)
-    .buildAndRegister();
-for i in 0 .. 16 {
-    chemical_bath.recipeBuilder()
-        .inputs([<ore:ae2.cable.dense.smart>])
-        .fluidInputs([colorLiquid[i] * 18])
-        .outputs([denseSmartCables[i]])
-        .duration(20)
-        .EUt(7)
-        .buildAndRegister();
-}
 
 # ME Controller
 recipes.remove(<appliedenergistics2:controller>);
@@ -1198,7 +1113,7 @@ JEI.removeAndHide(<appliedenergistics2:charger>);
 recipes.remove(<appliedenergistics2:security_station>);
 recipes.addShaped(<appliedenergistics2:security_station>, [
     [<metaitem:plateSteel>, <ore:chestWood>, <metaitem:plateSteel>],
-    [<ore:ae2.cable.glass>, <appliedenergistics2:material:35>, <ore:ae2.cable.glass>],
+    [<ore:craftGlassCable>, <appliedenergistics2:material:35>, <ore:craftGlassCable>],
     [<metaitem:plateSteel>, <appliedenergistics2:material:22>, <metaitem:plateSteel>]
 ]);
 
@@ -1206,15 +1121,15 @@ recipes.addShaped(<appliedenergistics2:security_station>, [
 recipes.remove(<appliedenergistics2:quantum_ring>);
 recipes.addShaped(<appliedenergistics2:quantum_ring>, [
     [<metaitem:plateTitanium>, <appliedenergistics2:material:22>, <metaitem:plateTitanium>],
-    [<metaitem:matrix_core>, <metaitem:emitter.ev>, <ore:ae2.cable.glass>],
+    [<gtexpert:meta_item_1:1>, <metaitem:emitter.ev>, <ore:craftGlassCable>],
     [<metaitem:plateTitanium>, <appliedenergistics2:material:22>, <metaitem:plateTitanium>]
 ]);
 assembler.recipeBuilder()
     .circuit(1)
     .inputs([
         <appliedenergistics2:material:22>,
-        <ore:ae2.cable.glass>,
-        <metaitem:matrix_core>,
+        <ore:craftGlassCable>,
+        <gtexpert:meta_item_1:1>,
         <metaitem:emitter.ev>,
         <metaitem:plateTitanium> * 2
     ])
@@ -1245,15 +1160,15 @@ assembler.recipeBuilder()
 # Spatial Pylon
 recipes.remove(<appliedenergistics2:spatial_pylon>);
 recipes.addShaped(<appliedenergistics2:spatial_pylon>, [
-    [<metaitem:plateGlass>, <ore:ae2.cable.glass>, <metaitem:plateGlass>],
+    [<metaitem:plateGlass>, <ore:craftGlassCable>, <metaitem:plateGlass>],
     [<metaitem:dustFluix>, <ore:crystalFluix>, <metaitem:dustFluix>],
-    [<metaitem:plateGlass>, <ore:ae2.cable.glass>, <metaitem:plateGlass>]
+    [<metaitem:plateGlass>, <ore:craftGlassCable>, <metaitem:plateGlass>]
 ]);
 assembler.recipeBuilder()
     .circuit(1)
     .inputs([
         <metaitem:plateGlass> * 2,
-        <ore:ae2.cable.glass> * 2,
+        <ore:craftGlassCable> * 2,
         <metaitem:dustFluix>,
         <ore:crystalFluix>
     ])
@@ -1266,7 +1181,7 @@ assembler.recipeBuilder()
 recipes.remove(<appliedenergistics2:io_port>);
 recipes.addShaped(<appliedenergistics2:io_port>, [
     [<metaitem:plateGlass>, <metaitem:plateGlass>, <metaitem:plateGlass>],
-    [<ore:ae2.cable.glass>, <appliedenergistics2:drive>, <ore:ae2.cable.glass>],
+    [<ore:craftGlassCable>, <appliedenergistics2:drive>, <ore:craftGlassCable>],
     [<metaitem:plateSteel>, <appliedenergistics2:material:24>, <metaitem:plateSteel>]
 ]);
 
@@ -1274,15 +1189,15 @@ recipes.addShaped(<appliedenergistics2:io_port>, [
 recipes.remove(<appliedenergistics2:spatial_io_port>);
 recipes.addShaped(<appliedenergistics2:spatial_io_port>, [
     [<metaitem:plateGlass>, <metaitem:plateGlass>, <metaitem:plateGlass>],
-    [<ore:ae2.cable.glass>, <appliedenergistics2:drive>, <ore:ae2.cable.glass>],
-    [<metaitem:plateSteel>, <metaitem:matrix_core>, <metaitem:plateSteel>]
+    [<ore:craftGlassCable>, <appliedenergistics2:drive>, <ore:craftGlassCable>],
+    [<metaitem:plateSteel>, <gtexpert:meta_item_1:1>, <metaitem:plateSteel>]
 ]);
 
 # ME Chest
 recipes.remove(<appliedenergistics2:chest>);
 recipes.addShaped(<appliedenergistics2:chest>, [
     [<metaitem:plateSteel>, <appliedenergistics2:part:380>, <metaitem:plateSteel>],
-    [<ore:ae2.cable.glass>, <ore:chestWood>, <ore:ae2.cable.glass>],
+    [<ore:craftGlassCable>, <ore:chestWood>, <ore:craftGlassCable>],
     [<metaitem:plateSteel>, <appliedenergistics2:material:22>, <metaitem:plateSteel>]
 ]);
 assembler.recipeBuilder()
@@ -1291,7 +1206,7 @@ assembler.recipeBuilder()
         <appliedenergistics2:part:380>,
         <appliedenergistics2:material:22>,
         <ore:chestWood>,
-        <ore:ae2.cable.glass>,
+        <ore:craftGlassCable>,
         <metaitem:plateSteel> * 2
     ])
     .outputs([<appliedenergistics2:chest>])
@@ -1302,17 +1217,17 @@ assembler.recipeBuilder()
 # ME Drive
 recipes.remove(<appliedenergistics2:drive>);
 recipes.addShaped(<appliedenergistics2:drive>, [
-    [<metaitem:plateTitanium>, <metaitem:matrix_core>, <metaitem:plateTitanium>],
-    [<ore:ae2.cable.glass>, <appliedenergistics2:chest>, <ore:ae2.cable.glass>],
+    [<metaitem:plateTitanium>, <gtexpert:meta_item_1:1>, <metaitem:plateTitanium>],
+    [<ore:craftGlassCable>, <appliedenergistics2:chest>, <ore:craftGlassCable>],
     [<metaitem:plateTitanium>, <appliedenergistics2:material:24>, <metaitem:plateTitanium>]
 ]);
 assembler.recipeBuilder()
     .circuit(1)
     .inputs([
         <appliedenergistics2:material:24>,
-        <metaitem:matrix_core>,
+        <gtexpert:meta_item_1:1>,
         <appliedenergistics2:chest>,
-        <ore:ae2.cable.glass>,
+        <ore:craftGlassCable>,
         <metaitem:plateTitanium> * 2
     ])
     .outputs([<appliedenergistics2:drive>])
@@ -1324,14 +1239,14 @@ assembler.recipeBuilder()
 recipes.removeByRecipeName("appliedenergistics2:network/blocks/interfaces_interface");
 recipes.addShaped(<appliedenergistics2:interface>, [
     [<metaitem:plateSteel>, <metaitem:plateGlass>, <metaitem:plateSteel>],
-    [<metaitem:matrix_core>, <gregtech:machine_casing:3>, <metaitem:matrix_core>],
+    [<gtexpert:meta_item_1:1>, <gregtech:machine_casing:3>, <gtexpert:meta_item_1:1>],
     [<metaitem:plateSteel>, <metaitem:plateGlass>, <metaitem:plateSteel>]
 ]);
 assembler.recipeBuilder()
     .circuit(1)
     .inputs([
         <gregtech:machine_casing:3>,
-        <metaitem:matrix_core>,
+        <gtexpert:meta_item_1:1>,
         <metaitem:plateGlass>,
         <metaitem:plateSteel> * 2
     ])
@@ -1344,7 +1259,7 @@ assembler.recipeBuilder()
 recipes.remove(<appliedenergistics2:fluid_interface>);
 recipes.addShaped(<appliedenergistics2:fluid_interface>, [
     [<metaitem:plateStainlessSteel>, <metaitem:plateGlass>, <metaitem:plateStainlessSteel>],
-    [<metaitem:matrix_core>, <gregtech:machine_casing:3>, <metaitem:matrix_core>],
+    [<gtexpert:meta_item_1:1>, <gregtech:machine_casing:3>, <gtexpert:meta_item_1:1>],
     [<metaitem:plateStainlessSteel>, <metaitem:plateGlass>, <metaitem:plateStainlessSteel>]
 ]);
 recipes.addShapeless(<appliedenergistics2:fluid_interface>, [<appliedenergistics2:part:441>]);
@@ -1352,7 +1267,7 @@ assembler.recipeBuilder()
     .circuit(2)
     .inputs([
         <gregtech:machine_casing:3>,
-        <metaitem:matrix_core>,
+        <gtexpert:meta_item_1:1>,
         <metaitem:plateGlass>,
         <metaitem:plateStainlessSteel> * 2
     ])
@@ -1403,7 +1318,7 @@ assembler.recipeBuilder()
 recipes.remove(<appliedenergistics2:energy_cell>);
 recipes.addShaped(<appliedenergistics2:energy_cell>, [
     [<metaitem:plateFluix>, <ore:circuitHv>, <metaitem:plateFluix>],
-    [<ore:ae2.cable.covered>, <ore:batteryHv>, <ore:ae2.cable.covered>],
+    [<ore:craftCoveredCable>, <ore:batteryHv>, <ore:craftCoveredCable>],
     [<metaitem:plateFluix>, <ore:cableGtOctalAluminium>, <metaitem:plateFluix>]
 ]);
 assembler.recipeBuilder()
@@ -1412,7 +1327,7 @@ assembler.recipeBuilder()
         <metaitem:plateFluix> * 2,
         <ore:batteryHv>,
         <ore:circuitHv>,
-        <ore:ae2.cable.covered>
+        <ore:craftCoveredCable>
     ])
     .outputs([<appliedenergistics2:energy_cell>])
     .duration(20)
@@ -1423,7 +1338,7 @@ assembler.recipeBuilder()
 recipes.remove(<appliedenergistics2:dense_energy_cell>);
 recipes.addShaped(<appliedenergistics2:dense_energy_cell>, [
     [<appliedenergistics2:energy_cell>, <ore:circuitEv>, <appliedenergistics2:energy_cell>],
-    [<ore:ae2.cable.dense.covered>, <metaitem:matrix_core>, <ore:ae2.cable.dense.covered>],
+    [<ore:craftDenseCoveredCable>, <gtexpert:meta_item_1:1>, <ore:craftDenseCoveredCable>],
     [<appliedenergistics2:energy_cell>, <metaitem:battery_buffer.ev.16>, <appliedenergistics2:energy_cell>]
 ]);
 assembler.recipeBuilder()
@@ -1431,9 +1346,9 @@ assembler.recipeBuilder()
     .inputs([
         <appliedenergistics2:energy_cell> * 2,
         <metaitem:battery_buffer.ev.16>,
-        <metaitem:matrix_core>,
+        <gtexpert:meta_item_1:1>,
         <ore:circuitEv>,
-        <ore:ae2.cable.dense.covered>
+        <ore:craftDenseCoveredCable>
     ])
     .outputs([<appliedenergistics2:dense_energy_cell>])
     .duration(20)
@@ -1469,111 +1384,6 @@ recipes.addShapeless(<appliedenergistics2:crafting_accelerator>, [
     <appliedenergistics2:material:22>,
     <appliedenergistics2:material:24>
 ]);
-
-# Crafting Monitor
-recipes.remove(<appliedenergistics2:crafting_monitor>);
-packer.recipeBuilder()
-    .inputs([
-        <appliedenergistics2:crafting_unit>,
-        <appliedenergistics2:part:400>
-    ])
-    .outputs([<appliedenergistics2:crafting_monitor>])
-    .duration(10)
-    .EUt(7)
-    .buildAndRegister();
-packer.recipeBuilder()
-    .inputs([<appliedenergistics2:crafting_monitor>])
-    .outputs([
-        <appliedenergistics2:crafting_unit>,
-        <appliedenergistics2:part:400>
-    ])
-    .duration(10)
-    .EUt(7)
-    .buildAndRegister();
-
-# Crafting Storage 1k
-recipes.remove(<appliedenergistics2:crafting_storage_1k>);
-packer.recipeBuilder()
-    .inputs([
-        <appliedenergistics2:crafting_unit>,
-        <appliedenergistics2:material:35>
-    ])
-    .outputs([<appliedenergistics2:crafting_storage_1k>])
-    .duration(10)
-    .EUt(7)
-    .buildAndRegister();
-packer.recipeBuilder()
-    .inputs([<appliedenergistics2:crafting_storage_1k>])
-    .outputs([
-        <appliedenergistics2:crafting_unit>,
-        <appliedenergistics2:material:35>
-    ])
-    .duration(10)
-    .EUt(7)
-    .buildAndRegister();
-
-# Crafting Storage 4k
-recipes.remove(<appliedenergistics2:crafting_storage_4k>);
-packer.recipeBuilder()
-    .inputs([
-        <appliedenergistics2:crafting_unit>,
-        <appliedenergistics2:material:36>
-    ])
-    .outputs([<appliedenergistics2:crafting_storage_4k>])
-    .duration(10)
-    .EUt(7)
-    .buildAndRegister();
-packer.recipeBuilder()
-    .inputs([<appliedenergistics2:crafting_storage_4k>])
-    .outputs([
-        <appliedenergistics2:crafting_unit>,
-        <appliedenergistics2:material:36>
-    ])
-    .duration(10)
-    .EUt(7)
-    .buildAndRegister();
-
-# Crafting Storage 16k
-recipes.remove(<appliedenergistics2:crafting_storage_16k>);
-packer.recipeBuilder()
-    .inputs([
-        <appliedenergistics2:crafting_unit>,
-        <appliedenergistics2:material:37>
-    ])
-    .outputs([<appliedenergistics2:crafting_storage_16k>])
-    .duration(10)
-    .EUt(7)
-    .buildAndRegister();
-packer.recipeBuilder()
-    .inputs([<appliedenergistics2:crafting_storage_16k>])
-    .outputs([
-        <appliedenergistics2:crafting_unit>,
-        <appliedenergistics2:material:37>
-    ])
-    .duration(10)
-    .EUt(7)
-    .buildAndRegister();
-
-# Crafting Storage 64k
-recipes.remove(<appliedenergistics2:crafting_storage_64k>);
-packer.recipeBuilder()
-    .inputs([
-        <appliedenergistics2:crafting_unit>,
-        <appliedenergistics2:material:38>
-    ])
-    .outputs([<appliedenergistics2:crafting_storage_64k>])
-    .duration(10)
-    .EUt(7)
-    .buildAndRegister();
-packer.recipeBuilder()
-    .inputs([<appliedenergistics2:crafting_storage_64k>])
-    .outputs([
-        <appliedenergistics2:crafting_unit>,
-        <appliedenergistics2:material:38>
-    ])
-    .duration(10)
-    .EUt(7)
-    .buildAndRegister();
 
 # Molecular Assembler
 recipes.remove(<appliedenergistics2:molecular_assembler>);
@@ -1695,19 +1505,19 @@ assembler.recipeBuilder()
 recipes.remove(<appliedenergistics2:part:480>);
 recipes.addShaped(<appliedenergistics2:part:480>, [
     [<ore:craftingToolScrewdriver>, <appliedenergistics2:part:380>, <ore:craftingToolSoftHammer>],
-    [<metaitem:screwSteel>, <ore:ae2.interface.item>, <metaitem:screwSteel>],
+    [<metaitem:screwSteel>, <ore:craftInterfaceItem>, <metaitem:screwSteel>],
     [<metaitem:plateSteel>, <appliedenergistics2:material:23>, <metaitem:plateSteel>]
 ]);
 recipes.addShaped(<appliedenergistics2:part:480>, [
     [<ore:craftingToolSoftHammer>, <appliedenergistics2:part:380>, <ore:craftingToolScrewdriver>],
-    [<metaitem:screwSteel>, <ore:ae2.interface.item>, <metaitem:screwSteel>],
+    [<metaitem:screwSteel>, <ore:craftInterfaceItem>, <metaitem:screwSteel>],
     [<metaitem:plateSteel>, <appliedenergistics2:material:23>, <metaitem:plateSteel>]
 ]);
 assembler.recipeBuilder()
     .inputs([
         <appliedenergistics2:material:23>,
         <appliedenergistics2:part:380>,
-        <ore:ae2.interface.item>,
+        <ore:craftInterfaceItem>,
         <metaitem:screwSteel>,
         <metaitem:plateSteel>
     ])
@@ -1720,19 +1530,19 @@ assembler.recipeBuilder()
 recipes.remove(<appliedenergistics2:part:521>);
 recipes.addShaped(<appliedenergistics2:part:521>, [
     [<ore:craftingToolScrewdriver>, <appliedenergistics2:part:380>, <ore:craftingToolSoftHammer>],
-    [<metaitem:screwSteel>, <ore:ae2.interface.item>, <metaitem:screwSteel>],
-    [<metaitem:plateSteel>, <metaitem:matrix_core>, <metaitem:plateSteel>]
+    [<metaitem:screwSteel>, <ore:craftInterfaceItem>, <metaitem:screwSteel>],
+    [<metaitem:plateSteel>, <gtexpert:meta_item_1:1>, <metaitem:plateSteel>]
 ]);
 recipes.addShaped(<appliedenergistics2:part:521>, [
     [<ore:craftingToolSoftHammer>, <appliedenergistics2:part:380>, <ore:craftingToolScrewdriver>],
-    [<metaitem:screwSteel>, <ore:ae2.interface.item>, <metaitem:screwSteel>],
-    [<metaitem:plateSteel>, <metaitem:matrix_core>, <metaitem:plateSteel>]
+    [<metaitem:screwSteel>, <ore:craftInterfaceItem>, <metaitem:screwSteel>],
+    [<metaitem:plateSteel>, <gtexpert:meta_item_1:1>, <metaitem:plateSteel>]
 ]);
 assembler.recipeBuilder()
     .inputs([
-        <metaitem:matrix_core>,
+        <gtexpert:meta_item_1:1>,
         <appliedenergistics2:part:380>,
-        <ore:ae2.interface.item>,
+        <ore:craftInterfaceItem>,
         <metaitem:screwSteel>,
         <metaitem:plateSteel>
     ])
@@ -1745,19 +1555,19 @@ assembler.recipeBuilder()
 recipes.remove(<appliedenergistics2:part:522>);
 recipes.addShaped(<appliedenergistics2:part:522>, [
     [<ore:craftingToolScrewdriver>, <appliedenergistics2:part:380>, <ore:craftingToolSoftHammer>],
-    [<metaitem:screwStainlessSteel>, <ore:ae2.interface.fluid>, <metaitem:screwStainlessSteel>],
-    [<metaitem:plateStainlessSteel>, <metaitem:matrix_core>, <metaitem:plateStainlessSteel>]
+    [<metaitem:screwStainlessSteel>, <ore:craftInterfaceFluid>, <metaitem:screwStainlessSteel>],
+    [<metaitem:plateStainlessSteel>, <gtexpert:meta_item_1:1>, <metaitem:plateStainlessSteel>]
 ]);
 recipes.addShaped(<appliedenergistics2:part:522>, [
     [<ore:craftingToolSoftHammer>, <appliedenergistics2:part:380>, <ore:craftingToolScrewdriver>],
-    [<metaitem:screwStainlessSteel>, <ore:ae2.interface.fluid>, <metaitem:screwStainlessSteel>],
-    [<metaitem:plateStainlessSteel>, <metaitem:matrix_core>, <metaitem:plateStainlessSteel>]
+    [<metaitem:screwStainlessSteel>, <ore:craftInterfaceFluid>, <metaitem:screwStainlessSteel>],
+    [<metaitem:plateStainlessSteel>, <gtexpert:meta_item_1:1>, <metaitem:plateStainlessSteel>]
 ]);
 assembler.recipeBuilder()
     .inputs([
-        <metaitem:matrix_core>,
+        <gtexpert:meta_item_1:1>,
         <appliedenergistics2:part:380>,
-        <ore:ae2.interface.fluid>,
+        <ore:craftInterfaceFluid>,
         <metaitem:screwStainlessSteel>,
         <metaitem:plateStainlessSteel>
     ])
@@ -1840,21 +1650,21 @@ recipes.remove(<appliedenergistics2:wireless_access_point>);
 recipes.addShaped(<appliedenergistics2:wireless_access_point>, [
     [null, <appliedenergistics2:material:41>, null],
     [null, <appliedenergistics2:material:23>, null],
-    [null, <ore:ae2.cable.glass>, null]
+    [null, <ore:craftGlassCable>, null]
 ]);
 
 # ME Level Emitter
 recipes.remove(<appliedenergistics2:part:280>);
 recipes.addShaped(<appliedenergistics2:part:280>, [
     [null, <metaitem:plateSteel>, null],
-    [<ore:ae2.cable.glass>, <minecraft:redstone_torch>, <ore:ae2.cable.glass>],
+    [<ore:craftGlassCable>, <minecraft:redstone_torch>, <ore:craftGlassCable>],
     [null, <metaitem:plateSteel>, null]
 ]);
 assembler.recipeBuilder()
     .circuit(1)
     .inputs([
         <minecraft:redstone_torch>,
-        <ore:ae2.cable.glass>,
+        <ore:craftGlassCable>,
         <metaitem:plateSteel>
     ])
     .outputs([<appliedenergistics2:part:280>])
@@ -1866,14 +1676,14 @@ assembler.recipeBuilder()
 recipes.remove(<appliedenergistics2:part:281>);
 recipes.addShaped(<appliedenergistics2:part:281>, [
     [null, <metaitem:plateStainlessSteel>, null],
-    [<ore:ae2.cable.glass>, <minecraft:redstone_torch>, <ore:ae2.cable.glass>],
+    [<ore:craftGlassCable>, <minecraft:redstone_torch>, <ore:craftGlassCable>],
     [null, <metaitem:plateStainlessSteel>, null]
 ]);
 assembler.recipeBuilder()
     .circuit(2)
     .inputs([
         <minecraft:redstone_torch>,
-        <ore:ae2.cable.glass>,
+        <ore:craftGlassCable>,
         <metaitem:plateStainlessSteel>
     ])
     .outputs([<appliedenergistics2:part:281>])
@@ -1885,7 +1695,7 @@ assembler.recipeBuilder()
 recipes.remove(<appliedenergistics2:part:220>);
 recipes.addShaped(<appliedenergistics2:part:220>, [
     [<metaitem:plateSteel>, <ore:craftingToolSoftHammer>, <metaitem:plateSteel>],
-    [<metaitem:conveyor.module.hv>, <ore:ae2.interface.item>, <metaitem:conveyor.module.hv>],
+    [<metaitem:conveyor.module.hv>, <ore:craftInterfaceItem>, <metaitem:conveyor.module.hv>],
     [<metaitem:plateSteel>, <metaitem:item_filter>, <metaitem:plateSteel>]
 ]);
 assembler.recipeBuilder()
@@ -1893,7 +1703,7 @@ assembler.recipeBuilder()
     .inputs([
         <metaitem:conveyor.module.hv>,
         <metaitem:item_filter>,
-        <ore:ae2.interface.item>,
+        <ore:craftInterfaceItem>,
         <metaitem:plateSteel> * 2
     ])
     .outputs([<appliedenergistics2:part:220>])
@@ -1905,7 +1715,7 @@ assembler.recipeBuilder()
 recipes.remove(<appliedenergistics2:part:221>);
 recipes.addShaped(<appliedenergistics2:part:221>, [
     [<metaitem:plateStainlessSteel>, <ore:craftingToolSoftHammer>, <metaitem:plateStainlessSteel>],
-    [<metaitem:electric.pump.hv>, <ore:ae2.interface.fluid>, <metaitem:electric.pump.hv>],
+    [<metaitem:electric.pump.hv>, <ore:craftInterfaceFluid>, <metaitem:electric.pump.hv>],
     [<metaitem:plateStainlessSteel>, <metaitem:fluid_filter>, <metaitem:plateStainlessSteel>]
 ]);
 assembler.recipeBuilder()
@@ -1913,7 +1723,7 @@ assembler.recipeBuilder()
     .inputs([
         <metaitem:electric.pump.hv>,
         <metaitem:fluid_filter>,
-        <ore:ae2.interface.fluid>,
+        <ore:craftInterfaceFluid>,
         <metaitem:plateStainlessSteel> * 2
     ])
     .outputs([<appliedenergistics2:part:221>])
@@ -1925,7 +1735,7 @@ assembler.recipeBuilder()
 recipes.remove(<appliedenergistics2:part:222>);
 recipes.addShaped(<appliedenergistics2:part:222>, [
     [<metaitem:plateTitanium>, <ore:craftingToolSoftHammer>, <metaitem:plateTitanium>],
-    [<metaitem:conveyor.module.hv>, <ore:ae2.interface.item>, <metaitem:conveyor.module.hv>],
+    [<metaitem:conveyor.module.hv>, <ore:craftInterfaceItem>, <metaitem:conveyor.module.hv>],
     [<metaitem:plateTitanium>, <metaitem:ore_dictionary_filter>, <metaitem:plateTitanium>]
 ]);
 assembler.recipeBuilder()
@@ -1933,7 +1743,7 @@ assembler.recipeBuilder()
     .inputs([
         <metaitem:conveyor.module.hv>,
         <metaitem:ore_dictionary_filter>,
-        <ore:ae2.interface.item>,
+        <ore:craftInterfaceItem>,
         <metaitem:plateTitanium> * 2
     ])
     .outputs([<appliedenergistics2:part:222>])
@@ -1946,14 +1756,14 @@ recipes.remove(<appliedenergistics2:part:80>);
 recipes.addShapeless(<appliedenergistics2:part:80>, [<appliedenergistics2:part:100>]);
 recipes.addShaped(<appliedenergistics2:part:80>, [
     [null, <metaitem:plateRedAlloy>, null],
-    [<ore:ae2.cable.glass>, <minecraft:lever>, <ore:ae2.cable.glass>],
+    [<ore:craftGlassCable>, <minecraft:lever>, <ore:craftGlassCable>],
     [null, <metaitem:plateRedAlloy>, null]
 ]);
 assembler.recipeBuilder()
     .circuit(1)
     .inputs([
         <minecraft:lever>,
-        <ore:ae2.cable.glass>,
+        <ore:craftGlassCable>,
         <metaitem:plateRedAlloy>
     ])
     .outputs([<appliedenergistics2:part:80>])

@@ -65,13 +65,13 @@ recipes.addShapeless(<packagedauto:packager>, [<packagedauto:unpackager>]);
 recipes.addShaped(<packagedauto:packager>, [
     [<metaitem:plateTitanium>, <packagedauto:me_package_component>, <metaitem:plateTitanium>],
     [<ore:circuitHv>, <metaitem:packer.hv>, <ore:circuitHv>],
-    [<metaitem:plateTitanium>, <ore:ae2.interface.item>, <metaitem:plateTitanium>]
+    [<metaitem:plateTitanium>, <ore:craftInterfaceItem>, <metaitem:plateTitanium>]
 ]);
 assembler.recipeBuilder()
     .circuit(1)
     .inputs([
         <metaitem:plateTitanium> * 2,
-        <ore:ae2.interface.item>,
+        <ore:craftInterfaceItem>,
         <metaitem:packer.hv>,
         <ore:circuitHv>,
         <packagedauto:me_package_component>
@@ -89,7 +89,7 @@ recipes.addShapeless(<packagedauto:unpackager>, [<packagedauto:packager>]);
 recipes.remove(<packagedauto:encoder>);
 recipes.addShaped(<packagedauto:encoder>, [
     [<metaitem:plateTitanium>, <packagedauto:me_package_component>, <metaitem:plateTitanium>],
-    [<packagedauto:recipe_holder>, <ore:ae2.extended.terminal>, <packagedauto:recipe_holder>],
+    [<packagedauto:recipe_holder>, <ore:craftExtendedTerminal>, <packagedauto:recipe_holder>],
     [<metaitem:plateTitanium>, <ore:circuitHv>, <metaitem:plateTitanium>]
 ]);
 assembler.recipeBuilder()
@@ -97,7 +97,7 @@ assembler.recipeBuilder()
     .inputs([
         <metaitem:plateTitanium> * 2,
         <ore:circuitHv>,
-        <ore:ae2.extended.terminal>,
+        <ore:craftExtendedTerminal>,
         <packagedauto:recipe_holder>,
         <packagedauto:me_package_component>
     ])
@@ -111,13 +111,13 @@ recipes.remove(<packagedauto:packager_extension>);
 recipes.addShaped(<packagedauto:packager_extension>, [
     [<metaitem:plateTitanium>, <packagedauto:me_package_component>, <metaitem:plateTitanium>],
     [<ore:circuitHv>, <storagedrawers:controllerslave>, <ore:circuitHv>],
-    [<metaitem:plateTitanium>, <ore:ae2.interface.item>, <metaitem:plateTitanium>]
+    [<metaitem:plateTitanium>, <ore:craftInterfaceItem>, <metaitem:plateTitanium>]
 ]);
 assembler.recipeBuilder()
     .circuit(3)
     .inputs([
         <metaitem:plateTitanium> * 2,
-        <ore:ae2.interface.item>,
+        <ore:craftInterfaceItem>,
         <storagedrawers:controllerslave>,
         <ore:circuitHv>,
         <packagedauto:me_package_component>

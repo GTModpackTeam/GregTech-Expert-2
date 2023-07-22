@@ -102,7 +102,7 @@ assembler.recipeBuilder()
 # ME Conduit
 assembler.recipeBuilder()
     .inputs([
-        <ore:ae2.cable.glass>,
+        <ore:craftGlassCable>,
         <metaitem:plateTitanium>
     ])
     .fluidInputs([<liquid:plastic> * 144])
