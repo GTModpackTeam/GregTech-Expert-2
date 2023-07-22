@@ -13,12 +13,12 @@ services:
       EULA: true
       TYPE: AUTO_CURSEFORGE
       CF_SLUG: gregtech-expert-2
-      # Get the ID of the Server version from CF. The following is an example and specifies v2.1.1.
+      # Get the ID of the Server version from CF. The following is an example and specifies v2.4.1.
       # https://www.curseforge.com/minecraft/modpacks/gregtech-expert-2/files
-      CF_FILE_ID: 4424457
+      CF_FILE_ID: 4594253
       # Default RAM allocation
-      MEMORY: 2G
-      OPS: Honon
+      MEMORY: 4G
+      OPS: Steve
     volumes:
       - ./data:/data
       - /etc/timezone:/etc/timezone:ro

@@ -1,3 +1,57 @@
+# v2.5.0
+## 💣 Update Warning 💣
+- Make a backup of your world before updating.
+    - **Be sure to deactivate the DE reactor before updating!!**
+
+## CEu breaking changes
+- Assembly Line now requires strict adherence to the input order, as in GT5u.
+- Assembly Line became a method of doing research and running it like GT5u.
+- Power Substation has been added to allow for batch management of power.
+- A long-distance transport pipe, useful in the early stages of the game, has been added.
+- ME Hatch and Bus added.
+- New transmission methods, Lasers and Active Transformer, have been added.
+- Various other updates, improvements and bug fixes have also been incorporated.
+    - https://github.com/GregTechCEu/GregTech/releases
+
+## Modpack information
+- Vacuum Freezer has more recipes other than Ingot.
+- They created a patch about EZStorage 2!!
+    - Thanks to @sjcl for his support!!
+- They created a patch about UntranslatedItems and p455w0rd's AE2 Wireless Terminals Patch!!
+    - Thanks to @katatsumuri_pan for his support!!
+
+# Update mods
+- AE2 Unofficial Extended Life
+- AE2 Fluid Crafting Rework
+- BisectHosting Menu
+- CraftPresence
+- dan's Mouse Tweaks
+- GregTech CE: Unofficial
+- Gregicality Multiblocks
+- GregTech Food Option
+- GTExpert-Core
+- CraftPresence
+- Inventory Bogo Sorter
+- JEI Utilities
+- LoliASM
+- ModularUI
+- Universal Tweaks
+
+# New mods
+- ConfigAnytime
+- Neeve's AE2: Extended Life Additions
+- UntranslatedItems: AlsoFluids
+- EZStorage 2 Patch
+- p455w0rd's AE2 Wireless Terminals Patch
+
+# Move mod
+- RandomPatches (Forge) -> It's the little things
+- Ender Storage -> Ender Storage continuation
+- Foam​Fix -> VintageFix
+- BetterP2P -> EnhancedP2P
+
+* * *
+
 # v2.4.1
 ## Modpack information
 - They created a patch about ME Level Maintainer for Lazy AE2!!
