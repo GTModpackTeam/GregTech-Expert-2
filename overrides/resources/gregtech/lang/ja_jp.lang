@@ -4675,7 +4675,8 @@ gregtech.machine.data_bank.name=データバンク
 gregtech.machine.data_bank.tooltip.1=個人用NAS (ネットワークHDD)
 gregtech.machine.data_bank.tooltip.2=大容量データストレージ。光ファイバーで輸送。
 gregtech.machine.data_bank.tooltip.3=データバンクは連結可能
-gregtech.machine.data_bank.tooltip.4=データハッチ1つにつき§f%s EU/t§7、連結時§f%s EU/t§7消費する。
+gregtech.machine.data_bank.tooltip.4=通常時、データハッチ1つにつき§f%s EU/t§7消費する。
+gregtech.machine.data_bank.tooltip.5=連結時、データハッチ1つにつき§f%s EU/t§7消費する。
 gregtech.multiblock.data_bank.description=データバンクはアセンブリライン用研究データを複数のアセンブリラインで共有できるようにするマルチブロックです。さらに、アセンブリラインがより複雑なデータを読み取れるようにします。
 
 gregtech.machine.power_substation.name=大型蓄電器
