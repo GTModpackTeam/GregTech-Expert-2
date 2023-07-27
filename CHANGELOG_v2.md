@@ -30,7 +30,6 @@
 - Gregicality Multiblocks
 - GregTech Food Option
 - GTExpert-Core
-- CraftPresence
 - Inventory Bogo Sorter
 - JEI Utilities
 - LoliASM
