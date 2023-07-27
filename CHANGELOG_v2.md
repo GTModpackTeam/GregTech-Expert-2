@@ -5,10 +5,10 @@
 
 ## Update mods
 - AE2 Fluid Crafting Rework
+- GregTech CE: Unofficial
 - GTExpert-Core
 - CraftPresence
 - dan's Mouse Tweaks
-- OpenComputers
 - VintageFix
 
 * * *
