@@ -1,3 +1,18 @@
+# v2.5.1
+## Modpack information
+- [Incorporated countermeasures for CVEs related to EnderIO.](https://forums.minecraftforge.net/topic/124918-potential-rce-zero-day-exploit-targeting-forge-142352860-1122/)
+- [Include the latest commits for CEu. Some server-induced events are resolved.](https://github.com/GTModpackTeam/GregTech/releases/tag/2.7.2-beta-f6d8ae)
+
+## Update mods
+- AE2 Fluid Crafting Rework
+- GTExpert-Core
+- CraftPresence
+- dan's Mouse Tweaks
+- OpenComputers
+- VintageFix
+
+* * *
+
 # v2.5.0
 ## 💣 Update Warning 💣
 - Make a backup of your world before updating.
