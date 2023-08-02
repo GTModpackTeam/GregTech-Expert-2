@@ -1,3 +1,22 @@
+# v2.5.2
+# Update mods
+- AE2 Unofficial Extended Life
+- AE2 Fluid Crafting Rework
+- EnderCore
+- Ender IO Endergy
+- Ender IO Base
+- Ender IO Machines
+- Ender IO Conduits
+- Ender IO AE2 Conduits
+- Ender IO RS Conduits
+- Ender IO OC Conduits
+- Zen Utils
+
+# Move mod
+- /dank/null -> /dank/null/no_RCE/
+
+* * *
+
 # v2.5.1
 ## Modpack information
 - [Incorporated countermeasures for CVEs related to EnderIO.](https://forums.minecraftforge.net/topic/124918-potential-rce-zero-day-exploit-targeting-forge-142352860-1122/)
