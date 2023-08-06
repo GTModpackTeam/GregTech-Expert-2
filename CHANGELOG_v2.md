@@ -2,14 +2,19 @@
 # Update mods
 - AE2 Unofficial Extended Life
 - AE2 Fluid Crafting Rework
+- CraftPresence
+- GregTech CE: Unofficial
+- GregTech Food Option
+- GTExpert-Core
 - EnderCore
 - Ender IO Endergy
 - Ender IO Base
 - Ender IO Machines
 - Ender IO Conduits
 - Ender IO AE2 Conduits
-- Ender IO RS Conduits
 - Ender IO OC Conduits
+- Neeve's AE2: Extended Life Additions
+- UntranslatedItems: AlsoFluids
 - Zen Utils
 
 # Move mod
