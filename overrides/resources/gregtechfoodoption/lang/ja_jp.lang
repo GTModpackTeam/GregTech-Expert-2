@@ -908,7 +908,7 @@ metaitem.component.iv_bag.tooltip=EVバッグを直接アップグレード
 gregtechfoodoption.hello_buildcraft=MOD（おそらくBuildCraft）がバカになっている
 
 metaitem.food.lasagna.chum.name=チャムラザニア
-metaitem.food.lasagna.chum.tooltip="チャマーニャ" - 賢者ダン
+metaitem.food.lasagna.chum.tooltip="チャマーニャ" - 賢者serenibyss
 gregtechfoodoption.tooltip.food.duration=§a食べるのに§f%s§a ticksかかる (通常は32)
 gregtechfoodoption.potion.amplifier=効果増幅
 gregtechfoodoption.potion.lengthener=効果延長

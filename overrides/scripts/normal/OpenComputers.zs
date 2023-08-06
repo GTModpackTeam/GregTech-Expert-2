@@ -2156,6 +2156,18 @@ assembler.recipeBuilder()
 ########################################
 # Blocks
 ########################################
+# OC Conduit
+assembler.recipeBuilder()
+    .inputs([
+        <opencomputers:cable>,
+        <metaitem:plateRedstoneAlloy>
+    ])
+    .fluidInputs([<liquid:plastic> * 144])
+    .outputs([<enderio:item_opencomputers_conduit>])
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister();
+
 # Cable
 assembler.recipeBuilder()
     .circuit(1)
