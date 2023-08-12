@@ -1,3 +1,16 @@
+# v2.5.3
+# Update mods
+- AE2 Unofficial Extended Life
+- AE2 Fluid Crafting Rework
+- GTExpert-Core
+- ModularUI
+- Inventory Bogo Sorter
+- VintageFix
+- UntranslatedItems: AlsoFluids
+- p455w0rd's AE2 Wireless Terminals Patch
+
+* * *
+
 # v2.5.2
 # Update mods
 - AE2 Unofficial Extended Life
