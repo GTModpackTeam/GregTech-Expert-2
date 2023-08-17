@@ -2,12 +2,15 @@
 # Update mods
 - AE2 Unofficial Extended Life
 - AE2 Fluid Crafting Rework
+- Gregicality Multiblocks
 - GTExpert-Core
+- CraftTweaker
 - ModularUI
 - Inventory Bogo Sorter
 - VintageFix
 - UntranslatedItems: AlsoFluids
 - p455w0rd's AE2 Wireless Terminals Patch
+- Universal Tweaks
 
 * * *
 
