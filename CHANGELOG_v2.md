@@ -7,10 +7,12 @@
 - CraftTweaker
 - ModularUI
 - Inventory Bogo Sorter
-- VintageFix
 - UntranslatedItems: AlsoFluids
 - p455w0rd's AE2 Wireless Terminals Patch
 - Universal Tweaks
+
+# Move mod
+- VintageFix -> Valkyrie & RedCore
 
 * * *
 
