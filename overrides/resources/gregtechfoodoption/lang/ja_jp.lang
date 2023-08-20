@@ -1,7 +1,7 @@
 # Japanese translate by MrKo_no
 # 翻訳担当 : MrKo_no
-# Corresponding Version: 1.9.3
-# 対応バージョン: 1.9.3
+# Corresponding Version: 1.9.4
+# 対応バージョン: 1.9.4
 
 metaitem.phycomyces.culture.name=ヒゲカビ菌床
 metaitem.component.corn.ear.name=トウモロコシ
@@ -871,7 +871,7 @@ metaitem.food.nilk.name=ニルク
 metaitem.food.nilk.tooltip=ニルク
 
 gregtechfoodoption.tooltip.food.lacing=§2面白い化学物質が混入しているかもしれない
-gregtechfoodoption.fluid.lacing=§2缶詰機で100 mBにアイテムを混入させるのに使われる
+gregtechfoodoption.fluid.lacing=§2缶詰機でアイテムに100 mB混入させるのに利用できる
 gregtechfoodoption.cyanide.1=§cなんだか気分が悪くなってきた...
 gregtechfoodoption.cyanide.2=§cく、苦しくなってきた...
 gregtechfoodoption.cyanide.3=§cｵﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛﾛ
@@ -1069,6 +1069,9 @@ recipemap.multicooker.name=万能調理器
 metaitem.food.emergency_rations.name=非常食
 metaitem.food.emergency_rations.tooltip=封が硬くて開けられない
 
+metaitem.lithium_oxide_dust.name=酸化リチウム
+metaitem.lithium_carbonate_dust.name=炭酸リチウム
+
 tile.gtfo_crop_coffee.name=コーヒー
 tile.gtfo_crop_tomato.name=トマト
 tile.gtfo_crop_onion.name=タマネギ
@@ -1087,3 +1090,10 @@ tile.gtfo_crop_artichoke.name=アーティチョーク
 tile.gtfo_crop_black_pepper.name=コショウ
 tile.gtfo_crop_rice.name=米
 tile.gtfo_crop_white_grape.name=白ブドウ
+
+lacing.item_list.name=異物混入情報
+gregtechfoodoption.lacing.info.1=発現効果:
+gregtechfoodoption.lacing.info.2=が%s ticks持続する
+gregtechfoodoption.potion.cyanidepoisoning=青酸中毒
+gregtechfoodoption.potion.antischizo=抗統合失調症
+eating.output.name=返却されるもの
