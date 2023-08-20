@@ -16,12 +16,6 @@
 - p455w0rd's AE2 Wireless Terminals Patch
 - Universal Tweaks
 
-# Move mod
-- VintageFix -> Valkyrie & RedCore
-
-# Del mod
-- It's the little things
-
 * * *
 
 # v2.5.2
