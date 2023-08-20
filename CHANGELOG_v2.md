@@ -1,7 +1,12 @@
 # v2.5.3
+## Modpack information
+- Supports [AE2Sutff](https://www.curseforge.com/minecraft/mc-mods/ae2-stuff) as a compatibility for additional installations.
+
 # Update mods
 - AE2 Unofficial Extended Life
 - AE2 Fluid Crafting Rework
+- GregTech CE: Unofficial
+- GregTech Food Option
 - Gregicality Multiblocks
 - GTExpert-Core
 - CraftTweaker
@@ -13,6 +18,9 @@
 
 # Move mod
 - VintageFix -> Valkyrie & RedCore
+
+# Del mod
+- It's the little things
 
 * * *
 
