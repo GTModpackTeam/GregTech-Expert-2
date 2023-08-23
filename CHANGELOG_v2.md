@@ -14,7 +14,9 @@
 - Inventory Bogo Sorter
 - UntranslatedItems: AlsoFluids
 - p455w0rd's AE2 Wireless Terminals Patch
+- OpenComputers
 - Universal Tweaks
+- VintageFix
 
 * * *
 
