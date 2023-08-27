@@ -1,5 +1,12 @@
 # v2.5.3
 ## Modpack information
+### To update an existing profile without creating a new profile.
+1. Check the mods folder and delete `gregtech-1.12.2-2.7.3-beta-gte.jar` and `gregtechfoodoption-1.9.3.2-gte.jar`. 
+2. In addition, delete `gregtech-1.12.2-2.7.2-beta.jar.disabled` and `gregtechfoodoption-1.9.3.1.jar.disabled`.
+3. Finally, check the `overrides\config\mod-director` and make sure there are no files inside.
+- In case you are wondering, ModPack recommends [MultiMC](https://multimc.org/) or [Prism Launcher](https://prismlauncher.org/).
+
+## Modpack other information
 - Supports [AE2Sutff](https://www.curseforge.com/minecraft/mc-mods/ae2-stuff) as a compatibility for additional installations.
 
 # Update mods
