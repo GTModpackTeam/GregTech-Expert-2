@@ -18,6 +18,12 @@
 - Universal Tweaks
 - VintageFix
 
+# Del mod
+- LoliASM
+
+# Move mod
+- spark -> Spark Unforged
+
 * * *
 
 # v2.5.2
