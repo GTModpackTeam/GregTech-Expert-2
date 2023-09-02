@@ -1,3 +1,12 @@
+# v2.5.4
+# Update mods
+- AE2 Unofficial Extended Life
+- AE2 Fluid Crafting Rework
+- MixinBooter
+- File Director
+
+* * *
+
 # v2.5.3
 ## Modpack information
 ### To update an existing profile without creating a new profile.
