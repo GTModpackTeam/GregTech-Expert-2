@@ -120,7 +120,7 @@ assembler.recipeBuilder()
     .EUt(1920)
     .buildAndRegister();
 
-# Extended Processing Fluid Pattrern Terminal
+# Extended Processing Fluid Pattern Terminal
 recipes.remove(<ae2fc:part_fluid_pattern_ex_terminal>);
 recipes.addShaped(<ae2fc:part_fluid_pattern_ex_terminal>, [
     [<ore:craftingToolScrewdriver>, <ae2fc:part_fluid_pattern_terminal>, <ore:craftingToolSoftHammer>],
@@ -135,7 +135,7 @@ recipes.addShaped(<ae2fc:part_fluid_pattern_ex_terminal>, [
 assembler.recipeBuilder()
     .inputs([
         <appliedenergistics2:material:24>,
-        <appliedenergistics2:part:340>,
+        <ae2fc:part_fluid_pattern_terminal>,
         <appliedenergistics2:material:52>,
         <metaitem:screwStainlessSteel>,
         <metaitem:plateStainlessSteel>
