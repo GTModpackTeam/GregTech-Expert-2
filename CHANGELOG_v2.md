@@ -9,6 +9,12 @@
 # Doungrade mod
 - ModularUI
 
+## Fix recipes
+### GTExpert-Core
+- Axe of the Wyvern
+- Pickaxe of the Wyvern
+- Shovel of the Wyvern
+
 * * *
 
 # v2.5.3
