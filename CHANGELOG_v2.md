@@ -1,3 +1,25 @@
+# v2.5.4
+# Update mods
+- AE2 Unofficial Extended Life
+- AE2 Fluid Crafting Rework
+- GTExpert-Core
+- MixinBooter
+- File Director
+
+# Doungrade mod
+- ModularUI
+
+## Fix recipes
+### AE2 Unofficial Extended Life
+- Extended Processing Fluid Pattern Terminal
+
+### GTExpert-Core
+- Axe of the Wyvern
+- Pickaxe of the Wyvern
+- Shovel of the Wyvern
+
+* * *
+
 # v2.5.3
 ## Modpack information
 ### To update an existing profile without creating a new profile.
