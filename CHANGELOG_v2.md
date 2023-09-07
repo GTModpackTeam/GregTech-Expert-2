@@ -2,8 +2,12 @@
 # Update mods
 - AE2 Unofficial Extended Life
 - AE2 Fluid Crafting Rework
+- GTExpert-Core
 - MixinBooter
 - File Director
+
+# Doungrade mod
+- ModularUI
 
 * * *
 
