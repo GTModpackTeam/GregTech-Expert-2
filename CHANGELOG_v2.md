@@ -10,6 +10,9 @@
 - ModularUI
 
 ## Fix recipes
+### AE2 Unofficial Extended Life
+- Extended Processing Fluid Pattern Terminal
+
 ### GTExpert-Core
 - Axe of the Wyvern
 - Pickaxe of the Wyvern
