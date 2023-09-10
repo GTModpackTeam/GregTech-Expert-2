@@ -43,20 +43,11 @@
         - You want to make RF wireless?
     - [ME Capability Adapter](https://www.curseforge.com/minecraft/mc-mods/capability-adapter)
         - For those who want to use ME System.
-    - [Volumetric Flask](https://www.curseforge.com/minecraft/mc-mods/volumetric-flask)
-        - Migration to AE2 Fluid Crafting Rework. However, a Flask can still be created.
-    - [ExtraCells2 - SamLam140330's Fork](https://www.curseforge.com/minecraft/mc-mods/extra-cells-2-samlam140330s-fork)
-        - Migration to AE Additions only. You will not be able to make any ExtraCells2 stuff.
-    - More other mods support ??
-        - If you want to add support for other mods, please contact us on Discord. In some cases, we will formally implement it.
 
 
 ## Bansoukou
 
-- This pack uses three bansoukou patches. The first is [Draconic Additions](https://github.com/FoxMcloud5655/Draconic-Additions/tree/1.12.2), and the third is [EZ Storage](https://github.com/zerofall/EZStorage2).
-    - [Draconic Additions](https://github.com/GTModpackTeam/Draconic-Additions): Since the recipe cannot be deleted, it was removed directly from the source.
-    - [Draconic Evolution](https://github.com/Nomi-CEu/Draconic-Evolution): This adds the destruct core button, and allows GT blocks in place of DE blocks, in the Energy Core and Reactor.
-    - [EZ Storage](https://github.com/zerofall/EZStorage2/pull/69): Captured PR that was up.
+- [Draconic Additions](https://github.com/GTModpackTeam/Draconic-Additions): Since the recipe cannot be deleted, it was removed directly from the source.
 
 
 ## Credits
