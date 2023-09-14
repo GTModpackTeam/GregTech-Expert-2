@@ -8,6 +8,7 @@
 - GTExpert2 Core Mod
 - BisectHosting Server Integration Menu
 - LoliASM
+- The One Probe Community Edition
 
 ## Add mod
 - Red Core
