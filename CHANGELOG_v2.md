@@ -1,3 +1,28 @@
+# v2.5.5
+## Update mods
+- CraftPresence
+- ModularUI
+- Inventory Bogo Sorter
+- CraftTweaker
+- Zen Utils
+- GTExpert2 Core Mod
+- BisectHosting Server Integration Menu
+- LoliASM
+
+## Add mod
+- Red Core
+
+## Remove mods
+- It's the little things
+- Spark Unforged
+- Phosphor Crash Fix
+
+## Move mods
+- VintageFix -> Valkyrie
+- Phosphor -> Alfheim Lighting Engine
+
+* * *
+
 # v2.5.4
 # Update mods
 - AE2 Unofficial Extended Life
