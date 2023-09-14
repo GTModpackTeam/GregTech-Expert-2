@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Get the version
         run: |
@@ -81,16 +81,16 @@ jobs:
             ./GTExpert2-${{ env.VERSION }}-${{ env.LEVEL }}-mmc.zip
             ./GTExpert2-${{ env.VERSION }}-${{ env.LEVEL }}-server.zip
 
-      - name: Upload Curseforge
-        uses: ./.github/actions/curseforge-modpack-upload
-        with: 
-          api-token: ${{ secrets.CF_API_TOKEN }}
-          project-id: '565238'
-          modpack-path: ./GTExpert2-${{ env.VERSION }}-${{ env.LEVEL }}-cf.zip
-          modpack-server-path: ./GTExpert2-${{ env.VERSION }}-${{ env.LEVEL }}-server.zip
-          changelog: 'Check the changes here. [Github - CHANGELOG.md](https://github.com/GTModpackTeam/gregtech-expert-2/blob/main/CHANGELOG_v2.md "")' 
-          changelog-format: markdown
-          game-version: '628' # 628 or 6756 (Accepted at either)
-          display-name: GTExpert2-${{ env.VERSION }}-${{ env.LEVEL }}
-          server-display-name: GTExpert2-${{ env.VERSION }}-${{ env.LEVEL }}-server
-          release-type: ${{ env.LEVEL }}
+      # - name: Upload Curseforge
+      #   uses: ./.github/actions/curseforge-modpack-upload
+      #   with: 
+      #     api-token: ${{ secrets.CF_API_TOKEN }}
+      #     project-id: '565238'
+      #     modpack-path: ./GTExpert2-${{ env.VERSION }}-${{ env.LEVEL }}-cf.zip
+      #     modpack-server-path: ./GTExpert2-${{ env.VERSION }}-${{ env.LEVEL }}-server.zip
+      #     changelog: 'Check the changes here. [Github - CHANGELOG.md](https://github.com/GTModpackTeam/gregtech-expert-2/blob/main/CHANGELOG_v2.md "")' 
+      #     changelog-format: markdown
+      #     game-version: '628' # 628 or 6756 (Accepted at either)
+      #     display-name: GTExpert2-${{ env.VERSION }}-${{ env.LEVEL }}
+      #     server-display-name: GTExpert2-${{ env.VERSION }}-${{ env.LEVEL }}-server
+      #     release-type: ${{ env.LEVEL }}
