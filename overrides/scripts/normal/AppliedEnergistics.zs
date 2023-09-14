@@ -1217,9 +1217,9 @@ assembler.recipeBuilder()
 # ME Drive
 recipes.remove(<appliedenergistics2:drive>);
 recipes.addShaped(<appliedenergistics2:drive>, [
-    [<metaitem:plateSteel>, <gtexpert:meta_item_1:1>, <metaitem:plateSteel>],
+    [<metaitem:plateTitanium>, <gtexpert:meta_item_1:1>, <metaitem:plateTitanium>],
     [<ore:craftGlassCable>, <appliedenergistics2:chest>, <ore:craftGlassCable>],
-    [<metaitem:plateSteel>, <appliedenergistics2:material:24>, <metaitem:plateSteel>]
+    [<metaitem:plateTitanium>, <appliedenergistics2:material:24>, <metaitem:plateTitanium>]
 ]);
 assembler.recipeBuilder()
     .circuit(1)
@@ -1228,7 +1228,7 @@ assembler.recipeBuilder()
         <gtexpert:meta_item_1:1>,
         <appliedenergistics2:chest>,
         <ore:craftGlassCable>,
-        <metaitem:plateSteel> * 2
+        <metaitem:plateTitanium> * 2
     ])
     .outputs([<appliedenergistics2:drive>])
     .duration(100)
