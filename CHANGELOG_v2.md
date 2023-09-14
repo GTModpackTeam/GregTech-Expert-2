@@ -9,6 +9,7 @@
 - BisectHosting Server Integration Menu
 - LoliASM
 - The One Probe Community Edition
+- MixinBooter
 
 ## Add mod
 - Red Core
