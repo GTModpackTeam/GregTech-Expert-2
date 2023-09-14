@@ -1,4 +1,8 @@
 # v2.5.5
+## Modpack information
+- All blocks of Chisel are now supported by Auto Chisel.
+    - Thanks to @MrKono for his support!!
+
 ## Update mods
 - CraftPresence
 - ModularUI
