@@ -12,20 +12,20 @@
 - GTExpert2 Core Mod
 - BisectHosting Server Integration Menu
 - LoliASM
-- The One Probe Community Edition
 - MixinBooter
 
 ## Add mod
 - Red Core
 
 ## Remove mods
-- It's the little things
 - Spark Unforged
-- Phosphor Crash Fix
 
 ## Move mods
+- The One Probe -> The One Probe Community Edition
+- It's the little things -> Valkyrie
 - VintageFix -> Valkyrie
 - Phosphor -> Alfheim Lighting Engine
+- Phosphor Crash Fix -> Alfheim Lighting Engine
 
 * * *
 
