@@ -1,3 +1,34 @@
+# v2.5.5
+## Modpack information
+- All blocks of Chisel are now supported by Auto Chisel.
+    - Thanks to @MrKono for his support!!
+
+## Update mods
+- CraftPresence
+- ModularUI
+- Inventory Bogo Sorter
+- CraftTweaker
+- Zen Utils
+- GTExpert2 Core Mod
+- BisectHosting Server Integration Menu
+- LoliASM
+- MixinBooter
+
+## Add mod
+- RenderLib
+- Nothirium
+- Entity Culling
+
+## Remove mods
+- Spark Unforged
+
+## Move mods
+- The One Probe -> The One Probe Community Edition
+- Phosphor -> 燐/Hesperus
+- Phosphor Crash Fix -> 燐/Hesperus
+
+* * *
+
 # v2.5.4
 # Update mods
 - AE2 Unofficial Extended Life
