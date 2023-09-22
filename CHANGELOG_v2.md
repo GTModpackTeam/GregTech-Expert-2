@@ -15,17 +15,17 @@
 - MixinBooter
 
 ## Add mod
-- Red Core
+- RenderLib
+- Nothirium
+- Entity Culling
 
 ## Remove mods
 - Spark Unforged
 
 ## Move mods
 - The One Probe -> The One Probe Community Edition
-- It's the little things -> Valkyrie
-- VintageFix -> Valkyrie
-- Phosphor -> Alfheim Lighting Engine
-- Phosphor Crash Fix -> Alfheim Lighting Engine
+- Phosphor -> 燐/Hesperus
+- Phosphor Crash Fix -> 燐/Hesperus
 
 * * *
 
