@@ -1,10 +1,29 @@
 name: Deploy modpack
+
+permissions:
+  contents: write
+  deployments: write
+
 on:
-  push:
-    tags:
-      - 'v*-release'
-      - 'v*-beta'
-      - 'v*-alpha'
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Modpack version'
+        required: true
+      release_type:
+        description: 'Release type'
+        type: choice
+        default: 'release'
+        options:
+          - 'release'
+          - 'beta'
+          - 'alpha'
+
+env:
+  # Version of the mod
+  FULL_VERSION: "v${{ github.event.inputs.version }}-${{ github.event.inputs.release_type }}"
+  # type of release
+  NAME: "GTExpert2"
 
 jobs:
   deploy:
@@ -13,18 +32,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Get the version
-        run: |
-          echo VERSION=$(echo ${GITHUB_REF} | sed -e 's#refs/tags/##g' | awk -F'-' '{print $1}') >> $GITHUB_ENV
-          echo LEVEL=$(echo ${GITHUB_REF} | sed -e 's#refs/tags/##g' | awk -F'-' '{print $2}') >> $GITHUB_ENV
-
       - name: Set the version
         run: |
-          MODPACKVERSION=${{ env.VERSION }}
-          echo "GregTech Expert 2 ${MODPACKVERSION}-${{ env.LEVEL }}" > ./overrides/resources/custommainmenu/version.txt
-          sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" ./manifest.json
-          sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" ./instance.cfg
-          sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" ./overrides/config/craftpresence.json
+          echo "GregTech Expert 2 ${{ env.FULL_VERSION }}" > ./overrides/resources/custommainmenu/version.txt
+          sed -i -e "s/MODPACKVERSION/v${{ github.event.inputs.version }}/g" ./manifest.json
+          sed -i -e "s/MODPACKVERSION/v${{ github.event.inputs.version }}/g" ./instance.cfg
+          sed -i -e "s/MODPACKVERSION/v${{ github.event.inputs.version }}/g" ./overrides/config/craftpresence.json
 
       - name: Download quest zip
         run: |
@@ -35,7 +48,7 @@ jobs:
 
       - name: Archive Release CF
         run: |
-          zip -r ./GTExpert2-${{ env.VERSION }}-${{ env.LEVEL }}-cf.zip ./manifest.json ./modlist.html ./manifest.json ./modlist.html ./overrides/bansoukou/ ./overrides/config/ ./overrides/local/ ./overrides/resourcepacks/icons/ ./overrides/resources/ ./overrides/scripts/
+          zip -r ./${{ env.NAME }}-${{ env.FULL_VERSION }}-cf.zip ./manifest.json ./modlist.html ./manifest.json ./modlist.html ./overrides/bansoukou/ ./overrides/config/ ./overrides/local/ ./overrides/resourcepacks/icons/ ./overrides/resources/ ./overrides/scripts/
 
       - name: Setup Python
         uses: actions/setup-python@v4
@@ -59,7 +72,7 @@ jobs:
           cp -vf ./icon.png .minecraft/
           rm -rf .minecraft/mods/.gitkeep
           rm -rf .minecraft/resourcepacks/.gitkeep
-          zip -r ./GTExpert2-${{ env.VERSION }}-${{ env.LEVEL }}-mmc.zip ./mmc-pack.json ./instance.cfg .minecraft/
+          zip -r ./${{ env.NAME }}-${{ env.FULL_VERSION }}-mmc.zip ./mmc-pack.json ./instance.cfg .minecraft/
 
       - name: Move Server Files
         run: |
@@ -68,7 +81,7 @@ jobs:
       - name: Archive Release Server
         run: |
           mv -vf .minecraft/* ./
-          zip -r ./GTExpert2-${{ env.VERSION }}-${{ env.LEVEL }}-server.zip ./docker-compose.yml ./PleaseRead.txt ./log4j2_112-116.xml ./Install.bat ./Install.sh ./ServerStart.bat ./ServerStart.sh ./settings.bat ./settings.sh ./TmuxServer.sh ./bansoukou/ ./config/ ./local/ ./mods/ ./resources/ ./scripts/
+          zip -r ./${{ env.NAME }}-${{ env.FULL_VERSION }}-server.zip ./docker-compose.yml ./PleaseRead.txt ./log4j2_112-116.xml ./Install.bat ./Install.sh ./ServerStart.bat ./ServerStart.sh ./settings.bat ./settings.sh ./TmuxServer.sh ./bansoukou/ ./config/ ./local/ ./mods/ ./resources/ ./scripts/
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v1
@@ -77,20 +90,20 @@ jobs:
           prerelease: false
           generate_release_notes: true
           files: |
-            ./GTExpert2-${{ env.VERSION }}-${{ env.LEVEL }}-cf.zip
-            ./GTExpert2-${{ env.VERSION }}-${{ env.LEVEL }}-mmc.zip
-            ./GTExpert2-${{ env.VERSION }}-${{ env.LEVEL }}-server.zip
+            ./${{ env.NAME }}-${{ env.FULL_VERSION }}-cf.zip
+            ./${{ env.NAME }}-${{ env.FULL_VERSION }}-mmc.zip
+            ./${{ env.NAME }}-${{ env.FULL_VERSION }}-server.zip
 
-      # - name: Upload Curseforge
-      #   uses: ./.github/actions/curseforge-modpack-upload
-      #   with: 
-      #     api-token: ${{ secrets.CF_API_TOKEN }}
-      #     project-id: '565238'
-      #     modpack-path: ./GTExpert2-${{ env.VERSION }}-${{ env.LEVEL }}-cf.zip
-      #     modpack-server-path: ./GTExpert2-${{ env.VERSION }}-${{ env.LEVEL }}-server.zip
-      #     changelog: 'Check the changes here. [Github - CHANGELOG.md](https://github.com/GTModpackTeam/gregtech-expert-2/blob/main/CHANGELOG_v2.md "")' 
-      #     changelog-format: markdown
-      #     game-version: '628' # 628 or 6756 (Accepted at either)
-      #     display-name: GTExpert2-${{ env.VERSION }}-${{ env.LEVEL }}
-      #     server-display-name: GTExpert2-${{ env.VERSION }}-${{ env.LEVEL }}-server
-      #     release-type: ${{ env.LEVEL }}
+      - name: Upload Curseforge
+        uses: henkelmax/upload-curseforge-modpack-action@v2.0.0
+        with: 
+          api-token: ${{ secrets.CF_API_TOKEN }}
+          project-id: '565238'
+          modpack-path: ./${{ env.NAME }}-${{ env.FULL_VERSION }}-cf.zip
+          modpack-server-path: ./${{ env.NAME }}-${{ env.FULL_VERSION }}-server.zip
+          changelog: 'Check the changes here. [Github - CHANGELOG.md](https://github.com/GTModpackTeam/gregtech-expert-2/blob/main/CHANGELOG_v2.md "")' 
+          changelog-format: markdown
+          game-version: '1.12.2'
+          display-name: ${{ env.NAME }}-${{ env.FULL_VERSION }}
+          server-display-name: ${{ env.NAME }}-${{ env.FULL_VERSION }}-server
+          release-type: ${{ github.event.inputs.release_type }}
