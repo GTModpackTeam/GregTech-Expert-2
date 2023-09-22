@@ -9,6 +9,7 @@
     "detectMultiMCManifest": false,
     "detectMCUpdaterInstance": false,
     "detectTechnicPack": false,
+    "detectModrinthPack": false,
     "detectBiomeData": true,
     "detectDimensionData": true,
     "detectWorldData": true,

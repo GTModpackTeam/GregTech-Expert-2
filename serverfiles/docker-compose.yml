@@ -8,7 +8,7 @@ services:
     ports:
       - 25565:25565
     environment:
-      JVM_OPTS: -Dfml.queryResult=confirm -XX:+UseContainerSupport -Dlog4j.configurationFile=log4j2_112-116.xml
+      JVM_OPTS: -XX:MaxMetaspaceSize=512M -Dfml.queryResult=confirm -XX:+UseContainerSupport -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap -Dterminal.jline=false -Dterminal.ansi=true -Dlog4j.configurationFile=log4j2_112-116.xml
       USE_AIKAR_FLAGS: true
       EULA: true
       TYPE: AUTO_CURSEFORGE
