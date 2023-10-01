@@ -1,3 +1,39 @@
+# v2.5.6
+## Modpack information
+- They no longer have a piece of paper with inventory contents at the time of death. This change eliminates the odd bug in plugin servers like CatServer and Magma.
+- The recipe for StorageDrawers has changed significantly. If you have automated their creation, please check.
+
+## Update mods
+- LoliASM
+- Modern Splash
+- Neeve's AE2: Extended Life Additions
+
+## Update recipes
+### StorageDrawers
+- Trim
+- Basic Drawer
+- Basic Drawer 1x2
+- Basic Drawer 2x2
+- Half Basic Drawer 1x2
+- Half Basic Drawer 2x2
+- Framing Table
+- Framed Trim
+- Framed Drawer
+- Framed Drawer 1x2
+- Framed Drawer 2x2
+- Framed Half Drawer 1x2
+- Framed Half Drawer 2x2
+- Controller
+- Compacting Drawer
+- Controller Slave
+- Upgrade Template
+
+## New recipes
+### StorageDrawers
+- Upgrade Template
+
+* * *
+
 # v2.5.5
 ## Modpack information
 - All blocks of Chisel are now supported by Auto Chisel.
