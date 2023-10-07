@@ -6,6 +6,9 @@
 ## Update mods
 - LoliASM
 - Modern Splash
+- CraftTweaker
+- Inventory Bogo Sorter
+- AE2 Unofficial Extended Life
 - Neeve's AE2: Extended Life Additions
 
 ## Update recipes
