@@ -559,16 +559,15 @@ recipes.addShaped(<appliedenergistics2:material:59>, [
 
 # Fluix Pearl
 recipes.remove(<appliedenergistics2:material:9>);
-recipes.addShaped(<appliedenergistics2:material:9>, [
-    [<ore:crystalFluix>, <metaitem:plateEnderPearl>, <ore:crystalFluix>],
-    [<metaitem:plateEnderPearl>, <minecraft:ender_pearl>, <metaitem:plateEnderPearl>],
-    [<ore:crystalFluix>, <metaitem:plateEnderPearl>, <ore:crystalFluix>]
-]);
-recipes.addShaped(<appliedenergistics2:material:9> * 2, [
-    [<ore:crystalPureFluix>, <metaitem:plateEnderPearl>, <ore:crystalPureFluix>],
-    [<metaitem:plateEnderPearl>, <minecraft:ender_pearl>, <metaitem:plateEnderPearl>],
-    [<ore:crystalPureFluix>, <metaitem:plateEnderPearl>, <ore:crystalPureFluix>]
-]);
+chemical_reactor.recipeBuilder()
+    .inputs([
+        <minecraft:ender_pearl>,
+        <metaitem:dustFluix>
+    ])
+    .outputs([<appliedenergistics2:material:9>])
+    .duration(20)
+    .EUt(480)
+    .buildAndRegister();
 
 # Wireless Receiver
 recipes.remove(<appliedenergistics2:material:41>);

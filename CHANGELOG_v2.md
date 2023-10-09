@@ -3,15 +3,22 @@
 - They no longer have a piece of paper with inventory contents at the time of death. This change eliminates the odd bug in plugin servers like CatServer and Magma.
 - The recipe for StorageDrawers has changed significantly. If you have automated their creation, please check.
 
+## New mod
+- Wireless Redstone CBE
+
 ## Update mods
 - LoliASM
 - Modern Splash
 - CraftTweaker
+- ModularUI
 - Inventory Bogo Sorter
 - AE2 Unofficial Extended Life
 - Neeve's AE2: Extended Life Additions
 
 ## Update recipes
+### AE2 Unofficial Extended Life
+- Fluix Pearl
+
 ### StorageDrawers
 - Trim
 - Basic Drawer
