@@ -1,0 +1,8 @@
+{
+    "url": "https://github.com/GTModpackTeam/GregTech/releases/download/2.7.3-beta-7b9eaba/gregtech-1.12.2-2.7.3-beta-7b9eaba.jar",
+    "fileName": "gregtech-1.12.2-2.7.3-beta.jar",
+	"installationPolicy":
+	{
+		"downloadAlways": true
+	}
+}
