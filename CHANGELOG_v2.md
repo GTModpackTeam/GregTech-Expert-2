@@ -25,6 +25,9 @@
 - UntranslatedItems: AlsoFluids
 - GTExpert2 Core Mod
 
+## Move mods
+- Resource Loader -> TX Loader
+
 ## Update recipes
 ### AE2 Unofficial Extended Life
 - Fluix Pearl
