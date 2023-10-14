@@ -365,7 +365,7 @@ assembler.recipeBuilder()
 # Controller
 recipes.remove(<storagedrawers:controller>);
 recipes.remove(<framedcompactdrawers:framed_drawer_controller>);
-recipes.addShapeless(<framedcompactdrawers:framed_drawer_controller>, []);
+recipes.addShapeless(<framedcompactdrawers:framed_drawer_controller>, [<storagedrawers:controller>]);
 recipes.addShapeless(<storagedrawers:controller>, [<framedcompactdrawers:framed_drawer_controller>]);
 recipes.addShaped(<storagedrawers:controller>, [
     [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
@@ -494,26 +494,11 @@ recipes.addShaped(<storagedrawers:upgrade_storage:1>, [
 # Storage Upgrade MK3
 recipes.addShaped(<storagedrawers:upgrade_storage:2>, [
     [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
-    [<minecraft:gold_ingot>, <storagedrawers:upgrade_storage:0>, <minecraft:gold_ingot>],
-    [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>]
-]);
-recipes.addShaped(<storagedrawers:upgrade_storage:2>, [
-    [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
     [<minecraft:gold_ingot>, <storagedrawers:upgrade_storage:1>, <minecraft:gold_ingot>],
     [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>]
 ]);
 
 # Storage Upgrade MK4
-recipes.addShaped(<storagedrawers:upgrade_storage:3>, [
-    [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
-    [<ore:gemDiamond>, <storagedrawers:upgrade_template>, <ore:gemDiamond>],
-    [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>]
-]);
-recipes.addShaped(<storagedrawers:upgrade_storage:3>, [
-    [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
-    [<ore:gemDiamond>, <storagedrawers:upgrade_storage:0>, <ore:gemDiamond>],
-    [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>]
-]);
 recipes.addShaped(<storagedrawers:upgrade_storage:3>, [
     [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
     [<ore:gemDiamond>, <storagedrawers:upgrade_storage:1>, <ore:gemDiamond>],
@@ -526,16 +511,6 @@ recipes.addShaped(<storagedrawers:upgrade_storage:3>, [
 ]);
 
 # Storage Upgrade MK5
-recipes.addShaped(<storagedrawers:upgrade_storage:4>, [
-    [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
-    [<ore:gemEmerald>, <storagedrawers:upgrade_template>, <ore:gemEmerald>],
-    [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>]
-]);
-recipes.addShaped(<storagedrawers:upgrade_storage:4>, [
-    [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
-    [<ore:gemEmerald>, <storagedrawers:upgrade_storage:0>, <ore:gemEmerald>],
-    [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>]
-]);
 recipes.addShaped(<storagedrawers:upgrade_storage:4>, [
     [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
     [<ore:gemEmerald>, <storagedrawers:upgrade_storage:1>, <ore:gemEmerald>],
