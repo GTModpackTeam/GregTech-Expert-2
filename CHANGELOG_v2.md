@@ -4,8 +4,6 @@
 - The recipe for StorageDrawers has changed significantly. If you have automated their creation, please check.
 
 ### To update an existing profile without creating a new profile.
-- This update will preempt the CEu changes, so the following actions are required.
-    - [Please check this link for more information.](https://github.com/GTModpackTeam/GregTech/releases/tag/2.7.3-beta-7b9eaba)
 1. Check the mods folder and delete `gregtech-1.12.2-2.7.3-beta.disabled` and `gregtech-1.12.2-2.7.3-beta-patched.jar`.
 2. Finally, check the `bansoukou/gregtech-1.12.2-2.7.3-beta` and make sure there are no files inside.
 - In case you are wondering, ModPack recommends [MultiMC](https://multimc.org/) or [Prism Launcher](https://prismlauncher.org/).
@@ -14,6 +12,8 @@
 - Wireless Redstone CBE
 
 ## Update mods
+- GregTech CE: Unofficial
+- GTExpert2 Core Mod
 - LoliASM
 - Modern Splash
 - CraftTweaker
@@ -23,7 +23,6 @@
 - Neeve's AE2: Extended Life Additions
 - EZStorage 2 Patch
 - UntranslatedItems: AlsoFluids
-- GTExpert2 Core Mod
 
 ## Move mods
 - Resource Loader -> TX Loader
