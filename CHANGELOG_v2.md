@@ -13,6 +13,7 @@
 
 ## Update mods
 - GregTech CE: Unofficial
+- GregTech Food Option
 - GTExpert2 Core Mod
 - LoliASM
 - Modern Splash
@@ -20,9 +21,11 @@
 - ModularUI
 - Inventory Bogo Sorter
 - AE2 Unofficial Extended Life
+- AE2 Fluid Crafting Rework
 - Neeve's AE2: Extended Life Additions
 - EZStorage 2 Patch
 - UntranslatedItems: AlsoFluids
+- VintageFix
 
 ## Move mods
 - Resource Loader -> TX Loader
