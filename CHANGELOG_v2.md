@@ -22,6 +22,7 @@
 - Inventory Bogo Sorter
 - AE2 Unofficial Extended Life
 - AE2 Fluid Crafting Rework
+- Enhanced P2P
 - Neeve's AE2: Extended Life Additions
 - EZStorage 2 Patch
 - UntranslatedItems: AlsoFluids
