@@ -53,7 +53,6 @@ for i, flask in flasks {
         .buildAndRegister();
 }
 <ore:craftFlask>.addTooltip(format.red("VolumetricFlask is out of support, please move AE2 Fluid Crafting Rework!!"));
-JEI.addDescription(<ore:craftFlask>, "VolumetricFlask is out of support, please move AE2 Fluid Crafting Rework!!");
 
 
 
@@ -94,9 +93,7 @@ packer.recipeBuilder()
     .EUt(7)
     .buildAndRegister();
 <volumetricflask:part_o_interface>.addTooltip(format.red("VolumetricFlask is out of support, please move AE2 Fluid Crafting Rework!!"));
-JEI.addDescription(<volumetricflask:part_o_interface>, "VolumetricFlask is out of support, please move AE2 Fluid Crafting Rework!!");
 <volumetricflask:o_interface>.addTooltip(format.red("VolumetricFlask is out of support, please move AE2 Fluid Crafting Rework!!"));
-JEI.addDescription(<volumetricflask:o_interface>, "VolumetricFlask is out of support, please move AE2 Fluid Crafting Rework!!");
 
 # Buffer
 recipes.remove(<volumetricflask:buffer>);
@@ -112,7 +109,6 @@ packer.recipeBuilder()
     .EUt(7)
     .buildAndRegister();
 <volumetricflask:buffer>.addTooltip(format.red("VolumetricFlask is out of support, please move AE2 Fluid Crafting Rework!!"));
-JEI.addDescription(<volumetricflask:buffer>, "VolumetricFlask is out of support, please move AE2 Fluid Crafting Rework!!");
 
 # Filler
 recipes.remove(<volumetricflask:filler>);
@@ -135,4 +131,3 @@ packer.recipeBuilder()
     .EUt(7)
     .buildAndRegister();
 <volumetricflask:filler>.addTooltip(format.red("VolumetricFlask is out of support, please move AE2 Fluid Crafting Rework!!"));
-JEI.addDescription(<volumetricflask:filler>, "VolumetricFlask is out of support, please move AE2 Fluid Crafting Rework!!");

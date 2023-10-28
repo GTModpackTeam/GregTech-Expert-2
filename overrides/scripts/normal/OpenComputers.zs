@@ -2,7 +2,7 @@
 import crafttweaker.mods.IMod;
 import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
-import mods.zenutils.I18n;
+import mods.gtexpert.I18n;
 
 val oc as IMod = loadedMods["opencomputers"];
 if (!isNull(oc)) {

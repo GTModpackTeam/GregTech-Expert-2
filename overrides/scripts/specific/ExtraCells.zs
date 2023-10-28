@@ -11,7 +11,6 @@ if (!isNull(ec2)) {
     for item in ec2Items {
         recipes.remove(item);
         item.addTooltip(format.red("ExtraCells is out of support, please migration AE Additions!!"));
-        JEI.addDescription(item, "ExtraCells is out of support, please migration AE Additions!!");
     }
 }
 

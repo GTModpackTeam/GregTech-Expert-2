@@ -30,6 +30,7 @@
 
 ## Move mods
 - Resource Loader -> TX Loader
+- Zen Utils -> GTExpert2 Core Mod
 
 ## Update recipes
 ### AE2 Unofficial Extended Life
