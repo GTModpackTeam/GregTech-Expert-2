@@ -1,6 +1,6 @@
 # Imports
 import mods.jei.JEI;
-import mods.zenutils.I18n;
+import mods.gtexpert.I18n;
 
 
 

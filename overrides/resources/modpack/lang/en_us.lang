@@ -1,8 +1,5 @@
 # Ender IO
-modpack.enderio.tank.tooltip.1=Exists only for recipe confirmation from liquid bucket. It cannot be created.
-
-# GregTech
-material.naquadah_rocket_fuel=Naquadah Rocket Fuel
+modpack.enderio.tank.tooltip.1=Exists only for recipe confirmation from liquid bucket. EIO tanks cannot be created.
 
 # AE2
 modpack.ae2.bus_item.tooltip.1=Lag device. Use interface.
@@ -13,6 +10,8 @@ modpack.ae2.p2p_gtceu.tooltip.1=Made by right-clicking ME P2P Tunnel with a Greg
 modpack.ae2.p2p_chest.tooltip.1=Made by right-clicking ME P2P Tunnel with a chest.
 modpack.ae2.p2p_torch.tooltip.1=Made by right-clicking ME P2P Tunnel with a torch.
 modpack.ae2.p2p_redstone.tooltip.1=Made by right-clicking ME P2P Tunnel with redstone dust.
+modpack.ae2.p2p_me.tooltip.1=Made by right-clicking ME P2P Tunnel with an ME cable.
+modpack.nae2.p2p_interface.tooltip.1=Made by right-clicking ME P2P Tunnel with an interface.
 modpack.aeadditions.fluid_pattern.tooltip.1=AE2 Fluid Crafting recommended for fluid management.
 
 # Minecraft

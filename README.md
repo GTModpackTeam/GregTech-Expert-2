@@ -1,8 +1,8 @@
-<p align="center"><img src="https://github.com/GTModpackTeam/gregtech-expert-2/blob/develop/overrides/resources/custommainmenu/textures/logo.png" alt="Logo" width="256" height="256"></p>
+<p align="center"><img src="https://github.com/GTModpackTeam/gregtech-expert-2/blob/main/overrides/resources/custommainmenu/textures/logo.png" alt="Logo" width="256" height="256"></p>
 <h1 align="center">GregTech Expert 2</h1>
 <h1 align="center">
     <a href="https://www.curseforge.com/minecraft/modpacks/gregtech-expert-2"><img src="https://img.shields.io/badge/Available%20for-MC%201.12.2%20-informational?style=for-the-badge" alt="Supported Versions"></a>
-    <a href="https://github.com/GTModpackTeam/gregtech-expert-2/blob/develop/LICENSE"><img src="https://img.shields.io/github/license/GTModpackTeam/gregtech-expert-2?style=for-the-badge" alt="License"></a>
+    <a href="https://github.com/GTModpackTeam/gregtech-expert-2/blob/main/LICENSE"><img src="https://img.shields.io/github/license/GTModpackTeam/gregtech-expert-2?style=for-the-badge" alt="License"></a>
     <a href="https://discord.gg/xBwHpZyZdW"><img src="https://img.shields.io/discord/945647524855812176?color=5464ec&label=Discord&style=for-the-badge" alt="Discord"></a>
     <a href="https://www.curseforge.com/minecraft/modpacks/gregtech-expert-2"><img src="https://cf.way2muchnoise.eu/565238.svg?badge_style=for_the_badge" alt="CurseForge"></a>
     <a href="https://www.curseforge.com/minecraft/modpacks/gregtech-expert-2/releases"><img src="https://img.shields.io/github/downloads/GTModpackTeam/gregtech-expert-2/total?sort=semver&logo=github&label=&style=for-the-badge&color=2d2d2d&labelColor=545454&logoColor=FFFFFF" alt="GitHub"></a>
@@ -51,15 +51,7 @@
         - If you want to add support for other mods, please contact us on Discord. In some cases, we will formally implement it.
 
 
-## Bansoukou
-
-- This pack uses three bansoukou patches. The first is [Draconic Additions](https://github.com/FoxMcloud5655/Draconic-Additions/tree/1.12.2), and the third is [EZ Storage](https://github.com/zerofall/EZStorage2).
-    - [Draconic Additions](https://github.com/GTModpackTeam/Draconic-Additions): Since the recipe cannot be deleted, it was removed directly from the source.
-    - [Draconic Evolution](https://github.com/Nomi-CEu/Draconic-Evolution): This adds the destruct core button, and allows GT blocks in place of DE blocks, in the Energy Core and Reactor.
-    - [EZ Storage](https://github.com/zerofall/EZStorage2/pull/69): Captured PR that was up.
-
-
 ## Credits
 
 - Many Japanese Quests are also translated from the [GregTech-Community-Pack](https://github.com/GregTechCEu/GregTech-Community-Pack).
-- The idea of Saw Mill and some other recipes are from [IMPACT: GREGTECH EDITION](https://gtimpact.space/)
+- The idea of Saw Mill and some other recipes are from [IMPACT: GREGTECH EDITION](https://gt-impact.github.io/)

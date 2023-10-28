@@ -2,28 +2,19 @@
 import crafttweaker.mods.IMod;
 import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
-import mods.zenutils.I18n;
+import mods.gtexpert.I18n;
 
 JEI.hideCategory("appliedenergistics2.grinder");
 JEI.hideCategory("appliedenergistics2.inscriber");
 
 <appliedenergistics2:part:469>.addTooltip(format.green(I18n.format("modpack.ae2.p2p_conduit.tooltip.1")));
-JEI.addDescription(<appliedenergistics2:part:469>, I18n.format("modpack.ae2.p2p_conduit.tooltip.1"));
-
 <appliedenergistics2:part:463>.addTooltip(format.green(I18n.format("modpack.ae2.p2p_bucket.tooltip.1")));
-JEI.addDescription(<appliedenergistics2:part:463>, I18n.format("modpack.ae2.p2p_bucket.tooltip.1"));
-
 <appliedenergistics2:part:470>.addTooltip(format.green(I18n.format("modpack.ae2.p2p_gtceu.tooltip.1")));
-JEI.addDescription(<appliedenergistics2:part:470>, I18n.format("modpack.ae2.p2p_gtceu.tooltip.1"));
-
 <appliedenergistics2:part:462>.addTooltip(format.green(I18n.format("modpack.ae2.p2p_chest.tooltip.1")));
-JEI.addDescription(<appliedenergistics2:part:462>, I18n.format("modpack.ae2.p2p_chest.tooltip.1"));
-
 <appliedenergistics2:part:467>.addTooltip(format.green(I18n.format("modpack.ae2.p2p_torch.tooltip.1")));
-JEI.addDescription(<appliedenergistics2:part:467>, I18n.format("modpack.ae2.p2p_torch.tooltip.1"));
-
 <appliedenergistics2:part:461>.addTooltip(format.green(I18n.format("modpack.ae2.p2p_redstone.tooltip.1")));
-JEI.addDescription(<appliedenergistics2:part:461>, I18n.format("modpack.ae2.p2p_redstone.tooltip.1"));
+<appliedenergistics2:part:460>.addTooltip(format.green(I18n.format("modpack.ae2.p2p_me.tooltip.1")));
+<nae2:part:1>.addTooltip(format.green(I18n.format("modpack.nae2.p2p_interface.tooltip.1")));
 
 val ae2 as IMod = loadedMods["appliedenergistics2"];
 if (!isNull(ae2)) {
@@ -559,16 +550,15 @@ recipes.addShaped(<appliedenergistics2:material:59>, [
 
 # Fluix Pearl
 recipes.remove(<appliedenergistics2:material:9>);
-recipes.addShaped(<appliedenergistics2:material:9>, [
-    [<ore:crystalFluix>, <metaitem:plateEnderPearl>, <ore:crystalFluix>],
-    [<metaitem:plateEnderPearl>, <minecraft:ender_pearl>, <metaitem:plateEnderPearl>],
-    [<ore:crystalFluix>, <metaitem:plateEnderPearl>, <ore:crystalFluix>]
-]);
-recipes.addShaped(<appliedenergistics2:material:9> * 2, [
-    [<ore:crystalPureFluix>, <metaitem:plateEnderPearl>, <ore:crystalPureFluix>],
-    [<metaitem:plateEnderPearl>, <minecraft:ender_pearl>, <metaitem:plateEnderPearl>],
-    [<ore:crystalPureFluix>, <metaitem:plateEnderPearl>, <ore:crystalPureFluix>]
-]);
+chemical_reactor.recipeBuilder()
+    .inputs([
+        <minecraft:ender_pearl>,
+        <metaitem:dustFluix>
+    ])
+    .outputs([<appliedenergistics2:material:9>])
+    .duration(20)
+    .EUt(480)
+    .buildAndRegister();
 
 # Wireless Receiver
 recipes.remove(<appliedenergistics2:material:41>);
@@ -1777,20 +1767,16 @@ recipes.addShapeless(<appliedenergistics2:part:100>, [<appliedenergistics2:part:
 
 # ME Import Bus
 recipes.remove(<appliedenergistics2:part:240>);
-JEI.addDescription(<appliedenergistics2:part:240>, I18n.format("modpack.ae2.bus_item.tooltip.1"));
 <appliedenergistics2:part:240>.addTooltip(format.green(I18n.format("modpack.ae2.bus_item.tooltip.1")));
 
 # ME Fluid Import Bus
 recipes.remove(<appliedenergistics2:part:241>);
-JEI.addDescription(<appliedenergistics2:part:241>, I18n.format("modpack.ae2.bus_fluid.tooltip.1"));
 <appliedenergistics2:part:241>.addTooltip(format.green(I18n.format("modpack.ae2.bus_fluid.tooltip.1")));
 
 # ME Export Bus
 recipes.remove(<appliedenergistics2:part:260>);
-JEI.addDescription(<appliedenergistics2:part:260>, I18n.format("modpack.ae2.bus_item.tooltip.1"));
 <appliedenergistics2:part:260>.addTooltip(format.green(I18n.format("modpack.ae2.bus_item.tooltip.1")));
 
 # ME Fluid Export Bus
 recipes.remove(<appliedenergistics2:part:261>);
-JEI.addDescription(<appliedenergistics2:part:261>, I18n.format("modpack.ae2.bus_fluid.tooltip.1"));
 <appliedenergistics2:part:261>.addTooltip(format.green(I18n.format("modpack.ae2.bus_fluid.tooltip.1")));
