@@ -1,3 +1,18 @@
+# v2.5.7
+## Update mods
+- AE2 Fluid Crafting Rework
+- Neeve's AE2: Extended Life Additions
+- GTExpert2 Core Mod
+
+## New recipes
+### AE2 Unofficial Extended Life
+- Craft of interface with NBT
+
+### AE2 Fluid Crafting Rework
+- Craft of interface with NBT
+
+* * *
+
 # v2.5.6
 ## Modpack information
 - They no longer have a piece of paper with inventory contents at the time of death. This change eliminates the odd bug in plugin servers like CatServer and Magma.
