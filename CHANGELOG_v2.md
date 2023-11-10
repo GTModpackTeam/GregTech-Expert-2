@@ -1,5 +1,7 @@
-# v2.5.7
+# v2.6.0
 ## Update mods
+- CraftPresence
+- AE2 Unofficial Extended Life
 - AE2 Fluid Crafting Rework
 - Neeve's AE2: Extended Life Additions
 - GTExpert2 Core Mod
