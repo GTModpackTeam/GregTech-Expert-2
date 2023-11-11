@@ -1,4 +1,3 @@
-#modloaded ae2stuff
 # Imports
 import mods.jei.JEI;
 

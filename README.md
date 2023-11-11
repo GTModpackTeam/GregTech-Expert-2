@@ -37,8 +37,6 @@
     - [Compact Machines](https://www.curseforge.com/minecraft/mc-mods/compact-machines)
         - For those who want to build a minimalist factory.
         - I think practicality starts with EV...?
-    - [AE2Sutff](https://www.curseforge.com/minecraft/mc-mods/ae2-stuff)
-        - You want to make AE wireless?
     - [Flux Networks](https://www.curseforge.com/minecraft/mc-mods/flux-networks)
         - You want to make RF wireless?
     - [ME Capability Adapter](https://www.curseforge.com/minecraft/mc-mods/capability-adapter)

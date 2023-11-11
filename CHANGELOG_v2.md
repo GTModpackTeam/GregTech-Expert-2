@@ -1,10 +1,16 @@
-# v2.6.0
+# v2.5.7
 ## Update mods
 - CraftPresence
 - AE2 Unofficial Extended Life
 - AE2 Fluid Crafting Rework
 - Neeve's AE2: Extended Life Additions
+- MixinBooter
+- ModularUI
+- Inventory Bogo Sorter
 - GTExpert2 Core Mod
+
+## Formally introduced from compatibility mods
+- AE2 Stuff
 
 ## New recipes
 ### AE2 Unofficial Extended Life
