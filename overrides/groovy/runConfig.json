@@ -1,7 +1,7 @@
 {
-  "packName": "GroovyScript",
+  "packName": "GregTech Expert 2",
   "packId": "gte2",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "debug": false,
   "classes": {
     "preInit": []
