@@ -1,3 +1,97 @@
+# v2.5.6
+## Modpack information
+- They no longer have a piece of paper with inventory contents at the time of death. This change eliminates the odd bug in plugin servers like CatServer and Magma.
+- The recipe for StorageDrawers has changed significantly. If you have automated their creation, please check.
+
+### To update an existing profile without creating a new profile.
+1. Check the mods folder and delete `gregtech-1.12.2-2.7.3-beta.disabled` and `gregtech-1.12.2-2.7.3-beta-patched.jar`.
+2. Finally, check the `bansoukou/gregtech-1.12.2-2.7.3-beta` and make sure there are no files inside.
+- In case you are wondering, ModPack recommends [MultiMC](https://multimc.org/) or [Prism Launcher](https://prismlauncher.org/).
+
+## New mod
+- Wireless Redstone CBE
+
+## Update mods
+- GregTech CE: Unofficial
+- GregTech Food Option
+- GTExpert2 Core Mod
+- LoliASM
+- Modern Splash
+- CraftTweaker
+- ModularUI
+- Inventory Bogo Sorter
+- AE2 Unofficial Extended Life
+- AE2 Fluid Crafting Rework
+- Enhanced P2P
+- Neeve's AE2: Extended Life Additions
+- EZStorage 2 Patch
+- UntranslatedItems: AlsoFluids
+- VintageFix
+
+## Move mods
+- Resource Loader -> TX Loader
+- Zen Utils -> GTExpert2 Core Mod
+
+## Update recipes
+### AE2 Unofficial Extended Life
+- Fluix Pearl
+
+### StorageDrawers
+- Trim
+- Basic Drawer
+- Basic Drawer 1x2
+- Basic Drawer 2x2
+- Half Basic Drawer 1x2
+- Half Basic Drawer 2x2
+- Framing Table
+- Framed Trim
+- Framed Drawer
+- Framed Drawer 1x2
+- Framed Drawer 2x2
+- Framed Half Drawer 1x2
+- Framed Half Drawer 2x2
+- Controller
+- Compacting Drawer
+- Controller Slave
+- Upgrade Template
+
+## New recipes
+### StorageDrawers
+- Upgrade Template
+
+* * *
+
+# v2.5.5
+## Modpack information
+- All blocks of Chisel are now supported by Auto Chisel.
+    - Thanks to @MrKono for his support!!
+
+## Update mods
+- CraftPresence
+- ModularUI
+- Inventory Bogo Sorter
+- CraftTweaker
+- Zen Utils
+- GTExpert2 Core Mod
+- BisectHosting Server Integration Menu
+- LoliASM
+- MixinBooter
+
+## Add mod
+- RenderLib
+- Nothirium
+- Entity Culling
+
+## Remove mods
+- Spark Unforged
+
+## Move mods
+- The One Probe -> The One Probe Community Edition
+- Phosphor -> 燐/Hesperus
+- Phosphor Crash Fix -> 燐/Hesperus
+
+* * *
+
 # v2.5.4
 # Update mods
 - AE2 Unofficial Extended Life

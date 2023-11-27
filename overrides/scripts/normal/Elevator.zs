@@ -1,6 +1,6 @@
 # Imports
 import crafttweaker.item.IItemStack;
-import mods.zenutils.I18n;
+import mods.gtexpert.I18n;
 
 
 

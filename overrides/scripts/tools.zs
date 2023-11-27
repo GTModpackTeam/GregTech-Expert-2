@@ -1,7 +1,7 @@
 # Imports
 import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
-import mods.zenutils.I18n;
+import mods.gtexpert.I18n;
 
 
 
@@ -28,7 +28,6 @@ var minecraft as IItemStack[] = [
 for tool in minecraft {
     tool.maxDamage = 1;
     tool.addTooltip(format.red(I18n.format("modpack.minecraft.tools.tooltip.1")));
-    JEI.addDescription(tool, I18n.format("modpack.minecraft.tools.tooltip.1"));
 }
 
 

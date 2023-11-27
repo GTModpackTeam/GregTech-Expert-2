@@ -1,6 +1,6 @@
 # Imports
 import mods.jei.JEI;
-import mods.zenutils.I18n;
+import mods.gtexpert.I18n;
 
 
 
@@ -342,7 +342,6 @@ recipes.addShaped(<enderio:block_wireless_charger_extension>, [
 
 # Fluid Tanks
 recipes.remove(<enderio:block_tank:*>);
-JEI.addDescription(<enderio:block_tank:*>, I18n.format("modpack.enderio.tank.tooltip.1"));
 <enderio:block_tank:*>.addTooltip(format.green(I18n.format("modpack.enderio.tank.tooltip.1")));
 
 # Dimensional Transceiver

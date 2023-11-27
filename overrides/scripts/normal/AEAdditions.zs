@@ -2,7 +2,7 @@
 import mods.jei.JEI;
 import crafttweaker.mods.IMod;
 import crafttweaker.item.IItemStack;
-import mods.zenutils.I18n;
+import mods.gtexpert.I18n;
 
 val ec as IMod = loadedMods["aeadditions"];
 if (!isNull(ec)) {
@@ -27,7 +27,6 @@ recipes.addShaped(<aeadditions:pattern.fluid>, [
     [<metaitem:plateStainlessSteel>, <appliedenergistics2:quartz_glass>, <metaitem:plateStainlessSteel>],
     [<ore:craftingToolScrewdriver>, <metaitem:plateStainlessSteel>, <metaitem:screwStainlessSteel>]
 ]);
-JEI.addDescription(<aeadditions:pattern.fluid>, I18n.format("modpack.aeadditions.fluid_pattern.tooltip.1"));
 <aeadditions:pattern.fluid>.addTooltip(format.green(I18n.format("modpack.aeadditions.fluid_pattern.tooltip.1")));
 
 # Wireless Universal Terminal
@@ -296,7 +295,6 @@ JEI.removeAndHide(<aeadditions:part.base:2>);
 
 # ME Ore Dictionary Export Bus
 JEI.removeAndHide(<aeadditions:part.base:3>);
-JEI.addDescription(<aeadditions:part.base:3>, "Lag device. Use OreDict Storage bus.");
 <aeadditions:part.base:3>.addTooltip(format.green("Lag device. Use OreDict Storage bus."));
 
 # Fluid Filler

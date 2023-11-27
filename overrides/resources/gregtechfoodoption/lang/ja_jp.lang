@@ -1,7 +1,7 @@
 # Japanese translate by MrKo_no
 # 翻訳担当 : MrKo_no
-# Corresponding Version: 1.9.4
-# 対応バージョン: 1.9.4
+# Corresponding Version: 1.10.0.2
+# 対応バージョン: 1.10.0.2
 
 metaitem.phycomyces.culture.name=ヒゲカビ菌床
 metaitem.component.corn.ear.name=トウモロコシ
@@ -678,7 +678,7 @@ gregtechfoodoption.recipe.accepted_mobs_on_top=上面に%sが必要
 metaitem.seed.onion.name=タマネギの種
 metaitem.component.soybean.name=大豆
 metaitem.seed.unknown.name=未解析のGTFOの種
-metaitem.seed.unknown.tooltip=§6クラフト§rで種を得られる/n§cGTFOの種は植えた後に回収できない
+metaitem.seed.unknown.tooltip=§2草§rを破壊することで入手できる/n§6クラフトであなたが望むGTFO作物の種を入手できる。/n§cGTFOの種は植えた後に回収できない
 metaitem.seed.soy.name=大豆の種
 metaitem.seed.tomato.name=トマトの種
 metaitem.seed.grape.name=ブドウの種
@@ -697,7 +697,7 @@ gregtechfoodoption.machine.farmer.mv.name=発展型農作機
 gregtechfoodoption.machine.farmer.hv.name=発展型農作機 II
 gregtechfoodoption.machine.farmer.ev.name=発展型農作機 III
 gregtechfoodoption.machine.farmer.tooltip.flavor=農業用のレーザー技術を導入
-gregtechfoodoption.machine.farmer.tooltip.consumption=動作中は%,d EU/t消費
+gregtechfoodoption.machine.farmer.tooltip.consumption=動作中は動作ごとに%,d EU/t消費
 gregtechfoodoption.machine.farmer.tooltip.working=動作範囲は正面9x9
 gregtechfoodoption.machine.farmer.tooltip.speed=%d Ticksごとに1ブロック動作
 
@@ -819,7 +819,7 @@ gregtech.material.gtfo_sodium_arsenite_solution=亜ヒ酸ナトリウム溶液
 metaitem.arsenic_trioxide_dust.name=三酸化ヒ素
 metaitem.cupric_hydrogen_arsenite_dust.name=シェーレグリーン
 tile.transparent_casing.greenhouse_glass.name=温室用ガラス
-gregtech.multiblock.not_enough_sun=警告: 屋根に十分な自然光が当たっていません。
+gregtech.multiblock.not_enough_sun=屋根に十分な自然光が当たっていないため、所要時間が2倍になります。
 
 gregtechfoodoption.machine.greenhouse.tooltip.1=内部で植林をシミュレートする。
 gregtechfoodoption.machine.greenhouse.tooltip.2=夜間または屋根の一部が塞がれている場合、動作時間が2倍になる。
@@ -859,7 +859,7 @@ gregtech.material.gtfo_hydrogen_cyanide=シアン化水素
 
 gregtechfoodoption.fluid.fertilizer=§2スプリンクラーに用いると%d%%効率的
 metaitem.cover.sprinkler.name=スプリンクラー
-metaitem.cover.sprinkler.tooltip=§4下向き§7のカバーであり、液体を9x9内の作物に散布します。(地面まで§63ブロックの空間§7を空ける)
+metaitem.cover.sprinkler.tooltip=§4下向き§7のカバーであり、液体を9x9内の作物に散布します。/n地面まで§63ブロックの空間§7が必要です。/nソフトマレットで右クリックすると、パーティクルがOFFになります。
 gregtech.material.gtfo_blue_vitriol=硫酸銅(II)
 gregtech.material.gtfo_rubber_sap=ゴムの樹液
 gregtech.material.gtfo_blood=血液
@@ -1097,3 +1097,54 @@ gregtechfoodoption.lacing.info.2=が%s ticks持続する
 gregtechfoodoption.potion.cyanidepoisoning=青酸中毒
 gregtechfoodoption.potion.antischizo=抗統合失調症
 eating.output.name=返却されるもの
+
+metaitem.component.pelmeni_uncooked.name=未調理のペリメニ
+metaitem.component.pelmeni_uncooked_seasoned.name=未調理の味付けしたペリメニ
+metaitem.food.pelmeni.name=ペリメニ
+metaitem.food.pelmeni.tooltip=PelmeniCraftより良い
+metaitem.food.pelmeni_seasoned.name=味付けしたペリメニ
+metaitem.food.pelmeni_seasoned.tooltip=サワークリームを添えて
+gregtech.material.gtfo_sour_cream=サワークリーム
+gregtech.material.gtfo_lactic_acid_bacteria=乳酸菌
+
+gregtechfoodoption.sprinkler.particles.on=スプリンクラーのパーティクルを表示
+gregtechfoodoption.sprinkler.particles.off=スプリンクラーのパーティクルを非表示
+
+gt.tool.class.rolling_pin=麺棒
+
+metaitem.food.etirps_cranberry.tooltip=エティルプス・クランベリーが欲しいかい?
+metaitem.food.berry_medley.tooltip=レミーならどう作っただろう
+metaitem.food.berry.blueberry.name=ブルーベリー
+metaitem.food.berry.blueberry.tooltip=そのうちのひとつにカラカルの顔が見える
+metaitem.food.berry.blackberry.name=ブラックベリー
+metaitem.food.berry.blackberry.tooltip=携帯食べたい?
+metaitem.food.berry.raspberry.name=ラズベリー
+metaitem.food.berry.raspberry.tooltip=無声舌唇トリルとして知られている
+metaitem.food.berry.strawberry.name=イチゴ
+metaitem.food.berry.strawberry.tooltip=麦わら製
+metaitem.food.berry.red_currant.name=レッドカラント
+metaitem.food.berry.white_currant.name=ホワイトカラント
+metaitem.food.berry.black_currant.name=ブラックカラント
+metaitem.food.berry.lingonberry.name=コケモモ
+metaitem.food.berry.lingonberry.tooltip=このアイテムはIKEAの提供でお送りいたします。
+metaitem.food.berry.elderberry.name=ニワトコの実
+metaitem.food.berry.elderberry.tooltip=儒教徒向け
+metaitem.food.berry.huckleberry.name=ハックルベリー
+metaitem.food.berry.cranberry.name=クランベリー
+metaitem.food.berry.cranberry.tooltip=クリスマス祝いのお酒の味
+metaitem.food.etirps_cranberry.name=エティルプス・クランベリー
+metaitem.food.berry_medley.name=ベリーメドレー
+gregtech.material.gtfo_lingonberry_jam=コケモモのジャム
+gregtech.material.gtfo_elderberry_jam=ニワトコのジャム
+gregtech.material.gtfo_cranberry_extract=クランベリー抽出物
+gregtech.material.gtfo_etirps_cranberry=エティルプス・クランベリー
+gregtech.material.gtfo_cranberry_sludge=濃縮したクランベリー抽出物
+gregtech.material.gtfo_cranberry_soda_syrup=クランベリーソーダシロップ
+
+
+gregtechfoodoption.berry.description.0=§4成長が非常に遅い!
+gregtechfoodoption.berry.description.1=§b高ティアほど成長が早い
+gregtechfoodoption.berry.description.2=ティア上昇させるためには、前のティアのベリーの茂みを§53つ§r、ティアを上昇させたい茂みを中心とした3x3の範囲内に配置する。
+gregtechfoodoption.berry.description.3=§4茂みを中心とした3x3は、最低1つは空気ブロックでなければならない!
+
+gregtechfoodoption.blocked=周囲をブロックで囲まれているため、%sにはベリーの茂みを設置できません!

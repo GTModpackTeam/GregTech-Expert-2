@@ -16,3 +16,5 @@
 !/overrides/config/smoothfont/smoothfont.cfg
 /overrides/config/brandon3055/ProjectIntelligence/*
 /overrides/config/gregtech/terminal/guide/*
+/overrides/config/enderio/recipes/*
+!/overrides/config/enderio/recipes/user/*
