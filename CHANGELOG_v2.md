@@ -1,5 +1,9 @@
 # v2.5.7
 ## Update mods
+- GregTech CE: Unofficial
+- Gregicality Multiblocks
+- GregTech Food Option
+- GTExpert2 Core Mod
 - CraftPresence
 - AE2 Unofficial Extended Life
 - AE2 Fluid Crafting Rework
@@ -7,7 +11,7 @@
 - MixinBooter
 - ModularUI
 - Inventory Bogo Sorter
-- GTExpert2 Core Mod
+- UntranslatedItems: AlsoFluids
 
 ## Formally introduced from compatibility mods
 - AE2 Stuff
