@@ -1,4 +1,4 @@
-# v2.5.7
+# v2.6.0
 ## Update mods
 - GregTech CE: Unofficial
 - Gregicality Multiblocks
