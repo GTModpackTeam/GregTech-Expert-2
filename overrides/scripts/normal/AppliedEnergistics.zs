@@ -923,6 +923,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 # ME Interface
+recipes.removeByRecipeName("appliedenergistics2:network/blocks/interfaces_interface");
 recipes.addShaped(<appliedenergistics2:interface>, [
     [<metaitem:plateSteel>, <metaitem:plateGlass>, <metaitem:plateSteel>],
     [<gtexpert:meta_item_1:1>, <gregtech:machine_casing:3>, <gtexpert:meta_item_1:1>],
@@ -942,6 +943,8 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 # ME Fluid Interface
+recipes.removeByRecipeName("aeadditions:misc/parttointerface");
+recipes.removeByRecipeName("appliedenergistics2:network/blocks/fluid_interfaces_interface");
 recipes.addShaped(<appliedenergistics2:fluid_interface>, [
     [<metaitem:plateStainlessSteel>, <metaitem:plateGlass>, <metaitem:plateStainlessSteel>],
     [<gtexpert:meta_item_1:1>, <gregtech:machine_casing:3>, <gtexpert:meta_item_1:1>],
@@ -1164,19 +1167,19 @@ assembler.recipeBuilder()
 recipes.remove(<appliedenergistics2:part:360>);
 recipes.addShaped(<appliedenergistics2:part:360>, [
     [<ore:craftingToolScrewdriver>, <appliedenergistics2:part:380>, <ore:craftingToolSoftHammer>],
-    [<metaitem:screwSteel>, <metaitem:cover.crafting>, <metaitem:screwSteel>],
+    [<metaitem:screwSteel>, <metaitem:workbench>, <metaitem:screwSteel>],
     [<metaitem:plateSteel>, <appliedenergistics2:material:22>, <metaitem:plateSteel>]
 ]);
 recipes.addShaped(<appliedenergistics2:part:360>, [
     [<ore:craftingToolSoftHammer>, <appliedenergistics2:part:380>, <ore:craftingToolScrewdriver>],
-    [<metaitem:screwSteel>, <metaitem:cover.crafting>, <metaitem:screwSteel>],
+    [<metaitem:screwSteel>, <metaitem:workbench>, <metaitem:screwSteel>],
     [<metaitem:plateSteel>, <appliedenergistics2:material:22>, <metaitem:plateSteel>]
 ]);
 assembler.recipeBuilder()
     .inputs([
         <appliedenergistics2:material:22>,
         <appliedenergistics2:part:380>,
-        <metaitem:cover.crafting>,
+        <metaitem:workbench>,
         <metaitem:screwSteel>,
         <metaitem:plateSteel>
     ])
