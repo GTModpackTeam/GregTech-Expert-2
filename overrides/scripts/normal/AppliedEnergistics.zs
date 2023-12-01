@@ -631,54 +631,6 @@ recipes.addShaped(<appliedenergistics2:part:302>, [
 # Certus Quartz Crystal
 JEI.removeAndHide(<appliedenergistics2:material>);
 
-# Pure Certus Quartz Crystal
-recipes.remove(<appliedenergistics2:crystal_seed>);
-mixer.recipeBuilder()
-    .inputs([<metaitem:dustCertusQuartz>, <ore:sand>])
-    .outputs([<appliedenergistics2:crystal_seed> * 2])
-    .duration(20)
-    .EUt(480)
-    .buildAndRegister();
-autoclave.recipeBuilder()
-    .inputs([<appliedenergistics2:crystal_seed>])
-    .fluidInputs([<liquid:distilled_water> * 144])
-    .outputs([<appliedenergistics2:material:10>])
-    .duration(20)
-    .EUt(480)
-    .buildAndRegister();
-
-# Pure Nether Quartz Crystal
-recipes.remove(<appliedenergistics2:crystal_seed:600>);
-mixer.recipeBuilder()
-    .inputs([<metaitem:dustNetherQuartz>, <ore:sand>])
-    .outputs([<appliedenergistics2:crystal_seed:600> * 2])
-    .duration(20)
-    .EUt(480)
-    .buildAndRegister();
-autoclave.recipeBuilder()
-    .inputs([<appliedenergistics2:crystal_seed:600>])
-    .fluidInputs([<liquid:distilled_water> * 144])
-    .outputs([<appliedenergistics2:material:11>])
-    .duration(20)
-    .EUt(480)
-    .buildAndRegister();
-
-# Pure Fluix Crystal
-recipes.remove(<appliedenergistics2:crystal_seed:1200>);
-mixer.recipeBuilder()
-    .inputs([<metaitem:dustFluix>, <ore:sand>])
-    .outputs([<appliedenergistics2:crystal_seed:1200> * 2])
-    .duration(20)
-    .EUt(480)
-    .buildAndRegister();
-autoclave.recipeBuilder()
-    .inputs([<appliedenergistics2:crystal_seed:1200>])
-    .fluidInputs([<liquid:distilled_water> * 144])
-    .outputs([<appliedenergistics2:material:12>])
-    .duration(20)
-    .EUt(480)
-    .buildAndRegister();
-
 
 
 ########################################
@@ -777,261 +729,6 @@ for anchorIngot_x8 in anchorIngots_x8 {
         .EUt(480)
         .buildAndRegister();
 }
-
-# Glass Cable
-recipes.remove(<appliedenergistics2:part:16> * 4);
-recipes.addShaped(<appliedenergistics2:part:16> * 6, [
-    [<metaitem:stickAluminium>, <metaitem:dustFluix>, <metaitem:stickAluminium>],
-    [<appliedenergistics2:part:140>, <appliedenergistics2:part:140>, <appliedenergistics2:part:140>],
-    [<metaitem:stickAluminium>, <metaitem:dustFluix>, <metaitem:stickAluminium>]
-]);
-assembler.recipeBuilder()
-    .circuit(1)
-    .inputs([
-        <metaitem:stickAluminium> * 2,
-        <appliedenergistics2:part:140> * 3,
-    ])
-    .fluidInputs([<liquid:fluix> * 144])
-    .outputs([<appliedenergistics2:part:16> * 6])
-    .duration(20)
-    .EUt(480)
-    .buildAndRegister();
-assembler.recipeBuilder()
-    .circuit(1)
-    .inputs([
-        <metaitem:stickAluminium> * 2,
-        <appliedenergistics2:part:140> * 3,
-        <metaitem:dustFluix>,
-    ])
-    .outputs([<appliedenergistics2:part:16> * 6])
-    .duration(20)
-    .EUt(480)
-    .buildAndRegister();
-
-# Covered Cable
-recipes.removeByRecipeName("appliedenergistics2:network/cables/covered_fluix");
-recipes.addShaped(<appliedenergistics2:part:36>, [
-    [<metaitem:plateStyreneButadieneRubber>, <metaitem:plateStyreneButadieneRubber>, <metaitem:plateStyreneButadieneRubber>],
-    [<ore:craftGlassCable>, <ore:craftGlassCable>, <ore:craftGlassCable>],
-    [<metaitem:plateStyreneButadieneRubber>, <metaitem:plateStyreneButadieneRubber>, <metaitem:plateStyreneButadieneRubber>]
-]);
-recipes.addShaped(<appliedenergistics2:part:36>, [
-    [<metaitem:plateSiliconeRubber>, <metaitem:plateSiliconeRubber>, <metaitem:plateSiliconeRubber>],
-    [<ore:craftGlassCable>, <ore:craftGlassCable>, <ore:craftGlassCable>],
-    [<metaitem:plateSiliconeRubber>, <metaitem:plateSiliconeRubber>, <metaitem:plateSiliconeRubber>]
-]);
-recipes.addShaped(<appliedenergistics2:part:36>, [
-    [<metaitem:plateRubber>, <metaitem:plateRubber>, <metaitem:plateRubber>],
-    [<ore:craftGlassCable>, <ore:craftGlassCable>, <ore:craftGlassCable>],
-    [<metaitem:plateRubber>, <metaitem:plateRubber>, <metaitem:plateRubber>]
-]);
-packer.recipeBuilder()
-    .inputs([<appliedenergistics2:part:516>])
-    .outputs([<appliedenergistics2:part:36> * 4])
-    .duration(10)
-    .EUt(480)
-    .buildAndRegister();
-assembler.recipeBuilder()
-    .circuit(1)
-    .inputs([<appliedenergistics2:part:16> * 3])
-    .fluidInputs([<liquid:styrene_butadiene_rubber> * 108])
-    .outputs([<appliedenergistics2:part:36>])
-    .duration(20)
-    .EUt(480)
-    .buildAndRegister();
-assembler.recipeBuilder()
-    .circuit(1)
-    .inputs([<appliedenergistics2:part:16> * 3])
-    .fluidInputs([<liquid:silicone_rubber> * 216])
-    .outputs([<appliedenergistics2:part:36>])
-    .duration(20)
-    .EUt(480)
-    .buildAndRegister();
-assembler.recipeBuilder()
-    .circuit(1)
-    .inputs([<appliedenergistics2:part:16> * 3])
-    .fluidInputs([<liquid:rubber> * 432])
-    .outputs([<appliedenergistics2:part:36>])
-    .duration(20)
-    .EUt(480)
-    .buildAndRegister();
-
-# Smart Cable
-recipes.removeByRecipeName("appliedenergistics2:network/cables/smart_fluix");
-recipes.addShaped(<appliedenergistics2:part:56>, [
-    [null, <minecraft:glowstone_dust>, null],
-    [<minecraft:redstone>, <appliedenergistics2:part:36>, <minecraft:redstone>],
-    [null, <minecraft:glowstone_dust>, null]
-]);
-recipes.addShaped(<appliedenergistics2:part:56>, [
-    [null, <minecraft:redstone>, null],
-    [<minecraft:glowstone_dust>, <appliedenergistics2:part:36>, <minecraft:glowstone_dust>],
-    [null, <minecraft:redstone>, null]
-]);
-packer.recipeBuilder()
-    .inputs([<appliedenergistics2:part:76>])
-    .outputs([<appliedenergistics2:part:56> * 4])
-    .duration(10)
-    .EUt(480)
-    .buildAndRegister();
-assembler.recipeBuilder()
-    .circuit(2)
-    .inputs([
-        <minecraft:redstone>,
-        <minecraft:glowstone_dust>,
-        <appliedenergistics2:part:36>
-    ])
-    .outputs([<appliedenergistics2:part:56>])
-    .duration(20)
-    .EUt(480)
-    .buildAndRegister();
-assembler.recipeBuilder()
-    .circuit(2)
-    .inputs([
-        <minecraft:redstone> * 3,
-        <minecraft:glowstone_dust> * 3,
-        <appliedenergistics2:part:16> * 3
-    ])
-    .fluidInputs([<liquid:styrene_butadiene_rubber> * 108])
-    .outputs([<appliedenergistics2:part:56>])
-    .duration(20)
-    .EUt(480)
-    .buildAndRegister();
-assembler.recipeBuilder()
-    .circuit(2)
-    .inputs([
-        <minecraft:redstone> * 3,
-        <minecraft:glowstone_dust> * 3,
-        <appliedenergistics2:part:16> * 3
-    ])
-    .fluidInputs([<liquid:silicone_rubber> * 216])
-    .outputs([<appliedenergistics2:part:56>])
-    .duration(20)
-    .EUt(480)
-    .buildAndRegister();
-assembler.recipeBuilder()
-    .circuit(2)
-    .inputs([
-        <minecraft:redstone> * 3,
-        <minecraft:glowstone_dust> * 3,
-        <appliedenergistics2:part:16> * 3
-    ])
-    .fluidInputs([<liquid:rubber> * 432])
-    .outputs([<appliedenergistics2:part:56>])
-    .duration(20)
-    .EUt(480)
-    .buildAndRegister();
-
-
-# Dense Covered Cable
-recipes.removeByRecipeName("appliedenergistics2:network/cables/dense_covered_fluix");
-packer.recipeBuilder()
-    .inputs([<appliedenergistics2:part:36> * 4])
-    .outputs([<appliedenergistics2:part:516>])
-    .duration(10)
-    .EUt(480)
-    .buildAndRegister();
-assembler.recipeBuilder()
-    .circuit(3)
-    .inputs([<appliedenergistics2:part:16> * 12])
-    .fluidInputs([<liquid:styrene_butadiene_rubber> * 432])
-    .outputs([<appliedenergistics2:part:516>])
-    .duration(20)
-    .EUt(480)
-    .buildAndRegister();
-assembler.recipeBuilder()
-    .circuit(3)
-    .inputs([<appliedenergistics2:part:16> * 12])
-    .fluidInputs([<liquid:silicone_rubber> * 864])
-    .outputs([<appliedenergistics2:part:516>])
-    .duration(20)
-    .EUt(480)
-    .buildAndRegister();
-assembler.recipeBuilder()
-    .circuit(3)
-    .inputs([<appliedenergistics2:part:16> * 12])
-    .fluidInputs([<liquid:rubber> * 1728])
-    .outputs([<appliedenergistics2:part:516>])
-    .duration(20)
-    .EUt(480)
-    .buildAndRegister();
-
-# Dense Smart Cable
-recipes.removeByRecipeName("appliedenergistics2:network/cables/dense_smart_fluix");
-recipes.addShaped(<appliedenergistics2:part:76>, [
-    [null, <minecraft:glowstone_dust>, null],
-    [<minecraft:redstone>, <appliedenergistics2:part:516>, <minecraft:redstone>],
-    [null, <minecraft:glowstone_dust>, null]
-]);
-recipes.addShaped(<appliedenergistics2:part:76>, [
-    [null, <minecraft:redstone>, null],
-    [<minecraft:glowstone_dust>, <appliedenergistics2:part:516>, <minecraft:glowstone_dust>],
-    [null, <minecraft:redstone>, null]
-]);
-packer.recipeBuilder()
-    .inputs([<appliedenergistics2:part:56> * 4])
-    .outputs([<appliedenergistics2:part:76>])
-    .duration(10)
-    .EUt(480)
-    .buildAndRegister();
-assembler.recipeBuilder()
-    .circuit(4)
-    .inputs([
-        <minecraft:redstone>,
-        <minecraft:glowstone_dust>,
-        <appliedenergistics2:part:516>
-    ])
-    .outputs([<appliedenergistics2:part:76>])
-    .duration(20)
-    .EUt(480)
-    .buildAndRegister();
-assembler.recipeBuilder()
-    .circuit(4)
-    .inputs([
-        <minecraft:redstone> * 4,
-        <minecraft:glowstone_dust> * 4,
-        <appliedenergistics2:part:36> * 4
-    ])
-    .outputs([<appliedenergistics2:part:76>])
-    .duration(20)
-    .EUt(480)
-    .buildAndRegister();
-assembler.recipeBuilder()
-    .circuit(4)
-    .inputs([
-        <minecraft:redstone> * 12,
-        <minecraft:glowstone_dust> * 12,
-        <appliedenergistics2:part:16> * 12
-    ])
-    .fluidInputs([<liquid:styrene_butadiene_rubber> * 432])
-    .outputs([<appliedenergistics2:part:76>])
-    .duration(20)
-    .EUt(480)
-    .buildAndRegister();
-assembler.recipeBuilder()
-    .circuit(4)
-    .inputs([
-        <minecraft:redstone> * 12,
-        <minecraft:glowstone_dust> * 12,
-        <appliedenergistics2:part:16> * 12
-    ])
-    .fluidInputs([<liquid:silicone_rubber> * 864])
-    .outputs([<appliedenergistics2:part:76>])
-    .duration(20)
-    .EUt(480)
-    .buildAndRegister();
-assembler.recipeBuilder()
-    .circuit(4)
-    .inputs([
-        <minecraft:redstone> * 12,
-        <minecraft:glowstone_dust> * 12,
-        <appliedenergistics2:part:16> * 12
-    ])
-    .fluidInputs([<liquid:rubber> * 1728])
-    .outputs([<appliedenergistics2:part:76>])
-    .duration(20)
-    .EUt(480)
-    .buildAndRegister();
 
 # ME Controller
 recipes.remove(<appliedenergistics2:controller>);
@@ -1246,13 +943,13 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 # ME Fluid Interface
-recipes.remove(<appliedenergistics2:fluid_interface>);
+recipes.removeByRecipeName("aeadditions:misc/parttointerface");
+recipes.removeByRecipeName("appliedenergistics2:network/blocks/fluid_interfaces_interface");
 recipes.addShaped(<appliedenergistics2:fluid_interface>, [
     [<metaitem:plateStainlessSteel>, <metaitem:plateGlass>, <metaitem:plateStainlessSteel>],
     [<gtexpert:meta_item_1:1>, <gregtech:machine_casing:3>, <gtexpert:meta_item_1:1>],
     [<metaitem:plateStainlessSteel>, <metaitem:plateGlass>, <metaitem:plateStainlessSteel>]
 ]);
-recipes.addShapeless(<appliedenergistics2:fluid_interface>, [<appliedenergistics2:part:441>]);
 assembler.recipeBuilder()
     .circuit(2)
     .inputs([
@@ -1470,19 +1167,19 @@ assembler.recipeBuilder()
 recipes.remove(<appliedenergistics2:part:360>);
 recipes.addShaped(<appliedenergistics2:part:360>, [
     [<ore:craftingToolScrewdriver>, <appliedenergistics2:part:380>, <ore:craftingToolSoftHammer>],
-    [<metaitem:screwSteel>, <metaitem:cover.crafting>, <metaitem:screwSteel>],
+    [<metaitem:screwSteel>, <metaitem:workbench>, <metaitem:screwSteel>],
     [<metaitem:plateSteel>, <appliedenergistics2:material:22>, <metaitem:plateSteel>]
 ]);
 recipes.addShaped(<appliedenergistics2:part:360>, [
     [<ore:craftingToolSoftHammer>, <appliedenergistics2:part:380>, <ore:craftingToolScrewdriver>],
-    [<metaitem:screwSteel>, <metaitem:cover.crafting>, <metaitem:screwSteel>],
+    [<metaitem:screwSteel>, <metaitem:workbench>, <metaitem:screwSteel>],
     [<metaitem:plateSteel>, <appliedenergistics2:material:22>, <metaitem:plateSteel>]
 ]);
 assembler.recipeBuilder()
     .inputs([
         <appliedenergistics2:material:22>,
         <appliedenergistics2:part:380>,
-        <metaitem:cover.crafting>,
+        <metaitem:workbench>,
         <metaitem:screwSteel>,
         <metaitem:plateSteel>
     ])

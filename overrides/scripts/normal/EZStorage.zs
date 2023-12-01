@@ -199,18 +199,18 @@ assembler.recipeBuilder()
 recipes.remove(<ezstorage:crafting_box>);
 recipes.addShaped(<ezstorage:crafting_box>, [
     [<metaitem:plateSteel>, <ore:craftingToolHardHammer>, <metaitem:plateSteel>],
-    [<metaitem:cover.crafting>, <ezstorage:blank_box>, <metaitem:cover.crafting>],
+    [<metaitem:workbench>, <ezstorage:blank_box>, <metaitem:workbench>],
     [<metaitem:plateSteel>, <ore:craftingToolWrench>, <metaitem:plateSteel>]
 ]);
 recipes.addShaped(<ezstorage:crafting_box>, [
     [<metaitem:plateSteel>, <ore:craftingToolWrench>, <metaitem:plateSteel>],
-    [<metaitem:cover.crafting>, <ezstorage:blank_box>, <metaitem:cover.crafting>],
+    [<metaitem:workbench>, <ezstorage:blank_box>, <metaitem:workbench>],
     [<metaitem:plateSteel>, <ore:craftingToolHardHammer>, <metaitem:plateSteel>]
 ]);
 assembler.recipeBuilder()
     .circuit(1)
     .inputs([
-        <metaitem:cover.crafting>,
+        <metaitem:workbench>,
         <ezstorage:blank_box>,
         <metaitem:plateSteel> * 2
     ])

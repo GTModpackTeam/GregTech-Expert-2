@@ -1,3 +1,30 @@
+# v2.6.0
+## Update mods
+- GregTech CE: Unofficial
+- Gregicality Multiblocks
+- GregTech Food Option
+- GTExpert2 Core Mod
+- CraftPresence
+- AE2 Unofficial Extended Life
+- AE2 Fluid Crafting Rework
+- Neeve's AE2: Extended Life Additions
+- MixinBooter
+- ModularUI
+- Inventory Bogo Sorter
+- UntranslatedItems: AlsoFluids
+
+## Formally introduced from compatibility mods
+- AE2 Stuff
+
+## New recipes
+### AE2 Unofficial Extended Life
+- Craft of interface with NBT
+
+### AE2 Fluid Crafting Rework
+- Craft of interface with NBT
+
+* * *
+
 # v2.5.6
 ## Modpack information
 - They no longer have a piece of paper with inventory contents at the time of death. This change eliminates the odd bug in plugin servers like CatServer and Magma.
