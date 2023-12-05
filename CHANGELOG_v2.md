@@ -1,4 +1,11 @@
 # v2.6.0
+## 💣 Update Warning 💣
+- Make a backup of your world before updating.
+
+## Modpack information
+### For those who have set the game display to Japanese
+- Since the Japanese translation was completed in time, the files in `./resources/gregtech/lang/en_jp.lang` should be deleted.
+
 ## Update mods
 - GregTech CE: Unofficial
 - Gregicality Multiblocks
@@ -15,6 +22,10 @@
 
 ## Formally introduced from compatibility mods
 - AE2 Stuff
+
+## New machine
+- Advanced Chemical Plant
+- Add Advanced Gas Collector
 
 ## New recipes
 ### AE2 Unofficial Extended Life
