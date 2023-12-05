@@ -114,6 +114,7 @@
 - BisectHosting Server Integration Menu
 - LoliASM
 - MixinBooter
+- Entity Culling
 
 ## Add mod
 - RenderLib
