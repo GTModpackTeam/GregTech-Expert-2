@@ -19,11 +19,16 @@
 - ModularUI
 - Inventory Bogo Sorter
 - UntranslatedItems: AlsoFluids
+- Universal Tweaks
+- Betterer P2P
+
+## Move mods
+- RealBench -> RealBench: Nomi-CEu-Edition
 
 ## Formally introduced from compatibility mods
 - AE2 Stuff
 
-## New machine
+## New machine(From GTExpert2 Core Mod)
 - Advanced Chemical Plant
 - Add Advanced Gas Collector
 
