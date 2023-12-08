@@ -3,7 +3,10 @@
 - Make a backup of your world before updating.
 
 ## Modpack information
-### For those who have set the game display to Japanese
+### Returned items
+- ME Import/Export Bus, ME Fluid Import/Export Bus, and ME Ore Dictionary Export Bus have been returned to the game.
+
+### For those using the Japanese lang
 - Since the Japanese translation was completed in time, the files in `./resources/gregtech/lang/en_jp.lang` should be deleted.
 
 ## Update mods
@@ -35,6 +38,13 @@
 ## New recipes
 ### AE2 Unofficial Extended Life
 - Craft of interface with NBT
+- ME Import Bus
+- ME Export Bus
+- ME Fluid Import Bus
+- ME Fluid Export Bus
+
+### AE Additions
+- ME Ore Dictionary Export Bus
 
 ### AE2 Fluid Crafting Rework
 - Craft of interface with NBT

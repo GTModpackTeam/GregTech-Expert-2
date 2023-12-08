@@ -1464,16 +1464,54 @@ recipes.addShapeless(<appliedenergistics2:part:100>, [<appliedenergistics2:part:
 
 # ME Import Bus
 recipes.remove(<appliedenergistics2:part:240>);
-<appliedenergistics2:part:240>.addTooltip(format.green(I18n.format("modpack.ae2.bus_item.tooltip.1")));
+recipes.addShapeless(<appliedenergistics2:part:240>, [<appliedenergistics2:part:260>]);
 
 # ME Fluid Import Bus
 recipes.remove(<appliedenergistics2:part:241>);
-<appliedenergistics2:part:241>.addTooltip(format.green(I18n.format("modpack.ae2.bus_fluid.tooltip.1")));
+recipes.addShapeless(<appliedenergistics2:part:241>, [<appliedenergistics2:part:261>]);
 
 # ME Export Bus
 recipes.remove(<appliedenergistics2:part:260>);
-<appliedenergistics2:part:260>.addTooltip(format.green(I18n.format("modpack.ae2.bus_item.tooltip.1")));
+recipes.addShapeless(<appliedenergistics2:part:260>, [<appliedenergistics2:part:240>]);
+recipes.addShaped(<appliedenergistics2:part:260>, [
+    [<ore:craftingToolScrewdriver>, <metaitem:plateTitanium>, <ore:craftingToolSoftHammer>],
+    [<appliedenergistics2:material:44>, <metaitem:item_filter>, <appliedenergistics2:material:43>],
+    [<metaitem:screwSteel>, <metaitem:conveyor.module.hv>, <metaitem:screwSteel>]
+]);
+assembler.recipeBuilder()
+    .circuit(2)
+    .inputs([
+        <appliedenergistics2:material:44>,
+        <appliedenergistics2:material:43>,
+        <metaitem:item_filter>,
+        <metaitem:plateTitanium>,
+        <metaitem:screwSteel> * 2,
+        <metaitem:conveyor.module.hv>
+    ])
+    .outputs([<appliedenergistics2:part:260>])
+    .duration(20)
+    .EUt(1920)
+    .buildAndRegister();
 
 # ME Fluid Export Bus
 recipes.remove(<appliedenergistics2:part:261>);
-<appliedenergistics2:part:261>.addTooltip(format.green(I18n.format("modpack.ae2.bus_fluid.tooltip.1")));
+recipes.addShapeless(<appliedenergistics2:part:261>, [<appliedenergistics2:part:241>]);
+recipes.addShaped(<appliedenergistics2:part:261>, [
+    [<ore:craftingToolScrewdriver>, <metaitem:plateTitanium>, <ore:craftingToolSoftHammer>],
+    [<appliedenergistics2:material:44>, <metaitem:fluid_filter>, <appliedenergistics2:material:43>],
+    [<metaitem:screwStainlessSteel>, <metaitem:electric.pump.hv>, <metaitem:screwStainlessSteel>]
+]);
+assembler.recipeBuilder()
+    .circuit(3)
+    .inputs([
+        <appliedenergistics2:material:44>,
+        <appliedenergistics2:material:43>,
+        <metaitem:fluid_filter>,
+        <metaitem:plateTitanium>,
+        <metaitem:screwStainlessSteel> * 2,
+        <metaitem:electric.pump.hv>
+    ])
+    .outputs([<appliedenergistics2:part:261>])
+    .duration(20)
+    .EUt(1920)
+    .buildAndRegister();
