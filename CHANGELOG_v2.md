@@ -13,7 +13,7 @@
 - GregTech CE: Unofficial
 - Gregicality Multiblocks
 - GregTech Food Option
-- GTExpert2 Core Mod
+- GTExpert-Core
 - CraftPresence
 - AE2 Unofficial Extended Life
 - AE2 Fluid Crafting Rework
@@ -23,7 +23,7 @@
 - Inventory Bogo Sorter
 - UntranslatedItems: AlsoFluids
 - Universal Tweaks
-- Betterer P2P
+- CraftTweaker
 
 ## Move mods
 - RealBench -> RealBench: Nomi-CEu-Edition
@@ -31,7 +31,7 @@
 ## Formally introduced from compatibility mods
 - AE2 Stuff
 
-## New machine(From GTExpert2 Core Mod)
+## New machine(From GTExpert-Core)
 - Advanced Chemical Plant
 - Add Advanced Gas Collector
 
@@ -67,7 +67,7 @@
 ## Update mods
 - GregTech CE: Unofficial
 - GregTech Food Option
-- GTExpert2 Core Mod
+- GTExpert-Core
 - LoliASM
 - Modern Splash
 - CraftTweaker
@@ -83,7 +83,7 @@
 
 ## Move mods
 - Resource Loader -> TX Loader
-- Zen Utils -> GTExpert2 Core Mod
+- Zen Utils -> GTExpert-Core
 
 ## Update recipes
 ### AE2 Unofficial Extended Life
@@ -125,7 +125,7 @@
 - Inventory Bogo Sorter
 - CraftTweaker
 - Zen Utils
-- GTExpert2 Core Mod
+- GTExpert-Core
 - BisectHosting Server Integration Menu
 - LoliASM
 - MixinBooter
