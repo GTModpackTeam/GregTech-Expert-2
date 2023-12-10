@@ -1,8 +1,12 @@
 # v2.6.0
 ## 💣 Update Warning 💣
 - Make a backup of your world before updating.
+- Also the server is currently not bootable due to CEu issues. Please wait for a while until this is addressed :<
 
 ## Modpack information
+- Updated the quest to CEu 2.7.4 standards.
+  - Thanks to @katatsumuri.pan for his support!!
+
 ### Returned items
 - ME Import/Export Bus, ME Fluid Import/Export Bus, and ME Ore Dictionary Export Bus have been returned to the game.
 
