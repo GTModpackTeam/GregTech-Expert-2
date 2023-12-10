@@ -1,3 +1,9 @@
+# v2.6.1
+## Modpack information
+- Fixed only the problem of not being able to start on the server.
+
+* * *
+
 # v2.6.0
 ## 💣 Update Warning 💣
 - Make a backup of your world before updating.
