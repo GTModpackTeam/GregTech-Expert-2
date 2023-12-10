@@ -76,24 +76,6 @@ assembler.recipeBuilder()
     .duration(20)
     .EUt(1920)
     .buildAndRegister();
-packer.recipeBuilder()
-    .inputs([
-        <ore:craftInterfaceItem>,
-        <ore:craftInterfaceFluid>
-    ])
-    .outputs([<ae2fc:dual_interface>])
-    .duration(20)
-    .EUt(1920)
-    .buildAndRegister();
-packer.recipeBuilder()
-    .inputs([<ae2fc:dual_interface>])
-    .outputs([
-        <appliedenergistics2:interface>,
-        <appliedenergistics2:fluid_interface>
-    ])
-    .duration(20)
-    .EUt(480)
-    .buildAndRegister();
 
 # Fluid Pattrern Terminal
 recipes.remove(<ae2fc:part_fluid_pattern_terminal>);

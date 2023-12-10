@@ -2,8 +2,6 @@
 modpack.enderio.tank.tooltip.1=液体バケツからのレシピ確認用としてだけに存在します。EIOタンクの作成はできません。
 
 # AE2
-modpack.ae2.bus_item.tooltip.1=ラグを生むデバイスです。アイテムインターフェースを使用してください。
-modpack.ae2.bus_fluid.tooltip.1=ラグを生むデバイスです。液体インターフェースを使用してください。
 modpack.ae2.p2p_conduit.tooltip.1=エネルギー導管を持ってME P2P Tunnelを右クリックすることで変化します。
 modpack.ae2.p2p_bucket.tooltip.1=バケツを持ってME P2P Tunnelを右クリックすることで変化します。
 modpack.ae2.p2p_gtceu.tooltip.1=GregTechのケーブルを持ってME P2P Tunnelを右クリックすることで変化します。

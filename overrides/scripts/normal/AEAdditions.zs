@@ -294,8 +294,26 @@ recipes.addShaped(<aeadditions:part.base:1>, [
 JEI.removeAndHide(<aeadditions:part.base:2>);
 
 # ME Ore Dictionary Export Bus
-JEI.removeAndHide(<aeadditions:part.base:3>);
-<aeadditions:part.base:3>.addTooltip(format.green("Lag device. Use OreDict Storage bus."));
+recipes.remove(<aeadditions:part.base:3>);
+recipes.addShaped(<aeadditions:part.base:3>, [
+    [<ore:craftingToolScrewdriver>, <metaitem:plateTitanium>, <ore:craftingToolSoftHammer>],
+    [<appliedenergistics2:material:44>, <metaitem:ore_dictionary_filter>, <appliedenergistics2:material:43>],
+    [<metaitem:screwTitanium>, <metaitem:robot.arm.hv>, <metaitem:screwTitanium>]
+]);
+assembler.recipeBuilder()
+    .circuit(4)
+    .inputs([
+        <appliedenergistics2:material:44>,
+        <appliedenergistics2:material:43>,
+        <metaitem:ore_dictionary_filter>,
+        <metaitem:plateTitanium>,
+        <metaitem:screwTitanium> * 2,
+        <metaitem:robot.arm.hv>
+    ])
+    .outputs([<aeadditions:part.base:3>])
+    .duration(20)
+    .EUt(1920)
+    .buildAndRegister();
 
 # Fluid Filler
 recipes.remove(<aeadditions:fluidfiller>);
