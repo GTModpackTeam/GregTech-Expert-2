@@ -465,7 +465,7 @@ assembler.recipeBuilder()
     .inputs([
         <metaitem:circuit_board.plastic>,
         <opencomputers:material:8>,
-        <metaitem:cover.crafting>
+        <metaitem:workbench>
     ])
     .fluidInputs(<liquid:tin> * 144)
     .outputs([<opencomputers:upgrade:11>])
@@ -477,7 +477,7 @@ assembler.recipeBuilder()
     .inputs([
         <metaitem:circuit_board.plastic>,
         <opencomputers:material:8>,
-        <metaitem:cover.crafting>
+        <metaitem:workbench>
     ])
     .fluidInputs(<liquid:soldering_alloy> * 72)
     .outputs([<opencomputers:upgrade:11>])

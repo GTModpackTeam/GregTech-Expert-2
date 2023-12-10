@@ -1,3 +1,60 @@
+# v2.6.0
+## 💣 Update Warning 💣
+- Make a backup of your world before updating.
+- Also the server is currently not bootable due to CEu issues. Please wait for a while until this is addressed :<
+
+## Modpack information
+- Updated the quest to CEu 2.7.4 standards.
+  - Thanks to @katatsumuri.pan for his support!!
+
+### Returned items
+- ME Import/Export Bus, ME Fluid Import/Export Bus, and ME Ore Dictionary Export Bus have been returned to the game.
+
+### For those using the Japanese lang
+- Since the Japanese translation was completed in time, the files in `./resources/gregtech/lang/en_jp.lang` should be deleted.
+
+## Update mods
+- GregTech CE: Unofficial
+- Gregicality Multiblocks
+- GregTech Food Option
+- GTExpert-Core
+- CraftPresence
+- AE2 Unofficial Extended Life
+- AE2 Fluid Crafting Rework
+- Neeve's AE2: Extended Life Additions
+- MixinBooter
+- ModularUI
+- Inventory Bogo Sorter
+- UntranslatedItems: AlsoFluids
+- Universal Tweaks
+- CraftTweaker
+
+## Move mods
+- RealBench -> RealBench: Nomi-CEu-Edition
+
+## Formally introduced from compatibility mods
+- AE2 Stuff
+
+## New machine(From GTExpert-Core)
+- Advanced Chemical Plant
+- Add Advanced Gas Collector
+
+## New recipes
+### AE2 Unofficial Extended Life
+- Craft of interface with NBT
+- ME Import Bus
+- ME Export Bus
+- ME Fluid Import Bus
+- ME Fluid Export Bus
+
+### AE Additions
+- ME Ore Dictionary Export Bus
+
+### AE2 Fluid Crafting Rework
+- Craft of interface with NBT
+
+* * *
+
 # v2.5.6
 ## Modpack information
 - They no longer have a piece of paper with inventory contents at the time of death. This change eliminates the odd bug in plugin servers like CatServer and Magma.
@@ -14,7 +71,7 @@
 ## Update mods
 - GregTech CE: Unofficial
 - GregTech Food Option
-- GTExpert2 Core Mod
+- GTExpert-Core
 - LoliASM
 - Modern Splash
 - CraftTweaker
@@ -30,7 +87,7 @@
 
 ## Move mods
 - Resource Loader -> TX Loader
-- Zen Utils -> GTExpert2 Core Mod
+- Zen Utils -> GTExpert-Core
 
 ## Update recipes
 ### AE2 Unofficial Extended Life
@@ -72,10 +129,11 @@
 - Inventory Bogo Sorter
 - CraftTweaker
 - Zen Utils
-- GTExpert2 Core Mod
+- GTExpert-Core
 - BisectHosting Server Integration Menu
 - LoliASM
 - MixinBooter
+- Entity Culling
 
 ## Add mod
 - RenderLib
