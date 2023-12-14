@@ -55,6 +55,7 @@ jobs:
         run: |
           mv -vf ./overrides/ .minecraft/
           cp -vf ./icon.png .minecraft/
+          cp -vf ./mmc/ .minecraft/
           rm -rf .minecraft/mods/.gitkeep
           rm -rf .minecraft/resourcepacks/.gitkeep
           zip -r ./GTExpert2-${{ env.VERSION }}-pr-${{ env.PR_VERSION }}-mmc.zip ./mmc-pack.json ./instance.cfg .minecraft/
