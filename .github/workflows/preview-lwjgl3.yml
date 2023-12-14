@@ -55,10 +55,10 @@ jobs:
         run: |
           mv -vf ./overrides/ .minecraft/
           cp -vf ./icon.png .minecraft/
-          cp -vf ./mmc/ .minecraft/
+          cp -rvf ./mmc/* ./
           rm -rf .minecraft/mods/.gitkeep
           rm -rf .minecraft/resourcepacks/.gitkeep
-          zip -r ./GTExpert2-${{ env.VERSION }}-lwjgl3-${{ env.LWIGL3_VERSION }}-mmc.zip ./mmc-pack.json ./instance.cfg .minecraft/
+          zip -r ./GTExpert2-${{ env.VERSION }}-lwjgl3-${{ env.LWIGL3_VERSION }}-mmc.zip ./libraries/ ./patches/ ./mmc-pack.json ./instance.cfg .minecraft/
 
       - name: Move Server Files
         run: |
