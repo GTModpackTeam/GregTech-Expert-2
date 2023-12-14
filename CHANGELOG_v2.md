@@ -1,3 +1,13 @@
+# v2.6.2
+## Update mods
+- GregTech CE: Unofficial
+- GTExpert-Core
+- Neeve's AE2: Extended Life Additions
+- Roughly Enough IDs
+- UntranslatedItems: AlsoFluids
+
+* * *
+
 # v2.6.1
 ## Modpack information
 - Fixed only the problem of not being able to start on the server.
