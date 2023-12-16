@@ -1,3 +1,16 @@
+# v2.6.3
+## Modpack information
+- Fixed a bug that prevented ACP and AGC recipe execution from working.
+  - Thanks to @MrKono, @kenji_red for his support!!
+- Some quests have been fixed.
+  - Thanks to @MrKono for his support!!
+
+## Update mods
+- AE2 Fluid Crafting Rework
+- GTExpert-Core
+
+* * *
+
 # v2.6.2
 ## Update mods
 - GregTech CE: Unofficial
