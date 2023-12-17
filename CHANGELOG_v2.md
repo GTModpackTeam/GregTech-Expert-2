@@ -6,7 +6,9 @@
   - Thanks to @MrKono for his support!!
 
 ## Update mods
+- AE2 Unofficial Extended Life
 - AE2 Fluid Crafting Rework
+- MixinBooter
 - GTExpert-Core
 
 * * *
