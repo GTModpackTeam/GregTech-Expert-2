@@ -2,13 +2,16 @@
 ## Modpack information
 - Fixed a bug that prevented ACP and AGC recipe execution from working.
   - Thanks to @MrKono, @kenji_red for his support!!
-- Some quests have been fixed.
+- Some RTM Alloy quest have been fixed.
   - Thanks to @MrKono for his support!!
+- Adjusted, added or moved the overall quest description.
 
 ## Update mods
 - AE2 Unofficial Extended Life
 - AE2 Fluid Crafting Rework
 - MixinBooter
+- ModularUI
+- Inventory Bogo Sorter
 - GTExpert-Core
 
 * * *
