@@ -8,9 +8,9 @@
 
 ## Update mods
 - AE2 Unofficial Extended Life
-- AE2 Fluid Crafting Rework
 - MixinBooter
 - ModularUI
+- CraftTweaker
 - Inventory Bogo Sorter
 - GTExpert-Core
 
