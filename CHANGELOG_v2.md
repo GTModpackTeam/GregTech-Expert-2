@@ -15,9 +15,6 @@
 - Inventory Bogo Sorter
 - GTExpert-Core
 
-## Move mods
-- AE2 Stuff -> AE2 Stuff Unofficial
-
 * * *
 
 # v2.6.2
