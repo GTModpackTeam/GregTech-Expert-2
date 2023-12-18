@@ -8,6 +8,7 @@
 
 ## Update mods
 - AE2 Unofficial Extended Life
+- GregTech CE: Unofficial
 - MixinBooter
 - ModularUI
 - CraftTweaker
