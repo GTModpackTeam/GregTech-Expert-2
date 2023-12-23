@@ -142,12 +142,12 @@
             }
         },
         {
-            "name": "com.cleanroommc:bouncepad:0.4.11-cursed",
+            "name": "com.cleanroommc:bouncepad:0.4.13-cursed",
             "downloads": {
                 "artifact": {
-                    "sha1": "43383ca8ba45712ddc5b8b5b5bd9bffe83cf8e7c",
-                    "size": 166108,
-                    "url": "https://maven.outlands.top/releases/com/cleanroommc/bouncepad/0.4.11-cursed/bouncepad-0.4.11-cursed.jar"
+                    "sha1": "b207899cdf45b3f3eb6d50d630f1d8da51951790",
+                    "size": 166136,
+                    "url": "https://maven.outlands.top/releases/com/cleanroommc/bouncepad/0.4.13-cursed/bouncepad-0.4.13-cursed.jar"
                 }
             }
         },
@@ -202,82 +202,82 @@
             }
         },
         {
-            "name": "org.scala-lang:scala-compiler:2.12.18",
+            "name": "org.scala-lang:scala-compiler:2.11.1",
             "downloads": {
                 "artifact": {
-                    "sha1": "87fa026116e55786ea1a878ea37fb13b6d1365f6",
-                    "size": 10983677,
-                    "url": "https://maven.minecraftforge.net/org/scala-lang/scala-compiler/2.12.18/scala-compiler-2.12.18.jar"
+                    "sha1": "56ea2e6c025e0821f28d73ca271218b8dd04926a",
+                    "size": 13449765,
+                    "url": "https://maven.minecraftforge.net/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
                 }
             }
         },
         {
-            "name": "org.scala-lang.plugins:scala-continuations-library_2.12:1.0.3",
+            "name": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc",
             "downloads": {
                 "artifact": {
-                    "sha1": "fc5af375ef8c9da08fd5dc6c8055aeec09be60ae",
-                    "size": 13095,
-                    "url": "https://maven.minecraftforge.net/org/scala-lang/plugins/scala-continuations-library_2.12/1.0.3/scala-continuations-library_2.12-1.0.3.jar"
+                    "sha1": "0e517c53a7e9acd6b1668c5a35eccbaa3bab9aac",
+                    "size": 25365,
+                    "url": "https://maven.minecraftforge.net/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
                 }
             }
         },
         {
-            "name": "org.scala-lang.plugins:scala-continuations-plugin_2.12.2:1.0.3",
+            "name": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc",
             "downloads": {
                 "artifact": {
-                    "sha1": "88dd2cf0cb6f74ed02c19872b92d64e09050cff2",
-                    "size": 93803,
-                    "url": "https://maven.minecraftforge.net/org/scala-lang/plugins/scala-continuations-plugin_2.12.2/1.0.3/scala-continuations-plugin_2.12.2-1.0.3.jar"
+                    "sha1": "f361a3283452c57fa30c1ee69448995de23c60f7",
+                    "size": 206575,
+                    "url": "https://maven.minecraftforge.net/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
                 }
             }
         },
         {
-            "name": "org.scala-lang:scala-library:2.12.18",
+            "name": "org.scala-lang:scala-library:2.11.1",
             "downloads": {
                 "artifact": {
-                    "sha1": "fa825f984172f6801e3d8c476071b1823c0a925b",
-                    "size": 5433857,
-                    "url": "https://maven.minecraftforge.net/org/scala-lang/scala-library/2.12.18/scala-library-2.12.18.jar"
+                    "sha1": "0e11da23da3eabab9f4777b9220e60d44c1aab6a",
+                    "size": 5538130,
+                    "url": "https://maven.minecraftforge.net/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
                 }
             }
         },
         {
-            "name": "org.scala-lang.modules:scala-parser-combinators_2.12:2.3.0",
+            "name": "org.scala-lang:scala-parser-combinators_2.11:1.0.1",
             "downloads": {
                 "artifact": {
-                    "sha1": "0d629e5386cd9fa205434fc644ccce0217fd3477",
-                    "size": 186777,
-                    "url": "https://maven.minecraftforge.net/org/scala-lang/modules/scala-parser-combinators_2.12/2.3.0/scala-parser-combinators_2.12-2.3.0.jar"
+                    "sha1": "f05d7345bf5a58924f2837c6c1f4d73a938e1ff0",
+                    "size": 419701,
+                    "url": "https://maven.minecraftforge.net/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
                 }
             }
         },
         {
-            "name": "org.scala-lang:scala-reflect:2.12.18",
+            "name": "org.scala-lang:scala-reflect:2.11.1",
             "downloads": {
                 "artifact": {
-                    "sha1": "7e1a6985bfbe78bdc94f33613301ef385d4629b4",
-                    "size": 3670535,
-                    "url": "https://maven.minecraftforge.net/org/scala-lang/scala-reflect/2.12.18/scala-reflect-2.12.18.jar"
+                    "sha1": "6580347e61cc7f8e802941e7fde40fa83b8badeb",
+                    "size": 4372892,
+                    "url": "https://maven.minecraftforge.net/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
                 }
             }
         },
         {
-            "name": "org.scala-lang.modules:scala-swing_2.12:3.0.0",
+            "name": "org.scala-lang:scala-swing_2.11:1.0.1",
             "downloads": {
                 "artifact": {
-                    "sha1": "02c88d736717473c0c48e08644336ea30f966915",
-                    "size": 721791,
-                    "url": "https://maven.minecraftforge.net/org/scala-lang/modules/scala-swing_2.12/3.0.0/scala-swing_2.12-3.0.0.jar"
+                    "sha1": "b1cdd92bd47b1e1837139c1c53020e86bb9112ae",
+                    "size": 726500,
+                    "url": "https://maven.minecraftforge.net/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
                 }
             }
         },
         {
-            "name": "org.scala-lang.modules:scala-xml_2.12:2.2.0",
+            "name": "org.scala-lang:scala-xml_2.11:1.0.2",
             "downloads": {
                 "artifact": {
-                    "sha1": "72d7ce594b7e64cf668fdeaadede389416a90d9a",
-                    "size": 530211,
-                    "url": "https://maven.minecraftforge.net/org/scala-lang/modules/scala-xml_2.12/2.2.0/scala-xml_2.12-2.2.0.jar"
+                    "sha1": "7a80ec00aec122fba7cd4e0d4cdd87ff7e4cb6d0",
+                    "size": 648679,
+                    "url": "https://maven.minecraftforge.net/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
                 }
             }
         },
@@ -528,6 +528,16 @@
                     "sha1": "112740b44afd5739b4ef614a8ff5221cc3f338b7",
                     "size": 1389070,
                     "url": "https://maven.minecraftforge.net/org/glassfish/corba/glassfish-corba-omgapi/4.2.5/glassfish-corba-omgapi-4.2.5.jar"
+                }
+            }
+        },
+        {
+            "name": "org.openjdk.nashorn:nashorn-core:15.4",
+            "downloads": {
+                "artifact": {
+                    "sha1": "f67f5ffaa5f5130cf6fb9b133da00c7df3b532a5",
+                    "size": 2167292,
+                    "url": "https://maven.minecraftforge.net/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
                 }
             }
         },
