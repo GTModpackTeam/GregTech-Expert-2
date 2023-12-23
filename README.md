@@ -36,7 +36,7 @@
         - For those who want to live a hardcore life.
     - [Compact Machines](https://www.curseforge.com/minecraft/mc-mods/compact-machines)
         - For those who want to build a minimalist factory.
-        - I think practicality starts with EV...?
+        - I think practicality starts with MV...?
     - [Flux Networks](https://www.curseforge.com/minecraft/mc-mods/flux-networks)
         - You want to make RF wireless?
     - [ME Capability Adapter](https://www.curseforge.com/minecraft/mc-mods/capability-adapter)
