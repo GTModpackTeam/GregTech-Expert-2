@@ -73,24 +73,6 @@ global wiremill                  as RecipeMap = RecipeMap.getByName("wiremill");
     <ae2fc:part_fluid_pattern_ex_terminal>
 ]);
 
-# Interface
-<ore:craftInterfaceItem>.addItems([
-    <appliedenergistics2:interface>,
-    <appliedenergistics2:part:440>
-]);
-
-# Fluid Interface
-<ore:craftInterfaceFluid>.addItems([
-    <appliedenergistics2:fluid_interface>,
-    <appliedenergistics2:part:441>
-]);
-
-# Dual Interface
-<ore:craftInterfaceDual>.addItems([
-    <ae2fc:dual_interface>,
-    <ae2fc:part_dual_interface>
-]);
-
 # Fluid Assembler
 <ore:craftAssemblerFluid>.addItems([
     <ae2fc:fluid_assembler>,

@@ -26,10 +26,10 @@ jobs:
 
       - name: Download quest zip
         run: |
-          wget https://github.com/GTModpackTeam/gregtech-expert-2-questbook/archive/refs/heads/main.zip
-          unzip main.zip
-          mv -vf ./gregtech-expert-2-questbook-main/* ./overrides/config/ftbquests/
-          rm -rf ./gregtech-expert-2-questbook-main/ ./main.zip
+          wget -O questbook.zip https://github.com/GTModpackTeam/gregtech-expert-2-questbook/archive/refs/heads/preview.zip
+          unzip questbook.zip
+          mv -vf ./gregtech-expert-2-questbook-preview/* ./overrides/config/ftbquests/
+          rm -rf ./gregtech-expert-2-questbook-preview/ ./questbook.zip
 
       - name: Archive Release CF
         run: |
