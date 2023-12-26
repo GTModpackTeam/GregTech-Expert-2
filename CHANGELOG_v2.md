@@ -7,6 +7,7 @@
 ## Update mods
 - CraftPresence
 - GTExpert-Core
+- AE2 Fluid Crafting Rework
 
 * * *
 

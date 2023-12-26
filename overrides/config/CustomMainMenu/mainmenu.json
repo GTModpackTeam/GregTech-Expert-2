@@ -18,6 +18,18 @@
     }
   },
   "buttons": {
+	"refresh": {
+	  "text" : "",
+	  "posX" : -1050,
+	  "posY" : 2,
+	  "width" : 20,
+	  "height" : 20,
+	  "alignment": "column_top",
+	  "texture" : "custommainmenu:textures/gui/buttons.png",
+	  "action" : {
+	    "type" : "refresh"
+	  }
+	},
     "singleplayer": {
       "text": "menu.singleplayer",
       "texture": "custommainmenu:textures/btn.png",
@@ -141,13 +153,23 @@
   "labels": {
     "mojang": {
       "text": "Copyright Mojang AB. Do not distribute!",
-      "posX": 118,
+      "posX": 120,
       "posY": 0,
-      "alignment": "column_bottom"
+      "alignment": "column_bottom",
+      "action": {
+        "type": "openGui",
+        "gui": "credits"
+      }
+    },
+    "fml": {
+      "text" : "",
+      "posX" : 120,
+      "posY" : -70,
+      "alignment" : "column_bottom"
     },
     "version": {
       "text": "file:custommainmenu:version.txt",
-      "posX": 118,
+      "posX": 120,
       "posY": -10,
       "alignment": "column_bottom",
       "action": {
