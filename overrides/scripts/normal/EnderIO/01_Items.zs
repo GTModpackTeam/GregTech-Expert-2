@@ -239,13 +239,6 @@ recipes.addShaped(<enderio:item_redstone_timer_filter>, [
     [null, null, null]
 ]);
 
-# Soul Vial
-recipes.addShaped(<enderio:item_soul_vial>, [
-    [null, <metaitem:plateSoularium>, null],
-    [<ore:blockGlassHardened>, null, <ore:blockGlassHardened>],
-    [null, <enderio:block_fused_quartz:*>, null]
-]);
-
 # Staff of Levity
 recipes.addShaped(<enderio:item_staff_of_levity>, [
     [null, null, <ore:itemPrecientCrystal>],

@@ -548,18 +548,6 @@ recipes.addShaped(<appliedenergistics2:material:59>, [
     [<appliedenergistics2:material:42>, <metaitem:sensor.ev>, <appliedenergistics2:material:42>]
 ]);
 
-# Fluix Pearl
-recipes.remove(<appliedenergistics2:material:9>);
-chemical_reactor.recipeBuilder()
-    .inputs([
-        <minecraft:ender_pearl>,
-        <metaitem:dustFluix>
-    ])
-    .outputs([<appliedenergistics2:material:9>])
-    .duration(20)
-    .EUt(480)
-    .buildAndRegister();
-
 # Wireless Receiver
 recipes.remove(<appliedenergistics2:material:41>);
 recipes.addShaped(<appliedenergistics2:material:41>, [
