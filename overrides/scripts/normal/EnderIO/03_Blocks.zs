@@ -3,22 +3,6 @@ import mods.jei.JEI;
 
 
 
-# Dark Steel Anvil
-alloy_smelter.recipeBuilder()
-    .inputs([<metaitem:ingotDarkSteel> * 31])
-    .notConsumable([<metaitem:shape.mold.anvil>])
-    .outputs([<enderio:block_dark_steel_anvil>])
-    .duration(512)
-    .EUt(480)
-    .buildAndRegister();
-fluid_solidifier.recipeBuilder()
-    .notConsumable([<metaitem:shape.mold.anvil>])
-    .fluidInputs([<liquid:dark_steel> * 4467])
-    .outputs([<enderio:block_dark_steel_anvil>])
-    .duration(128)
-    .EUt(16)
-    .buildAndRegister();
-
 # Dark Paper Anvil
 alloy_smelter.recipeBuilder()
     .inputs([
@@ -28,67 +12,6 @@ alloy_smelter.recipeBuilder()
     .outputs([<enderio:block_dark_paper_anvil>])
     .duration(200)
     .EUt(480)
-    .buildAndRegister();
-
-# Dark Steel Ladder
-recipes.addShaped(<enderio:block_dark_steel_ladder> * 2, [
-    [<metaitem:stickDarkSteel>, <ore:craftingToolSoftHammer>, <metaitem:stickDarkSteel>],
-    [<metaitem:stickDarkSteel>, <metaitem:stickDarkSteel>, <metaitem:stickDarkSteel>],
-    [<metaitem:stickDarkSteel>, <ore:craftingToolHardHammer>, <metaitem:stickDarkSteel>]
-]);
-assembler.recipeBuilder()
-    .circuit(1)
-    .inputs([<metaitem:stickDarkSteel> * 7])
-    .outputs([<enderio:block_dark_steel_ladder> * 2])
-    .duration(40)
-    .EUt(1)
-    .buildAndRegister();
-
-# Dark Iron Bars
-recipes.addShaped(<enderio:block_dark_iron_bars> * 8, [
-    [null, <ore:craftingToolHardHammer>, null],
-    [<metaitem:stickDarkSteel>, <metaitem:stickDarkSteel>, <metaitem:stickDarkSteel>],
-    [<metaitem:stickDarkSteel>, <metaitem:stickDarkSteel>, <metaitem:stickDarkSteel>]
-]);
-assembler.recipeBuilder()
-    .circuit(3)
-    .inputs([<metaitem:stickDarkSteel> * 3])
-    .outputs([<enderio:block_dark_iron_bars> * 4])
-    .duration(300)
-    .EUt(4)
-    .buildAndRegister();
-
-# Dark Steel Trapdoor
-recipes.addShaped(<enderio:block_dark_steel_trapdoor>, [
-    [<metaitem:screwDarkSteel>, <metaitem:plateDarkSteel>, <metaitem:screwDarkSteel>],
-    [<metaitem:plateDarkSteel>, <minecraft:trapdoor>, <metaitem:plateDarkSteel>],
-    [<ore:craftingToolSaw>, <metaitem:plateDarkSteel>, <ore:craftingToolScrewdriver>]
-]);
-assembler.recipeBuilder()
-    .inputs([
-        <metaitem:plateDarkSteel> * 4,
-        <minecraft:trapdoor>
-    ])
-    .fluidInputs([<liquid:steel> * 16])
-    .outputs([<enderio:block_dark_steel_trapdoor>])
-    .duration(100)
-    .EUt(16)
-    .buildAndRegister();
-
-# Dark Steel Door
-recipes.addShaped(<enderio:block_dark_steel_door>, [
-    [<metaitem:plateDarkSteel>, <enderio:block_dark_iron_bars>, <ore:craftingToolHardHammer>],
-    [<metaitem:plateDarkSteel>, <metaitem:ringDarkSteel>, <metaitem:screwDarkSteel>],
-    [<metaitem:plateDarkSteel>, <metaitem:plateDarkSteel>, <ore:craftingToolScrewdriver>]
-]);
-assembler.recipeBuilder()
-    .inputs([
-        <enderio:block_dark_iron_bars>,
-        <metaitem:plateDarkSteel> * 4
-    ])
-    .outputs([<enderio:block_dark_steel_door>])
-    .duration(400)
-    .EUt(7)
     .buildAndRegister();
 
 # Self-resetting Levers
@@ -108,13 +31,6 @@ JEI.hide(<enderio:block_decoration1:*>);
 JEI.hide(<enderio:block_decoration2:*>);
 JEI.hide(<enderio:block_decoration3:*>);
 
-# Reinforced Obsidian
-recipes.addShaped(<enderio:block_reinforced_obsidian>, [
-    [<enderio:item_material:20>, <enderio:block_dark_iron_bars>, <enderio:item_material:20>],
-    [<enderio:block_dark_iron_bars>, <ore:obsidian>, <enderio:block_dark_iron_bars>],
-    [<enderio:item_material:20>, <enderio:block_dark_iron_bars>, <enderio:item_material:20>]
-]);
-
 # Industrial Insulation
 alloy_smelter.recipeBuilder()
     .inputs([
@@ -126,20 +42,6 @@ alloy_smelter.recipeBuilder()
     .EUt(480)
     .buildAndRegister();
 
-# End Steel Bars
-recipes.addShaped(<enderio:block_end_iron_bars> * 8, [
-    [null, <ore:craftingToolHardHammer>, null],
-    [<metaitem:stickEndSteel>, <metaitem:stickEndSteel>, <metaitem:stickEndSteel>],
-    [<metaitem:stickEndSteel>, <metaitem:stickEndSteel>, <metaitem:stickEndSteel>]
-]);
-assembler.recipeBuilder()
-    .circuit(3)
-    .inputs([<metaitem:stickEndSteel> * 3])
-    .outputs([<enderio:block_end_iron_bars> * 4])
-    .duration(300)
-    .EUt(4)
-    .buildAndRegister();
-
 # TNTs
 JEI.hide(<enderio:block_confusion_charge>);
 JEI.hide(<enderio:block_concussion_charge>);
@@ -149,12 +51,6 @@ JEI.hide(<enderio:block_ender_charge>);
 JEI.hide(<enderio:block_painted_pressure_plate:*>);
 
 # Fused Quartz
-alloy_smelter.recipeBuilder()
-    .inputs([<ore:blockQuartz>])
-    .outputs([<enderio:block_fused_quartz:0>])
-    .duration(56)
-    .EUt(480)
-    .buildAndRegister();
 JEI.hide(<enderio:block_fused_quartz:1>);
 JEI.hide(<enderio:block_fused_quartz:2>);
 JEI.hide(<enderio:block_fused_quartz:3>);
@@ -172,12 +68,6 @@ JEI.hide(<enderio:block_fused_quartz:14>);
 JEI.hide(<enderio:block_fused_quartz:15>);
 
 # Quartz Clear Glass
-alloy_smelter.recipeBuilder()
-    .inputs([<enderio:block_fused_quartz>])
-    .outputs([<enderio:block_fused_glass:0>])
-    .duration(56)
-    .EUt(480)
-    .buildAndRegister();
 JEI.hide(<enderio:block_fused_glass:1>);
 JEI.hide(<enderio:block_fused_glass:2>);
 JEI.hide(<enderio:block_fused_glass:3>);

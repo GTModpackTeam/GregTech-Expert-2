@@ -1,3 +1,22 @@
+# v2.6.4
+## Modpack information
+- Adjusted, added or moved the overall quest description.
+- Texture update of sawmill conveyor
+    -  Thanks to @KatatsumuriPan for his support!!
+
+## Update mods
+- CraftPresence
+- GTExpert-Core
+- AE2 Fluid Crafting Rework
+
+## Fix recipes
+### AE2 Unofficial Extended Life
+- ME Drive and ME Controller required Titanium, but changed to BlackSteel.
+    - This change eliminates the dilemma of not being able to proceed with AE without Vacuum Freezer.
+- Inscriber Presses switched to Mold for GTExpert-Core.
+
+* * *
+
 # v2.6.3
 ## Modpack information
 - Fixed a bug that prevented ACP and AGC recipe execution from working.
