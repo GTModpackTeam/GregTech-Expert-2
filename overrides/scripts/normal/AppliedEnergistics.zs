@@ -724,7 +724,7 @@ assembler.recipeBuilder()
     .inputs([
         <appliedenergistics2:material:24> * 2,
         <ore:circuitHv> * 2,
-        <metaitem:plateTitanium> * 4,
+        <metaitem:plateBlackSteel> * 4,
         <appliedenergistics2:fluix_block>
     ])
     .fluidInputs([<liquid:plastic> * 144])
@@ -892,9 +892,9 @@ assembler.recipeBuilder()
 # ME Drive
 recipes.remove(<appliedenergistics2:drive>);
 recipes.addShaped(<appliedenergistics2:drive>, [
-    [<metaitem:plateTitanium>, <gtexpert:meta_item_1:1>, <metaitem:plateTitanium>],
+    [<metaitem:plateBlackSteel>, <gtexpert:meta_item_1:1>, <metaitem:plateBlackSteel>],
     [<ore:craftGlassCable>, <appliedenergistics2:chest>, <ore:craftGlassCable>],
-    [<metaitem:plateTitanium>, <appliedenergistics2:material:24>, <metaitem:plateTitanium>]
+    [<metaitem:plateBlackSteel>, <appliedenergistics2:material:24>, <metaitem:plateBlackSteel>]
 ]);
 assembler.recipeBuilder()
     .circuit(1)
@@ -903,7 +903,7 @@ assembler.recipeBuilder()
         <gtexpert:meta_item_1:1>,
         <appliedenergistics2:chest>,
         <ore:craftGlassCable>,
-        <metaitem:plateTitanium> * 2
+        <metaitem:plateBlackSteel> * 2
     ])
     .outputs([<appliedenergistics2:drive>])
     .duration(100)
