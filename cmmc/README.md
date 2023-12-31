@@ -1,7 +1,7 @@
 # GregTech Expert 2 for LWJGL3 Version - (Powerd by [CleanroomMMC](https://github.com/CleanroomMC/CleanroomMMC))
 
 ## About
-- This is the first ModPack created(probably) to promote [CleanroomMC](https://github.com/CleanroomMC), which runs on LWGJL version 3 in Minecraft 1.12.2 and aims to run Java 8 or later, optimize, and much more.
+- This is the first ModPack created(probably) to promote [CleanroomMC](https://github.com/CleanroomMC), which runs on LWGJL version 3 in Minecraft 1.12.2 and aims to run Java 21, optimize, and much more.
 
 
 ## How to install
