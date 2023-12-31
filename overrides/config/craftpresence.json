@@ -365,7 +365,7 @@
       "player_info_out": "As {player.name}",
       "player_info_health": "Health: {player.health.current}/{player.health.max}",
       "world_info": "On {world.name}",
-      "pack": "GregTech Expert 2 MODPACKVERSION"
+      "pack": "[CleanroomMMC] GregTech Expert 2 MODPACKVERSION"
     }
   }
 }
