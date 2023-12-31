@@ -19,6 +19,6 @@
 - [ForgeMultipart](https://github.com/kappa-maintainer/CBMultipart/releases) by kappa-maintainer(geeky_kappa)
 - [EnderCore](https://github.com/kappa-maintainer/EnderCore/releases) by kappa-maintainer(geeky_kappa)
 - [ProjectRed](https://github.com/kappa-maintainer/ProjectRed/releases) by kappa-maintainer(geeky_kappa)
-    - ProjectRed-<version>-Base.jar
-    - ProjectRed-<version>-Integration.jar
-    - ProjectRed-<version>-Lighting.jar
+    - ProjectRed-`<version>`-Base.jar
+    - ProjectRed-`<version>`-Integration.jar
+    - ProjectRed-`<version>`-Lighting.jar
