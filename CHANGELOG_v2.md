@@ -7,6 +7,13 @@
 ## Update mods
 - CraftPresence
 - GTExpert-Core
+- AE2 Fluid Crafting Rework
+
+## Fix recipes
+### AE2 Unofficial Extended Life
+- ME Drive and ME Controller required Titanium, but changed to BlackSteel.
+    - This change eliminates the dilemma of not being able to proceed with AE without Vacuum Freezer.
+- Inscriber Presses switched to Mold for GTExpert-Core.
 
 * * *
 
