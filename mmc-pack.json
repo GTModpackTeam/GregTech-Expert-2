@@ -3,7 +3,6 @@
         {
             "cachedName": "LWJGL 3",
             "cachedVersion": "3.3.4-27-CLEANROOM",
-            "cachedVolatile": true,
             "dependencyOnly": true,
             "uid": "org.lwjgl3",
             "version": "3.3.4-27-CLEANROOM"
@@ -12,7 +11,7 @@
             "cachedName": "Minecraft",
             "cachedRequires": [
                 {
-                    "suggests": "3.3.4-27-CLEANROOM",
+                    "suggests": "3.1.1",
                     "uid": "org.lwjgl3"
                 }
             ],
@@ -29,9 +28,9 @@
                     "uid": "net.minecraft"
                 }
             ],
-            "cachedVersion": "15.24.0.3020",
+            "cachedVersion": "15.24.0.3021",
             "uid": "com.cleanroommc",
-            "version": "15.24.0.3020"
+            "version": "15.24.0.3021"
         }
     ],
     "formatVersion": 1

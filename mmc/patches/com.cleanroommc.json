@@ -8,7 +8,7 @@
     "formatVersion": 1,
     "libraries": [
         {
-            "name": "com.cleanroommc:cleanroom:15.24.0.3020-universal",
+            "name": "com.cleanroommc:cleanroom:15.24.0.3021-universal",
             "MMC-hint": "local"
         },
         {
@@ -542,12 +542,12 @@
             }
         },
         {
-            "name": "com.cleanroommc:sponge-mixin:0.15.3+mixin.0.8.5",
+            "name": "com.cleanroommc:sponge-mixin:0.15.4+mixin.0.8.5",
             "downloads": {
                 "artifact": {
-                    "sha1": "6b835d9b9ea988630e9652ef8e4b49e3d7e285ef",
-                    "size": 1421154,
-                    "url": "https://maven.outlands.top/releases/com/cleanroommc/sponge-mixin/0.15.3+mixin.0.8.5/sponge-mixin-0.15.3+mixin.0.8.5.jar"
+                    "sha1": "ddabafbecfc566562c8a2b58eed10ada959d88c9",
+                    "size": 1421174,
+                    "url": "https://maven.outlands.top/releases/com/cleanroommc/sponge-mixin/0.15.4+mixin.0.8.5/sponge-mixin-0.15.4+mixin.0.8.5.jar"
                 }
             }
         },
@@ -1132,5 +1132,5 @@
         }
     ],
     "uid": "com.cleanroommc",
-    "version": "15.24.0.3020"
+    "version": "15.24.0.3021"
 }
