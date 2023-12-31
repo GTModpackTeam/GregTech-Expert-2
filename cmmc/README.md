@@ -11,7 +11,10 @@
 3. Open the [MultiMC](https://multimc.org/) or [Prism Launcher](https://prismlauncher.org/) and create a new instance.
 4. Import the downloaded zip file into the MultiMC instance.
 5. Get the mods you need from the list below.
-6. Run the instance and enjoy the game!
+6. Put the downloaded mods in the `mods` folder of the instance.
+7. Set java version to 21.
+8. Resolve any mod conflicts that may occur.
+9. Run the instance and enjoy the game!
 
 
 ## Self download mods
