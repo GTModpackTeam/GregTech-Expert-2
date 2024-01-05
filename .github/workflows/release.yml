@@ -46,12 +46,19 @@ jobs:
           sed -i -e "s/MODPACKVERSION/v${{ github.event.inputs.version }}/g" ./instance.cfg
           sed -i -e "s/MODPACKVERSION/v${{ github.event.inputs.version }}/g" ./overrides/config/craftpresence.json
 
-      - name: Download quest zip
+      - name: Download Quest Book zip
         run: |
           wget -O questbook.zip https://github.com/GTModpackTeam/gregtech-expert-2-questbook/archive/refs/heads/main.zip
           unzip questbook.zip
           mv -vf ./gregtech-expert-2-questbook-main/* ./overrides/config/ftbquests/
           rm -rf ./gregtech-expert-2-questbook-main/ ./questbook.zip
+
+      - name: Download Resource Packs zip
+        run: |
+          LATEST_RELEASE=$(curl -s https://api.github.com/repos/GTModpackTeam/GTE2-Translations/releases/latest)
+          ASSET_URL=$(echo $LATEST_RELEASE | jq -r '.assets[] | select(.name | test("GTExpert2-v[0-9.]+-resourcepack-v[0-9]+\\.zip")) | .browser_download_url' | tail -1)
+          FILE_NAME=$(echo $LATEST_RELEASE | jq -r '.assets[] | select(.name | test("GTExpert2-v[0-9.]+-resourcepack-v[0-9]+\\.zip")) | .name' | tail -1)
+          wget -O ./overrides/resourcepacks/$FILE_NAME $ASSET_URL
 
       - name: Archive Release CF
         run: |

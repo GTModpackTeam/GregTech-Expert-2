@@ -1,3 +1,12 @@
+# v2.6.5
+## Update mods
+- AE2 Fluid Crafting Rework
+
+## Move mods
+- AE2 Stuff -> AE2 Stuff Unofficial
+
+* * *
+
 # v2.6.4
 ## Modpack information
 - Adjusted, added or moved the overall quest description.
