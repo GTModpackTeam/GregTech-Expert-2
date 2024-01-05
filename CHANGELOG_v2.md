@@ -1,4 +1,8 @@
 # v2.6.5
+## Modpack information
+- We have started translating the mods used in GTE2.
+    - Please check with [https://github.com/GTModpackTeam/GTE2-Translations](https://github.com/GTModpackTeam/GTE2-Translations)
+
 ## Update mods
 - AE2 Fluid Crafting Rework
 
