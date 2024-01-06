@@ -3,6 +3,9 @@
 - We have started translating the mods used in GTE2.
     - Please check with [https://github.com/GTModpackTeam/GTE2-Translations](https://github.com/GTModpackTeam/GTE2-Translations)
 
+## New mods
+- Aqua Acrobatics
+
 ## Update mods
 - AE2 Fluid Crafting Rework
 
