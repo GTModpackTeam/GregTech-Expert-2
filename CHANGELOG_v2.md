@@ -12,6 +12,10 @@
 ## Move mods
 - AE2 Stuff -> AE2 Stuff Unofficial
 
+## Formally introduced from compatibility mods
+- Compact Machines
+- ME Capability Adapter
+
 * * *
 
 # v2.6.4
