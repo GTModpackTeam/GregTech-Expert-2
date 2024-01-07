@@ -36,9 +36,13 @@
         - For those who want to live a hardcore life.
     - [Flux Networks](https://www.curseforge.com/minecraft/mc-mods/flux-networks)
         - You want to make RF wireless?
-    - [Thaumcraft(WIP)](https://www.curseforge.com/minecraft/mc-mods/thaumcraft)
+    - (**WIP**) [Forestry](https://www.curseforge.com/minecraft/mc-mods/forestry)
+        - You want to bee breeding?
+    - (**WIP**) [Gendustry](https://www.curseforge.com/minecraft/mc-mods/gendustry)
+        - You want to automate bee breeding?
+    - (**WIP**) [Thaumcraft)](https://www.curseforge.com/minecraft/mc-mods/thaumcraft)
         - You want to use Thaumcraft's magic?
-    - [Thaumic Energistics Extended Life(WIP)](https://www.curseforge.com/minecraft/mc-mods/thaumic-energistics-extended-life)
+    - (**WIP**) [Thaumic Energistics Extended Life](https://www.curseforge.com/minecraft/mc-mods/thaumic-energistics-extended-life)
         - You want to use Thaumcraft's magic with AE2?
     - [Volumetric Flask](https://www.curseforge.com/minecraft/mc-mods/volumetric-flask)
         - Migration to AE2 Fluid Crafting Rework. However, a Flask can still be created.
