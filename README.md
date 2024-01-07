@@ -34,13 +34,16 @@
 - However, support is for recipes only, so we will not respond to reports of unstable operation of the mod itself :<
     - [The Spice of Life](https://www.curseforge.com/minecraft/mc-mods/the-spice-of-life)
         - For those who want to live a hardcore life.
-    - [Compact Machines](https://www.curseforge.com/minecraft/mc-mods/compact-machines)
-        - For those who want to build a minimalist factory.
-        - I think practicality starts with MV...?
     - [Flux Networks](https://www.curseforge.com/minecraft/mc-mods/flux-networks)
         - You want to make RF wireless?
-    - [ME Capability Adapter](https://www.curseforge.com/minecraft/mc-mods/capability-adapter)
-        - For those who want to use ME System.
+    - (**WIP**) [Forestry](https://www.curseforge.com/minecraft/mc-mods/forestry)
+        - You want to bee breeding?
+    - (**WIP**) [Gendustry](https://www.curseforge.com/minecraft/mc-mods/gendustry)
+        - You want to automate bee breeding?
+    - (**WIP**) [Thaumcraft)](https://www.curseforge.com/minecraft/mc-mods/thaumcraft)
+        - You want to use Thaumcraft's magic?
+    - (**WIP**) [Thaumic Energistics Extended Life](https://www.curseforge.com/minecraft/mc-mods/thaumic-energistics-extended-life)
+        - You want to use Thaumcraft's magic with AE2?
     - [Volumetric Flask](https://www.curseforge.com/minecraft/mc-mods/volumetric-flask)
         - Migration to AE2 Fluid Crafting Rework. However, a Flask can still be created.
     - [ExtraCells2 - SamLam140330's Fork](https://www.curseforge.com/minecraft/mc-mods/extra-cells-2-samlam140330s-fork)

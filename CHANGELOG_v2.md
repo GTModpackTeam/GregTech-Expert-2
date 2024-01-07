@@ -1,3 +1,23 @@
+# v2.6.5
+## Modpack information
+- We have started translating the mods used in GTE2.
+    - Please check with [https://github.com/GTModpackTeam/GTE2-Translations](https://github.com/GTModpackTeam/GTE2-Translations)
+
+## New mods
+- Aqua Acrobatics
+
+## Update mods
+- AE2 Fluid Crafting Rework
+
+## Move mods
+- AE2 Stuff -> AE2 Stuff Unofficial
+
+## Formally introduced from compatibility mods
+- Compact Machines
+- ME Capability Adapter
+
+* * *
+
 # v2.6.4
 ## Modpack information
 - Adjusted, added or moved the overall quest description.
