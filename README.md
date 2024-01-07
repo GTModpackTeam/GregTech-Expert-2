@@ -36,6 +36,10 @@
         - For those who want to live a hardcore life.
     - [Flux Networks](https://www.curseforge.com/minecraft/mc-mods/flux-networks)
         - You want to make RF wireless?
+    - [Thaumcraft(WIP)](https://www.curseforge.com/minecraft/mc-mods/thaumcraft)
+        - You want to use Thaumcraft's magic?
+    - [Thaumic Energistics Extended Life(WIP)](https://www.curseforge.com/minecraft/mc-mods/thaumic-energistics-extended-life)
+        - You want to use Thaumcraft's magic with AE2?
     - [Volumetric Flask](https://www.curseforge.com/minecraft/mc-mods/volumetric-flask)
         - Migration to AE2 Fluid Crafting Rework. However, a Flask can still be created.
     - [ExtraCells2 - SamLam140330's Fork](https://www.curseforge.com/minecraft/mc-mods/extra-cells-2-samlam140330s-fork)
