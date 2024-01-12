@@ -5,6 +5,7 @@
 
 ## New mods
 - Aqua Acrobatics
+- Better Line Break
 
 ## Update mods
 - AE2 Fluid Crafting Rework
