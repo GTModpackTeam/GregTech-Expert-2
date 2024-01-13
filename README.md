@@ -40,7 +40,7 @@
         - You want to bee breeding?
     - (**WIP**) [Gendustry](https://www.curseforge.com/minecraft/mc-mods/gendustry)
         - You want to automate bee breeding?
-    - (**WIP**) [Thaumcraft)](https://www.curseforge.com/minecraft/mc-mods/thaumcraft)
+    - (**WIP**) [Thaumcraft](https://www.curseforge.com/minecraft/mc-mods/thaumcraft)
         - You want to use Thaumcraft's magic?
     - (**WIP**) [Thaumic Energistics Extended Life](https://www.curseforge.com/minecraft/mc-mods/thaumic-energistics-extended-life)
         - You want to use Thaumcraft's magic with AE2?
