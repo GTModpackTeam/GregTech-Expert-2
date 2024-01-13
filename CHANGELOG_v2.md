@@ -8,7 +8,9 @@
 - Better Line Break
 
 ## Update mods
+- AE2 Unofficial Extended Life
 - AE2 Fluid Crafting Rework
+- VintageFix
 
 ## Move mods
 - AE2 Stuff -> AE2 Stuff Unofficial
