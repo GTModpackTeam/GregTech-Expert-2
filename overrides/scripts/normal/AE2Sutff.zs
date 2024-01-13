@@ -6,9 +6,6 @@ import mods.jei.JEI;
 ########################################
 # Blocks
 ########################################
-# Pattern Encoder
-JEI.removeAndHide(<ae2stuff:encoder>);
-
 # Crystal Growth Chamber
 JEI.removeAndHide(<ae2stuff:grower>);
 
