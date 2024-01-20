@@ -3,6 +3,10 @@
 - We have started translating the mods used in GTE2.
     - Please check with [https://github.com/GTModpackTeam/GTE2-Translations](https://github.com/GTModpackTeam/GTE2-Translations)
 
+## New ResourcePack
+- [[GTE2] GhaTech Textures](https://www.curseforge.com/minecraft/texture-packs/ghatech-textures)
+    - Thanks to @hag_hagmu for his support!!
+
 ## New mods
 - Aqua Acrobatics
 - Better Line Break
