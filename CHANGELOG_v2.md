@@ -1,11 +1,23 @@
+# v2.6.6
+## New mods
+- Nutrition Unofficial Extended Life
+- Nutrition: GTCEu
+
+## Update mods
+- AE2 Unofficial Extended Life
+- AE2 Fluid Crafting Rework
+- ModularUI
+- Better Line Break
+
+## Formally introduced from compatibility mods
+- The Spice of Life
+
+* * *
+
 # v2.6.5
 ## Modpack information
 - We have started translating the mods used in GTE2.
     - Please check with [https://github.com/GTModpackTeam/GTE2-Translations](https://github.com/GTModpackTeam/GTE2-Translations)
-
-## New ResourcePack
-- [[GTE2] GhaTech Textures](https://www.curseforge.com/minecraft/texture-packs/ghatech-textures)
-    - Thanks to @hag_hagmu for his support!!
 
 ## New mods
 - Aqua Acrobatics
@@ -14,7 +26,6 @@
 ## Update mods
 - AE2 Unofficial Extended Life
 - AE2 Fluid Crafting Rework
-- ModularUI
 - VintageFix
 
 ## Move mods
@@ -23,6 +34,7 @@
 ## Formally introduced from compatibility mods
 - Compact Machines
 - ME Capability Adapter
+
 
 * * *
 
