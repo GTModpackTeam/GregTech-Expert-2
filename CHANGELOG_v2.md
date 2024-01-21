@@ -14,6 +14,7 @@
 ## Update mods
 - AE2 Unofficial Extended Life
 - AE2 Fluid Crafting Rework
+- ModularUI
 - VintageFix
 
 ## Move mods
