@@ -1,4 +1,4 @@
-# 2.6.6
+# v2.6.6
 ## Update mods
 - GregTech CE: Unofficial
 - AE2 Unofficial Extended Life
