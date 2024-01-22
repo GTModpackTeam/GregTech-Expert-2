@@ -1,16 +1,10 @@
-# v2.6.6
-## New mods
-- Nutrition Unofficial Extended Life
-- Nutrition: GTCEu
-
+# 2.6.6
 ## Update mods
+- GregTech CE: Unofficial
 - AE2 Unofficial Extended Life
 - AE2 Fluid Crafting Rework
 - ModularUI
 - Better Line Break
-
-## Formally introduced from compatibility mods
-- The Spice of Life
 
 * * *
 
@@ -34,7 +28,6 @@
 ## Formally introduced from compatibility mods
 - Compact Machines
 - ME Capability Adapter
-
 
 * * *
 
