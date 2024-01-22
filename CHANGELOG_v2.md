@@ -1,3 +1,13 @@
+# v2.7.0
+## New mods
+- Nutrition Unofficial Extended Life
+- Nutrition: GTCEu
+
+## Formally introduced from compatibility mods
+- The Spice of Life
+
+* * *
+
 # 2.6.6
 ## Update mods
 - GregTech CE: Unofficial
