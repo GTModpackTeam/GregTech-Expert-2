@@ -1,3 +1,13 @@
+# v2.6.6
+## Update mods
+- GregTech CE: Unofficial
+- AE2 Unofficial Extended Life
+- AE2 Fluid Crafting Rework
+- ModularUI
+- Better Line Break
+
+* * *
+
 # v2.6.5
 ## Modpack information
 - We have started translating the mods used in GTE2.
