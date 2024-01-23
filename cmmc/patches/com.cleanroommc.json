@@ -8,7 +8,7 @@
     "formatVersion": 1,
     "libraries": [
         {
-            "name": "com.cleanroommc:cleanroom:15.24.0.3026-universal",
+            "name": "com.cleanroommc:cleanroom:15.24.0.3028-universal",
             "MMC-hint": "local"
         },
         {
@@ -142,32 +142,32 @@
             }
         },
         {
-            "name": "com.cleanroommc:bouncepad:0.4.26-cursed",
+            "name": "com.cleanroommc:bouncepad:0.4.32-cursed",
             "downloads": {
                 "artifact": {
-                    "sha1": "259c71a10c02f3a0817a7d51cd9d38c61f20dec6",
-                    "size": 160444,
-                    "url": "https://maven.outlands.top/releases/com/cleanroommc/bouncepad/0.4.26-cursed/bouncepad-0.4.26-cursed.jar"
+                    "sha1": "a975b3361e55613c3ae0cba3902befd70709810d",
+                    "size": 392564,
+                    "url": "https://maven.outlands.top/releases/com/cleanroommc/bouncepad/0.4.32-cursed/bouncepad-0.4.32-cursed.jar"
                 }
             }
         },
         {
-            "name": "com.ibm.icu:icu4j:74.1",
+            "name": "com.ibm.icu:icu4j:74.2",
             "downloads": {
                 "artifact": {
-                    "sha1": "76698636a8b6ada58bf61ae57be748abe1f75840",
-                    "size": 14311253,
-                    "url": "https://maven.minecraftforge.net/com/ibm/icu/icu4j/74.1/icu4j-74.1.jar"
+                    "sha1": "97222d018f7f43cae88cacd1fad39717b001ffc4",
+                    "size": 14311564,
+                    "url": "https://maven.minecraftforge.net/com/ibm/icu/icu4j/74.2/icu4j-74.2.jar"
                 }
             }
         },
         {
-            "name": "org.jline:jline:3.24.1",
+            "name": "org.jline:jline:3.25.0",
             "downloads": {
                 "artifact": {
-                    "sha1": "babbac968fafe76884b0cf41124569e8bc004d04",
-                    "size": 1145741,
-                    "url": "https://maven.minecraftforge.net/org/jline/jline/3.24.1/jline-3.24.1.jar"
+                    "sha1": "bf1a4a43c7ece74d0d7887c9cd2fb4493517ebcb",
+                    "size": 1256232,
+                    "url": "https://maven.minecraftforge.net/org/jline/jline/3.25.0/jline-3.25.0.jar"
                 }
             }
         },
@@ -402,22 +402,22 @@
             }
         },
         {
-            "name": "commons-io:commons-io:2.15.0",
+            "name": "commons-io:commons-io:2.15.1",
             "downloads": {
                 "artifact": {
-                    "sha1": "5c3c2db10f6f797430a7f9c696b4d1273768c924",
-                    "size": 500628,
-                    "url": "https://maven.minecraftforge.net/commons-io/commons-io/2.15.0/commons-io-2.15.0.jar"
+                    "sha1": "f11560da189ab563a5c8e351941415430e9304ea",
+                    "size": 501218,
+                    "url": "https://maven.minecraftforge.net/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar"
                 }
             }
         },
         {
-            "name": "commons-logging:commons-logging:1.2",
+            "name": "commons-logging:commons-logging:1.3.0",
             "downloads": {
                 "artifact": {
-                    "sha1": "4bfc12adfe4842bf07b657f0369c4cb522955686",
-                    "size": 61829,
-                    "url": "https://maven.minecraftforge.net/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
+                    "sha1": "f5e064b541f5c5fbc5e4fb49c4e8cd4eabb3afd6",
+                    "size": 70816,
+                    "url": "https://maven.minecraftforge.net/commons-logging/commons-logging/1.3.0/commons-logging-1.3.0.jar"
                 }
             }
         },
@@ -462,22 +462,22 @@
             }
         },
         {
-            "name": "org.apache.logging.log4j:log4j-api:2.22.0",
+            "name": "org.apache.logging.log4j:log4j-api:2.22.1",
             "downloads": {
                 "artifact": {
-                    "sha1": "2c7d82708efd430e722562be1993defd9fb2426b",
-                    "size": 332709,
-                    "url": "https://maven.minecraftforge.net/org/apache/logging/log4j/log4j-api/2.22.0/log4j-api-2.22.0.jar"
+                    "sha1": "bea6fede6328fabafd7e68363161a7ea6605abd1",
+                    "size": 335001,
+                    "url": "https://maven.minecraftforge.net/org/apache/logging/log4j/log4j-api/2.22.1/log4j-api-2.22.1.jar"
                 }
             }
         },
         {
-            "name": "org.apache.logging.log4j:log4j-core:2.22.0",
+            "name": "org.apache.logging.log4j:log4j-core:2.22.1",
             "downloads": {
                 "artifact": {
-                    "sha1": "bf2fd48bc237e99fd4f1c2e82db3b10ffb8c1f47",
-                    "size": 1883043,
-                    "url": "https://maven.minecraftforge.net/org/apache/logging/log4j/log4j-core/2.22.0/log4j-core-2.22.0.jar"
+                    "sha1": "7183a25510a02ad00cc6a95d3b3d2a7d3c5a8dc4",
+                    "size": 1900022,
+                    "url": "https://maven.minecraftforge.net/org/apache/logging/log4j/log4j-core/2.22.1/log4j-core-2.22.1.jar"
                 }
             }
         },
@@ -542,22 +542,22 @@
             }
         },
         {
-            "name": "com.cleanroommc:sponge-mixin:0.15.4+mixin.0.8.5",
+            "name": "com.cleanroommc:sponge-mixin:0.16.0+mixin.0.8.5",
             "downloads": {
                 "artifact": {
-                    "sha1": "ddabafbecfc566562c8a2b58eed10ada959d88c9",
-                    "size": 1421174,
-                    "url": "https://maven.outlands.top/releases/com/cleanroommc/sponge-mixin/0.15.4+mixin.0.8.5/sponge-mixin-0.15.4+mixin.0.8.5.jar"
+                    "sha1": "60ecba4d551f61008dac2fda119e5612864f083b",
+                    "size": 1415738,
+                    "url": "https://maven.outlands.top/releases/com/cleanroommc/sponge-mixin/0.16.0+mixin.0.8.5/sponge-mixin-0.16.0+mixin.0.8.5.jar"
                 }
             }
         },
         {
-            "name": "io.github.llamalad7:mixinextras-common:0.3.2",
+            "name": "io.github.llamalad7:mixinextras-common:0.3.5",
             "downloads": {
                 "artifact": {
-                    "sha1": "cc8b8c5ed845c48ba5b66f17967e1bc388b85db4",
-                    "size": 167204,
-                    "url": "https://maven.minecraftforge.net/io/github/llamalad7/mixinextras-common/0.3.2/mixinextras-common-0.3.2.jar"
+                    "sha1": "5de895137aa0478675b6ecf7602d9652b05dc37e",
+                    "size": 173204,
+                    "url": "https://maven.minecraftforge.net/io/github/llamalad7/mixinextras-common/0.3.5/mixinextras-common-0.3.5.jar"
                 }
             }
         },
@@ -1132,5 +1132,5 @@
         }
     ],
     "uid": "com.cleanroommc",
-    "version": "15.24.0.3026"
+    "version": "15.24.0.3028"
 }
