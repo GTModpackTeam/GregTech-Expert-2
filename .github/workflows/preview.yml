@@ -40,7 +40,8 @@ jobs:
 
       - name: Archive Release CF
         run: |
-          zip -r ./GTExpert2-${{ env.VERSION }}-pr-${{ env.PR_VERSION }}-cf.zip ./manifest.json ./modlist.html ./overrides/bansoukou/ ./overrides/config/ ./overrides/local/ ./overrides/resourcepacks/icons/ ./overrides/resources/ ./overrides/scripts/
+          rm -rf ./overrides/resourcepacks/.gitkeep
+          zip -r ./GTExpert2-${{ env.VERSION }}-pr-${{ env.PR_VERSION }}-cf.zip ./manifest.json ./modlist.html ./overrides/bansoukou/ ./overrides/config/ ./overrides/local/ ./overrides/resourcepacks/ ./overrides/resources/ ./overrides/scripts/
 
       - name: Setup Python
         uses: actions/setup-python@v4
@@ -64,7 +65,6 @@ jobs:
           cp -vf ./icon.png .minecraft/
           cp -vf ./mmc/ .minecraft/
           rm -rf .minecraft/mods/.gitkeep
-          rm -rf .minecraft/resourcepacks/.gitkeep
           zip -r ./GTExpert2-${{ env.VERSION }}-pr-${{ env.PR_VERSION }}-mmc.zip ./mmc-pack.json ./instance.cfg .minecraft/
 
       - name: Move Server Files
