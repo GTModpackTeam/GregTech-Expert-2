@@ -1,3 +1,12 @@
+# v2.6.7
+## Modpack information
+- Hotfix for v2.6.6
+
+## Update mods
+- GTExpert-Core
+
+* * *
+
 # v2.6.6
 ## Update mods
 - GregTech CE: Unofficial
