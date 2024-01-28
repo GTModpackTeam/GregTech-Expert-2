@@ -4,6 +4,7 @@
 
 ## Update mods
 - GTExpert-Core
+- CraftTweaker
 
 * * *
 
