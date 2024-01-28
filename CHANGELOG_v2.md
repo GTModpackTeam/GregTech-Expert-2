@@ -3,6 +3,9 @@
 - Nutrition Unofficial Extended Life
 - Nutrition: GTCEu
 
+## Update mods
+- GTExpert-Core
+
 ## Formally introduced from compatibility mods
 - The Spice of Life
 
