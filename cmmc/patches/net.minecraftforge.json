@@ -142,12 +142,12 @@
             }
         },
         {
-            "name": "com.cleanroommc:bouncepad:0.4.32-cursed",
+            "name": "com.cleanroommc:bouncepad:0.4.33-cursed",
             "downloads": {
                 "artifact": {
-                    "sha1": "a975b3361e55613c3ae0cba3902befd70709810d",
-                    "size": 392564,
-                    "url": "https://maven.outlands.top/releases/com/cleanroommc/bouncepad/0.4.32-cursed/bouncepad-0.4.32-cursed.jar"
+                    "sha1": "9aa1a8730eec9fa94969dc8fd7eed60aa418774e",
+                    "size": 392575,
+                    "url": "https://maven.outlands.top/releases/com/cleanroommc/bouncepad/0.4.33-cursed/bouncepad-0.4.33-cursed.jar"
                 }
             }
         },
@@ -1131,6 +1131,6 @@
             "uid": "net.minecraft"
         }
     ],
-    "uid": "com.cleanroommc",
+    "uid": "net.minecraftforge",
     "version": "15.24.0.3028"
 }
