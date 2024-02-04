@@ -4,6 +4,9 @@
 - Nutrition: GTCEu
 
 ## Update mods
+- CraftPresence
+- AE2 Fluid Crafting Rework
+- Better Line Break
 - GTExpert-Core
 
 ## Formally introduced from compatibility mods
