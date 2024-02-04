@@ -6,7 +6,6 @@
 	"food": {
 		"oredict": [
 			"foodButter",
-			"foodCheese",
 			"foodChocolatebar",
 			"listAllmilk"
 		],
@@ -678,8 +677,6 @@
 			"gregtechfoodoption:gtfo_meta_item:70",
 			"gregtechfoodoption:gtfo_meta_item:72",
 			"gregtechfoodoption:gtfo_meta_item:66",
-			"gregtechfoodoption:gtfo_meta_item:203",
-			"gregtechfoodoption:gtfo_meta_item:204",
 			"gregtechfoodoption:gtfo_meta_item:216",
 			"gregtechfoodoption:gtfo_meta_item:225",
 			"gregtechfoodoption:gtfo_meta_item:226",
