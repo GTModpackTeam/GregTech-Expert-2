@@ -3,6 +3,9 @@
 - A major adjustment has been made in food related matter.
     - Thanks to @KatatsumuriPan, @MaimoCh, @hag-hag for his support!!
 
+## Move mods
+- File Director -> GTExpert-Core
+
 ## New mods
 - Nutrition Unofficial Extended Life
 - Nutrition: GTCEu
