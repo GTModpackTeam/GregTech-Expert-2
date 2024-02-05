@@ -1,4 +1,8 @@
 # v2.7.0
+## Modpack information
+- A major adjustment has been made in food related matter.
+    - Thanks to @KatatsumuriPan, @MaimoCh, @hag-hag for his support!!
+
 ## New mods
 - Nutrition Unofficial Extended Life
 - Nutrition: GTCEu
