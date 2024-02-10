@@ -21,7 +21,7 @@ with open('./manifest.json', 'r') as f:
     data = json.load(f)
 
 # Remove lwjgl3 not supported mods
-data = [item for item in data if item['projectID'] not in projectIDs]
+data['files'] = [item for item in data['files'] if item['projectID'] not in projectIDs]
 
 # Write manifest.json
 with open('./cmmc/manifest.json', 'w') as f:
