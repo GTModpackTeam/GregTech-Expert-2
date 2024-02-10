@@ -44,6 +44,9 @@ jobs:
           python-version: '3.11'
           cache: pip
 
+      - name: Remove lwjgl3 not supported mods
+        run: python buildtools/gen-lwjgl3-manifest.py
+
       - name: Install dependencies
         run: |
           cp -vf ./cmmc/manifest.json ./manifest.json
