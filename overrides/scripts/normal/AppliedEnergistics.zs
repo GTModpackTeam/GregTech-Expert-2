@@ -1051,15 +1051,6 @@ assembler.recipeBuilder()
     .EUt(1920)
     .buildAndRegister();
 
-# Crafting Co-Processing Unit
-recipes.remove(<appliedenergistics2:crafting_accelerator>);
-recipes.addShapeless(<appliedenergistics2:crafting_accelerator>, [
-    <appliedenergistics2:crafting_unit>,
-    <appliedenergistics2:material:23>,
-    <appliedenergistics2:material:22>,
-    <appliedenergistics2:material:24>
-]);
-
 # Molecular Assembler
 recipes.remove(<appliedenergistics2:molecular_assembler>);
 assembler.recipeBuilder()

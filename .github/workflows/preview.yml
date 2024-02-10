@@ -44,7 +44,7 @@ jobs:
           zip -r ./GTExpert2-${{ env.VERSION }}-pr-${{ env.PR_VERSION }}-cf.zip ./manifest.json ./modlist.html ./overrides/bansoukou/ ./overrides/config/ ./overrides/local/ ./overrides/resourcepacks/ ./overrides/resources/ ./overrides/scripts/
 
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
           cache: pip

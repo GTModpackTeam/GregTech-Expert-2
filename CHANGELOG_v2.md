@@ -1,3 +1,28 @@
+# v2.7.0
+## Modpack information
+- A major adjustment has been made in food related matter.
+    - Thanks to @KatatsumuriPan, @MaimoCh, @hag-hag for his support!!
+
+## Move mods
+- File Director -> GTExpert-Core
+
+## New mods
+- Nutrition Unofficial Extended Life
+- Nutrition: GTCEu
+
+## Update mods
+- CraftPresence
+- Better Line Break
+- AE2 Unofficial Extended Life
+- AE2 Fluid Crafting Rework
+- GregTech Food Option
+- GTExpert-Core
+
+## Formally introduced from compatibility mods
+- The Spice of Life
+
+* * *
+
 # v2.6.7
 ## Modpack information
 - Hotfix for v2.6.6
