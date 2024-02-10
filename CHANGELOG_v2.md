@@ -12,8 +12,10 @@
 
 ## Update mods
 - CraftPresence
-- AE2 Fluid Crafting Rework
 - Better Line Break
+- AE2 Unofficial Extended Life
+- AE2 Fluid Crafting Rework
+- GregTech Food Option
 - GTExpert-Core
 
 ## Formally introduced from compatibility mods
