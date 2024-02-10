@@ -8,7 +8,7 @@
     "formatVersion": 1,
     "libraries": [
         {
-            "name": "com.cleanroommc:cleanroom:15.24.0.3028-universal",
+            "name": "com.cleanroommc:cleanroom:15.24.0.3029-universal",
             "MMC-hint": "local"
         },
         {
@@ -142,12 +142,12 @@
             }
         },
         {
-            "name": "com.cleanroommc:bouncepad:0.4.33-cursed",
+            "name": "com.cleanroommc:bouncepad:0.4.35-cursed",
             "downloads": {
                 "artifact": {
-                    "sha1": "9aa1a8730eec9fa94969dc8fd7eed60aa418774e",
-                    "size": 392575,
-                    "url": "https://maven.outlands.top/releases/com/cleanroommc/bouncepad/0.4.33-cursed/bouncepad-0.4.33-cursed.jar"
+                    "sha1": "8037da810acae19e7d0fc89aa390f83376cdaa06",
+                    "size": 392580,
+                    "url": "https://maven.outlands.top/releases/com/cleanroommc/bouncepad/0.4.35-cursed/bouncepad-0.4.35-cursed.jar"
                 }
             }
         },
@@ -378,6 +378,26 @@
                     "sha1": "b1d8ab82d11d92fd639b56d639f8f46f739dd5fa",
                     "size": 979212,
                     "url": "https://maven.minecraftforge.net/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar"
+                }
+            }
+        },
+        {
+            "name": "net.java.dev.jna:jna:5.14.0",
+            "downloads": {
+                "artifact": {
+                    "sha1": "67bf3eaea4f0718cb376a181a629e5f88fa1c9dd",
+                    "size": 1878533,
+                    "url": "https://maven.minecraftforge.net/net/java/dev/jna/jna/5.14.0/jna-5.14.0.jar"
+                }
+            }
+        },
+        {
+            "name": "net.java.dev.jna:jna-platform:5.14.0",
+            "downloads": {
+                "artifact": {
+                    "sha1": "28934d48aed814f11e4c584da55c49fa7032b31b",
+                    "size": 1369287,
+                    "url": "https://maven.minecraftforge.net/net/java/dev/jna/jna-platform/5.14.0/jna-platform-5.14.0.jar"
                 }
             }
         },
@@ -1132,5 +1152,5 @@
         }
     ],
     "uid": "net.minecraftforge",
-    "version": "15.24.0.3028"
+    "version": "15.24.0.3029"
 }
