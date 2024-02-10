@@ -60,6 +60,7 @@ jobs:
 
       - name: Archive Release MMC
         run: |
+          cp -rvf ./cmmc/bansoukou/* ./overrides/bansoukou/
           rm -Rf ./cmmc/bansoukou/
           mv -vf ./overrides/ .minecraft/
           cp -vf ./icon.png .minecraft/
