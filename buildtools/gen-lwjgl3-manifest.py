@@ -11,13 +11,7 @@ projectIDs = [
     624960, # Nothirium
     409087, # Entity Culling
     620262, # 燐/Hesperus
-    419286, # MixinBooter
-    242818, # CodeChicken Lib 1.8.+
-    258426, # CB Multipart
-    231868, # EnderCore
-    228702, # Project Red - Core
-    229046, # Project Red - Illumination
-    229045 # Project Red - Integration
+    419286 # MixinBooter
 ]
 
 # Read manifest.json

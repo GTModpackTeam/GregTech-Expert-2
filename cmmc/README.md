@@ -1,7 +1,7 @@
 # GregTech Expert 2 for LWJGL3 Version - (Powerd by [CleanroomMMC](https://github.com/CleanroomMC/CleanroomMMC))
 
 ## About
-- This is the first ModPack created(probably) to promote [CleanroomMC](https://github.com/CleanroomMC), which runs on LWGJL version 3 in Minecraft 1.12.2 and aims to run Java 21, optimize, and much more.
+- This is the first ModPack created(probably) to promote [CleanroomMC](https://github.com/CleanroomMC), which runs on LWJGL version 3 in Minecraft 1.12.2 and aims to run Java 21, optimize, and much more.
 
 
 ## How to install
@@ -18,10 +18,4 @@
 
 
 ## Self download mods
-- [CodeChickenLib](https://github.com/CleanroomMC/CodeChickenLib/releases) by CleanroomMC
-- [ForgeMultipart](https://github.com/kappa-maintainer/CBMultipart/releases) by kappa-maintainer(geeky_kappa)
-- [EnderCore](https://github.com/kappa-maintainer/EnderCore/releases) by kappa-maintainer(geeky_kappa)
-- [ProjectRed](https://github.com/kappa-maintainer/ProjectRed/releases) by kappa-maintainer(geeky_kappa)
-    - ProjectRed-`<version>`-Base.jar
-    - ProjectRed-`<version>`-Integration.jar
-    - ProjectRed-`<version>`-Lighting.jar
+- [Fugue](https://github.com/CleanroomMC/Fugue/releases) by CleanroomMC
