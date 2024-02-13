@@ -12,7 +12,9 @@
 
 ## Update mods
 - CraftPresence
+- Inventory Bogo Sorter
 - Better Line Break
+- MixinBooter
 - AE2 Unofficial Extended Life
 - AE2 Fluid Crafting Rework
 - GregTech Food Option
