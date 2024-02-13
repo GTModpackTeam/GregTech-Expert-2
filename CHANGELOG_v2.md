@@ -12,8 +12,11 @@
 
 ## Update mods
 - CraftPresence
+- ConfigAnytime
 - Inventory Bogo Sorter
 - Better Line Break
+- RenderLib
+- Entity Culling
 - MixinBooter
 - AE2 Unofficial Extended Life
 - AE2 Fluid Crafting Rework
