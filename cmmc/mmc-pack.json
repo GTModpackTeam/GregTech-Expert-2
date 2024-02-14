@@ -22,16 +22,16 @@
             "version": "1.12.2"
         },
         {
-            "cachedName": "Forge",
+            "cachedName": "Cleanroom",
             "cachedRequires": [
                 {
                     "equals": "1.12.2",
                     "uid": "net.minecraft"
                 }
             ],
-            "cachedVersion": "15.24.0.3000",
+            "cachedVersion": "15.24.0.3029",
             "uid": "net.minecraftforge",
-            "version": "15.24.0.3000"
+            "version": "15.24.0.3029"
         }
     ],
     "formatVersion": 1
