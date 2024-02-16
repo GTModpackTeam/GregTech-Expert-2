@@ -20,6 +20,7 @@
 - MixinBooter
 - AE2 Unofficial Extended Life
 - AE2 Fluid Crafting Rework
+- PackagedAuto
 - GregTech Food Option
 - GTExpert-Core
 
