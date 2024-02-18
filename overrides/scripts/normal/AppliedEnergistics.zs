@@ -101,29 +101,6 @@ recipes.addShaped(<appliedenergistics2:material:52> * 2, [
     [<metaitem:plateAluminium>, <metaitem:plateAluminium>, <metaitem:plateAluminium>]
 ]);
 
-# Storage Housing
-recipes.remove(<appliedenergistics2:material:39>);
-recipes.addShaped(<appliedenergistics2:material:39>, [
-    [<ore:craftingToolScrewdriver>, <metaitem:plateSteel>, <metaitem:screwSteel>],
-    [<metaitem:plateSteel>, null, <metaitem:plateSteel>],
-    [<metaitem:screwSteel>, <metaitem:plateSteel>, <ore:craftingToolHardHammer>]
-]);
-recipes.addShaped(<appliedenergistics2:material:39>, [
-    [<ore:craftingToolHardHammer>, <metaitem:plateSteel>, <metaitem:screwSteel>],
-    [<metaitem:plateSteel>, null, <metaitem:plateSteel>],
-    [<metaitem:screwSteel>, <metaitem:plateSteel>, <ore:craftingToolScrewdriver>]
-]);
-assembler.recipeBuilder()
-    .circuit(3)
-    .inputs([
-        <metaitem:plateSteel> * 2,
-        <metaitem:screwSteel> * 2
-    ])
-    .outputs([<appliedenergistics2:material:39>])
-    .duration(20)
-    .EUt(480)
-    .buildAndRegister();
-
 # Creative Storage Cell
 JEI.hide(<appliedenergistics2:creative_storage_cell>);
 

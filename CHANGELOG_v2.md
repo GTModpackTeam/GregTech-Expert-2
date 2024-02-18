@@ -3,6 +3,24 @@
 - A major adjustment has been made in food related matter.
     - Thanks to @KatatsumuriPan, @MaimoCh, @hag-hag for his support!!
 
+## Update resourcepack
+- GhaTech
+
+## New recipes
+### Ender Storage
+- Pouch(NBT clear)
+- Tank(NBT clear)
+- Chest(NBT clear)
+
+### UtilityWorlds
+- Void Portal(NBT clear)
+- Garden Portal(NBT clear)
+
+## Update recipes
+### Ender Storage
+- Tank
+- Chest
+
 ## Move mods
 - File Director -> GTExpert-Core
 
@@ -18,6 +36,7 @@
 - RenderLib
 - Entity Culling
 - MixinBooter
+- Ender Storage continuation
 - AE2 Unofficial Extended Life
 - AE2 Fluid Crafting Rework
 - PackagedAuto

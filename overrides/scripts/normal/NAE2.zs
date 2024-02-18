@@ -1,6 +1,5 @@
 # Imports
 import mods.jei.JEI;
-import mods.gtexpert.I18n;
 
 
 
