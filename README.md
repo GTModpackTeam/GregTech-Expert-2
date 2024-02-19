@@ -50,6 +50,30 @@
         - If you want to add support for other mods, please contact us on Discord. In some cases, we will formally implement it.
 
 
+# Quest Book
+- Originally FTBQ, now in the process of migrating to BQU. [Link](https://github.com/GTModpackTeam/GregTech-Expert-2-FTBQuestBook)
+
+| Age | Quest | Description | FTBQ to BQU migration |
+| ---- | ---- | ---- | ---- |
+| Stone Age | 〇 | 〇 | 0% |
+| Ore Veins | 〇 | 〇 | 0% |
+| Tier 0 - ULV | 〇 | 〇 | 0% |
+| Tier 1 - LV | 〇 | 〇 | 0% |
+| Tier 2 - MV | 〇 | 〇 | 0% |
+| Tier 3 - HV | 〇 | 〇 | 0% |
+| Tier 4 - EV | 〇 | 〇 | 0% |
+| Tier 5 - IV | 〇 | △ | 0% |
+| Tier 6 - LuV | △ | × | 0% |
+| Tier 7 - ZPM | △ | × | 0% |
+| Tier 8 - UV / UHV | △ | × | 0% |
+| Tier 940 - Endgame | 〇 | × | 0% |
+| AE2 Unofficial Extended Life | 〇 | 〇 | 0% |
+| Draconic Evolution | △ | × | 0% |
+| Gregtech Food Option | 〇 | △ | 0% |
+| Gregtech Food Option - Foods | 〇 | × | 0% |
+| Milestones | 〇 | 〇 | 0% |
+
+
 ## Credits
 
 - Many Japanese Quests are also translated from the [GregTech-Community-Pack](https://github.com/GregTechCEu/GregTech-Community-Pack).
