@@ -165,7 +165,7 @@
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "五十年もののワイン専用",
-          "questlogic:8": "AND",
+          "questlogic:8": "OR",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
           "simultaneous:1": 0,
@@ -224,13 +224,13 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 2,
+              "Count:3": 1,
               "Damage:2": 1596,
               "OreDict:8": "",
               "id:8": "gregtech:machine"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -345,7 +345,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
-          "entryLogic:8": "OR",
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 1,
@@ -368,8 +368,20 @@
                 },
                 "HideFlags:3": 2
               }
-            },
-            "1:10": {
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "2:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "OR",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 3,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": "",
@@ -381,7 +393,6 @@
                   "AttackDamage:5": 4.0,
                   "AttackSpeed:5": -2.4,
                   "Durability:3": 0,
-                  "HarvestLevel:3": 1,
                   "Material:8": "gregtech:flint",
                   "MaxDurability:3": 63
                 },
@@ -394,7 +405,7 @@
                 }
               }
             },
-            "2:10": {
+            "1:10": {
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": "",
@@ -416,7 +427,7 @@
                 "HideFlags:3": 2
               }
             },
-            "3:10": {
+            "2:10": {
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": "",
@@ -436,7 +447,7 @@
                 "HideFlags:3": 2
               }
             },
-            "4:10": {
+            "3:10": {
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": "",
@@ -455,6 +466,24 @@
                   "Material:8": "gregtech:flint",
                   "MaxDurability:3": 63,
                   "ToolSpeed:5": 2.0
+                },
+                "HideFlags:3": 2
+              }
+            },
+            "4:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:hoe",
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {},
+                "GT.Tool:10": {
+                  "AttackDamage:5": 0.0,
+                  "AttackSpeed:5": -1.0,
+                  "Durability:3": 0,
+                  "Material:8": "gregtech:flint",
+                  "MaxDurability:3": 63
                 },
                 "HideFlags:3": 2
               }
@@ -529,7 +558,7 @@
           "simultaneous:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "OR",
+          "tasklogic:8": "AND",
           "visibility:8": "ALWAYS"
         }
       },
@@ -550,20 +579,8 @@
               "Damage:2": 0,
               "OreDict:8": "",
               "id:8": "gregtechfoodoption:gtfo_casing"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
+            },
+            "1:10": {
               "Count:3": 1,
               "Damage:2": 3,
               "OreDict:8": "",
@@ -572,7 +589,7 @@
           },
           "taskID:8": "bq_standard:retrieval"
         },
-        "2:10": {
+        "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
           "entryLogic:8": "AND",
@@ -695,7 +712,7 @@
             "0:10": {
               "Count:3": 1,
               "Damage:2": 32767,
-              "OreDict:8": "craftingToolFile",
+              "OreDict:8": "",
               "id:8": "gregtech:file",
               "tag:10": {
                 "GT.Behaviours:10": {},
@@ -707,91 +724,63 @@
                   "MaxDurability:3": 256
                 }
               }
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
+            },
+            "1:10": {
               "Count:3": 1,
-              "Damage:2": 32767,
-              "OreDict:8": "craftingToolSaw",
+              "Damage:2": 0,
+              "OreDict:8": "",
               "id:8": "gregtech:saw",
               "tag:10": {
-                "GT.Behaviours:10": {},
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {
+                  "HarvestIce:1": 1
+                },
                 "GT.Tool:10": {
                   "AttackDamage:5": 1.0,
                   "AttackSpeed:5": -2.6,
                   "Durability:3": 0,
-                  "Material:8": "iron",
-                  "MaxDurability:3": 256
-                }
+                  "Material:8": "gregtech:iron",
+                  "MaxDurability:3": 255
+                },
+                "HideFlags:3": 2
               }
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "2:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
-          "index:3": 2,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
+            },
+            "2:10": {
               "Count:3": 1,
-              "Damage:2": 32767,
-              "OreDict:8": "craftingToolWrench",
+              "Damage:2": 0,
+              "OreDict:8": "",
               "id:8": "gregtech:wrench",
               "tag:10": {
+                "DisallowContainerItem:1": 0,
                 "GT.Behaviours:10": {},
                 "GT.Tool:10": {
                   "AttackDamage:5": 3.0,
                   "AttackSpeed:5": -2.8,
                   "Durability:3": 0,
                   "HarvestLevel:3": 2,
-                  "Material:8": "iron",
-                  "MaxDurability:3": 256,
+                  "Material:8": "gregtech:iron",
+                  "MaxDurability:3": 255,
                   "ToolSpeed:5": 6.0
-                }
+                },
+                "HideFlags:3": 2
               }
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "3:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
-          "index:3": 3,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
+            },
+            "3:10": {
               "Count:3": 1,
-              "Damage:2": 32767,
-              "OreDict:8": "craftingToolScrewdriver",
+              "Damage:2": 0,
+              "OreDict:8": "",
               "id:8": "gregtech:screwdriver",
               "tag:10": {
+                "DisallowContainerItem:1": 0,
                 "GT.Behaviours:10": {},
                 "GT.Tool:10": {
                   "AttackDamage:5": 1.0,
                   "AttackSpeed:5": 3.0,
                   "Durability:3": 0,
-                  "Material:8": "iron",
-                  "MaxDurability:3": 256
-                }
+                  "Material:8": "gregtech:iron",
+                  "MaxDurability:3": 255
+                },
+                "HideFlags:3": 2
               }
             }
           },
@@ -1047,7 +1036,7 @@
           "simultaneous:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "OR",
+          "tasklogic:8": "AND",
           "visibility:8": "ALWAYS"
         }
       },
@@ -1066,7 +1055,7 @@
             "0:10": {
               "Count:3": 1,
               "Damage:2": 32767,
-              "OreDict:8": "craftingToolCrowbar",
+              "OreDict:8": "",
               "id:8": "gregtech:crowbar",
               "tag:10": {
                 "GT.Behaviours:10": {},
@@ -1079,6 +1068,114 @@
                   "MaxDurability:3": 256,
                   "ToolSpeed:5": 6.0
                 }
+              }
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:wire_cutter",
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {},
+                "GT.Tool:10": {
+                  "AttackDamage:5": 1.0,
+                  "AttackSpeed:5": -2.4,
+                  "Durability:3": 0,
+                  "HarvestLevel:3": 2,
+                  "Material:8": "gregtech:iron",
+                  "MaxDurability:3": 255,
+                  "ToolSpeed:5": 6.0
+                },
+                "HideFlags:3": 2
+              }
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:scythe",
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {
+                  "AoEColumn:3": 2,
+                  "AoELayer:3": 2,
+                  "AoERow:3": 2,
+                  "MaxAoEColumn:3": 2,
+                  "MaxAoELayer:3": 2,
+                  "MaxAoERow:3": 2
+                },
+                "GT.Tool:10": {
+                  "AttackDamage:5": 7.0,
+                  "AttackSpeed:5": -3.0,
+                  "Durability:3": 0,
+                  "HarvestLevel:3": 2,
+                  "Material:8": "gregtech:iron",
+                  "MaxDurability:3": 767,
+                  "ToolSpeed:5": 6.0
+                },
+                "HideFlags:3": 2
+              }
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:butchery_knife",
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {},
+                "GT.Tool:10": {
+                  "AttackDamage:5": 3.5,
+                  "AttackSpeed:5": -1.3,
+                  "Durability:3": 0,
+                  "Material:8": "gregtech:iron",
+                  "MaxDurability:3": 255
+                },
+                "HideFlags:3": 2,
+                "ench:9": {
+                  "0:10": {
+                    "id:3": 21,
+                    "lvl:2": 3
+                  }
+                }
+              }
+            },
+            "4:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:knife",
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {},
+                "GT.Tool:10": {
+                  "AttackDamage:5": 2.0,
+                  "AttackSpeed:5": 3.0,
+                  "Durability:3": 0,
+                  "Material:8": "gregtech:iron",
+                  "MaxDurability:3": 255
+                },
+                "HideFlags:3": 2
+              }
+            },
+            "5:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:plunger",
+              "tag:10": {
+                "GT.Behaviours:10": {},
+                "GT.Tool:10": {
+                  "AttackDamage:5": 0.0,
+                  "AttackSpeed:5": -2.4,
+                  "Durability:3": 0,
+                  "HarvestLevel:3": 1,
+                  "Material:8": "rubber",
+                  "MaxDurability:3": 255,
+                  "ToolSpeed:5": 4.0
+                },
+                "HideFlags:3": 2
               }
             }
           },
@@ -1095,156 +1192,12 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 32767,
-              "OreDict:8": "craftingToolWireCutter",
-              "id:8": "gregtech:wire_cutter",
-              "tag:10": {
-                "GT.Behaviours:10": {},
-                "GT.Tool:10": {
-                  "AttackDamage:5": 1.0,
-                  "AttackSpeed:5": -2.4,
-                  "Durability:3": 0,
-                  "HarvestLevel:3": 2,
-                  "Material:8": "iron",
-                  "MaxDurability:3": 256,
-                  "ToolSpeed:5": 6.0
-                }
-              }
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "2:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
-          "index:3": 2,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 32767,
-              "OreDict:8": "toolScythe",
-              "id:8": "gregtech:scythe",
-              "tag:10": {
-                "GT.Behaviours:10": {},
-                "GT.Tool:10": {
-                  "AttackDamage:5": 7.0,
-                  "AttackSpeed:5": -3.0,
-                  "Durability:3": 0,
-                  "HarvestLevel:3": 2,
-                  "Material:8": "iron",
-                  "MaxDurability:3": 768,
-                  "ToolSpeed:5": 6.0
-                }
-              }
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "3:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
-          "index:3": 3,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 32767,
-              "OreDict:8": "craftingToolButcheryKnife",
-              "id:8": "gregtech:butchery_knife",
-              "tag:10": {
-                "GT.Behaviours:10": {},
-                "GT.Tool:10": {
-                  "AttackDamage:5": 3.5,
-                  "AttackSpeed:5": -1.3,
-                  "Durability:3": 0,
-                  "Material:8": "iron",
-                  "MaxDurability:3": 256
-                }
-              }
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "4:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
-          "index:3": 4,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 32767,
-              "OreDict:8": "craftingToolKnife",
-              "id:8": "gregtech:knife",
-              "tag:10": {
-                "GT.Behaviours:10": {},
-                "GT.Tool:10": {
-                  "AttackDamage:5": 2.0,
-                  "AttackSpeed:5": 3.0,
-                  "Durability:3": 0,
-                  "Material:8": "iron",
-                  "MaxDurability:3": 256
-                }
-              }
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "5:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
-          "index:3": 5,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 32767,
-              "OreDict:8": "toolPlunger",
-              "id:8": "gregtech:plunger",
-              "tag:10": {
-                "GT.Behaviours:10": {},
-                "GT.Tool:10": {
-                  "AttackDamage:5": 0.0,
-                  "AttackSpeed:5": -2.4,
-                  "Durability:3": 0,
-                  "Material:8": "iron",
-                  "MaxDurability:3": 256
-                }
-              }
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "6:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
-          "index:3": 6,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": "toolShears",
               "id:8": "minecraft:shears"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -1446,7 +1399,7 @@
           "simultaneous:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "OR",
+          "tasklogic:8": "AND",
           "visibility:8": "ALWAYS"
         }
       },
@@ -1511,21 +1464,7 @@
               "id:8": "gregtech:meta_gem"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "3:10": {
-          "autoConsume:1": 0,
-          "consume:1": 1,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 3,
-          "requiredFluids:9": {
-            "0:10": {
-              "Amount:3": 1000,
-              "FluidName:8": "creosote"
-            }
-          },
-          "taskID:8": "bq_standard:fluid"
+          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -1575,7 +1514,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "※AppleCoreの導入によりバニラの食べ物は食べれば食べるほど満腹度回復量が減るようになりました。\n早めに別の食品を食べるようにしましょう。\n序盤のおすすめは満腹度ペナルティにひっかからない串にさしたベイクドポテトです。\n\n小麦を砕いて塩をまぶしてパン生地にし、整形して焼き上げればようやくパンができます。\n初歩的なオーブンにはこれ以外にも沢山のレシピがあるので是非試してみて下さい。",
+          "desc:8": "AppleCoreの導入によりバニラの食べ物は食べれば食べるほど満腹度回復量が減るようになりました。\nまたランチバッグのクエストでも説明されている通り、様々な食物を食べる必要があります。\nその中でもパンは色々な具材を挟むことで種類をかさ増しできます。\n\n作成方法は現実と同じように小麦を砕いて塩をまぶしてパン生地にし、整形して焼き上げればようやくパンができます。\n初歩的なオーブンにはこれ以外にも沢山のレシピがあるので是非試してみて下さい。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -1594,7 +1533,7 @@
           "simultaneous:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "OR",
+          "tasklogic:8": "AND",
           "visibility:8": "ALWAYS"
         }
       },
@@ -1622,7 +1561,7 @@
         "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
-          "entryLogic:8": "AND",
+          "entryLogic:8": "OR",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
@@ -1630,7 +1569,19 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
+              "Damage:2": 82,
+              "OreDict:8": "",
+              "id:8": "gregtechfoodoption:gtfo_meta_item"
+            },
+            "1:10": {
+              "Count:3": 1,
               "Damage:2": 45,
+              "OreDict:8": "",
+              "id:8": "gregtechfoodoption:gtfo_meta_item"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 46,
               "OreDict:8": "",
               "id:8": "gregtechfoodoption:gtfo_meta_item"
             }
@@ -1640,7 +1591,7 @@
         "2:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
-          "entryLogic:8": "AND",
+          "entryLogic:8": "OR",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
@@ -1648,27 +1599,21 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 47,
+              "Damage:2": 87,
               "OreDict:8": "",
               "id:8": "gregtechfoodoption:gtfo_meta_item"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "3:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 3,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
+            },
+            "1:10": {
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": "",
               "id:8": "minecraft:bread"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 51,
+              "OreDict:8": "",
+              "id:8": "gregtechfoodoption:gtfo_meta_item"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -1930,7 +1875,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "このModPackの推奨難易度はハードです。\n\nこのModPackはピースフルでクリアできますが、満腹度が減らない状態だとGregTech Food Optionのコンテンツを消化できないので非推奨です。\n\n戦闘難易度こそ高いですが、FTB Utilsのクエストにあるとおり/backコマンドが使えたり/sethomeが使えたりするので、戦闘でストレスが貯まることはあまりないと思われます。\nただしミニマップテレポートなどチート系の使用は非推奨です。",
+          "desc:8": "このModPackの推奨難易度はハードです。\n\nこのModPackはピースフルでクリアできますが、満腹度が減らない状態だとGregTech Food Optionのコンテンツを消化できないので非推奨です。\n\n戦闘難易度こそ高いですがFTB Utilsのクエストにあるとおり/backコマンドが使えたり/sethomeが使えたりするので、戦闘でストレスが貯まることはあまりないと思われます。\nただしミニマップテレポートなどチート系の使用は非推奨です。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -2041,7 +1986,7 @@
           "simultaneous:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "OR",
+          "tasklogic:8": "AND",
           "visibility:8": "ALWAYS"
         }
       },
@@ -2051,7 +1996,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
-          "entryLogic:8": "OR",
+          "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -2070,7 +2015,7 @@
               "id:8": "gregtech:meta_nugget"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:optional_retrieval"
         },
         "1:10": {
           "autoConsume:1": 0,
@@ -2118,7 +2063,7 @@
           "simultaneous:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "OR",
+          "tasklogic:8": "AND",
           "visibility:8": "ALWAYS"
         }
       },
@@ -2136,9 +2081,21 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 1648,
+              "Damage:2": 1649,
               "OreDict:8": "",
               "id:8": "gregtech:machine"
+            },
+            "1:10": {
+              "Count:3": 10,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_block_frame_103"
+            },
+            "2:10": {
+              "Count:3": 10,
+              "Damage:2": 4,
+              "OreDict:8": "",
+              "id:8": "gregtech:steam_casing"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2154,45 +2111,9 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 1649,
+              "Damage:2": 1648,
               "OreDict:8": "",
               "id:8": "gregtech:machine"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "2:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 2,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 10,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_block_frame_103"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "3:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 3,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 10,
-              "Damage:2": 4,
-              "OreDict:8": "",
-              "id:8": "gregtech:steam_casing"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2528,7 +2449,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§cクエストで分からないことが出てきたらまずこのクエストを読み直してみましょう§r\n\nクエストシステムにようこそ!!\n\nModPackのアップデートが入った際にクエストが古くなり正常に進行出来なくなる可能性があります(ModPack作者≠クエスト作者)\nその際はgithubなどで報告して頂ければ幸いです\nまた、その時に限らずクエストは予告なしに変更されることがあります。\nこれを避けたい方はクエストの執筆完了をお待ちください。\n\nクエスト文は日本語クライアントでminecraftをプレイする日本人に合わせて書かれていますが、英語クライアントでも特に問題ありません。\n\n進行に必須であるクエストのアイコンは王冠または大きいアイコンで表示されます。\nそれ以外のクエストは四角で表示されます。\n\n説明のみのクエストは解放されたtierのタブと解説をまとめておく専用のタブの両方で表示されます。\n何か忘れたと感じた時にはいつでも解説専用のタブを開いてみましょう(未実装)。\n\n\n余談その1\nGTE1にはクエストがなかったので、GTE2でもクエストは実装されない...はずだった\n\n余談その2\nFTBQのイライラ要因がBQUで全部解消されたため移行され、全クエストの再チェックが行われた\nこの場を借りて感謝いたします。",
+          "desc:8": "§cクエストで分からないことが出てきたらまずこのクエストを読み直してみましょう§r\n\nクエストシステムにようこそ!!\n\nModPackのアップデートが入った際にクエストが古くなり正常に進行出来なくなる可能性があります(ModPack作者≠クエスト作者)。\nその際はgithubなどで報告して頂ければ幸いです。\nまた、その時に限らずクエストは予告なしに変更されることがあります。\nこれを避けたい方はクエストの執筆完了をお待ちください。\n\nクエスト文は日本語クライアントでminecraftをプレイする日本人に合わせて書かれていますが、英語クライアントでも特に問題ありません。\n\n進行に必須であるクエストのアイコンは王冠または大きいアイコンで表示されます。\nそれ以外のクエストは四角で表示されます。\n\n説明のみのクエストは解放されたtierのタブと解説をまとめておく専用のタブの両方で表示されます。\n何か忘れたと感じた時にはいつでも解説専用のタブを開いてみましょう(未実装)。\n\n\n余談その1\nGTE1にはクエストがなかったので、GTE2でもクエストは実装されない...はずだった\n\n余談その2\nFTB Questのイライラ要因がBetter Questing Unofficialで全部解消されたりQOLが取り込まれたりされたため、全クエストの再チェックや並び替えを行いながら移行された(ModPack 2.7.0から)\nこの場を借りて感謝いたします",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -2586,7 +2507,7 @@
           "simultaneous:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "OR",
+          "tasklogic:8": "AND",
           "visibility:8": "ALWAYS"
         }
       },
@@ -2609,7 +2530,7 @@
               "id:8": "gregtech:meta_plate"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:optional_retrieval"
         },
         "1:10": {
           "autoConsume:1": 0,
@@ -2764,7 +2685,7 @@
           "simultaneous:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "OR",
+          "tasklogic:8": "AND",
           "visibility:8": "ALWAYS"
         }
       },
@@ -2975,7 +2896,7 @@
           "simultaneous:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "OR",
+          "tasklogic:8": "AND",
           "visibility:8": "ALWAYS"
         }
       },
@@ -3010,7 +2931,7 @@
               "id:8": "gregtech:meta_dust"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:optional_retrieval"
         },
         "1:10": {
           "autoConsume:1": 0,
@@ -3039,7 +2960,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "原木を集めましょう。\nデフォルトでGraveキーに設定されているFTB Ultimineの一括破壊キーを押しながら素手で原木を壊すことで、繋がっている原木を一気に破壊することができます。\n難易度ピースフル以外では満腹度を消費するので注意しましょう。\n一括破壊キーの変更はoptions...の中のcontrol...を開いて検索バーに \"FTB Ultimine\" と入力することで行えます。\n\nこの世界では原木から木材が1つしかクラフトできません。\n原木をとったら早速木材にクラフトしたいところですが、多くのレシピが変更されているこの環境では使い道がそれほどありません。\n次のクエストに進みましょう\n\n余談その1\n§mGTE2では当初原木から木材を1個しか作れないようにしていたが、バグで実装出来ないということで2個の形に緩和された。§r",
+          "desc:8": "原木を集めましょう。\nデフォルトでGraveキーに設定されているFTB Ultimineの一括破壊キーを押しながら素手で原木を壊すことで、繋がっている原木を一気に破壊することができます。\n難易度ピースフル以外では満腹度を消費するので注意しましょう。\n一括破壊キーの変更はoptions...の中のcontrol...を開いて検索バーに FTB Ultimine と入力することで行えます。\n\nこの世界では原木から木材が1つしかクラフトできません。\n原木をとったら早速木材にクラフトしたいところですが、多くのレシピが変更されているこの環境では使い道がそれほどありません。\n次のクエストに進みましょう\n\n余談その1\n§mGTE1では当初原木から木材を1個しか作れないようにしていたが、バグで実装出来ないということで2個の形に緩和された。§r",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -3213,7 +3134,7 @@
           "simultaneous:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "OR",
+          "tasklogic:8": "AND",
           "visibility:8": "ALWAYS"
         }
       },
@@ -14593,7 +14514,7 @@
           "simultaneous:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "OR",
+          "tasklogic:8": "AND",
           "visibility:8": "ALWAYS"
         }
       },
@@ -14614,20 +14535,8 @@
               "Damage:2": 1599,
               "OreDict:8": "",
               "id:8": "gregtech:meta_dust"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
+            },
+            "1:10": {
               "Count:3": 33,
               "Damage:2": 2023,
               "OreDict:8": "",
@@ -14636,7 +14545,7 @@
           },
           "taskID:8": "bq_standard:retrieval"
         },
-        "2:10": {
+        "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
           "entryLogic:8": "AND",
@@ -14801,7 +14710,7 @@
           "simultaneous:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
+          "tasklogic:8": "OR",
           "visibility:8": "ALWAYS"
         }
       },
@@ -14811,6 +14720,24 @@
         "0:10": {
           "index:3": 0,
           "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 12,
+              "OreDict:8": "",
+              "id:8": "gtexpert:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       }
     },
@@ -15053,7 +14980,7 @@
           "simultaneous:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "OR",
+          "tasklogic:8": "AND",
           "visibility:8": "ALWAYS"
         }
       },
@@ -15125,7 +15052,7 @@
           "simultaneous:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "OR",
+          "tasklogic:8": "AND",
           "visibility:8": "ALWAYS"
         }
       },
@@ -15146,6 +15073,24 @@
               "Damage:2": 4,
               "OreDict:8": "",
               "id:8": "gregtech:metal_casing"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 1653,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 1652,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 1651,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -15162,60 +15107,6 @@
             "0:10": {
               "Count:3": 1,
               "Damage:2": 1025,
-              "OreDict:8": "",
-              "id:8": "gregtech:machine"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "2:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 2,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 1653,
-              "OreDict:8": "",
-              "id:8": "gregtech:machine"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "3:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 3,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 1652,
-              "OreDict:8": "",
-              "id:8": "gregtech:machine"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "4:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 4,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 1651,
               "OreDict:8": "",
               "id:8": "gregtech:machine"
             }
@@ -15303,7 +15194,7 @@
           "simultaneous:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
+          "tasklogic:8": "OR",
           "visibility:8": "ALWAYS"
         }
       },
@@ -15313,6 +15204,24 @@
         "0:10": {
           "index:3": 0,
           "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 14,
+              "OreDict:8": "",
+              "id:8": "gtexpert:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       }
     },
@@ -15323,7 +15232,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "初歩的なモーターはコンベヤーやポンプなどで要求され、様々な時代でもモーターは重要な中間素材です。\nなので作り置きや複数個を纏めて作成して楽をしましょう。\n§mただしこのULV時代では作り置きは不要です。§r\n\n\n余談その1\nタイトルで書いてある通り、このクエストと派生のクエストで要求されているアイテムはGTCEu製ではなくGTExpert Core製です。",
+          "desc:8": "モーターはコンベヤーやポンプなどで要求され、様々な時代でもモーターは重要な中間素材です。\nなので作り置きや複数個を纏めて作成して楽をしましょう。\n§mただしこのULV時代では作り置きは不要です。§r\n\n\n余談その1\nタイトルで書いてある通り、このクエストと派生のクエストで要求されているアイテムはGTCEu製ではなくGTExpert Core製です。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -15342,7 +15251,7 @@
           "simultaneous:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
+          "tasklogic:8": "OR",
           "visibility:8": "ALWAYS"
         }
       },
@@ -15350,8 +15259,26 @@
       "rewards:9": {},
       "tasks:9": {
         "0:10": {
-          "index:3": 1,
+          "index:3": 0,
           "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 11,
+              "OreDict:8": "",
+              "id:8": "gtexpert:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       }
     },
@@ -15415,7 +15342,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -15637,7 +15564,7 @@
           "simultaneous:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
+          "tasklogic:8": "OR",
           "visibility:8": "ALWAYS"
         }
       },
@@ -15647,6 +15574,24 @@
         "0:10": {
           "index:3": 0,
           "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 16,
+              "OreDict:8": "",
+              "id:8": "gtexpert:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       }
     },
@@ -15658,7 +15603,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "銅とレッドストーンから赤合金インゴットを焼きましょう\n一見レッドストーンの消費量が多いように思えますが、正常なプレイをしている場合レッドストーン鉱石はクロム獲得の際大量に余る鉱石の筆頭なのでがんがん使っても大丈夫です。\n\n赤合金インゴットはピストンの原料になり、ピストンは他の蒸気機械の原料となります。\n\n\n余談その1\n赤合金は架空の金属で、RedPowerという古のmodから輸入されている",
+          "desc:8": "銅とレッドストーンから赤合金インゴットを焼きましょう\n一見レッドストーンの消費量が多いように思えますが、正常なプレイをしている場合レッドストーン鉱石はクロム獲得の際大量に余る鉱石の筆頭なのでがんがん使っても大丈夫です。\n\n赤合金インゴットはピストンの原料になり、ピストンは他の蒸気機械の原料となります。\n\n\n余談その1\n赤合金は架空の金属でRedPowerという古のmodから輸入されている",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -15677,7 +15622,7 @@
           "simultaneous:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "OR",
+          "tasklogic:8": "AND",
           "visibility:8": "ALWAYS"
         }
       },
@@ -15698,20 +15643,8 @@
               "Damage:2": 2517,
               "OreDict:8": "",
               "id:8": "gregtech:meta_ingot"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
+            },
+            "1:10": {
               "Count:3": 2,
               "Damage:2": 51,
               "OreDict:8": "",
@@ -15720,7 +15653,7 @@
           },
           "taskID:8": "bq_standard:retrieval"
         },
-        "2:10": {
+        "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
           "entryLogic:8": "AND",
@@ -15788,20 +15721,8 @@
               "Damage:2": 1002,
               "OreDict:8": "",
               "id:8": "gregtech:meta_dust"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
+            },
+            "1:10": {
               "Count:3": 1,
               "Damage:2": 1068,
               "OreDict:8": "",
@@ -16035,7 +15956,7 @@
           "simultaneous:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "OR",
+          "tasklogic:8": "AND",
           "visibility:8": "ALWAYS"
         }
       },
@@ -16056,20 +15977,8 @@
               "Damage:2": 2525,
               "OreDict:8": "",
               "id:8": "gregtech:meta_dust"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
+            },
+            "1:10": {
               "Count:3": 33,
               "Damage:2": 1,
               "OreDict:8": "",
@@ -16078,7 +15987,7 @@
           },
           "taskID:8": "bq_standard:retrieval"
         },
-        "2:10": {
+        "1:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
           "entryLogic:8": "AND",
@@ -16177,7 +16086,7 @@
           "simultaneous:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "OR",
+          "tasklogic:8": "AND",
           "visibility:8": "ALWAYS"
         }
       },
@@ -16198,6 +16107,30 @@
               "Damage:2": 4,
               "OreDict:8": "",
               "id:8": "gregtech:metal_casing"
+            },
+            "1:10": {
+              "Count:3": 10,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:boiler_firebox_casing"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 1653,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 1652,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            },
+            "4:10": {
+              "Count:3": 1,
+              "Damage:2": 1651,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -16212,80 +16145,8 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 10,
-              "Damage:2": 1,
-              "OreDict:8": "",
-              "id:8": "gregtech:boiler_firebox_casing"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "2:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 2,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
               "Count:3": 1,
               "Damage:2": 1024,
-              "OreDict:8": "",
-              "id:8": "gregtech:machine"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "3:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 3,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 1653,
-              "OreDict:8": "",
-              "id:8": "gregtech:machine"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "4:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 4,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 1652,
-              "OreDict:8": "",
-              "id:8": "gregtech:machine"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "5:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 5,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 1651,
               "OreDict:8": "",
               "id:8": "gregtech:machine"
             }
@@ -16426,22 +16287,8 @@
       "rewards:9": {},
       "tasks:9": {
         "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 1617,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_plate"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:checkbox"
         },
         "1:10": {
           "autoConsume:1": 0,
@@ -16489,7 +16336,7 @@
           "simultaneous:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
+          "tasklogic:8": "OR",
           "visibility:8": "ALWAYS"
         }
       },
@@ -16499,6 +16346,24 @@
         "0:10": {
           "index:3": 0,
           "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 15,
+              "OreDict:8": "",
+              "id:8": "gtexpert:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       }
     },
@@ -16587,7 +16452,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 1,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -16958,7 +16823,7 @@
           "simultaneous:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "OR",
+          "tasklogic:8": "AND",
           "visibility:8": "ALWAYS"
         }
       },
@@ -17189,7 +17054,7 @@
           "simultaneous:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "OR",
+          "tasklogic:8": "AND",
           "visibility:8": "ALWAYS"
         }
       },
@@ -17210,6 +17075,12 @@
               "Damage:2": 4,
               "OreDict:8": "",
               "id:8": "gregtech:metal_casing"
+            },
+            "1:10": {
+              "Count:3": 2,
+              "Damage:2": 1598,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -17226,24 +17097,6 @@
             "0:10": {
               "Count:3": 1,
               "Damage:2": 1599,
-              "OreDict:8": "",
-              "id:8": "gregtech:machine"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "2:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 2,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 2,
-              "Damage:2": 1598,
               "OreDict:8": "",
               "id:8": "gregtech:machine"
             }
@@ -17349,7 +17202,7 @@
           "simultaneous:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
+          "tasklogic:8": "OR",
           "visibility:8": "ALWAYS"
         }
       },
@@ -17359,6 +17212,24 @@
         "0:10": {
           "index:3": 0,
           "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 13,
+              "OreDict:8": "",
+              "id:8": "gtexpert:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       }
     },
@@ -19615,7 +19486,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -19623,7 +19494,8 @@
               "Count:3": 1,
               "Damage:2": 1,
               "OreDict:8": "",
-              "id:8": "gregtech:gt_armor"
+              "id:8": "gregtech:gt_armor",
+              "tag:10": {}
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -20664,7 +20536,7 @@
           "consume:1": 0,
           "entryLogic:8": "OR",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -21071,7 +20943,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -21079,7 +20951,8 @@
               "Count:3": 1,
               "Damage:2": 2,
               "OreDict:8": "",
-              "id:8": "gregtech:gt_armor"
+              "id:8": "gregtech:gt_armor",
+              "tag:10": {}
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -22506,7 +22379,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -22605,7 +22478,7 @@
           "simultaneous:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "OR",
+          "tasklogic:8": "AND",
           "visibility:8": "ALWAYS"
         }
       },
@@ -22653,7 +22526,7 @@
           "consume:1": 0,
           "entryLogic:8": "OR",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 2,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -22811,7 +22684,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -24383,7 +24256,7 @@
           "consume:1": 0,
           "entryLogic:8": "OR",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -25746,7 +25619,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -27714,7 +27587,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -28104,7 +27977,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -30706,7 +30579,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -30797,7 +30670,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -33151,7 +33024,7 @@
           "consume:1": 0,
           "entryLogic:8": "OR",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -33179,7 +33052,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 1,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -33725,7 +33598,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -34488,7 +34361,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 2,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -34572,7 +34445,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -34653,7 +34526,7 @@
           "consume:1": 0,
           "entryLogic:8": "OR",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -34855,7 +34728,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -39377,7 +39250,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 1,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -40853,7 +40726,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -40874,7 +40747,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 1,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -40895,7 +40768,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 2,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -40916,7 +40789,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 3,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -43101,7 +42974,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -43534,7 +43407,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -44985,7 +44858,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -46273,7 +46146,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -46382,7 +46255,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -48154,7 +48027,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -48263,7 +48136,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -49440,13 +49313,19 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
               "Damage:2": 0,
+              "ForgeCaps:10": {
+                "Parent:10": {
+                  "Items:9": {},
+                  "Size:3": 36
+                }
+              },
               "OreDict:8": "",
               "id:8": "draconicadditions:chaotic_staff_of_power"
             }
@@ -49501,7 +49380,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -49527,7 +49406,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 1,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -49554,7 +49433,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 2,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -49580,7 +49459,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 3,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -49642,7 +49521,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -49660,7 +49539,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 1,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -49678,7 +49557,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 2,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -49696,7 +49575,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 3,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -49832,13 +49711,19 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
               "Damage:2": 0,
+              "ForgeCaps:10": {
+                "Parent:10": {
+                  "Items:9": {},
+                  "Size:3": 27
+                }
+              },
               "OreDict:8": "",
               "id:8": "draconicevolution:draconic_staff_of_power",
               "tag:10": {
@@ -50320,7 +50205,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -50426,7 +50311,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -50691,7 +50576,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -50818,7 +50703,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -50839,7 +50724,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 1,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -79157,7 +79042,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 296,
-          "y:3": 184
+          "y:3": 192
         },
         "12:10": {
           "id:3": 259,
@@ -79283,7 +79168,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 248,
-          "y:3": 184
+          "y:3": 192
         },
         "30:10": {
           "id:3": 277,
