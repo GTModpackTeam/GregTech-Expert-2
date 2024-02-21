@@ -311,7 +311,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -347,7 +347,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -357,16 +357,14 @@
               "OreDict:8": "",
               "id:8": "gregtech:mortar",
               "tag:10": {
-                "DisallowContainerItem:1": 0,
                 "GT.Behaviours:10": {},
                 "GT.Tool:10": {
                   "AttackDamage:5": 0.0,
                   "AttackSpeed:5": -2.4,
                   "Durability:3": 0,
                   "Material:8": "gregtech:flint",
-                  "MaxDurability:3": 63
-                },
-                "HideFlags:3": 2
+                  "MaxDurability:3": 64
+                }
               }
             }
           },
@@ -377,7 +375,7 @@
           "consume:1": 0,
           "entryLogic:8": "OR",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 3,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -387,21 +385,13 @@
               "OreDict:8": "",
               "id:8": "gregtech:sword",
               "tag:10": {
-                "DisallowContainerItem:1": 0,
                 "GT.Behaviours:10": {},
                 "GT.Tool:10": {
                   "AttackDamage:5": 4.0,
                   "AttackSpeed:5": -2.4,
                   "Durability:3": 0,
                   "Material:8": "gregtech:flint",
-                  "MaxDurability:3": 63
-                },
-                "HideFlags:3": 2,
-                "ench:9": {
-                  "0:10": {
-                    "id:3": 20,
-                    "lvl:2": 2
-                  }
+                  "MaxDurability:3": 64
                 }
               }
             },
@@ -433,7 +423,6 @@
               "OreDict:8": "",
               "id:8": "gregtech:shovel",
               "tag:10": {
-                "DisallowContainerItem:1": 0,
                 "GT.Behaviours:10": {},
                 "GT.Tool:10": {
                   "AttackDamage:5": 2.5,
@@ -441,10 +430,9 @@
                   "Durability:3": 0,
                   "HarvestLevel:3": 1,
                   "Material:8": "gregtech:flint",
-                  "MaxDurability:3": 63,
+                  "MaxDurability:3": 64,
                   "ToolSpeed:5": 4.0
-                },
-                "HideFlags:3": 2
+                }
               }
             },
             "3:10": {
@@ -453,21 +441,16 @@
               "OreDict:8": "",
               "id:8": "gregtech:axe",
               "tag:10": {
-                "DisallowContainerItem:1": 0,
-                "GT.Behaviours:10": {
-                  "DisableShields:1": 1,
-                  "TreeFelling:1": 1
-                },
+                "GT.Behaviours:10": {},
                 "GT.Tool:10": {
                   "AttackDamage:5": 6.0,
                   "AttackSpeed:5": -3.2,
                   "Durability:3": 0,
                   "HarvestLevel:3": 1,
                   "Material:8": "gregtech:flint",
-                  "MaxDurability:3": 63,
+                  "MaxDurability:3": 64,
                   "ToolSpeed:5": 2.0
-                },
-                "HideFlags:3": 2
+                }
               }
             },
             "4:10": {
@@ -476,16 +459,14 @@
               "OreDict:8": "",
               "id:8": "gregtech:hoe",
               "tag:10": {
-                "DisallowContainerItem:1": 0,
                 "GT.Behaviours:10": {},
                 "GT.Tool:10": {
                   "AttackDamage:5": 0.0,
                   "AttackSpeed:5": -1.0,
                   "Durability:3": 0,
                   "Material:8": "gregtech:flint",
-                  "MaxDurability:3": 63
-                },
-                "HideFlags:3": 2
+                  "MaxDurability:3": 64
+                }
               }
             }
           },
@@ -705,7 +686,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -937,9 +918,9 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
-          "entryLogic:8": "AND",
+          "entryLogic:8": "OR",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -959,6 +940,26 @@
                   "MaxDurability:3": 256,
                   "ToolSpeed:5": 6.0
                 }
+              }
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:hammer",
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {},
+                "GT.Tool:10": {
+                  "AttackDamage:5": 3.0,
+                  "AttackSpeed:5": -3.0,
+                  "Durability:3": 0,
+                  "HarvestLevel:3": 2,
+                  "Material:8": "gregtech:wrought_iron",
+                  "MaxDurability:3": 383,
+                  "ToolSpeed:5": 6.0
+                },
+                "HideFlags:3": 2
               }
             }
           },
@@ -1048,7 +1049,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -1186,7 +1187,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -2665,14 +2666,9 @@
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 32767,
-            "OreDict:8": "craftingToolSoftHammer",
-            "id:8": "gregtech:mallet",
-            "tag:10": {
-              "GT.Tool:10": {
-                "Durability:3": 0
-              }
-            }
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:bed"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
@@ -2752,7 +2748,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -3279,9 +3275,9 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
-          "entryLogic:8": "AND",
+          "entryLogic:8": "OR",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -3301,6 +3297,34 @@
                   "MaxDurability:3": 768,
                   "ToolSpeed:5": 4.8
                 }
+              }
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:mining_hammer",
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {
+                  "AoEColumn:3": 1,
+                  "AoELayer:3": 0,
+                  "AoERow:3": 1,
+                  "MaxAoEColumn:3": 1,
+                  "MaxAoELayer:3": 0,
+                  "MaxAoERow:3": 1,
+                  "TorchPlacing:1": 1
+                },
+                "GT.Tool:10": {
+                  "AttackDamage:5": 3.5,
+                  "AttackSpeed:5": -3.4,
+                  "Durability:3": 0,
+                  "HarvestLevel:3": 2,
+                  "Material:8": "gregtech:wrought_iron",
+                  "MaxDurability:3": 1151,
+                  "ToolSpeed:5": 4.8
+                },
+                "HideFlags:3": 2
               }
             }
           },
@@ -3346,7 +3370,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -15342,7 +15366,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -16452,7 +16476,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -17891,9 +17915,9 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
-          "entryLogic:8": "AND",
+          "entryLogic:8": "OR",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -17901,7 +17925,28 @@
               "Count:3": 1,
               "Damage:2": 446,
               "OreDict:8": "",
-              "id:8": "gregtech:meta_item_1"
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "MaxCharge:4": 80000
+              }
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 446,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "MaxCharge:4": 100000
+              }
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 446,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "MaxCharge:4": 80000
+              }
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -25617,7 +25662,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
-          "entryLogic:8": "AND",
+          "entryLogic:8": "OR",
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 0,
@@ -25625,33 +25670,48 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 0,
+              "Damage:2": 447,
               "OreDict:8": "",
-              "id:8": "gregtech:drill_mv",
+              "id:8": "gregtech:meta_item_1",
               "tag:10": {
-                "Charge:4": 0,
-                "DisallowContainerItem:1": 0,
-                "GT.Behaviours:10": {
-                  "AoEColumn:3": 1,
-                  "AoELayer:3": 2,
-                  "AoERow:3": 1,
-                  "MaxAoEColumn:3": 1,
-                  "MaxAoELayer:3": 2,
-                  "MaxAoERow:3": 1,
-                  "TorchPlacing:1": 1
-                },
-                "GT.Tool:10": {
-                  "AttackDamage:5": 4.0,
-                  "AttackSpeed:5": -3.4,
-                  "Durability:3": 0,
-                  "HarvestLevel:3": 3,
-                  "Material:8": "vanadium_steel",
-                  "MaxDurability:3": 1536,
-                  "ToolSpeed:5": 7.0
-                },
-                "HideFlags:3": 2,
+                "MaxCharge:4": 360000
+              }
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 447,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
                 "MaxCharge:4": 400000
               }
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 447,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "MaxCharge:4": 420000
+              }
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 2036,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_tool_head_drill"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -30668,7 +30728,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
-          "entryLogic:8": "AND",
+          "entryLogic:8": "OR",
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
           "index:3": 0,
@@ -30676,33 +30736,57 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 0,
+              "Damage:2": 448,
               "OreDict:8": "",
-              "id:8": "gregtech:drill_hv",
+              "id:8": "gregtech:meta_item_1",
               "tag:10": {
-                "Charge:4": 0,
-                "DisallowContainerItem:1": 0,
-                "GT.Behaviours:10": {
-                  "AoEColumn:3": 2,
-                  "AoELayer:3": 4,
-                  "AoERow:3": 2,
-                  "MaxAoEColumn:3": 2,
-                  "MaxAoELayer:3": 4,
-                  "MaxAoERow:3": 2,
-                  "TorchPlacing:1": 1
-                },
-                "GT.Tool:10": {
-                  "AttackDamage:5": 8.0,
-                  "AttackSpeed:5": -3.1000001,
-                  "Durability:3": 0,
-                  "HarvestLevel:3": 4,
-                  "Material:8": "ultimet",
-                  "MaxDurability:3": 2048,
-                  "ToolSpeed:5": 14.0
-                },
-                "HideFlags:3": 2,
+                "MaxCharge:4": 1200000
+              }
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 448,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
                 "MaxCharge:4": 1600000
               }
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 448,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "MaxCharge:4": 1800000
+              }
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 448,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "MaxCharge:4": 6400000
+              }
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 331,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_tool_head_drill"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -36339,7 +36423,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -38626,7 +38710,7 @@
           "consume:1": 0,
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
