@@ -21,8 +21,13 @@
 - Tank
 - Chest
 
+## Remove mods
+- Item Filters
+- FTB Quests (Forge)
+
 ## Move mods
 - File Director -> GTExpert-Core
+- FTB Backups (Forge) -> Advanced Backups
 
 ## New mods
 - Nutrition Unofficial Extended Life

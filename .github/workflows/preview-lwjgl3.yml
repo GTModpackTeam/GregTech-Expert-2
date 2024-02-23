@@ -24,13 +24,6 @@ jobs:
           sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" ./cmmc/instance.cfg
           sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" ./overrides/config/craftpresence.json
 
-      - name: Download quest zip
-        run: |
-          wget -O questbook.zip https://github.com/GTModpackTeam/gregtech-expert-2-questbook/archive/refs/heads/preview.zip
-          unzip questbook.zip
-          mv -vf ./GregTech-Expert-2-FTBQuestBook-preview/* ./overrides/config/ftbquests/
-          rm -rf ./GregTech-Expert-2-FTBQuestBook-preview/ ./questbook.zip
-
       - name: Download Resource Packs zip
         run: |
           LATEST_RELEASE=$(curl -s https://api.github.com/repos/GTModpackTeam/GTE2-Translations/releases/latest)
