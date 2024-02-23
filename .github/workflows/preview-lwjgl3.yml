@@ -1,0 +1,79 @@
+name: Deploy lwjgl3 modpack
+on:
+  push:
+    tags:
+      - '*-lwjgl3-*'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Get the version
+        run: |
+          echo VERSION=$(echo ${GITHUB_REF} | sed -e 's#refs/tags/##g' | awk -F'-' '{print $1}') >> $GITHUB_ENV
+          echo LWIGL3_VERSION=$(echo ${GITHUB_REF} | sed -e 's#refs/tags/##g' | awk -F'-' '{print $3}') >> $GITHUB_ENV
+
+      - name: Set the version
+        run: |
+          MODPACKVERSION=${{ env.VERSION }}
+          echo "[CleanroomMMC] GregTech Expert 2 ${MODPACKVERSION}-lwjgl3-${{ env.LWIGL3_VERSION }}" > ./overrides/resources/custommainmenu/version.txt
+          sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" ./manifest.json
+          sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" ./cmmc/instance.cfg
+          sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" ./overrides/config/craftpresence.json
+
+      - name: Download quest zip
+        run: |
+          wget -O questbook.zip https://github.com/GTModpackTeam/gregtech-expert-2-questbook/archive/refs/heads/preview.zip
+          unzip questbook.zip
+          mv -vf ./GregTech-Expert-2-FTBQuestBook-preview/* ./overrides/config/ftbquests/
+          rm -rf ./GregTech-Expert-2-FTBQuestBook-preview/ ./questbook.zip
+
+      - name: Download Resource Packs zip
+        run: |
+          LATEST_RELEASE=$(curl -s https://api.github.com/repos/GTModpackTeam/GTE2-Translations/releases/latest)
+          ASSET=$(echo $LATEST_RELEASE | jq -r '.assets[] | select(.name | test("GTExpert2-v[0-9.]+-resourcepack-v[0-9]+\\.zip")) | .name' | sort -V | tail -n 1)
+          ASSET_URL=$(echo $LATEST_RELEASE | jq -r --arg ASSET "$ASSET" '.assets[] | select(.name == $ASSET) | .browser_download_url')
+          wget -O ./overrides/resourcepacks/$ASSET $ASSET_URL
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Remove lwjgl3 not supported mods
+        run: python buildtools/gen-lwjgl3-manifest.py
+
+      - name: Install dependencies
+        run: |
+          cp -vf ./cmmc/manifest.json ./manifest.json
+          python -m pip install --upgrade pip
+          pip install -r ./buildtools/requirements.txt
+
+      - name: Run Python
+        env:
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+        run: python buildtools/mod-install.py
+
+      - name: Archive Release MMC
+        run: |
+          cp -rvf ./cmmc/bansoukou/ ./overrides/
+          rm -Rf ./cmmc/bansoukou/
+          mv -vf ./overrides/ .minecraft/
+          cp -vf ./icon.png .minecraft/
+          cp -rvf ./cmmc/* ./
+          rm -rf .minecraft/mods/.gitkeep
+          rm -rf .minecraft/resourcepacks/.gitkeep
+          zip -r ./GTExpert2-${{ env.VERSION }}-lwjgl3-${{ env.LWIGL3_VERSION }}-mmc.zip ./libraries/ ./patches/ ./mmc-pack.json ./instance.cfg .minecraft/
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          prerelease: true
+          generate_release_notes: true
+          files: |
+            ./GTExpert2-${{ env.VERSION }}-lwjgl3-${{ env.LWIGL3_VERSION }}-mmc.zip

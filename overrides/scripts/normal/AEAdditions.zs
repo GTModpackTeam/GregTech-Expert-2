@@ -35,52 +35,6 @@ JEI.removeAndHide(<aeadditions:terminal.universal.wireless>);
 # Wireless Fluid Terminal
 JEI.removeAndHide(<aeadditions:terminal.fluid.wireless>);
 
-# Advanced Storage Housing
-recipes.remove(<aeadditions:storage.casing>);
-recipes.addShaped(<aeadditions:storage.casing>, [
-    [<ore:craftingToolScrewdriver>, <metaitem:plateTungstenSteel>, <metaitem:screwTungstenSteel>],
-    [<metaitem:plateTungstenSteel>, null, <metaitem:plateTungstenSteel>],
-    [<metaitem:screwTungstenSteel>, <metaitem:plateTungstenSteel>, <ore:craftingToolHardHammer>]
-]);
-recipes.addShaped(<aeadditions:storage.casing>, [
-    [<ore:craftingToolHardHammer>, <metaitem:plateTungstenSteel>, <metaitem:screwTungstenSteel>],
-    [<metaitem:plateTungstenSteel>, null, <metaitem:plateTungstenSteel>],
-    [<metaitem:screwTungstenSteel>, <metaitem:plateTungstenSteel>, <ore:craftingToolScrewdriver>]
-]);
-assembler.recipeBuilder()
-    .circuit(3)
-    .inputs([
-        <metaitem:plateTungstenSteel> * 2,
-        <metaitem:screwTungstenSteel> * 2
-    ])
-    .outputs([<aeadditions:storage.casing>])
-    .duration(20)
-    .EUt(480)
-    .buildAndRegister();
-
-# Fluid Housing
-recipes.remove(<aeadditions:storage.casing:1>);
-recipes.addShaped(<aeadditions:storage.casing:1>, [
-    [<ore:craftingToolScrewdriver>, <metaitem:plateStainlessSteel>, <metaitem:screwStainlessSteel>],
-    [<metaitem:plateStainlessSteel>, null, <metaitem:plateStainlessSteel>],
-    [<metaitem:screwStainlessSteel>, <metaitem:plateStainlessSteel>, <ore:craftingToolHardHammer>]
-]);
-recipes.addShaped(<aeadditions:storage.casing:1>, [
-    [<ore:craftingToolHardHammer>, <metaitem:plateStainlessSteel>, <metaitem:screwStainlessSteel>],
-    [<metaitem:plateStainlessSteel>, null, <metaitem:plateStainlessSteel>],
-    [<metaitem:screwStainlessSteel>, <metaitem:plateStainlessSteel>, <ore:craftingToolScrewdriver>]
-]);
-assembler.recipeBuilder()
-    .circuit(3)
-    .inputs([
-        <metaitem:plateStainlessSteel> * 2,
-        <metaitem:screwStainlessSteel> * 2
-    ])
-    .outputs([<aeadditions:storage.casing:1>])
-    .duration(20)
-    .EUt(480)
-    .buildAndRegister();
-
 # 256k Storage Component
 recipes.remove(<aeadditions:storage.component>);
 assembler.recipeBuilder()

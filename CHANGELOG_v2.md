@@ -1,3 +1,55 @@
+# v2.7.0
+## Modpack information
+- A major adjustment has been made in food related matter.
+    - Thanks to @KatatsumuriPan, @MaimoCh, @hag-hag for his support!!
+
+## Update resourcepack
+- GhaTech
+
+## New recipes
+### Ender Storage
+- Pouch(NBT clear)
+- Tank(NBT clear)
+- Chest(NBT clear)
+
+### UtilityWorlds
+- Void Portal(NBT clear)
+- Garden Portal(NBT clear)
+
+## Update recipes
+### Ender Storage
+- Tank
+- Chest
+
+## Move mods
+- File Director -> GTExpert-Core
+
+## New mods
+- Nutrition Unofficial Extended Life
+- Nutrition: GTCEu
+
+## Update mods
+- CraftPresence
+- ConfigAnytime
+- Inventory Bogo Sorter
+- Better Line Break
+- RenderLib
+- Entity Culling
+- MixinBooter
+- UntranslatedItems: AlsoFluids
+- Ender Storage continuation
+- AE2 Unofficial Extended Life
+- AE2 Fluid Crafting Rework
+- PackagedAuto
+- GregTech CE Unofficial
+- GregTech Food Option
+- GTExpert-Core
+
+## Formally introduced from compatibility mods
+- The Spice of Life
+
+* * *
+
 # v2.6.7
 ## Modpack information
 - Hotfix for v2.6.6
