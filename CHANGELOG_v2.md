@@ -37,9 +37,6 @@
 - GregTech Food Option
 - GTExpert-Core
 
-## Formally introduced from compatibility mods
-- The Spice of Life
-
 * * *
 
 # v2.6.7
