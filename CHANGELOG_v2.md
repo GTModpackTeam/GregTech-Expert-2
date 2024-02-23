@@ -36,10 +36,12 @@
 - RenderLib
 - Entity Culling
 - MixinBooter
+- UntranslatedItems: AlsoFluids
 - Ender Storage continuation
 - AE2 Unofficial Extended Life
 - AE2 Fluid Crafting Rework
 - PackagedAuto
+- GregTech CE Unofficial
 - GregTech Food Option
 - GTExpert-Core
 
