@@ -1,8 +1,4 @@
-# v2.7.0
-## Modpack information
-- A major adjustment has been made in food related matter.
-    - Thanks to @KatatsumuriPan, @MaimoCh, @hag-hag for his support!!
-
+# v2.6.8
 ## Update resourcepack
 - GhaTech
 
@@ -23,10 +19,6 @@
 
 ## Move mods
 - File Director -> GTExpert-Core
-
-## New mods
-- Nutrition Unofficial Extended Life
-- Nutrition: GTCEu
 
 ## Update mods
 - CraftPresence
