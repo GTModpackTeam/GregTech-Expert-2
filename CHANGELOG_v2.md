@@ -1,3 +1,25 @@
+# v2.7.0
+## Modpack information
+- A major adjustment has been made in food related matter.
+    - Thanks to @KatatsumuriPan, @MaimoCh, @hag-hag for his support!!
+
+## Remove mods
+- Item Filters
+- FTB Quests (Forge)
+
+## Move mods
+- FTB Backups (Forge) -> Advanced Backups
+
+
+## New mods
+- Nutrition Unofficial Extended Life
+- Nutrition: GTCEu
+
+## Formally introduced from compatibility mods
+- The Spice of Life
+
+* * *
+
 # v2.6.8
 ## Update resourcepack
 - GhaTech
@@ -17,13 +39,8 @@
 - Tank
 - Chest
 
-## Remove mods
-- Item Filters
-- FTB Quests (Forge)
-
 ## Move mods
 - File Director -> GTExpert-Core
-- FTB Backups (Forge) -> Advanced Backups
 
 ## Update mods
 - CraftPresence
