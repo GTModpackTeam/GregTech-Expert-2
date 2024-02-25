@@ -8,14 +8,14 @@ services:
     ports:
       - 25565:25565
     environment:
-      JVM_OPTS: -XX:MaxMetaspaceSize=512M -Dfml.queryResult=confirm -XX:+UseContainerSupport -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap -Dterminal.jline=false -Dterminal.ansi=true -Dlog4j.configurationFile=log4j2_112-116.xml
+      JVM_OPTS: -XX:MaxMetaspaceSize=512M -Dfml.queryResult=confirm -Dterminal.jline=false -Dterminal.ansi=true -XX:+UseContainerSupport -XX:MaxRAMPercentage=95.0 -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap -Dterminal.jline=false -Dterminal.ansi=true -XX:+DisableExplicitGC -XX:+UseConcMarkSweepGC -XX:+DisableExplicitGC -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+UseNUMA -XX:+CMSParallelRemarkEnabled -XX:MaxTenuringThreshold=15 -XX:MaxGCPauseMillis=30 -XX:GCPauseIntervalMillis=150 -XX:+UseAdaptiveGCBoundary -XX:-UseGCOverheadLimit -XX:+UseBiasedLocking -XX:SurvivorRatio=8 -XX:TargetSurvivorRatio=90 -XX:MaxTenuringThreshold=15 -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -XX:+UseFastAccessorMethods -XX:+UseCompressedOops -XX:+OptimizeStringConcat -XX:+AggressiveOpts -XX:ReservedCodeCacheSize=2048m -XX:+UseCodeCacheFlushing -XX:SoftRefLRUPolicyMSPerMB=10000 -XX:ParallelGCThreads=10 -Djava.net.preferIPv4Stack=true -Dlog4j.configurationFile=log4j2_112-116.xml
       USE_AIKAR_FLAGS: true
       EULA: true
       TYPE: AUTO_CURSEFORGE
       CF_SLUG: gregtech-expert-2
-      # Get the ID of the Server version from CF. The following is an example and specifies v2.4.1.
+      # Get the ID of the Server version from CF. The following is an example and specifies v2.6.7
       # https://www.curseforge.com/minecraft/modpacks/gregtech-expert-2/files
-      CF_FILE_ID: 4594253
+      CF_FILE_ID: 5064370
       # Default RAM allocation
       MEMORY: 4G
       OPS: Steve

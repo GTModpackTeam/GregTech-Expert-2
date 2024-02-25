@@ -26,10 +26,10 @@ jobs:
 
       - name: Download Quest Book zip
         run: |
-          wget -O questbook.zip https://github.com/GTModpackTeam/GregTech-Expert-2-FTBQuestBook/archive/refs/heads/preview.zip
+          wget -O questbook.zip https://github.com/GTModpackTeam/GregTech-Expert-2-FTBQuestBook/archive/refs/heads/main.zip
           unzip questbook.zip
-          mv -vf ./GregTech-Expert-2-FTBQuestBook-preview/* ./overrides/config/ftbquests/
-          rm -rf ./GregTech-Expert-2-FTBQuestBook-preview/ ./questbook.zip
+          mv -vf ./GregTech-Expert-2-FTBQuestBook-main/* ./overrides/config/ftbquests/
+          rm -rf ./GregTech-Expert-2-FTBQuestBook-main/ ./questbook.zip
 
       - name: Download Resource Packs zip
         run: |
@@ -44,7 +44,7 @@ jobs:
           zip -r ./GTExpert2-${{ env.VERSION }}-pr-${{ env.PR_VERSION }}-cf.zip ./manifest.json ./modlist.html ./overrides/bansoukou/ ./overrides/config/ ./overrides/local/ ./overrides/resourcepacks/ ./overrides/resources/ ./overrides/scripts/
 
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
           cache: pip
