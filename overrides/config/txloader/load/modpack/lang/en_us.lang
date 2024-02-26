@@ -1,0 +1,24 @@
+# Ender IO
+modpack.enderio.tank.tooltip.1=Exists only for recipe confirmation from liquid bucket. EIO tanks cannot be created.
+
+# AE2
+modpack.ae2.p2p_conduit.tooltip.1=Made by right-clicking ME P2P Tunnel with an energy conduit.
+modpack.ae2.p2p_bucket.tooltip.1=Made by right-clicking ME P2P Tunnel with a bucket.
+modpack.ae2.p2p_gtceu.tooltip.1=Made by right-clicking ME P2P Tunnel with a GregTech energy cable.
+modpack.ae2.p2p_chest.tooltip.1=Made by right-clicking ME P2P Tunnel with a chest.
+modpack.ae2.p2p_torch.tooltip.1=Made by right-clicking ME P2P Tunnel with a torch.
+modpack.ae2.p2p_redstone.tooltip.1=Made by right-clicking ME P2P Tunnel with redstone dust.
+modpack.ae2.p2p_me.tooltip.1=Made by right-clicking ME P2P Tunnel with an ME cable.
+modpack.nae2.p2p_interface.tooltip.1=Made by right-clicking ME P2P Tunnel with an interface.
+modpack.aeadditions.fluid_pattern.tooltip.1=AE2 Fluid Crafting recommended for fluid management.
+
+# Minecraft
+modpack.minecraft.tools.tooltip.1=It can only be used for crafting materials.
+modpack.deprecated.tooltip.1=This item is deprecated. Please move to the new item.
+
+# Mega Torch
+modpack.torchmaster.mega_torch.tooltip.1=In this modpack, there is a range of 128 blocks.
+modpack.torchmaster.lantern.tooltip.1=In this modpack, there is a range of 64 blocks.
+
+# Elevator
+modpack.elevator.tooltip.1=The black one is the first elevator.

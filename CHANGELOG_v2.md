@@ -3,6 +3,24 @@
 - A major adjustment has been made in food related matter.
     - Thanks to @KatatsumuriPan, @MaimoCh, @hag-hag for his support!!
 
+## Remove mods
+- Item Filters
+- FTB Quests (Forge)
+
+## Move mods
+- FTB Backups (Forge) -> Advanced Backups
+
+## New mods
+- Nutrition Unofficial Extended Life
+- Nutrition: GTCEu
+- Better Questing Unofficial
+
+## Formally introduced from compatibility mods
+- The Spice of Life
+
+* * *
+
+# v2.6.8
 ## Update resourcepack
 - GhaTech
 
@@ -24,10 +42,6 @@
 ## Move mods
 - File Director -> GTExpert-Core
 
-## New mods
-- Nutrition Unofficial Extended Life
-- Nutrition: GTCEu
-
 ## Update mods
 - CraftPresence
 - ConfigAnytime
@@ -36,15 +50,14 @@
 - RenderLib
 - Entity Culling
 - MixinBooter
+- UntranslatedItems: AlsoFluids
 - Ender Storage continuation
 - AE2 Unofficial Extended Life
 - AE2 Fluid Crafting Rework
 - PackagedAuto
+- GregTech CE Unofficial
 - GregTech Food Option
 - GTExpert-Core
-
-## Formally introduced from compatibility mods
-- The Spice of Life
 
 * * *
 
