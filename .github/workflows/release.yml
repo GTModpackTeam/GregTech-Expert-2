@@ -102,16 +102,16 @@ jobs:
             ./${{ env.NAME }}-${{ env.FULL_VERSION }}-mmc.zip
             ./${{ env.NAME }}-${{ env.FULL_VERSION }}-server.zip
 
-      - name: Upload Curseforge
-        uses: Xikaro/upload-curseforge-modpack-action@1.1.0
-        with: 
-          api-token: ${{ secrets.CF_API_TOKEN }}
-          project-id: '565238'
-          modpack-path: ./${{ env.NAME }}-${{ env.FULL_VERSION }}-cf.zip
-          modpack-server-path: ./${{ env.NAME }}-${{ env.FULL_VERSION }}-server.zip
-          changelog: 'Check the changes here. [Github - CHANGELOG.md](https://github.com/GTModpackTeam/GregTech-Expert-2/blob/main/CHANGELOG_v2.md "")' 
-          changelog-format: markdown
-          game-version: '1.12.2'
-          display-name: ${{ env.NAME }}-${{ env.FULL_VERSION }}
-          server-display-name: ${{ env.NAME }}-${{ env.FULL_VERSION }}-server
-          release-type: ${{ github.event.inputs.release_type }}
+      # - name: Upload Curseforge
+      #   uses: Xikaro/upload-curseforge-modpack-action@1.1.0
+      #   with: 
+      #     api-token: ${{ secrets.CF_API_TOKEN }}
+      #     project-id: '565238'
+      #     modpack-path: ./${{ env.NAME }}-${{ env.FULL_VERSION }}-cf.zip
+      #     modpack-server-path: ./${{ env.NAME }}-${{ env.FULL_VERSION }}-server.zip
+      #     changelog: 'Check the changes here. [Github - CHANGELOG.md](https://github.com/GTModpackTeam/GregTech-Expert-2/blob/main/CHANGELOG_v2.md "")' 
+      #     changelog-format: markdown
+      #     game-version: '1.12.2'
+      #     display-name: ${{ env.NAME }}-${{ env.FULL_VERSION }}
+      #     server-display-name: ${{ env.NAME }}-${{ env.FULL_VERSION }}-server
+      #     release-type: ${{ github.event.inputs.release_type }}
