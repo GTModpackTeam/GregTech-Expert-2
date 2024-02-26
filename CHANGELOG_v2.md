@@ -10,10 +10,10 @@
 ## Move mods
 - FTB Backups (Forge) -> Advanced Backups
 
-
 ## New mods
 - Nutrition Unofficial Extended Life
 - Nutrition: GTCEu
+- Better Questing Unofficial
 
 ## Formally introduced from compatibility mods
 - The Spice of Life
