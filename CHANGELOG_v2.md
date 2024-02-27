@@ -10,6 +10,9 @@
 ## Move mods
 - FTB Backups (Forge) -> Advanced Backups
 
+## Update mods
+- Universal Tweaks
+
 ## New mods
 - Nutrition Unofficial Extended Life
 - Nutrition: GTCEu
