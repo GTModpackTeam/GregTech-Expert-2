@@ -134,3 +134,16 @@ recipes.addShaped(<ae2fc:fluid_level_maintainer>, [
     [<appliedenergistics2:material:22>, <gtexpert:meta_item_1:1>, <appliedenergistics2:material:22>],
     [<metaitem:plateFluixAlloy>, <appliedenergistics2:material:53>, <metaitem:plateFluixAlloy>]
 ]);
+
+
+
+########################################
+# Items
+########################################
+# Wireless Fluid Interface Terminal
+recipes.remove(<ae2fc:wireless_fluid_pattern_terminal>);
+recipes.addShaped(<ae2fc:wireless_fluid_pattern_terminal>, [
+    [<appliedenergistics2:dense_energy_cell>, <ae2fc:part_fluid_pattern_terminal>, <appliedenergistics2:dense_energy_cell>],
+    [<metaitem:sensor.iv>, <appliedenergistics2:part:480>, <metaitem:sensor.iv>],
+    [<metaitem:stickOsmiridium>, <metaitem:emitter.iv>, <metaitem:stickOsmiridium>]
+]);

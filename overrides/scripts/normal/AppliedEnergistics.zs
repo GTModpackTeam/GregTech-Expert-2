@@ -101,29 +101,6 @@ recipes.addShaped(<appliedenergistics2:material:52> * 2, [
     [<metaitem:plateAluminium>, <metaitem:plateAluminium>, <metaitem:plateAluminium>]
 ]);
 
-# Storage Housing
-recipes.remove(<appliedenergistics2:material:39>);
-recipes.addShaped(<appliedenergistics2:material:39>, [
-    [<ore:craftingToolScrewdriver>, <metaitem:plateSteel>, <metaitem:screwSteel>],
-    [<metaitem:plateSteel>, null, <metaitem:plateSteel>],
-    [<metaitem:screwSteel>, <metaitem:plateSteel>, <ore:craftingToolHardHammer>]
-]);
-recipes.addShaped(<appliedenergistics2:material:39>, [
-    [<ore:craftingToolHardHammer>, <metaitem:plateSteel>, <metaitem:screwSteel>],
-    [<metaitem:plateSteel>, null, <metaitem:plateSteel>],
-    [<metaitem:screwSteel>, <metaitem:plateSteel>, <ore:craftingToolScrewdriver>]
-]);
-assembler.recipeBuilder()
-    .circuit(3)
-    .inputs([
-        <metaitem:plateSteel> * 2,
-        <metaitem:screwSteel> * 2
-    ])
-    .outputs([<appliedenergistics2:material:39>])
-    .duration(20)
-    .EUt(480)
-    .buildAndRegister();
-
 # Creative Storage Cell
 JEI.hide(<appliedenergistics2:creative_storage_cell>);
 
@@ -548,18 +525,6 @@ recipes.addShaped(<appliedenergistics2:material:59>, [
     [<appliedenergistics2:material:42>, <metaitem:sensor.ev>, <appliedenergistics2:material:42>]
 ]);
 
-# Fluix Pearl
-recipes.remove(<appliedenergistics2:material:9>);
-chemical_reactor.recipeBuilder()
-    .inputs([
-        <minecraft:ender_pearl>,
-        <metaitem:dustFluix>
-    ])
-    .outputs([<appliedenergistics2:material:9>])
-    .duration(20)
-    .EUt(480)
-    .buildAndRegister();
-
 # Wireless Receiver
 recipes.remove(<appliedenergistics2:material:41>);
 recipes.addShaped(<appliedenergistics2:material:41>, [
@@ -736,7 +701,7 @@ assembler.recipeBuilder()
     .inputs([
         <appliedenergistics2:material:24> * 2,
         <ore:circuitHv> * 2,
-        <metaitem:plateTitanium> * 4,
+        <metaitem:plateBlackSteel> * 4,
         <appliedenergistics2:fluix_block>
     ])
     .fluidInputs([<liquid:plastic> * 144])
@@ -904,9 +869,9 @@ assembler.recipeBuilder()
 # ME Drive
 recipes.remove(<appliedenergistics2:drive>);
 recipes.addShaped(<appliedenergistics2:drive>, [
-    [<metaitem:plateTitanium>, <gtexpert:meta_item_1:1>, <metaitem:plateTitanium>],
+    [<metaitem:plateBlackSteel>, <gtexpert:meta_item_1:1>, <metaitem:plateBlackSteel>],
     [<ore:craftGlassCable>, <appliedenergistics2:chest>, <ore:craftGlassCable>],
-    [<metaitem:plateTitanium>, <appliedenergistics2:material:24>, <metaitem:plateTitanium>]
+    [<metaitem:plateBlackSteel>, <appliedenergistics2:material:24>, <metaitem:plateBlackSteel>]
 ]);
 assembler.recipeBuilder()
     .circuit(1)
@@ -915,7 +880,7 @@ assembler.recipeBuilder()
         <gtexpert:meta_item_1:1>,
         <appliedenergistics2:chest>,
         <ore:craftGlassCable>,
-        <metaitem:plateTitanium> * 2
+        <metaitem:plateBlackSteel> * 2
     ])
     .outputs([<appliedenergistics2:drive>])
     .duration(100)
@@ -1062,15 +1027,6 @@ assembler.recipeBuilder()
     .duration(20)
     .EUt(1920)
     .buildAndRegister();
-
-# Crafting Co-Processing Unit
-recipes.remove(<appliedenergistics2:crafting_accelerator>);
-recipes.addShapeless(<appliedenergistics2:crafting_accelerator>, [
-    <appliedenergistics2:crafting_unit>,
-    <appliedenergistics2:material:23>,
-    <appliedenergistics2:material:22>,
-    <appliedenergistics2:material:24>
-]);
 
 # Molecular Assembler
 recipes.remove(<appliedenergistics2:molecular_assembler>);

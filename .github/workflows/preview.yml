@@ -19,24 +19,25 @@ jobs:
       - name: Set the version
         run: |
           MODPACKVERSION=${{ env.VERSION }}
-          echo "GregTech Expert 2 ${MODPACKVERSION}-pr-${{ env.PR_VERSION }}" > ./overrides/resources/custommainmenu/version.txt
+          echo "GregTech Expert 2 ${MODPACKVERSION}-pr-${{ env.PR_VERSION }}" > ./overrides/config/txloader/load/custommainmenu/version.txt
           sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" ./manifest.json
           sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" ./instance.cfg
           sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" ./overrides/config/craftpresence.json
 
-      - name: Download quest zip
+      - name: Download Resource Packs zip
         run: |
-          wget -O questbook.zip https://github.com/GTModpackTeam/gregtech-expert-2-questbook/archive/refs/heads/preview.zip
-          unzip questbook.zip
-          mv -vf ./gregtech-expert-2-questbook-preview/* ./overrides/config/ftbquests/
-          rm -rf ./gregtech-expert-2-questbook-preview/ ./questbook.zip
+          LATEST_RELEASE=$(curl -s https://api.github.com/repos/GTModpackTeam/GTE2-Translations/releases/latest)
+          ASSET=$(echo $LATEST_RELEASE | jq -r '.assets[] | select(.name | test("GTExpert2-v[0-9.]+-resourcepack-v[0-9]+\\.zip")) | .name' | sort -V | tail -n 1)
+          ASSET_URL=$(echo $LATEST_RELEASE | jq -r --arg ASSET "$ASSET" '.assets[] | select(.name == $ASSET) | .browser_download_url')
+          wget -O ./overrides/resourcepacks/$ASSET $ASSET_URL
 
       - name: Archive Release CF
         run: |
-          zip -r ./GTExpert2-${{ env.VERSION }}-pr-${{ env.PR_VERSION }}-cf.zip ./manifest.json ./modlist.html ./overrides/bansoukou/ ./overrides/config/ ./overrides/local/ ./overrides/resourcepacks/icons/ ./overrides/resources/ ./overrides/scripts/
+          rm -rf ./overrides/resourcepacks/.gitkeep
+          zip -r ./GTExpert2-${{ env.VERSION }}-pr-${{ env.PR_VERSION }}-cf.zip ./manifest.json ./modlist.html ./overrides/bansoukou/ ./overrides/config/ ./overrides/local/ ./overrides/resourcepacks/ ./overrides/scripts/
 
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
           cache: pip
@@ -56,7 +57,6 @@ jobs:
           mv -vf ./overrides/ .minecraft/
           cp -vf ./icon.png .minecraft/
           rm -rf .minecraft/mods/.gitkeep
-          rm -rf .minecraft/resourcepacks/.gitkeep
           zip -r ./GTExpert2-${{ env.VERSION }}-pr-${{ env.PR_VERSION }}-mmc.zip ./mmc-pack.json ./instance.cfg .minecraft/
 
       - name: Move Server Files

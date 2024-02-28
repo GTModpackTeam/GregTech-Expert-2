@@ -41,24 +41,25 @@ jobs:
 
       - name: Set the version
         run: |
-          echo "GregTech Expert 2 ${{ env.FULL_VERSION }}" > ./overrides/resources/custommainmenu/version.txt
+          echo "GregTech Expert 2 ${{ env.FULL_VERSION }}" > ./overrides/config/txloader/load/custommainmenu/version.txt
           sed -i -e "s/MODPACKVERSION/v${{ github.event.inputs.version }}/g" ./manifest.json
           sed -i -e "s/MODPACKVERSION/v${{ github.event.inputs.version }}/g" ./instance.cfg
           sed -i -e "s/MODPACKVERSION/v${{ github.event.inputs.version }}/g" ./overrides/config/craftpresence.json
 
-      - name: Download quest zip
+      - name: Download Resource Packs zip
         run: |
-          wget -O questbook.zip https://github.com/GTModpackTeam/gregtech-expert-2-questbook/archive/refs/heads/main.zip
-          unzip questbook.zip
-          mv -vf ./gregtech-expert-2-questbook-main/* ./overrides/config/ftbquests/
-          rm -rf ./gregtech-expert-2-questbook-main/ ./questbook.zip
+          LATEST_RELEASE=$(curl -s https://api.github.com/repos/GTModpackTeam/GTE2-Translations/releases/latest)
+          ASSET=$(echo $LATEST_RELEASE | jq -r '.assets[] | select(.name | test("GTExpert2-v[0-9.]+-resourcepack-v[0-9]+\\.zip")) | .name' | sort -V | tail -n 1)
+          ASSET_URL=$(echo $LATEST_RELEASE | jq -r --arg ASSET "$ASSET" '.assets[] | select(.name == $ASSET) | .browser_download_url')
+          wget -O ./overrides/resourcepacks/$ASSET $ASSET_URL
 
       - name: Archive Release CF
         run: |
-          zip -r ./${{ env.NAME }}-${{ env.FULL_VERSION }}-cf.zip ./manifest.json ./modlist.html ./manifest.json ./modlist.html ./overrides/bansoukou/ ./overrides/config/ ./overrides/local/ ./overrides/resourcepacks/icons/ ./overrides/resources/ ./overrides/scripts/
+          rm -rf ./overrides/resourcepacks/.gitkeep
+          zip -r ./${{ env.NAME }}-${{ env.FULL_VERSION }}-cf.zip ./manifest.json ./modlist.html ./manifest.json ./modlist.html ./overrides/bansoukou/ ./overrides/config/ ./overrides/local/ ./overrides/resourcepacks/ ./overrides/scripts/
 
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
           cache: pip
@@ -78,7 +79,6 @@ jobs:
           mv -vf ./overrides/ .minecraft/
           cp -vf ./icon.png .minecraft/
           rm -rf .minecraft/mods/.gitkeep
-          rm -rf .minecraft/resourcepacks/.gitkeep
           zip -r ./${{ env.NAME }}-${{ env.FULL_VERSION }}-mmc.zip ./mmc-pack.json ./instance.cfg .minecraft/
 
       - name: Move Server Files
@@ -103,13 +103,13 @@ jobs:
             ./${{ env.NAME }}-${{ env.FULL_VERSION }}-server.zip
 
       # - name: Upload Curseforge
-      #   uses: juraj-hrivnak/upload-curseforge-modpack-action@v2.0.0
+      #   uses: Xikaro/upload-curseforge-modpack-action@1.1.0
       #   with: 
       #     api-token: ${{ secrets.CF_API_TOKEN }}
       #     project-id: '565238'
       #     modpack-path: ./${{ env.NAME }}-${{ env.FULL_VERSION }}-cf.zip
       #     modpack-server-path: ./${{ env.NAME }}-${{ env.FULL_VERSION }}-server.zip
-      #     changelog: 'Check the changes here. [Github - CHANGELOG.md](https://github.com/GTModpackTeam/gregtech-expert-2/blob/main/CHANGELOG_v2.md "")' 
+      #     changelog: 'Check the changes here. [Github - CHANGELOG.md](https://github.com/GTModpackTeam/GregTech-Expert-2/blob/main/CHANGELOG_v2.md "")' 
       #     changelog-format: markdown
       #     game-version: '1.12.2'
       #     display-name: ${{ env.NAME }}-${{ env.FULL_VERSION }}

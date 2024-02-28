@@ -32,15 +32,46 @@
 
 - GTE2 comes with compatibility scripts for the following mods. You can drop them into the mods folder and their recipes will be adjusted accordingly.
 - However, support is for recipes only, so we will not respond to reports of unstable operation of the mod itself :<
-    - [The Spice of Life](https://www.curseforge.com/minecraft/mc-mods/the-spice-of-life)
-        - For those who want to live a hardcore life.
-    - [Compact Machines](https://www.curseforge.com/minecraft/mc-mods/compact-machines)
-        - For those who want to build a minimalist factory.
-        - I think practicality starts with MV...?
     - [Flux Networks](https://www.curseforge.com/minecraft/mc-mods/flux-networks)
         - You want to make RF wireless?
-    - [ME Capability Adapter](https://www.curseforge.com/minecraft/mc-mods/capability-adapter)
-        - For those who want to use ME System.
+    - (**WIP**) [Forestry](https://www.curseforge.com/minecraft/mc-mods/forestry)
+        - You want to bee breeding?
+    - (**WIP**) [Gendustry](https://www.curseforge.com/minecraft/mc-mods/gendustry)
+        - You want to automate bee breeding?
+    - (**WIP**) [Thaumcraft](https://www.curseforge.com/minecraft/mc-mods/thaumcraft)
+        - You want to use Thaumcraft's magic?
+    - (**WIP**) [Thaumic Energistics Extended Life](https://www.curseforge.com/minecraft/mc-mods/thaumic-energistics-extended-life)
+        - You want to use Thaumcraft's magic with AE2?
+    - [Volumetric Flask](https://www.curseforge.com/minecraft/mc-mods/volumetric-flask)
+        - Migration to AE2 Fluid Crafting Rework. However, a Flask can still be created.
+    - [ExtraCells2 - SamLam140330's Fork](https://www.curseforge.com/minecraft/mc-mods/extra-cells-2-samlam140330s-fork)
+        - Migration to AE Additions only. You will not be able to make any ExtraCells2 stuff.
+    - More other mods support ??
+        - If you want to add support for other mods, please contact us on Discord. In some cases, we will formally implement it.
+
+
+# Quest Book
+- Originally FTBQ, now in the process of migrating to BQU. [Link](https://github.com/GTModpackTeam/GregTech-Expert-2-FTBQuestBook)
+
+| Age | Quest | Description | FTBQ to BQU migration |
+| ---- | ---- | ---- | ---- |
+| Stone Age | 〇 | 〇 | 0% |
+| Ore Veins | 〇 | 〇 | 0% |
+| Tier 0 - ULV | 〇 | 〇 | 0% |
+| Tier 1 - LV | 〇 | 〇 | 0% |
+| Tier 2 - MV | 〇 | 〇 | 0% |
+| Tier 3 - HV | 〇 | 〇 | 0% |
+| Tier 4 - EV | 〇 | 〇 | 0% |
+| Tier 5 - IV | 〇 | △ | 0% |
+| Tier 6 - LuV | △ | × | 0% |
+| Tier 7 - ZPM | △ | × | 0% |
+| Tier 8 - UV / UHV | △ | × | 0% |
+| Tier 940 - Endgame | 〇 | × | 0% |
+| AE2 Unofficial Extended Life | 〇 | 〇 | 0% |
+| Draconic Evolution | △ | × | 0% |
+| Gregtech Food Option | 〇 | △ | 0% |
+| Gregtech Food Option - Foods | 〇 | × | 0% |
+| Milestones | 〇 | 〇 | 0% |
 
 
 ## Credits

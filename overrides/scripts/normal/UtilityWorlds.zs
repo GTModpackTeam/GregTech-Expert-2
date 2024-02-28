@@ -10,6 +10,7 @@ import mods.jei.JEI;
 JEI.hide(<utilityworlds:portal_mining>);
 
 # Void Portal
+recipes.addShapeless(<utilityworlds:portal_void>, [<utilityworlds:portal_void>.withEmptyTag()]);
 assembler.recipeBuilder()
     .circuit(1)
     .inputs([
@@ -23,6 +24,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 # Garden Portal
+recipes.addShapeless(<utilityworlds:portal_garden>, [<utilityworlds:portal_garden>.withEmptyTag()]);
 assembler.recipeBuilder()
     .circuit(1)
     .inputs([

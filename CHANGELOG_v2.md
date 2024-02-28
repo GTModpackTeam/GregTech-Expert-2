@@ -1,3 +1,132 @@
+# v2.7.0
+## Modpack information
+- A major adjustment has been made in food related matter.
+    - Thanks to @KatatsumuriPan, @MaimoCh, @hag-hag for his support!!
+
+## Remove mods
+- Item Filters
+- FTB Quests (Forge)
+
+## Move mods
+- FTB Backups (Forge) -> Advanced Backups
+
+## Update mods
+- Universal Tweaks
+
+## New mods
+- Nutrition Unofficial Extended Life
+- Nutrition: GTCEu
+- Better Questing Unofficial
+
+## Formally introduced from compatibility mods
+- The Spice of Life
+
+* * *
+
+# v2.6.8
+## Update resourcepack
+- GhaTech
+
+## New recipes
+### Ender Storage
+- Pouch(NBT clear)
+- Tank(NBT clear)
+- Chest(NBT clear)
+
+### UtilityWorlds
+- Void Portal(NBT clear)
+- Garden Portal(NBT clear)
+
+## Update recipes
+### Ender Storage
+- Tank
+- Chest
+
+## Move mods
+- File Director -> GTExpert-Core
+
+## Update mods
+- CraftPresence
+- ConfigAnytime
+- Inventory Bogo Sorter
+- Better Line Break
+- RenderLib
+- Entity Culling
+- MixinBooter
+- UntranslatedItems: AlsoFluids
+- Ender Storage continuation
+- AE2 Unofficial Extended Life
+- AE2 Fluid Crafting Rework
+- PackagedAuto
+- GregTech CE Unofficial
+- GregTech Food Option
+- GTExpert-Core
+
+* * *
+
+# v2.6.7
+## Modpack information
+- Hotfix for v2.6.6
+
+## Update mods
+- GregTech Food Option
+- GTExpert-Core
+- CraftTweaker
+
+* * *
+
+# v2.6.6
+## Update mods
+- GregTech CE: Unofficial
+- AE2 Unofficial Extended Life
+- AE2 Fluid Crafting Rework
+- ModularUI
+- Better Line Break
+
+* * *
+
+# v2.6.5
+## Modpack information
+- We have started translating the mods used in GTE2.
+    - Please check with [https://github.com/GTModpackTeam/GTE2-Translations](https://github.com/GTModpackTeam/GTE2-Translations)
+
+## New mods
+- Aqua Acrobatics
+- Better Line Break
+
+## Update mods
+- AE2 Unofficial Extended Life
+- AE2 Fluid Crafting Rework
+- VintageFix
+
+## Move mods
+- AE2 Stuff -> AE2 Stuff Unofficial
+
+## Formally introduced from compatibility mods
+- Compact Machines
+- ME Capability Adapter
+
+* * *
+
+# v2.6.4
+## Modpack information
+- Adjusted, added or moved the overall quest description.
+- Texture update of sawmill conveyor
+    -  Thanks to @KatatsumuriPan for his support!!
+
+## Update mods
+- CraftPresence
+- GTExpert-Core
+- AE2 Fluid Crafting Rework
+
+## Fix recipes
+### AE2 Unofficial Extended Life
+- ME Drive and ME Controller required Titanium, but changed to BlackSteel.
+    - This change eliminates the dilemma of not being able to proceed with AE without Vacuum Freezer.
+- Inscriber Presses switched to Mold for GTExpert-Core.
+
+* * *
+
 # v2.6.3
 ## Modpack information
 - Fixed a bug that prevented ACP and AGC recipe execution from working.

@@ -1,6 +1,5 @@
 # Imports
 import mods.jei.JEI;
-import mods.gtexpert.I18n;
 
 
 
@@ -100,66 +99,3 @@ JEI.removeAndHide(<nae2:storage_crafting_256k>);
 JEI.removeAndHide(<nae2:storage_crafting_1024k>);
 JEI.removeAndHide(<nae2:storage_crafting_4096k>);
 JEI.removeAndHide(<nae2:storage_crafting_16384k>);
-
-# 4x Crafting Co-Processing Unit
-recipes.remove(<nae2:coprocessor_4x>);
-packer.recipeBuilder()
-    .inputs([
-        <appliedenergistics2:crafting_accelerator>,
-        <appliedenergistics2:material:36>
-    ])
-    .outputs([<nae2:coprocessor_4x>])
-    .duration(10)
-    .EUt(7)
-    .buildAndRegister();
-packer.recipeBuilder()
-    .inputs([<nae2:coprocessor_4x>])
-    .outputs([
-        <appliedenergistics2:crafting_accelerator>,
-        <appliedenergistics2:material:36>
-    ])
-    .duration(10)
-    .EUt(7)
-    .buildAndRegister();
-
-# 16x Crafting Co-Processing Unit
-recipes.remove(<nae2:coprocessor_16x>);
-packer.recipeBuilder()
-    .inputs([
-        <appliedenergistics2:crafting_accelerator>,
-        <appliedenergistics2:material:37>
-    ])
-    .outputs([<nae2:coprocessor_16x>])
-    .duration(10)
-    .EUt(7)
-    .buildAndRegister();
-packer.recipeBuilder()
-    .inputs([<nae2:coprocessor_16x>])
-    .outputs([
-        <appliedenergistics2:crafting_accelerator>,
-        <appliedenergistics2:material:37>
-    ])
-    .duration(10)
-    .EUt(7)
-    .buildAndRegister();
-
-# 64x Crafting Co-Processing Unit
-recipes.remove(<nae2:coprocessor_64x>);
-packer.recipeBuilder()
-    .inputs([
-        <appliedenergistics2:crafting_accelerator>,
-        <appliedenergistics2:material:38>
-    ])
-    .outputs([<nae2:coprocessor_64x>])
-    .duration(10)
-    .EUt(7)
-    .buildAndRegister();
-packer.recipeBuilder()
-    .inputs([<nae2:coprocessor_64x>])
-    .outputs([
-        <appliedenergistics2:crafting_accelerator>,
-        <appliedenergistics2:material:38>
-    ])
-    .duration(10)
-    .EUt(7)
-    .buildAndRegister();
