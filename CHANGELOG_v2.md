@@ -11,6 +11,9 @@
 - FTB Backups (Forge) -> Advanced Backups
 
 ## Update mods
+- AE2 Unofficial Extended Life
+- PackagedAuto
+- Roughly Enough IDs
 - Universal Tweaks
 
 ## New mods
