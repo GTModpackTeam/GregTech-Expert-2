@@ -15,6 +15,7 @@
 - PackagedAuto
 - Roughly Enough IDs
 - Universal Tweaks
+- GTExpert-Core
 
 ## New mods
 - Nutrition Unofficial Extended Life
