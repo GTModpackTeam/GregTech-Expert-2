@@ -1,3 +1,32 @@
+# v2.7.0
+## Modpack information
+- A major adjustment has been made in food related matter.
+    - Thanks to @KatatsumuriPan, @MaimoCh, @hag-hag for his support!!
+
+## Remove mods
+- Item Filters
+- FTB Quests (Forge)
+
+## Move mods
+- FTB Backups (Forge) -> Advanced Backups
+
+## Update mods
+- AE2 Unofficial Extended Life
+- PackagedAuto
+- Roughly Enough IDs
+- Universal Tweaks
+- GTExpert-Core
+
+## New mods
+- Nutrition Unofficial Extended Life
+- Nutrition: GTCEu
+- Better Questing Unofficial
+
+## Formally introduced from compatibility mods
+- The Spice of Life
+
+* * *
+
 # v2.6.8
 ## Update resourcepack
 - GhaTech

@@ -19,17 +19,10 @@ jobs:
       - name: Set the version
         run: |
           MODPACKVERSION=${{ env.VERSION }}
-          echo "GregTech Expert 2 ${MODPACKVERSION}-pr-${{ env.PR_VERSION }}" > ./overrides/resources/custommainmenu/version.txt
+          echo "GregTech Expert 2 ${MODPACKVERSION}-pr-${{ env.PR_VERSION }}" > ./overrides/config/txloader/load/custommainmenu/version.txt
           sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" ./manifest.json
           sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" ./instance.cfg
           sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" ./overrides/config/craftpresence.json
-
-      - name: Download Quest Book zip
-        run: |
-          wget -O questbook.zip https://github.com/GTModpackTeam/GregTech-Expert-2-FTBQuestBook/archive/refs/heads/main.zip
-          unzip questbook.zip
-          mv -vf ./GregTech-Expert-2-FTBQuestBook-main/* ./overrides/config/ftbquests/
-          rm -rf ./GregTech-Expert-2-FTBQuestBook-main/ ./questbook.zip
 
       - name: Download Resource Packs zip
         run: |
@@ -41,7 +34,7 @@ jobs:
       - name: Archive Release CF
         run: |
           rm -rf ./overrides/resourcepacks/.gitkeep
-          zip -r ./GTExpert2-${{ env.VERSION }}-pr-${{ env.PR_VERSION }}-cf.zip ./manifest.json ./modlist.html ./overrides/bansoukou/ ./overrides/config/ ./overrides/local/ ./overrides/resourcepacks/ ./overrides/resources/ ./overrides/scripts/
+          zip -r ./GTExpert2-${{ env.VERSION }}-pr-${{ env.PR_VERSION }}-cf.zip ./manifest.json ./modlist.html ./overrides/bansoukou/ ./overrides/config/ ./overrides/local/ ./overrides/resourcepacks/ ./overrides/scripts/
 
       - name: Setup Python
         uses: actions/setup-python@v5

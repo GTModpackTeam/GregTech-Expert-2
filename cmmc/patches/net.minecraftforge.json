@@ -2,6 +2,9 @@
     "+tweakers": [
         "net.minecraftforge.fml.common.launcher.FMLTweaker"
     ],
+    "+traits": [
+        "FirstThreadOnMacOS"
+    ],
     "+jvmArgs": [
         "-Dfile.encoding=UTF-8"
     ],

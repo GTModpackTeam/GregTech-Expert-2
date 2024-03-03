@@ -1,0 +1,24 @@
+# Ender IO
+modpack.enderio.tank.tooltip.1=液体バケツからのレシピ確認用としてだけに存在します。EIOタンクの作成はできません。
+
+# AE2
+modpack.ae2.p2p_conduit.tooltip.1=エネルギー導管を持ってME P2P Tunnelを右クリックすることで変化します。
+modpack.ae2.p2p_bucket.tooltip.1=バケツを持ってME P2P Tunnelを右クリックすることで変化します。
+modpack.ae2.p2p_gtceu.tooltip.1=GregTechのケーブルを持ってME P2P Tunnelを右クリックすることで変化します。
+modpack.ae2.p2p_chest.tooltip.1=チェストを持ってME P2P Tunnelを右クリックすることで変化します。
+modpack.ae2.p2p_torch.tooltip.1=松明を持ってME P2P Tunnelを右クリックすることで変化します。
+modpack.ae2.p2p_redstone.tooltip.1=レッドストーンを持ってME P2P Tunnelを右クリックすることで変化します。
+modpack.ae2.p2p_me.tooltip.1=MEケーブルを持ってME P2P Tunnelを右クリックすることで変化します。
+modpack.nae2.p2p_interface.tooltip.1=インターフェースを持ってME P2P Tunnelを右クリックすることで変化します。
+modpack.aeadditions.fluid_pattern.tooltip.1=AE2 Fluid Craftingにて液体管理を推奨します。
+
+# Minecraft
+modpack.minecraft.tools.tooltip.1=クラフト材料にのみ使用できます。
+modpack.deprecated.tooltip.1=このアイテムは廃止されました。新しいアイテムに移行してください。
+
+# Mega Torch
+modpack.torchmaster.mega_torch.tooltip.1=このModpackでは128ブロックの範囲がある。
+modpack.torchmaster.lantern.tooltip.1=このModpackでは64ブロックの範囲がある。
+
+# Elevator
+modpack.elevator.tooltip.1=最初に黒色のエレベーターを作成すること。
