@@ -13,6 +13,16 @@
 - Item Filters
 - FTB Quests (Forge)
 
+## Move mods
+- FTB Backups (Forge) -> Advanced Backups
+
+## Update mods
+- AE2 Unofficial Extended Life
+- PackagedAuto
+- Roughly Enough IDs
+- Universal Tweaks
+- GTExpert-Core
+
 ## New mods
 - Nutrition Unofficial Extended Life
 - Nutrition: GTCEu
@@ -24,6 +34,10 @@
 * * *
 
 # 2.6.9
+## Modpack information
+- This is a backport including 2.7.x mod updates and updates that do not break the environment as 2.6.x.
+- Includes multiplayer issues, performance tweaks and mod updates.
+
 ## Revert mod
 - The One Probe Community Edition -> The One Probe
 
