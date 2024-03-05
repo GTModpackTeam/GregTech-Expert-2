@@ -1,3 +1,48 @@
+# v2.7.1
+## Modpack information
+- Fix quests issues.
+
+* * *
+
+# v2.7.0
+## Modpack information
+- A major adjustment has been made in food related matter.
+    - Thanks to @KatatsumuriPan, @MaimoCh, @hag-hag for his support!!
+
+## Remove mods
+- Item Filters
+- FTB Quests (Forge)
+
+## New mods
+- Nutrition Unofficial Extended Life
+- Nutrition: GTCEu
+- Better Questing Unofficial
+
+## Formally introduced from compatibility mods
+- The Spice of Life
+
+* * *
+
+# 2.6.9
+## Revert mod
+- The One Probe Community Edition -> The One Probe
+
+## Move mods
+- FTB Backups (Forge) -> Advanced Backups
+- Clumps -> Fixeroo
+
+## Update mods
+- AE2 Unofficial Extended Life
+- PackagedAuto
+- Roughly Enough IDs
+- Universal Tweaks
+- Had Enough Items
+- ModularUI
+- GregTech Food Option
+- GTExpert-Core
+
+* * *
+
 # v2.6.8
 ## Update resourcepack
 - GhaTech

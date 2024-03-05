@@ -7,7 +7,8 @@
 		"oredict": [
 			"foodButter",
 			"foodChocolatebar",
-			"listAllmilk"
+			"listAllmilk",
+			"foodCheese"
 		],
 		"items": [
 			"actuallyadditions:item_food:0",
@@ -664,7 +665,6 @@
 			"xlfoodmod:taco_salad",
 			"xlfoodmod:vanilla_icecream",
 			"xlfoodmod:waffle",
-			"gregtechfoodoption:gtfo_meta_item:59",
 			"gregtechfoodoption:gtfo_meta_item:62",
 			"gregtechfoodoption:gtfo_meta_item:60",
 			"gregtechfoodoption:gtfo_meta_item:63",
@@ -676,12 +676,14 @@
 			"gregtechfoodoption:gtfo_meta_item:70",
 			"gregtechfoodoption:gtfo_meta_item:72",
 			"gregtechfoodoption:gtfo_meta_item:66",
+			"gregtechfoodoption:gtfo_meta_item:89",
 			"gregtechfoodoption:gtfo_meta_item:216",
 			"gregtechfoodoption:gtfo_meta_item:225",
 			"gregtechfoodoption:gtfo_meta_item:226",
 			"gregtechfoodoption:gtfo_meta_item:274",
 			"gregtechfoodoption:gtfo_meta_item:276",
 			"gregtechfoodoption:gtfo_meta_item:278",
+			"gregtechfoodoption:gtfo_meta_item:280",
 			"gregtechfoodoption:gtfo_meta_item:282",
 			"gregtechfoodoption:gtfo_meta_item:283",
 			"gregtechfoodoption:gtfo_meta_item:285",

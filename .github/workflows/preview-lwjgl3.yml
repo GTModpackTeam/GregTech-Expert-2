@@ -19,7 +19,7 @@ jobs:
       - name: Set the version
         run: |
           MODPACKVERSION=${{ env.VERSION }}
-          echo "[CleanroomMMC] GregTech Expert 2 ${MODPACKVERSION}-lwjgl3-${{ env.LWIGL3_VERSION }}" > ./overrides/resources/custommainmenu/version.txt
+          echo "[CleanroomMMC] GregTech Expert 2 ${MODPACKVERSION}-lwjgl3-${{ env.LWIGL3_VERSION }}" > ./overrides/config/txloader/load/custommainmenu/version.txt
           sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" ./manifest.json
           sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" ./cmmc/instance.cfg
           sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" ./overrides/config/craftpresence.json
