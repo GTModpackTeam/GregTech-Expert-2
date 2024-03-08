@@ -58,11 +58,14 @@
 - Clumps -> Fixeroo
 
 ## Update mods
+- Controlling
+- CraftPresence
 - AE2 Unofficial Extended Life
 - PackagedAuto
 - Roughly Enough IDs
 - Universal Tweaks
 - Had Enough Items
+- Inventory Bogo Sorter
 - ModularUI
 - GregTech Food Option
 - GTExpert-Core
