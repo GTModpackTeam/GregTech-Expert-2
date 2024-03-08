@@ -1,4 +1,7 @@
 # v2.7.1
+## Modpack information
+- Fix quests issues.
+
 # Revert mod
 - The One Probe Community Edition -> The One Probe
 
