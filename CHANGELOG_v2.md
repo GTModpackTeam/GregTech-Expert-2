@@ -2,6 +2,18 @@
 ## Modpack information
 - Fix quests issues.
 
+# Revert mod
+- The One Probe Community Edition -> The One Probe
+
+## Update mod
+- Controlling
+- CraftPresence
+- Had Enough Items
+- Inventory Bogo Sorter
+- ModularUI
+- GregTech Food Option
+- GTExpert-Core
+
 * * *
 
 # v2.7.0
