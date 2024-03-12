@@ -2,17 +2,10 @@
 ## Modpack information
 - Fix quests issues.
 
-# Revert mod
-- The One Probe Community Edition -> The One Probe
-
 ## Update mod
-- Controlling
-- CraftPresence
-- Had Enough Items
-- Inventory Bogo Sorter
-- ModularUI
-- GregTech Food Option
-- GTExpert-Core
+- PackagedAuto
+- ConfigAnytime
+- VintageFix
 
 * * *
 
@@ -42,6 +35,33 @@
 
 ## Formally introduced from compatibility mods
 - The Spice of Life
+
+* * *
+
+# 2.6.9
+## Modpack information
+- This is a backport including 2.7.x mod updates and updates that do not break the environment as 2.6.x.
+- Includes multiplayer issues, performance tweaks and mod updates.
+
+## Revert mod
+- The One Probe Community Edition -> The One Probe
+
+## Move mods
+- FTB Backups (Forge) -> Advanced Backups
+- Clumps -> Fixeroo
+
+## Update mods
+- Controlling
+- CraftPresence
+- AE2 Unofficial Extended Life
+- PackagedAuto
+- Roughly Enough IDs
+- Universal Tweaks
+- Had Enough Items
+- Inventory Bogo Sorter
+- ModularUI
+- GregTech Food Option
+- GTExpert-Core
 
 * * *
 
