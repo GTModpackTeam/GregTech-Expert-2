@@ -10,6 +10,7 @@
 - PackagedAuto
 - ConfigAnytime
 - VintageFix
+- GTExpert-Core
 
 * * *
 
