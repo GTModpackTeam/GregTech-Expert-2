@@ -7,9 +7,11 @@
 
 ## Update mod
 - Better Questing Unofficial
+- AE2 Fluid Crafting Rework
 - PackagedAuto
 - ConfigAnytime
 - VintageFix
+- JourneyMap
 - GTExpert-Core
 
 * * *
