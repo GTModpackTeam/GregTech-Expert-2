@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/GTModpackTeam/gregtech-expert-2/blob/main/overrides/resources/custommainmenu/textures/logo.png" alt="Logo" width="256" height="256"></p>
+<p align="center"><img src="https://github.com/GTModpackTeam/gregtech-expert-2/blob/main/overrides/config/txloader/load/custommainmenu/textures/logo.png" alt="Logo" width="256" height="256"></p>
 <h1 align="center">GregTech Expert 2</h1>
 <h1 align="center">
     <a href="https://www.curseforge.com/minecraft/modpacks/gregtech-expert-2"><img src="https://img.shields.io/badge/Available%20for-MC%201.12.2%20-informational?style=for-the-badge" alt="Supported Versions"></a>
@@ -55,23 +55,24 @@
 
 | Age | Quest | Description | FTBQ to BQU migration |
 | ---- | ---- | ---- | ---- |
-| Stone Age | 〇 | 〇 | 0% |
-| Ore Veins | 〇 | 〇 | 0% |
-| Tier 0 - ULV | 〇 | 〇 | 0% |
-| Tier 1 - LV | 〇 | 〇 | 0% |
-| Tier 2 - MV | 〇 | 〇 | 0% |
-| Tier 3 - HV | 〇 | 〇 | 0% |
-| Tier 4 - EV | 〇 | 〇 | 0% |
-| Tier 5 - IV | 〇 | △ | 0% |
-| Tier 6 - LuV | △ | × | 0% |
-| Tier 7 - ZPM | △ | × | 0% |
-| Tier 8 - UV / UHV | △ | × | 0% |
-| Tier 940 - Endgame | 〇 | × | 0% |
-| AE2 Unofficial Extended Life | 〇 | 〇 | 0% |
-| Draconic Evolution | △ | × | 0% |
-| Gregtech Food Option | 〇 | △ | 0% |
-| Gregtech Food Option - Foods | 〇 | × | 0% |
-| Milestones | 〇 | 〇 | 0% |
+| Stone Age | 〇 | 〇 | 50% |
+| Ore Veins | 〇 | 〇 | 50% |
+| Tier 0 - ULV | 〇 | 〇 | 50% |
+| Tier 1 - LV | 〇 | 〇 | 50% |
+| Tier 2 - MV | 〇 | 〇 | 50% |
+| Tier 3 - HV | 〇 | △ | 50% |
+| Tier 4 - EV | 〇 | 〇 | 50% |
+| Tier 5 - IV | 〇 | △ | 50% |
+| Tier 6 - LuV | △ | × | 50% |
+| Tier 7 - ZPM | △ | × | 50% |
+| Tier 8 - UV / UHV | △ | × | 50% |
+| Tier 940 - Endgame | 〇 | × | 50% |
+| AE2 Unofficial Extended Life | 〇 | 〇 | 80% |
+| Draconic Evolution | △ | × | 80% |
+| Gregtech Food Option | 〇 | △ | 30% |
+| Gregtech Food Option - Foods | 〇 | × | 30% |
+| Gregicality / GTExpert-Core | 〇 | △ | 50% |
+| Milestones | 〇 | 〇 | 80% |
 
 
 ## Credits

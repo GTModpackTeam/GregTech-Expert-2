@@ -1,4 +1,3 @@
-#modloaded solcarrot
 # Imports
 import mods.jei.JEI;
 
