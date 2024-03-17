@@ -2,16 +2,16 @@
 ## Modpack information
 - Fix quests issues.
 
-# Revert mod
-- The One Probe Community Edition -> The One Probe
+## Downgrade mod
+- RoughlyEnoughIDs
 
 ## Update mod
-- Controlling
-- CraftPresence
-- Had Enough Items
-- Inventory Bogo Sorter
-- ModularUI
-- GregTech Food Option
+- Better Questing Unofficial
+- AE2 Fluid Crafting Rework
+- PackagedAuto
+- ConfigAnytime
+- VintageFix
+- JourneyMap
 - GTExpert-Core
 
 * * *
