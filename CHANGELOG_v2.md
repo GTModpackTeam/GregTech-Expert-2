@@ -45,9 +45,28 @@
 
 * * *
 
+# 2.6.10
+## Modpack information
+- This is a backport including 2.7.1 mod updates and updates that do not break the environment as 2.6.10.
+- Includes multiplayer issues, performance tweaks and mod updates.
+
+## Downgrade mod
+- RoughlyEnoughIDs
+
+## Update mod
+- Better Questing Unofficial
+- AE2 Fluid Crafting Rework
+- PackagedAuto
+- ConfigAnytime
+- VintageFix
+- JourneyMap
+- GTExpert-Core
+
+* * *
+
 # 2.6.9
 ## Modpack information
-- This is a backport including 2.7.x mod updates and updates that do not break the environment as 2.6.x.
+- This is a backport including 2.7.0 mod updates and updates that do not break the environment as 2.6.9.
 - Includes multiplayer issues, performance tweaks and mod updates.
 
 ## Revert mod
