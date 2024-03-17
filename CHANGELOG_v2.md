@@ -2,7 +2,11 @@
 ## Modpack information
 - Fix quests issues.
 
+## Downgrade mod
+- RoughlyEnoughIDs
+
 ## Update mod
+- Better Questing Unofficial
 - PackagedAuto
 - ConfigAnytime
 - VintageFix
