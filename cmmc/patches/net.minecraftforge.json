@@ -81,13 +81,13 @@
             }
         },
         {
-            "name": "com.cleanroommc:bouncepad:0.4.37-cursed",
+            "name": "com.cleanroommc:bouncepad:0.4.40-cursed",
             "downloads": {
                 "artifact": {
-                    "path": "com/cleanroommc/bouncepad/0.4.37-cursed/bouncepad-0.4.37-cursed.jar",
-                    "url": "https://maven.outlands.top/releases/com/cleanroommc/bouncepad/0.4.37-cursed/bouncepad-0.4.37-cursed.jar",
-                    "sha1": "5bd2516665af8f3f53ca7074ecd370e53ddefffc",
-                    "size": 28844
+                    "path": "com/cleanroommc/bouncepad/0.4.40-cursed/bouncepad-0.4.40-cursed.jar",
+                    "url": "https://maven.outlands.top/releases/com/cleanroommc/bouncepad/0.4.40-cursed/bouncepad-0.4.40-cursed.jar",
+                    "sha1": "d867f4d07dfe9f1b9edca3b607145eb23d0d5a47",
+                    "size": 28981
                 }
             }
         },

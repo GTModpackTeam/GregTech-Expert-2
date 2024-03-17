@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/GTModpackTeam/gregtech-expert-2/blob/main/overrides/resources/custommainmenu/textures/logo.png" alt="Logo" width="256" height="256"></p>
+<p align="center"><img src="https://github.com/GTModpackTeam/gregtech-expert-2/blob/main/overrides/config/txloader/load/custommainmenu/textures/logo.png" alt="Logo" width="256" height="256"></p>
 <h1 align="center">GregTech Expert 2</h1>
 <h1 align="center">
     <a href="https://www.curseforge.com/minecraft/modpacks/gregtech-expert-2"><img src="https://img.shields.io/badge/Available%20for-MC%201.12.2%20-informational?style=for-the-badge" alt="Supported Versions"></a>

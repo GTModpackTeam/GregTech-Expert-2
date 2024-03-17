@@ -63,7 +63,7 @@ jobs:
           zip -r ./GTExpert2-${{ env.VERSION }}-lwjgl3-${{ env.LWIGL3_VERSION }}-mmc.zip ./libraries/ ./patches/ ./mmc-pack.json ./instance.cfg .minecraft/
 
       - name: Create GitHub Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         if: startsWith(github.ref, 'refs/tags/')
         with:
           prerelease: true
