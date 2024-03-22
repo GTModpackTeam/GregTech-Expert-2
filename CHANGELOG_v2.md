@@ -1,6 +1,7 @@
 # v2.7.2
 ## Modpack information
 - Powderbarrel and ITNT are reflected in quests and some quests are modified.
+- Add Compact Machines quest.
 
 ## New mod
 - Particle Culling
