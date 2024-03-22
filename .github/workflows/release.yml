@@ -61,13 +61,21 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
-          cache: pip
+          python-version: '3.12'
+
+      - name: Install uv
+        run: pip install uv
+
+      - name: Setup Python Cache 
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/uv
+          key: ${{ runner.os }}-uv-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-uv-
 
       - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r ./buildtools/requirements.txt
+        run: uv pip install --system -r ./buildtools/requirements.txt
 
       - name: Run Python
         env:
