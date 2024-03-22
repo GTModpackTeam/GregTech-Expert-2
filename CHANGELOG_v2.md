@@ -1,3 +1,12 @@
+# v2.7.2
+## Modpack information
+- Powderbarrel and ITNT are reflected in quests and some quests are modified.
+
+## New mod
+- Particle Culling
+
+* * *
+
 # v2.7.1
 ## Modpack information
 - Fix quests issues.
