@@ -3,8 +3,13 @@
 - Powderbarrel and ITNT are reflected in quests and some quests are modified.
 - Add Compact Machines quest.
 
-## New mod
+## New mods
 - Particle Culling
+
+## Update mods
+- Better Questing Unofficial
+- ConfigAnytime
+- Had Enough Items
 
 * * *
 
@@ -12,10 +17,10 @@
 ## Modpack information
 - Fix quests issues.
 
-## Downgrade mod
+## Downgrade mods
 - RoughlyEnoughIDs
 
-## Update mod
+## Update mods
 - Better Questing Unofficial
 - AE2 Fluid Crafting Rework
 - PackagedAuto
@@ -60,7 +65,7 @@
 - This is a backport including 2.7.x mod updates and updates that do not break the environment as 2.6.x.
 - Includes multiplayer issues, performance tweaks and mod updates.
 
-## Revert mod
+## Revert mods
 - The One Probe Community Edition -> The One Probe
 
 ## Move mods
@@ -288,7 +293,7 @@
 2. Finally, check the `bansoukou/gregtech-1.12.2-2.7.3-beta` and make sure there are no files inside.
 - In case you are wondering, ModPack recommends [MultiMC](https://multimc.org/) or [Prism Launcher](https://prismlauncher.org/).
 
-## New mod
+## New mods
 - Wireless Redstone CBE
 
 ## Update mods
@@ -358,7 +363,7 @@
 - MixinBooter
 - Entity Culling
 
-## Add mod
+## Add mods
 - RenderLib
 - Nothirium
 - Entity Culling
@@ -381,7 +386,7 @@
 - MixinBooter
 - File Director
 
-# Doungrade mod
+# Doungrade mods
 - ModularUI
 
 ## Fix recipes
@@ -422,10 +427,10 @@
 - Universal Tweaks
 - VintageFix
 
-# Del mod
+# Del mods
 - LoliASM
 
-# Move mod
+# Move mods
 - spark -> Spark Unforged
 
 * * *
@@ -449,7 +454,7 @@
 - UntranslatedItems: AlsoFluids
 - Zen Utils
 
-# Move mod
+# Move mods
 - /dank/null -> /dank/null/no_RCE/
 
 * * *
@@ -514,7 +519,7 @@
 - EZStorage 2 Patch
 - p455w0rd's AE2 Wireless Terminals Patch
 
-# Move mod
+# Move mods
 - RandomPatches (Forge) -> It's the little things
 - Ender Storage -> Ender Storage continuation
 - Foam​Fix -> VintageFix
@@ -527,7 +532,7 @@
 - They created a patch about ME Level Maintainer for Lazy AE2!!
     - Thanks to @sjcl for his support!!
 
-## New mod
+## New mods
 - Lazy AE2 Patch
 
 ## Update mods
@@ -599,7 +604,7 @@
 - ModularUI
 - Zen Utils
 
-## New mod
+## New mods
 - Extra CPUs
 
 * * * 
@@ -906,7 +911,7 @@
 ## Modpack information
 - EZStorage just got a little more useful.
 
-## Move mod
+## Move mods
 - AE2 Wireless Terminal Library -> AE2 Wireless Terminal-LTS
 
 ## Update mods
@@ -914,7 +919,7 @@
 - AE2 Fluid Crafting Rework
 - Universal Tweaks
 
-## Del mod
+## Del mods
 - Mod Name Tooltip
 
 ## Update recipes
@@ -938,10 +943,10 @@
 - This version is a hotfix for v2.0.4!
 - If you are updating from v1.x.x to v2.x.x for the first time, be sure to check the changelog for v2.0.4!
 
-## Downgrade mod
+## Downgrade mods
 - Inventory Bogo Sorter
 
-## Update mod
+## Update mods
 - AE2 Fluid Crafting Rework
 
 * * *
@@ -1075,7 +1080,7 @@
 - ME Dual Interface
 - Configuration Fluid Interface Terminal
 
-## Updated mod
+## Updated mods
 - GregTech Food Option
 
 * * *

@@ -7,10 +7,10 @@ import json
 
 ## Run main function
 projectIDs = [
-    871198, # VintageFix
     624967, # RenderLib
     624960, # Nothirium
     409087, # Entity Culling
+    408853, # Particle Culling
     620262, # 燐/Hesperus
     419286  # MixinBooter
 ]
