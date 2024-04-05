@@ -11,7 +11,7 @@
     "formatVersion": 1,
     "libraries": [
         {
-            "name": "com.cleanroommc:cleanroom:15.24.0.3034-universal",
+            "name": "com.cleanroommc:cleanroom:15.24.0.3035-universal",
             "MMC-hint": "local"
         },
         {
@@ -81,13 +81,13 @@
             }
         },
         {
-            "name": "top.outlands:foundation:0.12.1",
+            "name": "top.outlands:foundation:0.12.6",
             "downloads": {
                 "artifact": {
-                    "path": "top/outlands/foundation/0.12.1/foundation-0.12.1.jar",
-                    "url": "https://maven.outlands.top/releases/top/outlands/foundation/0.12.1/foundation-0.12.1.jar",
-                    "sha1": "4c9a505339dd9c144c296e43ca9dddfd7857ed04",
-                    "size": 56203
+                    "path": "top/outlands/foundation/0.12.6/foundation-0.12.6.jar",
+                    "url": "https://maven.outlands.top/releases/top/outlands/foundation/0.12.6/foundation-0.12.6.jar",
+                    "sha1": "f10e369f960f63e87f99f46f52075f40df367915",
+                    "size": 56281
                 }
             }
         },
@@ -165,127 +165,6 @@
                     "url": "https://maven.minecraftforge.net/org/jline/jline/3.25.0/jline-3.25.0.jar",
                     "sha1": "bf1a4a43c7ece74d0d7887c9cd2fb4493517ebcb",
                     "size": 1256232
-                }
-            }
-        },
-        {
-            "name": "com.typesafe.akka:akka-actor_2.12:2.8.5",
-            "downloads": {
-                "artifact": {
-                    "path": "com/typesafe/akka/akka-actor_2.12/2.8.5/akka-actor_2.12-2.8.5.jar",
-                    "url": "https://maven.minecraftforge.net/com/typesafe/akka/akka-actor_2.12/2.8.5/akka-actor_2.12-2.8.5.jar",
-                    "sha1": "9274b9bb048372c92900632470e6ec7c92ed43eb",
-                    "size": 3708567
-                }
-            }
-        },
-        {
-            "name": "com.typesafe:config:1.4.3",
-            "downloads": {
-                "artifact": {
-                    "path": "com/typesafe/config/1.4.3/config-1.4.3.jar",
-                    "url": "https://maven.minecraftforge.net/com/typesafe/config/1.4.3/config-1.4.3.jar",
-                    "sha1": "b57e0fbdc7270d8ea59c1ba367457a5cc7ba0e98",
-                    "size": 296029
-                }
-            }
-        },
-        {
-            "name": "org.scala-lang:scala-actors-migration_2.11:1.1.0",
-            "downloads": {
-                "artifact": {
-                    "path": "org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar",
-                    "url": "https://maven.minecraftforge.net/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar",
-                    "sha1": "dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f",
-                    "size": 58018
-                }
-            }
-        },
-        {
-            "name": "org.scala-lang:scala-compiler:2.11.1",
-            "downloads": {
-                "artifact": {
-                    "path": "org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar",
-                    "url": "https://maven.minecraftforge.net/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar",
-                    "sha1": "56ea2e6c025e0821f28d73ca271218b8dd04926a",
-                    "size": 13449765
-                }
-            }
-        },
-        {
-            "name": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc",
-            "downloads": {
-                "artifact": {
-                    "path": "org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar",
-                    "url": "https://maven.minecraftforge.net/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar",
-                    "sha1": "0e517c53a7e9acd6b1668c5a35eccbaa3bab9aac",
-                    "size": 25365
-                }
-            }
-        },
-        {
-            "name": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc",
-            "downloads": {
-                "artifact": {
-                    "path": "org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar",
-                    "url": "https://maven.minecraftforge.net/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar",
-                    "sha1": "f361a3283452c57fa30c1ee69448995de23c60f7",
-                    "size": 206575
-                }
-            }
-        },
-        {
-            "name": "org.scala-lang:scala-library:2.11.1",
-            "downloads": {
-                "artifact": {
-                    "path": "org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar",
-                    "url": "https://maven.minecraftforge.net/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar",
-                    "sha1": "0e11da23da3eabab9f4777b9220e60d44c1aab6a",
-                    "size": 5538130
-                }
-            }
-        },
-        {
-            "name": "org.scala-lang:scala-parser-combinators_2.11:1.0.1",
-            "downloads": {
-                "artifact": {
-                    "path": "org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar",
-                    "url": "https://maven.minecraftforge.net/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar",
-                    "sha1": "f05d7345bf5a58924f2837c6c1f4d73a938e1ff0",
-                    "size": 419701
-                }
-            }
-        },
-        {
-            "name": "org.scala-lang:scala-reflect:2.11.1",
-            "downloads": {
-                "artifact": {
-                    "path": "org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar",
-                    "url": "https://maven.minecraftforge.net/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar",
-                    "sha1": "6580347e61cc7f8e802941e7fde40fa83b8badeb",
-                    "size": 4372892
-                }
-            }
-        },
-        {
-            "name": "org.scala-lang:scala-swing_2.11:1.0.1",
-            "downloads": {
-                "artifact": {
-                    "path": "org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar",
-                    "url": "https://maven.minecraftforge.net/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar",
-                    "sha1": "b1cdd92bd47b1e1837139c1c53020e86bb9112ae",
-                    "size": 726500
-                }
-            }
-        },
-        {
-            "name": "org.scala-lang:scala-xml_2.11:1.0.2",
-            "downloads": {
-                "artifact": {
-                    "path": "org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar",
-                    "url": "https://maven.minecraftforge.net/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar",
-                    "sha1": "7a80ec00aec122fba7cd4e0d4cdd87ff7e4cb6d0",
-                    "size": 648679
                 }
             }
         },
@@ -652,5 +531,5 @@
         }
     ],
     "uid": "net.minecraftforge",
-    "version": "15.24.0.3034"
+    "version": "15.24.0.3035"
 }

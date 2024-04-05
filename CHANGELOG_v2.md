@@ -11,6 +11,7 @@
 - Better Questing Unofficial
 - ConfigAnytime
 - CraftPresence
+- GTExpert-Core
 - Had Enough Items
 - VintageFix
 
