@@ -10,7 +10,7 @@
     "detectMCUpdaterInstance": false,
     "detectTechnicPack": false,
     "detectModrinthPack": false,
-    "detectBiomeData": true,
+    "detectBiomeData": false,
     "detectDimensionData": true,
     "detectWorldData": true,
     "clientId": "1060775831007400018",
@@ -75,8 +75,8 @@
   },
   "serverSettings": {
     "fallbackServerIcon": "gte_logo",
-    "fallbackServerName": "GregTech Expert 2 Server",
-    "fallbackServerMotd": "A Minecraft Server",
+    "fallbackServerName": "GTE2 Server",
+    "fallbackServerMotd": "GregTech Expert 2 Server",
     "serverData": {
       "default": {
         "textOverride": "Playing on {server.motd.raw}",
@@ -168,7 +168,7 @@
     "singleplayerData": {
       "textOverride": "Playing Singleplayer",
       "data": {
-        "enabled": false,
+        "enabled": true,
         "useAsMain": false,
         "details": "",
         "gameState": "",
@@ -191,10 +191,10 @@
     "enablePerGui": false,
     "enablePerItem": false,
     "enablePerEntity": false,
-    "formatWords": true,
+    "formatWords": false,
     "debugMode": false,
     "verboseMode": false,
-    "refreshRate": 20,
+    "refreshRate": 2,
     "allowPlaceholderPreviews": false,
     "guiSettings": {
       "fallbackGuiIcon": "unknown",
@@ -276,7 +276,7 @@
     },
     "allowEndpointIcons": true,
     "serverIconEndpoint": "https://api.mcsrvstat.us/icon/{server.address.short}",
-    "playerSkinEndpoint": "https://crafatar.com/avatars/%1$s",
+    "playerSkinEndpoint": "https://mc-heads.net/avatar/{getOrDefault(player.uuid.short, player.name)}",
     "allowDuplicatePackets": false,
     "maxConnectionAttempts": 10
   },
@@ -337,36 +337,46 @@
     "presenceData": {
       "enabled": true,
       "useAsMain": false,
-      "details": "{menu.message}{dimension.message}",
-      "gameState": "{server.message} {custom.pack}",
-      "largeImageKey": "{menu.icon}{dimension.icon}",
-      "largeImageText": "{menu.message}{dimension.message}",
-      "smallImageKey": "{server.icon}{pack.icon}",
-      "smallImageText": "{server.message} {custom.pack}",
+      "details": "{getFirst(menu.message)}",
+      "gameState": "{getOrDefault(server.message)} {getOrDefault(pack.name)}",
+      "largeImageKey": "{getFirst(menu.icon, general.icon)}",
+      "largeImageText": "Playing {custom.windowTitle}",
+      "smallImageKey": "{custom.tierSlug}",
+      "smallImageText": "Stage: {custom.tierName}",
       "startTimestamp": "{data.general.time}",
       "endTimestamp": "",
       "buttons": {
         "default": {
           "label": "Example Text",
           "url": "https://google.com"
+        },
+        "github": {
+          "label": "GTE2 GitHub",
+          "url": "https://github.com/GTModpackTeam/GregTech-Expert-2"
+        },
+        "discord": {
+          "label": "GTE2 Discord",
+          "url": "https://discord.gg/xBwHpZyZdW"
         }
       }
     },
     "dynamicIcons": {
       "default": "https://via.placeholder.com/256.png",
-      "Honon": "https://crafatar.com/avatars/28c58c7f43914db5bc8c16cdb748c33c"
+      "Honon": "https://mc-heads.net/avatar/28c58c7f43914db5bc8c16cdb748c33c"
     },
     "dynamicVariables": {
       "default": "Example Text",
       "mods": "{general.mods} Mod(s)",
       "player_info_coordinate": "At {player.position.x}, {player.position.z}",
       "players": "{server.players.current} / {server.players.max} Players",
-      "player_info_in": "({custom.player_info_health})",
+      "player_info_in": "({custom.player_info.health})",
       "player_info_items": "Items: {item.main_hand.message}",
       "player_info_out": "As {player.name}",
       "player_info_health": "Health: {player.health.current}/{player.health.max}",
       "world_info": "On {world.name}",
-      "pack": "GregTech Expert 2 MODPACKVERSION"
+      "pack": "GregTech Expert 2 MODPACKVERSION",
+      "windowCreated": "{executeMethod('org.lwjgl.opengl.Display', null, 'isCreated')}",
+      "windowTitle": "{custom.windowCreated ? executeMethod('org.lwjgl.opengl.Display', null, 'getTitle') : ''}"
     }
   }
 }

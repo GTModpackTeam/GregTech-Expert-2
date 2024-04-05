@@ -7,9 +7,12 @@
 - Particle Culling
 
 ## Update mods
+- Aqua Acrobatics
 - Better Questing Unofficial
 - ConfigAnytime
+- CraftPresence
 - Had Enough Items
+- VintageFix
 
 * * *
 
