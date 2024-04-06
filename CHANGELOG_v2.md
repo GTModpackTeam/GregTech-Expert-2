@@ -7,6 +7,7 @@
 - Particle Culling
 
 ## Update mods
+- AE2 Fluid Crafting Rework
 - Aqua Acrobatics
 - Better Questing Unofficial
 - ConfigAnytime
@@ -25,13 +26,13 @@
 - RoughlyEnoughIDs
 
 ## Update mods
-- Better Questing Unofficial
 - AE2 Fluid Crafting Rework
-- PackagedAuto
+- Better Questing Unofficial
 - ConfigAnytime
-- VintageFix
-- JourneyMap
 - GTExpert-Core
+- JourneyMap
+- PackagedAuto
+- VintageFix
 
 * * *
 
@@ -41,18 +42,18 @@
     - Thanks to @KatatsumuriPan, @MaimoCh, @hag-hag for his support!!
 
 ## Remove mods
-- Item Filters
 - FTB Quests (Forge)
+- Item Filters
 
 ## Move mods
 - FTB Backups (Forge) -> Advanced Backups
 
 ## Update mods
 - AE2 Unofficial Extended Life
+- GTExpert-Core
 - PackagedAuto
 - Roughly Enough IDs
 - Universal Tweaks
-- GTExpert-Core
 
 ## New mods
 - Nutrition Unofficial Extended Life
