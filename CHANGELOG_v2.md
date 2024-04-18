@@ -7,13 +7,17 @@
 - Particle Culling
 
 ## Update mods
+- Advanced Backups
 - AE2 Fluid Crafting Rework
 - Aqua Acrobatics
 - Better Questing Unofficial
+- CensoredASM
 - ConfigAnytime
 - CraftPresence
 - GTExpert-Core
 - Had Enough Items
+- OpenComputers
+- RoughlyEnoughIDs
 - VintageFix
 
 * * *
@@ -305,7 +309,7 @@
 - GregTech CE: Unofficial
 - GregTech Food Option
 - GTExpert-Core
-- LoliASM
+- CensoredASM
 - Modern Splash
 - CraftTweaker
 - ModularUI
@@ -364,7 +368,7 @@
 - Zen Utils
 - GTExpert-Core
 - BisectHosting Server Integration Menu
-- LoliASM
+- CensoredASM
 - MixinBooter
 - Entity Culling
 
@@ -433,7 +437,7 @@
 - VintageFix
 
 # Del mods
-- LoliASM
+- CensoredASM
 
 # Move mods
 - spark -> Spark Unforged
@@ -513,7 +517,7 @@
 - GTExpert-Core
 - Inventory Bogo Sorter
 - JEI Utilities
-- LoliASM
+- CensoredASM
 - ModularUI
 - Universal Tweaks
 
@@ -556,7 +560,7 @@
 - GregTech Food Option
 - GTExpert-Core
 - Had Enough Items
-- LoliASM
+- CensoredASM
 - MixinBooter
 
 ## Del mods
@@ -605,7 +609,7 @@
 - BisectHosting Menu
 - GTExpert-Core
 - Had Enough Items
-- LoliASM
+- CensoredASM
 - ModularUI
 - Zen Utils
 
@@ -1074,7 +1078,7 @@
 - AE2 Fluid Crafting Rework
 - GregTech CE: Unofficial
 - PackagedAuto
-- LoliASM
+- CensoredASM
 - Had Enough Items
 
 * * *

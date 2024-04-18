@@ -37,7 +37,7 @@
 * CraftPresence
 * CraftTweaker
 * MixinBooter
-* LoliASM
+* CensoredASM
 * Zen Utils
 
 ## Add recipe
