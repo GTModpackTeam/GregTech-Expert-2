@@ -33,10 +33,10 @@ jobs:
 
       - name: Download Resource Packs zip
         run: |
-          LATEST_RELEASE=$(curl -s https://api.github.com/repos/GTModpackTeam/GTE2-Translations/releases/latest)
-          ASSET=$(echo $LATEST_RELEASE | jq -r '.assets[] | select(.name | test("GTExpert2-v[0-9.]+-resourcepack-v[0-9]+\\.zip")) | .name' | sort -V | tail -n 1)
-          ASSET_URL=$(echo $LATEST_RELEASE | jq -r --arg ASSET "$ASSET" '.assets[] | select(.name == $ASSET) | .browser_download_url')
-          wget -O ./overrides/resourcepacks/$ASSET $ASSET_URL
+          GITHUB_RELEASE=$(curl -s https://api.github.com/repos/GTModpackTeam/GTE2-Translations/releases)
+          ASSET_URL=$(echo $GITHUB_RELEASE | jq -r '.[]."assets"[]."browser_download_url"' | head -1)
+          ASSET_NAME=$(echo $ASSET_URL | awk -F'/' '{print $NF}')
+          wget -O ./overrides/resourcepacks/$ASSET_NAME $ASSET_URL
 
       - name: Setup Python
         uses: actions/setup-python@v5
