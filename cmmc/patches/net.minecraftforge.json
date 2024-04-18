@@ -11,7 +11,7 @@
     "formatVersion": 1,
     "libraries": [
         {
-            "name": "com.cleanroommc:cleanroom:15.24.0.3035-universal",
+            "name": "com.cleanroommc:cleanroom:15.24.0.3029-universal",
             "MMC-hint": "local"
         },
         {
@@ -81,68 +81,13 @@
             }
         },
         {
-            "name": "top.outlands:foundation:0.12.6",
+            "name": "com.cleanroommc:bouncepad:0.4.40-cursed",
             "downloads": {
                 "artifact": {
-                    "path": "top/outlands/foundation/0.12.6/foundation-0.12.6.jar",
-                    "url": "https://maven.outlands.top/releases/top/outlands/foundation/0.12.6/foundation-0.12.6.jar",
-                    "sha1": "f10e369f960f63e87f99f46f52075f40df367915",
-                    "size": 56281
-                }
-            }
-        },
-        {
-            "name": "org.burningwave:jvm-driver:8.15.0",
-            "downloads": {
-                "artifact": {
-                    "path": "org/burningwave/jvm-driver/8.15.0/jvm-driver-8.15.0.jar",
-                    "url": "https://maven.minecraftforge.net/org/burningwave/jvm-driver/8.15.0/jvm-driver-8.15.0.jar",
-                    "sha1": "25726c48ca638be8483ae5152be0ab6fc668760e",
-                    "size": 293696
-                }
-            }
-        },
-        {
-            "name": "io.github.toolfactory:jvm-driver:9.6.0",
-            "downloads": {
-                "artifact": {
-                    "path": "io/github/toolfactory/jvm-driver/9.6.0/jvm-driver-9.6.0.jar",
-                    "url": "https://maven.minecraftforge.net/io/github/toolfactory/jvm-driver/9.6.0/jvm-driver-9.6.0.jar",
-                    "sha1": "2b1b7fc19853817e6ff1e266555a4d0267d3300e",
-                    "size": 222384
-                }
-            }
-        },
-        {
-            "name": "io.github.toolfactory:narcissus:1.0.7",
-            "downloads": {
-                "artifact": {
-                    "path": "io/github/toolfactory/narcissus/1.0.7/narcissus-1.0.7.jar",
-                    "url": "https://maven.minecraftforge.net/io/github/toolfactory/narcissus/1.0.7/narcissus-1.0.7.jar",
-                    "sha1": "ab657109bd984dbeae7fa77b9997e6f35f1230b7",
-                    "size": 121119
-                }
-            }
-        },
-        {
-            "name": "org.javassist:javassist:3.30.2-GA",
-            "downloads": {
-                "artifact": {
-                    "path": "org/javassist/javassist/3.30.2-GA/javassist-3.30.2-GA.jar",
-                    "url": "https://maven.minecraftforge.net/org/javassist/javassist/3.30.2-GA/javassist-3.30.2-GA.jar",
-                    "sha1": "284580b5e42dfa1b8267058566435d9e93fae7f7",
-                    "size": 794714
-                }
-            }
-        },
-        {
-            "name": "zone.rong:imaginebreaker:2.1",
-            "downloads": {
-                "artifact": {
-                    "path": "zone/rong/imaginebreaker/2.1/imaginebreaker-2.1.jar",
-                    "url": "https://repo.cleanroommc.com/releases/zone/rong/imaginebreaker/2.1/imaginebreaker-2.1.jar",
-                    "sha1": "5954b781a93d4cfb246723c08994cd033ceb614b",
-                    "size": 5612
+                    "path": "com/cleanroommc/bouncepad/0.4.40-cursed/bouncepad-0.4.40-cursed.jar",
+                    "url": "https://maven.outlands.top/releases/com/cleanroommc/bouncepad/0.4.40-cursed/bouncepad-0.4.40-cursed.jar",
+                    "sha1": "d867f4d07dfe9f1b9edca3b607145eb23d0d5a47",
+                    "size": 28981
                 }
             }
         },
@@ -165,6 +110,127 @@
                     "url": "https://maven.minecraftforge.net/org/jline/jline/3.25.0/jline-3.25.0.jar",
                     "sha1": "bf1a4a43c7ece74d0d7887c9cd2fb4493517ebcb",
                     "size": 1256232
+                }
+            }
+        },
+        {
+            "name": "com.typesafe.akka:akka-actor_2.12:2.8.5",
+            "downloads": {
+                "artifact": {
+                    "path": "com/typesafe/akka/akka-actor_2.12/2.8.5/akka-actor_2.12-2.8.5.jar",
+                    "url": "https://maven.minecraftforge.net/com/typesafe/akka/akka-actor_2.12/2.8.5/akka-actor_2.12-2.8.5.jar",
+                    "sha1": "9274b9bb048372c92900632470e6ec7c92ed43eb",
+                    "size": 3708567
+                }
+            }
+        },
+        {
+            "name": "com.typesafe:config:1.4.3",
+            "downloads": {
+                "artifact": {
+                    "path": "com/typesafe/config/1.4.3/config-1.4.3.jar",
+                    "url": "https://maven.minecraftforge.net/com/typesafe/config/1.4.3/config-1.4.3.jar",
+                    "sha1": "b57e0fbdc7270d8ea59c1ba367457a5cc7ba0e98",
+                    "size": 296029
+                }
+            }
+        },
+        {
+            "name": "org.scala-lang:scala-actors-migration_2.11:1.1.0",
+            "downloads": {
+                "artifact": {
+                    "path": "org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar",
+                    "url": "https://maven.minecraftforge.net/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar",
+                    "sha1": "dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f",
+                    "size": 58018
+                }
+            }
+        },
+        {
+            "name": "org.scala-lang:scala-compiler:2.11.1",
+            "downloads": {
+                "artifact": {
+                    "path": "org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar",
+                    "url": "https://maven.minecraftforge.net/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar",
+                    "sha1": "56ea2e6c025e0821f28d73ca271218b8dd04926a",
+                    "size": 13449765
+                }
+            }
+        },
+        {
+            "name": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc",
+            "downloads": {
+                "artifact": {
+                    "path": "org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar",
+                    "url": "https://maven.minecraftforge.net/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar",
+                    "sha1": "0e517c53a7e9acd6b1668c5a35eccbaa3bab9aac",
+                    "size": 25365
+                }
+            }
+        },
+        {
+            "name": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc",
+            "downloads": {
+                "artifact": {
+                    "path": "org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar",
+                    "url": "https://maven.minecraftforge.net/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar",
+                    "sha1": "f361a3283452c57fa30c1ee69448995de23c60f7",
+                    "size": 206575
+                }
+            }
+        },
+        {
+            "name": "org.scala-lang:scala-library:2.11.1",
+            "downloads": {
+                "artifact": {
+                    "path": "org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar",
+                    "url": "https://maven.minecraftforge.net/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar",
+                    "sha1": "0e11da23da3eabab9f4777b9220e60d44c1aab6a",
+                    "size": 5538130
+                }
+            }
+        },
+        {
+            "name": "org.scala-lang:scala-parser-combinators_2.11:1.0.1",
+            "downloads": {
+                "artifact": {
+                    "path": "org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar",
+                    "url": "https://maven.minecraftforge.net/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar",
+                    "sha1": "f05d7345bf5a58924f2837c6c1f4d73a938e1ff0",
+                    "size": 419701
+                }
+            }
+        },
+        {
+            "name": "org.scala-lang:scala-reflect:2.11.1",
+            "downloads": {
+                "artifact": {
+                    "path": "org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar",
+                    "url": "https://maven.minecraftforge.net/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar",
+                    "sha1": "6580347e61cc7f8e802941e7fde40fa83b8badeb",
+                    "size": 4372892
+                }
+            }
+        },
+        {
+            "name": "org.scala-lang:scala-swing_2.11:1.0.1",
+            "downloads": {
+                "artifact": {
+                    "path": "org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar",
+                    "url": "https://maven.minecraftforge.net/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar",
+                    "sha1": "b1cdd92bd47b1e1837139c1c53020e86bb9112ae",
+                    "size": 726500
+                }
+            }
+        },
+        {
+            "name": "org.scala-lang:scala-xml_2.11:1.0.2",
+            "downloads": {
+                "artifact": {
+                    "path": "org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar",
+                    "url": "https://maven.minecraftforge.net/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar",
+                    "sha1": "7a80ec00aec122fba7cd4e0d4cdd87ff7e4cb6d0",
+                    "size": 648679
                 }
             }
         },
@@ -224,57 +290,57 @@
             }
         },
         {
-            "name": "org.apache.commons:commons-lang3:3.14.0",
+            "name": "org.apache.commons:commons-lang3:3.13.0",
             "downloads": {
                 "artifact": {
-                    "path": "org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar",
-                    "url": "https://maven.minecraftforge.net/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar",
-                    "sha1": "1ed471194b02f2c6cb734a0cd6f6f107c673afae",
-                    "size": 657952
+                    "path": "org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.jar",
+                    "url": "https://maven.minecraftforge.net/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.jar",
+                    "sha1": "b7263237aa89c1f99b327197c41d0669707a462e",
+                    "size": 632267
                 }
             }
         },
         {
-            "name": "org.apache.commons:commons-compress:1.26.1",
+            "name": "org.apache.commons:commons-compress:1.24.0",
             "downloads": {
                 "artifact": {
-                    "path": "org/apache/commons/commons-compress/1.26.1/commons-compress-1.26.1.jar",
-                    "url": "https://maven.minecraftforge.net/org/apache/commons/commons-compress/1.26.1/commons-compress-1.26.1.jar",
-                    "sha1": "44331c1130c370e726a2e1a3e6fba6d2558ef04a",
-                    "size": 1079377
+                    "path": "org/apache/commons/commons-compress/1.24.0/commons-compress-1.24.0.jar",
+                    "url": "https://maven.minecraftforge.net/org/apache/commons/commons-compress/1.24.0/commons-compress-1.24.0.jar",
+                    "sha1": "b4b1b5a3d9573b2970fddab236102c0a4d27d35e",
+                    "size": 1076223
                 }
             }
         },
         {
-            "name": "org.apache.httpcomponents.client5:httpclient5:5.3.1",
+            "name": "org.apache.httpcomponents:httpclient:4.5.14",
             "downloads": {
                 "artifact": {
-                    "path": "org/apache/httpcomponents/client5/httpclient5/5.3.1/httpclient5-5.3.1.jar",
-                    "url": "https://maven.minecraftforge.net/org/apache/httpcomponents/client5/httpclient5/5.3.1/httpclient5-5.3.1.jar",
-                    "sha1": "56b53c8f4bcdaada801d311cf2ff8a24d6d96883",
-                    "size": 861741
+                    "path": "org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.jar",
+                    "url": "https://maven.minecraftforge.net/org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.jar",
+                    "sha1": "1194890e6f56ec29177673f2f12d0b8e627dec98",
+                    "size": 785639
                 }
             }
         },
         {
-            "name": "org.apache.httpcomponents.core5:httpcore5:5.2.4",
+            "name": "org.apache.httpcomponents:httpcore:4.4.16",
             "downloads": {
                 "artifact": {
-                    "path": "org/apache/httpcomponents/core5/httpcore5/5.2.4/httpcore5-5.2.4.jar",
-                    "url": "https://maven.minecraftforge.net/org/apache/httpcomponents/core5/httpcore5/5.2.4/httpcore5-5.2.4.jar",
-                    "sha1": "34d8332b975f9e9a8298efe4c883ec43d45b7059",
-                    "size": 855013
+                    "path": "org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar",
+                    "url": "https://maven.minecraftforge.net/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar",
+                    "sha1": "51cf043c87253c9f58b539c9f7e44c8894223850",
+                    "size": 327891
                 }
             }
         },
         {
-            "name": "com.github.oshi:oshi-core:6.5.0",
+            "name": "com.github.oshi:oshi-core:6.4.10",
             "downloads": {
                 "artifact": {
-                    "path": "com/github/oshi/oshi-core/6.5.0/oshi-core-6.5.0.jar",
-                    "url": "https://maven.minecraftforge.net/com/github/oshi/oshi-core/6.5.0/oshi-core-6.5.0.jar",
-                    "sha1": "ddd2e5c05e48f7e124b53e77e031bd52dc89f00f",
-                    "size": 984733
+                    "path": "com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar",
+                    "url": "https://maven.minecraftforge.net/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar",
+                    "sha1": "b1d8ab82d11d92fd639b56d639f8f46f739dd5fa",
+                    "size": 979212
                 }
             }
         },
@@ -301,13 +367,13 @@
             }
         },
         {
-            "name": "it.unimi.dsi:fastutil:8.5.13",
+            "name": "it.unimi.dsi:fastutil:8.5.12",
             "downloads": {
                 "artifact": {
-                    "path": "it/unimi/dsi/fastutil/8.5.13/fastutil-8.5.13.jar",
-                    "url": "https://maven.minecraftforge.net/it/unimi/dsi/fastutil/8.5.13/fastutil-8.5.13.jar",
-                    "sha1": "7d1178e207e85b8990347d30f9d1d620cad858f4",
-                    "size": 23599579
+                    "path": "it/unimi/dsi/fastutil/8.5.12/fastutil-8.5.12.jar",
+                    "url": "https://maven.minecraftforge.net/it/unimi/dsi/fastutil/8.5.12/fastutil-8.5.12.jar",
+                    "sha1": "c24946d46824bd528054bface3231d2ecb7e95e8",
+                    "size": 23326598
                 }
             }
         },
@@ -345,13 +411,13 @@
             }
         },
         {
-            "name": "com.google.guava:guava:33.1.0-jre",
+            "name": "com.google.guava:guava:33.0.0-jre",
             "downloads": {
                 "artifact": {
-                    "path": "com/google/guava/guava/33.1.0-jre/guava-33.1.0-jre.jar",
-                    "url": "https://maven.minecraftforge.net/com/google/guava/guava/33.1.0-jre/guava-33.1.0-jre.jar",
-                    "sha1": "9b7ed39143d59e8eabcc6f91ffe4d23db2efe558",
-                    "size": 3053247
+                    "path": "com/google/guava/guava/33.0.0-jre/guava-33.0.0-jre.jar",
+                    "url": "https://maven.minecraftforge.net/com/google/guava/guava/33.0.0-jre/guava-33.0.0-jre.jar",
+                    "sha1": "161ba27964a62f241533807a46b8711b13c1d94b",
+                    "size": 3047503
                 }
             }
         },
@@ -389,46 +455,24 @@
             }
         },
         {
-            "name": "org.apache.logging.log4j:log4j-api:2.23.1",
+            "name": "org.apache.logging.log4j:log4j-api:2.22.1",
             "downloads": {
                 "artifact": {
-                    "path": "org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1.jar",
-                    "url": "https://maven.minecraftforge.net/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1.jar",
-                    "sha1": "9c15c29c526d9c6783049c0a77722693c66706e1",
-                    "size": 342535
+                    "path": "org/apache/logging/log4j/log4j-api/2.22.1/log4j-api-2.22.1.jar",
+                    "url": "https://maven.minecraftforge.net/org/apache/logging/log4j/log4j-api/2.22.1/log4j-api-2.22.1.jar",
+                    "sha1": "bea6fede6328fabafd7e68363161a7ea6605abd1",
+                    "size": 335001
                 }
             }
         },
         {
-            "name": "org.apache.logging.log4j:log4j-core:2.23.1",
+            "name": "org.apache.logging.log4j:log4j-core:2.22.1",
             "downloads": {
                 "artifact": {
-                    "path": "org/apache/logging/log4j/log4j-core/2.23.1/log4j-core-2.23.1.jar",
-                    "url": "https://maven.minecraftforge.net/org/apache/logging/log4j/log4j-core/2.23.1/log4j-core-2.23.1.jar",
-                    "sha1": "905802940e2c78042d75b837c136ac477d2b4e4d",
-                    "size": 1901886
-                }
-            }
-        },
-        {
-            "name": "org.apache.logging.log4j:log4j-slf4j2-impl:2.23.1",
-            "downloads": {
-                "artifact": {
-                    "path": "org/apache/logging/log4j/log4j-slf4j2-impl/2.23.1/log4j-slf4j2-impl-2.23.1.jar",
-                    "url": "https://maven.minecraftforge.net/org/apache/logging/log4j/log4j-slf4j2-impl/2.23.1/log4j-slf4j2-impl-2.23.1.jar",
-                    "sha1": "c3ffee33404c3a178f026fd8c7ef0e058b01b01c",
-                    "size": 27293
-                }
-            }
-        },
-        {
-            "name": "org.slf4j:slf4j-api:2.0.12",
-            "downloads": {
-                "artifact": {
-                    "path": "org/slf4j/slf4j-api/2.0.12/slf4j-api-2.0.12.jar",
-                    "url": "https://maven.minecraftforge.net/org/slf4j/slf4j-api/2.0.12/slf4j-api-2.0.12.jar",
-                    "sha1": "48f109a2a6d8f446c794f3e3fa0d86df0cdfa312",
-                    "size": 68115
+                    "path": "org/apache/logging/log4j/log4j-core/2.22.1/log4j-core-2.22.1.jar",
+                    "url": "https://maven.minecraftforge.net/org/apache/logging/log4j/log4j-core/2.22.1/log4j-core-2.22.1.jar",
+                    "sha1": "7183a25510a02ad00cc6a95d3b3d2a7d3c5a8dc4",
+                    "size": 1900022
                 }
             }
         },
@@ -444,13 +488,13 @@
             }
         },
         {
-            "name": "jakarta.xml.bind:jakarta.xml.bind-api:4.0.2",
+            "name": "jakarta.xml.bind:jakarta.xml.bind-api:4.0.1",
             "downloads": {
                 "artifact": {
-                    "path": "jakarta/xml/bind/jakarta.xml.bind-api/4.0.2/jakarta.xml.bind-api-4.0.2.jar",
-                    "url": "https://maven.minecraftforge.net/jakarta/xml/bind/jakarta.xml.bind-api/4.0.2/jakarta.xml.bind-api-4.0.2.jar",
-                    "sha1": "6cd5a999b834b63238005b7144136379dc36cad2",
-                    "size": 131033
+                    "path": "jakarta/xml/bind/jakarta.xml.bind-api/4.0.1/jakarta.xml.bind-api-4.0.1.jar",
+                    "url": "https://maven.minecraftforge.net/jakarta/xml/bind/jakarta.xml.bind-api/4.0.1/jakarta.xml.bind-api-4.0.1.jar",
+                    "sha1": "ca2330866cbc624c7e5ce982e121db1125d23e15",
+                    "size": 130002
                 }
             }
         },
@@ -499,13 +543,13 @@
             }
         },
         {
-            "name": "com.cleanroommc:sponge-mixin:0.18.5+mixin.0.8.5",
+            "name": "com.cleanroommc:sponge-mixin:0.16.0+mixin.0.8.5",
             "downloads": {
                 "artifact": {
-                    "path": "com/cleanroommc/sponge-mixin/0.18.5+mixin.0.8.5/sponge-mixin-0.18.5+mixin.0.8.5.jar",
-                    "url": "https://maven.outlands.top/releases/com/cleanroommc/sponge-mixin/0.18.5+mixin.0.8.5/sponge-mixin-0.18.5+mixin.0.8.5.jar",
-                    "sha1": "c00d883f1b6e9db07201dbc4903d8d631ceda4d4",
-                    "size": 1409375
+                    "path": "com/cleanroommc/sponge-mixin/0.16.0+mixin.0.8.5/sponge-mixin-0.16.0+mixin.0.8.5.jar",
+                    "url": "https://maven.outlands.top/releases/com/cleanroommc/sponge-mixin/0.16.0+mixin.0.8.5/sponge-mixin-0.16.0+mixin.0.8.5.jar",
+                    "sha1": "60ecba4d551f61008dac2fda119e5612864f083b",
+                    "size": 1415738
                 }
             }
         },
@@ -521,7 +565,7 @@
             }
         }
     ],
-    "mainClass": "top.outlands.foundation.boot.Foundation",
+    "mainClass": "com.cleanroommc.bouncepad.Bouncepad",
     "name": "Cleanroom",
     "releaseTime": "2021-12-13T04:40:03+00:00",
     "requires": [
@@ -531,5 +575,5 @@
         }
     ],
     "uid": "net.minecraftforge",
-    "version": "15.24.0.3035"
+    "version": "15.24.0.3029"
 }
