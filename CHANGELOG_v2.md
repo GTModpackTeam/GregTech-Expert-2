@@ -17,6 +17,7 @@
 - GTExpert-Core
 - Had Enough Items
 - OpenComputers
+- PackagedAuto
 - RoughlyEnoughIDs
 - VintageFix
 
@@ -66,6 +67,24 @@
 
 ## Formally introduced from compatibility mods
 - The Spice of Life
+
+* * *
+
+# v2.6.10
+## Modpack information
+- This is a backport including 2.7.1 mod updates and updates that do not break the environment as 2.6.10.
+- Includes multiplayer issues, performance tweaks and mod updates.
+
+## Downgrade mod
+- RoughlyEnoughIDs
+
+## Update mods
+- AE2 Fluid Crafting Rework
+- ConfigAnytime
+- GTExpert-Core
+- JourneyMap
+- PackagedAuto
+- VintageFix
 
 * * *
 
