@@ -70,6 +70,33 @@
 
 * * *
 
+# v2.6.11
+## Modpack information
+- This is a backport including 2.7.2 mod updates and updates that do not break the environment as 2.6.11.
+- Includes multiplayer issues, performance tweaks and mod updates.
+
+## New mods
+- Nutrition Unofficial Extended Life
+- Nutrition: GTCEu
+- Particle Culling
+
+## Update mods
+- Advanced Backups
+- AE2 Fluid Crafting Rework
+- Aqua Acrobatics
+- Better Questing Unofficial
+- CensoredASM
+- ConfigAnytime
+- CraftPresence
+- GTExpert-Core
+- Had Enough Items
+- OpenComputers
+- PackagedAuto
+- RoughlyEnoughIDs
+- VintageFix
+
+* * *
+
 # v2.6.10
 ## Modpack information
 - This is a backport including 2.7.1 mod updates and updates that do not break the environment as 2.6.10.
