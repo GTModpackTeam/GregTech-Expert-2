@@ -17,6 +17,7 @@
 - GTExpert-Core
 - Had Enough Items
 - OpenComputers
+- PackagedAuto
 - RoughlyEnoughIDs
 - VintageFix
 
@@ -79,11 +80,11 @@
 
 ## Update mods
 - AE2 Fluid Crafting Rework
-- PackagedAuto
 - ConfigAnytime
-- VintageFix
-- JourneyMap
 - GTExpert-Core
+- JourneyMap
+- PackagedAuto
+- VintageFix
 
 * * *
 
