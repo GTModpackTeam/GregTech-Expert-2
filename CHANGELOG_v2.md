@@ -16,6 +16,7 @@
 - CraftPresence
 - GTExpert-Core
 - Had Enough Items
+- Modern Splash
 - OpenComputers
 - PackagedAuto
 - RoughlyEnoughIDs
@@ -90,6 +91,7 @@
 - CraftPresence
 - GTExpert-Core
 - Had Enough Items
+- Modern Splash
 - OpenComputers
 - PackagedAuto
 - RoughlyEnoughIDs
