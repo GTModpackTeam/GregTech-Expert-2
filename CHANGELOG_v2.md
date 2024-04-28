@@ -75,6 +75,7 @@
 ## Modpack information
 - This is a backport including 2.7.2 mod updates and updates that do not break the environment as 2.6.11.
 - Includes multiplayer issues, performance tweaks and mod updates.
+- **ALSO, FUTURE UPDATES WILL BE 2.7.X, AND THE BACKPORTS OF 2.6.X VERSIONS WILL BE DEPRECATED!!**
 
 ## New mods
 - Nutrition Unofficial Extended Life
