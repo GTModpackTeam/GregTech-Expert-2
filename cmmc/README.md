@@ -18,5 +18,7 @@
 
 
 ## Self download mods
-- [Fugue](https://github.com/CleanroomMC/Fugue/releases) by CleanroomMC
+- [Fugue](https://github.com/CleanroomMC/Fugue/releases/tag/0.5.4) by CleanroomMC
+
+## Optional mods
 - [Vintagium](https://github.com/Asek3/sodium-1.12/actions) by Asek3
