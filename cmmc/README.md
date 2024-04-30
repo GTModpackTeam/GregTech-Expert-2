@@ -13,9 +13,8 @@
 5. Get the mods you need from the list below.
 6. Put the downloaded mods in the `mods` folder of the instance.
 7. Set java version to 21.
-8. Set Java Arguments to `-XX:+UseZGC -XX:+ZGenerational` in the instance settings.
-9. Resolve any mod conflicts that may occur.
-10. Run the instance and enjoy the game!
+8. Resolve any mod conflicts that may occur.
+9. Run the instance and enjoy the game!
 
 
 ## Self download mods

@@ -6,7 +6,6 @@ import json
 import os
 import shutil
 import requests
-import time
 from concurrent.futures import ThreadPoolExecutor
 
 ## Initialize

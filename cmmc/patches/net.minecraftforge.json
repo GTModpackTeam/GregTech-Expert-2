@@ -92,13 +92,13 @@
             }
         },
         {
-            "name": "com.ibm.icu:icu4j:74.2",
+            "name": "com.ibm.icu:icu4j:75.1",
             "downloads": {
                 "artifact": {
-                    "path": "com/ibm/icu/icu4j/74.2/icu4j-74.2.jar",
-                    "url": "https://maven.minecraftforge.net/com/ibm/icu/icu4j/74.2/icu4j-74.2.jar",
-                    "sha1": "97222d018f7f43cae88cacd1fad39717b001ffc4",
-                    "size": 14311564
+                    "path": "com/ibm/icu/icu4j/75.1/icu4j-75.1.jar",
+                    "url": "https://maven.minecraftforge.net/com/ibm/icu/icu4j/75.1/icu4j-75.1.jar",
+                    "sha1": "e8f8dcc2967f5ec2cfae185172293adfa5599b78",
+                    "size": 14312248
                 }
             }
         },
