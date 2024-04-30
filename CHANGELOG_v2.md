@@ -1,18 +1,44 @@
+# v2.7.2
+## Modpack information
+- Powderbarrel and ITNT are reflected in quests and some quests are modified.
+- Add Compact Machines quest.
+
+## New mods
+- Particle Culling
+
+## Update mods
+- Advanced Backups
+- AE2 Fluid Crafting Rework
+- Aqua Acrobatics
+- Better Questing Unofficial
+- CensoredASM
+- ConfigAnytime
+- CraftPresence
+- GTExpert-Core
+- Had Enough Items
+- Modern Splash
+- OpenComputers
+- PackagedAuto
+- RoughlyEnoughIDs
+- VintageFix
+
+* * *
+
 # v2.7.1
 ## Modpack information
 - Fix quests issues.
 
-## Downgrade mod
+## Downgrade mods
 - RoughlyEnoughIDs
 
-## Update mod
-- Better Questing Unofficial
+## Update mods
 - AE2 Fluid Crafting Rework
-- PackagedAuto
+- Better Questing Unofficial
 - ConfigAnytime
-- VintageFix
-- JourneyMap
 - GTExpert-Core
+- JourneyMap
+- PackagedAuto
+- VintageFix
 
 * * *
 
@@ -22,18 +48,18 @@
     - Thanks to @KatatsumuriPan, @MaimoCh, @hag-hag for his support!!
 
 ## Remove mods
-- Item Filters
 - FTB Quests (Forge)
+- Item Filters
 
 ## Move mods
 - FTB Backups (Forge) -> Advanced Backups
 
 ## Update mods
 - AE2 Unofficial Extended Life
+- GTExpert-Core
 - PackagedAuto
 - Roughly Enough IDs
 - Universal Tweaks
-- GTExpert-Core
 
 ## New mods
 - Nutrition Unofficial Extended Life
@@ -45,12 +71,59 @@
 
 * * *
 
-# 2.6.9
+# v2.6.11
 ## Modpack information
-- This is a backport including 2.7.x mod updates and updates that do not break the environment as 2.6.x.
+- This is a backport including 2.7.2 mod updates and updates that do not break the environment as 2.6.11.
+- Includes multiplayer issues, performance tweaks and mod updates.
+- **ALSO, FUTURE UPDATES WILL BE 2.7.X, AND THE BACKPORTS OF 2.6.X VERSIONS WILL BE DEPRECATED!!**
+
+## New mods
+- Nutrition Unofficial Extended Life
+- Nutrition: GTCEu
+- Particle Culling
+
+## Update mods
+- Advanced Backups
+- AE2 Fluid Crafting Rework
+- Aqua Acrobatics
+- Better Questing Unofficial
+- CensoredASM
+- ConfigAnytime
+- CraftPresence
+- GTExpert-Core
+- Had Enough Items
+- Modern Splash
+- OpenComputers
+- PackagedAuto
+- RoughlyEnoughIDs
+- VintageFix
+
+* * *
+
+# v2.6.10
+## Modpack information
+- This is a backport including 2.7.1 mod updates and updates that do not break the environment as 2.6.10.
 - Includes multiplayer issues, performance tweaks and mod updates.
 
-## Revert mod
+## Downgrade mod
+- RoughlyEnoughIDs
+
+## Update mods
+- AE2 Fluid Crafting Rework
+- ConfigAnytime
+- GTExpert-Core
+- JourneyMap
+- PackagedAuto
+- VintageFix
+
+* * *
+
+# 2.6.9
+## Modpack information
+- This is a backport including 2.7.0 mod updates and updates that do not break the environment as 2.6.9.
+- Includes multiplayer issues, performance tweaks and mod updates.
+
+## Revert mods
 - The One Probe Community Edition -> The One Probe
 
 ## Move mods
@@ -91,7 +164,7 @@
 - Tank
 - Chest
 
-## Move mods
+## Move mod
 - File Director -> GTExpert-Core
 
 ## Update mods
@@ -278,14 +351,14 @@
 2. Finally, check the `bansoukou/gregtech-1.12.2-2.7.3-beta` and make sure there are no files inside.
 - In case you are wondering, ModPack recommends [MultiMC](https://multimc.org/) or [Prism Launcher](https://prismlauncher.org/).
 
-## New mod
+## New mods
 - Wireless Redstone CBE
 
 ## Update mods
 - GregTech CE: Unofficial
 - GregTech Food Option
 - GTExpert-Core
-- LoliASM
+- CensoredASM
 - Modern Splash
 - CraftTweaker
 - ModularUI
@@ -344,11 +417,11 @@
 - Zen Utils
 - GTExpert-Core
 - BisectHosting Server Integration Menu
-- LoliASM
+- CensoredASM
 - MixinBooter
 - Entity Culling
 
-## Add mod
+## Add mods
 - RenderLib
 - Nothirium
 - Entity Culling
@@ -371,7 +444,7 @@
 - MixinBooter
 - File Director
 
-# Doungrade mod
+# Doungrade mods
 - ModularUI
 
 ## Fix recipes
@@ -412,10 +485,10 @@
 - Universal Tweaks
 - VintageFix
 
-# Del mod
-- LoliASM
+# Del mods
+- CensoredASM
 
-# Move mod
+# Move mods
 - spark -> Spark Unforged
 
 * * *
@@ -439,7 +512,7 @@
 - UntranslatedItems: AlsoFluids
 - Zen Utils
 
-# Move mod
+# Move mods
 - /dank/null -> /dank/null/no_RCE/
 
 * * *
@@ -493,7 +566,7 @@
 - GTExpert-Core
 - Inventory Bogo Sorter
 - JEI Utilities
-- LoliASM
+- CensoredASM
 - ModularUI
 - Universal Tweaks
 
@@ -504,7 +577,7 @@
 - EZStorage 2 Patch
 - p455w0rd's AE2 Wireless Terminals Patch
 
-# Move mod
+# Move mods
 - RandomPatches (Forge) -> It's the little things
 - Ender Storage -> Ender Storage continuation
 - Foam​Fix -> VintageFix
@@ -517,7 +590,7 @@
 - They created a patch about ME Level Maintainer for Lazy AE2!!
     - Thanks to @sjcl for his support!!
 
-## New mod
+## New mods
 - Lazy AE2 Patch
 
 ## Update mods
@@ -536,7 +609,7 @@
 - GregTech Food Option
 - GTExpert-Core
 - Had Enough Items
-- LoliASM
+- CensoredASM
 - MixinBooter
 
 ## Del mods
@@ -585,11 +658,11 @@
 - BisectHosting Menu
 - GTExpert-Core
 - Had Enough Items
-- LoliASM
+- CensoredASM
 - ModularUI
 - Zen Utils
 
-## New mod
+## New mods
 - Extra CPUs
 
 * * * 
@@ -896,7 +969,7 @@
 ## Modpack information
 - EZStorage just got a little more useful.
 
-## Move mod
+## Move mods
 - AE2 Wireless Terminal Library -> AE2 Wireless Terminal-LTS
 
 ## Update mods
@@ -904,7 +977,7 @@
 - AE2 Fluid Crafting Rework
 - Universal Tweaks
 
-## Del mod
+## Del mods
 - Mod Name Tooltip
 
 ## Update recipes
@@ -928,10 +1001,10 @@
 - This version is a hotfix for v2.0.4!
 - If you are updating from v1.x.x to v2.x.x for the first time, be sure to check the changelog for v2.0.4!
 
-## Downgrade mod
+## Downgrade mods
 - Inventory Bogo Sorter
 
-## Update mod
+## Update mods
 - AE2 Fluid Crafting Rework
 
 * * *
@@ -1054,7 +1127,7 @@
 - AE2 Fluid Crafting Rework
 - GregTech CE: Unofficial
 - PackagedAuto
-- LoliASM
+- CensoredASM
 - Had Enough Items
 
 * * *
@@ -1065,7 +1138,7 @@
 - ME Dual Interface
 - Configuration Fluid Interface Terminal
 
-## Updated mod
+## Updated mods
 - GregTech Food Option
 
 * * *

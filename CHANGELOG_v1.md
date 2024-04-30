@@ -72,7 +72,7 @@
 * Crafting Tweaks -> dan's Crafting Tweaks
 * GregTech CE: Unofficial
 * GregTech Food Option
-* LoliASM
+* CensoredASM
 * Had Enough Items
 * ModTweaker
 
@@ -130,7 +130,7 @@
 ## Update mods
 * AE2 Unofficial Extended Life
 * GregTech CE: Unofficial
-* LoliASM
+* CensoredASM
 * DevTech
 * GregTech Food Option
 * Had Enough Items
@@ -169,7 +169,7 @@
 * GregTech Food Option
 * MultiblockTweaker
 * DevTech
-* LoliASM
+* CensoredASM
 * Had Enough Items
 * CraftTweaker
 * Smooth Font
@@ -229,7 +229,7 @@
 # v1.7.0(hotfix)
 ## Update mods
 * AE2 Unofficial Extended Life
-* LoliASM
+* CensoredASM
 
 * * *
 
@@ -246,7 +246,7 @@
 
 ## Update mods
 * AE2 Unofficial Extended Life
-* LoliASM
+* CensoredASM
 * SuperMartijn642's Core Lib
 * Trash Cans
 * Had Enough Items
@@ -597,7 +597,7 @@
 
 ## Update mods
 * AE2 Unofficial Extended Life
-* LoliASM
+* CensoredASM
 * Had Enough Items
 * MixinBooter
 
@@ -947,7 +947,7 @@ Respond to the fact that GTFO is not included and that quests are not included.
 * AE2 Unofficial Extended Life
 * CraftTweaker
 * GregTech Food Option
-* LoliASM
+* CensoredASM
 * MixinBooter
 * Not Enough Energistics
 
