@@ -18,8 +18,11 @@
 
 
 ## Self download mods
-- [Fugue](https://github.com/CleanroomMC/Fugue/releases/tag/0.5.4) by CleanroomMC
+- [Fugue](https://github.com/CleanroomMC/Fugue/releases) by CleanroomMC
+- [Scalar](https://github.com/CleanroomMC/Scalar/releases/tag/2.11.1) by CleanroomMC
+
 
 ## Optional mods
 - [Vintagium](https://github.com/Asek3/sodium-1.12/actions) by Asek3
+    - Please re-configure the graphics settings.
     - [CEu patch is temporarily included](https://github.com/GregTechCEu/GregTech/pull/2463)
