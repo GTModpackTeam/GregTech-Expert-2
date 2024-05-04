@@ -2,6 +2,7 @@
 ## Modpack information
 - Powderbarrel and ITNT are reflected in quests and some quests are modified.
 - Add Compact Machines quest.
+- Add HV Chainsaw quest.
 
 ## New mods
 - Particle Culling
