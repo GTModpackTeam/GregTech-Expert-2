@@ -103,13 +103,13 @@
             }
         },
         {
-            "name": "io.github.toolfactory:jvm-driver:9.6.0",
+            "name": "io.github.toolfactory:jvm-driver:9.7.0",
             "downloads": {
                 "artifact": {
-                    "path": "io/github/toolfactory/jvm-driver/9.6.0/jvm-driver-9.6.0.jar",
-                    "url": "https://maven.minecraftforge.net/io/github/toolfactory/jvm-driver/9.6.0/jvm-driver-9.6.0.jar",
-                    "sha1": "2b1b7fc19853817e6ff1e266555a4d0267d3300e",
-                    "size": 222384
+                    "path": "io/github/toolfactory/jvm-driver/9.7.0/jvm-driver-9.7.0.jar",
+                    "url": "https://maven.minecraftforge.net/io/github/toolfactory/jvm-driver/9.7.0/jvm-driver-9.7.0.jar",
+                    "sha1": "8c4580431d73030009549e2112f202481943433e",
+                    "size": 224896
                 }
             }
         },
@@ -642,13 +642,13 @@
             }
         },
         {
-            "name": "com.cleanroommc:sponge-mixin:0.19.4+mixin.0.8.5",
+            "name": "com.cleanroommc:sponge-mixin:0.19.5+mixin.0.8.5",
             "downloads": {
                 "artifact": {
-                    "path": "com/cleanroommc/sponge-mixin/0.19.4+mixin.0.8.5/sponge-mixin-0.19.4+mixin.0.8.5.jar",
-                    "url": "https://maven.outlands.top/releases/com/cleanroommc/sponge-mixin/0.19.4+mixin.0.8.5/sponge-mixin-0.19.4+mixin.0.8.5.jar",
-                    "sha1": "8b96d6c119ea9ec97ba2d666017a567ebb9e9831",
-                    "size": 1423647
+                    "path": "com/cleanroommc/sponge-mixin/0.19.5+mixin.0.8.5/sponge-mixin-0.19.5+mixin.0.8.5.jar",
+                    "url": "https://maven.outlands.top/releases/com/cleanroommc/sponge-mixin/0.19.5+mixin.0.8.5/sponge-mixin-0.19.5+mixin.0.8.5.jar",
+                    "sha1": "f4982e536ae300eabfa07792e24d7561bca0f238",
+                    "size": 1423894
                 }
             }
         },
