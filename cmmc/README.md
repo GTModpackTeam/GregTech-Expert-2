@@ -13,11 +13,16 @@
 5. Get the mods you need from the list below.
 6. Put the downloaded mods in the `mods` folder of the instance.
 7. Set java version to 21.
-8. Set Java Arguments to `-XX:+UseZGC -XX:+ZGenerational` in the instance settings.
-9. Resolve any mod conflicts that may occur.
-10. Run the instance and enjoy the game!
+8. Resolve any mod conflicts that may occur.
+9. Run the instance and enjoy the game!
 
 
 ## Self download mods
 - [Fugue](https://github.com/CleanroomMC/Fugue/releases) by CleanroomMC
+- [Scalar](https://github.com/CleanroomMC/Scalar/releases/tag/2.11.1) by CleanroomMC
+
+
+## Optional mods
 - [Vintagium](https://github.com/Asek3/sodium-1.12/actions) by Asek3
+    - Please re-configure the graphics settings.
+    - [CEu patch is temporarily included](https://github.com/GregTechCEu/GregTech/pull/2463)
