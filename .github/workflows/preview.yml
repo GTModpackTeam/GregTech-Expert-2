@@ -115,7 +115,7 @@ jobs:
           mv -vf .minecraft/* ./
           zip -r ./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-server.zip ./docker-compose.yml ./PleaseRead.txt ./log4j2_112-116.xml ./Install.bat ./Install.sh ./ServerStart.bat ./ServerStart.sh ./settings.bat ./settings.sh ./TmuxServer.sh ./bansoukou/ ./config/ ./local/ ./mods/ ./resources/ ./scripts/
 
-      - if: matrix.version == 'LWJGL3' || ${{ github.event.inputs.only_artifact }} == false
+      - if: matrix.version == 'LWJGL3' && !${{ github.event.inputs.only_artifact }}
         name: Create GitHub Release (${{ matrix.version }})
         uses: softprops/action-gh-release@v2
         with:
@@ -125,7 +125,7 @@ jobs:
           files: |
             ./${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}-mmc.zip
 
-      - if: matrix.version == 'NORMAL' || ${{ github.event.inputs.only_artifact }} == false
+      - if: matrix.version == 'NORMAL' && !${{ github.event.inputs.only_artifact }}
         name: Create GitHub Release (${{ matrix.version }})
         uses: softprops/action-gh-release@v2
         with:
@@ -137,9 +137,16 @@ jobs:
             ./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-mmc.zip
             ./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-server.zip
 
-      - if: ${{ github.event.inputs.only_artifact }} == true
+      - if: matrix.version == 'LWJGL3' && ${{ github.event.inputs.only_artifact }}
         name: Create GitHub Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ env.NAME }}-v${{ github.event.inputs.version }}-${{ github.event.inputs.preview_version }}
-          path: ./${{ env.NAME }}-*.zip
+          name: (${{ matrix.version }}) ${{ env.NAME }} v${{ github.event.inputs.version }}
+          path: ./${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}-mmc.zip
+
+      - if: matrix.version == 'NORMAL' && ${{ github.event.inputs.only_artifact }}
+        name: Create GitHub Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: (${{ matrix.version }}) ${{ env.NAME }} v${{ github.event.inputs.version }}
+          path: ./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-mmc.zip
