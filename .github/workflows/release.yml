@@ -39,6 +39,9 @@ jobs:
             exit 1
           fi
 
+      - name: Setup Build
+        uses: ./.github/actions/build_setup
+
       - name: Set the version
         run: |
           echo "GregTech Expert 2 ${{ env.FULL_VERSION }}" > ./overrides/config/txloader/load/custommainmenu/version.txt
@@ -57,25 +60,6 @@ jobs:
         run: |
           rm -rf ./overrides/resourcepacks/.gitkeep
           zip -r ./${{ env.NAME }}-${{ env.FULL_VERSION }}-cf.zip ./manifest.json ./modlist.html ./manifest.json ./modlist.html ./overrides/bansoukou/ ./overrides/config/ ./overrides/local/ ./overrides/resourcepacks/ ./overrides/scripts/
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-
-      - name: Install uv
-        run: pip install uv
-
-      - name: Setup Python Cache 
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/uv
-          key: ${{ runner.os }}-uv-${{ hashFiles('**/requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-uv-
-
-      - name: Install dependencies
-        run: uv pip install --system -r ./buildtools/requirements.txt
 
       - name: Run Python
         env:

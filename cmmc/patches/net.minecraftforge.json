@@ -11,7 +11,7 @@
     "formatVersion": 1,
     "libraries": [
         {
-            "name": "com.cleanroommc:cleanroom:15.24.0.3039-universal",
+            "name": "com.cleanroommc:cleanroom:0.2.0-universal",
             "MMC-hint": "local"
         },
         {
@@ -674,5 +674,5 @@
         }
     ],
     "uid": "net.minecraftforge",
-    "version": "15.24.0.3039"
+    "version": "0.2.0"
 }
