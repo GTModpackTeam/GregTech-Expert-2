@@ -6,8 +6,10 @@
 - Fix quest issues.
 
 ## Update mods
+- AE2 Fluid Crafting Rework
 - GregTech CE Unofficial
 - GTExpert-Core
+- Neeve's AE2: Extended Life Additions
 
 * * *
 

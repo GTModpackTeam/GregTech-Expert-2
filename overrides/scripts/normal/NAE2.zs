@@ -99,3 +99,16 @@ JEI.removeAndHide(<nae2:storage_crafting_256k>);
 JEI.removeAndHide(<nae2:storage_crafting_1024k>);
 JEI.removeAndHide(<nae2:storage_crafting_4096k>);
 JEI.removeAndHide(<nae2:storage_crafting_16384k>);
+
+# ME Storage Exposer
+recipes.remove(<nae2:exposer>);
+recipes.addShaped(<nae2:exposer>, [
+    [<metaitem:plateTitanium>, <appliedenergistics2:part:463>, <metaitem:plateTitanium>],
+    [<appliedenergistics2:material:43>, <appliedenergistics2:material:47>, <appliedenergistics2:material:44>],
+    [<metaitem:plateTitanium>, <appliedenergistics2:part:462>, <metaitem:plateTitanium>]
+]);
+recipes.addShaped(<nae2:exposer>, [
+    [<metaitem:plateTitanium>, <appliedenergistics2:part:220>, <metaitem:plateTitanium>],
+    [<appliedenergistics2:material:43>, <appliedenergistics2:material:47>, <appliedenergistics2:material:44>],
+    [<metaitem:plateTitanium>, <appliedenergistics2:part:221>, <metaitem:plateTitanium>]
+]);
