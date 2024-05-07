@@ -1,3 +1,16 @@
+# v2.7.3
+## Modpack information
+- Update to CEu 2.8.8 and add new quests.
+    - Add Electric Wirecutter quest.
+    - Update ME Input Bus / Hatch quest.
+- Fix quest issues.
+
+## Update mods
+- GregTech CE Unofficial
+- GTExpert-Core
+
+* * *
+
 # v2.7.2
 ## Modpack information
 - Powderbarrel and ITNT are reflected in quests and some quests are modified.
