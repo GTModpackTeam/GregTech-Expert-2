@@ -25,4 +25,3 @@
 ## Optional mods
 - [Vintagium](https://github.com/Asek3/sodium-1.12/actions) by Asek3
     - Please re-configure the graphics settings.
-    - [CEu patch is temporarily included](https://github.com/GregTechCEu/GregTech/pull/2463)
