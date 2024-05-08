@@ -13,10 +13,6 @@ on:
       preview_version:
         description: 'Preview version'
         required: true
-      only_artifact:
-        description: 'Only push artifact'
-        type: boolean
-        default: false
 
 env:
   VERSION_NORMAL: "v${{ github.event.inputs.version }}-pr-${{ github.event.inputs.preview_version }}"
@@ -36,6 +32,13 @@ jobs:
 
       - name: Setup Build
         uses: ./.github/actions/build_setup
+
+      - name: Download Resource Packs zip
+        run: |
+          GITHUB_RELEASE=$(curl -s https://api.github.com/repos/GTModpackTeam/GTE2-Translations/releases)
+          ASSET_URL=$(echo $GITHUB_RELEASE | jq -r '.[]."assets"[]."browser_download_url"' | head -1)
+          ASSET_NAME=$(echo $ASSET_URL | awk -F'/' '{print $NF}')
+          wget -O ./overrides/resourcepacks/$ASSET_NAME $ASSET_URL
 
       - if: matrix.version == 'LWJGL3'
         name: Set the version (LWJGL3)
@@ -58,13 +61,6 @@ jobs:
         run: |
           python buildtools/gen-lwjgl3-manifest.py
           cp -vf ./cmmc/manifest.json ./manifest.json
-
-      - name: Download Resource Packs zip
-        run: |
-          GITHUB_RELEASE=$(curl -s https://api.github.com/repos/GTModpackTeam/GTE2-Translations/releases)
-          ASSET_URL=$(echo $GITHUB_RELEASE | jq -r '.[]."assets"[]."browser_download_url"' | head -1)
-          ASSET_NAME=$(echo $ASSET_URL | awk -F'/' '{print $NF}')
-          wget -O ./overrides/resourcepacks/$ASSET_NAME $ASSET_URL
 
       - name: Run Python
         env:
@@ -108,18 +104,7 @@ jobs:
           mv -vf .minecraft/* ./
           zip -r ./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-server.zip ./docker-compose.yml ./PleaseRead.txt ./log4j2_112-116.xml ./Install.bat ./Install.sh ./ServerStart.bat ./ServerStart.sh ./settings.bat ./settings.sh ./TmuxServer.sh ./bansoukou/ ./config/ ./local/ ./mods/ ./resources/ ./scripts/
 
-      - if: matrix.version == 'LWJGL3' && !${{ github.event.inputs.only_artifact }}
-        name: Create GitHub Release (LWJGL3)
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: ${{ env.VERSION_LWJGL3 }}
-          prerelease: true
-          generate_release_notes: true
-          files: |
-            ./${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}-mmc.zip
-
-      - if: matrix.version == 'NORMAL' && !${{ github.event.inputs.only_artifact }}
-        name: Create GitHub Release (NORMAL)
+      - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ env.VERSION_NORMAL }}
@@ -129,17 +114,4 @@ jobs:
             ./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-cf.zip
             ./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-mmc.zip
             ./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-server.zip
-
-      - if: matrix.version == 'LWJGL3' && ${{ github.event.inputs.only_artifact }}
-        name: Create GitHub Artifact (LWJGL3)
-        uses: actions/upload-artifact@v4
-        with:
-          name: (LWJGL3) ${{ env.NAME }} v${{ github.event.inputs.version }}
-          path: ./${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}-mmc.zip
-
-      - if: matrix.version == 'NORMAL' && ${{ github.event.inputs.only_artifact }}
-        name: Create GitHub Artifact (NORMAL)
-        uses: actions/upload-artifact@v4
-        with:
-          name: (NORMAL) ${{ env.NAME }} v${{ github.event.inputs.version }}
-          path: ./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-mmc.zip
+            ./${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}-cmmc.zip

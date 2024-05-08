@@ -20,14 +20,17 @@ on:
           - 'alpha'
 
 env:
-  # Version of the mod
-  FULL_VERSION: "v${{ github.event.inputs.version }}-${{ github.event.inputs.release_type }}"
-  # type of release
+  VERSION_NORMAL: "v${{ github.event.inputs.version }}-${{ github.event.inputs.release_type }}"
+  VERSION_LWJGL3: "v${{ github.event.inputs.version }}-${{ github.event.inputs.release_type }}-lwjgl3"
   NAME: "GTExpert2"
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        version: [ "NORMAL", "LWJGL3" ]
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -42,68 +45,98 @@ jobs:
       - name: Setup Build
         uses: ./.github/actions/build_setup
 
-      - name: Set the version
-        run: |
-          echo "GregTech Expert 2 ${{ env.FULL_VERSION }}" > ./overrides/config/txloader/load/custommainmenu/version.txt
-          sed -i -e "s/MODPACKVERSION/v${{ github.event.inputs.version }}/g" ./manifest.json
-          sed -i -e "s/MODPACKVERSION/v${{ github.event.inputs.version }}/g" ./instance.cfg
-          sed -i -e "s/MODPACKVERSION/v${{ github.event.inputs.version }}/g" ./overrides/config/craftpresence.json
-
       - name: Download Resource Packs zip
         run: |
           GITHUB_RELEASE=$(curl -s https://api.github.com/repos/GTModpackTeam/GTE2-Translations/releases)
           ASSET_URL=$(echo $GITHUB_RELEASE | jq -r '.[]."assets"[]."browser_download_url"' | head -1)
           ASSET_NAME=$(echo $ASSET_URL | awk -F'/' '{print $NF}')
           wget -O ./overrides/resourcepacks/$ASSET_NAME $ASSET_URL
-
-      - name: Archive Release CF
+      
+      - name: Set the version
         run: |
-          rm -rf ./overrides/resourcepacks/.gitkeep
-          zip -r ./${{ env.NAME }}-${{ env.FULL_VERSION }}-cf.zip ./manifest.json ./modlist.html ./manifest.json ./modlist.html ./overrides/bansoukou/ ./overrides/config/ ./overrides/local/ ./overrides/resourcepacks/ ./overrides/scripts/
+          sed -i -e "s/MODPACKVERSION/v${{ github.event.inputs.version }}/g" ./manifest.json
+          sed -i -e "s/MODPACKVERSION/v${{ github.event.inputs.version }}/g" ./instance.cfg
+          sed -i -e "s/MODPACKVERSION/v${{ github.event.inputs.version }}/g" ./overrides/config/craftpresence.json
 
+      - if: matrix.version == 'LWJGL3'
+        name: Set the version (LWJGL3)
+        run: echo "[CleanroomMMC] GregTech Expert 2 ${{ env.VERSION_LWJGL3 }}" > ./overrides/config/txloader/load/custommainmenu/version.txt
+
+      - if: matrix.version == 'NORMAL'
+        name: Set the version (NORMAL)
+        run: echo "GregTech Expert 2 ${{ env.VERSION_NORMAL }}" > ./overrides/config/txloader/load/custommainmenu/version.txt
+
+      - if: matrix.version == 'LWJGL3'
+        name: Remove lwjgl3 not supported mods
+        run: |
+          python buildtools/gen-lwjgl3-manifest.py
+          cp -vf ./cmmc/manifest.json ./manifest.json
+    
       - name: Run Python
         env:
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
         run: python buildtools/mod-install.py
 
-      - name: Archive Release MMC
+      - if: matrix.version == 'NORMAL'
+        name: Archive Release CF (NORMAL)
+        run: |
+          rm -rf ./overrides/resourcepacks/.gitkeep
+          zip -r ./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-cf.zip ./manifest.json ./modlist.html ./manifest.json ./modlist.html ./overrides/bansoukou/ ./overrides/config/ ./overrides/local/ ./overrides/resourcepacks/ ./overrides/scripts/
+
+      - if: matrix.version == 'LWJGL3'
+        name: Archive Release MMC (LWJGL3)
+        run: |
+          cp -rvf ./cmmc/bansoukou/ ./overrides/
+          rm -Rf ./cmmc/bansoukou/
+          mv -vf ./overrides/ .minecraft/
+          cp -vf ./icon.png .minecraft/
+          cp -rvf ./cmmc/* ./
+          rm -rf .minecraft/mods/.gitkeep
+          rm -rf .minecraft/resourcepacks/.gitkeep
+          zip -r ./${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}-mmc.zip ./libraries/ ./patches/ ./mmc-pack.json ./instance.cfg .minecraft/
+
+      - if: matrix.version == 'NORMAL'
+        name: Archive Release MMC (NORMAL)
         run: |
           mv -vf ./overrides/ .minecraft/
           cp -vf ./icon.png .minecraft/
           rm -rf .minecraft/mods/.gitkeep
-          zip -r ./${{ env.NAME }}-${{ env.FULL_VERSION }}-mmc.zip ./mmc-pack.json ./instance.cfg .minecraft/
+          zip -r ./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-mmc.zip ./mmc-pack.json ./instance.cfg .minecraft/
 
-      - name: Move Server Files
+      - if: matrix.version == 'NORMAL'
+        name: Move Server Files
         run: |
           mv -vf ./serverfiles/* ./
 
-      - name: Archive Release Server
+      - if: matrix.version == 'NORMAL'
+        name: Archive Release Server
         run: |
           mv -vf .minecraft/* ./
-          zip -r ./${{ env.NAME }}-${{ env.FULL_VERSION }}-server.zip ./docker-compose.yml ./PleaseRead.txt ./log4j2_112-116.xml ./Install.bat ./Install.sh ./ServerStart.bat ./ServerStart.sh ./settings.bat ./settings.sh ./TmuxServer.sh ./bansoukou/ ./config/ ./local/ ./mods/ ./resources/ ./scripts/
+          zip -r ./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-server.zip ./docker-compose.yml ./PleaseRead.txt ./log4j2_112-116.xml ./Install.bat ./Install.sh ./ServerStart.bat ./ServerStart.sh ./settings.bat ./settings.sh ./TmuxServer.sh ./bansoukou/ ./config/ ./local/ ./mods/ ./resources/ ./scripts/
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: "${{ env.FULL_VERSION }}"
+          tag_name: "${{ env.VERSION_NORMAL }}"
           draft: false
           prerelease: false
           generate_release_notes: true
           files: |
-            ./${{ env.NAME }}-${{ env.FULL_VERSION }}-cf.zip
-            ./${{ env.NAME }}-${{ env.FULL_VERSION }}-mmc.zip
-            ./${{ env.NAME }}-${{ env.FULL_VERSION }}-server.zip
+            ./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-cf.zip
+            ./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-mmc.zip
+            ./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-server.zip
+            ./${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}-cmmc.zip
 
       # - name: Upload Curseforge
       #   uses: Xikaro/upload-curseforge-modpack-action@1.1.0
       #   with: 
       #     api-token: ${{ secrets.CF_API_TOKEN }}
       #     project-id: '565238'
-      #     modpack-path: ./${{ env.NAME }}-${{ env.FULL_VERSION }}-cf.zip
-      #     modpack-server-path: ./${{ env.NAME }}-${{ env.FULL_VERSION }}-server.zip
+      #     modpack-path: ./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-cf.zip
+      #     modpack-server-path: ./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-server.zip
       #     changelog: 'Check the changes here. [Github - CHANGELOG.md](https://github.com/GTModpackTeam/GregTech-Expert-2/blob/main/CHANGELOG_v2.md "")' 
       #     changelog-format: markdown
       #     game-version: '1.12.2'
-      #     display-name: ${{ env.NAME }}-${{ env.FULL_VERSION }}
-      #     server-display-name: ${{ env.NAME }}-${{ env.FULL_VERSION }}-server
+      #     display-name: ${{ env.NAME }}-${{ env.VERSION_NORMAL }}
+      #     server-display-name: ${{ env.NAME }}-${{ env.VERSION_NORMAL }}-server
       #     release-type: ${{ github.event.inputs.release_type }}
