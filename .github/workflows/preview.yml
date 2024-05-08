@@ -24,21 +24,7 @@ env:
   NAME: "GTExpert2"
 
 jobs:
-  prepare:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Download Resource Packs zip
-        run: |
-          GITHUB_RELEASE=$(curl -s https://api.github.com/repos/GTModpackTeam/GTE2-Translations/releases)
-          ASSET_URL=$(echo $GITHUB_RELEASE | jq -r '.[]."assets"[]."browser_download_url"' | head -1)
-          ASSET_NAME=$(echo $ASSET_URL | awk -F'/' '{print $NF}')
-          wget -O ./overrides/resourcepacks/$ASSET_NAME $ASSET_URL
-
   deploy:
-    needs: prepare
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -72,6 +58,13 @@ jobs:
         run: |
           python buildtools/gen-lwjgl3-manifest.py
           cp -vf ./cmmc/manifest.json ./manifest.json
+
+      - name: Download Resource Packs zip
+        run: |
+          GITHUB_RELEASE=$(curl -s https://api.github.com/repos/GTModpackTeam/GTE2-Translations/releases)
+          ASSET_URL=$(echo $GITHUB_RELEASE | jq -r '.[]."assets"[]."browser_download_url"' | head -1)
+          ASSET_NAME=$(echo $ASSET_URL | awk -F'/' '{print $NF}')
+          wget -O ./overrides/resourcepacks/$ASSET_NAME $ASSET_URL
 
       - name: Run Python
         env:

@@ -6,6 +6,7 @@
 - Fix quest issues.
 
 ## Update mods
+- Advanced Backups
 - AE2 Fluid Crafting Rework
 - GregTech CE Unofficial
 - GTExpert-Core
