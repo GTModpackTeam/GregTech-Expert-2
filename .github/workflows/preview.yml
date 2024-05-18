@@ -83,7 +83,7 @@ jobs:
           cp -rvf ./cmmc/* ./
           rm -rf .minecraft/mods/.gitkeep
           rm -rf .minecraft/resourcepacks/.gitkeep
-          zip -r ./${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}-mmc.zip ./libraries/ ./patches/ ./mmc-pack.json ./instance.cfg .minecraft/
+          zip -r ./${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}-cmmc.zip ./libraries/ ./patches/ ./mmc-pack.json ./instance.cfg .minecraft/
 
       - if: matrix.version == 'NORMAL'
         name: Archive Release MMC (NORMAL)
