@@ -11,6 +11,9 @@
 - GregTech CE Unofficial
 - GTExpert-Core
 - Neeve's AE2: Extended Life Additions
+- PackagedAuto
+- Particle Culling
+- Universal Tweaks
 
 * * *
 
