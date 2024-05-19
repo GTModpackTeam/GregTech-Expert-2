@@ -13,10 +13,6 @@ on:
       preview_version:
         description: 'Preview version'
         required: true
-      only_artifact:
-        description: 'Only push artifact'
-        type: boolean
-        default: false
 
 env:
   VERSION_NORMAL: "v${{ github.event.inputs.version }}-pr-${{ github.event.inputs.preview_version }}"
@@ -24,21 +20,7 @@ env:
   NAME: "GTExpert2"
 
 jobs:
-  prepare:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Download Resource Packs zip
-        run: |
-          GITHUB_RELEASE=$(curl -s https://api.github.com/repos/GTModpackTeam/GTE2-Translations/releases)
-          ASSET_URL=$(echo $GITHUB_RELEASE | jq -r '.[]."assets"[]."browser_download_url"' | head -1)
-          ASSET_NAME=$(echo $ASSET_URL | awk -F'/' '{print $NF}')
-          wget -O ./overrides/resourcepacks/$ASSET_NAME $ASSET_URL
-
   deploy:
-    needs: prepare
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -51,8 +33,15 @@ jobs:
       - name: Setup Build
         uses: ./.github/actions/build_setup
 
+      - name: Download Resource Packs zip
+        run: |
+          GITHUB_RELEASE=$(curl -s https://api.github.com/repos/GTModpackTeam/GTE2-Translations/releases)
+          ASSET_URL=$(echo $GITHUB_RELEASE | jq -r '.[]."assets"[]."browser_download_url"' | head -1)
+          ASSET_NAME=$(echo $ASSET_URL | awk -F'/' '{print $NF}')
+          wget -O ./overrides/resourcepacks/$ASSET_NAME $ASSET_URL
+
       - if: matrix.version == 'LWJGL3'
-        name: Set the version (${{ matrix.version }})
+        name: Set the version (LWJGL3)
         run: |
           echo "[CleanroomMMC] GregTech Expert 2 ${{ env.VERSION_LWJGL3 }}" > ./overrides/config/txloader/load/custommainmenu/version.txt
           sed -i -e "s/MODPACKVERSION/${{ env.VERSION_LWJGL3 }}/g" ./manifest.json
@@ -60,7 +49,7 @@ jobs:
           sed -i -e "s/MODPACKVERSION/${{ env.VERSION_LWJGL3 }}/g" ./overrides/config/craftpresence.json
 
       - if: matrix.version == 'NORMAL'
-        name: Set the version (${{ matrix.version }})
+        name: Set the version (NORMAL)
         run: |
           echo "GregTech Expert 2 ${{ env.VERSION_NORMAL }}" > ./overrides/config/txloader/load/custommainmenu/version.txt
           sed -i -e "s/MODPACKVERSION/${{ env.VERSION_NORMAL }}/g" ./manifest.json
@@ -79,13 +68,13 @@ jobs:
         run: python buildtools/mod-install.py
 
       - if: matrix.version == 'NORMAL'
-        name: Archive Release CF (${{ matrix.version }})
+        name: Archive Release CF (NORMAL)
         run: |
           rm -rf ./overrides/resourcepacks/.gitkeep
           zip -r ./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-cf.zip ./manifest.json ./modlist.html ./overrides/bansoukou/ ./overrides/config/ ./overrides/local/ ./overrides/resourcepacks/ ./overrides/scripts/
 
       - if: matrix.version == 'LWJGL3'
-        name: Archive Release MMC (${{ matrix.version }})
+        name: Archive Release MMC (LWJGL3)
         run: |
           cp -rvf ./cmmc/bansoukou/ ./overrides/
           rm -Rf ./cmmc/bansoukou/
@@ -94,10 +83,10 @@ jobs:
           cp -rvf ./cmmc/* ./
           rm -rf .minecraft/mods/.gitkeep
           rm -rf .minecraft/resourcepacks/.gitkeep
-          zip -r ./${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}-mmc.zip ./libraries/ ./patches/ ./mmc-pack.json ./instance.cfg .minecraft/
+          zip -r ./${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}-cmmc.zip ./libraries/ ./patches/ ./mmc-pack.json ./instance.cfg .minecraft/
 
       - if: matrix.version == 'NORMAL'
-        name: Archive Release MMC (${{ matrix.version }})
+        name: Archive Release MMC (NORMAL)
         run: |
           mv -vf ./overrides/ .minecraft/
           cp -vf ./icon.png .minecraft/
@@ -105,28 +94,17 @@ jobs:
           zip -r ./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-mmc.zip ./mmc-pack.json ./instance.cfg .minecraft/
 
       - if: matrix.version == 'NORMAL'
-        name: Move Server Files (${{ matrix.version }})
+        name: Move Server Files (NORMAL)
         run: |
           mv -vf ./serverfiles/* ./
 
       - if: matrix.version == 'NORMAL'
-        name: Archive Release Server (${{ matrix.version }})
+        name: Archive Release Server (NORMAL)
         run: |
           mv -vf .minecraft/* ./
           zip -r ./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-server.zip ./docker-compose.yml ./PleaseRead.txt ./log4j2_112-116.xml ./Install.bat ./Install.sh ./ServerStart.bat ./ServerStart.sh ./settings.bat ./settings.sh ./TmuxServer.sh ./bansoukou/ ./config/ ./local/ ./mods/ ./resources/ ./scripts/
 
-      - if: matrix.version == 'LWJGL3' && !${{ github.event.inputs.only_artifact }}
-        name: Create GitHub Release (${{ matrix.version }})
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: ${{ env.VERSION_LWJGL3 }}
-          prerelease: true
-          generate_release_notes: true
-          files: |
-            ./${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}-mmc.zip
-
-      - if: matrix.version == 'NORMAL' && !${{ github.event.inputs.only_artifact }}
-        name: Create GitHub Release (${{ matrix.version }})
+      - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ env.VERSION_NORMAL }}
@@ -136,17 +114,4 @@ jobs:
             ./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-cf.zip
             ./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-mmc.zip
             ./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-server.zip
-
-      - if: matrix.version == 'LWJGL3' && ${{ github.event.inputs.only_artifact }}
-        name: Create GitHub Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: (${{ matrix.version }}) ${{ env.NAME }} v${{ github.event.inputs.version }}
-          path: ./${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}-mmc.zip
-
-      - if: matrix.version == 'NORMAL' && ${{ github.event.inputs.only_artifact }}
-        name: Create GitHub Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: (${{ matrix.version }}) ${{ env.NAME }} v${{ github.event.inputs.version }}
-          path: ./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-mmc.zip
+            ./${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}-cmmc.zip
