@@ -3,6 +3,7 @@
 - Update to CEu 2.8.8 and add new quests.
     - Add Electric Wirecutter quest.
     - Update ME Input Bus / Hatch quest.
+    - Add Naquadah Rocket Fuel quest.
 - Fix quest issues.
 
 ## Update mods
