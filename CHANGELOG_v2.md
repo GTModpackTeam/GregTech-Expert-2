@@ -1,7 +1,28 @@
+# v2.7.3
+## Modpack information
+- Update to CEu 2.8.8 and add new quests.
+    - Add Electric Wirecutter quest.
+    - Update ME Input Bus / Hatch quest.
+    - Add Naquadah Rocket Fuel quest.
+- Fix quest issues.
+
+## Update mods
+- Advanced Backups
+- AE2 Fluid Crafting Rework
+- GregTech CE Unofficial
+- GTExpert-Core
+- Neeve's AE2: Extended Life Additions
+- PackagedAuto
+- Particle Culling
+- Universal Tweaks
+
+* * *
+
 # v2.7.2
 ## Modpack information
 - Powderbarrel and ITNT are reflected in quests and some quests are modified.
 - Add Compact Machines quest.
+- Add HV Chainsaw quest.
 
 ## New mods
 - Particle Culling

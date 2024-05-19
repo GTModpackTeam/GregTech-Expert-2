@@ -40,7 +40,7 @@
         - You want to automate bee breeding?
     - (**WIP**) [Thaumcraft](https://www.curseforge.com/minecraft/mc-mods/thaumcraft)
         - You want to use Thaumcraft's magic?
-    - (**WIP**) [Thaumic Energistics Extended Life](https://www.curseforge.com/minecraft/mc-mods/thaumic-energistics-extended-life)
+    - (**WIP**) [Thaumic Energistics Extended Life Fork](https://www.curseforge.com/minecraft/mc-mods/thaumic-energistics-extended-life-fork)
         - You want to use Thaumcraft's magic with AE2?
     - [Volumetric Flask](https://www.curseforge.com/minecraft/mc-mods/volumetric-flask)
         - Migration to AE2 Fluid Crafting Rework. However, a Flask can still be created.
@@ -53,26 +53,25 @@
 # Quest Book
 - Originally FTBQ, now in the process of migrating to BQU. [Link](https://github.com/GTModpackTeam/GregTech-Expert-2-FTBQuestBook)
 
-| Age | Quest | Description | FTBQ to BQU migration |
-| ---- | ---- | ---- | ---- |
-| Stone Age | 〇 | 〇 | 50% |
-| Ore Veins | 〇 | 〇 | 50% |
-| Tier 0 - ULV | 〇 | 〇 | 50% |
-| Tier 1 - LV | 〇 | 〇 | 50% |
-| Tier 2 - MV | 〇 | 〇 | 50% |
-| Tier 3 - HV | 〇 | △ | 50% |
-| Tier 4 - EV | 〇 | 〇 | 50% |
-| Tier 5 - IV | 〇 | △ | 50% |
-| Tier 6 - LuV | △ | × | 50% |
-| Tier 7 - ZPM | △ | × | 50% |
-| Tier 8 - UV / UHV | △ | × | 50% |
-| Tier 940 - Endgame | 〇 | × | 50% |
-| AE2 Unofficial Extended Life | 〇 | 〇 | 80% |
-| Draconic Evolution | △ | × | 80% |
-| Gregtech Food Option | 〇 | △ | 30% |
-| Gregtech Food Option - Foods | 〇 | × | 30% |
-| Gregicality / GTExpert-Core | 〇 | △ | 50% |
-| Milestones | 〇 | 〇 | 80% |
+| Age | Quest | Description | Migration | Tips |
+| ---- | ---- | ---- | ---- | --- |
+| Stone Age | 〇 | 〇 | 〇 |  - |
+| Ore Veins | 〇 | 〇 | 〇 |  - |
+| Tier 0 - ULV | 〇 | 〇 | 〇 |  - |
+| Tier 1 - LV | 〇 | 〇 | 〇 |  - |
+| Tier 2 - MV | 〇 | 〇 | 〇 |  - |
+| Tier 3 - HV | 〇 | 〇 | 〇 |  - |
+| Tier 4 - EV | 〇 | 〇 | 〇 |  - |
+| Tier 5 - IV | 〇 | 〇 | 〇 |  - |
+| Tier 6 - LuV | 〇 | △ | 〇 |  - |
+| Tier 7 - ZPM | 〇 | △ | 〇 |  - |
+| Tier 8 - UV / UHV | 〇 | △ | 〇 |  - |
+| Tier 940 - Endgame | 〇 | × | 〇 |  - |
+| AE2 Unofficial Extended Life | 〇 | 〇 | 〇 |  - |
+| Draconic Evolution | 〇 | △ | 〇 |  - |
+| GCYM / GTFO/ GTEC | 〇 | 〇 | 〇 |  - |
+| Foods | × | × | × | Rescheduled |
+| Milestones | 〇 | △ | 〇 | - |
 
 
 ## Credits

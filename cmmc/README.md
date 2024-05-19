@@ -6,18 +6,24 @@
 
 ## How to install
 - To install the GregTech Expert 2 for LWJGL3 ModPack, follow these steps:
-1. First, find the latest build with [lwjgl3](https://github.com/GTModpackTeam/gregtech-expert-2/releases?q=lwjgl3&expanded=true) in Github releases.
-2. Download the `GTExpert2-<base_version>-lwjgl3-<pr_version>-mmc.zip` file.
+1. First, find the latest build with [lwjgl3](https://github.com/GTModpackTeam/gregtech-expert-2/releases) in Github releases.
+2. Download the `GTExpert2-<base_version>-lwjgl3-cmmc.zip` or the PR version if you want to test the latest changes.
+    1. PR Version: `GTExpert2-<base_version>-lwjgl3-<pr_version>-cmmc.zip`
 3. Open the [MultiMC](https://multimc.org/) or [Prism Launcher](https://prismlauncher.org/) and create a new instance.
 4. Import the downloaded zip file into the MultiMC instance.
 5. Get the mods you need from the list below.
 6. Put the downloaded mods in the `mods` folder of the instance.
 7. Set java version to 21.
-8. Set Java Arguments to `-XX:+UseZGC -XX:+ZGenerational` in the instance settings.
-9. Resolve any mod conflicts that may occur.
-10. Run the instance and enjoy the game!
+8. Resolve any mod conflicts that may occur.
+9. Run the instance and enjoy the game!
 
 
 ## Self download mods
 - [Fugue](https://github.com/CleanroomMC/Fugue/releases) by CleanroomMC
+- [Scalar](https://github.com/CleanroomMC/Scalar/releases/tag/2.11.1) by CleanroomMC
+
+
+## Optional mods
 - [Vintagium](https://github.com/Asek3/sodium-1.12/actions) by Asek3
+    - Please re-configure the graphics settings.
+    - Also, the FPS improves considerably in the GTCEu when `Always Defer Chunk Updates` is enabled in the settings.

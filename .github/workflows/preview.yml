@@ -1,28 +1,37 @@
 name: Deploy preview modpack
+
+permissions:
+  contents: write
+  deployments: write
+
 on:
-  push:
-    tags:
-      - '*-pr-*'
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Modpack version'
+        required: true
+      preview_version:
+        description: 'Preview version'
+        required: true
+
+env:
+  VERSION_NORMAL: "v${{ github.event.inputs.version }}-pr-${{ github.event.inputs.preview_version }}"
+  VERSION_LWJGL3: "v${{ github.event.inputs.version }}-lwjgl3-${{ github.event.inputs.preview_version }}"
+  NAME: "GTExpert2"
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        version: [ "NORMAL", "LWJGL3" ]
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Get the version
-        run: |
-          echo VERSION=$(echo ${GITHUB_REF} | sed -e 's#refs/tags/##g' | awk -F'-' '{print $1}') >> $GITHUB_ENV
-          echo PR_VERSION=$(echo ${GITHUB_REF} | sed -e 's#refs/tags/##g' | awk -F'-' '{print $3}') >> $GITHUB_ENV
-
-      - name: Set the version
-        run: |
-          MODPACKVERSION=${{ env.VERSION }}
-          echo "GregTech Expert 2 ${MODPACKVERSION}-pr-${{ env.PR_VERSION }}" > ./overrides/config/txloader/load/custommainmenu/version.txt
-          sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" ./manifest.json
-          sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" ./instance.cfg
-          sed -i -e "s/MODPACKVERSION/${MODPACKVERSION}/g" ./overrides/config/craftpresence.json
+      - name: Setup Build
+        uses: ./.github/actions/build_setup
 
       - name: Download Resource Packs zip
         run: |
@@ -31,58 +40,78 @@ jobs:
           ASSET_NAME=$(echo $ASSET_URL | awk -F'/' '{print $NF}')
           wget -O ./overrides/resourcepacks/$ASSET_NAME $ASSET_URL
 
-      - name: Archive Release CF
+      - if: matrix.version == 'LWJGL3'
+        name: Set the version (LWJGL3)
         run: |
-          rm -rf ./overrides/resourcepacks/.gitkeep
-          zip -r ./GTExpert2-${{ env.VERSION }}-pr-${{ env.PR_VERSION }}-cf.zip ./manifest.json ./modlist.html ./overrides/bansoukou/ ./overrides/config/ ./overrides/local/ ./overrides/resourcepacks/ ./overrides/scripts/
+          echo "[CleanroomMMC] GregTech Expert 2 ${{ env.VERSION_LWJGL3 }}" > ./overrides/config/txloader/load/custommainmenu/version.txt
+          sed -i -e "s/MODPACKVERSION/${{ env.VERSION_LWJGL3 }}/g" ./manifest.json
+          sed -i -e "s/MODPACKVERSION/${{ env.VERSION_LWJGL3 }}/g" ./instance.cfg
+          sed -i -e "s/MODPACKVERSION/${{ env.VERSION_LWJGL3 }}/g" ./overrides/config/craftpresence.json
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
+      - if: matrix.version == 'NORMAL'
+        name: Set the version (NORMAL)
+        run: |
+          echo "GregTech Expert 2 ${{ env.VERSION_NORMAL }}" > ./overrides/config/txloader/load/custommainmenu/version.txt
+          sed -i -e "s/MODPACKVERSION/${{ env.VERSION_NORMAL }}/g" ./manifest.json
+          sed -i -e "s/MODPACKVERSION/${{ env.VERSION_NORMAL }}/g" ./instance.cfg
+          sed -i -e "s/MODPACKVERSION/${{ env.VERSION_NORMAL }}/g" ./overrides/config/craftpresence.json
 
-      - name: Install uv
-        run: pip install uv
-
-      - name: Setup Python Cache 
-        uses: actions/cache@v3
-        with:
-          path: ~/.cache/uv
-          key: ${{ runner.os }}-uv-${{ hashFiles('**/requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-uv-
-
-      - name: Install dependencies
-        run: uv pip install --system -r ./buildtools/requirements.txt
+      - if: matrix.version == 'LWJGL3'
+        name: Remove lwjgl3 not supported mods
+        run: |
+          python buildtools/gen-lwjgl3-manifest.py
+          cp -vf ./cmmc/manifest.json ./manifest.json
 
       - name: Run Python
         env:
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
         run: python buildtools/mod-install.py
 
-      - name: Archive Release MMC
+      - if: matrix.version == 'NORMAL'
+        name: Archive Release CF (NORMAL)
+        run: |
+          rm -rf ./overrides/resourcepacks/.gitkeep
+          zip -r ./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-cf.zip ./manifest.json ./modlist.html ./overrides/bansoukou/ ./overrides/config/ ./overrides/local/ ./overrides/resourcepacks/ ./overrides/scripts/
+
+      - if: matrix.version == 'LWJGL3'
+        name: Archive Release MMC (LWJGL3)
+        run: |
+          cp -rvf ./cmmc/bansoukou/ ./overrides/
+          rm -Rf ./cmmc/bansoukou/
+          mv -vf ./overrides/ .minecraft/
+          cp -vf ./icon.png .minecraft/
+          cp -rvf ./cmmc/* ./
+          rm -rf .minecraft/mods/.gitkeep
+          rm -rf .minecraft/resourcepacks/.gitkeep
+          zip -r ./${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}-cmmc.zip ./libraries/ ./patches/ ./mmc-pack.json ./instance.cfg .minecraft/
+
+      - if: matrix.version == 'NORMAL'
+        name: Archive Release MMC (NORMAL)
         run: |
           mv -vf ./overrides/ .minecraft/
           cp -vf ./icon.png .minecraft/
           rm -rf .minecraft/mods/.gitkeep
-          zip -r ./GTExpert2-${{ env.VERSION }}-pr-${{ env.PR_VERSION }}-mmc.zip ./mmc-pack.json ./instance.cfg .minecraft/
+          zip -r ./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-mmc.zip ./mmc-pack.json ./instance.cfg .minecraft/
 
-      - name: Move Server Files
+      - if: matrix.version == 'NORMAL'
+        name: Move Server Files (NORMAL)
         run: |
           mv -vf ./serverfiles/* ./
 
-      - name: Archive Release Server
+      - if: matrix.version == 'NORMAL'
+        name: Archive Release Server (NORMAL)
         run: |
           mv -vf .minecraft/* ./
-          zip -r ./GTExpert2-${{ env.VERSION }}-pr-${{ env.PR_VERSION }}-server.zip ./docker-compose.yml ./PleaseRead.txt ./log4j2_112-116.xml ./Install.bat ./Install.sh ./ServerStart.bat ./ServerStart.sh ./settings.bat ./settings.sh ./TmuxServer.sh ./bansoukou/ ./config/ ./local/ ./mods/ ./resources/ ./scripts/
+          zip -r ./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-server.zip ./docker-compose.yml ./PleaseRead.txt ./log4j2_112-116.xml ./Install.bat ./Install.sh ./ServerStart.bat ./ServerStart.sh ./settings.bat ./settings.sh ./TmuxServer.sh ./bansoukou/ ./config/ ./local/ ./mods/ ./resources/ ./scripts/
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
-        if: startsWith(github.ref, 'refs/tags/')
         with:
+          tag_name: ${{ env.VERSION_NORMAL }}
           prerelease: true
           generate_release_notes: true
           files: |
-            ./GTExpert2-${{ env.VERSION }}-pr-${{ env.PR_VERSION }}-cf.zip
-            ./GTExpert2-${{ env.VERSION }}-pr-${{ env.PR_VERSION }}-mmc.zip
-            ./GTExpert2-${{ env.VERSION }}-pr-${{ env.PR_VERSION }}-server.zip
+            ./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-cf.zip
+            ./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-mmc.zip
+            ./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-server.zip
+            ./${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}-cmmc.zip
