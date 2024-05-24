@@ -1,3 +1,14 @@
+# preview
+## Modpack information
+- Update Duct Tape quest.
+- Update Blank Pattern quest.
+
+## New recipes
+### AE2 Unofficial Extended Life
+- Blank Pattern
+
+* * *
+
 # v2.7.3
 ## Modpack information
 - Update to CEu 2.8.8 and add new quests.
