@@ -11,7 +11,7 @@
     "formatVersion": 1,
     "libraries": [
         {
-            "name": "com.cleanroommc:cleanroom:0.2.1-alpha+build.1.run.573-universal",
+            "name": "com.cleanroommc:cleanroom:0.2.1-alpha+build.10.run.616-universal",
             "MMC-hint": "local"
         },
         {
@@ -81,13 +81,13 @@
             }
         },
         {
-            "name": "top.outlands:foundation:0.13.2",
+            "name": "top.outlands:foundation:0.13.5",
             "downloads": {
                 "artifact": {
-                    "path": "top/outlands/foundation/0.13.2/foundation-0.13.2.jar",
-                    "url": "https://maven.outlands.top/releases/top/outlands/foundation/0.13.2/foundation-0.13.2.jar",
-                    "sha1": "0ce893af7504ebf12f0cebd5cc7eb64dd432274e",
-                    "size": 57303
+                    "path": "top/outlands/foundation/0.13.5/foundation-0.13.5.jar",
+                    "url": "https://maven.outlands.top/releases/top/outlands/foundation/0.13.5/foundation-0.13.5.jar",
+                    "sha1": "edc81154d81715e0e40135aee3e8f6dd11fa69bd",
+                    "size": 57504
                 }
             }
         },
@@ -642,24 +642,24 @@
             }
         },
         {
-            "name": "com.cleanroommc:sponge-mixin:0.19.5+mixin.0.8.5",
+            "name": "com.cleanroommc:sponge-mixin:0.19.7+mixin.0.8.5",
             "downloads": {
                 "artifact": {
-                    "path": "com/cleanroommc/sponge-mixin/0.19.5+mixin.0.8.5/sponge-mixin-0.19.5+mixin.0.8.5.jar",
-                    "url": "https://maven.outlands.top/releases/com/cleanroommc/sponge-mixin/0.19.5+mixin.0.8.5/sponge-mixin-0.19.5+mixin.0.8.5.jar",
-                    "sha1": "f4982e536ae300eabfa07792e24d7561bca0f238",
-                    "size": 1423894
+                    "path": "com/cleanroommc/sponge-mixin/0.19.7+mixin.0.8.5/sponge-mixin-0.19.7+mixin.0.8.5.jar",
+                    "url": "https://maven.outlands.top/releases/com/cleanroommc/sponge-mixin/0.19.7+mixin.0.8.5/sponge-mixin-0.19.7+mixin.0.8.5.jar",
+                    "sha1": "595687737a1006a6198efb7fe0f10150b61898be",
+                    "size": 1424129
                 }
             }
         },
         {
-            "name": "io.github.llamalad7:mixinextras-common:0.3.5",
+            "name": "io.github.llamalad7:mixinextras-common:0.3.6",
             "downloads": {
                 "artifact": {
-                    "path": "io/github/llamalad7/mixinextras-common/0.3.5/mixinextras-common-0.3.5.jar",
-                    "url": "https://maven.minecraftforge.net/io/github/llamalad7/mixinextras-common/0.3.5/mixinextras-common-0.3.5.jar",
-                    "sha1": "5de895137aa0478675b6ecf7602d9652b05dc37e",
-                    "size": 173204
+                    "path": "io/github/llamalad7/mixinextras-common/0.3.6/mixinextras-common-0.3.6.jar",
+                    "url": "https://maven.minecraftforge.net/io/github/llamalad7/mixinextras-common/0.3.6/mixinextras-common-0.3.6.jar",
+                    "sha1": "8d992e7a746af47abb59c8232aff5a3f8f0c9f17",
+                    "size": 173236
                 }
             }
         }
@@ -674,5 +674,5 @@
         }
     ],
     "uid": "net.minecraftforge",
-    "version": "0.2.1-alpha+build.1.run.573"
+    "version": "0.2.1-alpha+build.10.run.616"
 }
