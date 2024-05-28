@@ -89,6 +89,10 @@ packer.recipeBuilder()
     .EUt(7)
     .buildAndRegister();
 
+# Programmed Circuit Card
+recipes.remove(<nae2:upgrade:2>);
+recipes.addShapeless(<nae2:upgrade:2>, [<appliedenergistics2:material:53>,<ore:circuitHv>]);
+
 
 
 ########################################

@@ -1,11 +1,27 @@
-# preview
+# Preview
 ## Modpack information
 - Update Duct Tape quest.
 - Update Blank Pattern quest.
+- Add Programmed Circuit Card quest.
 
 ## New recipes
 ### AE2 Unofficial Extended Life
 - Blank Pattern
+
+### Neeve's AE2: Extended Life Additions
+- Programmed Circuit Card
+
+## Update mods
+- AE2 Unofficial Extended Life
+- Neeve's AE2: Extended Life Additions
+- VintageFix
+
+## Move mods
+- 燐/Hesperus -> Alfheim Lighting Engine
+- It's the little things -> Valkyrie
+
+## New mods
+- Red Core
 
 * * *
 

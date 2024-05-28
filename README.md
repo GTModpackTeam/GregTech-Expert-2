@@ -55,21 +55,21 @@
 
 | Age | Quest | Description | Migration | Tips |
 | ---- | ---- | ---- | ---- | --- |
-| Stone Age | 〇 | 〇 | 〇 |  - |
-| Ore Veins | 〇 | 〇 | 〇 |  - |
-| Tier 0 - ULV | 〇 | 〇 | 〇 |  - |
-| Tier 1 - LV | 〇 | 〇 | 〇 |  - |
-| Tier 2 - MV | 〇 | 〇 | 〇 |  - |
-| Tier 3 - HV | 〇 | 〇 | 〇 |  - |
-| Tier 4 - EV | 〇 | 〇 | 〇 |  - |
-| Tier 5 - IV | 〇 | 〇 | 〇 |  - |
-| Tier 6 - LuV | 〇 | △ | 〇 |  - |
-| Tier 7 - ZPM | 〇 | △ | 〇 |  - |
-| Tier 8 - UV / UHV | 〇 | △ | 〇 |  - |
-| Tier 940 - Endgame | 〇 | × | 〇 |  - |
-| AE2 Unofficial Extended Life | 〇 | 〇 | 〇 |  - |
-| Draconic Evolution | 〇 | △ | 〇 |  - |
-| GCYM / GTFO/ GTEC | 〇 | 〇 | 〇 |  - |
+| Stone Age | 〇 | 〇 | 〇 | - |
+| Ore Veins | 〇 | 〇 | 〇 | - |
+| Tier 0 - ULV | 〇 | 〇 | 〇 | - |
+| Tier 1 - LV | 〇 | 〇 | 〇 | - |
+| Tier 2 - MV | 〇 | 〇 | 〇 | - |
+| Tier 3 - HV | 〇 | 〇 | 〇 | - |
+| Tier 4 - EV | 〇 | 〇 | 〇 | - |
+| Tier 5 - IV | 〇 | 〇 | 〇 | - |
+| Tier 6 - LuV | 〇 | △ | 〇 | - |
+| Tier 7 - ZPM | 〇 | △ | 〇 | - |
+| Tier 8 - UV / UHV | 〇 | △ | 〇 | - |
+| Tier 940 - Endgame | 〇 | × | 〇 | - |
+| AE2 Unofficial Extended Life | 〇 | 〇 | 〇 | - |
+| Draconic Evolution | 〇 | △ | 〇 | - |
+| GCYM / GTFO/ GTEC | 〇 | 〇 | 〇 | - |
 | Foods | × | × | × | Rescheduled |
 | Milestones | 〇 | △ | 〇 | - |
 
@@ -77,4 +77,3 @@
 ## Credits
 
 - Many Japanese Quests are also translated from the [GregTech-Community-Pack](https://github.com/GregTechCEu/GregTech-Community-Pack).
-- The idea of Saw Mill and some other recipes are from [IMPACT: GREGTECH EDITION](https://gt-impact.github.io/)
