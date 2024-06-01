@@ -12,8 +12,10 @@
 - Programmed Circuit Card
 
 ## Update mods
+- AE2 Fluid Crafting Rework
 - AE2 Unofficial Extended Life
 - Neeve's AE2: Extended Life Additions
+- PackagedAuto
 - VintageFix
 
 ## Move mods
