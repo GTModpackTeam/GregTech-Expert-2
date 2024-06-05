@@ -98,12 +98,6 @@ recipes.addShapeless(<nae2:upgrade:2>, [<appliedenergistics2:material:53>,<ore:c
 ########################################
 # Blocks
 ########################################
-# Crafting Storage
-JEI.removeAndHide(<nae2:storage_crafting_256k>);
-JEI.removeAndHide(<nae2:storage_crafting_1024k>);
-JEI.removeAndHide(<nae2:storage_crafting_4096k>);
-JEI.removeAndHide(<nae2:storage_crafting_16384k>);
-
 # ME Storage Exposer
 recipes.remove(<nae2:exposer>);
 recipes.addShaped(<nae2:exposer>, [
