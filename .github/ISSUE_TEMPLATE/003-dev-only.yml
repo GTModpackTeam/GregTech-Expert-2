@@ -1,0 +1,9 @@
+name: 'Dev Only Issue'
+description: "This select the dev only issue template."
+body:
+  - type: textarea
+    attributes:
+      label: Task
+      description: What do you need to do?
+    validations:
+      required: true
