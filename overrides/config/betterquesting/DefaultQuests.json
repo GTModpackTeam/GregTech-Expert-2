@@ -8745,7 +8745,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "プログラム回路カードはパターンに回路を焼くことにより、対応した番号へ自動的に切り替えることが出来るカードです。\n\nこのカードの利点として、GCYMのマルチマシンやPA突入前は番号ごとにマシンを用意する必要を無くすことが出来ます。\nまたクリーンルームのような狭い空間でも効果を発揮します。\n\n\n余談その1\n混合インターフェースに現状(NAE2 v1.6.3)は使えないのは厳しいが、そのうち対応されるだろう。",
+          "desc:8": "プログラム回路カードはパターンに回路を焼くことにより、対応した番号へ自動的に切り替えることが出来るカードです。\n\nこのカードの利点として、GCYMのマルチマシンやPA突入前は番号ごとにマシンを用意する必要を無くすことが出来ます。\nまたクリーンルームのような狭い空間でも効果を発揮します。\n\n\n余談その1\n登場時は混合インターフェースに刺せなかったが、追加の更新で対応した。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -25633,9 +25633,9 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
-          "entryLogic:8": "AND",
+          "entryLogic:8": "OR",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -25644,6 +25644,13 @@
               "Damage:2": 0,
               "OreDict:8": "",
               "id:8": "appliedenergistics2:energy_cell",
+              "tag:10": {}
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "appliedenergistics2:dense_energy_cell",
               "tag:10": {}
             }
           },
@@ -28484,7 +28491,43 @@
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": "",
+              "id:8": "appliedenergistics2:crafting_storage_4k"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "appliedenergistics2:crafting_storage_16k"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
               "id:8": "appliedenergistics2:crafting_storage_64k"
+            },
+            "4:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "nae2:storage_crafting_256k"
+            },
+            "5:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "nae2:storage_crafting_1024k"
+            },
+            "6:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "nae2:storage_crafting_4096k"
+            },
+            "7:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "nae2:storage_crafting_16384k"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -28505,6 +28548,18 @@
               "id:8": "appliedenergistics2:crafting_accelerator"
             },
             "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "nae2:coprocessor_4x"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "nae2:coprocessor_16x"
+            },
+            "3:10": {
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": "",
@@ -50832,7 +50887,7 @@
   },
   "questSettings:10": {
     "betterquesting:10": {
-      "editmode:1": 0,
+      "editmode:1": 1,
       "hardcore:1": 0,
       "home_anchor_x:5": 0.5,
       "home_anchor_y:5": 0.0,

@@ -14,6 +14,7 @@
 ## Update mods
 - AE2 Fluid Crafting Rework
 - AE2 Unofficial Extended Life
+- GTExpert-Core
 - Neeve's AE2: Extended Life Additions
 - PackagedAuto
 - VintageFix
