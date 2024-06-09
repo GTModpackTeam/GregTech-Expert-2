@@ -9,7 +9,6 @@ import json
 projectIDs = [
     870276, # ConfigAnytime
     624967, # RenderLib
-    624960, # Nothirium
     409087, # Entity Culling
     408853, # Particle Culling
     419286  # MixinBooter
