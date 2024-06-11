@@ -18603,10 +18603,6 @@
       }
     },
     "289:10": {
-      "preRequisiteTypes:7": [
-        1,
-        0
-      ],
       "preRequisites:11": [
         405,
         410
@@ -19208,7 +19204,7 @@
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "前のバージョンでは盛大にバグっていた",
-          "questlogic:8": "AND",
+          "questlogic:8": "OR",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
           "simultaneous:1": 0,
@@ -19248,9 +19244,6 @@
       }
     },
     "299:10": {
-      "preRequisiteTypes:7": [
-        1
-      ],
       "preRequisites:11": [
         405
       ],
@@ -19407,32 +19400,12 @@
             "0:10": {
               "Amount:3": 1000,
               "FluidName:8": "refinery_gas"
-            }
-          },
-          "taskID:8": "bq_standard:fluid"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 1,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "requiredFluids:9": {
-            "0:10": {
+            },
+            "1:10": {
               "Amount:3": 1000,
               "FluidName:8": "methane"
-            }
-          },
-          "taskID:8": "bq_standard:fluid"
-        },
-        "2:10": {
-          "autoConsume:1": 0,
-          "consume:1": 1,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 2,
-          "requiredFluids:9": {
-            "0:10": {
+            },
+            "2:10": {
               "Amount:3": 1000,
               "FluidName:8": "lpg"
             }
@@ -19544,18 +19517,8 @@
             "0:10": {
               "Amount:3": 1000,
               "FluidName:8": "sodium_persulfate"
-            }
-          },
-          "taskID:8": "bq_standard:fluid"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 1,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "requiredFluids:9": {
-            "0:10": {
+            },
+            "1:10": {
               "Amount:3": 1000,
               "FluidName:8": "iron_iii_chloride"
             }
@@ -20262,20 +20225,8 @@
               "Damage:2": 439,
               "OreDict:8": "",
               "id:8": "gregtech:meta_item_1"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
+            },
+            "1:10": {
               "Count:3": 1,
               "Damage:2": 440,
               "OreDict:8": "",
@@ -20284,12 +20235,12 @@
           },
           "taskID:8": "bq_standard:retrieval"
         },
-        "2:10": {
+        "1:10": {
           "autoConsume:1": 0,
           "consume:1": 1,
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 2,
+          "index:3": 1,
           "requiredFluids:9": {
             "0:10": {
               "Amount:3": 1000,
@@ -20355,9 +20306,6 @@
       }
     },
     "316:10": {
-      "preRequisiteTypes:7": [
-        1
-      ],
       "preRequisites:11": [
         413
       ],
@@ -21321,46 +21269,16 @@
             "0:10": {
               "Amount:3": 1000,
               "FluidName:8": "oil"
-            }
-          },
-          "taskID:8": "bq_standard:fluid"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 1,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "requiredFluids:9": {
-            "0:10": {
+            },
+            "1:10": {
               "Amount:3": 1000,
               "FluidName:8": "oil_heavy"
-            }
-          },
-          "taskID:8": "bq_standard:fluid"
-        },
-        "2:10": {
-          "autoConsume:1": 0,
-          "consume:1": 1,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 2,
-          "requiredFluids:9": {
-            "0:10": {
+            },
+            "2:10": {
               "Amount:3": 1000,
               "FluidName:8": "oil_medium"
-            }
-          },
-          "taskID:8": "bq_standard:fluid"
-        },
-        "3:10": {
-          "autoConsume:1": 0,
-          "consume:1": 1,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 3,
-          "requiredFluids:9": {
-            "0:10": {
+            },
+            "3:10": {
               "Amount:3": 1000,
               "FluidName:8": "oil_light"
             }
@@ -29986,46 +29904,16 @@
             "0:10": {
               "Amount:3": 1000,
               "FluidName:8": "benzene"
-            }
-          },
-          "taskID:8": "bq_standard:fluid"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 1,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "requiredFluids:9": {
-            "0:10": {
+            },
+            "1:10": {
               "Amount:3": 1000,
               "FluidName:8": "butadiene"
-            }
-          },
-          "taskID:8": "bq_standard:fluid"
-        },
-        "2:10": {
-          "autoConsume:1": 0,
-          "consume:1": 1,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 2,
-          "requiredFluids:9": {
-            "0:10": {
+            },
+            "2:10": {
               "Amount:3": 1000,
               "FluidName:8": "ethylene"
-            }
-          },
-          "taskID:8": "bq_standard:fluid"
-        },
-        "3:10": {
-          "autoConsume:1": 0,
-          "consume:1": 1,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 3,
-          "requiredFluids:9": {
-            "0:10": {
+            },
+            "3:10": {
               "Amount:3": 1000,
               "FluidName:8": "methane"
             }
@@ -31246,46 +31134,16 @@
             "0:10": {
               "Amount:3": 1000,
               "FluidName:8": "oxygen"
-            }
-          },
-          "taskID:8": "bq_standard:fluid"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 1,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "requiredFluids:9": {
-            "0:10": {
+            },
+            "1:10": {
               "Amount:3": 1000,
               "FluidName:8": "nitrogen"
-            }
-          },
-          "taskID:8": "bq_standard:fluid"
-        },
-        "2:10": {
-          "autoConsume:1": 0,
-          "consume:1": 1,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 2,
-          "requiredFluids:9": {
-            "0:10": {
+            },
+            "2:10": {
               "Amount:3": 1000,
               "FluidName:8": "helium"
-            }
-          },
-          "taskID:8": "bq_standard:fluid"
-        },
-        "3:10": {
-          "autoConsume:1": 0,
-          "consume:1": 1,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 3,
-          "requiredFluids:9": {
-            "0:10": {
+            },
+            "3:10": {
               "Amount:3": 1000,
               "FluidName:8": "argon"
             }
@@ -31844,88 +31702,28 @@
             "0:10": {
               "Amount:3": 1000,
               "FluidName:8": "phenol"
-            }
-          },
-          "taskID:8": "bq_standard:fluid"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 1,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "requiredFluids:9": {
-            "0:10": {
+            },
+            "1:10": {
               "Amount:3": 1000,
               "FluidName:8": "benzene"
-            }
-          },
-          "taskID:8": "bq_standard:fluid"
-        },
-        "2:10": {
-          "autoConsume:1": 0,
-          "consume:1": 1,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 2,
-          "requiredFluids:9": {
-            "0:10": {
+            },
+            "2:10": {
               "Amount:3": 1000,
               "FluidName:8": "toluene"
-            }
-          },
-          "taskID:8": "bq_standard:fluid"
-        },
-        "3:10": {
-          "autoConsume:1": 0,
-          "consume:1": 1,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 3,
-          "requiredFluids:9": {
-            "0:10": {
+            },
+            "3:10": {
               "Amount:3": 1000,
               "FluidName:8": "dimethylbenzene"
-            }
-          },
-          "taskID:8": "bq_standard:fluid"
-        },
-        "4:10": {
-          "autoConsume:1": 0,
-          "consume:1": 1,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 4,
-          "requiredFluids:9": {
-            "0:10": {
+            },
+            "4:10": {
               "Amount:3": 1000,
               "FluidName:8": "acetic_acid"
-            }
-          },
-          "taskID:8": "bq_standard:fluid"
-        },
-        "5:10": {
-          "autoConsume:1": 0,
-          "consume:1": 1,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 5,
-          "requiredFluids:9": {
-            "0:10": {
+            },
+            "5:10": {
               "Amount:3": 1000,
               "FluidName:8": "methanol"
-            }
-          },
-          "taskID:8": "bq_standard:fluid"
-        },
-        "6:10": {
-          "autoConsume:1": 0,
-          "consume:1": 1,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 6,
-          "requiredFluids:9": {
-            "0:10": {
+            },
+            "6:10": {
               "Amount:3": 1000,
               "FluidName:8": "acetone"
             }
@@ -32526,7 +32324,7 @@
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Large Extrusion Machine",
-          "questlogic:8": "AND",
+          "questlogic:8": "OR",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
           "simultaneous:1": 0,
@@ -32583,7 +32381,7 @@
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Large Extracting Machine",
-          "questlogic:8": "AND",
+          "questlogic:8": "OR",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
           "simultaneous:1": 0,
@@ -32957,7 +32755,7 @@
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Large Sifting Funnel",
-          "questlogic:8": "AND",
+          "questlogic:8": "OR",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
           "simultaneous:1": 0,
@@ -33014,7 +32812,7 @@
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Large Autoclave Chamber",
-          "questlogic:8": "AND",
+          "questlogic:8": "OR",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
           "simultaneous:1": 0,
@@ -33181,7 +32979,7 @@
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Large Electrolysis Plant",
-          "questlogic:8": "AND",
+          "questlogic:8": "OR",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
           "simultaneous:1": 0,
@@ -33372,7 +33170,7 @@
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Large Engraving Machine",
-          "questlogic:8": "AND",
+          "questlogic:8": "OR",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
           "simultaneous:1": 0,
@@ -33504,7 +33302,7 @@
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Large Electromagnet",
-          "questlogic:8": "AND",
+          "questlogic:8": "OR",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
           "simultaneous:1": 0,
@@ -33633,7 +33431,7 @@
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Large Mixing Vessel",
-          "questlogic:8": "AND",
+          "questlogic:8": "OR",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
           "simultaneous:1": 0,
@@ -33687,7 +33485,7 @@
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "脳みその処理能力が上がります",
-          "questlogic:8": "AND",
+          "questlogic:8": "OR",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
           "simultaneous:1": 0,
@@ -34008,7 +33806,7 @@
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Large Centrifuge Unit",
-          "questlogic:8": "AND",
+          "questlogic:8": "OR",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
           "simultaneous:1": 0,
@@ -34399,7 +34197,7 @@
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Large Wire Factory",
-          "questlogic:8": "AND",
+          "questlogic:8": "OR",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
           "simultaneous:1": 0,
@@ -34456,7 +34254,7 @@
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Large Material Press",
-          "questlogic:8": "AND",
+          "questlogic:8": "OR",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
           "simultaneous:1": 0,
@@ -34683,7 +34481,7 @@
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Large Brewing Vat",
-          "questlogic:8": "AND",
+          "questlogic:8": "OR",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
           "simultaneous:1": 0,
@@ -35140,7 +34938,7 @@
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Large Assembling Factory",
-          "questlogic:8": "AND",
+          "questlogic:8": "OR",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
           "simultaneous:1": 0,
@@ -35251,7 +35049,7 @@
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Large Cutting Machine",
-          "questlogic:8": "AND",
+          "questlogic:8": "OR",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
           "simultaneous:1": 0,
@@ -35362,7 +35160,7 @@
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Electric Implosion Compressor",
-          "questlogic:8": "AND",
+          "questlogic:8": "OR",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
           "simultaneous:1": 0,
@@ -35419,7 +35217,7 @@
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Large Fractionating Distillery",
-          "questlogic:8": "AND",
+          "questlogic:8": "OR",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
           "simultaneous:1": 0,
@@ -35531,7 +35329,7 @@
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Large Solidification Array",
-          "questlogic:8": "AND",
+          "questlogic:8": "OR",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
           "simultaneous:1": 0,
@@ -35585,7 +35383,7 @@
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "コックさんが増えます",
-          "questlogic:8": "AND",
+          "questlogic:8": "OR",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
           "simultaneous:1": 0,
@@ -35714,7 +35512,7 @@
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Large Chemical Bath",
-          "questlogic:8": "AND",
+          "questlogic:8": "OR",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
           "simultaneous:1": 0,
@@ -36132,7 +35930,7 @@
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Large Arc Smelter",
-          "questlogic:8": "AND",
+          "questlogic:8": "OR",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
           "simultaneous:1": 0,
@@ -40086,7 +39884,7 @@
           "simultaneous:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "OR",
+          "tasklogic:8": "AND",
           "visibility:8": "ALWAYS"
         }
       },
@@ -40103,18 +39901,8 @@
             "0:10": {
               "Amount:3": 1000,
               "FluidName:8": "plasma.nitrogen"
-            }
-          },
-          "taskID:8": "bq_standard:fluid"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 1,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "requiredFluids:9": {
-            "0:10": {
+            },
+            "1:10": {
               "Amount:3": 1000,
               "FluidName:8": "plasma.oxygen"
             }
@@ -41007,7 +40795,7 @@
           "simultaneous:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "OR",
+          "tasklogic:8": "AND",
           "visibility:8": "ALWAYS"
         }
       },
@@ -41024,18 +40812,8 @@
             "0:10": {
               "Amount:3": 1000,
               "FluidName:8": "plasma.iron"
-            }
-          },
-          "taskID:8": "bq_standard:fluid"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 1,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "requiredFluids:9": {
-            "0:10": {
+            },
+            "1:10": {
               "Amount:3": 1000,
               "FluidName:8": "plasma.nickel"
             }
@@ -47405,7 +47183,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 192,
-          "y:3": 288
+          "y:3": 240
         },
         "18:10": {
           "id:3": 401,
@@ -47453,7 +47231,7 @@
           "id:3": 407,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 0,
+          "x:3": 48,
           "y:3": 192
         },
         "25:10": {
@@ -47475,13 +47253,13 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 192,
-          "y:3": 240
+          "y:3": 192
         },
         "28:10": {
           "id:3": 411,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 96,
+          "x:3": 144,
           "y:3": 240
         },
         "29:10": {
@@ -47489,7 +47267,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 0,
-          "y:3": 240
+          "y:3": 288
         },
         "30:10": {
           "id:3": 413,
@@ -47572,7 +47350,7 @@
           "id:3": 425,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 144,
+          "x:3": 96,
           "y:3": 240
         },
         "42:10": {
@@ -47790,14 +47568,14 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 192,
-          "y:3": 192
+          "y:3": 240
         },
         "8:10": {
           "id:3": 447,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 384,
-          "y:3": 288
+          "x:3": 240,
+          "y:3": 336
         },
         "9:10": {
           "id:3": 448,
@@ -47825,7 +47603,7 @@
           "sizeX:3": 40,
           "sizeY:3": 40,
           "x:3": 472,
-          "y:3": 232
+          "y:3": 184
         },
         "13:10": {
           "id:3": 452,
@@ -47838,7 +47616,7 @@
           "id:3": 454,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 240,
+          "x:3": 96,
           "y:3": 384
         },
         "15:10": {
@@ -47916,21 +47694,21 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 432,
-          "y:3": 384
+          "y:3": 336
         },
         "26:10": {
           "id:3": 466,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 432,
-          "y:3": 192
+          "x:3": 336,
+          "y:3": 288
         },
         "27:10": {
           "id:3": 467,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 480,
-          "y:3": 288
+          "x:3": 432,
+          "y:3": 240
         },
         "28:10": {
           "id:3": 468,
@@ -47964,14 +47742,14 @@
           "id:3": 472,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 240,
+          "x:3": 192,
           "y:3": 288
         },
         "33:10": {
           "id:3": 473,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 192,
+          "x:3": 48,
           "y:3": 384
         },
         "34:10": {
@@ -47985,14 +47763,14 @@
           "id:3": 475,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 192,
+          "x:3": 96,
           "y:3": 336
         },
         "36:10": {
           "id:3": 476,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 240,
+          "x:3": 144,
           "y:3": 336
         },
         "37:10": {
@@ -48014,14 +47792,14 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 384,
-          "y:3": 384
+          "y:3": 336
         },
         "40:10": {
           "id:3": 480,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 384,
-          "y:3": 336
+          "y:3": 288
         },
         "41:10": {
           "id:3": 481,
@@ -48034,7 +47812,7 @@
           "id:3": 482,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 96,
+          "x:3": 0,
           "y:3": 240
         },
         "43:10": {
@@ -48048,7 +47826,7 @@
           "id:3": 484,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 144,
+          "x:3": 48,
           "y:3": 336
         },
         "45:10": {
@@ -48076,14 +47854,14 @@
           "id:3": 488,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 144,
+          "x:3": 96,
           "y:3": 288
         },
         "49:10": {
           "id:3": 489,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 528,
+          "x:3": 480,
           "y:3": 288
         },
         "50:10": {
@@ -48105,7 +47883,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 192,
-          "y:3": 288
+          "y:3": 336
         },
         "53:10": {
           "id:3": 493,
@@ -48126,28 +47904,28 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 480,
-          "y:3": 192
+          "y:3": 240
         },
         "56:10": {
           "id:3": 496,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 192,
-          "y:3": 240
+          "x:3": 240,
+          "y:3": 192
         },
         "57:10": {
           "id:3": 497,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 432,
-          "y:3": 288
+          "x:3": 384,
+          "y:3": 240
         },
         "58:10": {
           "id:3": 498,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 432,
-          "y:3": 336
+          "y:3": 288
         },
         "59:10": {
           "id:3": 499,
@@ -48175,7 +47953,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 528,
-          "y:3": 384
+          "y:3": 336
         },
         "63:10": {
           "id:3": 503,
@@ -48189,13 +47967,13 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 480,
-          "y:3": 384
+          "y:3": 336
         },
         "65:10": {
           "id:3": 505,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 144,
+          "x:3": 48,
           "y:3": 240
         },
         "66:10": {
@@ -50887,7 +50665,7 @@
   },
   "questSettings:10": {
     "betterquesting:10": {
-      "editmode:1": 1,
+      "editmode:1": 0,
       "hardcore:1": 0,
       "home_anchor_x:5": 0.5,
       "home_anchor_y:5": 0.0,
