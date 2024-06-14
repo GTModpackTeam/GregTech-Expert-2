@@ -15,11 +15,14 @@
 - Red Core (0.5.1)
 
 ## Update mods
+- Advanced Backups (3.5.2 -> 3.5.3)
 - AE2 Fluid Crafting Rework (2.5.13 -> 2.6.1)
 - Controlling (3.0.12.3 -> 3.0.12.4)
+- CraftPresence (2.3.9 -> 2.4.0)
 - GTExpert-Core (2.1.6 -> 2.2.2)
 - Neeve's AE2: Extended Life Additions (0.56.4 -> 0.56.6)
 - PackagedAuto (1.0.13.47 -> 1.0.13.49)
+- RenderLib (1.3.4 -> 1.3.5)
 - VintageFix (0.4.2 -> 0.5.0)
 
 ## Move mods

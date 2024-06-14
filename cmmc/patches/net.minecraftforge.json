@@ -11,7 +11,7 @@
     "formatVersion": 1,
     "libraries": [
         {
-            "name": "com.cleanroommc:cleanroom:0.2.2-alpha+build.2.run.633-universal",
+            "name": "com.cleanroommc:cleanroom:0.2.2-alpha+build.4.run.636-universal",
             "MMC-hint": "local"
         },
         {
@@ -674,5 +674,5 @@
         }
     ],
     "uid": "net.minecraftforge",
-    "version": "0.2.2-alpha+build.2.run.633"
+    "version": "0.2.2-alpha+build.4.run.636"
 }
