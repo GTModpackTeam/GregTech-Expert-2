@@ -3,6 +3,13 @@
 - Update Duct Tape quest.
 - Update Blank Pattern quest.
 - Add Programmed Circuit Card quest.
+- Fix Darmstadtium quest.
+
+## Modpack migration
+- CoreMod fixes issues with DraconicAdditions.
+    1. If there is `Draconic-Additions-1.12.2-1.17.0.45-universal` in the folder `bansoukou`, delete the whole folder.
+    2. Delete `Draconic-Additions-1.12.2-1.17.0.45-universal-patched.jar` in the folder named `mods`.
+    3. Rename `Draconic-Additions-1.12.2-1.17.0.45-universal.disabled` to `Draconic-Additions-1.12.2-1.17.0.45-universal.jar` in the folder named `mods`.
 
 ## New recipes
 ### AE2 Unofficial Extended Life
