@@ -11,7 +11,7 @@
     "formatVersion": 1,
     "libraries": [
         {
-            "name": "com.cleanroommc:cleanroom:0.2.2-alpha+build.4.run.636-universal",
+            "name": "com.cleanroommc:cleanroom:0.2.2-alpha+build.13.run.651-universal",
             "MMC-hint": "local"
         },
         {
@@ -81,13 +81,13 @@
             }
         },
         {
-            "name": "top.outlands:foundation:0.13.7",
+            "name": "top.outlands:foundation:0.13.8",
             "downloads": {
                 "artifact": {
-                    "path": "top/outlands/foundation/0.13.7/foundation-0.13.7.jar",
-                    "url": "https://maven.outlands.top/releases/top/outlands/foundation/0.13.7/foundation-0.13.7.jar",
-                    "sha1": "e74ec6dd9ca6df2bc30f4baf6c3e7551b73d82c9",
-                    "size": 57726
+                    "path": "top/outlands/foundation/0.13.8/foundation-0.13.8.jar",
+                    "url": "https://maven.outlands.top/releases/top/outlands/foundation/0.13.8/foundation-0.13.8.jar",
+                    "sha1": "606a69a67fd682ae8c5b64b0e2916a2a82f38d8a",
+                    "size": 57676
                 }
             }
         },
@@ -674,5 +674,5 @@
         }
     ],
     "uid": "net.minecraftforge",
-    "version": "0.2.2-alpha+build.4.run.636"
+    "version": "0.2.2-alpha+build.13.run.651"
 }
