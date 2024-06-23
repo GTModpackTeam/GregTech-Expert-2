@@ -11,6 +11,10 @@
     2. Delete `Draconic-Additions-1.12.2-1.17.0.45-universal-patched.jar` in the folder named `mods`.
     3. Rename `Draconic-Additions-1.12.2-1.17.0.45-universal.disabled` to `Draconic-Additions-1.12.2-1.17.0.45-universal.jar` in the folder named `mods`.
 
+## Fix config
+### Spice of Life
+- Food history will not get reset after every death.
+
 ## New recipes
 ### AE2 Unofficial Extended Life
 - Blank Pattern
