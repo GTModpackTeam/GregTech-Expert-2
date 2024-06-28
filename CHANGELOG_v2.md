@@ -16,6 +16,9 @@
 ### Spice of Life
 - Food history will not get reset after every death.
 
+### Nutrition
+- Nutrition will not get reset after every death.
+
 ## New recipes
 ### AE2 Unofficial Extended Life
 - Blank Pattern
