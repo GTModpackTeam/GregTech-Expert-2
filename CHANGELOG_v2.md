@@ -4,6 +4,7 @@
 - Update Blank Pattern quest.
 - Add Programmed Circuit Card quest.
 - Fix Darmstadtium quest.
+- Fix Portable Scanner quest.
 
 ## Modpack migration
 - CoreMod fixes issues with DraconicAdditions.
@@ -29,10 +30,11 @@
 - Advanced Backups (3.5.2 -> 3.6)
 - AE2 Fluid Crafting Rework (2.5.13 -> 2.6.2)
 - Controlling (3.0.12.3 -> 3.0.12.4)
-- CraftPresence (2.3.9 -> 2.4.2)
-- EnderStorage continuation (2.5.0 -> 2.6.1)
+- CraftPresence (2.3.9 -> 2.4.3)
+- EnderStorage continuation (2.5.0 -> 2.6.2)
 - GregTech Food Option (1.11.1 -> 1.11.2)
-- GTExpert-Core (2.1.6 -> 2.2.2)
+- GTExpert-Core (2.1.6 -> 2.2.3)
+- Had Enough Items (4.25.4 -> 4.25.5)
 - Neeve's AE2: Extended Life Additions (0.56.4 -> 0.56.6)
 - PackagedAuto (1.0.13.47 -> 1.0.13.49)
 - RenderLib (1.3.4 -> 1.3.5)
