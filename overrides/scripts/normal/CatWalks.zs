@@ -35,7 +35,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .circuit(7)
     .inputs([
-        <metaitem:frameDarkSteel>,
+        <ore:frameGtDarkSteel>,
         <metaitem:screwDarkSteel> * 2,
         <metaitem:stickLongDarkSteel> * 4
     ])
@@ -68,7 +68,7 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .circuit(7)
     .inputs([
-        <metaitem:frameDarkSteel>,
+        <ore:frameGtDarkSteel>,
         <metaitem:plateGlass> * 3,
         <metaitem:stickLongDarkSteel> * 4
     ])
