@@ -48,7 +48,7 @@ jobs:
       - name: Download Resource Packs zip
         run: |
           GITHUB_RELEASE=$(curl -s https://api.github.com/repos/GTModpackTeam/GTE2-Translations/releases)
-          ASSET_URL=$(echo $GITHUB_RELEASE | jq -r '.[]."assets"[]."browser_download_url"' | head -1)
+          ASSET_URL=$(echo $GITHUB_RELEASE | jq -r '.[]."assets"[]."browser_download_url"' | grep "resourcepack" | head -1)
           ASSET_NAME=$(echo $ASSET_URL | awk -F'/' '{print $NF}')
           wget -O ./overrides/resourcepacks/$ASSET_NAME $ASSET_URL
       
