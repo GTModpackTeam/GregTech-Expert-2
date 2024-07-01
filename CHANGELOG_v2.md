@@ -1,4 +1,4 @@
-# Preview
+# v2.7.4
 ## Modpack information
 - Update Duct Tape quest.
 - Update Blank Pattern quest.
