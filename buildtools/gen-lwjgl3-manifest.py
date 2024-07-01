@@ -7,6 +7,7 @@ import json
 
 ## Run main function
 projectIDs = [
+    419286, # MixinBooter
     870276, # ConfigAnytime
     873867, # Red Core
     874067, # Valkyrie
@@ -14,7 +15,6 @@ projectIDs = [
     624967, # RenderLib
     409087, # Entity Culling
     408853, # Particle Culling
-    419286  # MixinBooter
 ]
 
 # Read manifest.json
