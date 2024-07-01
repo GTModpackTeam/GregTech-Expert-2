@@ -100,6 +100,18 @@ recipes.addShaped(<appliedenergistics2:material:52> * 2, [
     [<metaitem:plateGlowstone>, <ore:crystalPureCertusQuartz>, <metaitem:plateGlowstone>],
     [<metaitem:plateAluminium>, <metaitem:plateAluminium>, <metaitem:plateAluminium>]
 ]);
+assembler.recipeBuilder()
+    .circuit(1)
+    .inputs([
+        <appliedenergistics2:quartz_glass>,
+        <metaitem:plateGlowstone> * 2,
+        <metaitem:plateAluminium> * 2,
+        <ore:craftCertusQuartz>
+    ])
+    .outputs([<appliedenergistics2:material:52> * 4])
+    .duration(20)
+    .EUt(1920)
+    .buildAndRegister();
 
 # Creative Storage Cell
 JEI.hide(<appliedenergistics2:creative_storage_cell>);

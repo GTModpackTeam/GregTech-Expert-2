@@ -1,3 +1,58 @@
+# v2.7.4
+## Modpack information
+- Update Duct Tape quest.
+- Update Blank Pattern quest.
+- Add Programmed Circuit Card quest.
+- Fix Darmstadtium quest.
+- Fix Portable Scanner quest.
+
+## Modpack migration
+- CoreMod fixes issues with DraconicAdditions.
+    1. If there is `Draconic-Additions-1.12.2-1.17.0.45-universal` in the folder `bansoukou`, delete the whole folder.
+    2. Delete `Draconic-Additions-1.12.2-1.17.0.45-universal-patched.jar` in the folder named `mods`.
+    3. Rename `Draconic-Additions-1.12.2-1.17.0.45-universal.disabled` to `Draconic-Additions-1.12.2-1.17.0.45-universal.jar` in the folder named `mods`.
+
+## Fix config
+### Spice of Life
+- Food history will not get reset after every death.
+
+### Nutrition
+- Nutrition will not get reset after every death.
+
+## New recipes
+### AE2 Unofficial Extended Life
+- Blank Pattern
+
+### Neeve's AE2: Extended Life Additions
+- Programmed Circuit Card
+
+## New mods
+- Red Core (0.5.1)
+
+## Update mods
+- Advanced Backups (3.5.2 -> 3.6)
+- AE2 Fluid Crafting Rework (2.5.13 -> 2.6.2)
+- Better Questing Unofficial (4.2.2 -> 4.2.3)
+- Controlling (3.0.12.3 -> 3.0.12.4)
+- CraftPresence (2.3.9 -> 2.4.3)
+- EnderStorage continuation (2.5.0 -> 2.6.2)
+- GregTech Food Option (1.11.1 -> 1.11.2.1)
+- GTExpert-Core (2.1.6 -> 2.2.4)
+- Had Enough Items (4.25.4 -> 4.25.5)
+- Neeve's AE2: Extended Life Additions (0.56.4 -> 0.56.6)
+- PackagedAuto (1.0.13.47 -> 1.0.13.49)
+- RenderLib (1.3.4 -> 1.3.5)
+- VintageFix (0.4.2 -> 0.5.0)
+
+## Move mods
+- 燐/Hesperus (0.2.9.3) -> Alfheim Lighting Engine (1.3)
+- It's the little things (1.0.4) -> Valkyrie (0.2)
+
+## Del mods
+- Nothirium (0.3.4)
+
+* * *
+
 # v2.7.3
 ## Modpack information
 - Update to CEu 2.8.8 and add new quests.
@@ -7,14 +62,14 @@
 - Fix quest issues.
 
 ## Update mods
-- Advanced Backups
-- AE2 Fluid Crafting Rework
-- GregTech CE Unofficial
-- GTExpert-Core
-- Neeve's AE2: Extended Life Additions
-- PackagedAuto
-- Particle Culling
-- Universal Tweaks
+- Advanced Backups (3.5.1 -> 3.5.2)
+- AE2 Fluid Crafting Rework (2.5.12 -> 2.5.13)
+- GregTech CE Unofficial (2.8.7 -> 2.8.8)
+- GTExpert-Core (2.1.4 -> 2.1.6)
+- Neeve's AE2: Extended Life Additions (1.6.1 -> 1.6.2)
+- PackagedAuto (1.0.12.46 -> 1.0.12.47)
+- Particle Culling (1.4.2 -> 1.4.3)
+- Universal Tweaks (1.10.0 -> 1.11.0)
 
 * * *
 
@@ -25,23 +80,12 @@
 - Add HV Chainsaw quest.
 
 ## New mods
-- Particle Culling
+- Particle Culling (1.4.2)
 
 ## Update mods
-- Advanced Backups
-- AE2 Fluid Crafting Rework
-- Aqua Acrobatics
-- Better Questing Unofficial
-- CensoredASM
-- ConfigAnytime
-- CraftPresence
-- GTExpert-Core
-- Had Enough Items
-- Modern Splash
-- OpenComputers
-- PackagedAuto
-- RoughlyEnoughIDs
-- VintageFix
+- AE2 Fluid Crafting Rework (2.5.8 -> 2.5.12)
+- Better Questing Unofficial (4.2.1 -> 4.2.2)
+- PackagedAuto (1.0.12.43 -> 1.0.12.46)
 
 * * *
 
@@ -49,17 +93,10 @@
 ## Modpack information
 - Fix quests issues.
 
-## Downgrade mods
-- RoughlyEnoughIDs
-
 ## Update mods
-- AE2 Fluid Crafting Rework
-- Better Questing Unofficial
-- ConfigAnytime
-- GTExpert-Core
-- JourneyMap
-- PackagedAuto
-- VintageFix
+- AE2 Fluid Crafting Rework (2.5.7 -> 2.5.8)
+- Better Questing Unofficial (4.2.0 -> 4.2.1)
+- PackagedAuto (0.11.40 -> 0.11.43)
 
 * * *
 
@@ -68,27 +105,29 @@
 - A major adjustment has been made in food related matter.
     - Thanks to @KatatsumuriPan, @MaimoCh, @hag-hag for his support!!
 
+## New mods
+- Better Questing Unofficial (4.2.0)
+- Nutrition Unofficial Extended Life (4.13.0)
+- Nutrition: GTCEu (1.0.0)
+- ParticleCulling (1.4.2)
+
 ## Remove mods
-- FTB Quests (Forge)
-- Item Filters
+- FTB Quests (1220.9.0.15)
+- Item Filters (1.0.4.2)
 
 ## Move mods
-- FTB Backups (Forge) -> Advanced Backups
+- FTB Backups (1220.9.0.15) -> Advanced Backups (3.5.1)
 
 ## Update mods
-- AE2 Unofficial Extended Life
-- GTExpert-Core
-- PackagedAuto
-- Roughly Enough IDs
-- Universal Tweaks
-
-## New mods
-- Nutrition Unofficial Extended Life
-- Nutrition: GTCEu
-- Better Questing Unofficial
+- Inventory Bogo Sorter (1.4.7 -> 1.4.8)
+- GregTech Food Option (1.11.0.1 -> 1.11.1)
+- JourneyMap (5.7.1 -> 5.7.1p3)
+- Modern Splash (1.3 -> 1.3.1)
+- OpenComputers (1.8.3 -> 1.8.5)
+- RoughlyEnoughIDs (2.0.7 -> 2.1.1)
 
 ## Formally introduced from compatibility mods
-- The Spice of Life
+- The Spice of Life (1.3.12)
 
 * * *
 
@@ -98,26 +137,19 @@
 - Includes multiplayer issues, performance tweaks and mod updates.
 - **ALSO, FUTURE UPDATES WILL BE 2.7.X, AND THE BACKPORTS OF 2.6.X VERSIONS WILL BE DEPRECATED!!**
 
-## New mods
-- Nutrition Unofficial Extended Life
-- Nutrition: GTCEu
-- Particle Culling
-
 ## Update mods
-- Advanced Backups
-- AE2 Fluid Crafting Rework
-- Aqua Acrobatics
-- Better Questing Unofficial
-- CensoredASM
-- ConfigAnytime
-- CraftPresence
-- GTExpert-Core
-- Had Enough Items
-- Modern Splash
-- OpenComputers
-- PackagedAuto
-- RoughlyEnoughIDs
-- VintageFix
+- Advanced Backups (3.4 -> 3.5.1)
+- AE2 Fluid Crafting Rework (2.5.8 -> 2.5.12)
+- Aqua Acrobatics (1.15.3 -> 1.15.4)
+- CensoredASM (5.19 -> 5.20)
+- ConfigAnytime (2.0 -> 3.0)
+- CraftPresence (2.3.5 -> 2.3.9)
+- GTExpert-Core (2.1.1 -> 2.1.4)
+- Had Enough Items (4.25.2 -> 4.25.4)
+- Modern Splash (1.3 -> 1.3.1)
+- OpenComputers (1.8.3 -> 1.8.5)
+- RoughlyEnoughIDs (2.0.7 -> 2.1.1)
+- VintageFix (0.4.1 -> 0.4.2)
 
 * * *
 

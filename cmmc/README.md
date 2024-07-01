@@ -19,9 +19,8 @@
 
 
 ## Self download mods
-- [Fugue](https://github.com/CleanroomMC/Fugue/releases) by CleanroomMC
-- [Scalar](https://github.com/CleanroomMC/Scalar/releases/tag/2.11.1) by CleanroomMC
-
+- [Fugue](https://www.curseforge.com/minecraft/mc-mods/fugue) by CleanroomMC
+- [Scalar](https://www.curseforge.com/minecraft/mc-mods/scalar/files/5309537) by CleanroomMC
 
 ## Optional mods
 - [Vintagium](https://github.com/Asek3/sodium-1.12/actions) by Asek3
