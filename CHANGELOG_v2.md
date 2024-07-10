@@ -1,3 +1,19 @@
+# v2.7.5
+## Modpack information
+- No revisions to the Quest Book at this time.
+
+## Update mods
+- AE2 Fluid Crafting Rework (2.6.2 -> 2.6.3)
+- CraftTweaker (4.1.20.698 -> 4.1.20.700)
+- GregTech CE Unofficial (2.8.8 -> 2.8.10)
+- Gregicality Multiblocks (1.2.8 -> 1.2.10)
+- GregTech Food Option (1.11.2.1 -> 1.11.3)
+- GTExpert-Core (2.2.4 -> 2.2.6)
+- PackagedAuto (1.0.13.49 -> 1.0.13.50)
+- RoughlyEnoughIDs (2.1.1 -> 2.2.1)
+
+* * *
+
 # v2.7.4
 ## Modpack information
 - Update Duct Tape quest.
