@@ -16964,25 +16964,25 @@
           "consume:1": 0,
           "entryLogic:8": "OR",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 2,
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 735,
+              "Damage:2": 732,
               "OreDict:8": "",
               "id:8": "gregtech:meta_item_1"
             },
             "1:10": {
               "Count:3": 1,
-              "Damage:2": 732,
+              "Damage:2": 738,
               "OreDict:8": "",
               "id:8": "gregtech:meta_item_1"
             },
             "2:10": {
               "Count:3": 1,
-              "Damage:2": 738,
+              "Damage:2": 735,
               "OreDict:8": "",
               "id:8": "gregtech:meta_item_1"
             }
@@ -17124,9 +17124,9 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
-          "entryLogic:8": "AND",
+          "entryLogic:8": "OR",
           "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -17134,7 +17134,28 @@
               "Count:3": 1,
               "Damage:2": 471,
               "OreDict:8": "",
-              "id:8": "gregtech:meta_item_1"
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "MaxCharge:4": 80000
+              }
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 471,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "MaxCharge:4": 100000
+              }
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 471,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "MaxCharge:4": 120000
+              }
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -23439,7 +23460,7 @@
         "0:10": {
           "autoConsume:1": 0,
           "consume:1": 0,
-          "entryLogic:8": "AND",
+          "entryLogic:8": "OR",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
@@ -23449,7 +23470,37 @@
               "Count:3": 1,
               "Damage:2": 467,
               "OreDict:8": "",
-              "id:8": "gregtech:meta_item_1"
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "MaxCharge:4": 1200000
+              }
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 467,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "MaxCharge:4": 1600000
+              }
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 467,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "MaxCharge:4": 1800000
+              }
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 467,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "MaxCharge:4": 6400000
+              }
             }
           },
           "taskID:8": "bq_standard:retrieval"
