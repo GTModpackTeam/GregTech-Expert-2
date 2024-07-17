@@ -1,7 +1,7 @@
 # v2.7.5
 ## Modpack information
-- Fix HV Prospector's quest.
-- Fix Item magnet quest.
+- Fix HV/LuV Prospector's quest.
+- Fix LV/HV Item magnet quest.
 
 ## Update resourcepack
 - GhaTech
@@ -16,6 +16,7 @@
 - PackagedAuto (1.0.13.49 -> 1.0.13.50)
 - RoughlyEnoughIDs (2.1.1 -> 2.2.1)
 - Universal Tweaks (1.11.0 -> 1.12.0)
+- VintageFix (0.5.0 -> 0.5.1)
 
 * * *
 
