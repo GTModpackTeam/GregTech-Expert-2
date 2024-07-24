@@ -27,3 +27,16 @@ assembler.recipeBuilder()
     .duration(20)
     .EUt(30720)
     .buildAndRegister();
+
+
+
+########################################
+# Items
+########################################
+# Network Visualisation Tool
+recipes.remove(<ae2stuff:visualiser>);
+recipes.addShaped(<ae2stuff:visualiser>, [
+    [<metaitem:plateAluminium>, <appliedenergistics2:material:43>, <metaitem:plateAluminium>],
+    [<appliedenergistics2:network_tool>, <metaitem:wireless>, <appliedenergistics2:entropy_manipulator>],
+    [<metaitem:plateAluminium>, <appliedenergistics2:material:44>, <metaitem:plateAluminium>]
+]);

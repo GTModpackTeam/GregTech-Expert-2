@@ -2,9 +2,19 @@
 ## Modpack information
 - Fix HV/LuV Prospector's quest.
 - Fix LV/HV Item magnet quest.
+- Temporarily revert the version of the EnderStorage continuation server crash issue, as the author left it unresolved.
+- ExtraCPUs has decided to fully migrate to NAE2. Please search the factory and make the transition.
+    - Also, Network Visualiser should be changed to one made by AE2 Stuff.
 
 ## Update resourcepack
 - GhaTech
+
+## Downgrade mods
+- EnderStorage continuation (2.6.2 -> 2.5.0)
+
+## Move mods
+- Extra CPUs (1.2.1) -> Neeve's AE2: Extended Life Additions (1.6.4)
+- AE2 Network Visualiser (1.0.3.0) -> AE2 Stuff Unofficial (0.9)
 
 ## Update mods
 - AE2 Fluid Crafting Rework (2.6.2 -> 2.6.4)
@@ -61,7 +71,7 @@
 - GregTech Food Option (1.11.1 -> 1.11.2.1)
 - GTExpert-Core (2.1.6 -> 2.2.4)
 - Had Enough Items (4.25.4 -> 4.25.5)
-- Neeve's AE2: Extended Life Additions (0.56.4 -> 0.56.6)
+- Neeve's AE2: Extended Life Additions (1.6.2 -> 1.6.4)
 - PackagedAuto (1.0.13.47 -> 1.0.13.49)
 - RenderLib (1.3.4 -> 1.3.5)
 - VintageFix (0.4.2 -> 0.5.0)

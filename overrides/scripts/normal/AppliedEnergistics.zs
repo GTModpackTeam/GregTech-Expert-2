@@ -72,14 +72,6 @@ recipes.addShapeless(<appliedenergistics2:network_tool>, [
     <minecraft:chest>, <ore:itemIlluminatedPanel>
 ]);
 
-# Network Visualization Tool
-recipes.remove(<aenetvistool:net_visualizer>);
-recipes.addShaped(<aenetvistool:net_visualizer>, [
-    [<metaitem:plateAluminium>, <appliedenergistics2:material:43>, <metaitem:plateAluminium>],
-    [<appliedenergistics2:network_tool>, <metaitem:wireless>, <appliedenergistics2:entropy_manipulator>],
-    [<metaitem:plateAluminium>, <appliedenergistics2:material:44>, <metaitem:plateAluminium>]
-]);
-
 # View Cell
 recipes.remove(<appliedenergistics2:view_cell>);
 recipes.addShaped(<appliedenergistics2:view_cell>, [
