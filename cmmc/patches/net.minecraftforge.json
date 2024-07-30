@@ -11,7 +11,7 @@
     "formatVersion": 1,
     "libraries": [
         {
-            "name": "com.cleanroommc:cleanroom:0.2.2-alpha+build.22.run.662-universal",
+            "name": "com.cleanroommc:cleanroom:0.2.2-alpha+build.25.run.667-universal",
             "MMC-hint": "local"
         },
         {
@@ -642,13 +642,13 @@
             }
         },
         {
-            "name": "com.cleanroommc:sponge-mixin:0.20.5+mixin.0.8.7",
+            "name": "com.cleanroommc:sponge-mixin:0.20.6+mixin.0.8.7",
             "downloads": {
                 "artifact": {
-                    "path": "com/cleanroommc/sponge-mixin/0.20.5+mixin.0.8.7/sponge-mixin-0.20.5+mixin.0.8.7.jar",
-                    "url": "https://maven.outlands.top/releases/com/cleanroommc/sponge-mixin/0.20.5+mixin.0.8.7/sponge-mixin-0.20.5+mixin.0.8.7.jar",
-                    "sha1": "657e9f8115e3486891de470f2a2cfd032f1eb96f",
-                    "size": 1454150
+                    "path": "com/cleanroommc/sponge-mixin/0.20.6+mixin.0.8.7/sponge-mixin-0.20.6+mixin.0.8.7.jar",
+                    "url": "https://maven.outlands.top/releases/com/cleanroommc/sponge-mixin/0.20.6+mixin.0.8.7/sponge-mixin-0.20.6+mixin.0.8.7.jar",
+                    "sha1": "6534e6db39cceb91ee731f62062b971dd74cc758",
+                    "size": 1454140
                 }
             }
         },
@@ -674,5 +674,5 @@
         }
     ],
     "uid": "net.minecraftforge",
-    "version": "0.2.2-alpha+build.22.run.662"
+    "version": "0.2.2-alpha+build.25.run.667"
 }
