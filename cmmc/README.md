@@ -23,6 +23,6 @@
 - [Scalar](https://www.curseforge.com/minecraft/mc-mods/scalar/files/5309537) by CleanroomMC
 
 ## Optional mods
-- [Vintagium](https://github.com/Asek3/sodium-1.12/actions) by Asek3
+- [Vintagium](https://github.com/Asek3/sodium-1.12) by Asek3
     - Please re-configure the graphics settings.
-    - Also, the FPS improves considerably in the GTCEu when `Always Defer Chunk Updates` is enabled in the settings.
+    - Also, since the build has been over 90 days, it is now available on [CleanroomMC](https://discord.gg/f2K4aSpG4F) Discord.

@@ -1,3 +1,32 @@
+# v2.7.5
+## Modpack information
+- Fix HV/LuV Prospector's quest.
+- Fix LV/HV Item magnet quest.
+- ExtraCPUs has decided to fully migrate to NAE2. Please search the factory and make the transition.
+    - Also, Network Visualiser should be changed to one made by AE2 Stuff.
+
+## Update resourcepack
+- GhaTech
+
+## Move mods
+- Extra CPUs (1.2.1) -> Neeve's AE2: Extended Life Additions (1.6.4)
+- AE2 Network Visualiser (1.0.3.0) -> AE2 Stuff Unofficial (0.9)
+
+## Update mods
+- AE2 Fluid Crafting Rework (2.6.2 -> 2.6.4)
+- CraftTweaker (4.1.20.698 -> 4.1.20.700)
+- EnderStorage continuation (2.6.2 -> 2.6.3)
+- GregTech CE Unofficial (2.8.8 -> 2.8.10)
+- Gregicality Multiblocks (1.2.8 -> 1.2.10)
+- GregTech Food Option (1.11.2.1 -> 1.12.0)
+- GTExpert-Core (2.2.4 -> 2.2.9)
+- PackagedAuto (1.0.13.49 -> 1.0.13.53)
+- RoughlyEnoughIDs (2.1.1 -> 2.2.1)
+- Universal Tweaks (1.11.0 -> 1.12.0)
+- VintageFix (0.5.0 -> 0.5.1)
+
+* * *
+
 # v2.7.4
 ## Modpack information
 - Update Duct Tape quest.
@@ -39,7 +68,7 @@
 - GregTech Food Option (1.11.1 -> 1.11.2.1)
 - GTExpert-Core (2.1.6 -> 2.2.4)
 - Had Enough Items (4.25.4 -> 4.25.5)
-- Neeve's AE2: Extended Life Additions (0.56.4 -> 0.56.6)
+- Neeve's AE2: Extended Life Additions (1.6.2 -> 1.6.4)
 - PackagedAuto (1.0.13.47 -> 1.0.13.49)
 - RenderLib (1.3.4 -> 1.3.5)
 - VintageFix (0.4.2 -> 0.5.0)
