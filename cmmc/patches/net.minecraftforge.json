@@ -11,7 +11,7 @@
     "formatVersion": 1,
     "libraries": [
         {
-            "name": "com.cleanroommc:cleanroom:0.2.2-alpha+build.25.run.667-universal",
+            "name": "com.cleanroommc:cleanroom:0.2.2-alpha+build.26.run.669-universal",
             "MMC-hint": "local"
         },
         {
@@ -85,7 +85,7 @@
             "downloads": {
                 "artifact": {
                     "path": "top/outlands/foundation/0.13.8/foundation-0.13.8.jar",
-                    "url": "https://maven.outlands.top/releases/top/outlands/foundation/0.13.8/foundation-0.13.8.jar",
+                    "url": "https://maven.arcseekers.com/releases/top/outlands/foundation/0.13.8/foundation-0.13.8.jar",
                     "sha1": "606a69a67fd682ae8c5b64b0e2916a2a82f38d8a",
                     "size": 57676
                 }
@@ -646,7 +646,7 @@
             "downloads": {
                 "artifact": {
                     "path": "com/cleanroommc/sponge-mixin/0.20.6+mixin.0.8.7/sponge-mixin-0.20.6+mixin.0.8.7.jar",
-                    "url": "https://maven.outlands.top/releases/com/cleanroommc/sponge-mixin/0.20.6+mixin.0.8.7/sponge-mixin-0.20.6+mixin.0.8.7.jar",
+                    "url": "https://maven.arcseekers.com/releases/com/cleanroommc/sponge-mixin/0.20.6+mixin.0.8.7/sponge-mixin-0.20.6+mixin.0.8.7.jar",
                     "sha1": "6534e6db39cceb91ee731f62062b971dd74cc758",
                     "size": 1454140
                 }
@@ -674,5 +674,5 @@
         }
     ],
     "uid": "net.minecraftforge",
-    "version": "0.2.2-alpha+build.25.run.667"
+    "version": "0.2.2-alpha+build.26.run.669"
 }
