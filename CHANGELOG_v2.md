@@ -15,6 +15,7 @@
 ## Update mods
 - AE2 Fluid Crafting Rework (2.6.2 -> 2.6.4)
 - CraftTweaker (4.1.20.698 -> 4.1.20.700)
+- EnderStorage continuation (2.6.2 -> 2.6.3)
 - GregTech CE Unofficial (2.8.8 -> 2.8.10)
 - Gregicality Multiblocks (1.2.8 -> 1.2.10)
 - GregTech Food Option (1.11.2.1 -> 1.12.0)
