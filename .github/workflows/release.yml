@@ -130,6 +130,10 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ env.VERSION_LWJGL3 }}
+          body: |
+            Note - This is LWJGL3 build and only available for MMC / PrismLauncher.
+            FOLLOW THE INSTALLATION GUIDE [HERE](https://github.com/GTModpackTeam/GregTech-Expert-2/blob/main/cmmc/README.md).
+            ---
           generate_release_notes: true
           files: |
             ./${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}-cmmc.zip
