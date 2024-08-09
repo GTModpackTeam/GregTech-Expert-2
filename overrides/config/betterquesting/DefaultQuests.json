@@ -8540,7 +8540,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "GTE2には日本語でプレイしている人向けに、翻訳されていないModを日本語化するリソースパックが自動でダウンロードされています。\nまたこの環境にはUntranslatedItemsが導入されている他、JEIは日本語でも英語でも検索することが可能となっていて、日本語でプレイ時に問題となる文字の潰れなどもSmooth Fontが導入され改善されている。\n\nちなみに下記のModは取り込みが間に合わなかった場合にリソースパックで翻訳が取り込まれます。\n※Greg系統はMrKono氏に手伝って頂いてます。この場を借りて感謝します。\n- GregTech CE Unofficial\n- Gregicality Multiblocks\n- GregTech Food Optio\n- AE2 Unofficial Extended Life\n- AE2 Fluid Crafting Rework\n- AE Additions\n- AE2 Stuff Unofficial\n- Neeve\u0027s AE2: Extended Life Additions\n\n\n余談その1\nUntranslatedItemsは液体の名前が日本語にならないという仕様があったがUntranslatedItems: AlsoFluidsというModをkatatsumuri_pan氏が作成して頂いて可能となった。この場を借りて感謝します。",
+          "desc:8": "GTE2には日本語でプレイしている人向けに、翻訳されていないModを日本語化するリソースパックが自動でダウンロードされています。\nまたこの環境にはUntranslatedItemsが導入されている他、JEIは日本語でも英語でも検索することが可能となっていて、日本語でプレイ時に問題となる文字の潰れなどもSmooth Fontが導入され改善されている。\n\nちなみに下記のModは取り込みが間に合わなかった場合にリソースパックで翻訳が取り込まれます。\n※Greg系統はMrKono氏に手伝って頂いてます。この場を借りて感謝します。\n- GregTech CE Unofficial\n- Gregicality Multiblocks\n- GregTech Food Option\n- AE2 Unofficial Extended Life\n- AE2 Fluid Crafting Rework\n- AE Additions\n- AE2 Stuff Unofficial\n- Neeve\u0027s AE2: Extended Life Additions\n\n\n余談その1\nUntranslatedItemsは液体の名前が日本語にならないという仕様があったがUntranslatedItems: AlsoFluidsというModをkatatsumuri_pan氏が作成して頂いて可能となった。この場を借りて感謝します。",
           "frame:8": "ROUNDED_SQUARE",
           "globalshare:1": 0,
           "icon:10": {
