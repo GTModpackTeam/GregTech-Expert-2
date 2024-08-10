@@ -4,6 +4,10 @@
 - Fix cleanroom quest and questline.
 - Fix typo in the quest.
 
+## Modpack migration
+- For those who do not use the method of creating and migrating new instances.
+    - Delete the `nutrients` folder in the `config/nutrition` folder.
+
 ## Downgrade mods
 - AE2 Unofficial Extended Life (0.56.6 -> 0.56.5)
 
