@@ -1,3 +1,20 @@
+# v2.7.6
+## Modpack information
+- Fix etching quest.
+- Fix cleanroom quest and questline.
+- Fix typo in the quest.
+
+## Downgrade mods
+- AE2 Unofficial Extended Life (0.56.6 -> 0.56.5)
+
+## Update mods
+- CraftPresence (2.4.3 -> 2.5.0)
+- GTExpert-Core (2.2.9 -> 2.2.10)
+- PackagedAuto (1.0.13.53 -> 1.0.13.54)
+- Storage Drawers (5.5.0 -> 5.5.1)
+
+* * *
+
 # v2.7.5
 ## Modpack information
 - Fix HV/LuV Prospector's quest.
