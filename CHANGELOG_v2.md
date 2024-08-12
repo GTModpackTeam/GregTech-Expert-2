@@ -1,3 +1,10 @@
+# v2.7.7
+## Update mods
+- Gregicality Multiblocks (1.2.10 -> 1.2.11)
+- GTExpert-Core (2.2.10 -> 2.2.11)
+
+* * *
+
 # v2.7.6
 ## Modpack information
 - Fix etching quest.
