@@ -9,6 +9,7 @@ import json
 projectIDs = [
     419286, # MixinBooter
     870276, # ConfigAnytime
+    460609, # CensoredASM
     873867, # Red Core
     874067, # Valkyrie
     910715, # Alfheim Lighting Engine
