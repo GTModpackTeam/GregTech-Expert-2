@@ -1,7 +1,8 @@
 # v2.7.7
 ## Update mods
+- Advanced Backups (3.6 -> 3.6.3)
 - Gregicality Multiblocks (1.2.10 -> 1.2.11)
-- GTExpert-Core (2.2.10 -> 2.2.11)
+- GTExpert-Core (2.2.10 -> 2.2.12)
 
 * * *
 
