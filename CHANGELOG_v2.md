@@ -1,4 +1,12 @@
 # v2.7.7
+## Modpack information
+- Slot-related changes have been made to equipment.
+　- Dedicated slots for Toolbelt have been removed.
+　- If you have placed it in a dedicated slot, please move it before updating.
+
+## Add mods
+- Bring Me The Rings! (0.4)
+
 ## Update mods
 - Advanced Backups (3.6 -> 3.6.3)
 - Gregicality Multiblocks (1.2.10 -> 1.2.11)
