@@ -9,8 +9,11 @@
 
 ## Update mods
 - Advanced Backups (3.6 -> 3.6.3)
+- Alfheim Lighting Engine (1.3 -> 1.4)
+- Fixeroo (2.0 -> 2.1)
 - Gregicality Multiblocks (1.2.10 -> 1.2.11)
 - GTExpert-Core (2.2.10 -> 2.2.12)
+- UniLib (1.0.0 -> 1.0.2)
 
 * * *
 
