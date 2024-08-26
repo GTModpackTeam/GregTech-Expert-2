@@ -1,5 +1,6 @@
 # v2.7.7
 ## Modpack information
+- Add alarm quest.
 - Slot-related changes have been made to equipment.
 　- Dedicated slots for Toolbelt have been removed.
 　- If you have placed it in a dedicated slot, please move it before updating.
