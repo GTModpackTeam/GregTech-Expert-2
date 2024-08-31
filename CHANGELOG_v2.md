@@ -5,15 +5,19 @@
 　- Dedicated slots for Toolbelt have been removed.
 　- If you have placed it in a dedicated slot, please move it before updating.
 
+## Move mods
+- EnhancedP2P (1.2.3) -> Betterer P2P (1.3.2)
+
 ## Add mods
 - Bring Me The Rings! (0.4)
 
 ## Update mods
 - Advanced Backups (3.6 -> 3.6.3)
 - Alfheim Lighting Engine (1.3 -> 1.4)
-- Fixeroo (2.0 -> 2.1)
+- Fixeroo (2.0 -> 2.2)
 - Gregicality Multiblocks (1.2.10 -> 1.2.11)
-- GTExpert-Core (2.2.10 -> 2.2.12)
+- GTExpert-Core (2.2.10 -> 2.2.13)
+- MixinBooter (9.1 -> 9.3)
 - UniLib (1.0.0 -> 1.0.2)
 
 * * *
