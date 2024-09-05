@@ -14,7 +14,7 @@
 ## Update mods
 - Advanced Backups (3.6 -> 3.6.3)
 - Alfheim Lighting Engine (1.3 -> 1.4)
-- Fixeroo (2.0 -> 2.2)
+- Fixeroo (2.0 -> 2.2.1)
 - Gregicality Multiblocks (1.2.10 -> 1.2.11)
 - GTExpert-Core (2.2.10 -> 2.2.13)
 - MixinBooter (9.1 -> 9.3)
