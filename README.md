@@ -36,6 +36,8 @@
         - You want to make RF wireless?
     - (**WIP**) [Forestry](https://www.curseforge.com/minecraft/mc-mods/forestry)
         - You want to bee breeding?
+    - (**WIP**) [Ender IO Forestry](https://www.curseforge.com/minecraft/mc-mods/ender-io-forestry)
+        - You want to filter out bees?
     - (**WIP**) [Gendustry](https://www.curseforge.com/minecraft/mc-mods/gendustry)
         - You want to automate bee breeding?
     - (**WIP**) [Thaumcraft](https://www.curseforge.com/minecraft/mc-mods/thaumcraft)
