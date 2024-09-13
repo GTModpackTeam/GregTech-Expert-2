@@ -4,8 +4,3 @@
 3. Start Install.bat or Install.sh
 4. ServerStart.bat or ServerStart.sh push
 5. Enjoy
-
-## Start plugin server?
-1. Download [CatServer](https://catmc.org/)
-2. Open ftbutilities.cfg and change `B:override_commands=true` to `B:coverride_commands=false`
-3. Start server
