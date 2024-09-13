@@ -1,9 +1,9 @@
 # v2.7.7
 ## Modpack information
 - Add alarm quest.
-- Slot-related changes have been made to equipment.
-　- Dedicated slots for Toolbelt have been removed.
-　- If you have placed it in a dedicated slot, please move it before updating.
+- **SLOT-RELATED CHANGES HAVE BEEN MADE TO EQUIPMENT BY TOOLBELT MOD!!**
+    - Dedicated slots for Toolbelt have been removed.
+    - If you have placed it in a dedicated slot, please move it before updating.
 
 ## Move mods
 - EnhancedP2P (1.2.3) -> Betterer P2P (1.3.2)
