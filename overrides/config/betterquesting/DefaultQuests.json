@@ -10553,12 +10553,6 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 198,
-              "Damage:2": 2525,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_dust"
-            },
-            "1:10": {
               "Count:3": 33,
               "Damage:2": 1,
               "OreDict:8": "",

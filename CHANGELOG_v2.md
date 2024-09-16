@@ -1,6 +1,7 @@
 # v2.7.7
 ## Modpack information
 - Add alarm quest.
+- Fix PBF quest.
 - **SLOT-RELATED CHANGES HAVE BEEN MADE TO EQUIPMENT BY TOOLBELT MOD!!**
     - Dedicated slots for Toolbelt have been removed.
     - If you have placed it in a dedicated slot, please move it before updating.
