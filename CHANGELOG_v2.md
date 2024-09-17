@@ -18,7 +18,7 @@
 - Alfheim Lighting Engine (1.3 -> 1.4)
 - Fixeroo (2.0 -> 2.3.1)
 - Gregicality Multiblocks (1.2.10 -> 1.2.11)
-- GTExpert-Core (2.2.10 -> 2.3.0)
+- GTExpert-Core (2.2.10 -> 2.3.1)
 - Had Enough Items (4.25.4 -> 4.26.0)
 - MixinBooter (9.1 -> 9.3)
 - UniLib (1.0.0 -> 1.0.2)
