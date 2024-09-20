@@ -12,6 +12,10 @@
 ## Add mods
 - Bring Me The Rings! (0.4)
 - ImplosionNoBomb (1.1.0)
+- StellarCore (1.3.4)
+
+## Remove mods
+- Server Tab Info
 
 ## Update mods
 - Advanced Backups (3.6 -> 3.6.3)
