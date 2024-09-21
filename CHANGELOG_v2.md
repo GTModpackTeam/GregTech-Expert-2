@@ -6,6 +6,9 @@
     - Dedicated slots for Toolbelt have been removed.
     - If you have placed it in a dedicated slot, please move it before updating.
 
+## Add resourcepack
+- Latest Textures (v1)
+
 ## Update resourcepack
 - GhaTech (1.5 -> 1.6)
 
