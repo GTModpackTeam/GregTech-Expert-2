@@ -6,6 +6,9 @@
     - Dedicated slots for Toolbelt have been removed.
     - If you have placed it in a dedicated slot, please move it before updating.
 
+## Update resourcepack
+- GhaTech (1.5 -> 1.6)
+
 ## Move mods
 - EnhancedP2P (1.2.3) -> Betterer P2P (1.3.2)
 
