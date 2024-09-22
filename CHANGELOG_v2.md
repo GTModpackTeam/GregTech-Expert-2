@@ -25,12 +25,13 @@
 
 ## Update mods
 - Advanced Backups (3.6 -> 3.6.3)
+- AE2 Fluid Crafting Rework (2.6.4 -> 2.6.5)
 - Alfheim Lighting Engine (1.3 -> 1.4)
 - Fixeroo (2.0 -> 2.3.1)
 - Gregicality Multiblocks (1.2.10 -> 1.2.11)
 - GTExpert-Core (2.2.10 -> 2.3.2)
 - Had Enough Items (4.25.4 -> 4.26.0)
-- MixinBooter (9.1 -> 9.3)
+- MixinBooter (9.1 -> 9.4)
 - UniLib (1.0.0 -> 1.0.2)
 - UntranslatedItems: AlsoFluids (1.7.0 -> 1.8.0)
 
