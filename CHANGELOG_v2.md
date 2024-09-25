@@ -1,7 +1,40 @@
 # v2.7.7
+## Modpack information
+- Add alarm quest.
+- Fix PBF quest.
+- **SLOT-RELATED CHANGES HAVE BEEN MADE TO EQUIPMENT BY TOOLBELT MOD!!**
+    - Dedicated slots for Toolbelt have been removed.
+    - If you have placed it in a dedicated slot, please move it before updating.
+
+## Add resourcepack
+- Latest Textures (v1)
+
+## Update resourcepack
+- GhaTech (1.5 -> 1.6)
+
+## Move mods
+- EnhancedP2P (1.2.3) -> Betterer P2P (1.3.2)
+
+## Add mods
+- Bring Me The Rings! (0.4)
+- ImplosionNoBomb (1.1.0)
+- StellarCore (1.3.4)
+
+## Remove mods
+- Server Tab Info
+
 ## Update mods
+- Advanced Backups (3.6 -> 3.6.3)
+- AE2 Fluid Crafting Rework (2.6.4 -> 2.6.6)
+- Alfheim Lighting Engine (1.3 -> 1.4)
+- Fixeroo (2.0 -> 2.3.2)
 - Gregicality Multiblocks (1.2.10 -> 1.2.11)
-- GTExpert-Core (2.2.10 -> 2.2.11)
+- GTExpert-Core (2.2.10 -> 2.3.2)
+- Had Enough Items (4.25.4 -> 4.26.0)
+- MixinBooter (9.1 -> 9.4)
+- OpenComputers (1.8.5 -> 1.8.6)
+- UniLib (1.0.0 -> 1.0.2)
+- UntranslatedItems: AlsoFluids (1.7.0 -> 1.8.0)
 
 * * *
 

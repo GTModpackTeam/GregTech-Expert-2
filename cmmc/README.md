@@ -1,7 +1,7 @@
 # GregTech Expert 2 for LWJGL3 Version - (Powered by [CleanroomMMC](https://github.com/CleanroomMC/CleanroomMMC))
 
 ## About
-- This is the first ModPack created(probably) to promote [CleanroomMC](https://github.com/CleanroomMC), which runs on LWJGL version 3 in Minecraft 1.12.2 and aims to run Java 21, optimize, and much more.
+- This is the first ModPack created(probably) to promote [CleanroomMC](https://github.com/CleanroomMC), which runs on LWJGL version 3 in Minecraft 1.12.2 and aims to run [Java 21](https://www.azul.com/downloads/?version=java-21-lts&package=jre#zulu), optimize, and much more.
 
 
 ## How to install
@@ -25,4 +25,3 @@
 ## Optional mods
 - [Vintagium](https://github.com/Asek3/sodium-1.12) by Asek3
     - Please re-configure the graphics settings.
-    - Also, since the build has been over 90 days, it is now available on [CleanroomMC](https://discord.gg/f2K4aSpG4F) Discord.
