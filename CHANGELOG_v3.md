@@ -1,3 +1,14 @@
+# v3.0.0
+## Add mods
+- GTWoodProcessing (1.2.2)
+- Forestry (5.8.2.422)
+- Ender IO Forestry (5.3.72)
+- Gendustry (1.6.5.8)
+
+* * *
+
+<details>
+
 # v3.2.0-pr
 ## Update mods
 * Inventory Sorter -> Inventory Bogo Sorter
@@ -139,3 +150,4 @@
 * MultiblockTweaker
 * ContentTweaker
 * Devtech
+</details>
