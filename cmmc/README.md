@@ -1,7 +1,7 @@
 # GregTech Expert 2 for LWJGL3 Version - (Powered by [CleanroomMMC](https://github.com/CleanroomMC/CleanroomMMC))
 
 ## About
-- This is the first ModPack created(probably) to promote [CleanroomMC](https://github.com/CleanroomMC), which runs on LWJGL version 3 in Minecraft 1.12.2 and aims to run [Java 21](https://www.azul.com/downloads/?version=java-21-lts&package=jre#zulu), optimize, and much more.
+- This is the first ModPack created(probably) to promote [CleanroomMC](https://github.com/CleanroomMC), which runs on LWJGL version 3 in Minecraft 1.12.2 and aims to run [Azul Zulu Builds of OpenJDK(Java 21+)](https://www.azul.com/downloads/?version=java-21-lts&package=jre#zulu), optimize, and much more.
 
 
 ## How to install
