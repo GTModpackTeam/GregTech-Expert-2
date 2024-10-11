@@ -1,3 +1,14 @@
+# v2.7.8
+## Update mods
+- CraftPresence (2.5.0 -> 2.5.1)
+- GregTech Food Option (1.12.0 -> 1.12.1)
+- PackagedAuto (v1.0.13.54 -> v1.0.13.55)
+- StellarCore (1.3.4 -> 1.5.4)
+- Storage Drawers (5.5.1 -> 5.5.2)
+- UniLib (1.0.2 -> 1.0.3)
+
+* * *
+
 # v2.7.7
 ## Modpack information
 - Add alarm quest.
