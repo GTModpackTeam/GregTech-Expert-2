@@ -8,7 +8,7 @@ services:
     ports:
       - 25565:25565
     environment:
-      JVM_OPTS: -XX:MaxMetaspaceSize=512M -Dfml.queryResult=confirm -Dterminal.jline=false -Dterminal.ansi=true -XX:+UseContainerSupport -XX:MaxRAMPercentage=95.0 -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap -XX:+DisableExplicitGC -XX:+UseG1GC -XX:MaxTenuringThreshold=15 -XX:MaxGCPauseMillis=30 -XX:GCPauseIntervalMillis=150 -XX:InitiatingHeapOccupancyPercent=45 -XX:SurvivorRatio=8 -XX:TargetSurvivorRatio=90 -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -XX:+UseFastAccessorMethods -XX:+UseCompressedOops -XX:+OptimizeStringConcat -XX:ReservedCodeCacheSize=2048m -XX:+UseCodeCacheFlushing -XX:SoftRefLRUPolicyMSPerMB=10000 -Djava.net.preferIPv4Stack=true -Dlog4j.configurationFile=log4j2_112-116.xml
+      JVM_OPTS: -XX:MaxMetaspaceSize=512M -Dfml.queryResult=confirm -Dterminal.jline=false -Dterminal.ansi=true -XX:+UseContainerSupport -XX:+UseG1GC -XX:MaxGCPauseMillis=130 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=28 -XX:G1HeapRegionSize=16M -XX:G1ReservePercent=20 -XX:G1MixedGCCountTarget=3 -XX:InitiatingHeapOccupancyPercent=10 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=0 -XX:SurvivorRatio=32 -XX:MaxTenuringThreshold=1 -XX:G1SATBBufferEnqueueingThresholdPercent=30 -XX:G1ConcRSHotCardLimit=16 -XX:G1ConcRefinementServiceIntervalMillis=150 -Dlog4j.configurationFile=log4j2_112-116.xml
       USE_AIKAR_FLAGS: true
       EULA: true
       TYPE: AUTO_CURSEFORGE
