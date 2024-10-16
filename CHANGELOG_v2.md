@@ -1,4 +1,8 @@
 # v2.7.8
+## Modpack information
+- Fix titanium quest.
+- Fix Void Portal quest.
+
 ## Update mods
 - CraftPresence (2.5.0 -> 2.5.1)
 - GregTech Food Option (1.12.0 -> 1.12.1)
