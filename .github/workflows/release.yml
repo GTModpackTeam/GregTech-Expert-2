@@ -138,16 +138,16 @@ jobs:
           files: |
             ./${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}-cmmc.zip
 
-      - name: Upload Curseforge
-        uses: HaXrBOT/upload-curseforge-modpack-action@v1.2.0
-        with: 
-          api-token: "${{ secrets.CF_API_TOKEN }}"
-          project-id: "565238"
-          modpack-path: "./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-cf.zip"
-          modpack-server-path: "./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-server.zip"
-          changelog-path: "CHANGELOG_v2.md"
-          changelog-format: "markdown"
-          game-version: "1.12.2"
-          display-name: "${{ env.NAME }}-${{ env.VERSION_NORMAL }}"
-          server-display-name: "${{ env.NAME }}-${{ env.VERSION_NORMAL }}-server"
-          release-type: "${{ github.event.inputs.release_type }}"
+      # - name: Upload Curseforge
+      #   uses: HaXrBOT/upload-curseforge-modpack-action@v1.2.0
+      #   with: 
+      #     api-token: "${{ secrets.CF_API_TOKEN }}"
+      #     project-id: "565238"
+      #     modpack-path: "./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-cf.zip"
+      #     modpack-server-path: "./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-server.zip"
+      #     changelog-path: "CHANGELOG_v2.md"
+      #     changelog-format: "markdown"
+      #     game-version: "1.12.2"
+      #     display-name: "${{ env.NAME }}-${{ env.VERSION_NORMAL }}"
+      #     server-display-name: "${{ env.NAME }}-${{ env.VERSION_NORMAL }}-server"
+      #     release-type: "${{ github.event.inputs.release_type }}"
