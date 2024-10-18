@@ -108,6 +108,27 @@ jobs:
         run: |
           mv -vf ./serverfiles/* ./
 
+      - name: Remove Client Only Mods
+        run: |
+          rm -vf .minecraft/mods/!Red-Core-*
+          rm -vf .minecraft/mods/Alfheim-*
+          rm -vf .minecraft/mods/Valkyrie-*
+          rm -vf .minecraft/mods/CraftPresence-*
+          rm -vf .minecraft/mods/Controlling-*
+          rm -vf .minecraft/mods/UniLib-*
+          rm -vf .minecraft/mods/CustomMainMenu-*
+          rm -vf .minecraft/mods/Fixeroo-*
+          rm -vf .minecraft/mods/FpsReducer-*
+          rm -vf .minecraft/mods/modernsplash-*
+          rm -vf .minecraft/mods/RenderLib-*
+          rm -vf .minecraft/mods/particleculling-*
+          rm -vf .minecraft/mods/EntityCulling-*
+          rm -vf .minecraft/mods/SmoothFont-*
+          rm -vf .minecraft/mods/InGameInfoXML-*
+          rm -vf .minecraft/mods/oauth-*
+          rm -vf .minecraft/mods/UntranslatedItems-*
+          rm -vf .minecraft/mods/vintagefix-*
+
       - if: matrix.version == 'NORMAL'
         name: Archive Release Server
         run: |
