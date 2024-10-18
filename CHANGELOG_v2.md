@@ -4,6 +4,7 @@
 - Fix Void Portal quest.
 
 ## Update mods
+- Better Questing Unofficial (4.2.3 -> 4.2.4)
 - CraftPresence (2.5.0 -> 2.5.1)
 - GregTech Food Option (1.12.0 -> 1.12.1)
 - Had Enough Items (4.25.5 -> 4.26.1)
