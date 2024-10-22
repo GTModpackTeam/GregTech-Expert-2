@@ -67,11 +67,12 @@ jobs:
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
         run: python buildtools/mod-install.py
 
+      - name: Remaove .gitkeep files
+        run: find . -name ".gitkeep" -type f -delete
+
       - if: matrix.version == 'NORMAL'
         name: Archive Release CF (NORMAL)
-        run: |
-          rm -rf ./overrides/resourcepacks/.gitkeep
-          zip -r ./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-cf.zip ./manifest.json ./modlist.html ./overrides/bansoukou/ ./overrides/config/ ./overrides/local/ ./overrides/resourcepacks/ ./overrides/scripts/
+        run: zip -r ./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-cf.zip ./manifest.json ./modlist.html ./overrides/bansoukou/ ./overrides/config/ ./overrides/local/ ./overrides/resourcepacks/ ./overrides/scripts/
 
       - if: matrix.version == 'LWJGL3'
         name: Archive Release MMC (LWJGL3)
@@ -81,8 +82,6 @@ jobs:
           mv -vf ./overrides/ .minecraft/
           cp -vf ./icon.png .minecraft/
           cp -rvf ./cmmc/* ./
-          rm -rf .minecraft/mods/.gitkeep
-          rm -rf .minecraft/resourcepacks/.gitkeep
           zip -r ./${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}-cmmc.zip ./libraries/ ./patches/ ./mmc-pack.json ./instance.cfg .minecraft/
 
       - if: matrix.version == 'NORMAL'
@@ -90,7 +89,6 @@ jobs:
         run: |
           mv -vf ./overrides/ .minecraft/
           cp -vf ./icon.png .minecraft/
-          rm -rf .minecraft/mods/.gitkeep
           zip -r ./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-mmc.zip ./mmc-pack.json ./instance.cfg .minecraft/
 
       - if: matrix.version == 'NORMAL'
