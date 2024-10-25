@@ -71,7 +71,10 @@ jobs:
         run: |
           python buildtools/gen-lwjgl3-manifest.py
           cp -vf ./cmmc/manifest.json ./manifest.json
-    
+
+      - name: Remaove .gitkeep files
+        run: find . -name ".gitkeep" -type f -delete
+
       - name: Run Python
         env:
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
@@ -79,9 +82,7 @@ jobs:
 
       - if: matrix.version == 'NORMAL'
         name: Archive Release CF (NORMAL)
-        run: |
-          rm -rf ./overrides/resourcepacks/.gitkeep
-          zip -r ./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-cf.zip ./manifest.json ./modlist.html ./manifest.json ./modlist.html ./overrides/bansoukou/ ./overrides/config/ ./overrides/local/ ./overrides/resourcepacks/ ./overrides/scripts/
+        run: zip -r ./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-cf.zip ./manifest.json ./modlist.html ./manifest.json ./modlist.html ./overrides/bansoukou/ ./overrides/config/ ./overrides/local/ ./overrides/resourcepacks/ ./overrides/scripts/
 
       - if: matrix.version == 'LWJGL3'
         name: Archive Release MMC (LWJGL3)
@@ -91,8 +92,6 @@ jobs:
           mv -vf ./overrides/ .minecraft/
           cp -vf ./icon.png .minecraft/
           cp -rvf ./cmmc/* ./
-          rm -rf .minecraft/mods/.gitkeep
-          rm -rf .minecraft/resourcepacks/.gitkeep
           zip -r ./${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}-cmmc.zip ./libraries/ ./patches/ ./mmc-pack.json ./instance.cfg .minecraft/
 
       - if: matrix.version == 'NORMAL'
@@ -100,13 +99,33 @@ jobs:
         run: |
           mv -vf ./overrides/ .minecraft/
           cp -vf ./icon.png .minecraft/
-          rm -rf .minecraft/mods/.gitkeep
           zip -r ./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-mmc.zip ./mmc-pack.json ./instance.cfg .minecraft/
 
       - if: matrix.version == 'NORMAL'
         name: Move Server Files
         run: |
           mv -vf ./serverfiles/* ./
+
+      - name: Remove Client Only Mods
+        run: |
+          rm -vf .minecraft/mods/!Red-Core-*
+          rm -vf .minecraft/mods/Alfheim-*
+          rm -vf .minecraft/mods/Valkyrie-*
+          rm -vf .minecraft/mods/CraftPresence-*
+          rm -vf .minecraft/mods/Controlling-*
+          rm -vf .minecraft/mods/UniLib-*
+          rm -vf .minecraft/mods/CustomMainMenu-*
+          rm -vf .minecraft/mods/Fixeroo-*
+          rm -vf .minecraft/mods/FpsReducer-*
+          rm -vf .minecraft/mods/modernsplash-*
+          rm -vf .minecraft/mods/RenderLib-*
+          rm -vf .minecraft/mods/particleculling-*
+          rm -vf .minecraft/mods/EntityCulling-*
+          rm -vf .minecraft/mods/SmoothFont-*
+          rm -vf .minecraft/mods/InGameInfoXML-*
+          rm -vf .minecraft/mods/oauth-*
+          rm -vf .minecraft/mods/UntranslatedItems-*
+          rm -vf .minecraft/mods/vintagefix-*
 
       - if: matrix.version == 'NORMAL'
         name: Archive Release Server

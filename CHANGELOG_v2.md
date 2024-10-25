@@ -1,3 +1,20 @@
+# v2.7.8
+## Modpack information
+- Fix titanium quest.
+- Fix Void Portal quest.
+
+## Update mods
+- Better Questing Unofficial (4.2.3 -> 4.2.4)
+- CraftPresence (2.5.0 -> 2.5.1)
+- GregTech Food Option (1.12.0 -> 1.12.1)
+- Had Enough Items (4.25.5 -> 4.26.1)
+- PackagedAuto (v1.0.13.54 -> v1.0.13.55)
+- StellarCore (1.3.4 -> 1.5.4)
+- Storage Drawers (5.5.1 -> 5.5.2)
+- UniLib (1.0.2 -> 1.0.3)
+
+* * *
+
 # v2.7.7
 ## Modpack information
 - Add alarm quest.
