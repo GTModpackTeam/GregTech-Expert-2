@@ -1,3 +1,10 @@
+# v2.8.9
+## Update mods
+- Better Questing Unofficial (4.2.4 -> 4.2.5)
+- PackagedAuto (v1.0.13.55 -> v1.0.13.56)
+
+* * *
+
 # v2.7.8
 ## Modpack information
 - Fix titanium quest.
