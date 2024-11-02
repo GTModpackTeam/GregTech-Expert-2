@@ -1,6 +1,7 @@
 # v2.8.9
 ## Update mods
 - Better Questing Unofficial (4.2.4 -> 4.2.5)
+- StellarCore (1.5.4 -> 1.5.13)
 - PackagedAuto (v1.0.13.55 -> v1.0.13.56)
 
 * * *
