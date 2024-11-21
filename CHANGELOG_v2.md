@@ -1,7 +1,9 @@
-# v2.8.9
+# v2.7.9
 ## Update mods
-- Better Questing Unofficial (4.2.4 -> 4.2.5)
-- StellarCore (1.5.4 -> 1.5.13)
+- Advanced Backups (3.6.3 -> 3.6.4)
+- Better Questing Unofficial (4.2.4 -> 4.2.6)
+- Had Enough Items (4.25.5 -> 4.26.2)
+- StellarCore (1.5.4 -> 1.5.20)
 - PackagedAuto (v1.0.13.55 -> v1.0.13.56)
 - Universal Tweaks (1.12.0 -> 1.13.0)
 
