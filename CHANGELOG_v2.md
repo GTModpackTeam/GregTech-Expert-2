@@ -2,9 +2,13 @@
 ## Update mods
 - Advanced Backups (3.6.3 -> 3.6.4)
 - Better Questing Unofficial (4.2.4 -> 4.2.6)
+- CraftPresence (2.5.1 -> 2.5.2)
 - Had Enough Items (4.25.5 -> 4.26.2)
-- StellarCore (1.5.4 -> 1.5.20)
-- PackagedAuto (v1.0.13.55 -> v1.0.13.56)
+- Mouse Tweaks Unofficial (3.1.4 -> 3.1.5)
+- PackagedAuto (v1.0.13.55 -> v1.0.13.57)
+- StellarCore (1.5.4 -> 1.5.21)
+- Storage Drawers (5.5.2 -> 5.5.3)
+- UniLib (1.0.3 -> 1.0.4)
 - Universal Tweaks (1.12.0 -> 1.13.0)
 
 * * *
