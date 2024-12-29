@@ -7,8 +7,5 @@
   "schedule": [
     "every weekend"
   ],
-  "enabledManagers": [
-    "java", "python"
-  ],
   "automerge": false
 }
