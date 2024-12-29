@@ -1,11 +1,19 @@
 # v2.7.9
+## Modpack information
+- Sawmill switched from GTExpertCore to GTWoodProcessing.
+
+## New mods
+- GTWoodProcessing (1.2.2)
+
 ## Update mods
 - Advanced Backups (3.6.3 -> 3.6.4)
 - Better Questing Unofficial (4.2.4 -> 4.2.6)
 - CraftPresence (2.5.1 -> 2.5.2)
+- GregTech Food Option (1.12.1 -> 1.12.3)
+- GTExpert-Core (2.3.2 -> 2.4.0)
 - Had Enough Items (4.25.5 -> 4.26.2)
 - Mouse Tweaks Unofficial (3.1.4 -> 3.1.5)
-- PackagedAuto (v1.0.13.55 -> v1.0.13.57)
+- PackagedAuto (v1.0.13.55 -> v1.0.13.58)
 - StellarCore (1.5.4 -> 1.5.21)
 - Storage Drawers (5.5.2 -> 5.5.3)
 - UniLib (1.0.3 -> 1.0.4)
