@@ -87,6 +87,7 @@ jobs:
       - if: matrix.version == 'LWJGL3'
         name: Archive Release MMC (LWJGL3)
         run: |
+          sed -i -e "s/B:EnableCustomGameTitle=false/B:EnableCustomGameTitle=true/g" ./overrides/config/stellar_core.cfg
           cp -rvf ./cmmc/bansoukou/ ./overrides/
           rm -Rf ./cmmc/bansoukou/
           mv -vf ./overrides/ .minecraft/

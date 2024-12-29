@@ -1,5 +1,5 @@
 {
-  "build:8": "4.2.4",
+  "build:8": "4.2.6",
   "format:8": "2.1.0",
   "questDatabase:9": {
     "0:10": {
@@ -45,8 +45,7 @@
             "Damage:2": 2037,
             "id:8": "gregtech:fluid_pipe_normal"
           },
-          "name:8": "パイプのシューリンガン",
-          "tasklogic:8": "OR"
+          "name:8": "パイプのシューリンガン"
         }
       },
       "questID:3": 1,
@@ -477,13 +476,13 @@
               }
             }
           },
-          "name:8": "殺人鬼が持ってそうな凶器ベスト4",
-          "tasklogic:8": "OR"
+          "name:8": "殺人鬼が持ってそうな凶器ベスト4"
         }
       },
       "questID:3": 8,
       "tasks:9": {
         "0:10": {
+          "entryLogic:8": "OR",
           "ignoreNBT:1": 1,
           "index:3": 0,
           "requiredItems:9": {
@@ -718,6 +717,7 @@
       "questID:3": 13,
       "tasks:9": {
         "0:10": {
+          "entryLogic:8": "OR",
           "ignoreNBT:1": 1,
           "index:3": 0,
           "requiredItems:9": {
@@ -1056,8 +1056,7 @@
             "Count:3": 1,
             "id:8": "minecraft:nether_star"
           },
-          "name:8": "流体力学",
-          "tasklogic:8": "OR"
+          "name:8": "流体力学"
         }
       },
       "questID:3": 19,
@@ -2300,8 +2299,7 @@
             "Damage:2": 438,
             "id:8": "gregtech:meta_item_1"
           },
-          "name:8": "タイヤの臭いがする松明",
-          "tasklogic:8": "OR"
+          "name:8": "タイヤの臭いがする松明"
         }
       },
       "questID:3": 51,
@@ -2313,14 +2311,8 @@
               "Count:3": 1,
               "Damage:2": 438,
               "id:8": "gregtech:meta_item_1"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "index:3": 1,
-          "requiredItems:9": {
-            "0:10": {
+            },
+            "1:10": {
               "Count:3": 3,
               "id:8": "minecraft:torch"
             }
@@ -7691,8 +7683,7 @@
             "Damage:2": 127,
             "id:8": "gregtech:meta_item_1"
           },
-          "name:8": "EUをKUに変えます",
-          "tasklogic:8": "OR"
+          "name:8": "EUをKUに変えます"
         }
       },
       "questID:3": 309,
@@ -9384,6 +9375,7 @@
       "questID:3": 358,
       "tasks:9": {
         "0:10": {
+          "entryLogic:8": "OR",
           "ignoreNBT:1": 1,
           "index:3": 0,
           "requiredItems:9": {
@@ -11225,13 +11217,13 @@
             "Damage:2": 128,
             "id:8": "gregtech:meta_item_1"
           },
-          "name:8": "MV作り置きの会",
-          "tasklogic:8": "OR"
+          "name:8": "MV作り置きの会"
         }
       },
       "questID:3": 407,
       "tasks:9": {
         "0:10": {
+          "entryLogic:8": "OR",
           "index:3": 0,
           "requiredItems:9": {
             "0:10": {
@@ -12757,8 +12749,7 @@
             "Damage:2": 526,
             "id:8": "gregtech:meta_item_1"
           },
-          "name:8": "カラフル絆創膏その2",
-          "tasklogic:8": "OR"
+          "name:8": "カラフル絆創膏その2"
         }
       },
       "questID:3": 448,
@@ -12770,14 +12761,8 @@
               "Count:3": 1,
               "Damage:2": 526,
               "id:8": "gregtech:meta_item_1"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "index:3": 1,
-          "requiredItems:9": {
-            "0:10": {
+            },
+            "1:10": {
               "Count:3": 1,
               "Damage:2": 527,
               "id:8": "gregtech:meta_item_1"
@@ -13902,8 +13887,7 @@
             "Damage:2": 523,
             "id:8": "gregtech:meta_item_1"
           },
-          "name:8": "カラフル絆創膏",
-          "tasklogic:8": "OR"
+          "name:8": "カラフル絆創膏"
         }
       },
       "questID:3": 481,
@@ -13915,25 +13899,13 @@
               "Count:3": 1,
               "Damage:2": 523,
               "id:8": "gregtech:meta_item_1"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "index:3": 1,
-          "requiredItems:9": {
-            "0:10": {
+            },
+            "1:10": {
               "Count:3": 1,
               "Damage:2": 524,
               "id:8": "gregtech:meta_item_1"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "2:10": {
-          "index:3": 2,
-          "requiredItems:9": {
-            "0:10": {
+            },
+            "2:10": {
               "Count:3": 1,
               "Damage:2": 525,
               "id:8": "gregtech:meta_item_1"
@@ -14939,13 +14911,13 @@
             "Damage:2": 129,
             "id:8": "gregtech:meta_item_1"
           },
-          "name:8": "楽しいね",
-          "tasklogic:8": "OR"
+          "name:8": "楽しいね"
         }
       },
       "questID:3": 509,
       "tasks:9": {
         "0:10": {
+          "entryLogic:8": "OR",
           "index:3": 0,
           "requiredItems:9": {
             "0:10": {
@@ -15637,6 +15609,7 @@
       "questID:3": 527,
       "tasks:9": {
         "0:10": {
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "requiredItems:9": {
             "0:10": {
@@ -15899,7 +15872,7 @@
       ],
       "properties:10": {
         "betterquesting:10": {
-          "desc:8": "第二の中間素材である4種類の金型を作っていきましょう。\n\n§m金型は隕石からではなくレーザー刻印機から入手できます。\nレンズには先ほど作ったクリスタルを使いましょう。\n100秒*4かかるので面倒かもしれませんが、プログラム回路と同様一度作れば二度と作らなくていいです。§r\n\n\n余談その1\n元々はレーザー刻印機から入手でしたが、GTExpert Coreの追加要素でGTE2 v2.6.4からMoldに切り替わりました。",
+          "desc:8": "第二の中間素材である4種類の金型を作っていきましょう。\n\n§m金型は隕石からではなくレーザー刻印機から入手できます。\nレンズには先ほど作ったクリスタルを使いましょう。\n100秒*4かかるので面倒かもしれませんが、プログラム回路と同様一度作れば二度と作らなくていいです。§r\n\n\n余談その1\n元々はレーザー刻印機から入手でしたが、GTExpert Coreの追加要素でGTE2 v2.6.4からMoldに切り替わりました。\n\n余談その2\nExtruder Shapeも存在はしているが利用はしていない。\n§m作ったは良いが勿体なくて追加してあるだけ。そのうち役目を貰うでしょう§r",
           "icon:10": {
             "Count:3": 1,
             "Damage:2": 101,
@@ -16416,6 +16389,7 @@
           "taskID:8": "bq_standard:retrieval"
         },
         "1:10": {
+          "ignoreNBT:1": 1,
           "index:3": 1,
           "requiredItems:9": {
             "0:10": {
@@ -17645,8 +17619,7 @@
             "Damage:2": 130,
             "id:8": "gregtech:meta_item_1"
           },
-          "name:8": "終わらない楽しみ",
-          "tasklogic:8": "OR"
+          "name:8": "終わらない楽しみ"
         }
       },
       "questID:3": 577,
@@ -18034,8 +18007,13 @@
       }
     },
     "475:10": {
+      "preRequisiteTypes:7": [
+        0,
+        1
+      ],
       "preRequisites:11": [
-        582
+        582,
+        678
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -21082,47 +21060,23 @@
               "Count:3": 1,
               "Damage:2": 528,
               "id:8": "gregtech:meta_item_1"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "index:3": 1,
-          "requiredItems:9": {
-            "0:10": {
+            },
+            "1:10": {
               "Count:3": 1,
               "Damage:2": 529,
               "id:8": "gregtech:meta_item_1"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "2:10": {
-          "index:3": 2,
-          "requiredItems:9": {
-            "0:10": {
+            },
+            "2:10": {
               "Count:3": 1,
               "Damage:2": 530,
               "id:8": "gregtech:meta_item_1"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "3:10": {
-          "index:3": 3,
-          "requiredItems:9": {
-            "0:10": {
+            },
+            "3:10": {
               "Count:3": 1,
               "Damage:2": 531,
               "id:8": "gregtech:meta_item_1"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "4:10": {
-          "index:3": 4,
-          "requiredItems:9": {
-            "0:10": {
+            },
+            "4:10": {
               "Count:3": 1,
               "Damage:2": 532,
               "id:8": "gregtech:meta_item_1"
@@ -22625,8 +22579,7 @@
             "Damage:2": 132,
             "id:8": "gregtech:meta_item_1"
           },
-          "name:8": "おなじみの楽しさ",
-          "tasklogic:8": "OR"
+          "name:8": "おなじみの楽しさ"
         }
       },
       "questID:3": 718,
@@ -23822,13 +23775,13 @@
             "Damage:2": 208,
             "id:8": "gregtech:meta_item_1"
           },
-          "name:8": "こっちの研究は楽",
-          "tasklogic:8": "OR"
+          "name:8": "こっちの研究は楽"
         }
       },
       "questID:3": 754,
       "tasks:9": {
         "0:10": {
+          "entryLogic:8": "OR",
           "index:3": 0,
           "requiredItems:9": {
             "0:10": {
