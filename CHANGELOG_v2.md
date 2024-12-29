@@ -1,3 +1,45 @@
+# v2.7.9
+## Modpack information
+- ProjectRed mods can no longer be downloaded automatically, so they are now obtained at startup.
+    - Also, the system automatically closes after the DL is completed, but this is a specification.
+- Sawmill switched from GTExpertCore to GTWoodProcessing.
+
+## New mods
+- GTWoodProcessing (1.2.2)
+
+## Update mods
+- Advanced Backups (3.6.3 -> 3.6.4)
+- Better Questing Unofficial (4.2.4 -> 4.2.6)
+- CraftPresence (2.5.1 -> 2.5.2)
+- GregTech Food Option (1.12.1 -> 1.12.3)
+- GTExpert-Core (2.3.2 -> 2.4.0)
+- Had Enough Items (4.25.5 -> 4.26.2)
+- Mouse Tweaks Unofficial (3.1.4 -> 3.1.5)
+- PackagedAuto (v1.0.13.55 -> v1.0.13.58)
+- StellarCore (1.5.4 -> 1.5.21)
+- Storage Drawers (5.5.2 -> 5.5.3)
+- UniLib (1.0.3 -> 1.0.4)
+- Universal Tweaks (1.12.0 -> 1.13.0)
+
+* * *
+
+# v2.7.8
+## Modpack information
+- Fix titanium quest.
+- Fix Void Portal quest.
+
+## Update mods
+- Better Questing Unofficial (4.2.3 -> 4.2.4)
+- CraftPresence (2.5.0 -> 2.5.1)
+- GregTech Food Option (1.12.0 -> 1.12.1)
+- Had Enough Items (4.25.5 -> 4.26.1)
+- PackagedAuto (v1.0.13.54 -> v1.0.13.55)
+- StellarCore (1.3.4 -> 1.5.4)
+- Storage Drawers (5.5.1 -> 5.5.2)
+- UniLib (1.0.2 -> 1.0.3)
+
+* * *
+
 # v2.7.7
 ## Modpack information
 - Add alarm quest.

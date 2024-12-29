@@ -19,3 +19,5 @@ overrides/config/enderio/recipes/*
 !overrides/config/enderio/recipes/user/*
 overrides/config/nutrition/effects/example.json
 overrides/config/nutrition/nutrients/example.json
+overrides/config/activity.json
+overrides/config/AdvancedBackups-client.properties
