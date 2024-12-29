@@ -1,5 +1,7 @@
 # v2.7.9
 ## Modpack information
+- ProjectRed mods can no longer be downloaded automatically, so they are now obtained at startup.
+    - Also, the system automatically closes after the DL is completed, but this is a specification.
 - Sawmill switched from GTExpertCore to GTWoodProcessing.
 
 ## New mods
