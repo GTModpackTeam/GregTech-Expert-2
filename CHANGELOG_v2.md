@@ -1,3 +1,13 @@
+# v2.7.10
+## Update mods
+- Fixeroo (2.3.2 -> 2.3.3-hotfix.1)
+- GTWoodProcessing (1.2.2 -> 1.2.3)
+
+## Update resourcepack
+- GhaTech (1.6 -> 1.7)
+
+* * *
+
 # v2.7.9
 ## Modpack information
 - ProjectRed mods can no longer be downloaded automatically, so they are now obtained at startup.
