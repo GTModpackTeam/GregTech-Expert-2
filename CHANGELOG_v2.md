@@ -1,4 +1,7 @@
 # v2.7.10
+## Modpack information
+- Fixed some quests
+
 ## Update mods
 - Fixeroo (2.3.2 -> 2.3.3-hotfix.1)
 - GTExpert-Core (2.4.0 -> 2.4.1)
