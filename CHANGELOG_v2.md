@@ -9,6 +9,7 @@
 - Fixeroo (2.3.2 -> 2.3.3-hotfix.1)
 - GTExpert-Core (2.4.0 -> 2.4.1)
 - GTWoodProcessing (1.2.2 -> 1.2.3)
+- Nutrition Unofficial Extended Life (4.13.0 -> 4.14.0)
 
 ## Update resourcepack
 - GhaTech (1.6 -> 1.7)
