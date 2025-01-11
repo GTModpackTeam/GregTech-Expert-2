@@ -476,29 +476,30 @@
               }
             }
           },
-          "name:8": "殺人鬼が持ってそうな凶器ベスト4"
+          "name:8": "殺人鬼が持ってそうな凶器ベスト4",
+          "tasklogic:8": "OR"
         }
       },
       "questID:3": 8,
       "tasks:9": {
         "0:10": {
           "entryLogic:8": "OR",
-          "ignoreNBT:1": 1,
           "index:3": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 32767,
               "id:8": "gregtech:file",
               "tag:10": {
+                "DisallowContainerItem:1": 0,
                 "GT.Behaviours:10": {},
                 "GT.Tool:10": {
                   "AttackDamage:5": 0.0,
                   "AttackSpeed:5": -2.4,
                   "Durability:3": 0,
                   "Material:8": "gregtech:iron",
-                  "MaxDurability:3": 256
-                }
+                  "MaxDurability:3": 255
+                },
+                "HideFlags:3": 2
               }
             },
             "1:10": {
@@ -549,6 +550,81 @@
                   "Durability:3": 0,
                   "Material:8": "gregtech:iron",
                   "MaxDurability:3": 255
+                },
+                "HideFlags:3": 2
+              }
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "entryLogic:8": "OR",
+          "index:3": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "gregtech:file",
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {},
+                "GT.Tool:10": {
+                  "AttackDamage:5": 0.0,
+                  "AttackSpeed:5": -2.6000001,
+                  "Durability:3": 0,
+                  "Material:8": "gregtech:wrought_iron",
+                  "MaxDurability:3": 383
+                },
+                "HideFlags:3": 2
+              }
+            },
+            "1:10": {
+              "Count:3": 1,
+              "id:8": "gregtech:saw",
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {
+                  "HarvestIce:1": 1
+                },
+                "GT.Tool:10": {
+                  "AttackDamage:5": 1.0,
+                  "AttackSpeed:5": -2.8,
+                  "Durability:3": 0,
+                  "Material:8": "gregtech:wrought_iron",
+                  "MaxDurability:3": 383
+                },
+                "HideFlags:3": 2
+              }
+            },
+            "2:10": {
+              "Count:3": 1,
+              "id:8": "gregtech:wrench",
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {},
+                "GT.Tool:10": {
+                  "AttackDamage:5": 3.0,
+                  "AttackSpeed:5": -3.0,
+                  "Durability:3": 0,
+                  "HarvestLevel:3": 2,
+                  "Material:8": "gregtech:wrought_iron",
+                  "MaxDurability:3": 383,
+                  "ToolSpeed:5": 6.0
+                },
+                "HideFlags:3": 2
+              }
+            },
+            "3:10": {
+              "Count:3": 1,
+              "id:8": "gregtech:screwdriver",
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {},
+                "GT.Tool:10": {
+                  "AttackDamage:5": 1.0,
+                  "AttackSpeed:5": 2.8,
+                  "Durability:3": 0,
+                  "Material:8": "gregtech:wrought_iron",
+                  "MaxDurability:3": 383
                 },
                 "HideFlags:3": 2
               }
@@ -640,20 +716,20 @@
             }
           },
           "name:8": "100万t",
-          "questlogic:8": "OR"
+          "questlogic:8": "OR",
+          "tasklogic:8": "OR"
         }
       },
       "questID:3": 11,
       "tasks:9": {
         "0:10": {
-          "ignoreNBT:1": 1,
           "index:3": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 32767,
               "id:8": "gregtech:hammer",
               "tag:10": {
+                "DisallowContainerItem:1": 0,
                 "GT.Behaviours:10": {},
                 "GT.Tool:10": {
                   "AttackDamage:5": 3.0,
@@ -661,9 +737,34 @@
                   "Durability:3": 0,
                   "HarvestLevel:3": 2,
                   "Material:8": "gregtech:iron",
-                  "MaxDurability:3": 256,
+                  "MaxDurability:3": 255,
                   "ToolSpeed:5": 6.0
-                }
+                },
+                "HideFlags:3": 2
+              }
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "index:3": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "gregtech:hammer",
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {},
+                "GT.Tool:10": {
+                  "AttackDamage:5": 3.0,
+                  "AttackSpeed:5": -3.0,
+                  "Durability:3": 0,
+                  "HarvestLevel:3": 2,
+                  "Material:8": "gregtech:wrought_iron",
+                  "MaxDurability:3": 383,
+                  "ToolSpeed:5": 6.0
+                },
+                "HideFlags:3": 2
               }
             }
           },
@@ -699,7 +800,7 @@
       ],
       "properties:10": {
         "betterquesting:10": {
-          "desc:8": "タスクに要求されているツールは原始時代や蒸気時代にはあまり使用しないか、ModPack全体を通じて需要の小さいツールです。\n必要な時に必要なものを作るといいでしょう。\n\nバール\nバールは機械に取り付けたカバーを機械を壊すことなく撤去できるツールです。\nカバーに対して右クリックするだけで使用できます。\n\nワイヤーカッター\n- ワイヤーカッターはワイヤーをクラフトしたり撤去したり接続したりするツールです。\nGTCEuの仕様でワイヤーとケーブルはレンチでも撤去できてしまうのでその面であまり価値はありませんが、ワイヤーとケーブルはデフォルトで他のワイヤーとケーブルや機械に繋がらないという仕様が追加されているので、手動で接続できるワイヤーカッターは電気時代に入った後は必要不可欠なツールです。\n\n鎌\n- 左クリックで広範囲の作物やサトウキビを一括伐採+植えなおしすることができます。\n- 武器としても優秀です。\n\n肉切り包丁\n- 肉切り包丁で敵を倒すとより多くのアイテムがドロップします。\n- 革を集める時に最も活躍します。\n\nナイフ\n- ナイフはゴムをリングにしたりなどいくつかのレシピで要求されます。\n- 主に電気時代以降に出番があります。\n\nラバーカップ\n- ラバーカップは機械に右クリックすることで使用でき、機械の入力スロットに入っている液体を廃棄することができます。\n\nハサミ\n- ハサミです。\n\nタービンローター\n- 内部的にはツールなのでここで紹介します。\n- タービンローターは大型タービンを動かすための羽です。詳細は実際に使用するとき解説します。",
+          "desc:8": "タスクに要求されているツールは原始時代や蒸気時代にはあまり使用しないか、ModPack全体を通じて需要の小さいツールです。\n必要な時に必要なものを作るといいでしょう。\n\nバール\nバールは機械に取り付けたカバーを機械を壊すことなく撤去できるツールです。\nカバーに対して右クリックするだけで使用できます。\n\nワイヤーカッター\n- ワイヤーカッターはワイヤーをクラフトしたり撤去したり接続したりするツールです。\nGTCEuの仕様でワイヤーとケーブルはレンチでも撤去できてしまうのでその面であまり価値はありませんが、ワイヤーとケーブルはデフォルトで他のワイヤーとケーブルや機械に繋がらないという仕様が追加されているので、手動で接続できるワイヤーカッターは電気時代に入った後は必要不可欠なツールです。\n\n鎌\n- 左クリックで広範囲の作物やサトウキビを一括伐採+植えなおしすることができます。\n- 武器としても優秀です。\n\n肉切り包丁\n- 肉切り包丁で敵を倒すとより多くのアイテムがドロップします。\n- 革を集める時に最も活躍します。\n\nナイフ\n- ナイフはゴムをリングにしたりなどいくつかのレシピで要求されます。\n- 主に電気時代以降に出番があります。\n\nラバーカップ\n- ラバーカップは機械に右クリックすることで使用でき、機械の入力スロットに入っている液体を廃棄することができます。\n- コチラも電気時代以降で出番がありますが、こちらは説明のみで作成はしませんが記憶の片隅には入れといてください。\n\nハサミ\n- ハサミです。ただほぼ出番ないので作成不要です。\n\nタービンローター\n- 内部的にはツールなのでここで紹介します。\n- タービンローターは大型タービンを動かすための羽です。詳細は実際に使用するとき解説します。",
           "icon:10": {
             "Count:3": 1,
             "Damage:2": 32767,
@@ -711,21 +812,21 @@
               }
             }
           },
-          "name:8": "お母さんが使ってそうな道具ベスト7"
+          "name:8": "お母さんが使ってそうな道具ベスト7",
+          "tasklogic:8": "OR"
         }
       },
       "questID:3": 13,
       "tasks:9": {
         "0:10": {
           "entryLogic:8": "OR",
-          "ignoreNBT:1": 1,
           "index:3": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 32767,
               "id:8": "gregtech:crowbar",
               "tag:10": {
+                "DisallowContainerItem:1": 0,
                 "GT.Behaviours:10": {},
                 "GT.Tool:10": {
                   "AttackDamage:5": 4.0,
@@ -733,9 +834,10 @@
                   "Durability:3": 0,
                   "HarvestLevel:3": 2,
                   "Material:8": "gregtech:iron",
-                  "MaxDurability:3": 256,
+                  "MaxDurability:3": 255,
                   "ToolSpeed:5": 6.0
-                }
+                },
+                "HideFlags:3": 2
               }
             },
             "1:10": {
@@ -818,38 +920,115 @@
                 },
                 "HideFlags:3": 2
               }
-            },
-            "5:10": {
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "entryLogic:8": "OR",
+          "index:3": 1,
+          "requiredItems:9": {
+            "0:10": {
               "Count:3": 1,
-              "id:8": "gregtech:plunger",
+              "id:8": "gregtech:crowbar",
               "tag:10": {
+                "DisallowContainerItem:1": 0,
                 "GT.Behaviours:10": {},
                 "GT.Tool:10": {
-                  "AttackDamage:5": 0.0,
-                  "AttackSpeed:5": -2.4,
+                  "AttackDamage:5": 4.0,
+                  "AttackSpeed:5": -2.6000001,
                   "Durability:3": 0,
-                  "HarvestLevel:3": 1,
-                  "Material:8": "gregtech:rubber",
-                  "MaxDurability:3": 255,
-                  "ToolSpeed:5": 4.0
+                  "HarvestLevel:3": 2,
+                  "Material:8": "gregtech:wrought_iron",
+                  "MaxDurability:3": 383,
+                  "ToolSpeed:5": 6.0
+                },
+                "HideFlags:3": 2
+              }
+            },
+            "1:10": {
+              "Count:3": 1,
+              "id:8": "gregtech:wire_cutter",
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {},
+                "GT.Tool:10": {
+                  "AttackDamage:5": 1.0,
+                  "AttackSpeed:5": -2.6000001,
+                  "Durability:3": 0,
+                  "HarvestLevel:3": 2,
+                  "Material:8": "gregtech:wrought_iron",
+                  "MaxDurability:3": 383,
+                  "ToolSpeed:5": 6.0
+                },
+                "HideFlags:3": 2
+              }
+            },
+            "2:10": {
+              "Count:3": 1,
+              "id:8": "gregtech:scythe",
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {
+                  "AoEColumn:3": 2,
+                  "AoELayer:3": 2,
+                  "AoERow:3": 2,
+                  "MaxAoEColumn:3": 2,
+                  "MaxAoELayer:3": 2,
+                  "MaxAoERow:3": 2
+                },
+                "GT.Tool:10": {
+                  "AttackDamage:5": 7.0,
+                  "AttackSpeed:5": -3.2,
+                  "Durability:3": 0,
+                  "HarvestLevel:3": 2,
+                  "Material:8": "gregtech:wrought_iron",
+                  "MaxDurability:3": 1151,
+                  "ToolSpeed:5": 6.0
+                },
+                "HideFlags:3": 2
+              }
+            },
+            "3:10": {
+              "Count:3": 1,
+              "id:8": "gregtech:butchery_knife",
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {},
+                "GT.Tool:10": {
+                  "AttackDamage:5": 3.5,
+                  "AttackSpeed:5": -1.5,
+                  "Durability:3": 0,
+                  "Material:8": "gregtech:wrought_iron",
+                  "MaxDurability:3": 383
+                },
+                "HideFlags:3": 2,
+                "ench:9": {
+                  "0:10": {
+                    "id:3": 21,
+                    "lvl:2": 3
+                  }
+                }
+              }
+            },
+            "4:10": {
+              "Count:3": 1,
+              "id:8": "gregtech:knife",
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {},
+                "GT.Tool:10": {
+                  "AttackDamage:5": 2.0,
+                  "AttackSpeed:5": 2.8,
+                  "Durability:3": 0,
+                  "Material:8": "gregtech:wrought_iron",
+                  "MaxDurability:3": 383
                 },
                 "HideFlags:3": 2
               }
             }
           },
           "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "ignoreNBT:1": 1,
-          "index:3": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "OreDict:8": "toolShears",
-              "id:8": "minecraft:shears"
-            }
-          },
-          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -1306,7 +1485,7 @@
       ],
       "properties:10": {
         "betterquesting:10": {
-          "desc:8": "このModPackの推奨難易度はハードです。\n\nこのModPackはピースフルでクリアできますが、満腹度が減らない状態だとGregTech Food Optionのコンテンツを消化できないので非推奨です。\n\n戦闘難易度こそ高いですがFTB Utilsのクエストにあるとおり/backコマンドが使えたり/sethomeが使えたりするので、戦闘でストレスが貯まることはあまりないと思われます。\nただしミニマップテレポートなどチート系の使用は非推奨です。",
+          "desc:8": "このModPackの推奨難易度はハードです。\n\n戦闘難易度こそ高いですがFTB Utilsのクエストにあるとおり/backコマンドが使えたり/sethomeが使えたりするので、戦闘でストレスが貯まることはあまりないと思われます。\nただしミニマップテレポートなどチート系の使用は非推奨です。\n\nまたこのModPackはピースフルでクリアも一応は可能になっています。\nconfigファイルの gtexpert.cfg にある peacefulFlag を true にすることで一部レシピが変更されます。\n\n\n余談その1\nいまとなっては何故ハード推奨にしていたか忘れ去れている。",
           "icon:10": {
             "Count:3": 1,
             "Damage:2": 4,
@@ -1610,7 +1789,7 @@
       ],
       "properties:10": {
         "betterquesting:10": {
-          "desc:8": "§cクエストで分からないことが出てきたらまずこのクエストを読み直してみましょう§r\n\nクエストシステムにようこそ!!\n\nModPackのアップデートが入った際にクエストが古くなり正常に進行出来なくなる可能性があります(ModPack作者≠クエスト作者)。\nその際はDiscordやGithubなどで報告して頂ければ幸いです。\nまた、その時に限らずクエストは予告なしに変更されることがあります。\nこれを避けたい方はクエストの執筆完了をお待ちください。\n\nクエスト文は日本語クライアントでminecraftをプレイする日本人に合わせて書かれていますが、英語クライアントでも特に問題ありません。\n\n進行に必須であるクエストのアイコンは王冠または大きいアイコンで表示されます。\nそれ以外のクエストは四角で表示されます。\n\n説明のみのクエストは解放されたtierのタブと解説をまとめておく専用のタブの両方で表示されます。\n何か忘れたと感じた時にはいつでも解説専用のタブを開いてみましょう(未実装)。\n\n\n余談その1\nGTE1にはクエストがなかったので、GTE2でもクエストは実装されない...はずだった\n\n余談その2\nFTB Questのイライラ要因がBetter Questing Unofficialで全部解消されたりQOLが取り込まれたりされたため、全クエストの再チェックや並び替えを行いながら移行された(ModPack 2.7.0から)\nこの場を借りて感謝いたします",
+          "desc:8": "§cクエストで分からないことが出てきたらまずこのクエストを読み直してみましょう§r\n\nクエストシステムにようこそ!!\n\nModPackのアップデートが入った際にクエストが古くなり正常に進行出来なくなる可能性があります。\nその際はDiscordやGithubなどで報告して頂ければ幸いです。\nまた、その時に限らずクエストは予告なしに変更されることがあります。\nこれを避けたい方はクエストの執筆完了をお待ちください。\n\nクエスト文は日本語クライアントでminecraftをプレイする日本人に合わせて書かれていますが、英語クライアントでも特に問題ありません。\n\n進行に必須であるクエストのアイコンは王冠または大きいアイコンで表示されます。\nそれ以外のクエストは四角で表示されます。\n\n\n余談その1\nGTE1にはクエストがなかったので、GTE2でもクエストは実装されない...はずだった\n\n余談その2\nFTB Questのイライラ要因がBetter Questing Unofficialで全部解消されたりQoLが取り込まれたりされたため、全クエストの再チェックや並び替えを行いながら移行された(ModPack 2.7.0から)\nこの場を借りて感謝いたします",
           "icon:10": {
             "Count:3": 1,
             "id:8": "betterquesting:quest_book"
@@ -1824,7 +2003,6 @@
       },
       "tasks:9": {
         "0:10": {
-          "ignoreNBT:1": 1,
           "index:3": 0,
           "requiredItems:9": {
             "0:10": {
@@ -2209,30 +2387,71 @@
               }
             }
           },
-          "name:8": "ビットコインも掘れる"
+          "name:8": "ビットコインも掘れる",
+          "tasklogic:8": "OR"
         }
       },
       "questID:3": 48,
       "tasks:9": {
         "0:10": {
-          "ignoreNBT:1": 1,
           "index:3": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 32767,
               "id:8": "gregtech:mining_hammer",
               "tag:10": {
-                "GT.Behaviours:10": {},
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {
+                  "AoEColumn:3": 1,
+                  "AoELayer:3": 0,
+                  "AoERow:3": 1,
+                  "MaxAoEColumn:3": 1,
+                  "MaxAoELayer:3": 0,
+                  "MaxAoERow:3": 1,
+                  "TorchPlacing:1": 1
+                },
                 "GT.Tool:10": {
                   "AttackDamage:5": 3.5,
                   "AttackSpeed:5": -3.2,
                   "Durability:3": 0,
                   "HarvestLevel:3": 2,
                   "Material:8": "gregtech:iron",
-                  "MaxDurability:3": 768,
+                  "MaxDurability:3": 767,
                   "ToolSpeed:5": 4.8
-                }
+                },
+                "HideFlags:3": 2
+              }
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "index:3": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "id:8": "gregtech:mining_hammer",
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {
+                  "AoEColumn:3": 1,
+                  "AoELayer:3": 0,
+                  "AoERow:3": 1,
+                  "MaxAoEColumn:3": 1,
+                  "MaxAoELayer:3": 0,
+                  "MaxAoERow:3": 1,
+                  "TorchPlacing:1": 1
+                },
+                "GT.Tool:10": {
+                  "AttackDamage:5": 3.5,
+                  "AttackSpeed:5": -3.4,
+                  "Durability:3": 0,
+                  "HarvestLevel:3": 2,
+                  "Material:8": "gregtech:wrought_iron",
+                  "MaxDurability:3": 1151,
+                  "ToolSpeed:5": 4.8
+                },
+                "HideFlags:3": 2
               }
             }
           },
@@ -4688,7 +4907,7 @@
       ],
       "properties:10": {
         "betterquesting:10": {
-          "desc:8": "§c§l※この鉱石はGTE2で登場するオリジナルです。本家CEuには登場しないのでご注意ください。§r\n\nDraconic Evolution(以下DE)がついに解禁されました。\nDEは現在存在するLuVからUHVまでをカバーする強力なコンテンツで、最終的にはエンドコンテンツまで絡んできます。\nまた様々な貴重な鉱石を含みエンド限定で生成されます。\n\n採掘方法は以下の通りです: \n①QuarkTech防具をフル装備作成します。\n②電動探知機も高Tierに作り変えます(ドリルやバッテリーも可能なら高Tierに)。\n③エンドに移動します。\n④xz座標が5000ブロックの間隔で§c§lカオス島§rが生成されているので探します。\n⑤見つけたら電動探知機を利用してスキャンし、鉱脈を探します。\n⑥見つけられたら掘ります。",
+          "desc:8": "§c§l※この鉱石はGTE2で登場するオリジナルです。本家CEuには登場しないのでご注意ください。§r\n\nDraconic Evolution(以下DE)がついに解禁されました。\nDEは現在存在するLuVからUHVまでをカバーする強力なコンテンツで、最終的にはエンドコンテンツまで絡んできます。\nまた様々な貴重な鉱石を含みエンド限定で生成されます。\n\n採掘方法は以下の通りです: \n①QuarkTech防具をフル装備作成します。\n②電動探知機も高Tierに作り変えます(ドリルやバッテリーも可能なら高Tierに)。\n③エンドに移動します。\n④xz座標が5000ブロックの間隔で§c§lカオス島§rが生成されているので探します。\n⑤見つけたら電動探知機を利用してスキャンし、鉱脈を探します。\n⑥見つけられたら掘ります。\n\n\n余談その1\nこの要素の元ネタはFTB Interactionsである。\nまたこの時はオスミウムを得るためにイリジウム鉱石を掘って入手するという方法で、更にはオスミウムが入手できないとLuVを始められないという仕様にされていた。",
           "icon:10": {
             "Count:3": 1,
             "Damage:2": 2,
@@ -6617,7 +6836,7 @@
                   "Durability:3": 0,
                   "HarvestLevel:3": 2,
                   "Material:8": "gregtech:invar",
-                  "MaxDurability:3": 384,
+                  "MaxDurability:3": 1151,
                   "ToolSpeed:5": 5.6
                 },
                 "HideFlags:3": 2,
