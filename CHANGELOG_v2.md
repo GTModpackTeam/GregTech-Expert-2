@@ -1,6 +1,9 @@
 # v2.7.10
 ## Modpack information
-- Fixed some quests
+- Fixed some quests.
+- Adjusted the generation chance of Draconium ore generated on Chaos Island.
+- Galena and Realgar veins added on End Island.
+    - Not generated on Chaos Island.
 
 ## Update mods
 - Fixeroo (2.3.2 -> 2.3.3-hotfix.1)
