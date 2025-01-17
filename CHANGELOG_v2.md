@@ -5,6 +5,9 @@
 - Galena and Realgar veins added on End Island.
     - Not generated on Chaos Island.
 
+## New mods
+- GTConsolidate (1.0.0)
+
 ## Update mods
 - Advanced Backups (3.6.4 -> 3.6.5)
 - CraftPresence (2.5.2 -> 2.5.3)
