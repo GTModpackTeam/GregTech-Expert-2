@@ -6,7 +6,7 @@
     - Not generated on Chaos Island.
 
 ## New mods
-- GTConsolidate (1.0.0)
+- GTConsolidate (1.0.1)
 
 ## Update mods
 - Advanced Backups (3.6.4 -> 3.6.5)
