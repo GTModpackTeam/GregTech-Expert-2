@@ -6,15 +6,15 @@
     - Not generated on Chaos Island.
 
 ## New mods
-- GTConsolidate (1.0.1)
+- GTConsolidate (1.0.1.1)
 
 ## Update mods
 - Advanced Backups (3.6.4 -> 3.6.5)
 - CraftPresence (2.5.2 -> 2.5.3)
 - Fixeroo (2.3.2 -> 2.3.3-hotfix.1)
-- GTExpert-Core (2.4.0 -> 2.4.1)
+- GTExpert-Core (2.4.0 -> 2.4.2)
 - GTWoodProcessing (1.2.2 -> 1.2.3)
-- Nutrition Unofficial Extended Life (4.13.0 -> 4.15.0)
+- Nutrition Unofficial Extended Life (4.13.0 -> 4.16.0)
 - OpenComputers (1.8.6 -> 1.8.7)
 - UniLib (1.0.4 -> 1.0.5)
 
