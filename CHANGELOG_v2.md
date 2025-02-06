@@ -8,18 +8,23 @@
 ## Remove mods
 - Better Advancements (0.1.0.77)
 
+## Move mods
+Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
+
 ## New mods
 - GTConsolidate (1.0.1.1)
 
 ## Update mods
-- Advanced Backups (3.6.4 -> 3.6.5)
+- Advanced Backups (3.6.4 -> 3.7.1)
 - CraftPresence (2.5.2 -> 2.5.3)
-- CensoredASM (5.20 -> 5.22)
+- CensoredASM (5.20 -> 5.23)
 - Fixeroo (2.3.2 -> 2.3.4)
-- GTExpert-Core (2.4.0 -> 2.4.2)
+- GregTech Food Option (1.12.3 -> 1.12.4)
+- GTExpert-Core (2.4.0 -> 2.4.4)
 - GTWoodProcessing (1.2.2 -> 1.2.3)
 - Nutrition Unofficial Extended Life (4.13.0 -> 4.16.0)
 - OpenComputers (1.8.6 -> 1.8.7)
+- Red Core (0.5.1 -> 0.6)
 - UniLib (1.0.4 -> 1.0.5)
 - Universal Tweaks (1.13.0 -> 1.14.0)
 
