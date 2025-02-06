@@ -3,7 +3,7 @@
 - Fixed some quests.
 - Adjusted the generation chance of Draconium ore generated on Chaos Island.
 - Galena and Realgar veins added on End Island.
-    - Not generated on Chaos Island.
+    - However, it is not generated in Chaos Island.
 
 ## Remove mods
 - Better Advancements (0.1.0.77)
