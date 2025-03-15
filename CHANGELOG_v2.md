@@ -1,12 +1,5 @@
 # v2.7.11
-## Modpack information
-- Fixes issues with NAE2 and AE2UEL.
-    1. If there is `nae2-1.6.4` in the folder `bansoukou`, delete the whole folder.
-    2. Delete `nae2-1.6.4-patched.jar` in the folder named `mods`.
-    3. Rename `nae2-1.6.4.disabled` to `nae2-1.6.4.jar` in the folder named `mods`.
-
 ## Update mods
-- AE2 Unofficial Extended Life (0.56.5 -> 0.56.7)
 - Entity Culling (6.4.3 -> 6.5.0)
 - CensoredASM (5.23 -> 5.26)
 - Fixeroo (2.3.4 -> 2.3.5-hotfix)
