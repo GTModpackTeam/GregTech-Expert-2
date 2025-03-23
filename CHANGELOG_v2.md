@@ -5,9 +5,10 @@
 - Fixeroo (2.3.4 -> 2.3.5-hotfix)
 - GTConsolidate (1.0.1.1 -> 1.0.2.1)
 - GTExpert-Core (2.4.6 -> 2.4.7)
+- GregTech Wood Processing (1.2.3 -> 1.2.4)
 - Had Enough Items (4.27.0 -> 4.27.3)
-- PackagedAuto (1.0.15.58 -> 1.0.17.62)
-- RenderLib (1.3.5 -> 1.4.1)
+- PackagedAuto (1.0.15.58 -> 1.0.18.63)
+- RenderLib (1.3.5 -> 1.4.3)
 - RoughlyEnoughIDs (2.2.1 -> 2.2.2)
 - VintageFix (0.5.1 -> 0.5.5)
 
