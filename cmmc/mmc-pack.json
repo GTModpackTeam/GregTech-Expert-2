@@ -2,17 +2,17 @@
     "components": [
         {
             "cachedName": "LWJGL 3",
-            "cachedVersion": "3.3.4-27-CLEANROOM",
+            "cachedVersion": "3.3.6",
             "cachedVolatile": true,
             "dependencyOnly": true,
             "uid": "org.lwjgl3",
-            "version": "3.3.4-27-CLEANROOM"
+            "version": "3.3.6"
         },
         {
             "cachedName": "Minecraft",
             "cachedRequires": [
                 {
-                    "suggests": "3.3.4-27-CLEANROOM",
+                    "suggests": "3.3.6",
                     "uid": "org.lwjgl3"
                 }
             ],
@@ -29,9 +29,9 @@
                     "uid": "net.minecraft"
                 }
             ],
-            "cachedVersion": "0.2.4-alpha",
+            "cachedVersion": "0.3.0-alpha",
             "uid": "net.minecraftforge",
-            "version": "0.2.4-alpha"
+            "version": "0.3.0-alpha"
         }
     ],
     "formatVersion": 1
