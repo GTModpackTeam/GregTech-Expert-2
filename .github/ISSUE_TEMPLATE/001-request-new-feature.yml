@@ -1,7 +1,5 @@
 name: 'Request New Feature'
 description: Request a new feature.
-labels:
-  - "enhancement"
 body:
   - type: input
     id: version
