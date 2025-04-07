@@ -1,4 +1,8 @@
 # v2.7.11
+## Modpack information
+### Fix
+- No animations for the working machines in #412
+
 ## Update mods
 - Entity Culling (6.4.3 -> 6.5.0)
 - CensoredASM (5.23 -> 5.28)
