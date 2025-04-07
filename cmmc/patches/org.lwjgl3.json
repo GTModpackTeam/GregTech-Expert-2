@@ -2,90 +2,90 @@
     "formatVersion": 1,
     "libraries": [
         {
-            "name": "org.lwjgl3:lwjgl3-glfw:3.3.4-27-CLEANROOM",
+            "name": "org.lwjgl:lwjgl-glfw:3.3.6",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-glfw/3.3.4-27-CLEANROOM/lwjgl3-glfw-3.3.4-27-CLEANROOM.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-glfw/3.3.4-27-CLEANROOM/lwjgl3-glfw-3.3.4-27-CLEANROOM.jar",
-                    "sha1": "3236dd55e36b663ed7c93e56ec978df092165812",
-                    "size": 137424
+                    "path": "org/lwjgl/lwjgl-glfw/3.3.6/lwjgl-glfw-3.3.6.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-glfw/3.3.6/lwjgl-glfw-3.3.6.jar",
+                    "sha1": "07119f7d0eeb1e5502ff0ca71d2b4d47317da015",
+                    "size": 148078
                 }
             }
         },
         {
-            "name": "org.lwjgl3:lwjgl3-jemalloc:3.3.4-27-CLEANROOM",
+            "name": "org.lwjgl:lwjgl-jemalloc:3.3.6",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-jemalloc/3.3.4-27-CLEANROOM/lwjgl3-jemalloc-3.3.4-27-CLEANROOM.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-jemalloc/3.3.4-27-CLEANROOM/lwjgl3-jemalloc-3.3.4-27-CLEANROOM.jar",
-                    "sha1": "9550cee1997ce6b37beb24146aaf20ec866fbf13",
-                    "size": 44499
+                    "path": "org/lwjgl/lwjgl-jemalloc/3.3.6/lwjgl-jemalloc-3.3.6.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-jemalloc/3.3.6/lwjgl-jemalloc-3.3.6.jar",
+                    "sha1": "245910eb57f2444429c74e6bf96030e5ec0a6739",
+                    "size": 46636
                 }
             }
         },
         {
-            "name": "org.lwjgl3:lwjgl3-openal:3.3.4-27-CLEANROOM",
+            "name": "org.lwjgl:lwjgl-openal:3.3.6",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-openal/3.3.4-27-CLEANROOM/lwjgl3-openal-3.3.4-27-CLEANROOM.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-openal/3.3.4-27-CLEANROOM/lwjgl3-openal-3.3.4-27-CLEANROOM.jar",
-                    "sha1": "13a40ba3294faf0ffbf16c20c0fcbbe752b96bd0",
-                    "size": 111643
+                    "path": "org/lwjgl/lwjgl-openal/3.3.6/lwjgl-openal-3.3.6.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-openal/3.3.6/lwjgl-openal-3.3.6.jar",
+                    "sha1": "ad313317ff399fd2a7f4dd74716a68cf3976c6ad",
+                    "size": 153061
                 }
             }
         },
         {
-            "name": "org.lwjgl3:lwjgl3-opengl:3.3.4-27-CLEANROOM",
+            "name": "org.lwjgl:lwjgl-opengl:3.3.6",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-opengl/3.3.4-27-CLEANROOM/lwjgl3-opengl-3.3.4-27-CLEANROOM.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-opengl/3.3.4-27-CLEANROOM/lwjgl3-opengl-3.3.4-27-CLEANROOM.jar",
-                    "sha1": "77e90517bbcbde2d8da6c2aa787eddfb2fe2ef35",
-                    "size": 938262
+                    "path": "org/lwjgl/lwjgl-opengl/3.3.6/lwjgl-opengl-3.3.6.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-opengl/3.3.6/lwjgl-opengl-3.3.6.jar",
+                    "sha1": "ac2532612a4df374e9a9282bcf8ce2573018ebbb",
+                    "size": 935339
                 }
             }
         },
         {
-            "name": "org.lwjgl3:lwjgl3-stb:3.3.4-27-CLEANROOM",
+            "name": "org.lwjgl:lwjgl-stb:3.3.6",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-stb/3.3.4-27-CLEANROOM/lwjgl3-stb-3.3.4-27-CLEANROOM.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-stb/3.3.4-27-CLEANROOM/lwjgl3-stb-3.3.4-27-CLEANROOM.jar",
-                    "sha1": "439badc50392bae331270a16443803998e882c32",
-                    "size": 142488
+                    "path": "org/lwjgl/lwjgl-stb/3.3.6/lwjgl-stb-3.3.6.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-stb/3.3.6/lwjgl-stb-3.3.6.jar",
+                    "sha1": "e2d3739dcfe7b672b626ded66d94f6587083306e",
+                    "size": 144610
                 }
             }
         },
         {
-            "name": "org.lwjgl3:lwjgl3-tinyfd:3.3.4-27-CLEANROOM",
+            "name": "org.lwjgl:lwjgl-tinyfd:3.3.6",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-tinyfd/3.3.4-27-CLEANROOM/lwjgl3-tinyfd-3.3.4-27-CLEANROOM.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-tinyfd/3.3.4-27-CLEANROOM/lwjgl3-tinyfd-3.3.4-27-CLEANROOM.jar",
-                    "sha1": "79507d1201dcf4ff92ff3cb0394309740e9393a8",
-                    "size": 13496
+                    "path": "org/lwjgl/lwjgl-tinyfd/3.3.6/lwjgl-tinyfd-3.3.6.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-tinyfd/3.3.6/lwjgl-tinyfd-3.3.6.jar",
+                    "sha1": "58ceead1d42ff20d2d4f674aaeceb200733461c2",
+                    "size": 16029
                 }
             }
         },
         {
-            "name": "org.lwjgl3:lwjgl3:3.3.4-27-CLEANROOM",
+            "name": "org.lwjgl:lwjgl:3.3.6",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3/3.3.4-27-CLEANROOM/lwjgl3-3.3.4-27-CLEANROOM.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3/3.3.4-27-CLEANROOM/lwjgl3-3.3.4-27-CLEANROOM.jar",
-                    "sha1": "69efa343d687bbfda5d928283a8ba9ade9dc7489",
-                    "size": 797917
+                    "path": "org/lwjgl/lwjgl/3.3.6/lwjgl-3.3.6.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl/3.3.6/lwjgl-3.3.6.jar",
+                    "sha1": "ce7721d30cfaf47feaed10213e0c43eb55c49d68",
+                    "size": 823245
                 }
             }
         },
         {
-            "name": "org.lwjgl3:lwjgl3-glfw:3.3.4-27-CLEANROOM:natives-linux-arm64",
+            "name": "org.lwjgl:lwjgl-glfw:3.3.6:natives-linux-arm64",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-glfw/3.3.4-27-CLEANROOM/lwjgl3-glfw-3.3.4-27-CLEANROOM-natives-linux-arm64.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-glfw/3.3.4-27-CLEANROOM/lwjgl3-glfw-3.3.4-27-CLEANROOM-natives-linux-arm64.jar",
-                    "sha1": "09435d680b96b5c987f0db199c6ef034e6193d0d",
-                    "size": 126384
+                    "path": "org/lwjgl/lwjgl-glfw/3.3.6/lwjgl-glfw-3.3.6-natives-linux-arm64.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-glfw/3.3.6/lwjgl-glfw-3.3.6-natives-linux-arm64.jar",
+                    "sha1": "b54023af492b4c2c72451f3a7aa0f385e9969474",
+                    "size": 141056
                 }
             },
             "rules": [
@@ -104,13 +104,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-glfw:3.3.4-27-CLEANROOM:natives-linux-arm32",
+            "name": "org.lwjgl:lwjgl-glfw:3.3.6:natives-linux-arm32",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-glfw/3.3.4-27-CLEANROOM/lwjgl3-glfw-3.3.4-27-CLEANROOM-natives-linux-arm32.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-glfw/3.3.4-27-CLEANROOM/lwjgl3-glfw-3.3.4-27-CLEANROOM-natives-linux-arm32.jar",
-                    "sha1": "be7437250db5c0eb105030e4cf91e83125503bb3",
-                    "size": 116793
+                    "path": "org/lwjgl/lwjgl-glfw/3.3.6/lwjgl-glfw-3.3.6-natives-linux-arm32.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-glfw/3.3.6/lwjgl-glfw-3.3.6-natives-linux-arm32.jar",
+                    "sha1": "671adf04a6bc4f792af13892e37f804be30b7070",
+                    "size": 118670
                 }
             },
             "rules": [
@@ -123,13 +123,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-glfw:3.3.4-27-CLEANROOM:natives-linux",
+            "name": "org.lwjgl:lwjgl-glfw:3.3.6:natives-linux",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-glfw/3.3.4-27-CLEANROOM/lwjgl3-glfw-3.3.4-27-CLEANROOM-natives-linux.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-glfw/3.3.4-27-CLEANROOM/lwjgl3-glfw-3.3.4-27-CLEANROOM-natives-linux.jar",
-                    "sha1": "eb1b9db3564ac5465e56c65695b9afce252de327",
-                    "size": 123433
+                    "path": "org/lwjgl/lwjgl-glfw/3.3.6/lwjgl-glfw-3.3.6-natives-linux.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-glfw/3.3.6/lwjgl-glfw-3.3.6-natives-linux.jar",
+                    "sha1": "797e0965709ad180d9b00c88a086dbda15002203",
+                    "size": 128137
                 }
             },
             "rules": [
@@ -142,13 +142,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-glfw:3.3.4-27-CLEANROOM:natives-macos-arm64",
+            "name": "org.lwjgl:lwjgl-glfw:3.3.6:natives-macos-arm64",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-glfw/3.3.4-27-CLEANROOM/lwjgl3-glfw-3.3.4-27-CLEANROOM-natives-macos-arm64.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-glfw/3.3.4-27-CLEANROOM/lwjgl3-glfw-3.3.4-27-CLEANROOM-natives-macos-arm64.jar",
-                    "sha1": "74096208ae0758c79d5ce06363a5b21baae78f6f",
-                    "size": 142179
+                    "path": "org/lwjgl/lwjgl-glfw/3.3.6/lwjgl-glfw-3.3.6-natives-macos-arm64.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-glfw/3.3.6/lwjgl-glfw-3.3.6-natives-macos-arm64.jar",
+                    "sha1": "399b42b491c5dfa6595ae6fd79dcba61b93538a7",
+                    "size": 146109
                 }
             },
             "rules": [
@@ -167,13 +167,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-glfw:3.3.4-27-CLEANROOM:natives-macos",
+            "name": "org.lwjgl:lwjgl-glfw:3.3.6:natives-macos",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-glfw/3.3.4-27-CLEANROOM/lwjgl3-glfw-3.3.4-27-CLEANROOM-natives-macos.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-glfw/3.3.4-27-CLEANROOM/lwjgl3-glfw-3.3.4-27-CLEANROOM-natives-macos.jar",
-                    "sha1": "3377a1fd3d48eb5803cf981a8f1ea92f003677a4",
-                    "size": 144843
+                    "path": "org/lwjgl/lwjgl-glfw/3.3.6/lwjgl-glfw-3.3.6-natives-macos.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-glfw/3.3.6/lwjgl-glfw-3.3.6-natives-macos.jar",
+                    "sha1": "82c8d748a654241b5961ddd1c098e8b648e38a48",
+                    "size": 151479
                 }
             },
             "rules": [
@@ -186,13 +186,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-glfw:3.3.4-27-CLEANROOM:natives-windows-arm64",
+            "name": "org.lwjgl:lwjgl-glfw:3.3.6:natives-windows-arm64",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-glfw/3.3.4-27-CLEANROOM/lwjgl3-glfw-3.3.4-27-CLEANROOM-natives-windows-arm64.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-glfw/3.3.4-27-CLEANROOM/lwjgl3-glfw-3.3.4-27-CLEANROOM-natives-windows-arm64.jar",
-                    "sha1": "968415f2b5a7c797fee2cd7cdd48c1faefea341e",
-                    "size": 143263
+                    "path": "org/lwjgl/lwjgl-glfw/3.3.6/lwjgl-glfw-3.3.6-natives-windows-arm64.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-glfw/3.3.6/lwjgl-glfw-3.3.6-natives-windows-arm64.jar",
+                    "sha1": "4aae4172124b49af166acc3e54aa7a091d16669d",
+                    "size": 152425
                 }
             },
             "rules": [
@@ -211,13 +211,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-glfw:3.3.4-27-CLEANROOM:natives-windows-x86",
+            "name": "org.lwjgl:lwjgl-glfw:3.3.6:natives-windows-x86",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-glfw/3.3.4-27-CLEANROOM/lwjgl3-glfw-3.3.4-27-CLEANROOM-natives-windows-x86.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-glfw/3.3.4-27-CLEANROOM/lwjgl3-glfw-3.3.4-27-CLEANROOM-natives-windows-x86.jar",
-                    "sha1": "1b88da6fd38c547157ee229936893f1d2946050f",
-                    "size": 159466
+                    "path": "org/lwjgl/lwjgl-glfw/3.3.6/lwjgl-glfw-3.3.6-natives-windows-x86.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-glfw/3.3.6/lwjgl-glfw-3.3.6-natives-windows-x86.jar",
+                    "sha1": "cfa8f1e96d572ed56da5945adf5167628f5eecdb",
+                    "size": 164971
                 }
             },
             "rules": [
@@ -230,13 +230,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-glfw:3.3.4-27-CLEANROOM:natives-windows",
+            "name": "org.lwjgl:lwjgl-glfw:3.3.6:natives-windows",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-glfw/3.3.4-27-CLEANROOM/lwjgl3-glfw-3.3.4-27-CLEANROOM-natives-windows.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-glfw/3.3.4-27-CLEANROOM/lwjgl3-glfw-3.3.4-27-CLEANROOM-natives-windows.jar",
-                    "sha1": "61a3a09e2f4b48fa438c124a62a7aa5ee4bb2969",
-                    "size": 168801
+                    "path": "org/lwjgl/lwjgl-glfw/3.3.6/lwjgl-glfw-3.3.6-natives-windows.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-glfw/3.3.6/lwjgl-glfw-3.3.6-natives-windows.jar",
+                    "sha1": "99ef08056feb9627f90425a4d2a22cd9fae8e39b",
+                    "size": 171962
                 }
             },
             "rules": [
@@ -249,13 +249,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-jemalloc:3.3.4-27-CLEANROOM:natives-linux-arm64",
+            "name": "org.lwjgl:lwjgl-jemalloc:3.3.6:natives-linux-arm64",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-jemalloc/3.3.4-27-CLEANROOM/lwjgl3-jemalloc-3.3.4-27-CLEANROOM-natives-linux-arm64.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-jemalloc/3.3.4-27-CLEANROOM/lwjgl3-jemalloc-3.3.4-27-CLEANROOM-natives-linux-arm64.jar",
-                    "sha1": "4a9891300ad8639fce1e53dc40e58fbb6ee60bb4",
-                    "size": 216124
+                    "path": "org/lwjgl/lwjgl-jemalloc/3.3.6/lwjgl-jemalloc-3.3.6-natives-linux-arm64.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-jemalloc/3.3.6/lwjgl-jemalloc-3.3.6-natives-linux-arm64.jar",
+                    "sha1": "1bc2e16e70df7f418d668c2984ac8066f1f6f5b1",
+                    "size": 222196
                 }
             },
             "rules": [
@@ -274,13 +274,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-jemalloc:3.3.4-27-CLEANROOM:natives-linux-arm32",
+            "name": "org.lwjgl:lwjgl-jemalloc:3.3.6:natives-linux-arm32",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-jemalloc/3.3.4-27-CLEANROOM/lwjgl3-jemalloc-3.3.4-27-CLEANROOM-natives-linux-arm32.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-jemalloc/3.3.4-27-CLEANROOM/lwjgl3-jemalloc-3.3.4-27-CLEANROOM-natives-linux-arm32.jar",
-                    "sha1": "b5dc77640c3e089b58803a31fc652dcab787566f",
-                    "size": 183066
+                    "path": "org/lwjgl/lwjgl-jemalloc/3.3.6/lwjgl-jemalloc-3.3.6-natives-linux-arm32.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-jemalloc/3.3.6/lwjgl-jemalloc-3.3.6-natives-linux-arm32.jar",
+                    "sha1": "c484cae39a718010dbc7931fe5e12664600a13c2",
+                    "size": 176503
                 }
             },
             "rules": [
@@ -293,13 +293,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-jemalloc:3.3.4-27-CLEANROOM:natives-linux",
+            "name": "org.lwjgl:lwjgl-jemalloc:3.3.6:natives-linux",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-jemalloc/3.3.4-27-CLEANROOM/lwjgl3-jemalloc-3.3.4-27-CLEANROOM-natives-linux.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-jemalloc/3.3.4-27-CLEANROOM/lwjgl3-jemalloc-3.3.4-27-CLEANROOM-natives-linux.jar",
-                    "sha1": "84c3dc326b5fd6ba7171c5139f819836297d81b7",
-                    "size": 210690
+                    "path": "org/lwjgl/lwjgl-jemalloc/3.3.6/lwjgl-jemalloc-3.3.6-natives-linux.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-jemalloc/3.3.6/lwjgl-jemalloc-3.3.6-natives-linux.jar",
+                    "sha1": "26f8b467dc2e0f3000d608de3564b572bb46f927",
+                    "size": 210549
                 }
             },
             "rules": [
@@ -312,13 +312,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-jemalloc:3.3.4-27-CLEANROOM:natives-macos-arm64",
+            "name": "org.lwjgl:lwjgl-jemalloc:3.3.6:natives-macos-arm64",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-jemalloc/3.3.4-27-CLEANROOM/lwjgl3-jemalloc-3.3.4-27-CLEANROOM-natives-macos-arm64.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-jemalloc/3.3.4-27-CLEANROOM/lwjgl3-jemalloc-3.3.4-27-CLEANROOM-natives-macos-arm64.jar",
-                    "sha1": "7b2aecc4b684ca983c8da5ad88ded91ba215eb10",
-                    "size": 143309
+                    "path": "org/lwjgl/lwjgl-jemalloc/3.3.6/lwjgl-jemalloc-3.3.6-natives-macos-arm64.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-jemalloc/3.3.6/lwjgl-jemalloc-3.3.6-natives-macos-arm64.jar",
+                    "sha1": "1f828c1fc06792475850162725433adf5ad001c0",
+                    "size": 126884
                 }
             },
             "rules": [
@@ -337,13 +337,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-jemalloc:3.3.4-27-CLEANROOM:natives-macos",
+            "name": "org.lwjgl:lwjgl-jemalloc:3.3.6:natives-macos",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-jemalloc/3.3.4-27-CLEANROOM/lwjgl3-jemalloc-3.3.4-27-CLEANROOM-natives-macos.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-jemalloc/3.3.4-27-CLEANROOM/lwjgl3-jemalloc-3.3.4-27-CLEANROOM-natives-macos.jar",
-                    "sha1": "cef4f18bd610dffa4834ebc7aa9d9ac0b0b1a203",
-                    "size": 154458
+                    "path": "org/lwjgl/lwjgl-jemalloc/3.3.6/lwjgl-jemalloc-3.3.6-natives-macos.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-jemalloc/3.3.6/lwjgl-jemalloc-3.3.6-natives-macos.jar",
+                    "sha1": "09a42df0f2e9747815490311d7db7b4a046d5f40",
+                    "size": 136797
                 }
             },
             "rules": [
@@ -356,13 +356,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-jemalloc:3.3.4-27-CLEANROOM:natives-windows-arm64",
+            "name": "org.lwjgl:lwjgl-jemalloc:3.3.6:natives-windows-arm64",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-jemalloc/3.3.4-27-CLEANROOM/lwjgl3-jemalloc-3.3.4-27-CLEANROOM-natives-windows-arm64.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-jemalloc/3.3.4-27-CLEANROOM/lwjgl3-jemalloc-3.3.4-27-CLEANROOM-natives-windows-arm64.jar",
-                    "sha1": "f5b5ded7a850b049b9b29a9e2fc6bf5f594d8994",
-                    "size": 153138
+                    "path": "org/lwjgl/lwjgl-jemalloc/3.3.6/lwjgl-jemalloc-3.3.6-natives-windows-arm64.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-jemalloc/3.3.6/lwjgl-jemalloc-3.3.6-natives-windows-arm64.jar",
+                    "sha1": "c73aaec4f12678c18d94f173a625a2923f4a9f90",
+                    "size": 156149
                 }
             },
             "rules": [
@@ -381,13 +381,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-jemalloc:3.3.4-27-CLEANROOM:natives-windows-x86",
+            "name": "org.lwjgl:lwjgl-jemalloc:3.3.6:natives-windows-x86",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-jemalloc/3.3.4-27-CLEANROOM/lwjgl3-jemalloc-3.3.4-27-CLEANROOM-natives-windows-x86.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-jemalloc/3.3.4-27-CLEANROOM/lwjgl3-jemalloc-3.3.4-27-CLEANROOM-natives-windows-x86.jar",
-                    "sha1": "616bb73570044840e6955914f63ceeb46998a639",
-                    "size": 151299
+                    "path": "org/lwjgl/lwjgl-jemalloc/3.3.6/lwjgl-jemalloc-3.3.6-natives-windows-x86.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-jemalloc/3.3.6/lwjgl-jemalloc-3.3.6-natives-windows-x86.jar",
+                    "sha1": "c86043a342a33e5d32fabf962578580633db3c6e",
+                    "size": 152110
                 }
             },
             "rules": [
@@ -400,13 +400,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-jemalloc:3.3.4-27-CLEANROOM:natives-windows",
+            "name": "org.lwjgl:lwjgl-jemalloc:3.3.6:natives-windows",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-jemalloc/3.3.4-27-CLEANROOM/lwjgl3-jemalloc-3.3.4-27-CLEANROOM-natives-windows.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-jemalloc/3.3.4-27-CLEANROOM/lwjgl3-jemalloc-3.3.4-27-CLEANROOM-natives-windows.jar",
-                    "sha1": "b918a5db422ed6212788155a458938529aa2c14d",
-                    "size": 182575
+                    "path": "org/lwjgl/lwjgl-jemalloc/3.3.6/lwjgl-jemalloc-3.3.6-natives-windows.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-jemalloc/3.3.6/lwjgl-jemalloc-3.3.6-natives-windows.jar",
+                    "sha1": "0f9da76351e14a695be172d6915c8a7b2905307f",
+                    "size": 181163
                 }
             },
             "rules": [
@@ -419,13 +419,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-openal:3.3.4-27-CLEANROOM:natives-linux-arm64",
+            "name": "org.lwjgl:lwjgl-openal:3.3.6:natives-linux-arm64",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-openal/3.3.4-27-CLEANROOM/lwjgl3-openal-3.3.4-27-CLEANROOM-natives-linux-arm64.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-openal/3.3.4-27-CLEANROOM/lwjgl3-openal-3.3.4-27-CLEANROOM-natives-linux-arm64.jar",
-                    "sha1": "9acf2860c7002d8bcaf712f904b4f012e96a43c8",
-                    "size": 592755
+                    "path": "org/lwjgl/lwjgl-openal/3.3.6/lwjgl-openal-3.3.6-natives-linux-arm64.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-openal/3.3.6/lwjgl-openal-3.3.6-natives-linux-arm64.jar",
+                    "sha1": "fd2c17603c63e8d543cb57d1db77ebd4574f3b7a",
+                    "size": 656568
                 }
             },
             "rules": [
@@ -444,13 +444,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-openal:3.3.4-27-CLEANROOM:natives-linux-arm32",
+            "name": "org.lwjgl:lwjgl-openal:3.3.6:natives-linux-arm32",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-openal/3.3.4-27-CLEANROOM/lwjgl3-openal-3.3.4-27-CLEANROOM-natives-linux-arm32.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-openal/3.3.4-27-CLEANROOM/lwjgl3-openal-3.3.4-27-CLEANROOM-natives-linux-arm32.jar",
-                    "sha1": "095bdc8462ca15f16e34baf87e5c59614d4014aa",
-                    "size": 505408
+                    "path": "org/lwjgl/lwjgl-openal/3.3.6/lwjgl-openal-3.3.6-natives-linux-arm32.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-openal/3.3.6/lwjgl-openal-3.3.6-natives-linux-arm32.jar",
+                    "sha1": "7830af894fa110e65bf5075deb9183efbdbc50f5",
+                    "size": 604338
                 }
             },
             "rules": [
@@ -463,13 +463,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-openal:3.3.4-27-CLEANROOM:natives-linux",
+            "name": "org.lwjgl:lwjgl-openal:3.3.6:natives-linux",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-openal/3.3.4-27-CLEANROOM/lwjgl3-openal-3.3.4-27-CLEANROOM-natives-linux.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-openal/3.3.4-27-CLEANROOM/lwjgl3-openal-3.3.4-27-CLEANROOM-natives-linux.jar",
-                    "sha1": "d34006326d28fe4da4aa8d056b6d98ac12df819d",
-                    "size": 573020
+                    "path": "org/lwjgl/lwjgl-openal/3.3.6/lwjgl-openal-3.3.6-natives-linux.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-openal/3.3.6/lwjgl-openal-3.3.6-natives-linux.jar",
+                    "sha1": "ef356c04ef141d4efbde07793f31784f1f1a1bae",
+                    "size": 765147
                 }
             },
             "rules": [
@@ -482,13 +482,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-openal:3.3.4-27-CLEANROOM:natives-macos-arm64",
+            "name": "org.lwjgl:lwjgl-openal:3.3.6:natives-macos-arm64",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-openal/3.3.4-27-CLEANROOM/lwjgl3-openal-3.3.4-27-CLEANROOM-natives-macos-arm64.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-openal/3.3.4-27-CLEANROOM/lwjgl3-openal-3.3.4-27-CLEANROOM-natives-macos-arm64.jar",
-                    "sha1": "6ccbc673d99b9e7a44c7c53717b4b041beeb4c57",
-                    "size": 470796
+                    "path": "org/lwjgl/lwjgl-openal/3.3.6/lwjgl-openal-3.3.6-natives-macos-arm64.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-openal/3.3.6/lwjgl-openal-3.3.6-natives-macos-arm64.jar",
+                    "sha1": "13f692aec4ae4b2d3c468aa0008472175f0ea1e0",
+                    "size": 523209
                 }
             },
             "rules": [
@@ -507,13 +507,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-openal:3.3.4-27-CLEANROOM:natives-macos",
+            "name": "org.lwjgl:lwjgl-openal:3.3.6:natives-macos",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-openal/3.3.4-27-CLEANROOM/lwjgl3-openal-3.3.4-27-CLEANROOM-natives-macos.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-openal/3.3.4-27-CLEANROOM/lwjgl3-openal-3.3.4-27-CLEANROOM-natives-macos.jar",
-                    "sha1": "a1d45f96223c57b8c32414652abb21d6a9e098e4",
-                    "size": 519616
+                    "path": "org/lwjgl/lwjgl-openal/3.3.6/lwjgl-openal-3.3.6-natives-macos.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-openal/3.3.6/lwjgl-openal-3.3.6-natives-macos.jar",
+                    "sha1": "c39f6827f0bd97601fc4e389801d5c813f59a5f2",
+                    "size": 574093
                 }
             },
             "rules": [
@@ -526,13 +526,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-openal:3.3.4-27-CLEANROOM:natives-windows-arm64",
+            "name": "org.lwjgl:lwjgl-openal:3.3.6:natives-windows-arm64",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-openal/3.3.4-27-CLEANROOM/lwjgl3-openal-3.3.4-27-CLEANROOM-natives-windows-arm64.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-openal/3.3.4-27-CLEANROOM/lwjgl3-openal-3.3.4-27-CLEANROOM-natives-windows-arm64.jar",
-                    "sha1": "d77038de4634b32c3f22bfc7b67a09bc2d44ceda",
-                    "size": 615655
+                    "path": "org/lwjgl/lwjgl-openal/3.3.6/lwjgl-openal-3.3.6-natives-windows-arm64.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-openal/3.3.6/lwjgl-openal-3.3.6-natives-windows-arm64.jar",
+                    "sha1": "307f6b917dfab8c29f7e134e0ab147bfee10eb66",
+                    "size": 666648
                 }
             },
             "rules": [
@@ -551,13 +551,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-openal:3.3.4-27-CLEANROOM:natives-windows-x86",
+            "name": "org.lwjgl:lwjgl-openal:3.3.6:natives-windows-x86",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-openal/3.3.4-27-CLEANROOM/lwjgl3-openal-3.3.4-27-CLEANROOM-natives-windows-x86.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-openal/3.3.4-27-CLEANROOM/lwjgl3-openal-3.3.4-27-CLEANROOM-natives-windows-x86.jar",
-                    "sha1": "89a34d7b81bbd8453e73289e08dcaa2c5401c361",
-                    "size": 637049
+                    "path": "org/lwjgl/lwjgl-openal/3.3.6/lwjgl-openal-3.3.6-natives-windows-x86.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-openal/3.3.6/lwjgl-openal-3.3.6-natives-windows-x86.jar",
+                    "sha1": "82f693541d69aa125750bf8be9c4194435c56f03",
+                    "size": 697562
                 }
             },
             "rules": [
@@ -570,13 +570,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-openal:3.3.4-27-CLEANROOM:natives-windows",
+            "name": "org.lwjgl:lwjgl-openal:3.3.6:natives-windows",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-openal/3.3.4-27-CLEANROOM/lwjgl3-openal-3.3.4-27-CLEANROOM-natives-windows.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-openal/3.3.4-27-CLEANROOM/lwjgl3-openal-3.3.4-27-CLEANROOM-natives-windows.jar",
-                    "sha1": "ec2f1f38d2f3a5fd4e72387c963ea3cf5f9c1980",
-                    "size": 696635
+                    "path": "org/lwjgl/lwjgl-openal/3.3.6/lwjgl-openal-3.3.6-natives-windows.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-openal/3.3.6/lwjgl-openal-3.3.6-natives-windows.jar",
+                    "sha1": "9c2b9b660e085bb0b47a4453dc0e26f24a5475e4",
+                    "size": 761720
                 }
             },
             "rules": [
@@ -589,13 +589,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-opengl:3.3.4-27-CLEANROOM:natives-linux-arm64",
+            "name": "org.lwjgl:lwjgl-opengl:3.3.6:natives-linux-arm64",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-opengl/3.3.4-27-CLEANROOM/lwjgl3-opengl-3.3.4-27-CLEANROOM-natives-linux-arm64.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-opengl/3.3.4-27-CLEANROOM/lwjgl3-opengl-3.3.4-27-CLEANROOM-natives-linux-arm64.jar",
-                    "sha1": "ec5e7e0cc02d141be1ae6d7c50854bee32ce0f78",
-                    "size": 79554
+                    "path": "org/lwjgl/lwjgl-opengl/3.3.6/lwjgl-opengl-3.3.6-natives-linux-arm64.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-opengl/3.3.6/lwjgl-opengl-3.3.6-natives-linux-arm64.jar",
+                    "sha1": "44de180f79e0b45c9e5bee10ca7540dcb5ddd373",
+                    "size": 79414
                 }
             },
             "rules": [
@@ -614,13 +614,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-opengl:3.3.4-27-CLEANROOM:natives-linux-arm32",
+            "name": "org.lwjgl:lwjgl-opengl:3.3.6:natives-linux-arm32",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-opengl/3.3.4-27-CLEANROOM/lwjgl3-opengl-3.3.4-27-CLEANROOM-natives-linux-arm32.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-opengl/3.3.4-27-CLEANROOM/lwjgl3-opengl-3.3.4-27-CLEANROOM-natives-linux-arm32.jar",
-                    "sha1": "f79e47d51d4df61347b59ee1576306d0bd0586af",
-                    "size": 58694
+                    "path": "org/lwjgl/lwjgl-opengl/3.3.6/lwjgl-opengl-3.3.6-natives-linux-arm32.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-opengl/3.3.6/lwjgl-opengl-3.3.6-natives-linux-arm32.jar",
+                    "sha1": "ee815fbf454b916f13c10fff62e513eb09042ef0",
+                    "size": 58633
                 }
             },
             "rules": [
@@ -633,13 +633,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-opengl:3.3.4-27-CLEANROOM:natives-linux",
+            "name": "org.lwjgl:lwjgl-opengl:3.3.6:natives-linux",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-opengl/3.3.4-27-CLEANROOM/lwjgl3-opengl-3.3.4-27-CLEANROOM-natives-linux.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-opengl/3.3.4-27-CLEANROOM/lwjgl3-opengl-3.3.4-27-CLEANROOM-natives-linux.jar",
-                    "sha1": "8809c93b7330a4c865e3a6fd94785df5829a9b60",
-                    "size": 80656
+                    "path": "org/lwjgl/lwjgl-opengl/3.3.6/lwjgl-opengl-3.3.6-natives-linux.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-opengl/3.3.6/lwjgl-opengl-3.3.6-natives-linux.jar",
+                    "sha1": "b8dc6467fe232d552793c53dc56f9fa8a385299c",
+                    "size": 80466
                 }
             },
             "rules": [
@@ -652,13 +652,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-opengl:3.3.4-27-CLEANROOM:natives-macos-arm64",
+            "name": "org.lwjgl:lwjgl-opengl:3.3.6:natives-macos-arm64",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-opengl/3.3.4-27-CLEANROOM/lwjgl3-opengl-3.3.4-27-CLEANROOM-natives-macos-arm64.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-opengl/3.3.4-27-CLEANROOM/lwjgl3-opengl-3.3.4-27-CLEANROOM-natives-macos-arm64.jar",
-                    "sha1": "8014684b4b7e03a62273666f5b642cbc986d4a3c",
-                    "size": 42468
+                    "path": "org/lwjgl/lwjgl-opengl/3.3.6/lwjgl-opengl-3.3.6-natives-macos-arm64.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-opengl/3.3.6/lwjgl-opengl-3.3.6-natives-macos-arm64.jar",
+                    "sha1": "fee4fb2ee786af6530b6f9188205a76bc4e05268",
+                    "size": 42551
                 }
             },
             "rules": [
@@ -677,13 +677,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-opengl:3.3.4-27-CLEANROOM:natives-macos",
+            "name": "org.lwjgl:lwjgl-opengl:3.3.6:natives-macos",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-opengl/3.3.4-27-CLEANROOM/lwjgl3-opengl-3.3.4-27-CLEANROOM-natives-macos.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-opengl/3.3.4-27-CLEANROOM/lwjgl3-opengl-3.3.4-27-CLEANROOM-natives-macos.jar",
-                    "sha1": "638fd787e7727f7644c5540c68fb49e8fa8572aa",
-                    "size": 41466
+                    "path": "org/lwjgl/lwjgl-opengl/3.3.6/lwjgl-opengl-3.3.6-natives-macos.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-opengl/3.3.6/lwjgl-opengl-3.3.6-natives-macos.jar",
+                    "sha1": "59f708eb4bf0be0204bbc9c06807911724673db6",
+                    "size": 53873
                 }
             },
             "rules": [
@@ -696,13 +696,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-opengl:3.3.4-27-CLEANROOM:natives-windows-arm64",
+            "name": "org.lwjgl:lwjgl-opengl:3.3.6:natives-windows-arm64",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-opengl/3.3.4-27-CLEANROOM/lwjgl3-opengl-3.3.4-27-CLEANROOM-natives-windows-arm64.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-opengl/3.3.4-27-CLEANROOM/lwjgl3-opengl-3.3.4-27-CLEANROOM-natives-windows-arm64.jar",
-                    "sha1": "253f99becdb508cad9765574c6c218f609eaf9e1",
-                    "size": 82415
+                    "path": "org/lwjgl/lwjgl-opengl/3.3.6/lwjgl-opengl-3.3.6-natives-windows-arm64.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-opengl/3.3.6/lwjgl-opengl-3.3.6-natives-windows-arm64.jar",
+                    "sha1": "f504b9005d1a0264ddc756e2331f44a1881ae74c",
+                    "size": 83828
                 }
             },
             "rules": [
@@ -721,13 +721,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-opengl:3.3.4-27-CLEANROOM:natives-windows-x86",
+            "name": "org.lwjgl:lwjgl-opengl:3.3.6:natives-windows-x86",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-opengl/3.3.4-27-CLEANROOM/lwjgl3-opengl-3.3.4-27-CLEANROOM-natives-windows-x86.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-opengl/3.3.4-27-CLEANROOM/lwjgl3-opengl-3.3.4-27-CLEANROOM-natives-windows-x86.jar",
-                    "sha1": "82dbc2834416aafd5b2c4748c9b7f676cb47955c",
-                    "size": 88640
+                    "path": "org/lwjgl/lwjgl-opengl/3.3.6/lwjgl-opengl-3.3.6-natives-windows-x86.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-opengl/3.3.6/lwjgl-opengl-3.3.6-natives-windows-x86.jar",
+                    "sha1": "b0ab1d0e315d2fcc50d6cab7e8feaf4688d5d9a0",
+                    "size": 89383
                 }
             },
             "rules": [
@@ -740,13 +740,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-opengl:3.3.4-27-CLEANROOM:natives-windows",
+            "name": "org.lwjgl:lwjgl-opengl:3.3.6:natives-windows",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-opengl/3.3.4-27-CLEANROOM/lwjgl3-opengl-3.3.4-27-CLEANROOM-natives-windows.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-opengl/3.3.4-27-CLEANROOM/lwjgl3-opengl-3.3.4-27-CLEANROOM-natives-windows.jar",
-                    "sha1": "664642b4c7bd5f8fd30b6c6e1897db9793b20983",
-                    "size": 101546
+                    "path": "org/lwjgl/lwjgl-opengl/3.3.6/lwjgl-opengl-3.3.6-natives-windows.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-opengl/3.3.6/lwjgl-opengl-3.3.6-natives-windows.jar",
+                    "sha1": "18dc639ebc94aa5202c2157f7490d28997b697c5",
+                    "size": 98896
                 }
             },
             "rules": [
@@ -759,13 +759,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-stb:3.3.4-27-CLEANROOM:natives-linux-arm64",
+            "name": "org.lwjgl:lwjgl-stb:3.3.6:natives-linux-arm64",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-stb/3.3.4-27-CLEANROOM/lwjgl3-stb-3.3.4-27-CLEANROOM-natives-linux-arm64.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-stb/3.3.4-27-CLEANROOM/lwjgl3-stb-3.3.4-27-CLEANROOM-natives-linux-arm64.jar",
-                    "sha1": "a0a5d4a49666e6575c23101798e769901250608c",
-                    "size": 256680
+                    "path": "org/lwjgl/lwjgl-stb/3.3.6/lwjgl-stb-3.3.6-natives-linux-arm64.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-stb/3.3.6/lwjgl-stb-3.3.6-natives-linux-arm64.jar",
+                    "sha1": "397f588f867e9c4faf1a34231344c9209dabc052",
+                    "size": 256144
                 }
             },
             "rules": [
@@ -784,13 +784,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-stb:3.3.4-27-CLEANROOM:natives-linux-arm32",
+            "name": "org.lwjgl:lwjgl-stb:3.3.6:natives-linux-arm32",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-stb/3.3.4-27-CLEANROOM/lwjgl3-stb-3.3.4-27-CLEANROOM-natives-linux-arm32.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-stb/3.3.4-27-CLEANROOM/lwjgl3-stb-3.3.4-27-CLEANROOM-natives-linux-arm32.jar",
-                    "sha1": "cd7612dc37c4c29f8bd547063c11509826a41486",
-                    "size": 191996
+                    "path": "org/lwjgl/lwjgl-stb/3.3.6/lwjgl-stb-3.3.6-natives-linux-arm32.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-stb/3.3.6/lwjgl-stb-3.3.6-natives-linux-arm32.jar",
+                    "sha1": "f47bac442afcb7fd014af7d90892024fe3c0d920",
+                    "size": 191834
                 }
             },
             "rules": [
@@ -803,13 +803,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-stb:3.3.4-27-CLEANROOM:natives-linux",
+            "name": "org.lwjgl:lwjgl-stb:3.3.6:natives-linux",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-stb/3.3.4-27-CLEANROOM/lwjgl3-stb-3.3.4-27-CLEANROOM-natives-linux.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-stb/3.3.4-27-CLEANROOM/lwjgl3-stb-3.3.4-27-CLEANROOM-natives-linux.jar",
-                    "sha1": "0162d58ebb1074696bae28823873726c5bfaa629",
-                    "size": 271775
+                    "path": "org/lwjgl/lwjgl-stb/3.3.6/lwjgl-stb-3.3.6-natives-linux.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-stb/3.3.6/lwjgl-stb-3.3.6-natives-linux.jar",
+                    "sha1": "78f27d07accd70ca857049ea9fa0dc7d2f3875dc",
+                    "size": 270145
                 }
             },
             "rules": [
@@ -822,13 +822,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-stb:3.3.4-27-CLEANROOM:natives-macos-arm64",
+            "name": "org.lwjgl:lwjgl-stb:3.3.6:natives-macos-arm64",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-stb/3.3.4-27-CLEANROOM/lwjgl3-stb-3.3.4-27-CLEANROOM-natives-macos-arm64.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-stb/3.3.4-27-CLEANROOM/lwjgl3-stb-3.3.4-27-CLEANROOM-natives-macos-arm64.jar",
-                    "sha1": "e2b88d882e0f18513daac72f6d51e626f454d711",
-                    "size": 200056
+                    "path": "org/lwjgl/lwjgl-stb/3.3.6/lwjgl-stb-3.3.6-natives-macos-arm64.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-stb/3.3.6/lwjgl-stb-3.3.6-natives-macos-arm64.jar",
+                    "sha1": "1a0c5e9e5a8b049dccad7b7b137aab44f14c5d25",
+                    "size": 185447
                 }
             },
             "rules": [
@@ -847,13 +847,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-stb:3.3.4-27-CLEANROOM:natives-macos",
+            "name": "org.lwjgl:lwjgl-stb:3.3.6:natives-macos",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-stb/3.3.4-27-CLEANROOM/lwjgl3-stb-3.3.4-27-CLEANROOM-natives-macos.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-stb/3.3.4-27-CLEANROOM/lwjgl3-stb-3.3.4-27-CLEANROOM-natives-macos.jar",
-                    "sha1": "4672760ae96f95520415155b00a12476fbde3d4f",
-                    "size": 234039
+                    "path": "org/lwjgl/lwjgl-stb/3.3.6/lwjgl-stb-3.3.6-natives-macos.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-stb/3.3.6/lwjgl-stb-3.3.6-natives-macos.jar",
+                    "sha1": "d18b8016b1d458327ba987d398d7dd4fd20fb115",
+                    "size": 217126
                 }
             },
             "rules": [
@@ -866,13 +866,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-stb:3.3.4-27-CLEANROOM:natives-windows-arm64",
+            "name": "org.lwjgl:lwjgl-stb:3.3.6:natives-windows-arm64",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-stb/3.3.4-27-CLEANROOM/lwjgl3-stb-3.3.4-27-CLEANROOM-natives-windows-arm64.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-stb/3.3.4-27-CLEANROOM/lwjgl3-stb-3.3.4-27-CLEANROOM-natives-windows-arm64.jar",
-                    "sha1": "d9183c9aa58c14b14c61bb8bfdd87b23b6ebe8a1",
-                    "size": 242860
+                    "path": "org/lwjgl/lwjgl-stb/3.3.6/lwjgl-stb-3.3.6-natives-windows-arm64.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-stb/3.3.6/lwjgl-stb-3.3.6-natives-windows-arm64.jar",
+                    "sha1": "9f4369c17964cd589703a5acb4b78945fc6b9299",
+                    "size": 241471
                 }
             },
             "rules": [
@@ -891,13 +891,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-stb:3.3.4-27-CLEANROOM:natives-windows-x86",
+            "name": "org.lwjgl:lwjgl-stb:3.3.6:natives-windows-x86",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-stb/3.3.4-27-CLEANROOM/lwjgl3-stb-3.3.4-27-CLEANROOM-natives-windows-x86.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-stb/3.3.4-27-CLEANROOM/lwjgl3-stb-3.3.4-27-CLEANROOM-natives-windows-x86.jar",
-                    "sha1": "f13617a9f34d321908cf58f549a1e6fd190e3e8f",
-                    "size": 251902
+                    "path": "org/lwjgl/lwjgl-stb/3.3.6/lwjgl-stb-3.3.6-natives-windows-x86.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-stb/3.3.6/lwjgl-stb-3.3.6-natives-windows-x86.jar",
+                    "sha1": "bfe841629fc2ed6d772693c3a40a0c4b355567c9",
+                    "size": 253757
                 }
             },
             "rules": [
@@ -910,13 +910,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-stb:3.3.4-27-CLEANROOM:natives-windows",
+            "name": "org.lwjgl:lwjgl-stb:3.3.6:natives-windows",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-stb/3.3.4-27-CLEANROOM/lwjgl3-stb-3.3.4-27-CLEANROOM-natives-windows.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-stb/3.3.4-27-CLEANROOM/lwjgl3-stb-3.3.4-27-CLEANROOM-natives-windows.jar",
-                    "sha1": "a62b5072815a9dd390eda7bbe632406c871c1e09",
-                    "size": 287384
+                    "path": "org/lwjgl/lwjgl-stb/3.3.6/lwjgl-stb-3.3.6-natives-windows.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-stb/3.3.6/lwjgl-stb-3.3.6-natives-windows.jar",
+                    "sha1": "334cf885b39e2db9070c39e70e65efb136435f10",
+                    "size": 292021
                 }
             },
             "rules": [
@@ -929,13 +929,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-tinyfd:3.3.4-27-CLEANROOM:natives-linux-arm64",
+            "name": "org.lwjgl:lwjgl-tinyfd:3.3.6:natives-linux-arm64",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-tinyfd/3.3.4-27-CLEANROOM/lwjgl3-tinyfd-3.3.4-27-CLEANROOM-natives-linux-arm64.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-tinyfd/3.3.4-27-CLEANROOM/lwjgl3-tinyfd-3.3.4-27-CLEANROOM-natives-linux-arm64.jar",
-                    "sha1": "1defb0a64f6b8d85470d2bf010ed51ff6c6ac9bb",
-                    "size": 43449
+                    "path": "org/lwjgl/lwjgl-tinyfd/3.3.6/lwjgl-tinyfd-3.3.6-natives-linux-arm64.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-tinyfd/3.3.6/lwjgl-tinyfd-3.3.6-natives-linux-arm64.jar",
+                    "sha1": "7806e57c3d9ea6b6a552c72f5e2597343c4d4138",
+                    "size": 44504
                 }
             },
             "rules": [
@@ -954,13 +954,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-tinyfd:3.3.4-27-CLEANROOM:natives-linux-arm32",
+            "name": "org.lwjgl:lwjgl-tinyfd:3.3.6:natives-linux-arm32",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-tinyfd/3.3.4-27-CLEANROOM/lwjgl3-tinyfd-3.3.4-27-CLEANROOM-natives-linux-arm32.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-tinyfd/3.3.4-27-CLEANROOM/lwjgl3-tinyfd-3.3.4-27-CLEANROOM-natives-linux-arm32.jar",
-                    "sha1": "cb8c11638e4458080f98b0caef3c32fbbf0f2513",
-                    "size": 49733
+                    "path": "org/lwjgl/lwjgl-tinyfd/3.3.6/lwjgl-tinyfd-3.3.6-natives-linux-arm32.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-tinyfd/3.3.6/lwjgl-tinyfd-3.3.6-natives-linux-arm32.jar",
+                    "sha1": "800ad2c9492a7ccadb23886c9e231f60c12a9037",
+                    "size": 50599
                 }
             },
             "rules": [
@@ -973,13 +973,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-tinyfd:3.3.4-27-CLEANROOM:natives-linux",
+            "name": "org.lwjgl:lwjgl-tinyfd:3.3.6:natives-linux",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-tinyfd/3.3.4-27-CLEANROOM/lwjgl3-tinyfd-3.3.4-27-CLEANROOM-natives-linux.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-tinyfd/3.3.4-27-CLEANROOM/lwjgl3-tinyfd-3.3.4-27-CLEANROOM-natives-linux.jar",
-                    "sha1": "1b87e969bba6b3fb7b347210ba90a7647aae174c",
-                    "size": 45451
+                    "path": "org/lwjgl/lwjgl-tinyfd/3.3.6/lwjgl-tinyfd-3.3.6-natives-linux.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-tinyfd/3.3.6/lwjgl-tinyfd-3.3.6-natives-linux.jar",
+                    "sha1": "72fbfe4aa675fe6c95fe7b2a1e11b514dc1c39e5",
+                    "size": 45677
                 }
             },
             "rules": [
@@ -992,13 +992,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-tinyfd:3.3.4-27-CLEANROOM:natives-macos-arm64",
+            "name": "org.lwjgl:lwjgl-tinyfd:3.3.6:natives-macos-arm64",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-tinyfd/3.3.4-27-CLEANROOM/lwjgl3-tinyfd-3.3.4-27-CLEANROOM-natives-macos-arm64.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-tinyfd/3.3.4-27-CLEANROOM/lwjgl3-tinyfd-3.3.4-27-CLEANROOM-natives-macos-arm64.jar",
-                    "sha1": "efba1976bea5faafe3aaabb0461d10c1ac6d5c0f",
-                    "size": 42410
+                    "path": "org/lwjgl/lwjgl-tinyfd/3.3.6/lwjgl-tinyfd-3.3.6-natives-macos-arm64.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-tinyfd/3.3.6/lwjgl-tinyfd-3.3.6-natives-macos-arm64.jar",
+                    "sha1": "5717cc0a0e6072fda1566fa16e0790c805543c00",
+                    "size": 33930
                 }
             },
             "rules": [
@@ -1017,13 +1017,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-tinyfd:3.3.4-27-CLEANROOM:natives-macos",
+            "name": "org.lwjgl:lwjgl-tinyfd:3.3.6:natives-macos",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-tinyfd/3.3.4-27-CLEANROOM/lwjgl3-tinyfd-3.3.4-27-CLEANROOM-natives-macos.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-tinyfd/3.3.4-27-CLEANROOM/lwjgl3-tinyfd-3.3.4-27-CLEANROOM-natives-macos.jar",
-                    "sha1": "2e98ca816f3799450b791f2d51eed553aa67d730",
-                    "size": 45985
+                    "path": "org/lwjgl/lwjgl-tinyfd/3.3.6/lwjgl-tinyfd-3.3.6-natives-macos.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-tinyfd/3.3.6/lwjgl-tinyfd-3.3.6-natives-macos.jar",
+                    "sha1": "e7581dd7e7ff22628b185fd1966fcf1468aa16da",
+                    "size": 36320
                 }
             },
             "rules": [
@@ -1036,13 +1036,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-tinyfd:3.3.4-27-CLEANROOM:natives-windows-arm64",
+            "name": "org.lwjgl:lwjgl-tinyfd:3.3.6:natives-windows-arm64",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-tinyfd/3.3.4-27-CLEANROOM/lwjgl3-tinyfd-3.3.4-27-CLEANROOM-natives-windows-arm64.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-tinyfd/3.3.4-27-CLEANROOM/lwjgl3-tinyfd-3.3.4-27-CLEANROOM-natives-windows-arm64.jar",
-                    "sha1": "a272ef20fed86cefe009091ab9a904a2c6db957b",
-                    "size": 112201
+                    "path": "org/lwjgl/lwjgl-tinyfd/3.3.6/lwjgl-tinyfd-3.3.6-natives-windows-arm64.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-tinyfd/3.3.6/lwjgl-tinyfd-3.3.6-natives-windows-arm64.jar",
+                    "sha1": "aaff12e4f1a62a78160f4f2039d08a87e36b3b47",
+                    "size": 113002
                 }
             },
             "rules": [
@@ -1061,13 +1061,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-tinyfd:3.3.4-27-CLEANROOM:natives-windows-x86",
+            "name": "org.lwjgl:lwjgl-tinyfd:3.3.6:natives-windows-x86",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-tinyfd/3.3.4-27-CLEANROOM/lwjgl3-tinyfd-3.3.4-27-CLEANROOM-natives-windows-x86.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-tinyfd/3.3.4-27-CLEANROOM/lwjgl3-tinyfd-3.3.4-27-CLEANROOM-natives-windows-x86.jar",
-                    "sha1": "5cdb58fb74b60b4347a5a2c881f70adf82d7f4be",
-                    "size": 111767
+                    "path": "org/lwjgl/lwjgl-tinyfd/3.3.6/lwjgl-tinyfd-3.3.6-natives-windows-x86.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-tinyfd/3.3.6/lwjgl-tinyfd-3.3.6-natives-windows-x86.jar",
+                    "sha1": "a0d90f39fa30552f527873c1c39017e1e18b946b",
+                    "size": 112484
                 }
             },
             "rules": [
@@ -1080,13 +1080,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3-tinyfd:3.3.4-27-CLEANROOM:natives-windows",
+            "name": "org.lwjgl:lwjgl-tinyfd:3.3.6:natives-windows",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3-tinyfd/3.3.4-27-CLEANROOM/lwjgl3-tinyfd-3.3.4-27-CLEANROOM-natives-windows.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3-tinyfd/3.3.4-27-CLEANROOM/lwjgl3-tinyfd-3.3.4-27-CLEANROOM-natives-windows.jar",
-                    "sha1": "826cbe66bb582f63f63899af898952b5c5a88a98",
-                    "size": 131465
+                    "path": "org/lwjgl/lwjgl-tinyfd/3.3.6/lwjgl-tinyfd-3.3.6-natives-windows.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl-tinyfd/3.3.6/lwjgl-tinyfd-3.3.6-natives-windows.jar",
+                    "sha1": "e2edcbe44ae26d2914156386e224b67f4b47c442",
+                    "size": 131024
                 }
             },
             "rules": [
@@ -1099,13 +1099,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3:3.3.4-27-CLEANROOM:natives-linux-arm64",
+            "name": "org.lwjgl:lwjgl:3.3.6:natives-linux-arm64",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3/3.3.4-27-CLEANROOM/lwjgl3-3.3.4-27-CLEANROOM-natives-linux-arm64.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3/3.3.4-27-CLEANROOM/lwjgl3-3.3.4-27-CLEANROOM-natives-linux-arm64.jar",
-                    "sha1": "84eb514ec951346d23d5b8edfb072d2c30aa1c07",
-                    "size": 91420
+                    "path": "org/lwjgl/lwjgl/3.3.6/lwjgl-3.3.6-natives-linux-arm64.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl/3.3.6/lwjgl-3.3.6-natives-linux-arm64.jar",
+                    "sha1": "9eeb8887b5e3aa672efd2e1b0973ffa5891a3151",
+                    "size": 117172
                 }
             },
             "rules": [
@@ -1124,13 +1124,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3:3.3.4-27-CLEANROOM:natives-linux-arm32",
+            "name": "org.lwjgl:lwjgl:3.3.6:natives-linux-arm32",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3/3.3.4-27-CLEANROOM/lwjgl3-3.3.4-27-CLEANROOM-natives-linux-arm32.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3/3.3.4-27-CLEANROOM/lwjgl3-3.3.4-27-CLEANROOM-natives-linux-arm32.jar",
-                    "sha1": "d9345670418cf90e21521e011e1b6f6b0049bfbb",
-                    "size": 72799
+                    "path": "org/lwjgl/lwjgl/3.3.6/lwjgl-3.3.6-natives-linux-arm32.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl/3.3.6/lwjgl-3.3.6-natives-linux-arm32.jar",
+                    "sha1": "2c9d698e76c3d0fe307d94cc6f428038492f25df",
+                    "size": 88490
                 }
             },
             "rules": [
@@ -1143,13 +1143,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3:3.3.4-27-CLEANROOM:natives-linux",
+            "name": "org.lwjgl:lwjgl:3.3.6:natives-linux",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3/3.3.4-27-CLEANROOM/lwjgl3-3.3.4-27-CLEANROOM-natives-linux.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3/3.3.4-27-CLEANROOM/lwjgl3-3.3.4-27-CLEANROOM-natives-linux.jar",
-                    "sha1": "85cd444a52c43e6e1c39231e0e3a92d724f35f6b",
-                    "size": 94612
+                    "path": "org/lwjgl/lwjgl/3.3.6/lwjgl-3.3.6-natives-linux.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl/3.3.6/lwjgl-3.3.6-natives-linux.jar",
+                    "sha1": "dc7db8fc4f1e6563867f9155b9a42d9c73d8992f",
+                    "size": 121299
                 }
             },
             "rules": [
@@ -1162,13 +1162,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3:3.3.4-27-CLEANROOM:natives-macos-arm64",
+            "name": "org.lwjgl:lwjgl:3.3.6:natives-macos-arm64",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3/3.3.4-27-CLEANROOM/lwjgl3-3.3.4-27-CLEANROOM-natives-macos-arm64.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3/3.3.4-27-CLEANROOM/lwjgl3-3.3.4-27-CLEANROOM-natives-macos-arm64.jar",
-                    "sha1": "f8a4b4f48f7f77bfc9c8e0d81935fb8d8734a390",
-                    "size": 37787
+                    "path": "org/lwjgl/lwjgl/3.3.6/lwjgl-3.3.6-natives-macos-arm64.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl/3.3.6/lwjgl-3.3.6-natives-macos-arm64.jar",
+                    "sha1": "832e2964ce74e02e768814a29c06d60645115b9a",
+                    "size": 50369
                 }
             },
             "rules": [
@@ -1187,13 +1187,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3:3.3.4-27-CLEANROOM:natives-macos",
+            "name": "org.lwjgl:lwjgl:3.3.6:natives-macos",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3/3.3.4-27-CLEANROOM/lwjgl3-3.3.4-27-CLEANROOM-natives-macos.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3/3.3.4-27-CLEANROOM/lwjgl3-3.3.4-27-CLEANROOM-natives-macos.jar",
-                    "sha1": "499f9d7edb0fcb0c539d327dd1b7f202cf5a7c7f",
-                    "size": 49192
+                    "path": "org/lwjgl/lwjgl/3.3.6/lwjgl-3.3.6-natives-macos.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl/3.3.6/lwjgl-3.3.6-natives-macos.jar",
+                    "sha1": "f14e7a5289d2355822f4f83b3fd38d158c939acd",
+                    "size": 75211
                 }
             },
             "rules": [
@@ -1206,13 +1206,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3:3.3.4-27-CLEANROOM:natives-windows-arm64",
+            "name": "org.lwjgl:lwjgl:3.3.6:natives-windows-arm64",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3/3.3.4-27-CLEANROOM/lwjgl3-3.3.4-27-CLEANROOM-natives-windows-arm64.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3/3.3.4-27-CLEANROOM/lwjgl3-3.3.4-27-CLEANROOM-natives-windows-arm64.jar",
-                    "sha1": "61bd89b7579f7a4023ad441181d490aac5f4de6c",
-                    "size": 123119
+                    "path": "org/lwjgl/lwjgl/3.3.6/lwjgl-3.3.6-natives-windows-arm64.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl/3.3.6/lwjgl-3.3.6-natives-windows-arm64.jar",
+                    "sha1": "227174aa24c303261e68e4741c90b504e6011f5c",
+                    "size": 140009
                 }
             },
             "rules": [
@@ -1231,13 +1231,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3:3.3.4-27-CLEANROOM:natives-windows-x86",
+            "name": "org.lwjgl:lwjgl:3.3.6:natives-windows-x86",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3/3.3.4-27-CLEANROOM/lwjgl3-3.3.4-27-CLEANROOM-natives-windows-x86.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3/3.3.4-27-CLEANROOM/lwjgl3-3.3.4-27-CLEANROOM-natives-windows-x86.jar",
-                    "sha1": "6cf4eb12890dbd36d08440eca0dc266f1e2e3461",
-                    "size": 129751
+                    "path": "org/lwjgl/lwjgl/3.3.6/lwjgl-3.3.6-natives-windows-x86.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl/3.3.6/lwjgl-3.3.6-natives-windows-x86.jar",
+                    "sha1": "7a6f04e02429ba2f4bda9be191347bb7d3c71127",
+                    "size": 144049
                 }
             },
             "rules": [
@@ -1250,13 +1250,13 @@
             ]
         },
         {
-            "name": "org.lwjgl3:lwjgl3:3.3.4-27-CLEANROOM:natives-windows",
+            "name": "org.lwjgl:lwjgl:3.3.6:natives-windows",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl3/lwjgl3/3.3.4-27-CLEANROOM/lwjgl3-3.3.4-27-CLEANROOM-natives-windows.jar",
-                    "url": "https://repo.cleanroommc.com/snapshots/org/lwjgl3/lwjgl3/3.3.4-27-CLEANROOM/lwjgl3-3.3.4-27-CLEANROOM-natives-windows.jar",
-                    "sha1": "729e6f638ab48bb90ae0b5bfe878164fbd60319a",
-                    "size": 152632
+                    "path": "org/lwjgl/lwjgl/3.3.6/lwjgl-3.3.6-natives-windows.jar",
+                    "url": "https://maven.minecraftforge.net/org/lwjgl/lwjgl/3.3.6/lwjgl-3.3.6-natives-windows.jar",
+                    "sha1": "9a29b6a22fc5184604b8cb434ee5d5ecc4bfcbee",
+                    "size": 168988
                 }
             },
             "rules": [
@@ -1273,6 +1273,6 @@
     "releaseTime": "2017-04-05T13:58:01+00:00",
     "type": "release",
     "uid": "org.lwjgl3",
-    "version": "3.3.4-27-CLEANROOM",
+    "version": "3.3.6",
     "volatile": true
 }

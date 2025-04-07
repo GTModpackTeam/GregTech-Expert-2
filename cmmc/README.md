@@ -20,7 +20,7 @@
 
 ## Self download mods
 - [Fugue](https://www.curseforge.com/minecraft/mc-mods/fugue) by CleanroomMC
-- [Scalar](https://www.curseforge.com/minecraft/mc-mods/scalar/files/5309537) by CleanroomMC
+- [Scalar](https://www.curseforge.com/minecraft/mc-mods/scalar/files/6130572) by CleanroomMC
 
 ## Optional mods
 - [Vintagium](https://github.com/Asek3/sodium-1.12) by Asek3
