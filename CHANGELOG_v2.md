@@ -1,7 +1,19 @@
+# v2.7.12
+## New mods
+- Hot or Not Plus (1.1.10)
+- Hot or Not GTCEu (1.1.0)
+
+## Update mods
+- CraftTweaker (4.1.20.700 -> 4.1.20.703)
+- Forgelin-Continuous (2.1.10.0 -> 2.1.20.0)
+- VintageFix (0.5.5 -> 0.5.6)
+
+***
+
 # v2.7.11
 ## Modpack information
 ### Fix
-- No animations for the working machines in #412
+- No animations for the working machines in [#412](https://github.com/GTModpackTeam/GregTech-Expert-2/issues/412)
 
 ## Update mods
 - Entity Culling (6.4.3 -> 6.5.0)

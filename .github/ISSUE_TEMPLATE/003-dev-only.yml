@@ -1,5 +1,6 @@
 name: 'Dev Only Issue'
 description: "This select the dev only issue template."
+type: Task
 body:
   - type: textarea
     attributes:
