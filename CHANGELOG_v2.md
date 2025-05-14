@@ -9,7 +9,6 @@
 - Forgelin-Continuous (2.1.10.0 -> 2.1.20.0)
 - GTExpertCore (2.4.8 -> 2.4.9)
 - GregTech Food Option (1.12.4 -> 1.12.5)
-- Modern Splash (1.3.1 -> 1.4.0)
 - RenderLib (1.4.3 -> 1.4.5)
 - StellarCore (1.5.21 -> 1.5.22)
 - UniLib (1.0.5 -> 1.1.0)
