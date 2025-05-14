@@ -87,31 +87,10 @@ jobs:
         run: |
           if [[ "${{ matrix.buildType }}" == "lwjgl3" ]]; then
             sed -i "s/B:EnableCustomGameTitle=false/B:EnableCustomGameTitle=true/" overrides/config/stellar_core.cfg
-            cp -rvf cmmc/bansoukou/ overrides/
+            cp -rvf cmmc/* overrides/
             mv overrides .minecraft
             cp icon.png .minecraft/
             zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}-mmc.zip libraries/ patches/ mmc-pack.json instance.cfg .minecraft/
-            mv serverfiles/* ./
-            rm -vf .minecraft/mods/!Red-Core-*
-            rm -vf .minecraft/mods/Alfheim-*
-            rm -vf .minecraft/mods/Valkyrie-*
-            rm -vf .minecraft/mods/CraftPresence-*
-            rm -vf .minecraft/mods/Controlling-*
-            rm -vf .minecraft/mods/UniLib-*
-            rm -vf .minecraft/mods/CustomMainMenu-*
-            rm -vf .minecraft/mods/Fixeroo-*
-            rm -vf .minecraft/mods/FpsReducer-*
-            rm -vf .minecraft/mods/modernsplash-*
-            rm -vf .minecraft/mods/RenderLib-*
-            rm -vf .minecraft/mods/particleculling-*
-            rm -vf .minecraft/mods/EntityCulling-*
-            rm -vf .minecraft/mods/SmoothFont-*
-            rm -vf .minecraft/mods/InGameInfoXML-*
-            rm -vf .minecraft/mods/oauth-*
-            rm -vf .minecraft/mods/UntranslatedItems-*
-            rm -vf .minecraft/mods/vintagefix-*
-            mv -vf .minecraft/* ./
-            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}-server.zip docker-compose.yml PleaseRead.txt log4j2_112-116.xml Install.* ServerStart.* settings.* TmuxServer.sh bansoukou/ config/ local/ mods/ resources/ scripts/
           else
             zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}-cf.zip ./manifest.json ./modlist.html ./overrides/bansoukou/ ./overrides/config/ ./overrides/local/ ./overrides/resourcepacks/ ./overrides/scripts/
             mv overrides .minecraft
