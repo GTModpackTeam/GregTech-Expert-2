@@ -1,7 +1,7 @@
-name: Deploy modpack
+name: Deploy Modpack
 
 permissions:
-  contents: write
+  contents: read
   deployments: write
 
 on:
@@ -14,36 +14,33 @@ on:
         description: 'Release type'
         type: choice
         default: 'release'
-        options:
-          - 'release'
-          - 'beta'
-          - 'alpha'
+        options: [release, beta, alpha]
 
 env:
+  NAME: "GTExpert2"
   VERSION_NORMAL: "v${{ github.event.inputs.version }}-${{ github.event.inputs.release_type }}"
   VERSION_LWJGL3: "v${{ github.event.inputs.version }}-${{ github.event.inputs.release_type }}-lwjgl3"
-  NAME: "GTExpert2"
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        version: [ "NORMAL", "LWJGL3" ]
+        buildType: [standard, lwjgl3]
 
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Check if tag already exists
-        run: |
-          if git rev-parse --verify --quiet "v${{ github.event.inputs.version }}"; then
-            echo "Version ${{ github.event.inputs.version }} already exists, aborting workflow."
-            exit 1
-          fi
-
-      - name: Setup Build
-        uses: ./.github/actions/build_setup
+      - name: Restore cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.m2/repository
+            ~/.cache/pip
+          key: ${{ runner.os }}-deps-${{ matrix.buildType }}-${{ hashFiles('**/pom.xml') }}
 
       - name: Download Resource Packs zip
         run: |
@@ -51,123 +48,157 @@ jobs:
           ASSET_URL=$(echo $GITHUB_RELEASE | jq -r '.[]."assets"[]."browser_download_url"' | grep "resourcepack" | head -1)
           ASSET_NAME=$(echo $ASSET_URL | awk -F'/' '{print $NF}')
           wget -O ./overrides/resourcepacks/$ASSET_NAME $ASSET_URL
-      
-      - name: Set the version
+
+      - name: Setup Build Environment
+        uses: ./.github/actions/build_setup
+
+      - name: Create artifacts directory
+        run: mkdir -p artifacts
+
+      - name: Set Modpack Version
         run: |
-          sed -i -e "s/MODPACKVERSION/v${{ github.event.inputs.version }}/g" ./manifest.json
-          sed -i -e "s/MODPACKVERSION/v${{ github.event.inputs.version }}/g" ./instance.cfg
-          sed -i -e "s/MODPACKVERSION/v${{ github.event.inputs.version }}/g" ./overrides/config/craftpresence.json
+          if [[ "${{ matrix.buildType }}" == "lwjgl3" ]]; then
+            VER="${{ env.VERSION_LWJGL3 }}"
+            echo "[CleanroomMMC] GregTech Expert 2 $VER" > overrides/config/txloader/load/custommainmenu/version.txt
+          else
+            VER="${{ env.VERSION_NORMAL }}"
+            echo "GregTech Expert 2 $VER" > ./overrides/config/txloader/load/custommainmenu/version.txt
+          fi
+          sed -i "s/MODPACKVERSION/$VER/g" manifest.json instance.cfg overrides/config/craftpresence.json
 
-      - if: matrix.version == 'LWJGL3'
-        name: Set the version (LWJGL3)
-        run: echo "[CleanroomMMC] GregTech Expert 2 ${{ env.VERSION_LWJGL3 }}" > ./overrides/config/txloader/load/custommainmenu/version.txt
-
-      - if: matrix.version == 'NORMAL'
-        name: Set the version (NORMAL)
-        run: echo "GregTech Expert 2 ${{ env.VERSION_NORMAL }}" > ./overrides/config/txloader/load/custommainmenu/version.txt
-
-      - if: matrix.version == 'LWJGL3'
-        name: Remove lwjgl3 not supported mods
+      - name: Adjust for LWJGL3
+        if: matrix.buildType == 'lwjgl3'
         run: |
           python buildtools/gen-lwjgl3-manifest.py
-          cp -vf ./cmmc/manifest.json ./manifest.json
+          cp -vf cmmc/manifest.json manifest.json
 
-      - name: Remaove .gitkeep files
-        run: find . -name ".gitkeep" -type f -delete
-
-      - name: Run Python
+      - name: Install Mods
         env:
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
         run: python buildtools/mod-install.py
 
-      - if: matrix.version == 'NORMAL'
-        name: Archive Release CF (NORMAL)
-        run: zip -r ./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-cf.zip ./manifest.json ./modlist.html ./manifest.json ./modlist.html ./overrides/bansoukou/ ./overrides/config/ ./overrides/local/ ./overrides/resourcepacks/ ./overrides/scripts/
+      - name: Clean up placeholder files
+        run: find . -name ".gitkeep" -delete
 
-      - if: matrix.version == 'LWJGL3'
-        name: Archive Release MMC (LWJGL3)
+      - name: Package Artifacts
         run: |
-          sed -i -e "s/B:EnableCustomGameTitle=false/B:EnableCustomGameTitle=true/g" ./overrides/config/stellar_core.cfg
-          cp -rvf ./cmmc/bansoukou/ ./overrides/
-          rm -Rf ./cmmc/bansoukou/
-          mv -vf ./overrides/ .minecraft/
-          cp -vf ./icon.png .minecraft/
-          cp -rvf ./cmmc/* ./
-          zip -r ./${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}-cmmc.zip ./libraries/ ./patches/ ./mmc-pack.json ./instance.cfg .minecraft/
+          if [[ "${{ matrix.buildType }}" == "lwjgl3" ]]; then
+            sed -i "s/B:EnableCustomGameTitle=false/B:EnableCustomGameTitle=true/" overrides/config/stellar_core.cfg
+            cp -rvf cmmc/bansoukou/ overrides/
+            mv overrides .minecraft
+            cp icon.png .minecraft/
+            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}-mmc.zip libraries/ patches/ mmc-pack.json instance.cfg .minecraft/
+            mv serverfiles/* ./
+            rm -vf .minecraft/mods/!Red-Core-*
+            rm -vf .minecraft/mods/Alfheim-*
+            rm -vf .minecraft/mods/Valkyrie-*
+            rm -vf .minecraft/mods/CraftPresence-*
+            rm -vf .minecraft/mods/Controlling-*
+            rm -vf .minecraft/mods/UniLib-*
+            rm -vf .minecraft/mods/CustomMainMenu-*
+            rm -vf .minecraft/mods/Fixeroo-*
+            rm -vf .minecraft/mods/FpsReducer-*
+            rm -vf .minecraft/mods/modernsplash-*
+            rm -vf .minecraft/mods/RenderLib-*
+            rm -vf .minecraft/mods/particleculling-*
+            rm -vf .minecraft/mods/EntityCulling-*
+            rm -vf .minecraft/mods/SmoothFont-*
+            rm -vf .minecraft/mods/InGameInfoXML-*
+            rm -vf .minecraft/mods/oauth-*
+            rm -vf .minecraft/mods/UntranslatedItems-*
+            rm -vf .minecraft/mods/vintagefix-*
+            mv -vf .minecraft/* ./
+            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}-server.zip docker-compose.yml PleaseRead.txt log4j2_112-116.xml Install.* ServerStart.* settings.* TmuxServer.sh bansoukou/ config/ local/ mods/ resources/ scripts/
+          else
+            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}-cf.zip ./manifest.json ./modlist.html ./overrides/bansoukou/ ./overrides/config/ ./overrides/local/ ./overrides/resourcepacks/ ./overrides/scripts/
+            mv overrides .minecraft
+            cp icon.png .minecraft/
+            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}-mmc.zip mmc-pack.json instance.cfg .minecraft/
+            mv serverfiles/* ./
+            rm -vf .minecraft/mods/!Red-Core-*
+            rm -vf .minecraft/mods/Alfheim-*
+            rm -vf .minecraft/mods/Valkyrie-*
+            rm -vf .minecraft/mods/CraftPresence-*
+            rm -vf .minecraft/mods/Controlling-*
+            rm -vf .minecraft/mods/UniLib-*
+            rm -vf .minecraft/mods/CustomMainMenu-*
+            rm -vf .minecraft/mods/Fixeroo-*
+            rm -vf .minecraft/mods/FpsReducer-*
+            rm -vf .minecraft/mods/modernsplash-*
+            rm -vf .minecraft/mods/RenderLib-*
+            rm -vf .minecraft/mods/particleculling-*
+            rm -vf .minecraft/mods/EntityCulling-*
+            rm -vf .minecraft/mods/SmoothFont-*
+            rm -vf .minecraft/mods/InGameInfoXML-*
+            rm -vf .minecraft/mods/oauth-*
+            rm -vf .minecraft/mods/UntranslatedItems-*
+            rm -vf .minecraft/mods/vintagefix-*
+            mv -vf .minecraft/* ./
+            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}-server.zip docker-compose.yml PleaseRead.txt log4j2_112-116.xml Install.* ServerStart.* settings.* TmuxServer.sh bansoukou/ config/ local/ mods/ resources/ scripts/
+          fi
 
-      - if: matrix.version == 'NORMAL'
-        name: Archive Release MMC (NORMAL)
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.buildType }}-artifacts
+          path: artifacts/
+          retention-days: 1
+
+  release:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Download All Artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: downloads
+
+      - name: Aggregate Artifacts
         run: |
-          mv -vf ./overrides/ .minecraft/
-          cp -vf ./icon.png .minecraft/
-          zip -r ./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-mmc.zip ./mmc-pack.json ./instance.cfg .minecraft/
+          mkdir -p artifacts
+          for d in downloads/*; do
+            if [ -d "$d" ]; then
+              cp -r "$d"/* artifacts/ || true
+            fi
+          done
 
-      - if: matrix.version == 'NORMAL'
-        name: Move Server Files
+      - name: Check or create tag
         run: |
-          mv -vf ./serverfiles/* ./
+          if git rev-parse --verify --quiet "${{ env.VERSION_NORMAL }}"; then
+            echo "Tag exists."
+          else
+            git config --local user.name "github-actions"
+            git config --local user.email "actions@github.com"
+            git tag ${{ env.VERSION_NORMAL }}
+            git push origin ${{ env.VERSION_NORMAL }}
+          fi
 
-      - name: Remove Client Only Mods
-        run: |
-          rm -vf .minecraft/mods/!Red-Core-*
-          rm -vf .minecraft/mods/Alfheim-*
-          rm -vf .minecraft/mods/Valkyrie-*
-          rm -vf .minecraft/mods/CraftPresence-*
-          rm -vf .minecraft/mods/Controlling-*
-          rm -vf .minecraft/mods/UniLib-*
-          rm -vf .minecraft/mods/CustomMainMenu-*
-          rm -vf .minecraft/mods/Fixeroo-*
-          rm -vf .minecraft/mods/FpsReducer-*
-          rm -vf .minecraft/mods/modernsplash-*
-          rm -vf .minecraft/mods/RenderLib-*
-          rm -vf .minecraft/mods/particleculling-*
-          rm -vf .minecraft/mods/EntityCulling-*
-          rm -vf .minecraft/mods/SmoothFont-*
-          rm -vf .minecraft/mods/InGameInfoXML-*
-          rm -vf .minecraft/mods/oauth-*
-          rm -vf .minecraft/mods/UntranslatedItems-*
-          rm -vf .minecraft/mods/vintagefix-*
-
-      - if: matrix.version == 'NORMAL'
-        name: Archive Release Server
-        run: |
-          mv -vf .minecraft/* ./
-          zip -r ./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-server.zip ./docker-compose.yml ./PleaseRead.txt ./log4j2_112-116.xml ./Install.bat ./Install.sh ./ServerStart.bat ./ServerStart.sh ./settings.bat ./settings.sh ./TmuxServer.sh ./bansoukou/ ./config/ ./local/ ./mods/ ./resources/ ./scripts/
-
-      - if: matrix.version == 'NORMAL'
-        name: Create GitHub Release (NORMAL)
+      - name: Create or update GitHub Release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ env.VERSION_NORMAL }}
-          generate_release_notes: true
-          files: |
-            ./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-cf.zip
-            ./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-mmc.zip
-            ./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-server.zip
-
-      - if: matrix.version == 'LWJGL3'
-        name: Create GitHub Release (LWJGL3)
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: ${{ env.VERSION_LWJGL3 }}
+          name: "Modpack ${{ env.VERSION_NORMAL }}"
           body: |
-            Note - This is LWJGL3 build and only available for MMC / PrismLauncher.
-            FOLLOW THE INSTALLATION GUIDE [HERE](https://github.com/GTModpackTeam/GregTech-Expert-2/blob/main/cmmc/README.md).
-            ---
-          generate_release_notes: true
-          files: |
-            ./${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}-cmmc.zip
+            ## GregTech Expert 2 - ${{ github.event.inputs.release_type | capitalize }} Release
 
-      # - name: Upload Curseforge
-      #   uses: HaXrBOT/upload-curseforge-modpack-action@v1.2.0
-      #   with: 
-      #     api-token: "${{ secrets.CF_API_TOKEN }}"
-      #     project-id: "565238"
-      #     modpack-path: "./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-cf.zip"
-      #     modpack-server-path: "./${{ env.NAME }}-${{ env.VERSION_NORMAL }}-server.zip"
-      #     changelog-path: "CHANGELOG_v2.md"
-      #     changelog-format: "markdown"
-      #     game-version: "1.12.2"
-      #     display-name: "${{ env.NAME }}-${{ env.VERSION_NORMAL }}"
-      #     server-display-name: "${{ env.NAME }}-${{ env.VERSION_NORMAL }}-server"
-      #     release-type: "${{ github.event.inputs.release_type }}"
+            This preview includes:
+            - **Standard** (CurseForge / MultiMC / PrismLauncher / Server)
+            - **LWJGL3** (MultiMC / PrismLauncher only)
+
+            See installation guide for LWJGL3 [here](https://github.com/GTModpackTeam/GregTech-Expert-2/blob/main/cmmc/README.md).
+          prerelease: false
+          files: |
+            artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}-cf.zip
+            artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}-mmc.zip
+            artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}-server.zip
+            artifacts/${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}-mmc.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
