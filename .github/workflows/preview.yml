@@ -65,7 +65,7 @@ jobs:
             echo "[CleanroomMMC] GregTech Expert 2 $VER" > overrides/config/txloader/load/custommainmenu/version.txt
           else
             VER="${{ env.VERSION_NORMAL }}"
-            echo "GregTech Expert 2 $VER" > ./overrides/config/txloader/load/custommainmenu/version.txt
+            echo "GregTech Expert 2 $VER" > overrides/config/txloader/load/custommainmenu/version.txt
           fi
           sed -i "s/MODPACKVERSION/$VER/g" manifest.json instance.cfg overrides/config/craftpresence.json
 
@@ -87,13 +87,15 @@ jobs:
         run: |
           if [[ "${{ matrix.buildType }}" == "lwjgl3" ]]; then
             sed -i "s/B:EnableCustomGameTitle=false/B:EnableCustomGameTitle=true/" overrides/config/stellar_core.cfg
-            cp -rvf cmmc/* overrides/
-            mv overrides .minecraft
-            cp icon.png .minecraft/
+            cp -rvf cmmc/bansoukou/ ./overrides/
+            rm -Rf cmmc/bansoukou/
+            mv -vf overrides/ .minecraft/
+            cp -vf icon.png .minecraft/
+            cp -rvf cmmc/* ./
             zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}-mmc.zip libraries/ patches/ mmc-pack.json instance.cfg .minecraft/
           else
-            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}-cf.zip ./manifest.json ./modlist.html ./overrides/bansoukou/ ./overrides/config/ ./overrides/local/ ./overrides/resourcepacks/ ./overrides/scripts/
-            mv overrides .minecraft
+            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}-cf.zip manifest.json modlist.html overrides/bansoukou/ overrides/config/ overrides/local/ overrides/resourcepacks/icons/ overrides/resourcepacks/GTExpert2-* overrides/scripts/
+            mv overrides/ .minecraft/
             cp icon.png .minecraft/
             zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}-mmc.zip mmc-pack.json instance.cfg .minecraft/
             mv serverfiles/* ./
@@ -175,6 +177,7 @@ jobs:
 
             See installation guide for LWJGL3 [here](https://github.com/GTModpackTeam/GregTech-Expert-2/blob/main/cmmc/README.md).
           prerelease: true
+          generate_release_notes: true
           files: |
             artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}-cf.zip
             artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}-mmc.zip
