@@ -168,7 +168,7 @@ jobs:
           tag_name: ${{ env.VERSION_NORMAL }}
           name: "Modpack ${{ env.VERSION_NORMAL }}"
           body: |
-            ## GregTech Expert 2 - ${{ github.event.inputs.release_type | capitalize }} Release
+            ## GregTech Expert 2 - ${{ env.VERSION_NORMAL }}
 
             This preview includes:
             - **Standard** (CurseForge / MultiMC / PrismLauncher / Server)
