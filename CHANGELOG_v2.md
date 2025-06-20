@@ -6,16 +6,17 @@
 ## Update mods
 - CraftTweaker (4.1.20.700 -> 4.1.20.703)
 - CraftPresence (2.5.4 -> 2.6.1)
-- Forgelin-Continuous (2.1.10.0 -> 2.1.20.0)
+- Forgelin-Continuous (2.1.10.0 -> 2.1.21.0)
 - Fixeroo (2.3.5-hotfix -> 2.3.6b)
-- GTExpertCore (2.4.8 -> 2.4.9)
+- GTExpertCore (2.4.8 -> 2.4.10)
 - GregTech Food Option (1.12.4 -> 1.12.5)
-- GTConsolidate (1.0.3.1 -> 1.0.4)
+- GTConsolidate (1.0.3.1 -> 1.0.5)
 - Had Enough Items (4.27.3 -> 4.28.0)
+- OpenComputers (1.8.8 -> 1.8.9)
 - RenderLib (1.4.3 -> 1.4.5)
 - StellarCore (1.5.21 -> 1.5.22)
 - UniLib (1.0.5 -> 1.1.0)
-- VintageFix (0.5.5 -> 0.5.6)
+- VintageFix (0.5.5 -> 0.6.2)
 
 * * *
 
