@@ -1,14 +1,30 @@
 # v2.7.12
 ## New mods
 - Hot or Not Plus (1.1.10)
-- Hot or Not GTCEu (1.1.0)
+- Hot or Not GTCEu (1.2.0)
 
 ## Update mods
-- CraftTweaker (4.1.20.700 -> 4.1.20.703)
-- Forgelin-Continuous (2.1.10.0 -> 2.1.20.0)
-- VintageFix (0.5.5 -> 0.5.6)
+- Alfheim Lighting Engine (1.4 -> 1.5)
+- CensoredASM (5.28 -> 5.29)
+- CraftPresence (2.5.4 -> 2.6.2)
+- Forgelin-Continuous (2.1.10.0 -> 2.2.0.0)
+- Fixeroo (2.3.5-hotfix -> 2.3.6b)
+- GTExpertCore (2.4.8 -> 2.4.11)
+- GregTech Food Option (1.12.4 -> 1.12.7.1)
+- GTConsolidate (1.0.3.1 -> 1.0.7)
+- Had Enough Items (4.27.3 -> 4.28.1)
+- libnice (1.2.1 -> 1.2.2)
+- OpenComputers (1.8.8 -> 1.8.9)
+- PackagedAuto (1.0.18.63 -> 1.0.19.66)
+- RenderLib (1.4.3 -> 1.4.5)
+- Red Core (0.6 -> 0.7)
+- RoughlyEnoughIDs (2.2.2 -> 2.2.3)
+- StellarCore (1.5.21 -> 1.5.22)
+- UniLib (1.0.5 -> 1.1.1)
+- Valkyrie (0.2 -> 0.3)
+- VintageFix (0.5.5 -> 0.6.2)
 
-***
+* * *
 
 # v2.7.11
 ## Modpack information
@@ -21,7 +37,7 @@
 - CraftPresence (2.5.3 -> 2.5.4)
 - Fixeroo (2.3.4 -> 2.3.5-hotfix)
 - GTConsolidate (1.0.1.1 -> 1.0.3.1)
-- GTExpert-Core (2.4.6 -> 2.4.8)
+- GTExpertCore (2.4.6 -> 2.4.8)
 - GregTech Wood Processing (1.2.3 -> 1.2.4)
 - Had Enough Items (4.27.0 -> 4.27.3)
 - OpenComputers (1.8.7 -> 1.8.8)
@@ -54,7 +70,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 - CensoredASM (5.20 -> 5.23)
 - Fixeroo (2.3.2 -> 2.3.4)
 - GregTech Food Option (1.12.3 -> 1.12.4)
-- GTExpert-Core (2.4.0 -> 2.4.6)
+- GTExpertCore (2.4.0 -> 2.4.6)
 - GTWoodProcessing (1.2.2 -> 1.2.3)
 - HadEnoughItems (4.25.5 -> 4.27.1)
 - Nutrition Unofficial Extended Life (4.13.0 -> 4.16.0)
@@ -82,7 +98,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 - Better Questing Unofficial (4.2.4 -> 4.2.6)
 - CraftPresence (2.5.1 -> 2.5.2)
 - GregTech Food Option (1.12.1 -> 1.12.3)
-- GTExpert-Core (2.3.2 -> 2.4.0)
+- GTExpertCore (2.3.2 -> 2.4.0)
 - Had Enough Items (4.25.5 -> 4.26.2)
 - Mouse Tweaks Unofficial (3.1.4 -> 3.1.5)
 - PackagedAuto (v1.0.13.55 -> v1.0.13.58)
@@ -141,7 +157,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 - Alfheim Lighting Engine (1.3 -> 1.4)
 - Fixeroo (2.0 -> 2.3.2)
 - Gregicality Multiblocks (1.2.10 -> 1.2.11)
-- GTExpert-Core (2.2.10 -> 2.3.2)
+- GTExpertCore (2.2.10 -> 2.3.2)
 - Had Enough Items (4.25.4 -> 4.26.0)
 - MixinBooter (9.1 -> 9.4)
 - OpenComputers (1.8.5 -> 1.8.6)
@@ -165,7 +181,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 
 ## Update mods
 - CraftPresence (2.4.3 -> 2.5.0)
-- GTExpert-Core (2.2.9 -> 2.2.10)
+- GTExpertCore (2.2.9 -> 2.2.10)
 - PackagedAuto (1.0.13.53 -> 1.0.13.54)
 - Storage Drawers (5.5.0 -> 5.5.1)
 
@@ -192,7 +208,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 - GregTech CE Unofficial (2.8.8 -> 2.8.10)
 - Gregicality Multiblocks (1.2.8 -> 1.2.10)
 - GregTech Food Option (1.11.2.1 -> 1.12.0)
-- GTExpert-Core (2.2.4 -> 2.2.9)
+- GTExpertCore (2.2.4 -> 2.2.9)
 - PackagedAuto (1.0.13.49 -> 1.0.13.53)
 - RoughlyEnoughIDs (2.1.1 -> 2.2.1)
 - Universal Tweaks (1.11.0 -> 1.12.0)
@@ -239,7 +255,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 - CraftPresence (2.3.9 -> 2.4.3)
 - EnderStorage continuation (2.5.0 -> 2.6.2)
 - GregTech Food Option (1.11.1 -> 1.11.2.1)
-- GTExpert-Core (2.1.6 -> 2.2.4)
+- GTExpertCore (2.1.6 -> 2.2.4)
 - Had Enough Items (4.25.4 -> 4.25.5)
 - Neeve's AE2: Extended Life Additions (1.6.2 -> 1.6.4)
 - PackagedAuto (1.0.13.47 -> 1.0.13.49)
@@ -267,7 +283,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 - Advanced Backups (3.5.1 -> 3.5.2)
 - AE2 Fluid Crafting Rework (2.5.12 -> 2.5.13)
 - GregTech CE Unofficial (2.8.7 -> 2.8.8)
-- GTExpert-Core (2.1.4 -> 2.1.6)
+- GTExpertCore (2.1.4 -> 2.1.6)
 - Neeve's AE2: Extended Life Additions (1.6.1 -> 1.6.2)
 - PackagedAuto (1.0.12.46 -> 1.0.12.47)
 - Particle Culling (1.4.2 -> 1.4.3)
@@ -346,7 +362,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 - CensoredASM (5.19 -> 5.20)
 - ConfigAnytime (2.0 -> 3.0)
 - CraftPresence (2.3.5 -> 2.3.9)
-- GTExpert-Core (2.1.1 -> 2.1.4)
+- GTExpertCore (2.1.1 -> 2.1.4)
 - Had Enough Items (4.25.2 -> 4.25.4)
 - Modern Splash (1.3 -> 1.3.1)
 - OpenComputers (1.8.3 -> 1.8.5)
@@ -366,7 +382,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 ## Update mods
 - AE2 Fluid Crafting Rework
 - ConfigAnytime
-- GTExpert-Core
+- GTExpertCore
 - JourneyMap
 - PackagedAuto
 - VintageFix
@@ -396,7 +412,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 - Inventory Bogo Sorter
 - ModularUI
 - GregTech Food Option
-- GTExpert-Core
+- GTExpertCore
 
 * * *
 
@@ -420,7 +436,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 - Chest
 
 ## Move mod
-- File Director -> GTExpert-Core
+- File Director -> GTExpertCore
 
 ## Update mods
 - CraftPresence
@@ -437,7 +453,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 - PackagedAuto
 - GregTech CE Unofficial
 - GregTech Food Option
-- GTExpert-Core
+- GTExpertCore
 
 * * *
 
@@ -447,7 +463,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 
 ## Update mods
 - GregTech Food Option
-- GTExpert-Core
+- GTExpertCore
 - CraftTweaker
 
 * * *
@@ -493,14 +509,14 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 
 ## Update mods
 - CraftPresence
-- GTExpert-Core
+- GTExpertCore
 - AE2 Fluid Crafting Rework
 
 ## Fix recipes
 ### AE2 Unofficial Extended Life
 - ME Drive and ME Controller required Titanium, but changed to BlackSteel.
     - This change eliminates the dilemma of not being able to proceed with AE without Vacuum Freezer.
-- Inscriber Presses switched to Mold for GTExpert-Core.
+- Inscriber Presses switched to Mold for GTExpertCore.
 
 * * *
 
@@ -519,14 +535,14 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 - ModularUI
 - CraftTweaker
 - Inventory Bogo Sorter
-- GTExpert-Core
+- GTExpertCore
 
 * * *
 
 # v2.6.2
 ## Update mods
 - GregTech CE: Unofficial
-- GTExpert-Core
+- GTExpertCore
 - Neeve's AE2: Extended Life Additions
 - Roughly Enough IDs
 - UntranslatedItems: AlsoFluids
@@ -558,7 +574,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 - GregTech CE: Unofficial
 - Gregicality Multiblocks
 - GregTech Food Option
-- GTExpert-Core
+- GTExpertCore
 - CraftPresence
 - AE2 Unofficial Extended Life
 - AE2 Fluid Crafting Rework
@@ -576,7 +592,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 ## Formally introduced from compatibility mods
 - AE2 Stuff
 
-## New machine(From GTExpert-Core)
+## New machine(From GTExpertCore)
 - Advanced Chemical Plant
 - Add Advanced Gas Collector
 
@@ -612,7 +628,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 ## Update mods
 - GregTech CE: Unofficial
 - GregTech Food Option
-- GTExpert-Core
+- GTExpertCore
 - CensoredASM
 - Modern Splash
 - CraftTweaker
@@ -628,7 +644,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 
 ## Move mods
 - Resource Loader -> TX Loader
-- Zen Utils -> GTExpert-Core
+- Zen Utils -> GTExpertCore
 
 ## Update recipes
 ### AE2 Unofficial Extended Life
@@ -670,7 +686,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 - Inventory Bogo Sorter
 - CraftTweaker
 - Zen Utils
-- GTExpert-Core
+- GTExpertCore
 - BisectHosting Server Integration Menu
 - CensoredASM
 - MixinBooter
@@ -695,7 +711,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 # Update mods
 - AE2 Unofficial Extended Life
 - AE2 Fluid Crafting Rework
-- GTExpert-Core
+- GTExpertCore
 - MixinBooter
 - File Director
 
@@ -706,7 +722,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 ### AE2 Unofficial Extended Life
 - Extended Processing Fluid Pattern Terminal
 
-### GTExpert-Core
+### GTExpertCore
 - Axe of the Wyvern
 - Pickaxe of the Wyvern
 - Shovel of the Wyvern
@@ -730,7 +746,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 - GregTech CE: Unofficial
 - GregTech Food Option
 - Gregicality Multiblocks
-- GTExpert-Core
+- GTExpertCore
 - CraftTweaker
 - ModularUI
 - Inventory Bogo Sorter
@@ -755,7 +771,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 - CraftPresence
 - GregTech CE: Unofficial
 - GregTech Food Option
-- GTExpert-Core
+- GTExpertCore
 - EnderCore
 - Ender IO Endergy
 - Ender IO Base
@@ -780,7 +796,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 ## Update mods
 - AE2 Fluid Crafting Rework
 - GregTech CE: Unofficial
-- GTExpert-Core
+- GTExpertCore
 - CraftPresence
 - dan's Mouse Tweaks
 - VintageFix
@@ -818,7 +834,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 - GregTech CE: Unofficial
 - Gregicality Multiblocks
 - GregTech Food Option
-- GTExpert-Core
+- GTExpertCore
 - Inventory Bogo Sorter
 - JEI Utilities
 - CensoredASM
@@ -849,7 +865,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 - Lazy AE2 Patch
 
 ## Update mods
-- GTExpert-Core
+- GTExpertCore
 
 * * *
 
@@ -862,7 +878,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 - AE2 Unofficial Extended Life
 - Craft Presence
 - GregTech Food Option
-- GTExpert-Core
+- GTExpertCore
 - Had Enough Items
 - CensoredASM
 - MixinBooter
@@ -911,7 +927,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 # v2.3.2
 ## Update mods
 - BisectHosting Menu
-- GTExpert-Core
+- GTExpertCore
 - Had Enough Items
 - CensoredASM
 - ModularUI
@@ -927,7 +943,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 - Fix for issue where all stand-alone craft were broken.
 
 ## Update mods
-- GTExpert-Core
+- GTExpertCore
 - CraftTweaker
 
 ## New recipes
@@ -948,7 +964,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 - GregTech CE: Unofficial
 - Gregicality Multiblocks
 - GregTech Food Option
-- GTExpert-Core
+- GTExpertCore
 - AE2 Unofficial Extended Life
 - AE2 Fluid Crafting Rework
 - OpenComputers
@@ -1006,7 +1022,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 
 # v2.2.3
 ## Update mods
-- GTExpert-Core
+- GTExpertCore
 
 ## Bugfix recipes
 ### Applied Energistics
@@ -1052,7 +1068,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 ## Update mods
 - GregTech CE: Unofficial
 - Gregicality Multiblocks
-- GTExpert-Core
+- GTExpertCore
 - CraftPresence
 
 * * *
@@ -1062,7 +1078,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 - The update history was omitted and has been added to the previous version.
 
 ## Update mods
-- GTExpert-Core
+- GTExpertCore
 - Inventory Bogo Sorter
 
 ## Update lang(ja_jp)
@@ -1095,7 +1111,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 - GregTech CE: Unofficial
 - Gregicality Multiblocks
 - GregTech Food Option
-- GTExpert-Core
+- GTExpertCore
 - CraftTweaker
 - CraftPresence
 - MixinBooter
@@ -1134,7 +1150,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 ## Update mods
 - AE2 Unofficial Extended Life
 - GregTech CE: Unofficial
-- GTExpert-Core
+- GTExpertCore
 - Controlling
 - CraftTweaker
 - Zen Utils
@@ -1156,7 +1172,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 - Fixed problem with server not starting
 
 ## Update mods
-- GTExpert-Core
+- GTExpertCore
 
 * * *
 
@@ -1177,7 +1193,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 - GregTech CE: Unofficial
 - Gregicality Multiblocks
 - GregTech Food Option
-- GTExpert-Core
+- GTExpertCore
 - CraftTweaker
 - AE2 Unofficial Extended Life
 - AE2 Fluid Crafting Rework
@@ -1402,7 +1418,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 ## Update mods
 - GregTech CE: Unofficial
 - GregTech Food Option
-- GTExpert-Core
+- GTExpertCore
 - AE2 Unofficial Extended Life
 - AE2 Fluid Crafting Rework
 - CraftPresence
@@ -1427,7 +1443,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 - GregTech CE: Unofficial(Github: [9883ff9d45b95f9cca85e0c2107328f74d02fdcf](https://github.com/GregTechCEu/GregTech/tree/9883ff9d45b95f9cca85e0c2107328f74d02fdcf))
 - Gregicality Multiblocks
 - GregTech Food Option(Github: [757e3a8836a923691168fcdd714cdcf9987e40b9](https://github.com/bruberu/GregTechFoodOption/tree/757e3a8836a923691168fcdd714cdcf9987e40b9))
-- GTExpert-Core
+- GTExpertCore
 - Inventory Bogo Sorter
 - OpenComputers
 - Zen Utils
