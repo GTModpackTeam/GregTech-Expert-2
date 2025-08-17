@@ -12,14 +12,16 @@
 - GTExpertCore (2.4.8 -> 2.4.11)
 - GregTech Food Option (1.12.4 -> 1.12.7.1)
 - GTConsolidate (1.0.3.1 -> 1.0.7)
-- Had Enough Items (4.27.3 -> 4.28.0)
+- Had Enough Items (4.27.3 -> 4.28.1)
 - libnice (1.2.1 -> 1.2.2)
 - OpenComputers (1.8.8 -> 1.8.9)
 - PackagedAuto (1.0.18.63 -> 1.0.19.66)
 - RenderLib (1.4.3 -> 1.4.5)
+- Red Core (0.6 -> 0.7)
 - RoughlyEnoughIDs (2.2.2 -> 2.2.3)
 - StellarCore (1.5.21 -> 1.5.22)
 - UniLib (1.0.5 -> 1.1.1)
+- Valkyrie (0.2 -> 0.3)
 - VintageFix (0.5.5 -> 0.6.2)
 
 * * *
