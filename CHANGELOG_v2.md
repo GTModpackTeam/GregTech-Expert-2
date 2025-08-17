@@ -6,7 +6,6 @@
 ## Update mods
 - Alfheim Lighting Engine (1.4 -> 1.5)
 - CensoredASM (5.28 -> 5.29)
-- CraftTweaker (4.1.20.700 -> 4.1.20.705)
 - CraftPresence (2.5.4 -> 2.6.2)
 - Forgelin-Continuous (2.1.10.0 -> 2.2.0.0)
 - Fixeroo (2.3.5-hotfix -> 2.3.6b)
