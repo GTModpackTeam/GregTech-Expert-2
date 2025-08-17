@@ -7,8 +7,8 @@
 ## How to install
 - To install the GregTech Expert 2 for LWJGL3 ModPack, follow these steps:
 1. First, find the latest build with [lwjgl3](https://github.com/GTModpackTeam/gregtech-expert-2/releases) in Github releases
-2. Download the `GTExpert2-<base_version>-lwjgl3-cmmc.zip` or the PR version if you want to test the latest changes
-    1. PR Version: `GTExpert2-<base_version>-lwjgl3-<pr_version>-cmmc.zip`
+2. Download the `GTExpert2-<base_version>-lwjgl3-mmc.zip` or the PR version if you want to test the latest changes
+    1. PR Version: `GTExpert2-<base_version>-lwjgl3-<pr_version>-mmc.zip`
 3. Open the [MultiMC](https://multimc.org/) or [Prism Launcher](https://prismlauncher.org/) and create a new instance
 4. Import the downloaded zip file into the MultiMC instance
 5. Get the mods you need from the list below
