@@ -482,11 +482,12 @@
       "questID:3": 8,
       "tasks:9": {
         "0:10": {
-          "entryLogic:8": "OR",
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
+              "OreDict:8": "craftingToolFile",
               "id:8": "gregtech:file",
               "tag:10": {
                 "DisallowContainerItem:1": 0,
@@ -503,6 +504,7 @@
             },
             "1:10": {
               "Count:3": 1,
+              "OreDict:8": "craftingToolSaw",
               "id:8": "gregtech:saw",
               "tag:10": {
                 "DisallowContainerItem:1": 0,
@@ -521,6 +523,7 @@
             },
             "2:10": {
               "Count:3": 1,
+              "OreDict:8": "craftingToolWrench",
               "id:8": "gregtech:wrench",
               "tag:10": {
                 "DisallowContainerItem:1": 0,
@@ -539,6 +542,7 @@
             },
             "3:10": {
               "Count:3": 1,
+              "OreDict:8": "craftingToolScrewdriver",
               "id:8": "gregtech:screwdriver",
               "tag:10": {
                 "DisallowContainerItem:1": 0,
@@ -549,81 +553,6 @@
                   "Durability:3": 0,
                   "Material:8": "gregtech:iron",
                   "MaxDurability:3": 255
-                },
-                "HideFlags:3": 2
-              }
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "entryLogic:8": "OR",
-          "index:3": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "id:8": "gregtech:file",
-              "tag:10": {
-                "DisallowContainerItem:1": 0,
-                "GT.Behaviours:10": {},
-                "GT.Tool:10": {
-                  "AttackDamage:5": 0.0,
-                  "AttackSpeed:5": -2.6000001,
-                  "Durability:3": 0,
-                  "Material:8": "gregtech:wrought_iron",
-                  "MaxDurability:3": 383
-                },
-                "HideFlags:3": 2
-              }
-            },
-            "1:10": {
-              "Count:3": 1,
-              "id:8": "gregtech:saw",
-              "tag:10": {
-                "DisallowContainerItem:1": 0,
-                "GT.Behaviours:10": {
-                  "HarvestIce:1": 1
-                },
-                "GT.Tool:10": {
-                  "AttackDamage:5": 1.0,
-                  "AttackSpeed:5": -2.8,
-                  "Durability:3": 0,
-                  "Material:8": "gregtech:wrought_iron",
-                  "MaxDurability:3": 383
-                },
-                "HideFlags:3": 2
-              }
-            },
-            "2:10": {
-              "Count:3": 1,
-              "id:8": "gregtech:wrench",
-              "tag:10": {
-                "DisallowContainerItem:1": 0,
-                "GT.Behaviours:10": {},
-                "GT.Tool:10": {
-                  "AttackDamage:5": 3.0,
-                  "AttackSpeed:5": -3.0,
-                  "Durability:3": 0,
-                  "HarvestLevel:3": 2,
-                  "Material:8": "gregtech:wrought_iron",
-                  "MaxDurability:3": 383,
-                  "ToolSpeed:5": 6.0
-                },
-                "HideFlags:3": 2
-              }
-            },
-            "3:10": {
-              "Count:3": 1,
-              "id:8": "gregtech:screwdriver",
-              "tag:10": {
-                "DisallowContainerItem:1": 0,
-                "GT.Behaviours:10": {},
-                "GT.Tool:10": {
-                  "AttackDamage:5": 1.0,
-                  "AttackSpeed:5": 2.8,
-                  "Durability:3": 0,
-                  "Material:8": "gregtech:wrought_iron",
-                  "MaxDurability:3": 383
                 },
                 "HideFlags:3": 2
               }
@@ -709,8 +638,15 @@
             "OreDict:8": "craftingToolHardHammer",
             "id:8": "gregtech:hammer",
             "tag:10": {
+              "GT.Behaviours:10": {},
               "GT.Tool:10": {
-                "Durability:3": 0
+                "AttackDamage:5": 3.0,
+                "AttackSpeed:5": -2.8,
+                "Durability:3": 0,
+                "HarvestLevel:3": 2,
+                "Material:8": "iron",
+                "MaxDurability:3": 256,
+                "ToolSpeed:5": 6.0
               }
             }
           },
@@ -723,9 +659,12 @@
       "tasks:9": {
         "0:10": {
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "craftingToolHardHammer",
               "id:8": "gregtech:hammer",
               "tag:10": {
                 "DisallowContainerItem:1": 0,
@@ -733,34 +672,10 @@
                 "GT.Tool:10": {
                   "AttackDamage:5": 3.0,
                   "AttackSpeed:5": -2.8,
-                  "Durability:3": 0,
+                  "Durability:3": 32767,
                   "HarvestLevel:3": 2,
                   "Material:8": "gregtech:iron",
                   "MaxDurability:3": 255,
-                  "ToolSpeed:5": 6.0
-                },
-                "HideFlags:3": 2
-              }
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "index:3": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "id:8": "gregtech:hammer",
-              "tag:10": {
-                "DisallowContainerItem:1": 0,
-                "GT.Behaviours:10": {},
-                "GT.Tool:10": {
-                  "AttackDamage:5": 3.0,
-                  "AttackSpeed:5": -3.0,
-                  "Durability:3": 0,
-                  "HarvestLevel:3": 2,
-                  "Material:8": "gregtech:wrought_iron",
-                  "MaxDurability:3": 383,
                   "ToolSpeed:5": 6.0
                 },
                 "HideFlags:3": 2
@@ -818,11 +733,12 @@
       "questID:3": 13,
       "tasks:9": {
         "0:10": {
-          "entryLogic:8": "OR",
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
+              "OreDict:8": "craftingToolCrowbar",
               "id:8": "gregtech:crowbar",
               "tag:10": {
                 "DisallowContainerItem:1": 0,
@@ -841,6 +757,7 @@
             },
             "1:10": {
               "Count:3": 1,
+              "OreDict:8": "craftingToolWireCutter",
               "id:8": "gregtech:wire_cutter",
               "tag:10": {
                 "DisallowContainerItem:1": 0,
@@ -859,6 +776,7 @@
             },
             "2:10": {
               "Count:3": 1,
+              "OreDict:8": "toolScythe",
               "id:8": "gregtech:scythe",
               "tag:10": {
                 "DisallowContainerItem:1": 0,
@@ -884,6 +802,7 @@
             },
             "3:10": {
               "Count:3": 1,
+              "OreDict:8": "craftingToolButcheryKnife",
               "id:8": "gregtech:butchery_knife",
               "tag:10": {
                 "DisallowContainerItem:1": 0,
@@ -906,6 +825,7 @@
             },
             "4:10": {
               "Count:3": 1,
+              "OreDict:8": "craftingToolKnife",
               "id:8": "gregtech:knife",
               "tag:10": {
                 "DisallowContainerItem:1": 0,
@@ -916,112 +836,6 @@
                   "Durability:3": 0,
                   "Material:8": "gregtech:iron",
                   "MaxDurability:3": 255
-                },
-                "HideFlags:3": 2
-              }
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "entryLogic:8": "OR",
-          "index:3": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "id:8": "gregtech:crowbar",
-              "tag:10": {
-                "DisallowContainerItem:1": 0,
-                "GT.Behaviours:10": {},
-                "GT.Tool:10": {
-                  "AttackDamage:5": 4.0,
-                  "AttackSpeed:5": -2.6000001,
-                  "Durability:3": 0,
-                  "HarvestLevel:3": 2,
-                  "Material:8": "gregtech:wrought_iron",
-                  "MaxDurability:3": 383,
-                  "ToolSpeed:5": 6.0
-                },
-                "HideFlags:3": 2
-              }
-            },
-            "1:10": {
-              "Count:3": 1,
-              "id:8": "gregtech:wire_cutter",
-              "tag:10": {
-                "DisallowContainerItem:1": 0,
-                "GT.Behaviours:10": {},
-                "GT.Tool:10": {
-                  "AttackDamage:5": 1.0,
-                  "AttackSpeed:5": -2.6000001,
-                  "Durability:3": 0,
-                  "HarvestLevel:3": 2,
-                  "Material:8": "gregtech:wrought_iron",
-                  "MaxDurability:3": 383,
-                  "ToolSpeed:5": 6.0
-                },
-                "HideFlags:3": 2
-              }
-            },
-            "2:10": {
-              "Count:3": 1,
-              "id:8": "gregtech:scythe",
-              "tag:10": {
-                "DisallowContainerItem:1": 0,
-                "GT.Behaviours:10": {
-                  "AoEColumn:3": 2,
-                  "AoELayer:3": 2,
-                  "AoERow:3": 2,
-                  "MaxAoEColumn:3": 2,
-                  "MaxAoELayer:3": 2,
-                  "MaxAoERow:3": 2
-                },
-                "GT.Tool:10": {
-                  "AttackDamage:5": 7.0,
-                  "AttackSpeed:5": -3.2,
-                  "Durability:3": 0,
-                  "HarvestLevel:3": 2,
-                  "Material:8": "gregtech:wrought_iron",
-                  "MaxDurability:3": 1151,
-                  "ToolSpeed:5": 6.0
-                },
-                "HideFlags:3": 2
-              }
-            },
-            "3:10": {
-              "Count:3": 1,
-              "id:8": "gregtech:butchery_knife",
-              "tag:10": {
-                "DisallowContainerItem:1": 0,
-                "GT.Behaviours:10": {},
-                "GT.Tool:10": {
-                  "AttackDamage:5": 3.5,
-                  "AttackSpeed:5": -1.5,
-                  "Durability:3": 0,
-                  "Material:8": "gregtech:wrought_iron",
-                  "MaxDurability:3": 383
-                },
-                "HideFlags:3": 2,
-                "ench:9": {
-                  "0:10": {
-                    "id:3": 21,
-                    "lvl:2": 3
-                  }
-                }
-              }
-            },
-            "4:10": {
-              "Count:3": 1,
-              "id:8": "gregtech:knife",
-              "tag:10": {
-                "DisallowContainerItem:1": 0,
-                "GT.Behaviours:10": {},
-                "GT.Tool:10": {
-                  "AttackDamage:5": 2.0,
-                  "AttackSpeed:5": 2.8,
-                  "Durability:3": 0,
-                  "Material:8": "gregtech:wrought_iron",
-                  "MaxDurability:3": 383
                 },
                 "HideFlags:3": 2
               }
@@ -2003,9 +1817,11 @@
       "tasks:9": {
         "0:10": {
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
+              "OreDict:8": "craftingToolSoftHammer",
               "id:8": "gregtech:mallet",
               "tag:10": {
                 "GT.Behaviours:10": {},
@@ -2014,7 +1830,7 @@
                   "AttackSpeed:5": -2.4,
                   "Durability:3": 0,
                   "HarvestLevel:3": 1,
-                  "Material:8": "gregtech:wood",
+                  "Material:8": "wood",
                   "MaxDurability:3": 47,
                   "ToolSpeed:5": 4.0
                 },
@@ -2394,9 +2210,11 @@
       "tasks:9": {
         "0:10": {
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
+              "OreDict:8": "toolMiningHammer",
               "id:8": "gregtech:mining_hammer",
               "tag:10": {
                 "DisallowContainerItem:1": 0,
@@ -2416,38 +2234,6 @@
                   "HarvestLevel:3": 2,
                   "Material:8": "gregtech:iron",
                   "MaxDurability:3": 767,
-                  "ToolSpeed:5": 4.8
-                },
-                "HideFlags:3": 2
-              }
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "index:3": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "id:8": "gregtech:mining_hammer",
-              "tag:10": {
-                "DisallowContainerItem:1": 0,
-                "GT.Behaviours:10": {
-                  "AoEColumn:3": 1,
-                  "AoELayer:3": 0,
-                  "AoERow:3": 1,
-                  "MaxAoEColumn:3": 1,
-                  "MaxAoELayer:3": 0,
-                  "MaxAoERow:3": 1,
-                  "TorchPlacing:1": 1
-                },
-                "GT.Tool:10": {
-                  "AttackDamage:5": 3.5,
-                  "AttackSpeed:5": -3.4,
-                  "Durability:3": 0,
-                  "HarvestLevel:3": 2,
-                  "Material:8": "gregtech:wrought_iron",
-                  "MaxDurability:3": 1151,
                   "ToolSpeed:5": 4.8
                 },
                 "HideFlags:3": 2
@@ -2476,9 +2262,11 @@
       "tasks:9": {
         "0:10": {
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
+              "OreDict:8": "craftChisel",
               "id:8": "chisel:chisel_iron"
             }
           },
@@ -4755,8 +4543,8 @@
       "questID:3": 117,
       "tasks:9": {
         "0:10": {
-          "ignoreNBT:1": 1,
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -4796,8 +4584,8 @@
       "tasks:9": {
         "0:10": {
           "entryLogic:8": "OR",
-          "ignoreNBT:1": 1,
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -5141,8 +4929,8 @@
       "tasks:9": {
         "0:10": {
           "entryLogic:8": "OR",
-          "ignoreNBT:1": 1,
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -5259,8 +5047,8 @@
       "tasks:9": {
         "0:10": {
           "entryLogic:8": "OR",
-          "ignoreNBT:1": 1,
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -6149,9 +5937,11 @@
       "tasks:9": {
         "0:10": {
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
+              "OreDict:8": "toolMiningHammer",
               "id:8": "gregtech:mining_hammer",
               "tag:10": {
                 "DisallowContainerItem:1": 0,
@@ -6718,6 +6508,7 @@
         },
         "1:10": {
           "index:3": 1,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -6812,9 +6603,11 @@
       "tasks:9": {
         "0:10": {
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
+              "OreDict:8": "toolMiningHammer",
               "id:8": "gregtech:mining_hammer",
               "tag:10": {
                 "DisallowContainerItem:1": 0,
@@ -7518,6 +7311,7 @@
       "tasks:9": {
         "0:10": {
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -7830,6 +7624,7 @@
       "tasks:9": {
         "0:10": {
           "index:3": 1,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -8090,6 +7885,7 @@
       "tasks:9": {
         "0:10": {
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -8474,8 +8270,8 @@
       "questID:3": 325,
       "tasks:9": {
         "0:10": {
-          "ignoreNBT:1": 1,
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -8506,6 +8302,7 @@
       "tasks:9": {
         "0:10": {
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -8598,6 +8395,7 @@
       "tasks:9": {
         "0:10": {
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -9069,8 +8867,8 @@
       "tasks:9": {
         "0:10": {
           "entryLogic:8": "OR",
-          "ignoreNBT:1": 1,
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -9300,8 +9098,8 @@
       "questID:3": 349,
       "tasks:9": {
         "0:10": {
-          "ignoreNBT:1": 1,
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -9531,6 +9329,7 @@
       "tasks:9": {
         "0:10": {
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -10108,8 +9907,8 @@
       "questID:3": 370,
       "tasks:9": {
         "0:10": {
-          "ignoreNBT:1": 1,
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -10139,6 +9938,7 @@
       "tasks:9": {
         "0:10": {
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -10192,6 +9992,7 @@
         "2:10": {
           "entryLogic:8": "OR",
           "index:3": 2,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -10289,6 +10090,7 @@
         "0:10": {
           "entryLogic:8": "OR",
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -10437,6 +10239,7 @@
         },
         "1:10": {
           "index:3": 1,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -11206,8 +11009,8 @@
       "tasks:9": {
         "0:10": {
           "entryLogic:8": "OR",
-          "ignoreNBT:1": 1,
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -12013,8 +11816,8 @@
       "tasks:9": {
         "0:10": {
           "entryLogic:8": "OR",
-          "ignoreNBT:1": 1,
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -12421,6 +12224,7 @@
       "tasks:9": {
         "0:10": {
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -13095,8 +12899,8 @@
       "tasks:9": {
         "0:10": {
           "entryLogic:8": "OR",
-          "ignoreNBT:1": 1,
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -13131,6 +12935,7 @@
       "tasks:9": {
         "0:10": {
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -13297,6 +13102,7 @@
         "0:10": {
           "entryLogic:8": "OR",
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -13819,6 +13625,7 @@
       "tasks:9": {
         "0:10": {
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -13881,8 +13688,8 @@
       "questID:3": 475,
       "tasks:9": {
         "0:10": {
-          "ignoreNBT:1": 1,
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -13929,6 +13736,7 @@
       "tasks:9": {
         "0:10": {
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -13992,6 +13800,7 @@
         "0:10": {
           "entryLogic:8": "OR",
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -14849,8 +14658,8 @@
       "questID:3": 502,
       "tasks:9": {
         "0:10": {
-          "ignoreNBT:1": 1,
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -14917,8 +14726,8 @@
       "tasks:9": {
         "0:10": {
           "entryLogic:8": "OR",
-          "ignoreNBT:1": 1,
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -15617,8 +15426,8 @@
       "questID:3": 521,
       "tasks:9": {
         "0:10": {
-          "ignoreNBT:1": 1,
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -15660,7 +15469,8 @@
               "Count:3": 1,
               "id:8": "betterp2p:advanced_memory_card",
               "tag:10": {
-                "selectedIndex:3": -1
+                "gui:1": 3,
+                "selectedIndex:10": {}
               }
             }
           },
@@ -15824,8 +15634,8 @@
       "questID:3": 527,
       "tasks:9": {
         "0:10": {
-          "ignoreNBT:1": 1,
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -16211,8 +16021,8 @@
       "tasks:9": {
         "0:10": {
           "entryLogic:8": "OR",
-          "ignoreNBT:1": 1,
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -16230,8 +16040,8 @@
           "taskID:8": "bq_standard:retrieval"
         },
         "1:10": {
-          "ignoreNBT:1": 1,
           "index:3": 1,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -16537,8 +16347,8 @@
           "taskID:8": "bq_standard:checkbox"
         },
         "1:10": {
-          "ignoreNBT:1": 1,
           "index:3": 1,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -16569,8 +16379,8 @@
       "questID:3": 548,
       "tasks:9": {
         "0:10": {
-          "ignoreNBT:1": 1,
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -16599,8 +16409,8 @@
           "taskID:8": "bq_standard:retrieval"
         },
         "1:10": {
-          "ignoreNBT:1": 1,
           "index:3": 1,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -16999,8 +16809,8 @@
           "taskID:8": "bq_standard:retrieval"
         },
         "2:10": {
-          "ignoreNBT:1": 1,
           "index:3": 2,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -17059,8 +16869,8 @@
       "questID:3": 557,
       "tasks:9": {
         "0:10": {
-          "ignoreNBT:1": 1,
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -17118,8 +16928,8 @@
       "tasks:9": {
         "0:10": {
           "entryLogic:8": "OR",
-          "ignoreNBT:1": 1,
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -17200,6 +17010,7 @@
         "0:10": {
           "entryLogic:8": "OR",
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -17238,8 +17049,8 @@
       "questID:3": 561,
       "tasks:9": {
         "0:10": {
-          "ignoreNBT:1": 1,
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -22884,8 +22695,8 @@
       "questID:3": 720,
       "tasks:9": {
         "0:10": {
-          "ignoreNBT:1": 1,
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -25105,8 +24916,8 @@
       "questID:3": 792,
       "tasks:9": {
         "0:10": {
-          "ignoreNBT:1": 1,
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -25149,8 +24960,8 @@
       "tasks:9": {
         "0:10": {
           "entryLogic:8": "OR",
-          "ignoreNBT:1": 1,
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -25200,8 +25011,8 @@
       "tasks:9": {
         "0:10": {
           "entryLogic:8": "OR",
-          "ignoreNBT:1": 1,
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
@@ -25288,8 +25099,8 @@
       "questID:3": 796,
       "tasks:9": {
         "0:10": {
-          "ignoreNBT:1": 1,
           "index:3": 0,
+          "partialMatch:1": 0,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
