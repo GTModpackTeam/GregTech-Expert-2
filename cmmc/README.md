@@ -20,8 +20,8 @@
 
 ## Self download mods
 - [Fugue](https://www.curseforge.com/minecraft/mc-mods/fugue) by CleanroomMC
-- [Scalar](https://www.curseforge.com/minecraft/mc-mods/scalar/files/6130572) by CleanroomMC
+- [Scalar Legacy](https://www.curseforge.com/minecraft/mc-mods/scalar-legacy) by kappa_maintainer
 
 ## Optional mods
-- [Vintagium](https://github.com/Asek3/sodium-1.12) by Asek3
+- [Vintagium](https://github.com/takureepers/vintagium-unofficial/releases/tag/stable)
     - Please re-configure the graphics settings.
