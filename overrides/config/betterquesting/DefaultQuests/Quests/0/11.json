@@ -1,0 +1,61 @@
+{
+  "preRequisites:11": [
+    42,
+    81
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "ここではGregtechのツールを紹介します。\n最初のツールは鉄で作りましょう。もし持っていれば錬鉄でも作れます。\n\nハンマーは序盤のレシピに大量に使われており、金属を板状に加工することができます。\n金属板を用いてGregtechのいくつかのオリジナルアイテムや、他のツールを作っていきましょう。\n\nハンマーで機械を右クリックすると機械の稼働音の有無を切り替えることができます。\n狭い拠点で自動化を行う際に特に有効でしょう。\n\nハンマーで石や鉱石を壊すとそれらが一段階粉砕された状態でドロップします。\nこれに関しては鉱石処理のクエストで追々解説します。\n\n全てのGregTechのツールに共通することですが、金床でバニラツールと同様に修理することができます。\n経験値を消費するので何本か作ってしまうというのもありでしょう。\n\n\n余談その1\ngregtech5uではレッドストーン鉱石が直接精錬できなかったので、ハンマーで鉱石を砕いて粉にする必要があった",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 32767,
+        "OreDict:8": "craftingToolHardHammer",
+        "id:8": "gregtech:hammer",
+        "tag:10": {
+          "GT.Behaviours:10": {},
+          "GT.Tool:10": {
+            "AttackDamage:5": 3.0,
+            "AttackSpeed:5": -2.8,
+            "Durability:3": 0,
+            "HarvestLevel:3": 2,
+            "Material:8": "iron",
+            "MaxDurability:3": 256,
+            "ToolSpeed:5": 6.0
+          }
+        }
+      },
+      "name:8": "100万t",
+      "questlogic:8": "OR",
+      "tasklogic:8": "OR"
+    }
+  },
+  "questID:3": 11,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "craftingToolHardHammer",
+          "id:8": "gregtech:hammer",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {},
+            "GT.Tool:10": {
+              "AttackDamage:5": 3.0,
+              "AttackSpeed:5": -2.8,
+              "Durability:3": 32767,
+              "HarvestLevel:3": 2,
+              "Material:8": "iron",
+              "MaxDurability:3": 255,
+              "ToolSpeed:5": 6.0
+            },
+            "HideFlags:3": 2
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

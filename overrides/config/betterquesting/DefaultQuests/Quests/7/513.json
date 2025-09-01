@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    512
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "このカードは量子トンネルのアップグレード版です。\n新しい量子チャンネルを作成してセットすることにより、ワイヤレス端末がAEネットワークへ無制限にアクセスできるようになります。\n",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 59,
+        "id:8": "appliedenergistics2:material"
+      },
+      "name:8": "無限の彼方へ、さあ行くぞ!!"
+    }
+  },
+  "questID:3": 513,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 59,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

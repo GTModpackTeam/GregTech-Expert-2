@@ -1,0 +1,39 @@
+{
+  "preRequisites:11": [
+    538
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "無線クラフティングターミナルはクラフティングターミナルのワイヤレス版です。\n無線ターミナル系の中で特に需要が高いでしょう。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:wireless_crafting_terminal",
+        "tag:10": {}
+      },
+      "name:8": "赤レンジャー",
+      "tasklogic:8": "OR"
+    }
+  },
+  "questID:3": 560,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:wireless_crafting_terminal",
+          "tag:10": {}
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "wct:wct",
+          "tag:10": {
+            "InfinityEnergy:3": 0
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

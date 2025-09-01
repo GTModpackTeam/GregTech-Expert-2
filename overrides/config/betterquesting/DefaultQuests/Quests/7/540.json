@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    528
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "ME液体ディスクレタイザは液体と液体を雫としてアイテム化します。この雫を指定することで液体を用いた自動加工リクエストを行うことができます。\n\nME液体パケットデコーダーはクラフトに失敗した際に再び液体化してME倉庫へ戻してくれます。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "ae2fc:fluid_discretizer"
+      },
+      "name:8": "両方とも一つは組み込みましょう"
+    }
+  },
+  "questID:3": 540,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ae2fc:fluid_discretizer"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "ae2fc:fluid_packet_decoder"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

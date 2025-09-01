@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    680
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "マルチブロックの大型蓄電装置を作れるようになります。\nこの大型蓄電器だけが使える専用の64Aエネルギーハッチやダイナモハッチがあります。\nまた、入力や出力を複数ブロックにすることもできるので以外と柔軟性が高いです。\n\nJEIの表示では蓄電ブロック段が最低2層必要だと勘違いしたり、64Aと1Aのエネルギー / ダイナモハッチをそれぞれ組み込む必要があると勘違いしがちですが、このマルチブロックはもっと気軽に使えますのでまずは試しに組み立ててみましょう。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1041,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Substationは直訳すると変電所"
+    }
+  },
+  "questID:3": 637,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 57,
+          "Damage:2": 2,
+          "id:8": "gregtech:transparent_casing"
+        },
+        "1:10": {
+          "Count:3": 44,
+          "Damage:2": 11,
+          "id:8": "gregtech:metal_casing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1041,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

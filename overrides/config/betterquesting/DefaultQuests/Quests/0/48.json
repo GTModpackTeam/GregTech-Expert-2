@@ -1,0 +1,59 @@
+{
+  "preRequisites:11": [
+    11
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "初期配布アイテムに含まれていた採掘用ハンマーは自前で作ることができます。\nこのハンマーは一度に3x3の範囲を採掘することができますが、スニーキングしながら使用することで1ブロックのみ採掘することもできます。\nしかし、プレートを効率よく作成できる前は一金属インゴットあたりの採掘効率がツルハシに劣るという欠点も抱えています。\n\n蒸気時代に入るまでは鉄と錬鉄のどちらかをハンマーの材料として使いましょう。\nブロンズはハンマーにするには耐久値が低すぎます。\n\n\n余談その1\nGTE1では採掘ツールが不足していたためHammerXというmodが導入されていたが、当アイテムが実装されたためGTE2では廃止された。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 32767,
+        "OreDict:8": "toolMiningHammer",
+        "id:8": "gregtech:mining_hammer",
+        "tag:10": {
+          "GT.Tool:10": {
+            "Durability:3": 0
+          }
+        }
+      },
+      "name:8": "ビットコインも掘れる",
+      "tasklogic:8": "OR"
+    }
+  },
+  "questID:3": 48,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "OreDict:8": "toolMiningHammer",
+          "id:8": "gregtech:mining_hammer",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {
+              "AoEColumn:3": 1,
+              "AoELayer:3": 0,
+              "AoERow:3": 1,
+              "MaxAoEColumn:3": 1,
+              "MaxAoELayer:3": 0,
+              "MaxAoERow:3": 1,
+              "TorchPlacing:1": 1
+            },
+            "GT.Tool:10": {
+              "AttackDamage:5": 3.5,
+              "AttackSpeed:5": -3.2,
+              "Durability:3": 0,
+              "HarvestLevel:3": 2,
+              "Material:8": "iron",
+              "MaxDurability:3": 767,
+              "ToolSpeed:5": 4.8
+            },
+            "HideFlags:3": 2
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "preRequisites:11": [
+    117
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "Parent:10": {
+            "Items:9": {},
+            "Size:3": 27
+          }
+        },
+        "id:8": "draconicevolution:draconic_staff_of_power",
+        "tag:10": {
+          "Profile_0:10": {
+            "aoeSafeMode:1": 0,
+            "attackAOE:6": 2.0,
+            "digAOE:3": 0,
+            "digDepth:3": 0,
+            "digSpeed:3": 100,
+            "enableJunkFilter:1": 1,
+            "junkNbtSens:1": 1,
+            "showDigAOE:1": 0
+          }
+        }
+      },
+      "name:8": "Draconic Staff of Power"
+    }
+  },
+  "questID:3": 796,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "Parent:10": {
+              "Items:9": {},
+              "Size:3": 27
+            }
+          },
+          "id:8": "draconicevolution:draconic_staff_of_power",
+          "tag:10": {
+            "Profile_0:10": {
+              "aoeSafeMode:1": 0,
+              "attackAOE:6": 2.0,
+              "digAOE:3": 0,
+              "digDepth:3": 0,
+              "digSpeed:3": 100,
+              "enableJunkFilter:1": 1,
+              "junkNbtSens:1": 1,
+              "showDigAOE:1": 0
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

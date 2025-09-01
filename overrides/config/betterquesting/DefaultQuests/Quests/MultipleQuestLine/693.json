@@ -1,0 +1,58 @@
+{
+  "preRequisiteTypes:7": [
+    1,
+    0
+  ],
+  "preRequisites:11": [
+    691,
+    629
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "核融合炉作成のために大量生産が必要です。\nどうせ大量生産するので拠点のLuVの電線を全てこれにしてしまうのも手です。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 429,
+        "id:8": "gregtech:wire_single"
+      },
+      "name:8": "超電導ワイヤーはどうしてこうも名前が長いのか",
+      "questlogic:8": "OR",
+      "tasklogic:8": "OR"
+    }
+  },
+  "questID:3": 693,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 429,
+          "id:8": "gregtech:wire_single"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 429,
+          "id:8": "gregtech:wire_double"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 429,
+          "id:8": "gregtech:wire_quadruple"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 429,
+          "id:8": "gregtech:wire_octal"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 429,
+          "id:8": "gregtech:wire_hex"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

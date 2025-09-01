@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    555
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "プログラム回路カードはパターンに回路を焼くことにより、対応した番号へ自動的に切り替えることが出来るカードです。\n\nこのカードの利点として、GCYMのマルチマシンやPA突入前は番号ごとにマシンを用意する必要を無くすことが出来ます。\nまたクリーンルームのような狭い空間でも効果を発揮します。\n\n\n余談その1\n登場時は混合インターフェースに刺せなかったが、追加の更新で対応した。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "nae2:upgrade"
+      },
+      "name:8": "GCYMやPAまでの繋ぎ"
+    }
+  },
+  "questID:3": 134,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "nae2:upgrade"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "preRequisiteTypes:7": [
+    1
+  ],
+  "preRequisites:11": [
+    113
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "この機械はDEのツールや防具などをGregで作成できるようになった機械です。\nまたツールのアップグレードもこの機械で行うことができます。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 12005,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "液体が熱すぎて心配になるやつ",
+      "questlogic:8": "OR"
+    }
+  },
+  "questID:3": 114,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 12004,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 12005,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

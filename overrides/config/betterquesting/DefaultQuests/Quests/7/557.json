@@ -1,0 +1,85 @@
+{
+  "preRequisites:11": [
+    538,
+    561,
+    560,
+    558
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "無線アルティメットターミナルは色んなターミナルの合体版です。\nGUIまたはシフト右クリックからどのターミナルを起動するかが選択できます。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "ae2wtlib:wut",
+        "tag:10": {
+          "InfinityEnergy:3": 0,
+          "SelectedTerminal:3": 0,
+          "StoredTerminals:9": {
+            "0:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "wit:wit"
+            },
+            "1:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "wft:wft"
+            },
+            "2:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "wpt:wpt"
+            },
+            "3:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "wct:wct"
+            }
+          },
+          "internalCurrentPower:6": 0.0
+        }
+      },
+      "name:8": "緑レンジャー(リーダー)"
+    }
+  },
+  "questID:3": 557,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ae2wtlib:wut",
+          "tag:10": {
+            "InfinityEnergy:3": 0,
+            "SelectedTerminal:3": 0,
+            "StoredTerminals:9": {
+              "0:10": {
+                "Count:1": 1,
+                "Damage:2": 0,
+                "id:8": "wit:wit"
+              },
+              "1:10": {
+                "Count:1": 1,
+                "Damage:2": 0,
+                "id:8": "wft:wft"
+              },
+              "2:10": {
+                "Count:1": 1,
+                "Damage:2": 0,
+                "id:8": "wpt:wpt"
+              },
+              "3:10": {
+                "Count:1": 1,
+                "Damage:2": 0,
+                "id:8": "wct:wct"
+              }
+            },
+            "internalCurrentPower:6": 0.0
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

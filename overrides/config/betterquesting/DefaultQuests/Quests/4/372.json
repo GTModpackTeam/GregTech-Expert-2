@@ -1,0 +1,64 @@
+{
+  "preRequisites:11": [
+    345,
+    300
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "バッテリーは電力時代にほぼ必須となる装置です。\n生産しすぎた電力を貯蔵したりバッファーとして機能したりします。\n\nミキサーでバッテリー合金を作ったら、まずバッテリー筐体を作りましょう。\nアンチモニーはネザーで見つけることができます。\n\n次に筐体に何らかの素材を充填してバッテリーを作りましょう。\nLV、MV、HVのバッテリーには三つの種類があり、今持っている素材で作れるバッテリーを選ぶことができます。\nリチウムが最も優れていて、カドミウムとナトリウムがそれに続きます。\n最も安定したバッテリーの入手源は塩鉱脈です。\n塩を電解してナトリウムを入手するか、粉砕したリチア雲母を洗浄してリチウムを手に入れましょう。\n\n完成したバッテリーは機械のGUIの下中央のエネルギースロットに入れるか、バッテリーバッファーで充電することができます。\n\nバッテリーを手に持ってシフト右クリックするとインベントリ内の他のEU電力で動くアイテムを充電することができます。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 735,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "カドミウムがかなり不憫"
+    }
+  },
+  "questID:3": 372,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 256,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 717,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "entryLogic:8": "OR",
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 732,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 738,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 735,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

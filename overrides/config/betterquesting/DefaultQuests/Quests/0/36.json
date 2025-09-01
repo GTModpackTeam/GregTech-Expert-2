@@ -1,0 +1,39 @@
+{
+  "preRequisites:11": [
+    11
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "プレートはGregTechの随所で使われる材料で、二つのインゴットとハンマーをクラフトすることで作成できます。\n蒸気時代に入るとより良いレシピが解禁されます。\n\n鉄プレート三枚を組み合わせることでバケツを作ることができます。\nバニラで使われているバケツと概ねの機能は同じです。\n\n\n余談その1\n昔のGregtechでは溶岩を入れたバケツを持つと火傷していた",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:bucket"
+      },
+      "name:8": "TerraFirmaCraftのラスボス"
+    }
+  },
+  "questID:3": 36,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 3,
+          "Damage:2": 51,
+          "id:8": "gregtech:meta_plate"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:bucket"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    254
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Hyper Storage BoxはStorage Coreの容量を320,000増加させます。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "ezstorage:hyper_storage_box"
+      },
+      "name:8": "Super Chest I未満"
+    }
+  },
+  "questID:3": 264,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ezstorage:hyper_storage_box"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

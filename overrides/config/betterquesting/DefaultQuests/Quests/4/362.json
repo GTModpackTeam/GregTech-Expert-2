@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    357
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "今までは遠くまで採掘しに行ったりネザーに行くと拠点の機械は止まってましたが、ようやくその心配から解放されます。\n\nチャンクローダーが使いづらいときはスポットローダーに分解するのもいいでしょう。\nこれで遠くに置いた液体採掘機のメンテナンスが不要になります。\n\n\n余談その1\n昔は使い方のよくわからない上に高コストな世界加速機を要求していた。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "chickenchunks:chunk_loader"
+      },
+      "name:8": "チャンクローダー"
+    }
+  },
+  "questID:3": 362,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "chickenchunks:chunk_loader"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

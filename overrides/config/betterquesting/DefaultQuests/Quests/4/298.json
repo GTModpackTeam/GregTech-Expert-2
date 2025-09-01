@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    357
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "/dank/null/MK IIはLVの組立機で作ることのできるほぼ最初の実用的な新アイテムです。\n\nMK Iより増えた収容量とスロット数で採掘をより楽にしてくれます。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "danknull:dank_null_1"
+      },
+      "name:8": "ポータブル溶岩"
+    }
+  },
+  "questID:3": 298,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "danknull:dank_null_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

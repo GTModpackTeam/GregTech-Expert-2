@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    366
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "暗視ゴーグルはGTCEuが提供する最初の装備です。\n\nこのゴーグルを付けた状態でMキーを押すと暗視機能が有効化され、電力と引き換えに暗視のポーションエフェクトと同じ効果がプレイヤーに付与されます。\nMキーを押しても何も起こらない場合はキーの割り当てが被っているので設定で変えましょう。\n\n視界が点滅してしまうのはバグです。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "gregtech:gt_armor"
+      },
+      "name:8": "拠点の照明を全部落として軽量化するための第一歩"
+    }
+  },
+  "questID:3": 325,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "gregtech:gt_armor",
+          "tag:10": {}
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

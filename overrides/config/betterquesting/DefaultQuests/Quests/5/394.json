@@ -1,0 +1,35 @@
+{
+  "preRequisiteTypes:7": [
+    1,
+    0
+  ],
+  "preRequisites:11": [
+    438,
+    440
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "鋼鉄は色んな合金の原料となります。例えば赤鋼、青鋼、黒鋼...\nバナジウム鋼インゴットもその派生先の一つです。\n\nこの金属は進行するために僅かな量要求されます。\nこの金属をGregTechのツールの素材として使った時スチールの四倍弱の耐久を誇ります。\nバナジウムはVanadium Magnetite鉱石を原料に作られますが、既に磁鉄鉱で遭遇したという方も多いでしょう。\n\n\n余談その1\n赤鋼や青鋼はTerraFirmaCraftという別の高難易度modのバケツの原料として使われていたのが始まりである",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2036,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "MV最強金属"
+    }
+  },
+  "questID:3": 394,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2036,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    357
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "このModPackではEUを使ってFEで動くアイテムを充電できないので、FEのアイテムを動かしたい場合は簡易型有線充電装置を作る必要があります。\n更に、EUとFEは相互変換できないので、充電装置を動かしたい場合エネルギー変換器を作ってEUをFEに変換する必要があります。\n\nエネルギー変換器を設置した後一回ソフトハンマーで叩かないとEU -\u003e FEモードにならないので注意しましょう。\n\nまた、簡易型有線充電装置は漏電するので、使わない時は設置しない方がよいです。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "enderio:block_simple_wired_charger"
+      },
+      "name:8": "ブレーカーが欲しい",
+      "tasklogic:8": "OR"
+    }
+  },
+  "questID:3": 353,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "enderio:block_simple_wired_charger"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1675,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

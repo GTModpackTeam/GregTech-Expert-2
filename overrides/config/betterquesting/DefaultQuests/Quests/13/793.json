@@ -1,0 +1,57 @@
+{
+  "preRequisites:11": [
+    118
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "draconicevolution:draconic_helm",
+        "tag:10": {
+          "Profile_0:10": {
+            "armorAutoFeed:1": 0,
+            "armorNV:1": 0,
+            "armorNVLock:1": 0,
+            "hideArmor:1": 0
+          }
+        }
+      },
+      "name:8": "Draconic Helm"
+    }
+  },
+  "questID:3": 793,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:draconic_helm",
+          "tag:10": {
+            "Profile_0:10": {
+              "armorAutoFeed:1": 0,
+              "armorNV:1": 0,
+              "armorNVLock:1": 0,
+              "hideArmor:1": 0
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:draconic_chest"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:draconic_legs"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:draconic_boots"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

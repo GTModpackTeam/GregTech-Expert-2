@@ -1,0 +1,39 @@
+{
+  "preRequisites:11": [
+    556
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "ワイヤレス液体ターミナルは液体ターミナルのワイヤレス版です。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:wireless_fluid_terminal",
+        "tag:10": {}
+      },
+      "name:8": "青レンジャー",
+      "tasklogic:8": "OR"
+    }
+  },
+  "questID:3": 558,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:wireless_fluid_terminal",
+          "tag:10": {}
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "wft:wft",
+          "tag:10": {
+            "InfinityEnergy:3": 0
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

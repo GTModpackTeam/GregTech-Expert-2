@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    595
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "EVのミキサーは更なる色んな合金を作るのに要求されます。\n最も代表的なのがタングステンスチールです。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 473,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "日本語訳、撹拌器じゃだめかな"
+    }
+  },
+  "questID:3": 578,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 473,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

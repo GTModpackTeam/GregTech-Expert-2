@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    357
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§9GTE2のエンドコンテンツへようこそ!!§r\nこのクエストはAE2、EIO、DEのエンドコンテンツと各Gregの生産や加工をフルに活かしてクアンタムチェストを作成を目指すクエストラインの第一歩です。\n\nこのクエストラインを走り切る頃にはあなたも立派なGreg社員へと仲間入りし、その他の高難易度ModPackでも挑めるドラゴンハートを内に秘めることでしょう(?)。\n\n\n余談その1\nクエストカテゴリのTierが940となっているのは、クエストブックを書き始めた人がTier氏の名前がtier940なところから仕込まれた。\n\n余談その2\nソーラーパネルは長い間ケーブルに直接取り付けるのではなく、一度Hullに貼り付けて利用するのが仕様と思われていたが、実はバグだったという過去を持つ(CEu v2.8.8で修正された)。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 331,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "Solar Panel"
+    }
+  },
+  "questID:3": 808,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 331,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

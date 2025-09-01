@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    81
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§c※注意: このクエストはOre Veinsタブにある鉄インゴットのクエスト達成後に解放されます。§r\n\nあると便利な金属である錬鉄を作りましょう。\n鉄を単体クラフトして鉄ナゲットにして、それをかまどで焼いて錬鉄のナゲットにして、それを9個集めることで作成できます。\n\n錬鉄は作るのに手間がかかりますがそれ相応の見返りがあります。\nまず錬鉄で作ったツールは耐久値が鉄の1.5倍となり壊れにくくなります。\nまた、鋼鉄を焼く際に錬鉄を使えば焼くのに掛かる時間が半分以下となります。\n\n焼いていない鉄にも使い道があります、拠点の鉄を全て錬鉄にしないようにしましょう。\n\n\n余談その1\nGTE2の初期バージョンではGTCEuのコンフィグのバグにより鉄装備を精錬することでしか鉄塊が入手できなかったが、CraftTweakerを通じて鉄塊と金塊だけ手でクラフトできるように修正された\n\n余談その2\n錬鉄を有用な資源とみなすか作る労力に見合わないハズレ金属としてみなすかは海外でもかなり意見が割れている",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 335,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "Pink Slime Ingot"
+    }
+  },
+  "questID:3": 28,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 9,
+          "id:8": "minecraft:iron_nugget"
+        },
+        "1:10": {
+          "Count:3": 9,
+          "Damage:2": 335,
+          "id:8": "gregtech:meta_nugget"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 335,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,3 +1,26 @@
+# 2.7.13
+## Modpack migration
+- CoreMod fixes issues with NAE2.
+    1. Delete the `bansoukou` folder.
+    2. Delete `nae2-1.6.4-patched.jar` in the folder named `mods`.
+    3. Rename `nae2-1.6.4.disabled` to `nae2-1.6.4.jar` in the folder named `mods`.
+
+## Move mods
+- NetherPortalFix -> Universal Tweaks
+
+## Remove mods
+- Bansoukou (4.3.1)
+
+## Update mods
+- AE2 Unofficial Extended Life (0.56.5 -> 0.56.7)
+- GTConsolidate (1.0.7 -> 1.0.7.6)
+- GTExpertCore (2.4.11 -> 2.5.1)
+- MixinBooter (9.4 -> 10.6)
+- PackagedAuto (1.0.19.66 -> 1.0.23.71)
+- Universal Tweaks (1.14.0 -> 1.15.2)
+
+* * *
+
 # v2.7.12
 ## New mods
 - Hot or Not Plus (1.1.10)

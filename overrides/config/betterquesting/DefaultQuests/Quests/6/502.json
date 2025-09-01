@@ -1,0 +1,56 @@
+{
+  "preRequisites:11": [
+    504
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "電動肉切包丁は肉切包丁の上位互換です。\nナイフの互換ツールとしてクラフトで使用できますが、武器としての使用が主な用途となるでしょう。\nドロップ増加Vを持っているので動物や敵モブを倒すとより沢山の収穫が得られます。\n\n肉切包丁をローズゴールドかブラックブロンズで作ると追加でアンデッド特攻が、インバーで作ると虫特攻が付与されます。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "gregtechfoodoption:butchery_knife.hv",
+        "tag:10": {
+          "Charge:4": 2147483647,
+          "DisallowContainerItem:1": 0,
+          "GT.Behaviours:10": {},
+          "GT.Tool:10": {
+            "AttackDamage:5": 2.0,
+            "AttackSpeed:5": 0.0,
+            "Durability:3": 0,
+            "Material:8": "iron",
+            "MaxDurability:3": 256
+          },
+          "HideFlags:3": 2,
+          "MaxCharge:4": 2147483647
+        }
+      },
+      "name:8": "これの餌食になる人生は過ごしたくない"
+    }
+  },
+  "questID:3": 502,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gregtechfoodoption:butchery_knife.hv",
+          "tag:10": {
+            "Charge:4": 2147483647,
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {},
+            "GT.Tool:10": {
+              "AttackDamage:5": 2.0,
+              "AttackSpeed:5": 0.0,
+              "Durability:3": 0,
+              "Material:8": "iron",
+              "MaxDurability:3": 256
+            },
+            "HideFlags:3": 2,
+            "MaxCharge:4": 2147483647
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

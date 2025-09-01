@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    329
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "/dank/nullMK IVはMK IIIより増えた収容量とスロット数で採掘をより楽にしてくれます。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "danknull:dank_null_3"
+      },
+      "name:8": "ポータブルAnnihilation Plane"
+    }
+  },
+  "questID:3": 371,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "danknull:dank_null_3"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
