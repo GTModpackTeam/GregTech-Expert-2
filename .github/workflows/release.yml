@@ -98,7 +98,6 @@ jobs:
             mv serverfiles/* ./
             rm -vf .minecraft/mods/!Red-Core-*
             rm -vf .minecraft/mods/Alfheim-*
-            rm -vf .minecraft/mods/Valkyrie-*
             rm -vf .minecraft/mods/CraftPresence-*
             rm -vf .minecraft/mods/Controlling-*
             rm -vf .minecraft/mods/UniLib-*

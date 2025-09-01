@@ -10,6 +10,7 @@
 
 ## Remove mods
 - Bansoukou (4.3.1)
+- Valkyrie (0.3)
 
 ## Update mods
 - AE2 Unofficial Extended Life (0.56.5 -> 0.56.7)
