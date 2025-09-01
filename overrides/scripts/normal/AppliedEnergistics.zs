@@ -423,6 +423,19 @@ recipes.addShaped(<appliedenergistics2:wireless_pattern_terminal>, [
     [<metaitem:plateNetherQuartz>, <appliedenergistics2:dense_energy_cell>, <metaitem:plateNetherQuartz>]
 ]);
 
+# Wireless Interface Terminal
+recipes.remove(<appliedenergistics2:wireless_interface_terminal>);
+recipes.addShapeless(<appliedenergistics2:wireless_interface_terminal>, [<wit:wit>]);
+recipes.addShaped(<appliedenergistics2:wireless_interface_terminal>, [
+    [<appliedenergistics2:material:41>, <appliedenergistics2:part:480>, <appliedenergistics2:material:41>],
+    [<appliedenergistics2:material:24>, <gtexpert:meta_item_1:1>, <appliedenergistics2:material:24>],
+    [<metaitem:plateNetherQuartz>, <appliedenergistics2:dense_energy_cell>, <metaitem:plateNetherQuartz>]
+]);
+
+# Wireless Universal Terminal
+recipes.addShapeless(<ae2wut:wireless_universal_terminal>, [<ae2wtlib:wut>]);
+recipes.removeByRecipeName("ae2wut:wireless_universal_terminal");
+
 # Biometric Card
 recipes.remove(<appliedenergistics2:biometric_card>);
 recipes.addShaped(<appliedenergistics2:biometric_card>, [
@@ -513,20 +526,21 @@ recipes.addShaped(<appliedenergistics2:material:30>, [
     [null, null, null]
 ]);
 
+# Quantum Link Card
+recipes.remove(<appliedenergistics2:material:59>);
+recipes.addShapeless(<appliedenergistics2:material:59>, [<ae2wtlib:infinity_booster_card>]);
+recipes.addShaped(<appliedenergistics2:material:59>, [
+    [<appliedenergistics2:material:42>, <metaitem:cover.digital.wireless>, <appliedenergistics2:material:42>],
+    [<appliedenergistics2:material:47>, <appliedenergistics2:material:28>, <appliedenergistics2:material:47>],
+    [<appliedenergistics2:material:42>, <metaitem:sensor.ev>, <appliedenergistics2:material:42>]
+]);
+
 # Magnet Card
 recipes.addShapeless(<appliedenergistics2:material:60>, [<wct:magnet_card>]);
 recipes.addShaped(<appliedenergistics2:material:60>, [
     [<metaitem:plateRedstone>, <appliedenergistics2:part:300>, <metaitem:plateLapis>],
     [<metaitem:stickNeodymiumMagnetic>, <appliedenergistics2:material:28>, <metaitem:stickNeodymiumMagnetic>],
     [<metaitem:stickNeodymiumMagnetic>, null, <metaitem:stickNeodymiumMagnetic>]
-]);
-
-# Quantum Link Card
-recipes.remove(<appliedenergistics2:material:59>);
-recipes.addShaped(<appliedenergistics2:material:59>, [
-    [<appliedenergistics2:material:42>, <metaitem:cover.digital.wireless>, <appliedenergistics2:material:42>],
-    [<appliedenergistics2:material:47>, <appliedenergistics2:material:28>, <appliedenergistics2:material:47>],
-    [<appliedenergistics2:material:42>, <metaitem:sensor.ev>, <appliedenergistics2:material:42>]
 ]);
 
 # Wireless Receiver

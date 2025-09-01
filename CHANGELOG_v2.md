@@ -15,6 +15,9 @@
 - Bansoukou (4.3.1)
 - Valkyrie (0.3)
 
+## New mods
+- AE2UEL Wireless Universal Terminal (1.1.7)
+
 ## Update mods
 - AE2 Unofficial Extended Life (0.56.5 -> 0.56.7)
 - GTConsolidate (1.0.7 -> 1.0.7.6)
