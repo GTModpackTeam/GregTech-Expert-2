@@ -18,29 +18,12 @@
   "tasks:9": {
     "0:10": {
       "entryLogic:8": "OR",
+      "ignoreNBT:1": 1,
       "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "id:8": "appliedenergistics2:wireless_pattern_terminal",
-          "tag:10": {}
-        },
-        "1:10": {
-          "Count:3": 1,
-          "id:8": "wpt:wpt",
-          "tag:10": {
-            "InfinityEnergy:3": 0
-          }
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "1:10": {
-      "index:3": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 1,
-          "id:8": "ae2fc:wireless_fluid_pattern_terminal",
           "tag:10": {}
         }
       },

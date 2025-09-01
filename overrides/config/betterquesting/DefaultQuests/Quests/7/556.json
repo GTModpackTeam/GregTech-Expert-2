@@ -37,6 +37,7 @@
       "taskID:8": "bq_standard:retrieval"
     },
     "2:10": {
+      "ignoreNBT:1": 1,
       "index:3": 2,
       "requiredItems:9": {
         "0:10": {

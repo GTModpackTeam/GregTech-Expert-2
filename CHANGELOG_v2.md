@@ -5,6 +5,9 @@
     2. Delete `nae2-1.6.4-patched.jar` in the folder named `mods`.
     3. Rename `nae2-1.6.4.disabled` to `nae2-1.6.4.jar` in the folder named `mods`.
 
+## Modpack information
+- Fix quests related to NBT tags
+
 ## Move mods
 - NetherPortalFix -> Universal Tweaks
 

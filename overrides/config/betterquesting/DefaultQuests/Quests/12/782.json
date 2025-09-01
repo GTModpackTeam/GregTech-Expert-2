@@ -24,13 +24,19 @@
           "Unbreakable:1": 1
         }
       },
-      "name:8": "農業王に、俺はなる!!"
+      "name:8": "農業王に、俺はなる!!",
+      "tasklogic:8": "OR"
     }
   },
   "questID:3": 782,
   "tasks:9": {
     "0:10": {
       "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

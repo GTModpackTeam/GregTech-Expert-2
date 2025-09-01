@@ -21,6 +21,7 @@
   "tasks:9": {
     "0:10": {
       "entryLogic:8": "OR",
+      "ignoreNBT:1": 1,
       "index:3": 0,
       "requiredItems:9": {
         "0:10": {
