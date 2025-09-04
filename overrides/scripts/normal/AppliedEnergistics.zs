@@ -433,7 +433,7 @@ recipes.addShaped(<appliedenergistics2:wireless_interface_terminal>, [
 ]);
 
 # Wireless Universal Terminal
-recipes.addShapeless(<ae2wut:wireless_universal_terminal>, [<ae2wtlib:wut>]);
+recipes.addShapeless(<ae2wut:wireless_universal_terminal>.withTag({modes: [0, 1, 2, 3, 10, 4] as int[], internalMaxPower: 1600000.0, internalCurrentPower: 0}), [<ae2wtlib:wut>]);
 recipes.removeByRecipeName("ae2wut:wireless_universal_terminal");
 
 # Biometric Card

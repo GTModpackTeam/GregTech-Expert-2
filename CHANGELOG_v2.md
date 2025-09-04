@@ -20,11 +20,13 @@
 
 ## Update mods
 - AE2 Unofficial Extended Life (0.56.5 -> 0.56.7)
-- GTConsolidate (1.0.7 -> 1.0.7.6)
+- GTConsolidate (1.0.7 -> 1.0.7.7)
 - GTExpertCore (2.4.11 -> 2.5.1)
+- JEI Utilities (0.2.11 -> 0.2.13)
+- Had Enough Items (4.28.1 -> 4.29.6)
 - MixinBooter (9.4 -> 10.6)
 - PackagedAuto (1.0.19.66 -> 1.0.23.71)
-- Universal Tweaks (1.14.0 -> 1.15.2)
+- Universal Tweaks (1.14.0 -> 1.16.1)
 
 ## New recipes
 ### AE2 Unofficial Extended Life
