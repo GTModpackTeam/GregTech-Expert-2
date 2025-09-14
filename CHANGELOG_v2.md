@@ -20,11 +20,14 @@
 
 ## Update mods
 - AE2 Unofficial Extended Life (0.56.5 -> 0.56.7)
+- Forgelin-Continuous (2.2.0.0 -> 2.2.20.0)
 - GTConsolidate (1.0.7 -> 1.0.7.7)
 - GTExpertCore (2.4.11 -> 2.5.1)
+- Inventory Bogo Sorter (1.4.8 -> 1.4.11)
 - JEI Utilities (0.2.11 -> 0.2.13)
-- Had Enough Items (4.28.1 -> 4.29.6)
+- Had Enough Items (4.28.1 -> 4.29.7)
 - MixinBooter (9.4 -> 10.6)
+- ModularUI (2.4.3 -> 2.5.0-rc6)
 - PackagedAuto (1.0.19.66 -> 1.0.23.71)
 - Universal Tweaks (1.14.0 -> 1.16.1)
 
