@@ -8,26 +8,34 @@
 ## Modpack information
 - Fix quests related to NBT tags
 
+## Disable mods
+- Advanced Backups
+
 ## Move mods
 - NetherPortalFix -> Universal Tweaks
+- Ender Storage continuation (2.6.3) -> EnderStorage Continuation2 (2.7.0)
 
 ## Remove mods
 - Bansoukou (4.3.1)
 - Valkyrie (0.3)
 
 ## New mods
-- AE2UEL Wireless Universal Terminal (1.1.7)
+- AE2UEL Wireless Universal Terminal (1.2.4)
+- Key Binding Patch (1.3.3.3)
+- VintageDisplay (1.3)
 
 ## Update mods
 - AE2 Unofficial Extended Life (0.56.5 -> 0.56.7)
+- Alfheim (1.5 -> 1.6)
+- Fixeroo (2.3.6b -> 2.3.6)
 - Forgelin-Continuous (2.2.0.0 -> 2.2.20.0)
 - GTConsolidate (1.0.7 -> 1.0.7.7)
 - GTExpertCore (2.4.11 -> 2.5.1)
-- Inventory Bogo Sorter (1.4.8 -> 1.4.11)
+- Inventory Bogo Sorter (1.4.8 -> 1.5.0)
 - JEI Utilities (0.2.11 -> 0.2.13)
-- Had Enough Items (4.28.1 -> 4.29.7)
-- MixinBooter (9.4 -> 10.6)
-- ModularUI (2.4.3 -> 2.5.0-rc6)
+- Had Enough Items (4.28.1 -> 4.29.8)
+- MixinBooter (9.4 -> 10.7)
+- ModularUI (2.4.3 -> 3.0.3)
 - PackagedAuto (1.0.19.66 -> 1.0.23.71)
 - Universal Tweaks (1.14.0 -> 1.16.1)
 
@@ -776,7 +784,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 # v2.5.3
 ## Modpack information
 ### To update an existing profile without creating a new profile.
-1. Check the mods folder and delete `gregtech-1.12.2-2.7.3-beta-gte.jar` and `gregtechfoodoption-1.9.3.2-gte.jar`. 
+1. Check the mods folder and delete `gregtech-1.12.2-2.7.3-beta-gte.jar` and `gregtechfoodoption-1.9.3.2-gte.jar`.
 2. In addition, delete `gregtech-1.12.2-2.7.2-beta.jar.disabled` and `gregtechfoodoption-1.9.3.1.jar.disabled`.
 3. Finally, check the `overrides\config\mod-director` and make sure there are no files inside.
 - In case you are wondering, ModPack recommends [MultiMC](https://multimc.org/) or [Prism Launcher](https://prismlauncher.org/).
@@ -980,7 +988,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 ## New mods
 - Extra CPUs
 
-* * * 
+* * *
 
 # v2.3.1
 ## Modpack information
