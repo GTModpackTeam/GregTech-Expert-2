@@ -8,14 +8,14 @@ on:
   workflow_dispatch:
     inputs:
       target_branch:
-        description: 'Target branch for the preview'
+        description: "Target branch for the preview"
         type: string
         required: true
       version:
-        description: 'Modpack version'
+        description: "Modpack version"
         required: true
       preview_version:
-        description: 'Preview version'
+        description: "Preview version"
         required: true
 
 env:
@@ -87,14 +87,12 @@ jobs:
         run: |
           if [[ "${{ matrix.buildType }}" == "lwjgl3" ]]; then
             sed -i "s/B:EnableCustomGameTitle=false/B:EnableCustomGameTitle=true/" overrides/config/stellar_core.cfg
-            cp -rvf cmmc/bansoukou/ ./overrides/
-            rm -Rf cmmc/bansoukou/
             mv -vf overrides/ .minecraft/
             cp -vf icon.png .minecraft/
             cp -rvf cmmc/* ./
-            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}-mmc.zip libraries/ patches/ mmc-pack.json instance.cfg .minecraft/
+            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}-mmc.zip patches/ mmc-pack.json instance.cfg .minecraft/
           else
-            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}-cf.zip manifest.json modlist.html overrides/bansoukou/ overrides/config/ overrides/local/ overrides/resourcepacks/icons/ overrides/resourcepacks/GTExpert2-* overrides/scripts/
+            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}-cf.zip manifest.json modlist.html overrides/config/ overrides/local/ overrides/resourcepacks/icons/ overrides/resourcepacks/GTExpert2-* overrides/scripts/
             mv overrides/ .minecraft/
             cp icon.png .minecraft/
             zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}-mmc.zip mmc-pack.json instance.cfg .minecraft/
