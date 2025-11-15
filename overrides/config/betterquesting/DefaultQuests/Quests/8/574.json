@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    570,
+    600
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "大型ガスタービンはEV時代ではそれほど魅力的ではないかもしれませんが、発電量を基本出力の4096EU/tより大きく、燃料効率もよくさせたくなった時非常に簡単に実現できる能力を持っています。\n\n全ての大型タービンはタービンローターとローターホルダーを要求します。\nローター周りの仕様については次のクエストを参照してください。\n\n100%を超えるパワー値を持つローターを使ってタービンを動かしたとき、発電された電力を無駄なく使い切るためには\nIVのダイナモハッチまたはEVの4Aダイナモハッチを取り付ける必要があります。\nタービンは使い切れなかった電力を廃棄します。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1011,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "横倒しの蒸留塔"
+    }
+  },
+  "questID:3": 574,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1641,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1011,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

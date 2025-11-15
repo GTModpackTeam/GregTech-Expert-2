@@ -1,0 +1,64 @@
+{
+  "preRequisites:11": [
+    539
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "MEハッチやバスはAEネットワークに直接接続してアイテムや液体をやり取りできる画期的な物です。\nこれによりインプットやアウトプットにインターフェイスを配置する作業から開放してくれます。\n\n\n余談その1\nこのインターフェース達は元々GTNHに居たものだった。\n\n余談その2\nCEu v2.8.8で新たな入力バスとハッチが追加され、既存のMEハッチとバスは見た目と使い勝手がかなり改善した。\n既存はサーキット番号やレンズや金型を設定可能な新しいスロットが追加され、新たな入力バスとハッチはMEネットワークの在庫を直接参照することが可能となった。\n\nまたこの仕様はGTNHとほぼ同じなため、ポートしてきたと思われる。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1748,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "新しいご友人...素敵だ...",
+      "tasklogic:8": "OR"
+    }
+  },
+  "questID:3": 551,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1748,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1746,
+          "id:8": "gregtech:machine"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1747,
+          "id:8": "gregtech:machine"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 1745,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "entryLogic:8": "OR",
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1752,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1753,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

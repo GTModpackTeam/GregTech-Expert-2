@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    539,
+    115
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "このmodはCompact Machinesのアドオンであり、中と外でAEネットワークを利用することが出来ます。\n\n手順は以下の通りです: \n①コンパクトマシンを用意する\n②アダプタを2個用意する\n③コンパクトマシンを設置し、好きな面にアダプタを貼り付ける\n④コンパクトマシン内に入る\n⑤トンネルを貼り付け、アダプタを付けた面に合わせる\n⑥トンネルの上にアダプタを貼り付ける\n\nこの状態でターミナルなどを使い、アイテムが共有されていれば完了です。\nちなみに量子トンネルを使う手段もありますが、アダプタを使う方が圧倒的に低コストです。\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rf-capability-adapter:aecapabilityadapter"
+      },
+      "name:8": "可能性は無限大?",
+      "tasklogic:8": "OR"
+    }
+  },
+  "questID:3": 120,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "rf-capability-adapter:aecapabilityadapter"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

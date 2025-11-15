@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    549
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "発展型メモリーカードはP2Pのリンク状態を視覚的に管理できるツールです。\nまたリンクの設定変更やP2Pを名前で管理している場合、その名前を検索して表示することもできます。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "betterp2p:advanced_memory_card",
+        "tag:10": {
+          "selectedIndex:3": -1
+        }
+      },
+      "name:8": "P2Pの管理者"
+    }
+  },
+  "questID:3": 522,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "betterp2p:advanced_memory_card",
+          "tag:10": {
+            "gui:1": 3,
+            "selectedIndex:10": {}
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

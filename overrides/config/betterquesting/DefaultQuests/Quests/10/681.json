@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    699
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "ツールとして使っても流体パイプとして使ってもとても強力な素材です。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 129,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "デュって一発でローマ字入力できる?",
+      "tasklogic:8": "OR"
+    }
+  },
+  "questID:3": 681,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 129,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

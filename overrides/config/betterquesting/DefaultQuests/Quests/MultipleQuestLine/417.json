@@ -1,0 +1,72 @@
+{
+  "preRequisiteTypes:7": [
+    0,
+    1
+  ],
+  "preRequisites:11": [
+    458,
+    113
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "この機械はEnderIOのマシンを電化したもので、魂の小瓶を利用してクラフトを行うことができます。\n\nまた液体経験値を要求されていますが、魂抽出機の稼働やミキサーでの作成、経験値のオベリスクから得ることが可能です。おすすめは経験値タンクとしても機能するオベリスクです。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 11036,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "魂をコピペ",
+      "questlogic:8": "OR"
+    }
+  },
+  "questID:3": 417,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 11036,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 11037,
+          "id:8": "gregtech:machine"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 11038,
+          "id:8": "gregtech:machine"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 11039,
+          "id:8": "gregtech:machine"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 11040,
+          "id:8": "gregtech:machine"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 11041,
+          "id:8": "gregtech:machine"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 11042,
+          "id:8": "gregtech:machine"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "Damage:2": 11043,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

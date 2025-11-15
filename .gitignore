@@ -21,3 +21,4 @@ overrides/config/nutrition/effects/example.json
 overrides/config/nutrition/nutrients/example.json
 overrides/config/activity.json
 overrides/config/AdvancedBackups-client.properties
+buildtools/uv.lock

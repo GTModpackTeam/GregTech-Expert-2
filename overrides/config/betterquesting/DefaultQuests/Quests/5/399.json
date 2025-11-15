@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    402
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "携帯スキャナーまたはトライコーダーはGTCEuのデバッグツールです。\nスキャナーは現在の状態と内容物やパフォーマンスへの影響などに関するブロックの詳細と、エネルギーネットワークの詳細を表示してくれます。\n\nスキャナーを適当な場所で使うと、そのチャンクで液体採掘プラントが掘り出せる液体鉱脈の残量パーセンテージも表示してくれます。\n\n\n余談その1\nこの小さな役に立つデバイスはGregTech5からの輸入品である\n当時はWailaのGUIから得られる情報量が殆どなかったので極めて有用だった",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 469,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "無給デバッガ―"
+    }
+  },
+  "questID:3": 399,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 469,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    299,
+    363
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "裁断機は棒を4つのボルトにするなど色んなものを裁断します。\n\n潤滑油が安定して入手できるまでは水を使うといいでしょう。\n\n裁断機は宝石のプレートを入手する唯一の手段です。\nプレートはフィルターとガスコレクターとAE2に使用します\n\n\n余談その1\nModern Industrializationには蒸気式裁断機が存在する\n加工時間が妙に遅いため蒸気時代から大量に機械を作らないといけない",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 245,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "食べ物はSlicerでカットしよう",
+      "tasklogic:8": "OR"
+    }
+  },
+  "questID:3": 355,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 245,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

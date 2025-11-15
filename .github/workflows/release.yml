@@ -23,24 +23,16 @@ env:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-slim
     strategy:
       matrix:
         buildType: [standard, lwjgl3]
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
-
-      - name: Restore cache
-        uses: actions/cache@v4
-        with:
-          path: |
-            ~/.m2/repository
-            ~/.cache/pip
-          key: ${{ runner.os }}-deps-${{ matrix.buildType }}-${{ hashFiles('**/pom.xml') }}
 
       - name: Download Resource Packs zip
         run: |
@@ -69,13 +61,13 @@ jobs:
       - name: Adjust for LWJGL3
         if: matrix.buildType == 'lwjgl3'
         run: |
-          python buildtools/gen-lwjgl3-manifest.py
+          uv run --directory ./buildtools python ./gen-lwjgl3-manifest.py
           cp -vf cmmc/manifest.json manifest.json
 
       - name: Install Mods
         env:
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
-        run: python buildtools/mod-install.py
+        run: uv run --directory ./buildtools python ./mod-install.py
 
       - name: Clean up placeholder files
         run: find . -name ".gitkeep" -delete
@@ -116,7 +108,7 @@ jobs:
           fi
 
       - name: Upload Artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: ${{ matrix.buildType }}-artifacts
           path: artifacts/
@@ -124,18 +116,18 @@ jobs:
 
   release:
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-slim
     permissions:
       contents: write
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
       - name: Download All Artifacts
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v6
         with:
           path: downloads
 

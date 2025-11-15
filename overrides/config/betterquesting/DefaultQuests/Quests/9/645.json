@@ -1,0 +1,67 @@
+{
+  "preRequisiteTypes:7": [
+    1
+  ],
+  "preRequisites:11": [
+    627
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "インジウムを入手するためには沢山の硫酸が必要で、方鉛鉱と閃亜鉛鉱という二種類の異なる鉱石も必要です。\n\n硫酸は大型化学反応炉で大規模に作ることができる他、白金族泥の処理の際の廃棄物として入手することができます。\n\nLuVで必須になるナクアダ処理は副産物としてインジウムを大量に生産するので、この自動化ラインにはあまり投資しなくていいかもしれません。\n\n\n余談その1\nこの入手法はGregTech5から継承されてきたものである\nオリジナルでは辛いことに極小の粉一個しか生産されなかった",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 48,
+        "id:8": "gregtech:meta_dust"
+      },
+      "name:8": "p型半導体にドープするやつ",
+      "tasklogic:8": "OR"
+    }
+  },
+  "questID:3": 645,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 279,
+          "id:8": "gregtech:meta_crushed_purified"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 322,
+          "id:8": "gregtech:meta_crushed_purified"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 48,
+          "id:8": "gregtech:meta_dust_small"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "3:10": {
+      "index:3": 3,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 354,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

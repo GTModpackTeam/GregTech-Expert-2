@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    3
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "gregtech:ore_garnierite_0"
+      },
+      "name:8": "この中に一人仲間はずれがいます"
+    }
+  },
+  "questID:3": 100,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:ore_garnierite_0"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:ore_nickel_0"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:ore_cobaltite_0"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:ore_pentlandite_0"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

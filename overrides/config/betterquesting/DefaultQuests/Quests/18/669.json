@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    678
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "並列制御ユニットは必須ではありませんが、マルチブロックを作る一番の動機になるとおもいます。\nこのブロックを組み込むことで一回で複数個の処理をできるようになります。\nただし、電力はその分消費しますので高電圧高電流のエネルギーハッチを使いましょう。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2050,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "コックさんが増えます",
+      "questlogic:8": "OR"
+    }
+  },
+  "questID:3": 669,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2050,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2051,
+          "id:8": "gregtech:machine"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 2052,
+          "id:8": "gregtech:machine"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 2053,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

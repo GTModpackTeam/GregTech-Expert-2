@@ -1,0 +1,61 @@
+{
+  "preRequisites:11": [
+    256
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "蒸気式オーブンは砕いた鉱石などを高速で大量に精錬することができる、蒸気式破砕機の親戚です。\n具体的には、JEIに表示されているレシピを1.5倍の所要時間で同時に8回加工することができます。\nもうかまどを大量に並べる必要もなくなるでしょう。\n\n以下の内容は蒸気式破砕機と全く同じとなるので省略します。\n先に蒸気式破砕機のクエストを読むといいかもしれません。\n\n\n余談その1\n元々このマルチブロックは青銅の筐体で作るはずだが、コンフィグでレシピが難化されている。\n\n余談その2\nこのマルチブロックは意外にもGregTechとは全く関係のないmodから引用されている。\n1.4.7時代のRailcraftでコークス炉と同じ時期に実装された蒸気式オーブンが直接の元ネタである。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1024,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "かまど 第四版"
+    }
+  },
+  "questID:3": 274,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 12,
+          "Damage:2": 4,
+          "id:8": "gregtech:metal_casing"
+        },
+        "1:10": {
+          "Count:3": 10,
+          "Damage:2": 1,
+          "id:8": "gregtech:boiler_firebox_casing"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1653,
+          "id:8": "gregtech:machine"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 1652,
+          "id:8": "gregtech:machine"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 1651,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1024,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

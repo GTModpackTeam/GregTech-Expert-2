@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    632
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "EVの大型タービン講座に書いた通り、ローターホルダーは高いtierほど発電効率が上がります。\nローターホルダーを高いものにするデメリットはないので、どんどん強いものを使いましょう。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1642,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "発電強化"
+    }
+  },
+  "questID:3": 670,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1642,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

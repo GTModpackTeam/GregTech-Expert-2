@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    121
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "鉱石から加工してインゴットを入手する方法の他にもう一つの方法があります。\n\nその方法は化学反応を行って入手する方法ですが、手間が多いため可能な限り非推奨です\nただし自動化や戦闘が苦手な方と今後の自動化では大変重宝します。\nまた素材となっているドラゴンの粉はJEIを参照してください。\n\nまたドラゴンの卵も作成は可能ですがLuV到達直後の段階でラインを組むのは同じく非推奨です。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 24180,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "Draconium Ingot"
+    }
+  },
+  "questID:3": 798,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 24180,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 24178,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

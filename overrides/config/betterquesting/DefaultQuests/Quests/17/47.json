@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    14
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "松の苗木を4つ入手して、大きな木を栽培しましょう。\n一括破壊を使えば一度に大量の原木を入手でき、蒸気時代がぐっと楽になります。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "minecraft:sapling"
+      },
+      "name:8": "スカイブロックの大黒柱"
+    }
+  },
+  "questID:3": 47,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 1,
+          "id:8": "minecraft:sapling"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "Damage:2": 5,
+          "id:8": "minecraft:sapling"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "preRequisites:11": [
+    353
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "建設ガジェットは色んな種類の建築を行うことができ、拠点の建設を楽にしてくれます。\n\n破壊ガジェットやコピーペーストガジェットもあるので、サードパーティーの解説動画を見ながら使ってみるといいかもしれません。\n\nGregTechのチャージャーでは充電できないので、先ほど作ったエネルギー変換器に繋がった簡易型有線充電装置に入れて充電しましょう。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "buildinggadgets:buildingtool",
+        "tag:10": {
+          "blockstate:10": {
+            "Name:8": "minecraft:air"
+          }
+        }
+      },
+      "name:8": "ゲームボーイ一号"
+    }
+  },
+  "questID:3": 343,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "buildinggadgets:buildingtool",
+          "tag:10": {
+            "blockstate:10": {
+              "Name:8": "minecraft:air"
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "buildinggadgets:exchangertool",
+          "tag:10": {
+            "blockstate:10": {
+              "Name:8": "minecraft:air"
+            }
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "buildinggadgets:copypastetool",
+          "tag:10": {
+            "mode:8": "Copy"
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "buildinggadgets:destructiontool",
+          "tag:10": {
+            "fuzzy:1": 1,
+            "overlay:1": 1
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

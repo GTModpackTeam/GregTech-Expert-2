@@ -1,0 +1,58 @@
+{
+  "preRequisites:11": [
+    536
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "無線アクセスターミナルは無線版のMEターミナルで、作成することでターミナルをあちこちに設置する必要はなくなります。ただし利用するためには準備が必要です。\n\n手順は以下の通りです: \n①セキュリティーステーションを用意します。\n②作ったターミナルをセキュリティーステーションの中のスロットに入れて登録をします。\n③無線アクセスポイントを作成して繋ぎます。\n\nまたポイントとして、アクセスポイントのにブースターカードを複数セットすることで範囲が拡大されます。ただ何枚セットするかは拠点の広さと相談しましょう。\n\nまたタスクにあるマグネットカードはセルワークベンチで設定したアイテム、またはその逆のアイテムを自動でネットワークに格納してくれます。便利なので、ぜひ作って無線ターミナルのスロットにセットしておきましょう。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:wireless_terminal",
+        "tag:10": {}
+      },
+      "name:8": "自動接続中です。しばらくお待ちください..."
+    }
+  },
+  "questID:3": 556,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:wireless_access_point"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:wireless_terminal",
+          "tag:10": {}
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 42,
+          "id:8": "appliedenergistics2:material"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 60,
+          "id:8": "appliedenergistics2:material",
+          "tag:10": {}
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

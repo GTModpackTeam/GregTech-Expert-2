@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    19
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "木製液体パイプは低温の流体を流すことのできるパイプです。\n水やクレオソート油の輸送に適しています。\n蒸気や蒸気より熱い流体を流すと爆発したり炎上したりするので要注意です。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1617,
+        "id:8": "gregtech:fluid_pipe_normal"
+      },
+      "name:8": "露天風呂のお湯が出てくるところについてるやつ"
+    }
+  },
+  "questID:3": 7,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1617,
+          "id:8": "gregtech:fluid_pipe_small"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1617,
+          "id:8": "gregtech:fluid_pipe_normal"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1617,
+          "id:8": "gregtech:fluid_pipe_large"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

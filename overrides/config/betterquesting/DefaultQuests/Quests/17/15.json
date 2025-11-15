@@ -1,0 +1,20 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Gregtech Expert 2(以下GTE2)はGregtech Community Edition unofficial (以下GTCEu)を基にしたModPackですが、過去に存在した多くのGregtechをテーマにしたModPackの集合体のようなものとも言われています。\n以下にそれらの簡単な紹介を載せておきます。\n\nGregtech Expert(初代)(当クエストブックではGTE1と呼称)\n- 2017年にtier940氏の主導で開発されたgregtech5uのModPack。Gregtechの専門家向けと銘打ってはいるものの、序盤はユーザーフレンドリーであるため世間からは初心者向けと認識されている。\n- 終盤のレシピが極端に高難易度であるため、未だにクリア者は出ていない。\n\nGT New Horizons(当クエストブックではGTNHと呼称)\n- 2014年にDreamMasterXXL氏の主導で開発されたgregtech5uのModPack。\n- サバイバル要素と工業魔術要素共に難易度が高く、そしてバランスもとれているため、Gregtechといえばコレ、と言われる程に知名度が高い。\n- このpackで改変されたバニラレシピの多くがGTCEuに輸入されている。\n- 逆にGTCEuからいくつかの仕様が逆輸入されもした。\n\nOmnifactory(当クエストブックではOmnifactoryと呼称)\n- 2019年にdamien reave氏の主導で開発されたgregtech Community EditionのModPack。\n- gregtechの煩わしい要素をできるだけ簡略化して、拠点にあるもの全てを自動化して膨大なリソースを管理しつつクリエイティブアイテムを目指すというコンセプトが多くの人に受け入れられ、現在でも有志によりnomifactoryやnomi ceuなど後継ModPackが更新され続けている。\n\nIMPACT GT EDITION(当クエストブックではIMPACTと呼称)\n- GTNHの魔術やサバイバル要素が邪魔といった理由などで4GNAME氏によって開発されたGTNHを下敷きとしたModPack。\n- ほぼ全てのmodのjarファイルが特製仕様に改変されており、gregtechと強力に結びつく機能が追加されている。\n- そのあまりにもgregtech向けに洗練された仕様はGregtechコミュニティーの人々に大きな衝撃(impact)を与えた。\n\nGregtech Community Pack(当クエストブックではCommunity Packと呼称)\n- GTCEuを紹介するためにGTCEuの開発者が立ち上げた軽量ModPack。\n- GTCEuの仕様について物凄く細かく記述されている。\n- このクエストはGregTech Community Packのクエスト文をLGPL3.0 Licenseに基づき一部使用しています\n- この場を借りて感謝申し上げます。\n\n\n余談その1\n初代と違ってこのModPackは普通にクリア可能です。\nこのクエストを書いている時点で既に何人かがクリアしています。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 9,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "Modpack Infomation \u0026 Credits"
+    }
+  },
+  "questID:3": 15,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

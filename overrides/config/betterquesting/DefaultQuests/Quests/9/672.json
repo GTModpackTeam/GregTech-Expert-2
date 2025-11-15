@@ -1,0 +1,97 @@
+{
+  "preRequisites:11": [
+    627
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "もしレアアースを既に作って遠心分離していたのならこのクエストは特に問題ないでしょう。\nもしまだなら、色んな鉱石の副産物として入手するか、モナザイトを遠心分離することで得て下さい。\n\nレアアースを抽出するためには、副産物の排出確率を増やすために可能な限り高い電圧の遠心分離機を使うべきです。\n\nレアアースから獲得できる元素は以下の通りです: \n- ランタンは核融合で使います、そのうち沢山欲しくなるでしょう\n- イットリウムはイットリウムバリウムキュプライトというUVのワイヤー素材に加工することができます。\n- セリウムには特に使い道がありません。\n- サマリウムはIVの超伝導ワイヤーの素材で、LuV以降のモーターのマグネット棒の素材でもあります。\n- ネオジミウムは現実なら最強の磁石の素材ですが、ゲームバランス的にナーフされました。\n- カドミウムには特に使い道がありません。\n\n希土類元素は上述のものより沢山の種類の金属を含んでいますが、GTCEuの開発チームはそれらに使い道を与えるのに苦労しています。\nGregicality Scienceにはちゃんと希土類の処理が実装される予定です。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1598,
+        "id:8": "gregtech:meta_dust"
+      },
+      "name:8": "希少な地球",
+      "tasklogic:8": "OR"
+    }
+  },
+  "questID:3": 672,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1598,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 53,
+          "id:8": "gregtech:meta_dust_small"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 121,
+          "id:8": "gregtech:meta_dust_small"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "3:10": {
+      "index:3": 3,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 20,
+          "id:8": "gregtech:meta_dust_small"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "4:10": {
+      "index:3": 4,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 95,
+          "id:8": "gregtech:meta_dust_small"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "5:10": {
+      "index:3": 5,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 66,
+          "id:8": "gregtech:meta_dust_small"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "6:10": {
+      "index:3": 6,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 19,
+          "id:8": "gregtech:meta_dust_small"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

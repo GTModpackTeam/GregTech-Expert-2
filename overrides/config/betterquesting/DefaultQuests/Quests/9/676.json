@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    644
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "IV組立機とIV裁断機はIVのエネルギーとダイナモハッチを解禁します。\n\nついでにGregicality Multiblocksの大型版も解禁したり、最上位の/dank/nullも解禁したり、AE2の自動化に必要な安いレシピも解禁します。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 114,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "最近こればっかり使っている",
+      "tasklogic:8": "OR"
+    }
+  },
+  "questID:3": 676,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 114,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 249,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    733
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "まずはひき肉からコラーゲンを作りましょう。\nなんやかんやすると寒天の粉ができます。\n\n次にバイオチャフからバクテリアを作りましょう。\nうまいことやると変異原ができます。\n\n後はいい感じにすれば加熱処理をした培養地ができます。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "sterilized_growth_medium"
+        }
+      },
+      "name:8": "ひき肉(由来)です!!"
+    }
+  },
+  "questID:3": 724,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 100,
+          "FluidName:8": "sterilized_growth_medium"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}
