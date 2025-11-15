@@ -20,24 +20,27 @@
 - Valkyrie (0.3)
 
 ## New mods
-- AE2UEL Wireless Universal Terminal (1.2.4)
+- AE2UEL Wireless Universal Terminal (1.2.6)
 - Key Binding Patch (1.3.3.3)
 - VintageDisplay (1.3)
+- SussyPatches (1.9.0)
 
 ## Update mods
 - AE2 Unofficial Extended Life (0.56.5 -> 0.56.7)
+- CraftPresence (2.6.2 -> 2.7.0)
 - Alfheim (1.5 -> 1.6)
 - Fixeroo (2.3.6b -> 2.3.6)
-- Forgelin-Continuous (2.2.0.0 -> 2.2.20.0)
-- GTConsolidate (1.0.7 -> 1.0.7.7)
+- Forgelin-Continuous (2.2.0.0 -> 2.2.21.0)
+- GTConsolidate (1.0.7.7 -> 1.0.8.1)
 - GTExpertCore (2.4.11 -> 2.5.1)
 - Inventory Bogo Sorter (1.4.8 -> 1.5.0)
 - JEI Utilities (0.2.11 -> 0.2.13)
-- Had Enough Items (4.28.1 -> 4.29.8)
+- Had Enough Items (4.28.1 -> 4.29.9)
 - MixinBooter (9.4 -> 10.7)
-- ModularUI (2.4.3 -> 3.0.3)
-- PackagedAuto (1.0.19.66 -> 1.0.23.71)
-- Universal Tweaks (1.14.0 -> 1.16.1)
+- ModularUI (2.4.3 -> 3.0.4)
+- PackagedAuto (1.0.19.66 -> 1.0.23.72)
+- UniLib (1.1.1 -> 1.2.0)
+- Universal Tweaks (1.14.0 -> 1.17.0)
 
 ## New recipes
 ### AE2 Unofficial Extended Life
