@@ -10,6 +10,7 @@
 
 ## Disable mods
 - Advanced Backups
+- Flare (Spark for 1.12.2)
 
 ## Move mods
 - NetherPortalFix -> Universal Tweaks
