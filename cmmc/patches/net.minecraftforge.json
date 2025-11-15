@@ -8,24 +8,24 @@
     "formatVersion": 1,
     "libraries": [
         {
-            "name": "com.cleanroommc:cleanroom:0.3.20-alpha",
+            "name": "com.cleanroommc:cleanroom:0.3.24-alpha",
             "downloads": {
                 "artifact": {
-                    "path": "com/cleanroommc/cleanroom/0.3.20-alpha/cleanroom-0.3.20-alpha.jar",
-                    "url": "https://repo.cleanroommc.com/releases/com/cleanroommc/cleanroom/0.3.20-alpha/cleanroom-0.3.20-alpha-universal.jar",
-                    "sha1": "c4542f3b651b8868176e2c89df4f1ebb5730c9a1",
-                    "size": 4375923
+                    "path": "com/cleanroommc/cleanroom/0.3.24-alpha/cleanroom-0.3.24-alpha.jar",
+                    "url": "https://repo.cleanroommc.com/releases/com/cleanroommc/cleanroom/0.3.24-alpha/cleanroom-0.3.24-alpha-universal.jar",
+                    "sha1": "15c37ba0f3c70635b9243a2b60425426a5b34702",
+                    "size": 4374482
                 }
             }
         },
         {
-            "name": "com.cleanroommc:lwjglxx:1.1.9",
+            "name": "com.cleanroommc:lwjglxx:1.1.10",
             "downloads": {
                 "artifact": {
-                    "path": "com/cleanroommc/lwjglxx/1.1.9/lwjglxx-1.1.9.jar",
-                    "url": "https://repo.cleanroommc.com/releases/com/cleanroommc/lwjglxx/1.1.9/lwjglxx-1.1.9.jar",
-                    "sha1": "43733e3a67801b7577806c6e27821347372ddb7e",
-                    "size": 529274
+                    "path": "com/cleanroommc/lwjglxx/1.1.10/lwjglxx-1.1.10.jar",
+                    "url": "https://repo.cleanroommc.com/releases/com/cleanroommc/lwjglxx/1.1.10/lwjglxx-1.1.10.jar",
+                    "sha1": "a79385febfc0f0514abcb04a16e224dbeb2735a3",
+                    "size": 529268
                 }
             }
         },
@@ -140,13 +140,13 @@
             }
         },
         {
-            "name": "com.ibm.icu:icu4j:77.1",
+            "name": "com.ibm.icu:icu4j:78.1",
             "downloads": {
                 "artifact": {
-                    "path": "com/ibm/icu/icu4j/77.1/icu4j-77.1.jar",
-                    "url": "https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/77.1/icu4j-77.1.jar",
-                    "sha1": "38693cf0b1d7362a8b726af74dc06026a7c23809",
-                    "size": 14663227
+                    "path": "com/ibm/icu/icu4j/78.1/icu4j-78.1.jar",
+                    "url": "https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/78.1/icu4j-78.1.jar",
+                    "sha1": "07ac48a1b21b444015ea31c390f19d5cb1c2599e",
+                    "size": 15155186
                 }
             }
         },
@@ -437,156 +437,156 @@
             }
         },
         {
-            "name": "io.netty:netty-codec-base:4.2.6.Final",
+            "name": "io.netty:netty-codec-base:4.2.7.Final",
             "downloads": {
                 "artifact": {
-                    "path": "io/netty/netty-codec-base/4.2.6.Final/netty-codec-base-4.2.6.Final.jar",
-                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-codec-base/4.2.6.Final/netty-codec-base-4.2.6.Final.jar",
-                    "sha1": "fd6ff9613696f99857daeca37d4cfed22b1eb69e",
+                    "path": "io/netty/netty-codec-base/4.2.7.Final/netty-codec-base-4.2.7.Final.jar",
+                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-codec-base/4.2.7.Final/netty-codec-base-4.2.7.Final.jar",
+                    "sha1": "915e381ebabcf115f1c7ff7032d55c48afb50210",
                     "size": 152980
                 }
             }
         },
         {
-            "name": "io.netty:netty-buffer:4.2.6.Final",
+            "name": "io.netty:netty-buffer:4.2.7.Final",
             "downloads": {
                 "artifact": {
-                    "path": "io/netty/netty-buffer/4.2.6.Final/netty-buffer-4.2.6.Final.jar",
-                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.2.6.Final/netty-buffer-4.2.6.Final.jar",
-                    "sha1": "4dfa898e145ea6910b9e99388f35e0ad483a6dfa",
-                    "size": 372929
+                    "path": "io/netty/netty-buffer/4.2.7.Final/netty-buffer-4.2.7.Final.jar",
+                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.2.7.Final/netty-buffer-4.2.7.Final.jar",
+                    "sha1": "5555ff561643bf2f8430fb57c24403c0efe15994",
+                    "size": 373323
                 }
             }
         },
         {
-            "name": "io.netty:netty-common:4.2.6.Final",
+            "name": "io.netty:netty-common:4.2.7.Final",
             "downloads": {
                 "artifact": {
-                    "path": "io/netty/netty-common/4.2.6.Final/netty-common-4.2.6.Final.jar",
-                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-common/4.2.6.Final/netty-common-4.2.6.Final.jar",
-                    "sha1": "5746874869298a07b468dd50b5991f457e773620",
-                    "size": 774708
+                    "path": "io/netty/netty-common/4.2.7.Final/netty-common-4.2.7.Final.jar",
+                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-common/4.2.7.Final/netty-common-4.2.7.Final.jar",
+                    "sha1": "11aa30df26af4fca3239ac1917f303a280f301e1",
+                    "size": 789111
                 }
             }
         },
         {
-            "name": "io.netty:netty-handler:4.2.6.Final",
+            "name": "io.netty:netty-handler:4.2.7.Final",
             "downloads": {
                 "artifact": {
-                    "path": "io/netty/netty-handler/4.2.6.Final/netty-handler-4.2.6.Final.jar",
-                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.2.6.Final/netty-handler-4.2.6.Final.jar",
-                    "sha1": "311ea62f27b26685b306dc24c4bbf765bc1950d9",
-                    "size": 571539
+                    "path": "io/netty/netty-handler/4.2.7.Final/netty-handler-4.2.7.Final.jar",
+                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.2.7.Final/netty-handler-4.2.7.Final.jar",
+                    "sha1": "7ad8a1f851e2e6fe93cdd091871fda2b81c03b5b",
+                    "size": 581349
                 }
             }
         },
         {
-            "name": "io.netty:netty-resolver:4.2.6.Final",
+            "name": "io.netty:netty-resolver:4.2.7.Final",
             "downloads": {
                 "artifact": {
-                    "path": "io/netty/netty-resolver/4.2.6.Final/netty-resolver-4.2.6.Final.jar",
-                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.2.6.Final/netty-resolver-4.2.6.Final.jar",
-                    "sha1": "121223f223094539282b916c303ac52c7875b9aa",
-                    "size": 38440
+                    "path": "io/netty/netty-resolver/4.2.7.Final/netty-resolver-4.2.7.Final.jar",
+                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.2.7.Final/netty-resolver-4.2.7.Final.jar",
+                    "sha1": "5f3e5ef8de03992cd4fb46960dc0085ec1a12a12",
+                    "size": 38454
                 }
             }
         },
         {
-            "name": "io.netty:netty-transport:4.2.6.Final",
+            "name": "io.netty:netty-transport:4.2.7.Final",
             "downloads": {
                 "artifact": {
-                    "path": "io/netty/netty-transport/4.2.6.Final/netty-transport-4.2.6.Final.jar",
-                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.2.6.Final/netty-transport-4.2.6.Final.jar",
-                    "sha1": "15af02f1735db36455f2af2fd11b64e9f4499008",
-                    "size": 562314
+                    "path": "io/netty/netty-transport/4.2.7.Final/netty-transport-4.2.7.Final.jar",
+                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.2.7.Final/netty-transport-4.2.7.Final.jar",
+                    "sha1": "83ea548981d0d8c4a98027cc1a6f9624f902e142",
+                    "size": 562559
                 }
             }
         },
         {
-            "name": "io.netty:netty-transport-native-unix-common:4.2.6.Final-linux-x86_64",
+            "name": "io.netty:netty-transport-native-unix-common:4.2.7.Final-linux-x86_64",
             "downloads": {
                 "artifact": {
-                    "path": "io/netty/netty-transport-native-unix-common/4.2.6.Final-linux-x86_64/netty-transport-native-unix-common-4.2.6.Final-linux-x86_64.jar",
-                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.2.6.Final/netty-transport-native-unix-common-4.2.6.Final-linux-x86_64.jar",
-                    "sha1": "89b9df95af3dda7b6b61cb1b55460dfdf3933625",
-                    "size": 76987
+                    "path": "io/netty/netty-transport-native-unix-common/4.2.7.Final-linux-x86_64/netty-transport-native-unix-common-4.2.7.Final-linux-x86_64.jar",
+                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.2.7.Final/netty-transport-native-unix-common-4.2.7.Final-linux-x86_64.jar",
+                    "sha1": "0508ebbd33e5e6482593efff0f1a0fa38f92ad67",
+                    "size": 77201
                 }
             }
         },
         {
-            "name": "io.netty:netty-transport-classes-epoll:4.2.6.Final",
+            "name": "io.netty:netty-transport-classes-epoll:4.2.7.Final",
             "downloads": {
                 "artifact": {
-                    "path": "io/netty/netty-transport-classes-epoll/4.2.6.Final/netty-transport-classes-epoll-4.2.6.Final.jar",
-                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-transport-classes-epoll/4.2.6.Final/netty-transport-classes-epoll-4.2.6.Final.jar",
-                    "sha1": "b61968c0cb9c474df7a0ddc7cd577fed677efbbb",
-                    "size": 156127
+                    "path": "io/netty/netty-transport-classes-epoll/4.2.7.Final/netty-transport-classes-epoll-4.2.7.Final.jar",
+                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-transport-classes-epoll/4.2.7.Final/netty-transport-classes-epoll-4.2.7.Final.jar",
+                    "sha1": "1075c09f48a78eef9d819fbfd9096b903fdd362a",
+                    "size": 156228
                 }
             }
         },
         {
-            "name": "io.netty:netty-transport-native-epoll:4.2.6.Final-linux-x86_64",
+            "name": "io.netty:netty-transport-native-epoll:4.2.7.Final-linux-x86_64",
             "downloads": {
                 "artifact": {
-                    "path": "io/netty/netty-transport-native-epoll/4.2.6.Final-linux-x86_64/netty-transport-native-epoll-4.2.6.Final-linux-x86_64.jar",
-                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.2.6.Final/netty-transport-native-epoll-4.2.6.Final-linux-x86_64.jar",
-                    "sha1": "c4a2ba3782e65b34bbb54c3a6636b466955dc1c6",
-                    "size": 41804
+                    "path": "io/netty/netty-transport-native-epoll/4.2.7.Final-linux-x86_64/netty-transport-native-epoll-4.2.7.Final-linux-x86_64.jar",
+                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.2.7.Final/netty-transport-native-epoll-4.2.7.Final-linux-x86_64.jar",
+                    "sha1": "e83998bfc10b5289d9bcbe807c4079ef0eed8e6f",
+                    "size": 41810
                 }
             }
         },
         {
-            "name": "io.netty:netty-codec-http:4.2.6.Final",
+            "name": "io.netty:netty-codec-http:4.2.7.Final",
             "downloads": {
                 "artifact": {
-                    "path": "io/netty/netty-codec-http/4.2.6.Final/netty-codec-http-4.2.6.Final.jar",
-                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.2.6.Final/netty-codec-http-4.2.6.Final.jar",
-                    "sha1": "26da0fb9215bde2ecd551b941ccb974f65f59884",
-                    "size": 682618
+                    "path": "io/netty/netty-codec-http/4.2.7.Final/netty-codec-http-4.2.7.Final.jar",
+                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.2.7.Final/netty-codec-http-4.2.7.Final.jar",
+                    "sha1": "b734c108854099c421fd94d92d9f865e4d4da853",
+                    "size": 683327
                 }
             }
         },
         {
-            "name": "io.netty:netty-codec-http2:4.2.6.Final",
+            "name": "io.netty:netty-codec-http2:4.2.7.Final",
             "downloads": {
                 "artifact": {
-                    "path": "io/netty/netty-codec-http2/4.2.6.Final/netty-codec-http2-4.2.6.Final.jar",
-                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-codec-http2/4.2.6.Final/netty-codec-http2-4.2.6.Final.jar",
-                    "sha1": "55b556602dd5ae7adf7a0ef4720195138018a623",
-                    "size": 500725
+                    "path": "io/netty/netty-codec-http2/4.2.7.Final/netty-codec-http2-4.2.7.Final.jar",
+                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-codec-http2/4.2.7.Final/netty-codec-http2-4.2.7.Final.jar",
+                    "sha1": "ce3234f38c9b7a5f625bc75765fa9b62c99d7f71",
+                    "size": 501115
                 }
             }
         },
         {
-            "name": "io.netty:netty-codec-dns:4.2.6.Final",
+            "name": "io.netty:netty-codec-dns:4.2.7.Final",
             "downloads": {
                 "artifact": {
-                    "path": "io/netty/netty-codec-dns/4.2.6.Final/netty-codec-dns-4.2.6.Final.jar",
-                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-codec-dns/4.2.6.Final/netty-codec-dns-4.2.6.Final.jar",
-                    "sha1": "498d957639b6249ba1b6884b212bb9e3d8580ec3",
-                    "size": 70151
+                    "path": "io/netty/netty-codec-dns/4.2.7.Final/netty-codec-dns-4.2.7.Final.jar",
+                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-codec-dns/4.2.7.Final/netty-codec-dns-4.2.7.Final.jar",
+                    "sha1": "95a2b329442a22a7d77de5fc5ecebbcf26b8cd4e",
+                    "size": 70162
                 }
             }
         },
         {
-            "name": "io.netty:netty-codec-compression:4.2.6.Final",
+            "name": "io.netty:netty-codec-compression:4.2.7.Final",
             "downloads": {
                 "artifact": {
-                    "path": "io/netty/netty-codec-compression/4.2.6.Final/netty-codec-compression-4.2.6.Final.jar",
-                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-codec-compression/4.2.6.Final/netty-codec-compression-4.2.6.Final.jar",
-                    "sha1": "fadf334ce949ae99b96b4b9d95d59c30a5dc2614",
-                    "size": 182869
+                    "path": "io/netty/netty-codec-compression/4.2.7.Final/netty-codec-compression-4.2.7.Final.jar",
+                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-codec-compression/4.2.7.Final/netty-codec-compression-4.2.7.Final.jar",
+                    "sha1": "572341bc1ca90fd9d6e47f1d2694aab5258566e9",
+                    "size": 182886
                 }
             }
         },
         {
-            "name": "io.netty:netty-resolver-dns:4.2.6.Final",
+            "name": "io.netty:netty-resolver-dns:4.2.7.Final",
             "downloads": {
                 "artifact": {
-                    "path": "io/netty/netty-resolver-dns/4.2.6.Final/netty-resolver-dns-4.2.6.Final.jar",
-                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns/4.2.6.Final/netty-resolver-dns-4.2.6.Final.jar",
-                    "sha1": "ff71e8ef0b6bfdef7620ff4e77481a716792534f",
-                    "size": 188691
+                    "path": "io/netty/netty-resolver-dns/4.2.7.Final/netty-resolver-dns-4.2.7.Final.jar",
+                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns/4.2.7.Final/netty-resolver-dns-4.2.7.Final.jar",
+                    "sha1": "5975d21835704a84d51405b5c4f843337cbf2bb5",
+                    "size": 188573
                 }
             }
         },
@@ -766,5 +766,5 @@
         }
     ],
     "uid": "net.minecraftforge",
-    "version": "0.3.20-alpha"
+    "version": "0.3.24-alpha"
 }
