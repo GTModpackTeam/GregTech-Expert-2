@@ -4,7 +4,7 @@ version = "1.0.0"
 description = "Build tools for GTE2 Modpack"
 requires-python = ">=3.12"
 dependencies = [
-    "deepl>=2.32.5",
+    "requests>=2.32.5",
 ]
 
 [tool.uv]
