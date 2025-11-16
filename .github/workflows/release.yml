@@ -61,13 +61,13 @@ jobs:
       - name: Adjust for LWJGL3
         if: matrix.buildType == 'lwjgl3'
         run: |
-          uv run python ./gen-lwjgl3-manifest.py
+          uv run --directory ./buildtools python ./gen-lwjgl3-manifest.py
           cp -vf cmmc/manifest.json manifest.json
 
       - name: Install Mods
         env:
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
-        run: uv run python ./mod-install.py
+        run: uv run --directory ./buildtools python ./mod-install.py
 
       - name: Clean up placeholder files
         run: find . -name ".gitkeep" -delete
