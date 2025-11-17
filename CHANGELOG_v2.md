@@ -28,8 +28,9 @@
 
 ## Update mods
 - AE2 Unofficial Extended Life (0.56.5 -> 0.56.7)
-- CraftPresence (2.6.2 -> 2.7.0)
 - Alfheim (1.5 -> 1.6)
+- Betterer P2P (1.3.2 -> 1.3.3)
+- CraftPresence (2.6.2 -> 2.7.0)
 - EZStorage 2 Patch (1.4.1 -> 1.5.0)
 - Fixeroo (2.3.6b -> 2.3.6)
 - Forgelin-Continuous (2.2.0.0 -> 2.2.21.0)
