@@ -19,12 +19,13 @@
 ## Remove mods
 - Bansoukou (4.3.1)
 - Valkyrie (0.3)
+- VintageFix (0.6.2)
 
 ## New mods
 - AE2UEL Wireless Universal Terminal (1.2.6)
 - Key Binding Patch (1.3.3.3)
 - VintageDisplay (1.3)
-- SussyPatches (1.9.0)
+- SussyPatches (1.9.2)
 
 ## Update mods
 - AE2 Unofficial Extended Life (0.56.5 -> 0.56.7)
@@ -34,11 +35,11 @@
 - EZStorage 2 Patch (1.4.1 -> 1.5.0)
 - Fixeroo (2.3.6b -> 2.3.6)
 - Forgelin-Continuous (2.2.0.0 -> 2.2.21.0)
-- GTConsolidate (1.0.7.7 -> 1.1.0)
+- GTConsolidate (1.0.7.7 -> 1.1.0.2)
 - GTExpertCore (2.4.11 -> 2.5.2)
 - Inventory Bogo Sorter (1.4.8 -> 1.5.0)
 - JEI Utilities (0.2.11 -> 0.2.13)
-- Had Enough Items (4.28.1 -> 4.29.9)
+- Had Enough Items (4.28.1 -> 4.29.11)
 - Hot or Not GTCEu (1.2.0 -> 1.3.0)
 - MixinBooter (9.4 -> 10.7)
 - ModularUI (2.4.3 -> 3.0.4)
