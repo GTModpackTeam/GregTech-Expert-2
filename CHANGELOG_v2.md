@@ -36,7 +36,7 @@
 - Fixeroo (2.3.6b -> 2.3.6)
 - Forgelin-Continuous (2.2.0.0 -> 2.2.21.0)
 - GTConsolidate (1.0.7.7 -> 1.1.0.4)
-- GTExpertCore (2.4.11 -> 2.5.2)
+- GTExpertCore (2.4.11 -> 2.5.3)
 - Inventory Bogo Sorter (1.4.8 -> 1.5.0)
 - JEI Utilities (0.2.11 -> 0.2.13)
 - Had Enough Items (4.28.1 -> 4.29.12)
