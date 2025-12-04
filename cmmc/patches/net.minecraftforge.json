@@ -8,24 +8,24 @@
     "formatVersion": 1,
     "libraries": [
         {
-            "name": "com.cleanroommc:cleanroom:0.3.24-alpha",
+            "name": "com.cleanroommc:cleanroom:0.3.27-alpha",
             "downloads": {
                 "artifact": {
-                    "path": "com/cleanroommc/cleanroom/0.3.24-alpha/cleanroom-0.3.24-alpha.jar",
-                    "url": "https://repo.cleanroommc.com/releases/com/cleanroommc/cleanroom/0.3.24-alpha/cleanroom-0.3.24-alpha-universal.jar",
-                    "sha1": "15c37ba0f3c70635b9243a2b60425426a5b34702",
-                    "size": 4374482
+                    "path": "com/cleanroommc/cleanroom/0.3.27-alpha/cleanroom-0.3.27-alpha.jar",
+                    "url": "https://repo.cleanroommc.com/releases/com/cleanroommc/cleanroom/0.3.27-alpha/cleanroom-0.3.27-alpha-universal.jar",
+                    "sha1": "60aad36fcc76c1bb5a322620e4e1b7a7a62363c1",
+                    "size": 4370915
                 }
             }
         },
         {
-            "name": "com.cleanroommc:lwjglxx:1.1.10",
+            "name": "com.cleanroommc:lwjglxx:1.1.17",
             "downloads": {
                 "artifact": {
-                    "path": "com/cleanroommc/lwjglxx/1.1.10/lwjglxx-1.1.10.jar",
-                    "url": "https://repo.cleanroommc.com/releases/com/cleanroommc/lwjglxx/1.1.10/lwjglxx-1.1.10.jar",
-                    "sha1": "a79385febfc0f0514abcb04a16e224dbeb2735a3",
-                    "size": 529268
+                    "path": "com/cleanroommc/lwjglxx/1.1.17/lwjglxx-1.1.17.jar",
+                    "url": "https://repo.cleanroommc.com/releases/com/cleanroommc/lwjglxx/1.1.17/lwjglxx-1.1.17.jar",
+                    "sha1": "532759e2ae86b75a5dafcca5fdcc84d9748b95a2",
+                    "size": 530206
                 }
             }
         },
@@ -96,13 +96,13 @@
             }
         },
         {
-            "name": "top.outlands:foundation:0.17.1",
+            "name": "top.outlands:foundation:0.18.2",
             "downloads": {
                 "artifact": {
-                    "path": "top/outlands/foundation/0.17.1/foundation-0.17.1.jar",
-                    "url": "https://repo.cleanroommc.com/releases/top/outlands/foundation/0.17.1/foundation-0.17.1.jar",
-                    "sha1": "092a9fe67311998ed5ae52c2f6d7c500f7536e9b",
-                    "size": 54872
+                    "path": "top/outlands/foundation/0.18.2/foundation-0.18.2.jar",
+                    "url": "https://repo.cleanroommc.com/releases/top/outlands/foundation/0.18.2/foundation-0.18.2.jar",
+                    "sha1": "2a595caa81b27d5f9ec15540b6065a3fe6e217fe",
+                    "size": 55926
                 }
             }
         },
@@ -272,39 +272,6 @@
             }
         },
         {
-            "name": "org.apache.httpcomponents.core5:httpcore5:5.3.6",
-            "downloads": {
-                "artifact": {
-                    "path": "org/apache/httpcomponents/core5/httpcore5/5.3.6/httpcore5-5.3.6.jar",
-                    "url": "https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.3.6/httpcore5-5.3.6.jar",
-                    "sha1": "2c7f0d11747f9485a02c9f622c0f0477d7ce8677",
-                    "size": 909490
-                }
-            }
-        },
-        {
-            "name": "org.apache.httpcomponents.core5:httpcore5-h2:5.3.6",
-            "downloads": {
-                "artifact": {
-                    "path": "org/apache/httpcomponents/core5/httpcore5-h2/5.3.6/httpcore5-h2-5.3.6.jar",
-                    "url": "https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.3.6/httpcore5-h2-5.3.6.jar",
-                    "sha1": "5b4b321d0001aac957f5db293e3cbc4099fc15b8",
-                    "size": 242521
-                }
-            }
-        },
-        {
-            "name": "org.apache.httpcomponents.client5:httpclient5:5.5.1",
-            "downloads": {
-                "artifact": {
-                    "path": "org/apache/httpcomponents/client5/httpclient5/5.5.1/httpclient5-5.5.1.jar",
-                    "url": "https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.5.1/httpclient5-5.5.1.jar",
-                    "sha1": "89ab9084b94afb7893a54f4d09b07c25246af5a7",
-                    "size": 959302
-                }
-            }
-        },
-        {
             "name": "com.github.oshi:oshi-core:6.9.0",
             "downloads": {
                 "artifact": {
@@ -433,6 +400,61 @@
                     "url": "https://repo.maven.apache.org/maven2/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar",
                     "sha1": "7425a601c1c7ec76645a78d22b8c6a627edee507",
                     "size": 3819
+                }
+            }
+        },
+        {
+            "name": "org.apache.httpcomponents.core5:httpcore5:5.3.6",
+            "downloads": {
+                "artifact": {
+                    "path": "org/apache/httpcomponents/core5/httpcore5/5.3.6/httpcore5-5.3.6.jar",
+                    "url": "https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.3.6/httpcore5-5.3.6.jar",
+                    "sha1": "2c7f0d11747f9485a02c9f622c0f0477d7ce8677",
+                    "size": 909490
+                }
+            }
+        },
+        {
+            "name": "org.apache.httpcomponents.core5:httpcore5-h2:5.3.6",
+            "downloads": {
+                "artifact": {
+                    "path": "org/apache/httpcomponents/core5/httpcore5-h2/5.3.6/httpcore5-h2-5.3.6.jar",
+                    "url": "https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.3.6/httpcore5-h2-5.3.6.jar",
+                    "sha1": "5b4b321d0001aac957f5db293e3cbc4099fc15b8",
+                    "size": 242521
+                }
+            }
+        },
+        {
+            "name": "org.apache.httpcomponents.client5:httpclient5:5.5.1",
+            "downloads": {
+                "artifact": {
+                    "path": "org/apache/httpcomponents/client5/httpclient5/5.5.1/httpclient5-5.5.1.jar",
+                    "url": "https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.5.1/httpclient5-5.5.1.jar",
+                    "sha1": "89ab9084b94afb7893a54f4d09b07c25246af5a7",
+                    "size": 959302
+                }
+            }
+        },
+        {
+            "name": "org.apache.httpcomponents:httpclient:4.5.14",
+            "downloads": {
+                "artifact": {
+                    "path": "org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.jar",
+                    "url": "https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.jar",
+                    "sha1": "1194890e6f56ec29177673f2f12d0b8e627dec98",
+                    "size": 785639
+                }
+            }
+        },
+        {
+            "name": "org.apache.httpcomponents:httpcore:4.4.16",
+            "downloads": {
+                "artifact": {
+                    "path": "org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar",
+                    "url": "https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar",
+                    "sha1": "51cf043c87253c9f58b539c9f7e44c8894223850",
+                    "size": 327891
                 }
             }
         },
@@ -766,5 +788,5 @@
         }
     ],
     "uid": "net.minecraftforge",
-    "version": "0.3.24-alpha"
+    "version": "0.3.27-alpha"
 }
