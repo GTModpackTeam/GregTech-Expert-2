@@ -13,6 +13,7 @@
 - Flare (Spark for 1.12.2)
 
 ## Move mods
+- AppleSkin -> LemonSkin (3.0.2)
 - NetherPortalFix -> Universal Tweaks
 - Ender Storage continuation (2.6.3) -> EnderStorage Continuation2 (2.7.0)
 
@@ -32,17 +33,18 @@
 - Alfheim (1.5 -> 1.6)
 - Betterer P2P (1.3.2 -> 1.3.3)
 - CraftPresence (2.6.2 -> 2.7.0)
+- CensoredASM (5.29 -> 5.30)
 - EZStorage 2 Patch (1.4.1 -> 1.5.0)
 - Fixeroo (2.3.6b -> 2.3.6)
 - Forgelin-Continuous (2.2.0.0 -> 2.2.21.0)
-- GTConsolidate (1.0.7.7 -> 1.1.0.4)
-- GTExpertCore (2.4.11 -> 2.5.3)
+- GTConsolidate (1.0.7.7 -> 1.1.0.4.1)
+- GTExpertCore (2.4.11 -> 2.5.4)
 - Inventory Bogo Sorter (1.4.8 -> 1.5.0)
 - JEI Utilities (0.2.11 -> 0.2.13)
 - Had Enough Items (4.28.1 -> 4.29.12)
 - Hot or Not GTCEu (1.2.0 -> 1.3.0)
 - MixinBooter (9.4 -> 10.7)
-- ModularUI (2.4.3 -> 3.0.4)
+- ModularUI (2.4.3 -> 3.0.5)
 - PackagedAuto (1.0.19.66 -> 1.0.23.72)
 - UniLib (1.1.1 -> 1.2.0)
 - Universal Tweaks (1.14.0 -> 1.17.0)
