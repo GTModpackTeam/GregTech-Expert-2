@@ -20,8 +20,9 @@ on:
 
 env:
   NAME: "GTExpert2"
-  VERSION_NORMAL: "v${{ github.event.inputs.version }}-Pre-${{ github.event.inputs.preview_version }}_Java_8"
-  VERSION_LWJGL3: "v${{ github.event.inputs.version }}-Pre-${{ github.event.inputs.preview_version }}_Java_17-25"
+  VERSION_CF_NORMAL: "v${{ github.event.inputs.version }}-Pre-${{ github.event.inputs.preview_version }}-CF_Java_8"
+  VERSION_MMC_NORMAL: "v${{ github.event.inputs.version }}-Pre-${{ github.event.inputs.preview_version }}-MMC_Java_8"
+  VERSION_MMC_LWJGL3: "v${{ github.event.inputs.version }}-Pre-${{ github.event.inputs.preview_version }}-MMC_Java_17-25"
 
 jobs:
   build:
@@ -82,12 +83,12 @@ jobs:
             mv -vf overrides/ .minecraft/
             cp -vf icon.png .minecraft/
             cp -rvf cmmc/* ./
-            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}_Java_17-25.zip patches/ mmc-pack.json instance.cfg .minecraft/
+            zip -r artifacts/${{ env.VERSION_MMC_LWJGL3 }}.zip patches/ mmc-pack.json instance.cfg .minecraft/
           else
-            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}_Java_8.zip manifest.json modlist.html overrides/config/ overrides/local/ overrides/resourcepacks/icons/ overrides/resourcepacks/GTExpert2-* overrides/scripts/
+            zip -r artifacts/${{ env.VERSION_CF_NORMAL }}.zip manifest.json modlist.html overrides/config/ overrides/local/ overrides/resourcepacks/icons/ overrides/resourcepacks/GTExpert2-* overrides/scripts/
             mv overrides/ .minecraft/
             cp icon.png .minecraft/
-            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}_Java_17-25.zip mmc-pack.json instance.cfg .minecraft/
+            zip -r artifacts/${{ env.VERSION_MMC_NORMAL }}.zip mmc-pack.json instance.cfg .minecraft/
             mv serverfiles/* ./
             rm -vf .minecraft/mods/!Red-Core-*
             rm -vf .minecraft/mods/Alfheim-*
@@ -106,7 +107,7 @@ jobs:
             rm -vf .minecraft/mods/oauth-*
             rm -vf .minecraft/mods/UntranslatedItems-*
             mv -vf .minecraft/* ./
-            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}-server.zip docker-compose.yml PleaseRead.txt log4j2_112-116.xml Install.* ServerStart.* settings.* TmuxServer.sh config/ local/ mods/ resources/ scripts/
+            zip -r artifacts/${{ env.NAME }}-Pre-${{ env.VERSION_NORMAL }}-server.zip docker-compose.yml PleaseRead.txt log4j2_112-116.xml Install.* ServerStart.* settings.* TmuxServer.sh config/ local/ mods/ resources/ scripts/
           fi
 
       - name: Upload Artifacts
@@ -154,22 +155,22 @@ jobs:
       - name: Create or Update GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ env.VERSION_NORMAL }}
-          name: "Preview ${{ env.VERSION_NORMAL }}"
+          tag_name: "v${{ github.event.inputs.version }}-pr-${{ github.event.inputs.preview_version }}"
+          name: "v${{ github.event.inputs.version }}-Pre-${{ github.event.inputs.preview_version }}"
           body: |
-            ## GregTech Expert 2 - Preview Release
+            ## GregTech Expert 2 Preview - {{ github.event.inputs.version }}
 
             This preview includes:
             - **Java 8** (CurseForge / MultiMC / PrismLauncher / Server)
             - **Java 17-25** (MultiMC / PrismLauncher only)
 
-            See installation guide for LWJGL3 [here](https://github.com/GTModpackTeam/GregTech-Expert-2/blob/main/cmmc/README.md).
+            See installation guide for Java 17-25 [here](https://github.com/GTModpackTeam/GregTech-Expert-2/blob/main/cmmc/).
           prerelease: true
           generate_release_notes: true
           files: |
-            artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}_Java_8.zip
-            artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}_Java_17-25.zip
-            artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}-server.zip
-            artifacts/${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}_Java_17-25.zip
+            artifacts/${{ env.VERSION_CF_NORMAL }}.zip
+            artifacts/${{ env.VERSION_MMC_NORMAL }}.zip
+            artifacts/${{ env.NAME }}-Pre-${{ env.VERSION_NORMAL }}-server.zip
+            artifacts/${{ env.VERSION_MMC_LWJGL3 }}.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
