@@ -1,7 +1,4 @@
-version: "3.8"
-
 # Repository for the image below: https://github.com/itzg/docker-minecraft-server
-
 services:
   minecraft:
     image: itzg/minecraft-server:java8

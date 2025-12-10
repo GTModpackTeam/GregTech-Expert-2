@@ -8,13 +8,13 @@
     "formatVersion": 1,
     "libraries": [
         {
-            "name": "com.cleanroommc:cleanroom:0.3.27-alpha",
+            "name": "com.cleanroommc:cleanroom:0.3.30-alpha",
             "downloads": {
                 "artifact": {
-                    "path": "com/cleanroommc/cleanroom/0.3.27-alpha/cleanroom-0.3.27-alpha.jar",
-                    "url": "https://repo.cleanroommc.com/releases/com/cleanroommc/cleanroom/0.3.27-alpha/cleanroom-0.3.27-alpha-universal.jar",
-                    "sha1": "60aad36fcc76c1bb5a322620e4e1b7a7a62363c1",
-                    "size": 4370915
+                    "path": "com/cleanroommc/cleanroom/0.3.30-alpha/cleanroom-0.3.30-alpha.jar",
+                    "url": "https://repo.cleanroommc.com/releases/com/cleanroommc/cleanroom/0.3.30-alpha/cleanroom-0.3.30-alpha-universal.jar",
+                    "sha1": "d91904bc76f8479f2e06d08009fc934683a41361",
+                    "size": 4375743
                 }
             }
         },
@@ -96,24 +96,24 @@
             }
         },
         {
-            "name": "top.outlands:foundation:0.18.2",
+            "name": "top.outlands:foundation:0.18.3",
             "downloads": {
                 "artifact": {
-                    "path": "top/outlands/foundation/0.18.2/foundation-0.18.2.jar",
-                    "url": "https://repo.cleanroommc.com/releases/top/outlands/foundation/0.18.2/foundation-0.18.2.jar",
-                    "sha1": "2a595caa81b27d5f9ec15540b6065a3fe6e217fe",
-                    "size": 55926
+                    "path": "top/outlands/foundation/0.18.3/foundation-0.18.3.jar",
+                    "url": "https://repo.cleanroommc.com/releases/top/outlands/foundation/0.18.3/foundation-0.18.3.jar",
+                    "sha1": "9250189439abae96b29437ae0aa3a563f6d0a334",
+                    "size": 56075
                 }
             }
         },
         {
-            "name": "net.lenni0451:Reflect:1.5.0",
+            "name": "net.lenni0451:Reflect:1.6.0",
             "downloads": {
                 "artifact": {
-                    "path": "net/lenni0451/Reflect/1.5.0/Reflect-1.5.0.jar",
-                    "url": "https://repo.maven.apache.org/maven2/net/lenni0451/Reflect/1.5.0/Reflect-1.5.0.jar",
-                    "sha1": "28c05371ba5e8f2a1971cf78f23e90c274d417ce",
-                    "size": 170853
+                    "path": "net/lenni0451/Reflect/1.6.0/Reflect-1.6.0.jar",
+                    "url": "https://repo.maven.apache.org/maven2/net/lenni0451/Reflect/1.6.0/Reflect-1.6.0.jar",
+                    "sha1": "1374c43f1b5a0697b3aa1fd5d67031dc743a5e06",
+                    "size": 215140
                 }
             }
         },
@@ -788,5 +788,5 @@
         }
     ],
     "uid": "net.minecraftforge",
-    "version": "0.3.27-alpha"
+    "version": "0.3.30-alpha"
 }

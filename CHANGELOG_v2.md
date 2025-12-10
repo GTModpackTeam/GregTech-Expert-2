@@ -61,12 +61,6 @@
 
 * * *
 
-# 2.7.13
-## Modpack information
-- Many Quests have been fixed.
-
-* * *
-
 # v2.7.12
 ## New mods
 - Hot or Not Plus (1.1.10)

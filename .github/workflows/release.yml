@@ -18,8 +18,8 @@ on:
 
 env:
   NAME: "GTExpert2"
-  VERSION_NORMAL: "v${{ github.event.inputs.version }}-${{ github.event.inputs.release_type }}"
-  VERSION_LWJGL3: "v${{ github.event.inputs.version }}-${{ github.event.inputs.release_type }}-lwjgl3"
+  VERSION_NORMAL: "v${{ github.event.inputs.version }}-${{ github.event.inputs.preview_version }}_Java_8"
+  VERSION_LWJGL3: "v${{ github.event.inputs.version }}-${{ github.event.inputs.preview_version }}_Java_17-25"
 
 jobs:
   build:
@@ -79,12 +79,12 @@ jobs:
             mv -vf overrides/ .minecraft/
             cp -vf icon.png .minecraft/
             cp -rvf cmmc/* ./
-            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}-mmc.zip patches/ mmc-pack.json instance.cfg .minecraft/
+            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}_Java_17-25.zip patches/ mmc-pack.json instance.cfg .minecraft/
           else
-            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}-cf.zip manifest.json modlist.html overrides/config/ overrides/local/ overrides/resourcepacks/ overrides/scripts/
+            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}_Java_8.zip manifest.json modlist.html overrides/config/ overrides/local/ overrides/resourcepacks/ overrides/scripts/
             mv overrides/ .minecraft/
             cp icon.png .minecraft/
-            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}-mmc.zip mmc-pack.json instance.cfg .minecraft/
+            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}_Java_17-25.zip mmc-pack.json instance.cfg .minecraft/
             mv serverfiles/* ./
             rm -vf .minecraft/mods/!Red-Core-*
             rm -vf .minecraft/mods/Alfheim-*
@@ -159,16 +159,16 @@ jobs:
             ## GregTech Expert 2 - ${{ env.VERSION_NORMAL }}
 
             This preview includes:
-            - **Standard** (CurseForge / MultiMC / PrismLauncher / Server)
-            - **LWJGL3** (MultiMC / PrismLauncher only)
+            - **Java 8** (CurseForge / MultiMC / PrismLauncher / Server)
+            - **Java 17-25** (MultiMC / PrismLauncher only)
 
             See installation guide for LWJGL3 [here](https://github.com/GTModpackTeam/GregTech-Expert-2/blob/main/cmmc/README.md).
           prerelease: false
           generate_release_notes: true
           files: |
-            artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}-cf.zip
-            artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}-mmc.zip
+            artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}_Java_8.zip
+            artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}_Java_17-25.zip
             artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}-server.zip
-            artifacts/${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}-mmc.zip
+            artifacts/${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}_Java_17-25.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
