@@ -57,7 +57,7 @@ jobs:
             VER="${{ env.VERSION_LWJGL3 }}"
             echo "[CleanroomMMC] GregTech Expert 2 $VER" > overrides/config/txloader/load/custommainmenu/version.txt
           else
-            VER="${{ env.VERSION_NORMAL }}"
+            VER="${{ env.VERSION_CF_NORMAL }}"
             echo "GregTech Expert 2 $VER" > overrides/config/txloader/load/custommainmenu/version.txt
           fi
           sed -i "s/MODPACKVERSION/$VER/g" manifest.json instance.cfg overrides/config/craftpresence.json
@@ -83,12 +83,12 @@ jobs:
             mv -vf overrides/ .minecraft/
             cp -vf icon.png .minecraft/
             cp -rvf cmmc/* ./
-            zip -r artifacts/${{ env.VERSION_MMC_LWJGL3 }}.zip patches/ mmc-pack.json instance.cfg .minecraft/
+            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_MMC_LWJGL3 }}.zip patches/ mmc-pack.json instance.cfg .minecraft/
           else
-            zip -r artifacts/${{ env.VERSION_CF_NORMAL }}.zip manifest.json modlist.html overrides/config/ overrides/local/ overrides/resourcepacks/icons/ overrides/resourcepacks/GTExpert2-* overrides/scripts/
+            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_CF_NORMAL }}.zip manifest.json modlist.html overrides/config/ overrides/local/ overrides/resourcepacks/icons/ overrides/resourcepacks/GTExpert2-* overrides/scripts/
             mv overrides/ .minecraft/
             cp icon.png .minecraft/
-            zip -r artifacts/${{ env.VERSION_MMC_NORMAL }}.zip mmc-pack.json instance.cfg .minecraft/
+            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_MMC_NORMAL }}.zip mmc-pack.json instance.cfg .minecraft/
             mv serverfiles/* ./
             rm -vf .minecraft/mods/!Red-Core-*
             rm -vf .minecraft/mods/Alfheim-*
@@ -107,7 +107,7 @@ jobs:
             rm -vf .minecraft/mods/oauth-*
             rm -vf .minecraft/mods/UntranslatedItems-*
             mv -vf .minecraft/* ./
-            zip -r artifacts/${{ env.NAME }}-Pre-${{ env.VERSION_NORMAL }}-server.zip docker-compose.yml PleaseRead.txt log4j2_112-116.xml Install.* ServerStart.* settings.* TmuxServer.sh config/ local/ mods/ resources/ scripts/
+            zip -r artifacts/${{ env.NAME }}-Server-${{ env.VERSION_CF_NORMAL }}.zip docker-compose.yml PleaseRead.txt log4j2_112-116.xml Install.* ServerStart.* settings.* TmuxServer.sh config/ local/ mods/ resources/ scripts/
           fi
 
       - name: Upload Artifacts
@@ -149,8 +149,8 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-          git tag ${{ env.VERSION_NORMAL }}
-          git push origin ${{ env.VERSION_NORMAL }}
+          git tag ${{ env.VERSION_CF_NORMAL }}
+          git push origin ${{ env.VERSION_CF_NORMAL }}
 
       - name: Create or Update GitHub Release
         uses: softprops/action-gh-release@v2
@@ -158,7 +158,7 @@ jobs:
           tag_name: "v${{ github.event.inputs.version }}-pr-${{ github.event.inputs.preview_version }}"
           name: "v${{ github.event.inputs.version }}-Pre-${{ github.event.inputs.preview_version }}"
           body: |
-            ## GregTech Expert 2 Preview - {{ github.event.inputs.version }}
+            ## GregTech Expert 2 Preview - ${{ github.event.inputs.version }}
 
             This preview includes:
             - **Java 8** (CurseForge / MultiMC / PrismLauncher / Server)
@@ -168,9 +168,9 @@ jobs:
           prerelease: true
           generate_release_notes: true
           files: |
-            artifacts/${{ env.VERSION_CF_NORMAL }}.zip
-            artifacts/${{ env.VERSION_MMC_NORMAL }}.zip
-            artifacts/${{ env.NAME }}-Pre-${{ env.VERSION_NORMAL }}-server.zip
-            artifacts/${{ env.VERSION_MMC_LWJGL3 }}.zip
+            artifacts/${{ env.NAME }}-${{ env.VERSION_CF_NORMAL }}.zip
+            artifacts/${{ env.NAME }}-${{ env.VERSION_MMC_NORMAL }}.zip
+            artifacts/${{ env.NAME }}-Server-${{ env.VERSION_CF_NORMAL }}.zip
+            artifacts/${{ env.NAME }}-${{ env.VERSION_MMC_LWJGL3 }}.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

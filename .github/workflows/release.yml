@@ -54,7 +54,7 @@ jobs:
             VER="${{ env.VERSION_LWJGL3 }}"
             echo "[CleanroomMMC] GregTech Expert 2 $VER" > overrides/config/txloader/load/custommainmenu/version.txt
           else
-            VER="${{ env.VERSION_NORMAL }}"
+            VER="${{ env.VERSION_CF_NORMAL }}"
             echo "GregTech Expert 2 $VER" > overrides/config/txloader/load/custommainmenu/version.txt
           fi
           sed -i "s/MODPACKVERSION/$VER/g" manifest.json instance.cfg overrides/config/craftpresence.json
@@ -80,12 +80,12 @@ jobs:
             mv -vf overrides/ .minecraft/
             cp -vf icon.png .minecraft/
             cp -rvf cmmc/* ./
-            zip -r artifacts/${{ env.VERSION_MMC_LWJGL3 }}.zip patches/ mmc-pack.json instance.cfg .minecraft/
+            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_MMC_LWJGL3 }}.zip patches/ mmc-pack.json instance.cfg .minecraft/
           else
-            zip -r artifacts/${{ env.VERSION_CF_NORMAL }}.zip manifest.json modlist.html overrides/config/ overrides/local/ overrides/resourcepacks/ overrides/scripts/
+            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_CF_NORMAL }}.zip manifest.json modlist.html overrides/config/ overrides/local/ overrides/resourcepacks/ overrides/scripts/
             mv overrides/ .minecraft/
             cp icon.png .minecraft/
-            zip -r artifacts/${{ env.VERSION_MMC_NORMAL }}.zip mmc-pack.json instance.cfg .minecraft/
+            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_MMC_NORMAL }}.zip mmc-pack.json instance.cfg .minecraft/
             mv serverfiles/* ./
             rm -vf .minecraft/mods/!Red-Core-*
             rm -vf .minecraft/mods/Alfheim-*
@@ -104,7 +104,7 @@ jobs:
             rm -vf .minecraft/mods/oauth-*
             rm -vf .minecraft/mods/UntranslatedItems-*
             mv -vf .minecraft/* ./
-            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}-server.zip docker-compose.yml PleaseRead.txt log4j2_112-116.xml Install.* ServerStart.* settings.* TmuxServer.sh config/ local/ mods/ resources/ scripts/
+            zip -r artifacts/${{ env.NAME }}-Server-${{ env.VERSION_CF_NORMAL }}.zip docker-compose.yml PleaseRead.txt log4j2_112-116.xml Install.* ServerStart.* settings.* TmuxServer.sh config/ local/ mods/ resources/ scripts/
           fi
 
       - name: Upload Artifacts
@@ -142,13 +142,13 @@ jobs:
 
       - name: Check or create tag
         run: |
-          if git rev-parse --verify --quiet "${{ env.VERSION_NORMAL }}"; then
+          if git rev-parse --verify --quiet "${{ env.VERSION_CF_NORMAL }}"; then
             echo "Tag exists."
           else
             git config --local user.name "github-actions"
             git config --local user.email "actions@github.com"
-            git tag ${{ env.VERSION_NORMAL }}
-            git push origin ${{ env.VERSION_NORMAL }}
+            git tag ${{ env.VERSION_CF_NORMAL }}
+            git push origin ${{ env.VERSION_CF_NORMAL }}
           fi
 
       - name: Create or update GitHub Release
@@ -167,9 +167,9 @@ jobs:
           prerelease: false
           generate_release_notes: true
           files: |
-            artifacts/${{ env.VERSION_CF_NORMAL }}.zip
-            artifacts/${{ env.VERSION_MMC_NORMAL }}.zip
-            artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}-server.zip
-            artifacts/${{ env.VERSION_MMC_LWJGL3 }}.zip
+            artifacts/${{ env.NAME }}-${{ env.VERSION_CF_NORMAL }}.zip
+            artifacts/${{ env.NAME }}-${{ env.VERSION_MMC_NORMAL }}.zip
+            artifacts/${{ env.NAME }}-Server-${{ env.VERSION_CF_NORMAL }}.zip
+            artifacts/${{ env.NAME }}-${{ env.VERSION_MMC_LWJGL3 }}.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
