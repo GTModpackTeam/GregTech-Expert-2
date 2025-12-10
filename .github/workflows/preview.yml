@@ -20,9 +20,10 @@ on:
 
 env:
   NAME: "GTExpert2"
-  VERSION_CF_NORMAL: "v${{ github.event.inputs.version }}-Pre-${{ github.event.inputs.preview_version }}-CF_Java_8"
-  VERSION_MMC_NORMAL: "v${{ github.event.inputs.version }}-Pre-${{ github.event.inputs.preview_version }}-MMC_Java_8"
-  VERSION_MMC_LWJGL3: "v${{ github.event.inputs.version }}-Pre-${{ github.event.inputs.preview_version }}-MMC_Java_17-25"
+  JAVA8_CF: "${{ github.event.inputs.version }}-Pre-${{ github.event.inputs.preview_version }}-CF_Java_8"
+  JAVA8_MMC: "${{ github.event.inputs.version }}-Pre-${{ github.event.inputs.preview_version }}-MMC_Java_8"
+  JAVA8_SERVER: "${{ github.event.inputs.version }}-Pre-${{ github.event.inputs.preview_version }}-Server_Java_8"
+  JAVA_OPT: "${{ github.event.inputs.version }}-Pre-${{ github.event.inputs.preview_version }}-MMC_Java_17-25"
 
 jobs:
   build:
@@ -57,7 +58,7 @@ jobs:
             VER="${{ env.VERSION_LWJGL3 }}"
             echo "[CleanroomMMC] GregTech Expert 2 $VER" > overrides/config/txloader/load/custommainmenu/version.txt
           else
-            VER="${{ env.VERSION_CF_NORMAL }}"
+            VER="${{ env.JAVA8_CF }}"
             echo "GregTech Expert 2 $VER" > overrides/config/txloader/load/custommainmenu/version.txt
           fi
           sed -i "s/MODPACKVERSION/$VER/g" manifest.json instance.cfg overrides/config/craftpresence.json
@@ -83,12 +84,12 @@ jobs:
             mv -vf overrides/ .minecraft/
             cp -vf icon.png .minecraft/
             cp -rvf cmmc/* ./
-            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_MMC_LWJGL3 }}.zip patches/ mmc-pack.json instance.cfg .minecraft/
+            zip -r artifacts/${{ env.NAME }}-${{ env.JAVA_OPT }}.zip patches/ mmc-pack.json instance.cfg .minecraft/
           else
-            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_CF_NORMAL }}.zip manifest.json modlist.html overrides/config/ overrides/local/ overrides/resourcepacks/icons/ overrides/resourcepacks/GTExpert2-* overrides/scripts/
+            zip -r artifacts/${{ env.NAME }}-${{ env.JAVA8_CF }}.zip manifest.json modlist.html overrides/config/ overrides/local/ overrides/resourcepacks/icons/ overrides/resourcepacks/GTExpert2-* overrides/scripts/
             mv overrides/ .minecraft/
             cp icon.png .minecraft/
-            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_MMC_NORMAL }}.zip mmc-pack.json instance.cfg .minecraft/
+            zip -r artifacts/${{ env.NAME }}-${{ env.JAVA8_MMC }}.zip mmc-pack.json instance.cfg .minecraft/
             mv serverfiles/* ./
             rm -vf .minecraft/mods/!Red-Core-*
             rm -vf .minecraft/mods/Alfheim-*
@@ -107,7 +108,7 @@ jobs:
             rm -vf .minecraft/mods/oauth-*
             rm -vf .minecraft/mods/UntranslatedItems-*
             mv -vf .minecraft/* ./
-            zip -r artifacts/${{ env.NAME }}-Server-${{ env.VERSION_CF_NORMAL }}.zip docker-compose.yml PleaseRead.txt log4j2_112-116.xml Install.* ServerStart.* settings.* TmuxServer.sh config/ local/ mods/ resources/ scripts/
+            zip -r artifacts/${{ env.NAME }}-${{ env.JAVA8_SERVER }}.zip docker-compose.yml PleaseRead.txt log4j2_112-116.xml Install.* ServerStart.* settings.* TmuxServer.sh config/ local/ mods/ resources/ scripts/
           fi
 
       - name: Upload Artifacts
@@ -149,8 +150,8 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-          git tag ${{ env.VERSION_CF_NORMAL }}
-          git push origin ${{ env.VERSION_CF_NORMAL }}
+          git tag ${{ env.JAVA8_CF }}
+          git push origin ${{ env.JAVA8_CF }}
 
       - name: Create or Update GitHub Release
         uses: softprops/action-gh-release@v2
@@ -168,9 +169,9 @@ jobs:
           prerelease: true
           generate_release_notes: true
           files: |
-            artifacts/${{ env.NAME }}-${{ env.VERSION_CF_NORMAL }}.zip
-            artifacts/${{ env.NAME }}-${{ env.VERSION_MMC_NORMAL }}.zip
-            artifacts/${{ env.NAME }}-Server-${{ env.VERSION_CF_NORMAL }}.zip
-            artifacts/${{ env.NAME }}-${{ env.VERSION_MMC_LWJGL3 }}.zip
+            artifacts/${{ env.NAME }}-${{ env.JAVA8_CF }}.zip
+            artifacts/${{ env.NAME }}-${{ env.JAVA8_MMC }}.zip
+            artifacts/${{ env.NAME }}-${{ env.JAVA8_SERVER }}.zip
+            artifacts/${{ env.NAME }}-${{ env.JAVA_OPT }}.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
