@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    758
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "複数台のHPCAを束ねて計算力を増強したり、逆に複数台の研究ステーションに対して計算力を分配することができます。\n利用するためにはHPCA側にHPCAブリッジコンポーネントを組み込む必要があります。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1040,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "現実のスパコンは1000以上のCPUをネットワークで接続する"
+    }
+  },
+  "questID:3": 773,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1040,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

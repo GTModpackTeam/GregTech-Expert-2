@@ -1,0 +1,51 @@
+{
+  "preRequisites:11": [
+    265
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "金型は合金かまどのレシピで使用するための素材です。\n加工に用いても消費しない特性があるので各種一個ずつ作りましょう。\n\nブロックの金型は主にガラスの成型に多用します。\n金属ブロックも作れますが、圧縮機の方が便利なので圧縮機を作ると影が薄くなります。\n\nプレートの金型は主にガラスパネルとグロウストーンパネルの作成に使用します。\n金属系は基本的に金属加工機,宝石系は基本的に裁断機でプレートにするので\nこの二種類以外で使うことは余りありません。\n\nボールの金型は主にガラス管の作成に使用します。\n今すぐ必要になる金型です。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 18,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "真っ黒なキャンバスにハンマーで色を塗ろう"
+    }
+  },
+  "questID:3": 280,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 3,
+          "Damage:2": 11,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 18,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 12,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 17,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    364
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "電磁分離機はめったに使われない機械で、磁場を発生させて磁化した鉱石を分離させて追加の副産物を抽出します。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 290,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "使ったことない..."
+    }
+  },
+  "questID:3": 314,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 290,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 291,
+          "id:8": "gregtech:machine"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 292,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

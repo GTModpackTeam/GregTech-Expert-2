@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    595,
+    627
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "タングステンはIVのケーブルの素材になりますが、他の用途で使うこともあります。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 115,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "スウェーデン語で「重い石」",
+      "questlogic:8": "OR"
+    }
+  },
+  "questID:3": 614,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 115,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

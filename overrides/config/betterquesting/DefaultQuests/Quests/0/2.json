@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    19
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "木製マルチブロックタンクには一度にバケツ250杯分のクレオソートを貯めておくことができます。\n溶岩などの熱い液体や蒸気や酸素などのガスを貯めておくことはできません。\n組み立て方やGUIはCoke Ovenのクエストを参照してください。\n\n木製タンクバルブはタンクの任意の場所に取り付けられますが、タンクの一番下の層に下向きで設置するとタンク内の液体を自動搬出するという特性を持つようになるので、よく考えて設置するといいでしょう。\n\nマルチブロックタンクはドラムと違って壊すと中身が破棄されます。\n\n\n余談その1\nこのマルチブロックはあまりにも使い道が少ないので\nガスを貯蔵できるようにしようという意見も出ている",
+      "icon:10": {
+        "Count:3": 26,
+        "Damage:2": 5,
+        "id:8": "gregtech:steam_casing"
+      },
+      "name:8": "五十年もののワイン専用",
+      "questlogic:8": "OR"
+    }
+  },
+  "questID:3": 2,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 23,
+          "Damage:2": 5,
+          "id:8": "gregtech:steam_casing"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 1596,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1597,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

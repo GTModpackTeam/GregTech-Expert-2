@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    480,
+    397
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "ニクロムコイルブロックは工業用電気炉の耐熱を3600Kまで上げます。\n\nまだ必須ではないかもしれませんが、コイルボーナスを得るためにメインで使っている電気炉をこれでアップグレードするのはいい考えでしょう。\n\n\n余談その1\nGregTech5ではコイルは3種類しかなく、これが最後のコイルであった。",
+      "icon:10": {
+        "Count:3": 16,
+        "Damage:2": 2,
+        "id:8": "gregtech:wire_coil"
+      },
+      "name:8": "太陽の温度までまだ遠い"
+    }
+  },
+  "questID:3": 498,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 2,
+          "id:8": "gregtech:wire_coil"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

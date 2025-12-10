@@ -1,0 +1,70 @@
+{
+  "preRequisites:11": [
+    515,
+    472
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "純粋なクォーツ達は砂とクォーツの粉を混ぜて種にして、オートクレーブにかけることで作成できます。\nクォーツの粉一つから純粋なクォーツが2つとれますが、純粋なクォーツの価値はクォーツの半分と設定されているのでこれでクォーツを無限に増やすことはできません。\n\n純粋なクォーツの主な用途はレシピの製造コストを減らすことにあります。\n純粋なクォーツはクラフトに用いるときのみ通常のクォーツと等価である扱いになるので、単純にクラフトで使うクォーツの量を半分にできます。\n\nその他にこのModPackで改造されたレシピでは純粋なクォーツを使うと完成品の量が倍になったりします。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 10,
+        "id:8": "appliedenergistics2:material"
+      },
+      "name:8": "大地が...純化されていく..."
+    }
+  },
+  "questID:3": 548,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 600,
+          "id:8": "appliedenergistics2:crystal_seed",
+          "tag:10": {
+            "progress:3": 600
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:crystal_seed",
+          "tag:10": {
+            "progress:3": 0
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1200,
+          "id:8": "appliedenergistics2:crystal_seed",
+          "tag:10": {
+            "progress:3": 1200
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 11,
+          "id:8": "appliedenergistics2:material"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 10,
+          "id:8": "appliedenergistics2:material"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 12,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

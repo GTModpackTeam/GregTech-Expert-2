@@ -8,12 +8,12 @@ on:
   workflow_dispatch:
     inputs:
       version:
-        description: 'Modpack version'
+        description: "Modpack version"
         required: true
       release_type:
-        description: 'Release type'
+        description: "Release type"
         type: choice
-        default: 'release'
+        default: "release"
         options: [release, beta, alpha]
 
 env:
@@ -23,24 +23,16 @@ env:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-slim
     strategy:
       matrix:
         buildType: [standard, lwjgl3]
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
-
-      - name: Restore cache
-        uses: actions/cache@v4
-        with:
-          path: |
-            ~/.m2/repository
-            ~/.cache/pip
-          key: ${{ runner.os }}-deps-${{ matrix.buildType }}-${{ hashFiles('**/pom.xml') }}
 
       - name: Download Resource Packs zip
         run: |
@@ -69,13 +61,13 @@ jobs:
       - name: Adjust for LWJGL3
         if: matrix.buildType == 'lwjgl3'
         run: |
-          python buildtools/gen-lwjgl3-manifest.py
+          uv run --directory ./buildtools python ./gen-lwjgl3-manifest.py
           cp -vf cmmc/manifest.json manifest.json
 
       - name: Install Mods
         env:
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
-        run: python buildtools/mod-install.py
+        run: uv run --directory ./buildtools python ./mod-install.py
 
       - name: Clean up placeholder files
         run: find . -name ".gitkeep" -delete
@@ -84,21 +76,18 @@ jobs:
         run: |
           if [[ "${{ matrix.buildType }}" == "lwjgl3" ]]; then
             sed -i "s/B:EnableCustomGameTitle=false/B:EnableCustomGameTitle=true/" overrides/config/stellar_core.cfg
-            cp -rvf cmmc/bansoukou/ ./overrides/
-            rm -Rf cmmc/bansoukou/
             mv -vf overrides/ .minecraft/
             cp -vf icon.png .minecraft/
             cp -rvf cmmc/* ./
-            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}-mmc.zip libraries/ patches/ mmc-pack.json instance.cfg .minecraft/
+            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}-mmc.zip patches/ mmc-pack.json instance.cfg .minecraft/
           else
-            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}-cf.zip manifest.json modlist.html overrides/bansoukou/ overrides/config/ overrides/local/ overrides/resourcepacks/ overrides/scripts/
+            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}-cf.zip manifest.json modlist.html overrides/config/ overrides/local/ overrides/resourcepacks/ overrides/scripts/
             mv overrides/ .minecraft/
             cp icon.png .minecraft/
             zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}-mmc.zip mmc-pack.json instance.cfg .minecraft/
             mv serverfiles/* ./
             rm -vf .minecraft/mods/!Red-Core-*
             rm -vf .minecraft/mods/Alfheim-*
-            rm -vf .minecraft/mods/Valkyrie-*
             rm -vf .minecraft/mods/CraftPresence-*
             rm -vf .minecraft/mods/Controlling-*
             rm -vf .minecraft/mods/UniLib-*
@@ -113,13 +102,12 @@ jobs:
             rm -vf .minecraft/mods/InGameInfoXML-*
             rm -vf .minecraft/mods/oauth-*
             rm -vf .minecraft/mods/UntranslatedItems-*
-            rm -vf .minecraft/mods/vintagefix-*
             mv -vf .minecraft/* ./
-            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}-server.zip docker-compose.yml PleaseRead.txt log4j2_112-116.xml Install.* ServerStart.* settings.* TmuxServer.sh bansoukou/ config/ local/ mods/ resources/ scripts/
+            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}-server.zip docker-compose.yml PleaseRead.txt log4j2_112-116.xml Install.* ServerStart.* settings.* TmuxServer.sh config/ local/ mods/ resources/ scripts/
           fi
 
       - name: Upload Artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: ${{ matrix.buildType }}-artifacts
           path: artifacts/
@@ -127,18 +115,18 @@ jobs:
 
   release:
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-slim
     permissions:
       contents: write
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
       - name: Download All Artifacts
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v6
         with:
           path: downloads
 

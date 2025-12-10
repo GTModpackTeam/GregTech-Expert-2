@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    579,
+    585,
+    603
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "最高のHV回路を作れれば、オンデマンドの自動化のためのHV機械が簡単に作れるようになります。\n\nこの回路から先の全ての回路は他の回路と連続性を持つようになります。\nまた、ZPMまでのそれぞれのレベルの新しい良い回路を作るためにはそのレベルの固有の課題をクリアしていかなければなりません。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 632,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "ナノテクノロジー",
+      "questlogic:8": "OR"
+    }
+  },
+  "questID:3": 569,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 632,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

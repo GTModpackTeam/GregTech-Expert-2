@@ -11,23 +11,19 @@ runs:
   using: 'composite'
 
   steps:
-    - name: Setup Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.12'
+    - name: Install system dependencies
+      shell: bash
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y zip jq wget
 
     - name: Install uv
-      shell: bash
-      run: pip install uv
-
-    - name: Setup Python Cache 
-      uses: actions/cache@v4
+      uses: astral-sh/setup-uv@v7
       with:
-        path: ~/.cache/uv
-        key: ${{ runner.os }}-uv-${{ hashFiles('**/requirements.txt') }}
-        restore-keys: |
-          ${{ runner.os }}-uv-
+        enable-cache: true
+        python-version-file: ./buildtools/pyproject.toml
 
     - name: Install dependencies
       shell: bash
-      run: uv pip install --system -r ./buildtools/requirements.txt
+      working-directory: ./buildtools
+      run: uv sync

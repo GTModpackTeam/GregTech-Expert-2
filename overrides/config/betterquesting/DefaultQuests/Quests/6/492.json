@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    474
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "圧縮成型機はAE2の金型を材料に嵌めて材料の金型を作ることができます。\n大型タービンを運用したいときにもタービンブレードを作るため利用したいでしょう。\n\n\n余談その1\nGT5uの圧縮成型機にはスロットが2つしかなかった",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 427,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "はんこ機"
+    }
+  },
+  "questID:3": 492,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 427,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

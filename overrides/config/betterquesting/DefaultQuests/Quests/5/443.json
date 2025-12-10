@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    444,
+    69
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "※石油はオイルサンドやポンプを使うことでLVでも入手できますが、最も簡単な入手手段があるMVにクエストを置いています。\n\nこのクエストで今まで色んな方法で入手してきた石油を納品することでエチレンへの道が開かれます。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "oil"
+        }
+      },
+      "name:8": "石油納品所",
+      "tasklogic:8": "OR"
+    }
+  },
+  "questID:3": 443,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "oil"
+        },
+        "1:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "oil_heavy"
+        },
+        "2:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "oil_medium"
+        },
+        "3:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "oil_light"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

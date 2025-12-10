@@ -1,3 +1,66 @@
+# 2.7.13
+## Modpack migration
+- CoreMod fixes issues with NAE2.
+    1. Delete the `bansoukou` folder.
+    2. Delete `nae2-1.6.4-patched.jar` in the folder named `mods`.
+    3. Rename `nae2-1.6.4.disabled` to `nae2-1.6.4.jar` in the folder named `mods`.
+
+## Modpack information
+- Fix quests related to NBT tags
+
+## Disable mods
+- Advanced Backups
+- Flare (Spark for 1.12.2)
+
+## Move mods
+- AppleSkin -> LemonSkin (3.0.2)
+- NetherPortalFix -> Universal Tweaks
+- Ender Storage continuation (2.6.3) -> EnderStorage Continuation2 (2.7.0)
+
+## Remove mods
+- Bansoukou (4.3.1)
+- Valkyrie (0.3)
+- VintageFix (0.6.2)
+
+## New mods
+- AE2UEL Wireless Universal Terminal (1.2.6)
+- Key Binding Patch (1.3.3.3)
+- VintageDisplay (1.5)
+- SussyPatches (1.9.2)
+
+## Update mods
+- AE2 Unofficial Extended Life (0.56.5 -> 0.56.7)
+- AE2 Stuff Unofficial (0.9 -> 0.10)
+- Alfheim (1.5 -> 1.6)
+- Betterer P2P (1.3.2 -> 1.3.3)
+- CraftPresence (2.6.2 -> 2.7.0)
+- CensoredASM (5.29 -> 5.30)
+- EZStorage 2 Patch (1.4.1 -> 1.5.0)
+- Fixeroo (2.3.6b -> 2.3.6)
+- Forgelin-Continuous (2.2.0.0 -> 2.2.21.0)
+- GTConsolidate (1.0.7.7 -> 1.1.0.4.1)
+- GTExpertCore (2.4.11 -> 2.5.4)
+- Inventory Bogo Sorter (1.4.8 -> 1.5.0)
+- JEI Utilities (0.2.11 -> 0.2.13)
+- Had Enough Items (4.28.1 -> 4.29.12)
+- Hot or Not GTCEu (1.2.0 -> 1.3.0)
+- MixinBooter (9.4 -> 10.7)
+- ModularUI (2.4.3 -> 3.0.5)
+- PackagedAuto (1.0.19.66 -> 1.0.23.72)
+- UniLib (1.1.1 -> 1.2.0)
+- Universal Tweaks (1.14.0 -> 1.17.0)
+
+## New recipes
+### AE2 Unofficial Extended Life
+- Wireless Interface Terminal
+- Wireless Universal Terminal
+
+## Fix recipes
+### AE2 Fluid Crafting Rework
+- Wireless Fluid Interface Terminal
+
+* * *
+
 # v2.7.12
 ## New mods
 - Hot or Not Plus (1.1.10)
@@ -732,7 +795,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 # v2.5.3
 ## Modpack information
 ### To update an existing profile without creating a new profile.
-1. Check the mods folder and delete `gregtech-1.12.2-2.7.3-beta-gte.jar` and `gregtechfoodoption-1.9.3.2-gte.jar`. 
+1. Check the mods folder and delete `gregtech-1.12.2-2.7.3-beta-gte.jar` and `gregtechfoodoption-1.9.3.2-gte.jar`.
 2. In addition, delete `gregtech-1.12.2-2.7.2-beta.jar.disabled` and `gregtechfoodoption-1.9.3.1.jar.disabled`.
 3. Finally, check the `overrides\config\mod-director` and make sure there are no files inside.
 - In case you are wondering, ModPack recommends [MultiMC](https://multimc.org/) or [Prism Launcher](https://prismlauncher.org/).
@@ -936,7 +999,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 ## New mods
 - Extra CPUs
 
-* * * 
+* * *
 
 # v2.3.1
 ## Modpack information

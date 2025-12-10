@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    533
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "MEレベルメンテナンスとME液体レベルメンテナンスは前回のクエストで作成した物の強化版です。\nただしこちらは赤石動力を伝えて機械自体を直接制御するものではありません。\n\nこの装置はクラフトパターンが設定済みならば、ME倉庫内の在庫に応じて自動加工リクエストが行われます。\nさらにはこれ一つで複数設定できるため、スペースの節約や管理の簡素化もできる優れものです。\n\n最終的には亜空間型鉱石採掘機にて鉱石の在庫管理で複数台設置しているでしょう。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4,
+        "id:8": "threng:machine"
+      },
+      "name:8": "在庫管理のスペシャリスト"
+    }
+  },
+  "questID:3": 532,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "threng:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "ae2fc:fluid_level_maintainer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    286
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "鉄ブロックを圧縮して金床を作ることで解禁される蒸気式鍛造機はアイテムに自動でハンマー処理を施してくれる機械です。\nツールのハンマーを使用する多くのレシピがこの機械とレシピを共有しています。\n金属インゴット3個からプレートを2枚作成する機能や、砕いた鉱石を汚れた鉱石にして粉砕機の負担を減らす機能など用途は多岐に渡ります。\n丸石を砕いて砂利や砂にすることもできます。\n\n\n余談その1\n動作速度が速くあまり価値がないと判断されたのか、Gregicality Legacyではこの機械のマルチブロック版をHVで作ることができた。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 13,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "ポケットを叩くとビスケットが粉々"
+    }
+  },
+  "questID:3": 248,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 13,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 14,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

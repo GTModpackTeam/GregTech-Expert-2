@@ -1,0 +1,52 @@
+{
+  "preRequisites:11": [
+    437
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "ランダムアクセスメモリーはより発展的な電子部品を作るのに必要です。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 278,
+        "id:8": "gregtech:meta_lens"
+      },
+      "name:8": "このModPackには6GBくらいは当てておきましょう"
+    }
+  },
+  "questID:3": 390,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 278,
+          "id:8": "gregtech:meta_lens"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 567,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 592,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

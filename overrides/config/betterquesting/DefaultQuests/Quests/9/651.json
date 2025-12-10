@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    679,
+    655
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "IV回路組立機は量子回路を解禁します。\nまた、これで最高効率でMV回路を作れるようになります。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 639,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "おつかれ!!今回は新しいポリマーは不要だよ!!"
+    }
+  },
+  "questID:3": 651,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 639,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

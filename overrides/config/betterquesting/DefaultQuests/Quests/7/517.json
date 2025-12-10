@@ -1,0 +1,48 @@
+{
+  "preRequisites:11": [
+    458,
+    535,
+    492
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "第三の中間素材である三種類のプロセッサを作っていきましょう。クエストでは複数要求していますが、これはME Driveを作成する際に必須なプロセッサ数です。\n前のクエストでも書いてある通り、純粋なクリスタルを使って作っていきましょう。\n\nまたシリコンを焼くためには工業用電気炉が必要となるので、早いうちにシリコン専用の炉を建てることが推奨されます。\n\nそしてこの中でダイヤ製のプロセッサはAE2の割とあらゆる要素に要求されますが、他のプロセッサは大して要求されません。なのでダイヤはなるべくTierの高い選別機などで集めておくと良いかもしれません。\n\n\n余談その1\n本来の方法では刻印機を利用して作成するが、動作が遅い、搬入方向固定、アイテムごとに刻印機が必要という面倒くささから削除された。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 23,
+        "id:8": "appliedenergistics2:material"
+      },
+      "name:8": "格差問題発生",
+      "tasklogic:8": "OR"
+    }
+  },
+  "questID:3": 517,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 23,
+          "id:8": "appliedenergistics2:material"
+        },
+        "1:10": {
+          "Count:3": 5,
+          "Damage:2": 22,
+          "id:8": "appliedenergistics2:material"
+        },
+        "2:10": {
+          "Count:3": 9,
+          "Damage:2": 24,
+          "id:8": "appliedenergistics2:material"
+        },
+        "3:10": {
+          "Count:3": 18,
+          "Damage:2": 20,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

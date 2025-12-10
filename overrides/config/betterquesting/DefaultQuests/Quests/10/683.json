@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    691
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "LuVでよく使う金属たちをまとめてみました。\nSamarium以外は合金高炉を使った方が速いので合金高炉をまだ作ってない人はとっとと作りましょう。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 95,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "さすがに合金高炉を使った方が良い"
+    }
+  },
+  "questID:3": 683,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 95,
+          "id:8": "gregtech:meta_ingot"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 310,
+          "id:8": "gregtech:meta_ingot"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 344,
+          "id:8": "gregtech:meta_ingot"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 2520,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    649,
+    651,
+    658
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "量子処理装置は最初の量子回路です。\n\n望むなら、発展型SMDを作って回路をより安く作ることができます。\nこれにはPBIとHSS-Sコイルでしか作れない合金が要求されます。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 636,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "最高のEV回路",
+      "questlogic:8": "OR"
+    }
+  },
+  "questID:3": 650,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 636,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

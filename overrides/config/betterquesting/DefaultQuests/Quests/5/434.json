@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    405
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "基本的な押出機と比べて発展型押出機には実用的なレシピが多数あります。\nもし基本的な押出機を作ってしまったなら使い道がないのでアーク炉でリサイクルしましょう。\n\n押出機は固体の材料を専用の金型を用いてほぼどんな形にもすることができます。\nこの機械を使えば手動クラフトの量を大きく減らすことができ、効率的な加工も行えます。\n\n一番目立つのはインゴット一つから棒を二本作る機能でしょう。\nこれで旋盤の用途がレンズ作成などに限られるようになります。\n\n\n余談その1\n旋盤でインゴット一つから棒が二本作れないのはGregTech5時代の挙動を再現するハードモードの仕様なので、デフォルトのGTCEuでは押出機で棒を作ることはありません。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 321,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "押込機"
+    }
+  },
+  "questID:3": 434,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 321,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

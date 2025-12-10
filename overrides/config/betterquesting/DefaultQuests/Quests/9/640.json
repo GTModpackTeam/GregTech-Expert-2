@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    627
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "次の回路基板の素材はエポキシを化学槽で処理するだけで作ることができます。\nエポキシが作れるなら簡単です。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1006,
+        "id:8": "gregtech:meta_plate"
+      },
+      "name:8": "Epoxy v2.0"
+    }
+  },
+  "questID:3": 640,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1006,
+          "id:8": "gregtech:meta_plate"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

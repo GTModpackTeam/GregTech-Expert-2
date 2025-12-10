@@ -1,0 +1,33 @@
+{
+  "preRequisiteTypes:7": [
+    1
+  ],
+  "preRequisites:11": [
+    474
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "HV組立機は進行に必須な次なるステップです。\n次の電圧以外にも色んな便利なアイテムを解禁します。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 112,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "アッセンブラ"
+    }
+  },
+  "questID:3": 458,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 112,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

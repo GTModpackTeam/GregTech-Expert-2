@@ -1,0 +1,59 @@
+{
+  "preRequisites:11": [
+    474
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "※このクエストはバグを回避するために該当アイテムをクラフトした時のみ達成できるようにしています。\nもし達成できなかったら編集モードで即時完了してください\n\n高圧アイテムマグネットはアイテムマグネットの強化版です。\n広い範囲からアイテムを吸い寄せることができますが、誤爆に注意しましょう。\n特に熱いインゴットを吸ってしまった場合は高い確率で死に至ります。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 472,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "マイクロブラックホール"
+    }
+  },
+  "questID:3": 459,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 472,
+          "id:8": "gregtech:meta_item_1",
+          "tag:10": {
+            "MaxCharge:4": 1200000
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 472,
+          "id:8": "gregtech:meta_item_1",
+          "tag:10": {
+            "MaxCharge:4": 1600000
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 472,
+          "id:8": "gregtech:meta_item_1",
+          "tag:10": {
+            "MaxCharge:4": 1800000
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 472,
+          "id:8": "gregtech:meta_item_1",
+          "tag:10": {
+            "MaxCharge:4": 6400000
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    626,
+    653
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "HSS-SはLuVモーターのクラフトに必要です。\n\nこの合金は素晴らしい採掘速度を誇ります。\nこれは同時に大型タービンのローターに使った時極めてよい効率で稼働することを意味します。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2520,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "実は実在しない"
+    }
+  },
+  "questID:3": 630,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2520,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

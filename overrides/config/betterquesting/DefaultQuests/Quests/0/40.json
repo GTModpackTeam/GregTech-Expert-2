@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    18
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "コークス炉をはじめとした多くのマルチブロックは隣のマルチブロックと構成部品を共有することができます。\nつまり、コークス炉の隣にもう一台コークス炉を重なり合うように設置しても稼働します。\nこれを利用してコークス炉を沢山設置することが序盤を素早く切り抜けるコツの一つです。\n\n注意点として、ハッチなどの各マルチブロックに固有のブロックを筐体共有しようとすると、正常に共有されないか(液体搬出ハッチが代表例)そもそもマルチブロックが認識されなくなる場合(メンテナンスハッチが代表例)があります。\n構成ブロックが筐体共有できるかどうかはツールチップに書かれています",
+      "icon:10": {
+        "Count:3": 20,
+        "Damage:2": 8,
+        "id:8": "gregtech:metal_casing"
+      },
+      "name:8": "筐体共有"
+    }
+  },
+  "questID:3": 40,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 20,
+          "Damage:2": 8,
+          "id:8": "gregtech:metal_casing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1017,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

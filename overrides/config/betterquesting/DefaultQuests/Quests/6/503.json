@@ -1,0 +1,93 @@
+{
+  "preRequisites:11": [
+    449
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "HVのドリルは5x5x5ブロックを一遍に掘れるので優秀です。\n\nどんな素材でも作ることができますが折角なので丈夫なアルティメット合金で作ってしまいましょう。\n\nこの段階から拠点でドリルの広範囲モードを誤使用すると甚大な被害が生じるようになります。\n拠点ではシフト右クリックして1ブロック採掘モードにしておきましょう。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "gregtech:drill_hv",
+        "tag:10": {
+          "Charge:4": 0,
+          "DisallowContainerItem:1": 0,
+          "GT.Behaviours:10": {
+            "AoEColumn:3": 2,
+            "AoELayer:3": 4,
+            "AoERow:3": 2,
+            "MaxAoEColumn:3": 2,
+            "MaxAoELayer:3": 4,
+            "MaxAoERow:3": 2,
+            "TorchPlacing:1": 1
+          },
+          "GT.Tool:10": {
+            "AttackDamage:5": 8.0,
+            "AttackSpeed:5": -3.1000001,
+            "Durability:3": 0,
+            "HarvestLevel:3": 4,
+            "Material:8": "ultimet",
+            "MaxDurability:3": 2048,
+            "ToolSpeed:5": 14.0
+          },
+          "HideFlags:3": 2,
+          "MaxCharge:4": 1600000
+        }
+      },
+      "name:8": "ギュィーン"
+    }
+  },
+  "questID:3": 503,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 448,
+          "id:8": "gregtech:meta_item_1",
+          "tag:10": {
+            "MaxCharge:4": 1200000
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 448,
+          "id:8": "gregtech:meta_item_1",
+          "tag:10": {
+            "MaxCharge:4": 1600000
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 448,
+          "id:8": "gregtech:meta_item_1",
+          "tag:10": {
+            "MaxCharge:4": 1800000
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 448,
+          "id:8": "gregtech:meta_item_1",
+          "tag:10": {
+            "MaxCharge:4": 6400000
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 331,
+          "id:8": "gregtech:meta_tool_head_drill"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

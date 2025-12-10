@@ -1,0 +1,137 @@
+{
+  "preRequisites:11": [
+    8
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "タスクに要求されているツールは原始時代や蒸気時代にはあまり使用しないか、ModPack全体を通じて需要の小さいツールです。\n必要な時に必要なものを作るといいでしょう。\n\nバール\nバールは機械に取り付けたカバーを機械を壊すことなく撤去できるツールです。\nカバーに対して右クリックするだけで使用できます。\n\nワイヤーカッター\n- ワイヤーカッターはワイヤーをクラフトしたり撤去したり接続したりするツールです。\nGTCEuの仕様でワイヤーとケーブルはレンチでも撤去できてしまうのでその面であまり価値はありませんが、ワイヤーとケーブルはデフォルトで他のワイヤーとケーブルや機械に繋がらないという仕様が追加されているので、手動で接続できるワイヤーカッターは電気時代に入った後は必要不可欠なツールです。\n\n鎌\n- 左クリックで広範囲の作物やサトウキビを一括伐採+植えなおしすることができます。\n- 武器としても優秀です。\n\n肉切り包丁\n- 肉切り包丁で敵を倒すとより多くのアイテムがドロップします。\n- 革を集める時に最も活躍します。\n\nナイフ\n- ナイフはゴムをリングにしたりなどいくつかのレシピで要求されます。\n- 主に電気時代以降に出番があります。\n\nラバーカップ\n- ラバーカップは機械に右クリックすることで使用でき、機械の入力スロットに入っている液体を廃棄することができます。\n- コチラも電気時代以降で出番がありますが、こちらは説明のみで作成はしませんが記憶の片隅には入れといてください。\n\nハサミ\n- ハサミです。ただほぼ出番ないので作成不要です。\n\nタービンローター\n- 内部的にはツールなのでここで紹介します。\n- タービンローターは大型タービンを動かすための羽です。詳細は実際に使用するとき解説します。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 32767,
+        "OreDict:8": "craftingToolCrowbar",
+        "id:8": "gregtech:crowbar",
+        "tag:10": {
+          "GT.Tool:10": {
+            "Durability:3": 0
+          }
+        }
+      },
+      "name:8": "お母さんが使ってそうな道具ベスト7",
+      "tasklogic:8": "OR"
+    }
+  },
+  "questID:3": 13,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "OreDict:8": "craftingToolCrowbar",
+          "id:8": "gregtech:crowbar",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {},
+            "GT.Tool:10": {
+              "AttackDamage:5": 4.0,
+              "AttackSpeed:5": -2.4,
+              "Durability:3": 0,
+              "HarvestLevel:3": 2,
+              "Material:8": "iron",
+              "MaxDurability:3": 255,
+              "ToolSpeed:5": 6.0
+            },
+            "HideFlags:3": 2
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "OreDict:8": "craftingToolWireCutter",
+          "id:8": "gregtech:wire_cutter",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {},
+            "GT.Tool:10": {
+              "AttackDamage:5": 1.0,
+              "AttackSpeed:5": -2.4,
+              "Durability:3": 0,
+              "HarvestLevel:3": 2,
+              "Material:8": "iron",
+              "MaxDurability:3": 255,
+              "ToolSpeed:5": 6.0
+            },
+            "HideFlags:3": 2
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "OreDict:8": "toolScythe",
+          "id:8": "gregtech:scythe",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {
+              "AoEColumn:3": 2,
+              "AoELayer:3": 2,
+              "AoERow:3": 2,
+              "MaxAoEColumn:3": 2,
+              "MaxAoELayer:3": 2,
+              "MaxAoERow:3": 2
+            },
+            "GT.Tool:10": {
+              "AttackDamage:5": 7.0,
+              "AttackSpeed:5": -3.0,
+              "Durability:3": 0,
+              "HarvestLevel:3": 2,
+              "Material:8": "iron",
+              "MaxDurability:3": 767,
+              "ToolSpeed:5": 6.0
+            },
+            "HideFlags:3": 2
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "OreDict:8": "craftingToolButcheryKnife",
+          "id:8": "gregtech:butchery_knife",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {},
+            "GT.Tool:10": {
+              "AttackDamage:5": 3.5,
+              "AttackSpeed:5": -1.3,
+              "Durability:3": 0,
+              "Material:8": "iron",
+              "MaxDurability:3": 255
+            },
+            "HideFlags:3": 2,
+            "ench:9": {
+              "0:10": {
+                "id:3": 21,
+                "lvl:2": 3
+              }
+            }
+          }
+        },
+        "4:10": {
+          "Count:3": 1,
+          "OreDict:8": "craftingToolKnife",
+          "id:8": "gregtech:knife",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {},
+            "GT.Tool:10": {
+              "AttackDamage:5": 2.0,
+              "AttackSpeed:5": 3.0,
+              "Durability:3": 0,
+              "Material:8": "iron",
+              "MaxDurability:3": 255
+            },
+            "HideFlags:3": 2
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

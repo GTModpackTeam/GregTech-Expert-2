@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    601
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "ラドンの作り方はJEIの大型化学反応炉のレシピを見れば一目で分かります。\n\nウランを入れて、電気かまどでプルトニウムをループさせて、魔法を起こしましょう。\n\nラドンを作るのに200秒必要ですが、工業用電気炉と比べたら微々たるものです。\n自動化してしまいましょう。\n\n\n余談その1\nこのよく分からないラインはGregTech5から継承されたものである\nプルトニウム239が鉱石として存在するのは本来の複雑な工程を得てからの入手が存在しないゆえの仮の入手手段である",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 81,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "普段の生活で最も被曝する放射性物質",
+      "tasklogic:8": "OR"
+    }
+  },
+  "questID:3": 566,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 81,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "radon"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

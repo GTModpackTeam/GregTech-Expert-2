@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    50
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "原木を集めましょう。\nデフォルトでGraveキーに設定されているFTB Ultimineの一括破壊キーを押しながら素手で原木を壊すことで、繋がっている原木を一気に破壊することができます。\n難易度ピースフル以外では満腹度を消費するので注意しましょう。\n一括破壊キーの変更はoptions...の中のcontrol...を開いて検索バーに FTB Ultimine と入力することで行えます。\n\nこの世界では§l原木から木材が1つしかクラフト§rになり、補足として木の棒も作成数が減っています。\n原木をとったら早速木材にクラフトしたいところですが、多くのレシピが変更されているこの環境では使い道がそれほどありません。\n\n\n余談その1\n誤解を招くことが多いため補足しておくと原木1個から木材1個はGregtech Expert 2の仕様です。\nまたこの仕様は初代でも同じである。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:log"
+      },
+      "name:8": "恒例行事"
+    }
+  },
+  "questID:3": 43,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "OreDict:8": "logWood",
+          "id:8": "minecraft:log"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

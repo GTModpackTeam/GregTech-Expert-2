@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    602
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "新しい裁断機、新しいレンズ、新しい電源ICを作ってアップグレードに備えましょう。\n\nもしジャングルバイオームを見つけていないのなら、石の粉を遠心分離して二倍の化学染料に加工できる金属混合物の粉を作りましょう。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 604,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "電源集積回路",
+      "tasklogic:8": "OR"
+    }
+  },
+  "questID:3": 570,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 248,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 832,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 604,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

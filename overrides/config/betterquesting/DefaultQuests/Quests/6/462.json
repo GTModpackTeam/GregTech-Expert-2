@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    451
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "アンモニアはHV時代で作ることができますが、必須ではありません。\n\nアンモニアは\n―推奨されませんが硝酸\n―IV時代以降に必要となるポリベンゾイミダゾール\nの製造に使うことができます。\n\n大して問題でもありませんが、アンモニアを作るにはHV化学反応器が必要です。\n大体水の電気分解から得られると思われる水素の製造が追いついているか確認しましょう。\n\nアンモニアは白金族泥の粉の処理の過程でも廃棄物として獲得できるでしょう。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "ammonia"
+        }
+      },
+      "name:8": "鼻が痛い"
+    }
+  },
+  "questID:3": 462,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "ammonia"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

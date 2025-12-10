@@ -1,0 +1,50 @@
+{
+  "preRequisiteTypes:7": [
+    1
+  ],
+  "preRequisites:11": [
+    844
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "名前の通り、モブを年齢を仕分ける装置です。\nその電圧のひとつ下の電圧で稼働させることができます。\ntips:稼働にはレッドストーン信号が必要。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 8545,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "...いる?",
+      "questlogic:8": "OR"
+    }
+  },
+  "questID:3": 879,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 8545,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 8546,
+          "id:8": "gregtech:machine"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 8547,
+          "id:8": "gregtech:machine"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 8548,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    312
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "このクエストにある機械はどの電圧時代でも目だった出番がありません。\n永遠に使うことはないかもしれませんが機能だけは知っておくことは悪くないかもしれません。\n\nFisherを使うと色々なものを釣ることができます。\n稼働には水槽が必要なのと糸を消費するので、羊牧場かポリカプロラクタムを入手する必要があります。\n\nPumpを使うと液体を組み上げることができます。\nしかしMVで解禁される液体採掘プラントが水、塩水、溶岩、原油を無限に採掘することができるので、他のmodと併用しないと需要があまりありません。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1515,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "孤児院",
+      "tasklogic:8": "OR"
+    }
+  },
+  "questID:3": 361,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "entryLogic:8": "OR",
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1515,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1530,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
