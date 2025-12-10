@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    699
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "スティーブの力があればプラズマすらもバケツに入れられます。\nバケツやタンクの中であれば安全ですが、パイプに触れるととても痛いので注意しましょう。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "plasma.helium"
+        }
+      },
+      "name:8": "第４の状態"
+    }
+  },
+  "questID:3": 714,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1,
+          "FluidName:8": "plasma.helium"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

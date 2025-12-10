@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    29
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "GTE2では海洋バイオームと川バイオーム以外では無限水源を作成できません。\n大人しくウォーターポンプを作るか、HVで無限水源カバーを作りましょう。\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:water_bucket"
+      },
+      "name:8": "海や川に水が多い理由: 海や川でしか無限水源が作れないから"
+    }
+  },
+  "questID:3": 38,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "water"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

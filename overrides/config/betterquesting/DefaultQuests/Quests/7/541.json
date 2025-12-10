@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    553
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "加速カードは分子組立室の加工速度を上げることができます。とりあえず挿しておいて損はないでしょう。\nその他にも使い道があるのですが実用的な使い方はこのModPackでは全て封じられています。\n\n超加速カードはIOポート専用カードで、加速カードを複数枚積むより早くやり取りを行うことが可能です。\nコレにより大きい容量から移すのに時間が掛かっていたのを大幅に短縮可能になりました。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 30,
+        "id:8": "appliedenergistics2:material"
+      },
+      "name:8": "もっと速くしよう"
+    }
+  },
+  "questID:3": 541,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 30,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nae2:upgrade"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    487
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "セタン価改質燃料は通常のディーゼルより50%エネルギー密度が高く、ディーゼル50Lに対し僅かテトラニトロメタン(TNM)1Lで作れます。\n計算すると収益が結構大きいです。\n\nこの話には裏があって、TNMを作るのが非常に面倒です。\n作るためには硝酸をエタノンまたは酢酸メチルのどちらかと反応させねばならず、どちらも複雑な製造工程を持っています。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "nitro_fuel"
+        }
+      },
+      "name:8": "ZPMまでのメイン燃料(GTCEu公式の見解です)"
+    }
+  },
+  "questID:3": 486,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "nitro_fuel"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

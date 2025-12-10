@@ -8,39 +8,33 @@ on:
   workflow_dispatch:
     inputs:
       version:
-        description: 'Modpack version'
+        description: "Modpack version"
         required: true
       release_type:
-        description: 'Release type'
+        description: "Release type"
         type: choice
-        default: 'release'
+        default: "release"
         options: [release, beta, alpha]
 
 env:
   NAME: "GTExpert2"
-  VERSION_NORMAL: "v${{ github.event.inputs.version }}-${{ github.event.inputs.release_type }}"
-  VERSION_LWJGL3: "v${{ github.event.inputs.version }}-${{ github.event.inputs.release_type }}-lwjgl3"
+  JAVA8_CF: "${{ github.event.inputs.version }}-CF_Java_8"
+  JAVA8_MMC: "${{ github.event.inputs.version }}-MMC_Java_8"
+  JAVA8_SERVER: "${{ github.event.inputs.version }}-Server_Java_8"
+  JAVA_OPT: "${{ github.event.inputs.version }}-MMC_Java_17-25"
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-slim
     strategy:
       matrix:
         buildType: [standard, lwjgl3]
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
-
-      - name: Restore cache
-        uses: actions/cache@v4
-        with:
-          path: |
-            ~/.m2/repository
-            ~/.cache/pip
-          key: ${{ runner.os }}-deps-${{ matrix.buildType }}-${{ hashFiles('**/pom.xml') }}
 
       - name: Download Resource Packs zip
         run: |
@@ -61,7 +55,7 @@ jobs:
             VER="${{ env.VERSION_LWJGL3 }}"
             echo "[CleanroomMMC] GregTech Expert 2 $VER" > overrides/config/txloader/load/custommainmenu/version.txt
           else
-            VER="${{ env.VERSION_NORMAL }}"
+            VER="${{ env.JAVA8_CF }}"
             echo "GregTech Expert 2 $VER" > overrides/config/txloader/load/custommainmenu/version.txt
           fi
           sed -i "s/MODPACKVERSION/$VER/g" manifest.json instance.cfg overrides/config/craftpresence.json
@@ -69,13 +63,13 @@ jobs:
       - name: Adjust for LWJGL3
         if: matrix.buildType == 'lwjgl3'
         run: |
-          python buildtools/gen-lwjgl3-manifest.py
+          uv run --directory ./buildtools python ./gen-lwjgl3-manifest.py
           cp -vf cmmc/manifest.json manifest.json
 
       - name: Install Mods
         env:
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
-        run: python buildtools/mod-install.py
+        run: uv run --directory ./buildtools python ./mod-install.py
 
       - name: Clean up placeholder files
         run: find . -name ".gitkeep" -delete
@@ -84,21 +78,18 @@ jobs:
         run: |
           if [[ "${{ matrix.buildType }}" == "lwjgl3" ]]; then
             sed -i "s/B:EnableCustomGameTitle=false/B:EnableCustomGameTitle=true/" overrides/config/stellar_core.cfg
-            cp -rvf cmmc/bansoukou/ ./overrides/
-            rm -Rf cmmc/bansoukou/
             mv -vf overrides/ .minecraft/
             cp -vf icon.png .minecraft/
             cp -rvf cmmc/* ./
-            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}-mmc.zip libraries/ patches/ mmc-pack.json instance.cfg .minecraft/
+            zip -r artifacts/${{ env.NAME }}-${{ env.JAVA_OPT }}.zip patches/ mmc-pack.json instance.cfg .minecraft/
           else
-            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}-cf.zip manifest.json modlist.html overrides/bansoukou/ overrides/config/ overrides/local/ overrides/resourcepacks/ overrides/scripts/
+            zip -r artifacts/${{ env.NAME }}-${{ env.JAVA8_CF }}.zip manifest.json modlist.html overrides/config/ overrides/local/ overrides/resourcepacks/ overrides/scripts/
             mv overrides/ .minecraft/
             cp icon.png .minecraft/
-            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}-mmc.zip mmc-pack.json instance.cfg .minecraft/
+            zip -r artifacts/${{ env.NAME }}-${{ env.JAVA8_MMC }}.zip mmc-pack.json instance.cfg .minecraft/
             mv serverfiles/* ./
             rm -vf .minecraft/mods/!Red-Core-*
             rm -vf .minecraft/mods/Alfheim-*
-            rm -vf .minecraft/mods/Valkyrie-*
             rm -vf .minecraft/mods/CraftPresence-*
             rm -vf .minecraft/mods/Controlling-*
             rm -vf .minecraft/mods/UniLib-*
@@ -113,13 +104,12 @@ jobs:
             rm -vf .minecraft/mods/InGameInfoXML-*
             rm -vf .minecraft/mods/oauth-*
             rm -vf .minecraft/mods/UntranslatedItems-*
-            rm -vf .minecraft/mods/vintagefix-*
             mv -vf .minecraft/* ./
-            zip -r artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}-server.zip docker-compose.yml PleaseRead.txt log4j2_112-116.xml Install.* ServerStart.* settings.* TmuxServer.sh bansoukou/ config/ local/ mods/ resources/ scripts/
+            zip -r artifacts/${{ env.NAME }}-${{ env.JAVA8_SERVER }}.zip docker-compose.yml PleaseRead.txt log4j2_112-116.xml Install.* ServerStart.* settings.* TmuxServer.sh config/ local/ mods/ resources/ scripts/
           fi
 
       - name: Upload Artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: ${{ matrix.buildType }}-artifacts
           path: artifacts/
@@ -127,18 +117,18 @@ jobs:
 
   release:
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-slim
     permissions:
       contents: write
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
       - name: Download All Artifacts
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v6
         with:
           path: downloads
 
@@ -153,34 +143,34 @@ jobs:
 
       - name: Check or create tag
         run: |
-          if git rev-parse --verify --quiet "${{ env.VERSION_NORMAL }}"; then
+          if git rev-parse --verify --quiet "${{ env.JAVA8_CF }}"; then
             echo "Tag exists."
           else
             git config --local user.name "github-actions"
             git config --local user.email "actions@github.com"
-            git tag ${{ env.VERSION_NORMAL }}
-            git push origin ${{ env.VERSION_NORMAL }}
+            git tag ${{ env.JAVA8_CF }}
+            git push origin ${{ env.JAVA8_CF }}
           fi
 
       - name: Create or update GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ env.VERSION_NORMAL }}
-          name: "Modpack ${{ env.VERSION_NORMAL }}"
+          tag_name: "v${{ github.event.inputs.version }}-${{ github.event.inputs.release_type }}"
+          name: "v${{ github.event.inputs.version }}-${{ github.event.inputs.release_type }}"
           body: |
-            ## GregTech Expert 2 - ${{ env.VERSION_NORMAL }}
+            ## GregTech Expert 2 - {{ github.event.inputs.version }}
 
             This preview includes:
-            - **Standard** (CurseForge / MultiMC / PrismLauncher / Server)
-            - **LWJGL3** (MultiMC / PrismLauncher only)
+            - **Java 8** (CurseForge / MultiMC / PrismLauncher / Server)
+            - **Java 17-25** (MultiMC / PrismLauncher only)
 
-            See installation guide for LWJGL3 [here](https://github.com/GTModpackTeam/GregTech-Expert-2/blob/main/cmmc/README.md).
+            See installation guide for Java 17-25 [here](https://github.com/GTModpackTeam/GregTech-Expert-2/blob/main/cmmc/).
           prerelease: false
           generate_release_notes: true
           files: |
-            artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}-cf.zip
-            artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}-mmc.zip
-            artifacts/${{ env.NAME }}-${{ env.VERSION_NORMAL }}-server.zip
-            artifacts/${{ env.NAME }}-${{ env.VERSION_LWJGL3 }}-mmc.zip
+            artifacts/${{ env.NAME }}-${{ env.JAVA8_CF }}.zip
+            artifacts/${{ env.NAME }}-${{ env.JAVA8_MMC }}.zip
+            artifacts/${{ env.NAME }}-${{ env.JAVA8_SERVER }}.zip
+            artifacts/${{ env.NAME }}-${{ env.JAVA_OPT }}.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

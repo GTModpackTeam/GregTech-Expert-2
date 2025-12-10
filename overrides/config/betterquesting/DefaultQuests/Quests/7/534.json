@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    536
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "ME液体ターミナルではMEネットワークに液体がどれだけ入っているか確認することが出来る他、バケツで液体をクリックすることで液体をネットワークから取り出すこともできます。\n\nMEネットワークの液体残量をモニターしたいのなら\nターミナルではなくME液体ストレージモニターを使った方が効果的かもしれません。\nストレージモニターを設置して液体入りのバケツで右クリックすると監視したい液体を設定できます。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 520,
+        "id:8": "appliedenergistics2:part"
+      },
+      "name:8": "カラフルGUI"
+    }
+  },
+  "questID:3": 534,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 520,
+          "id:8": "appliedenergistics2:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

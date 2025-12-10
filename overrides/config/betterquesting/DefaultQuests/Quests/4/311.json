@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    309
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "バッファーはアイテムや液体を一時的に貯蔵しておくために使用します。\n主な使い方としては液体とアイテムの両方を搬出する機械の搬出スロットを疑似的に拡張したり、自動化を行う際に機械にアイテムを搬入する前の緩衝地帯を作ったりすることができます。\n\nバッファーには自動搬出機能がありません。\n\n具体的な使用機会はまだ先になるでしょう。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1510,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "荷詰まり回避"
+    }
+  },
+  "questID:3": 311,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1510,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

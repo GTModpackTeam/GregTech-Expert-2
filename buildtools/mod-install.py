@@ -33,19 +33,19 @@ def main(key):
         with open(mod_json["data"]["fileName"], "wb") as f:
             shutil.copyfileobj(mod_file.raw, f)
 
-            # ./overrides/mods/
+            # ../overrides/mods/
             if mod_json["data"]["fileName"].endswith(".jar"):
                 if key["required"]:
-                    shutil.move(mod_json["data"]["fileName"], "./overrides/mods/")
+                    shutil.move(mod_json["data"]["fileName"], "../overrides/mods/")
                 else:
-                    os.rename(mod_json["data"]["fileName"], "./overrides/mods/{}".format(mod_json["data"]["fileName"].replace(".jar", ".jar.disabled")))
+                    os.rename(mod_json["data"]["fileName"], "../overrides/mods/{}".format(mod_json["data"]["fileName"].replace(".jar", ".jar.disabled")))
 
-            # ./overrides/resourcepacks/
+            # ../overrides/resourcepacks/
             elif mod_json["data"]["fileName"].endswith(".zip"):
                 if key["required"]:
-                    shutil.move(mod_json["data"]["fileName"], "./overrides/resourcepacks/")
+                    shutil.move(mod_json["data"]["fileName"], "../overrides/resourcepacks/")
                 else:
-                    os.rename(mod_json["data"]["fileName"], "./overrides/resourcepacks/{}".format(mod_json["data"]["fileName"].replace(".zip", ".zip.disabled")))
+                    os.rename(mod_json["data"]["fileName"], "../overrides/resourcepacks/{}".format(mod_json["data"]["fileName"].replace(".zip", ".zip.disabled")))
 
             print("Downloaded {}".format(mod_json["data"]["fileName"]))
     else:
@@ -54,7 +54,7 @@ def main(key):
 
 
 ## Import List
-manifest_json = json.load(open("./manifest.json"))
+manifest_json = json.load(open("../manifest.json"))
 
 ## Access CF and save file if request succeeds
 for key in manifest_json["files"]:

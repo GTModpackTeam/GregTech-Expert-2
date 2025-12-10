@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    8
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "レジスタで大量に使用することになる紙を集めましょう。\n紙は本またはサトウキビをすりつぶして麺棒で伸ばすことで製作することができます。\n近場に村がなければサトウキビ畑を広げていきましょう。\n\n\n余談その1\nGTCEuの原型となったGregicalityでは紙に水バケツを用いて製作するレシピがあったが、手間が非常にかかるのが不評だったのか現在ではなくなっている。\n\n余談その2\nこのModPackにはかつて本から直接紙を作るレシピがあったがGregTech FoodOptionによって変更された",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:paper"
+      },
+      "name:8": "本好き"
+    }
+  },
+  "questID:3": 34,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "minecraft:paper"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

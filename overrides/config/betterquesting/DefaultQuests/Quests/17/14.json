@@ -1,0 +1,22 @@
+{
+  "preRequisites:11": [
+    43
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Shiftキーと一括破壊キーを押しながらスクロールすることでFTB Ultimineの採掘モードを変えることができます。\n3*3を破壊するモードや直線を掘りぬくモードなど色々あるので使いこなせると便利です",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:diamond_pickaxe"
+      },
+      "name:8": "MineAllSMPもどき"
+    }
+  },
+  "questID:3": 14,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

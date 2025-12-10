@@ -1,0 +1,72 @@
+{
+  "preRequisiteTypes:7": [
+    0,
+    1
+  ],
+  "preRequisites:11": [
+    458,
+    113
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "この機械はMobドロップを自動収集する機械で、基本的には電動スポナーとセットで利用します。\n作成物にはエンダーパール、ブレイズロッド、そしてネザースターまであり、トラップタワーを作成する手間を省いてくれます。\n\n§mまた利便性で精神的に§c§m束縛の呪い§r§mが自動付与されるとか...怖いですね。§r\n",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 11010,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Mobドロップ加工場",
+      "questlogic:8": "OR"
+    }
+  },
+  "questID:3": 17,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 11010,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 11011,
+          "id:8": "gregtech:machine"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 11012,
+          "id:8": "gregtech:machine"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 11013,
+          "id:8": "gregtech:machine"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 11014,
+          "id:8": "gregtech:machine"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 11015,
+          "id:8": "gregtech:machine"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 11016,
+          "id:8": "gregtech:machine"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "Damage:2": 11017,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

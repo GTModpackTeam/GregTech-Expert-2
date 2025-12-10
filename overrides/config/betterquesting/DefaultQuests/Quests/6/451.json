@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    474
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "HV化学反応器は応用化学反応器として沢山のレシピを解禁します。\n\n沢山の材料がHV時代に解放されますが、まだ全てを使う訳ではありません。\n全てがHVで必要となるとHV時代の密度が圧倒的に濃くなってしまいます。\nEVのタブに行ってこれから何を使うのか見てみるのもいいでしょう。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 217,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "けみ☆りあ☆うー"
+    }
+  },
+  "questID:3": 451,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 217,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

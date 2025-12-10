@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    269
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "高圧ソーラーボイラーは日光で蒸気を生産します。\n実はこれがノーコストで動くことを利用して、32台程置くことでMV時代までの電力需要に応えられてしまいます。\n進捗にもある通り明らかに強力なので、使用するかは個人の好みとなります。\n\n液体燃料用高圧ボイラーはクレオソートや溶岩で蒸気を生産します。\nコークス炉で余ったクレオソートをゴミ箱に捨てている方に朗報です。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "惑星ソラリス"
+    }
+  },
+  "questID:3": 276,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

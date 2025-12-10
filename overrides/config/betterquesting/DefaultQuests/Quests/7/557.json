@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    538,
+    561,
+    560,
+    558
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "無線アルティメットターミナルは色んなターミナルの合体版です。シフトを押しながらマウスホイールで、どのターミナルを利用するか選択できます。\n\n\n余談その1\n元々は各種ワイヤレスターミナルを追加するMod同士を全て合体することが作成できたアイテムだった。\nただAE2UEL v0.56.7にて利用可能な新しいModが登場したため、GTExpert-Core v2.5.xの対応によって切り替えが決まった。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "ae2wut:wireless_universal_terminal",
+        "tag:10": {}
+      },
+      "name:8": "緑レンジャー(リーダー)"
+    }
+  },
+  "questID:3": 557,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ae2wut:wireless_universal_terminal",
+          "tag:10": {}
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

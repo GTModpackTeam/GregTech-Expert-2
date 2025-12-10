@@ -1,0 +1,56 @@
+{
+  "preRequisites:11": [
+    405
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "このリストにはMV時代に必要な中間素材が一覧で表示されています。\n延々と中間素材を作り続ける苦痛を和らげるためには自動クラフトもしくは一括クラフトをしましょう。\n特にモーターはアルミの供給ができるようになったらすぐ64個作るといいでしょう。\n\nMVではエミッターが要求されるようになりました。\n素材である傷のないエメラルドは現状では選別機でしか獲得することができません。\n\nコンベヤー、ポンプとロボットアームはカバーとして使った時はLVの上位互換として機能します。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 128,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "MV作り置きの会"
+    }
+  },
+  "questID:3": 407,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 128,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 173,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 143,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 158,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 188,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 218,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

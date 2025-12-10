@@ -1,0 +1,37 @@
+{
+  "preRequisites:11": [
+    558
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "無線パターンターミナルはパターンターミナルのワイヤレス版です。\n\n\n余談その1\nWireless Fluid Pattern TerminalはAE2 Fluid Crafting Reworkで新たに追加されたツールです。\n\n余談その2\n今まで液体版はあったが、アイテム版の無線パターンターミナルは存在していなかった。\nただAE2UEL v0.56.7にて純正品がようやく登場することとなった。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:wireless_pattern_terminal",
+        "tag:10": {}
+      },
+      "name:8": "橙レンジャー"
+    }
+  },
+  "questID:3": 538,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:wireless_pattern_terminal",
+          "tag:10": {}
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "ae2fc:wireless_fluid_pattern_terminal",
+          "tag:10": {}
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

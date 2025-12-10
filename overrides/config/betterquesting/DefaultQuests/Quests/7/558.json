@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    556
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "ワイヤレス液体ターミナルは液体ターミナルのワイヤレス版です。\n\n\n余談その1\n元々は各種ワイヤレスターミナルを追加するModで対応していたがAE2UEL v0.56.7にて純正品が登場した。\nただGTE2では長らく技術的な問題でAE2UEL v0.56.5から上げられない状態だったがGTEExpert-Core v2.5.xでようやく対応された。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:wireless_fluid_terminal",
+        "tag:10": {}
+      },
+      "name:8": "青レンジャー",
+      "tasklogic:8": "OR"
+    }
+  },
+  "questID:3": 558,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:wireless_fluid_terminal",
+          "tag:10": {}
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "preRequisites:11": [
+    366
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "パワーユニットは電力を消費するツールの素材です。\n\nパワーユニットを作ることで電動レンチ、スクリュードライバー、チェーンソーなどの各種便利ツールが作れるようになります。\nレンチとスクリュードライバーは電動でないものと同じ機能を持ち、チェーンソーは一括伐採できる斧です。\n\n注意点として、LVドリルの作製は推奨されません。\nLVドリルはMV以降のものと違って一ブロックしか掘れないので、ダイヤなどの採掘ハンマーに性能が劣ります。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 446,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "グリップ式エンジン"
+    }
+  },
+  "questID:3": 303,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 446,
+          "id:8": "gregtech:meta_item_1",
+          "tag:10": {
+            "MaxCharge:4": 80000
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 446,
+          "id:8": "gregtech:meta_item_1",
+          "tag:10": {
+            "MaxCharge:4": 100000
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 446,
+          "id:8": "gregtech:meta_item_1",
+          "tag:10": {
+            "MaxCharge:4": 80000
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

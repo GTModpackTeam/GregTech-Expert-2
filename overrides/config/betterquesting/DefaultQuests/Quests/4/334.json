@@ -1,0 +1,22 @@
+{
+  "preRequisites:11": [
+    312
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "LVでできることが多すぎて困ったら、一つ先の電圧に進むためには何が必要かを考えてみましょう。\nMVに進むためにはアルミが必要で、アルミを作るためには電気高炉を作るためにはコイルを作るためには...\nLVの機械はMVに進むためだけに存在すると捉えてもらって構いません。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "opencomputers:waypoint"
+      },
+      "name:8": "何からするべきか迷った人へ"
+    }
+  },
+  "questID:3": 334,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

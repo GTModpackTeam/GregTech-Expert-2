@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    727
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1217,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "核融合炉で16、EBFで1(か2)、合金高炉も1(か2)、LCRが何台あったっけ…"
+    }
+  },
+  "questID:3": 737,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1217,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

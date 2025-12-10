@@ -1,0 +1,88 @@
+{
+  "preRequisites:11": [
+    102,
+    257
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "インバーは鉄とニッケルから精錬できる合金です\n\n§mこの合金をツールの材料にした時鉄ツールの2倍の耐久値を発揮するので、スチールがまだ入手できない時の代用品として使うことができます。§r\nアプデで1.5倍にまでナーフされました。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "gregtech:mining_hammer",
+        "tag:10": {
+          "DisallowContainerItem:1": 0,
+          "GT.Behaviours:10": {
+            "AoEColumn:3": 1,
+            "AoELayer:3": 0,
+            "AoERow:3": 1,
+            "MaxAoEColumn:3": 1,
+            "MaxAoELayer:3": 0,
+            "MaxAoERow:3": 1,
+            "TorchPlacing:1": 1
+          },
+          "GT.Tool:10": {
+            "AttackDamage:5": 4.5,
+            "AttackSpeed:5": -3.2,
+            "Durability:3": 0,
+            "HarvestLevel:3": 2,
+            "Material:8": "invar",
+            "MaxDurability:3": 384,
+            "ToolSpeed:5": 5.6
+          },
+          "HideFlags:3": 2,
+          "ench:9": {
+            "0:10": {
+              "id:3": 32,
+              "lvl:2": 1
+            }
+          }
+        }
+      },
+      "name:8": "ヴァー",
+      "tasklogic:8": "OR"
+    }
+  },
+  "questID:3": 279,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "OreDict:8": "toolMiningHammer",
+          "id:8": "gregtech:mining_hammer",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {
+              "AoEColumn:3": 1,
+              "AoELayer:3": 0,
+              "AoERow:3": 1,
+              "MaxAoEColumn:3": 1,
+              "MaxAoELayer:3": 0,
+              "MaxAoERow:3": 1,
+              "TorchPlacing:1": 1
+            },
+            "GT.Tool:10": {
+              "AttackDamage:5": 4.5,
+              "AttackSpeed:5": -3.2,
+              "Durability:3": 0,
+              "HarvestLevel:3": 2,
+              "Material:8": "invar",
+              "MaxDurability:3": 1151,
+              "ToolSpeed:5": 5.6
+            },
+            "HideFlags:3": 2,
+            "ench:9": {
+              "0:10": {
+                "id:3": 32,
+                "lvl:2": 1
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

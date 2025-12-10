@@ -1,0 +1,170 @@
+{
+  "preRequisites:11": [
+    43
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "最序盤の要である火打石を集めましょう。\nJEIには鉄製のツールしか掲載されていなくて困惑するかもしれませんが、実際は色んな材料でツールを作ることができます。\n勿論、明記されていない限り任意の材料で作ったツールでクエストを達成することができます。\n\n火打石は砂利を一括破壊することで高速に集められますが、砂利ブロックを三つ並べても入手が可能です。\n火打石で作業台やかまどをクラフトすれば暮らしも快適になります。\n最初の燃料は木炭が使えないので木材(あれば石炭)がおすすめです。\n\nかまどは沢山作りましょう。\n高価そうに見えますが、錬鉄に限らず金属系の精錬で待つ必要がなくなります。\n\n火打石をより多く手に入れたい時はすり鉢を作りましょう。\n砂利をすりつぶすことにより直接火打石を得られるようになります。\n\n火打石を素材にminecraft定番のツールを作ることができます。\nバニラで存在したツールは全て耐久値が1にされているので、序盤はこれを使うしかありません。\nしかし一括破壊があるので斧とシャベルは作らなくてもいいかもしれません。\n\n\n余談その1\n火打石の斧には一括破壊機能があるがFTB Ultimineのおかげで腐っている\n\n余談その2\n本来のGTCEuでは作業台などはバニラと同じレシピで作れるが、このModPackはGT:NHと同じレシピになるコンフィグを起動している",
+      "icon:10": {
+        "Count:3": 16,
+        "id:8": "minecraft:flint"
+      },
+      "name:8": "森羅万象かちかち山"
+    }
+  },
+  "questID:3": 4,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "minecraft:flint"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:crafting_table"
+        },
+        "2:10": {
+          "Count:3": 8,
+          "id:8": "minecraft:furnace"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "OreDict:8": "chestWood",
+          "id:8": "minecraft:chest"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:mortar",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {},
+            "GT.Tool:10": {
+              "AttackDamage:5": 0.0,
+              "AttackSpeed:5": -2.4,
+              "Durability:3": 0,
+              "HarvestLevel:3": 1,
+              "Material:8": "flint",
+              "MaxDurability:3": 63
+            },
+            "HideFlags:3": 2
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "entryLogic:8": "OR",
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:sword",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {},
+            "GT.Tool:10": {
+              "AttackDamage:5": 4.0,
+              "AttackSpeed:5": -2.4,
+              "Durability:3": 0,
+              "Material:8": "flint",
+              "MaxDurability:3": 63
+            },
+            "HideFlags:3": 2,
+            "ench:9": {
+              "0:10": {
+                "id:3": 20,
+                "lvl:2": 2
+              }
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:pickaxe",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {
+              "TorchPlacing:1": 1
+            },
+            "GT.Tool:10": {
+              "AttackDamage:5": 2.0,
+              "AttackSpeed:5": -2.8,
+              "Durability:3": 0,
+              "HarvestLevel:3": 1,
+              "Material:8": "flint",
+              "MaxDurability:3": 63,
+              "ToolSpeed:5": 4.0
+            },
+            "HideFlags:3": 2
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:shovel",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {},
+            "GT.Tool:10": {
+              "AttackDamage:5": 2.5,
+              "AttackSpeed:5": -3.0,
+              "Durability:3": 0,
+              "HarvestLevel:3": 1,
+              "Material:8": "flint",
+              "MaxDurability:3": 63,
+              "ToolSpeed:5": 4.0
+            },
+            "HideFlags:3": 2
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:axe",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {
+              "DisableShields:1": 1,
+              "TreeFelling:1": 1
+            },
+            "GT.Tool:10": {
+              "AttackDamage:5": 6.0,
+              "AttackSpeed:5": -3.2,
+              "Durability:3": 0,
+              "HarvestLevel:3": 1,
+              "Material:8": "flint",
+              "MaxDurability:3": 63,
+              "ToolSpeed:5": 2.0
+            },
+            "HideFlags:3": 2
+          }
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:hoe",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {},
+            "GT.Tool:10": {
+              "AttackDamage:5": 0.0,
+              "AttackSpeed:5": -1.0,
+              "Durability:3": 0,
+              "Material:8": "flint",
+              "MaxDurability:3": 63
+            },
+            "HideFlags:3": 2
+          }
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

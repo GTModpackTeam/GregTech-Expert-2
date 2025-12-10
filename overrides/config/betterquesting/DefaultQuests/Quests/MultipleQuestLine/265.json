@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    272
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "鋼鉄は高圧蒸気時代と電気時代に入るためのキーアイテムです。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 324,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "Refined Iron Ingot"
+    }
+  },
+  "questID:3": 265,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 324,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
