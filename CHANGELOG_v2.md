@@ -1,4 +1,4 @@
-# 2.7.13
+# 2.8.0
 ## Modpack migration
 - CoreMod fixes issues with NAE2.
     1. Delete the `bansoukou` folder.
@@ -58,6 +58,12 @@
 ## Fix recipes
 ### AE2 Fluid Crafting Rework
 - Wireless Fluid Interface Terminal
+
+* * *
+
+# 2.7.13
+## Modpack information
+- Many Quests have been fixed.
 
 * * *
 
