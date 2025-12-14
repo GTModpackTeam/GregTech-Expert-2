@@ -158,7 +158,7 @@ jobs:
           tag_name: "v${{ github.event.inputs.version }}-${{ github.event.inputs.release_type }}"
           name: "v${{ github.event.inputs.version }}-${{ github.event.inputs.release_type }}"
           body: |
-            ## GregTech Expert 2 - {{ github.event.inputs.version }}
+            ## GregTech Expert 2 - ${{ github.event.inputs.version }}
 
             This preview includes:
             - **Java 8** (CurseForge / MultiMC / PrismLauncher / Server)
