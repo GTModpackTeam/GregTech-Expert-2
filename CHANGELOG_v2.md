@@ -9,6 +9,15 @@
 - Many Quests have been fixed.
 - Fix quests related to NBT tags.
 
+## New recipes
+### AE2 Unofficial Extended Life
+- Wireless Interface Terminal
+- Wireless Universal Terminal
+
+## Fix recipes
+### AE2 Fluid Crafting Rework
+- Wireless Fluid Interface Terminal
+
 ## Update recipes
 ### AE2 Sutff Unofficial
 - Wireless Connector
@@ -61,15 +70,6 @@
 - PackagedAuto (1.0.19.66 -> 1.0.23.73)
 - UniLib (1.1.1 -> 1.2.0)
 - Universal Tweaks (1.14.0 -> 1.17.0)
-
-## New recipes
-### AE2 Unofficial Extended Life
-- Wireless Interface Terminal
-- Wireless Universal Terminal
-
-## Fix recipes
-### AE2 Fluid Crafting Rework
-- Wireless Fluid Interface Terminal
 
 * * *
 
