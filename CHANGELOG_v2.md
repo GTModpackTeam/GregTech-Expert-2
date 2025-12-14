@@ -9,6 +9,16 @@
 - Many Quests have been fixed.
 - Fix quests related to NBT tags.
 
+## Update recipes
+### AE2 Sutff Unofficial
+- Wireless Connector
+- Wireless Connector Hub
+
+### Flux Networks
+- Flux Controller
+- Flux Plug
+- Flux Point
+
 ## Disable mods
 - Advanced Backups
 - Flare (Spark for 1.12.2)
@@ -24,10 +34,11 @@
 - VintageFix (0.6.2)
 
 ## New mods
-- AE2UEL Wireless Universal Terminal (1.2.6)
+- AE2UEL Wireless Universal Terminal (1.2.7)
 - Key Binding Patch (1.3.3.3)
-- VintageDisplay (1.5)
+- RandomComplement (1.8.2)
 - SussyPatches (1.9.2)
+- VintageDisplay (1.5)
 
 ## Update mods
 - AE2 Unofficial Extended Life (0.56.5 -> 0.56.7)
@@ -39,7 +50,7 @@
 - EZStorage 2 Patch (1.4.1 -> 1.5.0)
 - Fixeroo (2.3.6b -> 2.3.6)
 - Forgelin-Continuous (2.2.0.0 -> 2.2.21.0)
-- GTConsolidate (1.0.7.7 -> 1.1.0.4.1)
+- GTConsolidate (1.0.7.7 -> 1.1.1)
 - GTExpertCore (2.4.11 -> 2.5.4)
 - Inventory Bogo Sorter (1.4.8 -> 1.5.0)
 - JEI Utilities (0.2.11 -> 0.2.13)
@@ -47,7 +58,7 @@
 - Hot or Not GTCEu (1.2.0 -> 1.3.0)
 - MixinBooter (9.4 -> 10.7)
 - ModularUI (2.4.3 -> 3.0.5)
-- PackagedAuto (1.0.19.66 -> 1.0.23.72)
+- PackagedAuto (1.0.19.66 -> 1.0.23.73)
 - UniLib (1.1.1 -> 1.2.0)
 - Universal Tweaks (1.14.0 -> 1.17.0)
 

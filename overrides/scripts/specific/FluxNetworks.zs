@@ -40,8 +40,8 @@ assembler.recipeBuilder()
         <appliedenergistics2:smooth_sky_stone_block>
     ])
     .outputs([<fluxnetworks:fluxplug>])
-    .duration(2000)
-    .EUt(1920)
+    .duration(200)
+    .EUt(30720)
     .buildAndRegister();
 
 # Flux Point
@@ -55,8 +55,8 @@ assembler.recipeBuilder()
         <appliedenergistics2:smooth_sky_stone_block>
     ])
     .outputs([<fluxnetworks:fluxpoint>])
-    .duration(2000)
-    .EUt(1920)
+    .duration(200)
+    .EUt(30720)
     .buildAndRegister();
 
 # Flux Controller
@@ -71,8 +71,8 @@ assembler.recipeBuilder()
         <appliedenergistics2:smooth_sky_stone_block>
     ])
     .outputs([<fluxnetworks:fluxcontroller>])
-    .duration(2000)
-    .EUt(1920)
+    .duration(200)
+    .EUt(30720)
     .buildAndRegister();
 
 # Flux Storage
