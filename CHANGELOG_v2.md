@@ -1,3 +1,14 @@
+# v2.8.1
+## Move mods
+- Baubles-LTS -> BubblesEX (1.6.3)
+- The One Probe > The One Probe Community Edition (1.3.6)
+- TOP Addons -> TopAllDependents (1.4)
+
+## New mods
+- Gregic Probe: CEu (1.4.4)
+
+* * *
+
 # 2.8.0
 ## Modpack migration
 - CoreMod fixes issues with NAE2.
@@ -34,8 +45,8 @@
 
 ## Move mods
 - AppleSkin -> LemonSkin (3.0.2)
-- NetherPortalFix -> Universal Tweaks
-- Ender Storage continuation (2.6.3) -> EnderStorage Continuation2 (2.7.0)
+- NetherPortalFix -> Universal Tweaks (1.17.0)
+- Ender Storage continuation -> EnderStorage Continuation2 (2.7.0)
 
 ## Remove mods
 - Bansoukou (4.3.1)
