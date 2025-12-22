@@ -1,11 +1,15 @@
 # v2.8.1
 ## Move mods
-- Baubles-LTS -> BubblesEX (1.6.3)
-- The One Probe > The One Probe Community Edition (1.3.6)
+- AE2 Fluid Crafting Rework -> AE2FluidCraft-Rework-Unofficial (2.7.7)
+- The One Probe -> The One Probe Community Edition (1.3.6)
 - TOP Addons -> TopAllDependents (1.4)
 
 ## New mods
 - Gregic Probe: CEu (1.4.4)
+
+## Update mods
+- Had Enough Items (4.29.12 -> 4.29.14)
+- RandomComplement (1.8.2 -> 1.8.7)
 
 * * *
 
