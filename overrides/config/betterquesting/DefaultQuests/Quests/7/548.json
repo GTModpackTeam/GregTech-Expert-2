@@ -21,35 +21,6 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 600,
-          "id:8": "appliedenergistics2:crystal_seed",
-          "tag:10": {
-            "progress:3": 600
-          }
-        },
-        "1:10": {
-          "Count:3": 1,
-          "id:8": "appliedenergistics2:crystal_seed",
-          "tag:10": {
-            "progress:3": 0
-          }
-        },
-        "2:10": {
-          "Count:3": 1,
-          "Damage:2": 1200,
-          "id:8": "appliedenergistics2:crystal_seed",
-          "tag:10": {
-            "progress:3": 1200
-          }
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "1:10": {
-      "index:3": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 1,
           "Damage:2": 11,
           "id:8": "appliedenergistics2:material"
         },
