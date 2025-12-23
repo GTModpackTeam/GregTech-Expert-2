@@ -8,8 +8,11 @@
 - Gregic Probe: CEu (1.4.4)
 
 ## Update mods
+- AE2UEL Wireless Universal Terminal (1.2.7 -> 1.2.8)
+- GTConsolidate (1.1.1 -> 1.1.1.1)
+- GTExpertCore (2.5.4 -> 2.5.6)
 - Had Enough Items (4.29.12 -> 4.29.14)
-- RandomComplement (1.8.2 -> 1.8.7)
+- RandomComplement (1.8.2 -> 1.8.8)
 
 * * *
 
