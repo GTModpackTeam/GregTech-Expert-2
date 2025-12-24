@@ -1,0 +1,35 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "熱いまたは冷たい物を持つ場合、追加されたアイテムをオフハンドに装備するとダメージを抑えることが出来ます。\nまた注意として軽い気体を持つ場合、体が浮かび上がるので注意が必要です。詳しくはツールチップを確認してください。\n\n種類としては三つありますが違いは耐久値の違いだけで、その中で鉄製トングは耐久値無限となります。\n\n木製トング: 100\nミトン: 1000\n\n後半ではNanoMuscle™スーツやQuarkTech™スーツを着ることでダメージをカットできます。\n\n\n余談その1\nGTE2 v2.7.12にて追加された新要素で、これはGTNHにもある仕様である。\nなおマイナバージョンアップで導入したため、困惑するユーザが多発した。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hotornot:mitts"
+      },
+      "name:8": "手は頑丈ではない"
+    }
+  },
+  "questID:3": 293824100,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hotornot:mitts"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "hotornot:wooden_tongs"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "hotornot:iron_tongs"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
