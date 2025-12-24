@@ -11,17 +11,6 @@
     1. PR Version: `GTExpert2-<base_version>-Pre-<pr_version>_Java_17-25.zip`
 3. Open the [Prism Launcher](https://prismlauncher.org/) or [MultiMC](https://multimc.org/) and create a new instance
 4. Import the downloaded zip file into the Prism Launcher/MultiMC instance
-5. Get the mods you need from the list below
-6. Put the downloaded mods in the `mods` folder of the instance
-7. Set version to [Azul Zulu Builds of OpenJDK(Java 17-25)](https://www.azul.com/downloads/?version=java-25-lts&package=jre#zulu)
-8. Resolve any mod conflicts that may occur
-9. Run the instance and enjoy the game!
-
-
-## Self download mods
-- [Fugue](https://www.curseforge.com/minecraft/mc-mods/fugue) by CleanroomMC
-- [Scalar Legacy](https://www.curseforge.com/minecraft/mc-mods/scalar-legacy) by kappa_maintainer
-
-## Optional mods
-- [Vintagium](https://github.com/takureepers/vintagium-unofficial/releases/tag/stable)
-    - Please re-configure the graphics settings.
+5. Set version to [Azul Zulu Builds of OpenJDK(Java 17-25)](https://www.azul.com/downloads/?version=java-25-lts&package=jre#zulu)
+6. Resolve any mod conflicts that may occur
+7. Run the instance and enjoy the game!

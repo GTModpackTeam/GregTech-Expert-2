@@ -52,7 +52,7 @@ jobs:
       - name: Set Modpack Version
         run: |
           if [[ "${{ matrix.buildType }}" == "lwjgl3" ]]; then
-            VER="${{ env.VERSION_LWJGL3 }}"
+            VER="${{ env.JAVA_OPT }}"
             echo "[CleanroomMMC] GregTech Expert 2 $VER" > overrides/config/txloader/load/custommainmenu/version.txt
           else
             VER="${{ env.JAVA8_CF }}"

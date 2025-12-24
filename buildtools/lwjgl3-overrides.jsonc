@@ -1,0 +1,44 @@
+{
+  // Mods to remove for LWJGL3 build (projectID)
+  "remove": [
+    419286, // MixinBooter
+    870276, // ConfigAnytime
+    873867, // Red Core
+    910715, // Alfheim Lighting Engine
+    624967, // RenderLib
+    409087, // Entity Culling
+    408853  // Particle Culling
+  ],
+
+  // Mods to add for LWJGL3 build
+  "add": [
+    { // Fugue
+      "projectID": 1005815,
+      "fileID": 7355882,
+      "required": true
+    }, 
+    { // Scalar Legacy
+      "projectID": 1235372,
+      "fileID": 6842491,
+      "required": true
+    }
+  ],
+
+  // Mods to replace with LWJGL3 compatible versions
+  "replace": [
+    { // CodeChicken Lib -> CodeChicken Lib CRE
+      "projectID": 242818,
+      "with": {
+        "projectID": 1328922,
+        "fileID": 6898525
+      }
+    },
+    { // ModernSplash -> ModernSplash LWJGL3 version
+      "projectID": 629058,
+      "with": {
+        "projectID": 629058,
+        "fileID": 6501489
+      }
+    }
+  ]
+}

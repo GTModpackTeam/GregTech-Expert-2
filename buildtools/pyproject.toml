@@ -1,9 +1,10 @@
 [project]
 name = "gte2-buildtools"
-version = "1.0.0"
+version = "1.1.0"
 description = "Build tools for GTE2 Modpack"
-requires-python = ">=3.12"
+requires-python = ">=3.14"
 dependencies = [
+    "json5>=0.12.1",
     "requests>=2.32.5",
 ]
 

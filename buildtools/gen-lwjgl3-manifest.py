@@ -1,28 +1,47 @@
 #!/usr/bin/env python3
-# Remove lwjgl3 not supported mods
+# Generate LWJGL3 compatible manifest.json
 
-## Import library
 import json
+import json5
 
 
-## Run main function
-projectIDs = [
-    419286, # MixinBooter
-    870276, # ConfigAnytime
-    873867, # Red Core
-    910715, # Alfheim Lighting Engine
-    624967, # RenderLib
-    409087, # Entity Culling
-    408853, # Particle Culling
-]
+def main():
+    # Read overrides configuration
+    with open('lwjgl3-overrides.jsonc', 'r', encoding='utf-8') as f:
+        overrides = json5.load(f)
 
-# Read manifest.json
-with open('../manifest.json', 'r') as f:
-    data = json.load(f)
+    remove_ids = set(overrides.get('remove', []))
+    add_mods = overrides.get('add', [])
+    replace_mods = {mod['projectID']: mod['with'] for mod in overrides.get('replace', [])}
 
-# Remove lwjgl3 not supported mods
-data['files'] = [item for item in data['files'] if item['projectID'] not in projectIDs]
+    # Read manifest.json
+    with open('../manifest.json', 'r', encoding='utf-8') as f:
+        data = json.load(f)
 
-# Write manifest.json
-with open('../cmmc/manifest.json', 'w') as f:
-    json.dump(data, f, indent=2)
+    # Remove mods
+    data['files'] = [item for item in data['files'] if item['projectID'] not in remove_ids]
+
+    # Replace mods (update projectID and/or fileID)
+    for item in data['files']:
+        if item['projectID'] in replace_mods:
+            replacement = replace_mods[item['projectID']]
+            item['projectID'] = replacement['projectID']
+            item['fileID'] = replacement['fileID']
+            if 'required' in replacement:
+                item['required'] = replacement['required']
+
+    # Add mods
+    for mod in add_mods:
+        data['files'].append({
+            'projectID': mod['projectID'],
+            'fileID': mod['fileID'],
+            'required': mod.get('required', True)
+        })
+
+    # Write manifest.json
+    with open('../cmmc/manifest.json', 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=2)
+
+
+if __name__ == '__main__':
+    main()
