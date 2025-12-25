@@ -1,6 +1,6 @@
 # v2.8.1
 ## Move mods
-- AE2 Fluid Crafting Rework -> AE2FluidCraft-Rework-Unofficial (2.7.7)
+- AE2 Fluid Crafting Rework -> AE2FluidCraft-Rework-Unofficial (2.7.8)
 - The One Probe -> The One Probe Community Edition (1.3.6)
 - TOP Addons -> TopAllDependents (1.4)
 
