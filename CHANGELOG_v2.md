@@ -5,11 +5,11 @@
 - TOP Addons -> TopAllDependents (1.4)
 
 ## New mods
-- Gregic Probe: CEu (1.4.4)
+- Gregic Probe: CEu (1.4.5)
 
 ## Update mods
 - AE2UEL Wireless Universal Terminal (1.2.7 -> 1.2.8)
-- GTConsolidate (1.1.1 -> 1.1.1.1)
+- GTConsolidate (1.1.1 -> 1.1.1.2)
 - GTExpertCore (2.5.4 -> 2.5.6)
 - Had Enough Items (4.29.12 -> 4.29.14)
 - RandomComplement (1.8.2 -> 1.8.8)
