@@ -8,13 +8,13 @@
     "formatVersion": 1,
     "libraries": [
         {
-            "name": "com.cleanroommc:cleanroom:0.3.31-alpha",
+            "name": "com.cleanroommc:cleanroom:0.3.33-alpha",
             "downloads": {
                 "artifact": {
-                    "path": "com/cleanroommc/cleanroom/0.3.31-alpha/cleanroom-0.3.31-alpha.jar",
-                    "url": "https://repo.cleanroommc.com/releases/com/cleanroommc/cleanroom/0.3.31-alpha/cleanroom-0.3.31-alpha-universal.jar",
-                    "sha1": "96e3dc71ab7173008c6fccb21e177e076f78f213",
-                    "size": 4381391
+                    "path": "com/cleanroommc/cleanroom/0.3.33-alpha/cleanroom-0.3.33-alpha.jar",
+                    "url": "https://repo.cleanroommc.com/releases/com/cleanroommc/cleanroom/0.3.33-alpha/cleanroom-0.3.33-alpha-universal.jar",
+                    "sha1": "71973b070f9cdd4da2ac3a6e7b277b93796bc482",
+                    "size": 4381489
                 }
             }
         },
@@ -426,13 +426,13 @@
             }
         },
         {
-            "name": "org.apache.httpcomponents.client5:httpclient5:5.5.1",
+            "name": "org.apache.httpcomponents.client5:httpclient5:5.6",
             "downloads": {
                 "artifact": {
-                    "path": "org/apache/httpcomponents/client5/httpclient5/5.5.1/httpclient5-5.5.1.jar",
-                    "url": "https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.5.1/httpclient5-5.5.1.jar",
-                    "sha1": "89ab9084b94afb7893a54f4d09b07c25246af5a7",
-                    "size": 959302
+                    "path": "org/apache/httpcomponents/client5/httpclient5/5.6/httpclient5-5.6.jar",
+                    "url": "https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.6/httpclient5-5.6.jar",
+                    "sha1": "f502ee00ba82d44a6a29bda06a18f5b959808e09",
+                    "size": 1050450
                 }
             }
         },
@@ -788,5 +788,5 @@
         }
     ],
     "uid": "net.minecraftforge",
-    "version": "0.3.31-alpha"
+    "version": "0.3.33-alpha"
 }
