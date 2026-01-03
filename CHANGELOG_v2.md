@@ -1,6 +1,6 @@
 # v2.8.1
 ## Move mods
-- AE2 Fluid Crafting Rework -> AE2FluidCraft-Rework-Unofficial (2.7.8)
+- AE2 Fluid Crafting Rework -> AE2FluidCraft-Rework-Unofficial (2.7.9)
 - The One Probe -> The One Probe Community Edition (1.3.6)
 - TOP Addons -> TopAllDependents (1.4)
 
@@ -9,10 +9,13 @@
 
 ## Update mods
 - AE2UEL Wireless Universal Terminal (1.2.7 -> 1.2.8)
+- Forgelin-Continuous (2.2.21.0 -> 2.3.0.0)
 - GTConsolidate (1.1.1 -> 1.1.1.2)
 - GTExpertCore (2.5.4 -> 2.5.6)
 - Had Enough Items (4.29.12 -> 4.29.14)
 - RandomComplement (1.8.2 -> 1.8.8)
+- LemonSkin (3.0.2 -> 3.1.0)
+- Universal Tweaks (1.17.0 -> 1.18.0)
 
 * * *
 
