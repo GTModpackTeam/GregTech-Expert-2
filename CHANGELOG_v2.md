@@ -11,10 +11,12 @@
 - AE2UEL Wireless Universal Terminal (1.2.7 -> 1.2.8)
 - Forgelin-Continuous (2.2.21.0 -> 2.3.0.0)
 - GTConsolidate (1.1.1 -> 1.1.1.2)
-- GTExpertCore (2.5.4 -> 2.5.6)
+- GTExpertCore (2.5.4 -> 2.6.2)
 - Had Enough Items (4.29.12 -> 4.29.14)
+- Inventory Bogo Sorter (1.5.0 -> 1.6.1)
 - RandomComplement (1.8.2 -> 1.8.8)
 - LemonSkin (3.0.2 -> 3.1.0)
+- ModularUI (3.0.5 -> 3.0.7)
 - Universal Tweaks (1.17.0 -> 1.18.0)
 
 * * *
