@@ -9,6 +9,7 @@
 
 ## Update mods
 - AE2UEL Wireless Universal Terminal (1.2.7 -> 1.2.8)
+- Better Questing Unofficial (4.2.6 -> 4.2.7)
 - Forgelin-Continuous (2.2.21.0 -> 2.3.0.0)
 - GTConsolidate (1.1.1 -> 1.1.1.2)
 - GTExpertCore (2.5.4 -> 2.6.2)
