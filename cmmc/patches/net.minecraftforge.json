@@ -8,13 +8,13 @@
     "formatVersion": 1,
     "libraries": [
         {
-            "name": "com.cleanroommc:cleanroom:0.3.33-alpha",
+            "name": "com.cleanroommc:cleanroom:0.3.35-alpha",
             "downloads": {
                 "artifact": {
-                    "path": "com/cleanroommc/cleanroom/0.3.33-alpha/cleanroom-0.3.33-alpha.jar",
-                    "url": "https://repo.cleanroommc.com/releases/com/cleanroommc/cleanroom/0.3.33-alpha/cleanroom-0.3.33-alpha-universal.jar",
-                    "sha1": "71973b070f9cdd4da2ac3a6e7b277b93796bc482",
-                    "size": 4381489
+                    "path": "com/cleanroommc/cleanroom/0.3.35-alpha/cleanroom-0.3.35-alpha.jar",
+                    "url": "https://repo.cleanroommc.com/releases/com/cleanroommc/cleanroom/0.3.35-alpha/cleanroom-0.3.35-alpha-universal.jar",
+                    "sha1": "eca43bde830a5da30bab77ac1042935f25b4d300",
+                    "size": 4382099
                 }
             }
         },
@@ -96,13 +96,13 @@
             }
         },
         {
-            "name": "top.outlands:foundation:0.18.3",
+            "name": "top.outlands:foundation:0.18.4",
             "downloads": {
                 "artifact": {
-                    "path": "top/outlands/foundation/0.18.3/foundation-0.18.3.jar",
-                    "url": "https://repo.cleanroommc.com/releases/top/outlands/foundation/0.18.3/foundation-0.18.3.jar",
-                    "sha1": "9250189439abae96b29437ae0aa3a563f6d0a334",
-                    "size": 56075
+                    "path": "top/outlands/foundation/0.18.4/foundation-0.18.4.jar",
+                    "url": "https://repo.cleanroommc.com/releases/top/outlands/foundation/0.18.4/foundation-0.18.4.jar",
+                    "sha1": "13f605d851a730035b922f97d62f09a48244f04f",
+                    "size": 56094
                 }
             }
         },
@@ -140,13 +140,13 @@
             }
         },
         {
-            "name": "com.ibm.icu:icu4j:78.1",
+            "name": "com.ibm.icu:icu4j:78.2",
             "downloads": {
                 "artifact": {
-                    "path": "com/ibm/icu/icu4j/78.1/icu4j-78.1.jar",
-                    "url": "https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/78.1/icu4j-78.1.jar",
-                    "sha1": "07ac48a1b21b444015ea31c390f19d5cb1c2599e",
-                    "size": 15155186
+                    "path": "com/ibm/icu/icu4j/78.2/icu4j-78.2.jar",
+                    "url": "https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/78.2/icu4j-78.2.jar",
+                    "sha1": "31b9d9a35d283432d0ce1a8b6e2631dcfd046ab8",
+                    "size": 15155096
                 }
             }
         },
@@ -272,13 +272,13 @@
             }
         },
         {
-            "name": "com.github.oshi:oshi-core:6.9.1",
+            "name": "com.github.oshi:oshi-core:6.9.2",
             "downloads": {
                 "artifact": {
-                    "path": "com/github/oshi/oshi-core/6.9.1/oshi-core-6.9.1.jar",
-                    "url": "https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.9.1/oshi-core-6.9.1.jar",
-                    "sha1": "e2f8ef0610ad300151b12bd50404f67ad75f6047",
-                    "size": 1022562
+                    "path": "com/github/oshi/oshi-core/6.9.2/oshi-core-6.9.2.jar",
+                    "url": "https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.9.2/oshi-core-6.9.2.jar",
+                    "sha1": "8dca0e90fe3998fadf07a38a56b9a461d718729a",
+                    "size": 1029705
                 }
             }
         },
@@ -767,13 +767,13 @@
             }
         },
         {
-            "name": "io.github.llamalad7:mixinextras-common:0.5.0",
+            "name": "io.github.llamalad7:mixinextras-common:0.5.3",
             "downloads": {
                 "artifact": {
-                    "path": "io/github/llamalad7/mixinextras-common/0.5.0/mixinextras-common-0.5.0.jar",
-                    "url": "https://repo.maven.apache.org/maven2/io/github/llamalad7/mixinextras-common/0.5.0/mixinextras-common-0.5.0.jar",
-                    "sha1": "286da96036621082491d971dfc62bee8fc37d161",
-                    "size": 721334
+                    "path": "io/github/llamalad7/mixinextras-common/0.5.3/mixinextras-common-0.5.3.jar",
+                    "url": "https://repo.maven.apache.org/maven2/io/github/llamalad7/mixinextras-common/0.5.3/mixinextras-common-0.5.3.jar",
+                    "sha1": "13ad40ee435e671fec18e3f0d6afec8c874b08b5",
+                    "size": 724302
                 }
             }
         }
@@ -788,5 +788,5 @@
         }
     ],
     "uid": "net.minecraftforge",
-    "version": "0.3.33-alpha"
+    "version": "0.3.35-alpha"
 }
