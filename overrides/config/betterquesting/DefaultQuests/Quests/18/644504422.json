@@ -1,0 +1,47 @@
+{
+  "preRequisiteTypes:7": [
+    0,
+    1
+  ],
+  "preRequisites:11": [
+    619,
+    1759778029
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "複数の機械が必要だった鉱石処理に革命がおこりました。鉱石処理ファクトリーは粉砕から遠心分離まで様々な処理を一括で行う大型機械です。ルートは回路番号で指定できます。\nGCYMの立場を守るため、工業用のみ並列処理に対応しています。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 21522,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "鉱石処理革命",
+      "tasklogic:8": "OR"
+    }
+  },
+  "questID:3": 644504422,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 21522,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 21523,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

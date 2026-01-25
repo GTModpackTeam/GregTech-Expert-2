@@ -1,0 +1,60 @@
+{
+  "preRequisiteTypes:7": [
+    0,
+    1
+  ],
+  "preRequisites:11": [
+    272,
+    1759778029
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "初歩的な溶鉱炉の許可版です。スチール製マシン外装の部分は2-64ブロックまでの任意の高さにできます。高コストですが、高さに応じて速度と並列処理数にボーナスがかかります。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 21520,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "PBFスパム対策"
+    }
+  },
+  "questID:3": 1589746135,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 21520,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1652,
+          "id:8": "gregtech:machine"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1651,
+          "id:8": "gregtech:machine"
+        },
+        "3:10": {
+          "Count:3": 14,
+          "Damage:2": 3,
+          "id:8": "gregtech:steam_casing"
+        },
+        "4:10": {
+          "Count:3": 2,
+          "Damage:2": 4,
+          "id:8": "gregtech:metal_casing"
+        },
+        "5:10": {
+          "Count:3": 72,
+          "Damage:2": 1,
+          "id:8": "gregtech:metal_casing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "preRequisiteTypes:7": [
+    1
+  ],
+  "preRequisites:11": [
+    1759778029
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "ここで登場するマルチブロックタンクは特殊なタンクで、容量20億 Lのタンクを複数有したタンクです。全ての内部タンクに同じ液体を保管することもできますし、異なる液体を保管することもできます。\nスチール製のマルチブロックタンクとは異なり、タンクバルブでのみ液体をやり取りできます。\n\nタンクバルブについて\n§8スチール製タンクバルブ: §r全ての内部タンクとやり取りできます。このバルブを介して液体を搬入した場合、空いているタンクから順番に搬入されます。\n§8発展型タンクバルブ:§r 特定の番号の内部タンクとのみやり取りできます。\n§8四重タンクバルブ:§r 4個までの特定の番号の内部タンクとのみやり取りできます。\n§8九重タンクバルブ:§r 9個までの特定の番号の内部タンクとのみやり取りできます。\n\n§6注意§r\nTierに応じて内部タンク数が増大していきます。内部タンク数が非常に多い場合、構築後、スチール製タンクバルブに視線を合わせた場合、描画に大きな負荷がかかる場合があります。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 21533,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "内部は絶対歪んでいるよね"
+    }
+  },
+  "questID:3": 813071322,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 21524,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 21525,
+          "id:8": "gregtech:machine"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 21526,
+          "id:8": "gregtech:machine"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 21527,
+          "id:8": "gregtech:machine"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 21528,
+          "id:8": "gregtech:machine"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 21529,
+          "id:8": "gregtech:machine"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 21530,
+          "id:8": "gregtech:machine"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "Damage:2": 21531,
+          "id:8": "gregtech:machine"
+        },
+        "8:10": {
+          "Count:3": 1,
+          "Damage:2": 21532,
+          "id:8": "gregtech:machine"
+        },
+        "9:10": {
+          "Count:3": 1,
+          "Damage:2": 21533,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

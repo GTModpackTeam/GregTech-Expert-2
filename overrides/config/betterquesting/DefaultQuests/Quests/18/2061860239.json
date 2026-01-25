@@ -1,0 +1,37 @@
+{
+  "preRequisiteTypes:7": [
+    0,
+    1,
+    1
+  ],
+  "preRequisites:11": [
+    619,
+    487662987,
+    1759778029
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "絶対冷凍機は一括真空冷却機をさらに強化した機械です。構造中に液体ヘリウムを組み込んだため、冷却に液体ヘリウムが不要になりました。\n動かし続けることで温度が下がり、性能が向上します。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 21515,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "追いつかないからヤケクソだっ"
+    }
+  },
+  "questID:3": 2061860239,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 21515,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

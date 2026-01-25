@@ -9,7 +9,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "アセンブリラインが並列化されました。ただし、利用可能なエナジーハッチに制限があります。\n通常のアセンブリラインと異なり、全ての搬入バスが利用可能です。おすすめはフィルター付き搬入バスです。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 21507,
@@ -22,6 +22,21 @@
   "questID:3": 490571771,
   "tasks:9": {
     "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gtconsolidate:parallelized_assembly_line_casing"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "gtconsolidate:parallelized_assembly_line_casing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
       "entryLogic:8": "OR",
       "index:3": 1,
       "requiredItems:9": {
