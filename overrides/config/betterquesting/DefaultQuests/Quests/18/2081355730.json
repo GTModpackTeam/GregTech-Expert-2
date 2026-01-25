@@ -1,0 +1,35 @@
+{
+  "preRequisiteTypes:7": [
+    1,
+    1
+  ],
+  "preRequisites:11": [
+    124,
+    1759778029
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "GTFOの温室が並列処理に対応しました。内部に組み込んだLEDのおかげで、いつでもどこでも動作するようになりました。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 21510,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "24管営業"
+    }
+  },
+  "questID:3": 2081355730,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 21510,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
