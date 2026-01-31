@@ -1,0 +1,33 @@
+{
+  "preRequisiteTypes:7": [
+    1
+  ],
+  "preRequisites:11": [
+    383
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "並列処理対応版の製材機。ただそれだけ。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 21513,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "もとから対応しててくれないかな"
+    }
+  },
+  "questID:3": 608741385,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 21513,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

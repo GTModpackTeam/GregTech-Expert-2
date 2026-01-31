@@ -1,27 +1,24 @@
 {
   "preRequisiteTypes:7": [
     0,
-    0,
     1
   ],
   "preRequisites:11": [
-    342,
-    689,
+    708,
     1759778029
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "回転式炉床炉が高コストすぎるので、EBFのプチ強化版が追加されました。ただし、メンテナンスの自動化が出来ず、また、利用可能なエナジーハッチに制限があります。\nコイルは2-5層までの任意であり、層数に応じて並列処理数が決定されます。",
+      "desc:8": "プロセッシングアレイが強化されました。技術の発達により、内部にいれた機械の数以上に仮想実行できるようになりました。",
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 21503,
+        "Damage:2": 21517,
         "id:8": "gregtech:machine"
       },
-      "name:8": "取り回し最高",
-      "questlogic:8": "OR"
+      "name:8": "要る...?"
     }
   },
-  "questID:3": 1347342153,
+  "questID:3": 1742862283,
   "tasks:9": {
     "0:10": {
       "entryLogic:8": "OR",
@@ -29,12 +26,17 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 21503,
+          "Damage:2": 21517,
           "id:8": "gregtech:machine"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 21504,
+          "Damage:2": 21518,
+          "id:8": "gregtech:machine"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 21519,
           "id:8": "gregtech:machine"
         }
       },
