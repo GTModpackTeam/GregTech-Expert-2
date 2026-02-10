@@ -4,10 +4,22 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "チゼルを使うことでブロックの模様を変えることができます。\n\nこのmodによって新たな建築用ブロックも追加されています。\n大規模な工場を作る時にはFactory BlockやLaboratory Blockが有用です。",
+      "desc:8": "チゼルを使うことでブロックの模様を変えることができます。\n\nこのmodによって新たな建築用ブロックも追加されています。\n大規模な工場を作る時にはFactory BlockやLaboratory Blockが有用です。\n\n\n余談その1\nGTMoreToolsにより各素材を用いたChiselが作成できるようになりました。",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "chisel:chisel_iron"
+        "id:8": "gtmt:chisel",
+        "tag:10": {
+          "DisallowContainerItem:1": 0,
+          "GT.Behaviours:10": {},
+          "GT.Tool:10": {
+            "AttackDamage:5": 0.0,
+            "AttackSpeed:5": -1.0,
+            "Durability:3": 0,
+            "Material:8": "gregtech:iron",
+            "MaxDurability:3": 255
+          },
+          "HideFlags:3": 2
+        }
       },
       "name:8": "壊れた時の演出が心臓に悪い"
     }
@@ -20,8 +32,20 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "OreDict:8": "craftChisel",
-          "id:8": "chisel:chisel_iron"
+          "OreDict:8": "toolChisel",
+          "id:8": "gtmt:chisel",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {},
+            "GT.Tool:10": {
+              "AttackDamage:5": 0.0,
+              "AttackSpeed:5": -1.0,
+              "Durability:3": 0,
+              "Material:8": "gregtech:iron",
+              "MaxDurability:3": 255
+            },
+            "HideFlags:3": 2
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"

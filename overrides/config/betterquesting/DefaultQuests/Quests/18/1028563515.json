@@ -1,0 +1,34 @@
+{
+  "preRequisiteTypes:7": [
+    1
+  ],
+  "preRequisites:11": [
+    113
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "VOMの液体版となる機械です。\n意外にも消費電力は小さいですがTierの高いハッチを利用すれば加速させることも出来ます。\n\n\n余談その1\n実装当時は採掘効率が悪く、若干力不足もあったが倍近くまで強化された。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 12009,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "エンダー事業者液体部門",
+      "questlogic:8": "OR"
+    }
+  },
+  "questID:3": 1028563515,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 12009,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

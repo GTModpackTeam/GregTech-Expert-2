@@ -3,11 +3,11 @@
     1
   ],
   "preRequisites:11": [
-    113
+    1557128208
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "この機械はChiselの自動加工をGregのエネルギーで動かせるようにしたものです。",
+      "desc:8": "この機械はChiselの自動加工をGregのエネルギーで動かせるようにしたものです。\n\n\n余談その1\n元々はGTExpert Coreにて導入されていたがChiselのGTツール版を作った経緯でModごと分離になった。\nまたHVまでしかなかった機械もUVまでに増えたが、クラフト速度としてはIVで頭打ちになる。電源を揃えて邪魔になったら更新しよう。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 11001,
@@ -36,6 +36,31 @@
         "2:10": {
           "Count:3": 1,
           "Damage:2": 11003,
+          "id:8": "gregtech:machine"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 11004,
+          "id:8": "gregtech:machine"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 11005,
+          "id:8": "gregtech:machine"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 11006,
+          "id:8": "gregtech:machine"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 11007,
+          "id:8": "gregtech:machine"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "Damage:2": 11008,
           "id:8": "gregtech:machine"
         }
       },
