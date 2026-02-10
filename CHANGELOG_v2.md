@@ -6,18 +6,20 @@
 
 ## New mods
 - Gregic Probe: CEu (1.4.5)
+- GTMoreTools (1.1.1)
 
 ## Update mods
 - AE2UEL Wireless Universal Terminal (1.2.7 -> 1.2.8)
 - Better Questing Unofficial (4.2.6 -> 4.2.7)
 - Forgelin-Continuous (2.2.21.0 -> 2.3.0.0)
-- GTConsolidate (1.1.1 -> 1.1.1.2)
-- GTExpertCore (2.5.4 -> 2.6.4)
+- GTConsolidate (1.1.1 -> 1.1.3)
+- GTExpertCore (2.5.4 -> 2.7.0)
 - GregTech Food Option (1.12.7.1 -> 1.12.8)
-- Had Enough Items (4.29.12 -> 4.29.14)
+- Had Enough Items (4.29.12 -> 4.29.15)
 - Inventory Bogo Sorter (1.5.0 -> 1.6.1)
 - RandomComplement (1.8.2 -> 1.8.9)
 - Red Core (0.7 Dev 1 -> 0.7.1)
+- Roughly Enough IDs (2.2.3 -> 2.2.4)
 - LemonSkin (3.0.2 -> 3.1.0)
 - ModularUI (3.0.5 -> 3.0.8)
 - Universal Tweaks (1.17.0 -> 1.18.0)

@@ -8,13 +8,13 @@
     "formatVersion": 1,
     "libraries": [
         {
-            "name": "com.cleanroommc:cleanroom:0.3.35-alpha",
+            "name": "com.cleanroommc:cleanroom:0.4.2-alpha",
             "downloads": {
                 "artifact": {
-                    "path": "com/cleanroommc/cleanroom/0.3.35-alpha/cleanroom-0.3.35-alpha.jar",
-                    "url": "https://repo.cleanroommc.com/releases/com/cleanroommc/cleanroom/0.3.35-alpha/cleanroom-0.3.35-alpha-universal.jar",
-                    "sha1": "eca43bde830a5da30bab77ac1042935f25b4d300",
-                    "size": 4382099
+                    "path": "com/cleanroommc/cleanroom/0.4.2-alpha/cleanroom-0.4.2-alpha.jar",
+                    "url": "https://repo.cleanroommc.com/releases/com/cleanroommc/cleanroom/0.4.2-alpha/cleanroom-0.4.2-alpha-universal.jar",
+                    "sha1": "4dde8894d5301ba887d0a52968b4bf8922832f15",
+                    "size": 5342908
                 }
             }
         },
@@ -107,13 +107,13 @@
             }
         },
         {
-            "name": "net.lenni0451:Reflect:1.6.1",
+            "name": "net.lenni0451:Reflect:1.6.2",
             "downloads": {
                 "artifact": {
-                    "path": "net/lenni0451/Reflect/1.6.1/Reflect-1.6.1.jar",
-                    "url": "https://repo.maven.apache.org/maven2/net/lenni0451/Reflect/1.6.1/Reflect-1.6.1.jar",
-                    "sha1": "44cdbfa618693d2e2e50b9f8b5fa22b13bd699a2",
-                    "size": 217196
+                    "path": "net/lenni0451/Reflect/1.6.2/Reflect-1.6.2.jar",
+                    "url": "https://repo.maven.apache.org/maven2/net/lenni0451/Reflect/1.6.2/Reflect-1.6.2.jar",
+                    "sha1": "0b6668a7f840bb7544c362b4bb4cb00b0e4e8024",
+                    "size": 217714
                 }
             }
         },
@@ -228,17 +228,6 @@
             }
         },
         {
-            "name": "org.apache.maven:maven-artifact:3.9.12",
-            "downloads": {
-                "artifact": {
-                    "path": "org/apache/maven/maven-artifact/3.9.12/maven-artifact-3.9.12.jar",
-                    "url": "https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.9.12/maven-artifact-3.9.12.jar",
-                    "sha1": "39acdd4ad6b74b1c001ae7c0858482a11d0ead59",
-                    "size": 58821
-                }
-            }
-        },
-        {
             "name": "net.sf.jopt-simple:jopt-simple:5.0.4",
             "downloads": {
                 "artifact": {
@@ -246,28 +235,6 @@
                     "url": "https://repo.maven.apache.org/maven2/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar",
                     "sha1": "4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c",
                     "size": 78146
-                }
-            }
-        },
-        {
-            "name": "org.apache.commons:commons-lang3:3.20.0",
-            "downloads": {
-                "artifact": {
-                    "path": "org/apache/commons/commons-lang3/3.20.0/commons-lang3-3.20.0.jar",
-                    "url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.20.0/commons-lang3-3.20.0.jar",
-                    "sha1": "65897b3e5731220962e659e001904af3c3cbeba9",
-                    "size": 713862
-                }
-            }
-        },
-        {
-            "name": "org.apache.commons:commons-compress:1.28.0",
-            "downloads": {
-                "artifact": {
-                    "path": "org/apache/commons/commons-compress/1.28.0/commons-compress-1.28.0.jar",
-                    "url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.28.0/commons-compress-1.28.0.jar",
-                    "sha1": "e482f2c7a88dac3c497e96aa420b6a769f59c8d7",
-                    "size": 1117221
                 }
             }
         },
@@ -316,6 +283,61 @@
             }
         },
         {
+            "name": "com.google.guava:guava:33.5.0-jre",
+            "downloads": {
+                "artifact": {
+                    "path": "com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar",
+                    "url": "https://repo.maven.apache.org/maven2/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar",
+                    "sha1": "8699de25f2f979108d6c1b804a7ba38cda1116bc",
+                    "size": 3017283
+                }
+            }
+        },
+        {
+            "name": "com.google.guava:failureaccess:1.0.2",
+            "downloads": {
+                "artifact": {
+                    "path": "com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar",
+                    "url": "https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar",
+                    "sha1": "c4a06a64e650562f30b7bf9aaec1bfed43aca12b",
+                    "size": 4740
+                }
+            }
+        },
+        {
+            "name": "com.google.code.gson:gson:2.13.2",
+            "downloads": {
+                "artifact": {
+                    "path": "com/google/code/gson/gson/2.13.2/gson-2.13.2.jar",
+                    "url": "https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.13.2/gson-2.13.2.jar",
+                    "sha1": "48b8230771e573b54ce6e867a9001e75977fe78e",
+                    "size": 289901
+                }
+            }
+        },
+        {
+            "name": "org.apache.commons:commons-lang3:3.20.0",
+            "downloads": {
+                "artifact": {
+                    "path": "org/apache/commons/commons-lang3/3.20.0/commons-lang3-3.20.0.jar",
+                    "url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.20.0/commons-lang3-3.20.0.jar",
+                    "sha1": "65897b3e5731220962e659e001904af3c3cbeba9",
+                    "size": 713862
+                }
+            }
+        },
+        {
+            "name": "org.apache.commons:commons-compress:1.28.0",
+            "downloads": {
+                "artifact": {
+                    "path": "org/apache/commons/commons-compress/1.28.0/commons-compress-1.28.0.jar",
+                    "url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.28.0/commons-compress-1.28.0.jar",
+                    "sha1": "e482f2c7a88dac3c497e96aa420b6a769f59c8d7",
+                    "size": 1117221
+                }
+            }
+        },
+        {
             "name": "commons-codec:commons-codec:1.20.0",
             "downloads": {
                 "artifact": {
@@ -349,35 +371,13 @@
             }
         },
         {
-            "name": "com.google.guava:guava:33.5.0-jre",
+            "name": "org.apache.maven:maven-artifact:3.9.12",
             "downloads": {
                 "artifact": {
-                    "path": "com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar",
-                    "url": "https://repo.maven.apache.org/maven2/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar",
-                    "sha1": "8699de25f2f979108d6c1b804a7ba38cda1116bc",
-                    "size": 3017283
-                }
-            }
-        },
-        {
-            "name": "com.google.guava:failureaccess:1.0.2",
-            "downloads": {
-                "artifact": {
-                    "path": "com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar",
-                    "url": "https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar",
-                    "sha1": "c4a06a64e650562f30b7bf9aaec1bfed43aca12b",
-                    "size": 4740
-                }
-            }
-        },
-        {
-            "name": "com.google.code.gson:gson:2.13.2",
-            "downloads": {
-                "artifact": {
-                    "path": "com/google/code/gson/gson/2.13.2/gson-2.13.2.jar",
-                    "url": "https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.13.2/gson-2.13.2.jar",
-                    "sha1": "48b8230771e573b54ce6e867a9001e75977fe78e",
-                    "size": 289901
+                    "path": "org/apache/maven/maven-artifact/3.9.12/maven-artifact-3.9.12.jar",
+                    "url": "https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.9.12/maven-artifact-3.9.12.jar",
+                    "sha1": "39acdd4ad6b74b1c001ae7c0858482a11d0ead59",
+                    "size": 58821
                 }
             }
         },
@@ -613,6 +613,61 @@
             }
         },
         {
+            "name": "jakarta.xml.ws:jakarta.xml.ws-api:4.0.2",
+            "downloads": {
+                "artifact": {
+                    "path": "jakarta/xml/ws/jakarta.xml.ws-api/4.0.2/jakarta.xml.ws-api-4.0.2.jar",
+                    "url": "https://repo.maven.apache.org/maven2/jakarta/xml/ws/jakarta.xml.ws-api/4.0.2/jakarta.xml.ws-api-4.0.2.jar",
+                    "sha1": "331ecab874ee75b48db661a331319958cb04edec",
+                    "size": 77621
+                }
+            }
+        },
+        {
+            "name": "jakarta.activation:jakarta.activation-api:2.1.4",
+            "downloads": {
+                "artifact": {
+                    "path": "jakarta/activation/jakarta.activation-api/2.1.4/jakarta.activation-api-2.1.4.jar",
+                    "url": "https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/2.1.4/jakarta.activation-api-2.1.4.jar",
+                    "sha1": "9e5c2a0d75dde71a0bedc4dbdbe47b78a5dc50f8",
+                    "size": 67380
+                }
+            }
+        },
+        {
+            "name": "jakarta.annotation:jakarta.annotation-api:3.0.0",
+            "downloads": {
+                "artifact": {
+                    "path": "jakarta/annotation/jakarta.annotation-api/3.0.0/jakarta.annotation-api-3.0.0.jar",
+                    "url": "https://repo.maven.apache.org/maven2/jakarta/annotation/jakarta.annotation-api/3.0.0/jakarta.annotation-api-3.0.0.jar",
+                    "sha1": "54f928fadec906a99d558536756d171917b9d936",
+                    "size": 26378
+                }
+            }
+        },
+        {
+            "name": "jakarta.xml.bind:jakarta.xml.bind-api:4.0.4",
+            "downloads": {
+                "artifact": {
+                    "path": "jakarta/xml/bind/jakarta.xml.bind-api/4.0.4/jakarta.xml.bind-api-4.0.4.jar",
+                    "url": "https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.4/jakarta.xml.bind-api-4.0.4.jar",
+                    "sha1": "d6d2327f3817d9a33a3b6b8f2e15a96bc2e7afdc",
+                    "size": 131188
+                }
+            }
+        },
+        {
+            "name": "jakarta.inject:jakarta.inject-api:2.0.1",
+            "downloads": {
+                "artifact": {
+                    "path": "jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar",
+                    "url": "https://repo.maven.apache.org/maven2/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar",
+                    "sha1": "4c28afe1991a941d7702fe1362c365f0a8641d1e",
+                    "size": 10681
+                }
+            }
+        },
+        {
             "name": "org.apache.logging.log4j:log4j-api:2.25.3",
             "downloads": {
                 "artifact": {
@@ -657,28 +712,6 @@
             }
         },
         {
-            "name": "jakarta.annotation:jakarta.annotation-api:3.0.0",
-            "downloads": {
-                "artifact": {
-                    "path": "jakarta/annotation/jakarta.annotation-api/3.0.0/jakarta.annotation-api-3.0.0.jar",
-                    "url": "https://repo.maven.apache.org/maven2/jakarta/annotation/jakarta.annotation-api/3.0.0/jakarta.annotation-api-3.0.0.jar",
-                    "sha1": "54f928fadec906a99d558536756d171917b9d936",
-                    "size": 26378
-                }
-            }
-        },
-        {
-            "name": "jakarta.xml.bind:jakarta.xml.bind-api:4.0.4",
-            "downloads": {
-                "artifact": {
-                    "path": "jakarta/xml/bind/jakarta.xml.bind-api/4.0.4/jakarta.xml.bind-api-4.0.4.jar",
-                    "url": "https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.4/jakarta.xml.bind-api-4.0.4.jar",
-                    "sha1": "d6d2327f3817d9a33a3b6b8f2e15a96bc2e7afdc",
-                    "size": 131188
-                }
-            }
-        },
-        {
             "name": "org.glassfish.jaxb:jaxb-runtime:4.0.6",
             "downloads": {
                 "artifact": {
@@ -712,28 +745,6 @@
             }
         },
         {
-            "name": "jakarta.xml.ws:jakarta.xml.ws-api:4.0.2",
-            "downloads": {
-                "artifact": {
-                    "path": "jakarta/xml/ws/jakarta.xml.ws-api/4.0.2/jakarta.xml.ws-api-4.0.2.jar",
-                    "url": "https://repo.maven.apache.org/maven2/jakarta/xml/ws/jakarta.xml.ws-api/4.0.2/jakarta.xml.ws-api-4.0.2.jar",
-                    "sha1": "331ecab874ee75b48db661a331319958cb04edec",
-                    "size": 77621
-                }
-            }
-        },
-        {
-            "name": "jakarta.activation:jakarta.activation-api:2.1.4",
-            "downloads": {
-                "artifact": {
-                    "path": "jakarta/activation/jakarta.activation-api/2.1.4/jakarta.activation-api-2.1.4.jar",
-                    "url": "https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/2.1.4/jakarta.activation-api-2.1.4.jar",
-                    "sha1": "9e5c2a0d75dde71a0bedc4dbdbe47b78a5dc50f8",
-                    "size": 67380
-                }
-            }
-        },
-        {
             "name": "org.glassfish.corba:glassfish-corba-omgapi:5.0.0",
             "downloads": {
                 "artifact": {
@@ -752,6 +763,28 @@
                     "url": "https://repo.maven.apache.org/maven2/org/openjdk/nashorn/nashorn-core/15.7/nashorn-core-15.7.jar",
                     "sha1": "f959627b97cb21316906d3634fecf4ec04016bcd",
                     "size": 2139093
+                }
+            }
+        },
+        {
+            "name": "org.joml:joml:1.10.8",
+            "downloads": {
+                "artifact": {
+                    "path": "org/joml/joml/1.10.8/joml-1.10.8.jar",
+                    "url": "https://repo.maven.apache.org/maven2/org/joml/joml/1.10.8/joml-1.10.8.jar",
+                    "sha1": "fc0a71dad90a2cf41d82a76156a0e700af8e4f8d",
+                    "size": 778846
+                }
+            }
+        },
+        {
+            "name": "io.github.classgraph:classgraph:4.8.184",
+            "downloads": {
+                "artifact": {
+                    "path": "io/github/classgraph/classgraph/4.8.184/classgraph-4.8.184.jar",
+                    "url": "https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/4.8.184/classgraph-4.8.184.jar",
+                    "sha1": "a4f7ddec0f831dcf7ec3db32ae2c7e628c89f1a6",
+                    "size": 586966
                 }
             }
         },
@@ -788,5 +821,5 @@
         }
     ],
     "uid": "net.minecraftforge",
-    "version": "0.3.35-alpha"
+    "version": "0.4.2-alpha"
 }
