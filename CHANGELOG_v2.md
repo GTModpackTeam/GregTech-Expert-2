@@ -14,7 +14,7 @@
 - Better Questing Unofficial (4.2.6 -> 4.2.7)
 - Forgelin-Continuous (2.2.21.0 -> 2.3.0.0)
 - GTConsolidate (1.1.1 -> 1.1.3)
-- GTExpertCore (2.5.4 -> 2.7.1)
+- GTExpertCore (2.5.4 -> 2.7.2)
 - GregTech Food Option (1.12.7.1 -> 1.12.8)
 - Had Enough Items (4.29.12 -> 4.29.15)
 - Inventory Bogo Sorter (1.5.0 -> 1.6.1)
