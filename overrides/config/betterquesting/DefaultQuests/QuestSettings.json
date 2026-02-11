@@ -1,7 +1,8 @@
 {
   "betterquesting:10": {
     "editmode:1": 0,
-    "pack_name:8": "GregTech Expert 2"
+    "pack_name:8": "GregTech Expert 2",
+    "pack_version:3": BQVERSION
   },
   "format:8": "2.1.0"
 }

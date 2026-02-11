@@ -59,6 +59,8 @@ jobs:
             echo "GregTech Expert 2 $VER" > overrides/config/txloader/load/custommainmenu/version.txt
           fi
           sed -i "s/MODPACKVERSION/$VER/g" manifest.json instance.cfg overrides/config/craftpresence.json
+          BQVER=$(echo "${{ github.event.inputs.version }}" | tr -d '.')
+          sed -i "s/BQVERSION/$BQVER/g" overrides/config/betterquesting/DefaultQuests/QuestSettings.json
 
       - name: Adjust for LWJGL3
         if: matrix.buildType == 'lwjgl3'
