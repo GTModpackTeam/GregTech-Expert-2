@@ -7,6 +7,7 @@
 ## New mods
 - Gregic Probe: CEu (1.4.5)
 - GTMoreTools (1.1.1)
+- Better Builder's Wands (0.13.2)
 
 ## Update mods
 - AE2UEL Wireless Universal Terminal (1.2.7 -> 1.2.8)
@@ -21,7 +22,7 @@
 - Red Core (0.7 Dev 1 -> 0.7.1)
 - Roughly Enough IDs (2.2.3 -> 2.2.4)
 - LemonSkin (3.0.2 -> 3.1.0)
-- ModularUI (3.0.5 -> 3.0.8)
+- ModularUI (3.0.5 -> 3.1.2)
 - Universal Tweaks (1.17.0 -> 1.18.0)
 
 * * *
