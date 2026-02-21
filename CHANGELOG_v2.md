@@ -1,4 +1,7 @@
 # v2.8.2
+## Downgrade mods
+- RandomComplement (1.8.9 -> 1.8.8)
+
 ## Update mods
 - GTConsolidate (1.1.3 -> 1.1.3.3)
 - GTMoreTools (1.1.1 -> 1.1.2)
