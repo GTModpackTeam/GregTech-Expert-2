@@ -8,13 +8,13 @@
     "formatVersion": 1,
     "libraries": [
         {
-            "name": "com.cleanroommc:cleanroom:0.4.2-alpha",
+            "name": "com.cleanroommc:cleanroom:0.4.4-alpha",
             "downloads": {
                 "artifact": {
-                    "path": "com/cleanroommc/cleanroom/0.4.2-alpha/cleanroom-0.4.2-alpha.jar",
-                    "url": "https://repo.cleanroommc.com/releases/com/cleanroommc/cleanroom/0.4.2-alpha/cleanroom-0.4.2-alpha-universal.jar",
-                    "sha1": "4dde8894d5301ba887d0a52968b4bf8922832f15",
-                    "size": 5342908
+                    "path": "com/cleanroommc/cleanroom/0.4.4-alpha/cleanroom-0.4.4-alpha.jar",
+                    "url": "https://repo.cleanroommc.com/releases/com/cleanroommc/cleanroom/0.4.4-alpha/cleanroom-0.4.4-alpha-universal.jar",
+                    "sha1": "5018eedefe6229ae3cb04599109ce01d0931fb8a",
+                    "size": 5344535
                 }
             }
         },
@@ -96,13 +96,13 @@
             }
         },
         {
-            "name": "top.outlands:foundation:0.18.4",
+            "name": "top.outlands:foundation:0.18.5",
             "downloads": {
                 "artifact": {
-                    "path": "top/outlands/foundation/0.18.4/foundation-0.18.4.jar",
-                    "url": "https://repo.cleanroommc.com/releases/top/outlands/foundation/0.18.4/foundation-0.18.4.jar",
-                    "sha1": "13f605d851a730035b922f97d62f09a48244f04f",
-                    "size": 56094
+                    "path": "top/outlands/foundation/0.18.5/foundation-0.18.5.jar",
+                    "url": "https://repo.cleanroommc.com/releases/top/outlands/foundation/0.18.5/foundation-0.18.5.jar",
+                    "sha1": "1eff77a2c661b8a01708a515656eac9200d1b8bf",
+                    "size": 55961
                 }
             }
         },
@@ -821,5 +821,5 @@
         }
     ],
     "uid": "net.minecraftforge",
-    "version": "0.4.2-alpha"
+    "version": "0.4.4-alpha"
 }
