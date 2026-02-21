@@ -1,4 +1,14 @@
 # v2.8.1
+## Update mods
+- GTConsolidate (1.1.3 -> 1.1.3.3)
+- GTMoreTools (1.1.1 -> 1.1.2)
+- Inventory Bogo Sorter (1.6.1 -> 1.6.2)
+- ModularUI (3.1.2 -> 3.1.3)
+- VintageDisplay (1.5 -> 1.6)
+
+* * *
+
+# v2.8.1
 ## Move mods
 - AE2 Fluid Crafting Rework -> AE2FluidCraft-Rework-Unofficial (2.7.9)
 - The One Probe -> The One Probe Community Edition (1.3.6)
