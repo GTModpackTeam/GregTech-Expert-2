@@ -5,6 +5,9 @@
 ## New mods
 - Advanced Backups Patch (1.0.3)
 
+## Enable mods
+- Advanced Backups
+
 ## Update mods
 - CensoredASM (5.30 -> 5.31)
 - GTConsolidate (1.1.3 -> 1.1.3.3)
