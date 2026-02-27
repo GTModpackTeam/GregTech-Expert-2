@@ -39,6 +39,13 @@
         "projectID": 629058,
         "fileID": 6501489
       }
+    },
+    { // Advanced Backups Patch -> Advanced Backups Patch LWJGL3 version
+      "projectID": 1472996,
+      "with": {
+        "projectID": 1472996,
+        "fileID": 7685072
+      }
     }
   ]
 }

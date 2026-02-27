@@ -2,6 +2,9 @@
 ## Downgrade mods
 - RandomComplement (1.8.9 -> 1.8.8)
 
+## New mods
+- Advanced Backups Patch (1.0.3)
+
 ## Update mods
 - CensoredASM (5.30 -> 5.31)
 - GTConsolidate (1.1.3 -> 1.1.3.3)
