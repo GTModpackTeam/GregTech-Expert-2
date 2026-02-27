@@ -3,10 +3,12 @@
 - RandomComplement (1.8.9 -> 1.8.8)
 
 ## Update mods
+- CensoredASM (5.30 -> 5.31)
 - GTConsolidate (1.1.3 -> 1.1.3.3)
 - GTMoreTools (1.1.1 -> 1.1.2)
 - Inventory Bogo Sorter (1.6.1 -> 1.6.2)
 - ModularUI (3.1.2 -> 3.1.3)
+- The One Probe Community Edition (1.3.6 -> 1.3.6-fix1)
 - VintageDisplay (1.5 -> 1.6)
 
 * * *
