@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "ワイヤレス液体ターミナルは液体ターミナルのワイヤレス版です。\n\n\n余談その1\n元々は各種ワイヤレスターミナルを追加するModで対応していたがAE2UEL v0.56.7にて純正品が登場した。\nただGTE2では長らく技術的な問題でAE2UEL v0.56.5から上げられない状態だったがGTEExpert-Core v2.5.xでようやく対応された。",
+      "desc:8": "ワイヤレス流体ターミナルは流体ターミナルのワイヤレス版です。\n\n\n余談その1\n元々は各種ワイヤレスターミナルを追加するModで対応していたがAE2UEL v0.56.7にて純正品が登場した。\nただGTE2では長らく技術的な問題でAE2UEL v0.56.5から上げられない状態だったがGTEExpert-Core v2.5.xでようやく対応された。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "appliedenergistics2:wireless_fluid_terminal",

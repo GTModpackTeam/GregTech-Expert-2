@@ -13,7 +13,7 @@
         "Damage:2": 12005,
         "id:8": "gregtech:machine"
       },
-      "name:8": "液体が熱すぎて心配になるやつ",
+      "name:8": "流体が熱すぎて心配になるやつ",
       "questlogic:8": "OR"
     }
   },

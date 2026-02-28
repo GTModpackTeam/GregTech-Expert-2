@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "無線パターンターミナルはパターンターミナルのワイヤレス版です。\n\n\n余談その1\nWireless Fluid Pattern TerminalはAE2 Fluid Crafting Reworkで新たに追加されたツールです。\n\n余談その2\n今まで液体版はあったが、アイテム版の無線パターンターミナルは存在していなかった。\nただAE2UEL v0.56.7にて純正品がようやく登場することとなった。",
+      "desc:8": "無線パターンターミナルはパターンターミナルのワイヤレス版です。\n\n\n余談その1\nWireless Fluid Pattern TerminalはAE2 Fluid Crafting Reworkで新たに追加されたツールです。\n\n余談その2\n今まで流体版はあったが、アイテム版の無線パターンターミナルは存在していなかった。\nただAE2UEL v0.56.7にて純正品がようやく登場することとなった。",
       "icon:10": {
         "Count:3": 1,
         "id:8": "appliedenergistics2:wireless_pattern_terminal",
