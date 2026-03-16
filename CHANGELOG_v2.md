@@ -11,7 +11,7 @@
 ## Update mods
 - CensoredASM (5.30 -> 5.31)
 - Forgelin-Continuous (2.3.0.0 -> 2.3.10.0)
-- GTConsolidate (1.1.3 -> 1.1.5)
+- GTConsolidate (1.1.3 -> 1.1.3.5)
 - GTExpertCore (2.7.2 -> 2.7.4)
 - GTMoreTools (1.1.1 -> 1.1.2)
 - GregTech Wood Processing (1.2.4 -> 1.2.5)
