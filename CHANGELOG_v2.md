@@ -10,11 +10,16 @@
 
 ## Update mods
 - CensoredASM (5.30 -> 5.31)
-- GTConsolidate (1.1.3 -> 1.1.3.3)
+- Forgelin-Continuous (2.3.0.0 -> 2.3.10.0)
+- GTConsolidate (1.1.3 -> 1.1.5)
+- GTExpertCore (2.7.2 -> 2.7.4)
 - GTMoreTools (1.1.1 -> 1.1.2)
+- GregTech Wood Processing (1.2.4 -> 1.2.5)
+- CraftPresence (2.7.0 -> 2.7.1)
 - Inventory Bogo Sorter (1.6.1 -> 1.6.2)
-- ModularUI (3.1.2 -> 3.1.3)
-- The One Probe Community Edition (1.3.6 -> 1.3.6-fix1)
+- ModularUI (3.1.2 -> 3.1.4)
+- The One Probe Community Edition (1.3.6 -> 1.3.7-fix1)
+- UniLib (1.2.0 -> 1.2.1)
 - VintageDisplay (1.5 -> 1.6)
 
 * * *
