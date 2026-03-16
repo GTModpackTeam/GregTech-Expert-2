@@ -2,7 +2,17 @@
   "General": {
     "enableAutoRefill": false,
     "refillDmgThreshold": 1,
-    "enableHotbarSwap": true
+    "enableHotbarSwap": true,
+    "sortSound": "minecraft:ui.button.click",
+    "buttonColor": "#FFFFFFFF",
+    "buttonEnabled": true,
+    "enableHotbarSorting": false,
+    "lockIconAlign": 0,
+    "lockIconColor": "#FF2196F3",
+    "lockIconX": -1,
+    "lockIconY": -1,
+    "lockIconScale": 0.5,
+    "lockOnlyBlockSorting": false
   },
   "ItemSortRules": [
     {

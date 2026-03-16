@@ -22,23 +22,7 @@
     "fallbackBiomeIcon": "unknown",
     "biomeData": {
       "default": {
-        "textOverride": "Playing in {biome.name}",
-        "data": {
-          "enabled": false,
-          "useAsMain": false,
-          "isInstance": false,
-          "activityType": 0,
-          "partyPrivacy": 1,
-          "details": "",
-          "gameState": "",
-          "largeImageKey": "",
-          "largeImageText": "",
-          "smallImageKey": "",
-          "smallImageText": "",
-          "startTimestamp": "",
-          "endTimestamp": "",
-          "buttons": {}
-        }
+        "textOverride": "Playing in {biome.name}"
       }
     }
   },
@@ -46,23 +30,7 @@
     "fallbackDimensionIcon": "gte_logo",
     "dimensionData": {
       "default": {
-        "textOverride": "In the {dimension.name}",
-        "data": {
-          "enabled": true,
-          "useAsMain": false,
-          "isInstance": false,
-          "activityType": 0,
-          "partyPrivacy": 1,
-          "details": "",
-          "gameState": "",
-          "largeImageKey": "",
-          "largeImageText": "",
-          "smallImageKey": "",
-          "smallImageText": "",
-          "startTimestamp": "",
-          "endTimestamp": "",
-          "buttons": {}
-        }
+        "textOverride": "In the {dimension.name}"
       }
     }
   },
@@ -72,23 +40,7 @@
     "fallbackServerMotd": "GregTech Expert 2 Server",
     "serverData": {
       "default": {
-        "textOverride": "Playing on {server.motd.raw}",
-        "data": {
-          "enabled": true,
-          "useAsMain": false,
-          "isInstance": false,
-          "activityType": 0,
-          "partyPrivacy": 1,
-          "details": "",
-          "gameState": "",
-          "largeImageKey": "",
-          "largeImageText": "",
-          "smallImageKey": "",
-          "smallImageText": "",
-          "startTimestamp": "",
-          "endTimestamp": "",
-          "buttons": {}
-        }
+        "textOverride": "Playing on {server.motd.raw}"
       }
     },
     "pingRateInterval": 5,
@@ -96,80 +48,16 @@
   },
   "statusMessages": {
     "mainMenuData": {
-      "textOverride": "In the Main Menu",
-      "data": {
-        "enabled": true,
-        "useAsMain": false,
-        "isInstance": false,
-        "activityType": 0,
-        "partyPrivacy": 1,
-        "details": "",
-        "gameState": "",
-        "largeImageKey": "",
-        "largeImageText": "",
-        "smallImageKey": "",
-        "smallImageText": "",
-        "startTimestamp": "",
-        "endTimestamp": "",
-        "buttons": {}
-      }
+      "textOverride": "In the Main Menu"
     },
     "loadingData": {
-      "textOverride": "Loading...",
-      "data": {
-        "enabled": true,
-        "useAsMain": false,
-        "isInstance": false,
-        "activityType": 0,
-        "partyPrivacy": 1,
-        "details": "",
-        "gameState": "",
-        "largeImageKey": "",
-        "largeImageText": "",
-        "smallImageKey": "",
-        "smallImageText": "",
-        "startTimestamp": "",
-        "endTimestamp": "",
-        "buttons": {}
-      }
+      "textOverride": "Loading..."
     },
     "lanData": {
-      "textOverride": "Playing on a LAN Server",
-      "data": {
-        "enabled": false,
-        "useAsMain": false,
-        "isInstance": false,
-        "activityType": 0,
-        "partyPrivacy": 1,
-        "details": "",
-        "gameState": "",
-        "largeImageKey": "",
-        "largeImageText": "",
-        "smallImageKey": "",
-        "smallImageText": "",
-        "startTimestamp": "",
-        "endTimestamp": "",
-        "buttons": {}
-      }
+      "textOverride": "Playing on a LAN Server"
     },
     "singleplayerData": {
-      "textOverride": "Playing Singleplayer",
-      "data": {
-        "enabled": true,
-        "useAsMain": false,
-        "isInstance": false,
-        "activityType": 0,
-        "partyPrivacy": 1,
-        "details": "",
-        "gameState": "",
-        "largeImageKey": "",
-        "largeImageText": "",
-        "smallImageKey": "",
-        "smallImageText": "",
-        "startTimestamp": "",
-        "endTimestamp": "",
-        "buttons": {}
-      }
+      "textOverride": "Playing Singleplayer"
     },
     "realmData": {
       "textOverride": "Playing on {server.motd.raw}"
@@ -188,23 +76,7 @@
       "fallbackGuiIcon": "unknown",
       "guiData": {
         "default": {
-          "textOverride": "In {screen.name}",
-          "data": {
-            "enabled": true,
-            "useAsMain": false,
-            "isInstance": false,
-            "activityType": 0,
-            "partyPrivacy": 1,
-            "details": "",
-            "gameState": "",
-            "largeImageKey": "",
-            "largeImageText": "",
-            "smallImageKey": "",
-            "smallImageText": "",
-            "startTimestamp": "",
-            "endTimestamp": "",
-            "buttons": {}
-          }
+          "textOverride": "In {screen.name}"
         }
       }
     },
@@ -215,44 +87,12 @@
       "fallbackEntityIcon": "unknown",
       "targetData": {
         "default": {
-          "textOverride": "Targeting {entity.target.name}",
-          "data": {
-            "enabled": true,
-            "useAsMain": false,
-            "isInstance": false,
-            "activityType": 0,
-            "partyPrivacy": 1,
-            "details": "",
-            "gameState": "",
-            "largeImageKey": "",
-            "largeImageText": "",
-            "smallImageKey": "",
-            "smallImageText": "",
-            "startTimestamp": "",
-            "endTimestamp": "",
-            "buttons": {}
-          }
+          "textOverride": "Targeting {entity.target.name}"
         }
       },
       "ridingData": {
         "default": {
-          "textOverride": "Riding {entity.riding.name}",
-          "data": {
-            "enabled": true,
-            "useAsMain": false,
-            "isInstance": false,
-            "activityType": 0,
-            "partyPrivacy": 1,
-            "details": "",
-            "gameState": "",
-            "largeImageKey": "",
-            "largeImageText": "",
-            "smallImageKey": "",
-            "smallImageText": "",
-            "startTimestamp": "",
-            "endTimestamp": "",
-            "buttons": {}
-          }
+          "textOverride": "Riding {entity.riding.name}"
         }
       }
     },
@@ -268,7 +108,7 @@
     "stripTranslationColors": false,
     "stripTranslationFormatting": false,
     "stripExtraGuiElements": false,
-    "configKeyCode": 0
+    "configKeyCode": 41
   },
   "displaySettings": {
     "presenceData": {
@@ -276,13 +116,19 @@
       "useAsMain": false,
       "isInstance": false,
       "activityType": 0,
+      "statusDisplayType": 0,
       "partyPrivacy": 1,
-      "details": "{getFirst(menu.message)}",
+      "details": "{getFirst(menu.message, dimension.message)}",
+      "detailsUrl": "",
       "gameState": "{getOrDefault(server.message)} {getOrDefault(pack.name)}",
-      "largeImageKey": "{getFirst(menu.icon, general.icon)}",
-      "largeImageText": "Playing {custom.windowTitle}",
-      "smallImageKey": "{custom.tierSlug}",
-      "smallImageText": "Stage: {custom.tierName}",
+      "gameStateUrl": "",
+      "appName": "",
+      "largeImageKey": "{getFirst(menu.icon, dimension.icon)}",
+      "largeImageText": "{getFirst(menu.message, dimension.message)}",
+      "largeImageUrl": "",
+      "smallImageKey": "{getFirst(server.icon, pack.icon)}",
+      "smallImageText": "{getOrDefault(server.message)} {getOrDefault(pack.name)}",
+      "smallImageUrl": "",
       "startTimestamp": "{data.general.time}",
       "endTimestamp": "",
       "buttons": {
@@ -306,9 +152,7 @@
       "player_info_out": "As {player.name}",
       "player_info_health": "Health: {player.health.current}/{player.health.max}",
       "world_info": "On {world.name}",
-      "pack": "GregTech Expert 2 MODPACKVERSION",
-      "windowCreated": "{executeMethod('org.lwjgl.opengl.Display', null, 'isCreated')}",
-      "windowTitle": "{custom.windowCreated ? executeMethod('org.lwjgl.opengl.Display', null, 'getTitle') : ''}"
+      "pack": "GregTech Expert 2 MODPACKVERSION"
     }
   }
 }
