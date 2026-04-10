@@ -14,7 +14,7 @@
   "add": [
     { // Fugue
       "projectID": 1005815,
-      "fileID": 7760656,
+      "fileID": 7853971,
       "required": true
     },
     { // Scalar Legacy
@@ -44,7 +44,7 @@
       "projectID": 1472996,
       "with": {
         "projectID": 1472996,
-        "fileID": 7685072
+        "fileID": 7822954
       }
     }
   ]

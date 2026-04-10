@@ -1,3 +1,20 @@
+# v2.8.3
+## Move mods
+- Baubles-LTS (1.0.6.0) -> BubblesEX (1.6.5)
+- Bring Me The Rings! (0.4) -> BubblesEX (1.6.5)
+
+## Update mods
+- AE2UEL Wireless Universal Terminal (1.2.8 -> 1.2.10)
+- Advanced Backups Patch (1.0.3 -> 1.0.6)
+- Flare (0.7.0 -> 0.8.0)
+- GTExpertCore (2.7.4 -> 2.7.6)
+- Hot or Not GTCEu (1.3.0 -> 1.4.0)
+- ModularUI (3.1.4 -> 3.1.5)
+- Roughly Enough IDs (2.2.4 -> 2.3.0)
+- Universal Tweaks (1.18.0 -> 1.19.1)
+
+* * *
+
 # v2.8.2
 ## Downgrade mods
 - RandomComplement (1.8.9 -> 1.8.8)
