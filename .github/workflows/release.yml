@@ -21,7 +21,7 @@ env:
   JAVA8_CF: "${{ github.event.inputs.version }}-CF_Java_8"
   JAVA8_MMC: "${{ github.event.inputs.version }}-MMC_Java_8"
   JAVA8_SERVER: "${{ github.event.inputs.version }}-Server_Java_8"
-  JAVA_OPT: "${{ github.event.inputs.version }}-MMC_Java_17-25"
+  JAVA_OPT: "${{ github.event.inputs.version }}-MMC_Java_25-26"
 
 jobs:
   build:
@@ -164,9 +164,9 @@ jobs:
 
             This preview includes:
             - **Java 8** (CurseForge / MultiMC / PrismLauncher / Server)
-            - **Java 17-25** (MultiMC / PrismLauncher only)
+            - **Java 25-26** (MultiMC / PrismLauncher only)
 
-            See installation guide for Java 17-25 [here](https://github.com/GTModpackTeam/GregTech-Expert-2/blob/main/cmmc/).
+            See installation guide for Java 25-26 [here](https://github.com/GTModpackTeam/GregTech-Expert-2/blob/main/cmmc/).
           prerelease: false
           generate_release_notes: true
           files: |
