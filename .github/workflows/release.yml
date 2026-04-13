@@ -193,5 +193,6 @@ jobs:
             artifacts/${{ env.NAME }}-${{ env.JAVA8_MMC }}.zip
             artifacts/${{ env.NAME }}-${{ env.JAVA8_SERVER }}.zip
             artifacts/${{ env.NAME }}-${{ env.JAVA_OPT }}.zip
+            artifacts/${{ env.NAME }}-${{ env.JAVA_OPT_SERVER }}.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
