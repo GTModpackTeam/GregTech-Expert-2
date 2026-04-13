@@ -167,7 +167,7 @@ jobs:
           done
 
       - name: Create or Update GitHub Release
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           tag_name: "v${{ github.event.inputs.version }}-pr-${{ github.event.inputs.preview_version }}"
           name: "v${{ github.event.inputs.version }}-Pre-${{ github.event.inputs.preview_version }}"

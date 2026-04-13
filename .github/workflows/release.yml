@@ -163,7 +163,7 @@ jobs:
           done
 
       - name: Create or update GitHub Release
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           tag_name: "v${{ github.event.inputs.version }}-${{ github.event.inputs.release_type }}"
           name: "v${{ github.event.inputs.version }}-${{ github.event.inputs.release_type }}"
