@@ -1,7 +1,7 @@
-# GregTech Expert 2 for Java_25-26 Version - (Powered by [Cleanroom](https://github.com/CleanroomMC/Cleanroom))
+# GregTech Expert 2 for Java8+ Version - (Powered by [Cleanroom](https://github.com/CleanroomMC/Cleanroom))
 
 ## About
-- This is the first ModPack created(probably) to promote [CleanroomMC](https://github.com/CleanroomMC), which runs on LWJGL version 3 in Minecraft 1.12.2 and aims to run [Azul Zulu Builds of OpenJDK(Java 25+)](https://www.azul.com/downloads/?version=java-21-lts&package=jre#zulu), optimize, and much more.
+- This is the first ModPack created(probably) to promote [CleanroomMC](https://github.com/CleanroomMC), which runs on LWJGL version 3 in Minecraft 1.12.2 and aims to run [Azul Zulu Builds of OpenJDK(Java 8+)](https://www.azul.com/downloads/?package=jre#zulu), optimize, and much more.
 
 
 ## How to install

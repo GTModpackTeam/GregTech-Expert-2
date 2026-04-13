@@ -7,4 +7,4 @@ import mods.jei.JEI;
 # Items
 ########################################
 # Iron Tongs
-recipes.removeByRecipeName("hotornot:iron_tongs");
+recipes.remove(<hotornot:iron_tongs>);

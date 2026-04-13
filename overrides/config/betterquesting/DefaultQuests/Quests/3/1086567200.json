@@ -1,0 +1,62 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Storage Drawersは昔から存在する今でも人気の整理系Modです。もとは1.6.4から1.7.10に登場していたJabbaを扱いやすく、拡張しやすく強化する目的で登場したらしい。\n\nなおStorage Drawersは有名なModであるため、EZStorageのように使い方までは説明しません。\n\n\n余談その1\nGTMoreToolsにより各素材を用いたアップグレードが作成できるようになりました。\nこのおかげで用意に増強が行いやすくなりました。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "storagedrawers:controller"
+      },
+      "name:8": "AE2との親和性ならまかせろ"
+    }
+  },
+  "questID:3": 1086567200,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "OreDict:8": "drawerBasic",
+          "id:8": "storagedrawers:basicdrawers"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "storagedrawers:controller"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "entryLogic:8": "OR",
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 297,
+          "id:8": "gtmt:upgrade_storage_gt"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 51,
+          "id:8": "gtmt:upgrade_storage_gt"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 41,
+          "id:8": "gtmt:upgrade_storage_gt"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 276,
+          "id:8": "gtmt:upgrade_storage_gt"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 278,
+          "id:8": "gtmt:upgrade_storage_gt"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

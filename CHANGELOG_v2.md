@@ -15,6 +15,7 @@
 - AE2FluidCraft-Rework-Unofficial (2.7.9 -> 2.7.10)
 - AE2UEL Wireless Universal Terminal (1.2.8 -> 1.2.10)
 - Advanced Backups Patch (1.0.3 -> 1.0.6)
+- Better Questing Unofficial (4.2.7 -> 4.3.1)
 - Flare (0.7.0 -> 0.8.0)
 - GTConsolidate (1.1.3.5 -> 1.1.4)
 - GTExpertCore (2.7.4 -> 2.7.6)

@@ -22,6 +22,7 @@ env:
   JAVA8_MMC: "${{ github.event.inputs.version }}-MMC_Java_8"
   JAVA8_SERVER: "${{ github.event.inputs.version }}-Server_Java_8"
   JAVA_OPT: "${{ github.event.inputs.version }}-MMC_Java_25-26"
+  JAVA_OPT_SERVER: "${{ github.event.inputs.version }}-Server_Java_25-26"
 
 jobs:
   build:
@@ -84,12 +85,30 @@ jobs:
             cp -vf icon.png .minecraft/
             cp -rvf cmmc/* ./
             zip -r artifacts/${{ env.NAME }}-${{ env.JAVA_OPT }}.zip patches/ mmc-pack.json instance.cfg .minecraft/
+            CLEANROOM_VER=$(jq -r '.components[] | select(.uid == "net.minecraftforge") | .version' cmmc/mmc-pack.json)
+            sed -i "s/CLEANROOMVERSION/$CLEANROOM_VER/g" serverfiles/cmmc/settings.sh serverfiles/cmmc/settings.bat serverfiles/cmmc/PleaseRead.txt
+            mv -vf serverfiles/cmmc/* ./
+            rm -vf .minecraft/mods/CraftPresence-*
+            rm -vf .minecraft/mods/Controlling-*
+            rm -vf .minecraft/mods/UniLib-*
+            rm -vf .minecraft/mods/CustomMainMenu-*
+            rm -vf .minecraft/mods/Fixeroo-*
+            rm -vf .minecraft/mods/FpsReducer-*
+            rm -vf .minecraft/mods/modernsplash-*
+            rm -vf .minecraft/mods/SmoothFont-*
+            rm -vf .minecraft/mods/InGameInfoXML-*
+            rm -vf .minecraft/mods/oauth-*
+            rm -vf .minecraft/mods/UntranslatedItems-*
+            mv -vf .minecraft/* ./
+            zip -r artifacts/${{ env.NAME }}-${{ env.JAVA_OPT_SERVER }}.zip PleaseRead.txt Install.* ServerStart.* settings.* config/ local/ mods/ resources/ scripts/
           else
             zip -r artifacts/${{ env.NAME }}-${{ env.JAVA8_CF }}.zip manifest.json modlist.html overrides/config/ overrides/local/ overrides/resourcepacks/ overrides/scripts/
             mv overrides/ .minecraft/
             cp icon.png .minecraft/
             zip -r artifacts/${{ env.NAME }}-${{ env.JAVA8_MMC }}.zip mmc-pack.json instance.cfg .minecraft/
-            mv serverfiles/* ./
+            FORGE_VER=$(jq -r '"\(.minecraft.version)-\(.minecraft.modLoaders[0].id | sub("forge-"; ""))"' manifest.json)
+            sed -i "s/FORGEVERSION/$FORGE_VER/g" serverfiles/java8/settings.sh serverfiles/java8/settings.bat serverfiles/java8/PleaseRead.txt
+            mv -vf serverfiles/java8/* ./
             rm -vf .minecraft/mods/!Red-Core-*
             rm -vf .minecraft/mods/Alfheim-*
             rm -vf .minecraft/mods/CraftPresence-*
@@ -107,7 +126,7 @@ jobs:
             rm -vf .minecraft/mods/oauth-*
             rm -vf .minecraft/mods/UntranslatedItems-*
             mv -vf .minecraft/* ./
-            zip -r artifacts/${{ env.NAME }}-${{ env.JAVA8_SERVER }}.zip docker-compose.yml PleaseRead.txt log4j2_112-116.xml Install.* ServerStart.* settings.* TmuxServer.sh config/ local/ mods/ resources/ scripts/
+            zip -r artifacts/${{ env.NAME }}-${{ env.JAVA8_SERVER }}.zip PleaseRead.txt log4j2_112-116.xml Install.* ServerStart.* settings.* config/ local/ mods/ resources/ scripts/
           fi
 
       - name: Upload Artifacts
@@ -164,7 +183,7 @@ jobs:
 
             This preview includes:
             - **Java 8** (CurseForge / MultiMC / PrismLauncher / Server)
-            - **Java 25-26** (MultiMC / PrismLauncher only)
+            - **Java 25-26** (MultiMC / PrismLauncher / Server)
 
             See installation guide for Java 25-26 [here](https://github.com/GTModpackTeam/GregTech-Expert-2/blob/main/cmmc/).
           prerelease: false
