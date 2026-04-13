@@ -162,17 +162,6 @@ jobs:
             fi
           done
 
-      - name: Check or create tag
-        run: |
-          if git rev-parse --verify --quiet "${{ env.JAVA8_CF }}"; then
-            echo "Tag exists."
-          else
-            git config --local user.name "github-actions"
-            git config --local user.email "actions@github.com"
-            git tag ${{ env.JAVA8_CF }}
-            git push origin ${{ env.JAVA8_CF }}
-          fi
-
       - name: Create or update GitHub Release
         uses: softprops/action-gh-release@v2
         with:

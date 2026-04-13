@@ -166,14 +166,6 @@ jobs:
             fi
           done
 
-      - name: Ensure Tag Exists
-        if: "!startsWith(github.ref, 'refs/tags/')"
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "actions@github.com"
-          git tag ${{ env.JAVA8_CF }}
-          git push origin ${{ env.JAVA8_CF }}
-
       - name: Create or Update GitHub Release
         uses: softprops/action-gh-release@v2
         with:
