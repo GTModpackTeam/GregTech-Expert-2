@@ -3,13 +3,27 @@
 - Baubles-LTS (1.0.6.0) -> BubblesEX (1.6.5)
 - Bring Me The Rings! (0.4) -> BubblesEX (1.6.5)
 
+## Delete mods
+- AE2 Wireless Terminal-LTS
+- AE2 Wireless Crafting Terminal
+- AE2 Wireless Fluid Terminal
+- AE2 Wireless Interface Terminal
+- AE2 Wireless Pattern Terminal
+- p455w0rd's AE2 Wireless Terminals Patch
+
 ## Update mods
+- AE2FluidCraft-Rework-Unofficial (2.7.9 -> 2.7.10)
 - AE2UEL Wireless Universal Terminal (1.2.8 -> 1.2.10)
 - Advanced Backups Patch (1.0.3 -> 1.0.6)
 - Flare (0.7.0 -> 0.8.0)
+- GTConsolidate (1.1.3.5 -> 1.1.4)
 - GTExpertCore (2.7.4 -> 2.7.6)
+- GTMoreTools (1.1.2 -> 1.3.0)
 - Hot or Not GTCEu (1.3.0 -> 1.4.0)
+- Lazy AE2 Patch (1.1.0 -> 1.2.1)
+- LemonSkin (3.1.0 -> 4.0.0)
 - ModularUI (3.1.4 -> 3.1.5)
+- RandomComplement (1.8.8 -> 1.9.1)
 - Roughly Enough IDs (2.2.4 -> 2.3.0)
 - Universal Tweaks (1.18.0 -> 1.19.1)
 

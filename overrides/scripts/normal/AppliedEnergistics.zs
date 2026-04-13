@@ -398,7 +398,6 @@ recipes.addShaped(<appliedenergistics2:wireless_terminal>, [
 
 # Wireless Crafting Terminal
 recipes.remove(<appliedenergistics2:wireless_crafting_terminal>);
-recipes.addShapeless(<appliedenergistics2:wireless_crafting_terminal>, [<wct:wct>]);
 recipes.addShaped(<appliedenergistics2:wireless_crafting_terminal>, [
     [<appliedenergistics2:material:41>, <appliedenergistics2:part:360>, <appliedenergistics2:material:41>],
     [<appliedenergistics2:material:24>, <gtexpert:meta_item_1:1>, <appliedenergistics2:material:24>],
@@ -407,7 +406,6 @@ recipes.addShaped(<appliedenergistics2:wireless_crafting_terminal>, [
 
 # Wireless Fluid Terminal
 recipes.remove(<appliedenergistics2:wireless_fluid_terminal>);
-recipes.addShapeless(<appliedenergistics2:wireless_fluid_terminal>, [<wft:wft>]);
 recipes.addShaped(<appliedenergistics2:wireless_fluid_terminal>, [
     [<appliedenergistics2:material:41>, <appliedenergistics2:part:520>, <appliedenergistics2:material:41>],
     [<appliedenergistics2:material:24>, <gtexpert:meta_item_1:1>, <appliedenergistics2:material:24>],
@@ -416,7 +414,6 @@ recipes.addShaped(<appliedenergistics2:wireless_fluid_terminal>, [
 
 # Wireless Pattern Terminal
 recipes.remove(<appliedenergistics2:wireless_pattern_terminal>);
-recipes.addShapeless(<appliedenergistics2:wireless_pattern_terminal>, [<wpt:wpt>]);
 recipes.addShaped(<appliedenergistics2:wireless_pattern_terminal>, [
     [<appliedenergistics2:material:41>, <appliedenergistics2:part:340>, <appliedenergistics2:material:41>],
     [<appliedenergistics2:material:24>, <gtexpert:meta_item_1:1>, <appliedenergistics2:material:24>],
@@ -425,16 +422,11 @@ recipes.addShaped(<appliedenergistics2:wireless_pattern_terminal>, [
 
 # Wireless Interface Terminal
 recipes.remove(<appliedenergistics2:wireless_interface_terminal>);
-recipes.addShapeless(<appliedenergistics2:wireless_interface_terminal>, [<wit:wit>]);
 recipes.addShaped(<appliedenergistics2:wireless_interface_terminal>, [
     [<appliedenergistics2:material:41>, <appliedenergistics2:part:480>, <appliedenergistics2:material:41>],
     [<appliedenergistics2:material:24>, <gtexpert:meta_item_1:1>, <appliedenergistics2:material:24>],
     [<metaitem:plateNetherQuartz>, <appliedenergistics2:dense_energy_cell>, <metaitem:plateNetherQuartz>]
 ]);
-
-# Wireless Universal Terminal
-recipes.addShapeless(<ae2wut:wireless_universal_terminal>.withTag({modes: [1, 2, 3, 10] as int[], internalMaxPower: 1600000.0, internalCurrentPower: 0}), [<ae2wtlib:wut>]);
-recipes.removeByRecipeName("ae2wut:wireless_universal_terminal");
 
 # Biometric Card
 recipes.remove(<appliedenergistics2:biometric_card>);
@@ -528,7 +520,6 @@ recipes.addShaped(<appliedenergistics2:material:30>, [
 
 # Quantum Link Card
 recipes.remove(<appliedenergistics2:material:59>);
-recipes.addShapeless(<appliedenergistics2:material:59>, [<ae2wtlib:infinity_booster_card>]);
 recipes.addShaped(<appliedenergistics2:material:59>, [
     [<appliedenergistics2:material:42>, <metaitem:cover.digital.wireless>, <appliedenergistics2:material:42>],
     [<appliedenergistics2:material:47>, <appliedenergistics2:material:28>, <appliedenergistics2:material:47>],
@@ -536,7 +527,6 @@ recipes.addShaped(<appliedenergistics2:material:59>, [
 ]);
 
 # Magnet Card
-recipes.addShapeless(<appliedenergistics2:material:60>, [<wct:magnet_card>]);
 recipes.addShaped(<appliedenergistics2:material:60>, [
     [<metaitem:plateRedstone>, <appliedenergistics2:part:300>, <metaitem:plateLapis>],
     [<metaitem:stickNeodymiumMagnetic>, <appliedenergistics2:material:28>, <metaitem:stickNeodymiumMagnetic>],
