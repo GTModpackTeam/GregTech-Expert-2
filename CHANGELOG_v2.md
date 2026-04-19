@@ -17,16 +17,19 @@
 - Advanced Backups Patch (1.0.3 -> 1.0.6)
 - Better Questing Unofficial (4.2.7 -> 4.3.1)
 - Flare (0.7.0 -> 0.8.0)
-- GTConsolidate (1.1.3.5 -> 1.1.4)
-- GTExpertCore (2.7.4 -> 2.7.6)
-- GTMoreTools (1.1.2 -> 1.3.0)
+- GTConsolidate (1.1.3.5 -> 1.1.4.1)
+- GTExpertCore (2.7.4 -> 2.7.7)
+- GTMoreTools (1.1.2 -> 1.3.1)
+- HadEnoughItems (4.27.1 -> 4.30.3)
 - Hot or Not GTCEu (1.3.0 -> 1.4.0)
+- Implosion No Bomb (1.1.0 -> 1.1.1)
 - Lazy AE2 Patch (1.1.0 -> 1.2.1)
 - LemonSkin (3.1.0 -> 4.0.0)
-- ModularUI (3.1.4 -> 3.1.5)
+- ModularUI (3.1.4 -> 3.1.6)
 - RandomComplement (1.8.8 -> 1.9.1)
 - Roughly Enough IDs (2.2.4 -> 2.3.0)
 - Universal Tweaks (1.18.0 -> 1.19.1)
+- VintageDisplay (1.6 -> 1.7)
 
 * * *
 
