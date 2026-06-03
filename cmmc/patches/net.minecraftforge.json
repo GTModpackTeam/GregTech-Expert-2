@@ -8,24 +8,24 @@
     "formatVersion": 1,
     "libraries": [
         {
-            "name": "com.cleanroommc:cleanroom:0.5.8-alpha",
+            "name": "com.cleanroommc:cleanroom:0.5.12-alpha",
             "downloads": {
                 "artifact": {
-                    "path": "com/cleanroommc/cleanroom/0.5.8-alpha/cleanroom-0.5.8-alpha.jar",
-                    "url": "https://repo.cleanroommc.com/releases/com/cleanroommc/cleanroom/0.5.8-alpha/cleanroom-0.5.8-alpha-universal.jar",
-                    "sha1": "285bf56a007d4ff2fc434ce37b5accafacd8a2e3",
-                    "size": 5367413
+                    "path": "com/cleanroommc/cleanroom/0.5.12-alpha/cleanroom-0.5.12-alpha.jar",
+                    "url": "https://repo.cleanroommc.com/releases/com/cleanroommc/cleanroom/0.5.12-alpha/cleanroom-0.5.12-alpha-universal.jar",
+                    "sha1": "c19702684e222a495b639606d9933b53b2155dc5",
+                    "size": 5370116
                 }
             }
         },
         {
-            "name": "com.cleanroommc:lwjglxx:1.1.17",
+            "name": "com.cleanroommc:lwjglxx:1.1.19",
             "downloads": {
                 "artifact": {
-                    "path": "com/cleanroommc/lwjglxx/1.1.17/lwjglxx-1.1.17.jar",
-                    "url": "https://repo.cleanroommc.com/releases/com/cleanroommc/lwjglxx/1.1.17/lwjglxx-1.1.17.jar",
-                    "sha1": "532759e2ae86b75a5dafcca5fdcc84d9748b95a2",
-                    "size": 530206
+                    "path": "com/cleanroommc/lwjglxx/1.1.19/lwjglxx-1.1.19.jar",
+                    "url": "https://repo.cleanroommc.com/releases/com/cleanroommc/lwjglxx/1.1.19/lwjglxx-1.1.19.jar",
+                    "sha1": "d9603a907741b32853d66a0fea1a7c04f4518835",
+                    "size": 530181
                 }
             }
         },
@@ -239,13 +239,24 @@
             }
         },
         {
-            "name": "com.github.oshi:oshi-core:6.11.0",
+            "name": "com.github.oshi:oshi-core-ffm:7.0.1",
             "downloads": {
                 "artifact": {
-                    "path": "com/github/oshi/oshi-core/6.11.0/oshi-core-6.11.0.jar",
-                    "url": "https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.11.0/oshi-core-6.11.0.jar",
-                    "sha1": "01b2e6e27da0f433a4d3ed24b6e8a8a5569b7ade",
-                    "size": 1121073
+                    "path": "com/github/oshi/oshi-core-ffm/7.0.1/oshi-core-ffm-7.0.1.jar",
+                    "url": "https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core-ffm/7.0.1/oshi-core-ffm-7.0.1.jar",
+                    "sha1": "df37396699246bf6a9c835b9eca94ce6fcf09730",
+                    "size": 537534
+                }
+            }
+        },
+        {
+            "name": "com.github.oshi:oshi-common:7.0.1",
+            "downloads": {
+                "artifact": {
+                    "path": "com/github/oshi/oshi-common/7.0.1/oshi-common-7.0.1.jar",
+                    "url": "https://repo.maven.apache.org/maven2/com/github/oshi/oshi-common/7.0.1/oshi-common-7.0.1.jar",
+                    "sha1": "8c5441a4a0d56941f8c4e6342877cc633b73ee4f",
+                    "size": 492637
                 }
             }
         },
@@ -283,13 +294,13 @@
             }
         },
         {
-            "name": "com.google.guava:guava:33.5.0-jre",
+            "name": "com.google.guava:guava:33.6.0-jre",
             "downloads": {
                 "artifact": {
-                    "path": "com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar",
-                    "url": "https://repo.maven.apache.org/maven2/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar",
-                    "sha1": "8699de25f2f979108d6c1b804a7ba38cda1116bc",
-                    "size": 3017283
+                    "path": "com/google/guava/guava/33.6.0-jre/guava-33.6.0-jre.jar",
+                    "url": "https://repo.maven.apache.org/maven2/com/google/guava/guava/33.6.0-jre/guava-33.6.0-jre.jar",
+                    "sha1": "c376b13067cc99a5774403530953f7b05a91e218",
+                    "size": 3064793
                 }
             }
         },
@@ -305,13 +316,13 @@
             }
         },
         {
-            "name": "com.google.code.gson:gson:2.13.2",
+            "name": "com.google.code.gson:gson:2.14.0",
             "downloads": {
                 "artifact": {
-                    "path": "com/google/code/gson/gson/2.13.2/gson-2.13.2.jar",
-                    "url": "https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.13.2/gson-2.13.2.jar",
-                    "sha1": "48b8230771e573b54ce6e867a9001e75977fe78e",
-                    "size": 289901
+                    "path": "com/google/code/gson/gson/2.14.0/gson-2.14.0.jar",
+                    "url": "https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.14.0/gson-2.14.0.jar",
+                    "sha1": "efc0e34ede4e3204eaefb84a00e55e8c86634382",
+                    "size": 313604
                 }
             }
         },
@@ -338,24 +349,24 @@
             }
         },
         {
-            "name": "commons-codec:commons-codec:1.20.0",
+            "name": "commons-codec:commons-codec:1.22.0",
             "downloads": {
                 "artifact": {
-                    "path": "commons-codec/commons-codec/1.20.0/commons-codec-1.20.0.jar",
-                    "url": "https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.20.0/commons-codec-1.20.0.jar",
-                    "sha1": "6a671d1c456a875ff61abec63216f754078bb0ed",
-                    "size": 401021
+                    "path": "commons-codec/commons-codec/1.22.0/commons-codec-1.22.0.jar",
+                    "url": "https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.22.0/commons-codec-1.22.0.jar",
+                    "sha1": "6b3eb4beb7058c2a638f5f17bcb388649fd339dd",
+                    "size": 420480
                 }
             }
         },
         {
-            "name": "commons-io:commons-io:2.21.0",
+            "name": "commons-io:commons-io:2.22.0",
             "downloads": {
                 "artifact": {
-                    "path": "commons-io/commons-io/2.21.0/commons-io-2.21.0.jar",
-                    "url": "https://repo.maven.apache.org/maven2/commons-io/commons-io/2.21.0/commons-io-2.21.0.jar",
-                    "sha1": "52a6f68fe5afe335cde95461dd5c3412f04996f7",
-                    "size": 585274
+                    "path": "commons-io/commons-io/2.22.0/commons-io-2.22.0.jar",
+                    "url": "https://repo.maven.apache.org/maven2/commons-io/commons-io/2.22.0/commons-io-2.22.0.jar",
+                    "sha1": "5b1e18bc0ad651ed878029d83f88d9c8189fd51e",
+                    "size": 609182
                 }
             }
         },
@@ -371,13 +382,13 @@
             }
         },
         {
-            "name": "org.apache.maven:maven-artifact:3.9.14",
+            "name": "org.apache.maven:maven-artifact:3.9.15",
             "downloads": {
                 "artifact": {
-                    "path": "org/apache/maven/maven-artifact/3.9.14/maven-artifact-3.9.14.jar",
-                    "url": "https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.9.14/maven-artifact-3.9.14.jar",
-                    "sha1": "921c4f90ec434e29b399796077a08459571d048a",
-                    "size": 58864
+                    "path": "org/apache/maven/maven-artifact/3.9.15/maven-artifact-3.9.15.jar",
+                    "url": "https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.9.15/maven-artifact-3.9.15.jar",
+                    "sha1": "1bdd4eee8f1853fdfdefbdefdaac1bb708138c93",
+                    "size": 58856
                 }
             }
         },
@@ -426,13 +437,13 @@
             }
         },
         {
-            "name": "org.apache.httpcomponents.client5:httpclient5:5.6",
+            "name": "org.apache.httpcomponents.client5:httpclient5:5.6.1",
             "downloads": {
                 "artifact": {
-                    "path": "org/apache/httpcomponents/client5/httpclient5/5.6/httpclient5-5.6.jar",
-                    "url": "https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.6/httpclient5-5.6.jar",
-                    "sha1": "f502ee00ba82d44a6a29bda06a18f5b959808e09",
-                    "size": 1050450
+                    "path": "org/apache/httpcomponents/client5/httpclient5/5.6.1/httpclient5-5.6.1.jar",
+                    "url": "https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.6.1/httpclient5-5.6.1.jar",
+                    "sha1": "b418ba210ace28adf920f1decf64d673953d07cf",
+                    "size": 1054142
                 }
             }
         },
@@ -712,24 +723,24 @@
             }
         },
         {
-            "name": "org.glassfish.jaxb:jaxb-runtime:4.0.6",
+            "name": "org.glassfish.jaxb:jaxb-runtime:4.0.8",
             "downloads": {
                 "artifact": {
-                    "path": "org/glassfish/jaxb/jaxb-runtime/4.0.6/jaxb-runtime-4.0.6.jar",
-                    "url": "https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/4.0.6/jaxb-runtime-4.0.6.jar",
-                    "sha1": "fb95ebb62564657b2fedfe165b859789ef3a8711",
-                    "size": 920148
+                    "path": "org/glassfish/jaxb/jaxb-runtime/4.0.8/jaxb-runtime-4.0.8.jar",
+                    "url": "https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/4.0.8/jaxb-runtime-4.0.8.jar",
+                    "sha1": "0eab27c9e6a139056470f2f3555e71543c9d567d",
+                    "size": 922318
                 }
             }
         },
         {
-            "name": "org.glassfish.jaxb:jaxb-core:4.0.6",
+            "name": "org.glassfish.jaxb:jaxb-core:4.0.8",
             "downloads": {
                 "artifact": {
-                    "path": "org/glassfish/jaxb/jaxb-core/4.0.6/jaxb-core-4.0.6.jar",
-                    "url": "https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-core/4.0.6/jaxb-core-4.0.6.jar",
-                    "sha1": "8e61282303777fc98a00cc3affd0560d68748a75",
-                    "size": 137909
+                    "path": "org/glassfish/jaxb/jaxb-core/4.0.8/jaxb-core-4.0.8.jar",
+                    "url": "https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-core/4.0.8/jaxb-core-4.0.8.jar",
+                    "sha1": "3e2da1254d6aee7337b5901f878a16b17c903d4a",
+                    "size": 139562
                 }
             }
         },
@@ -745,13 +756,13 @@
             }
         },
         {
-            "name": "org.glassfish.corba:glassfish-corba-omgapi:5.0.0",
+            "name": "org.glassfish.corba:glassfish-corba-omgapi:5.0.2",
             "downloads": {
                 "artifact": {
-                    "path": "org/glassfish/corba/glassfish-corba-omgapi/5.0.0/glassfish-corba-omgapi-5.0.0.jar",
-                    "url": "https://repo.maven.apache.org/maven2/org/glassfish/corba/glassfish-corba-omgapi/5.0.0/glassfish-corba-omgapi-5.0.0.jar",
-                    "sha1": "07d4a8ad8861f3738e3abf183cbd86bfa88af4ac",
-                    "size": 1411320
+                    "path": "org/glassfish/corba/glassfish-corba-omgapi/5.0.2/glassfish-corba-omgapi-5.0.2.jar",
+                    "url": "https://repo.maven.apache.org/maven2/org/glassfish/corba/glassfish-corba-omgapi/5.0.2/glassfish-corba-omgapi-5.0.2.jar",
+                    "sha1": "5707c4c83d8ec7cf417ef2708fa539ff9204a1f4",
+                    "size": 1411404
                 }
             }
         },
@@ -763,6 +774,17 @@
                     "url": "https://repo.maven.apache.org/maven2/org/openjdk/nashorn/nashorn-core/15.7/nashorn-core-15.7.jar",
                     "sha1": "f959627b97cb21316906d3634fecf4ec04016bcd",
                     "size": 2139093
+                }
+            }
+        },
+        {
+            "name": "ca.weblite:java-objc-bridge:1.2",
+            "downloads": {
+                "artifact": {
+                    "path": "ca/weblite/java-objc-bridge/1.2/java-objc-bridge-1.2.jar",
+                    "url": "https://repo.maven.apache.org/maven2/ca/weblite/java-objc-bridge/1.2/java-objc-bridge-1.2.jar",
+                    "sha1": "af8ba4c82a8979d07319f74278312af6c1cd61a5",
+                    "size": 1476301
                 }
             }
         },
@@ -800,13 +822,13 @@
             }
         },
         {
-            "name": "io.github.llamalad7:mixinextras-common:0.5.3",
+            "name": "io.github.llamalad7:mixinextras-common:0.5.4",
             "downloads": {
                 "artifact": {
-                    "path": "io/github/llamalad7/mixinextras-common/0.5.3/mixinextras-common-0.5.3.jar",
-                    "url": "https://repo.maven.apache.org/maven2/io/github/llamalad7/mixinextras-common/0.5.3/mixinextras-common-0.5.3.jar",
-                    "sha1": "13ad40ee435e671fec18e3f0d6afec8c874b08b5",
-                    "size": 724302
+                    "path": "io/github/llamalad7/mixinextras-common/0.5.4/mixinextras-common-0.5.4.jar",
+                    "url": "https://repo.maven.apache.org/maven2/io/github/llamalad7/mixinextras-common/0.5.4/mixinextras-common-0.5.4.jar",
+                    "sha1": "0626e00b72e3879a07e6653d8015cd3466ff5b75",
+                    "size": 725799
                 }
             }
         }
@@ -821,5 +843,5 @@
         }
     ],
     "uid": "net.minecraftforge",
-    "version": "0.5.8-alpha"
+    "version": "0.5.12-alpha"
 }
