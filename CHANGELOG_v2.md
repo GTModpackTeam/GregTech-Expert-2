@@ -15,20 +15,24 @@
 - AE2FluidCraft-Rework-Unofficial (2.7.9 -> 2.7.10)
 - AE2UEL Wireless Universal Terminal (1.2.8 -> 1.2.10)
 - Advanced Backups Patch (1.0.3 -> 1.0.6)
-- Better Questing Unofficial (4.2.7 -> 4.3.1)
+- Better Questing Unofficial (4.2.7 -> 4.3.2)
+- Chibi (5.31 -> 5.32)
+- Fixeroo (2.3.6 -> 2.3.7)
 - Flare (0.7.0 -> 0.8.0)
+- Forgelin-Continuous (2.3.10.1 -> 2.3.20.0)
 - GTConsolidate (1.1.3.5 -> 1.1.4.1)
 - GTExpertCore (2.7.4 -> 2.7.7)
-- GTMoreTools (1.1.2 -> 1.3.1)
+- GTMoreTools (1.1.2 -> 1.3.3)
 - HadEnoughItems (4.27.1 -> 4.30.3)
 - Hot or Not GTCEu (1.3.0 -> 1.4.0)
+- Inventory Bogo Sorter (1.6.2 -> 1.6.3)
 - Implosion No Bomb (1.1.0 -> 1.1.1)
 - Lazy AE2 Patch (1.1.0 -> 1.2.1)
 - LemonSkin (3.1.0 -> 4.0.0)
 - ModularUI (3.1.4 -> 3.1.6)
-- RandomComplement (1.8.8 -> 1.9.1)
-- Roughly Enough IDs (2.2.4 -> 2.3.0)
-- Universal Tweaks (1.18.0 -> 1.19.1)
+- RandomComplement (1.8.8 -> 1.9.3-fix)
+- Roughly Enough IDs (2.2.4 -> 2.3.1)
+- Universal Tweaks (1.19.1 -> 1.20.1)
 - VintageDisplay (1.6 -> 1.7)
 
 * * *
@@ -44,7 +48,7 @@
 - Advanced Backups
 
 ## Update mods
-- CensoredASM (5.30 -> 5.31)
+- Chibi (5.30 -> 5.31)
 - Forgelin-Continuous (2.3.0.0 -> 2.3.10.0)
 - GTConsolidate (1.1.3 -> 1.1.3.5)
 - GTExpertCore (2.7.2 -> 2.7.4)
@@ -145,7 +149,7 @@
 - Alfheim (1.5 -> 1.6)
 - Betterer P2P (1.3.2 -> 1.3.3)
 - CraftPresence (2.6.2 -> 2.7.0)
-- CensoredASM (5.29 -> 5.30)
+- Chibi (5.29 -> 5.30)
 - EZStorage 2 Patch (1.4.1 -> 1.5.0)
 - Fixeroo (2.3.6b -> 2.3.6)
 - Forgelin-Continuous (2.2.0.0 -> 2.2.21.0)
@@ -170,7 +174,7 @@
 
 ## Update mods
 - Alfheim Lighting Engine (1.4 -> 1.5)
-- CensoredASM (5.28 -> 5.29)
+- Chibi (5.28 -> 5.29)
 - CraftPresence (2.5.4 -> 2.6.2)
 - Forgelin-Continuous (2.1.10.0 -> 2.2.0.0)
 - Fixeroo (2.3.5-hotfix -> 2.3.6b)
@@ -198,7 +202,7 @@
 
 ## Update mods
 - Entity Culling (6.4.3 -> 6.5.0)
-- CensoredASM (5.23 -> 5.28)
+- Chibi (5.23 -> 5.28)
 - CraftPresence (2.5.3 -> 2.5.4)
 - Fixeroo (2.3.4 -> 2.3.5-hotfix)
 - GTConsolidate (1.0.1.1 -> 1.0.3.1)
@@ -232,7 +236,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 ## Update mods
 - Advanced Backups (3.6.4 -> 3.7.1)
 - CraftPresence (2.5.2 -> 2.5.3)
-- CensoredASM (5.20 -> 5.23)
+- Chibi (5.20 -> 5.23)
 - Fixeroo (2.3.2 -> 2.3.4)
 - GregTech Food Option (1.12.3 -> 1.12.4)
 - GTExpertCore (2.4.0 -> 2.4.6)
@@ -524,7 +528,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 - Advanced Backups (3.4 -> 3.5.1)
 - AE2 Fluid Crafting Rework (2.5.8 -> 2.5.12)
 - Aqua Acrobatics (1.15.3 -> 1.15.4)
-- CensoredASM (5.19 -> 5.20)
+- Chibi (5.19 -> 5.20)
 - ConfigAnytime (2.0 -> 3.0)
 - CraftPresence (2.3.5 -> 2.3.9)
 - GTExpertCore (2.1.1 -> 2.1.4)
@@ -794,7 +798,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 - GregTech CE: Unofficial
 - GregTech Food Option
 - GTExpertCore
-- CensoredASM
+- Chibi
 - Modern Splash
 - CraftTweaker
 - ModularUI
@@ -853,7 +857,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 - Zen Utils
 - GTExpertCore
 - BisectHosting Server Integration Menu
-- CensoredASM
+- Chibi
 - MixinBooter
 - Entity Culling
 
@@ -922,7 +926,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 - VintageFix
 
 # Del mods
-- CensoredASM
+- Chibi
 
 # Move mods
 - spark -> Spark Unforged
@@ -1002,7 +1006,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 - GTExpertCore
 - Inventory Bogo Sorter
 - JEI Utilities
-- CensoredASM
+- Chibi
 - ModularUI
 - Universal Tweaks
 
@@ -1045,7 +1049,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 - GregTech Food Option
 - GTExpertCore
 - Had Enough Items
-- CensoredASM
+- Chibi
 - MixinBooter
 
 ## Del mods
@@ -1094,7 +1098,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 - BisectHosting Menu
 - GTExpertCore
 - Had Enough Items
-- CensoredASM
+- Chibi
 - ModularUI
 - Zen Utils
 
@@ -1563,7 +1567,7 @@ Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
 - AE2 Fluid Crafting Rework
 - GregTech CE: Unofficial
 - PackagedAuto
-- CensoredASM
+- Chibi
 - Had Enough Items
 
 * * *
