@@ -20,7 +20,7 @@
 - Fixeroo (2.3.6 -> 2.3.7)
 - Flare (0.7.0 -> 0.8.0)
 - Forgelin-Continuous (2.3.10.1 -> 2.3.20.0)
-- GTConsolidate (1.1.3.5 -> 1.1.4.1)
+- GTConsolidate (1.1.3.5 -> 1.1.4.2)
 - GTExpertCore (2.7.4 -> 2.7.7)
 - GTMoreTools (1.1.2 -> 1.3.3)
 - HadEnoughItems (4.27.1 -> 4.30.3)
