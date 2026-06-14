@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    405
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "発展型採掘機は鉱脈の上に置いた時鉱石を掘ってきてくれます。\n縦の採掘範囲は無制限で、横の採掘範囲はツールチップに書いてあります。\n\nMVの採掘機は鉱脈をまるごと掘れるほど採掘範囲が広くありません。\nしかしHVになると掘れるようになります。\nなのでHV時代まで待ってから作るのもいいでしょう。\nこのクエストはMVかHVのどちらかを作ることで達成されます。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 921,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Digital Miner"
+    }
+  },
+  "questID:3": 439,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 921,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 922,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

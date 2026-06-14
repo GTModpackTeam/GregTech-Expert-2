@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    805
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "少しコストが上がってはいますが、初代GTEのクリア相当の難易度を持つアイテムです。\n§mただし初代はジャングルガチャ、ジャングルガチャ内の寺院ガチャ、寺院内のZPMモジュールガチャという運要素も絡んでいた為、もっとヤバかった§r",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "gtexpert:meta_item_1"
+      },
+      "name:8": "GTExpert ME Fake Component"
+    }
+  },
+  "questID:3": 817,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gtexpert:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

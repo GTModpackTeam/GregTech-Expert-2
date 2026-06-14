@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    555
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "パターン拡張カードをMEインターフェースに差し込むと1つのMEインターフェースにより沢山のパターンを入れることができるようになります。\n要するに容量カードのインターフェース版です。\n\n\n余談その1\n公式版AE2にはこのカードは存在しなかったので、沢山のインターフェースを一つの機械に接続するため皆腐心していた",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 58,
+        "id:8": "appliedenergistics2:material"
+      },
+      "name:8": "DLC商法"
+    }
+  },
+  "questID:3": 531,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 58,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

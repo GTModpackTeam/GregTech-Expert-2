@@ -1,0 +1,72 @@
+{
+  "preRequisiteTypes:7": [
+    0,
+    1
+  ],
+  "preRequisites:11": [
+    458,
+    113
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "この機械はEnderIOのマシンを電化したもので、Mobの頭を利用した回路を作成する場合に使用します。\n\nまたJEIを見ると並べる必要性があるように見えますが、見かけだけだったりします(§mいつかは改善したいところ§r)。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 11023,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "ギコギコはしません",
+      "questlogic:8": "OR"
+    }
+  },
+  "questID:3": 37,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 11023,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 11024,
+          "id:8": "gregtech:machine"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 11025,
+          "id:8": "gregtech:machine"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 11026,
+          "id:8": "gregtech:machine"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 11027,
+          "id:8": "gregtech:machine"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 11028,
+          "id:8": "gregtech:machine"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 11029,
+          "id:8": "gregtech:machine"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "Damage:2": 11030,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

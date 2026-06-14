@@ -1,0 +1,52 @@
+{
+  "preRequisites:11": [
+    313,
+    293
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "超電導ワイヤーはそれぞれの電圧に存在する特別なワイヤーです。\nケーブルに被覆することができませんが、ワイヤーの状態で絶対に減衰しない上に接触ダメージがないのでする必要もありません。\n1倍のワイヤーの時点で2アンペアを流すことができます。\n\nこれを作る道を選んだのなら拠点の錫ケーブルを解体しましょう。\n梱包機に入れれれば錫とゴムが戻ってきます。\n\n\n余談その1\nGregicality Legacyが登場するまでLVの超電導ワイヤーは存在しなかった\nなのでOmnifactoryなど一部のModPackでは独自の物を実装していた",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 424,
+        "id:8": "gregtech:wire_single"
+      },
+      "name:8": "なんで作るのにポンプが要らないかって...?それを有効にするconfigがなかったからだよ..."
+    }
+  },
+  "questID:3": 294,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 424,
+          "id:8": "gregtech:wire_single"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 424,
+          "id:8": "gregtech:wire_double"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 424,
+          "id:8": "gregtech:wire_quadruple"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 424,
+          "id:8": "gregtech:wire_octal"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 424,
+          "id:8": "gregtech:wire_hex"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

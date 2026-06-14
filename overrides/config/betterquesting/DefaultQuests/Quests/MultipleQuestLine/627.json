@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    602,
+    562
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "IV時代へようこそ!!\nこの電圧では更に色んな楽しいマルチブロックが解放されます。\n一つ一つ使いこなしていきましょう。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 990,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Hullが来た、どこへ来た?",
+      "questlogic:8": "OR"
+    }
+  },
+  "questID:3": 627,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 990,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

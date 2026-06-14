@@ -1,0 +1,53 @@
+{
+  "preRequisiteTypes:7": [
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "preRequisites:11": [
+    699,
+    750,
+    766,
+    770,
+    1759778029
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "核融合炉までもが並列処理に対応しました。発展型核融合炉は最大16並列まで可能です。基本的な構造は通常の核融合炉と変わりませんが、利用可能なエナジーハッチは16Aのみです。\n最大並列処理数はエナジーハッチの数に依存します。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 21500,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "核融拳n倍だぁ！",
+      "questlogic:8": "OR"
+    }
+  },
+  "questID:3": 1962307874,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 21500,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 21501,
+          "id:8": "gregtech:machine"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 21502,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    602,
+    98
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "現在のGTCEuではウランには殆ど使い道がありません、何故ならまだ原子炉が実装されていないからです。\n(今後実装される予定です)\n\n閃ウラン鉱から六フッ化ウランを作りましょう。\nこれでウランの同位体であるU238とU235を分離することができます。\n\nこの反応でフッ素は完全にリサイクルされますが、反応を始めるために40バケツ分ぐらい用意しておくといいでしょう。\n水素は消費されるので沢山必要です。\n沢山の水を何台かのエネルギー効率が最高であるLVの電解槽で電解するか、メタンなどの使っていない炭化水素をリサイクルして工面しましょう。\n\nこの自動化は遠心分離機に流量制御器を取り付けて丁度1000Lずつ供給させることで簡略化することができます。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 116,
+        "id:8": "gregtech:meta_dust"
+      },
+      "name:8": "ウランガチャのコモン枠",
+      "tasklogic:8": "OR"
+    }
+  },
+  "questID:3": 601,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "uranium_hexafluoride"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 116,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

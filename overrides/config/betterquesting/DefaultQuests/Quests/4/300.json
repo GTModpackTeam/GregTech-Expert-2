@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    312
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "ミキサーは名前の通りの機能を持っています。\nつまり金属や食べ物を撹拌することができます。\n\n進行に必要となる時まで適当なところで眠らせておきましょう。\n\n一部のクラフトで作れる合金の粉はミキサーを使えばより高い効率で加工することができます。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 470,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "金属と食品を同じ機械で加工して大丈夫なのだろうか"
+    }
+  },
+  "questID:3": 300,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 470,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

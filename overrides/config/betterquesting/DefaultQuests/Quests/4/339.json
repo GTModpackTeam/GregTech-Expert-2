@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    51,
+    34
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "レジスタは電子回路を作るために必要な比較的楽に作れる素材です。\n2つレシピが表示されていますが極細のワイヤーを使って作った方が効率的です。\nLVに進めば更に効率的になります。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 519,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "The R in The LCR"
+    }
+  },
+  "questID:3": 339,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 519,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

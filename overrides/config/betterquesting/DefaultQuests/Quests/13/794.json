@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    793,
+    119
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "draconicadditions:chaotic_helm"
+      },
+      "name:8": "Chaotic Helmet"
+    }
+  },
+  "questID:3": 794,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "draconicadditions:chaotic_helm"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "draconicadditions:chaotic_chest"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "draconicadditions:chaotic_legs"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "draconicadditions:chaotic_boots"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

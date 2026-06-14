@@ -1,0 +1,33 @@
+{
+  "preRequisiteTypes:7": [
+    0,
+    1
+  ],
+  "preRequisites:11": [
+    691,
+    798
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Wyvern Coreを含む各種コアはDEの回路の立ち位置となるアイテムです。また次のコアの素材にもなります。\n\n余談その1\nTier順番がWyvern -\u003e Draconic -\u003e Awakened -\u003e Chaoticとなっているのはバグではなく意図的である。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "draconicevolution:wyvern_core"
+      },
+      "name:8": "Wyvern Core"
+    }
+  },
+  "questID:3": 801,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:wyvern_core"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

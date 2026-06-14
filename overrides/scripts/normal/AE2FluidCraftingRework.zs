@@ -143,7 +143,7 @@ recipes.addShaped(<ae2fc:fluid_level_maintainer>, [
 # Wireless Fluid Interface Terminal
 recipes.remove(<ae2fc:wireless_fluid_pattern_terminal>);
 recipes.addShaped(<ae2fc:wireless_fluid_pattern_terminal>, [
-    [<appliedenergistics2:dense_energy_cell>, <ae2fc:part_fluid_pattern_terminal>, <appliedenergistics2:dense_energy_cell>],
-    [<metaitem:sensor.iv>, <appliedenergistics2:part:480>, <metaitem:sensor.iv>],
-    [<metaitem:stickOsmiridium>, <metaitem:emitter.iv>, <metaitem:stickOsmiridium>]
+    [<appliedenergistics2:material:41>, <ae2fc:part_fluid_pattern_terminal>, <appliedenergistics2:material:41>],
+    [<appliedenergistics2:material:24>, <gtexpert:meta_item_1:1>, <appliedenergistics2:material:24>],
+    [<metaitem:plateNetherQuartz>, <appliedenergistics2:dense_energy_cell>, <metaitem:plateNetherQuartz>]
 ]);

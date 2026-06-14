@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    475,
+    484,
+    454
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "発展型NanoMuscle™スーツは防御力と個人用バッテリーと強化されたジェットパックを合体させた存在です。\n\n自動充電を有効にするためには手に持った状態でシフト右クリックしてから装備しましょう。\nただし現在バグで非常に奇妙な挙動をします。\n\nこのジェットパックを充電するためには沢山の電力を消費する上にバッテリーの持ちも悪いです。\nHVターボチャージャーが欲しいかもしれません。\n\nクラフトするのが若干面倒ですが拠点内を動き回るのにも需要が高いので早めに作りましょう。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 30,
+        "id:8": "gregtech:gt_armor"
+      },
+      "name:8": "GraviSuite的な何か"
+    }
+  },
+  "questID:3": 473,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 30,
+          "id:8": "gregtech:gt_armor",
+          "tag:10": {}
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

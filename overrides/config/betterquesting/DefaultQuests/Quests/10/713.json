@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    691
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 124,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "おなじみの金属"
+    }
+  },
+  "questID:3": 713,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 124,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

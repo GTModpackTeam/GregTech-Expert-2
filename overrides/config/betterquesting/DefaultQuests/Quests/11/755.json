@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    723,
+    754
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "これを使わずにUVのモーター等を作るのはさすがにゴリ押しが過ぎるでしょう。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1414,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "1と6が同時に見えてるのはおかしいね"
+    }
+  },
+  "questID:3": 755,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1414,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

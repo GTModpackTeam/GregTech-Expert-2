@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    765
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "通常のクリーンルームの代わりをするメンテナンスハッチです。\n滅菌の効果はありませんので滅菌クリーンルームは壊さないようにしましょう。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1401,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "クリーンルーム引退騒動"
+    }
+  },
+  "questID:3": 777,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1401,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

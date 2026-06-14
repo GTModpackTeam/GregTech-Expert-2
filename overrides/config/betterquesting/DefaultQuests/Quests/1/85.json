@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    3
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "gregtech:ore_magnetite_0"
+      },
+      "name:8": "鉱脈生成をいじらないとエンドはこいつで埋め尽くされる"
+    }
+  },
+  "questID:3": 85,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "gregtech:ore_magnetite_0"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "gregtech:ore_chromite_0"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "gregtech:ore_gold_0"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

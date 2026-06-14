@@ -1,0 +1,8 @@
+## Start Cleanroom server (for Java 25-26)?
+1. Make sure Java 21 or newer (Java 25-26 recommended) is installed.
+   - Azul Zulu OpenJDK: https://www.azul.com/downloads/?package=jre#zulu
+2. Edit settings.bat or settings.sh (optional)
+3. Start Install.bat or Install.sh
+   - Cleanroom installer (CLEANROOMVERSION) will be downloaded automatically.
+4. ServerStart.bat or ServerStart.sh push
+5. Enjoy

@@ -1,0 +1,34 @@
+{
+  "preRequisiteTypes:7": [
+    1
+  ],
+  "preRequisites:11": [
+    113
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "投入した鉱石を倍増させる機械です。\n意外にも消費電力は小さいのでガンガン使いましょう。\n",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 12003,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "きっとエンダーマンが労働者",
+      "questlogic:8": "OR"
+    }
+  },
+  "questID:3": 760,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 12003,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

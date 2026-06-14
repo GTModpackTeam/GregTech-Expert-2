@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    345,
+    357
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "スプレー缶は空の状態で作製されるので、化学染料で充填する必要があります。\n\nスプレー缶は機械に何の機能も追加しませんが、見た目を変えられたりと意外に便利です。\n\n殆どのGregTechのタイルエンティティは16色のうち任意の色で塗ることができます。\n染色すればスクリーンショットを撮るのに便利ですし、マルチサーバーで施設の見た目を分けて混線を防ぐことができます。\nまた、パイプやケーブルのネットワークが混線することを防ぐこともできます。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 61,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "環境破壊系ツール",
+      "tasklogic:8": "OR"
+    }
+  },
+  "questID:3": 356,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 61,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

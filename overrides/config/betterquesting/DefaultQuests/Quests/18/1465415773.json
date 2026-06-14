@@ -1,0 +1,44 @@
+{
+  "preRequisiteTypes:7": [
+    1
+  ],
+  "preRequisites:11": [
+    1759778029
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "GTConsolidate製マルチブロックタンクで利用可能なタンクバルブです。詳細はタンクのクエストをご参照ください。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 21655,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "進化したタンクバルブ"
+    }
+  },
+  "questID:3": 1465415773,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 21655,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 21656,
+          "id:8": "gregtech:machine"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 21657,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

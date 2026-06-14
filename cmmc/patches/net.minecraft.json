@@ -7,8 +7,8 @@
         "url": "https://piston-meta.mojang.com/v1/packages/a21e1ded1a24ea1548dd8db0cf30b6acb02655a9/1.12.json"
     },
     "compatibleJavaMajors": [
-        21,
-        22
+        25,
+        26
     ],
     "formatVersion": 1,
     "libraries": [
@@ -100,18 +100,6 @@
                     "os": {
                         "name": "osx-arm64"
                     }
-                },
-                {
-                    "action": "disallow",
-                    "os": {
-                        "name": "linux-arm64"
-                    }
-                },
-                {
-                    "action": "disallow",
-                    "os": {
-                        "name": "linux-arm32"
-                    }
                 }
             ]
         },
@@ -153,18 +141,6 @@
                     "action": "disallow",
                     "os": {
                         "name": "osx-arm64"
-                    }
-                },
-                {
-                    "action": "disallow",
-                    "os": {
-                        "name": "linux-arm64"
-                    }
-                },
-                {
-                    "action": "disallow",
-                    "os": {
-                        "name": "linux-arm32"
                     }
                 }
             ]
@@ -216,6 +192,24 @@
                     "action": "allow",
                     "os": {
                         "name": "osx"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "f378f889797edd7df8d32272c06ca80a1b6b0f58",
+                    "size": 13164,
+                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.11.3/text2speech-1.11.3.jar"
+                }
+            },
+            "name": "com.mojang:text2speech:1.11.3",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "osx-arm64"
                     }
                 }
             ]

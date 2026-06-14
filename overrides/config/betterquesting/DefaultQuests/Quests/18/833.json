@@ -1,0 +1,50 @@
+{
+  "preRequisiteTypes:7": [
+    1
+  ],
+  "preRequisites:11": [
+    844
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "この機械は名前の通り自動で作物の栽培を行ってくれる機械です。\n食糧生産のためだけでなく、種油を作りバイオディーゼルを作るために使うのも良いでしょう。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 8561,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "スプリンクラーと使えば最強",
+      "questlogic:8": "OR"
+    }
+  },
+  "questID:3": 833,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 8561,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 8562,
+          "id:8": "gregtech:machine"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 8563,
+          "id:8": "gregtech:machine"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 8564,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

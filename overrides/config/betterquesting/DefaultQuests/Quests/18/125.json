@@ -1,0 +1,70 @@
+{
+  "preRequisiteTypes:7": [
+    1
+  ],
+  "preRequisites:11": [
+    1557128208
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "この機械はChiselの自動加工をGregのエネルギーで動かせるようにしたものです。\n\n\n余談その1\n元々はGTExpert Coreにて導入されていたがChiselのGTツール版を作った経緯でModごと分離になった。\nまたHVまでしかなかった機械もUVまでに増えたが、クラフト速度としてはEVで頭打ちになる。\nただしそのTier以上はパラレル動作となるため、ぜひアップグレードしてみてください。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 11001,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "建材屋さん",
+      "questlogic:8": "OR"
+    }
+  },
+  "questID:3": 125,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 11001,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 11002,
+          "id:8": "gregtech:machine"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 11003,
+          "id:8": "gregtech:machine"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 11004,
+          "id:8": "gregtech:machine"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 11005,
+          "id:8": "gregtech:machine"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 11006,
+          "id:8": "gregtech:machine"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 11007,
+          "id:8": "gregtech:machine"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "Damage:2": 11008,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

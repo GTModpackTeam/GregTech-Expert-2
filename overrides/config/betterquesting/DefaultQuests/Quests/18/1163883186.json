@@ -1,0 +1,83 @@
+{
+  "preRequisiteTypes:7": [
+    0,
+    1
+  ],
+  "preRequisites:11": [
+    619,
+    1759778029
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "部品アセンブリラインは。モーターやピストン、ポンプ等の中間素材作成専用の大型機械です。技術の発達により、48個分の材料+αで64個作成できるようになりました。\n\n稼働には91個必要な部品組立ライン外装のtierがJEIに表示されている最小tierを満たす必要があります。\n\n余談その1\n「アセンブリライン」と名付けられてはいるが、搬入に順序はない。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 21511,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "中間素材専用",
+      "tasklogic:8": "OR"
+    }
+  },
+  "questID:3": 1163883186,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 21511,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "entryLogic:8": "OR",
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 91,
+          "Damage:2": 1,
+          "id:8": "gtconsolidate:component_assembly_line_casing"
+        },
+        "1:10": {
+          "Count:3": 91,
+          "Damage:2": 2,
+          "id:8": "gtconsolidate:component_assembly_line_casing"
+        },
+        "2:10": {
+          "Count:3": 91,
+          "Damage:2": 3,
+          "id:8": "gtconsolidate:component_assembly_line_casing"
+        },
+        "3:10": {
+          "Count:3": 91,
+          "Damage:2": 4,
+          "id:8": "gtconsolidate:component_assembly_line_casing"
+        },
+        "4:10": {
+          "Count:3": 91,
+          "Damage:2": 5,
+          "id:8": "gtconsolidate:component_assembly_line_casing"
+        },
+        "5:10": {
+          "Count:3": 91,
+          "Damage:2": 6,
+          "id:8": "gtconsolidate:component_assembly_line_casing"
+        },
+        "6:10": {
+          "Count:3": 91,
+          "Damage:2": 7,
+          "id:8": "gtconsolidate:component_assembly_line_casing"
+        },
+        "7:10": {
+          "Count:3": 91,
+          "Damage:2": 8,
+          "id:8": "gtconsolidate:component_assembly_line_casing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

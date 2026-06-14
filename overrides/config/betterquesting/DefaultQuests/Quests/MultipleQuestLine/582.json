@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    591
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "RTM合金コイルは工業用電気炉の熱限界を4,500Kにまで引き上げます。\n\nこれはIV時代に初めて必要になりますが、これを早く獲得することでコイルボーナスの恩恵を享受できるので今作りましょう。\n\n\n余談その1\n元々はタングステンスチールを利用して作成だった。",
+      "icon:10": {
+        "Count:3": 16,
+        "Damage:2": 3,
+        "id:8": "gregtech:wire_coil"
+      },
+      "name:8": "更に熱くなってきた"
+    }
+  },
+  "questID:3": 582,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 3,
+          "id:8": "gregtech:wire_coil"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

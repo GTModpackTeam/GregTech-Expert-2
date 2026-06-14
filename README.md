@@ -16,8 +16,8 @@
 | Info | There is no compatibility between v1, v2 and v3. | v1, v2, v3の間に互換性はありません。 |
 | [v0.x.x(EOL)](/CHANGELOG_v0.md) | This version is already no longer supported. | 既にサポートが終了しているバージョンです。 |
 | [v1.x.x(EOL)](/CHANGELOG_v1.md) | Its the most stable version available on curseforge, using old version of GTCEu. Since the dev team are focusing on v2 development, this version will unlikely receive supports. | 古いバージョンのGTCEuが導入されている、CurseForge上での2022/10/28時点での安定版です。なお現在はv2の開発に移行しており、v1でのバグ修正はv2にて取り込まれます。 |
-| [v2.x.x](/CHANGELOG_v2.md) | It is the new version which includes the latest version of GTCEu. It is available on Curseforge and Github from now.<br>We have moved the original v2 which includes GCY:S (Gregicality Science) to v3, because GTCEu dev team does not have a plan to update GCY:S for next few months. | CurseForgeやGithubで今回公開し始めた、最新版のGTCEuを含んだ次期バージョンです。<br>GCY:S(Gregicality Science)を含んだバージョンはGT側の更新が当面期待できないことから、2022/10/28からv2ではなくv3にスライドしました。 |
-| [v3.x.x](/CHANGELOG_v3.md) | It is an experimental version for giving feedbacks to GCY:S dev team about GCY:S issues. We won't release it as stable until GCY:S becomes stable.<br>We will release this version on CF, however it is impossible to play it in survival mode due to GCY:S progression blocking issue. | GCY:SをデバッグしてGTCEuの開発陣にフィードバックするために用意された実験的なバージョンです。正式リリースは当面先となります。<br>このバージョンはCurseforgeで配布しますが、現時点で修正不可能な進行不能バグがあるため、サバイバルモードでプレイすることは不可能です。 |
+| [v2.x.x](/CHANGELOG_v2.md) | This is the next version that includes the latest version of GTCEu, which we have started to release this time on CurseForge and Github.<br />The version including GCY:S (Gregicality Science) was discontinued on 2022/10/28, as updates on the GT side are not expected in the near future. | CurseForgeやGithubで今回公開し始めた、最新版のGTCEuを含んだ次期バージョンです。<br />GCY:S(Gregicality Science)を含んだバージョンはGT側の更新が当面期待できないことから、2022/10/28から廃止しました。 |
+| [v3.x.x](/CHANGELOG_v3.md) | This was an experimental version prepared to debug GCY:S and provide feedback to the GTCEu development team, but the plan was dropped and this version is intended to be an ambitious update. <br />Also, this version will be distributed on GitHub only, but playing it in survival mode is deprecated. | GCY:SをデバッグしてGTCEuの開発陣にフィードバックするために用意された実験的なバージョンでしたが、計画を取りやめ意欲的な更新を目指すバージョンです。<br />またこのバージョンはGitHubのみで配布しますが、サバイバルモードでプレイすることは非推奨です。 |
 
 
 ## About
@@ -32,10 +32,14 @@
 
 - GTE2 comes with compatibility scripts for the following mods. You can drop them into the mods folder and their recipes will be adjusted accordingly.
 - However, support is for recipes only, so we will not respond to reports of unstable operation of the mod itself :<
+    - [GTMoreOreProcessing](https://www.curseforge.com/minecraft/mc-mods/gtmoreoreprocessing)
+        - You want to process more ores?
     - [Flux Networks](https://www.curseforge.com/minecraft/mc-mods/flux-networks)
         - You want to make RF wireless?
     - (**WIP**) [Forestry](https://www.curseforge.com/minecraft/mc-mods/forestry)
         - You want to bee breeding?
+    - (**WIP**) [Ender IO Forestry](https://www.curseforge.com/minecraft/mc-mods/ender-io-forestry)
+        - You want to filter out bees?
     - (**WIP**) [Gendustry](https://www.curseforge.com/minecraft/mc-mods/gendustry)
         - You want to automate bee breeding?
     - (**WIP**) [Thaumcraft](https://www.curseforge.com/minecraft/mc-mods/thaumcraft)
@@ -55,21 +59,21 @@
 
 | Age | Quest | Description | Migration | Tips |
 | ---- | ---- | ---- | ---- | --- |
-| Stone Age | 〇 | 〇 | 〇 |  - |
-| Ore Veins | 〇 | 〇 | 〇 |  - |
-| Tier 0 - ULV | 〇 | 〇 | 〇 |  - |
-| Tier 1 - LV | 〇 | 〇 | 〇 |  - |
-| Tier 2 - MV | 〇 | 〇 | 〇 |  - |
-| Tier 3 - HV | 〇 | 〇 | 〇 |  - |
-| Tier 4 - EV | 〇 | 〇 | 〇 |  - |
-| Tier 5 - IV | 〇 | 〇 | 〇 |  - |
-| Tier 6 - LuV | 〇 | △ | 〇 |  - |
-| Tier 7 - ZPM | 〇 | △ | 〇 |  - |
-| Tier 8 - UV / UHV | 〇 | △ | 〇 |  - |
-| Tier 940 - Endgame | 〇 | × | 〇 |  - |
-| AE2 Unofficial Extended Life | 〇 | 〇 | 〇 |  - |
-| Draconic Evolution | 〇 | △ | 〇 |  - |
-| GCYM / GTFO/ GTEC | 〇 | 〇 | 〇 |  - |
+| Stone Age | 〇 | 〇 | 〇 | - |
+| Ore Veins | 〇 | 〇 | 〇 | - |
+| Tier 0 - ULV | 〇 | 〇 | 〇 | - |
+| Tier 1 - LV | 〇 | 〇 | 〇 | - |
+| Tier 2 - MV | 〇 | 〇 | 〇 | - |
+| Tier 3 - HV | 〇 | 〇 | 〇 | - |
+| Tier 4 - EV | 〇 | 〇 | 〇 | - |
+| Tier 5 - IV | 〇 | 〇 | 〇 | - |
+| Tier 6 - LuV | 〇 | △ | 〇 | - |
+| Tier 7 - ZPM | 〇 | △ | 〇 | - |
+| Tier 8 - UV / UHV | 〇 | △ | 〇 | - |
+| Tier 940 - Endgame | 〇 | × | 〇 | - |
+| AE2 Unofficial Extended Life | 〇 | 〇 | 〇 | - |
+| Draconic Evolution | 〇 | △ | 〇 | - |
+| GCYM / GTFO/ GTEC | 〇 | 〇 | 〇 | - |
 | Foods | × | × | × | Rescheduled |
 | Milestones | 〇 | △ | 〇 | - |
 
@@ -77,4 +81,3 @@
 ## Credits
 
 - Many Japanese Quests are also translated from the [GregTech-Community-Pack](https://github.com/GregTechCEu/GregTech-Community-Pack).
-- The idea of Saw Mill and some other recipes are from [IMPACT: GREGTECH EDITION](https://gt-impact.github.io/)

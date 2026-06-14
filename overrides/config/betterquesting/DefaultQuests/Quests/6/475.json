@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    476
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "NanoMuscleスーツは素敵で便利なQoLを提供してくれます。\n\nヘルメット: 暗視効果を付与します。\n(デフォルトではMキーを押すと発動しますが、しない場合は競合を確認してください)\n\nチェストプレート: 特殊機能はなにもありません。しかしHV時代のとても終盤に発展型にアップグレードする機会があります。\n\nレギンス: 特殊機能はなにもありません。\n\nブーツ: ツールチップにもある通りステップアシストと落下ダメージ無効を付与します。\n\n\n余談その1\nこの装備はIndustrialCraftに登場したものを起源とするが、GTCE環境にはNuke_Powered_UtilsというGTCEのアドオンとして初めて実装された",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 20,
+        "id:8": "gregtech:gt_armor"
+      },
+      "name:8": "実在する商標ではありません"
+    }
+  },
+  "questID:3": 475,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 20,
+          "id:8": "gregtech:gt_armor",
+          "tag:10": {}
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 21,
+          "id:8": "gregtech:gt_armor"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 22,
+          "id:8": "gregtech:gt_armor"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 23,
+          "id:8": "gregtech:gt_armor"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

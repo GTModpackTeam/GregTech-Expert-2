@@ -1,0 +1,35 @@
+{
+  "preRequisiteTypes:7": [
+    0,
+    1
+  ],
+  "preRequisites:11": [
+    384,
+    1759778029
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "大型かまどがさらに強化され、並列処理数が爆増しました。用いるコイルによって決定される並列処理数に、並列制御ユニットで指定した分が乗算されます。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 21512,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "並列の並列化"
+    }
+  },
+  "questID:3": 160459075,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 21512,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

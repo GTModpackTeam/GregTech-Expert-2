@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    3
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§c/dank/null/をME倉庫に入れると永遠に取り出せなくなってしまうバグがあります。§r\n\n/dank/null/は9つのスロットに128個ずつのアイテムを収納し、溢れたアイテムを自動的に破棄するバックパックです。\n序盤で採掘に行くとき土や丸石が大量に余りますが/dank/null/にこれらのアイテムを登録しておくことで、仕舞い切れなかった分を/dank/null/が勝手に消してくれます。\n\n/dank/null/に登録したアイテムは通常1個残して取り出すことしかできませんが、スロットを何度かctrlクリックすることで全て取り出すことができるようになります。\nまた/dank/null/を単体クラフトすることで中身を全て消去できます。\n\nもし丸石を破棄したくなければ/dank/null/の代わりにドロワーを使うのも手です。\nこのModPackではドロワーを壊しても中身が保持されるのでバックパック代わりになります。\n\n\n余談その1\n/dank/null/はGregTechの採掘を快適にしたいという強い要望によってこのModPackに開発中盤で導入された。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "danknull:dank_null_0"
+      },
+      "name:8": "実質バックパック"
+    }
+  },
+  "questID:3": 25,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "danknull:dank_null_0"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

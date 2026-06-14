@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    493
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "ULV回路はAE2の1K_MEストレージコンポーネントでそれなりに使います。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 626,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "今NANDは何度?",
+      "questlogic:8": "OR"
+    }
+  },
+  "questID:3": 464,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 626,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

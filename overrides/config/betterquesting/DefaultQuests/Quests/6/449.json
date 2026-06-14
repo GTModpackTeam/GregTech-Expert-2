@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    450
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "アルティメットインゴットは究極そうで究極でもない合金です。\nしかしHVで作れる金属の中では最大の耐久値を誇るのでツール素材としての需要があります。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 331,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "Ulti\"met\"なので要注意"
+    }
+  },
+  "questID:3": 449,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 331,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

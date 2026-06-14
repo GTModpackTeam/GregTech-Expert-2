@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    702
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "粗クリスタルチップを鍛造機にかけると9つの粗クリスタルチップパーツになります。\n砕いたものも宝石と同様にオートクレーブで増やせますのでエメラルドはあまり必要では無かったりします。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 701,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "砕きすぎて後悔しがち"
+    }
+  },
+  "questID:3": 686,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 701,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

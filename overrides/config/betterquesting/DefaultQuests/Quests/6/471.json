@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    458,
+    461
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "HVエネルギーハッチはマルチブロックを直接HV電源で動かすのに使います。\n主に工業用電気炉と大型化学反応炉で使うでしょう。\n\nそして工業用電気炉を2つのエネルギーハッチでEVにアップグレードし、ニクロムコイルの作成に備えましょう(§mそんなことより電力がきつい§r)。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1213,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "いつものパターン",
+      "tasklogic:8": "OR"
+    }
+  },
+  "questID:3": 471,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1213,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

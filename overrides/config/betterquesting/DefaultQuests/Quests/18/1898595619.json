@@ -1,0 +1,73 @@
+{
+  "preRequisiteTypes:7": [
+    0,
+    1,
+    1
+  ],
+  "preRequisites:11": [
+    619,
+    669,
+    1759778029
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "並列処理数を257以上にできるようになりました。\n最大へ列処理数が跳ね上がりましたが、先に電力の方が限界を迎えるのでしょう...。\n§mもし16,777,216並列で動かせた場合、ぜひスクリーンショットの共有を！§r",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 21610,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "先に電力が上限を迎えそう"
+    }
+  },
+  "questID:3": 1898595619,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 21610,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 21611,
+          "id:8": "gregtech:machine"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 21612,
+          "id:8": "gregtech:machine"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 21613,
+          "id:8": "gregtech:machine"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 21614,
+          "id:8": "gregtech:machine"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 21615,
+          "id:8": "gregtech:machine"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 21616,
+          "id:8": "gregtech:machine"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "Damage:2": 21617,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    364
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "オートクレーブは鉱石処理の最後のステップとして登場し、何種類かの宝石の粉を宝石に戻す役割を持ちます。\n\nオートクレーブの処理はとても遅く電力を多く消費するので、今の段階では宝石の鉱石を砕くこと自体推奨されません。\n\nオートクレーブはHV時代で必要になるので今必要がないと感じたらそれまで待つのも手です。\n\n\n余談その1\nオートクレーブは稼働中でない時も光り続けている場合があるが(このModPackでは光らない)、これは現実世界でオートクレーブを稼働させる前に予め加熱しておくために起動させておくことに由来する",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 125,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "宝石育成シミュレーション"
+    }
+  },
+  "questID:3": 359,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 125,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 126,
+          "id:8": "gregtech:machine"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 127,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

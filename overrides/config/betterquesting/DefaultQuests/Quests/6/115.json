@@ -1,0 +1,82 @@
+{
+  "preRequisites:11": [
+    458
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "コンパクトマシンは最小3x3x3から最大13x13x13の大きさを持つ空間を作成できるマシンです。\n例えばとあるラインを中に押し込んで取り回しを工場ラインの良くしたり、メイン作業エリアにしたり、考え次第で色々な使い道があります。\n\nただし電力を引き込む方法がAEネットワークで行うか、コンパクトマシンの中で発電するか、一度RFに変換して再度EUに変換するかの3択になります。\nAEネットワークの行う場合は専用のコネクタがあるので、詳しくはAEのクエストで確認してください。\n\nちなみにIVで最大サイズを作成できるため、その電圧に到達後でも構いません。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "compactmachines3:psd"
+      },
+      "name:8": "ちっちゃくなっちゃった"
+    }
+  },
+  "questID:3": 115,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "compactmachines3:psd"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "entryLogic:8": "OR",
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "compactmachines3:tunneltool"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "compactmachines3:redstonetunneltool"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "entryLogic:8": "OR",
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "compactmachines3:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "compactmachines3:machine"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "compactmachines3:machine"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "compactmachines3:machine"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "compactmachines3:machine"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "id:8": "compactmachines3:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

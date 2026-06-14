@@ -1,0 +1,33 @@
+{
+  "preRequisiteTypes:7": [
+    1
+  ],
+  "preRequisites:11": [
+    103
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 273,
+        "id:8": "gregtech:meta_crushed_purified"
+      },
+      "name:8": "Purified Sheldonite Ore"
+    }
+  },
+  "questID:3": 76,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 273,
+          "id:8": "gregtech:meta_crushed_purified"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

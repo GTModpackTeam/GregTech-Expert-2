@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    677
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "量子処理メインフレームは勿論LuVの回路組立機の素材として使うほか、核融合炉の素材にもなります。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 639,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "最初のZPM回路",
+      "questlogic:8": "OR"
+    }
+  },
+  "questID:3": 661,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 639,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    536
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "ME流体ターミナルではMEネットワークに流体がどれだけ入っているか確認することが出来る他、バケツで流体をクリックすることで流体をネットワークから取り出すこともできます。\n\nMEネットワークの流体残量をモニターしたいのなら\nターミナルではなくME流体ストレージモニターを使った方が効果的かもしれません。\nストレージモニターを設置して流体入りのバケツで右クリックすると監視したい流体を設定できます。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 520,
+        "id:8": "appliedenergistics2:part"
+      },
+      "name:8": "カラフルGUI"
+    }
+  },
+  "questID:3": 534,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 520,
+          "id:8": "appliedenergistics2:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

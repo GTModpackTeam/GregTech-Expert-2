@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    409
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "前のクエストを読んでいればすんなり理解できる内容ですが、原油を蒸留すると硫化された燃料が獲得できます。\n\n硫化水素は電解槽で完全にリサイクルすることができ、化学反応機と電解槽を隣り合うように設置するだけで自動化できます。\nスクリュードライバーで搬出面からの搬入を有効化するのを忘れないで下さい。\n\n軽油はいい電源になりますが、もっとよい発電手段がこの先のクエストにあります。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "sulfuric_light_fuel"
+        }
+      },
+      "name:8": "くさい",
+      "tasklogic:8": "OR"
+    }
+  },
+  "questID:3": 404,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 1,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "light_fuel"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

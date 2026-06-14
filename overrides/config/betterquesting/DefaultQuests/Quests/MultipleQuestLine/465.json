@@ -1,0 +1,52 @@
+{
+  "preRequisites:11": [
+    480,
+    294
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "4アンペアのMV電力用ケーブルは魅力的ですが、多分現時点では必要ないでしょう。\n必要になったらいつでも作れることだけ覚えておきましょう。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 425,
+        "id:8": "gregtech:wire_single"
+      },
+      "name:8": "MV超電導ワイヤー"
+    }
+  },
+  "questID:3": 465,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 425,
+          "id:8": "gregtech:wire_single"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 425,
+          "id:8": "gregtech:wire_double"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 425,
+          "id:8": "gregtech:wire_quadruple"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 425,
+          "id:8": "gregtech:wire_octal"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 425,
+          "id:8": "gregtech:wire_hex"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

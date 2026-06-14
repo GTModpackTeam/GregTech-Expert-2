@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    268,
+    339,
+    346,
+    347
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "最初の電子回路を3つ作りましょう。\n(3つ作らないと最初の機械を動かすことができません。)\n\nこのクエストとLVモーターのクエストを終わらせることでLV時代が始まります。\n\n\n余談その1\nCommunity Packでは3つ目の回路がクエスト報酬として支給される\n羨ましい\n\n余談その2\nModern Industrialization modでも同じ名前の回路がLV機械の素材として要求されるが、こちらはインダクタ、キャパシタ、レジスタを全て使ったLCR回路である\n\n余談その3\nGregicality Legacyではsupracausal Circuit(超因果回路)という名前の回路があったので、Community Packでは昔この回路はsupracasual Circuit(超カジュアル回路)とネタにされていた",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 621,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "LCRのうちRしかない回路",
+      "questlogic:8": "OR"
+    }
+  },
+  "questID:3": 319,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 9,
+          "Damage:2": 2517,
+          "id:8": "gregtech:cable_single"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 3,
+          "Damage:2": 621,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

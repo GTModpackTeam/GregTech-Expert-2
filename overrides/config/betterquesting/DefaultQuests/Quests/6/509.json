@@ -1,0 +1,61 @@
+{
+  "preRequisites:11": [
+    474
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "MVと同じくHVにも中間素材があります。\n\n作製するのが苦痛だった傷のない宝石は作製するのが苦痛なエンダーアイに置き換わりました。\n\nモーターの作製には2xの銀のケーブルが必要です、筐体と機械には金のケーブルが必要です。\n\nエレクトロチンの分解と鉱石処理を用いてエレクトラムを入手してもいいかもしれません。\nまた、色んな種類の鉱石を化学槽の水銀のレシピで処理して金を入手してもいいかもしれません。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 129,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "楽しいね"
+    }
+  },
+  "questID:3": 509,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 129,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 174,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 159,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 144,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 189,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 219,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 234,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

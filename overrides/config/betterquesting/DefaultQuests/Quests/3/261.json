@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    291
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "モーターはコンベヤーやポンプなどで要求され、様々な時代でもモーターは重要な中間素材です。\nなので作り置きや複数個を纏めて作成して楽をしましょう。\n§mただしこのULV時代では作り置きは不要です。§r\n\n\n余談その1\nタイトルで書いてある通り、このクエストと派生のクエストで要求されているアイテムはGTCEu製ではなくGTExpert Core製です。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 11,
+        "id:8": "gtexpert:meta_item_1"
+      },
+      "name:8": "GTCEu製ではない",
+      "tasklogic:8": "OR"
+    }
+  },
+  "questID:3": 261,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 11,
+          "id:8": "gtexpert:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

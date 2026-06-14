@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    364
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "梱包機は極小の粉と小さな粉を通常の粉にしたり、ナゲットをインゴットにしたりできます。\n逆の処理もできますし、ワイヤーの太さを変えたりもできます。\nケーブルをワイヤーに戻すこともでき、エネルギーネットワークの再編にも使えます。\n\n後のクエストで鉱石処理にどのようにして組み込むか説明します。\n短くまとめると: ロボットアームを9個ずつ供給するモードにして極小の粉を9個ずつ梱包機に入れれば詰まらないラインができます。\n\n\n余談その1\nGTCEでは逆の処理の為にUnpackagerという別の機械が存在する",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 500,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "ME倉庫のダイエットコーチ"
+    }
+  },
+  "questID:3": 340,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 500,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 501,
+          "id:8": "gregtech:machine"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 502,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

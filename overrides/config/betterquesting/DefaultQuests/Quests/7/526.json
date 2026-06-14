@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    559
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "MEセキュリティーターミナルをケーブルなどでネットワークに繋ぐと\n繋いだ人以外がそのMEネットワークにアクセスすることができなくなります。\n\nもし繋いだ人以外にMEネットワークにアクセスさせたい場合は、その人に生体認証カードを持ってもらってシフト右クリックで登録させて、繋いだ人がそのカードをセキュリティーターミナルの登録スロットに入れて権限を設定してから\n最後にカードをターミナルの通常スロットに入れなおせば大丈夫です。\n\n後々ワイヤレスターミナルを使うときに必要になるのでシングルプレイでも作る必要があります。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:security_station"
+      },
+      "name:8": "チャンク保護していれば多分いらない"
+    }
+  },
+  "questID:3": 526,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:security_station"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

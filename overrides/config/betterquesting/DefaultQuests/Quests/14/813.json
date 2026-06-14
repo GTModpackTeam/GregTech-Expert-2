@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    805
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "enderio:block_cap_bank",
+        "tag:10": {
+          "enderio:energy:3": 50000000
+        }
+      },
+      "name:8": "Creative Capacitor Bank"
+    }
+  },
+  "questID:3": 813,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "enderio:block_cap_bank",
+          "tag:10": {
+            "enderio:energy:3": 50000000
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:creative_energy_cell"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

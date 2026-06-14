@@ -1,0 +1,23 @@
+{
+  "preRequisites:11": [
+    50
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "このModPackの推奨難易度はハードです。\n\n戦闘難易度こそ高いですがFTB Utilsのクエストにあるとおり/backコマンドが使えたり/sethomeが使えたりするので、戦闘でストレスが貯まることはあまりないと思われます。\nただしミニマップテレポートなどチート系の使用は非推奨です。\n\nまたこのModPackはピースフルでクリアも一応は可能になっています。\nconfigファイルの gtexpert.cfg にある peacefulFlag を true にすることで一部レシピが変更されます。\n\n\n余談その1\nいまとなっては何故ハード推奨にしていたか忘れ去れている。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4,
+        "id:8": "minecraft:skull"
+      },
+      "name:8": "ハード推奨"
+    }
+  },
+  "questID:3": 26,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

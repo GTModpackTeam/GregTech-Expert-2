@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    67
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "硫黄をネザーから掘ってきましょう。\n事前に火炎耐性のポーションを飲むと安全です。\n\n\n余談その1\nGregTech5には鉱脈とは別に沢山の小さな鉱石がオーバーワールド内に存在したので、そこで硫黄を沢山採掘することでネザーの鉱脈を回避することが可能だった。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 103,
+        "id:8": "gregtech:meta_dust"
+      },
+      "name:8": "ネザー温泉の素"
+    }
+  },
+  "questID:3": 54,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 103,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

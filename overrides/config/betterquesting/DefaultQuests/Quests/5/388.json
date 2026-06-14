@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    442,
+    386
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "LVバッテリーバッファーと2つのLVエネルギーハッチは今後使い続けるにはあまりスマートではないのでなんとかしましょう。\n\n電気高炉を1つのMVエネルギーハッチでアップグレードすれば、MV発電機を変圧器なしで運用することができます。\n\n電気高炉を2つのMVエネルギーハッチでアップグレードすれば\n高炉がHVにオーバークロックされるのでステンレス鋼が焼けるようになります。",
+      "icon:10": {
+        "Count:3": 2,
+        "Damage:2": 1212,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "ULPICをよく見るとうっすら模様がある"
+    }
+  },
+  "questID:3": 388,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 1212,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

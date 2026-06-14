@@ -1,0 +1,90 @@
+{
+  "preRequisiteTypes:7": [
+    0,
+    1
+  ],
+  "preRequisites:11": [
+    18,
+    1759778029
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "コークス炉の強化版です。底面25ブロックに使うブロックによって性能が変化します。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 21521,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "対大型ボイラー"
+    }
+  },
+  "questID:3": 107046400,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 21521,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1652,
+          "id:8": "gregtech:machine"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1651,
+          "id:8": "gregtech:machine"
+        },
+        "3:10": {
+          "Count:3": 167,
+          "Damage:2": 8,
+          "id:8": "gregtech:metal_casing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "entryLogic:8": "OR",
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 25,
+          "Damage:2": 8,
+          "id:8": "gregtech:metal_casing"
+        },
+        "1:10": {
+          "Count:3": 25,
+          "Damage:2": 1,
+          "id:8": "gregtech:steam_casing"
+        },
+        "2:10": {
+          "Count:3": 25,
+          "id:8": "gregtech:metal_casing"
+        },
+        "3:10": {
+          "Count:3": 25,
+          "id:8": "gregtech:steam_casing"
+        },
+        "4:10": {
+          "Count:3": 25,
+          "Damage:2": 3,
+          "id:8": "gregtech:steam_casing"
+        },
+        "5:10": {
+          "Count:3": 25,
+          "Damage:2": 4,
+          "id:8": "gregtech:metal_casing"
+        },
+        "6:10": {
+          "Count:3": 25,
+          "Damage:2": 2,
+          "id:8": "gregtech:steam_casing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

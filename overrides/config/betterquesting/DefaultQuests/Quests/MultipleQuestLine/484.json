@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    488,
+    505
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "最初のIV回路です。おめでとうございます。\n\nこの回路はEV時代で使います。\n\n\n余談その1\nメインフレームのテクスチャはIBM zEnterpriseのメインフレームの画像が元ネタである。\nhttps://www.datacenterknowledge.com/archives/2010/07/22/roundup-ibms-new-zenterprise-mainframe",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 631,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "キミの素敵なメインフレーム",
+      "questlogic:8": "OR"
+    }
+  },
+  "questID:3": 484,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 631,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

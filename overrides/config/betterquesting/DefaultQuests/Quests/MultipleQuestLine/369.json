@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    363,
+    313
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "アルミニウムはMVマシン筐体の主な素材です。\n\nMVの電解槽を作れさえすればサファイア以外の色んな他の鉱石からアルミニウムの粉を獲得することができるようになります。\n真っ先に目指すのもありです。\n\nただし、MV機械を作るのにはアルミの他にMV回路も必要です。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "変わらない安心感"
+    }
+  },
+  "questID:3": 369,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

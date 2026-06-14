@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    538
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "無線クラフティングターミナルはクラフティングターミナルのワイヤレス版です。無線ターミナル系の中で特に需要が高いでしょう。\n\n\n余談その1\n無線クラフティングターミナルも同様でAE2UEL v0.56.7にて純正品が登場した。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:wireless_crafting_terminal",
+        "tag:10": {}
+      },
+      "name:8": "赤レンジャー",
+      "tasklogic:8": "OR"
+    }
+  },
+  "questID:3": 560,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:wireless_crafting_terminal",
+          "tag:10": {}
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

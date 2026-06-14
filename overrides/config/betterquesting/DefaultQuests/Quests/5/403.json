@@ -1,0 +1,52 @@
+{
+  "preRequisites:11": [
+    437
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "統合論理回路は新しいLV回路を作るために必要な大事な部品です。\n加工時間が遅いので沢山作っておきましょう。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 311,
+        "id:8": "gregtech:meta_lens"
+      },
+      "name:8": "論理回路を一つにまとめた"
+    }
+  },
+  "questID:3": 403,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 311,
+          "id:8": "gregtech:meta_lens"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 568,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 593,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

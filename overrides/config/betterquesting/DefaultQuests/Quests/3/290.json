@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    261
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "コンベヤーモジュールは機械またはパイプに貼り付けるとカバーとしてアイテムを搬入出します。\nまた、アイテムパイプの優先度を無視して繋がった全てのコンテナに順番にアイテムを搬出する機能も備えています。\n\nコンベヤーモジュールにはアイテムフィルターを適用することが可能です。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 13,
+        "id:8": "gtexpert:meta_item_1"
+      },
+      "name:8": "ベルトであるとは一言も書かれていない",
+      "tasklogic:8": "OR"
+    }
+  },
+  "questID:3": 290,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 13,
+          "id:8": "gtexpert:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

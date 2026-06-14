@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    693,
+    704
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "核融合炉の本体の材料で1つ使い、マルチブロックの構成要素で4つ使います。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "gregtech:fusion_casing"
+      },
+      "name:8": "EBFには使えない"
+    }
+  },
+  "questID:3": 719,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:fusion_casing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    555
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "プログラム回路カードは、まずパターンに回路を焼く必要があります。その後、そのカードを同じようにインターフェースにセットして自動クラフトを発注することで、対応した番号へ自動的に切り替えることができます。\n\nつまりGCYMのマルチマシンやPA突入前は番号ごとにマシンを用意する必要を無くすことが出来ます。またクリーンルームのような狭い空間でも効果を発揮します。\n\n\n余談その1\n混合インターフェースに差して利用できないバグが長らく仕様としてあるが、これはGTExpert-Coreの更新で対応させている。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "nae2:upgrade"
+      },
+      "name:8": "GCYMやPAまでの繋ぎ"
+    }
+  },
+  "questID:3": 134,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "nae2:upgrade"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

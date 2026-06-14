@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    435
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "処理演算装置は前のレベルの回路よりとても安く簡単に作れる回路です。\n\nここまで作ったらもうHVのタブに移動するべきでしょう。\nただ電力供給を更に増大するならもうしばらくはMV時代にいても大丈夫です。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 629,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "最高じゃないHV回路",
+      "questlogic:8": "OR"
+    }
+  },
+  "questID:3": 396,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 629,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

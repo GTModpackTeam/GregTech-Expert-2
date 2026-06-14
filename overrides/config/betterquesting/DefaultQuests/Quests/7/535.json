@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    515
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "第二の中間素材である4種類の金型を作っていきましょう。\n\n§m金型は隕石からではなくレーザー刻印機から入手できます。\nレンズには先ほど作ったクリスタルを使いましょう。\n100秒*4かかるので面倒かもしれませんが、プログラム回路と同様一度作れば二度と作らなくていいです。§r\n\n\n余談その1\n元々はレーザー刻印機から入手でしたが、GTExpert Coreの追加要素でGTE2 v2.6.4からMoldに切り替わりました。\n\n余談その2\nExtruder Shapeも存在はしているが利用はしていない。\n§m作ったは良いが勿体なくて追加してあるだけ。そのうち役目を貰うでしょう§r",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 101,
+        "id:8": "gtexpert:meta_item_1"
+      },
+      "name:8": "Inscriber解雇"
+    }
+  },
+  "questID:3": 535,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 101,
+          "id:8": "gtexpert:meta_item_1"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 102,
+          "id:8": "gtexpert:meta_item_1"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 103,
+          "id:8": "gtexpert:meta_item_1"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 104,
+          "id:8": "gtexpert:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

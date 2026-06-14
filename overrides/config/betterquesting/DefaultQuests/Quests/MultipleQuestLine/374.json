@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    381,
+    330,
+    319
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "MV回路とアルミニウムを入手することでMV時代に進めます。\n\nそれぞれの電気時代には対応する回路が存在し、改良した電気回路は最初のMVに対応する回路です。\nMVに対応する回路は他に2つ存在します。\n\n次にすべきことは回路組立機を作ってより沢山の回路を安く作ることでしょう。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 622,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "三番目の回路",
+      "questlogic:8": "OR"
+    }
+  },
+  "questID:3": 374,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 622,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

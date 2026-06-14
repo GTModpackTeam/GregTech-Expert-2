@@ -1,0 +1,19 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "GTFOで追加される機械達をまとめてみました。主に農業の自動化や畜産の自動化の機械達です。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:nether_star"
+      },
+      "name:8": "GregTech Food Optionの機械達"
+    }
+  },
+  "questID:3": 844,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

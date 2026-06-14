@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    257,
+    68
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "銅とレッドストーンから赤合金インゴットを焼きましょう\n一見レッドストーンの消費量が多いように思えますが、正常なプレイをしている場合レッドストーン鉱石はクロム獲得の際大量に余る鉱石の筆頭なのでがんがん使っても大丈夫です。\n\n赤合金インゴットはピストンの原料になり、ピストンは他の蒸気機械の原料となります。\n\n\n余談その1\n赤合金は架空の金属でRedPowerという古のmodから輸入されている",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:piston"
+      },
+      "name:8": "Redstone Alloyではない"
+    }
+  },
+  "questID:3": 267,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 2517,
+          "id:8": "gregtech:meta_ingot"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 51,
+          "id:8": "gregtech:meta_gear_small"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:piston"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

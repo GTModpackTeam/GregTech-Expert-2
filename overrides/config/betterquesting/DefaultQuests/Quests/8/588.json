@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    602
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "HVの化学反応器を増産しましょう。エポキシの自動化に大量に使います。\n大型化学反応炉でも大丈夫です。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 217,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "エポキシ三銃士を連れてきたよ"
+    }
+  },
+  "questID:3": 588,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 217,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

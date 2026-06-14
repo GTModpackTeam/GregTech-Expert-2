@@ -1,0 +1,79 @@
+{
+  "preRequisiteTypes:7": [
+    1
+  ],
+  "preRequisites:11": [
+    1759778029
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§l全く同じ§rアイテムしか入らない、特殊な搬入バスです。",
+      "icon:10": {
+        "Count:3": 2,
+        "Damage:2": 21600,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "ほぼ発展型アセンブリライン専用"
+    }
+  },
+  "questID:3": 1065222315,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 21600,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 21601,
+          "id:8": "gregtech:machine"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 21602,
+          "id:8": "gregtech:machine"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 21603,
+          "id:8": "gregtech:machine"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 21604,
+          "id:8": "gregtech:machine"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 21605,
+          "id:8": "gregtech:machine"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 21606,
+          "id:8": "gregtech:machine"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "Damage:2": 21607,
+          "id:8": "gregtech:machine"
+        },
+        "8:10": {
+          "Count:3": 1,
+          "Damage:2": 21608,
+          "id:8": "gregtech:machine"
+        },
+        "9:10": {
+          "Count:3": 1,
+          "Damage:2": 21609,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

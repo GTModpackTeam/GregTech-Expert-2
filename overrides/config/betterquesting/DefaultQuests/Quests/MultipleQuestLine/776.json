@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    770,
+    730
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "太陽の内部温度は1600万℃(もしくはK)と言われています。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 7,
+        "id:8": "gregtech:wire_coil"
+      },
+      "name:8": "太陽の表面温度よりも熱い"
+    }
+  },
+  "questID:3": 776,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 7,
+          "id:8": "gregtech:wire_coil"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "preRequisiteTypes:7": [
+    0,
+    1
+  ],
+  "preRequisites:11": [
+    691,
+    798
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "draconicevolution:wyvern_helm"
+      },
+      "name:8": "Wyvern Helm"
+    }
+  },
+  "questID:3": 118,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:wyvern_helm"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:wyvern_chest"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:wyvern_legs"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:wyvern_boots"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

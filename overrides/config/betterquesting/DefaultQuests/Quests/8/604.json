@@ -1,0 +1,63 @@
+{
+  "preRequisites:11": [
+    602
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "白金族元素(PGM)は触媒的な性質を持つ6種類のレアメタルで、ルテニウムロジウムパラジウムオスミウムイリジウムそしてプラチナで構成されます。\nこの元素らは後半の電圧で長期間使うことになるので白金族泥の粉の処理は必ず自動化する必要があります。\n\n最初に、色んなPGMを含む洗浄した鉱石を硝酸で加工することで白金族泥の粉を入手しましょう。\n次に、それらを王水で遠心分離することで各種のPGM塩を得ます。\n\n加工で消費した塩素は粗白金パウダーから完全にリサイクルできます。\n硝酸は粗パラジウムの粉から出てくるアンモニアから若干リサイクルすることができます。\nアンモニアはロケット燃料やPBIで使うのでそちらに取っておいた方がいいですが。\n\n他のPGM塩には独自の小さな処理ラインが設けられていますが、それらは次のクエストで取り上げます。\n\nプラチナとパラジウムはエンドに存在する鉱石からや通常の鉱石処理の副産物として入手することができます。\n\n\n余談その1\nGregicalityとGT:NHには悪名高いプラチナ処理ラインというものが存在する\n気の遠くなる程面倒なそのラインはGT:NHでBartworksによって追加された\nそのコンセプト自体は素晴らしい、しかしGTCEuの後半へのエントリーポイントをより快適にするために、プラチナ処理ラインはGTCEuで大きく易化した\n\n2.8.0から、4番目のコイル素材がタングステンスチールからRTM合金に変更になった。\nこの影響で、EVからプラチナ処理ラインを構築する必要性が出てきた。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 364,
+        "id:8": "gregtech:meta_dust"
+      },
+      "name:8": "知っていますか?「水の王様」",
+      "tasklogic:8": "OR"
+    }
+  },
+  "questID:3": 604,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "aqua_regia"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 6,
+          "Damage:2": 364,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 3,
+          "Damage:2": 299,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "3:10": {
+      "index:3": 3,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 3,
+          "Damage:2": 2058,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    567
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "※蒸留器でのクエストスキップを防ぐ為に全て入手しないと達成できない判定にしています\n\nここには蒸気で接触分解された燃料を蒸留することで一遍に得られる4種類の重要な炭化水素があります。\n\nIV時代に進入する前にこれを建てる必要があるでしょう。\n\n蒸気で分解された軽質燃料を搬入するのが最適解ですが、何を入れるのも自由です。\n\n炭素が大量に出てきて鬱陶しいと思いますが、搬出バスを作りたくない場合マルチブロックのGUIからアイテムの自動廃棄を有効化してしまいましょう。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "benzene"
+        }
+      },
+      "name:8": "燃料蒸留"
+    }
+  },
+  "questID:3": 576,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "benzene"
+        },
+        "1:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "butadiene"
+        },
+        "2:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "ethylene"
+        },
+        "3:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "methane"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

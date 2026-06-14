@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    645,
+    676
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "貴重なインジウムを使ってHPICを作ることで次の電気系統が解禁されます。\nアセンブリラインにも必要です。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 605,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "HP[ | | | | |**** ]"
+    }
+  },
+  "questID:3": 646,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 605,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

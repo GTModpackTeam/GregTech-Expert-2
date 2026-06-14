@@ -1,0 +1,83 @@
+{
+  "preRequisiteTypes:7": [
+    0,
+    1
+  ],
+  "preRequisites:11": [
+    619,
+    1759778029
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "回路工房は、ULV-LuVの各電圧における最高の回路の作成専用の大型機械です。技術の発達により、少ない材料で多くの回路を作成できるようになりました。\n精密作業が必要なため、クリーンルーム内でしか稼働できません。また、電力はレーザーでのみ供給可能であり、通常のエナジーハッチは利用できません。\n稼働には77個必要な部品組立ライン外装のtierがJEIに表示されている最小tierを満たす必要があります。また、通常の大型機械と異なり、レーザー照準ハッチを8個まで利用可能であり、実行電圧を3段階まで昇圧できます。\n\n余談その1\nレシピの記述においてミスが連発し、3度ほどリファクタリングが入っている。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 21516,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "回路専用",
+      "tasklogic:8": "OR"
+    }
+  },
+  "questID:3": 2067124112,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 21516,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "entryLogic:8": "OR",
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 77,
+          "Damage:2": 1,
+          "id:8": "gtconsolidate:component_assembly_line_casing"
+        },
+        "1:10": {
+          "Count:3": 77,
+          "Damage:2": 2,
+          "id:8": "gtconsolidate:component_assembly_line_casing"
+        },
+        "2:10": {
+          "Count:3": 77,
+          "Damage:2": 3,
+          "id:8": "gtconsolidate:component_assembly_line_casing"
+        },
+        "3:10": {
+          "Count:3": 77,
+          "Damage:2": 4,
+          "id:8": "gtconsolidate:component_assembly_line_casing"
+        },
+        "4:10": {
+          "Count:3": 77,
+          "Damage:2": 5,
+          "id:8": "gtconsolidate:component_assembly_line_casing"
+        },
+        "5:10": {
+          "Count:3": 77,
+          "Damage:2": 6,
+          "id:8": "gtconsolidate:component_assembly_line_casing"
+        },
+        "6:10": {
+          "Count:3": 77,
+          "Damage:2": 7,
+          "id:8": "gtconsolidate:component_assembly_line_casing"
+        },
+        "7:10": {
+          "Count:3": 77,
+          "Damage:2": 8,
+          "id:8": "gtconsolidate:component_assembly_line_casing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

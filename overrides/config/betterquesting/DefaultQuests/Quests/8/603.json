@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    615
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "ナノCPUウェハーは通常のCPUウェハーにグロウストーンとカーボン繊維を注入することで作製できます。\nナノシリーズの回路を作るのに大量に必要になります。\n\n高レベルのポリマーを使えばカーボン繊維の製造量を増やすことができます。\nエポキシシート一枚で一スタック作れます。\n\nグロウストーンを掘りたくなかったらJEIを漁ってみましょう。\n強そうな入手源がきっと見つかります。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 594,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "小さすぎて見えなぁぁぁい!!"
+    }
+  },
+  "questID:3": 603,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 499,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 566,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 594,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

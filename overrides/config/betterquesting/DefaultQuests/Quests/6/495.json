@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    451
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "ブレイズを殺すことでブレイズパウダーを入手できますが、他の手段で入手したい場合もあると思います。\n\nブレイズパウダーを人工的に作るためには、炭素の粉と硫黄の粉をHVの化学反応器で混ぜ合わせる必要があります。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:blaze_powder"
+      },
+      "name:8": "砕いたポテト"
+    }
+  },
+  "questID:3": 495,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:blaze_powder"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    418
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "このルートでは植物由来の物質が必要です。\n\n苗木は醸造機で植物球に加工できます。\n製造量は大きいですが加工速度は遅いです。\nその他に、植物球をバイオチャフにしてそれを醸造機か熱分解炉にかけるという手もあります。\n熱分解炉の方が効率的です。\n\nHV粉砕機を作るまで粉砕の工程からはバイオチャフを一度に1個しか入手できません。\n\n\n余談その1\n植物球とバイオチャフはIC2を起源としている\nIC2exではこの変な方法でバイオマスをバイオガスにして電力にできたが、実用化するためにはあまりにも大量の設備が必要だった",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 439,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "発電に使わないで"
+    }
+  },
+  "questID:3": 425,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 439,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 440,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "biomass"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

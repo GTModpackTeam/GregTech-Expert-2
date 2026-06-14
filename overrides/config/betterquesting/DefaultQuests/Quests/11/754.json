@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    727
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "作るには相応の素材が必要です。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 208,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "こっちの研究は楽"
+    }
+  },
+  "questID:3": 754,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 208,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 223,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 238,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

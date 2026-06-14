@@ -1,0 +1,72 @@
+{
+  "preRequisites:11": [
+    6
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "AppleCoreの導入によりバニラの食べ物は食べれば食べるほど満腹度回復量が減るようになりました。\nまたランチバッグのクエストでも説明されている通り、様々な食物を食べる必要があります。\nその中でもパンは色々な具材を挟むことで種類をかさ増しできます。\n\n作成方法は現実と同じように小麦を砕いて塩をまぶしてパン生地にし、整形して焼き上げればようやくパンができます。\n初歩的なオーブンにはこれ以外にも沢山のレシピがあるので是非試してみて下さい。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:bread"
+      },
+      "name:8": "イースト菌100%オフ"
+    }
+  },
+  "questID:3": 20,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 50,
+          "id:8": "gregtechfoodoption:gtfo_meta_item"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "entryLogic:8": "OR",
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 82,
+          "id:8": "gregtechfoodoption:gtfo_meta_item"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 45,
+          "id:8": "gregtechfoodoption:gtfo_meta_item"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 46,
+          "id:8": "gregtechfoodoption:gtfo_meta_item"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "entryLogic:8": "OR",
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 87,
+          "id:8": "gregtechfoodoption:gtfo_meta_item"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:bread"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 51,
+          "id:8": "gregtechfoodoption:gtfo_meta_item"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

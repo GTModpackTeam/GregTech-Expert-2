@@ -1,3 +1,445 @@
+# v2.8.3
+## Move mods
+- Baubles-LTS (1.0.6.0) -> BubblesEX (1.6.5)
+- Bring Me The Rings! (0.4) -> BubblesEX (1.6.5)
+
+## Delete mods
+- AE2 Wireless Terminal-LTS
+- AE2 Wireless Crafting Terminal
+- AE2 Wireless Fluid Terminal
+- AE2 Wireless Interface Terminal
+- AE2 Wireless Pattern Terminal
+- p455w0rd's AE2 Wireless Terminals Patch
+
+## Update mods
+- AE2FluidCraft-Rework-Unofficial (2.7.9 -> 2.7.10)
+- AE2UEL Wireless Universal Terminal (1.2.8 -> 1.2.10)
+- Advanced Backups Patch (1.0.3 -> 1.0.6)
+- Better Questing Unofficial (4.2.7 -> 4.3.2)
+- Chibi (5.31 -> 5.33)
+- Fixeroo (2.3.6 -> 2.3.7)
+- Flare (0.7.0 -> 0.8.0)
+- Forgelin-Continuous (2.3.10.1 -> 2.3.20.0)
+- GTConsolidate (1.1.3.5 -> 1.1.4.2)
+- GTExpertCore (2.7.4 -> 2.7.8)
+- GTMoreTools (1.1.2 -> 1.3.3)
+- HadEnoughItems (4.27.1 -> 4.30.3)
+- Hot or Not GTCEu (1.3.0 -> 1.4.0)
+- Inventory Bogo Sorter (1.6.2 -> 1.6.4)
+- Implosion No Bomb (1.1.0 -> 1.1.1)
+- Lazy AE2 Patch (1.1.0 -> 1.2.2)
+- LemonSkin (3.1.0 -> 4.0.0)
+- ModularUI (3.1.4 -> 3.1.6)
+- RandomComplement (1.8.8 -> 1.9.3-fix)
+- Roughly Enough IDs (2.2.4 -> 2.3.1)
+- Universal Tweaks (1.19.1 -> 1.20.1)
+- VintageDisplay (1.6 -> 1.7)
+
+* * *
+
+# v2.8.2
+## Downgrade mods
+- RandomComplement (1.8.9 -> 1.8.8)
+
+## New mods
+- Advanced Backups Patch (1.0.3)
+
+## Enable mods
+- Advanced Backups
+
+## Update mods
+- Chibi (5.30 -> 5.31)
+- Forgelin-Continuous (2.3.0.0 -> 2.3.10.0)
+- GTConsolidate (1.1.3 -> 1.1.3.5)
+- GTExpertCore (2.7.2 -> 2.7.4)
+- GTMoreTools (1.1.1 -> 1.1.2)
+- GregTech Wood Processing (1.2.4 -> 1.2.5)
+- CraftPresence (2.7.0 -> 2.7.1)
+- Inventory Bogo Sorter (1.6.1 -> 1.6.2)
+- ModularUI (3.1.2 -> 3.1.4)
+- The One Probe Community Edition (1.3.6 -> 1.3.7-fix1)
+- UniLib (1.2.0 -> 1.2.1)
+- VintageDisplay (1.5 -> 1.6)
+
+* * *
+
+# v2.8.1
+## Move mods
+- AE2 Fluid Crafting Rework -> AE2FluidCraft-Rework-Unofficial (2.7.9)
+- The One Probe -> The One Probe Community Edition (1.3.6)
+- TOP Addons -> TopAllDependents (1.4)
+
+## New mods
+- Gregic Probe: CEu (1.4.5)
+- GTMoreTools (1.1.1)
+- Better Builder's Wands (0.13.2)
+
+## Update mods
+- AE2UEL Wireless Universal Terminal (1.2.7 -> 1.2.8)
+- Better Questing Unofficial (4.2.6 -> 4.2.7)
+- Forgelin-Continuous (2.2.21.0 -> 2.3.0.0)
+- GTConsolidate (1.1.1 -> 1.1.3)
+- GTExpertCore (2.5.4 -> 2.7.2)
+- GregTech Food Option (1.12.7.1 -> 1.12.8)
+- Had Enough Items (4.29.12 -> 4.29.15)
+- Inventory Bogo Sorter (1.5.0 -> 1.6.1)
+- RandomComplement (1.8.2 -> 1.8.9)
+- Red Core (0.7 Dev 1 -> 0.7.1)
+- Roughly Enough IDs (2.2.3 -> 2.2.4)
+- LemonSkin (3.0.2 -> 3.1.0)
+- ModularUI (3.0.5 -> 3.1.2)
+- Universal Tweaks (1.17.0 -> 1.18.0)
+
+* * *
+
+# 2.8.0
+## Modpack migration
+- CoreMod fixes issues with NAE2.
+    1. Delete the `bansoukou` folder.
+    2. Delete `nae2-1.6.4-patched.jar` in the folder named `mods`.
+    3. Rename `nae2-1.6.4.disabled` to `nae2-1.6.4.jar` in the folder named `mods`.
+
+## Modpack information
+- Many Quests have been fixed.
+- Fix quests related to NBT tags.
+
+## New recipes
+### AE2 Unofficial Extended Life
+- Wireless Interface Terminal
+- Wireless Universal Terminal
+
+## Fix recipes
+### AE2 Fluid Crafting Rework
+- Wireless Fluid Interface Terminal
+
+## Update recipes
+### AE2 Sutff Unofficial
+- Wireless Connector
+- Wireless Connector Hub
+
+### Flux Networks
+- Flux Controller
+- Flux Plug
+- Flux Point
+
+## Disable mods
+- Advanced Backups
+- Flare (Spark for 1.12.2)
+
+## Move mods
+- AppleSkin -> LemonSkin (3.0.2)
+- NetherPortalFix -> Universal Tweaks (1.17.0)
+- Ender Storage continuation -> EnderStorage Continuation2 (2.7.0)
+
+## Remove mods
+- Bansoukou (4.3.1)
+- Valkyrie (0.3)
+- VintageFix (0.6.2)
+
+## New mods
+- AE2UEL Wireless Universal Terminal (1.2.7)
+- Key Binding Patch (1.3.3.3)
+- RandomComplement (1.8.2)
+- SussyPatches (1.9.2)
+- VintageDisplay (1.5)
+
+## Update mods
+- AE2 Unofficial Extended Life (0.56.5 -> 0.56.7)
+- AE2 Stuff Unofficial (0.9 -> 0.10)
+- Alfheim (1.5 -> 1.6)
+- Betterer P2P (1.3.2 -> 1.3.3)
+- CraftPresence (2.6.2 -> 2.7.0)
+- Chibi (5.29 -> 5.30)
+- EZStorage 2 Patch (1.4.1 -> 1.5.0)
+- Fixeroo (2.3.6b -> 2.3.6)
+- Forgelin-Continuous (2.2.0.0 -> 2.2.21.0)
+- GTConsolidate (1.0.7.7 -> 1.1.1)
+- GTExpertCore (2.4.11 -> 2.5.4)
+- Inventory Bogo Sorter (1.4.8 -> 1.5.0)
+- JEI Utilities (0.2.11 -> 0.2.13)
+- Had Enough Items (4.28.1 -> 4.29.12)
+- Hot or Not GTCEu (1.2.0 -> 1.3.0)
+- MixinBooter (9.4 -> 10.7)
+- ModularUI (2.4.3 -> 3.0.5)
+- PackagedAuto (1.0.19.66 -> 1.0.23.73)
+- UniLib (1.1.1 -> 1.2.0)
+- Universal Tweaks (1.14.0 -> 1.17.0)
+
+* * *
+
+# v2.7.12
+## New mods
+- Hot or Not Plus (1.1.10)
+- Hot or Not GTCEu (1.2.0)
+
+## Update mods
+- Alfheim Lighting Engine (1.4 -> 1.5)
+- Chibi (5.28 -> 5.29)
+- CraftPresence (2.5.4 -> 2.6.2)
+- Forgelin-Continuous (2.1.10.0 -> 2.2.0.0)
+- Fixeroo (2.3.5-hotfix -> 2.3.6b)
+- GTExpertCore (2.4.8 -> 2.4.11)
+- GregTech Food Option (1.12.4 -> 1.12.7.1)
+- GTConsolidate (1.0.3.1 -> 1.0.7)
+- Had Enough Items (4.27.3 -> 4.28.1)
+- libnice (1.2.1 -> 1.2.2)
+- OpenComputers (1.8.8 -> 1.8.9)
+- PackagedAuto (1.0.18.63 -> 1.0.19.66)
+- RenderLib (1.4.3 -> 1.4.5)
+- Red Core (0.6 -> 0.7)
+- RoughlyEnoughIDs (2.2.2 -> 2.2.3)
+- StellarCore (1.5.21 -> 1.5.22)
+- UniLib (1.0.5 -> 1.1.1)
+- Valkyrie (0.2 -> 0.3)
+- VintageFix (0.5.5 -> 0.6.2)
+
+* * *
+
+# v2.7.11
+## Modpack information
+### Fix
+- No animations for the working machines in [#412](https://github.com/GTModpackTeam/GregTech-Expert-2/issues/412)
+
+## Update mods
+- Entity Culling (6.4.3 -> 6.5.0)
+- Chibi (5.23 -> 5.28)
+- CraftPresence (2.5.3 -> 2.5.4)
+- Fixeroo (2.3.4 -> 2.3.5-hotfix)
+- GTConsolidate (1.0.1.1 -> 1.0.3.1)
+- GTExpertCore (2.4.6 -> 2.4.8)
+- GregTech Wood Processing (1.2.3 -> 1.2.4)
+- Had Enough Items (4.27.0 -> 4.27.3)
+- OpenComputers (1.8.7 -> 1.8.8)
+- PackagedAuto (1.0.15.58 -> 1.0.18.63)
+- RenderLib (1.3.5 -> 1.4.3)
+- RoughlyEnoughIDs (2.2.1 -> 2.2.2)
+- VintageFix (0.5.1 -> 0.5.5)
+
+* * *
+
+# v2.7.10
+## Modpack information
+- Fixed some quests.
+- Adjusted the generation chance of Draconium ore generated on Chaos Island.
+- Galena and Realgar veins added on End Island.
+    - However, it is not generated in Chaos Island.
+
+## Remove mods
+- Better Advancements (0.1.0.77)
+
+## Move mods
+Shadowfacts' Forgelin (1.8.4) -> Forgelin-Continuous (2.1.10.0)
+
+## New mods
+- GTConsolidate (1.0.1.1)
+
+## Update mods
+- Advanced Backups (3.6.4 -> 3.7.1)
+- CraftPresence (2.5.2 -> 2.5.3)
+- Chibi (5.20 -> 5.23)
+- Fixeroo (2.3.2 -> 2.3.4)
+- GregTech Food Option (1.12.3 -> 1.12.4)
+- GTExpertCore (2.4.0 -> 2.4.6)
+- GTWoodProcessing (1.2.2 -> 1.2.3)
+- HadEnoughItems (4.25.5 -> 4.27.1)
+- Nutrition Unofficial Extended Life (4.13.0 -> 4.16.0)
+- OpenComputers (1.8.6 -> 1.8.7)
+- Red Core (0.5.1 -> 0.6)
+- UniLib (1.0.4 -> 1.0.5)
+- Universal Tweaks (1.13.0 -> 1.14.0)
+
+## Update resourcepack
+- GhaTech (1.6 -> 1.7)
+
+* * *
+
+# v2.7.9
+## Modpack information
+- ProjectRed mods can no longer be downloaded automatically, so they are now obtained at startup.
+    - Also, the system automatically closes after the DL is completed, but this is a specification.
+- Sawmill switched from GTExpertCore to GTWoodProcessing.
+
+## New mods
+- GTWoodProcessing (1.2.2)
+
+## Update mods
+- Advanced Backups (3.6.3 -> 3.6.4)
+- Better Questing Unofficial (4.2.4 -> 4.2.6)
+- CraftPresence (2.5.1 -> 2.5.2)
+- GregTech Food Option (1.12.1 -> 1.12.3)
+- GTExpertCore (2.3.2 -> 2.4.0)
+- Had Enough Items (4.25.5 -> 4.26.2)
+- Mouse Tweaks Unofficial (3.1.4 -> 3.1.5)
+- PackagedAuto (v1.0.13.55 -> v1.0.13.58)
+- StellarCore (1.5.4 -> 1.5.21)
+- Storage Drawers (5.5.2 -> 5.5.3)
+- UniLib (1.0.3 -> 1.0.4)
+- Universal Tweaks (1.12.0 -> 1.13.0)
+
+* * *
+
+# v2.7.8
+## Modpack information
+- Fix titanium quest.
+- Fix Void Portal quest.
+
+## Update mods
+- Better Questing Unofficial (4.2.3 -> 4.2.4)
+- CraftPresence (2.5.0 -> 2.5.1)
+- GregTech Food Option (1.12.0 -> 1.12.1)
+- Had Enough Items (4.25.5 -> 4.26.1)
+- PackagedAuto (v1.0.13.54 -> v1.0.13.55)
+- StellarCore (1.3.4 -> 1.5.4)
+- Storage Drawers (5.5.1 -> 5.5.2)
+- UniLib (1.0.2 -> 1.0.3)
+
+* * *
+
+# v2.7.7
+## Modpack information
+- Add alarm quest.
+- Fix PBF quest.
+- **SLOT-RELATED CHANGES HAVE BEEN MADE TO EQUIPMENT BY TOOLBELT MOD!!**
+    - Dedicated slots for Toolbelt have been removed.
+    - If you have placed it in a dedicated slot, please move it before updating.
+
+## Add resourcepack
+- Latest Textures (v1)
+
+## Update resourcepack
+- GhaTech (1.5 -> 1.6)
+
+## Move mods
+- EnhancedP2P (1.2.3) -> Betterer P2P (1.3.2)
+
+## Add mods
+- Bring Me The Rings! (0.4)
+- ImplosionNoBomb (1.1.0)
+- StellarCore (1.3.4)
+
+## Remove mods
+- Server Tab Info
+
+## Update mods
+- Advanced Backups (3.6 -> 3.6.3)
+- AE2 Fluid Crafting Rework (2.6.4 -> 2.6.6)
+- Alfheim Lighting Engine (1.3 -> 1.4)
+- Fixeroo (2.0 -> 2.3.2)
+- Gregicality Multiblocks (1.2.10 -> 1.2.11)
+- GTExpertCore (2.2.10 -> 2.3.2)
+- Had Enough Items (4.25.4 -> 4.26.0)
+- MixinBooter (9.1 -> 9.4)
+- OpenComputers (1.8.5 -> 1.8.6)
+- UniLib (1.0.0 -> 1.0.2)
+- UntranslatedItems: AlsoFluids (1.7.0 -> 1.8.0)
+
+* * *
+
+# v2.7.6
+## Modpack information
+- Fix etching quest.
+- Fix cleanroom quest and questline.
+- Fix typo in the quest.
+
+## Modpack migration
+- For those who do not use the method of creating and migrating new instances.
+    - Delete the `nutrients` folder in the `config/nutrition` folder.
+
+## Downgrade mods
+- AE2 Unofficial Extended Life (0.56.6 -> 0.56.5)
+
+## Update mods
+- CraftPresence (2.4.3 -> 2.5.0)
+- GTExpertCore (2.2.9 -> 2.2.10)
+- PackagedAuto (1.0.13.53 -> 1.0.13.54)
+- Storage Drawers (5.5.0 -> 5.5.1)
+
+* * *
+
+# v2.7.5
+## Modpack information
+- Fix HV/LuV Prospector's quest.
+- Fix LV/HV Item magnet quest.
+- ExtraCPUs has decided to fully migrate to NAE2. Please search the factory and make the transition.
+    - Also, Network Visualiser should be changed to one made by AE2 Stuff.
+
+## Update resourcepack
+- GhaTech
+
+## Move mods
+- Extra CPUs (1.2.1) -> Neeve's AE2: Extended Life Additions (1.6.4)
+- AE2 Network Visualiser (1.0.3.0) -> AE2 Stuff Unofficial (0.9)
+
+## Update mods
+- AE2 Fluid Crafting Rework (2.6.2 -> 2.6.4)
+- CraftTweaker (4.1.20.698 -> 4.1.20.700)
+- EnderStorage continuation (2.6.2 -> 2.6.3)
+- GregTech CE Unofficial (2.8.8 -> 2.8.10)
+- Gregicality Multiblocks (1.2.8 -> 1.2.10)
+- GregTech Food Option (1.11.2.1 -> 1.12.0)
+- GTExpertCore (2.2.4 -> 2.2.9)
+- PackagedAuto (1.0.13.49 -> 1.0.13.53)
+- RoughlyEnoughIDs (2.1.1 -> 2.2.1)
+- Universal Tweaks (1.11.0 -> 1.12.0)
+- VintageFix (0.5.0 -> 0.5.1)
+
+* * *
+
+# v2.7.4
+## Modpack information
+- Update Duct Tape quest.
+- Update Blank Pattern quest.
+- Add Programmed Circuit Card quest.
+- Fix Darmstadtium quest.
+- Fix Portable Scanner quest.
+
+## Modpack migration
+- CoreMod fixes issues with DraconicAdditions.
+    1. If there is `Draconic-Additions-1.12.2-1.17.0.45-universal` in the folder `bansoukou`, delete the whole folder.
+    2. Delete `Draconic-Additions-1.12.2-1.17.0.45-universal-patched.jar` in the folder named `mods`.
+    3. Rename `Draconic-Additions-1.12.2-1.17.0.45-universal.disabled` to `Draconic-Additions-1.12.2-1.17.0.45-universal.jar` in the folder named `mods`.
+
+## Fix config
+### Spice of Life
+- Food history will not get reset after every death.
+
+### Nutrition
+- Nutrition will not get reset after every death.
+
+## New recipes
+### AE2 Unofficial Extended Life
+- Blank Pattern
+
+### Neeve's AE2: Extended Life Additions
+- Programmed Circuit Card
+
+## New mods
+- Red Core (0.5.1)
+
+## Update mods
+- Advanced Backups (3.5.2 -> 3.6)
+- AE2 Fluid Crafting Rework (2.5.13 -> 2.6.2)
+- Better Questing Unofficial (4.2.2 -> 4.2.3)
+- Controlling (3.0.12.3 -> 3.0.12.4)
+- CraftPresence (2.3.9 -> 2.4.3)
+- EnderStorage continuation (2.5.0 -> 2.6.2)
+- GregTech Food Option (1.11.1 -> 1.11.2.1)
+- GTExpertCore (2.1.6 -> 2.2.4)
+- Had Enough Items (4.25.4 -> 4.25.5)
+- Neeve's AE2: Extended Life Additions (1.6.2 -> 1.6.4)
+- PackagedAuto (1.0.13.47 -> 1.0.13.49)
+- RenderLib (1.3.4 -> 1.3.5)
+- VintageFix (0.4.2 -> 0.5.0)
+
+## Move mods
+- 燐/Hesperus (0.2.9.3) -> Alfheim Lighting Engine (1.3)
+- It's the little things (1.0.4) -> Valkyrie (0.2)
+
+## Del mods
+- Nothirium (0.3.4)
+
+* * *
+
 # v2.7.3
 ## Modpack information
 - Update to CEu 2.8.8 and add new quests.
@@ -7,14 +449,14 @@
 - Fix quest issues.
 
 ## Update mods
-- Advanced Backups
-- AE2 Fluid Crafting Rework
-- GregTech CE Unofficial
-- GTExpert-Core
-- Neeve's AE2: Extended Life Additions
-- PackagedAuto
-- Particle Culling
-- Universal Tweaks
+- Advanced Backups (3.5.1 -> 3.5.2)
+- AE2 Fluid Crafting Rework (2.5.12 -> 2.5.13)
+- GregTech CE Unofficial (2.8.7 -> 2.8.8)
+- GTExpertCore (2.1.4 -> 2.1.6)
+- Neeve's AE2: Extended Life Additions (1.6.1 -> 1.6.2)
+- PackagedAuto (1.0.12.46 -> 1.0.12.47)
+- Particle Culling (1.4.2 -> 1.4.3)
+- Universal Tweaks (1.10.0 -> 1.11.0)
 
 * * *
 
@@ -25,23 +467,12 @@
 - Add HV Chainsaw quest.
 
 ## New mods
-- Particle Culling
+- Particle Culling (1.4.2)
 
 ## Update mods
-- Advanced Backups
-- AE2 Fluid Crafting Rework
-- Aqua Acrobatics
-- Better Questing Unofficial
-- CensoredASM
-- ConfigAnytime
-- CraftPresence
-- GTExpert-Core
-- Had Enough Items
-- Modern Splash
-- OpenComputers
-- PackagedAuto
-- RoughlyEnoughIDs
-- VintageFix
+- AE2 Fluid Crafting Rework (2.5.8 -> 2.5.12)
+- Better Questing Unofficial (4.2.1 -> 4.2.2)
+- PackagedAuto (1.0.12.43 -> 1.0.12.46)
 
 * * *
 
@@ -49,17 +480,10 @@
 ## Modpack information
 - Fix quests issues.
 
-## Downgrade mods
-- RoughlyEnoughIDs
-
 ## Update mods
-- AE2 Fluid Crafting Rework
-- Better Questing Unofficial
-- ConfigAnytime
-- GTExpert-Core
-- JourneyMap
-- PackagedAuto
-- VintageFix
+- AE2 Fluid Crafting Rework (2.5.7 -> 2.5.8)
+- Better Questing Unofficial (4.2.0 -> 4.2.1)
+- PackagedAuto (0.11.40 -> 0.11.43)
 
 * * *
 
@@ -68,27 +492,29 @@
 - A major adjustment has been made in food related matter.
     - Thanks to @KatatsumuriPan, @MaimoCh, @hag-hag for his support!!
 
+## New mods
+- Better Questing Unofficial (4.2.0)
+- Nutrition Unofficial Extended Life (4.13.0)
+- Nutrition: GTCEu (1.0.0)
+- ParticleCulling (1.4.2)
+
 ## Remove mods
-- FTB Quests (Forge)
-- Item Filters
+- FTB Quests (1220.9.0.15)
+- Item Filters (1.0.4.2)
 
 ## Move mods
-- FTB Backups (Forge) -> Advanced Backups
+- FTB Backups (1220.9.0.15) -> Advanced Backups (3.5.1)
 
 ## Update mods
-- AE2 Unofficial Extended Life
-- GTExpert-Core
-- PackagedAuto
-- Roughly Enough IDs
-- Universal Tweaks
-
-## New mods
-- Nutrition Unofficial Extended Life
-- Nutrition: GTCEu
-- Better Questing Unofficial
+- Inventory Bogo Sorter (1.4.7 -> 1.4.8)
+- GregTech Food Option (1.11.0.1 -> 1.11.1)
+- JourneyMap (5.7.1 -> 5.7.1p3)
+- Modern Splash (1.3 -> 1.3.1)
+- OpenComputers (1.8.3 -> 1.8.5)
+- RoughlyEnoughIDs (2.0.7 -> 2.1.1)
 
 ## Formally introduced from compatibility mods
-- The Spice of Life
+- The Spice of Life (1.3.12)
 
 * * *
 
@@ -98,26 +524,19 @@
 - Includes multiplayer issues, performance tweaks and mod updates.
 - **ALSO, FUTURE UPDATES WILL BE 2.7.X, AND THE BACKPORTS OF 2.6.X VERSIONS WILL BE DEPRECATED!!**
 
-## New mods
-- Nutrition Unofficial Extended Life
-- Nutrition: GTCEu
-- Particle Culling
-
 ## Update mods
-- Advanced Backups
-- AE2 Fluid Crafting Rework
-- Aqua Acrobatics
-- Better Questing Unofficial
-- CensoredASM
-- ConfigAnytime
-- CraftPresence
-- GTExpert-Core
-- Had Enough Items
-- Modern Splash
-- OpenComputers
-- PackagedAuto
-- RoughlyEnoughIDs
-- VintageFix
+- Advanced Backups (3.4 -> 3.5.1)
+- AE2 Fluid Crafting Rework (2.5.8 -> 2.5.12)
+- Aqua Acrobatics (1.15.3 -> 1.15.4)
+- Chibi (5.19 -> 5.20)
+- ConfigAnytime (2.0 -> 3.0)
+- CraftPresence (2.3.5 -> 2.3.9)
+- GTExpertCore (2.1.1 -> 2.1.4)
+- Had Enough Items (4.25.2 -> 4.25.4)
+- Modern Splash (1.3 -> 1.3.1)
+- OpenComputers (1.8.3 -> 1.8.5)
+- RoughlyEnoughIDs (2.0.7 -> 2.1.1)
+- VintageFix (0.4.1 -> 0.4.2)
 
 * * *
 
@@ -132,7 +551,7 @@
 ## Update mods
 - AE2 Fluid Crafting Rework
 - ConfigAnytime
-- GTExpert-Core
+- GTExpertCore
 - JourneyMap
 - PackagedAuto
 - VintageFix
@@ -162,7 +581,7 @@
 - Inventory Bogo Sorter
 - ModularUI
 - GregTech Food Option
-- GTExpert-Core
+- GTExpertCore
 
 * * *
 
@@ -186,7 +605,7 @@
 - Chest
 
 ## Move mod
-- File Director -> GTExpert-Core
+- File Director -> GTExpertCore
 
 ## Update mods
 - CraftPresence
@@ -203,7 +622,7 @@
 - PackagedAuto
 - GregTech CE Unofficial
 - GregTech Food Option
-- GTExpert-Core
+- GTExpertCore
 
 * * *
 
@@ -213,7 +632,7 @@
 
 ## Update mods
 - GregTech Food Option
-- GTExpert-Core
+- GTExpertCore
 - CraftTweaker
 
 * * *
@@ -259,14 +678,14 @@
 
 ## Update mods
 - CraftPresence
-- GTExpert-Core
+- GTExpertCore
 - AE2 Fluid Crafting Rework
 
 ## Fix recipes
 ### AE2 Unofficial Extended Life
 - ME Drive and ME Controller required Titanium, but changed to BlackSteel.
     - This change eliminates the dilemma of not being able to proceed with AE without Vacuum Freezer.
-- Inscriber Presses switched to Mold for GTExpert-Core.
+- Inscriber Presses switched to Mold for GTExpertCore.
 
 * * *
 
@@ -285,14 +704,14 @@
 - ModularUI
 - CraftTweaker
 - Inventory Bogo Sorter
-- GTExpert-Core
+- GTExpertCore
 
 * * *
 
 # v2.6.2
 ## Update mods
 - GregTech CE: Unofficial
-- GTExpert-Core
+- GTExpertCore
 - Neeve's AE2: Extended Life Additions
 - Roughly Enough IDs
 - UntranslatedItems: AlsoFluids
@@ -324,7 +743,7 @@
 - GregTech CE: Unofficial
 - Gregicality Multiblocks
 - GregTech Food Option
-- GTExpert-Core
+- GTExpertCore
 - CraftPresence
 - AE2 Unofficial Extended Life
 - AE2 Fluid Crafting Rework
@@ -342,7 +761,7 @@
 ## Formally introduced from compatibility mods
 - AE2 Stuff
 
-## New machine(From GTExpert-Core)
+## New machine(From GTExpertCore)
 - Advanced Chemical Plant
 - Add Advanced Gas Collector
 
@@ -378,8 +797,8 @@
 ## Update mods
 - GregTech CE: Unofficial
 - GregTech Food Option
-- GTExpert-Core
-- CensoredASM
+- GTExpertCore
+- Chibi
 - Modern Splash
 - CraftTweaker
 - ModularUI
@@ -394,7 +813,7 @@
 
 ## Move mods
 - Resource Loader -> TX Loader
-- Zen Utils -> GTExpert-Core
+- Zen Utils -> GTExpertCore
 
 ## Update recipes
 ### AE2 Unofficial Extended Life
@@ -436,9 +855,9 @@
 - Inventory Bogo Sorter
 - CraftTweaker
 - Zen Utils
-- GTExpert-Core
+- GTExpertCore
 - BisectHosting Server Integration Menu
-- CensoredASM
+- Chibi
 - MixinBooter
 - Entity Culling
 
@@ -461,7 +880,7 @@
 # Update mods
 - AE2 Unofficial Extended Life
 - AE2 Fluid Crafting Rework
-- GTExpert-Core
+- GTExpertCore
 - MixinBooter
 - File Director
 
@@ -472,7 +891,7 @@
 ### AE2 Unofficial Extended Life
 - Extended Processing Fluid Pattern Terminal
 
-### GTExpert-Core
+### GTExpertCore
 - Axe of the Wyvern
 - Pickaxe of the Wyvern
 - Shovel of the Wyvern
@@ -482,7 +901,7 @@
 # v2.5.3
 ## Modpack information
 ### To update an existing profile without creating a new profile.
-1. Check the mods folder and delete `gregtech-1.12.2-2.7.3-beta-gte.jar` and `gregtechfoodoption-1.9.3.2-gte.jar`. 
+1. Check the mods folder and delete `gregtech-1.12.2-2.7.3-beta-gte.jar` and `gregtechfoodoption-1.9.3.2-gte.jar`.
 2. In addition, delete `gregtech-1.12.2-2.7.2-beta.jar.disabled` and `gregtechfoodoption-1.9.3.1.jar.disabled`.
 3. Finally, check the `overrides\config\mod-director` and make sure there are no files inside.
 - In case you are wondering, ModPack recommends [MultiMC](https://multimc.org/) or [Prism Launcher](https://prismlauncher.org/).
@@ -496,7 +915,7 @@
 - GregTech CE: Unofficial
 - GregTech Food Option
 - Gregicality Multiblocks
-- GTExpert-Core
+- GTExpertCore
 - CraftTweaker
 - ModularUI
 - Inventory Bogo Sorter
@@ -507,7 +926,7 @@
 - VintageFix
 
 # Del mods
-- CensoredASM
+- Chibi
 
 # Move mods
 - spark -> Spark Unforged
@@ -521,7 +940,7 @@
 - CraftPresence
 - GregTech CE: Unofficial
 - GregTech Food Option
-- GTExpert-Core
+- GTExpertCore
 - EnderCore
 - Ender IO Endergy
 - Ender IO Base
@@ -546,7 +965,7 @@
 ## Update mods
 - AE2 Fluid Crafting Rework
 - GregTech CE: Unofficial
-- GTExpert-Core
+- GTExpertCore
 - CraftPresence
 - dan's Mouse Tweaks
 - VintageFix
@@ -584,10 +1003,10 @@
 - GregTech CE: Unofficial
 - Gregicality Multiblocks
 - GregTech Food Option
-- GTExpert-Core
+- GTExpertCore
 - Inventory Bogo Sorter
 - JEI Utilities
-- CensoredASM
+- Chibi
 - ModularUI
 - Universal Tweaks
 
@@ -615,7 +1034,7 @@
 - Lazy AE2 Patch
 
 ## Update mods
-- GTExpert-Core
+- GTExpertCore
 
 * * *
 
@@ -628,9 +1047,9 @@
 - AE2 Unofficial Extended Life
 - Craft Presence
 - GregTech Food Option
-- GTExpert-Core
+- GTExpertCore
 - Had Enough Items
-- CensoredASM
+- Chibi
 - MixinBooter
 
 ## Del mods
@@ -677,23 +1096,23 @@
 # v2.3.2
 ## Update mods
 - BisectHosting Menu
-- GTExpert-Core
+- GTExpertCore
 - Had Enough Items
-- CensoredASM
+- Chibi
 - ModularUI
 - Zen Utils
 
 ## New mods
 - Extra CPUs
 
-* * * 
+* * *
 
 # v2.3.1
 ## Modpack information
 - Fix for issue where all stand-alone craft were broken.
 
 ## Update mods
-- GTExpert-Core
+- GTExpertCore
 - CraftTweaker
 
 ## New recipes
@@ -714,7 +1133,7 @@
 - GregTech CE: Unofficial
 - Gregicality Multiblocks
 - GregTech Food Option
-- GTExpert-Core
+- GTExpertCore
 - AE2 Unofficial Extended Life
 - AE2 Fluid Crafting Rework
 - OpenComputers
@@ -772,7 +1191,7 @@
 
 # v2.2.3
 ## Update mods
-- GTExpert-Core
+- GTExpertCore
 
 ## Bugfix recipes
 ### Applied Energistics
@@ -818,7 +1237,7 @@
 ## Update mods
 - GregTech CE: Unofficial
 - Gregicality Multiblocks
-- GTExpert-Core
+- GTExpertCore
 - CraftPresence
 
 * * *
@@ -828,7 +1247,7 @@
 - The update history was omitted and has been added to the previous version.
 
 ## Update mods
-- GTExpert-Core
+- GTExpertCore
 - Inventory Bogo Sorter
 
 ## Update lang(ja_jp)
@@ -861,7 +1280,7 @@
 - GregTech CE: Unofficial
 - Gregicality Multiblocks
 - GregTech Food Option
-- GTExpert-Core
+- GTExpertCore
 - CraftTweaker
 - CraftPresence
 - MixinBooter
@@ -900,7 +1319,7 @@
 ## Update mods
 - AE2 Unofficial Extended Life
 - GregTech CE: Unofficial
-- GTExpert-Core
+- GTExpertCore
 - Controlling
 - CraftTweaker
 - Zen Utils
@@ -922,7 +1341,7 @@
 - Fixed problem with server not starting
 
 ## Update mods
-- GTExpert-Core
+- GTExpertCore
 
 * * *
 
@@ -943,7 +1362,7 @@
 - GregTech CE: Unofficial
 - Gregicality Multiblocks
 - GregTech Food Option
-- GTExpert-Core
+- GTExpertCore
 - CraftTweaker
 - AE2 Unofficial Extended Life
 - AE2 Fluid Crafting Rework
@@ -1148,7 +1567,7 @@
 - AE2 Fluid Crafting Rework
 - GregTech CE: Unofficial
 - PackagedAuto
-- CensoredASM
+- Chibi
 - Had Enough Items
 
 * * *
@@ -1168,7 +1587,7 @@
 ## Update mods
 - GregTech CE: Unofficial
 - GregTech Food Option
-- GTExpert-Core
+- GTExpertCore
 - AE2 Unofficial Extended Life
 - AE2 Fluid Crafting Rework
 - CraftPresence
@@ -1193,7 +1612,7 @@
 - GregTech CE: Unofficial(Github: [9883ff9d45b95f9cca85e0c2107328f74d02fdcf](https://github.com/GregTechCEu/GregTech/tree/9883ff9d45b95f9cca85e0c2107328f74d02fdcf))
 - Gregicality Multiblocks
 - GregTech Food Option(Github: [757e3a8836a923691168fcdd714cdcf9987e40b9](https://github.com/bruberu/GregTechFoodOption/tree/757e3a8836a923691168fcdd714cdcf9987e40b9))
-- GTExpert-Core
+- GTExpertCore
 - Inventory Bogo Sorter
 - OpenComputers
 - Zen Utils

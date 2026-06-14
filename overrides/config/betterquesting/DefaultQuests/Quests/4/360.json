@@ -1,0 +1,61 @@
+{
+  "preRequisites:11": [
+    312
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "蒸気時代に作った機械は電気機械にアップグレードすることができます。\n\n今すぐ必要でなければこのクエストはスキップしてもかまいませんが、どこかの電圧でアップグレードするまで拠点に蒸気施設が残り続けてしまうことになります。\n早めに電化しましょう。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 80,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "蒸気機関車の電化は大変な維持電力がかかるらしく地方を中心にディーゼル式に戻っている",
+      "tasklogic:8": "OR"
+    }
+  },
+  "questID:3": 360,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "entryLogic:8": "OR",
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 80,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 410,
+          "id:8": "gregtech:machine"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 230,
+          "id:8": "gregtech:machine"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 50,
+          "id:8": "gregtech:machine"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 665,
+          "id:8": "gregtech:machine"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 65,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

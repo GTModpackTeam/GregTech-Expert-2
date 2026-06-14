@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    776
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "最上位のコイルです。温度がおかしい気がしますがトリニウムコイルブロック辺りの温度から現実世界ではおかしいので気にしてはいけません。\n\nまたこのコイルはGTExpertCoreで追加されたコイルだったりします。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "gtexpert:gte_wire_coil"
+      },
+      "name:8": "溶かせぬものなど、あんまり無い!!"
+    }
+  },
+  "questID:3": 205,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gtexpert:gte_wire_coil"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

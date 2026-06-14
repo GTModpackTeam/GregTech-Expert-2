@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    487
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "ニトロベンゼンはベンゼンのエネルギー効率を大体4倍にブーストします。\n計算してみると結構収益が高いです。\n\nただし蒸留水と硫黄を大量に使うことに注意してください。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "nitrobenzene"
+        }
+      },
+      "name:8": "今なら月額9.99ドージコインから、2セタンブースト付き!!"
+    }
+  },
+  "questID:3": 477,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "nitrobenzene"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

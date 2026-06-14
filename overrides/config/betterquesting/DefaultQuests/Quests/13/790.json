@@ -1,0 +1,33 @@
+{
+  "preRequisiteTypes:7": [
+    0,
+    1
+  ],
+  "preRequisites:11": [
+    691,
+    798
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Wyvern Energy CoreはWyvern Coreの説明時同様に重要なパーツの立ち位置となります。\n\nまたコアのTierを1つ上げる際に4つ要求してくるため、生産ラインはしっかりと整えておくと後半で重宝するでしょう。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "draconicevolution:wyvern_energy_core"
+      },
+      "name:8": "Wyvern Energy Core"
+    }
+  },
+  "questID:3": 790,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:wyvern_energy_core"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

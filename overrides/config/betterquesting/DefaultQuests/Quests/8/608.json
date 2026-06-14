@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    596,
+    567
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "ガソリンは極めて強力な燃焼燃料で、ディーゼルの3倍以上のエネルギー密度を誇ります。\n\nこの燃焼燃料は単に達成感が欲しい人向けのチャレンジとして誕生しました。\nこれを作るかは完全に任意なので、自力で入手法を模索するのがよいと思われるのでこれ以上の解説はしません。",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "gasoline"
+        }
+      },
+      "name:8": "161.2円/ﾘｯﾄﾙ"
+    }
+  },
+  "questID:3": 608,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "gasoline"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

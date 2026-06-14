@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    364
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "鉱石洗浄機は従来の大釜洗浄と副産物をとるための精密洗浄の二種類の機能を搭載した機械です。\n\n粉砕した鉱石を精密洗浄することで、更に処理することができる洗浄した鉱石と、使い道のあまりない石の粉と、最初の副産物を獲得することができます。\nどんな鉱石でも洗浄することで副産物の粉を33.33%の確率で排出するので、洗浄は鉱石処理の中でも最も優先されるべきでしょう。\n\n鉱石を蒸留水で洗浄することで手間が少し増える代わりに加工時間を半分に減らすことができます。\n\n\n余談その1\nGregicality Legacyの頃には大釜洗浄のレシピはSimple Ore Washerという専用の機械が持っていた。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 485,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "俺、儂、んぐ、プラント"
+    }
+  },
+  "questID:3": 328,
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 485,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 486,
+          "id:8": "gregtech:machine"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 487,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
