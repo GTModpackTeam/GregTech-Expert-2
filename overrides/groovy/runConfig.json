@@ -1,0 +1,12 @@
+{
+  "packName": "GregTech Expert 2",
+  "packId": "gte2",
+  "version": "0.2.0",
+  "debug": false,
+  "loaders": {
+    "preInit": [],
+    "postInit": [
+      "postInit/"
+    ]
+  }
+}
