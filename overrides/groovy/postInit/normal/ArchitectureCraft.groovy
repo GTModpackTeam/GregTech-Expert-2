@@ -1,12 +1,6 @@
 ////////////////////////////////////////
 // Items
 ////////////////////////////////////////
-// Circular Saw Blade
-mods.minecraft.crafting.removeByOutput(item('architecturecraft:sawblade'))
-
-// Large Pulley
-mods.minecraft.crafting.removeByOutput(item('architecturecraft:largepulley'))
-
 // Chisel
 mods.minecraft.crafting.removeByOutput(item('architecturecraft:chisel'))
 mods.minecraft.crafting.shapelessBuilder()
