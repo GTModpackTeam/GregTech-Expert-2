@@ -16,7 +16,7 @@ indent_style = space
 indent_size = 2
 
 # Override default charset for XML and CFG files
-[*.{cfg,xml}]
+[*.{json,cfg,xml}]
 insert_final_newline = false
 
 # Tab indentation (no size specified)
