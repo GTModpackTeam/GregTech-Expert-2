@@ -22,7 +22,7 @@
 - Forgelin-Continuous (2.3.10.1 -> 2.3.20.0)
 - GTConsolidate (1.1.3.5 -> 1.1.4.2)
 - GTExpertCore (2.7.4 -> 2.7.8)
-- GTMoreTools (1.1.2 -> 1.3.3)
+- GTMoreTools (1.1.2 -> 1.4.0)
 - HadEnoughItems (4.27.1 -> 4.30.3)
 - Hot or Not GTCEu (1.3.0 -> 1.4.0)
 - Inventory Bogo Sorter (1.6.2 -> 1.6.4)

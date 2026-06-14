@@ -3,11 +3,9 @@
 ////////////////////////////////////////
 // Circular Saw Blade
 mods.minecraft.crafting.removeByOutput(item('architecturecraft:sawblade'))
-mods.jei.ingredient.hide(item('architecturecraft:sawblade'))
 
 // Large Pulley
 mods.minecraft.crafting.removeByOutput(item('architecturecraft:largepulley'))
-mods.jei.ingredient.hide(item('architecturecraft:largepulley'))
 
 // Chisel
 mods.minecraft.crafting.removeByOutput(item('architecturecraft:chisel'))
