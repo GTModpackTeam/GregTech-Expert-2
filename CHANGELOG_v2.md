@@ -2,6 +2,7 @@
 ## Move mods
 - Baubles-LTS (1.0.6.0) -> BubblesEX (1.6.5)
 - Bring Me The Rings! (0.4) -> BubblesEX (1.6.5)
+- CraftTweaker (4.1.20.700) -> GroovyScript (1.4.3)
 
 ## Delete mods
 - AE2 Wireless Terminal-LTS
@@ -10,6 +11,8 @@
 - AE2 Wireless Interface Terminal
 - AE2 Wireless Pattern Terminal
 - p455w0rd's AE2 Wireless Terminals Patch
+- MTLib
+- ModTweaker
 
 ## Update mods
 - AE2FluidCraft-Rework-Unofficial (2.7.9 -> 2.7.10)
