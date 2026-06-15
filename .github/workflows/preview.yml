@@ -103,7 +103,7 @@ jobs:
             rm -vf .minecraft/mods/oauth-*
             rm -vf .minecraft/mods/UntranslatedItems-*
             mv -vf .minecraft/* ./
-            zip -r artifacts/${{ env.NAME }}-${{ env.JAVA_OPT_SERVER }}.zip PleaseRead.txt Install.* ServerStart.* settings.* config/ local/ mods/ resources/ scripts/
+            zip -r artifacts/${{ env.NAME }}-${{ env.JAVA_OPT_SERVER }}.zip PleaseRead.txt Install.* ServerStart.* settings.* config/ local/ mods/ resources/ groovy/
           else
             zip -r artifacts/${{ env.NAME }}-${{ env.JAVA8_CF }}.zip manifest.json modlist.html overrides/config/ overrides/local/ overrides/resourcepacks/icons/ overrides/resourcepacks/GTExpert2-* overrides/groovy/
             mv overrides/ .minecraft/
