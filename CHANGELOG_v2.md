@@ -3,13 +3,13 @@
 - Baubles-LTS (1.0.6.0) -> BubblesEX (1.6.5)
 - Bring Me The Rings! (0.4) -> BubblesEX (1.6.5)
 - CraftTweaker (4.1.20.700) -> GroovyScript (1.4.3)
+- AE2 Wireless Terminal-LTS (1.0.35) -> AE2UEL Wireless Universal Terminal (1.2.10)
+- AE2 Wireless Crafting Terminal (3.12.97) -> AE2 Unofficial Extended Life (0.56.7)
+- AE2 Wireless Fluid Terminal (1.0.4) -> AE2 Unofficial Extended Life (0.56.7)
+- AE2 Wireless Interface Terminal (1.0.2) -> AE2 Unofficial Extended Life (0.56.7)
+- AE2 Wireless Pattern Terminal (1.0.3) -> AE2 Unofficial Extended Life (0.56.7)
 
 ## Delete mods
-- AE2 Wireless Terminal-LTS
-- AE2 Wireless Crafting Terminal
-- AE2 Wireless Fluid Terminal
-- AE2 Wireless Interface Terminal
-- AE2 Wireless Pattern Terminal
 - p455w0rd's AE2 Wireless Terminals Patch
 - MTLib
 - ModTweaker

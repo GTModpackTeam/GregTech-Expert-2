@@ -7,7 +7,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "並列版のACRがついにGTExpert Coreで実装されました。\n爆発的に化学反応を加速しましょう。",
+      "desc:8": "並列版のACRがついにGTE2のCoreModで実装されました。\n爆発的に化学反応を加速しましょう。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 12006,

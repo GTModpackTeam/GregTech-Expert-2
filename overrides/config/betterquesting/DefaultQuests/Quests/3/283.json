@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Storage CoreはEZStorage 2のストレージシステムを利用するために必須のブロックです。\nこれ単体では使い道がありませんが、Storage Boxを隣接させることで右クリックでGUIを開いた時に電力不要の大容量ストレージとして使用することができるようになります。\nStorage Boxの隣に更にStorage Boxを繋げる事でもStorage Coreの容量を増やすことができます。\n\n\n余談その1\nGTE1では初代EZStorageが倉庫modとして採用されていた\nEZStorage周りのバグが多いのもそのときからである\n\n余談その2\n直近の更新でかなり扱いやすく進化しました",
+      "desc:8": "Storage CoreはEZStorage 2のストレージシステムを利用するために必須のブロックです。\nこれ単体では使い道がありませんが、Storage Boxを隣接させることで右クリックでGUIを開いた時に電力不要の大容量ストレージとして使用することができるようになります。\nStorage Boxの隣に更にStorage Boxを繋げる事でもStorage Coreの容量を増やすことができます。\n\n\n余談その1\n初代GTEでは初代EZStorageが倉庫modとして採用されていた\nEZStorage周りのバグが多いのもそのときからである\n\n余談その2\n直近の更新でかなり扱いやすく進化しました",
       "icon:10": {
         "Count:3": 1,
         "id:8": "ezstorage:storage_core"

@@ -16,20 +16,14 @@
   "questID:3": 556,
   "tasks:9": {
     "0:10": {
+      "ignoreNBT:1": 1,
       "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "id:8": "appliedenergistics2:wireless_access_point"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "1:10": {
-      "ignoreNBT:1": 1,
-      "index:3": 1,
-      "requiredItems:9": {
-        "0:10": {
+        },
+        "1:10": {
           "Count:3": 1,
           "id:8": "appliedenergistics2:wireless_terminal",
           "tag:10": {}
@@ -37,8 +31,8 @@
       },
       "taskID:8": "bq_standard:retrieval"
     },
-    "2:10": {
-      "index:3": 2,
+    "1:10": {
+      "index:3": 1,
       "optional:1": 1,
       "requiredItems:9": {
         "0:10": {

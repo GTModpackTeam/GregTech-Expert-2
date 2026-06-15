@@ -7,7 +7,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "並列版の破砕機がついにGTExpert Coreで実装されました。\n爆発的に岩砕きを加速しましょう。",
+      "desc:8": "並列版の破砕機がついにGTE2のCoreModで実装されました。\n爆発的に岩砕きを加速しましょう。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 12001,
