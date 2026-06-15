@@ -4,9 +4,10 @@
   "version": "0.2.0",
   "debug": false,
   "loaders": {
-    "preInit": [],
     "postInit": [
-      "postInit/"
+      "post/classes",
+      "post/bootstrap",
+      "post/main"
     ]
   }
 }

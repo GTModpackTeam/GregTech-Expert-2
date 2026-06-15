@@ -1,0 +1,135 @@
+package post.main.eio
+
+import gregtech.api.recipes.RecipeMap
+
+def alloySmelter = RecipeMap.getByName('alloy_smelter')
+
+// Dark Paper Anvil
+alloySmelter.recipeBuilder()
+    .inputs(
+        item('enderio:block_dark_steel_anvil'),
+        ore('paperBlack')
+    )
+    .outputs(item('enderio:block_dark_paper_anvil'))
+    .duration(200)
+    .EUt(480)
+    .buildAndRegister()
+
+// Self-resetting Levers
+mods.jei.ingredient.hide(item('enderio:block_self_resetting_lever5'))
+mods.jei.ingredient.hide(item('enderio:block_self_resetting_lever10'))
+mods.jei.ingredient.hide(item('enderio:block_self_resetting_lever30'))
+mods.jei.ingredient.hide(item('enderio:block_self_resetting_lever60'))
+mods.jei.ingredient.hide(item('enderio:block_self_resetting_lever300'))
+mods.jei.ingredient.hide(item('enderio:block_self_resetting_lever5i'))
+mods.jei.ingredient.hide(item('enderio:block_self_resetting_lever10i'))
+mods.jei.ingredient.hide(item('enderio:block_self_resetting_lever30i'))
+mods.jei.ingredient.hide(item('enderio:block_self_resetting_lever60i'))
+mods.jei.ingredient.hide(item('enderio:block_self_resetting_lever300i'))
+
+// Decoration Blocks
+mods.jei.ingredient.hide(item('enderio:block_decoration1', 32767))
+mods.jei.ingredient.hide(item('enderio:block_decoration2', 32767))
+mods.jei.ingredient.hide(item('enderio:block_decoration3', 32767))
+
+// Industrial Insulation
+alloySmelter.recipeBuilder()
+    .inputs(
+        item('enderio:item_material', 51) * 3,
+        item('minecraft:wool')
+    )
+    .outputs(item('enderio:block_industrial_insulation'))
+    .duration(100)
+    .EUt(480)
+    .buildAndRegister()
+
+// TNTs
+mods.jei.ingredient.hide(item('enderio:block_confusion_charge'))
+mods.jei.ingredient.hide(item('enderio:block_concussion_charge'))
+mods.jei.ingredient.hide(item('enderio:block_ender_charge'))
+
+// Pressure Plates
+mods.jei.ingredient.hide(item('enderio:block_painted_pressure_plate', 32767))
+
+// Fused Quartz
+mods.jei.ingredient.hide(item('enderio:block_fused_quartz', 1))
+mods.jei.ingredient.hide(item('enderio:block_fused_quartz', 2))
+mods.jei.ingredient.hide(item('enderio:block_fused_quartz', 3))
+mods.jei.ingredient.hide(item('enderio:block_fused_quartz', 4))
+mods.jei.ingredient.hide(item('enderio:block_fused_quartz', 5))
+mods.jei.ingredient.hide(item('enderio:block_fused_quartz', 6))
+mods.jei.ingredient.hide(item('enderio:block_fused_quartz', 7))
+mods.jei.ingredient.hide(item('enderio:block_fused_quartz', 8))
+mods.jei.ingredient.hide(item('enderio:block_fused_quartz', 9))
+mods.jei.ingredient.hide(item('enderio:block_fused_quartz', 10))
+mods.jei.ingredient.hide(item('enderio:block_fused_quartz', 11))
+mods.jei.ingredient.hide(item('enderio:block_fused_quartz', 12))
+mods.jei.ingredient.hide(item('enderio:block_fused_quartz', 13))
+mods.jei.ingredient.hide(item('enderio:block_fused_quartz', 14))
+mods.jei.ingredient.hide(item('enderio:block_fused_quartz', 15))
+
+// Quartz Clear Glass
+mods.jei.ingredient.hide(item('enderio:block_fused_glass', 1))
+mods.jei.ingredient.hide(item('enderio:block_fused_glass', 2))
+mods.jei.ingredient.hide(item('enderio:block_fused_glass', 3))
+mods.jei.ingredient.hide(item('enderio:block_fused_glass', 4))
+mods.jei.ingredient.hide(item('enderio:block_fused_glass', 5))
+mods.jei.ingredient.hide(item('enderio:block_fused_glass', 6))
+mods.jei.ingredient.hide(item('enderio:block_fused_glass', 7))
+mods.jei.ingredient.hide(item('enderio:block_fused_glass', 8))
+mods.jei.ingredient.hide(item('enderio:block_fused_glass', 9))
+mods.jei.ingredient.hide(item('enderio:block_fused_glass', 10))
+mods.jei.ingredient.hide(item('enderio:block_fused_glass', 11))
+mods.jei.ingredient.hide(item('enderio:block_fused_glass', 12))
+mods.jei.ingredient.hide(item('enderio:block_fused_glass', 13))
+mods.jei.ingredient.hide(item('enderio:block_fused_glass', 14))
+mods.jei.ingredient.hide(item('enderio:block_fused_glass', 15))
+
+// Other Glass
+mods.jei.ingredient.hide(item('enderio:block_enlightened_fused_quartz', 32767))
+mods.jei.ingredient.hide(item('enderio:block_holy_fused_quartz', 32767))
+mods.jei.ingredient.hide(item('enderio:block_holy_fused_glass', 32767))
+mods.jei.ingredient.hide(item('enderio:block_holy_enlightened_fused_glass', 32767))
+mods.jei.ingredient.hide(item('enderio:block_holy_dark_fused_quartz', 32767))
+mods.jei.ingredient.hide(item('enderio:block_holy_dark_fused_glass', 32767))
+mods.jei.ingredient.hide(item('enderio:block_unholy_fused_quartz', 32767))
+mods.jei.ingredient.hide(item('enderio:block_enlightened_fused_quartz', 32767))
+mods.jei.ingredient.hide(item('enderio:block_enlightened_fused_glass', 32767))
+mods.jei.ingredient.hide(item('enderio:block_dark_fused_quartz', 32767))
+mods.jei.ingredient.hide(item('enderio:block_dark_fused_glass', 32767))
+mods.jei.ingredient.hide(item('enderio:block_holy_fused_quartz', 32767))
+mods.jei.ingredient.hide(item('enderio:block_holy_fused_glass', 32767))
+mods.jei.ingredient.hide(item('enderio:block_holy_enlightened_fused_quartz', 32767))
+mods.jei.ingredient.hide(item('enderio:block_holy_enlightened_fused_glass', 32767))
+mods.jei.ingredient.hide(item('enderio:block_holy_dark_fused_quartz', 32767))
+mods.jei.ingredient.hide(item('enderio:block_holy_dark_fused_glass', 32767))
+mods.jei.ingredient.hide(item('enderio:block_unholy_fused_quartz', 32767))
+mods.jei.ingredient.hide(item('enderio:block_unholy_fused_glass', 32767))
+mods.jei.ingredient.hide(item('enderio:block_unholy_enlightened_fused_quartz', 32767))
+mods.jei.ingredient.hide(item('enderio:block_unholy_enlightened_fused_glass', 32767))
+mods.jei.ingredient.hide(item('enderio:block_unholy_dark_fused_quartz', 32767))
+mods.jei.ingredient.hide(item('enderio:block_unholy_dark_fused_glass', 32767))
+mods.jei.ingredient.hide(item('enderio:block_pasture_fused_quartz', 32767))
+mods.jei.ingredient.hide(item('enderio:block_pasture_fused_glass', 32767))
+mods.jei.ingredient.hide(item('enderio:block_pasture_enlightened_fused_quartz', 32767))
+mods.jei.ingredient.hide(item('enderio:block_pasture_enlightened_fused_glass', 32767))
+mods.jei.ingredient.hide(item('enderio:block_pasture_dark_fused_quartz', 32767))
+mods.jei.ingredient.hide(item('enderio:block_pasture_dark_fused_glass', 32767))
+mods.jei.ingredient.hide(item('enderio:block_not_holy_fused_quartz', 32767))
+mods.jei.ingredient.hide(item('enderio:block_not_holy_fused_glass', 32767))
+mods.jei.ingredient.hide(item('enderio:block_not_holy_enlightened_fused_quartz', 32767))
+mods.jei.ingredient.hide(item('enderio:block_not_holy_enlightened_fused_glass', 32767))
+mods.jei.ingredient.hide(item('enderio:block_not_holy_dark_fused_quartz', 32767))
+mods.jei.ingredient.hide(item('enderio:block_not_holy_dark_fused_glass', 32767))
+mods.jei.ingredient.hide(item('enderio:block_not_unholy_fused_quartz', 32767))
+mods.jei.ingredient.hide(item('enderio:block_not_unholy_fused_glass', 32767))
+mods.jei.ingredient.hide(item('enderio:block_not_unholy_enlightened_fused_quartz', 32767))
+mods.jei.ingredient.hide(item('enderio:block_not_unholy_enlightened_fused_glass', 32767))
+mods.jei.ingredient.hide(item('enderio:block_not_unholy_dark_fused_quartz', 32767))
+mods.jei.ingredient.hide(item('enderio:block_not_unholy_dark_fused_glass', 32767))
+mods.jei.ingredient.hide(item('enderio:block_not_pasture_fused_quartz', 32767))
+mods.jei.ingredient.hide(item('enderio:block_not_pasture_fused_glass', 32767))
+mods.jei.ingredient.hide(item('enderio:block_not_pasture_enlightened_fused_quartz', 32767))
+mods.jei.ingredient.hide(item('enderio:block_not_pasture_enlightened_fused_glass', 32767))
+mods.jei.ingredient.hide(item('enderio:block_not_pasture_dark_fused_quartz', 32767))
+mods.jei.ingredient.hide(item('enderio:block_not_pasture_dark_fused_glass', 32767))
