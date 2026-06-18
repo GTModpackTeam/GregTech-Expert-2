@@ -1,12 +1,4 @@
-package post.main
-
 import static post.classes.Common.*
-
-import gregtech.api.recipes.RecipeMap
-
-def assembler = RecipeMap.getByName('assembler')
-def alloySmelter = RecipeMap.getByName('alloy_smelter')
-def cutter = RecipeMap.getByName('cutter')
 
 mods.jei.category.hideCategory('appliedenergistics2.grinder')
 mods.jei.category.hideCategory('appliedenergistics2.inscriber')

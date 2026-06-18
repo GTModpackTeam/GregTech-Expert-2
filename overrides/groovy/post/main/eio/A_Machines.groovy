@@ -1,9 +1,3 @@
-package post.main.eio
-
-import gregtech.api.recipes.RecipeMap
-
-def assembler = RecipeMap.getByName('assembler')
-
 // Basic Capacitor Bank
 mods.minecraft.crafting.shapedBuilder()
     .output(item('enderio:block_cap_bank', 1))

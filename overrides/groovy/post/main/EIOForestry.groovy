@@ -1,5 +1,3 @@
-package post.main
-
 if (!isLoaded('enderiointegrationforestry')) return
 
 ////////////////////////////////////////

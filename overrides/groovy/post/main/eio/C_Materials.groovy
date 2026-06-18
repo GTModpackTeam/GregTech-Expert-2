@@ -1,15 +1,3 @@
-package post.main.eio
-
-import gregtech.api.recipes.RecipeMap
-
-def alloySmelter = RecipeMap.getByName('alloy_smelter')
-def assembler = RecipeMap.getByName('assembler')
-def electricBlastFurnace = RecipeMap.getByName('electric_blast_furnace')
-def macerator = RecipeMap.getByName('macerator')
-def mixer = RecipeMap.getByName('mixer')
-def compressor = RecipeMap.getByName('compressor')
-def rockBreaker = RecipeMap.getByName('rock_breaker')
-
 ////////////////////////////////////////
 // Items
 ////////////////////////////////////////

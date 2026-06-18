@@ -1,9 +1,3 @@
-package post.main
-
-import gregtech.api.recipes.RecipeMap
-
-def chemicalBath = RecipeMap.getByName('chemical_bath')
-
 // ########################################
 // Blocks
 // ########################################

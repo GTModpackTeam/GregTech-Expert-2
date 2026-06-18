@@ -1,9 +1,3 @@
-package post.main
-
-import gregtech.api.recipes.RecipeMap
-
-def packer = RecipeMap.getByName('packer')
-
 ////////////////////////////////////////
 // Items
 ////////////////////////////////////////

@@ -1,5 +1,3 @@
-package post.main
-
 mods.jei.category.hideCategory('threng.agg')
 mods.jei.category.hideCategory('threng.purify')
 mods.jei.category.hideCategory('threng.etch')

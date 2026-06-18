@@ -1,10 +1,3 @@
-package post.main
-
-import gregtech.api.recipes.RecipeMap
-
-def assembler = RecipeMap.getByName('assembler')
-def packer = RecipeMap.getByName('packer')
-
 mods.jei.category.hideCategory('compactmachines3.MultiblockMiniaturization')
 mods.minecraft.crafting.removeByOutput(item('compactmachines3:fieldprojector'))
 mods.jei.ingredient.hide(item('compactmachines3:fieldprojector'))

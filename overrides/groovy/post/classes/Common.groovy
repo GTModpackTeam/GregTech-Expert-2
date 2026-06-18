@@ -1,5 +1,3 @@
-package post.classes
-
 import net.minecraft.item.ItemStack
 import net.minecraftforge.fml.common.Loader
 import net.minecraftforge.fml.common.registry.ForgeRegistries

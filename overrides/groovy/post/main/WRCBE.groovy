@@ -1,11 +1,3 @@
-package post.main
-
-import gregtech.api.recipes.RecipeMap
-
-def assembler = RecipeMap.getByName('assembler')
-def lathe = RecipeMap.getByName('lathe')
-def chemicalReactor = RecipeMap.getByName('chemical_reactor')
-
 ////////////////////////////////////////
 // Items
 ////////////////////////////////////////

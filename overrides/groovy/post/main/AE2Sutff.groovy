@@ -1,10 +1,3 @@
-package post.main
-
-import gregtech.api.recipes.RecipeMap
-
-def assembler = RecipeMap.getByName('assembler')
-def chemicalBath = RecipeMap.getByName('chemical_bath')
-
 ////////////////////////////////////////
 // Blocks
 ////////////////////////////////////////

@@ -1,10 +1,4 @@
-package post.main
-
 import static post.classes.Common.*
-
-import gregtech.api.recipes.RecipeMap
-
-def assembler = RecipeMap.getByName('assembler')
 
 itemsOf('aeadditions').each { stack ->
     if (stack.displayName.contains('ME Fluid Pattern')) {

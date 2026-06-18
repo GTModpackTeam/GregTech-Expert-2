@@ -1,10 +1,4 @@
-package post.main
-
 if (!isLoaded('fluxnetworks')) return
-
-import gregtech.api.recipes.RecipeMap
-
-def assembler = RecipeMap.getByName('assembler')
 
 ////////////////////////////////////////
 // Items

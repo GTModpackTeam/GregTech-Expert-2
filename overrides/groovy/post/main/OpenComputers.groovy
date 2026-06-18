@@ -1,11 +1,4 @@
-package post.main
-
 import static post.classes.Common.*
-
-import gregtech.api.recipes.RecipeMap
-
-def assembler = RecipeMap.getByName('assembler')
-def circuitAssembler = RecipeMap.getByName('circuit_assembler')
 
 itemsOf('opencomputers').each { stack ->
     def path = stack.item.registryName.path

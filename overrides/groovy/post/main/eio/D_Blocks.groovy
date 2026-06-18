@@ -1,9 +1,3 @@
-package post.main.eio
-
-import gregtech.api.recipes.RecipeMap
-
-def alloySmelter = RecipeMap.getByName('alloy_smelter')
-
 // Dark Paper Anvil
 alloySmelter.recipeBuilder()
     .inputs(

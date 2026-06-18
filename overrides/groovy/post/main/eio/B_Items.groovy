@@ -1,9 +1,3 @@
-package post.main.eio
-
-import gregtech.api.recipes.RecipeMap
-
-def alloySmelter = RecipeMap.getByName('alloy_smelter')
-
 // Conduit Facade
 mods.minecraft.crafting.shapedBuilder()
     .output(item('enderio:item_conduit_facade'))
