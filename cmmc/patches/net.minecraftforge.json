@@ -8,24 +8,175 @@
     "formatVersion": 1,
     "libraries": [
         {
-            "name": "com.cleanroommc:cleanroom:0.5.14-alpha",
             "downloads": {
                 "artifact": {
-                    "path": "com/cleanroommc/cleanroom/0.5.14-alpha/cleanroom-0.5.14-alpha.jar",
-                    "url": "https://repo.cleanroommc.com/releases/com/cleanroommc/cleanroom/0.5.14-alpha/cleanroom-0.5.14-alpha-universal.jar",
-                    "sha1": "24e6ae6700a487c6d481759c17fb872d1d49faf1",
-                    "size": 5370904
+                    "sha1": "c73b5636faf089d9f00e8732a829577de25237ee",
+                    "size": 103871,
+                    "url": "https://libraries.minecraft.net/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar"
+                }
+            },
+            "name": "com.paulscode:codecjorbis:20101023"
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "12f031cfe88fef5c1dd36c563c0a3a69bd7261da",
+                    "size": 5618,
+                    "url": "https://libraries.minecraft.net/com/paulscode/codecwav/20101023/codecwav-20101023.jar"
+                }
+            },
+            "name": "com.paulscode:codecwav:20101023"
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "5c5e304366f75f9eaa2e8cca546a1fb6109348b3",
+                    "size": 21679,
+                    "url": "https://libraries.minecraft.net/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar"
+                }
+            },
+            "name": "com.paulscode:libraryjavasound:20101123"
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "73e80d0794c39665aec3f62eee88ca91676674ef",
+                    "size": 18981,
+                    "url": "https://libraries.minecraft.net/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar"
+                }
+            },
+            "name": "com.paulscode:librarylwjglopenal:20100824"
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6",
+                    "size": 65020,
+                    "url": "https://libraries.minecraft.net/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar"
+                }
+            },
+            "name": "com.paulscode:soundsystem:20120107"
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "9834cdf236c22e84b946bba989e2f94ef5897c3c",
+                    "size": 65621,
+                    "url": "https://libraries.minecraft.net/com/mojang/authlib/1.5.25/authlib-1.5.25.jar"
+                }
+            },
+            "name": "com.mojang:authlib:1.5.25"
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "bd0dccebdf3744c75f1ca20063f16e8f7d5e663f",
+                    "size": 7135057,
+                    "url": "https://libraries.minecraft.net/com/mojang/realms/1.10.22/realms-1.10.22.jar"
+                }
+            },
+            "name": "com.mojang:realms:1.10.22"
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "48fd510879dff266c3815947de66e3d4809f8668",
+                    "size": 11055,
+                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3.jar"
+                }
+            },
+            "name": "com.mojang:text2speech:1.10.3",
+            "rules": [
+                {
+                    "action": "allow"
+                },
+                {
+                    "action": "disallow",
+                    "os": {
+                        "name": "osx-arm64"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "48fd510879dff266c3815947de66e3d4809f8668",
+                    "size": 11055,
+                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3.jar"
+                },
+                "classifiers": {
+                    "natives-linux": {
+                        "sha1": "ab7896aec3b3dd272b06194357f2d98f832c0cfc",
+                        "size": 7833,
+                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3-natives-linux.jar"
+                    },
+                    "natives-windows": {
+                        "sha1": "84a4b856389cc4f485275b1f63497a95a857a443",
+                        "size": 81217,
+                        "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3-natives-windows.jar"
+                    }
+                }
+            },
+            "extract": {
+                "exclude": [
+                    "META-INF/"
+                ]
+            },
+            "name": "com.mojang:text2speech:1.10.3",
+            "natives": {
+                "linux": "natives-linux",
+                "windows": "natives-windows"
+            },
+            "rules": [
+                {
+                    "action": "allow"
+                },
+                {
+                    "action": "disallow",
+                    "os": {
+                        "name": "osx-arm64"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "f378f889797edd7df8d32272c06ca80a1b6b0f58",
+                    "size": 13164,
+                    "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.11.3/text2speech-1.11.3.jar"
+                }
+            },
+            "name": "com.mojang:text2speech:1.11.3",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "osx-arm64"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "com.cleanroommc:cleanroom:0.6.11-alpha",
+            "downloads": {
+                "artifact": {
+                    "path": "com/cleanroommc/cleanroom/0.6.11-alpha/cleanroom-0.6.11-alpha.jar",
+                    "url": "https://repo.cleanroommc.com/releases/com/cleanroommc/cleanroom/0.6.11-alpha/cleanroom-0.6.11-alpha-universal.jar",
+                    "sha1": "bf506bbea8a0bbabe38797bd246490248aa89cb5",
+                    "size": 6502291
                 }
             }
         },
         {
-            "name": "com.cleanroommc:lwjglxx:1.1.19",
+            "name": "com.cleanroommc:lwjglxx:1.1.22",
             "downloads": {
                 "artifact": {
-                    "path": "com/cleanroommc/lwjglxx/1.1.19/lwjglxx-1.1.19.jar",
-                    "url": "https://repo.cleanroommc.com/releases/com/cleanroommc/lwjglxx/1.1.19/lwjglxx-1.1.19.jar",
-                    "sha1": "d9603a907741b32853d66a0fea1a7c04f4518835",
-                    "size": 530181
+                    "path": "com/cleanroommc/lwjglxx/1.1.22/lwjglxx-1.1.22.jar",
+                    "url": "https://repo.cleanroommc.com/releases/com/cleanroommc/lwjglxx/1.1.22/lwjglxx-1.1.22.jar",
+                    "sha1": "fddb2d027c3d3911327c6cb064c54b0b83c0813b",
+                    "size": 530287
                 }
             }
         },
@@ -96,24 +247,24 @@
             }
         },
         {
-            "name": "top.outlands:foundation:0.19.7",
+            "name": "top.outlands:foundation:0.19.11",
             "downloads": {
                 "artifact": {
-                    "path": "top/outlands/foundation/0.19.7/foundation-0.19.7.jar",
-                    "url": "https://repo.cleanroommc.com/releases/top/outlands/foundation/0.19.7/foundation-0.19.7.jar",
-                    "sha1": "8805c9cb970214b4be7d4ef4fd568f67b9c81fd9",
-                    "size": 55230
+                    "path": "top/outlands/foundation/0.19.11/foundation-0.19.11.jar",
+                    "url": "https://repo.cleanroommc.com/releases/top/outlands/foundation/0.19.11/foundation-0.19.11.jar",
+                    "sha1": "d09a565ce42656fcb975cde37f6df5187513e584",
+                    "size": 55607
                 }
             }
         },
         {
-            "name": "net.lenni0451:Reflect:1.6.3",
+            "name": "net.lenni0451:Reflect:1.6.4",
             "downloads": {
                 "artifact": {
-                    "path": "net/lenni0451/Reflect/1.6.3/Reflect-1.6.3.jar",
-                    "url": "https://repo.maven.apache.org/maven2/net/lenni0451/Reflect/1.6.3/Reflect-1.6.3.jar",
-                    "sha1": "fd6836cd400de67a1f2efccc3ad02daf61f2ea8b",
-                    "size": 234930
+                    "path": "net/lenni0451/Reflect/1.6.4/Reflect-1.6.4.jar",
+                    "url": "https://repo.maven.apache.org/maven2/net/lenni0451/Reflect/1.6.4/Reflect-1.6.4.jar",
+                    "sha1": "4e167252fee0377fe8e22b862cfa174519c82649",
+                    "size": 237639
                 }
             }
         },
@@ -239,45 +390,45 @@
             }
         },
         {
-            "name": "com.github.oshi:oshi-core-ffm:7.3.0",
+            "name": "com.github.oshi:oshi-core-ffm:7.3.2",
             "downloads": {
                 "artifact": {
-                    "path": "com/github/oshi/oshi-core-ffm/7.3.0/oshi-core-ffm-7.3.0.jar",
-                    "url": "https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core-ffm/7.3.0/oshi-core-ffm-7.3.0.jar",
-                    "sha1": "908c477dbb6e00112ab901ddf76c49c578df41d1",
-                    "size": 716611
+                    "path": "com/github/oshi/oshi-core-ffm/7.3.2/oshi-core-ffm-7.3.2.jar",
+                    "url": "https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core-ffm/7.3.2/oshi-core-ffm-7.3.2.jar",
+                    "sha1": "65733998074514d3300bfb189a0c3bd0d7a46a61",
+                    "size": 712720
                 }
             }
         },
         {
-            "name": "com.github.oshi:oshi-common:7.3.0",
+            "name": "com.github.oshi:oshi-common:7.3.2",
             "downloads": {
                 "artifact": {
-                    "path": "com/github/oshi/oshi-common/7.3.0/oshi-common-7.3.0.jar",
-                    "url": "https://repo.maven.apache.org/maven2/com/github/oshi/oshi-common/7.3.0/oshi-common-7.3.0.jar",
-                    "sha1": "515e33c07d59ce4f2c12635588a23d6756d466a7",
-                    "size": 678670
+                    "path": "com/github/oshi/oshi-common/7.3.2/oshi-common-7.3.2.jar",
+                    "url": "https://repo.maven.apache.org/maven2/com/github/oshi/oshi-common/7.3.2/oshi-common-7.3.2.jar",
+                    "sha1": "52c1631d1e2aff7a78c582622dd05a2b8e78d472",
+                    "size": 888528
                 }
             }
         },
         {
-            "name": "net.java.dev.jna:jna:5.19.0",
+            "name": "net.java.dev.jna:jna:5.19.1",
             "downloads": {
                 "artifact": {
-                    "path": "net/java/dev/jna/jna/5.19.0/jna-5.19.0.jar",
-                    "url": "https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.19.0/jna-5.19.0.jar",
-                    "sha1": "395436f40fa0822145c052342de69d85dfe9f9d3",
-                    "size": 1951012
+                    "path": "net/java/dev/jna/jna/5.19.1/jna-5.19.1.jar",
+                    "url": "https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.19.1/jna-5.19.1.jar",
+                    "sha1": "ca303052cd617c1af2e2c8d344c98a706fb63143",
+                    "size": 1950853
                 }
             }
         },
         {
-            "name": "net.java.dev.jna:jna-platform:5.19.0",
+            "name": "net.java.dev.jna:jna-platform:5.19.1",
             "downloads": {
                 "artifact": {
-                    "path": "net/java/dev/jna/jna-platform/5.19.0/jna-platform-5.19.0.jar",
-                    "url": "https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.19.0/jna-platform-5.19.0.jar",
-                    "sha1": "a437b9bed82516680def5191a1246018c3816497",
+                    "path": "net/java/dev/jna/jna-platform/5.19.1/jna-platform-5.19.1.jar",
+                    "url": "https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.19.1/jna-platform-5.19.1.jar",
+                    "sha1": "d1e54d9231da5ca3fa730d52960deaa555475468",
                     "size": 1416385
                 }
             }
@@ -371,13 +522,13 @@
             }
         },
         {
-            "name": "commons-logging:commons-logging:1.3.6",
+            "name": "commons-logging:commons-logging:1.4.0",
             "downloads": {
                 "artifact": {
-                    "path": "commons-logging/commons-logging/1.3.6/commons-logging-1.3.6.jar",
-                    "url": "https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.3.6/commons-logging-1.3.6.jar",
-                    "sha1": "63e78ca6cd446c0ad166d14f03ed99e7efb3896d",
-                    "size": 74010
+                    "path": "commons-logging/commons-logging/1.4.0/commons-logging-1.4.0.jar",
+                    "url": "https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.4.0/commons-logging-1.4.0.jar",
+                    "sha1": "e8f6313365dfa0580e49c58837afc8caa9b4ce05",
+                    "size": 75828
                 }
             }
         },
@@ -437,24 +588,24 @@
             }
         },
         {
-            "name": "org.apache.httpcomponents.core5:httpcore5:5.4.2",
+            "name": "org.apache.httpcomponents.core5:httpcore5:5.4.3",
             "downloads": {
                 "artifact": {
-                    "path": "org/apache/httpcomponents/core5/httpcore5/5.4.2/httpcore5-5.4.2.jar",
-                    "url": "https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.4.2/httpcore5-5.4.2.jar",
-                    "sha1": "346d5f65ff819510666541ba94b3abf747454916",
-                    "size": 954859
+                    "path": "org/apache/httpcomponents/core5/httpcore5/5.4.3/httpcore5-5.4.3.jar",
+                    "url": "https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.4.3/httpcore5-5.4.3.jar",
+                    "sha1": "32a0699fbcb103f5621c00983ee8f5aac080e4a6",
+                    "size": 955121
                 }
             }
         },
         {
-            "name": "org.apache.httpcomponents.core5:httpcore5-h2:5.4.2",
+            "name": "org.apache.httpcomponents.core5:httpcore5-h2:5.4.3",
             "downloads": {
                 "artifact": {
-                    "path": "org/apache/httpcomponents/core5/httpcore5-h2/5.4.2/httpcore5-h2-5.4.2.jar",
-                    "url": "https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.4.2/httpcore5-h2-5.4.2.jar",
-                    "sha1": "a9d9144455975111c62c9781d18ff0ae199a0dd2",
-                    "size": 263731
+                    "path": "org/apache/httpcomponents/core5/httpcore5-h2/5.4.3/httpcore5-h2-5.4.3.jar",
+                    "url": "https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.4.3/httpcore5-h2-5.4.3.jar",
+                    "sha1": "33bcd37d645539d27c65e17420843fd7f6c0ebf4",
+                    "size": 263675
                 }
             }
         },
@@ -561,7 +712,7 @@
             "name": "io.netty:netty-transport-native-unix-common:4.2.15.Final-linux-x86_64",
             "downloads": {
                 "artifact": {
-                    "path": "io/netty/netty-transport-native-unix-common/4.2.15.Final-linux-x86_64/netty-transport-native-unix-common-4.2.15.Final-linux-x86_64.jar",
+                    "path": "io/netty/netty-transport-native-unix-common/4.2.15.Final/netty-transport-native-unix-common-4.2.15.Final-linux-x86_64.jar",
                     "url": "https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.2.15.Final/netty-transport-native-unix-common-4.2.15.Final-linux-x86_64.jar",
                     "sha1": "653fb56a1ea10cbbc24bbec3c94dddaa96bf9f1a",
                     "size": 77479
@@ -583,7 +734,7 @@
             "name": "io.netty:netty-transport-native-epoll:4.2.15.Final-linux-x86_64",
             "downloads": {
                 "artifact": {
-                    "path": "io/netty/netty-transport-native-epoll/4.2.15.Final-linux-x86_64/netty-transport-native-epoll-4.2.15.Final-linux-x86_64.jar",
+                    "path": "io/netty/netty-transport-native-epoll/4.2.15.Final/netty-transport-native-epoll-4.2.15.Final-linux-x86_64.jar",
                     "url": "https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.2.15.Final/netty-transport-native-epoll-4.2.15.Final-linux-x86_64.jar",
                     "sha1": "ce256127f8ed3f076756f1f4dcb5877d65d1f1c2",
                     "size": 42314
@@ -646,13 +797,13 @@
             }
         },
         {
-            "name": "jakarta.xml.ws:jakarta.xml.ws-api:4.0.2",
+            "name": "jakarta.xml.ws:jakarta.xml.ws-api:4.0.3",
             "downloads": {
                 "artifact": {
-                    "path": "jakarta/xml/ws/jakarta.xml.ws-api/4.0.2/jakarta.xml.ws-api-4.0.2.jar",
-                    "url": "https://repo.maven.apache.org/maven2/jakarta/xml/ws/jakarta.xml.ws-api/4.0.2/jakarta.xml.ws-api-4.0.2.jar",
-                    "sha1": "331ecab874ee75b48db661a331319958cb04edec",
-                    "size": 77621
+                    "path": "jakarta/xml/ws/jakarta.xml.ws-api/4.0.3/jakarta.xml.ws-api-4.0.3.jar",
+                    "url": "https://repo.maven.apache.org/maven2/jakarta/xml/ws/jakarta.xml.ws-api/4.0.3/jakarta.xml.ws-api-4.0.3.jar",
+                    "sha1": "30b8a7abd7b3958461d8256db31816dd2ae6eb85",
+                    "size": 77638
                 }
             }
         },
@@ -679,13 +830,13 @@
             }
         },
         {
-            "name": "jakarta.xml.bind:jakarta.xml.bind-api:4.0.4",
+            "name": "jakarta.xml.bind:jakarta.xml.bind-api:4.0.5",
             "downloads": {
                 "artifact": {
-                    "path": "jakarta/xml/bind/jakarta.xml.bind-api/4.0.4/jakarta.xml.bind-api-4.0.4.jar",
-                    "url": "https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.4/jakarta.xml.bind-api-4.0.4.jar",
-                    "sha1": "d6d2327f3817d9a33a3b6b8f2e15a96bc2e7afdc",
-                    "size": 131188
+                    "path": "jakarta/xml/bind/jakarta.xml.bind-api/4.0.5/jakarta.xml.bind-api-4.0.5.jar",
+                    "url": "https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.5/jakarta.xml.bind-api-4.0.5.jar",
+                    "sha1": "161811f36cad3c65991502e80317f2f6703361df",
+                    "size": 131219
                 }
             }
         },
@@ -745,24 +896,24 @@
             }
         },
         {
-            "name": "org.glassfish.jaxb:jaxb-runtime:4.0.8",
+            "name": "org.glassfish.jaxb:jaxb-runtime:4.0.9",
             "downloads": {
                 "artifact": {
-                    "path": "org/glassfish/jaxb/jaxb-runtime/4.0.8/jaxb-runtime-4.0.8.jar",
-                    "url": "https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/4.0.8/jaxb-runtime-4.0.8.jar",
-                    "sha1": "0eab27c9e6a139056470f2f3555e71543c9d567d",
-                    "size": 922318
+                    "path": "org/glassfish/jaxb/jaxb-runtime/4.0.9/jaxb-runtime-4.0.9.jar",
+                    "url": "https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/4.0.9/jaxb-runtime-4.0.9.jar",
+                    "sha1": "500c199572538675d2819c938fbafe34935d8d6b",
+                    "size": 922445
                 }
             }
         },
         {
-            "name": "org.glassfish.jaxb:jaxb-core:4.0.8",
+            "name": "org.glassfish.jaxb:jaxb-core:4.0.9",
             "downloads": {
                 "artifact": {
-                    "path": "org/glassfish/jaxb/jaxb-core/4.0.8/jaxb-core-4.0.8.jar",
-                    "url": "https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-core/4.0.8/jaxb-core-4.0.8.jar",
-                    "sha1": "3e2da1254d6aee7337b5901f878a16b17c903d4a",
-                    "size": 139562
+                    "path": "org/glassfish/jaxb/jaxb-core/4.0.9/jaxb-core-4.0.9.jar",
+                    "url": "https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-core/4.0.9/jaxb-core-4.0.9.jar",
+                    "sha1": "3f32ec949d109d666fa30994223d1c25a47b105f",
+                    "size": 139417
                 }
             }
         },
@@ -833,24 +984,24 @@
             }
         },
         {
-            "name": "com.cleanroommc:sponge-mixin:0.20.12+mixin.0.8.7",
+            "name": "com.cleanroommc:cleanmix:0.7.2",
             "downloads": {
                 "artifact": {
-                    "path": "com/cleanroommc/sponge-mixin/0.20.12+mixin.0.8.7/sponge-mixin-0.20.12+mixin.0.8.7.jar",
-                    "url": "https://maven.arcseekers.com/releases/com/cleanroommc/sponge-mixin/0.20.12+mixin.0.8.7/sponge-mixin-0.20.12+mixin.0.8.7.jar",
-                    "sha1": "05a3dd8dbe6dc8881ad28f3e16d0ff71f2de1e48",
-                    "size": 1012630
+                    "path": "com/cleanroommc/cleanmix/0.7.2/cleanmix-0.7.2.jar",
+                    "url": "https://repo.cleanroommc.com/releases/com/cleanroommc/cleanmix/0.7.2/cleanmix-0.7.2.jar",
+                    "sha1": "b8793a2f5b29799853dc4bf070707f91112ea2ed",
+                    "size": 1095887
                 }
             }
         },
         {
-            "name": "io.github.llamalad7:mixinextras-common:0.5.4",
+            "name": "com.cleanroommc:mixinextras-common:0.5.5",
             "downloads": {
                 "artifact": {
-                    "path": "io/github/llamalad7/mixinextras-common/0.5.4/mixinextras-common-0.5.4.jar",
-                    "url": "https://repo.maven.apache.org/maven2/io/github/llamalad7/mixinextras-common/0.5.4/mixinextras-common-0.5.4.jar",
-                    "sha1": "0626e00b72e3879a07e6653d8015cd3466ff5b75",
-                    "size": 725799
+                    "path": "com/cleanroommc/mixinextras-common/0.5.5/mixinextras-common-0.5.5.jar",
+                    "url": "https://repo.cleanroommc.com/releases/com/cleanroommc/mixinextras-common/0.5.5/mixinextras-common-0.5.5.jar",
+                    "sha1": "05a822b77f347f39bd821c2c4759a22686800e05",
+                    "size": 725959
                 }
             }
         }
@@ -865,5 +1016,5 @@
         }
     ],
     "uid": "net.minecraftforge",
-    "version": "0.5.14-alpha"
+    "version": "0.6.11-alpha"
 }

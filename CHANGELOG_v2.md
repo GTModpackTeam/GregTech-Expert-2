@@ -11,8 +11,8 @@
 
 ## Delete mods
 - p455w0rd's AE2 Wireless Terminals Patch
-- MTLib
 - ModTweaker
+- MTLib
 
 ## Update mods
 - AE2FluidCraft-Rework-Unofficial (2.7.9 -> 2.7.10)
@@ -22,19 +22,26 @@
 - Chibi (5.31 -> 5.33)
 - Fixeroo (2.3.6 -> 2.3.7)
 - Flare (0.7.0 -> 0.8.0)
-- Forgelin-Continuous (2.3.10.1 -> 2.3.20.0)
-- GTConsolidate (1.1.3.5 -> 1.1.4.2)
+- Forgelin-Continuous (2.3.10.1 -> 2.4.0.0)
+- GTConsolidate (1.1.3.5 -> 1.1.6)
 - GTExpertCore (2.7.4 -> 2.7.8)
-- GTMoreTools (1.1.2 -> 1.4.0)
-- HadEnoughItems (4.27.1 -> 4.30.3)
+- GregTech Food Option (1.12.8 -> 1.12.10)
+- GTMoreTools (1.1.2 -> 1.5.0)
+- HadEnoughItems (4.27.1 -> 4.34.3)
 - Hot or Not GTCEu (1.3.0 -> 1.4.0)
 - Inventory Bogo Sorter (1.6.2 -> 1.6.4)
 - Implosion No Bomb (1.1.0 -> 1.1.1)
+- JEI Utilities (0.2.13 -> 0.2.15)
+- JourneyMap (5.7.1p3 -> 6.0.4)
 - Lazy AE2 Patch (1.1.0 -> 1.2.2)
 - LemonSkin (3.1.0 -> 4.0.0)
 - ModularUI (3.1.4 -> 3.1.6)
-- RandomComplement (1.8.8 -> 1.9.3-fix)
+- RandomComplement (1.8.8 -> 1.9.5)
 - Roughly Enough IDs (2.2.4 -> 2.3.1)
+- StellarCore (1.5.22 -> 1.6.0)
+- SussyPatches (1.9.2 -> 1.11.2)
+- The One Probe Community Edition (1.3.7-fix1 -> 1.3.9-fix1)
+- TopAllDependents (1.4 -> 1.5)
 - Universal Tweaks (1.19.1 -> 1.20.1)
 - VintageDisplay (1.6 -> 1.7)
 

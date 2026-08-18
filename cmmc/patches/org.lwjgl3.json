@@ -71,7 +71,7 @@
             "name": "org.lwjgl:lwjgl:3.4.1-unsafe",
             "downloads": {
                 "artifact": {
-                    "path": "org/lwjgl/lwjgl/3.4.1-unsafe/lwjgl-3.4.1-unsafe.jar",
+                    "path": "org/lwjgl/lwjgl/3.4.1/lwjgl-3.4.1-unsafe.jar",
                     "url": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl/3.4.1/lwjgl-3.4.1-unsafe.jar",
                     "sha1": "129e06a04f93992cb2a45172435b21fc4b60dd7d",
                     "size": 1062128
